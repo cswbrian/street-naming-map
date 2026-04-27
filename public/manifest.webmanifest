@@ -1,0 +1,21 @@
+{
+  "name": "Hong Kong Streets Timeline",
+  "short_name": "HK Streets",
+  "description": "Visualize Hong Kong road naming history over time.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05070d",
+  "theme_color": "#05070d",
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
