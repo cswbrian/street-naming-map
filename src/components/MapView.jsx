@@ -9,7 +9,7 @@ const LABEL_LAYER_ID = 'hk-roads-labels'
 const HIGHLIGHT_LAYER_ID = 'hk-road-highlight'
 const FOCUS_SOURCE_ID = 'focus-area-source'
 const FOCUS_LAYER_ID = 'focus-area-layer'
-const DATA_URL = '/data/hk-streets.geojson'
+const DATA_URL = `${import.meta.env.BASE_URL}data/hk-streets.geojson`
 const DEFAULT_VIEW = { center: [114.1694, 22.3193], zoom: 10.9 }
 const HK_BOUNDS = [
   [113.82, 22.15],

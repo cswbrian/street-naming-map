@@ -109,7 +109,7 @@ function App() {
     let isMounted = true
     const loadRoadIndex = async () => {
       try {
-        const response = await fetch('/data/hk-streets.geojson')
+        const response = await fetch(`${import.meta.env.BASE_URL}data/hk-streets.geojson`)
         if (!response.ok) throw new Error('Unable to load roads data')
         const geojson = await response.json()
         const features = Array.isArray(geojson?.features) ? geojson.features : []
