@@ -6,6 +6,7 @@ import 'maplibre-gl/dist/maplibre-gl.css'
 const SOURCE_ID = 'hk-roads-source'
 const LAYER_ID = 'hk-roads-layer'
 const LABEL_LAYER_ID = 'hk-roads-labels'
+const HIGHLIGHT_LAYER_ID = 'hk-road-highlight'
 const FOCUS_SOURCE_ID = 'focus-area-source'
 const FOCUS_LAYER_ID = 'focus-area-layer'
 const DATA_URL = '/data/hk-streets.geojson'
@@ -74,12 +75,24 @@ const bboxToPolygon = (bbox) => {
   }
 }
 
-function MapView({ selectedYear, minYear, activeGroup, onMapReady, viewportTarget }) {
+function MapView({
+  selectedYear,
+  minYear,
+  activeGroup,
+  onMapReady,
+  viewportTarget,
+  selectedRoadKey,
+  onRoadPick,
+}) {
   const mapContainerRef = useRef(null)
   const mapRef = useRef(null)
 
-  const applyMapState = (map, year, group) => {
-    if (!map.getLayer(LAYER_ID) || !map.getLayer(LABEL_LAYER_ID)) {
+  const applyMapState = (map, year, group, roadKey) => {
+    if (
+      !map.getLayer(LAYER_ID) ||
+      !map.getLayer(LABEL_LAYER_ID) ||
+      !map.getLayer(HIGHLIGHT_LAYER_ID)
+    ) {
       return
     }
 
@@ -96,6 +109,16 @@ function MapView({ selectedYear, minYear, activeGroup, onMapReady, viewportTarge
 
     map.setFilter(LAYER_ID, combinedFilter)
     map.setFilter(LABEL_LAYER_ID, combinedFilter)
+
+    const [enName = '', zhName = ''] = roadKey ? roadKey.split('|') : []
+    const roadFilter = roadKey
+      ? [
+          'all',
+          ['==', ['coalesce', ['get', 'ENGLISHSTREETNAME'], ''], enName],
+          ['==', ['coalesce', ['get', 'CHINESESTREETNAME'], ''], zhName],
+        ]
+      : ['==', ['get', 'OBJECTID'], -1]
+    map.setFilter(HIGHLIGHT_LAYER_ID, roadFilter)
 
     map.setPaintProperty(LAYER_ID, 'line-opacity', [
       'interpolate',
@@ -218,6 +241,23 @@ function MapView({ selectedYear, minYear, activeGroup, onMapReady, viewportTarge
         },
       })
 
+      map.addLayer({
+        id: HIGHLIGHT_LAYER_ID,
+        type: 'line',
+        source: SOURCE_ID,
+        layout: {
+          'line-cap': 'round',
+          'line-join': 'round',
+        },
+        paint: {
+          'line-color': '#fff7a8',
+          'line-width': ['interpolate', ['linear'], ['zoom'], 9, 2, 14, 6],
+          'line-opacity': 0.98,
+          'line-blur': 0.1,
+        },
+        filter: ['==', ['get', 'OBJECTID'], -1],
+      })
+
       map.addSource(FOCUS_SOURCE_ID, {
         type: 'geojson',
         data: { type: 'FeatureCollection', features: [] },
@@ -235,7 +275,29 @@ function MapView({ selectedYear, minYear, activeGroup, onMapReady, viewportTarge
         },
       })
 
-      applyMapState(map, selectedYear, activeGroup)
+      map.on('mouseenter', LAYER_ID, () => {
+        map.getCanvas().style.cursor = 'pointer'
+      })
+      map.on('mouseleave', LAYER_ID, () => {
+        map.getCanvas().style.cursor = ''
+      })
+      map.on('click', LAYER_ID, (event) => {
+        const feature = event.features?.[0]
+        if (!feature) return
+        const enName = String(feature.properties?.ENGLISHSTREETNAME ?? '').trim()
+        const zhName = String(feature.properties?.CHINESESTREETNAME ?? '').trim()
+        const key = `${enName}|${zhName}`
+        const year = Number(feature.properties?.naming_year)
+        onRoadPick?.({
+          key,
+          center: [event.lngLat.lng, event.lngLat.lat],
+          year: Number.isFinite(year) ? year : null,
+          enName,
+          zhName,
+        })
+      })
+
+      applyMapState(map, selectedYear, activeGroup, selectedRoadKey)
       onMapReady?.()
     })
 
@@ -255,8 +317,8 @@ function MapView({ selectedYear, minYear, activeGroup, onMapReady, viewportTarge
       return
     }
 
-    applyMapState(map, selectedYear, activeGroup)
-  }, [selectedYear, minYear, activeGroup])
+    applyMapState(map, selectedYear, activeGroup, selectedRoadKey)
+  }, [selectedYear, minYear, activeGroup, selectedRoadKey])
 
   useEffect(() => {
     const map = mapRef.current

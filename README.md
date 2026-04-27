@@ -40,3 +40,23 @@ Build:
 ```bash
 npm run build
 ```
+
+## Deploy to GitHub Pages
+
+This project is configured for GitHub Pages on:
+
+- Repository: `cswbrian/street-naming-map`
+- Branch: `main`
+- Vite base path: `/street-naming-map/`
+
+Deployment is automated with GitHub Actions in `.github/workflows/deploy-pages.yml`.
+
+One-time setup in GitHub:
+
+1. Open repository settings: [https://github.com/cswbrian/street-naming-map/settings/pages](https://github.com/cswbrian/street-naming-map/settings/pages)
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**
+3. Push to `main` and wait for the workflow to finish
+
+Your site will be served at:
+
+- [https://cswbrian.github.io/street-naming-map/](https://cswbrian.github.io/street-naming-map/)

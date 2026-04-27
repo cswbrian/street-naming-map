@@ -43,6 +43,8 @@ function App() {
   const [roadIndex, setRoadIndex] = useState([])
   const [isRoadIndexLoading, setIsRoadIndexLoading] = useState(true)
   const [activeRoadId, setActiveRoadId] = useState(null)
+  const [selectedRoadKey, setSelectedRoadKey] = useState(null)
+  const [clickedRoadCenter, setClickedRoadCenter] = useState(null)
 
   const yearRangeLabel = useMemo(
     () => `${minYear} - ${currentYear}`,
@@ -81,6 +83,9 @@ function App() {
       .slice(0, 10)
   }, [roadIndex, roadSearch])
   const viewportTarget = useMemo(() => {
+    if (clickedRoadCenter) {
+      return { center: clickedRoadCenter, zoom: 16 }
+    }
     if (activeRoad) {
       return { center: activeRoad.center, zoom: 16 }
     }
@@ -98,7 +103,7 @@ function App() {
       }
     }
     return null
-  }, [activeRoad, activeSubDistrict, activeRegionId, subDistrictCenters])
+  }, [activeRoad, activeSubDistrict, activeRegionId, subDistrictCenters, clickedRoadCenter])
 
   useEffect(() => {
     let isMounted = true
@@ -201,6 +206,17 @@ function App() {
         activeGroup={activeGroup}
         onMapReady={() => setIsMapLoading(false)}
         viewportTarget={viewportTarget}
+        selectedRoadKey={selectedRoadKey}
+        onRoadPick={({ key, center, year, enName, zhName }) => {
+          setSelectedRoadKey(key)
+          setClickedRoadCenter(center)
+          setRoadSearch(`${enName ?? ''} ${zhName ?? ''}`.trim())
+          const matched = roadIndex.find((road) => road.id === key)
+          setActiveRoadId(matched ? matched.id : null)
+          if (year && Number.isFinite(year)) {
+            setSelectedYear((prev) => Math.max(prev, year))
+          }
+        }}
       />
       <section className="road-search-panel">
         <p className="legend-title">Road Search</p>
@@ -213,6 +229,8 @@ function App() {
           onChange={(event) => {
             setRoadSearch(event.target.value)
             setActiveRoadId(null)
+            setSelectedRoadKey(null)
+            setClickedRoadCenter(null)
           }}
         />
         {roadSearch.trim() && roadResults.length ? (
@@ -224,7 +242,12 @@ function App() {
                 key={road.id}
                 onClick={() => {
                   setActiveRoadId(road.id)
+                  setSelectedRoadKey(road.id)
+                  setClickedRoadCenter(null)
                   setRoadSearch(`${road.enName} ${road.zhName}`.trim())
+                  if (road.year && Number.isFinite(road.year)) {
+                    setSelectedYear((prev) => Math.max(prev, road.year))
+                  }
                 }}
               >
                 <span className="road-search-main">
@@ -261,6 +284,8 @@ function App() {
               onClick={() => {
                 setActiveRegionId(region.id)
                 setActiveSubDistrictId('')
+                setSelectedRoadKey(null)
+                setClickedRoadCenter(null)
               }}
             >
               {region.nameEn} ({region.nameZh})
@@ -274,6 +299,8 @@ function App() {
           onChange={(event) => {
             const value = event.target.value
             setActiveSubDistrictId(value)
+            setSelectedRoadKey(null)
+            setClickedRoadCenter(null)
             if (value) {
               geocodeSubDistrict(value)
             }
@@ -311,6 +338,8 @@ function App() {
             onClick={() => {
               setActiveRegionId(null)
               setActiveSubDistrictId('')
+              setSelectedRoadKey(null)
+              setClickedRoadCenter(null)
             }}
             disabled={!activeRegionId}
           >
