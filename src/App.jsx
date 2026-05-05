@@ -5,6 +5,18 @@ import { REGION_OPTIONS, DISTRICT_OPTIONS } from './config/regions.mjs'
 import subdistrictCentersConfig from './config/subdistrictCenters.json'
 import './styles/app.css'
 
+const parseBilingualLabel = (value) => {
+  const text = String(value ?? '').trim()
+  const match = text.match(/^(.+?)\s*\((.+)\)$/)
+  if (!match) {
+    return { en: text, zh: '' }
+  }
+  return {
+    en: match[1].trim(),
+    zh: match[2].trim(),
+  }
+}
+
 function App() {
   const currentYear = new Date().getFullYear()
   const minYear = 1842
@@ -13,6 +25,7 @@ function App() {
   const [isMapLoading, setIsMapLoading] = useState(true)
   const [activeRegionId, setActiveRegionId] = useState(null)
   const [activeSubDistrictId, setActiveSubDistrictId] = useState('')
+  const [subDistrictSearch, setSubDistrictSearch] = useState('')
   const [subDistrictCenters, setSubDistrictCenters] = useState(subdistrictCentersConfig ?? {})
   const [roadSearch, setRoadSearch] = useState('')
   const [roadIndex, setRoadIndex] = useState([])
@@ -37,23 +50,40 @@ function App() {
     { id: 'g4', range: '1970-1989', color: '#35F2C3', start: 1970, end: 1989 },
     { id: 'g5', range: '1990-2009', color: '#C6FF4D', start: 1990, end: 2009 },
     { id: 'g6', range: '2010-Now', color: '#FF5FD2', start: 2010, end: currentYear },
-    { id: 'g-unknown', range: 'Unknown year', color: '#B0B8C9', isUnknown: true },
+    { id: 'g-unknown', range: '未知 Unknown', color: '#B0B8C9', isUnknown: true },
   ]
 
   const activeGroup = colorGroups.find((group) => group.id === activeGroupId) ?? null
   const filteredDistricts = useMemo(() => {
+    if (!activeRegionId) return DISTRICT_OPTIONS
     return DISTRICT_OPTIONS.filter((district) => district.regionId === activeRegionId)
   }, [activeRegionId])
   const subDistrictOptions = useMemo(() => {
     return filteredDistricts.flatMap((district) =>
-      district.subDistricts.map((subDistrict, index) => ({
-        id: `${district.id}-${index}`,
-        label: subDistrict,
-        districtName: `${district.nameEn} (${district.nameZh})`,
-        districtBbox: district.bbox,
-      })),
+      district.subDistricts.map((subDistrict, index) => {
+        const parsed = parseBilingualLabel(subDistrict)
+        const displayLabel = `${parsed.zh} ${parsed.en}`.trim() || subDistrict
+        return {
+          id: `${district.id}-${index}`,
+          label: subDistrict,
+          displayLabel,
+          queryLabel: parsed.en || subDistrict,
+          searchText: `${subDistrict} ${displayLabel}`.toLowerCase(),
+          districtNameEn: district.nameEn,
+          districtBbox: district.bbox,
+        }
+      }),
     )
   }, [filteredDistricts])
+  const filteredSubDistrictOptions = useMemo(() => {
+    const keyword = subDistrictSearch.trim().toLowerCase()
+    if (!keyword) return subDistrictOptions
+    const selectedOption = subDistrictOptions.find((item) => item.id === activeSubDistrictId)
+    if (selectedOption && keyword === selectedOption.displayLabel.toLowerCase()) {
+      return subDistrictOptions
+    }
+    return subDistrictOptions.filter((item) => item.searchText.includes(keyword))
+  }, [subDistrictOptions, subDistrictSearch, activeSubDistrictId])
   const activeSubDistrict = subDistrictOptions.find((item) => item.id === activeSubDistrictId) ?? null
   const activeRoad = roadIndex.find((item) => item.id === activeRoadId) ?? null
   const roadResults = useMemo(() => {
@@ -104,7 +134,7 @@ function App() {
 
           const key = `${en}|${zh}`
           const namingYear = Number(props.naming_year)
-          const year = Number.isFinite(namingYear) ? namingYear : null
+          const year = Number.isFinite(namingYear) && namingYear > 0 ? namingYear : null
           const coords = feature?.geometry?.coordinates
           const firstCoord =
             Array.isArray(coords) && Array.isArray(coords[0]) && coords[0].length >= 2
@@ -157,7 +187,7 @@ function App() {
       return
     }
 
-    const query = `${target.label.split(' (')[0]}, ${target.districtName.split(' (')[0]}, Hong Kong`
+    const query = `${target.queryLabel}, ${target.districtNameEn}, Hong Kong`
     const url = `https://nominatim.openstreetmap.org/search?format=json&limit=1&q=${encodeURIComponent(query)}`
 
     try {
@@ -210,7 +240,7 @@ function App() {
         onRoadPick={({ key, center, year, enName, zhName }) => {
           setSelectedRoadKey(key)
           setClickedRoadCenter(center)
-          setRoadSearch(`${enName ?? ''} ${zhName ?? ''}`.trim())
+          setRoadSearch(`${zhName ?? ''} ${enName ?? ''}`.trim())
           const matched = roadIndex.find((road) => road.id === key)
           setActiveRoadId(matched ? matched.id : null)
           if (year && Number.isFinite(year)) {
@@ -219,12 +249,11 @@ function App() {
         }}
       />
       <section className="road-search-panel">
-        <p className="legend-title">Road Search</p>
         <input
           className="road-search-input"
           type="text"
           value={roadSearch}
-          placeholder={isRoadIndexLoading ? 'Indexing roads...' : 'Search road / 搜尋街道'}
+          placeholder={isRoadIndexLoading ? 'Indexing roads...' : '搜尋街道 Search road'}
           disabled={isRoadIndexLoading}
           onChange={(event) => {
             setRoadSearch(event.target.value)
@@ -244,16 +273,16 @@ function App() {
                   setActiveRoadId(road.id)
                   setSelectedRoadKey(road.id)
                   setClickedRoadCenter(null)
-                  setRoadSearch(`${road.enName} ${road.zhName}`.trim())
+                  setRoadSearch(`${road.zhName} ${road.enName}`.trim())
                   if (road.year && Number.isFinite(road.year)) {
                     setSelectedYear((prev) => Math.max(prev, road.year))
                   }
                 }}
               >
                 <span className="road-search-main">
-                  {road.enName || '-'} / {road.zhName || '-'}
+                  {road.zhName || '-'} {road.enName || '-'}
                 </span>
-                <span className="road-search-year">({road.year ?? 'Unknown year'})</span>
+                <span className="road-search-year">({road.year ?? 'Unknown'})</span>
               </button>
             ))}
           </div>
@@ -269,116 +298,147 @@ function App() {
       ) : null}
       <div className="hud-bottom-stack">
         <section className={`legend-panel ${collapsedPanels.evolution ? 'is-collapsed' : ''}`}>
-          <div className="panel-header">
-            <p className="legend-title">Legend</p>
-            <button type="button" className="panel-toggle" onClick={() => togglePanel('evolution')}>
+          <div
+            className="panel-header"
+            role="button"
+            tabIndex={0}
+            onClick={() => togglePanel('evolution')}
+            onKeyDown={(event) => {
+              if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault()
+                togglePanel('evolution')
+              }
+            }}
+          >
+            <p className="legend-title">年代 Period</p>
+            <button
+              type="button"
+              className="panel-toggle"
+              onClick={(event) => {
+                event.stopPropagation()
+                togglePanel('evolution')
+              }}
+            >
               {collapsedPanels.evolution ? '+' : '−'}
             </button>
           </div>
-          {!collapsedPanels.evolution ? (
-            <>
-              <div className="legend-groups">
-                {colorGroups.map((group) => (
-                  <button
-                    className={`legend-item ${activeGroupId === group.id ? 'is-active' : ''}`}
-                    key={group.id}
-                    type="button"
-                    onClick={() =>
-                      setActiveGroupId((prev) => {
-                        if (prev === group.id) return null
-                        return group.id
-                      })
-                    }
-                  >
-                    <span className="legend-swatch" style={{ backgroundColor: group.color }} />
-                    <span>{group.range}</span>
-                  </button>
-                ))}
-              </div>
-            </>
-          ) : null}
+          <div className={`panel-content ${collapsedPanels.evolution ? 'is-collapsed' : ''}`}>
+            <div className="legend-groups">
+              {colorGroups.map((group) => (
+                <button
+                  className={`legend-item ${activeGroupId === group.id ? 'is-active' : ''}`}
+                  key={group.id}
+                  type="button"
+                  onClick={() =>
+                    setActiveGroupId((prev) => {
+                      if (prev === group.id) return null
+                      return group.id
+                    })
+                  }
+                >
+                  <span className="legend-swatch" style={{ backgroundColor: group.color }} />
+                  <span>{group.range}</span>
+                </button>
+              ))}
+            </div>
+          </div>
         </section>
 
         <section className={`navigator-panel ${collapsedPanels.navigator ? 'is-collapsed' : ''}`}>
-          <div className="panel-header">
-            <p className="legend-title">Area Navigator</p>
-            <button type="button" className="panel-toggle" onClick={() => togglePanel('navigator')}>
+          <div
+            className="panel-header"
+            role="button"
+            tabIndex={0}
+            onClick={() => togglePanel('navigator')}
+            onKeyDown={(event) => {
+              if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault()
+                togglePanel('navigator')
+              }
+            }}
+          >
+            <p className="legend-title">選擇地區 Select District</p>
+            <button
+              type="button"
+              className="panel-toggle"
+              onClick={(event) => {
+                event.stopPropagation()
+                togglePanel('navigator')
+              }}
+            >
               {collapsedPanels.navigator ? '+' : '−'}
             </button>
           </div>
-          {!collapsedPanels.navigator ? (
-            <>
-              <div className="region-buttons">
-                {REGION_OPTIONS.map((region) => (
-                  <button
-                    key={region.id}
-                    type="button"
-                    className={`region-button ${activeRegionId === region.id ? 'is-active' : ''}`}
-                    onClick={() => {
-                      setActiveRegionId(region.id)
-                      setActiveSubDistrictId('')
-                      setSelectedRoadKey(null)
-                      setClickedRoadCenter(null)
-                    }}
-                  >
-                    {region.nameEn} ({region.nameZh})
-                  </button>
-                ))}
-              </div>
-              <select
-                className="district-select"
-                value={activeSubDistrictId}
-                disabled={!activeRegionId}
-                onChange={(event) => {
-                  const value = event.target.value
-                  setActiveSubDistrictId(value)
-                  setSelectedRoadKey(null)
-                  setClickedRoadCenter(null)
-                  if (value) {
-                    geocodeSubDistrict(value)
-                  }
-                }}
-              >
-                <option value="">{activeRegionId ? 'Select sub-district' : 'Select region first'}</option>
-                {subDistrictOptions.map((subDistrict) => (
-                  <option key={subDistrict.id} value={subDistrict.id}>
-                    {subDistrict.label} - {subDistrict.districtName}
-                  </option>
-                ))}
-              </select>
-              {activeSubDistrict ? (
-                <div className="subdistrict-panel">
-                  <p className="subdistrict-title">Selected sub-district</p>
-                  <p className="subdistrict-list">
-                    {activeSubDistrict.label} - {activeSubDistrict.districtName}
-                  </p>
-                </div>
-              ) : null}
-              <div className="navigator-actions">
+          <div className={`panel-content ${collapsedPanels.navigator ? 'is-collapsed' : ''}`}>
+            <div className="region-buttons">
+              {REGION_OPTIONS.map((region) => (
                 <button
+                  key={region.id}
                   type="button"
-                  className="navigator-link"
-                  onClick={() => setActiveSubDistrictId('')}
-                  disabled={!activeSubDistrictId}
-                >
-                  Clear sub-district
-                </button>
-                <button
-                  type="button"
-                  className="navigator-link"
+                  className={`region-button ${activeRegionId === region.id ? 'is-active' : ''}`}
                   onClick={() => {
-                    setActiveRegionId(null)
+                    setActiveRegionId((prev) => (prev === region.id ? null : region.id))
                     setActiveSubDistrictId('')
+                    setSubDistrictSearch('')
                     setSelectedRoadKey(null)
                     setClickedRoadCenter(null)
                   }}
-                  disabled={!activeRegionId}
                 >
-                  Reset HK view
+                  {region.nameZh} {region.nameEn}
                 </button>
-              </div>
-            </>
-          ) : null}
+              ))}
+            </div>
+            <input
+              className="district-search-input"
+              type="text"
+              value={subDistrictSearch}
+              placeholder="搜尋地區 Search district"
+              onChange={(event) => {
+                setSubDistrictSearch(event.target.value)
+                setActiveSubDistrictId('')
+                setSelectedRoadKey(null)
+                setClickedRoadCenter(null)
+              }}
+            />
+            <div className="subdistrict-search-results">
+              {filteredSubDistrictOptions.length ? (
+                filteredSubDistrictOptions.map((subDistrict) => (
+                  <button
+                    key={subDistrict.id}
+                    type="button"
+                    className={`subdistrict-search-item ${activeSubDistrictId === subDistrict.id ? 'is-active' : ''}`}
+                    onClick={() => {
+                      setActiveSubDistrictId(subDistrict.id)
+                      setSubDistrictSearch(subDistrict.displayLabel)
+                      setSelectedRoadKey(null)
+                      setClickedRoadCenter(null)
+                      geocodeSubDistrict(subDistrict.id)
+                    }}
+                  >
+                    {subDistrict.displayLabel}
+                  </button>
+                ))
+              ) : (
+                <p className="subdistrict-empty">No matching sub-district</p>
+              )}
+            </div>
+            <div className="navigator-actions">
+              <button
+                type="button"
+                className="navigator-link"
+                onClick={() => {
+                  setActiveRegionId(null)
+                  setActiveSubDistrictId('')
+                  setSubDistrictSearch('')
+                  setSelectedRoadKey(null)
+                  setClickedRoadCenter(null)
+                }}
+                disabled={!activeRegionId && !activeSubDistrictId}
+              >
+                Reset HK view
+              </button>
+            </div>
+          </div>
         </section>
 
         <TimelineSlider
