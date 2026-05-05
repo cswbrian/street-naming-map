@@ -37,6 +37,7 @@ function App() {
     { id: 'g4', range: '1970-1989', color: '#35F2C3', start: 1970, end: 1989 },
     { id: 'g5', range: '1990-2009', color: '#C6FF4D', start: 1990, end: 2009 },
     { id: 'g6', range: '2010-Now', color: '#FF5FD2', start: 2010, end: currentYear },
+    { id: 'g-unknown', range: 'Unknown year', color: '#B0B8C9', isUnknown: true },
   ]
 
   const activeGroup = colorGroups.find((group) => group.id === activeGroupId) ?? null

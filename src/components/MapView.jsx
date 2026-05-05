@@ -11,6 +11,7 @@ const FOCUS_SOURCE_ID = 'focus-area-source'
 const FOCUS_LAYER_ID = 'focus-area-layer'
 const DATA_URL = `${import.meta.env.BASE_URL}data/hk-streets.geojson`
 const DEFAULT_VIEW = { center: [114.1694, 22.3193], zoom: 10.9 }
+const UNKNOWN_COLOR = '#B0B8C9'
 const HK_BOUNDS = [
   [113.82, 22.15],
   [114.45, 22.58],
@@ -96,13 +97,20 @@ function MapView({
       return
     }
 
-    const timeFilter = ['<=', ['get', 'naming_year'], year]
+    const numericYear = ['coalesce', ['to-number', ['get', 'naming_year']], -1]
+    const unknownYearFilter = ['==', numericYear, -1]
+    const knownYearFilter = ['all', ['!=', numericYear, -1], ['<=', numericYear, year]]
+    const timeFilter = ['any', knownYearFilter, unknownYearFilter]
+
     const groupFilter = group
-      ? [
-          'all',
-          ['>=', ['coalesce', ['to-number', ['get', 'naming_year']], minYear], group.start],
-          ['<=', ['coalesce', ['to-number', ['get', 'naming_year']], minYear], group.end],
-        ]
+      ? group.isUnknown
+        ? unknownYearFilter
+        : [
+            'all',
+            ['!=', numericYear, -1],
+            ['>=', numericYear, group.start],
+            ['<=', numericYear, group.end],
+          ]
       : null
 
     const combinedFilter = groupFilter ? ['all', timeFilter, groupFilter] : timeFilter
@@ -121,27 +129,37 @@ function MapView({
     map.setFilter(HIGHLIGHT_LAYER_ID, roadFilter)
 
     map.setPaintProperty(LAYER_ID, 'line-opacity', [
-      'interpolate',
-      ['linear'],
-      ['coalesce', ['to-number', ['get', 'naming_year']], minYear],
-      minYear,
-      0.1,
-      year - 1,
-      0.35,
-      year,
-      0.95,
+      'case',
+      ['==', numericYear, -1],
+      0.9,
+      [
+        'interpolate',
+        ['linear'],
+        numericYear,
+        minYear,
+        0.1,
+        year - 1,
+        0.35,
+        year,
+        0.95,
+      ],
     ])
 
     map.setPaintProperty(LABEL_LAYER_ID, 'text-opacity', [
-      'interpolate',
-      ['linear'],
-      ['coalesce', ['to-number', ['get', 'naming_year']], minYear],
-      minYear,
-      0.05,
-      year - 1,
-      0.4,
-      year,
-      0.9,
+      'case',
+      ['==', numericYear, -1],
+      0.75,
+      [
+        'interpolate',
+        ['linear'],
+        numericYear,
+        minYear,
+        0.05,
+        year - 1,
+        0.4,
+        year,
+        0.9,
+      ],
     ])
   }
 
@@ -180,19 +198,24 @@ function MapView({
         },
         paint: {
           'line-color': [
-            'step',
-            ['coalesce', ['to-number', ['get', 'naming_year']], minYear],
-            '#5B6CFF',
-            1899,
-            '#3FA9FF',
-            1946,
-            '#2ED3FF',
-            1970,
-            '#35F2C3',
-            1990,
-            '#C6FF4D',
-            2010,
-            '#FF5FD2',
+            'case',
+            ['==', ['coalesce', ['to-number', ['get', 'naming_year']], -1], -1],
+            UNKNOWN_COLOR,
+            [
+              'step',
+              ['coalesce', ['to-number', ['get', 'naming_year']], -1],
+              '#5B6CFF',
+              1899,
+              '#3FA9FF',
+              1946,
+              '#2ED3FF',
+              1970,
+              '#35F2C3',
+              1990,
+              '#C6FF4D',
+              2010,
+              '#FF5FD2',
+            ],
           ],
           'line-width': [
             'interpolate',
@@ -259,8 +282,10 @@ function MapView({
             ' (',
             { 'font-scale': 0.78 },
             [
-              'to-string',
-              ['coalesce', ['to-number', ['get', 'naming_year']], minYear],
+              'case',
+              ['==', ['coalesce', ['to-number', ['get', 'naming_year']], -1], -1],
+              'Unknown',
+              ['to-string', ['get', 'naming_year']],
             ],
             { 'font-scale': 0.78 },
             ')',

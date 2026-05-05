@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-05-05T17:10:44.666Z",
+  "counts": {
+    "en_events": 318,
+    "tc_events": 318,
+    "reconciled_events": 318,
+    "street_aggregates": 298,
+    "streets_missing_declaration": 125
+  },
+  "reconciliation": {
+    "unmatched_en_groups": [],
+    "unmatched_tc_groups": [],
+    "count_mismatch_groups": []
+  },
+  "join_stats": {
+    "matched_exact_features": 0,
+    "matched_fallback_features": 2081,
+    "unmatched_features": 37521,
+    "total_features": 39602
+  }
+}
