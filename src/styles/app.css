@@ -126,12 +126,23 @@
   flex-shrink: 0;
 }
 
-.timeline-shell {
+.hud-bottom-stack {
   position: absolute;
-  left: 50%;
+  left: 1rem;
   bottom: 1.2rem;
-  transform: translateX(-50%);
-  width: min(900px, calc(100vw - 2rem));
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: min(310px, calc(100vw - 2rem));
+  z-index: 6;
+}
+
+.timeline-shell {
+  position: relative;
+  left: auto;
+  bottom: auto;
+  transform: none;
+  width: 100%;
   padding: 0.95rem 1rem;
   background: rgba(8, 13, 24, 0.78);
   border: 1px solid rgba(88, 212, 255, 0.44);
@@ -141,11 +152,15 @@
   z-index: 5;
 }
 
+.timeline-shell.is-collapsed {
+  width: 100%;
+}
+
 .navigator-panel {
-  position: absolute;
-  top: 15.9rem;
-  left: 1rem;
-  width: min(310px, calc(100vw - 2rem));
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 100%;
   padding: 0.85rem 0.95rem;
   border-radius: 12px;
   background: rgba(8, 13, 24, 0.72);
@@ -155,6 +170,41 @@
   z-index: 5;
   max-height: calc(100vh - 10.4rem);
   overflow: auto;
+}
+
+.legend-panel.is-collapsed,
+.navigator-panel.is-collapsed {
+  overflow: hidden;
+}
+
+.panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.panel-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.panel-toggle {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(118, 226, 255, 0.32);
+  background: rgba(13, 24, 39, 0.62);
+  color: #d8ecff;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.panel-toggle:hover {
+  border-color: rgba(141, 244, 255, 0.72);
+  background: rgba(19, 43, 60, 0.86);
 }
 
 .region-buttons {
@@ -236,9 +286,6 @@
 }
 
 .timeline-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-bottom: 0.5rem;
   font-size: 0.9rem;
   text-transform: uppercase;
@@ -263,17 +310,18 @@
 }
 
 .legend-panel {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  width: min(310px, calc(100vw - 2rem));
+  position: relative;
+  top: auto;
+  left: auto;
+  bottom: auto;
+  width: 100%;
   padding: 0.85rem 1rem;
   border-radius: 12px;
   background: rgba(8, 13, 24, 0.72);
   border: 1px solid rgba(101, 217, 255, 0.35);
   backdrop-filter: blur(5px);
   box-shadow: inset 0 0 12px rgba(34, 182, 255, 0.14);
-  z-index: 5;
+  z-index: 6;
   max-height: calc(100vh - 10.4rem);
   overflow: auto;
 }
@@ -283,27 +331,8 @@
     width: min(620px, calc(100vw - 2rem));
   }
 
-  .legend-panel,
-  .navigator-panel {
-    top: 5.85rem;
-    bottom: auto;
-    width: calc(50vw - 1.55rem);
-    max-height: calc(100vh - 15.4rem);
-  }
-
-  .legend-panel {
-    left: 1rem;
-    right: auto;
-  }
-
-  .navigator-panel {
-    right: 1rem;
-    left: auto;
-    top: 5.85rem;
-  }
-
-  .timeline-shell {
-    width: calc(100vw - 2rem);
+  .hud-bottom-stack {
+    width: min(360px, calc(100vw - 2rem));
   }
 }
 
@@ -323,13 +352,12 @@
     max-height: 170px;
   }
 
-  .legend-panel {
-    top: 5.45rem;
+  .hud-bottom-stack {
     left: 0.7rem;
     right: 0.7rem;
+    bottom: 0.7rem;
     width: auto;
-    max-height: 22vh;
-    padding: 0.62rem 0.72rem;
+    gap: 0.35rem;
   }
 
   .legend-groups {
@@ -342,14 +370,16 @@
     padding: 0.2rem 0.28rem;
   }
 
-  .navigator-panel {
-    top: auto;
-    right: 0.7rem;
-    left: 0.7rem;
-    bottom: 6.8rem;
-    width: auto;
-    max-height: 28vh;
+  .legend-panel,
+  .navigator-panel,
+  .timeline-shell {
+    width: 100%;
     padding: 0.62rem 0.72rem;
+  }
+
+  .legend-panel,
+  .navigator-panel {
+    max-height: none;
   }
 
   .region-buttons {
@@ -378,9 +408,17 @@
   }
 
   .timeline-shell {
-    bottom: 0.7rem;
-    width: calc(100vw - 1.4rem);
     padding: 0.74rem 0.8rem;
+  }
+
+  .timeline-shell.is-collapsed {
+    width: 100%;
+  }
+
+  .legend-panel.is-collapsed,
+  .navigator-panel.is-collapsed,
+  .timeline-shell.is-collapsed {
+    max-height: none;
   }
 }
 
@@ -390,6 +428,12 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   font-size: 0.84rem;
+}
+
+.legend-panel.is-collapsed .legend-title,
+.navigator-panel.is-collapsed .legend-title,
+.timeline-shell.is-collapsed .timeline-header {
+  margin-bottom: 0;
 }
 
 .legend-subtitle,
