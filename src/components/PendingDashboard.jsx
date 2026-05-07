@@ -21,6 +21,32 @@ const ROAD_TYPE_BILINGUAL = {
 }
 
 const formatNumber = (value) => new Intl.NumberFormat('en-US').format(Number(value) || 0)
+const formatNamingDate = (value) => {
+  const text = String(value ?? '').trim()
+  if (!text) return null
+  const match = text.match(/^(\d{4})[-/.]?(\d{1,2})[-/.]?(\d{1,2})$/)
+  if (!match) return null
+  const [, yyyy, mm, dd] = match
+  return `${yyyy}.${String(mm).padStart(2, '0')}.${String(dd).padStart(2, '0')}`
+}
+
+const getNamingDisplay = (row) => {
+  const date = formatNamingDate(row.naming_date)
+  if (date) return date
+  if (row.naming_year !== null && row.naming_year !== undefined && row.naming_year !== '') {
+    return String(row.naming_year)
+  }
+  return 'Pending'
+}
+
+const getNamingSortValue = (row) => {
+  const date = formatNamingDate(row.naming_date)
+  if (date) return Number(date.replaceAll('.', ''))
+  const year = Number(row.naming_year)
+  if (Number.isFinite(year)) return year * 10000 + 101
+  return -1
+}
+
 const PERIOD_GROUPS = [
   { id: 'g1', label: '1842-1898', start: 1842, end: 1898 },
   { id: 'g2', label: '1899-1945', start: 1899, end: 1945 },
@@ -36,6 +62,7 @@ function PendingDashboard({ onOpenMobileMenu }) {
   const [isLoading, setIsLoading] = useState(true)
   const [searchText, setSearchText] = useState('')
   const [error, setError] = useState('')
+  const [sortConfig, setSortConfig] = useState({ key: 'year', direction: 'desc' })
 
   useEffect(() => {
     let mounted = true
@@ -67,10 +94,50 @@ function PendingDashboard({ onOpenMobileMenu }) {
     if (!loweredQuery) return rows
     return rows.filter((row) => {
       const haystack =
-        `${row.street_code ?? ''} ${row.english_name ?? ''} ${row.chinese_name ?? ''} ${row.street_type ?? ''} ${row.naming_year ?? ''}`.toLowerCase()
+        `${row.street_code ?? ''} ${row.english_name ?? ''} ${row.chinese_name ?? ''} ${row.street_type ?? ''} ${row.naming_year ?? ''} ${row.naming_date ?? ''}`.toLowerCase()
       return haystack.includes(loweredQuery)
     })
   }, [rows, loweredQuery])
+
+  const sortedRows = useMemo(() => {
+    const getStreetName = (row) =>
+      `${row.chinese_name || ''} ${row.english_name || ''}`.trim().toLowerCase()
+    const getType = (row) => String(row.street_type || '').toLowerCase()
+    const getYear = (row) => getNamingSortValue(row)
+    const getNotice = (row) => {
+      const zh = String(row.naming_details?.government_notice_label_zh || '')
+      const en = String(row.naming_details?.government_notice_label_en || '')
+      return `${zh} ${en}`.trim().toLowerCase()
+    }
+
+    const getComparableValue = (row, key) => {
+      if (key === 'street') return getStreetName(row)
+      if (key === 'type') return getType(row)
+      if (key === 'year') return getYear(row)
+      return getNotice(row)
+    }
+
+    const sign = sortConfig.direction === 'asc' ? 1 : -1
+    return [...filteredRows].sort((a, b) => {
+      const aValue = getComparableValue(a, sortConfig.key)
+      const bValue = getComparableValue(b, sortConfig.key)
+      if (aValue < bValue) return -1 * sign
+      if (aValue > bValue) return 1 * sign
+      return getStreetName(a).localeCompare(getStreetName(b))
+    })
+  }, [filteredRows, sortConfig])
+
+  const toggleSort = (key) => {
+    setSortConfig((prev) => {
+      if (prev.key === key) {
+        return {
+          key,
+          direction: prev.direction === 'asc' ? 'desc' : 'asc',
+        }
+      }
+      return { key, direction: 'asc' }
+    })
+  }
 
   const roadTypeStats = useMemo(() => {
     const counts = new Map()
@@ -162,7 +229,7 @@ function PendingDashboard({ onOpenMobileMenu }) {
               className="pending-search-input"
               value={searchText}
               onChange={(event) => setSearchText(event.target.value)}
-              placeholder="Search by street code/name/type/year"
+              placeholder="Search by street code/name/type/year/date"
             />
             <span>
               Showing {formatNumber(filteredRows.length)} / {formatNumber(rows.length)} streets
@@ -173,18 +240,38 @@ function PendingDashboard({ onOpenMobileMenu }) {
             <table className="pending-table">
               <thead>
                 <tr>
-                  <th>Street name</th>
-                  <th>Type</th>
-                  <th>Naming Year</th>
-                  <th>LandsD Notice</th>
+                  <th>
+                    <button type="button" className="pending-sort-header" onClick={() => toggleSort('street')}>
+                      Street name
+                      <span>{sortConfig.key === 'street' ? (sortConfig.direction === 'asc' ? ' ▲' : ' ▼') : ''}</span>
+                    </button>
+                  </th>
+                  <th>
+                    <button type="button" className="pending-sort-header" onClick={() => toggleSort('type')}>
+                      Type
+                      <span>{sortConfig.key === 'type' ? (sortConfig.direction === 'asc' ? ' ▲' : ' ▼') : ''}</span>
+                    </button>
+                  </th>
+                  <th>
+                    <button type="button" className="pending-sort-header" onClick={() => toggleSort('year')}>
+                      Naming Date
+                      <span>{sortConfig.key === 'year' ? (sortConfig.direction === 'asc' ? ' ▲' : ' ▼') : ''}</span>
+                    </button>
+                  </th>
+                  <th>
+                    <button type="button" className="pending-sort-header" onClick={() => toggleSort('notice')}>
+                      LandsD Notice
+                      <span>{sortConfig.key === 'notice' ? (sortConfig.direction === 'asc' ? ' ▲' : ' ▼') : ''}</span>
+                    </button>
+                  </th>
                 </tr>
               </thead>
               <tbody>
-                {filteredRows.slice(0, 500).map((row) => (
+                {sortedRows.slice(0, 500).map((row) => (
                   <tr key={row.road_key}>
                     <td>{`${row.chinese_name || ''} ${row.english_name || ''}`.trim() || '-'}</td>
                     <td>{row.street_type || '-'}</td>
-                    <td>{row.naming_year ?? 'Pending'}</td>
+                    <td>{getNamingDisplay(row)}</td>
                     <td>
                       {row.naming_details?.government_notice_url_en ||
                       row.naming_details?.government_notice_url_zh ? (
@@ -221,7 +308,7 @@ function PendingDashboard({ onOpenMobileMenu }) {
               </tbody>
             </table>
           </div>
-          {filteredRows.length > 500 ? (
+          {sortedRows.length > 500 ? (
             <p className="pending-dashboard-note">
               Showing first 500 rows. Narrow search to inspect specific roads.
             </p>

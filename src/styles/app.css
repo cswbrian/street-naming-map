@@ -210,6 +210,21 @@
   background: rgba(9, 15, 28, 0.98);
 }
 
+.pending-sort-header {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+
+.pending-sort-header:hover {
+  color: #8af4ff;
+}
+
 .pending-table a {
   color: #8af4ff;
   text-decoration: none;
@@ -376,6 +391,57 @@
 .maplibregl-ctrl-group {
   background: rgba(14, 18, 31, 0.85);
   border: 1px solid rgba(92, 212, 255, 0.4);
+}
+
+.selected-road-chip {
+  display: flex;
+  align-items: stretch;
+  min-width: 180px;
+  max-width: min(72vw, 320px);
+  border: 1px solid rgba(166, 236, 255, 0.62);
+  border-radius: 11px;
+  background: rgba(5, 12, 24, 0.9);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.44), 0 0 20px rgba(122, 228, 255, 0.26);
+  backdrop-filter: blur(3px);
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.selected-road-chip-accent {
+  width: 4px;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, #f7ffa4 0%, #fff4a4 100%);
+  box-shadow: 0 0 12px rgba(255, 247, 168, 0.55);
+}
+
+.selected-road-chip-content {
+  padding: 0.36rem 0.52rem 0.38rem;
+}
+
+.selected-road-chip-zh,
+.selected-road-chip-en,
+.selected-road-chip-year {
+  margin: 0;
+  line-height: 1.2;
+  color: #eef8ff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.selected-road-chip-zh {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.selected-road-chip-en {
+  margin-top: 0.05rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.01em;
+}
+
+.selected-road-chip-year {
+  margin-top: 0.12rem;
+  font-size: 0.63rem;
+  opacity: 0.86;
 }
 
 .road-search-panel {
@@ -781,6 +847,27 @@
 
   .road-search-results {
     max-height: 170px;
+  }
+
+  .selected-road-chip {
+    min-width: 156px;
+    max-width: min(74vw, 280px);
+  }
+
+  .selected-road-chip-content {
+    padding: 0.3rem 0.44rem 0.34rem;
+  }
+
+  .selected-road-chip-zh {
+    font-size: 0.68rem;
+  }
+
+  .selected-road-chip-en {
+    font-size: 0.64rem;
+  }
+
+  .selected-road-chip-year {
+    font-size: 0.58rem;
   }
 
   .hud-bottom-stack {

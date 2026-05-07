@@ -18,6 +18,16 @@ const parseBilingualLabel = (value) => {
   }
 }
 
+const normalizeRoadName = (value) => {
+  const text = String(value ?? '').trim()
+  if (!text) return ''
+  const lowered = text.toLowerCase()
+  if (['null', 'undefined', 'n/a', 'na', '-', '--'].includes(lowered)) {
+    return ''
+  }
+  return text
+}
+
 function App() {
   const currentYear = new Date().getFullYear()
   const minYear = 1842
@@ -34,6 +44,7 @@ function App() {
   const [activeRoadId, setActiveRoadId] = useState(null)
   const [selectedRoadKey, setSelectedRoadKey] = useState(null)
   const [clickedRoadCenter, setClickedRoadCenter] = useState(null)
+  const [pickedRoadMeta, setPickedRoadMeta] = useState(null)
   const [activePage, setActivePage] = useState('map')
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [collapsedPanels, setCollapsedPanels] = useState({
@@ -97,11 +108,18 @@ function App() {
       .slice(0, 10)
   }, [roadIndex, roadSearch])
   const viewportTarget = useMemo(() => {
-    if (clickedRoadCenter) {
-      return { center: clickedRoadCenter, zoom: 16 }
-    }
     if (activeRoad) {
-      return { center: activeRoad.center, zoom: 16 }
+      if (Array.isArray(activeRoad.bbox) && activeRoad.bbox.length === 4) {
+        return {
+          bbox: activeRoad.bbox,
+          maxZoom: 15.2,
+          padding: { top: 120, right: 70, bottom: 210, left: 70 },
+        }
+      }
+      return { center: activeRoad.center, zoom: 14.8 }
+    }
+    if (clickedRoadCenter) {
+      return { center: clickedRoadCenter, zoom: 14.8 }
     }
     if (activeSubDistrict) {
       const center = subDistrictCenters[activeSubDistrict.id]
@@ -131,8 +149,8 @@ function App() {
 
         features.forEach((feature) => {
           const props = feature?.properties ?? {}
-          const en = String(props.ENGLISHSTREETNAME ?? '').trim()
-          const zh = String(props.CHINESESTREETNAME ?? '').trim()
+          const en = normalizeRoadName(props.ENGLISHSTREETNAME)
+          const zh = normalizeRoadName(props.CHINESESTREETNAME)
           if (!en && !zh) return
 
           const key = `${en}|${zh}`
@@ -151,14 +169,45 @@ function App() {
               enName: en,
               zhName: zh,
               year,
+              namingDate: normalizeRoadName(props.naming_date),
               center: [Number(firstCoord[0]), Number(firstCoord[1])],
               count: 1,
               searchText: `${en} ${zh}`.toLowerCase(),
+              bbox: [Number(firstCoord[0]), Number(firstCoord[1]), Number(firstCoord[0]), Number(firstCoord[1])],
             })
-            return
           }
 
           const existing = roadsMap.get(key)
+
+          const updateBounds = (lng, lat) => {
+            if (!Number.isFinite(lng) || !Number.isFinite(lat)) return
+            existing.bbox = [
+              Math.min(existing.bbox[0], lng),
+              Math.min(existing.bbox[1], lat),
+              Math.max(existing.bbox[2], lng),
+              Math.max(existing.bbox[3], lat),
+            ]
+          }
+
+          if (feature?.geometry?.type === 'LineString' && Array.isArray(coords)) {
+            coords.forEach((coord) => {
+              if (Array.isArray(coord) && coord.length >= 2) {
+                updateBounds(Number(coord[0]), Number(coord[1]))
+              }
+            })
+          } else if (feature?.geometry?.type === 'MultiLineString' && Array.isArray(coords)) {
+            coords.forEach((line) => {
+              if (!Array.isArray(line)) return
+              line.forEach((coord) => {
+                if (Array.isArray(coord) && coord.length >= 2) {
+                  updateBounds(Number(coord[0]), Number(coord[1]))
+                }
+              })
+            })
+          } else {
+            updateBounds(Number(firstCoord[0]), Number(firstCoord[1]))
+          }
+
           existing.center = [
             (existing.center[0] * existing.count + Number(firstCoord[0])) / (existing.count + 1),
             (existing.center[1] * existing.count + Number(firstCoord[1])) / (existing.count + 1),
@@ -166,6 +215,9 @@ function App() {
           existing.count += 1
           if (year && (!existing.year || year < existing.year)) {
             existing.year = year
+          }
+          if (!existing.namingDate) {
+            existing.namingDate = normalizeRoadName(props.naming_date)
           }
         })
 
@@ -281,9 +333,29 @@ function App() {
             onMapReady={() => setIsMapLoading(false)}
             viewportTarget={viewportTarget}
             selectedRoadKey={selectedRoadKey}
-            onRoadPick={({ key, center, year, enName, zhName }) => {
+            selectedRoadCenter={clickedRoadCenter ?? activeRoad?.center ?? null}
+            selectedRoadInfo={
+              selectedRoadKey
+                ? (() => {
+                    const [enName = '', zhName = ''] = selectedRoadKey.split('|')
+                    return {
+                      enName: activeRoad?.enName || enName,
+                      zhName: activeRoad?.zhName || zhName,
+                      year: activeRoad?.year ?? null,
+                      namingDate: activeRoad?.namingDate || pickedRoadMeta?.namingDate || null,
+                    }
+                  })()
+                : null
+            }
+            onRoadPick={({ key, center, year, enName, zhName, namingDate }) => {
               setSelectedRoadKey(key)
               setClickedRoadCenter(center)
+              setPickedRoadMeta({
+                enName,
+                zhName,
+                year: Number.isFinite(year) ? year : null,
+                namingDate: normalizeRoadName(namingDate),
+              })
               setRoadSearch(`${zhName ?? ''} ${enName ?? ''}`.trim())
               const matched = roadIndex.find((road) => road.id === key)
               setActiveRoadId(matched ? matched.id : null)
@@ -313,6 +385,7 @@ function App() {
                   setActiveRoadId(null)
                   setSelectedRoadKey(null)
                   setClickedRoadCenter(null)
+                  setPickedRoadMeta(null)
                 }}
               />
             </div>
@@ -327,6 +400,7 @@ function App() {
                       setActiveRoadId(road.id)
                       setSelectedRoadKey(road.id)
                       setClickedRoadCenter(null)
+                      setPickedRoadMeta(null)
                       setRoadSearch(`${road.zhName} ${road.enName}`.trim())
                       if (road.year && Number.isFinite(road.year)) {
                         setSelectedYear((prev) => Math.max(prev, road.year))
@@ -436,6 +510,7 @@ function App() {
                     setSubDistrictSearch('')
                     setSelectedRoadKey(null)
                     setClickedRoadCenter(null)
+                    setPickedRoadMeta(null)
                   }}
                 >
                   {region.nameZh} {region.nameEn}
@@ -452,6 +527,7 @@ function App() {
                 setActiveSubDistrictId('')
                 setSelectedRoadKey(null)
                 setClickedRoadCenter(null)
+                setPickedRoadMeta(null)
               }}
             />
             <div className="subdistrict-search-results">
@@ -466,6 +542,7 @@ function App() {
                       setSubDistrictSearch(subDistrict.displayLabel)
                       setSelectedRoadKey(null)
                       setClickedRoadCenter(null)
+                      setPickedRoadMeta(null)
                       geocodeSubDistrict(subDistrict.id)
                     }}
                   >
@@ -486,6 +563,7 @@ function App() {
                   setSubDistrictSearch('')
                   setSelectedRoadKey(null)
                   setClickedRoadCenter(null)
+                  setPickedRoadMeta(null)
                 }}
                 disabled={!activeRegionId && !activeSubDistrictId}
               >

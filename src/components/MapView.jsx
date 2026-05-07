@@ -6,7 +6,8 @@ import 'maplibre-gl/dist/maplibre-gl.css'
 const SOURCE_ID = 'hk-roads-source'
 const LAYER_ID = 'hk-roads-layer'
 const LABEL_LAYER_ID = 'hk-roads-labels'
-const HIGHLIGHT_LAYER_ID = 'hk-road-highlight'
+const HIGHLIGHT_GLOW_LAYER_ID = 'hk-road-highlight-glow'
+const HIGHLIGHT_CORE_LAYER_ID = 'hk-road-highlight-core'
 const FOCUS_SOURCE_ID = 'focus-area-source'
 const FOCUS_LAYER_ID = 'focus-area-layer'
 const DATA_URL = `${import.meta.env.BASE_URL}data/hk-streets.geojson`
@@ -16,6 +17,15 @@ const HK_BOUNDS = [
   [113.82, 22.15],
   [114.45, 22.58],
 ]
+
+const formatNamingDate = (value) => {
+  const text = String(value ?? '').trim()
+  if (!text) return null
+  const match = text.match(/^(\d{4})[-/.]?(\d{1,2})[-/.]?(\d{1,2})$/)
+  if (!match) return null
+  const [, yyyy, mm, dd] = match
+  return `${yyyy}.${String(mm).padStart(2, '0')}.${String(dd).padStart(2, '0')}`
+}
 
 const darkStyle = {
   version: 8,
@@ -83,16 +93,20 @@ function MapView({
   onMapReady,
   viewportTarget,
   selectedRoadKey,
+  selectedRoadCenter,
+  selectedRoadInfo,
   onRoadPick,
 }) {
   const mapContainerRef = useRef(null)
   const mapRef = useRef(null)
+  const selectedRoadMarkerRef = useRef(null)
 
   const applyMapState = (map, year, group, roadKey) => {
     if (
       !map.getLayer(LAYER_ID) ||
       !map.getLayer(LABEL_LAYER_ID) ||
-      !map.getLayer(HIGHLIGHT_LAYER_ID)
+      !map.getLayer(HIGHLIGHT_GLOW_LAYER_ID) ||
+      !map.getLayer(HIGHLIGHT_CORE_LAYER_ID)
     ) {
       return
     }
@@ -126,9 +140,10 @@ function MapView({
           ['==', ['coalesce', ['get', 'CHINESESTREETNAME'], ''], zhName],
         ]
       : ['==', ['get', 'OBJECTID'], -1]
-    map.setFilter(HIGHLIGHT_LAYER_ID, roadFilter)
+    map.setFilter(HIGHLIGHT_GLOW_LAYER_ID, roadFilter)
+    map.setFilter(HIGHLIGHT_CORE_LAYER_ID, roadFilter)
 
-    map.setPaintProperty(LAYER_ID, 'line-opacity', [
+    const baseLineOpacity = [
       'case',
       ['==', numericYear, -1],
       0.9,
@@ -143,9 +158,15 @@ function MapView({
         year,
         0.95,
       ],
-    ])
+    ]
 
-    map.setPaintProperty(LABEL_LAYER_ID, 'text-opacity', [
+    map.setPaintProperty(
+      LAYER_ID,
+      'line-opacity',
+      roadKey ? ['case', roadFilter, 0.2, ['*', baseLineOpacity, 0.32]] : baseLineOpacity,
+    )
+
+    const baseLabelOpacity = [
       'case',
       ['==', numericYear, -1],
       0.75,
@@ -160,7 +181,13 @@ function MapView({
         year,
         0.9,
       ],
-    ])
+    ]
+
+    map.setPaintProperty(
+      LABEL_LAYER_ID,
+      'text-opacity',
+      roadKey ? ['case', roadFilter, 0.1, ['*', baseLabelOpacity, 0.34]] : baseLabelOpacity,
+    )
   }
 
   useEffect(() => {
@@ -307,18 +334,35 @@ function MapView({
       })
 
       map.addLayer({
-        id: HIGHLIGHT_LAYER_ID,
+        id: HIGHLIGHT_GLOW_LAYER_ID,
         type: 'line',
         source: SOURCE_ID,
         layout: {
-          'line-cap': 'round',
+          'line-cap': 'butt',
+          'line-join': 'round',
+        },
+        paint: {
+          'line-color': '#f7ffa4',
+          'line-width': ['interpolate', ['linear'], ['zoom'], 9, 7, 14, 14],
+          'line-opacity': 0.24,
+          'line-blur': 1.2,
+        },
+        filter: ['==', ['get', 'OBJECTID'], -1],
+      })
+
+      map.addLayer({
+        id: HIGHLIGHT_CORE_LAYER_ID,
+        type: 'line',
+        source: SOURCE_ID,
+        layout: {
+          'line-cap': 'butt',
           'line-join': 'round',
         },
         paint: {
           'line-color': '#fff7a8',
-          'line-width': ['interpolate', ['linear'], ['zoom'], 9, 2, 14, 6],
-          'line-opacity': 0.98,
-          'line-blur': 0.1,
+          'line-width': ['interpolate', ['linear'], ['zoom'], 9, 2.8, 14, 6.8],
+          'line-opacity': 0.96,
+          'line-blur': 0.08,
         },
         filter: ['==', ['get', 'OBJECTID'], -1],
       })
@@ -353,10 +397,12 @@ function MapView({
         const zhName = String(feature.properties?.CHINESESTREETNAME ?? '').trim()
         const key = `${enName}|${zhName}`
         const year = Number(feature.properties?.naming_year)
+        const namingDate = String(feature.properties?.naming_date ?? '').trim()
         onRoadPick?.({
           key,
           center: [event.lngLat.lng, event.lngLat.lat],
           year: Number.isFinite(year) ? year : null,
+          namingDate: namingDate || null,
           enName,
           zhName,
         })
@@ -371,6 +417,10 @@ function MapView({
     })
 
     return () => {
+      if (selectedRoadMarkerRef.current) {
+        selectedRoadMarkerRef.current.remove()
+        selectedRoadMarkerRef.current = null
+      }
       deckOverlay.finalize()
       map.remove()
     }
@@ -430,7 +480,7 @@ function MapView({
         [viewportTarget.bbox[2], viewportTarget.bbox[3]],
       ],
       {
-        padding: { top: 90, right: 70, bottom: 130, left: 70 },
+        padding: viewportTarget.padding ?? { top: 90, right: 70, bottom: 130, left: 70 },
         duration: 820,
         essential: true,
         maxZoom: viewportTarget.maxZoom ?? 13.2,
@@ -439,9 +489,45 @@ function MapView({
 
     const source = map.getSource(FOCUS_SOURCE_ID)
     if (source) {
-      source.setData(bboxToPolygon(viewportTarget.bbox))
+      source.setData({ type: 'FeatureCollection', features: [] })
     }
   }, [viewportTarget])
+
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map) return
+
+    if (!selectedRoadKey || !selectedRoadCenter || !selectedRoadInfo) {
+      if (selectedRoadMarkerRef.current) {
+        selectedRoadMarkerRef.current.remove()
+        selectedRoadMarkerRef.current = null
+      }
+      return
+    }
+
+    const chip = document.createElement('section')
+    chip.className = 'selected-road-chip'
+    chip.innerHTML = `
+      <div class="selected-road-chip-accent" aria-hidden="true"></div>
+      <div class="selected-road-chip-content">
+        <p class="selected-road-chip-zh">${selectedRoadInfo.zhName || '-'}</p>
+        <p class="selected-road-chip-en">${selectedRoadInfo.enName || '-'}</p>
+        <p class="selected-road-chip-year">Naming date: ${formatNamingDate(selectedRoadInfo.namingDate) || selectedRoadInfo.year || 'Unknown'}</p>
+      </div>
+    `
+
+    if (selectedRoadMarkerRef.current) {
+      selectedRoadMarkerRef.current.remove()
+    }
+
+    selectedRoadMarkerRef.current = new maplibregl.Marker({
+      element: chip,
+      anchor: 'bottom',
+      offset: [0, -14],
+    })
+      .setLngLat(selectedRoadCenter)
+      .addTo(map)
+  }, [selectedRoadKey, selectedRoadCenter, selectedRoadInfo])
 
   return <section className="map-container" ref={mapContainerRef} />
 }
