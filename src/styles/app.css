@@ -7,6 +7,325 @@
   color: #d8ecff;
 }
 
+.app-shell.is-dashboard {
+  overflow: auto;
+}
+
+.app-top-nav {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.app-mobile-menu {
+  position: absolute;
+  top: 3.05rem;
+  left: 0.75rem;
+  z-index: 11;
+  display: none;
+  min-width: 220px;
+  border: 1px solid rgba(101, 217, 255, 0.35);
+  border-radius: 10px;
+  background: rgba(8, 13, 24, 0.96);
+  padding: 0.35rem;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.36);
+}
+
+.app-mobile-menu.is-open {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.app-mobile-menu-item {
+  border: 1px solid rgba(118, 226, 255, 0.28);
+  background: rgba(13, 24, 39, 0.74);
+  color: #d8ecff;
+  border-radius: 8px;
+  padding: 0.42rem 0.5rem;
+  font-size: 0.74rem;
+  text-align: left;
+}
+
+.app-mobile-menu-item.is-active {
+  border-color: rgba(141, 244, 255, 0.72);
+  background: rgba(19, 43, 60, 0.86);
+}
+
+.road-search-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.mobile-nav-trigger {
+  display: none;
+  border: 1px solid rgba(118, 226, 255, 0.32);
+  background: rgba(13, 24, 39, 0.74);
+  color: #d8ecff;
+  border-radius: 8px;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.app-top-nav-button {
+  border: 1px solid rgba(118, 226, 255, 0.28);
+  background: rgba(13, 24, 39, 0.74);
+  color: #d8ecff;
+  border-radius: 8px;
+  padding: 0.42rem 0.6rem;
+  font-size: 0.74rem;
+  cursor: pointer;
+}
+
+.app-top-nav-button.is-active,
+.app-top-nav-button:hover {
+  border-color: rgba(141, 244, 255, 0.72);
+  background: rgba(19, 43, 60, 0.86);
+}
+
+.pending-dashboard {
+  position: relative;
+  min-height: 100%;
+  padding: 4.2rem 1rem 1rem;
+  z-index: 3;
+}
+
+.pending-dashboard-header h1 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.pending-dashboard-header p {
+  margin: 0.4rem 0 0;
+  opacity: 0.85;
+  font-size: 0.86rem;
+}
+
+.pending-dashboard-note {
+  margin: 0.7rem 0 0;
+  font-size: 0.84rem;
+  opacity: 0.9;
+}
+
+.pending-stats-grid {
+  margin-top: 0.9rem;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.36rem;
+}
+
+.pending-stats-section + .pending-stats-section {
+  margin-top: 0.75rem;
+}
+
+.pending-stats-title {
+  margin: 0.9rem 0 0.15rem;
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.pending-stat-card {
+  border: 1px solid rgba(101, 217, 255, 0.35);
+  border-radius: 8px;
+  background: rgba(8, 13, 24, 0.72);
+  padding: 0.45rem 0.48rem;
+}
+
+.pending-stat-card h2,
+.pending-stat-card h3 {
+  margin: 0;
+  font-size: 0.67rem;
+  font-weight: 600;
+  opacity: 0.9;
+  line-height: 1.15;
+}
+
+.pending-stat-card strong {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.98rem;
+  line-height: 1.05;
+  color: #8af4ff;
+}
+
+.pending-table-controls {
+  margin-top: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.65rem;
+}
+
+.pending-search-input {
+  width: min(420px, 100%);
+  border: 1px solid rgba(118, 226, 255, 0.28);
+  background: rgba(13, 24, 39, 0.72);
+  color: #d8ecff;
+  border-radius: 8px;
+  padding: 0.45rem 0.58rem;
+  font-size: 0.82rem;
+}
+
+.pending-table-controls span {
+  font-size: 0.8rem;
+  opacity: 0.85;
+}
+
+.pending-table-wrap {
+  margin-top: 0.65rem;
+  border: 1px solid rgba(101, 217, 255, 0.35);
+  border-radius: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: calc(100vh - 15.6rem);
+  background: rgba(8, 13, 24, 0.72);
+}
+
+.pending-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  table-layout: fixed;
+}
+
+.pending-table th,
+.pending-table td {
+  border-bottom: 1px solid rgba(118, 226, 255, 0.16);
+  padding: 0.42rem 0.5rem;
+  text-align: left;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.pending-table th {
+  position: sticky;
+  top: 0;
+  background: rgba(9, 15, 28, 0.98);
+}
+
+.pending-table a {
+  color: #8af4ff;
+  text-decoration: none;
+}
+
+.pending-table a:hover {
+  text-decoration: underline;
+}
+
+.pending-table th:nth-child(1),
+.pending-table td:nth-child(1) {
+  width: 36%;
+}
+
+.pending-table th:nth-child(2),
+.pending-table td:nth-child(2) {
+  width: 16%;
+}
+
+.pending-table th:nth-child(3),
+.pending-table td:nth-child(3) {
+  width: 14%;
+}
+
+.pending-table th:nth-child(4),
+.pending-table td:nth-child(4) {
+  width: 34%;
+}
+
+@media (max-width: 1120px) {
+  .pending-stats-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 820px) {
+  .app-top-nav {
+    display: none;
+  }
+
+  .mobile-nav-trigger {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pending-dashboard {
+    padding: 0.75rem 0.55rem 0.55rem;
+  }
+
+  .mobile-nav-trigger-dashboard {
+    margin-bottom: 0.45rem;
+  }
+
+  .pending-stats-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.24rem;
+  }
+
+  .pending-stat-card {
+    padding: 0.34rem 0.3rem;
+    border-radius: 7px;
+  }
+
+  .pending-stat-card h2,
+  .pending-stat-card h3 {
+    font-size: 0.56rem;
+    line-height: 1.08;
+  }
+
+  .pending-stat-card strong {
+    margin-top: 0.1rem;
+    font-size: 0.84rem;
+  }
+
+  .pending-table-controls {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .pending-search-input {
+    width: 100%;
+    font-size: 0.76rem;
+  }
+
+  .pending-table {
+    font-size: 0.72rem;
+  }
+
+  .pending-table th,
+  .pending-table td {
+    padding: 0.36rem 0.32rem;
+  }
+
+  .pending-table th:nth-child(1),
+  .pending-table td:nth-child(1) {
+    width: 42%;
+  }
+
+  .pending-table th:nth-child(2),
+  .pending-table td:nth-child(2) {
+    width: 16%;
+  }
+
+  .pending-table th:nth-child(3),
+  .pending-table td:nth-child(3) {
+    width: 14%;
+  }
+
+  .pending-table th:nth-child(4),
+  .pending-table td:nth-child(4) {
+    width: 28%;
+  }
+}
+
 .map-container {
   position: absolute;
   inset: 0;
@@ -456,8 +775,8 @@
   }
 
   .road-search-input {
-    margin-top: 0.4rem;
     font-size: 0.75rem;
+    margin-top: 0;
   }
 
   .road-search-results {

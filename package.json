@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "prepare:data": "node scripts/prepare-mock-road-years.mjs"
+    "prepare:data": "node scripts/prepare-mock-road-years.mjs",
+    "report:pending-years": "node scripts/report-pending-naming-years.mjs"
   },
   "dependencies": {
     "@deck.gl/layers": "^9.3.1",

@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import MapView from './components/MapView'
+import PendingDashboard from './components/PendingDashboard'
 import TimelineSlider from './components/TimelineSlider'
 import { REGION_OPTIONS, DISTRICT_OPTIONS } from './config/regions.mjs'
 import subdistrictCentersConfig from './config/subdistrictCenters.json'
@@ -33,6 +34,8 @@ function App() {
   const [activeRoadId, setActiveRoadId] = useState(null)
   const [selectedRoadKey, setSelectedRoadKey] = useState(null)
   const [clickedRoadCenter, setClickedRoadCenter] = useState(null)
+  const [activePage, setActivePage] = useState('map')
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [collapsedPanels, setCollapsedPanels] = useState({
     evolution: false,
     navigator: false,
@@ -229,74 +232,125 @@ function App() {
   }
 
   return (
-    <main className="app-shell">
-      <MapView
-        selectedYear={selectedYear}
-        minYear={minYear}
-        activeGroup={activeGroup}
-        onMapReady={() => setIsMapLoading(false)}
-        viewportTarget={viewportTarget}
-        selectedRoadKey={selectedRoadKey}
-        onRoadPick={({ key, center, year, enName, zhName }) => {
-          setSelectedRoadKey(key)
-          setClickedRoadCenter(center)
-          setRoadSearch(`${zhName ?? ''} ${enName ?? ''}`.trim())
-          const matched = roadIndex.find((road) => road.id === key)
-          setActiveRoadId(matched ? matched.id : null)
-          if (year && Number.isFinite(year)) {
-            setSelectedYear((prev) => Math.max(prev, year))
-          }
-        }}
-      />
-      <section className="road-search-panel">
-        <input
-          className="road-search-input"
-          type="text"
-          value={roadSearch}
-          placeholder={isRoadIndexLoading ? 'Indexing roads...' : '搜尋街道 Search road'}
-          disabled={isRoadIndexLoading}
-          onChange={(event) => {
-            setRoadSearch(event.target.value)
-            setActiveRoadId(null)
-            setSelectedRoadKey(null)
-            setClickedRoadCenter(null)
+    <main className={`app-shell ${activePage === 'dashboard' ? 'is-dashboard' : ''}`}>
+      <section className="app-top-nav">
+        <button
+          type="button"
+          className={`app-top-nav-button ${activePage === 'map' ? 'is-active' : ''}`}
+          onClick={() => setActivePage('map')}
+        >
+          Map
+        </button>
+        <button
+          type="button"
+          className={`app-top-nav-button ${activePage === 'dashboard' ? 'is-active' : ''}`}
+          onClick={() => setActivePage('dashboard')}
+        >
+          Street Naming Dashboard
+        </button>
+      </section>
+      <section className={`app-mobile-menu ${isMobileMenuOpen ? 'is-open' : ''}`}>
+        <button
+          type="button"
+          className={`app-mobile-menu-item ${activePage === 'map' ? 'is-active' : ''}`}
+          onClick={() => {
+            setActivePage('map')
+            setIsMobileMenuOpen(false)
           }}
-        />
-        {roadSearch.trim() && roadResults.length ? (
-          <div className="road-search-results">
-            {roadResults.map((road) => (
+        >
+          Map
+        </button>
+        <button
+          type="button"
+          className={`app-mobile-menu-item ${activePage === 'dashboard' ? 'is-active' : ''}`}
+          onClick={() => {
+            setActivePage('dashboard')
+            setIsMobileMenuOpen(false)
+          }}
+        >
+          Street Naming Dashboard
+        </button>
+      </section>
+
+      {activePage === 'map' ? (
+        <>
+          <MapView
+            selectedYear={selectedYear}
+            minYear={minYear}
+            activeGroup={activeGroup}
+            onMapReady={() => setIsMapLoading(false)}
+            viewportTarget={viewportTarget}
+            selectedRoadKey={selectedRoadKey}
+            onRoadPick={({ key, center, year, enName, zhName }) => {
+              setSelectedRoadKey(key)
+              setClickedRoadCenter(center)
+              setRoadSearch(`${zhName ?? ''} ${enName ?? ''}`.trim())
+              const matched = roadIndex.find((road) => road.id === key)
+              setActiveRoadId(matched ? matched.id : null)
+              if (year && Number.isFinite(year)) {
+                setSelectedYear((prev) => Math.max(prev, year))
+              }
+            }}
+          />
+          <section className="road-search-panel">
+            <div className="road-search-row">
               <button
                 type="button"
-                className={`road-search-item ${activeRoadId === road.id ? 'is-active' : ''}`}
-                key={road.id}
-                onClick={() => {
-                  setActiveRoadId(road.id)
-                  setSelectedRoadKey(road.id)
-                  setClickedRoadCenter(null)
-                  setRoadSearch(`${road.zhName} ${road.enName}`.trim())
-                  if (road.year && Number.isFinite(road.year)) {
-                    setSelectedYear((prev) => Math.max(prev, road.year))
-                  }
-                }}
+                className="mobile-nav-trigger"
+                aria-label="Open navigation menu"
+                onClick={() => setIsMobileMenuOpen((prev) => !prev)}
               >
-                <span className="road-search-main">
-                  {road.zhName || '-'} {road.enName || '-'}
-                </span>
-                <span className="road-search-year">({road.year ?? 'Unknown'})</span>
+                ☰
               </button>
-            ))}
-          </div>
-        ) : null}
-      </section>
-      {isMapLoading ? (
-        <section className="map-loading-overlay" role="status" aria-live="polite">
-          <div className="map-loading-card">
-            <span className="map-loading-spinner" />
-            <p>Loading Hong Kong streets map...</p>
-          </div>
-        </section>
-      ) : null}
-      <div className="hud-bottom-stack">
+              <input
+                className="road-search-input"
+                type="text"
+                value={roadSearch}
+                placeholder={isRoadIndexLoading ? 'Indexing roads...' : '搜尋街道 Search road'}
+                disabled={isRoadIndexLoading}
+                onChange={(event) => {
+                  setRoadSearch(event.target.value)
+                  setActiveRoadId(null)
+                  setSelectedRoadKey(null)
+                  setClickedRoadCenter(null)
+                }}
+              />
+            </div>
+            {roadSearch.trim() && roadResults.length ? (
+              <div className="road-search-results">
+                {roadResults.map((road) => (
+                  <button
+                    type="button"
+                    className={`road-search-item ${activeRoadId === road.id ? 'is-active' : ''}`}
+                    key={road.id}
+                    onClick={() => {
+                      setActiveRoadId(road.id)
+                      setSelectedRoadKey(road.id)
+                      setClickedRoadCenter(null)
+                      setRoadSearch(`${road.zhName} ${road.enName}`.trim())
+                      if (road.year && Number.isFinite(road.year)) {
+                        setSelectedYear((prev) => Math.max(prev, road.year))
+                      }
+                    }}
+                  >
+                    <span className="road-search-main">
+                      {road.zhName || '-'} {road.enName || '-'}
+                    </span>
+                    <span className="road-search-year">({road.year ?? 'Unknown'})</span>
+                  </button>
+                ))}
+              </div>
+            ) : null}
+          </section>
+          {isMapLoading ? (
+            <section className="map-loading-overlay" role="status" aria-live="polite">
+              <div className="map-loading-card">
+                <span className="map-loading-spinner" />
+                <p>Loading Hong Kong streets map...</p>
+              </div>
+            </section>
+          ) : null}
+          <div className="hud-bottom-stack">
         <section className={`legend-panel ${collapsedPanels.evolution ? 'is-collapsed' : ''}`}>
           <div
             className="panel-header"
@@ -449,7 +503,11 @@ function App() {
           isCollapsed={collapsedPanels.timeline}
           onToggle={() => togglePanel('timeline')}
         />
-      </div>
+          </div>
+        </>
+      ) : (
+        <PendingDashboard onOpenMobileMenu={() => setIsMobileMenuOpen((prev) => !prev)} />
+      )}
     </main>
   )
 }
