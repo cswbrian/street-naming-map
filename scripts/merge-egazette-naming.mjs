@@ -3,11 +3,14 @@
  * Merge eGazette-parsed events with LandsD events, re-aggregate, enrich GeoJSON.
  */
 
-import { mkdir, readFile, writeFile } from 'node:fs/promises'
+import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { applyFooterPublicationDate } from './lib/egazette-dates.mjs'
+import { EGAZETTE_PATHS } from './lib/egazette-pdf-text.mjs'
 import {
   aggregateByStreet,
+  classifyEgazetteEvent,
   enrichGeojson,
   mergeEvents,
 } from './lib/street-naming-core.mjs'
@@ -51,6 +54,30 @@ Default input: data/egazette/parsed/egazette-street-events.json
   return opts
 }
 
+async function loadExtractionMap() {
+  const map = new Map()
+  let files = []
+  try {
+    files = await readdir(EGAZETTE_PATHS.extractions)
+  } catch {
+    return map
+  }
+  for (const file of files) {
+    if (!file.endsWith('.json')) continue
+    const data = JSON.parse(await readFile(path.join(EGAZETTE_PATHS.extractions, file), 'utf8'))
+    if (data?.notice_key) map.set(data.notice_key, data)
+  }
+  return map
+}
+
+function refreshEgazetteDates(events, extractionMap) {
+  return events.map((event) => {
+    if (!event.notice_key) return event
+    const extraction = extractionMap.get(event.notice_key)
+    return extraction ? applyFooterPublicationDate(event, extraction) : event
+  })
+}
+
 async function main() {
   const opts = parseArgs(process.argv.slice(2))
   const egazettePath = opts.usePilot ? EGAZETTE_PILOT_EVENTS : EGAZETTE_EVENTS
@@ -61,7 +88,21 @@ async function main() {
     readFile(SOURCE_PATH, 'utf8').then(JSON.parse),
   ])
 
-  const egazetteEvents = egazetteRaw.events ?? egazetteRaw
+  const extractionMap = await loadExtractionMap()
+  const rawEgazetteEvents = egazetteRaw.events ?? egazetteRaw
+  const datedEgazetteEvents = refreshEgazetteDates(rawEgazetteEvents, extractionMap)
+  const egazetteEvents = datedEgazetteEvents.map(classifyEgazetteEvent)
+
+  const datesChanged = datedEgazetteEvents.some(
+    (event, index) => event.publication_date !== rawEgazetteEvents[index]?.publication_date,
+  )
+  if (!opts.usePilot && datesChanged) {
+    await writeFile(
+      egazettePath,
+      `${JSON.stringify({ ...egazetteRaw, events: datedEgazetteEvents, generated_at: new Date().toISOString() }, null, 2)}\n`,
+    )
+  }
+
   const combined = mergeEvents(landsd, egazetteEvents)
   const aggregates = aggregateByStreet(combined)
 

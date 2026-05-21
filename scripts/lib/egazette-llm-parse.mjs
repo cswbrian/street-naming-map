@@ -1,3 +1,4 @@
+import { parseGazetteFooterDate } from './egazette-dates.mjs'
 import {
   finalizeEgazetteEvent,
   isDeclarationEvent,
@@ -14,7 +15,7 @@ const GN_PATTERN = /^GN\d+$/i
 const SYSTEM_PROMPT = `You extract structured street-naming events from Hong Kong Government Gazette (Lands Department) notices.
 Return ONLY valid JSON: an object with key "events" containing an array of event objects.
 Each event must have:
-- publication_date (ISO YYYY-MM-DD, from the gazette notice date in the document)
+- publication_date (ISO YYYY-MM-DD, from the footer/signatory date at the end of the notice — NOT dates of earlier G.N. references in the body)
 - street_name_en (English street name, title case)
 - street_name_zh (Chinese street name)
 - district_raw_en, district_raw_zh
@@ -149,10 +150,12 @@ export async function parseExtractionWithLlm(extraction, noticeMeta, options = {
   }
 
   const paths = options.pdfPaths ?? {}
+  const footerDate = parseGazetteFooterDate(extraction.text_en, extraction.text_zh)
   return validation.events.map((raw, index) =>
     finalizeEgazetteEvent(
       {
         ...raw,
+        publication_date: footerDate ?? raw.publication_date,
         notice_key: extraction.notice_key,
         pdf_path_en: paths.en ?? null,
         pdf_path_zh: paths.zh ?? null,

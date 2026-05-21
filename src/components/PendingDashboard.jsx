@@ -305,9 +305,7 @@ function PendingDashboard({ onOpenMobileMenu, onOpenRoadOnMap }) {
                               target="_blank"
                               rel="noreferrer"
                             >
-                              {row.naming_details?.notice_source === 'egazette_pdf'
-                                ? '中文 PDF'
-                                : row.naming_details.government_notice_label_zh || '第?號'}
+                              {row.naming_details.government_notice_label_zh || '第?號'}
                             </a>
                           ) : null}
                           {row.naming_details?.government_notice_url_zh &&
@@ -320,9 +318,7 @@ function PendingDashboard({ onOpenMobileMenu, onOpenRoadOnMap }) {
                               target="_blank"
                               rel="noreferrer"
                             >
-                              {row.naming_details?.notice_source === 'egazette_pdf'
-                                ? 'EN PDF'
-                                : row.naming_details.government_notice_label_en || 'G.N.?'}
+                              {row.naming_details.government_notice_label_en || 'G.N.?'}
                             </a>
                           ) : null}
                         </span>

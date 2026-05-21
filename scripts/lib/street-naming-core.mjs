@@ -43,6 +43,16 @@ export function normalizeNoticeNo(raw) {
   return match ? `GN${match[1]}` : value
 }
 
+/** Pre-2016 eGazette category header for section 111C street-naming declarations. */
+const LEGACY_DECLARATION_HEADER_EN = /^(STREET NAMES?|street naming|Street Name)$/i
+
+function isLegacyStreetNamingDeclaration(noticeTypeEn, noticeTypeTc) {
+  const en = String(noticeTypeEn ?? '').trim()
+  const tc = String(noticeTypeTc ?? '').trim()
+  if (!en || !tc || !/街道命名/.test(tc)) return false
+  return LEGACY_DECLARATION_HEADER_EN.test(en)
+}
+
 export function normalizeNoticeType(noticeTypeEn, noticeTypeTc) {
   for (const pattern of NOTICE_TYPE_PATTERNS) {
     if (
@@ -52,15 +62,32 @@ export function normalizeNoticeType(noticeTypeEn, noticeTypeTc) {
       return pattern.id
     }
   }
+  if (isLegacyStreetNamingDeclaration(noticeTypeEn, noticeTypeTc)) return 'declaration'
   return 'other'
 }
 
 export function isDeclarationEvent(noticeTypeEn, noticeTypeTc) {
-  return DECLARATION_PATTERNS.some(
-    (pattern) =>
-      (noticeTypeEn && pattern.test(noticeTypeEn)) ||
-      (noticeTypeTc && pattern.test(noticeTypeTc)),
-  )
+  if (
+    DECLARATION_PATTERNS.some(
+      (pattern) =>
+        (noticeTypeEn && pattern.test(noticeTypeEn)) ||
+        (noticeTypeTc && pattern.test(noticeTypeTc)),
+    )
+  ) {
+    return true
+  }
+  return isLegacyStreetNamingDeclaration(noticeTypeEn, noticeTypeTc)
+}
+
+export function classifyEgazetteEvent(event) {
+  const noticeTypeEn = event.notice_type_raw_en ?? null
+  const noticeTypeTc = event.notice_type_raw_zh ?? null
+  const isDecl = isDeclarationEvent(noticeTypeEn, noticeTypeTc)
+  return {
+    ...event,
+    notice_type_normalized: isDecl ? 'declaration' : normalizeNoticeType(noticeTypeEn, noticeTypeTc),
+    is_declaration_event: isDecl,
+  }
 }
 
 export function makeStreetKey(streetNameEn, streetNameZh) {
@@ -224,7 +251,8 @@ import { buildSelfHostedPdfUrls } from './egazette-pdf-urls.mjs'
 export function finalizeEgazetteEvent(raw, index = 0) {
   const noticeTypeEn = raw.notice_type_raw_en ?? null
   const noticeTypeTc = raw.notice_type_raw_zh ?? null
-  const normalized = raw.notice_type_normalized ?? normalizeNoticeType(noticeTypeEn, noticeTypeTc)
+  const isDecl = isDeclarationEvent(noticeTypeEn, noticeTypeTc)
+  const normalized = isDecl ? 'declaration' : normalizeNoticeType(noticeTypeEn, noticeTypeTc)
   const noticeNo = normalizeNoticeNo(raw.notice_no)
   const publicationDate = raw.publication_date
   const yearBucket = publicationDate ? Number(publicationDate.slice(0, 4)) : null
@@ -252,7 +280,7 @@ export function finalizeEgazetteEvent(raw, index = 0) {
     related_gazette_plan_labels_en: raw.related_gazette_plan_labels_en ?? [],
     related_gazette_plan_labels_zh: raw.related_gazette_plan_labels_zh ?? [],
     year_bucket: yearBucket,
-    is_declaration_event: raw.is_declaration_event ?? isDeclarationEvent(noticeTypeEn, noticeTypeTc),
+    is_declaration_event: isDecl,
     notice_key: noticeKey,
     pdf_path_en: raw.pdf_path_en ?? null,
     pdf_path_zh: raw.pdf_path_zh ?? null,

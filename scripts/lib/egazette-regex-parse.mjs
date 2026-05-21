@@ -1,45 +1,14 @@
+import { parseGazetteFooterDate } from './egazette-dates.mjs'
 import {
   finalizeEgazetteEvent,
   normalizeNoticeNo,
   normalizeStreetName,
 } from './street-naming-core.mjs'
 
-const MONTHS = {
-  january: 1,
-  february: 2,
-  march: 3,
-  april: 4,
-  may: 5,
-  june: 6,
-  july: 7,
-  august: 8,
-  september: 9,
-  october: 10,
-  november: 11,
-  december: 12,
-}
-
 const STREET_SUFFIX =
   '(?:Street|Road|Lane|Drive|Avenue|Highway|Path|Square|Circuit|Boulevard|Flyover|Bypass|Interchange|Crescent|Terrace|Walk|Way|Close|Gardens|Rise|View|Court|Plaza|Link|Bridge|Tunnel)'
 
 const ZH_STREET_SUFFIX = '(?:街|路|道|臺|里|圍|巷|坊|徑|橋|高速|公路|天橋|繞道|交匯處)'
-
-function parsePublicationDate(text) {
-  const enMatch = text.match(
-    /(\d{1,2})\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})/i,
-  )
-  if (enMatch) {
-    const [, dayRaw, monthRaw, yearRaw] = enMatch
-    const month = MONTHS[monthRaw.toLowerCase()]
-    return `${yearRaw}-${String(month).padStart(2, '0')}-${String(Number(dayRaw)).padStart(2, '0')}`
-  }
-  const zhMatch = text.match(/(\d{4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日/)
-  if (zhMatch) {
-    const [, y, m, d] = zhMatch
-    return `${y}-${String(Number(m)).padStart(2, '0')}-${String(Number(d)).padStart(2, '0')}`
-  }
-  return null
-}
 
 function fixSpacedCapsName(raw) {
   const tokens = raw.replace(/\s+/g, ' ').trim().split(' ')
@@ -205,8 +174,7 @@ export function parseExtractionWithRegex(extraction, noticeMeta, options = {}) {
   const textEn = extraction.text_en ?? ''
   const textZh = extraction.text_zh ?? ''
   const noticeNo = normalizeNoticeNo(String(noticeMeta?.notice_no ?? ''))
-  const publicationDate =
-    parsePublicationDate(textEn) ?? parsePublicationDate(textZh) ?? null
+  const publicationDate = parseGazetteFooterDate(textEn, textZh)
   const noticeTypes = detectNoticeType(textEn, textZh)
   const planLabels = extractPlanLabels(`${textEn} ${textZh}`)
   const enNames = extractEnglishStreetNames(textEn)
