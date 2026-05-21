@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# eGazette harvest runtime artifacts
+data/egazette/session/
+data/egazette/session/browser-profile/
+data/egazette/raw-pdfs/
+data/egazette/progress/
+data/egazette/manifests/

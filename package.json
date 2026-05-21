@@ -9,7 +9,15 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "prepare:data": "node scripts/prepare-mock-road-years.mjs",
-    "report:pending-years": "node scripts/report-pending-naming-years.mjs"
+    "report:pending-years": "node scripts/report-pending-naming-years.mjs",
+    "fetch:egazette": "node scripts/fetch-egazette-street-pdfs.mjs --download-only",
+    "fetch:egazette:download": "node scripts/fetch-egazette-street-pdfs.mjs --download-only",
+    "fetch:egazette:bootstrap": "node scripts/fetch-egazette-street-pdfs.mjs --bootstrap-only --browser-channel chrome",
+    "fetch:egazette:bootstrap:chrome": "playwright codegen --channel=chrome --save-storage=data/egazette/session/storageState.json \"https://egazette.gld.gov.hk/zh/terms-acceptance?intended=https%3A%2F%2Fegazette.gld.gov.hk%2Fzh%2Fsearch-gazette%2Fgazette\"",
+    "fetch:egazette:harvest": "node scripts/fetch-egazette-street-pdfs.mjs --harvest-only --no-resume",
+    "fetch:egazette:harvest:all": "node scripts/fetch-egazette-street-pdfs.mjs --harvest-only --all-periods --no-resume",
+    "fetch:egazette:dry-run": "node scripts/fetch-egazette-street-pdfs.mjs --dry-run",
+    "fetch:egazette:test": "node scripts/fetch-egazette-street-pdfs.mjs --self-test"
   },
   "dependencies": {
     "@deck.gl/layers": "^9.3.1",
@@ -28,6 +36,7 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.5.0",
+    "playwright": "^1.60.0",
     "vite": "^8.0.10"
   }
 }
