@@ -1,6 +1,14 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import {
+  aggregateByStreet,
+  enrichGeojson,
+  groupBy,
+  isDeclarationEvent,
+  normalizeNoticeNo,
+  normalizeNoticeType,
+} from './lib/street-naming-core.mjs'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -18,32 +26,6 @@ const LANDSD_EN_URL =
 const LANDSD_TC_URL =
   'https://www.landsd.gov.hk/tc/survey-mapping/mapping/street-geographical-place-naming/street-naming.html'
 const START_YEAR = 2016
-
-const DECLARATION_PATTERNS = [
-  /declaration of street name/i,
-  /宣布街道名稱/,
-]
-
-const NOTICE_TYPE_PATTERNS = [
-  { id: 'declaration', en: /declaration of street name/i, tc: /宣布街道名稱/ },
-  { id: 'replace_description', en: /replacing description of street/i, tc: /取代街道說明/ },
-  {
-    id: 'notice_intention_change',
-    en: /notice of intention to change street name/i,
-    tc: /擬更改街道名稱公告/,
-  },
-  {
-    id: 'declaration_change',
-    en: /declaration to change street name/i,
-    tc: /宣布更改街道名稱/,
-  },
-  {
-    id: 'declaration_delete',
-    en: /declaration to delete street name/i,
-    tc: /宣布删除街道名稱/,
-  },
-  { id: 'corrigendum', en: /corrigendum/i, tc: /更正/ },
-]
 
 const decodeHtml = (value) =>
   value
@@ -100,12 +82,6 @@ const parseDate = (raw, lang) => {
   return `${yearRaw}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`
 }
 
-const normalizeNoticeNo = (raw) => {
-  const value = raw.replace(/\s+/g, '').toUpperCase()
-  const match = value.match(/(?:G\.N\.?|第)?(\d+)/)
-  return match ? `GN${match[1]}` : value
-}
-
 const parseLinks = (cellHtml, baseUrl) => {
   const links = []
   const regex = /<a\b[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi
@@ -157,20 +133,6 @@ const parseRows = (tableHtml) => {
   return rows
 }
 
-const normalizeNoticeType = (noticeTypeEn, noticeTypeTc) => {
-  for (const pattern of NOTICE_TYPE_PATTERNS) {
-    if ((noticeTypeEn && pattern.en.test(noticeTypeEn)) || (noticeTypeTc && pattern.tc.test(noticeTypeTc))) {
-      return pattern.id
-    }
-  }
-  return 'other'
-}
-
-const isDeclarationEvent = (noticeTypeEn, noticeTypeTc) =>
-  DECLARATION_PATTERNS.some(
-    (pattern) => (noticeTypeEn && pattern.test(noticeTypeEn)) || (noticeTypeTc && pattern.test(noticeTypeTc)),
-  )
-
 const parseLandsdPageEvents = (html, lang, baseUrl) => {
   const tables = parseTables(html)
   const events = []
@@ -217,18 +179,6 @@ const parseLandsdPageEvents = (html, lang, baseUrl) => {
   }
 
   return events
-}
-
-const groupBy = (items, keyFn) => {
-  const map = new Map()
-  for (const item of items) {
-    const key = keyFn(item)
-    if (!map.has(key)) {
-      map.set(key, [])
-    }
-    map.get(key).push(item)
-  }
-  return map
 }
 
 const reconcileBilingualEvents = (enEvents, tcEvents) => {
@@ -293,102 +243,6 @@ const reconcileBilingualEvents = (enEvents, tcEvents) => {
   return { reconciled, qa }
 }
 
-const makeStreetKey = (streetNameEn, streetNameZh) =>
-  `${String(streetNameEn ?? '').trim()}|${String(streetNameZh ?? '').trim()}`
-
-const aggregateByStreet = (events) => {
-  const grouped = groupBy(events, (item) => makeStreetKey(item.street_name_en, item.street_name_zh))
-  const aggregates = []
-
-  for (const [streetKey, group] of grouped.entries()) {
-    if (streetKey === '|') continue
-    const ordered = group.toSorted((a, b) => a.publication_date.localeCompare(b.publication_date))
-    const declaration = ordered.find((event) => event.is_declaration_event)
-    const canonicalNamingDate = declaration?.publication_date ?? null
-    const canonicalNamingYear = canonicalNamingDate ? Number(canonicalNamingDate.slice(0, 4)) : null
-    const derivationReason = declaration ? 'declaration_earliest' : 'no_declaration_found'
-    const [streetNameEn, streetNameZh] = streetKey.split('|')
-
-    aggregates.push({
-      street_key: streetKey,
-      street_name_en: streetNameEn || null,
-      street_name_zh: streetNameZh || null,
-      canonical_naming_date: canonicalNamingDate,
-      canonical_naming_year: canonicalNamingYear,
-      derivation_reason: derivationReason,
-      event_history: ordered,
-      event_count: ordered.length,
-    })
-  }
-
-  return aggregates
-}
-
-const buildUniqueNameMap = (aggregates, field) => {
-  const counts = new Map()
-  for (const item of aggregates) {
-    const value = String(item[field] ?? '').trim()
-    if (!value) continue
-    counts.set(value, (counts.get(value) ?? 0) + 1)
-  }
-  const uniqueMap = new Map()
-  for (const item of aggregates) {
-    const value = String(item[field] ?? '').trim()
-    if (!value || counts.get(value) !== 1) continue
-    uniqueMap.set(value, item)
-  }
-  return uniqueMap
-}
-
-const enrichGeojson = (sourceData, aggregates) => {
-  const byKey = new Map(aggregates.map((item) => [item.street_key, item]))
-  const byEnUnique = buildUniqueNameMap(aggregates, 'street_name_en')
-  const byZhUnique = buildUniqueNameMap(aggregates, 'street_name_zh')
-
-  let matchedExact = 0
-  let matchedFallback = 0
-  let unmatched = 0
-
-  const features = sourceData.features.map((feature) => {
-    const props = feature.properties ?? {}
-    const en = String(props.ENGLISHSTREETNAME ?? '').trim()
-    const zh = String(props.CHINESESTREETNAME ?? '').trim()
-    const key = makeStreetKey(en, zh)
-    const exact = byKey.get(key)
-    const fallback = exact ?? byEnUnique.get(en) ?? byZhUnique.get(zh) ?? null
-
-    if (exact) matchedExact += 1
-    else if (fallback) matchedFallback += 1
-    else unmatched += 1
-
-    return {
-      ...feature,
-      properties: {
-        ...props,
-        naming_year: fallback?.canonical_naming_year ?? null,
-        naming_date: fallback?.canonical_naming_date ?? null,
-        naming_source: fallback ? 'landsd_2016_plus' : null,
-        naming_derivation_reason: fallback?.derivation_reason ?? null,
-        naming_event_count: fallback?.event_count ?? 0,
-      },
-    }
-  })
-
-  return {
-    enriched: {
-      ...sourceData,
-      name: 'HK_Streets_LandsD2016Plus',
-      features,
-    },
-    joinStats: {
-      matched_exact_features: matchedExact,
-      matched_fallback_features: matchedFallback,
-      unmatched_features: unmatched,
-      total_features: sourceData.features.length,
-    },
-  }
-}
-
 const fetchPage = async (url) => {
   const response = await fetch(url, {
     headers: {
@@ -448,7 +302,10 @@ async function main() {
     throw new Error('Expected a GeoJSON FeatureCollection with a features array.')
   }
 
-  const { enriched, joinStats } = enrichGeojson(sourceData, aggregates)
+  const { enriched, joinStats } = enrichGeojson(sourceData, aggregates, {
+    defaultSource: 'landsd_2016_plus',
+    geojsonName: 'HK_Streets_LandsD2016Plus',
+  })
   const streetsMissingDeclaration = aggregates.filter(
     (item) => item.derivation_reason === 'no_declaration_found',
   ).length

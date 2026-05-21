@@ -192,6 +192,90 @@ data/egazette/
 npm run fetch:egazette:test
 ```
 
+### eGazette PDF parsing (street naming from gazette PDFs)
+
+Parse harvested PDFs into street events and merge with LandsD data. Requires extracted text under `data/egazette/raw-pdfs/` (from harvest + download above).
+
+**Prerequisites:**
+
+```bash
+npm install
+export OPENROUTER_API_KEY=your_key   # for LLM parsing (recommended)
+```
+
+**No-LLM mapping (Stage 1 text + regex parser):**
+
+```bash
+# 1. Extract text from all PDFs (free; cached under data/egazette/extractions/)
+npm run parse:egazette:extract:all
+
+# 2. Structure events from extracted text (no API key)
+npm run parse:egazette:regex
+
+# 3. Merge into GeoJSON
+npm run merge:egazette
+npm run report:pending-years
+```
+
+Or one command after extraction: `npm run parse:egazette:map`
+
+**LLM for notices regex missed** (~70 of 200):
+
+```bash
+# .env.local in project root:
+# OPENROUTER_API_KEY=sk-or-...
+
+npm run parse:egazette:llm-remaining:merge
+```
+
+Keeps existing regex events and adds LLM-parsed events for notices with no regex rows, then regenerates `hk-streets.geojson`.
+
+**Self-hosted gazette PDFs (dashboard links):**
+
+```bash
+npm run publish:egazette-pdfs    # copy PDFs → public/egazette/{en,zh}/
+npm run report:pending-years     # inject /street-naming-map/egazette/... URLs
+```
+
+Or: `npm run prepare:egazette-links`. The Street Naming Directory shows **中文 PDF** / **EN PDF** for eGazette-mapped streets.
+
+**Pilot workflow (~10 notices, cross-check vs LandsD 2016+):**
+
+```bash
+# 1. Extract PDF text (free, cached under data/egazette/extractions/)
+node scripts/parse-egazette-pdfs.mjs --pilot --extract-only --no-resume
+
+# 2a. Structure with OpenRouter (cheap model, ~$0.01–0.05 for pilot)
+npm run parse:egazette:pilot
+
+# 2b. Or regex-only fallback (no API cost, lower accuracy)
+npm run parse:egazette:pilot:regex
+
+# 3. Compare against LandsD ground truth
+npm run validate:egazette:pilot
+
+# 4. Merge into GeoJSON + master aggregates
+npm run merge:egazette:pilot
+npm run report:pending-years
+```
+
+**Full batch (all ~200 notices):**
+
+```bash
+npm run parse:egazette
+npm run merge:egazette
+npm run report:pending-years
+```
+
+Outputs:
+
+- `data/egazette/extractions/{notice_key}.json` — cached PDF text
+- `data/egazette/parsed/egazette-street-events-pilot.json` — pilot events
+- `data/egazette/pilot-qa-report.json` — accuracy vs LandsD
+- `public/data/master/street-events-combined.json` — merged events
+- `public/data/master/street-aggregates-combined.json` — per-street canonical dates
+- `public/data/hk-streets.geojson` — enriched with `naming_year`, `naming_date`, `naming_source`
+
 ### Naming date semantics
 
 - Every LandsD row is stored as an event record (notice history is preserved).

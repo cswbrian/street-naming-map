@@ -1,18 +1,27 @@
-import { mkdir, readFile, writeFile } from 'node:fs/promises'
+import { access, mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { governmentNoticeUrlsFromEvent } from './lib/egazette-pdf-urls.mjs'
+import { makeStreetKey, normalizeStreetName } from './lib/street-naming-core.mjs'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const projectRoot = path.resolve(__dirname, '..')
 
 const GEOJSON_PATH = path.join(projectRoot, 'public', 'data', 'hk-streets.geojson')
-const AGGREGATES_PATH = path.join(
+const LANDSD_AGGREGATES_PATH = path.join(
   projectRoot,
   'public',
   'data',
   'master',
   'landsd-street-aggregates-2016plus.json',
+)
+const COMBINED_AGGREGATES_PATH = path.join(
+  projectRoot,
+  'public',
+  'data',
+  'master',
+  'street-aggregates-combined.json',
 )
 const OUTPUT_DIR = path.join(projectRoot, 'public', 'data', 'master')
 const OUTPUT_JSON = path.join(OUTPUT_DIR, 'pending-naming-years.json')
@@ -34,7 +43,7 @@ const toRoadKey = (en, zh, code, segmentId) => {
   return `segment:${segmentId}`
 }
 
-const toStreetKey = (en, zh) => `${en}|${zh}`
+const toStreetKey = (en, zh) => makeStreetKey(normalizeStreetName(en), zh)
 
 const buildUniqueNameMap = (aggregates, field) => {
   const counts = new Map()
@@ -61,6 +70,8 @@ const pickNamingDetails = (aggregate) => {
     history[0] ??
     null
 
+  const urls = governmentNoticeUrlsFromEvent(declarationEvent)
+
   return {
     street_key: aggregate.street_key ?? null,
     canonical_naming_date: aggregate.canonical_naming_date ?? null,
@@ -69,10 +80,12 @@ const pickNamingDetails = (aggregate) => {
     event_count: aggregate.event_count ?? 0,
     notice_no: declarationEvent?.notice_no ?? null,
     notice_type: declarationEvent?.notice_type_normalized ?? null,
+    notice_source: declarationEvent?.source ?? null,
+    notice_key: declarationEvent?.notice_key ?? null,
     government_notice_label_en: declarationEvent?.government_notice_label_en ?? null,
     government_notice_label_zh: declarationEvent?.government_notice_label_zh ?? null,
-    government_notice_url_en: declarationEvent?.government_notice_url_en ?? null,
-    government_notice_url_zh: declarationEvent?.government_notice_url_zh ?? null,
+    government_notice_url_en: urls.en,
+    government_notice_url_zh: urls.zh,
     related_gazette_plan_url_en:
       declarationEvent?.related_gazette_plan_urls_en?.[0] ?? null,
     related_gazette_plan_url_zh:
@@ -91,10 +104,20 @@ const toCsvRow = (values) =>
     })
     .join(',')
 
+async function resolveAggregatesPath() {
+  try {
+    await access(COMBINED_AGGREGATES_PATH)
+    return COMBINED_AGGREGATES_PATH
+  } catch {
+    return LANDSD_AGGREGATES_PATH
+  }
+}
+
 async function main() {
+  const aggregatesPath = await resolveAggregatesPath()
   const [rawGeojson, rawAggregates] = await Promise.all([
     readFile(GEOJSON_PATH, 'utf8'),
-    readFile(AGGREGATES_PATH, 'utf8'),
+    readFile(aggregatesPath, 'utf8'),
   ])
   const data = JSON.parse(rawGeojson)
   const aggregates = JSON.parse(rawAggregates)

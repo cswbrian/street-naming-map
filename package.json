@@ -17,7 +17,21 @@
     "fetch:egazette:harvest": "node scripts/fetch-egazette-street-pdfs.mjs --harvest-only --no-resume",
     "fetch:egazette:harvest:all": "node scripts/fetch-egazette-street-pdfs.mjs --harvest-only --all-periods --no-resume",
     "fetch:egazette:dry-run": "node scripts/fetch-egazette-street-pdfs.mjs --dry-run",
-    "fetch:egazette:test": "node scripts/fetch-egazette-street-pdfs.mjs --self-test"
+    "fetch:egazette:test": "node scripts/fetch-egazette-street-pdfs.mjs --self-test",
+    "parse:egazette:pilot": "node scripts/parse-egazette-pdfs.mjs --pilot",
+    "parse:egazette:pilot:regex": "node scripts/parse-egazette-pdfs.mjs --pilot --use-regex --no-resume",
+    "parse:egazette": "node scripts/parse-egazette-pdfs.mjs",
+    "parse:egazette:extract": "node scripts/parse-egazette-pdfs.mjs --extract-only",
+    "parse:egazette:extract:all": "node scripts/parse-egazette-pdfs.mjs --extract-only --no-resume",
+    "parse:egazette:regex": "node scripts/parse-egazette-pdfs.mjs --use-regex --no-resume",
+    "parse:egazette:llm-remaining": "node scripts/parse-egazette-pdfs.mjs --llm-remaining",
+    "parse:egazette:llm-remaining:merge": "node scripts/parse-egazette-pdfs.mjs --llm-remaining && node scripts/merge-egazette-naming.mjs",
+    "parse:egazette:map": "node scripts/parse-egazette-pdfs.mjs --use-regex --no-resume && node scripts/merge-egazette-naming.mjs",
+    "validate:egazette:pilot": "node scripts/validate-egazette-pilot.mjs",
+    "merge:egazette": "node scripts/merge-egazette-naming.mjs",
+    "merge:egazette:pilot": "node scripts/merge-egazette-naming.mjs --pilot",
+    "publish:egazette-pdfs": "node scripts/publish-egazette-pdfs.mjs",
+    "prepare:egazette-links": "node scripts/publish-egazette-pdfs.mjs && node scripts/report-pending-naming-years.mjs"
   },
   "dependencies": {
     "@deck.gl/layers": "^9.3.1",
@@ -36,6 +50,7 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.5.0",
+    "pdfjs-dist": "^5.7.284",
     "playwright": "^1.60.0",
     "vite": "^8.0.10"
   }

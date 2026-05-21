@@ -191,7 +191,7 @@ function PendingDashboard({ onOpenMobileMenu }) {
           ☰
         </button>
         <h1>Street Naming Directory</h1>
-        <p>Full street list with naming year and LandsD notice links where available.</p>
+        <p>Full street list with naming date and gazette notice links (self-hosted PDFs for eGazette-mapped streets).</p>
       </header>
 
       {isLoading ? <p className="pending-dashboard-note">Loading report...</p> : null}
@@ -260,7 +260,7 @@ function PendingDashboard({ onOpenMobileMenu }) {
                   </th>
                   <th>
                     <button type="button" className="pending-sort-header" onClick={() => toggleSort('notice')}>
-                      LandsD Notice
+                      Gazette notice
                       <span>{sortConfig.key === 'notice' ? (sortConfig.direction === 'asc' ? ' ▲' : ' ▼') : ''}</span>
                     </button>
                   </th>
@@ -275,19 +275,21 @@ function PendingDashboard({ onOpenMobileMenu }) {
                     <td>
                       {row.naming_details?.government_notice_url_en ||
                       row.naming_details?.government_notice_url_zh ? (
-                        <>
+                        <span className="pending-notice-links">
                           {row.naming_details?.government_notice_url_zh ? (
                             <a
                               href={row.naming_details.government_notice_url_zh}
                               target="_blank"
                               rel="noreferrer"
                             >
-                              {row.naming_details.government_notice_label_zh || '第?號'}
+                              {row.naming_details?.notice_source === 'egazette_pdf'
+                                ? '中文 PDF'
+                                : row.naming_details.government_notice_label_zh || '第?號'}
                             </a>
                           ) : null}
                           {row.naming_details?.government_notice_url_zh &&
                           row.naming_details?.government_notice_url_en ? (
-                            <span> </span>
+                            <span className="pending-notice-sep"> · </span>
                           ) : null}
                           {row.naming_details?.government_notice_url_en ? (
                             <a
@@ -295,10 +297,12 @@ function PendingDashboard({ onOpenMobileMenu }) {
                               target="_blank"
                               rel="noreferrer"
                             >
-                              {row.naming_details.government_notice_label_en || 'G.N.?'}
+                              {row.naming_details?.notice_source === 'egazette_pdf'
+                                ? 'EN PDF'
+                                : row.naming_details.government_notice_label_en || 'G.N.?'}
                             </a>
                           ) : null}
-                        </>
+                        </span>
                       ) : (
                         '-'
                       )}
