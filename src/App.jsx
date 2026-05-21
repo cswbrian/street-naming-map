@@ -264,6 +264,52 @@ function App() {
     }
   }
 
+  const applyRoadSelection = (road, { namingYear } = {}) => {
+    if (!road) return
+    setActiveRoadId(road.id)
+    setSelectedRoadKey(road.id)
+    setClickedRoadCenter(null)
+    setPickedRoadMeta(null)
+    setRoadSearch(`${road.zhName} ${road.enName}`.trim())
+    const year = Number.isFinite(namingYear) ? namingYear : road.year
+    if (year && Number.isFinite(year)) {
+      setSelectedYear((prev) => Math.max(prev, year))
+    }
+  }
+
+  const resolveRoadFromNames = (englishName, chineseName) => {
+    const en = normalizeRoadName(englishName)
+    const zh = normalizeRoadName(chineseName)
+    const exactId = `${en}|${zh}`
+    const exact = roadIndex.find((road) => road.id === exactId)
+    if (exact) return exact
+
+    const keyword = `${en} ${zh}`.trim().toLowerCase()
+    if (!keyword) return null
+    return roadIndex.find((item) => item.searchText.includes(keyword)) ?? null
+  }
+
+  const openRoadOnMap = ({ englishName, chineseName, namingYear }) => {
+    const matched = resolveRoadFromNames(englishName, chineseName)
+    if (matched) {
+      applyRoadSelection(matched, { namingYear })
+    } else {
+      const en = normalizeRoadName(englishName)
+      const zh = normalizeRoadName(chineseName)
+      setActiveRoadId(null)
+      setSelectedRoadKey(null)
+      setClickedRoadCenter(null)
+      setPickedRoadMeta(null)
+      setRoadSearch(`${zh} ${en}`.trim())
+      const year = Number(namingYear)
+      if (Number.isFinite(year)) {
+        setSelectedYear((prev) => Math.max(prev, year))
+      }
+    }
+    setActivePage('map')
+    setIsMobileMenuOpen(false)
+  }
+
   const togglePanel = (panel) => {
     setCollapsedPanels((prev) => {
       const isCurrentlyCollapsed = prev[panel]
@@ -396,16 +442,7 @@ function App() {
                     type="button"
                     className={`road-search-item ${activeRoadId === road.id ? 'is-active' : ''}`}
                     key={road.id}
-                    onClick={() => {
-                      setActiveRoadId(road.id)
-                      setSelectedRoadKey(road.id)
-                      setClickedRoadCenter(null)
-                      setPickedRoadMeta(null)
-                      setRoadSearch(`${road.zhName} ${road.enName}`.trim())
-                      if (road.year && Number.isFinite(road.year)) {
-                        setSelectedYear((prev) => Math.max(prev, road.year))
-                      }
-                    }}
+                    onClick={() => applyRoadSelection(road)}
                   >
                     <span className="road-search-main">
                       {road.zhName || '-'} {road.enName || '-'}
@@ -584,7 +621,10 @@ function App() {
           </div>
         </>
       ) : (
-        <PendingDashboard onOpenMobileMenu={() => setIsMobileMenuOpen((prev) => !prev)} />
+        <PendingDashboard
+          onOpenMobileMenu={() => setIsMobileMenuOpen((prev) => !prev)}
+          onOpenRoadOnMap={openRoadOnMap}
+        />
       )}
     </main>
   )

@@ -57,7 +57,7 @@ const PERIOD_GROUPS = [
   { id: 'unknown', label: '未知 Unknown', start: null, end: null },
 ]
 
-function PendingDashboard({ onOpenMobileMenu }) {
+function PendingDashboard({ onOpenMobileMenu, onOpenRoadOnMap }) {
   const [report, setReport] = useState(null)
   const [isLoading, setIsLoading] = useState(true)
   const [searchText, setSearchText] = useState('')
@@ -267,9 +267,32 @@ function PendingDashboard({ onOpenMobileMenu }) {
                 </tr>
               </thead>
               <tbody>
-                {sortedRows.slice(0, 500).map((row) => (
+                {sortedRows.slice(0, 500).map((row) => {
+                  const streetLabel =
+                    `${row.chinese_name || ''} ${row.english_name || ''}`.trim() || '-'
+                  const canOpenOnMap = Boolean(onOpenRoadOnMap && row.english_name && row.chinese_name)
+
+                  return (
                   <tr key={row.road_key}>
-                    <td>{`${row.chinese_name || ''} ${row.english_name || ''}`.trim() || '-'}</td>
+                    <td>
+                      {canOpenOnMap ? (
+                        <button
+                          type="button"
+                          className="pending-street-link"
+                          onClick={() =>
+                            onOpenRoadOnMap({
+                              englishName: row.english_name,
+                              chineseName: row.chinese_name,
+                              namingYear: Number(row.naming_year),
+                            })
+                          }
+                        >
+                          {streetLabel}
+                        </button>
+                      ) : (
+                        streetLabel
+                      )}
+                    </td>
                     <td>{row.street_type || '-'}</td>
                     <td>{getNamingDisplay(row)}</td>
                     <td>
@@ -308,7 +331,8 @@ function PendingDashboard({ onOpenMobileMenu }) {
                       )}
                     </td>
                   </tr>
-                ))}
+                  )
+                })}
               </tbody>
             </table>
           </div>
