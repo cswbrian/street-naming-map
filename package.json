@@ -39,7 +39,8 @@
     "deck.gl": "^9.3.1",
     "maplibre-gl": "^5.24.0",
     "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "react-dom": "^19.2.5",
+    "react-router-dom": "^7.15.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

@@ -204,7 +204,7 @@ function MapView({
     })
 
     mapRef.current = map
-    map.addControl(new maplibregl.NavigationControl(), 'top-right')
+    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right')
 
     const deckOverlay = new MapboxOverlay({ interleaved: true, layers: [] })
     map.addControl(deckOverlay)

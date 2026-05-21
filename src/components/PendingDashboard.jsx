@@ -57,7 +57,7 @@ const PERIOD_GROUPS = [
   { id: 'unknown', label: '未知 Unknown', start: null, end: null },
 ]
 
-function PendingDashboard({ onOpenMobileMenu, onOpenRoadOnMap }) {
+function PendingDashboard({ onOpenRoadOnMap }) {
   const [report, setReport] = useState(null)
   const [isLoading, setIsLoading] = useState(true)
   const [searchText, setSearchText] = useState('')
@@ -182,15 +182,7 @@ function PendingDashboard({ onOpenMobileMenu, onOpenRoadOnMap }) {
   return (
     <section className="pending-dashboard">
       <header className="pending-dashboard-header">
-        <button
-          type="button"
-          className="mobile-nav-trigger mobile-nav-trigger-dashboard"
-          aria-label="Open navigation menu"
-          onClick={() => onOpenMobileMenu?.()}
-        >
-          ☰
-        </button>
-        <h1>Street Naming Directory</h1>
+        <h1>Names</h1>
         <p>Full street list with naming date and gazette notice links (self-hosted PDFs for eGazette-mapped streets).</p>
       </header>
 
