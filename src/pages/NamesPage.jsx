@@ -1,9 +1,11 @@
 import { useNavigate } from 'react-router-dom'
 import AppNav from '../components/AppNav'
 import PendingDashboard from '../components/PendingDashboard'
+import { useLocalePath } from '../i18n/LocaleContext'
 
 function NamesPage() {
   const navigate = useNavigate()
+  const mapPath = useLocalePath()
 
   const openRoadOnMap = ({ englishName, chineseName, namingYear }) => {
     const params = new URLSearchParams()
@@ -11,7 +13,7 @@ function NamesPage() {
     if (chineseName) params.set('zh', chineseName)
     const year = Number(namingYear)
     if (Number.isFinite(year)) params.set('year', String(year))
-    navigate({ pathname: '/', search: params.toString() })
+    navigate({ pathname: mapPath, search: params.toString() })
   }
 
   return (

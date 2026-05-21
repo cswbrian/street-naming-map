@@ -87,6 +87,7 @@ const bboxToPolygon = (bbox) => {
 }
 
 function MapView({
+  locale,
   selectedYear,
   minYear,
   activeGroup,
@@ -511,7 +512,7 @@ function MapView({
       <div class="selected-road-chip-content">
         <p class="selected-road-chip-zh">${selectedRoadInfo.zhName || '-'}</p>
         <p class="selected-road-chip-en">${selectedRoadInfo.enName || '-'}</p>
-        <p class="selected-road-chip-year">${formatNamingDate(selectedRoadInfo.namingDate) || selectedRoadInfo.year || 'Unknown'}</p>
+        <p class="selected-road-chip-year">${formatNamingDate(selectedRoadInfo.namingDate) || selectedRoadInfo.year || (locale === 'zh' ? '未知' : 'Unknown')}</p>
       </div>
     `
 
@@ -526,7 +527,7 @@ function MapView({
     })
       .setLngLat(selectedRoadCenter)
       .addTo(map)
-  }, [selectedRoadKey, selectedRoadCenter, selectedRoadInfo])
+  }, [selectedRoadKey, selectedRoadCenter, selectedRoadInfo, locale])
 
   return <section className="map-container" ref={mapContainerRef} />
 }

@@ -3,6 +3,8 @@ import { useSearchParams } from 'react-router-dom'
 import AppNav from '../components/AppNav'
 import MapView from '../components/MapView'
 import TimelineSlider from '../components/TimelineSlider'
+import { useLocale } from '../i18n/LocaleContext'
+import { COLOR_GROUP_DEFS } from '../i18n/translations'
 import { REGION_OPTIONS, DISTRICT_OPTIONS } from '../config/regions.mjs'
 import subdistrictCentersConfig from '../config/subdistrictCenters.json'
 
@@ -29,6 +31,7 @@ const normalizeRoadName = (value) => {
 }
 
 function MapPage() {
+  const { locale, t, formatStreetName } = useLocale()
   const [searchParams, setSearchParams] = useSearchParams()
   const currentYear = new Date().getFullYear()
   const minYear = 1842
@@ -52,15 +55,13 @@ function MapPage() {
     timeline: false,
   })
 
-  const colorGroups = [
-    { id: 'g1', range: '1842-1898', color: '#5B6CFF', start: 1842, end: 1898 },
-    { id: 'g2', range: '1899-1945', color: '#3FA9FF', start: 1899, end: 1945 },
-    { id: 'g3', range: '1946-1969', color: '#2ED3FF', start: 1946, end: 1969 },
-    { id: 'g4', range: '1970-1989', color: '#35F2C3', start: 1970, end: 1989 },
-    { id: 'g5', range: '1990-2009', color: '#C6FF4D', start: 1990, end: 2009 },
-    { id: 'g6', range: '2010-Now', color: '#FF5FD2', start: 2010, end: currentYear },
-    { id: 'g-unknown', range: '未知 Unknown', color: '#B0B8C9', isUnknown: true },
-  ]
+  const colorGroups = useMemo(
+    () =>
+      COLOR_GROUP_DEFS.map((group) =>
+        group.id === 'g6' ? { ...group, end: currentYear } : group,
+      ),
+    [currentYear],
+  )
 
   const activeGroup = colorGroups.find((group) => group.id === activeGroupId) ?? null
   const filteredDistricts = useMemo(() => {
@@ -71,24 +72,27 @@ function MapPage() {
     return filteredDistricts.flatMap((district) =>
       district.subDistricts.map((subDistrict, index) => {
         const parsed = parseBilingualLabel(subDistrict)
-        const displayLabel = `${parsed.zh} ${parsed.en}`.trim() || subDistrict
+        const localeLabel =
+          locale === 'zh'
+            ? parsed.zh || parsed.en || subDistrict
+            : parsed.en || parsed.zh || subDistrict
         return {
           id: `${district.id}-${index}`,
           label: subDistrict,
-          displayLabel,
+          localeLabel,
           queryLabel: parsed.en || subDistrict,
-          searchText: `${subDistrict} ${displayLabel}`.toLowerCase(),
+          searchText: `${subDistrict} ${parsed.zh} ${parsed.en}`.toLowerCase(),
           districtNameEn: district.nameEn,
           districtBbox: district.bbox,
         }
       }),
     )
-  }, [filteredDistricts])
+  }, [filteredDistricts, locale])
   const filteredSubDistrictOptions = useMemo(() => {
     const keyword = subDistrictSearch.trim().toLowerCase()
     if (!keyword) return subDistrictOptions
     const selectedOption = subDistrictOptions.find((item) => item.id === activeSubDistrictId)
-    if (selectedOption && keyword === selectedOption.displayLabel.toLowerCase()) {
+    if (selectedOption && keyword === selectedOption.localeLabel.toLowerCase()) {
       return subDistrictOptions
     }
     return subDistrictOptions.filter((item) => item.searchText.includes(keyword))
@@ -132,6 +136,12 @@ function MapPage() {
     return null
   }, [activeRoad, activeSubDistrict, activeRegionId, subDistrictCenters, clickedRoadCenter])
 
+  useEffect(() => {
+    if (!activeSubDistrictId) return
+    const active = subDistrictOptions.find((item) => item.id === activeSubDistrictId)
+    if (active) setSubDistrictSearch(active.localeLabel)
+  }, [locale, activeSubDistrictId, subDistrictOptions])
+
   const resolveRoadFromNames = (roads, englishName, chineseName) => {
     const en = normalizeRoadName(englishName)
     const zh = normalizeRoadName(chineseName)
@@ -150,7 +160,7 @@ function MapPage() {
     setSelectedRoadKey(road.id)
     setClickedRoadCenter(null)
     setPickedRoadMeta(null)
-    setRoadSearch(`${road.zhName} ${road.enName}`.trim())
+    setRoadSearch(formatStreetName(road.zhName, road.enName))
     const year = Number.isFinite(namingYear) ? namingYear : road.year
     if (year && Number.isFinite(year)) {
       setSelectedYear((prev) => Math.max(prev, year))
@@ -258,7 +268,7 @@ function MapPage() {
             setSelectedRoadKey(matched.id)
             setClickedRoadCenter(null)
             setPickedRoadMeta(null)
-            setRoadSearch(`${matched.zhName} ${matched.enName}`.trim())
+            setRoadSearch(formatStreetName(matched.zhName, matched.enName))
             const year = Number.isFinite(namingYear) ? namingYear : matched.year
             if (year && Number.isFinite(year)) {
               setSelectedYear((prev) => Math.max(prev, year))
@@ -268,7 +278,7 @@ function MapPage() {
             setSelectedRoadKey(null)
             setClickedRoadCenter(null)
             setPickedRoadMeta(null)
-            setRoadSearch(`${normalizeRoadName(zh)} ${normalizeRoadName(en)}`.trim())
+            setRoadSearch(formatStreetName(normalizeRoadName(zh), normalizeRoadName(en)))
             if (Number.isFinite(namingYear)) {
               setSelectedYear((prev) => Math.max(prev, namingYear))
             }
@@ -339,6 +349,7 @@ function MapPage() {
   return (
     <>
       <MapView
+        locale={locale}
         selectedYear={selectedYear}
         minYear={minYear}
         activeGroup={activeGroup}
@@ -368,7 +379,7 @@ function MapPage() {
             year: Number.isFinite(year) ? year : null,
             namingDate: normalizeRoadName(namingDate),
           })
-          setRoadSearch(`${zhName ?? ''} ${enName ?? ''}`.trim())
+          setRoadSearch(formatStreetName(zhName, enName))
           const matched = roadIndex.find((road) => road.id === key)
           setActiveRoadId(matched ? matched.id : null)
           if (year && Number.isFinite(year)) {
@@ -383,7 +394,7 @@ function MapPage() {
               className="road-search-input"
               type="text"
               value={roadSearch}
-              placeholder={isRoadIndexLoading ? 'Indexing roads...' : '搜尋街道 Search road'}
+              placeholder={isRoadIndexLoading ? t('searchRoadIndexing') : t('searchRoad')}
               disabled={isRoadIndexLoading}
               onChange={(event) => {
                 setRoadSearch(event.target.value)
@@ -404,9 +415,11 @@ function MapPage() {
                   onClick={() => applyRoadSelection(road)}
                 >
                   <span className="road-search-main">
-                    {road.zhName || '-'} {road.enName || '-'}
+                    {formatStreetName(road.zhName, road.enName)}
                   </span>
-                  <span className="road-search-year">({road.year ?? 'Unknown'})</span>
+                  <span className="road-search-year">
+                    ({road.year ?? t('unknownYear')})
+                  </span>
                 </button>
               ))}
             </div>
@@ -418,7 +431,7 @@ function MapPage() {
         <section className="map-loading-overlay" role="status" aria-live="polite">
           <div className="map-loading-card">
             <span className="map-loading-spinner" />
-            <p>Loading Hong Kong streets map...</p>
+            <p>{t('mapLoading')}</p>
           </div>
         </section>
       ) : null}
@@ -436,7 +449,7 @@ function MapPage() {
               }
             }}
           >
-            <p className="legend-title">Evolution</p>
+            <p className="legend-title">{t('evolution')}</p>
             <button
               type="button"
               className="panel-toggle"
@@ -463,7 +476,7 @@ function MapPage() {
                   }
                 >
                   <span className="legend-swatch" style={{ backgroundColor: group.color }} />
-                  <span>{group.range}</span>
+                  <span>{t(group.rangeKey)}</span>
                 </button>
               ))}
             </div>
@@ -483,7 +496,7 @@ function MapPage() {
               }
             }}
           >
-            <p className="legend-title">Select district</p>
+            <p className="legend-title">{t('selectDistrict')}</p>
             <button
               type="button"
               className="panel-toggle"
@@ -511,7 +524,7 @@ function MapPage() {
                     setPickedRoadMeta(null)
                   }}
                 >
-                  {region.nameZh} {region.nameEn}
+                  {locale === 'zh' ? region.nameZh : region.nameEn}
                 </button>
               ))}
             </div>
@@ -519,7 +532,7 @@ function MapPage() {
               className="district-search-input"
               type="text"
               value={subDistrictSearch}
-              placeholder="搜尋地區 Search district"
+              placeholder={t('searchDistrict')}
               onChange={(event) => {
                 setSubDistrictSearch(event.target.value)
                 setActiveSubDistrictId('')
@@ -537,18 +550,18 @@ function MapPage() {
                     className={`subdistrict-search-item ${activeSubDistrictId === subDistrict.id ? 'is-active' : ''}`}
                     onClick={() => {
                       setActiveSubDistrictId(subDistrict.id)
-                      setSubDistrictSearch(subDistrict.displayLabel)
+                      setSubDistrictSearch(subDistrict.localeLabel)
                       setSelectedRoadKey(null)
                       setClickedRoadCenter(null)
                       setPickedRoadMeta(null)
                       geocodeSubDistrict(subDistrict.id)
                     }}
                   >
-                    {subDistrict.displayLabel}
+                    {subDistrict.localeLabel}
                   </button>
                 ))
               ) : (
-                <p className="subdistrict-empty">No matching sub-district</p>
+                <p className="subdistrict-empty">{t('noMatchingSubDistrict')}</p>
               )}
             </div>
             <div className="navigator-actions">
@@ -565,7 +578,7 @@ function MapPage() {
                 }}
                 disabled={!activeRegionId && !activeSubDistrictId}
               >
-                Reset HK view
+                {t('resetHkView')}
               </button>
             </div>
           </div>

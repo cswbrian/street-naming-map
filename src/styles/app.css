@@ -11,6 +11,13 @@
   overflow: auto;
 }
 
+.app-top-nav-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
 .app-top-nav {
   position: relative;
   top: auto;
@@ -19,6 +26,23 @@
   display: flex;
   gap: 1rem;
   flex-shrink: 0;
+}
+
+.locale-toggle {
+  border: 1px solid var(--sn-border);
+  background: transparent;
+  color: var(--sn-text-muted);
+  border-radius: var(--sn-radius);
+  padding: 0.18rem 0.5rem;
+  font-size: 0.74rem;
+  line-height: 1.2;
+  cursor: pointer;
+  min-width: 2rem;
+}
+
+.locale-toggle:hover {
+  border-color: var(--sn-border-strong);
+  color: var(--sn-text);
 }
 
 .app-page-header {
@@ -40,6 +64,7 @@
   z-index: 10;
   display: flex;
   align-items: flex-start;
+  justify-content: space-between;
   gap: 0.65rem;
   padding: 0.65rem 0.75rem;
   min-height: 3.1rem;
@@ -673,19 +698,25 @@
   margin-top: 0.45rem;
   max-height: min(19vh, 130px);
   overflow: auto;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.24rem;
 }
 
 .subdistrict-search-item {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 100%;
   border: 1px solid var(--sn-border);
   background: transparent;
   color: var(--sn-text);
   border-radius: var(--sn-radius);
-  padding: 0.34rem 0.42rem;
+  padding: 0.34rem 0.46rem;
   font-size: 0.72rem;
+  line-height: 1.2;
   text-align: left;
+  white-space: nowrap;
   cursor: pointer;
 }
 
@@ -697,6 +728,8 @@
 
 .subdistrict-empty {
   margin: 0;
+  flex: 1 1 100%;
+  width: 100%;
   border: 1px solid var(--sn-border);
   border-radius: var(--sn-radius);
   padding: 0.34rem 0.42rem;

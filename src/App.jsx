@@ -1,19 +1,43 @@
-import { Route, Routes, useLocation } from 'react-router-dom'
+import { Route, Routes, Outlet, useLocation } from 'react-router-dom'
 import MapPage from './pages/MapPage'
 import NamesPage from './pages/NamesPage'
+import { LocaleProvider } from './i18n/LocaleContext'
+import LocaleRedirect from './routes/LocaleRedirect'
+import LegacyLocaleRedirect from './routes/LegacyLocaleRedirect'
 import './styles/app.css'
 
-function App() {
+function AppShell() {
   const location = useLocation()
-  const isNamesPage = location.pathname.endsWith('/names')
+  const isNamesPage = /\/names\/?$/.test(location.pathname)
 
   return (
     <main className={`app-shell ${isNamesPage ? 'is-dashboard' : ''}`}>
-      <Routes>
-        <Route path="/" element={<MapPage />} />
-        <Route path="/names" element={<NamesPage />} />
-      </Routes>
+      <Outlet />
     </main>
+  )
+}
+
+function LocaleLayout() {
+  return (
+    <LocaleProvider>
+      <Outlet />
+    </LocaleProvider>
+  )
+}
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<LocaleRedirect />} />
+      <Route path="/names" element={<LegacyLocaleRedirect segment="names" />} />
+      <Route path="/:locale" element={<LocaleLayout />}>
+        <Route element={<AppShell />}>
+          <Route index element={<MapPage />} />
+          <Route path="names" element={<NamesPage />} />
+        </Route>
+      </Route>
+      <Route path="*" element={<LegacyLocaleRedirect />} />
+    </Routes>
   )
 }
 

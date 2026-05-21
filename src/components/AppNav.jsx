@@ -1,22 +1,40 @@
 import { NavLink } from 'react-router-dom'
+import { useLocale, useLocalePath } from '../i18n/LocaleContext'
 
 function AppNav() {
+  const { locale, t, toggleLocale } = useLocale()
+  const mapPath = useLocalePath()
+  const namesPath = useLocalePath('names')
+
   return (
-    <nav className="app-top-nav" aria-label="Main">
-      <NavLink
-        to="/"
-        end
-        className={({ isActive }) => `app-top-nav-link ${isActive ? 'is-active' : ''}`}
+    <div className="app-top-nav-row">
+      <nav className="app-top-nav" aria-label="Main">
+        <NavLink
+          to={mapPath}
+          end
+          className={({ isActive }) => `app-top-nav-link ${isActive ? 'is-active' : ''}`}
+        >
+          {t('navMap')}
+        </NavLink>
+        <NavLink
+          to={namesPath}
+          className={({ isActive }) => `app-top-nav-link ${isActive ? 'is-active' : ''}`}
+        >
+          {t('navNames')}
+        </NavLink>
+      </nav>
+      <button
+        type="button"
+        className="locale-toggle"
+        onClick={(event) => {
+          event.stopPropagation()
+          toggleLocale()
+        }}
+        aria-label={t('langSwitchAria')}
       >
-        Map
-      </NavLink>
-      <NavLink
-        to="/names"
-        className={({ isActive }) => `app-top-nav-link ${isActive ? 'is-active' : ''}`}
-      >
-        Names
-      </NavLink>
-    </nav>
+        {locale === 'zh' ? t('langSwitchToEn') : t('langSwitchToZh')}
+      </button>
+    </div>
   )
 }
 

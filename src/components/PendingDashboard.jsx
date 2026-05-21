@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
+import { useLocale } from '../i18n/LocaleContext'
+import { getRoadTypeLabel, PERIOD_GROUP_DEFS } from '../i18n/translations'
 
 const DATA_URL = `${import.meta.env.BASE_URL}data/master/pending-naming-years.json`
 const ROAD_TYPE_PRIORITY = {
@@ -10,17 +12,10 @@ const ROAD_TYPE_PRIORITY = {
   Track: 6,
   'Unknown Type': 99,
 }
-const ROAD_TYPE_BILINGUAL = {
-  Highway: '公路 Highway',
-  'Main Road': '主要道路 Main Road',
-  'Secondary Road': '次要道路 Secondary Road',
-  'Restricted Road': '限制道路 Restricted Road',
-  Tunnel: '隧道 Tunnel',
-  Track: '小徑 Track',
-  'Unknown Type': '未知類型 Unknown Type',
-}
 
-const formatNumber = (value) => new Intl.NumberFormat('en-US').format(Number(value) || 0)
+const formatNumber = (locale, value) =>
+  new Intl.NumberFormat(locale === 'zh' ? 'zh-HK' : 'en-US').format(Number(value) || 0)
+
 const formatNamingDate = (value) => {
   const text = String(value ?? '').trim()
   if (!text) return null
@@ -30,34 +25,23 @@ const formatNamingDate = (value) => {
   return `${yyyy}.${String(mm).padStart(2, '0')}.${String(dd).padStart(2, '0')}`
 }
 
-const getNamingDisplay = (row) => {
-  const date = formatNamingDate(row.naming_date)
-  if (date) return date
-  if (row.naming_year !== null && row.naming_year !== undefined && row.naming_year !== '') {
-    return String(row.naming_year)
+const getNoticeLink = (row, locale) => {
+  const zhUrl = row.naming_details?.government_notice_url_zh
+  const enUrl = row.naming_details?.government_notice_url_en
+  const zhLabel = row.naming_details?.government_notice_label_zh || '第?號'
+  const enLabel = row.naming_details?.government_notice_label_en || 'G.N.?'
+  if (locale === 'zh') {
+    if (zhUrl) return { url: zhUrl, label: zhLabel }
+    if (enUrl) return { url: enUrl, label: enLabel }
+  } else {
+    if (enUrl) return { url: enUrl, label: enLabel }
+    if (zhUrl) return { url: zhUrl, label: zhLabel }
   }
-  return 'Pending'
+  return null
 }
-
-const getNamingSortValue = (row) => {
-  const date = formatNamingDate(row.naming_date)
-  if (date) return Number(date.replaceAll('.', ''))
-  const year = Number(row.naming_year)
-  if (Number.isFinite(year)) return year * 10000 + 101
-  return -1
-}
-
-const PERIOD_GROUPS = [
-  { id: 'g1', label: '1842-1898', start: 1842, end: 1898 },
-  { id: 'g2', label: '1899-1945', start: 1899, end: 1945 },
-  { id: 'g3', label: '1946-1969', start: 1946, end: 1969 },
-  { id: 'g4', label: '1970-1989', start: 1970, end: 1989 },
-  { id: 'g5', label: '1990-2009', start: 1990, end: 2009 },
-  { id: 'g6', label: '2010-Now', start: 2010, end: Number.POSITIVE_INFINITY },
-  { id: 'unknown', label: '未知 Unknown', start: null, end: null },
-]
 
 function PendingDashboard({ onOpenRoadOnMap }) {
+  const { locale, t, formatStreetName } = useLocale()
   const [report, setReport] = useState(null)
   const [isLoading, setIsLoading] = useState(true)
   const [searchText, setSearchText] = useState('')
@@ -75,7 +59,7 @@ function PendingDashboard({ onOpenRoadOnMap }) {
         const data = await response.json()
         if (mounted) setReport(data)
       } catch {
-        if (mounted) setError('Street directory report not found. Run npm run report:pending-years first.')
+        if (mounted) setError('reportError')
       } finally {
         if (mounted) setIsLoading(false)
       }
@@ -90,6 +74,15 @@ function PendingDashboard({ onOpenRoadOnMap }) {
   const rows = Array.isArray(report?.roads) ? report.roads : []
   const loweredQuery = searchText.trim().toLowerCase()
 
+  const getNamingDisplay = (row) => {
+    const date = formatNamingDate(row.naming_date)
+    if (date) return date
+    if (row.naming_year !== null && row.naming_year !== undefined && row.naming_year !== '') {
+      return String(row.naming_year)
+    }
+    return t('pending')
+  }
+
   const filteredRows = useMemo(() => {
     if (!loweredQuery) return rows
     return rows.filter((row) => {
@@ -103,11 +96,16 @@ function PendingDashboard({ onOpenRoadOnMap }) {
     const getStreetName = (row) =>
       `${row.chinese_name || ''} ${row.english_name || ''}`.trim().toLowerCase()
     const getType = (row) => String(row.street_type || '').toLowerCase()
-    const getYear = (row) => getNamingSortValue(row)
+    const getYear = (row) => {
+      const date = formatNamingDate(row.naming_date)
+      if (date) return Number(date.replaceAll('.', ''))
+      const year = Number(row.naming_year)
+      if (Number.isFinite(year)) return year * 10000 + 101
+      return -1
+    }
     const getNotice = (row) => {
-      const zh = String(row.naming_details?.government_notice_label_zh || '')
-      const en = String(row.naming_details?.government_notice_label_en || '')
-      return `${zh} ${en}`.trim().toLowerCase()
+      const link = getNoticeLink(row, locale)
+      return (link?.label ?? '').toLowerCase()
     }
 
     const getComparableValue = (row, key) => {
@@ -125,7 +123,7 @@ function PendingDashboard({ onOpenRoadOnMap }) {
       if (aValue > bValue) return 1 * sign
       return getStreetName(a).localeCompare(getStreetName(b))
     })
-  }, [filteredRows, sortConfig])
+  }, [filteredRows, sortConfig, locale])
 
   const toggleSort = (key) => {
     setSortConfig((prev) => {
@@ -157,7 +155,7 @@ function PendingDashboard({ onOpenRoadOnMap }) {
   }, [rows])
 
   const periodStats = useMemo(() => {
-    const counts = new Map(PERIOD_GROUPS.map((group) => [group.id, 0]))
+    const counts = new Map(PERIOD_GROUP_DEFS.map((group) => [group.id, 0]))
     rows.forEach((row) => {
       const year = Number(row.naming_year)
       if (!Number.isFinite(year)) {
@@ -165,7 +163,7 @@ function PendingDashboard({ onOpenRoadOnMap }) {
         return
       }
       const matched =
-        PERIOD_GROUPS.find(
+        PERIOD_GROUP_DEFS.find(
           (group) =>
             group.id !== 'unknown' &&
             year >= Number(group.start) &&
@@ -173,43 +171,45 @@ function PendingDashboard({ onOpenRoadOnMap }) {
         )?.id ?? 'unknown'
       counts.set(matched, (counts.get(matched) ?? 0) + 1)
     })
-    return PERIOD_GROUPS.map((group) => ({
-      label: group.label,
+    return PERIOD_GROUP_DEFS.map((group) => ({
+      label: t(group.rangeKey),
       count: counts.get(group.id) ?? 0,
     }))
-  }, [rows])
+  }, [rows, t])
 
   return (
     <section className="pending-dashboard">
       <header className="pending-dashboard-header">
-        <h1>Names</h1>
-        <p>Full street list with naming date and gazette notice links (self-hosted PDFs for eGazette-mapped streets).</p>
+        <h1>{t('namesTitle')}</h1>
+        <p>{t('namesDescription')}</p>
       </header>
 
-      {isLoading ? <p className="pending-dashboard-note">Loading report...</p> : null}
-      {!isLoading && error ? <p className="pending-dashboard-note">{error}</p> : null}
+      {isLoading ? <p className="pending-dashboard-note">{t('loadingReport')}</p> : null}
+      {!isLoading && error ? (
+        <p className="pending-dashboard-note">{error === 'reportError' ? t('reportError') : error}</p>
+      ) : null}
 
       {!isLoading && !error && report ? (
         <>
           <section className="pending-stats-section">
-            <h2 className="pending-stats-title">道路類型 Road Types</h2>
+            <h2 className="pending-stats-title">{t('roadTypesTitle')}</h2>
             <div className="pending-stats-grid">
               {roadTypeStats.map((item) => (
                 <article className="pending-stat-card" key={`type-${item.label}`}>
-                  <h3>{ROAD_TYPE_BILINGUAL[item.label] ?? item.label}</h3>
-                  <strong>{formatNumber(item.count)}</strong>
+                  <h3>{getRoadTypeLabel(locale, item.label)}</h3>
+                  <strong>{formatNumber(locale, item.count)}</strong>
                 </article>
               ))}
             </div>
           </section>
 
           <section className="pending-stats-section">
-            <h2 className="pending-stats-title">Naming Year Periods (Legend Grouping)</h2>
+            <h2 className="pending-stats-title">{t('periodStatsTitle')}</h2>
             <div className="pending-stats-grid">
               {periodStats.map((item) => (
                 <article className="pending-stat-card" key={`period-${item.label}`}>
                   <h3>{item.label}</h3>
-                  <strong>{formatNumber(item.count)}</strong>
+                  <strong>{formatNumber(locale, item.count)}</strong>
                 </article>
               ))}
             </div>
@@ -221,10 +221,13 @@ function PendingDashboard({ onOpenRoadOnMap }) {
               className="pending-search-input"
               value={searchText}
               onChange={(event) => setSearchText(event.target.value)}
-              placeholder="Search by street code/name/type/year/date"
+              placeholder={t('searchTable')}
             />
             <span>
-              Showing {formatNumber(filteredRows.length)} / {formatNumber(rows.length)} streets
+              {t('showingStreets', {
+                shown: formatNumber(locale, filteredRows.length),
+                total: formatNumber(locale, rows.length),
+              })}
             </span>
           </div>
 
@@ -234,25 +237,25 @@ function PendingDashboard({ onOpenRoadOnMap }) {
                 <tr>
                   <th>
                     <button type="button" className="pending-sort-header" onClick={() => toggleSort('street')}>
-                      Street name
+                      {t('colStreet')}
                       <span>{sortConfig.key === 'street' ? (sortConfig.direction === 'asc' ? ' ▲' : ' ▼') : ''}</span>
                     </button>
                   </th>
                   <th>
                     <button type="button" className="pending-sort-header" onClick={() => toggleSort('type')}>
-                      Type
+                      {t('colType')}
                       <span>{sortConfig.key === 'type' ? (sortConfig.direction === 'asc' ? ' ▲' : ' ▼') : ''}</span>
                     </button>
                   </th>
                   <th>
                     <button type="button" className="pending-sort-header" onClick={() => toggleSort('year')}>
-                      Naming Date
+                      {t('colNaming')}
                       <span>{sortConfig.key === 'year' ? (sortConfig.direction === 'asc' ? ' ▲' : ' ▼') : ''}</span>
                     </button>
                   </th>
                   <th>
                     <button type="button" className="pending-sort-header" onClick={() => toggleSort('notice')}>
-                      Gazette notice
+                      {t('colNotice')}
                       <span>{sortConfig.key === 'notice' ? (sortConfig.direction === 'asc' ? ' ▲' : ' ▼') : ''}</span>
                     </button>
                   </th>
@@ -260,74 +263,50 @@ function PendingDashboard({ onOpenRoadOnMap }) {
               </thead>
               <tbody>
                 {sortedRows.slice(0, 500).map((row) => {
-                  const streetLabel =
-                    `${row.chinese_name || ''} ${row.english_name || ''}`.trim() || '-'
+                  const streetLabel = formatStreetName(row.chinese_name, row.english_name)
                   const canOpenOnMap = Boolean(onOpenRoadOnMap && row.english_name && row.chinese_name)
+                  const notice = getNoticeLink(row, locale)
 
                   return (
-                  <tr key={row.road_key}>
-                    <td>
-                      {canOpenOnMap ? (
-                        <button
-                          type="button"
-                          className="pending-street-link"
-                          onClick={() =>
-                            onOpenRoadOnMap({
-                              englishName: row.english_name,
-                              chineseName: row.chinese_name,
-                              namingYear: Number(row.naming_year),
-                            })
-                          }
-                        >
-                          {streetLabel}
-                        </button>
-                      ) : (
-                        streetLabel
-                      )}
-                    </td>
-                    <td>{row.street_type || '-'}</td>
-                    <td>{getNamingDisplay(row)}</td>
-                    <td>
-                      {row.naming_details?.government_notice_url_en ||
-                      row.naming_details?.government_notice_url_zh ? (
-                        <span className="pending-notice-links">
-                          {row.naming_details?.government_notice_url_zh ? (
-                            <a
-                              href={row.naming_details.government_notice_url_zh}
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              {row.naming_details.government_notice_label_zh || '第?號'}
-                            </a>
-                          ) : null}
-                          {row.naming_details?.government_notice_url_zh &&
-                          row.naming_details?.government_notice_url_en ? (
-                            <span className="pending-notice-sep"> · </span>
-                          ) : null}
-                          {row.naming_details?.government_notice_url_en ? (
-                            <a
-                              href={row.naming_details.government_notice_url_en}
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              {row.naming_details.government_notice_label_en || 'G.N.?'}
-                            </a>
-                          ) : null}
-                        </span>
-                      ) : (
-                        '-'
-                      )}
-                    </td>
-                  </tr>
+                    <tr key={row.road_key}>
+                      <td>
+                        {canOpenOnMap ? (
+                          <button
+                            type="button"
+                            className="pending-street-link"
+                            onClick={() =>
+                              onOpenRoadOnMap({
+                                englishName: row.english_name,
+                                chineseName: row.chinese_name,
+                                namingYear: Number(row.naming_year),
+                              })
+                            }
+                          >
+                            {streetLabel}
+                          </button>
+                        ) : (
+                          streetLabel
+                        )}
+                      </td>
+                      <td>{getRoadTypeLabel(locale, row.street_type) || '-'}</td>
+                      <td>{getNamingDisplay(row)}</td>
+                      <td>
+                        {notice ? (
+                          <a href={notice.url} target="_blank" rel="noreferrer">
+                            {notice.label}
+                          </a>
+                        ) : (
+                          '-'
+                        )}
+                      </td>
+                    </tr>
                   )
                 })}
               </tbody>
             </table>
           </div>
           {sortedRows.length > 500 ? (
-            <p className="pending-dashboard-note">
-              Showing first 500 rows. Narrow search to inspect specific roads.
-            </p>
+            <p className="pending-dashboard-note">{t('truncatedRows')}</p>
           ) : null}
         </>
       ) : null}

@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
+import { useLocale } from '../i18n/LocaleContext'
 
 function TimelineSlider({ minYear, maxYear, selectedYear, onYearChange, isCollapsed, onToggle }) {
+  const { t } = useLocale()
   const [isPlaying, setIsPlaying] = useState(false)
   const milestoneYears = [minYear, 1945, maxYear]
   const toPercent = (year) => ((year - minYear) / (maxYear - minYear)) * 100
@@ -39,7 +41,7 @@ function TimelineSlider({ minYear, maxYear, selectedYear, onYearChange, isCollap
           }
         }}
       >
-        <span className="timeline-header-label">Timeline</span>
+        <span className="timeline-header-label">{t('timeline')}</span>
         <div className="panel-header-actions">
           {!isCollapsed ? <strong className="timeline-year-value">{selectedYear}</strong> : null}
           {!isCollapsed ? (
@@ -50,7 +52,7 @@ function TimelineSlider({ minYear, maxYear, selectedYear, onYearChange, isCollap
                 event.stopPropagation()
                 setIsPlaying((prev) => !prev)
               }}
-              aria-label={isPlaying ? 'Pause timeline animation' : 'Play timeline animation'}
+              aria-label={isPlaying ? t('timelinePause') : t('timelinePlay')}
             >
               {isPlaying ? '❚❚' : '▶'}
             </button>
