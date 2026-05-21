@@ -4,7 +4,7 @@ Interactive React PWA that visualizes the history of Hong Kong street developmen
 
 ## Features
 
-- Full-screen MapLibre map with cyberpunk styling
+- Full-screen MapLibre map with dark Swiss UI and neon era colors on road data
 - Timeline slider to reveal roads up to a selected year
 - Bilingual road labels (English + Chinese) with year markers
 - Period-based color grouping with interactive legend filtering

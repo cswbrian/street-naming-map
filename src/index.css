@@ -1,7 +1,17 @@
 :root {
-  font-family: Inter, 'Segoe UI', sans-serif;
-  color: #d8ecff;
-  background-color: #04050a;
+  --sn-bg: #111111;
+  --sn-bg-panel: #161616;
+  --sn-bg-elevated: #1c1c1c;
+  --sn-text: #e8e8e8;
+  --sn-text-muted: rgba(232, 232, 232, 0.68);
+  --sn-text-faint: rgba(232, 232, 232, 0.45);
+  --sn-border: rgba(255, 255, 255, 0.14);
+  --sn-border-strong: rgba(255, 255, 255, 0.28);
+  --sn-radius: 2px;
+  --sn-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: var(--sn-font);
+  color: var(--sn-text);
+  background-color: var(--sn-bg);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -20,4 +30,10 @@ body,
   margin: 0;
   width: 100%;
   height: 100%;
+}
+
+button,
+input,
+select {
+  font: inherit;
 }

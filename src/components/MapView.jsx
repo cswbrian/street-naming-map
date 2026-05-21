@@ -54,8 +54,8 @@ const darkStyle = {
       id: 'background',
       type: 'background',
       paint: {
-        'background-color': '#02040a',
-        'background-opacity': 0.2,
+        'background-color': '#121212',
+        'background-opacity': 0.35,
       },
     },
   ],
@@ -342,10 +342,10 @@ function MapView({
           'line-join': 'round',
         },
         paint: {
-          'line-color': '#f7ffa4',
-          'line-width': ['interpolate', ['linear'], ['zoom'], 9, 7, 14, 14],
-          'line-opacity': 0.24,
-          'line-blur': 1.2,
+          'line-color': '#e8e8e8',
+          'line-width': ['interpolate', ['linear'], ['zoom'], 9, 5, 14, 10],
+          'line-opacity': 0,
+          'line-blur': 0,
         },
         filter: ['==', ['get', 'OBJECTID'], -1],
       })
@@ -359,10 +359,10 @@ function MapView({
           'line-join': 'round',
         },
         paint: {
-          'line-color': '#fff7a8',
-          'line-width': ['interpolate', ['linear'], ['zoom'], 9, 2.8, 14, 6.8],
-          'line-opacity': 0.96,
-          'line-blur': 0.08,
+          'line-color': '#f0f0f0',
+          'line-width': ['interpolate', ['linear'], ['zoom'], 9, 2.6, 14, 5.5],
+          'line-opacity': 0.95,
+          'line-blur': 0,
         },
         filter: ['==', ['get', 'OBJECTID'], -1],
       })
@@ -377,7 +377,7 @@ function MapView({
         type: 'line',
         source: FOCUS_SOURCE_ID,
         paint: {
-          'line-color': '#8ff3ff',
+          'line-color': '#9a9a9a',
           'line-width': 1.8,
           'line-opacity': 0.9,
           'line-dasharray': [1.5, 1],
@@ -508,11 +508,10 @@ function MapView({
     const chip = document.createElement('section')
     chip.className = 'selected-road-chip'
     chip.innerHTML = `
-      <div class="selected-road-chip-accent" aria-hidden="true"></div>
       <div class="selected-road-chip-content">
         <p class="selected-road-chip-zh">${selectedRoadInfo.zhName || '-'}</p>
         <p class="selected-road-chip-en">${selectedRoadInfo.enName || '-'}</p>
-        <p class="selected-road-chip-year">Naming date: ${formatNamingDate(selectedRoadInfo.namingDate) || selectedRoadInfo.year || 'Unknown'}</p>
+        <p class="selected-road-chip-year">${formatNamingDate(selectedRoadInfo.namingDate) || selectedRoadInfo.year || 'Unknown'}</p>
       </div>
     `
 

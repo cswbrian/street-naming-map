@@ -436,7 +436,7 @@ function MapPage() {
               }
             }}
           >
-            <p className="legend-title">年代 Period</p>
+            <p className="legend-title">Evolution</p>
             <button
               type="button"
               className="panel-toggle"
@@ -483,7 +483,7 @@ function MapPage() {
               }
             }}
           >
-            <p className="legend-title">選擇地區 Select District</p>
+            <p className="legend-title">Select district</p>
             <button
               type="button"
               className="panel-toggle"

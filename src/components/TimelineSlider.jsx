@@ -39,9 +39,9 @@ function TimelineSlider({ minYear, maxYear, selectedYear, onYearChange, isCollap
           }
         }}
       >
-        <span>時間軸 Timeline</span>
+        <span className="timeline-header-label">Timeline</span>
         <div className="panel-header-actions">
-          {!isCollapsed ? <strong>{selectedYear}</strong> : null}
+          {!isCollapsed ? <strong className="timeline-year-value">{selectedYear}</strong> : null}
           {!isCollapsed ? (
             <button
               type="button"
