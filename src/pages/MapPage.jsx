@@ -590,23 +590,6 @@ function MapPage() {
                 <p className="subdistrict-empty">{t('noMatchingSubDistrict')}</p>
               )}
             </div>
-            <div className="navigator-actions">
-              <button
-                type="button"
-                className="navigator-link"
-                onClick={() => {
-                  setActiveRegionId(null)
-                  setActiveSubDistrictId('')
-                  setSubDistrictSearch('')
-                  setSelectedRoadKey(null)
-                  setClickedRoadCenter(null)
-                  setPickedRoadMeta(null)
-                }}
-                disabled={!activeRegionId && !activeSubDistrictId}
-              >
-                {t('resetHkView')}
-              </button>
-            </div>
           </div>
         </section>
 
