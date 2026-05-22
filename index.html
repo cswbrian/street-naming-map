@@ -10,6 +10,15 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      ;(() => {
+        const base = '/street-naming-map'
+        const { pathname, search, hash } = window.location
+        if (pathname === base) {
+          window.location.replace(`${base}/${search}${hash}`)
+        }
+      })()
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

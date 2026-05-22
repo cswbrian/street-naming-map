@@ -6,11 +6,28 @@ import react from '@vitejs/plugin-react'
 
 const rootDir = dirname(fileURLToPath(import.meta.url))
 
+const basePath = '/street-naming-map'
+
 // https://vite.dev/config/
 export default defineConfig({
   base: '/street-naming-map/',
   plugins: [
     react(),
+    {
+      name: 'redirect-base-path-without-trailing-slash',
+      configureServer(server) {
+        server.middlewares.use((req, res, next) => {
+          const [path, query = ''] = (req.url ?? '').split('?')
+          if (path === basePath) {
+            const suffix = query ? `?${query}` : ''
+            res.writeHead(308, { Location: `${basePath}/${suffix}` })
+            res.end()
+            return
+          }
+          next()
+        })
+      },
+    },
     {
       name: 'copy-index-for-spa-fallback',
       closeBundle() {

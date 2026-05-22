@@ -185,7 +185,6 @@ function PendingDashboard({ onOpenRoadOnMap }) {
     <section className="pending-dashboard">
       <header className="pending-dashboard-header">
         <h1>{t('namesTitle')}</h1>
-        <p>{t('namesDescription')}</p>
       </header>
 
       {isLoading ? <p className="pending-dashboard-note">{t('loadingReport')}</p> : null}

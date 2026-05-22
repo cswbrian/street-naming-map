@@ -28,7 +28,6 @@ export const translations = {
     periodG6: '2010–至今',
     periodUnknown: '未知',
     namesTitle: '街道名稱',
-    namesDescription: '完整街道清單，含命名日期及政府憲報公告連結（eGazette 已對應街道提供自架 PDF）。',
     loadingReport: '正在載入報告…',
     reportError: '找不到街道目錄報告。請先執行 npm run report:pending-years。',
     roadTypesTitle: '道路類型',
@@ -74,8 +73,6 @@ export const translations = {
     periodG6: '2010–now',
     periodUnknown: 'Unknown',
     namesTitle: 'Names',
-    namesDescription:
-      'Full street list with naming date and gazette notice links (self-hosted PDFs for eGazette-mapped streets).',
     loadingReport: 'Loading report…',
     reportError: 'Street directory report not found. Run npm run report:pending-years first.',
     roadTypesTitle: 'Road types',

@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import './index.css'
 import App from './App.jsx'
+import { redirectToLocaleIfNeeded } from './i18n/redirectToLocale.js'
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
@@ -14,6 +15,8 @@ if ('serviceWorker' in navigator) {
       })
   })
 }
+
+redirectToLocaleIfNeeded()
 
 const basename = import.meta.env.BASE_URL.replace(/\/$/, '') || '/'
 
