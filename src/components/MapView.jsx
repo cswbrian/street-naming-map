@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import maplibregl from 'maplibre-gl'
 import { MapboxOverlay } from '@deck.gl/mapbox'
 import 'maplibre-gl/dist/maplibre-gl.css'
+import { buildRoadFilter, buildRoadKey } from '../lib/roadKey'
 
 const SOURCE_ID = 'hk-roads-source'
 const LAYER_ID = 'hk-roads-layer'
@@ -133,14 +134,7 @@ function MapView({
     map.setFilter(LAYER_ID, combinedFilter)
     map.setFilter(LABEL_LAYER_ID, combinedFilter)
 
-    const [enName = '', zhName = ''] = roadKey ? roadKey.split('|') : []
-    const roadFilter = roadKey
-      ? [
-          'all',
-          ['==', ['coalesce', ['get', 'ENGLISHSTREETNAME'], ''], enName],
-          ['==', ['coalesce', ['get', 'CHINESESTREETNAME'], ''], zhName],
-        ]
-      : ['==', ['get', 'OBJECTID'], -1]
+    const roadFilter = buildRoadFilter(roadKey)
     map.setFilter(HIGHLIGHT_GLOW_LAYER_ID, roadFilter)
     map.setFilter(HIGHLIGHT_CORE_LAYER_ID, roadFilter)
 
@@ -396,7 +390,9 @@ function MapView({
         if (!feature) return
         const enName = String(feature.properties?.ENGLISHSTREETNAME ?? '').trim()
         const zhName = String(feature.properties?.CHINESESTREETNAME ?? '').trim()
-        const key = `${enName}|${zhName}`
+        const streetCode = String(feature.properties?.STREETCODE ?? '').trim()
+        const key = buildRoadKey(enName, zhName, streetCode)
+        if (!key) return
         const year = Number(feature.properties?.naming_year)
         const namingDate = String(feature.properties?.naming_date ?? '').trim()
         onRoadPick?.({
@@ -406,6 +402,7 @@ function MapView({
           namingDate: namingDate || null,
           enName,
           zhName,
+          streetCode: streetCode || null,
         })
       })
 
@@ -510,8 +507,8 @@ function MapView({
     chip.className = 'selected-road-chip'
     chip.innerHTML = `
       <div class="selected-road-chip-content">
-        <p class="selected-road-chip-zh">${selectedRoadInfo.zhName || '-'}</p>
-        <p class="selected-road-chip-en">${selectedRoadInfo.enName || '-'}</p>
+        ${selectedRoadInfo.zhName ? `<p class="selected-road-chip-zh">${selectedRoadInfo.zhName}</p>` : ''}
+        ${selectedRoadInfo.enName ? `<p class="selected-road-chip-en">${selectedRoadInfo.enName}</p>` : ''}
         <p class="selected-road-chip-year">${formatNamingDate(selectedRoadInfo.namingDate) || selectedRoadInfo.year || (locale === 'zh' ? '未知' : 'Unknown')}</p>
       </div>
     `

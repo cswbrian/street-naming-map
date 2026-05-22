@@ -7,6 +7,7 @@ import { useLocale } from '../i18n/LocaleContext'
 import { COLOR_GROUP_DEFS } from '../i18n/translations'
 import { REGION_OPTIONS, DISTRICT_OPTIONS } from '../config/regions.mjs'
 import subdistrictCentersConfig from '../config/subdistrictCenters.json'
+import { buildRoadKey, normalizeRoadName, parseRoadKey } from '../lib/roadKey'
 
 const parseBilingualLabel = (value) => {
   const text = String(value ?? '').trim()
@@ -18,16 +19,6 @@ const parseBilingualLabel = (value) => {
     en: match[1].trim(),
     zh: match[2].trim(),
   }
-}
-
-const normalizeRoadName = (value) => {
-  const text = String(value ?? '').trim()
-  if (!text) return ''
-  const lowered = text.toLowerCase()
-  if (['null', 'undefined', 'n/a', 'na', '-', '--'].includes(lowered)) {
-    return ''
-  }
-  return text
 }
 
 function MapPage() {
@@ -142,6 +133,16 @@ function MapPage() {
     if (active) setSubDistrictSearch(active.localeLabel)
   }, [locale, activeSubDistrictId, subDistrictOptions])
 
+  const formatRoadLabel = (road) => {
+    if (road.enName || road.zhName) {
+      return formatStreetName(road.zhName, road.enName)
+    }
+    if (road.streetCode) {
+      return t('unnamedStreetCode', { code: road.streetCode })
+    }
+    return '-'
+  }
+
   const resolveRoadFromNames = (roads, englishName, chineseName) => {
     const en = normalizeRoadName(englishName)
     const zh = normalizeRoadName(chineseName)
@@ -154,13 +155,19 @@ function MapPage() {
     return roads.find((item) => item.searchText.includes(keyword)) ?? null
   }
 
+  const resolveRoadFromCode = (roads, streetCode) => {
+    const code = String(streetCode ?? '').trim()
+    if (!code) return null
+    return roads.find((road) => road.id === `code:${code}`) ?? null
+  }
+
   const applyRoadSelection = (road, { namingYear } = {}) => {
     if (!road) return
     setActiveRoadId(road.id)
     setSelectedRoadKey(road.id)
     setClickedRoadCenter(null)
     setPickedRoadMeta(null)
-    setRoadSearch(formatStreetName(road.zhName, road.enName))
+    setRoadSearch(formatRoadLabel(road))
     const year = Number.isFinite(namingYear) ? namingYear : road.year
     if (year && Number.isFinite(year)) {
       setSelectedYear((prev) => Math.max(prev, year))
@@ -171,8 +178,9 @@ function MapPage() {
     let isMounted = true
     const en = searchParams.get('en')
     const zh = searchParams.get('zh')
+    const code = searchParams.get('code')
     const yearParam = searchParams.get('year')
-    const hasDeepLink = Boolean(en || zh)
+    const hasDeepLink = Boolean(en || zh || code)
 
     const loadRoadIndex = async () => {
       try {
@@ -186,9 +194,9 @@ function MapPage() {
           const props = feature?.properties ?? {}
           const enName = normalizeRoadName(props.ENGLISHSTREETNAME)
           const zhName = normalizeRoadName(props.CHINESESTREETNAME)
-          if (!enName && !zhName) return
-
-          const key = `${enName}|${zhName}`
+          const streetCode = String(props.STREETCODE ?? '').trim()
+          const key = buildRoadKey(enName, zhName, streetCode)
+          if (!key) return
           const namingYear = Number(props.naming_year)
           const year = Number.isFinite(namingYear) && namingYear > 0 ? namingYear : null
           const coords = feature?.geometry?.coordinates
@@ -203,11 +211,12 @@ function MapPage() {
               id: key,
               enName,
               zhName,
+              streetCode: streetCode || null,
               year,
               namingDate: normalizeRoadName(props.naming_date),
               center: [Number(firstCoord[0]), Number(firstCoord[1])],
               count: 1,
-              searchText: `${enName} ${zhName}`.toLowerCase(),
+              searchText: enName || zhName ? `${enName} ${zhName}`.toLowerCase() : streetCode.toLowerCase(),
               bbox: [Number(firstCoord[0]), Number(firstCoord[1]), Number(firstCoord[0]), Number(firstCoord[1])],
             })
           }
@@ -262,13 +271,13 @@ function MapPage() {
 
         if (hasDeepLink) {
           const namingYear = Number(yearParam)
-          const matched = resolveRoadFromNames(roads, en, zh)
+          const matched = code ? resolveRoadFromCode(roads, code) : resolveRoadFromNames(roads, en, zh)
           if (matched) {
             setActiveRoadId(matched.id)
             setSelectedRoadKey(matched.id)
             setClickedRoadCenter(null)
             setPickedRoadMeta(null)
-            setRoadSearch(formatStreetName(matched.zhName, matched.enName))
+            setRoadSearch(formatRoadLabel(matched))
             const year = Number.isFinite(namingYear) ? namingYear : matched.year
             if (year && Number.isFinite(year)) {
               setSelectedYear((prev) => Math.max(prev, year))
@@ -360,27 +369,44 @@ function MapPage() {
         selectedRoadInfo={
           selectedRoadKey
             ? (() => {
-                const [enName = '', zhName = ''] = selectedRoadKey.split('|')
+                const parsed = parseRoadKey(selectedRoadKey)
+                if (parsed.type === 'code') {
+                  return {
+                    enName:
+                      activeRoad?.enName ||
+                      t('unnamedStreetCode', { code: parsed.streetCode }),
+                    zhName: activeRoad?.zhName || '',
+                    year: activeRoad?.year ?? pickedRoadMeta?.year ?? null,
+                    namingDate: activeRoad?.namingDate || pickedRoadMeta?.namingDate || null,
+                  }
+                }
                 return {
-                  enName: activeRoad?.enName || enName,
-                  zhName: activeRoad?.zhName || zhName,
-                  year: activeRoad?.year ?? null,
+                  enName: activeRoad?.enName || parsed.enName,
+                  zhName: activeRoad?.zhName || parsed.zhName,
+                  year: activeRoad?.year ?? pickedRoadMeta?.year ?? null,
                   namingDate: activeRoad?.namingDate || pickedRoadMeta?.namingDate || null,
                 }
               })()
             : null
         }
-        onRoadPick={({ key, center, year, enName, zhName, namingDate }) => {
+        onRoadPick={({ key, center, year, enName, zhName, streetCode, namingDate }) => {
           setSelectedRoadKey(key)
           setClickedRoadCenter(center)
           setPickedRoadMeta({
             enName,
             zhName,
+            streetCode,
             year: Number.isFinite(year) ? year : null,
             namingDate: normalizeRoadName(namingDate),
           })
-          setRoadSearch(formatStreetName(zhName, enName))
           const matched = roadIndex.find((road) => road.id === key)
+          setRoadSearch(
+            matched
+              ? formatRoadLabel(matched)
+              : streetCode
+                ? t('unnamedStreetCode', { code: streetCode })
+                : formatStreetName(zhName, enName),
+          )
           setActiveRoadId(matched ? matched.id : null)
           if (year && Number.isFinite(year)) {
             setSelectedYear((prev) => Math.max(prev, year))
@@ -415,7 +441,7 @@ function MapPage() {
                   onClick={() => applyRoadSelection(road)}
                 >
                   <span className="road-search-main">
-                    {formatStreetName(road.zhName, road.enName)}
+                    {formatRoadLabel(road)}
                   </span>
                   <span className="road-search-year">
                     ({road.year ?? t('unknownYear')})

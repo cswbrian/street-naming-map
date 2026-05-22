@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useLocale } from '../i18n/LocaleContext'
 import { getRoadTypeLabel, PERIOD_GROUP_DEFS } from '../i18n/translations'
+import { hasStreetName } from '../lib/roadKey'
 
 const DATA_URL = `${import.meta.env.BASE_URL}data/master/pending-naming-years.json`
 const ROAD_TYPE_PRIORITY = {
@@ -71,7 +72,10 @@ function PendingDashboard({ onOpenRoadOnMap }) {
     }
   }, [])
 
-  const rows = Array.isArray(report?.roads) ? report.roads : []
+  const rows = useMemo(() => {
+    const allRows = Array.isArray(report?.roads) ? report.roads : []
+    return allRows.filter((row) => hasStreetName(row.english_name, row.chinese_name))
+  }, [report?.roads])
   const loweredQuery = searchText.trim().toLowerCase()
 
   const getNamingDisplay = (row) => {
