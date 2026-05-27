@@ -5,7 +5,7 @@ import './index.css'
 import App from './App.jsx'
 import { redirectToLocaleIfNeeded } from './i18n/redirectToLocale.js'
 
-if ('serviceWorker' in navigator) {
+if (import.meta.env.PROD && 'serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     const swUrl = `${import.meta.env.BASE_URL}sw.js`
     navigator.serviceWorker

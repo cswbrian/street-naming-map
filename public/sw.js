@@ -1,7 +1,6 @@
-const CACHE_NAME = 'hk-streets-v2'
+const CACHE_NAME = 'hk-streets-v3'
 const BASE_URL = new URL(self.registration.scope).pathname
 const PRECACHE_URLS = [
-  BASE_URL,
   `${BASE_URL}manifest.webmanifest`,
   `${BASE_URL}icons/icon-192.svg`,
   `${BASE_URL}icons/icon-512.svg`,
@@ -28,19 +27,9 @@ self.addEventListener('fetch', (event) => {
     return
   }
 
+  // Network-first: always fetch fresh HTML, JS, and JSON data. Fall back to
+  // cache only when offline (precached icons/manifest, or a prior visit).
   event.respondWith(
-    caches.match(request).then((cached) => {
-      if (cached) {
-        return cached
-      }
-
-      return fetch(request)
-        .then((response) => {
-          const cacheable = response.clone()
-          caches.open(CACHE_NAME).then((cache) => cache.put(request, cacheable))
-          return response
-        })
-        .catch(() => caches.match(BASE_URL))
-    }),
+    fetch(request).catch(() => caches.match(request).then((cached) => cached ?? caches.match(BASE_URL))),
   )
 })
