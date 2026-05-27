@@ -3,7 +3,9 @@
  * Replace placeholders after creating forms — see docs/crowdsource-google-forms-setup.md
  */
 
-const SITE_BASE = 'https://cswbrian.github.io/street-naming-map'
+import { getSiteBaseUrl } from '../lib/seo.js'
+
+const SITE_BASE = getSiteBaseUrl()
 
 /** Single-street form: https://forms.gle/jekKtsP36mrVvyAG9 */
 export const SINGLE_FORM_ID = '1FAIpQLSd-046moDam17Bhn59HAsMnbm_d5JmT5tE-jF-zHVfUwqiByA'

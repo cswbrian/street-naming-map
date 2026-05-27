@@ -7,6 +7,7 @@ import {
   isLocale,
   isNamesRoutePath,
 } from './locale.js'
+import PageSeo from '../components/PageSeo.jsx'
 import { DEFAULT_LOCALE, LOCALE_STORAGE_KEY } from './translations.js'
 
 const LocaleContext = createContext(null)
@@ -56,7 +57,12 @@ export function LocaleProvider({ children }) {
     [locale, t],
   )
 
-  return <LocaleContext.Provider value={value}>{children}</LocaleContext.Provider>
+  return (
+    <LocaleContext.Provider value={value}>
+      <PageSeo />
+      {children}
+    </LocaleContext.Provider>
+  )
 }
 
 export function useLocale() {

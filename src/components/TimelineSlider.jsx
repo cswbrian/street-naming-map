@@ -41,7 +41,7 @@ function TimelineSlider({ minYear, maxYear, selectedYear, onYearChange, isCollap
           }
         }}
       >
-        <span className="timeline-header-label">{t('timeline')}</span>
+        <p className="legend-title">{t('timeline')}</p>
         <div className="panel-header-actions">
           {!isCollapsed ? <strong className="timeline-year-value">{selectedYear}</strong> : null}
           {!isCollapsed ? (

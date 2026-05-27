@@ -1,24 +1,37 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-HK">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#111111" />
+    <meta
+      name="description"
+      content="以政府憲報整理香港街道命名年份，互動地圖按年代顯示道路，並提供可搜尋街道名錄及社群補充命名日期。"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://street.monsoonclub.co/zh/" />
+    <meta property="og:site_name" content="香港街道編年" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="香港街道編年 · 地圖" />
+    <meta
+      property="og:description"
+      content="以政府憲報整理香港街道命名年份，互動地圖按年代顯示道路，並提供可搜尋街道名錄及社群補充命名日期。"
+    />
+    <meta property="og:url" content="https://street.monsoonclub.co/zh/" />
+    <meta property="og:locale" content="zh_HK" />
+    <meta property="og:locale:alternate" content="en" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="香港街道編年 · 地圖" />
+    <meta
+      name="twitter:description"
+      content="以政府憲報整理香港街道命名年份，互動地圖按年代顯示道路，並提供可搜尋街道名錄及社群補充命名日期。"
+    />
     <link rel="manifest" href="manifest.webmanifest" />
-    <title>Hong Kong Streets Timeline</title>
+    <title>香港街道編年 · 地圖</title>
   </head>
   <body>
     <div id="root"></div>
-    <script>
-      ;(() => {
-        const base = '/street-naming-map'
-        const { pathname, search, hash } = window.location
-        if (pathname === base) {
-          window.location.replace(`${base}/${search}${hash}`)
-        }
-      })()
-    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

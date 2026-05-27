@@ -1,7 +1,8 @@
 {
-  "name": "Hong Kong Streets Timeline",
+  "name": "HK Street Chronicle",
   "short_name": "HK Streets",
-  "description": "Visualize Hong Kong road naming history over time.",
+  "description": "Interactive map and searchable directory of Hong Kong street naming dates from government gazette records.",
+  "lang": "zh-HK",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#05070d",

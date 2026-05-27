@@ -4,8 +4,11 @@ export const LOCALE_STORAGE_KEY = 'sn-locale'
 
 export const translations = {
   zh: {
+    siteTitle: '香港街道編年',
+    seoDescription:
+      '以政府憲報整理香港街道命名年份，互動地圖按年代顯示道路，並提供可搜尋街道名錄及社群補充命名日期。',
     navMap: '地圖',
-    navNames: '街道名稱',
+    navNames: '街道',
     langSwitchToEn: 'EN',
     langSwitchAria: '切換至英文介面',
     searchRoadIndexing: '正在建立街道索引…',
@@ -18,7 +21,7 @@ export const translations = {
     timeline: '時間軸',
     timelinePlay: '播放',
     timelinePause: '暫停',
-    unknownYear: '未知',
+    unknownYear: '資料待補',
     unnamedStreetCode: '街道編號 {code}',
     periodG1: '1842–1898',
     periodG2: '1899–1945',
@@ -26,8 +29,7 @@ export const translations = {
     periodG4: '1970–1989',
     periodG5: '1990–2009',
     periodG6: '2010–至今',
-    periodUnknown: '未知',
-    namesTitle: '街道名稱',
+    periodUnknown: '資料待補',
     loadingReport: '正在載入報告…',
     reportError: '找不到街道目錄報告。請先執行 npm run report:pending-years。',
     roadTypesTitle: '道路類型',
@@ -93,8 +95,11 @@ export const translations = {
     colStatus: '狀態',
   },
   en: {
+    siteTitle: 'HK Street Chronicle',
+    seoDescription:
+      'Interactive map and searchable directory of Hong Kong street naming dates from government gazette records. Explore by era and district, and help fill missing dates.',
     navMap: 'Map',
-    navNames: 'Names',
+    navNames: 'Street',
     langSwitchToZh: '中',
     langSwitchAria: 'Switch to Chinese interface',
     searchRoadIndexing: 'Indexing roads…',
@@ -107,7 +112,7 @@ export const translations = {
     timeline: 'Timeline',
     timelinePlay: 'Play',
     timelinePause: 'Pause',
-    unknownYear: 'Unknown',
+    unknownYear: 'Data to be added',
     unnamedStreetCode: 'Street code {code}',
     periodG1: '1842–1898',
     periodG2: '1899–1945',
@@ -115,8 +120,7 @@ export const translations = {
     periodG4: '1970–1989',
     periodG5: '1990–2009',
     periodG6: '2010–now',
-    periodUnknown: 'Unknown',
-    namesTitle: 'Names',
+    periodUnknown: 'Data to be added',
     loadingReport: 'Loading report…',
     reportError: 'Street directory report not found. Run npm run report:pending-years first.',
     roadTypesTitle: 'Road types',

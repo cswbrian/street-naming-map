@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import AppNav from '../components/AppNav'
+import AppSiteTitle from '../components/AppSiteTitle'
 import PendingDashboard from '../components/PendingDashboard'
 import { useLocalePath } from '../i18n/LocaleContext'
 
@@ -19,6 +20,7 @@ function NamesPage() {
   return (
     <>
       <header className="app-page-header">
+        <AppSiteTitle />
         <AppNav />
       </header>
       <PendingDashboard onOpenRoadOnMap={openRoadOnMap} />
