@@ -4,13 +4,16 @@ import AppNav from '../components/AppNav'
 import MapView from '../components/MapView'
 import TimelineSlider from '../components/TimelineSlider'
 import { useLocale } from '../i18n/LocaleContext'
-import { COLOR_GROUP_DEFS } from '../i18n/translations'
+import { COLOR_GROUP_DEFS, getRoadTypeLabel } from '../i18n/translations'
 import { REGION_OPTIONS, DISTRICT_OPTIONS } from '../config/regions.mjs'
 import subdistrictCentersConfig from '../config/subdistrictCenters.json'
 import { buildSingleStreetFormUrl } from '../lib/contributeForm.js'
-import { buildNoticeLookup, resolveNoticeLink } from '../lib/governmentNotice.js'
+import { buildNoticeLookup, getNoticeLink, resolveNoticeLink } from '../lib/governmentNotice.js'
+import { getNamingDisplay, hasRowNamingDate } from '../lib/namingDisplay.js'
+import { getNamingSourceBadgeKey, getNamingSourceKind } from '../lib/namingSourceBadge.js'
+import { buildPendingRoadLookup, resolvePendingRoadRow } from '../lib/pendingRoadLookup.js'
 import { getDefaultMapPanelCollapse } from '../lib/mapViewport.js'
-import { buildRoadKey, normalizeRoadName, parseRoadKey } from '../lib/roadKey'
+import { buildRoadKey, hasStreetName, normalizeRoadName, parseRoadKey } from '../lib/roadKey'
 
 const ROADS_URL = `${import.meta.env.BASE_URL}data/hk-streets.geojson`
 const PENDING_URL = `${import.meta.env.BASE_URL}data/master/pending-naming-years.json`
@@ -42,6 +45,7 @@ function MapPage() {
   const [roadSearch, setRoadSearch] = useState('')
   const [roadIndex, setRoadIndex] = useState([])
   const [noticeLookup, setNoticeLookup] = useState(() => new Map())
+  const [pendingRoadLookup, setPendingRoadLookup] = useState(() => new Map())
   const [isRoadIndexLoading, setIsRoadIndexLoading] = useState(true)
   const [activeRoadId, setActiveRoadId] = useState(null)
   const [selectedRoadKey, setSelectedRoadKey] = useState(null)
@@ -95,22 +99,84 @@ function MapPage() {
   const activeRoad = roadIndex.find((item) => item.id === activeRoadId) ?? null
 
   const selectedContributeMeta = useMemo(() => {
-    if (!selectedRoadKey) return { url: null, show: false }
+    if (!selectedRoadKey) return { url: null }
     const parsed = parseRoadKey(selectedRoadKey)
     const enName = activeRoad?.enName || pickedRoadMeta?.enName || parsed.enName
     const zhName = activeRoad?.zhName || pickedRoadMeta?.zhName || parsed.zhName
-    const streetCode = parsed.type === 'code' ? parsed.streetCode : pickedRoadMeta?.streetCode
-    const year = activeRoad?.year ?? pickedRoadMeta?.year
-    const namingDate = activeRoad?.namingDate || pickedRoadMeta?.namingDate
-    const hasDate = Boolean(namingDate) || (Number.isFinite(year) && year > 0)
-    const show = !hasDate
+    const streetCode =
+      parsed.type === 'code' ? parsed.streetCode : pickedRoadMeta?.streetCode || activeRoad?.streetCode
     const url = buildSingleStreetFormUrl({
       streetCode,
       englishName: enName,
       chineseName: zhName,
     })
-    return { url, show, roadKey: selectedRoadKey }
+    return { url, roadKey: selectedRoadKey }
   }, [selectedRoadKey, activeRoad, pickedRoadMeta])
+
+  const selectedRoadInfo = useMemo(() => {
+    if (!selectedRoadKey) return null
+    const parsed = parseRoadKey(selectedRoadKey)
+    const enName = activeRoad?.enName || pickedRoadMeta?.enName || parsed.enName || ''
+    const zhName = activeRoad?.zhName || pickedRoadMeta?.zhName || parsed.zhName || ''
+    const streetCode =
+      parsed.type === 'code' ? parsed.streetCode : pickedRoadMeta?.streetCode || activeRoad?.streetCode
+    const pendingRow = resolvePendingRoadRow({
+      lookup: pendingRoadLookup,
+      roadKey: selectedRoadKey,
+      enName,
+      zhName,
+      streetCode,
+    })
+    const displayRow = pendingRow ?? {
+      english_name: enName,
+      chinese_name: zhName,
+      street_code: streetCode,
+      street_type: activeRoad?.streetType || pickedRoadMeta?.streetType || null,
+      naming_year: activeRoad?.year ?? pickedRoadMeta?.year ?? null,
+      naming_date: activeRoad?.namingDate || pickedRoadMeta?.namingDate || null,
+      naming_source: activeRoad?.namingSource || null,
+    }
+    const sourceKind = getNamingSourceKind(pendingRow ?? displayRow)
+    const sourceBadgeKey = getNamingSourceBadgeKey(sourceKind)
+    const noticeLink = pendingRow?.naming_details
+      ? getNoticeLink(pendingRow.naming_details, locale)
+      : resolveNoticeLink({
+          roadKey: selectedRoadKey,
+          enName,
+          zhName,
+          streetCode,
+          lookup: noticeLookup,
+          locale,
+        })
+    const rowForDisplay = pendingRow ?? displayRow
+    return {
+      enName: pendingRow?.english_name || enName,
+      zhName: pendingRow?.chinese_name || zhName,
+      streetType: getRoadTypeLabel(locale, displayRow.street_type) || null,
+      namingDisplay: getNamingDisplay(rowForDisplay, t),
+      isNamingPending: !hasRowNamingDate(rowForDisplay),
+      noticeLink,
+      sourceBadge: sourceBadgeKey
+        ? {
+            kind: sourceKind,
+            label: t(sourceBadgeKey),
+            hint: t(`${sourceBadgeKey}Hint`),
+          }
+        : null,
+      contributeUrl: selectedContributeMeta.url,
+      contributeLabel: t('contributeFillGap'),
+      contributeVariant: hasRowNamingDate(rowForDisplay) ? 'edit' : 'add',
+    }
+  }, [
+    selectedRoadKey,
+    activeRoad,
+    pickedRoadMeta,
+    pendingRoadLookup,
+    noticeLookup,
+    locale,
+    t,
+    selectedContributeMeta.url,
+  ])
   const roadResults = useMemo(() => {
     const keyword = roadSearch.trim().toLowerCase()
     if (!keyword) return []
@@ -179,8 +245,37 @@ function MapPage() {
   const resolveRoadFromCode = (roads, streetCode) => {
     const code = String(streetCode ?? '').trim()
     if (!code) return null
-    return roads.find((road) => road.id === `code:${code}`) ?? null
+    return roads.find((road) => road.streetCode === code) ?? null
   }
+
+  const resolvePickedRoad = (roads, { key, enName, zhName, streetCode }) =>
+    roads.find((road) => road.id === key) ??
+    resolveRoadFromCode(roads, streetCode) ??
+    resolveRoadFromNames(roads, enName, zhName)
+
+  const formatPickedRoadSearchLabel = ({ matched, enName, zhName, streetCode }) => {
+    if (matched) return formatRoadLabel(matched)
+    if (enName || zhName) return formatStreetName(zhName, enName)
+    if (streetCode) return t('unnamedStreetCode', { code: streetCode })
+    return '-'
+  }
+
+  useEffect(() => {
+    if (isRoadIndexLoading || !selectedRoadKey) return
+    const parsed = parseRoadKey(selectedRoadKey)
+    const enName = pickedRoadMeta?.enName || parsed.enName || ''
+    const zhName = pickedRoadMeta?.zhName || parsed.zhName || ''
+    const streetCode =
+      pickedRoadMeta?.streetCode || (parsed.type === 'code' ? parsed.streetCode : '')
+    const matched = resolvePickedRoad(roadIndex, {
+      key: selectedRoadKey,
+      enName,
+      zhName,
+      streetCode,
+    })
+    if (matched) setActiveRoadId(matched.id)
+    setRoadSearch(formatPickedRoadSearchLabel({ matched, enName, zhName, streetCode }))
+  }, [isRoadIndexLoading, roadIndex, selectedRoadKey, pickedRoadMeta, locale])
 
   const applyRoadSelection = (road, { namingYear } = {}) => {
     if (!road) return
@@ -213,7 +308,11 @@ function MapPage() {
         const geojson = await roadsResponse.json()
         if (pendingResponse.ok) {
           const pending = await pendingResponse.json()
-          if (isMounted) setNoticeLookup(buildNoticeLookup(pending?.roads ?? []))
+          const pendingRoads = pending?.roads ?? []
+          if (isMounted) {
+            setNoticeLookup(buildNoticeLookup(pendingRoads))
+            setPendingRoadLookup(buildPendingRoadLookup(pendingRoads))
+          }
         }
         const features = Array.isArray(geojson?.features) ? geojson.features : []
         const roadsMap = new Map()
@@ -222,6 +321,7 @@ function MapPage() {
           const props = feature?.properties ?? {}
           const enName = normalizeRoadName(props.ENGLISHSTREETNAME)
           const zhName = normalizeRoadName(props.CHINESESTREETNAME)
+          if (!hasStreetName(enName, zhName)) return
           const streetCode = String(props.STREETCODE ?? '').trim()
           const key = buildRoadKey(enName, zhName, streetCode)
           if (!key) return
@@ -240,6 +340,8 @@ function MapPage() {
               enName,
               zhName,
               streetCode: streetCode || null,
+              streetType: normalizeRoadName(props.STREETTYPE) || null,
+              namingSource: normalizeRoadName(props.naming_source) || null,
               year,
               namingDate: normalizeRoadName(props.naming_date),
               center: [Number(firstCoord[0]), Number(firstCoord[1])],
@@ -290,6 +392,12 @@ function MapPage() {
           }
           if (!existing.namingDate) {
             existing.namingDate = normalizeRoadName(props.naming_date)
+          }
+          if (!existing.streetType) {
+            existing.streetType = normalizeRoadName(props.STREETTYPE) || null
+          }
+          if (!existing.namingSource) {
+            existing.namingSource = normalizeRoadName(props.naming_source) || null
           }
         })
 
@@ -364,23 +472,6 @@ function MapPage() {
     }
   }
 
-  const selectedGazetteLink = useMemo(() => {
-    if (!selectedRoadKey) return null
-    const parsed = parseRoadKey(selectedRoadKey)
-    const enName = activeRoad?.enName || pickedRoadMeta?.enName || parsed.enName || ''
-    const zhName = activeRoad?.zhName || pickedRoadMeta?.zhName || parsed.zhName || ''
-    const streetCode =
-      parsed.type === 'code' ? parsed.streetCode : pickedRoadMeta?.streetCode || activeRoad?.streetCode
-    return resolveNoticeLink({
-      roadKey: selectedRoadKey,
-      enName,
-      zhName,
-      streetCode,
-      lookup: noticeLookup,
-      locale,
-    })
-  }, [selectedRoadKey, activeRoad, pickedRoadMeta, noticeLookup, locale])
-
   const togglePanel = (panel) => {
     setCollapsedPanels((prev) => {
       const isCurrentlyCollapsed = prev[panel]
@@ -411,51 +502,21 @@ function MapPage() {
         viewportTarget={viewportTarget}
         selectedRoadKey={selectedRoadKey}
         selectedRoadCenter={clickedRoadCenter ?? activeRoad?.center ?? null}
-        selectedRoadInfo={
-          selectedRoadKey
-            ? (() => {
-                const parsed = parseRoadKey(selectedRoadKey)
-                if (parsed.type === 'code') {
-                  return {
-                    enName:
-                      activeRoad?.enName ||
-                      t('unnamedStreetCode', { code: parsed.streetCode }),
-                    zhName: activeRoad?.zhName || '',
-                    year: activeRoad?.year ?? pickedRoadMeta?.year ?? null,
-                    namingDate: activeRoad?.namingDate || pickedRoadMeta?.namingDate || null,
-                    gazetteLink: selectedGazetteLink,
-                  }
-                }
-                return {
-                  enName: activeRoad?.enName || parsed.enName,
-                  zhName: activeRoad?.zhName || parsed.zhName,
-                  year: activeRoad?.year ?? pickedRoadMeta?.year ?? null,
-                  namingDate: activeRoad?.namingDate || pickedRoadMeta?.namingDate || null,
-                  gazetteLink: selectedGazetteLink,
-                }
-              })()
-            : null
-        }
-        contributeFormUrl={selectedContributeMeta.show ? selectedContributeMeta.url : null}
-        contributeLabel={t('mapSubmitProof')}
-        onRoadPick={({ key, center, year, enName, zhName, streetCode, namingDate }) => {
+        selectedRoadInfo={selectedRoadInfo}
+        onRoadPick={({ key, center, year, enName, zhName, streetCode, streetType, namingDate, namingSource }) => {
           setSelectedRoadKey(key)
           setClickedRoadCenter(center)
           setPickedRoadMeta({
             enName,
             zhName,
             streetCode,
+            streetType,
+            namingSource,
             year: Number.isFinite(year) ? year : null,
             namingDate: normalizeRoadName(namingDate),
           })
-          const matched = roadIndex.find((road) => road.id === key)
-          setRoadSearch(
-            matched
-              ? formatRoadLabel(matched)
-              : streetCode
-                ? t('unnamedStreetCode', { code: streetCode })
-                : formatStreetName(zhName, enName),
-          )
+          const matched = resolvePickedRoad(roadIndex, { key, enName, zhName, streetCode })
+          setRoadSearch(formatPickedRoadSearchLabel({ matched, enName, zhName, streetCode }))
           setActiveRoadId(matched ? matched.id : null)
           if (year && Number.isFinite(year)) {
             setSelectedYear((prev) => Math.max(prev, year))

@@ -33,17 +33,7 @@ const ROAD_TYPE_PRIORITY = {
 const formatNumber = (locale, value) =>
   new Intl.NumberFormat(locale === 'zh' ? 'zh-HK' : 'en-US').format(Number(value) || 0)
 
-const formatNamingDate = (value) => {
-  const text = String(value ?? '').trim()
-  if (!text) return null
-  const match = text.match(/^(\d{4})[-/.]?(\d{1,2})[-/.]?(\d{1,2})$/)
-  if (!match) return null
-  const [, yyyy, mm, dd] = match
-  return `${yyyy}.${String(mm).padStart(2, '0')}.${String(dd).padStart(2, '0')}`
-}
-
-const hasRowNamingDate = (row) =>
-  Boolean(formatNamingDate(row.naming_date)) || hasNamingYear(row)
+import { formatNamingDate, getNamingDisplay, hasRowNamingDate } from '../lib/namingDisplay.js'
 
 const getPeriodGroupId = (row) => {
   if (!hasNamingYear(row)) return 'unknown'
@@ -140,14 +130,7 @@ function PendingDashboard({ onOpenRoadOnMap }) {
 
   const loweredQuery = searchText.trim().toLowerCase()
 
-  const getNamingDisplay = (row) => {
-    const date = formatNamingDate(row.naming_date)
-    if (date) return date
-    if (row.naming_year !== null && row.naming_year !== undefined && row.naming_year !== '') {
-      return String(row.naming_year)
-    }
-    return t('pending')
-  }
+  const getNamingDisplayForRow = (row) => getNamingDisplay(row, t)
 
   const filteredRows = useMemo(() => {
     let list = rows
@@ -245,9 +228,6 @@ function PendingDashboard({ onOpenRoadOnMap }) {
 
   return (
     <section className="pending-dashboard">
-      <header className="pending-dashboard-header">
-        <h1>{t('namesTitle')}</h1>
-      </header>
 
       {isLoading ? <p className="pending-dashboard-note">{t('loadingReport')}</p> : null}
       {!isLoading && error ? (
@@ -421,7 +401,7 @@ function PendingDashboard({ onOpenRoadOnMap }) {
                       <td className="pending-col-type-cell">
                         {getRoadTypeLabel(locale, row.street_type) || '—'}
                       </td>
-                      <td className="pending-col-date-cell">{getNamingDisplay(row)}</td>
+                      <td className="pending-col-date-cell">{getNamingDisplayForRow(row)}</td>
                       <td className="pending-col-notice-cell">
                         {notice ? (
                           <a href={notice.url} target="_blank" rel="noreferrer">

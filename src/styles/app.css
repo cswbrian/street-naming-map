@@ -50,10 +50,26 @@
   top: 0;
   z-index: 10;
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
   padding: 0.65rem 0.75rem;
   background: var(--sn-bg);
   border-bottom: 1px solid var(--sn-border);
+}
+
+.app-site-title {
+  flex-shrink: 0;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--sn-text);
+  text-decoration: none;
+  white-space: nowrap;
+  letter-spacing: -0.01em;
+}
+
+.app-site-title:hover {
+  opacity: 0.82;
 }
 
 .map-top-bar {
@@ -111,18 +127,6 @@
   min-height: 100%;
   padding: 0.5rem 1rem 1rem;
   z-index: 3;
-}
-
-.pending-dashboard-header h1 {
-  margin: 0;
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-
-.pending-dashboard-header p {
-  margin: 0.4rem 0 0;
-  color: var(--sn-text-muted);
-  font-size: 0.86rem;
 }
 
 .pending-dashboard-note {
@@ -728,20 +732,38 @@
 }
 
 .selected-road-chip-contribute {
-  display: inline-block;
-  margin-top: 0.35rem;
-  padding: 0.2rem 0;
-  font-size: 0.68rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.28rem;
+  width: auto;
+  margin: 0;
+  padding: 0.2rem 0.36rem;
+  border: 1px solid rgba(255, 193, 77, 0.42);
+  border-radius: 0;
+  background: rgba(255, 193, 77, 0.1);
+  font-size: 0.72rem;
   font-weight: 600;
   color: #ffc14d;
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  text-decoration: none;
   cursor: pointer;
   pointer-events: auto;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
 }
 
 .selected-road-chip-contribute:hover {
+  background: rgba(255, 193, 77, 0.18);
+  border-color: rgba(255, 193, 77, 0.62);
   color: #ffd699;
+}
+
+.selected-road-chip-contribute-icon {
+  width: 0.72rem;
+  height: 0.72rem;
+  flex-shrink: 0;
 }
 
 @media (max-width: 1120px) {
@@ -938,37 +960,147 @@
 }
 
 .selected-road-chip {
+  position: relative;
   display: block;
-  min-width: 160px;
-  max-width: min(72vw, 300px);
-  border: 1px solid var(--sn-border-strong);
-  border-radius: var(--sn-radius);
-  background: var(--sn-bg-elevated);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+  min-width: 196px;
+  max-width: min(78vw, 320px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 0;
+  background: rgba(18, 20, 26, 0.94);
+  backdrop-filter: blur(10px);
+  box-shadow:
+    0 10px 28px rgba(0, 0, 0, 0.48),
+    0 0 0 1px rgba(255, 255, 255, 0.04) inset;
   pointer-events: auto;
 }
 
 .selected-road-chip-content {
-  padding: 0.4rem 0.5rem 0.42rem;
+  padding: 0.62rem 0.68rem 0.58rem;
+}
+
+.selected-road-chip-head {
+  margin: 0;
 }
 
 .selected-road-chip-zh,
-.selected-road-chip-en,
-.selected-road-chip-year {
+.selected-road-chip-en {
   margin: 0;
-  line-height: 1.25;
-  color: var(--sn-text);
+  line-height: 1.3;
 }
 
 .selected-road-chip-zh {
-  font-size: 0.75rem;
+  font-size: 0.92rem;
   font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--sn-text);
 }
 
 .selected-road-chip-en {
-  margin-top: 0.06rem;
-  font-size: 0.7rem;
+  margin-top: 0.14rem;
+  font-size: 0.76rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   color: var(--sn-text-muted);
+}
+
+.selected-road-chip-meta {
+  display: grid;
+  gap: 0.28rem;
+  margin: 0.52rem 0 0;
+  padding: 0.46rem 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.selected-road-chip-row {
+  display: grid;
+  grid-template-columns: 4.35rem minmax(0, 1fr);
+  gap: 0.55rem;
+  align-items: center;
+  margin: 0;
+}
+
+.selected-road-chip-label {
+  margin: 0;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: rgba(232, 232, 232, 0.52);
+  white-space: nowrap;
+}
+
+.selected-road-chip-value {
+  margin: 0;
+  min-width: 0;
+  font-size: 0.78rem;
+  line-height: 1.3;
+  color: var(--sn-text);
+  text-align: right;
+}
+
+.selected-road-chip-empty {
+  color: rgba(232, 232, 232, 0.28);
+  font-variant-numeric: tabular-nums;
+}
+
+.selected-road-chip-pending {
+  display: inline-block;
+  padding: 0.08rem 0.34rem;
+  border-radius: 0;
+  background: rgba(176, 184, 201, 0.14);
+  border: 1px solid rgba(176, 184, 201, 0.28);
+  color: #b0b8c9;
+  font-size: 0.72rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.selected-road-chip-date {
+  font-variant-numeric: tabular-nums;
+  color: #d8e8ff;
+}
+
+.selected-road-chip-source {
+  justify-self: end;
+  font-size: 0.68rem;
+}
+
+.selected-road-chip-notice {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: #35f2c3;
+  text-decoration: none;
+}
+
+.selected-road-chip-notice:hover {
+  color: #5ef5d0;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.selected-road-chip-foot {
+  margin-top: 0.52rem;
+  padding-top: 0.46rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.selected-road-chip-pointer {
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  width: 12px;
+  height: 12px;
+  background: rgba(18, 20, 26, 0.94);
+  border-right: 1px solid rgba(255, 255, 255, 0.16);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  transform: translateX(-50%) rotate(45deg);
+  pointer-events: none;
 }
 
 .selected-road-chip-year {
@@ -976,19 +1108,6 @@
   font-size: 0.63rem;
   color: var(--sn-text-faint);
   font-variant-numeric: tabular-nums;
-}
-
-.selected-road-chip-notice {
-  display: inline-block;
-  margin-top: 0.22rem;
-  font-size: 0.62rem;
-  color: var(--sn-text);
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-.selected-road-chip-notice:hover {
-  color: #35f2c3;
 }
 
 .road-search-panel {
@@ -1299,14 +1418,7 @@
 
 .timeline-header {
   margin-bottom: 0;
-  font-size: 0.84rem;
-  font-weight: 600;
   width: 100%;
-}
-
-.timeline-header-label {
-  color: var(--sn-text-muted);
-  font-weight: 500;
 }
 
 .timeline-year-value {
@@ -1395,24 +1507,38 @@
   }
 
   .selected-road-chip {
-    min-width: 148px;
-    max-width: min(74vw, 280px);
+    min-width: 176px;
+    max-width: min(80vw, 292px);
   }
 
   .selected-road-chip-content {
-    padding: 0.32rem 0.44rem 0.34rem;
+    padding: 0.52rem 0.56rem 0.5rem;
   }
 
   .selected-road-chip-zh {
-    font-size: 0.68rem;
+    font-size: 0.86rem;
   }
 
   .selected-road-chip-en {
+    font-size: 0.72rem;
+  }
+
+  .selected-road-chip-row {
+    grid-template-columns: 4rem minmax(0, 1fr);
+    gap: 0.42rem;
+  }
+
+  .selected-road-chip-label {
     font-size: 0.64rem;
   }
 
-  .selected-road-chip-year {
-    font-size: 0.58rem;
+  .selected-road-chip-value {
+    font-size: 0.74rem;
+  }
+
+  .selected-road-chip-contribute {
+    font-size: 0.68rem;
+    padding: 0.18rem 0.32rem;
   }
 
   .hud-bottom-stack {
@@ -1494,7 +1620,7 @@
 
 .legend-panel.is-collapsed .legend-title,
 .navigator-panel.is-collapsed .legend-title,
-.timeline-shell.is-collapsed .timeline-header {
+.timeline-shell.is-collapsed .legend-title {
   margin-bottom: 0;
 }
 

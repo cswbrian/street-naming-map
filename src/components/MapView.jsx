@@ -2,7 +2,8 @@ import { useEffect, useRef } from 'react'
 import maplibregl from 'maplibre-gl'
 import { MapboxOverlay } from '@deck.gl/mapbox'
 import 'maplibre-gl/dist/maplibre-gl.css'
-import { buildRoadFilter, buildRoadKey } from '../lib/roadKey'
+import { buildRoadFilter, buildRoadKey, filterNamedStreetFeatures, hasStreetName } from '../lib/roadKey'
+import { translations } from '../i18n/translations'
 
 const SOURCE_ID = 'hk-roads-source'
 const LAYER_ID = 'hk-roads-layer'
@@ -19,14 +20,91 @@ const HK_BOUNDS = [
   [114.45, 22.58],
 ]
 
-const formatNamingDate = (value) => {
-  const text = String(value ?? '').trim()
-  if (!text) return null
-  const match = text.match(/^(\d{4})[-/.]?(\d{1,2})[-/.]?(\d{1,2})$/)
-  if (!match) return null
-  const [, yyyy, mm, dd] = match
-  return `${yyyy}.${String(mm).padStart(2, '0')}.${String(dd).padStart(2, '0')}`
+const getUnknownYearLabel = (locale) =>
+  translations[locale]?.unknownYear ?? translations.en.unknownYear
+
+const escapeHtml = (value) =>
+  String(value ?? '')
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+
+const buildMetaRow = (label, valueHtml) =>
+  `<div class="selected-road-chip-row"><dt class="selected-road-chip-label">${escapeHtml(label)}</dt><dd class="selected-road-chip-value">${valueHtml}</dd></div>`
+
+const buildEmptyValue = () => '<span class="selected-road-chip-empty">—</span>'
+
+const buildContributeIcon = (variant) => {
+  if (variant === 'edit') {
+    return `<svg class="selected-road-chip-contribute-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>`
+  }
+  return `<svg class="selected-road-chip-contribute-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6M12 18v-6M9 15h6"/></svg>`
 }
+
+const buildSelectedRoadChipHtml = (selectedRoadInfo, locale) => {
+  const labels = translations[locale] ?? translations.en
+  const metaRows = [
+    selectedRoadInfo.streetType
+      ? buildMetaRow(labels.colType, escapeHtml(selectedRoadInfo.streetType))
+      : '',
+    buildMetaRow(
+      labels.colNaming,
+      selectedRoadInfo.isNamingPending
+        ? `<span class="selected-road-chip-pending">${escapeHtml(selectedRoadInfo.namingDisplay ?? labels.pending)}</span>`
+        : `<span class="selected-road-chip-date">${escapeHtml(selectedRoadInfo.namingDisplay)}</span>`,
+    ),
+    selectedRoadInfo.noticeLink
+      ? buildMetaRow(
+          labels.colNotice,
+          `<a class="selected-road-chip-notice" href="${escapeHtml(selectedRoadInfo.noticeLink.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(selectedRoadInfo.noticeLink.label)}</a>`,
+        )
+      : buildMetaRow(labels.colNotice, buildEmptyValue()),
+    selectedRoadInfo.sourceBadge
+      ? buildMetaRow(
+          labels.colSource,
+          `<span class="selected-road-chip-source pending-source-badge pending-source-${selectedRoadInfo.sourceBadge.kind}" title="${escapeHtml(selectedRoadInfo.sourceBadge.hint)}">${escapeHtml(selectedRoadInfo.sourceBadge.label)}</span>`,
+        )
+      : buildMetaRow(labels.colSource, buildEmptyValue()),
+  ].join('')
+
+  const contributeBlock = selectedRoadInfo.contributeUrl
+    ? `<footer class="selected-road-chip-foot"><a class="selected-road-chip-contribute" href="${escapeHtml(selectedRoadInfo.contributeUrl)}" target="_blank" rel="noopener noreferrer">${buildContributeIcon(selectedRoadInfo.contributeVariant)}<span>${escapeHtml(selectedRoadInfo.contributeLabel)}</span></a></footer>`
+    : ''
+
+  return `
+    <div class="selected-road-chip-content">
+      <header class="selected-road-chip-head">
+        ${selectedRoadInfo.zhName ? `<p class="selected-road-chip-zh">${escapeHtml(selectedRoadInfo.zhName)}</p>` : ''}
+        ${selectedRoadInfo.enName ? `<p class="selected-road-chip-en">${escapeHtml(selectedRoadInfo.enName)}</p>` : ''}
+      </header>
+      <dl class="selected-road-chip-meta">${metaRows}</dl>
+      ${contributeBlock}
+    </div>
+    <span class="selected-road-chip-pointer" aria-hidden="true"></span>
+  `
+}
+
+const buildRoadLabelTextField = (unknownYearLabel) => [
+  'format',
+  ['coalesce', ['get', 'CHINESESTREETNAME'], ''],
+  { 'font-scale': 1.05 },
+  '\n',
+  {},
+  ['coalesce', ['get', 'ENGLISHSTREETNAME'], ''],
+  { 'font-scale': 0.85 },
+  ' (',
+  { 'font-scale': 0.78 },
+  [
+    'case',
+    ['==', ['coalesce', ['to-number', ['get', 'naming_year']], -1], -1],
+    unknownYearLabel,
+    ['to-string', ['get', 'naming_year']],
+  ],
+  { 'font-scale': 0.78 },
+  ')',
+  { 'font-scale': 0.78 },
+]
 
 const darkStyle = {
   version: 8,
@@ -98,8 +176,6 @@ function MapView({
   selectedRoadCenter,
   selectedRoadInfo,
   onRoadPick,
-  contributeFormUrl,
-  contributeLabel,
 }) {
   const mapContainerRef = useRef(null)
   const mapRef = useRef(null)
@@ -206,10 +282,24 @@ function MapView({
     const deckOverlay = new MapboxOverlay({ interleaved: true, layers: [] })
     map.addControl(deckOverlay)
 
-    map.on('load', () => {
+    map.on('load', async () => {
+      let roadData = { type: 'FeatureCollection', features: [] }
+      try {
+        const response = await fetch(DATA_URL)
+        if (response.ok) {
+          const geojson = await response.json()
+          roadData = {
+            ...geojson,
+            features: filterNamedStreetFeatures(geojson?.features),
+          }
+        }
+      } catch {
+        // Keep empty collection if road data fails to load.
+      }
+
       map.addSource(SOURCE_ID, {
         type: 'geojson',
-        data: DATA_URL,
+        data: roadData,
       })
 
       map.addLayer({
@@ -295,26 +385,7 @@ function MapView({
         source: SOURCE_ID,
         layout: {
           'symbol-placement': 'line',
-          'text-field': [
-            'format',
-            ['coalesce', ['get', 'CHINESESTREETNAME'], ''],
-            { 'font-scale': 1.05 },
-            '\n',
-            {},
-            ['coalesce', ['get', 'ENGLISHSTREETNAME'], ''],
-            { 'font-scale': 0.85 },
-            ' (',
-            { 'font-scale': 0.78 },
-            [
-              'case',
-              ['==', ['coalesce', ['to-number', ['get', 'naming_year']], -1], -1],
-              'Unknown',
-              ['to-string', ['get', 'naming_year']],
-            ],
-            { 'font-scale': 0.78 },
-            ')',
-            { 'font-scale': 0.78 },
-          ],
+          'text-field': buildRoadLabelTextField(getUnknownYearLabel(locale)),
           'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
           'text-size': ['interpolate', ['linear'], ['zoom'], 10, 10, 14, 13],
           'symbol-spacing': 380,
@@ -392,11 +463,14 @@ function MapView({
         if (!feature) return
         const enName = String(feature.properties?.ENGLISHSTREETNAME ?? '').trim()
         const zhName = String(feature.properties?.CHINESESTREETNAME ?? '').trim()
+        if (!hasStreetName(enName, zhName)) return
         const streetCode = String(feature.properties?.STREETCODE ?? '').trim()
         const key = buildRoadKey(enName, zhName, streetCode)
         if (!key) return
         const year = Number(feature.properties?.naming_year)
         const namingDate = String(feature.properties?.naming_date ?? '').trim()
+        const streetType = String(feature.properties?.STREETTYPE ?? '').trim()
+        const namingSource = String(feature.properties?.naming_source ?? '').trim()
         onRoadPick?.({
           key,
           center: [event.lngLat.lng, event.lngLat.lat],
@@ -405,6 +479,8 @@ function MapView({
           enName,
           zhName,
           streetCode: streetCode || null,
+          streetType: streetType || null,
+          namingSource: namingSource || null,
         })
       })
 
@@ -425,6 +501,16 @@ function MapView({
       map.remove()
     }
   }, [])
+
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map?.getLayer(LABEL_LAYER_ID)) return
+    map.setLayoutProperty(
+      LABEL_LAYER_ID,
+      'text-field',
+      buildRoadLabelTextField(getUnknownYearLabel(locale)),
+    )
+  }, [locale])
 
   useEffect(() => {
     const map = mapRef.current
@@ -507,33 +593,13 @@ function MapView({
 
     const chip = document.createElement('section')
     chip.className = 'selected-road-chip'
-    const yearLine =
-      formatNamingDate(selectedRoadInfo.namingDate) ||
-      selectedRoadInfo.year ||
-      (locale === 'zh' ? '未知' : 'Unknown')
-    const contributeBlock =
-      contributeFormUrl && contributeLabel
-        ? `<a class="selected-road-chip-contribute" href="${contributeFormUrl}" target="_blank" rel="noopener noreferrer">${contributeLabel}</a>`
-        : ''
-    const gazette = selectedRoadInfo.gazetteLink
-    const noticeBlock = gazette
-      ? `<a class="selected-road-chip-notice" href="${gazette.url}" target="_blank" rel="noopener noreferrer">${gazette.label}</a>`
-      : ''
-    chip.innerHTML = `
-      <div class="selected-road-chip-content">
-        ${selectedRoadInfo.zhName ? `<p class="selected-road-chip-zh">${selectedRoadInfo.zhName}</p>` : ''}
-        ${selectedRoadInfo.enName ? `<p class="selected-road-chip-en">${selectedRoadInfo.enName}</p>` : ''}
-        <p class="selected-road-chip-year">${yearLine}</p>
-        ${noticeBlock}
-        ${contributeBlock}
-      </div>
-    `
+    chip.innerHTML = buildSelectedRoadChipHtml(selectedRoadInfo, locale)
     const contributeLink = chip.querySelector('.selected-road-chip-contribute')
     if (contributeLink) {
       contributeLink.addEventListener('click', (event) => {
         event.preventDefault()
         event.stopPropagation()
-        window.open(contributeFormUrl, '_blank', 'noopener,noreferrer')
+        window.open(selectedRoadInfo.contributeUrl, '_blank', 'noopener,noreferrer')
       })
     }
     const noticeLink = chip.querySelector('.selected-road-chip-notice')
@@ -563,8 +629,6 @@ function MapView({
     selectedRoadCenter,
     selectedRoadInfo,
     locale,
-    contributeFormUrl,
-    contributeLabel,
   ])
 
   return <section className="map-container" ref={mapContainerRef} />

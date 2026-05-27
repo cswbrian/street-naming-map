@@ -19,7 +19,7 @@ code:10959,10959,KAM SHEUNG ROAD,錦上路,Secondary Road,,,,,56
 code:11768,11768,POK FU LAM ROAD,薄扶林道,Main Road,,,,,51
 code:12131,12131,SOUTH LANTAU ROAD,嶼南道,Main Road,,,,,51
 code:10741,10741,HIRAM'S HIGHWAY,西貢公路,Main Road,,,,,49
-code:12373,12373,TING KOK ROAD,汀角路,Main Road,2009,2009-03-06,/street-naming-map/egazette/en/2009-13-10-1502.pdf,/street-naming-map/egazette/zh/2009-13-10-1502.pdf,49
+code:12373,12373,TING KOK ROAD,汀角路,Main Road,,,,,49
 code:10369,10369,DEEP BAY ROAD,深灣路,Secondary Road,,,,,47
 code:11038,11038,KING'S ROAD,英皇道,Main Road,,,,,46
 code:10886,10886,ISLAND EASTERN CORRIDOR,東區走廊,Main Road,,,,,45
@@ -73,7 +73,7 @@ code:10142,10142,CASTLE PEAK ROAD - TAM MI,青山公路　－　潭尾段,Second
 code:10155,10155,CHAI WAN ROAD,柴灣道,Main Road,,,,,30
 code:13658,13658,LAM TEI INTERCHANGE,藍地交匯處,Secondary Road,,,,,30
 code:11242,11242,LION ROCK TUNNEL ROAD,獅子山隧道公路,Main Road,,,,,30
-code:13137,13137,TATE'S CAIRN HIGHWAY,大老山公路,Highway,2015,2015-11-13,/street-naming-map/egazette/en/2015-19-46-8863.pdf,/street-naming-map/egazette/zh/2015-19-46-8863.pdf,30
+code:13137,13137,TATE'S CAIRN HIGHWAY,大老山公路,Highway,,,,,30
 code:41200,41200,,,Secondary Road,,,,,29
 code:52257,52257,,,Secondary Road,,,,,29
 code:10075,10075,BOUNDARY STREET,界限街,Main Road,,,,,29
@@ -108,10 +108,10 @@ code:11346,11346,MA ON SHAN ROAD,馬鞍山路,Main Road,2015,2015-11-13,/street-
 code:50208,50208,,,Secondary Road,,,,,25
 code:10143,10143,CASTLE PEAK ROAD - TING KAU,青山公路　－　汀九段,Secondary Road,,,,,25
 code:10153,10153,CHA KWO LING ROAD,茶果嶺道,Secondary Road,,,,,25
-code:13785,13785,CHEUNG TSING HIGHWAY,長青公路,Highway,2009,2009-12-18,/street-naming-map/egazette/en/2009-13-51-7995.pdf,/street-naming-map/egazette/zh/2009-13-51-7995.pdf,25
+code:13785,13785,CHEUNG TSING HIGHWAY,長青公路,Highway,,,,,25
 code:13781,13781,CHEUNG TUNG ROAD,翔東路,Secondary Road,,,,,25
 code:10342,10342,COTTON TREE DRIVE,紅棉路,Main Road,,,,,25
-code:14499,14499,KWUN TONG BYPASS,觀塘繞道,Highway,2020,2020-11-20,https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024476775.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024476775.pdf,25
+code:14499,14499,KWUN TONG BYPASS,觀塘繞道,Highway,,,,,25
 code:14527,14527,LAM TIN INTERCHANGE,藍田交匯處,Main Road,2022,2022-11-25,https://www.landsd.gov.hk/doc/en/street-name/egazette/2022/egn202226476835.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2022/cgn202226476835.pdf,25
 code:11213,11213,LEI YUE MUN ROAD,鯉魚門道,Main Road,,,,,25
 code:13605,13605,SAN TAM ROAD,新潭路,Secondary Road,,,,,25
@@ -426,7 +426,7 @@ code:10765,10765,HOI BUN ROAD,海濱道,Secondary Road,,,,,13
 code:11050,11050,KO CHIU ROAD,高超道,Secondary Road,,,,,13
 code:13055,13055,KUNG UM ROAD,公庵路,Secondary Road,2015,2015-07-03,/street-naming-map/egazette/en/2015-19-27-4864.pdf,/street-naming-map/egazette/zh/2015-19-27-4864.pdf,13
 code:11124,11124,KWONG FUK ROAD,廣福道,Secondary Road,,,,,13
-code:11160,11160,LAI PING ROAD,麗坪路,Secondary Road,2009,2009-12-18,/street-naming-map/egazette/en/2009-13-51-7994.pdf,/street-naming-map/egazette/zh/2009-13-51-7994.pdf,13
+code:11160,11160,LAI PING ROAD,麗坪路,Secondary Road,,,,,13
 code:13707,13707,LUNG MA ROAD,龍馬路,Secondary Road,,,https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923223587.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923223587.pdf,13
 code:13086,13086,MA WO ROAD,馬窩路,Secondary Road,,,,,13
 code:13855,13855,MAN KWONG STREET,民光街,Secondary Road,,,,,13
@@ -528,7 +528,7 @@ code:12448,12448,TSING YI HEUNG SZE WUI ROAD,青衣鄉事會路,Main Road,,,,,12
 code:12463,12463,TSUEN KING CIRCUIT,荃景圍,Secondary Road,,,,,12
 code:12483,12483,TSUN WEN ROAD,震寰路,Secondary Road,,,,,12
 code:12513,12513,TUNG CHOI STREET,通菜街,Secondary Road,,,,,12
-code:12514,12514,TUNG CHUNG ROAD,東涌道,Main Road,2009,2009-01-30,/street-naming-map/egazette/en/2009-13-5-683.pdf,/street-naming-map/egazette/zh/2009-13-5-683.pdf,12
+code:12514,12514,TUNG CHUNG ROAD,東涌道,Main Road,,,,,12
 code:12545,12545,TUNG TSZ ROAD,洞梓路,Secondary Road,2009,2009-03-06,/street-naming-map/egazette/en/2009-13-10-1502.pdf,/street-naming-map/egazette/zh/2009-13-10-1502.pdf,12
 code:39375,39375,UNIVERSITY AVENUE,大學道,Secondary Road,,,,,12
 code:39018,39018,WAN CHAI INTERCHANGE,灣仔交匯處,Main Road,,,,,12
@@ -837,7 +837,7 @@ code:10221,10221,CHEUNG YIP STREET,祥業街,Secondary Road,,,https://www.landsd
 code:10268,10268,CHUEN LUNG STREET,川龍街,Secondary Road,,,,,9
 code:14137,14137,CHUN SHIN ROAD,真善路,Secondary Road,,,,,9
 code:10403,10403,EDE ROAD,義德道,Secondary Road,,,,,9
-code:10404,10404,EDINBURGH PLACE,愛丁堡廣場,Secondary Road,2009,2009-12-04,/street-naming-map/egazette/en/2009-13-49-7642.pdf,/street-naming-map/egazette/zh/2009-13-49-7642.pdf,9
+code:10404,10404,EDINBURGH PLACE,愛丁堡廣場,Secondary Road,,,,,9
 code:10424,10424,FAIRVIEW PARK ROAD SOUTH,錦綉大道南,Secondary Road,,,,,9
 code:10426,10426,"FAIRVIEW PARK SECTION C, 1ST STREET",錦綉花園Ｃ段第一街,Secondary Road,,,,,9
 code:10552,10552,FUK MAN ROAD,福民路,Secondary Road,2015,2015-08-28,/street-naming-map/egazette/en/2015-19-35-6517.pdf,/street-naming-map/egazette/zh/2015-19-35-6517.pdf,9
@@ -1722,7 +1722,7 @@ code:12429,12429,TSING LUK STREET,青綠街,Secondary Road,,,,,6
 code:12444,12444,TSING WU SQUARE,青湖坊,Secondary Road,,,,,6
 code:12468,12468,TSUEN WAN MARKET STREET,荃灣街市街,Secondary Road,,,,,6
 code:12498,12498,TUEN HI ROAD,屯喜路,Secondary Road,,,,,6
-code:13997,13997,TUNG CHEONG STREET,東昌街,Secondary Road,2020,2020-08-07,https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024324507.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024324507.pdf,6
+code:13997,13997,TUNG CHEONG STREET,東昌街,Secondary Road,,,,,6
 code:12528,12528,TUNG LUNG ROAD,東隆道,Secondary Road,,,,,6
 code:13950,13950,WAH KWAI ROAD,華貴道,Secondary Road,,,,,6
 code:12601,12601,WAI CHI STREET,偉智街,Secondary Road,,,,,6
@@ -10873,7 +10873,7 @@ code:10466,10466,"FAIRVIEW PARK SECTION M, 5TH STREET",錦綉花園Ｍ段第五�
 code:10467,10467,"FAIRVIEW PARK SECTION M, 6TH STREET",錦綉花園Ｍ段第六街,Secondary Road,,,,,1
 code:10469,10469,FAN WA STREET,繁華街,Secondary Road,,,,,1
 code:10472,10472,FAT HING STREET,發興街,Track,,,,,1
-code:14316,14316,FAT KWONG STREET FLYOVER,佛光街天橋,Main Road,2009,2009-02-06,/street-naming-map/egazette/en/2009-13-6-852.pdf,/street-naming-map/egazette/zh/2009-13-6-852.pdf,1
+code:14316,14316,FAT KWONG STREET FLYOVER,佛光街天橋,Main Road,,,,,1
 code:10474,10474,FAT LEE STREET,發利街,Track,,,,,1
 code:10476,10476,FAT YIP LANE,發業里,Secondary Road,,,,,1
 code:13168,13168,FEI WAN ROAD,飛雲路,Secondary Road,,,,,1

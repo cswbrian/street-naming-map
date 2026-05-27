@@ -71,3 +71,13 @@ export const buildRoadFilter = (roadKey) => {
 export const hasStreetName = (englishName, chineseName) => {
   return Boolean(normalizeRoadName(englishName) || normalizeRoadName(chineseName))
 }
+
+export const isNamedStreetFeature = (feature) => {
+  const props = feature?.properties ?? {}
+  return hasStreetName(props.ENGLISHSTREETNAME, props.CHINESESTREETNAME)
+}
+
+export const filterNamedStreetFeatures = (features) => {
+  if (!Array.isArray(features)) return []
+  return features.filter(isNamedStreetFeature)
+}

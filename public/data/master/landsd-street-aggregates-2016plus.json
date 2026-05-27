@@ -4871,48 +4871,6 @@
     "event_count": 1
   },
   {
-    "street_key": "Kwun Tong Bypass|觀塘繞道",
-    "street_name_en": "Kwun Tong Bypass",
-    "street_name_zh": "觀塘繞道",
-    "canonical_naming_date": "2020-11-20",
-    "canonical_naming_year": 2020,
-    "derivation_reason": "declaration_earliest",
-    "event_history": [
-      {
-        "event_id": "2020-11-20|GN6775|0",
-        "source": "landsd",
-        "publication_date": "2020-11-20",
-        "street_name_en": "Kwun Tong Bypass",
-        "street_name_zh": "觀塘繞道",
-        "district_raw_en": "Kwun Tong",
-        "district_raw_zh": "觀塘",
-        "notice_type_raw_en": "Declaration of street name",
-        "notice_type_raw_zh": "宣布街道名稱",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN6775",
-        "government_notice_label_en": "G.N.6775",
-        "government_notice_label_zh": "第6775號",
-        "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024476775.pdf",
-        "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024476775.pdf",
-        "related_gazette_plan_urls_en": [
-          "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM38.pdf"
-        ],
-        "related_gazette_plan_urls_zh": [
-          "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM38.pdf"
-        ],
-        "related_gazette_plan_labels_en": [
-          "KRM38"
-        ],
-        "related_gazette_plan_labels_zh": [
-          "KRM38"
-        ],
-        "year_bucket": 2020,
-        "is_declaration_event": true
-      }
-    ],
-    "event_count": 1
-  },
-  {
     "street_key": "Tuen Mun Chek Lap Kok Tunnel Road|屯門赤鱲角隧道公路",
     "street_name_en": "Tuen Mun Chek Lap Kok Tunnel Road",
     "street_name_zh": "屯門赤鱲角隧道公路",
@@ -5432,48 +5390,6 @@
         ],
         "related_gazette_plan_labels_zh": [
           "KRM124"
-        ],
-        "year_bucket": 2020,
-        "is_declaration_event": true
-      }
-    ],
-    "event_count": 1
-  },
-  {
-    "street_key": "Tung Cheong Street|東昌街",
-    "street_name_en": "Tung Cheong Street",
-    "street_name_zh": "東昌街",
-    "canonical_naming_date": "2020-08-07",
-    "canonical_naming_year": 2020,
-    "derivation_reason": "declaration_earliest",
-    "event_history": [
-      {
-        "event_id": "2020-08-07|GN4507|0",
-        "source": "landsd",
-        "publication_date": "2020-08-07",
-        "street_name_en": "Tung Cheong Street",
-        "street_name_zh": "東昌街",
-        "district_raw_en": "Tai Po",
-        "district_raw_zh": "大埔",
-        "notice_type_raw_en": "Declaration of street name",
-        "notice_type_raw_zh": "宣布街道名稱",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN4507",
-        "government_notice_label_en": "G.N.4507",
-        "government_notice_label_zh": "第4507號",
-        "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024324507.pdf",
-        "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024324507.pdf",
-        "related_gazette_plan_urls_en": [
-          "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/TPRM122b.pdf"
-        ],
-        "related_gazette_plan_urls_zh": [
-          "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/TPRM122b.pdf"
-        ],
-        "related_gazette_plan_labels_en": [
-          "TPRM122b"
-        ],
-        "related_gazette_plan_labels_zh": [
-          "TPRM122b"
         ],
         "year_bucket": 2020,
         "is_declaration_event": true

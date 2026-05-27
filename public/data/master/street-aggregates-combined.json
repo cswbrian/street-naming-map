@@ -567,88 +567,6 @@
     "event_count": 1
   },
   {
-    "street_key": "Tung Chung Road|東涌道",
-    "street_name_en": "Tung Chung Road",
-    "street_name_zh": "東涌道",
-    "canonical_naming_date": "2009-01-30",
-    "canonical_naming_year": 2009,
-    "derivation_reason": "declaration_earliest",
-    "event_history": [
-      {
-        "event_id": "2009-01-30|GN0683|0",
-        "source": "egazette_pdf",
-        "publication_date": "2009-01-30",
-        "street_name_en": "Tung Chung Road",
-        "street_name_zh": "東涌道",
-        "district_raw_en": "Islands, New Territories",
-        "district_raw_zh": "離 島 區",
-        "notice_type_raw_en": "STREET NAME",
-        "notice_type_raw_zh": "街道命名",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN0683",
-        "government_notice_label_en": "G.N.683",
-        "government_notice_label_zh": "第683號",
-        "government_notice_url_en": null,
-        "government_notice_url_zh": null,
-        "related_gazette_plan_urls_en": [],
-        "related_gazette_plan_urls_zh": [],
-        "related_gazette_plan_labels_en": [
-          "ISRM75f"
-        ],
-        "related_gazette_plan_labels_zh": [
-          "ISRM75f"
-        ],
-        "year_bucket": 2009,
-        "is_declaration_event": true,
-        "notice_key": "2009-13-5-683-0",
-        "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2009-13-5-683-en.pdf",
-        "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2009-13-5-683-zh.pdf"
-      }
-    ],
-    "event_count": 1
-  },
-  {
-    "street_key": "Fat Kwong Street Flyover|佛光街天橋",
-    "street_name_en": "Fat Kwong Street Flyover",
-    "street_name_zh": "佛光街天橋",
-    "canonical_naming_date": "2009-02-06",
-    "canonical_naming_year": 2009,
-    "derivation_reason": "declaration_earliest",
-    "event_history": [
-      {
-        "event_id": "2009-02-06|GN0852|0",
-        "source": "egazette_pdf",
-        "publication_date": "2009-02-06",
-        "street_name_en": "Fat Kwong Street Flyover",
-        "street_name_zh": "佛光街天橋",
-        "district_raw_en": "Kowloon City, Kowloon",
-        "district_raw_zh": "九龍九龍城區",
-        "notice_type_raw_en": "STREET NAME",
-        "notice_type_raw_zh": "街道命名",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN0852",
-        "government_notice_label_en": "G.N.852",
-        "government_notice_label_zh": "第852號",
-        "government_notice_url_en": null,
-        "government_notice_url_zh": null,
-        "related_gazette_plan_urls_en": [],
-        "related_gazette_plan_urls_zh": [],
-        "related_gazette_plan_labels_en": [
-          "KRM51"
-        ],
-        "related_gazette_plan_labels_zh": [
-          "KRM51"
-        ],
-        "year_bucket": 2009,
-        "is_declaration_event": true,
-        "notice_key": "2009-13-6-852-0",
-        "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2009-13-6-852-en.pdf",
-        "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2009-13-6-852-zh.pdf"
-      }
-    ],
-    "event_count": 1
-  },
-  {
     "street_key": "Bel-Air Peak Avenue|貝沙山道",
     "street_name_en": "Bel-Air Peak Avenue",
     "street_name_zh": "貝沙山道",
@@ -685,47 +603,6 @@
         "notice_key": "2009-13-6-851-0",
         "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2009-13-6-851-en.pdf",
         "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2009-13-6-851-zh.pdf"
-      }
-    ],
-    "event_count": 1
-  },
-  {
-    "street_key": "Ting Kok Road|汀角路",
-    "street_name_en": "Ting Kok Road",
-    "street_name_zh": "汀角路",
-    "canonical_naming_date": "2009-03-06",
-    "canonical_naming_year": 2009,
-    "derivation_reason": "declaration_earliest",
-    "event_history": [
-      {
-        "event_id": "2009-03-06|GN1502|0",
-        "source": "egazette_pdf",
-        "publication_date": "2009-03-06",
-        "street_name_en": "Ting Kok Road",
-        "street_name_zh": "汀角路",
-        "district_raw_en": "Tai Po, New Territories",
-        "district_raw_zh": "大埔區",
-        "notice_type_raw_en": "STREET NAMES",
-        "notice_type_raw_zh": "街道命名",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN1502",
-        "government_notice_label_en": "G.N.1502",
-        "government_notice_label_zh": "第1502號",
-        "government_notice_url_en": null,
-        "government_notice_url_zh": null,
-        "related_gazette_plan_urls_en": [],
-        "related_gazette_plan_urls_zh": [],
-        "related_gazette_plan_labels_en": [
-          "TPRM94a"
-        ],
-        "related_gazette_plan_labels_zh": [
-          "TPRM94a"
-        ],
-        "year_bucket": 2009,
-        "is_declaration_event": true,
-        "notice_key": "2009-13-10-1502-0",
-        "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2009-13-10-1502-en.pdf",
-        "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2009-13-10-1502-zh.pdf"
       }
     ],
     "event_count": 1
@@ -1379,88 +1256,6 @@
     "event_count": 4
   },
   {
-    "street_key": "Edinburgh Place|愛丁堡廣場",
-    "street_name_en": "Edinburgh Place",
-    "street_name_zh": "愛丁堡廣場",
-    "canonical_naming_date": "2009-12-04",
-    "canonical_naming_year": 2009,
-    "derivation_reason": "declaration_earliest",
-    "event_history": [
-      {
-        "event_id": "2009-12-04|GN7642|1",
-        "source": "egazette_pdf",
-        "publication_date": "2009-12-04",
-        "street_name_en": "Edinburgh Place",
-        "street_name_zh": "愛丁堡廣場",
-        "district_raw_en": "Central and Western District",
-        "district_raw_zh": "中西區",
-        "notice_type_raw_en": "STREET NAMES",
-        "notice_type_raw_zh": "街道命名",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN7642",
-        "government_notice_label_en": "G.N.7642",
-        "government_notice_label_zh": "第7642號",
-        "government_notice_url_en": null,
-        "government_notice_url_zh": null,
-        "related_gazette_plan_urls_en": [],
-        "related_gazette_plan_urls_zh": [],
-        "related_gazette_plan_labels_en": [
-          "HKRM31a"
-        ],
-        "related_gazette_plan_labels_zh": [
-          "HKRM31a"
-        ],
-        "year_bucket": 2009,
-        "is_declaration_event": true,
-        "notice_key": "2009-13-49-7642-0",
-        "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2009-13-49-7642-en.pdf",
-        "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2009-13-49-7642-zh.pdf"
-      }
-    ],
-    "event_count": 1
-  },
-  {
-    "street_key": "Lai Ping Road|麗坪路",
-    "street_name_en": "Lai Ping Road",
-    "street_name_zh": "麗坪路",
-    "canonical_naming_date": "2009-12-18",
-    "canonical_naming_year": 2009,
-    "derivation_reason": "declaration_earliest",
-    "event_history": [
-      {
-        "event_id": "2009-12-18|GN7994|0",
-        "source": "egazette_pdf",
-        "publication_date": "2009-12-18",
-        "street_name_en": "Lai Ping Road",
-        "street_name_zh": "麗坪路",
-        "district_raw_en": "Sha Tin District, New Territories",
-        "district_raw_zh": "沙田區",
-        "notice_type_raw_en": "STREET NAMES",
-        "notice_type_raw_zh": "街道命名",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN7994",
-        "government_notice_label_en": "G.N.7994",
-        "government_notice_label_zh": "第7994號",
-        "government_notice_url_en": null,
-        "government_notice_url_zh": null,
-        "related_gazette_plan_urls_en": [],
-        "related_gazette_plan_urls_zh": [],
-        "related_gazette_plan_labels_en": [
-          "STRM1149b"
-        ],
-        "related_gazette_plan_labels_zh": [
-          "STRM1149b"
-        ],
-        "year_bucket": 2009,
-        "is_declaration_event": true,
-        "notice_key": "2009-13-51-7994-0",
-        "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2009-13-51-7994-en.pdf",
-        "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2009-13-51-7994-zh.pdf"
-      }
-    ],
-    "event_count": 1
-  },
-  {
     "street_key": "Yung Ping Path|雍坪徑",
     "street_name_en": "Yung Ping Path",
     "street_name_zh": "雍坪徑",
@@ -1497,47 +1292,6 @@
         "notice_key": "2009-13-51-7994-0",
         "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2009-13-51-7994-en.pdf",
         "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2009-13-51-7994-zh.pdf"
-      }
-    ],
-    "event_count": 1
-  },
-  {
-    "street_key": "Cheung Tsing Highway|長青公路",
-    "street_name_en": "Cheung Tsing Highway",
-    "street_name_zh": "長青公路",
-    "canonical_naming_date": "2009-12-18",
-    "canonical_naming_year": 2009,
-    "derivation_reason": "declaration_earliest",
-    "event_history": [
-      {
-        "event_id": "2009-12-18|GN7995|0",
-        "source": "egazette_pdf",
-        "publication_date": "2009-12-18",
-        "street_name_en": "Cheung Tsing Highway",
-        "street_name_zh": "長青公路",
-        "district_raw_en": "Kwai Tsing District, New Territories",
-        "district_raw_zh": "葵青區",
-        "notice_type_raw_en": "STREET NAMES",
-        "notice_type_raw_zh": "街道命名",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN7995",
-        "government_notice_label_en": "G.N.7995",
-        "government_notice_label_zh": "第7995號",
-        "government_notice_url_en": null,
-        "government_notice_url_zh": null,
-        "related_gazette_plan_urls_en": [],
-        "related_gazette_plan_urls_zh": [],
-        "related_gazette_plan_labels_en": [
-          "KTRM70b"
-        ],
-        "related_gazette_plan_labels_zh": [
-          "KTRM70b"
-        ],
-        "year_bucket": 2009,
-        "is_declaration_event": true,
-        "notice_key": "2009-13-51-7995-0",
-        "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2009-13-51-7995-en.pdf",
-        "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2009-13-51-7995-zh.pdf"
       }
     ],
     "event_count": 1
@@ -5450,47 +5204,6 @@
         "publication_date": "2015-11-13",
         "street_name_en": null,
         "street_name_zh": "馬鞍山路",
-        "district_raw_en": null,
-        "district_raw_zh": null,
-        "notice_type_raw_en": "Street Name",
-        "notice_type_raw_zh": "街道命名",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN8863",
-        "government_notice_label_en": "G.N.8863",
-        "government_notice_label_zh": "第8863號",
-        "government_notice_url_en": null,
-        "government_notice_url_zh": null,
-        "related_gazette_plan_urls_en": [],
-        "related_gazette_plan_urls_zh": [],
-        "related_gazette_plan_labels_en": [
-          "STRM1162C"
-        ],
-        "related_gazette_plan_labels_zh": [
-          "STRM1162C"
-        ],
-        "year_bucket": 2015,
-        "is_declaration_event": true,
-        "notice_key": "2015-19-46-8863-0",
-        "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2015-19-46-8863-en.pdf",
-        "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2015-19-46-8863-zh.pdf"
-      }
-    ],
-    "event_count": 1
-  },
-  {
-    "street_key": "|大老山公路",
-    "street_name_en": null,
-    "street_name_zh": "大老山公路",
-    "canonical_naming_date": "2015-11-13",
-    "canonical_naming_year": 2015,
-    "derivation_reason": "declaration_earliest",
-    "event_history": [
-      {
-        "event_id": "2015-11-13|GN8863|1",
-        "source": "egazette_pdf",
-        "publication_date": "2015-11-13",
-        "street_name_en": null,
-        "street_name_zh": "大老山公路",
         "district_raw_en": null,
         "district_raw_zh": null,
         "notice_type_raw_en": "Street Name",
@@ -13614,48 +13327,6 @@
     "event_count": 1
   },
   {
-    "street_key": "Tung Cheong Street|東昌街",
-    "street_name_en": "Tung Cheong Street",
-    "street_name_zh": "東昌街",
-    "canonical_naming_date": "2020-08-07",
-    "canonical_naming_year": 2020,
-    "derivation_reason": "declaration_earliest",
-    "event_history": [
-      {
-        "event_id": "2020-08-07|GN4507|0",
-        "source": "landsd",
-        "publication_date": "2020-08-07",
-        "street_name_en": "Tung Cheong Street",
-        "street_name_zh": "東昌街",
-        "district_raw_en": "Tai Po",
-        "district_raw_zh": "大埔",
-        "notice_type_raw_en": "Declaration of street name",
-        "notice_type_raw_zh": "宣布街道名稱",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN4507",
-        "government_notice_label_en": "G.N.4507",
-        "government_notice_label_zh": "第4507號",
-        "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024324507.pdf",
-        "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024324507.pdf",
-        "related_gazette_plan_urls_en": [
-          "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/TPRM122b.pdf"
-        ],
-        "related_gazette_plan_urls_zh": [
-          "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/TPRM122b.pdf"
-        ],
-        "related_gazette_plan_labels_en": [
-          "TPRM122b"
-        ],
-        "related_gazette_plan_labels_zh": [
-          "TPRM122b"
-        ],
-        "year_bucket": 2020,
-        "is_declaration_event": true
-      }
-    ],
-    "event_count": 1
-  },
-  {
     "street_key": "Lai Chui Path|麗翠徑",
     "street_name_en": "Lai Chui Path",
     "street_name_zh": "麗翠徑",
@@ -14412,48 +14083,6 @@
         "notice_key": "2020-24-45-6474-0",
         "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2020-24-45-6474-en.pdf",
         "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2020-24-45-6474-zh.pdf"
-      }
-    ],
-    "event_count": 1
-  },
-  {
-    "street_key": "Kwun Tong Bypass|觀塘繞道",
-    "street_name_en": "Kwun Tong Bypass",
-    "street_name_zh": "觀塘繞道",
-    "canonical_naming_date": "2020-11-20",
-    "canonical_naming_year": 2020,
-    "derivation_reason": "declaration_earliest",
-    "event_history": [
-      {
-        "event_id": "2020-11-20|GN6775|0",
-        "source": "landsd",
-        "publication_date": "2020-11-20",
-        "street_name_en": "Kwun Tong Bypass",
-        "street_name_zh": "觀塘繞道",
-        "district_raw_en": "Kwun Tong",
-        "district_raw_zh": "觀塘",
-        "notice_type_raw_en": "Declaration of street name",
-        "notice_type_raw_zh": "宣布街道名稱",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN6775",
-        "government_notice_label_en": "G.N.6775",
-        "government_notice_label_zh": "第6775號",
-        "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024476775.pdf",
-        "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024476775.pdf",
-        "related_gazette_plan_urls_en": [
-          "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM38.pdf"
-        ],
-        "related_gazette_plan_urls_zh": [
-          "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM38.pdf"
-        ],
-        "related_gazette_plan_labels_en": [
-          "KRM38"
-        ],
-        "related_gazette_plan_labels_zh": [
-          "KRM38"
-        ],
-        "year_bucket": 2020,
-        "is_declaration_event": true
       }
     ],
     "event_count": 1
