@@ -1,16 +1,15 @@
 {
-  "generated_at": "2026-05-21T17:43:24.828Z",
+  "generated_at": "2026-05-27T15:55:41.611Z",
   "counts": {
-    "landsd_events": 318,
-    "egazette_events": 288,
-    "combined_events": 543,
-    "street_aggregates": 518,
-    "streets_with_naming_year": 378
+    "crowd_events_merged": 1,
+    "combined_events": 544,
+    "street_aggregates": 519,
+    "streets_with_naming_year": 379
   },
   "join_stats": {
-    "matched_exact_features": 2782,
+    "matched_exact_features": 2811,
     "matched_fallback_features": 236,
-    "unmatched_features": 36584,
+    "unmatched_features": 36555,
     "total_features": 39602
   }
 }

@@ -301,6 +301,54 @@ Build:
 npm run build
 ```
 
+## Crowdsource street naming dates
+
+Contributors submit gazette proof via **Google Forms** (no app server). The site shows **Submitted** / **Verified** badges from static JSON synced by GitHub Actions.
+
+### One-time setup
+
+1. Create forms and sheet tabs — follow [docs/crowdsource-google-forms-setup.md](docs/crowdsource-google-forms-setup.md)
+2. Put form IDs and entry IDs in [`src/config/contribute.js`](src/config/contribute.js)
+3. Configure GitHub secrets for [`.github/workflows/sync-submission-tracker.yml`](.github/workflows/sync-submission-tracker.yml):
+   - `SHEET_CSV_URL` (published `single_public` tab CSV), **or**
+   - `GOOGLE_SERVICE_ACCOUNT_JSON` + `GOOGLE_SHEET_ID` + optional `GOOGLE_SHEET_TAB`
+4. Optional fast sync: Apps Script in [docs/crowdsource-apps-script.js](docs/crowdsource-apps-script.js) → `repository_dispatch` on each form submit
+
+### Admin workflow
+
+**Submitted badges (automatic):** GitHub Action runs `npm run sync:submission-tracker` daily (or on dispatch). No manual export needed.
+
+**Verified naming dates on the map (manual):**
+
+1. Open the Google Sheet → review rows (PDFs in Drive)
+2. Set `status` to `approved` or `rejected`
+3. Export tab `single` to `data/crowdsubmissions/responses.csv` (or let the Action fetch it)
+4. Run:
+
+```bash
+npm run apply:crowd
+git add public/data data/crowdsubmissions
+git commit -m "data: apply approved crowd naming submissions"
+git push
+```
+
+### Batch PDF uploads
+
+Batch form responses go to Sheet tab `batch`. Process separately:
+
+1. Download PDFs to `data/crowdsubmissions/batch-inbox/{batch_id}/`
+2. Add approved streets to `data/crowdsubmissions/batch-approved.csv` (same columns as single-street) or the `single` tab
+3. Run `npm run apply:crowd`
+
+### npm scripts
+
+| Script | Purpose |
+|--------|---------|
+| `npm run sync:submission-tracker` | Update badges only (`--tracker-only`) |
+| `npm run import:crowdsubmissions` | Import CSV → tracker + approved events JSON |
+| `npm run merge:crowd` | Merge approved events into `hk-streets.geojson` |
+| `npm run apply:crowd` | Full pipeline: import + merge + `report:pending-years` |
+
 ## Deploy to GitHub Pages
 
 This project is configured for GitHub Pages on:

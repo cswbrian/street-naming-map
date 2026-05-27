@@ -35,3 +35,8 @@ data/egazette/extractions/
 data/egazette/parsed/
 data/egazette/pilot-qa-report.json
 data/egazette/pilot-qa-report.md
+
+# Crowd submissions (raw exports may contain emails)
+data/crowdsubmissions/responses.csv
+data/crowdsubmissions/pdfs/
+data/crowdsubmissions/batch-inbox/

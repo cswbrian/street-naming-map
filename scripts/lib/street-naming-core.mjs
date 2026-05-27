@@ -43,6 +43,41 @@ export function normalizeNoticeNo(raw) {
   return match ? `GN${match[1]}` : value
 }
 
+/** Extract numeric notice id from G.N. / 第…號 / plain digits. */
+export function extractNoticeNumber(raw) {
+  const value = String(raw ?? '').trim()
+  if (!value) return null
+  const compact = value.replace(/\s+/g, '')
+  if (/^\d+$/.test(compact)) return compact
+  const match = value.match(/(?:G\.?\s*N\.?\s*|第\s*)?(\d+)/i)
+  return match?.[1] ?? null
+}
+
+/**
+ * When submitters enter digits only (e.g. "323"), emit LandsD-style bilingual labels.
+ * EN: G.N.323 — ZH: 第323號
+ */
+export function formatGovernmentNoticeLabels(raw) {
+  const value = String(raw ?? '').trim()
+  if (!value) return { en: null, zh: null }
+
+  const compact = value.replace(/\s+/g, '')
+  const digitsOnly = /^\d+$/.test(compact)
+  const num = extractNoticeNumber(value)
+  if (!num) return { en: value, zh: value }
+
+  if (digitsOnly) {
+    return { en: `G.N.${num}`, zh: `第${num}號` }
+  }
+
+  const hasEnGn = /G\.?\s*N\.?/i.test(value)
+  const hasZhDih = /第/.test(value)
+  return {
+    en: hasEnGn ? value.replace(/\s+/g, '') : `G.N.${num}`,
+    zh: hasZhDih ? value : `第${num}號`,
+  }
+}
+
 /** Pre-2016 eGazette category header for section 111C street-naming declarations. */
 const LEGACY_DECLARATION_HEADER_EN = /^(STREET NAMES?|street naming|Street Name)$/i
 
@@ -154,13 +189,18 @@ function buildUniqueNameMap(aggregates, field) {
   return uniqueMap
 }
 
-function resolveNamingSource(aggregate, options = {}) {
+export function resolveNamingSource(aggregate, options = {}) {
   const history = aggregate?.event_history ?? []
   const sources = new Set(history.map((e) => e.source).filter(Boolean))
-  if (sources.has('landsd') && sources.has('egazette_pdf')) return 'combined'
-  if (sources.has('egazette_pdf')) return 'egazette_pdf'
+  const hasCrowd = sources.has('crowdsubmitted')
+  const hasLandsd = sources.has('landsd')
+  const hasEgazette = sources.has('egazette_pdf')
+  if ([hasCrowd, hasLandsd, hasEgazette].filter(Boolean).length >= 2) return 'combined'
+  if (hasCrowd) return 'crowdsubmitted'
+  if (hasLandsd && hasEgazette) return 'combined'
+  if (hasEgazette) return 'egazette_pdf'
   if (options.defaultSource) return options.defaultSource
-  return sources.has('landsd') ? 'landsd_2016_plus' : null
+  return hasLandsd ? 'landsd_2016_plus' : null
 }
 
 export function enrichGeojson(sourceData, aggregates, options = {}) {
@@ -228,7 +268,7 @@ export function enrichGeojson(sourceData, aggregates, options = {}) {
   }
 }
 
-export function mergeEvents(landsdEvents, egazetteEvents) {
+export function mergeEvents(landsdEvents, egazetteEvents, crowdEvents = []) {
   const merged = new Map()
   for (const event of landsdEvents) {
     merged.set(eventDedupeKey(event), { ...event, source: event.source ?? 'landsd' })
@@ -239,11 +279,57 @@ export function mergeEvents(landsdEvents, egazetteEvents) {
       merged.set(key, { ...event, source: event.source ?? 'egazette_pdf' })
     }
   }
+  for (const event of crowdEvents) {
+    const key = eventDedupeKey(event)
+    if (!merged.has(key)) {
+      merged.set(key, { ...event, source: event.source ?? 'crowdsubmitted' })
+    }
+  }
   return [...merged.values()].toSorted((a, b) => {
-    const dateCmp = a.publication_date.localeCompare(b.publication_date)
+    const dateCmp = String(a.publication_date ?? '').localeCompare(String(b.publication_date ?? ''))
     if (dateCmp !== 0) return dateCmp
-    return a.notice_no.localeCompare(b.notice_no)
+    return String(a.notice_no ?? '').localeCompare(String(b.notice_no ?? ''))
   })
+}
+
+export function finalizeCrowdEvent(raw, index = 0) {
+  const publicationDate = String(raw.publication_date ?? '').trim()
+  const rawNoticeInput =
+    raw.gazette_notice_label ?? raw.government_notice_label_en ?? raw.notice_no ?? null
+  const noticeLabels = formatGovernmentNoticeLabels(rawNoticeInput)
+  const noticeNo = normalizeNoticeNo(rawNoticeInput ?? 'CROWD')
+  const submissionId = String(raw.submission_id ?? raw.submissionId ?? index).trim()
+  const isDecl = raw.is_declaration_event !== false
+
+  return {
+    event_id: raw.event_id ?? `crowd|${submissionId}`,
+    source: 'crowdsubmitted',
+    publication_date: publicationDate,
+    street_name_en: raw.street_name_en ?? null,
+    street_name_zh: raw.street_name_zh ?? null,
+    district_raw_en: null,
+    district_raw_zh: null,
+    notice_type_raw_en: 'Declaration of street name (crowdsource)',
+    notice_type_raw_zh: '街道命名（眾包）',
+    notice_type_normalized: isDecl ? 'declaration' : 'other',
+    notice_no: noticeNo,
+    government_notice_label_en:
+      raw.government_notice_label_en ?? noticeLabels.en,
+    government_notice_label_zh:
+      raw.government_notice_label_zh ?? noticeLabels.zh,
+    government_notice_url_en: raw.government_notice_url_en ?? raw.gazette_url ?? null,
+    government_notice_url_zh: raw.government_notice_url_zh ?? null,
+    related_gazette_plan_urls_en: [],
+    related_gazette_plan_urls_zh: [],
+    related_gazette_plan_labels_en: [],
+    related_gazette_plan_labels_zh: [],
+    year_bucket: publicationDate ? Number(publicationDate.slice(0, 4)) : null,
+    is_declaration_event: isDecl,
+    proof_pdf_url: raw.proof_pdf_url ?? null,
+    submitter_remarks: raw.submitter_remarks ?? raw.remarks ?? null,
+    reviewed_at: raw.reviewed_at ?? null,
+    submission_id: submissionId,
+  }
 }
 
 import { buildSelfHostedPdfUrls } from './egazette-pdf-urls.mjs'

@@ -8,6 +8,33 @@ export const normalizeRoadName = (value) => {
   return text
 }
 
+/** Title-case ALL-CAPS English names so they match crowd/tracker keys. */
+export const normalizeStreetNameForMatch = (name) => {
+  const value = String(name ?? '').trim()
+  if (!value) return ''
+  if (/^[A-Z0-9\s\-'.]+$/.test(value) && /[A-Z]{2,}/.test(value)) {
+    return value
+      .toLowerCase()
+      .split(/\s+/)
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ')
+  }
+  return value
+}
+
+/** Keys used to match rows against recently-verified.json and submission tracker. */
+export const buildStreetMatchKeys = (enName, zhName, streetCode) => {
+  const keys = new Set()
+  const en = normalizeStreetNameForMatch(enName)
+  const zh = String(zhName ?? '').trim()
+  const code = String(streetCode ?? '').trim()
+  if (code) keys.add(`code:${code}`)
+  if (en && zh) keys.add(`${en}|${zh}`)
+  if (en) keys.add(`en:${en.toLowerCase()}`)
+  if (zh) keys.add(`zh:${zh}`)
+  return keys
+}
+
 export const buildRoadKey = (enName, zhName, streetCode) => {
   const en = normalizeRoadName(enName)
   const zh = normalizeRoadName(zhName)

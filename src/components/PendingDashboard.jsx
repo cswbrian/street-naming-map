@@ -1,9 +1,25 @@
 import { useEffect, useMemo, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { useLocale } from '../i18n/LocaleContext'
 import { getRoadTypeLabel, PERIOD_GROUP_DEFS } from '../i18n/translations'
+import ContributeActionIcon from './ContributeActionIcon.jsx'
+import { buildSingleStreetFormUrl } from '../lib/contributeForm.js'
+import { getNoticeLink } from '../lib/governmentNotice.js'
 import { hasStreetName } from '../lib/roadKey'
+import { getNamingSourceBadgeKey, getNamingSourceKind } from '../lib/namingSourceBadge.js'
+import { buildRecentlyVerifiedIndex, hasNamingYear, isRecentlyVerified } from '../lib/submissionStatus.js'
 
 const DATA_URL = `${import.meta.env.BASE_URL}data/master/pending-naming-years.json`
+const RECENT_URL = `${import.meta.env.BASE_URL}data/master/recently-verified.json`
+
+const LIST_FILTERS = ['all', 'pending', 'verified']
+
+const FILTER_LABEL_KEYS = {
+  all: 'filterAll',
+  pending: 'filterPendingDate',
+  verified: 'filterRecentlyVerified',
+}
+
 const ROAD_TYPE_PRIORITY = {
   Highway: 1,
   'Main Road': 2,
@@ -26,56 +42,102 @@ const formatNamingDate = (value) => {
   return `${yyyy}.${String(mm).padStart(2, '0')}.${String(dd).padStart(2, '0')}`
 }
 
-const getNoticeLink = (row, locale) => {
-  const zhUrl = row.naming_details?.government_notice_url_zh
-  const enUrl = row.naming_details?.government_notice_url_en
-  const zhLabel = row.naming_details?.government_notice_label_zh || '第?號'
-  const enLabel = row.naming_details?.government_notice_label_en || 'G.N.?'
-  if (locale === 'zh') {
-    if (zhUrl) return { url: zhUrl, label: zhLabel }
-    if (enUrl) return { url: enUrl, label: enLabel }
-  } else {
-    if (enUrl) return { url: enUrl, label: enLabel }
-    if (zhUrl) return { url: zhUrl, label: zhLabel }
-  }
-  return null
+const hasRowNamingDate = (row) =>
+  Boolean(formatNamingDate(row.naming_date)) || hasNamingYear(row)
+
+const getPeriodGroupId = (row) => {
+  if (!hasNamingYear(row)) return 'unknown'
+  const year = Number(row.naming_year)
+  const matched = PERIOD_GROUP_DEFS.find(
+    (group) =>
+      group.id !== 'unknown' && year >= Number(group.start) && year <= Number(group.end),
+  )
+  return matched?.id ?? 'unknown'
 }
 
 function PendingDashboard({ onOpenRoadOnMap }) {
-  const { locale, t, formatStreetName } = useLocale()
+  const { locale, t } = useLocale()
+  const [searchParams, setSearchParams] = useSearchParams()
+  const filterFromUrl = searchParams.get('filter') || 'all'
   const [report, setReport] = useState(null)
+  const [recentlyVerified, setRecentlyVerified] = useState(null)
   const [isLoading, setIsLoading] = useState(true)
   const [searchText, setSearchText] = useState('')
   const [error, setError] = useState('')
+  const [listFilter, setListFilter] = useState(() =>
+    LIST_FILTERS.includes(filterFromUrl) ? filterFromUrl : 'all',
+  )
   const [sortConfig, setSortConfig] = useState({ key: 'year', direction: 'desc' })
+  const [typeFilter, setTypeFilter] = useState(null)
+  const [periodFilter, setPeriodFilter] = useState(null)
+
+  useEffect(() => {
+    if (LIST_FILTERS.includes(filterFromUrl)) {
+      setListFilter(filterFromUrl)
+    }
+  }, [filterFromUrl])
+
+  const handleListFilterChange = (id) => {
+    setListFilter(id)
+    if (id === 'all') {
+      setTypeFilter(null)
+      setPeriodFilter(null)
+      setSearchParams({}, { replace: true })
+    } else {
+      setSearchParams({ filter: id }, { replace: true })
+    }
+  }
+
+  const handleTypeFilterChange = (type) => {
+    setTypeFilter((prev) => (prev === type ? null : type))
+  }
+
+  const handlePeriodFilterChange = (periodId) => {
+    setPeriodFilter((prev) => (prev === periodId ? null : periodId))
+  }
 
   useEffect(() => {
     let mounted = true
-
-    const loadReport = async () => {
+    const load = async () => {
       try {
         setError('')
-        const response = await fetch(DATA_URL)
-        if (!response.ok) throw new Error('Unable to load street directory report')
-        const data = await response.json()
-        if (mounted) setReport(data)
+        const [reportRes, recentRes] = await Promise.all([fetch(DATA_URL), fetch(RECENT_URL)])
+        if (!reportRes.ok) throw new Error('report')
+        const data = await reportRes.json()
+        const recent = recentRes.ok ? await recentRes.json() : null
+        if (mounted) {
+          setReport(data)
+          setRecentlyVerified(recent)
+        }
       } catch {
         if (mounted) setError('reportError')
       } finally {
         if (mounted) setIsLoading(false)
       }
     }
-
-    loadReport()
+    load()
     return () => {
       mounted = false
     }
   }, [])
 
+  const recentlyVerifiedIndex = useMemo(
+    () => buildRecentlyVerifiedIndex(recentlyVerified?.streets ?? []),
+    [recentlyVerified],
+  )
+
   const rows = useMemo(() => {
     const allRows = Array.isArray(report?.roads) ? report.roads : []
     return allRows.filter((row) => hasStreetName(row.english_name, row.chinese_name))
-  }, [report?.roads])
+  }, [report])
+
+  const coverage = useMemo(() => {
+    const total = rows.length
+    const named = rows.filter((row) => hasNamingYear(row)).length
+    const pct = total ? (named / total) * 100 : 0
+    return { total, named, pending: total - named, pct }
+  }, [rows])
+
   const loweredQuery = searchText.trim().toLowerCase()
 
   const getNamingDisplay = (row) => {
@@ -88,13 +150,25 @@ function PendingDashboard({ onOpenRoadOnMap }) {
   }
 
   const filteredRows = useMemo(() => {
-    if (!loweredQuery) return rows
-    return rows.filter((row) => {
+    let list = rows
+    if (listFilter === 'pending') {
+      list = list.filter((row) => !hasNamingYear(row) && !formatNamingDate(row.naming_date))
+    } else if (listFilter === 'verified') {
+      list = list.filter((row) => isRecentlyVerified(row, recentlyVerifiedIndex))
+    }
+    if (typeFilter) {
+      list = list.filter((row) => (row.street_type || 'Unknown Type') === typeFilter)
+    }
+    if (periodFilter) {
+      list = list.filter((row) => getPeriodGroupId(row) === periodFilter)
+    }
+    if (!loweredQuery) return list
+    return list.filter((row) => {
       const haystack =
         `${row.street_code ?? ''} ${row.english_name ?? ''} ${row.chinese_name ?? ''} ${row.street_type ?? ''} ${row.naming_year ?? ''} ${row.naming_date ?? ''}`.toLowerCase()
       return haystack.includes(loweredQuery)
     })
-  }, [rows, loweredQuery])
+  }, [rows, loweredQuery, listFilter, recentlyVerifiedIndex, typeFilter, periodFilter])
 
   const sortedRows = useMemo(() => {
     const getStreetName = (row) =>
@@ -108,7 +182,7 @@ function PendingDashboard({ onOpenRoadOnMap }) {
       return -1
     }
     const getNotice = (row) => {
-      const link = getNoticeLink(row, locale)
+      const link = getNoticeLink(row.naming_details, locale)
       return (link?.label ?? '').toLowerCase()
     }
 
@@ -120,22 +194,20 @@ function PendingDashboard({ onOpenRoadOnMap }) {
     }
 
     const sign = sortConfig.direction === 'asc' ? 1 : -1
-    return [...filteredRows].sort((a, b) => {
+    const sorted = [...filteredRows].sort((a, b) => {
       const aValue = getComparableValue(a, sortConfig.key)
       const bValue = getComparableValue(b, sortConfig.key)
       if (aValue < bValue) return -1 * sign
       if (aValue > bValue) return 1 * sign
       return getStreetName(a).localeCompare(getStreetName(b))
     })
+    return sorted
   }, [filteredRows, sortConfig, locale])
 
   const toggleSort = (key) => {
     setSortConfig((prev) => {
       if (prev.key === key) {
-        return {
-          key,
-          direction: prev.direction === 'asc' ? 'desc' : 'asc',
-        }
+        return { key, direction: prev.direction === 'asc' ? 'desc' : 'asc' }
       }
       return { key, direction: 'asc' }
     })
@@ -161,21 +233,11 @@ function PendingDashboard({ onOpenRoadOnMap }) {
   const periodStats = useMemo(() => {
     const counts = new Map(PERIOD_GROUP_DEFS.map((group) => [group.id, 0]))
     rows.forEach((row) => {
-      const year = Number(row.naming_year)
-      if (!Number.isFinite(year)) {
-        counts.set('unknown', (counts.get('unknown') ?? 0) + 1)
-        return
-      }
-      const matched =
-        PERIOD_GROUP_DEFS.find(
-          (group) =>
-            group.id !== 'unknown' &&
-            year >= Number(group.start) &&
-            year <= Number(group.end),
-        )?.id ?? 'unknown'
-      counts.set(matched, (counts.get(matched) ?? 0) + 1)
+      const periodId = getPeriodGroupId(row)
+      counts.set(periodId, (counts.get(periodId) ?? 0) + 1)
     })
     return PERIOD_GROUP_DEFS.map((group) => ({
+      id: group.id,
       label: t(group.rangeKey),
       count: counts.get(group.id) ?? 0,
     }))
@@ -198,10 +260,16 @@ function PendingDashboard({ onOpenRoadOnMap }) {
             <h2 className="pending-stats-title">{t('roadTypesTitle')}</h2>
             <div className="pending-stats-grid">
               {roadTypeStats.map((item) => (
-                <article className="pending-stat-card" key={`type-${item.label}`}>
+                <button
+                  type="button"
+                  key={`type-${item.label}`}
+                  className={`pending-stat-card ${typeFilter === item.label ? 'is-active' : ''}`}
+                  onClick={() => handleTypeFilterChange(item.label)}
+                  aria-pressed={typeFilter === item.label}
+                >
                   <h3>{getRoadTypeLabel(locale, item.label)}</h3>
                   <strong>{formatNumber(locale, item.count)}</strong>
-                </article>
+                </button>
               ))}
             </div>
           </section>
@@ -210,13 +278,32 @@ function PendingDashboard({ onOpenRoadOnMap }) {
             <h2 className="pending-stats-title">{t('periodStatsTitle')}</h2>
             <div className="pending-stats-grid">
               {periodStats.map((item) => (
-                <article className="pending-stat-card" key={`period-${item.label}`}>
+                <button
+                  type="button"
+                  key={`period-${item.id}`}
+                  className={`pending-stat-card ${periodFilter === item.id ? 'is-active' : ''}`}
+                  onClick={() => handlePeriodFilterChange(item.id)}
+                  aria-pressed={periodFilter === item.id}
+                >
                   <h3>{item.label}</h3>
                   <strong>{formatNumber(locale, item.count)}</strong>
-                </article>
+                </button>
               ))}
             </div>
           </section>
+
+          <div className="pending-filter-row">
+            {LIST_FILTERS.map((id) => (
+              <button
+                key={id}
+                type="button"
+                className={`pending-filter-btn ${listFilter === id ? 'is-active' : ''}`}
+                onClick={() => handleListFilterChange(id)}
+              >
+                {t(FILTER_LABEL_KEYS[id])}
+              </button>
+            ))}
+          </div>
 
           <div className="pending-table-controls">
             <input
@@ -234,17 +321,35 @@ function PendingDashboard({ onOpenRoadOnMap }) {
             </span>
           </div>
 
+          <section className="pending-coverage-section pending-table-stats">
+            <div className="pending-coverage-bar" role="progressbar" aria-valuenow={coverage.named} aria-valuemin={0} aria-valuemax={coverage.total}>
+              <div className="pending-coverage-fill" style={{ width: `${coverage.pct.toFixed(1)}%` }} />
+            </div>
+            <p className="pending-coverage-label">
+              {t('contributeNamed')}: {formatNumber(locale, coverage.named)} / {formatNumber(locale, coverage.total)} (
+              {coverage.pct.toFixed(1)}%)
+            </p>
+          </section>
+
           <div className="pending-table-wrap">
             <table className="pending-table">
+              <colgroup>
+                <col className="pending-col-street" />
+                <col className="pending-col-type" />
+                <col className="pending-col-date" />
+                <col className="pending-col-notice" />
+                <col className="pending-col-source" />
+                <col className="pending-col-action" />
+              </colgroup>
               <thead>
                 <tr>
-                  <th>
+                  <th className="pending-col-street-head">
                     <button type="button" className="pending-sort-header" onClick={() => toggleSort('street')}>
                       {t('colStreet')}
                       <span>{sortConfig.key === 'street' ? (sortConfig.direction === 'asc' ? ' ▲' : ' ▼') : ''}</span>
                     </button>
                   </th>
-                  <th>
+                  <th className="pending-col-type-head">
                     <button type="button" className="pending-sort-header" onClick={() => toggleSort('type')}>
                       {t('colType')}
                       <span>{sortConfig.key === 'type' ? (sortConfig.direction === 'asc' ? ' ▲' : ' ▼') : ''}</span>
@@ -262,44 +367,99 @@ function PendingDashboard({ onOpenRoadOnMap }) {
                       <span>{sortConfig.key === 'notice' ? (sortConfig.direction === 'asc' ? ' ▲' : ' ▼') : ''}</span>
                     </button>
                   </th>
+                  <th>{t('colSource')}</th>
+                  <th className="pending-col-action-head" title={t('contributeFillGap')}>
+                    {t('colContribute')}
+                  </th>
                 </tr>
               </thead>
               <tbody>
                 {sortedRows.slice(0, 500).map((row) => {
-                  const streetLabel = formatStreetName(row.chinese_name, row.english_name)
-                  const canOpenOnMap = Boolean(onOpenRoadOnMap && row.english_name && row.chinese_name)
-                  const notice = getNoticeLink(row, locale)
+                  const zhName = String(row.chinese_name ?? '').trim()
+                  const enName = String(row.english_name ?? '').trim()
+                  const canOpenOnMap = Boolean(onOpenRoadOnMap && enName && zhName)
+                  const notice = getNoticeLink(row.naming_details, locale)
+                  const formUrl = buildSingleStreetFormUrl({
+                    streetCode: row.street_code,
+                    englishName: row.english_name,
+                    chineseName: row.chinese_name,
+                  })
+                  const sourceKind = getNamingSourceKind(row)
+                  const sourceBadgeKey = getNamingSourceBadgeKey(sourceKind)
+
+                  const streetCell = (
+                    <div className="pending-street-cell">
+                      {zhName ? <span className="pending-street-zh">{zhName}</span> : null}
+                      {enName ? <span className="pending-street-en">{enName}</span> : null}
+                      {!zhName && !enName ? '—' : null}
+                    </div>
+                  )
 
                   return (
                     <tr key={row.road_key}>
-                      <td>
-                        {canOpenOnMap ? (
-                          <button
-                            type="button"
-                            className="pending-street-link"
-                            onClick={() =>
-                              onOpenRoadOnMap({
-                                englishName: row.english_name,
-                                chineseName: row.chinese_name,
-                                namingYear: Number(row.naming_year),
-                              })
-                            }
-                          >
-                            {streetLabel}
-                          </button>
-                        ) : (
-                          streetLabel
-                        )}
+                      <td className="pending-col-street-cell">
+                        <div className="pending-street-scroll">
+                          {canOpenOnMap ? (
+                            <button
+                              type="button"
+                              className="pending-street-link"
+                              onClick={() =>
+                                onOpenRoadOnMap({
+                                  englishName: row.english_name,
+                                  chineseName: row.chinese_name,
+                                  namingYear: Number(row.naming_year),
+                                })
+                              }
+                            >
+                              {streetCell}
+                            </button>
+                          ) : (
+                            streetCell
+                          )}
+                        </div>
                       </td>
-                      <td>{getRoadTypeLabel(locale, row.street_type) || '-'}</td>
-                      <td>{getNamingDisplay(row)}</td>
-                      <td>
+                      <td className="pending-col-type-cell">
+                        {getRoadTypeLabel(locale, row.street_type) || '—'}
+                      </td>
+                      <td className="pending-col-date-cell">{getNamingDisplay(row)}</td>
+                      <td className="pending-col-notice-cell">
                         {notice ? (
                           <a href={notice.url} target="_blank" rel="noreferrer">
                             {notice.label}
                           </a>
                         ) : (
-                          '-'
+                          '—'
+                        )}
+                      </td>
+                      <td className="pending-col-source-cell">
+                        {sourceBadgeKey ? (
+                          <span
+                            className={`pending-source-badge pending-source-${sourceKind}`}
+                            title={t(`${sourceBadgeKey}Hint`)}
+                          >
+                            {t(sourceBadgeKey)}
+                          </span>
+                        ) : (
+                          '—'
+                        )}
+                      </td>
+                      <td className="pending-col-action-cell">
+                        {formUrl ? (
+                          <a
+                            href={formUrl}
+                            className="pending-contribute-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label={t('contributeFillGap')}
+                            title={t('contributeFillGap')}
+                          >
+                            <ContributeActionIcon
+                              size={16}
+                              variant={hasRowNamingDate(row) ? 'edit' : 'add'}
+                            />
+                          </a>
+                        ) : (
+                          '—'
                         )}
                       </td>
                     </tr>

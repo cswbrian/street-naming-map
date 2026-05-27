@@ -2,7 +2,11 @@ import { access, mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { governmentNoticeUrlsFromEvent } from './lib/egazette-pdf-urls.mjs'
-import { makeStreetKey, normalizeStreetName } from './lib/street-naming-core.mjs'
+import {
+  formatGovernmentNoticeLabels,
+  makeStreetKey,
+  normalizeStreetName,
+} from './lib/street-naming-core.mjs'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -71,6 +75,12 @@ const pickNamingDetails = (aggregate) => {
     null
 
   const urls = governmentNoticeUrlsFromEvent(declarationEvent)
+  const rawNoticeLabel =
+    declarationEvent?.government_notice_label_en ??
+    declarationEvent?.government_notice_label_zh ??
+    declarationEvent?.notice_no ??
+    null
+  const noticeLabels = formatGovernmentNoticeLabels(rawNoticeLabel)
 
   return {
     street_key: aggregate.street_key ?? null,
@@ -82,8 +92,10 @@ const pickNamingDetails = (aggregate) => {
     notice_type: declarationEvent?.notice_type_normalized ?? null,
     notice_source: declarationEvent?.source ?? null,
     notice_key: declarationEvent?.notice_key ?? null,
-    government_notice_label_en: declarationEvent?.government_notice_label_en ?? null,
-    government_notice_label_zh: declarationEvent?.government_notice_label_zh ?? null,
+    government_notice_label_en:
+      noticeLabels.en ?? declarationEvent?.government_notice_label_en ?? null,
+    government_notice_label_zh:
+      noticeLabels.zh ?? declarationEvent?.government_notice_label_zh ?? null,
     government_notice_url_en: urls.en,
     government_notice_url_zh: urls.zh,
     related_gazette_plan_url_en:
@@ -194,6 +206,10 @@ async function main() {
     return String(a.english_name ?? '').localeCompare(String(b.english_name ?? ''))
   })
   const pendingRoads = roads.filter((row) => row.naming_year === null)
+  const roadsWithStreetName = roads.filter(
+    (row) => normalize(row.english_name) || normalize(row.chinese_name),
+  )
+  const pendingRoadsWithStreetName = roadsWithStreetName.filter((row) => row.naming_year === null)
 
   const summary = {
     generated_at: new Date().toISOString(),
@@ -202,8 +218,12 @@ async function main() {
       total_segments: features.length,
       segments_missing_naming_year: missingYearSegments,
       unique_roads: roads.length,
+      unique_roads_with_street_name: roadsWithStreetName.length,
       unique_roads_with_naming_year: roads.length - pendingRoads.length,
+      unique_roads_with_street_name_and_naming_year:
+        roadsWithStreetName.length - pendingRoadsWithStreetName.length,
       unique_roads_missing_naming_year: pendingRoads.length,
+      unique_roads_missing_naming_year_with_street_name: pendingRoadsWithStreetName.length,
     },
     roads,
     pending_roads: pendingRoads,

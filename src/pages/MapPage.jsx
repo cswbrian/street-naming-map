@@ -7,7 +7,13 @@ import { useLocale } from '../i18n/LocaleContext'
 import { COLOR_GROUP_DEFS } from '../i18n/translations'
 import { REGION_OPTIONS, DISTRICT_OPTIONS } from '../config/regions.mjs'
 import subdistrictCentersConfig from '../config/subdistrictCenters.json'
+import { buildSingleStreetFormUrl } from '../lib/contributeForm.js'
+import { buildNoticeLookup, resolveNoticeLink } from '../lib/governmentNotice.js'
+import { getDefaultMapPanelCollapse } from '../lib/mapViewport.js'
 import { buildRoadKey, normalizeRoadName, parseRoadKey } from '../lib/roadKey'
+
+const ROADS_URL = `${import.meta.env.BASE_URL}data/hk-streets.geojson`
+const PENDING_URL = `${import.meta.env.BASE_URL}data/master/pending-naming-years.json`
 
 const parseBilingualLabel = (value) => {
   const text = String(value ?? '').trim()
@@ -35,16 +41,13 @@ function MapPage() {
   const [subDistrictCenters, setSubDistrictCenters] = useState(subdistrictCentersConfig ?? {})
   const [roadSearch, setRoadSearch] = useState('')
   const [roadIndex, setRoadIndex] = useState([])
+  const [noticeLookup, setNoticeLookup] = useState(() => new Map())
   const [isRoadIndexLoading, setIsRoadIndexLoading] = useState(true)
   const [activeRoadId, setActiveRoadId] = useState(null)
   const [selectedRoadKey, setSelectedRoadKey] = useState(null)
   const [clickedRoadCenter, setClickedRoadCenter] = useState(null)
   const [pickedRoadMeta, setPickedRoadMeta] = useState(null)
-  const [collapsedPanels, setCollapsedPanels] = useState({
-    evolution: false,
-    navigator: false,
-    timeline: false,
-  })
+  const [collapsedPanels, setCollapsedPanels] = useState(getDefaultMapPanelCollapse)
 
   const colorGroups = useMemo(
     () =>
@@ -90,6 +93,24 @@ function MapPage() {
   }, [subDistrictOptions, subDistrictSearch, activeSubDistrictId])
   const activeSubDistrict = subDistrictOptions.find((item) => item.id === activeSubDistrictId) ?? null
   const activeRoad = roadIndex.find((item) => item.id === activeRoadId) ?? null
+
+  const selectedContributeMeta = useMemo(() => {
+    if (!selectedRoadKey) return { url: null, show: false }
+    const parsed = parseRoadKey(selectedRoadKey)
+    const enName = activeRoad?.enName || pickedRoadMeta?.enName || parsed.enName
+    const zhName = activeRoad?.zhName || pickedRoadMeta?.zhName || parsed.zhName
+    const streetCode = parsed.type === 'code' ? parsed.streetCode : pickedRoadMeta?.streetCode
+    const year = activeRoad?.year ?? pickedRoadMeta?.year
+    const namingDate = activeRoad?.namingDate || pickedRoadMeta?.namingDate
+    const hasDate = Boolean(namingDate) || (Number.isFinite(year) && year > 0)
+    const show = !hasDate
+    const url = buildSingleStreetFormUrl({
+      streetCode,
+      englishName: enName,
+      chineseName: zhName,
+    })
+    return { url, show, roadKey: selectedRoadKey }
+  }, [selectedRoadKey, activeRoad, pickedRoadMeta])
   const roadResults = useMemo(() => {
     const keyword = roadSearch.trim().toLowerCase()
     if (!keyword) return []
@@ -184,9 +205,16 @@ function MapPage() {
 
     const loadRoadIndex = async () => {
       try {
-        const response = await fetch(`${import.meta.env.BASE_URL}data/hk-streets.geojson`)
-        if (!response.ok) throw new Error('Unable to load roads data')
-        const geojson = await response.json()
+        const [roadsResponse, pendingResponse] = await Promise.all([
+          fetch(ROADS_URL),
+          fetch(PENDING_URL),
+        ])
+        if (!roadsResponse.ok) throw new Error('Unable to load roads data')
+        const geojson = await roadsResponse.json()
+        if (pendingResponse.ok) {
+          const pending = await pendingResponse.json()
+          if (isMounted) setNoticeLookup(buildNoticeLookup(pending?.roads ?? []))
+        }
         const features = Array.isArray(geojson?.features) ? geojson.features : []
         const roadsMap = new Map()
 
@@ -336,6 +364,23 @@ function MapPage() {
     }
   }
 
+  const selectedGazetteLink = useMemo(() => {
+    if (!selectedRoadKey) return null
+    const parsed = parseRoadKey(selectedRoadKey)
+    const enName = activeRoad?.enName || pickedRoadMeta?.enName || parsed.enName || ''
+    const zhName = activeRoad?.zhName || pickedRoadMeta?.zhName || parsed.zhName || ''
+    const streetCode =
+      parsed.type === 'code' ? parsed.streetCode : pickedRoadMeta?.streetCode || activeRoad?.streetCode
+    return resolveNoticeLink({
+      roadKey: selectedRoadKey,
+      enName,
+      zhName,
+      streetCode,
+      lookup: noticeLookup,
+      locale,
+    })
+  }, [selectedRoadKey, activeRoad, pickedRoadMeta, noticeLookup, locale])
+
   const togglePanel = (panel) => {
     setCollapsedPanels((prev) => {
       const isCurrentlyCollapsed = prev[panel]
@@ -378,6 +423,7 @@ function MapPage() {
                     zhName: activeRoad?.zhName || '',
                     year: activeRoad?.year ?? pickedRoadMeta?.year ?? null,
                     namingDate: activeRoad?.namingDate || pickedRoadMeta?.namingDate || null,
+                    gazetteLink: selectedGazetteLink,
                   }
                 }
                 return {
@@ -385,10 +431,13 @@ function MapPage() {
                   zhName: activeRoad?.zhName || parsed.zhName,
                   year: activeRoad?.year ?? pickedRoadMeta?.year ?? null,
                   namingDate: activeRoad?.namingDate || pickedRoadMeta?.namingDate || null,
+                  gazetteLink: selectedGazetteLink,
                 }
               })()
             : null
         }
+        contributeFormUrl={selectedContributeMeta.show ? selectedContributeMeta.url : null}
+        contributeLabel={t('mapSubmitProof')}
         onRoadPick={({ key, center, year, enName, zhName, streetCode, namingDate }) => {
           setSelectedRoadKey(key)
           setClickedRoadCenter(center)

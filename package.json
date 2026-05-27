@@ -31,7 +31,11 @@
     "merge:egazette": "node scripts/merge-egazette-naming.mjs",
     "merge:egazette:pilot": "node scripts/merge-egazette-naming.mjs --pilot",
     "publish:egazette-pdfs": "node scripts/publish-egazette-pdfs.mjs",
-    "prepare:egazette-links": "node scripts/publish-egazette-pdfs.mjs && node scripts/report-pending-naming-years.mjs"
+    "prepare:egazette-links": "node scripts/publish-egazette-pdfs.mjs && node scripts/report-pending-naming-years.mjs",
+    "sync:submission-tracker": "node scripts/import-crowd-submissions.mjs --tracker-only",
+    "import:crowdsubmissions": "node scripts/import-crowd-submissions.mjs",
+    "merge:crowd": "node scripts/merge-crowd-naming.mjs",
+    "apply:crowd": "npm run import:crowdsubmissions && npm run merge:crowd && npm run report:pending-years"
   },
   "dependencies": {
     "@deck.gl/layers": "^9.3.1",

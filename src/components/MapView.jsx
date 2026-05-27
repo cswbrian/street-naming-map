@@ -98,6 +98,8 @@ function MapView({
   selectedRoadCenter,
   selectedRoadInfo,
   onRoadPick,
+  contributeFormUrl,
+  contributeLabel,
 }) {
   const mapContainerRef = useRef(null)
   const mapRef = useRef(null)
@@ -505,13 +507,44 @@ function MapView({
 
     const chip = document.createElement('section')
     chip.className = 'selected-road-chip'
+    const yearLine =
+      formatNamingDate(selectedRoadInfo.namingDate) ||
+      selectedRoadInfo.year ||
+      (locale === 'zh' ? '未知' : 'Unknown')
+    const contributeBlock =
+      contributeFormUrl && contributeLabel
+        ? `<a class="selected-road-chip-contribute" href="${contributeFormUrl}" target="_blank" rel="noopener noreferrer">${contributeLabel}</a>`
+        : ''
+    const gazette = selectedRoadInfo.gazetteLink
+    const noticeBlock = gazette
+      ? `<a class="selected-road-chip-notice" href="${gazette.url}" target="_blank" rel="noopener noreferrer">${gazette.label}</a>`
+      : ''
     chip.innerHTML = `
       <div class="selected-road-chip-content">
         ${selectedRoadInfo.zhName ? `<p class="selected-road-chip-zh">${selectedRoadInfo.zhName}</p>` : ''}
         ${selectedRoadInfo.enName ? `<p class="selected-road-chip-en">${selectedRoadInfo.enName}</p>` : ''}
-        <p class="selected-road-chip-year">${formatNamingDate(selectedRoadInfo.namingDate) || selectedRoadInfo.year || (locale === 'zh' ? '未知' : 'Unknown')}</p>
+        <p class="selected-road-chip-year">${yearLine}</p>
+        ${noticeBlock}
+        ${contributeBlock}
       </div>
     `
+    const contributeLink = chip.querySelector('.selected-road-chip-contribute')
+    if (contributeLink) {
+      contributeLink.addEventListener('click', (event) => {
+        event.preventDefault()
+        event.stopPropagation()
+        window.open(contributeFormUrl, '_blank', 'noopener,noreferrer')
+      })
+    }
+    const noticeLink = chip.querySelector('.selected-road-chip-notice')
+    if (noticeLink) {
+      noticeLink.addEventListener('click', (event) => {
+        event.stopPropagation()
+      })
+    }
+    chip.addEventListener('click', (event) => {
+      event.stopPropagation()
+    })
 
     if (selectedRoadMarkerRef.current) {
       selectedRoadMarkerRef.current.remove()
@@ -519,12 +552,20 @@ function MapView({
 
     selectedRoadMarkerRef.current = new maplibregl.Marker({
       element: chip,
+      className: 'selected-road-marker',
       anchor: 'bottom',
       offset: [0, -14],
     })
       .setLngLat(selectedRoadCenter)
       .addTo(map)
-  }, [selectedRoadKey, selectedRoadCenter, selectedRoadInfo, locale])
+  }, [
+    selectedRoadKey,
+    selectedRoadCenter,
+    selectedRoadInfo,
+    locale,
+    contributeFormUrl,
+    contributeLabel,
+  ])
 
   return <section className="map-container" ref={mapContainerRef} />
 }

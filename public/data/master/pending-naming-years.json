@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-21T17:43:25.871Z",
+  "generated_at": "2026-05-27T15:55:42.077Z",
   "source_file": "public/data/hk-streets.geojson",
   "totals": {
     "total_segments": 39602,
-    "segments_missing_naming_year": 37814,
+    "segments_missing_naming_year": 37785,
     "unique_roads": 12225,
-    "unique_roads_with_naming_year": 268,
-    "unique_roads_missing_naming_year": 11957
+    "unique_roads_with_naming_year": 269,
+    "unique_roads_missing_naming_year": 11956
   },
   "roads": [
     {
@@ -1235,10 +1235,26 @@
       "english_name": "JORDAN ROAD",
       "chinese_name": "佐敦道",
       "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1909,
+      "naming_date": "1909-05-28",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "Jordan Road|佐敦道",
+        "canonical_naming_date": "1909-05-28",
+        "canonical_naming_year": 1909,
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "notice_no": "GN323",
+        "notice_type": "declaration",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.323",
+        "government_notice_label_zh": "第323號",
+        "government_notice_url_en": "https://digitalrepository.lib.hku.hk/catalog/wd37dk81s#?c=&m=&s=&cv=&xywh=-210%2C864%2C2227%2C765",
+        "government_notice_url_zh": null,
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 29
     },
     {
@@ -153540,18 +153556,6 @@
       "street_code": "10166",
       "english_name": "CHATHAM ROAD NORTH",
       "chinese_name": "漆咸道北",
-      "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 29
-    },
-    {
-      "road_key": "code:10904",
-      "street_code": "10904",
-      "english_name": "JORDAN ROAD",
-      "chinese_name": "佐敦道",
       "street_type": "Main Road",
       "naming_year": null,
       "naming_date": null,

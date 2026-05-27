@@ -8,10 +8,10 @@ import './styles/app.css'
 
 function AppShell() {
   const location = useLocation()
-  const isNamesPage = /\/names\/?$/.test(location.pathname)
+  const isDashboardPage = /\/names\/?$/.test(location.pathname)
 
   return (
-    <main className={`app-shell ${isNamesPage ? 'is-dashboard' : ''}`}>
+    <main className={`app-shell ${isDashboardPage ? 'is-dashboard' : ''}`}>
       <Outlet />
     </main>
   )
@@ -30,10 +30,12 @@ function App() {
     <Routes>
       <Route path="/" element={<LocaleRedirect />} />
       <Route path="/names" element={<LegacyLocaleRedirect segment="names" />} />
+      <Route path="/contribute" element={<LegacyLocaleRedirect segment="names" />} />
       <Route path="/:locale" element={<LocaleLayout />}>
         <Route element={<AppShell />}>
           <Route index element={<MapPage />} />
           <Route path="names" element={<NamesPage />} />
+          <Route path="contribute" element={<LegacyLocaleRedirect segment="names" />} />
         </Route>
       </Route>
       <Route path="*" element={<LegacyLocaleRedirect />} />

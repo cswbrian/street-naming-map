@@ -1,0 +1,93 @@
+#!/usr/bin/env node
+/**
+ * Merge approved crowdsubmitted events into combined naming data and GeoJSON.
+ */
+
+import { mkdir, readFile, writeFile } from 'node:fs/promises'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
+import {
+  aggregateByStreet,
+  enrichGeojson,
+  mergeEvents,
+} from './lib/street-naming-core.mjs'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+const projectRoot = path.resolve(__dirname, '..')
+
+const SOURCE_PATH = path.join(
+  projectRoot,
+  'Transportation_RoadCentreline_20260402.gdb_converted.geojson',
+)
+const GEOJSON_OUTPUT = path.join(projectRoot, 'public', 'data', 'hk-streets.geojson')
+const MASTER_DIR = path.join(projectRoot, 'public', 'data', 'master')
+const COMBINED_EVENTS = path.join(MASTER_DIR, 'street-events-combined.json')
+const COMBINED_AGGREGATES = path.join(MASTER_DIR, 'street-aggregates-combined.json')
+const LANDSD_EVENTS = path.join(MASTER_DIR, 'landsd-street-events-2016plus.json')
+const CROWD_APPROVED = path.join(projectRoot, 'data', 'crowdsubmissions', 'street-events-approved.json')
+
+async function loadJson(filePath, fallback = null) {
+  try {
+    return JSON.parse(await readFile(filePath, 'utf8'))
+  } catch {
+    return fallback
+  }
+}
+
+async function main() {
+  const [combinedExisting, landsdFallback, crowdRaw, sourceRaw] = await Promise.all([
+    loadJson(COMBINED_EVENTS, null),
+    loadJson(LANDSD_EVENTS, []),
+    loadJson(CROWD_APPROVED, []),
+    readFile(SOURCE_PATH, 'utf8').then(JSON.parse),
+  ])
+
+  const crowdEvents = Array.isArray(crowdRaw) ? crowdRaw : []
+  if (!crowdEvents.length) {
+    console.log('No approved crowd events at', CROWD_APPROVED)
+    console.log('Run: npm run import:crowdsubmissions (without --tracker-only) after approving rows')
+    return
+  }
+
+  const baseEvents = Array.isArray(combinedExisting) ? combinedExisting : landsdFallback
+  const landsd = baseEvents.filter((e) => e.source === 'landsd')
+  const egazette = baseEvents.filter((e) => e.source === 'egazette_pdf')
+  const combined = mergeEvents(landsd, egazette, crowdEvents)
+  const aggregates = aggregateByStreet(combined)
+
+  const { enriched, joinStats } = enrichGeojson(sourceRaw, aggregates, {
+    geojsonName: 'HK_Streets_Combined',
+  })
+
+  await mkdir(MASTER_DIR, { recursive: true })
+  await mkdir(path.dirname(GEOJSON_OUTPUT), { recursive: true })
+
+  await writeFile(COMBINED_EVENTS, `${JSON.stringify(combined, null, 2)}\n`)
+  await writeFile(COMBINED_AGGREGATES, `${JSON.stringify(aggregates, null, 2)}\n`)
+  await writeFile(GEOJSON_OUTPUT, `${JSON.stringify(enriched)}\n`)
+
+  const qa = {
+    generated_at: new Date().toISOString(),
+    counts: {
+      crowd_events_merged: crowdEvents.length,
+      combined_events: combined.length,
+      street_aggregates: aggregates.length,
+      streets_with_naming_year: aggregates.filter((a) => a.canonical_naming_year).length,
+    },
+    join_stats: joinStats,
+  }
+  await writeFile(path.join(MASTER_DIR, 'combined-naming-qa.json'), `${JSON.stringify(qa, null, 2)}\n`)
+
+  console.log('Merged crowd naming data:')
+  console.log(`  Crowd events: ${crowdEvents.length}`)
+  console.log(`  Combined events: ${combined.length}`)
+  console.log(`  Streets with naming year: ${qa.counts.streets_with_naming_year}`)
+  console.log(`  GeoJSON: ${GEOJSON_OUTPUT}`)
+  console.log('\nRun: npm run report:pending-years')
+}
+
+main().catch((error) => {
+  console.error(error)
+  process.exit(1)
+})
