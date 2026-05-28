@@ -329,7 +329,7 @@
   margin-top: 0.65rem;
   border: 1px solid var(--sn-border);
   border-radius: var(--sn-radius);
-  overflow-x: hidden;
+  overflow-x: auto;
   overflow-y: auto;
   max-height: calc(100vh - 15.6rem);
   background: var(--sn-bg-panel);
@@ -353,6 +353,7 @@
 
 .pending-col-street {
   width: auto;
+  min-width: 10rem;
 }
 
 .pending-col-type {
@@ -375,18 +376,13 @@
   width: 3.25rem;
 }
 
-.pending-col-street-head,
-.pending-col-street-cell {
-  max-width: 11rem;
-  overflow: hidden;
-}
-
 .pending-col-street-cell {
   padding: 0;
 }
 
 .pending-street-scroll {
-  max-width: 11rem;
+  width: 100%;
+  max-width: none;
   overflow-x: auto;
   overflow-y: hidden;
   padding: 0.42rem 0.5rem;
@@ -883,12 +879,6 @@
     display: none;
   }
 
-  .pending-col-street-head,
-  .pending-col-street-cell,
-  .pending-street-scroll {
-    max-width: 9rem;
-  }
-
   .pending-col-date {
     width: 5.25rem;
   }
@@ -965,7 +955,52 @@
   }
 
   .pending-table {
+    table-layout: auto;
+    width: max-content;
+    min-width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
     font-size: 0.72rem;
+  }
+
+  .pending-col-street {
+    width: 9rem;
+    min-width: 6.5rem;
+    max-width: 10rem;
+  }
+
+  .pending-col-date {
+    width: 4.85rem;
+    min-width: 4.85rem;
+  }
+
+  .pending-col-notice {
+    width: 4.35rem;
+    min-width: 4.35rem;
+  }
+
+  .pending-col-source {
+    width: 4.1rem;
+    min-width: 4.1rem;
+  }
+
+  .pending-col-action {
+    width: 3rem;
+    min-width: 3rem;
+  }
+
+  .pending-col-street-head,
+  .pending-col-street-cell {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background: var(--sn-bg-panel);
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.08);
+  }
+
+  .pending-col-street-head {
+    z-index: 4;
+    background: var(--sn-bg-elevated);
   }
 
   .pending-table th,
@@ -973,30 +1008,20 @@
     padding: 0.36rem 0.32rem;
   }
 
-  .pending-col-street-head,
-  .pending-col-street-cell,
-  .pending-street-scroll {
-    max-width: 7.25rem;
-  }
-
-  .pending-col-date {
-    width: 4.85rem;
-  }
-
-  .pending-col-notice {
-    width: 4.35rem;
-  }
-
-  .pending-col-source {
-    width: 4.1rem;
-  }
-
-  .pending-col-action {
-    width: 2.85rem;
-  }
-
   .pending-street-scroll {
     padding: 0.36rem 0.32rem;
+  }
+
+  .pending-street-zh,
+  .pending-street-en {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .pending-street-cell,
+  .pending-col-street-cell .pending-street-link {
+    width: auto;
+    min-width: 0;
   }
 
   .pending-source-badge {
