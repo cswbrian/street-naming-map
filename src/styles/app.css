@@ -45,6 +45,110 @@
   color: var(--sn-text);
 }
 
+.app-nav-desktop-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-shrink: 0;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--sn-border);
+  background: transparent;
+  color: var(--sn-text-muted);
+  border-radius: var(--sn-radius);
+  padding: 0.18rem;
+  width: 1.85rem;
+  height: 1.85rem;
+  cursor: pointer;
+}
+
+.theme-toggle svg {
+  width: 0.95rem;
+  height: 0.95rem;
+}
+
+.theme-toggle:hover {
+  border-color: var(--sn-border-strong);
+  color: var(--sn-text);
+}
+
+.app-nav-mobile-menu {
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+
+.app-nav-menu-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--sn-border);
+  background: transparent;
+  color: var(--sn-text-muted);
+  border-radius: var(--sn-radius);
+  padding: 0.18rem;
+  width: 1.85rem;
+  height: 1.85rem;
+  cursor: pointer;
+}
+
+.app-nav-menu-toggle svg {
+  width: 0.95rem;
+  height: 0.95rem;
+}
+
+.app-nav-menu-toggle:hover {
+  border-color: var(--sn-border-strong);
+  color: var(--sn-text);
+}
+
+.app-nav-menu-panel {
+  position: absolute;
+  top: calc(100% + 0.35rem);
+  right: 0;
+  z-index: 30;
+  display: grid;
+  gap: 0.25rem;
+  min-width: 9.5rem;
+  padding: 0.35rem;
+  border: 1px solid var(--sn-border);
+  border-radius: var(--sn-radius);
+  background: var(--sn-bg-panel);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+.app-nav-menu-item {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  width: 100%;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--sn-text-muted);
+  border-radius: var(--sn-radius);
+  padding: 0.38rem 0.45rem;
+  font-size: 0.74rem;
+  line-height: 1.2;
+  cursor: pointer;
+  text-align: left;
+}
+
+.app-nav-menu-item svg {
+  width: 0.9rem;
+  height: 0.9rem;
+  flex-shrink: 0;
+}
+
+.app-nav-menu-item:hover {
+  border-color: var(--sn-border);
+  color: var(--sn-text);
+  background: var(--sn-bg-elevated);
+}
+
 .app-page-header {
   position: sticky;
   top: 0;
@@ -84,7 +188,7 @@
   gap: 0.65rem;
   padding: 0.65rem 0.75rem;
   min-height: 3.1rem;
-  background: rgba(17, 17, 17, 0.94);
+  background: var(--sn-overlay-bg);
   border-bottom: 1px solid var(--sn-border);
   pointer-events: none;
 }
@@ -739,12 +843,12 @@
   width: auto;
   margin: 0;
   padding: 0.2rem 0.36rem;
-  border: 1px solid rgba(255, 193, 77, 0.42);
+  border: 1px solid var(--sn-chip-contribute-border);
   border-radius: 0;
-  background: rgba(255, 193, 77, 0.1);
+  background: var(--sn-chip-contribute-bg);
   font-size: 0.72rem;
   font-weight: 600;
-  color: #ffc14d;
+  color: var(--sn-chip-contribute-text);
   text-decoration: none;
   cursor: pointer;
   pointer-events: auto;
@@ -755,9 +859,9 @@
 }
 
 .selected-road-chip-contribute:hover {
-  background: rgba(255, 193, 77, 0.18);
-  border-color: rgba(255, 193, 77, 0.62);
-  color: #ffd699;
+  background: var(--sn-chip-contribute-bg-hover);
+  border-color: var(--sn-chip-contribute-border-hover);
+  color: var(--sn-chip-contribute-text-hover);
 }
 
 .selected-road-chip-contribute-icon {
@@ -803,6 +907,14 @@
 }
 
 @media (max-width: 820px) {
+  .app-nav-desktop-controls {
+    display: none;
+  }
+
+  .app-nav-mobile-menu {
+    display: block;
+  }
+
   .app-page-header {
     padding: 0.5rem 0.55rem;
   }
@@ -908,7 +1020,7 @@
   inset: 0;
   display: grid;
   place-items: center;
-  background: rgba(17, 17, 17, 0.4);
+  background: var(--sn-map-overlay);
   z-index: 6;
 }
 
@@ -943,6 +1055,10 @@
   filter: saturate(1.05) contrast(1.02);
 }
 
+[data-theme='light'] .maplibregl-canvas {
+  filter: saturate(1.1) contrast(1.06);
+}
+
 .maplibregl-ctrl-group {
   background: var(--sn-bg-panel);
   border: 1px solid var(--sn-border);
@@ -964,13 +1080,11 @@
   display: block;
   min-width: 196px;
   max-width: min(78vw, 320px);
-  border: 1px solid rgba(255, 255, 255, 0.16);
+  border: 1px solid var(--sn-chip-border);
   border-radius: 0;
-  background: rgba(18, 20, 26, 0.94);
+  background: var(--sn-chip-bg);
   backdrop-filter: blur(10px);
-  box-shadow:
-    0 10px 28px rgba(0, 0, 0, 0.48),
-    0 0 0 1px rgba(255, 255, 255, 0.04) inset;
+  box-shadow: var(--sn-chip-shadow);
   pointer-events: auto;
 }
 
@@ -1009,7 +1123,7 @@
   gap: 0.28rem;
   margin: 0.52rem 0 0;
   padding: 0.46rem 0 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid var(--sn-chip-divider);
 }
 
 .selected-road-chip-row {
@@ -1026,7 +1140,7 @@
   font-weight: 600;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: rgba(232, 232, 232, 0.52);
+  color: var(--sn-chip-label);
   white-space: nowrap;
 }
 
@@ -1040,7 +1154,7 @@
 }
 
 .selected-road-chip-empty {
-  color: rgba(232, 232, 232, 0.28);
+  color: var(--sn-chip-empty);
   font-variant-numeric: tabular-nums;
 }
 
@@ -1048,9 +1162,9 @@
   display: inline-block;
   padding: 0.08rem 0.34rem;
   border-radius: 0;
-  background: rgba(176, 184, 201, 0.14);
-  border: 1px solid rgba(176, 184, 201, 0.28);
-  color: #b0b8c9;
+  background: var(--sn-chip-pending-bg);
+  border: 1px solid var(--sn-chip-pending-border);
+  color: var(--sn-chip-pending-text);
   font-size: 0.72rem;
   font-weight: 600;
   white-space: nowrap;
@@ -1058,7 +1172,7 @@
 
 .selected-road-chip-date {
   font-variant-numeric: tabular-nums;
-  color: #d8e8ff;
+  color: var(--sn-chip-date);
 }
 
 .selected-road-chip-source {
@@ -1074,12 +1188,12 @@
   white-space: nowrap;
   font-size: 0.76rem;
   font-weight: 600;
-  color: #35f2c3;
+  color: var(--sn-chip-notice);
   text-decoration: none;
 }
 
 .selected-road-chip-notice:hover {
-  color: #5ef5d0;
+  color: var(--sn-chip-notice-hover);
   text-decoration: underline;
   text-underline-offset: 2px;
 }
@@ -1087,7 +1201,7 @@
 .selected-road-chip-foot {
   margin-top: 0.52rem;
   padding-top: 0.46rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid var(--sn-chip-foot-divider);
 }
 
 .selected-road-chip-pointer {
@@ -1096,9 +1210,9 @@
   bottom: -6px;
   width: 12px;
   height: 12px;
-  background: rgba(18, 20, 26, 0.94);
-  border-right: 1px solid rgba(255, 255, 255, 0.16);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  background: var(--sn-chip-bg);
+  border-right: 1px solid var(--sn-chip-border);
+  border-bottom: 1px solid var(--sn-chip-border);
   transform: translateX(-50%) rotate(45deg);
   pointer-events: none;
 }
@@ -1667,7 +1781,7 @@
   width: 0.65rem;
   height: 0.65rem;
   border-radius: 1px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid var(--sn-border-strong);
   flex-shrink: 0;
 }
 

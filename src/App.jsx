@@ -2,6 +2,7 @@ import { Route, Routes, Outlet, useLocation } from 'react-router-dom'
 import MapPage from './pages/MapPage'
 import NamesPage from './pages/NamesPage'
 import { LocaleProvider } from './i18n/LocaleContext'
+import { ThemeProvider } from './theme/ThemeContext'
 import LocaleRedirect from './routes/LocaleRedirect'
 import LegacyLocaleRedirect from './routes/LegacyLocaleRedirect'
 import './styles/app.css'
@@ -19,9 +20,11 @@ function AppShell() {
 
 function LocaleLayout() {
   return (
-    <LocaleProvider>
-      <Outlet />
-    </LocaleProvider>
+    <ThemeProvider>
+      <LocaleProvider>
+        <Outlet />
+      </LocaleProvider>
+    </ThemeProvider>
   )
 }
 

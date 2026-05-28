@@ -4,6 +4,8 @@ import AppNav from '../components/AppNav'
 import MapView from '../components/MapView'
 import TimelineSlider from '../components/TimelineSlider'
 import { useLocale } from '../i18n/LocaleContext'
+import { useTheme } from '../theme/ThemeContext'
+import { getThemedLegendColor } from '../theme/theme.js'
 import { COLOR_GROUP_DEFS, getRoadTypeLabel } from '../i18n/translations'
 import { REGION_OPTIONS, DISTRICT_OPTIONS } from '../config/regions.mjs'
 import subdistrictCentersConfig from '../config/subdistrictCenters.json'
@@ -32,6 +34,7 @@ const parseBilingualLabel = (value) => {
 
 function MapPage() {
   const { locale, t, formatStreetName } = useLocale()
+  const { theme } = useTheme()
   const [searchParams, setSearchParams] = useSearchParams()
   const currentYear = new Date().getFullYear()
   const minYear = 1842
@@ -55,10 +58,11 @@ function MapPage() {
 
   const colorGroups = useMemo(
     () =>
-      COLOR_GROUP_DEFS.map((group) =>
-        group.id === 'g6' ? { ...group, end: currentYear } : group,
-      ),
-    [currentYear],
+      COLOR_GROUP_DEFS.map((group) => {
+        const normalized = group.id === 'g6' ? { ...group, end: currentYear } : group
+        return { ...normalized, color: getThemedLegendColor(normalized, theme) }
+      }),
+    [currentYear, theme],
   )
 
   const activeGroup = colorGroups.find((group) => group.id === activeGroupId) ?? null
@@ -495,6 +499,7 @@ function MapPage() {
     <>
       <MapView
         locale={locale}
+        theme={theme}
         selectedYear={selectedYear}
         minYear={minYear}
         activeGroup={activeGroup}

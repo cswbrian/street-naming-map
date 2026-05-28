@@ -4,6 +4,13 @@ import { MapboxOverlay } from '@deck.gl/mapbox'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import { buildRoadFilter, buildRoadKey, filterNamedStreetFeatures, hasStreetName } from '../lib/roadKey'
 import { translations } from '../i18n/translations'
+import {
+  BASEMAP_TILES,
+  MAP_BACKGROUND_COLORS,
+  MAP_LABEL_COLORS,
+  buildRoadLineColorPaint,
+  getRoadPalette,
+} from '../theme/theme.js'
 
 const SOURCE_ID = 'hk-roads-source'
 const LAYER_ID = 'hk-roads-layer'
@@ -14,7 +21,6 @@ const FOCUS_SOURCE_ID = 'focus-area-source'
 const FOCUS_LAYER_ID = 'focus-area-layer'
 const DATA_URL = `${import.meta.env.BASE_URL}data/hk-streets.geojson`
 const DEFAULT_VIEW = { center: [114.1694, 22.3193], zoom: 10.9 }
-const UNKNOWN_COLOR = '#B0B8C9'
 const HK_BOUNDS = [
   [113.82, 22.15],
   [114.45, 22.58],
@@ -106,12 +112,12 @@ const buildRoadLabelTextField = (unknownYearLabel) => [
   { 'font-scale': 0.78 },
 ]
 
-const darkStyle = {
+const buildBasemapStyle = (theme) => ({
   version: 8,
   sources: {
     basemap: {
       type: 'raster',
-      tiles: ['https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'],
+      tiles: [BASEMAP_TILES[theme] ?? BASEMAP_TILES.dark],
       tileSize: 256,
       attribution:
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
@@ -133,11 +139,50 @@ const darkStyle = {
       id: 'background',
       type: 'background',
       paint: {
-        'background-color': '#121212',
+        'background-color': MAP_BACKGROUND_COLORS[theme] ?? MAP_BACKGROUND_COLORS.dark,
         'background-opacity': 0.35,
       },
     },
   ],
+})
+
+const applyRoadTheme = (map, theme) => {
+  const source = map.getSource('basemap')
+  if (source?.setTiles) {
+    source.setTiles([BASEMAP_TILES[theme] ?? BASEMAP_TILES.dark])
+  }
+
+  if (map.getLayer('background')) {
+    map.setPaintProperty(
+      'background',
+      'background-color',
+      MAP_BACKGROUND_COLORS[theme] ?? MAP_BACKGROUND_COLORS.dark,
+    )
+  }
+
+  const labelColors = MAP_LABEL_COLORS[theme] ?? MAP_LABEL_COLORS.dark
+  if (map.getLayer(LABEL_LAYER_ID)) {
+    map.setPaintProperty(LABEL_LAYER_ID, 'text-color', labelColors.text)
+    map.setPaintProperty(LABEL_LAYER_ID, 'text-halo-color', labelColors.halo)
+  }
+
+  const palette = getRoadPalette(theme)
+  if (map.getLayer(LAYER_ID)) {
+    map.setPaintProperty(LAYER_ID, 'line-color', buildRoadLineColorPaint(theme))
+    map.setPaintProperty(LAYER_ID, 'line-blur', theme === 'light' ? 0.08 : 0.15)
+  }
+
+  if (map.getLayer(HIGHLIGHT_GLOW_LAYER_ID)) {
+    map.setPaintProperty(HIGHLIGHT_GLOW_LAYER_ID, 'line-color', palette.highlightGlow)
+  }
+
+  if (map.getLayer(HIGHLIGHT_CORE_LAYER_ID)) {
+    map.setPaintProperty(HIGHLIGHT_CORE_LAYER_ID, 'line-color', palette.highlightCore)
+  }
+
+  if (map.getLayer(FOCUS_LAYER_ID)) {
+    map.setPaintProperty(FOCUS_LAYER_ID, 'line-color', palette.focus)
+  }
 }
 
 const bboxToPolygon = (bbox) => {
@@ -167,6 +212,7 @@ const bboxToPolygon = (bbox) => {
 
 function MapView({
   locale,
+  theme = 'light',
   selectedYear,
   minYear,
   activeGroup,
@@ -181,7 +227,7 @@ function MapView({
   const mapRef = useRef(null)
   const selectedRoadMarkerRef = useRef(null)
 
-  const applyMapState = (map, year, group, roadKey) => {
+  const applyMapState = (map, year, group, roadKey, mapTheme = 'light') => {
     if (
       !map.getLayer(LAYER_ID) ||
       !map.getLayer(LABEL_LAYER_ID) ||
@@ -190,6 +236,8 @@ function MapView({
     ) {
       return
     }
+
+    const opacity = getRoadPalette(mapTheme).opacity
 
     const numericYear = ['coalesce', ['to-number', ['get', 'naming_year']], -1]
     const unknownYearFilter = ['==', numericYear, -1]
@@ -219,54 +267,56 @@ function MapView({
     const baseLineOpacity = [
       'case',
       ['==', numericYear, -1],
-      0.9,
+      opacity.unknown,
       [
         'interpolate',
         ['linear'],
         numericYear,
         minYear,
-        0.1,
+        opacity.fadeMin,
         year - 1,
-        0.35,
+        opacity.fadeMid,
         year,
-        0.95,
+        opacity.fadeMax,
       ],
     ]
 
     map.setPaintProperty(
       LAYER_ID,
       'line-opacity',
-      roadKey ? ['case', roadFilter, 0.2, ['*', baseLineOpacity, 0.32]] : baseLineOpacity,
+      roadKey ? ['case', roadFilter, 0.2, ['*', baseLineOpacity, opacity.dimMultiplier]] : baseLineOpacity,
     )
 
     const baseLabelOpacity = [
       'case',
       ['==', numericYear, -1],
-      0.75,
+      opacity.labelUnknown,
       [
         'interpolate',
         ['linear'],
         numericYear,
         minYear,
-        0.05,
+        opacity.labelFadeMin,
         year - 1,
-        0.4,
+        opacity.labelFadeMid,
         year,
-        0.9,
+        opacity.labelFadeMax,
       ],
     ]
 
     map.setPaintProperty(
       LABEL_LAYER_ID,
       'text-opacity',
-      roadKey ? ['case', roadFilter, 0.1, ['*', baseLabelOpacity, 0.34]] : baseLabelOpacity,
+      roadKey
+        ? ['case', roadFilter, 0.1, ['*', baseLabelOpacity, opacity.labelDimMultiplier]]
+        : baseLabelOpacity,
     )
   }
 
   useEffect(() => {
     const map = new maplibregl.Map({
       container: mapContainerRef.current,
-      style: darkStyle,
+      style: buildBasemapStyle(theme),
       center: DEFAULT_VIEW.center,
       zoom: DEFAULT_VIEW.zoom,
       pitch: 0,
@@ -311,26 +361,7 @@ function MapView({
           'line-join': 'round',
         },
         paint: {
-          'line-color': [
-            'case',
-            ['==', ['coalesce', ['to-number', ['get', 'naming_year']], -1], -1],
-            UNKNOWN_COLOR,
-            [
-              'step',
-              ['coalesce', ['to-number', ['get', 'naming_year']], -1],
-              '#5B6CFF',
-              1899,
-              '#3FA9FF',
-              1946,
-              '#2ED3FF',
-              1970,
-              '#35F2C3',
-              1990,
-              '#C6FF4D',
-              2010,
-              '#FF5FD2',
-            ],
-          ],
+          'line-color': buildRoadLineColorPaint(theme),
           'line-width': [
             'interpolate',
             ['linear'],
@@ -372,7 +403,7 @@ function MapView({
               2.2,
             ],
           ],
-          'line-blur': 0.15,
+          'line-blur': theme === 'light' ? 0.08 : 0.15,
           'line-opacity': 0,
           'line-opacity-transition': { duration: 700, delay: 0 },
           'line-color-transition': { duration: 700, delay: 0 },
@@ -393,8 +424,8 @@ function MapView({
           'text-allow-overlap': false,
         },
         paint: {
-          'text-color': '#f3fbff',
-          'text-halo-color': 'rgba(0, 2, 8, 0.98)',
+          'text-color': (MAP_LABEL_COLORS[theme] ?? MAP_LABEL_COLORS.dark).text,
+          'text-halo-color': (MAP_LABEL_COLORS[theme] ?? MAP_LABEL_COLORS.dark).halo,
           'text-halo-width': 1.5,
           'text-opacity': 0,
           'text-opacity-transition': { duration: 700, delay: 0 },
@@ -410,7 +441,7 @@ function MapView({
           'line-join': 'round',
         },
         paint: {
-          'line-color': '#e8e8e8',
+          'line-color': getRoadPalette(theme).highlightGlow,
           'line-width': ['interpolate', ['linear'], ['zoom'], 9, 5, 14, 10],
           'line-opacity': 0,
           'line-blur': 0,
@@ -427,7 +458,7 @@ function MapView({
           'line-join': 'round',
         },
         paint: {
-          'line-color': '#f0f0f0',
+          'line-color': getRoadPalette(theme).highlightCore,
           'line-width': ['interpolate', ['linear'], ['zoom'], 9, 2.6, 14, 5.5],
           'line-opacity': 0.95,
           'line-blur': 0,
@@ -445,7 +476,7 @@ function MapView({
         type: 'line',
         source: FOCUS_SOURCE_ID,
         paint: {
-          'line-color': '#9a9a9a',
+          'line-color': getRoadPalette(theme).focus,
           'line-width': 1.8,
           'line-opacity': 0.9,
           'line-dasharray': [1.5, 1],
@@ -484,7 +515,7 @@ function MapView({
         })
       })
 
-      applyMapState(map, selectedYear, activeGroup, selectedRoadKey)
+      applyMapState(map, selectedYear, activeGroup, selectedRoadKey, theme)
       onMapReady?.()
     })
 
@@ -504,6 +535,25 @@ function MapView({
 
   useEffect(() => {
     const map = mapRef.current
+    if (!map) return undefined
+
+    const apply = () => {
+      applyRoadTheme(map, theme)
+      applyMapState(map, selectedYear, activeGroup, selectedRoadKey, theme)
+    }
+    if (map.isStyleLoaded()) {
+      apply()
+      return undefined
+    }
+
+    map.once('load', apply)
+    return () => {
+      map.off('load', apply)
+    }
+  }, [theme, selectedYear, activeGroup, selectedRoadKey, minYear])
+
+  useEffect(() => {
+    const map = mapRef.current
     if (!map?.getLayer(LABEL_LAYER_ID)) return
     map.setLayoutProperty(
       LABEL_LAYER_ID,
@@ -518,8 +568,8 @@ function MapView({
       return
     }
 
-    applyMapState(map, selectedYear, activeGroup, selectedRoadKey)
-  }, [selectedYear, minYear, activeGroup, selectedRoadKey])
+    applyMapState(map, selectedYear, activeGroup, selectedRoadKey, theme)
+  }, [selectedYear, minYear, activeGroup, selectedRoadKey, theme])
 
   useEffect(() => {
     const map = mapRef.current
