@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useLocale } from '../i18n/LocaleContext'
+import { trackTimelinePlay, trackTimelineYear } from '../lib/analytics.js'
 
 function TimelineSlider({ minYear, maxYear, selectedYear, onYearChange, isCollapsed, onToggle }) {
   const { t } = useLocale()
@@ -15,7 +16,7 @@ function TimelineSlider({ minYear, maxYear, selectedYear, onYearChange, isCollap
         setIsPlaying(false)
         return
       }
-      onYearChange(selectedYear + 1)
+      onYearChange(selectedYear + 1, 'play')
     }, 1000)
 
     return () => window.clearInterval(interval)
@@ -50,7 +51,11 @@ function TimelineSlider({ minYear, maxYear, selectedYear, onYearChange, isCollap
               className="timeline-play-toggle"
               onClick={(event) => {
                 event.stopPropagation()
-                setIsPlaying((prev) => !prev)
+                setIsPlaying((prev) => {
+                  const next = !prev
+                  trackTimelinePlay(next ? 'start' : 'stop', selectedYear)
+                  return next
+                })
               }}
               aria-label={isPlaying ? t('timelinePause') : t('timelinePlay')}
             >
@@ -78,7 +83,8 @@ function TimelineSlider({ minYear, maxYear, selectedYear, onYearChange, isCollap
             max={maxYear}
             step={1}
             value={selectedYear}
-            onChange={(event) => onYearChange(Number(event.target.value))}
+            onChange={(event) => onYearChange(Number(event.target.value), 'slider')}
+            onPointerUp={(event) => trackTimelineYear(Number(event.target.value), 'slider')}
           />
           {milestoneYears.map((year) => (
             <span

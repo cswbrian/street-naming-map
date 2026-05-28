@@ -4,6 +4,7 @@ import { useLocale } from '../i18n/LocaleContext'
 import { getRoadTypeLabel, PERIOD_GROUP_DEFS } from '../i18n/translations'
 import ContributeActionIcon from './ContributeActionIcon.jsx'
 import { buildSingleStreetFormUrl } from '../lib/contributeForm.js'
+import { trackContributeOpen, trackNamesFilter, trackNoticeOpen } from '../lib/analytics.js'
 import { getNoticeLink } from '../lib/governmentNotice.js'
 import { hasStreetName } from '../lib/roadKey'
 import { getNamingSourceBadgeKey, getNamingSourceKind } from '../lib/namingSourceBadge.js'
@@ -68,6 +69,7 @@ function PendingDashboard({ onOpenRoadOnMap }) {
   }, [filterFromUrl])
 
   const handleListFilterChange = (id) => {
+    trackNamesFilter('list', id)
     setListFilter(id)
     if (id === 'all') {
       setTypeFilter(null)
@@ -79,11 +81,19 @@ function PendingDashboard({ onOpenRoadOnMap }) {
   }
 
   const handleTypeFilterChange = (type) => {
-    setTypeFilter((prev) => (prev === type ? null : type))
+    setTypeFilter((prev) => {
+      const next = prev === type ? null : type
+      trackNamesFilter('road_type', type, next !== null)
+      return next
+    })
   }
 
   const handlePeriodFilterChange = (periodId) => {
-    setPeriodFilter((prev) => (prev === periodId ? null : periodId))
+    setPeriodFilter((prev) => {
+      const next = prev === periodId ? null : periodId
+      trackNamesFilter('period', periodId, next !== null)
+      return next
+    })
   }
 
   useEffect(() => {
@@ -404,7 +414,12 @@ function PendingDashboard({ onOpenRoadOnMap }) {
                       <td className="pending-col-date-cell">{getNamingDisplayForRow(row)}</td>
                       <td className="pending-col-notice-cell">
                         {notice ? (
-                          <a href={notice.url} target="_blank" rel="noreferrer">
+                          <a
+                            href={notice.url}
+                            target="_blank"
+                            rel="noreferrer"
+                            onClick={() => trackNoticeOpen('names_table')}
+                          >
                             {notice.label}
                           </a>
                         ) : (
@@ -432,6 +447,12 @@ function PendingDashboard({ onOpenRoadOnMap }) {
                             rel="noopener noreferrer"
                             aria-label={t('contributeFillGap')}
                             title={t('contributeFillGap')}
+                            onClick={() =>
+                              trackContributeOpen(
+                                'names_table',
+                                hasRowNamingDate(row) ? 'edit' : 'add',
+                              )
+                            }
                           >
                             <ContributeActionIcon
                               size={16}

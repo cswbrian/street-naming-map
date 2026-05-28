@@ -6,6 +6,7 @@ import {
   hasStoredThemePreference,
   persistThemePreference,
 } from './theme.js'
+import { trackThemeChange } from '../lib/analytics.js'
 
 const ThemeContext = createContext(null)
 
@@ -36,6 +37,7 @@ export function ThemeProvider({ children }) {
   const setTheme = (nextTheme) => {
     if (nextTheme !== 'light' && nextTheme !== 'dark') return
     persistThemePreference(nextTheme)
+    trackThemeChange(nextTheme)
     setThemeState(nextTheme)
   }
 

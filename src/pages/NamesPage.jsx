@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import AppNav from '../components/AppNav'
 import AppSiteTitle from '../components/AppSiteTitle'
 import PendingDashboard from '../components/PendingDashboard'
+import { trackSelectRoad } from '../lib/analytics.js'
 import { useLocalePath } from '../i18n/LocaleContext'
 
 function NamesPage() {
@@ -9,10 +10,15 @@ function NamesPage() {
   const mapPath = useLocalePath()
 
   const openRoadOnMap = ({ englishName, chineseName, namingYear }) => {
+    const year = Number(namingYear)
+    trackSelectRoad({
+      method: 'names_table',
+      hasYear: Number.isFinite(year) && year > 0,
+      isPending: !Number.isFinite(year) || year <= 0,
+    })
     const params = new URLSearchParams()
     if (englishName) params.set('en', englishName)
     if (chineseName) params.set('zh', chineseName)
-    const year = Number(namingYear)
     if (Number.isFinite(year)) params.set('year', String(year))
     navigate({ pathname: mapPath, search: params.toString() })
   }

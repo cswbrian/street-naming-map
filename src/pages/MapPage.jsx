@@ -10,6 +10,13 @@ import { COLOR_GROUP_DEFS, getRoadTypeLabel } from '../i18n/translations'
 import { REGION_OPTIONS, DISTRICT_OPTIONS } from '../config/regions.mjs'
 import subdistrictCentersConfig from '../config/subdistrictCenters.json'
 import { buildSingleStreetFormUrl } from '../lib/contributeForm.js'
+import {
+  trackEraFilter,
+  trackRegionFilter,
+  trackSelectRoad,
+  trackSubdistrictSelect,
+  trackTimelineYear,
+} from '../lib/analytics.js'
 import { buildNoticeLookup, getNoticeLink, resolveNoticeLink } from '../lib/governmentNotice.js'
 import { getNamingDisplay, hasRowNamingDate } from '../lib/namingDisplay.js'
 import { getNamingSourceBadgeKey, getNamingSourceKind } from '../lib/namingSourceBadge.js'
@@ -281,7 +288,7 @@ function MapPage() {
     setRoadSearch(formatPickedRoadSearchLabel({ matched, enName, zhName, streetCode }))
   }, [isRoadIndexLoading, roadIndex, selectedRoadKey, pickedRoadMeta, locale])
 
-  const applyRoadSelection = (road, { namingYear } = {}) => {
+  const applyRoadSelection = (road, { namingYear, method = 'search' } = {}) => {
     if (!road) return
     setActiveRoadId(road.id)
     setSelectedRoadKey(road.id)
@@ -289,8 +296,17 @@ function MapPage() {
     setPickedRoadMeta(null)
     setRoadSearch(formatRoadLabel(road))
     const year = Number.isFinite(namingYear) ? namingYear : road.year
+    trackSelectRoad({
+      method,
+      hasYear: Number.isFinite(year) && year > 0,
+      isPending: !Number.isFinite(year) || year <= 0,
+    })
     if (year && Number.isFinite(year)) {
-      setSelectedYear((prev) => Math.max(prev, year))
+      setSelectedYear((prev) => {
+        const nextYear = Math.max(prev, year)
+        trackTimelineYear(nextYear, 'road')
+        return nextYear
+      })
     }
   }
 
@@ -530,8 +546,17 @@ function MapPage() {
           const matched = resolvePickedRoad(roadIndex, { key, enName, zhName, streetCode })
           setRoadSearch(formatPickedRoadSearchLabel({ matched, enName, zhName, streetCode }))
           setActiveRoadId(matched ? matched.id : null)
+          trackSelectRoad({
+            method: 'map',
+            hasYear: Number.isFinite(year) && year > 0,
+            isPending: !Number.isFinite(year) || year <= 0,
+          })
           if (year && Number.isFinite(year)) {
-            setSelectedYear((prev) => Math.max(prev, year))
+            setSelectedYear((prev) => {
+              const nextYear = Math.max(prev, year)
+              trackTimelineYear(nextYear, 'road')
+              return nextYear
+            })
           }
         }}
         onRoadClear={clearRoadSelection}
@@ -619,8 +644,9 @@ function MapPage() {
                   type="button"
                   onClick={() =>
                     setActiveGroupId((prev) => {
-                      if (prev === group.id) return null
-                      return group.id
+                      const next = prev === group.id ? null : group.id
+                      trackEraFilter(group.id, next !== null)
+                      return next
                     })
                   }
                 >
@@ -665,7 +691,11 @@ function MapPage() {
                   type="button"
                   className={`region-button ${activeRegionId === region.id ? 'is-active' : ''}`}
                   onClick={() => {
-                    setActiveRegionId((prev) => (prev === region.id ? null : region.id))
+                    setActiveRegionId((prev) => {
+                      const next = prev === region.id ? null : region.id
+                      trackRegionFilter(region.id, next !== null)
+                      return next
+                    })
                     setActiveSubDistrictId('')
                     setSubDistrictSearch('')
                     setSelectedRoadKey(null)
@@ -703,6 +733,7 @@ function MapPage() {
                       setSelectedRoadKey(null)
                       setClickedRoadCenter(null)
                       setPickedRoadMeta(null)
+                      trackSubdistrictSelect(subDistrict.id)
                       geocodeSubDistrict(subDistrict.id)
                     }}
                   >

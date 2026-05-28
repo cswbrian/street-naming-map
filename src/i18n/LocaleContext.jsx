@@ -7,6 +7,7 @@ import {
   isLocale,
   isNamesRoutePath,
 } from './locale.js'
+import { trackLocaleChange } from '../lib/analytics.js'
 import GoogleAnalytics from '../components/GoogleAnalytics.jsx'
 import PageSeo from '../components/PageSeo.jsx'
 import { DEFAULT_LOCALE, LOCALE_STORAGE_KEY } from './translations.js'
@@ -39,6 +40,7 @@ export function LocaleProvider({ children }) {
 
   const setLocale = (nextLocale) => {
     if (!isLocale(nextLocale) || nextLocale === locale) return
+    trackLocaleChange(nextLocale)
     navigate(
       { pathname: localePath(nextLocale, isNamesRoute), search: location.search },
       { replace: true },

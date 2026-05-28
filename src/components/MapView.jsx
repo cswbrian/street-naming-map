@@ -3,6 +3,7 @@ import maplibregl from 'maplibre-gl'
 import { MapboxOverlay } from '@deck.gl/mapbox'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import { buildRoadFilter, buildRoadKey, filterNamedStreetFeatures, hasStreetName } from '../lib/roadKey'
+import { trackContributeOpen, trackNoticeOpen } from '../lib/analytics.js'
 import { translations } from '../i18n/translations'
 import {
   BASEMAP_TILES,
@@ -656,13 +657,14 @@ function MapView({
       contributeLink.addEventListener('click', (event) => {
         event.preventDefault()
         event.stopPropagation()
+        trackContributeOpen('map', selectedRoadInfo.contributeVariant ?? 'add')
         window.open(selectedRoadInfo.contributeUrl, '_blank', 'noopener,noreferrer')
       })
     }
     const noticeLink = chip.querySelector('.selected-road-chip-notice')
     if (noticeLink) {
-      noticeLink.addEventListener('click', (event) => {
-        event.stopPropagation()
+      noticeLink.addEventListener('click', () => {
+        trackNoticeOpen('map')
       })
     }
     const closeButton = chip.querySelector('.selected-road-chip-close')
