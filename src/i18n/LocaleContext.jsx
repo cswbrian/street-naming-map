@@ -7,6 +7,7 @@ import {
   isLocale,
   isNamesRoutePath,
 } from './locale.js'
+import GoogleAnalytics from '../components/GoogleAnalytics.jsx'
 import PageSeo from '../components/PageSeo.jsx'
 import { DEFAULT_LOCALE, LOCALE_STORAGE_KEY } from './translations.js'
 
@@ -60,6 +61,7 @@ export function LocaleProvider({ children }) {
   return (
     <LocaleContext.Provider value={value}>
       <PageSeo />
+      <GoogleAnalytics />
       {children}
     </LocaleContext.Provider>
   )
