@@ -97,6 +97,7 @@ export const translations = {
     badgeVerified: '已核實',
     namesContributeHint: '協助補充約 {count} 條待定街道的命名日期。',
     mapSubmitProof: '提交命名證明',
+    mapRoadCardClose: '關閉街道卡片',
     colStatus: '狀態',
   },
   en: {
@@ -196,6 +197,7 @@ export const translations = {
     badgeVerified: 'Verified',
     namesContributeHint: 'Help fill naming dates for about {count} pending streets.',
     mapSubmitProof: 'Submit naming proof',
+    mapRoadCardClose: 'Close street card',
     colStatus: 'Status',
   },
 }

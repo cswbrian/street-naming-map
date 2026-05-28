@@ -48,6 +48,9 @@ const buildContributeIcon = (variant) => {
   return `<svg class="selected-road-chip-contribute-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6M12 18v-6M9 15h6"/></svg>`
 }
 
+const buildCloseIcon = () =>
+  `<svg class="selected-road-chip-close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>`
+
 const buildSelectedRoadChipHtml = (selectedRoadInfo, locale) => {
   const labels = translations[locale] ?? translations.en
   const metaRows = [
@@ -81,8 +84,11 @@ const buildSelectedRoadChipHtml = (selectedRoadInfo, locale) => {
   return `
     <div class="selected-road-chip-content">
       <header class="selected-road-chip-head">
-        ${selectedRoadInfo.zhName ? `<p class="selected-road-chip-zh">${escapeHtml(selectedRoadInfo.zhName)}</p>` : ''}
-        ${selectedRoadInfo.enName ? `<p class="selected-road-chip-en">${escapeHtml(selectedRoadInfo.enName)}</p>` : ''}
+        <div class="selected-road-chip-titles">
+          ${selectedRoadInfo.zhName ? `<p class="selected-road-chip-zh">${escapeHtml(selectedRoadInfo.zhName)}</p>` : ''}
+          ${selectedRoadInfo.enName ? `<p class="selected-road-chip-en">${escapeHtml(selectedRoadInfo.enName)}</p>` : ''}
+        </div>
+        <button type="button" class="selected-road-chip-close" aria-label="${escapeHtml(labels.mapRoadCardClose)}">${buildCloseIcon()}</button>
       </header>
       <dl class="selected-road-chip-meta">${metaRows}</dl>
       ${contributeBlock}
@@ -222,6 +228,7 @@ function MapView({
   selectedRoadCenter,
   selectedRoadInfo,
   onRoadPick,
+  onRoadClear,
 }) {
   const mapContainerRef = useRef(null)
   const mapRef = useRef(null)
@@ -658,6 +665,14 @@ function MapView({
         event.stopPropagation()
       })
     }
+    const closeButton = chip.querySelector('.selected-road-chip-close')
+    if (closeButton) {
+      closeButton.addEventListener('click', (event) => {
+        event.preventDefault()
+        event.stopPropagation()
+        onRoadClear?.()
+      })
+    }
     chip.addEventListener('click', (event) => {
       event.stopPropagation()
     })
@@ -679,6 +694,7 @@ function MapView({
     selectedRoadCenter,
     selectedRoadInfo,
     locale,
+    onRoadClear,
   ])
 
   return <section className="map-container" ref={mapContainerRef} />

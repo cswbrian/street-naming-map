@@ -1118,7 +1118,44 @@
 }
 
 .selected-road-chip-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.45rem;
   margin: 0;
+}
+
+.selected-road-chip-titles {
+  min-width: 0;
+  flex: 1;
+}
+
+.selected-road-chip-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1.45rem;
+  height: 1.45rem;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--sn-border);
+  border-radius: var(--sn-radius);
+  background: transparent;
+  color: var(--sn-text-muted);
+  cursor: pointer;
+}
+
+.selected-road-chip-close-icon {
+  width: 0.72rem;
+  height: 0.72rem;
+}
+
+.selected-road-chip-close:hover,
+.selected-road-chip-close:focus-visible {
+  border-color: var(--sn-border-strong);
+  background: var(--sn-bg-elevated);
+  color: var(--sn-text);
 }
 
 .selected-road-chip-zh,

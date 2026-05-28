@@ -294,6 +294,13 @@ function MapPage() {
     }
   }
 
+  const clearRoadSelection = () => {
+    setSelectedRoadKey(null)
+    setClickedRoadCenter(null)
+    setPickedRoadMeta(null)
+    setActiveRoadId(null)
+  }
+
   useEffect(() => {
     let isMounted = true
     const en = searchParams.get('en')
@@ -527,6 +534,7 @@ function MapPage() {
             setSelectedYear((prev) => Math.max(prev, year))
           }
         }}
+        onRoadClear={clearRoadSelection}
       />
       <header className="map-top-bar">
         <section className="road-search-panel">
