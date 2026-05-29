@@ -98,22 +98,28 @@ export const MAP_ROAD_PALETTE = {
 
 const ERA_YEAR_BREAKS = [1899, 1946, 1970, 1990, 2010]
 
+/** MapLibre expression: naming year, or -1 when pending. to-number(null) is 0, not missing. */
+export function buildNamingYearExpr() {
+  return [
+    'case',
+    ['any', ['!', ['has', 'naming_year']], ['==', ['get', 'naming_year'], null]],
+    -1,
+    ['coalesce', ['to-number', ['get', 'naming_year']], -1],
+  ]
+}
+
 export function getRoadPalette(theme) {
   return MAP_ROAD_PALETTE[theme] ?? MAP_ROAD_PALETTE.dark
 }
 
 export function buildRoadLineColorPaint(theme) {
   const { unknown, eras } = getRoadPalette(theme)
+  const namingYear = buildNamingYearExpr()
   return [
     'case',
-    ['==', ['coalesce', ['to-number', ['get', 'naming_year']], -1], -1],
+    ['==', namingYear, -1],
     unknown,
-    [
-      'step',
-      ['coalesce', ['to-number', ['get', 'naming_year']], -1],
-      eras[0],
-      ...ERA_YEAR_BREAKS.flatMap((year, index) => [year, eras[index + 1]]),
-    ],
+    ['step', namingYear, eras[0], ...ERA_YEAR_BREAKS.flatMap((year, index) => [year, eras[index + 1]])],
   ]
 }
 

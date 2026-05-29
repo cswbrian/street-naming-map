@@ -9,6 +9,7 @@ import {
   BASEMAP_TILES,
   MAP_BACKGROUND_COLORS,
   MAP_LABEL_COLORS,
+  buildNamingYearExpr,
   buildRoadLineColorPaint,
   getRoadPalette,
 } from '../theme/theme.js'
@@ -98,7 +99,9 @@ const buildSelectedRoadChipHtml = (selectedRoadInfo, locale) => {
   `
 }
 
-const buildRoadLabelTextField = (unknownYearLabel) => [
+const buildRoadLabelTextField = (unknownYearLabel) => {
+  const namingYear = buildNamingYearExpr()
+  return [
   'format',
   ['coalesce', ['get', 'CHINESESTREETNAME'], ''],
   { 'font-scale': 1.05 },
@@ -108,16 +111,12 @@ const buildRoadLabelTextField = (unknownYearLabel) => [
   { 'font-scale': 0.85 },
   ' (',
   { 'font-scale': 0.78 },
-  [
-    'case',
-    ['==', ['coalesce', ['to-number', ['get', 'naming_year']], -1], -1],
-    unknownYearLabel,
-    ['to-string', ['get', 'naming_year']],
-  ],
+  ['case', ['==', namingYear, -1], unknownYearLabel, ['to-string', ['get', 'naming_year']]],
   { 'font-scale': 0.78 },
   ')',
   { 'font-scale': 0.78 },
 ]
+}
 
 const buildBasemapStyle = (theme) => ({
   version: 8,
@@ -247,7 +246,7 @@ function MapView({
 
     const opacity = getRoadPalette(mapTheme).opacity
 
-    const numericYear = ['coalesce', ['to-number', ['get', 'naming_year']], -1]
+    const numericYear = buildNamingYearExpr()
     const unknownYearFilter = ['==', numericYear, -1]
     const knownYearFilter = ['all', ['!=', numericYear, -1], ['<=', numericYear, year]]
     const timeFilter = ['any', knownYearFilter, unknownYearFilter]
