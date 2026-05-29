@@ -80,7 +80,7 @@ function LocaleToggleButton({ className = 'locale-toggle', showLabel = false, on
       aria-label={t('langSwitchAria')}
     >
       {showLabel ? (
-        <span>{locale === 'zh' ? t('langSwitchToEn') : t('langSwitchToZh')}</span>
+        <span>{locale === 'zh' ? t('langSwitchToEnLabel') : t('langSwitchToZh')}</span>
       ) : (
         (locale === 'zh' ? t('langSwitchToEn') : t('langSwitchToZh'))
       )}
@@ -92,6 +92,7 @@ function AppNav() {
   const { t } = useLocale()
   const mapPath = useLocalePath()
   const namesPath = useLocalePath('names')
+  const aboutPath = useLocalePath('about')
   const [pendingCount, setPendingCount] = useState(null)
   const [menuOpen, setMenuOpen] = useState(false)
   const menuRef = useRef(null)
@@ -152,6 +153,14 @@ function AppNav() {
             <span className="app-nav-pending-pill">{pendingCount > 9999 ? '9k+' : pendingCount}</span>
           ) : null}
         </NavLink>
+        <NavLink
+          to={aboutPath}
+          className={({ isActive }) =>
+            `app-top-nav-link app-top-nav-about ${isActive ? 'is-active' : ''}`
+          }
+        >
+          {t('navAbout')}
+        </NavLink>
       </nav>
 
       <div className="app-nav-desktop-controls">
@@ -175,6 +184,14 @@ function AppNav() {
         </button>
         {menuOpen ? (
           <div className="app-nav-menu-panel" role="menu">
+            <NavLink
+              to={aboutPath}
+              role="menuitem"
+              className={({ isActive }) => `app-nav-menu-item app-nav-menu-link ${isActive ? 'is-active' : ''}`}
+              onClick={() => setMenuOpen(false)}
+            >
+              {t('navAbout')}
+            </NavLink>
             <ThemeToggleButton
               className="app-nav-menu-item"
               showLabel

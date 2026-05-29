@@ -1,4 +1,4 @@
-import { getPreferredLocale, isLocale, isNamesRoutePath } from './locale.js'
+import { getPreferredLocale, getRouteSuffixFromPath, isLocale } from './locale.js'
 
 export function redirectToLocaleIfNeeded() {
   if (typeof window === 'undefined') return
@@ -21,8 +21,11 @@ export function redirectToLocaleIfNeeded() {
 
   if (first === 'names' && segments.length === 1) {
     nextPath = `/${locale}/names`
-  } else if (isNamesRoutePath(relative)) {
-    nextPath = `/${locale}/names`
+  } else if (first === 'about' && segments.length === 1) {
+    nextPath = `/${locale}/about`
+  } else {
+    const suffix = getRouteSuffixFromPath(relative)
+    if (suffix) nextPath = `/${locale}/${suffix}`
   }
 
   const prefix = basename === '/' ? '' : basename

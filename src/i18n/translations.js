@@ -9,7 +9,9 @@ export const translations = {
       '以政府憲報整理香港街道命名年份，互動地圖按年代顯示道路，並提供可搜尋街道名錄及社群補充命名日期。',
     navMap: '地圖',
     navNames: '街道',
+    navAbout: '關於',
     langSwitchToEn: 'EN',
+    langSwitchToEnLabel: 'English',
     langSwitchAria: '切換至英文介面',
     themeSwitchToLight: '切換至淺色模式',
     themeSwitchToDark: '切換至深色模式',
@@ -38,7 +40,7 @@ export const translations = {
     loadingReport: '正在載入報告…',
     reportError: '找不到街道目錄報告。請先執行 npm run report:pending-years。',
     roadTypesTitle: '道路類型',
-    periodStatsTitle: '命名年份分期（圖例分組）',
+    periodStatsTitle: '命名年份分期',
     searchTable: '以街道編號／名稱／類型／年份／日期搜尋',
     showingStreets: '顯示 {shown} / {total} 條街道',
     colStreet: '街道名稱',
@@ -99,6 +101,17 @@ export const translations = {
     mapSubmitProof: '提交命名證明',
     mapRoadCardClose: '關閉街道卡片',
     colStatus: '狀態',
+    aboutSeoDescription:
+      '香港街道命名地圖的由來、資料來源與進度。開源專案，歡迎貢獻資料、程式或想法。',
+    aboutIntro:
+      '平時行行下街，會好奇一條路幾時起、點解叫呢個名。最近嘗試將全港幾千條街嘅命名年份放落呢個地圖，方便睇香港嘅城市發展史。',
+    aboutDataTitle: '資料來源',
+    aboutDataBody:
+      '近十年嘅命名，地政總署資料相對齊全；再舊啲就要翻查政府憲報。但 184 年嘅憲報簡直係無底深潭——先要搵網上版，每年差唔多兩萬幾頁；舊報更要 OCR，仲要分得清係「命名」定「改名」。',
+    aboutOpenSourceTitle: '開源專案',
+    aboutOpenSourceBody:
+      '本項目係開源專案，源碼喺 GitHub 公開。你可以 fork、改 bug、加功能，或者一齊執漏。',
+    aboutGitHubCta: 'GitHub',
   },
   en: {
     siteTitle: 'HK Street Chronicle',
@@ -106,6 +119,7 @@ export const translations = {
       'Interactive map and searchable directory of Hong Kong street naming dates from government gazette records. Explore by era and district, and help fill missing dates.',
     navMap: 'Map',
     navNames: 'Street',
+    navAbout: 'About',
     langSwitchToZh: '中',
     langSwitchAria: 'Switch to Chinese interface',
     themeSwitchToLight: 'Switch to light mode',
@@ -135,7 +149,7 @@ export const translations = {
     loadingReport: 'Loading report…',
     reportError: 'Street directory report not found. Run npm run report:pending-years first.',
     roadTypesTitle: 'Road types',
-    periodStatsTitle: 'Naming year periods (legend grouping)',
+    periodStatsTitle: 'Naming year periods',
     searchTable: 'Search by street code, name, type, year, or date',
     showingStreets: 'Showing {shown} / {total} streets',
     colStreet: 'Street name',
@@ -199,6 +213,17 @@ export const translations = {
     mapSubmitProof: 'Submit naming proof',
     mapRoadCardClose: 'Close street card',
     colStatus: 'Status',
+    aboutSeoDescription:
+      'How the Hong Kong street naming map works, where the data comes from, and how to help. Open source — contributions welcome.',
+    aboutIntro:
+      'Walking around Hong Kong, you might wonder when a street was named and why it got that name. This map plots naming years for thousands of streets across the city so you can explore how the urban landscape grew over time.',
+    aboutDataTitle: 'Data sources',
+    aboutDataBody:
+      'For the last decade or so, Lands Department records are relatively complete. Older names must be traced through the government gazette — 184 years of publications, roughly twenty thousand pages per year online. Early issues need OCR, and each notice must be classified as a new naming or a rename.',
+    aboutOpenSourceTitle: 'Open source',
+    aboutOpenSourceBody:
+      'This project is open source on GitHub. Fork it, fix bugs, add features, or help fill in missing naming dates.',
+    aboutGitHubCta: 'GitHub',
   },
 }
 

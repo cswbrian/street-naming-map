@@ -149,6 +149,17 @@
   background: var(--sn-bg-elevated);
 }
 
+.app-nav-menu-link {
+  text-decoration: none;
+}
+
+.app-nav-menu-link.is-active {
+  color: var(--sn-text);
+  border-color: var(--sn-border);
+  background: var(--sn-bg-elevated);
+  font-weight: 600;
+}
+
 .app-page-header {
   position: sticky;
   top: 0;
@@ -687,6 +698,51 @@
   max-width: 52rem;
 }
 
+.about-page {
+  padding: 0.5rem 1rem 2rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.about-hero h1 {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.about-hero p {
+  margin: 0.5rem 0 0;
+  color: var(--sn-text-muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.about-section {
+  margin-top: 1.35rem;
+}
+
+.about-section h2 {
+  margin: 0 0 0.45rem;
+  font-size: 0.95rem;
+}
+
+.about-section p {
+  margin: 0 0 0.65rem;
+  color: var(--sn-text-muted);
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.about-section p:last-child {
+  margin-bottom: 0;
+}
+
+.about-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
 .contribute-hero h1 {
   margin: 0;
   font-size: 1.35rem;
@@ -801,6 +857,22 @@
   color: var(--sn-bg);
 }
 
+.contribute-primary-btn.about-github-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.85rem;
+  line-height: 1;
+}
+
+.contribute-primary-btn.about-github-btn svg {
+  width: 0.95rem;
+  height: 0.95rem;
+  flex-shrink: 0;
+  display: block;
+}
+
 .contribute-secondary-btn {
   border: 1px solid var(--sn-border-strong);
   color: var(--sn-text);
@@ -898,6 +970,10 @@
 
 @media (max-width: 820px) {
   .app-nav-desktop-controls {
+    display: none;
+  }
+
+  .app-top-nav-about {
     display: none;
   }
 

@@ -4,8 +4,9 @@ import {
   createTranslator,
   formatBilingualStreetName,
   getPreferredLocale,
+  getRouteSuffixFromPath,
   isLocale,
-  isNamesRoutePath,
+  localePathForSuffix,
 } from './locale.js'
 import { trackLocaleChange } from '../lib/analytics.js'
 import GoogleAnalytics from '../components/GoogleAnalytics.jsx'
@@ -14,19 +15,15 @@ import { DEFAULT_LOCALE, LOCALE_STORAGE_KEY } from './translations.js'
 
 const LocaleContext = createContext(null)
 
-function localePath(nextLocale, isNamesRoute) {
-  return isNamesRoute ? `/${nextLocale}/names` : `/${nextLocale}`
-}
-
 export function LocaleProvider({ children }) {
   const { locale: localeParam } = useParams()
   const navigate = useNavigate()
   const location = useLocation()
-  const isNamesRoute = isNamesRoutePath(location.pathname)
+  const routeSuffix = getRouteSuffixFromPath(location.pathname)
 
   if (!isLocale(localeParam)) {
     const preferred = getPreferredLocale()
-    const nextPath = localePath(preferred, isNamesRoute)
+    const nextPath = localePathForSuffix(preferred, routeSuffix)
     return <Navigate to={{ pathname: nextPath, search: location.search }} replace />
   }
 
@@ -42,7 +39,7 @@ export function LocaleProvider({ children }) {
     if (!isLocale(nextLocale) || nextLocale === locale) return
     trackLocaleChange(nextLocale)
     navigate(
-      { pathname: localePath(nextLocale, isNamesRoute), search: location.search },
+      { pathname: localePathForSuffix(nextLocale, routeSuffix), search: location.search },
       { replace: true },
     )
   }

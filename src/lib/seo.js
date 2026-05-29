@@ -18,8 +18,8 @@ export function getCanonicalUrl(pathname, origin = typeof window !== 'undefined'
   return `${origin}${BASE_PATH}${path}`
 }
 
-export function getLocalePath(locale, isNamesRoute) {
-  return isNamesRoute ? `${BASE_PATH}/${locale}/names` : `${BASE_PATH}/${locale}`
+export function getLocalePath(locale, routeSuffix = '') {
+  return routeSuffix ? `${BASE_PATH}/${locale}/${routeSuffix}` : `${BASE_PATH}/${locale}`
 }
 
 function queryMeta(attr, key) {
@@ -54,13 +54,13 @@ export function setLink(rel, href, extraAttrs = {}) {
   element.setAttribute('href', href)
 }
 
-export function setAlternateLinks({ pathname, origin, locales, isNamesRoute }) {
+export function setAlternateLinks({ pathname, origin, locales, routeSuffix = '' }) {
   document.head.querySelectorAll('link[rel="alternate"][data-seo-managed="true"]').forEach((node) => {
     node.remove()
   })
 
   locales.forEach((locale) => {
-    const href = `${origin}${getLocalePath(locale, isNamesRoute)}`
+    const href = `${origin}${getLocalePath(locale, routeSuffix)}`
     const link = document.createElement('link')
     link.setAttribute('rel', 'alternate')
     link.setAttribute('hreflang', locale === 'zh' ? 'zh-HK' : locale)
@@ -69,7 +69,7 @@ export function setAlternateLinks({ pathname, origin, locales, isNamesRoute }) {
     document.head.appendChild(link)
   })
 
-  const defaultHref = `${origin}${getLocalePath('zh', isNamesRoute)}`
+  const defaultHref = `${origin}${getLocalePath('zh', routeSuffix)}`
   const defaultLink = document.createElement('link')
   defaultLink.setAttribute('rel', 'alternate')
   defaultLink.setAttribute('hreflang', 'x-default')

@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
-import { isNamesRoutePath } from '../i18n/locale'
+import { getRouteSuffixFromPath, isAboutRoutePath, isNamesRoutePath } from '../i18n/locale'
 import { LOCALES } from '../i18n/translations'
 import { useLocale } from '../i18n/LocaleContext'
 import {
@@ -16,12 +16,14 @@ import {
 function PageSeo() {
   const { locale, t } = useLocale()
   const location = useLocation()
+  const routeSuffix = getRouteSuffixFromPath(location.pathname)
+  const isAboutRoute = isAboutRoutePath(location.pathname)
   const isNamesRoute = isNamesRoutePath(location.pathname)
 
   useEffect(() => {
-    const pageLabel = t(isNamesRoute ? 'navNames' : 'navMap')
+    const pageLabel = t(isAboutRoute ? 'navAbout' : isNamesRoute ? 'navNames' : 'navMap')
     const documentTitle = `${t('siteTitle')} · ${pageLabel}`
-    const description = t('seoDescription')
+    const description = isAboutRoute ? t('aboutSeoDescription') : t('seoDescription')
     const canonicalUrl = getCanonicalUrl(location.pathname)
     const ogLocale = locale === 'zh' ? 'zh_HK' : 'en'
     const alternateLocale = locale === 'zh' ? 'en' : 'zh_HK'
@@ -49,9 +51,9 @@ function PageSeo() {
       pathname: location.pathname,
       origin: window.location.origin,
       locales: LOCALES,
-      isNamesRoute,
+      routeSuffix,
     })
-  }, [isNamesRoute, locale, location.pathname, t])
+  }, [isAboutRoute, isNamesRoute, locale, location.pathname, routeSuffix, t])
 
   return null
 }

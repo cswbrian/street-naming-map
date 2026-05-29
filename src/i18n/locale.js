@@ -23,6 +23,20 @@ export function isNamesRoutePath(pathname) {
   return /\/names\/?$/.test(pathname)
 }
 
+export function isAboutRoutePath(pathname) {
+  return /\/about\/?$/.test(pathname)
+}
+
+export function getRouteSuffixFromPath(pathname) {
+  if (isNamesRoutePath(pathname)) return 'names'
+  if (isAboutRoutePath(pathname)) return 'about'
+  return ''
+}
+
+export function localePathForSuffix(locale, suffix = '') {
+  return suffix ? `/${locale}/${suffix}` : `/${locale}`
+}
+
 export function replacePathLocale(pathname, nextLocale) {
   const segments = pathname.split('/').filter(Boolean)
   if (segments.length === 0) return `/${nextLocale}`
