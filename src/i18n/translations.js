@@ -100,6 +100,9 @@ export const translations = {
     namesContributeHint: '協助補充約 {count} 條待定街道的命名日期。',
     mapSubmitProof: '提交命名證明',
     mapRoadCardClose: '關閉街道卡片',
+    mapRoadShare: '分享',
+    mapRoadShareAria: '複製街道連結',
+    mapRoadShareCopied: '已複製連結',
     colStatus: '狀態',
     aboutSeoDescription:
       '香港街道命名地圖的由來、資料來源與進度。開源專案，歡迎貢獻資料、程式或想法。',
@@ -212,6 +215,9 @@ export const translations = {
     namesContributeHint: 'Help fill naming dates for about {count} pending streets.',
     mapSubmitProof: 'Submit naming proof',
     mapRoadCardClose: 'Close street card',
+    mapRoadShare: 'Share',
+    mapRoadShareAria: 'Copy street link',
+    mapRoadShareCopied: 'Link copied',
     colStatus: 'Status',
     aboutSeoDescription:
       'How the Hong Kong street naming map works, where the data comes from, and how to help. Open source — contributions welcome.',

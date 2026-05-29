@@ -3,7 +3,7 @@ import maplibregl from 'maplibre-gl'
 import { MapboxOverlay } from '@deck.gl/mapbox'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import { buildRoadFilter, buildRoadKey, filterNamedStreetFeatures, hasStreetName } from '../lib/roadKey'
-import { trackContributeOpen, trackNoticeOpen } from '../lib/analytics.js'
+import { trackContributeOpen, trackNoticeOpen, trackShareRoad } from '../lib/analytics.js'
 import { translations } from '../i18n/translations'
 import {
   BASEMAP_TILES,
@@ -53,6 +53,9 @@ const buildContributeIcon = (variant) => {
 const buildCloseIcon = () =>
   `<svg class="selected-road-chip-close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>`
 
+const buildShareIcon = () =>
+  `<svg class="selected-road-chip-share-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>`
+
 const buildSelectedRoadChipHtml = (selectedRoadInfo, locale) => {
   const labels = translations[locale] ?? translations.en
   const metaRows = [
@@ -79,8 +82,19 @@ const buildSelectedRoadChipHtml = (selectedRoadInfo, locale) => {
       : buildMetaRow(labels.colSource, buildEmptyValue()),
   ].join('')
 
-  const contributeBlock = selectedRoadInfo.contributeUrl
-    ? `<footer class="selected-road-chip-foot"><a class="selected-road-chip-contribute" href="${escapeHtml(selectedRoadInfo.contributeUrl)}" target="_blank" rel="noopener noreferrer">${buildContributeIcon(selectedRoadInfo.contributeVariant)}<span>${escapeHtml(selectedRoadInfo.contributeLabel)}</span></a></footer>`
+  const actionButtons = [
+    selectedRoadInfo.contributeUrl
+      ? `<a class="selected-road-chip-contribute" href="${escapeHtml(selectedRoadInfo.contributeUrl)}" target="_blank" rel="noopener noreferrer">${buildContributeIcon(selectedRoadInfo.contributeVariant)}<span>${escapeHtml(selectedRoadInfo.contributeLabel)}</span></a>`
+      : '',
+    selectedRoadInfo.shareUrl
+      ? `<button type="button" class="selected-road-chip-share" aria-label="${escapeHtml(selectedRoadInfo.shareAriaLabel)}">${buildShareIcon()}<span>${escapeHtml(selectedRoadInfo.shareLabel)}</span></button>`
+      : '',
+  ]
+    .filter(Boolean)
+    .join('')
+
+  const contributeBlock = actionButtons
+    ? `<footer class="selected-road-chip-foot"><div class="selected-road-chip-actions">${actionButtons}</div></footer>`
     : ''
 
   return `
@@ -672,6 +686,43 @@ function MapView({
         event.preventDefault()
         event.stopPropagation()
         onRoadClear?.()
+      })
+    }
+    const shareButton = chip.querySelector('.selected-road-chip-share')
+    if (shareButton && selectedRoadInfo.shareUrl) {
+      const defaultShareLabel = selectedRoadInfo.shareLabel
+      const copiedShareLabel = selectedRoadInfo.shareCopiedLabel
+      shareButton.addEventListener('click', async (event) => {
+        event.preventDefault()
+        event.stopPropagation()
+        const url = selectedRoadInfo.shareUrl
+        const labelSpan = shareButton.querySelector('span')
+        try {
+          if (navigator.share) {
+            await navigator.share({
+              url,
+              title: selectedRoadInfo.enName || selectedRoadInfo.zhName || '',
+            })
+            trackShareRoad('native')
+            return
+          }
+        } catch (error) {
+          if (error?.name === 'AbortError') return
+        }
+        try {
+          await navigator.clipboard.writeText(url)
+          trackShareRoad('clipboard')
+          shareButton.classList.add('is-copied')
+          if (labelSpan) labelSpan.textContent = copiedShareLabel
+          shareButton.setAttribute('aria-label', copiedShareLabel)
+          window.setTimeout(() => {
+            shareButton.classList.remove('is-copied')
+            if (labelSpan) labelSpan.textContent = defaultShareLabel
+            shareButton.setAttribute('aria-label', selectedRoadInfo.shareAriaLabel)
+          }, 2000)
+        } catch {
+          // Clipboard unavailable — URL is still synced in the address bar.
+        }
       })
     }
     chip.addEventListener('click', (event) => {

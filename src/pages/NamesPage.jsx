@@ -3,6 +3,8 @@ import AppNav from '../components/AppNav'
 import AppSiteTitle from '../components/AppSiteTitle'
 import PendingDashboard from '../components/PendingDashboard'
 import { trackSelectRoad } from '../lib/analytics.js'
+import { buildRoadKey } from '../lib/roadKey'
+import { buildRoadSearchParams } from '../lib/roadShareUrl.js'
 import { useLocalePath } from '../i18n/LocaleContext'
 
 function NamesPage() {
@@ -18,10 +20,10 @@ function NamesPage() {
       englishName,
       chineseName,
     })
-    const params = new URLSearchParams()
-    if (englishName) params.set('en', englishName)
-    if (chineseName) params.set('zh', chineseName)
-    if (Number.isFinite(year)) params.set('year', String(year))
+    const params = buildRoadSearchParams({
+      roadKey: buildRoadKey(englishName, chineseName),
+      year,
+    })
     navigate({ pathname: mapPath, search: params.toString() })
   }
 

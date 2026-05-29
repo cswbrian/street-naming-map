@@ -115,6 +115,10 @@ export function trackNoticeOpen(source) {
   trackEvent('notice_open', { source })
 }
 
+export function trackShareRoad(method) {
+  trackEvent('share_road', { method })
+}
+
 export function trackLocaleChange(locale) {
   trackEvent('locale_change', { locale })
 }

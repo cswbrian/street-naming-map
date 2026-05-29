@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { useLocation, useSearchParams } from 'react-router-dom'
 import AppNav from '../components/AppNav'
 import MapView from '../components/MapView'
 import TimelineSlider from '../components/TimelineSlider'
@@ -23,6 +23,12 @@ import { getNamingSourceBadgeKey, getNamingSourceKind } from '../lib/namingSourc
 import { buildPendingRoadLookup, resolvePendingRoadRow } from '../lib/pendingRoadLookup.js'
 import { getDefaultMapPanelCollapse } from '../lib/mapViewport.js'
 import { buildRoadKey, hasStreetName, normalizeRoadName, parseRoadKey } from '../lib/roadKey'
+import {
+  applyRoadParamsToSearchParams,
+  buildRoadSearchParams,
+  buildRoadShareUrl,
+  roadParamsMatch,
+} from '../lib/roadShareUrl'
 
 const ROADS_URL = `${import.meta.env.BASE_URL}data/hk-streets.geojson`
 const PENDING_URL = `${import.meta.env.BASE_URL}data/master/pending-naming-years.json`
@@ -42,6 +48,7 @@ const parseBilingualLabel = (value) => {
 function MapPage() {
   const { locale, t, formatStreetName } = useLocale()
   const { theme } = useTheme()
+  const location = useLocation()
   const [searchParams, setSearchParams] = useSearchParams()
   const currentYear = new Date().getFullYear()
   const minYear = 1842
@@ -160,6 +167,16 @@ function MapPage() {
           locale,
         })
     const rowForDisplay = pendingRow ?? displayRow
+    const namingYear = activeRoad?.year ?? pickedRoadMeta?.year ?? displayRow.naming_year ?? null
+    const shareUrl =
+      typeof window !== 'undefined'
+        ? buildRoadShareUrl({
+            origin: window.location.origin,
+            pathname: location.pathname,
+            roadKey: selectedRoadKey,
+            year: namingYear,
+          })
+        : null
     return {
       enName: pendingRow?.english_name || enName,
       zhName: pendingRow?.chinese_name || zhName,
@@ -177,6 +194,10 @@ function MapPage() {
       contributeUrl: selectedContributeMeta.url,
       contributeLabel: t('contributeFillGap'),
       contributeVariant: hasRowNamingDate(rowForDisplay) ? 'edit' : 'add',
+      shareUrl,
+      shareLabel: t('mapRoadShare'),
+      shareAriaLabel: t('mapRoadShareAria'),
+      shareCopiedLabel: t('mapRoadShareCopied'),
     }
   }, [
     selectedRoadKey,
@@ -187,6 +208,7 @@ function MapPage() {
     locale,
     t,
     selectedContributeMeta.url,
+    location.pathname,
   ])
   const roadResults = useMemo(() => {
     const keyword = roadSearch.trim().toLowerCase()
@@ -320,12 +342,36 @@ function MapPage() {
   }
 
   useEffect(() => {
+    if (isRoadIndexLoading) return
+
+    if (!selectedRoadKey) {
+      const nextParams = applyRoadParamsToSearchParams(searchParams, new URLSearchParams())
+      if (nextParams.toString() !== searchParams.toString()) {
+        setSearchParams(nextParams, { replace: true })
+      }
+      return
+    }
+
+    const namingYear = activeRoad?.year ?? pickedRoadMeta?.year ?? null
+    const roadParams = buildRoadSearchParams({ roadKey: selectedRoadKey, year: namingYear })
+    if (roadParamsMatch(searchParams, roadParams)) return
+
+    setSearchParams(applyRoadParamsToSearchParams(searchParams, roadParams), { replace: true })
+  }, [
+    isRoadIndexLoading,
+    selectedRoadKey,
+    activeRoad,
+    pickedRoadMeta,
+    searchParams,
+    setSearchParams,
+  ])
+
+  useEffect(() => {
     let isMounted = true
     const en = searchParams.get('en')
-    const zh = searchParams.get('zh')
     const code = searchParams.get('code')
     const yearParam = searchParams.get('year')
-    const hasDeepLink = Boolean(en || zh || code)
+    const hasDeepLink = Boolean(en || code)
 
     const loadRoadIndex = async () => {
       try {
@@ -435,7 +481,7 @@ function MapPage() {
 
         if (hasDeepLink) {
           const namingYear = Number(yearParam)
-          const matched = code ? resolveRoadFromCode(roads, code) : resolveRoadFromNames(roads, en, zh)
+          const matched = code ? resolveRoadFromCode(roads, code) : resolveRoadFromNames(roads, en, '')
           if (matched) {
             setActiveRoadId(matched.id)
             setSelectedRoadKey(matched.id)
@@ -451,12 +497,11 @@ function MapPage() {
             setSelectedRoadKey(null)
             setClickedRoadCenter(null)
             setPickedRoadMeta(null)
-            setRoadSearch(formatStreetName(normalizeRoadName(zh), normalizeRoadName(en)))
+            setRoadSearch(normalizeRoadName(en) || '-')
             if (Number.isFinite(namingYear)) {
               setSelectedYear((prev) => Math.max(prev, namingYear))
             }
           }
-          setSearchParams({}, { replace: true })
         }
       } catch {
         if (isMounted) setRoadIndex([])

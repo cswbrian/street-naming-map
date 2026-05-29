@@ -926,6 +926,53 @@
     color 0.15s ease;
 }
 
+.selected-road-chip-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.36rem;
+  flex-wrap: wrap;
+}
+
+.selected-road-chip-share {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.28rem;
+  width: auto;
+  margin: 0;
+  padding: 0.2rem 0.36rem;
+  border: 1px solid var(--sn-chip-border);
+  border-radius: 0;
+  background: transparent;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--sn-text-muted);
+  cursor: pointer;
+  pointer-events: auto;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.selected-road-chip-share:hover,
+.selected-road-chip-share:focus-visible {
+  background: var(--sn-chip-contribute-bg);
+  border-color: var(--sn-chip-contribute-border);
+  color: var(--sn-chip-contribute-text);
+}
+
+.selected-road-chip-share.is-copied {
+  border-color: var(--sn-chip-contribute-border);
+  color: var(--sn-chip-contribute-text);
+}
+
+.selected-road-chip-share-icon {
+  width: 0.72rem;
+  height: 0.72rem;
+  flex-shrink: 0;
+}
+
 .selected-road-chip-contribute:hover {
   background: var(--sn-chip-contribute-bg-hover);
   border-color: var(--sn-chip-contribute-border-hover);
