@@ -1460,8 +1460,8 @@
 .region-buttons {
   margin-top: 0.55rem;
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 0.3rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.28rem;
 }
 
 .region-button {
@@ -1469,9 +1469,9 @@
   background: transparent;
   color: var(--sn-text);
   border-radius: var(--sn-radius);
-  padding: 0.4rem 0.5rem;
+  padding: 0.34rem 0.28rem;
   font-size: 0.78rem;
-  text-align: left;
+  text-align: center;
   cursor: pointer;
 }
 
@@ -1747,13 +1747,7 @@
     max-height: none;
   }
 
-  .region-buttons {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0.28rem;
-  }
-
   .region-button {
-    text-align: center;
     font-size: 0.7rem;
     padding: 0.34rem 0.28rem;
   }

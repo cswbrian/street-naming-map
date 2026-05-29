@@ -698,9 +698,7 @@ function MapPage() {
                     })
                     setActiveSubDistrictId('')
                     setSubDistrictSearch('')
-                    setSelectedRoadKey(null)
-                    setClickedRoadCenter(null)
-                    setPickedRoadMeta(null)
+                    clearRoadSelection()
                   }}
                 >
                   {locale === 'zh' ? region.nameZh : region.nameEn}
@@ -715,9 +713,7 @@ function MapPage() {
               onChange={(event) => {
                 setSubDistrictSearch(event.target.value)
                 setActiveSubDistrictId('')
-                setSelectedRoadKey(null)
-                setClickedRoadCenter(null)
-                setPickedRoadMeta(null)
+                clearRoadSelection()
               }}
             />
             <div className="subdistrict-search-results">
@@ -728,11 +724,9 @@ function MapPage() {
                     type="button"
                     className={`subdistrict-search-item ${activeSubDistrictId === subDistrict.id ? 'is-active' : ''}`}
                     onClick={() => {
+                      clearRoadSelection()
                       setActiveSubDistrictId(subDistrict.id)
                       setSubDistrictSearch(subDistrict.localeLabel)
-                      setSelectedRoadKey(null)
-                      setClickedRoadCenter(null)
-                      setPickedRoadMeta(null)
                       trackSubdistrictSelect(subDistrict.id)
                       geocodeSubDistrict(subDistrict.id)
                     }}
