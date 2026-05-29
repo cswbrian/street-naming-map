@@ -46,12 +46,19 @@ export function trackPageView(pathname, search = '') {
   })
 }
 
-export function trackSelectRoad({ method, hasYear, isPending }) {
-  trackEvent('select_road', {
+export function trackSelectRoad({ method, hasYear, isPending, englishName, chineseName }) {
+  const params = {
     method,
     has_year: hasYear ? 'yes' : 'no',
     is_pending: isPending ? 'yes' : 'no',
-  })
+  }
+
+  const en = String(englishName ?? '').trim()
+  const zh = String(chineseName ?? '').trim()
+  if (en) params.street_name_en = en
+  if (zh) params.street_name_zh = zh
+
+  trackEvent('select_road', params)
 }
 
 export function trackTimelineYear(year, method = 'slider') {

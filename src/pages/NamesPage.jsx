@@ -15,6 +15,8 @@ function NamesPage() {
       method: 'names_table',
       hasYear: Number.isFinite(year) && year > 0,
       isPending: !Number.isFinite(year) || year <= 0,
+      englishName,
+      chineseName,
     })
     const params = new URLSearchParams()
     if (englishName) params.set('en', englishName)

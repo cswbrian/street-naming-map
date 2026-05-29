@@ -300,6 +300,8 @@ function MapPage() {
       method,
       hasYear: Number.isFinite(year) && year > 0,
       isPending: !Number.isFinite(year) || year <= 0,
+      englishName: road.enName,
+      chineseName: road.zhName,
     })
     if (year && Number.isFinite(year)) {
       setSelectedYear((prev) => {
@@ -549,6 +551,8 @@ function MapPage() {
             method: 'map',
             hasYear: Number.isFinite(year) && year > 0,
             isPending: !Number.isFinite(year) || year <= 0,
+            englishName: enName,
+            chineseName: zhName,
           })
           if (year && Number.isFinite(year)) {
             setSelectedYear((prev) => {
