@@ -350,8 +350,7 @@ function MapPage() {
           const zhName = normalizeRoadName(props.CHINESESTREETNAME)
           if (!hasStreetName(enName, zhName)) return
           const streetCode = String(props.STREETCODE ?? '').trim()
-          const key = buildRoadKey(enName, zhName, streetCode)
-          if (!key) return
+          const key = `${enName}|${zhName}`
           const namingYear = Number(props.naming_year)
           const year = Number.isFinite(namingYear) && namingYear > 0 ? namingYear : null
           const coords = feature?.geometry?.coordinates

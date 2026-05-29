@@ -281,10 +281,10 @@
 .pending-stat-card h2,
 .pending-stat-card h3 {
   margin: 0;
-  font-size: 0.67rem;
+  font-size: 0.8rem;
   font-weight: 500;
   color: var(--sn-text-muted);
-  line-height: 1.15;
+  line-height: 1.25;
 }
 
 .pending-stat-card strong {
@@ -934,8 +934,8 @@
 
   .pending-stat-card h2,
   .pending-stat-card h3 {
-    font-size: 0.56rem;
-    line-height: 1.08;
+    font-size: 0.72rem;
+    line-height: 1.2;
   }
 
   .pending-stat-card strong {
