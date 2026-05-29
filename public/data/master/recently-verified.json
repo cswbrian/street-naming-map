@@ -1,11 +1,101 @@
 {
-  "generated_at": "2026-05-27T15:55:40.995Z",
+  "generated_at": "2026-05-29T09:35:24.078Z",
   "streets": [
+    {
+      "street_name_en": "Tsing Yi Hong Wan Road",
+      "street_name_zh": "青衣航運路",
+      "naming_date": "2003-12-15",
+      "approved_at": "2026-05-29"
+    },
+    {
+      "street_name_en": null,
+      "street_name_zh": "錦田繞道",
+      "naming_date": "2004-12-31",
+      "approved_at": "2026-05-29"
+    },
+    {
+      "street_name_en": "Magic Road",
+      "street_name_zh": "神奇道",
+      "naming_date": "2004-12-17",
+      "approved_at": "2026-05-29"
+    },
+    {
+      "street_name_en": null,
+      "street_name_zh": "欣澳道",
+      "naming_date": "2004-12-17",
+      "approved_at": "2026-05-29"
+    },
+    {
+      "street_name_en": null,
+      "street_name_zh": "竹篙灣公路",
+      "naming_date": "2004-12-17",
+      "approved_at": "2026-05-29"
+    },
+    {
+      "street_name_en": "Park Promenade",
+      "street_name_zh": "迎樂路",
+      "naming_date": "2004-12-17",
+      "approved_at": "2026-05-29"
+    },
+    {
+      "street_name_en": "Sea Point Road",
+      "street_name_zh": "海鳴路",
+      "naming_date": "2004-12-17",
+      "approved_at": "2026-05-29"
+    },
+    {
+      "street_name_en": "Long Yan Road",
+      "street_name_zh": "朗欣路",
+      "naming_date": "2004-12-17",
+      "approved_at": "2026-05-29"
+    },
+    {
+      "street_name_en": "Chak Yan Road",
+      "street_name_zh": "澤欣路",
+      "naming_date": "2004-12-17",
+      "approved_at": "2026-05-29"
+    },
+    {
+      "street_name_en": "Wing Yan Road",
+      "street_name_zh": "榮欣路",
+      "naming_date": "2004-12-17",
+      "approved_at": "2026-05-29"
+    },
+    {
+      "street_name_en": "Fantasy Road",
+      "street_name_zh": "幻想道",
+      "naming_date": "2004-12-17",
+      "approved_at": "2026-05-29"
+    },
+    {
+      "street_name_en": "Inspiration Drive",
+      "street_name_zh": "迪欣路",
+      "naming_date": "2004-12-17",
+      "approved_at": "2026-05-29"
+    },
+    {
+      "street_name_en": "Magic Road",
+      "street_name_zh": "神奇道",
+      "naming_date": "2004-12-17",
+      "approved_at": "2026-05-29"
+    },
+    {
+      "street_name_en": "Sunny Bay Road",
+      "street_name_zh": "欣澳道",
+      "naming_date": "2004-12-17",
+      "approved_at": "2026-05-29"
+    },
+    {
+      "street_name_en": "Penny's Bay Highway",
+      "street_name_zh": "竹篙灣公路",
+      "naming_date": "2004-12-17",
+      "approved_at": "2026-05-29"
+    },
     {
       "street_name_en": "Jordan Road",
       "street_name_zh": "佐敦道",
       "naming_date": "1909-05-28",
-      "approved_at": "2026-05-27"
+      "approved_at": "2026-05-29"
     }
   ]
 }

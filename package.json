@@ -36,7 +36,8 @@
     "sync:submission-tracker": "node scripts/import-crowd-submissions.mjs --tracker-only",
     "import:crowdsubmissions": "node scripts/import-crowd-submissions.mjs",
     "merge:crowd": "node scripts/merge-crowd-naming.mjs",
-    "apply:crowd": "npm run import:crowdsubmissions && npm run merge:crowd && npm run report:pending-years"
+    "apply:crowd": "npm run import:crowdsubmissions && npm run merge:crowd && npm run report:pending-years",
+    "apply:crowd:batch": "node scripts/apply-crowd-batch.mjs"
   },
   "dependencies": {
     "@deck.gl/layers": "^9.3.1",
