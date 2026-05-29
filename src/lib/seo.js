@@ -1,9 +1,16 @@
 export const SITE_ORIGIN = 'https://street.monsoonclub.co'
+export const OG_IMAGE_FILENAME = 'og-image.png'
+export const OG_IMAGE_WIDTH = 1200
+export const OG_IMAGE_HEIGHT = 630
 
 const BASE_PATH = import.meta.env.BASE_URL.replace(/\/$/, '')
 
 export function getSiteBaseUrl(origin = SITE_ORIGIN) {
   return `${origin}${BASE_PATH}`
+}
+
+export function getOgImageUrl(origin = SITE_ORIGIN) {
+  return `${getSiteBaseUrl(origin)}/${OG_IMAGE_FILENAME}`
 }
 
 export function getCanonicalUrl(pathname, origin = typeof window !== 'undefined' ? window.location.origin : SITE_ORIGIN) {

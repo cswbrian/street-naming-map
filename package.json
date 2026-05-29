@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run og:image && vite build",
+    "og:image": "node scripts/render-og-image.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "prepare:data": "node scripts/prepare-mock-road-years.mjs",
