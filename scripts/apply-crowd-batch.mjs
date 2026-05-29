@@ -19,6 +19,11 @@ import {
   normalizeNamingDate,
 } from './lib/crowd-submission-core.mjs'
 import { finalizeCrowdEvent, makeStreetKey, normalizeStreetName } from './lib/street-naming-core.mjs'
+import {
+  buildSelfHostedPdfUrlsFromStem,
+  parseEgazetteArchiveFilename,
+} from './lib/egazette-pdf-urls.mjs'
+import { publishCrowdGazettePdfs } from './publish-crowd-gazette-pdfs.mjs'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -53,20 +58,28 @@ Applies community-verified naming dates and runs npm run merge:crowd + report:pe
   return { stdin: false, file: path.resolve(file) }
 }
 
-function parseEgazetteFilename(filePath) {
-  const base = path.basename(String(filePath ?? ''), '.pdf')
-  const match = base.match(/^(cgn|egn)(\d{4})(\d{2})(\d{2})(\d+)$/i)
-  if (!match) return null
-  const [, type, year, volume, gno, noticeNo] = match
+function resolveNoticeMeta(batch) {
+  const fromPdf =
+    parseEgazetteArchiveFilename(batch.pdf_en) ??
+    parseEgazetteArchiveFilename(batch.pdf_zh) ??
+    parseEgazetteArchiveFilename(batch.pdf_paths?.en) ??
+    parseEgazetteArchiveFilename(batch.pdf_paths?.zh)
+
+  const noticeLabel = String(
+    batch.gazette_notice_label ?? batch.notice_label ?? fromPdf?.notice_label ?? '',
+  ).trim()
+  const noticeNo = noticeLabel.replace(/^G\.?\s*N\.?\s*/i, '').trim() || fromPdf?.notice_no
+  const batchId =
+    batch.batch_id ?? (noticeNo ? `${fromPdf?.year ?? 'unknown'}-gn${noticeNo}` : 'batch')
+  const hosted = fromPdf?.stem ? buildSelfHostedPdfUrlsFromStem(fromPdf.stem) : { en: null, zh: null }
+
   return {
-    type: type.toLowerCase(),
-    year,
-    volume,
-    gno,
+    notice_label: noticeLabel || (noticeNo ? `G.N.${noticeNo}` : ''),
     notice_no: noticeNo,
-    notice_label: `G.N.${noticeNo}`,
-    url_en: `https://egazette.gld.gov.hk/pdf?type=egn&year=${year}&volume=${volume}&gno=${gno}&notice_no=${noticeNo}&extra=0`,
-    url_zh: `https://egazette.gld.gov.hk/pdf?type=cgn&year=${year}&volume=${volume}&gno=${gno}&notice_no=${noticeNo}&extra=0`,
+    notice_stem: fromPdf?.stem ?? null,
+    url_en: batch.gazette_url_en ?? batch.gazette_url ?? hosted.en ?? null,
+    url_zh: batch.gazette_url_zh ?? hosted.zh ?? null,
+    batch_id: batchId,
   }
 }
 
@@ -94,27 +107,6 @@ async function loadBatchInput(opts) {
       })
     : await readFile(opts.file, 'utf8')
   return JSON.parse(raw)
-}
-
-function resolveNoticeMeta(batch) {
-  const fromPdf =
-    parseEgazetteFilename(batch.pdf_en) ??
-    parseEgazetteFilename(batch.pdf_zh) ??
-    parseEgazetteFilename(batch.pdf_paths?.en) ??
-    parseEgazetteFilename(batch.pdf_paths?.zh)
-
-  const noticeLabel = String(
-    batch.gazette_notice_label ?? batch.notice_label ?? fromPdf?.notice_label ?? '',
-  ).trim()
-  const noticeNo = noticeLabel.replace(/^G\.?\s*N\.?\s*/i, '').trim() || fromPdf?.notice_no
-
-  return {
-    notice_label: noticeLabel || (noticeNo ? `G.N.${noticeNo}` : ''),
-    notice_no: noticeNo,
-    url_en: batch.gazette_url_en ?? batch.gazette_url ?? fromPdf?.url_en ?? null,
-    url_zh: batch.gazette_url_zh ?? fromPdf?.url_zh ?? null,
-    batch_id: batch.batch_id ?? (noticeNo ? `${fromPdf?.year ?? 'unknown'}-gn${noticeNo}` : 'batch'),
-  }
 }
 
 async function copyBatchPdfs(batch, batchId) {
@@ -226,15 +218,15 @@ async function appendBatchCsvRows(rows) {
   await writeFile(BATCH_CSV, `${lines.join('\n')}\n`)
 }
 
-async function patchZhUrls(urlZh, publicationDate) {
-  if (!urlZh) return 0
+async function patchCrowdEventUrls(notice, publicationDate) {
   const events = JSON.parse(await readFile(APPROVED_EVENTS, 'utf8'))
   let patched = 0
   for (const event of events) {
-    if (event.publication_date === publicationDate && !event.government_notice_url_zh) {
-      event.government_notice_url_zh = urlZh
-      patched += 1
-    }
+    if (event.publication_date !== publicationDate) continue
+    if (notice.url_en) event.government_notice_url_en = notice.url_en
+    if (notice.url_zh) event.government_notice_url_zh = notice.url_zh
+    if (notice.notice_stem) event.notice_stem = notice.notice_stem
+    patched += 1
   }
   if (patched) {
     await writeFile(APPROVED_EVENTS, `${JSON.stringify(events, null, 2)}\n`)
@@ -290,11 +282,15 @@ async function main() {
 
   await appendBatchCsvRows(csvRows)
   console.log(`Appended ${csvRows.length} row(s) to ${BATCH_CSV}`)
-  if (copiedPdfs.length) console.log(`Copied PDFs: ${copiedPdfs.join(', ')}`)
+  if (copiedPdfs.length) {
+    console.log(`Copied PDFs: ${copiedPdfs.join(', ')}`)
+    const published = await publishCrowdGazettePdfs()
+    console.log(`Published ${published.copied} PDF(s) to public/egazette/`)
+  }
 
   execSync('npm run import:crowdsubmissions', { cwd: projectRoot, stdio: 'inherit' })
-  const patched = await patchZhUrls(notice.url_zh, publicationDate)
-  if (patched) console.log(`Patched ${patched} event(s) with Chinese gazette URL`)
+  const patched = await patchCrowdEventUrls(notice, publicationDate)
+  if (patched) console.log(`Patched ${patched} event(s) with hosted gazette URLs`)
 
   execSync('npm run merge:crowd', { cwd: projectRoot, stdio: 'inherit' })
   execSync('npm run report:pending-years', { cwd: projectRoot, stdio: 'inherit' })

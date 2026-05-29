@@ -28,21 +28,11 @@ node scripts/apply-crowd-batch.mjs /tmp/batch.json
 
 Or write JSON to a temp file under `data/crowdsubmissions/inbox/` and run against it.
 
-3. **Verify** a sample of streets:
-
-```bash
-node -e "
-const { readFileSync } = require('node:fs');
-const g = JSON.parse(readFileSync('public/data/hk-streets.geojson','utf8'));
-for (const zh of ['竹篙灣公路','欣澳道']) {
-  const f = g.features.find(x => x.properties.CHINESESTREETNAME === zh);
-  console.log(zh, f?.properties.naming_date, f?.properties.naming_source);
-}
-"
-```
-
-4. **Report** to user: streets updated, G.N. label, date, file paths changed.
+3. **Verify** hosted gazette links and map data updated.
+4. **Report** to user: streets updated, G.N. label, date, hosted PDF paths.
 5. **Do not commit** unless the user asks.
+
+PDFs are copied to `batch-inbox/`, published to `public/egazette/`, and stored as `/egazette/{en|zh}/{year-vol-gno-notice}.pdf` (the app prepends Vite `BASE_URL` at runtime). To republish existing inbox PDFs: `npm run publish:crowd-gazettes`.
 
 ## Batch JSON shape
 
@@ -87,6 +77,7 @@ If editing `batch-approved.csv` manually, use header **`gazette notice label`** 
 | Command | Purpose |
 |---------|---------|
 | `node scripts/apply-crowd-batch.mjs <json>` | Full batch apply (preferred) |
+| `npm run publish:crowd-gazettes` | Publish inbox PDFs + update URLs |
 | `npm run apply:crowd` | Re-import CSV + merge (after manual CSV edits) |
 | `npm run merge:crowd` | Merge only (after patching approved JSON) |
 

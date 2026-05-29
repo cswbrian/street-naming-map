@@ -216,8 +216,8 @@
     "notice_no": "GN8478",
     "government_notice_label_en": "G.N.8478",
     "government_notice_label_zh": "第8478號",
-    "government_notice_url_en": "https://egazette.gld.gov.hk/pdf?type=egn&year=2003&volume=07&gno=49&notice_no=8478&extra=0",
-    "government_notice_url_zh": "https://egazette.gld.gov.hk/pdf?type=cgn&year=2003&volume=07&gno=49&notice_no=8478&extra=0",
+    "government_notice_url_en": "/egazette/en/2003-07-49-8748.pdf",
+    "government_notice_url_zh": "/egazette/zh/2003-07-49-8748.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -227,7 +227,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "Batch G.N.8478 community submission",
     "reviewed_at": "2026-05-29",
-    "submission_id": "2003-gn8478-14171"
+    "submission_id": "2003-gn8478-14171",
+    "notice_stem": "2003-07-49-8748"
   },
   {
     "event_id": "crowd|2004-gn8104-14199",
@@ -243,8 +244,8 @@
     "notice_no": "GN8104",
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
-    "government_notice_url_en": "https://egazette.gld.gov.hk/pdf?type=egn&year=2004&volume=08&gno=51&notice_no=8104&extra=0",
-    "government_notice_url_zh": null,
+    "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -254,7 +255,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "Batch GN8104 community submission",
     "reviewed_at": "2026-05-29",
-    "submission_id": "2004-gn8104-14199"
+    "submission_id": "2004-gn8104-14199",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-14200",
@@ -270,8 +272,8 @@
     "notice_no": "GN8104",
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
-    "government_notice_url_en": "https://egazette.gld.gov.hk/pdf?type=egn&year=2004&volume=08&gno=51&notice_no=8104&extra=0",
-    "government_notice_url_zh": null,
+    "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -281,7 +283,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "Batch GN8104 community submission",
     "reviewed_at": "2026-05-29",
-    "submission_id": "2004-gn8104-14200"
+    "submission_id": "2004-gn8104-14200",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-14201",
@@ -297,8 +300,8 @@
     "notice_no": "GN8104",
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
-    "government_notice_url_en": "https://egazette.gld.gov.hk/pdf?type=egn&year=2004&volume=08&gno=51&notice_no=8104&extra=0",
-    "government_notice_url_zh": null,
+    "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -308,7 +311,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "Batch GN8104 community submission",
     "reviewed_at": "2026-05-29",
-    "submission_id": "2004-gn8104-14201"
+    "submission_id": "2004-gn8104-14201",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-14202",
@@ -324,8 +328,8 @@
     "notice_no": "GN8104",
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
-    "government_notice_url_en": "https://egazette.gld.gov.hk/pdf?type=egn&year=2004&volume=08&gno=51&notice_no=8104&extra=0",
-    "government_notice_url_zh": null,
+    "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -335,7 +339,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "Batch GN8104 community submission",
     "reviewed_at": "2026-05-29",
-    "submission_id": "2004-gn8104-14202"
+    "submission_id": "2004-gn8104-14202",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-14203",
@@ -351,8 +356,8 @@
     "notice_no": "GN8104",
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
-    "government_notice_url_en": "https://egazette.gld.gov.hk/pdf?type=egn&year=2004&volume=08&gno=51&notice_no=8104&extra=0",
-    "government_notice_url_zh": null,
+    "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -362,7 +367,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "Batch GN8104 community submission",
     "reviewed_at": "2026-05-29",
-    "submission_id": "2004-gn8104-14203"
+    "submission_id": "2004-gn8104-14203",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-14204",
@@ -378,8 +384,8 @@
     "notice_no": "GN8104",
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
-    "government_notice_url_en": "https://egazette.gld.gov.hk/pdf?type=egn&year=2004&volume=08&gno=51&notice_no=8104&extra=0",
-    "government_notice_url_zh": null,
+    "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -389,7 +395,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "Batch GN8104 community submission",
     "reviewed_at": "2026-05-29",
-    "submission_id": "2004-gn8104-14204"
+    "submission_id": "2004-gn8104-14204",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-14205",
@@ -405,8 +412,8 @@
     "notice_no": "GN8104",
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
-    "government_notice_url_en": "https://egazette.gld.gov.hk/pdf?type=egn&year=2004&volume=08&gno=51&notice_no=8104&extra=0",
-    "government_notice_url_zh": null,
+    "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -416,7 +423,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "Batch GN8104 community submission",
     "reviewed_at": "2026-05-29",
-    "submission_id": "2004-gn8104-14205"
+    "submission_id": "2004-gn8104-14205",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-14206",
@@ -432,8 +440,8 @@
     "notice_no": "GN8104",
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
-    "government_notice_url_en": "https://egazette.gld.gov.hk/pdf?type=egn&year=2004&volume=08&gno=51&notice_no=8104&extra=0",
-    "government_notice_url_zh": null,
+    "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -443,7 +451,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "Batch GN8104 community submission",
     "reviewed_at": "2026-05-29",
-    "submission_id": "2004-gn8104-14206"
+    "submission_id": "2004-gn8104-14206",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-14207",
@@ -459,8 +468,8 @@
     "notice_no": "GN8104",
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
-    "government_notice_url_en": "https://egazette.gld.gov.hk/pdf?type=egn&year=2004&volume=08&gno=51&notice_no=8104&extra=0",
-    "government_notice_url_zh": null,
+    "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -470,7 +479,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "Batch GN8104 community submission",
     "reviewed_at": "2026-05-29",
-    "submission_id": "2004-gn8104-14207"
+    "submission_id": "2004-gn8104-14207",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-14208",
@@ -486,8 +496,8 @@
     "notice_no": "GN8104",
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
-    "government_notice_url_en": "https://egazette.gld.gov.hk/pdf?type=egn&year=2004&volume=08&gno=51&notice_no=8104&extra=0",
-    "government_notice_url_zh": null,
+    "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -497,7 +507,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "Batch GN8104 community submission",
     "reviewed_at": "2026-05-29",
-    "submission_id": "2004-gn8104-14208"
+    "submission_id": "2004-gn8104-14208",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-1",
@@ -513,8 +524,8 @@
     "notice_no": "GN8104",
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
-    "government_notice_url_en": "https://egazette.gld.gov.hk/pdf?type=egn&year=2004&volume=08&gno=51&notice_no=8104&extra=0",
-    "government_notice_url_zh": null,
+    "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -524,7 +535,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "Batch GN8104 community submission",
     "reviewed_at": "2026-05-29",
-    "submission_id": "2004-gn8104-1"
+    "submission_id": "2004-gn8104-1",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-2",
@@ -540,8 +552,8 @@
     "notice_no": "GN8104",
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
-    "government_notice_url_en": "https://egazette.gld.gov.hk/pdf?type=egn&year=2004&volume=08&gno=51&notice_no=8104&extra=0",
-    "government_notice_url_zh": null,
+    "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -551,7 +563,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "Batch GN8104 community submission",
     "reviewed_at": "2026-05-29",
-    "submission_id": "2004-gn8104-2"
+    "submission_id": "2004-gn8104-2",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8428-1",
@@ -567,8 +580,8 @@
     "notice_no": "GN8428",
     "government_notice_label_en": "G.N.8428",
     "government_notice_label_zh": "第8428號",
-    "government_notice_url_en": "https://egazette.gld.gov.hk/pdf?type=egn&year=2004&volume=08&gno=53&notice_no=8428&extra=0",
-    "government_notice_url_zh": null,
+    "government_notice_url_en": "/egazette/en/2004-08-53-8428.pdf",
+    "government_notice_url_zh": "/egazette/zh/2004-08-53-8428.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -578,7 +591,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "Batch G.N.8428 community submission",
     "reviewed_at": "2026-05-29",
-    "submission_id": "2004-gn8428-1"
+    "submission_id": "2004-gn8428-1",
+    "notice_stem": "2004-08-53-8428"
   },
   {
     "event_id": "2008-08-29|GN6059|0",

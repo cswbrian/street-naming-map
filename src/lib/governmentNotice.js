@@ -1,10 +1,11 @@
 import { formatNoticeLabel } from './formatNoticeLabel.js'
 import { buildStreetMatchKeys } from './roadKey.js'
+import { resolveHostedUrl } from './resolveHostedUrl.js'
 
 export function getNoticeLink(namingDetails, locale) {
   if (!namingDetails) return null
-  const zhUrl = namingDetails.government_notice_url_zh
-  const enUrl = namingDetails.government_notice_url_en
+  const zhUrl = resolveHostedUrl(namingDetails.government_notice_url_zh)
+  const enUrl = resolveHostedUrl(namingDetails.government_notice_url_en)
   const rawEn = namingDetails.government_notice_label_en
   const rawZh = namingDetails.government_notice_label_zh
   const zhLabel = formatNoticeLabel(rawZh || rawEn, 'zh')

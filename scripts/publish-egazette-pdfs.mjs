@@ -53,7 +53,7 @@ async function main() {
 
   console.log(`Published EN PDFs: ${en.copied} → ${PUBLIC_EN}`)
   console.log(`Published ZH PDFs: ${zh.copied} → ${PUBLIC_ZH}`)
-  console.log(`Public URLs like: /street-naming-map/egazette/en/2026-30-17-2370.pdf`)
+  console.log(`Public URLs like: /egazette/en/2026-30-17-2370.pdf (resolved with Vite BASE_URL in app)`)
 }
 
 main().catch((error) => {
