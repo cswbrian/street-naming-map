@@ -1,0 +1,45 @@
+{
+  "batch_id": "2018-gn3296-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.3296",
+  "publication_date": "2018-05-04",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn3296/egn201822183296.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn3296/cgn201822183296.pdf",
+  "remarks": "G.N.3296 (2018-05-04) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "12107",
+      "english_name": "SHUNG YIU STREET",
+      "chinese_name": "崇耀街",
+      "history": [
+        {
+          "publication_date": "1980-04-03",
+          "change_kind": "declare",
+          "street_name_en": "Shung Yiu Street",
+          "street_name_zh": "崇耀街",
+          "gazette_notice_label": "G.N.1043",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 崇耀街 cited in G.N.3296 (2018-05-04)."
+        }
+      ]
+    },
+    {
+      "street_code": "12111",
+      "english_name": "SIN FAT ROAD",
+      "chinese_name": "茜發道",
+      "history": [
+        {
+          "publication_date": "1989-05-05",
+          "change_kind": "declare",
+          "street_name_en": "Sin Fat Road",
+          "street_name_zh": "茜發道",
+          "gazette_notice_label": "G.N.1523",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 茜發道 cited in G.N.3296 (2018-05-04)."
+        }
+      ]
+    }
+  ]
+}

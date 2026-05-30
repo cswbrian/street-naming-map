@@ -1,0 +1,29 @@
+{
+  "batch_id": "2018-gn2323-tier-c",
+  "gazette_notice_label": "G.N.2323",
+  "publication_date": "2018-03-29",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn2323/egn201822132323.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn2323/cgn201822132323.pdf",
+  "remarks": "G.N.2323 (2018-03-29) deletes street name; original naming from \"Named in\" column.",
+  "streets": [
+    {
+      "street_code": "",
+      "english_name": "SAN CHUK STREET",
+      "chinese_name": "新竹街",
+      "history": [
+        {
+          "publication_date": "1998-01-09",
+          "change_kind": "declare",
+          "street_name_en": "San Chuk Street",
+          "street_name_zh": "新竹街",
+          "gazette_notice_label": "G.N.172",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.2323 (2018-03-29)."
+        }
+      ],
+      "allow_name_only": true
+    }
+  ],
+  "allow_name_only": true
+}

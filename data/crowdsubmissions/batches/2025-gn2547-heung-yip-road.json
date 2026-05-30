@@ -1,0 +1,28 @@
+{
+  "batch_id": "2025-gn2547-heung-yip-road",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.2547",
+  "publication_date": "2025-04-25",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/2025-gn2547/egn202529172547.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/2025-gn2547/cgn202529172547.pdf",
+  "remarks": "G.N.2547 (2025-04-25) replaces street description only. First Previous G.N. is G.N.2466 (1972-09-29); later G.N.1383 and G.N.351 are description updates.",
+  "streets": [
+    {
+      "street_code": "10698",
+      "english_name": "HEUNG YIP ROAD",
+      "chinese_name": "香葉道",
+      "history": [
+        {
+          "publication_date": "1972-09-29",
+          "change_kind": "declare",
+          "street_name_en": "Heung Yip Road",
+          "street_name_zh": "香葉道",
+          "gazette_notice_label": "G.N.2466",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 香葉道 cited in G.N.2547 (2025-04-25)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "batch_id": "2023-gn1533-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.1533",
+  "publication_date": "2023-03-10",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn1533/egn202327101533.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn1533/cgn202327101533.pdf",
+  "remarks": "G.N.1533 (2023-03-10) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "10556",
+      "english_name": "FUK SHUN STREET",
+      "chinese_name": "福順街",
+      "history": [
+        {
+          "publication_date": "1986-09-12",
+          "change_kind": "declare",
+          "street_name_en": "Fuk Shun Street",
+          "street_name_zh": "福順街",
+          "gazette_notice_label": "G.N.3158",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 福順街 cited in G.N.1533 (2023-03-10)."
+        }
+      ]
+    }
+  ]
+}

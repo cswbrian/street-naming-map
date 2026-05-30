@@ -1,0 +1,28 @@
+{
+  "batch_id": "2019-gn3587-tier-b",
+  "gazette_notice_label": "G.N.3587",
+  "publication_date": "2019-05-31",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn3587/egn201923223587.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn3587/cgn201923223587.pdf",
+  "remarks": "G.N.3587 misparsed egazette row; canonical date from Previous G.N. in notice text.",
+  "streets": [
+    {
+      "street_code": "13707",
+      "english_name": "LUNG MA ROAD",
+      "chinese_name": "龍馬路",
+      "history": [
+        {
+          "publication_date": "1995-09-01",
+          "change_kind": "declare",
+          "street_name_en": "Lung Ma Road",
+          "street_name_zh": "龍馬路",
+          "gazette_notice_label": "G.N.3544",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Parsed from misparsed egazette text; cited in G.N.3587 (2019-05-31)."
+        }
+      ]
+    }
+  ],
+  "allow_name_only": false
+}

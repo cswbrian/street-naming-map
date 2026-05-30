@@ -1,0 +1,45 @@
+{
+  "batch_id": "2019-gn1654-first-previous-gn",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.1654",
+  "publication_date": "2019-03-01",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/2019-gn1654/egn201923091654.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/2019-gn1654/cgn201923091654.pdf",
+  "remarks": "G.N.1654 (2019-03-01) replaces street descriptions only. Canonical naming dates are the first Previous G.N. cited for each street in that notice.",
+  "streets": [
+    {
+      "street_code": "12221",
+      "english_name": "TAI HO ROAD",
+      "chinese_name": "大河道",
+      "history": [
+        {
+          "publication_date": "1987-11-27",
+          "change_kind": "declare",
+          "street_name_en": "Tai Ho Road",
+          "street_name_zh": "大河道",
+          "gazette_notice_label": "G.N.3981",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 大河道 in G.N.1654 (earlier than G.N.7668 of 2003-10-24)."
+        }
+      ]
+    },
+    {
+      "street_code": "12962",
+      "english_name": "HOI KWAI ROAD",
+      "chinese_name": "海貴路",
+      "history": [
+        {
+          "publication_date": "1990-07-06",
+          "change_kind": "declare",
+          "street_name_en": "Hoi Kwai Road",
+          "street_name_zh": "海貴路",
+          "gazette_notice_label": "G.N.2396",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Previous G.N. for 海貴路 cited in G.N.1654."
+        }
+      ]
+    }
+  ]
+}

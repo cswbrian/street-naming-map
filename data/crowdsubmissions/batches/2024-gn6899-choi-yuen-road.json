@@ -1,0 +1,28 @@
+{
+  "batch_id": "2024-gn6899-choi-yuen-road",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.6899",
+  "publication_date": "2024-11-15",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/2024-gn6899/egn202428466899.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/2024-gn6899/cgn202428466899.pdf",
+  "remarks": "G.N.6899 (2024-11-15) replaces street description only. First Previous G.N. is G.N.64 (1992-01-03); G.N.153 (1995-01-13) is a later description update.",
+  "streets": [
+    {
+      "street_code": "13124",
+      "english_name": "CHOI YUEN ROAD",
+      "chinese_name": "彩園路",
+      "history": [
+        {
+          "publication_date": "1992-01-03",
+          "change_kind": "declare",
+          "street_name_en": "Choi Yuen Road",
+          "street_name_zh": "彩園路",
+          "gazette_notice_label": "G.N.64",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 彩園路 cited in G.N.6899 (2024-11-15)."
+        }
+      ]
+    }
+  ]
+}

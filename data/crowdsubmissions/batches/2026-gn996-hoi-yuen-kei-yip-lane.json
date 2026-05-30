@@ -1,0 +1,45 @@
+{
+  "batch_id": "2026-gn996-hoi-yuen-kei-yip-lane",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.996",
+  "publication_date": "2026-02-13",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/2026-gn996/egn20263007996.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/2026-gn996/cgn20263007996.pdf",
+  "remarks": "G.N.996 (2026-02-13) replaces street descriptions only. Previous G.N.: 開源道 G.N.264 (1957-02-22); 基業里 G.N.310 (1989-01-27).",
+  "streets": [
+    {
+      "street_code": "10788",
+      "english_name": "HOI YUEN ROAD",
+      "chinese_name": "開源道",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Hoi Yuen Road",
+          "street_name_zh": "開源道",
+          "gazette_notice_label": "G.N.264",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Previous G.N. for 開源道 cited in G.N.996 (2026-02-13)."
+        }
+      ]
+    },
+    {
+      "street_code": "10978",
+      "english_name": "KEI YIP LANE",
+      "chinese_name": "基業里",
+      "history": [
+        {
+          "publication_date": "1989-01-27",
+          "change_kind": "declare",
+          "street_name_en": "Kei Yip Lane",
+          "street_name_zh": "基業里",
+          "gazette_notice_label": "G.N.310",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Previous G.N. for 基業里 cited in G.N.996 (2026-02-13)."
+        }
+      ]
+    }
+  ]
+}

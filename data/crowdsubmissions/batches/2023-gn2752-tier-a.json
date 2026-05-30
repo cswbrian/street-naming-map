@@ -1,0 +1,28 @@
+{
+  "batch_id": "2023-gn2752-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.2752",
+  "publication_date": "2023-05-05",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn2752/egn202327182752.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn2752/cgn202327182752.pdf",
+  "remarks": "G.N.2752 (2023-05-05) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "10281",
+      "english_name": "CHUN TIN STREET",
+      "chinese_name": "春田街",
+      "history": [
+        {
+          "publication_date": "1955-02-18",
+          "change_kind": "declare",
+          "street_name_en": "Chun Tin Street",
+          "street_name_zh": "春田街",
+          "gazette_notice_label": "G.N.200",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 春田街 cited in G.N.2752 (2023-05-05)."
+        }
+      ]
+    }
+  ]
+}

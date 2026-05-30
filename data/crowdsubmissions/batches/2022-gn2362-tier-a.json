@@ -1,0 +1,45 @@
+{
+  "batch_id": "2022-gn2362-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.2362",
+  "publication_date": "2022-05-13",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn2362/egn202226192362.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn2362/cgn202226192362.pdf",
+  "remarks": "G.N.2362 (2022-05-13) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "13801",
+      "english_name": "CHEONG HING ROAD",
+      "chinese_name": "暢興路",
+      "history": [
+        {
+          "publication_date": "2005-11-11",
+          "change_kind": "declare",
+          "street_name_en": "Cheong Hing Road",
+          "street_name_zh": "暢興路",
+          "gazette_notice_label": "G.N.5908",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 暢興路 cited in G.N.2362 (2022-05-13)."
+        }
+      ]
+    },
+    {
+      "street_code": "13810",
+      "english_name": "CHEONG TAT ROAD",
+      "chinese_name": "暢達路",
+      "history": [
+        {
+          "publication_date": "2005-08-05",
+          "change_kind": "declare",
+          "street_name_en": "Cheong Tat Road",
+          "street_name_zh": "暢達路",
+          "gazette_notice_label": "G.N.3799",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 暢達路 cited in G.N.2362 (2022-05-13)."
+        }
+      ]
+    }
+  ]
+}

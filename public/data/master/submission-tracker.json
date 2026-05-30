@@ -1,10 +1,187 @@
 {
-  "generated_at": "2026-05-30T08:22:28.107Z",
+  "generated_at": "2026-05-30T15:41:16.766Z",
   "stats": {
     "submitted": 0,
-    "approved": 0,
+    "approved": 24,
     "rejected": 0,
     "batch_uploads": 0
   },
-  "by_road_key": {}
+  "by_road_key": {
+    "name:Jordan Road|佐敦道": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:14199": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:14200": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:14201": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:14202": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:14203": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:14204": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:14205": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:14206": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:14207": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:14208": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:|竹篙灣公路": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:|欣澳道": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:|錦田繞道": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:14171": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:14124": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:14164": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:14165": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:14170": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:10669": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:11184": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:11610": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:10599": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Ngau Tau Kok Fifth Street|牛頭角第五街": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Ngau Tau Kok Fourth Street|牛頭角第四街": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Ngau Tau Kok Second Street|牛頭角第二街": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Ngau Tau Kok Third Street|牛頭角第三街": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Sau Lai Street|秀麗街": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Sau Mau Path|秀茂徑": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Sau Po Street|秀圃街": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Tak Wo Street|德和街": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Ching Road|青道": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Fook Lai Road|復禮道": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Fu Mei Street West|富美西街": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Jordan Valley South Road|佐頓谷南道": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Ko Long Road|高朗道": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Lung Shan Road|龍山道": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Ming Tak Street|明德街": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "code:11576": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Sheung Tak Street|尚德街": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Shing Shun Road|誠信路": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Wan King Street|環景街": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Wan Lei Street|環利街": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    },
+    "name:Wan Shun Street|環順街": {
+      "status": "approved",
+      "approved_at": "2026-05-30"
+    }
+  }
 }

@@ -1,0 +1,28 @@
+{
+  "batch_id": "2022-gn6836-tier-b",
+  "gazette_notice_label": "G.N.6836",
+  "publication_date": "2022-11-25",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn6836/egn202226476836.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn6836/cgn202226476836.pdf",
+  "remarks": "G.N.6836 misparsed egazette row; canonical date from Previous G.N. in notice text.",
+  "streets": [
+    {
+      "street_code": "14143",
+      "english_name": "WAN O ROAD",
+      "chinese_name": "環澳路",
+      "history": [
+        {
+          "publication_date": "2003-02-14",
+          "change_kind": "declare",
+          "street_name_en": "Wan O Road",
+          "street_name_zh": "環澳路",
+          "gazette_notice_label": "G.N.935",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Parsed from misparsed egazette text; cited in G.N.6836 (2022-11-25)."
+        }
+      ]
+    }
+  ],
+  "allow_name_only": false
+}

@@ -1,0 +1,28 @@
+{
+  "batch_id": "2020-gn4509-tier-b",
+  "gazette_notice_label": "G.N.4509",
+  "publication_date": "2020-08-07",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn4509/egn202024324509.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn4509/cgn202024324509.pdf",
+  "remarks": "G.N.4509 misparsed egazette row; canonical date from Previous G.N. in notice text.",
+  "streets": [
+    {
+      "street_code": "12719",
+      "english_name": "WING FOOK STREET",
+      "chinese_name": "永福街",
+      "history": [
+        {
+          "publication_date": "1974-08-02",
+          "change_kind": "declare",
+          "street_name_en": "Wing Fook Street",
+          "street_name_zh": "永福街",
+          "gazette_notice_label": "G.N.1982",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Parsed from misparsed egazette text; cited in G.N.4509 (2020-08-07)."
+        }
+      ]
+    }
+  ],
+  "allow_name_only": false
+}

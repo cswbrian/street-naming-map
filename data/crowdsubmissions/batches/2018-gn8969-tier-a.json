@@ -1,0 +1,45 @@
+{
+  "batch_id": "2018-gn8969-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.8969",
+  "publication_date": "2018-11-30",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn8969/egn201822488969.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn8969/cgn201822488969.pdf",
+  "remarks": "G.N.8969 (2018-11-30) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "13951",
+      "english_name": "LAI PO ROAD",
+      "chinese_name": "荔寶路",
+      "history": [
+        {
+          "publication_date": "1999-03-12",
+          "change_kind": "declare",
+          "street_name_en": "Lai Po Road",
+          "street_name_zh": "荔寶路",
+          "gazette_notice_label": "G.N.1362",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 荔寶路 cited in G.N.8969 (2018-11-30)."
+        }
+      ]
+    },
+    {
+      "street_code": "13922",
+      "english_name": "LIN CHEUNG ROAD",
+      "chinese_name": "連翔道",
+      "history": [
+        {
+          "publication_date": "1998-11-13",
+          "change_kind": "declare",
+          "street_name_en": "Lin Cheung Road",
+          "street_name_zh": "連翔道",
+          "gazette_notice_label": "G.N.5529",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 連翔道 cited in G.N.8969 (2018-11-30)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "batch_id": "2019-gn3586-tier-c",
+  "gazette_notice_label": "G.N.3586",
+  "publication_date": "2019-05-31",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn3586/egn201923223586.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn3586/cgn201923223586.pdf",
+  "remarks": "G.N.3586 (2019-05-31) deletes street name; original naming from \"Named in\" column.",
+  "streets": [
+    {
+      "street_code": "",
+      "english_name": "CHURCH LANE",
+      "chinese_name": "教堂里",
+      "history": [
+        {
+          "publication_date": "1958-07-11",
+          "change_kind": "declare",
+          "street_name_en": "Church Lane",
+          "street_name_zh": "教堂里",
+          "gazette_notice_label": "G.N.939",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3586 (2019-05-31)."
+        }
+      ],
+      "allow_name_only": true
+    },
+    {
+      "street_code": "",
+      "english_name": "NATION STREET",
+      "chinese_name": "禮信街",
+      "history": [
+        {
+          "publication_date": "1960-01-22",
+          "change_kind": "declare",
+          "street_name_en": "Nation Street",
+          "street_name_zh": "禮信街",
+          "gazette_notice_label": "G.N.110",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3586 (2019-05-31)."
+        }
+      ],
+      "allow_name_only": true
+    }
+  ],
+  "allow_name_only": true
+}

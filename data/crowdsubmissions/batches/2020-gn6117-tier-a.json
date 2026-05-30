@@ -1,0 +1,62 @@
+{
+  "batch_id": "2020-gn6117-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.6117",
+  "publication_date": "2020-10-23",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn6117/egn202024436117.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn6117/cgn202024436117.pdf",
+  "remarks": "G.N.6117 (2020-10-23) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "13517",
+      "english_name": "HING KWAI STREET",
+      "chinese_name": "興貴街",
+      "history": [
+        {
+          "publication_date": "1992-05-29",
+          "change_kind": "declare",
+          "street_name_en": "Hing Kwai Street",
+          "street_name_zh": "興貴街",
+          "gazette_notice_label": "G.N.1826",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 興貴街 cited in G.N.6117 (2020-10-23)."
+        }
+      ]
+    },
+    {
+      "street_code": "12993",
+      "english_name": "TONG HANG ROAD",
+      "chinese_name": "塘亨路",
+      "history": [
+        {
+          "publication_date": "1990-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tong Hang Road",
+          "street_name_zh": "塘亨路",
+          "gazette_notice_label": "G.N.4336",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 塘亨路 cited in G.N.6117 (2020-10-23)."
+        }
+      ]
+    },
+    {
+      "street_code": "12992",
+      "english_name": "TSZ TIN ROAD",
+      "chinese_name": "紫田路",
+      "history": [
+        {
+          "publication_date": "1990-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tsz Tin Road",
+          "street_name_zh": "紫田路",
+          "gazette_notice_label": "G.N.4336",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 紫田路 cited in G.N.6117 (2020-10-23)."
+        }
+      ]
+    }
+  ]
+}

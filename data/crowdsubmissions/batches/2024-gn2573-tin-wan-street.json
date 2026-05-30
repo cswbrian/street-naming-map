@@ -1,0 +1,28 @@
+{
+  "batch_id": "2024-gn2573-tin-wan-street",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.2573",
+  "publication_date": "2024-05-03",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/2024-gn2573/egn202428182573.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/2024-gn2573/cgn202428182573.pdf",
+  "remarks": "G.N.2573 (2024-05-03) replaces street description only. First Previous G.N. is G.N.849 (1956-07-06); G.N.2126 (1966-08-19) is a later description update.",
+  "streets": [
+    {
+      "street_code": "12370",
+      "english_name": "TIN WAN STREET",
+      "chinese_name": "田灣街",
+      "history": [
+        {
+          "publication_date": "1956-07-06",
+          "change_kind": "declare",
+          "street_name_en": "Tin Wan Street",
+          "street_name_zh": "田灣街",
+          "gazette_notice_label": "G.N.849",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 田灣街 cited in G.N.2573 (2024-05-03)."
+        }
+      ]
+    }
+  ]
+}

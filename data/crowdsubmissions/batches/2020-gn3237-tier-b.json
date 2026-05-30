@@ -1,0 +1,28 @@
+{
+  "batch_id": "2020-gn3237-tier-b",
+  "gazette_notice_label": "G.N.3237",
+  "publication_date": "2020-06-12",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn3237/egn202024243237.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn3237/cgn202024243237.pdf",
+  "remarks": "G.N.3237 misparsed egazette row; canonical date from Previous G.N. in notice text.",
+  "streets": [
+    {
+      "street_code": "13041",
+      "english_name": "LUK MEI TSUEN ROAD",
+      "chinese_name": "鹿尾村路",
+      "history": [
+        {
+          "publication_date": "1991-05-24",
+          "change_kind": "declare",
+          "street_name_en": "Luk Mei Tsuen Road",
+          "street_name_zh": "鹿尾村路",
+          "gazette_notice_label": "G.N.1786",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Parsed from misparsed egazette text; cited in G.N.3237 (2020-06-12)."
+        }
+      ]
+    }
+  ],
+  "allow_name_only": false
+}

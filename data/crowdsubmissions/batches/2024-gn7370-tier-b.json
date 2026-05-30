@@ -1,0 +1,28 @@
+{
+  "batch_id": "2024-gn7370-tier-b",
+  "gazette_notice_label": "G.N.7370",
+  "publication_date": "2024-12-06",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn7370/egn202428497370.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn7370/cgn202428497370.pdf",
+  "remarks": "G.N.7370 misparsed egazette row; canonical date from Previous G.N. in notice text.",
+  "streets": [
+    {
+      "street_code": "14364",
+      "english_name": "SHING CHEONG ROAD",
+      "chinese_name": "承昌道",
+      "history": [
+        {
+          "publication_date": "2021-06-25",
+          "change_kind": "declare",
+          "street_name_en": "Shing Cheong Road",
+          "street_name_zh": "承昌道",
+          "gazette_notice_label": "G.N.3898",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Parsed from misparsed egazette text; cited in G.N.7370 (2024-12-06)."
+        }
+      ]
+    }
+  ],
+  "allow_name_only": false
+}

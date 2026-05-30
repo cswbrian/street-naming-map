@@ -1,0 +1,28 @@
+{
+  "batch_id": "2023-gn2594-dakota-drive",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.2594",
+  "publication_date": "2023-04-28",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/2023-gn2594/egn202327172594.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/2023-gn2594/cgn202327172594.pdf",
+  "remarks": "G.N.2594 (2023-04-28) replaces street description only. First Previous G.N. is G.N.3826 (1987-11-13); G.N.308 (1988-01-29) is a later description update.",
+  "streets": [
+    {
+      "street_code": "10364",
+      "english_name": "DAKOTA DRIVE",
+      "chinese_name": "德高道",
+      "history": [
+        {
+          "publication_date": "1987-11-13",
+          "change_kind": "declare",
+          "street_name_en": "Dakota Drive",
+          "street_name_zh": "德高道",
+          "gazette_notice_label": "G.N.3826",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 德高道 cited in G.N.2594 (2023-04-28)."
+        }
+      ]
+    }
+  ]
+}

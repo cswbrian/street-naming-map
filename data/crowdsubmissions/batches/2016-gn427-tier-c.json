@@ -1,0 +1,155 @@
+{
+  "batch_id": "2016-gn427-tier-c",
+  "gazette_notice_label": "G.N.427",
+  "publication_date": "2016-01-22",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn427/egn20162003427.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn427/cgn20162003427.pdf",
+  "remarks": "G.N.427 (2016-01-22) deletes street name; original naming from \"Named in\" column.",
+  "streets": [
+    {
+      "street_code": "",
+      "english_name": "NGAU TAU KOK FIFTH STREET",
+      "chinese_name": "牛頭角第五街",
+      "history": [
+        {
+          "publication_date": "1970-07-03",
+          "change_kind": "declare",
+          "street_name_en": "Ngau Tau Kok Fifth Street",
+          "street_name_zh": "牛頭角第五街",
+          "gazette_notice_label": "G.N.1370",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22)."
+        }
+      ],
+      "allow_name_only": true
+    },
+    {
+      "street_code": "",
+      "english_name": "NGAU TAU KOK FOURTH STREET",
+      "chinese_name": "牛頭角第四街",
+      "history": [
+        {
+          "publication_date": "1970-07-03",
+          "change_kind": "declare",
+          "street_name_en": "Ngau Tau Kok Fourth Street",
+          "street_name_zh": "牛頭角第四街",
+          "gazette_notice_label": "G.N.1370",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22)."
+        }
+      ],
+      "allow_name_only": true
+    },
+    {
+      "street_code": "",
+      "english_name": "NGAU TAU KOK SECOND STREET",
+      "chinese_name": "牛頭角第二街",
+      "history": [
+        {
+          "publication_date": "1970-07-03",
+          "change_kind": "declare",
+          "street_name_en": "Ngau Tau Kok Second Street",
+          "street_name_zh": "牛頭角第二街",
+          "gazette_notice_label": "G.N.1370",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22)."
+        }
+      ],
+      "allow_name_only": true
+    },
+    {
+      "street_code": "",
+      "english_name": "NGAU TAU KOK THIRD STREET",
+      "chinese_name": "牛頭角第三街",
+      "history": [
+        {
+          "publication_date": "1970-07-03",
+          "change_kind": "declare",
+          "street_name_en": "Ngau Tau Kok Third Street",
+          "street_name_zh": "牛頭角第三街",
+          "gazette_notice_label": "G.N.1370",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22)."
+        }
+      ],
+      "allow_name_only": true
+    },
+    {
+      "street_code": "",
+      "english_name": "SAU LAI STREET",
+      "chinese_name": "秀麗街",
+      "history": [
+        {
+          "publication_date": "1967-03-04",
+          "change_kind": "declare",
+          "street_name_en": "Sau Lai Street",
+          "street_name_zh": "秀麗街",
+          "gazette_notice_label": "G.N.537",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22)."
+        }
+      ],
+      "allow_name_only": true
+    },
+    {
+      "street_code": "",
+      "english_name": "SAU MAU PATH",
+      "chinese_name": "秀茂徑",
+      "history": [
+        {
+          "publication_date": "1967-03-04",
+          "change_kind": "declare",
+          "street_name_en": "Sau Mau Path",
+          "street_name_zh": "秀茂徑",
+          "gazette_notice_label": "G.N.537",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22)."
+        }
+      ],
+      "allow_name_only": true
+    },
+    {
+      "street_code": "",
+      "english_name": "SAU PO STREET",
+      "chinese_name": "秀圃街",
+      "history": [
+        {
+          "publication_date": "1967-03-04",
+          "change_kind": "declare",
+          "street_name_en": "Sau Po Street",
+          "street_name_zh": "秀圃街",
+          "gazette_notice_label": "G.N.537",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22)."
+        }
+      ],
+      "allow_name_only": true
+    },
+    {
+      "street_code": "",
+      "english_name": "TAK WO STREET",
+      "chinese_name": "德和街",
+      "history": [
+        {
+          "publication_date": "1967-03-04",
+          "change_kind": "declare",
+          "street_name_en": "Tak Wo Street",
+          "street_name_zh": "德和街",
+          "gazette_notice_label": "G.N.537",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22)."
+        }
+      ],
+      "allow_name_only": true
+    }
+  ],
+  "allow_name_only": true
+}

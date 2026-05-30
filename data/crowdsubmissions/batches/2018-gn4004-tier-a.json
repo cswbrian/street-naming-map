@@ -1,0 +1,28 @@
+{
+  "batch_id": "2018-gn4004-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.4004",
+  "publication_date": "2018-06-01",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn4004/egn201822224004.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn4004/cgn201822224004.pdf",
+  "remarks": "G.N.4004 (2018-06-01) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "13925",
+      "english_name": "WUI CHEUNG ROAD",
+      "chinese_name": "匯翔道",
+      "history": [
+        {
+          "publication_date": "1998-11-13",
+          "change_kind": "declare",
+          "street_name_en": "Wui Cheung Road",
+          "street_name_zh": "匯翔道",
+          "gazette_notice_label": "G.N.5530",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 匯翔道 cited in G.N.4004 (2018-06-01)."
+        }
+      ]
+    }
+  ]
+}

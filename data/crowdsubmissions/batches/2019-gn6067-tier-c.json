@@ -1,0 +1,65 @@
+{
+  "batch_id": "2019-gn6067-tier-c",
+  "gazette_notice_label": "G.N.6067",
+  "publication_date": "2019-09-27",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn6067/egn201923396067.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn6067/cgn201923396067.pdf",
+  "remarks": "G.N.6067 (2019-09-27) deletes street name; original naming from \"Named in\" column.",
+  "streets": [
+    {
+      "street_code": "",
+      "english_name": "WAN KING STREET",
+      "chinese_name": "環景街",
+      "history": [
+        {
+          "publication_date": "1959-12-11",
+          "change_kind": "declare",
+          "street_name_en": "Wan King Street",
+          "street_name_zh": "環景街",
+          "gazette_notice_label": "G.N.1743",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.6067 (2019-09-27)."
+        }
+      ],
+      "allow_name_only": true
+    },
+    {
+      "street_code": "",
+      "english_name": "WAN LEI STREET",
+      "chinese_name": "環利街",
+      "history": [
+        {
+          "publication_date": "1959-12-11",
+          "change_kind": "declare",
+          "street_name_en": "Wan Lei Street",
+          "street_name_zh": "環利街",
+          "gazette_notice_label": "G.N.1743",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.6067 (2019-09-27)."
+        }
+      ],
+      "allow_name_only": true
+    },
+    {
+      "street_code": "",
+      "english_name": "WAN SHUN STREET",
+      "chinese_name": "環順街",
+      "history": [
+        {
+          "publication_date": "1959-12-11",
+          "change_kind": "declare",
+          "street_name_en": "Wan Shun Street",
+          "street_name_zh": "環順街",
+          "gazette_notice_label": "G.N.1743",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.6067 (2019-09-27)."
+        }
+      ],
+      "allow_name_only": true
+    }
+  ],
+  "allow_name_only": true
+}

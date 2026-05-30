@@ -1,0 +1,45 @@
+{
+  "batch_id": "2018-gn7463-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.7463",
+  "publication_date": "2018-10-05",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn7463/egn201822407463.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn7463/cgn201822407463.pdf",
+  "remarks": "G.N.7463 (2018-10-05) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "10802",
+      "english_name": "HONG CHONG ROAD",
+      "chinese_name": "康莊道",
+      "history": [
+        {
+          "publication_date": "1999-07-30",
+          "change_kind": "declare",
+          "street_name_en": "Hong Chong Road",
+          "street_name_zh": "康莊道",
+          "gazette_notice_label": "G.N.4363",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 康莊道 cited in G.N.7463 (2018-10-05)."
+        }
+      ]
+    },
+    {
+      "street_code": "11791",
+      "english_name": "PRINCESS MARGARET ROAD",
+      "chinese_name": "公主道",
+      "history": [
+        {
+          "publication_date": "1966-03-18",
+          "change_kind": "declare",
+          "street_name_en": "Princess Margaret Road",
+          "street_name_zh": "公主道",
+          "gazette_notice_label": "G.N.769",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 公主道 cited in G.N.7463 (2018-10-05)."
+        }
+      ]
+    }
+  ]
+}

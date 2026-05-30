@@ -1,0 +1,28 @@
+{
+  "batch_id": "2018-gn4003-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.4003",
+  "publication_date": "2018-06-01",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn4003/egn201822224003.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn4003/cgn201822224003.pdf",
+  "remarks": "G.N.4003 (2018-06-01) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "12254",
+      "english_name": "TAI PO ROAD",
+      "chinese_name": "大埔道",
+      "history": [
+        {
+          "publication_date": "1927-04-29",
+          "change_kind": "declare",
+          "street_name_en": "Tai Po Road",
+          "street_name_zh": "大埔道",
+          "gazette_notice_label": "G.N.250",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 大埔道 cited in G.N.4003 (2018-06-01)."
+        }
+      ]
+    }
+  ]
+}

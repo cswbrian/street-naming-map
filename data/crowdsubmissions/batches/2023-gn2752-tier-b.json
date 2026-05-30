@@ -1,0 +1,28 @@
+{
+  "batch_id": "2023-gn2752-tier-b",
+  "gazette_notice_label": "G.N.2752",
+  "publication_date": "2023-05-05",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn2752/egn202327182752.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn2752/cgn202327182752.pdf",
+  "remarks": "G.N.2752 misparsed egazette row; canonical date from Previous G.N. in notice text.",
+  "streets": [
+    {
+      "street_code": "10281",
+      "english_name": "CHUN TIN STREET",
+      "chinese_name": "春田街",
+      "history": [
+        {
+          "publication_date": "1955-02-18",
+          "change_kind": "declare",
+          "street_name_en": "Chun Tin Street",
+          "street_name_zh": "春田街",
+          "gazette_notice_label": "G.N.200",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Parsed from misparsed egazette text; cited in G.N.2752 (2023-05-05)."
+        }
+      ]
+    }
+  ],
+  "allow_name_only": false
+}

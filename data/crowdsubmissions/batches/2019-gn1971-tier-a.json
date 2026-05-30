@@ -1,0 +1,28 @@
+{
+  "batch_id": "2019-gn1971-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.1971",
+  "publication_date": "2019-03-15",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn1971/egn201923111971.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn1971/cgn201923111971.pdf",
+  "remarks": "G.N.1971 (2019-03-15) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "10495",
+      "english_name": "FLEMING ROAD",
+      "chinese_name": "菲林明道",
+      "history": [
+        {
+          "publication_date": "1929-06-14",
+          "change_kind": "declare",
+          "street_name_en": "Fleming Road",
+          "street_name_zh": "菲林明道",
+          "gazette_notice_label": "G.N.312",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 菲林明道 cited in G.N.1971 (2019-03-15)."
+        }
+      ]
+    }
+  ]
+}

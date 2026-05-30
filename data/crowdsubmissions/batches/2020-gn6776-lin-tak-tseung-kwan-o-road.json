@@ -1,0 +1,45 @@
+{
+  "batch_id": "2020-gn6776-lin-tak-tseung-kwan-o-road",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.6776",
+  "publication_date": "2020-11-20",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/2020-gn6776/egn202024476776.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/2020-gn6776/cgn202024476776.pdf",
+  "remarks": "G.N.6776 (2020-11-20) replaces street descriptions only. Previous G.N.: 連德道 G.N.2478 (1987-07-31); 將軍澳道 G.N.1269 (1992-04-10).",
+  "streets": [
+    {
+      "street_code": "11238",
+      "english_name": "LIN TAK ROAD",
+      "chinese_name": "連德道",
+      "history": [
+        {
+          "publication_date": "1987-07-31",
+          "change_kind": "declare",
+          "street_name_en": "Lin Tak Road",
+          "street_name_zh": "連德道",
+          "gazette_notice_label": "G.N.2478",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Previous G.N. for 連德道 cited in G.N.6776 (2020-11-20)."
+        }
+      ]
+    },
+    {
+      "street_code": "13174",
+      "english_name": "TSEUNG KWAN O ROAD",
+      "chinese_name": "將軍澳道",
+      "history": [
+        {
+          "publication_date": "1992-04-10",
+          "change_kind": "declare",
+          "street_name_en": "Tseung Kwan O Road",
+          "street_name_zh": "將軍澳道",
+          "gazette_notice_label": "G.N.1269",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Previous G.N. for 將軍澳道 cited in G.N.6776 (2020-11-20)."
+        }
+      ]
+    }
+  ]
+}

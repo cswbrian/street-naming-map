@@ -1,0 +1,79 @@
+{
+  "batch_id": "2018-gn649-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.649",
+  "publication_date": "2018-02-02",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn649/egn20182205649.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn649/cgn20182205649.pdf",
+  "remarks": "G.N.649 (2018-02-02) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "11022",
+      "english_name": "KING FUK STREET",
+      "chinese_name": "景福街",
+      "history": [
+        {
+          "publication_date": "1961-09-08",
+          "change_kind": "declare",
+          "street_name_en": "King Fuk Street",
+          "street_name_zh": "景福街",
+          "gazette_notice_label": "G.N.1577",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 景福街 cited in G.N.649 (2018-02-02)."
+        }
+      ]
+    },
+    {
+      "street_code": "11300",
+      "english_name": "LUK HOP STREET",
+      "chinese_name": "六合街",
+      "history": [
+        {
+          "publication_date": "1961-09-08",
+          "change_kind": "declare",
+          "street_name_en": "Luk Hop Street",
+          "street_name_zh": "六合街",
+          "gazette_notice_label": "G.N.1577",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 六合街 cited in G.N.649 (2018-02-02)."
+        }
+      ]
+    },
+    {
+      "street_code": "12200",
+      "english_name": "SZE MEI STREET",
+      "chinese_name": "四美街",
+      "history": [
+        {
+          "publication_date": "1961-09-08",
+          "change_kind": "declare",
+          "street_name_en": "Sze Mei Street",
+          "street_name_zh": "四美街",
+          "gazette_notice_label": "G.N.1577",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 四美街 cited in G.N.649 (2018-02-02)."
+        }
+      ]
+    },
+    {
+      "street_code": "12858",
+      "english_name": "YI LUN STREET",
+      "chinese_name": "彝倫街",
+      "history": [
+        {
+          "publication_date": "1961-09-08",
+          "change_kind": "declare",
+          "street_name_en": "Yi Lun Street",
+          "street_name_zh": "彝倫街",
+          "gazette_notice_label": "G.N.1577",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 彝倫街 cited in G.N.649 (2018-02-02)."
+        }
+      ]
+    }
+  ]
+}

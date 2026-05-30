@@ -1,0 +1,28 @@
+{
+  "batch_id": "2021-gn7634-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.7634",
+  "publication_date": "2021-12-03",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn7634/egn202125487634.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn7634/cgn202125487634.pdf",
+  "remarks": "G.N.7634 (2021-12-03) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "13020",
+      "english_name": "FU TEI ROAD",
+      "chinese_name": "富地路",
+      "history": [
+        {
+          "publication_date": "1991-02-08",
+          "change_kind": "declare",
+          "street_name_en": "Fu Tei Road",
+          "street_name_zh": "富地路",
+          "gazette_notice_label": "G.N.502",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 富地路 cited in G.N.7634 (2021-12-03)."
+        }
+      ]
+    }
+  ]
+}

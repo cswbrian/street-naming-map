@@ -1,0 +1,28 @@
+{
+  "batch_id": "2025-gn8147-tier-b",
+  "gazette_notice_label": "G.N.8147",
+  "publication_date": "2025-12-19",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn8147/egn202529518147.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn8147/cgn202529518147.pdf",
+  "remarks": "G.N.8147 misparsed egazette row; canonical date from Previous G.N. in notice text.",
+  "streets": [
+    {
+      "street_code": "14516",
+      "english_name": "CULTURAL DRIVE",
+      "chinese_name": "文化道",
+      "history": [
+        {
+          "publication_date": "2021-09-17",
+          "change_kind": "declare",
+          "street_name_en": "Cultural Drive",
+          "street_name_zh": "文化道",
+          "gazette_notice_label": "G.N.5801",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Parsed from misparsed egazette text; cited in G.N.8147 (2025-12-19)."
+        }
+      ]
+    }
+  ],
+  "allow_name_only": false
+}

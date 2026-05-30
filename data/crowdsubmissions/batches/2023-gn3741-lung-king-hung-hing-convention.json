@@ -1,0 +1,62 @@
+{
+  "batch_id": "2023-gn3741-wan-chai-streets",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.3741",
+  "publication_date": "2023-06-23",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/2023-gn3741/egn202327253741.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/2023-gn3741/cgn202327253741.pdf",
+  "remarks": "G.N.3741 (2023-06-23) replaces street descriptions only. Canonical dates are first Previous G.N. cited for each street.",
+  "streets": [
+    {
+      "street_code": "11314",
+      "english_name": "LUNG KING STREET",
+      "chinese_name": "龍景街",
+      "history": [
+        {
+          "publication_date": "1974-05-31",
+          "change_kind": "declare",
+          "street_name_en": "Lung King Street",
+          "street_name_zh": "龍景街",
+          "gazette_notice_label": "G.N.1382",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Previous G.N. for 龍景街 cited in G.N.3741 (2023-06-23)."
+        }
+      ]
+    },
+    {
+      "street_code": "10865",
+      "english_name": "HUNG HING ROAD",
+      "chinese_name": "鴻興道",
+      "history": [
+        {
+          "publication_date": "1974-05-31",
+          "change_kind": "declare",
+          "street_name_en": "Hung Hing Road",
+          "street_name_zh": "鴻興道",
+          "gazette_notice_label": "G.N.1382",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 鴻興道 in G.N.3741 (earlier than G.N.122 of 1987-01-09)."
+        }
+      ]
+    },
+    {
+      "street_code": "10334",
+      "english_name": "CONVENTION AVENUE",
+      "chinese_name": "會議道",
+      "history": [
+        {
+          "publication_date": "1988-02-05",
+          "change_kind": "declare",
+          "street_name_en": "Convention Avenue",
+          "street_name_zh": "會議道",
+          "gazette_notice_label": "G.N.400",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Previous G.N. for 會議道 cited in G.N.3741 (2023-06-23)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "batch_id": "2021-gn2548-shum-wan-road",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.2548",
+  "publication_date": "2021-04-30",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/2021-gn2548/egn202125172548.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/2021-gn2548/cgn202125172548.pdf",
+  "remarks": "G.N.2548 (2021-04-30) replaces street description only. Canonical naming date is G.N.1915 (1969-09-26) per Previous G.N. in that notice.",
+  "streets": [
+    {
+      "street_code": "12083",
+      "english_name": "SHUM WAN ROAD",
+      "chinese_name": "深灣道",
+      "history": [
+        {
+          "publication_date": "1969-09-26",
+          "change_kind": "declare",
+          "street_name_en": "Shum Wan Road",
+          "street_name_zh": "深灣道",
+          "gazette_notice_label": "G.N.1915",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Previous G.N. for 深灣道 cited in G.N.2548 (2021-04-30)."
+        }
+      ]
+    }
+  ]
+}

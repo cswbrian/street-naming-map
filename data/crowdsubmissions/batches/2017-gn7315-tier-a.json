@@ -1,0 +1,45 @@
+{
+  "batch_id": "2017-gn7315-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.7315",
+  "publication_date": "2017-09-29",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn7315/egn201721397315.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn7315/cgn201721397315.pdf",
+  "remarks": "G.N.7315 (2017-09-29) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "12747",
+      "english_name": "WING TUNG STREET",
+      "chinese_name": "永東街",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Wing Tung Street",
+          "street_name_zh": "永東街",
+          "gazette_notice_label": "G.N.1753",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 永東街 cited in G.N.7315 (2017-09-29)."
+        }
+      ]
+    },
+    {
+      "street_code": "12838",
+      "english_name": "YAU WING STREET",
+      "chinese_name": "友榮街",
+      "history": [
+        {
+          "publication_date": "1985-10-18",
+          "change_kind": "declare",
+          "street_name_en": "Yau Wing Street",
+          "street_name_zh": "友榮街",
+          "gazette_notice_label": "G.N.3454",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 友榮街 cited in G.N.7315 (2017-09-29)."
+        }
+      ]
+    }
+  ]
+}

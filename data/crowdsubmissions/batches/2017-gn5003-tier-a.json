@@ -1,0 +1,28 @@
+{
+  "batch_id": "2017-gn5003-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.5003",
+  "publication_date": "2017-07-14",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn5003/egn201721285003.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn5003/cgn201721285003.pdf",
+  "remarks": "G.N.5003 (2017-07-14) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "10227",
+      "english_name": "CHI KIANG STREET",
+      "chinese_name": "浙江街",
+      "history": [
+        {
+          "publication_date": "1935-04-26",
+          "change_kind": "declare",
+          "street_name_en": "Chi Kiang Street",
+          "street_name_zh": "浙江街",
+          "gazette_notice_label": "G.N.334",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 浙江街 cited in G.N.5003 (2017-07-14)."
+        }
+      ]
+    }
+  ]
+}

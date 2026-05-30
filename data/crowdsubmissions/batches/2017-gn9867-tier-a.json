@@ -1,0 +1,28 @@
+{
+  "batch_id": "2017-gn9867-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.9867",
+  "publication_date": "2017-12-22",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn9867/egn201721519867.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn9867/cgn201721519867.pdf",
+  "remarks": "G.N.9867 (2017-12-22) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "12556",
+      "english_name": "UN CHAU STREET",
+      "chinese_name": "元州街",
+      "history": [
+        {
+          "publication_date": "2007-05-11",
+          "change_kind": "declare",
+          "street_name_en": "Un Chau Street",
+          "street_name_zh": "元州街",
+          "gazette_notice_label": "G.N.3077",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 元州街 cited in G.N.9867 (2017-12-22)."
+        }
+      ]
+    }
+  ]
+}

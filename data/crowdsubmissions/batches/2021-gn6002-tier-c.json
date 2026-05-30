@@ -1,0 +1,29 @@
+{
+  "batch_id": "2021-gn6002-tier-c",
+  "gazette_notice_label": "G.N.6002",
+  "publication_date": "2021-09-24",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn6002/egn202125386002.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn6002/cgn202125386002.pdf",
+  "remarks": "G.N.6002 (2021-09-24) deletes street name; original naming from \"Named in\" column.",
+  "streets": [
+    {
+      "street_code": "",
+      "english_name": "CHEONG LIN PATH",
+      "chinese_name": "暢連徑",
+      "history": [
+        {
+          "publication_date": "2002-05-31",
+          "change_kind": "declare",
+          "street_name_en": "Cheong Lin Path",
+          "street_name_zh": "暢連徑",
+          "gazette_notice_label": "G.N.3296",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.6002 (2021-09-24)."
+        }
+      ],
+      "allow_name_only": true
+    }
+  ],
+  "allow_name_only": true
+}

@@ -1,0 +1,190 @@
+{
+  "batch_id": "2017-gn3555-tier-c",
+  "gazette_notice_label": "G.N.3555",
+  "publication_date": "2017-05-26",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn3555/egn201721213555.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn3555/cgn201721213555.pdf",
+  "remarks": "G.N.3555 (2017-05-26) deletes street name; original naming from \"Named in\" column.",
+  "streets": [
+    {
+      "street_code": "",
+      "english_name": "CHING ROAD",
+      "chinese_name": "青道",
+      "history": [
+        {
+          "publication_date": "1957-10-11",
+          "change_kind": "declare",
+          "street_name_en": "Ching Road",
+          "street_name_zh": "青道",
+          "gazette_notice_label": "G.N.1367",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3555 (2017-05-26)."
+        }
+      ],
+      "allow_name_only": true
+    },
+    {
+      "street_code": "",
+      "english_name": "FOOK LAI ROAD",
+      "chinese_name": "復禮道",
+      "history": [
+        {
+          "publication_date": "1957-10-11",
+          "change_kind": "declare",
+          "street_name_en": "Fook Lai Road",
+          "street_name_zh": "復禮道",
+          "gazette_notice_label": "G.N.1367",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3555 (2017-05-26)."
+        }
+      ],
+      "allow_name_only": true
+    },
+    {
+      "street_code": "",
+      "english_name": "FU MEI STREET WEST",
+      "chinese_name": "富美西街",
+      "history": [
+        {
+          "publication_date": "1967-01-05",
+          "change_kind": "declare",
+          "street_name_en": "Fu Mei Street West",
+          "street_name_zh": "富美西街",
+          "gazette_notice_label": "G.N.89",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3555 (2017-05-26)."
+        }
+      ],
+      "allow_name_only": true
+    },
+    {
+      "street_code": "",
+      "english_name": "JORDAN VALLEY SOUTH ROAD",
+      "chinese_name": "佐頓谷南道",
+      "history": [
+        {
+          "publication_date": "1966-06-16",
+          "change_kind": "declare",
+          "street_name_en": "Jordan Valley South Road",
+          "street_name_zh": "佐頓谷南道",
+          "gazette_notice_label": "G.N.1628",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3555 (2017-05-26)."
+        }
+      ],
+      "allow_name_only": true
+    },
+    {
+      "street_code": "",
+      "english_name": "KO LONG ROAD",
+      "chinese_name": "高朗道",
+      "history": [
+        {
+          "publication_date": "1967-06-06",
+          "change_kind": "declare",
+          "street_name_en": "Ko Long Road",
+          "street_name_zh": "高朗道",
+          "gazette_notice_label": "G.N.1244",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3555 (2017-05-26)."
+        }
+      ],
+      "allow_name_only": true
+    },
+    {
+      "street_code": "",
+      "english_name": "LUNG SHAN ROAD",
+      "chinese_name": "龍山道",
+      "history": [
+        {
+          "publication_date": "1957-10-11",
+          "change_kind": "declare",
+          "street_name_en": "Lung Shan Road",
+          "street_name_zh": "龍山道",
+          "gazette_notice_label": "G.N.1367",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3555 (2017-05-26)."
+        }
+      ],
+      "allow_name_only": true
+    },
+    {
+      "street_code": "",
+      "english_name": "MING TAK STREET",
+      "chinese_name": "明德街",
+      "history": [
+        {
+          "publication_date": "1963-11-08",
+          "change_kind": "declare",
+          "street_name_en": "Ming Tak Street",
+          "street_name_zh": "明德街",
+          "gazette_notice_label": "G.N.2197",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3555 (2017-05-26)."
+        }
+      ],
+      "allow_name_only": true
+    },
+    {
+      "street_code": "11576",
+      "english_name": "ON FU ROAD",
+      "chinese_name": "安富道",
+      "history": [
+        {
+          "publication_date": "1957-10-11",
+          "change_kind": "declare",
+          "street_name_en": "On Fu Road",
+          "street_name_zh": "安富道",
+          "gazette_notice_label": "G.N.1367",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3555 (2017-05-26)."
+        }
+      ]
+    },
+    {
+      "street_code": "",
+      "english_name": "SHEUNG TAK STREET",
+      "chinese_name": "尚德街",
+      "history": [
+        {
+          "publication_date": "1963-11-08",
+          "change_kind": "declare",
+          "street_name_en": "Sheung Tak Street",
+          "street_name_zh": "尚德街",
+          "gazette_notice_label": "G.N.2197",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3555 (2017-05-26)."
+        }
+      ],
+      "allow_name_only": true
+    },
+    {
+      "street_code": "",
+      "english_name": "SHING SHUN ROAD",
+      "chinese_name": "誠信路",
+      "history": [
+        {
+          "publication_date": "1970-01-23",
+          "change_kind": "declare",
+          "street_name_en": "Shing Shun Road",
+          "street_name_zh": "誠信路",
+          "gazette_notice_label": "G.N.225",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3555 (2017-05-26)."
+        }
+      ],
+      "allow_name_only": true
+    }
+  ],
+  "allow_name_only": true
+}

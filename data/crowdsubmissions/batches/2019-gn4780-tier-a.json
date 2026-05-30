@@ -1,0 +1,28 @@
+{
+  "batch_id": "2019-gn4780-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.4780",
+  "publication_date": "2019-07-26",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn4780/egn201923304780.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn4780/cgn201923304780.pdf",
+  "remarks": "G.N.4780 (2019-07-26) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "10206",
+      "english_name": "CHEUNG SHA WAN ROAD",
+      "chinese_name": "長沙灣道",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Cheung Sha Wan Road",
+          "street_name_zh": "長沙灣道",
+          "gazette_notice_label": "G.N.699",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 長沙灣道 cited in G.N.4780 (2019-07-26)."
+        }
+      ]
+    }
+  ]
+}

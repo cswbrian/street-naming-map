@@ -1,0 +1,45 @@
+{
+  "batch_id": "2021-gn3898-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.3898",
+  "publication_date": "2021-06-25",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn3898/egn202125253898.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn3898/cgn202125253898.pdf",
+  "remarks": "G.N.3898 (2021-06-25) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "10221",
+      "english_name": "CHEUNG YIP STREET",
+      "chinese_name": "祥業街",
+      "history": [
+        {
+          "publication_date": "1979-11-09",
+          "change_kind": "declare",
+          "street_name_en": "Cheung Yip Street",
+          "street_name_zh": "祥業街",
+          "gazette_notice_label": "G.N.2898",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 祥業街 cited in G.N.3898 (2021-06-25)."
+        }
+      ]
+    },
+    {
+      "street_code": "14364",
+      "english_name": "SHING CHEONG ROAD",
+      "chinese_name": "承昌道",
+      "history": [
+        {
+          "publication_date": "2012-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Shing Cheong Road",
+          "street_name_zh": "承昌道",
+          "gazette_notice_label": "G.N.6493",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 承昌道 cited in G.N.3898 (2021-06-25)."
+        }
+      ]
+    }
+  ]
+}

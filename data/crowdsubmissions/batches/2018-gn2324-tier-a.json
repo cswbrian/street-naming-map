@@ -1,0 +1,28 @@
+{
+  "batch_id": "2018-gn2324-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.2324",
+  "publication_date": "2018-03-29",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn2324/egn201822132324.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn2324/cgn201822132324.pdf",
+  "remarks": "G.N.2324 (2018-03-29) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "13888",
+      "english_name": "CHUI YU ROAD",
+      "chinese_name": "聚魚道",
+      "history": [
+        {
+          "publication_date": "1998-05-29",
+          "change_kind": "declare",
+          "street_name_en": "Chui Yu Road",
+          "street_name_zh": "聚魚道",
+          "gazette_notice_label": "G.N.2633",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 聚魚道 cited in G.N.2324 (2018-03-29)."
+        }
+      ]
+    }
+  ]
+}

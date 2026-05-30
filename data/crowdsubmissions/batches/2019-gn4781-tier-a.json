@@ -1,0 +1,96 @@
+{
+  "batch_id": "2019-gn4781-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.4781",
+  "publication_date": "2019-07-26",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn4781/egn201923304781.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn4781/cgn201923304781.pdf",
+  "remarks": "G.N.4781 (2019-07-26) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "13798",
+      "english_name": "AIRPORT ROAD",
+      "chinese_name": "機場路",
+      "history": [
+        {
+          "publication_date": "1998-01-02",
+          "change_kind": "declare",
+          "street_name_en": "Airport Road",
+          "street_name_zh": "機場路",
+          "gazette_notice_label": "G.N.73",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 機場路 cited in G.N.4781 (2019-07-26)."
+        }
+      ]
+    },
+    {
+      "street_code": "13799",
+      "english_name": "CHEONG HONG ROAD",
+      "chinese_name": "暢航路",
+      "history": [
+        {
+          "publication_date": "1998-01-02",
+          "change_kind": "declare",
+          "street_name_en": "Cheong Hong Road",
+          "street_name_zh": "暢航路",
+          "gazette_notice_label": "G.N.73",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 暢航路 cited in G.N.4781 (2019-07-26)."
+        }
+      ]
+    },
+    {
+      "street_code": "13805",
+      "english_name": "EAST COAST ROAD",
+      "chinese_name": "東岸路",
+      "history": [
+        {
+          "publication_date": "2007-08-31",
+          "change_kind": "declare",
+          "street_name_en": "East Coast Road",
+          "street_name_zh": "東岸路",
+          "gazette_notice_label": "G.N.5705",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 東岸路 cited in G.N.4781 (2019-07-26)."
+        }
+      ]
+    },
+    {
+      "street_code": "13824",
+      "english_name": "KWO LO WAN ROAD",
+      "chinese_name": "過路灣路",
+      "history": [
+        {
+          "publication_date": "1998-01-02",
+          "change_kind": "declare",
+          "street_name_en": "Kwo Lo Wan Road",
+          "street_name_zh": "過路灣路",
+          "gazette_notice_label": "G.N.73",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 過路灣路 cited in G.N.4781 (2019-07-26)."
+        }
+      ]
+    },
+    {
+      "street_code": "13917",
+      "english_name": "TUNG FAI ROAD",
+      "chinese_name": "東輝路",
+      "history": [
+        {
+          "publication_date": "1998-12-18",
+          "change_kind": "declare",
+          "street_name_en": "Tung Fai Road",
+          "street_name_zh": "東輝路",
+          "gazette_notice_label": "G.N.6283",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 東輝路 cited in G.N.4781 (2019-07-26)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "batch_id": "2016-gn5399-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.5399",
+  "publication_date": "2016-09-23",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn5399/egn201620385399.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn5399/cgn201620385399.pdf",
+  "remarks": "G.N.5399 (2016-09-23) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "13158",
+      "english_name": "TIN YAN ROAD",
+      "chinese_name": "天恩路",
+      "history": [
+        {
+          "publication_date": "1992-02-28",
+          "change_kind": "declare",
+          "street_name_en": "Tin Yan Road",
+          "street_name_zh": "天恩路",
+          "gazette_notice_label": "G.N.697",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 天恩路 cited in G.N.5399 (2016-09-23)."
+        }
+      ]
+    }
+  ]
+}

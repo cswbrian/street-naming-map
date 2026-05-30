@@ -1,0 +1,28 @@
+{
+  "batch_id": "2025-gn7382-tier-b",
+  "gazette_notice_label": "G.N.7382",
+  "publication_date": "2025-11-21",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn7382/egn202529477382.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn7382/cgn202529477382.pdf",
+  "remarks": "G.N.7382 misparsed egazette row; canonical date from Previous G.N. in notice text.",
+  "streets": [
+    {
+      "street_code": "14449",
+      "english_name": "YAU MA TEI INTERCHANGE",
+      "chinese_name": "油麻地交匯處",
+      "history": [
+        {
+          "publication_date": "2017-04-07",
+          "change_kind": "declare",
+          "street_name_en": "Yau Ma Tei Interchange",
+          "street_name_zh": "油麻地交匯處",
+          "gazette_notice_label": "G.N.1920",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Parsed from misparsed egazette text; cited in G.N.7382 (2025-11-21)."
+        }
+      ]
+    }
+  ],
+  "allow_name_only": false
+}

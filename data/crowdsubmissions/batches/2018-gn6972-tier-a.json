@@ -1,0 +1,28 @@
+{
+  "batch_id": "2018-gn6972-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.6972",
+  "publication_date": "2018-09-14",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn6972/egn201822376972.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn6972/cgn201822376972.pdf",
+  "remarks": "G.N.6972 (2018-09-14) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "11787",
+      "english_name": "PRINCE EDWARD ROAD EAST",
+      "chinese_name": "太子道東",
+      "history": [
+        {
+          "publication_date": "1979-01-12",
+          "change_kind": "declare",
+          "street_name_en": "Prince Edward Road East",
+          "street_name_zh": "太子道東",
+          "gazette_notice_label": "G.N.111",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 太子道東 cited in G.N.6972 (2018-09-14)."
+        }
+      ]
+    }
+  ]
+}

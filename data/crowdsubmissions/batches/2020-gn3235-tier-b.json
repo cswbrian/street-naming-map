@@ -1,0 +1,28 @@
+{
+  "batch_id": "2020-gn3235-tier-b",
+  "gazette_notice_label": "G.N.3235",
+  "publication_date": "2020-06-12",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn3235/egn202024243235.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn3235/cgn202024243235.pdf",
+  "remarks": "G.N.3235 misparsed egazette row; canonical date from Previous G.N. in notice text.",
+  "streets": [
+    {
+      "street_code": "14365",
+      "english_name": "SHING FUNG ROAD",
+      "chinese_name": "承豐道",
+      "history": [
+        {
+          "publication_date": "2012-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Shing Fung Road",
+          "street_name_zh": "承豐道",
+          "gazette_notice_label": "G.N.6493",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Parsed from misparsed egazette text; cited in G.N.3235 (2020-06-12)."
+        }
+      ]
+    }
+  ],
+  "allow_name_only": false
+}

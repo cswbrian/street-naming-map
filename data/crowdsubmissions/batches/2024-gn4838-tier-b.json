@@ -1,0 +1,28 @@
+{
+  "batch_id": "2024-gn4838-tier-b",
+  "gazette_notice_label": "G.N.4838",
+  "publication_date": "2024-08-16",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn4838/egn202428334838.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn4838/cgn202428334838.pdf",
+  "remarks": "G.N.4838 misparsed egazette row; canonical date from Previous G.N. in notice text.",
+  "streets": [
+    {
+      "street_code": "13996",
+      "english_name": "CHUI KWAN DRIVE",
+      "chinese_name": "翠群徑",
+      "history": [
+        {
+          "publication_date": "1999-12-30",
+          "change_kind": "declare",
+          "street_name_en": "Chui Kwan Drive",
+          "street_name_zh": "翠群徑",
+          "gazette_notice_label": "G.N.8354",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Parsed from misparsed egazette text; cited in G.N.4838 (2024-08-16)."
+        }
+      ]
+    }
+  ],
+  "allow_name_only": false
+}

@@ -1,0 +1,28 @@
+{
+  "batch_id": "2023-gn3377-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.3377",
+  "publication_date": "2023-06-02",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn3377/egn202327223377.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn3377/cgn202327223377.pdf",
+  "remarks": "G.N.3377 (2023-06-02) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "10019",
+      "english_name": "ANDERSON ROAD",
+      "chinese_name": "安達臣道",
+      "history": [
+        {
+          "publication_date": "1976-12-10",
+          "change_kind": "declare",
+          "street_name_en": "Anderson Road",
+          "street_name_zh": "安達臣道",
+          "gazette_notice_label": "G.N.2757",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 安達臣道 cited in G.N.3377 (2023-06-02)."
+        }
+      ]
+    }
+  ]
+}

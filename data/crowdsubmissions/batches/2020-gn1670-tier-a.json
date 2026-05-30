@@ -1,0 +1,28 @@
+{
+  "batch_id": "2020-gn1670-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.1670",
+  "publication_date": "2020-04-03",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn1670/egn202024141670.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn1670/cgn202024141670.pdf",
+  "remarks": "G.N.1670 (2020-04-03) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "14155",
+      "english_name": "NAM HING WEST ROAD",
+      "chinese_name": "南慶西路",
+      "history": [
+        {
+          "publication_date": "2003-05-16",
+          "change_kind": "declare",
+          "street_name_en": "Nam Hing West Road",
+          "street_name_zh": "南慶西路",
+          "gazette_notice_label": "G.N.3286",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 南慶西路 cited in G.N.1670 (2020-04-03)."
+        }
+      ]
+    }
+  ]
+}

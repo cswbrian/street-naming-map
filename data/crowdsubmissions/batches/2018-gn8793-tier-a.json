@@ -1,0 +1,28 @@
+{
+  "batch_id": "2018-gn8793-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.8793",
+  "publication_date": "2018-11-23",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn8793/egn201822478793.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn8793/cgn201822478793.pdf",
+  "remarks": "G.N.8793 (2018-11-23) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "13926",
+      "english_name": "AUSTIN ROAD WEST",
+      "chinese_name": "柯士甸道西",
+      "history": [
+        {
+          "publication_date": "1998-11-13",
+          "change_kind": "declare",
+          "street_name_en": "Austin Road West",
+          "street_name_zh": "柯士甸道西",
+          "gazette_notice_label": "G.N.5530",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 柯士甸道西 cited in G.N.8793 (2018-11-23)."
+        }
+      ]
+    }
+  ]
+}

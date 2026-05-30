@@ -1,0 +1,79 @@
+{
+  "batch_id": "2018-gn6060-first-previous-gn",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.6060",
+  "publication_date": "2018-08-10",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/2018-gn6060/egn201822326060.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/2018-gn6060/cgn201822326060.pdf",
+  "remarks": "G.N.6060 (2018-08-10) replaces street descriptions only. Canonical naming dates are the first Previous G.N. cited for each street in that notice.",
+  "streets": [
+    {
+      "street_code": "11308",
+      "english_name": "LUNG CHEUNG ROAD",
+      "chinese_name": "龍翔道",
+      "history": [
+        {
+          "publication_date": "1960-11-11",
+          "change_kind": "declare",
+          "street_name_en": "Lung Cheung Road",
+          "street_name_zh": "龍翔道",
+          "gazette_notice_label": "G.N.1713",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 龍翔道 in G.N.6060 (earlier than G.N.2427 of 2017-04-21)."
+        }
+      ]
+    },
+    {
+      "street_code": "13141",
+      "english_name": "TAI HOM ROAD",
+      "chinese_name": "大磡道",
+      "history": [
+        {
+          "publication_date": "1991-11-22",
+          "change_kind": "declare",
+          "street_name_en": "Tai Hom Road",
+          "street_name_zh": "大磡道",
+          "gazette_notice_label": "G.N.4197",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Previous G.N. for 大磡道 cited in G.N.6060."
+        }
+      ]
+    },
+    {
+      "street_code": "11337",
+      "english_name": "MA CHAI HANG ROAD",
+      "chinese_name": "馬仔坑道",
+      "history": [
+        {
+          "publication_date": "1976-02-06",
+          "change_kind": "declare",
+          "street_name_en": "Ma Chai Hang Road",
+          "street_name_zh": "馬仔坑道",
+          "gazette_notice_label": "G.N.288",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 馬仔坑道 in G.N.6060 (earlier than G.N.327 of 1986-01-16)."
+        }
+      ]
+    },
+    {
+      "street_code": "10575",
+      "english_name": "FUNG MO STREET",
+      "chinese_name": "鳳舞街",
+      "history": [
+        {
+          "publication_date": "1963-10-11",
+          "change_kind": "declare",
+          "street_name_en": "Fung Mo Street",
+          "street_name_zh": "鳳舞街",
+          "gazette_notice_label": "G.N.2014",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Previous G.N. for 鳳舞街 cited in G.N.6060."
+        }
+      ]
+    }
+  ]
+}

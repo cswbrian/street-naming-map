@@ -1,0 +1,29 @@
+{
+  "batch_id": "2017-gn2428-tier-c",
+  "gazette_notice_label": "G.N.2428",
+  "publication_date": "2017-04-21",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn2428/egn201721162428.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn2428/cgn201721162428.pdf",
+  "remarks": "G.N.2428 (2017-04-21) deletes street name; original naming from \"Named in\" column.",
+  "streets": [
+    {
+      "street_code": "",
+      "english_name": "CARGO CIRCUIT",
+      "chinese_name": "貨運道",
+      "history": [
+        {
+          "publication_date": "1981-12-11",
+          "change_kind": "declare",
+          "street_name_en": "Cargo Circuit",
+          "street_name_zh": "貨運道",
+          "gazette_notice_label": "G.N.3682",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.2428 (2017-04-21)."
+        }
+      ],
+      "allow_name_only": true
+    }
+  ],
+  "allow_name_only": true
+}

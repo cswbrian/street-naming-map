@@ -1,0 +1,28 @@
+{
+  "batch_id": "2021-gn1945-sheung-foo",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.1945",
+  "publication_date": "2021-04-01",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/2021-gn1945/egn202125131945.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/2021-gn1945/cgn202125131945.pdf",
+  "remarks": "G.N.1945 (2021-04-01) replaces street description only. Canonical naming date is G.N.751 (1967-04-07) per first Previous G.N. in that notice.",
+  "streets": [
+    {
+      "street_code": "12025",
+      "english_name": "SHEUNG FOO STREET",
+      "chinese_name": "常富街",
+      "history": [
+        {
+          "publication_date": "1967-04-07",
+          "change_kind": "declare",
+          "street_name_en": "Sheung Foo Street",
+          "street_name_zh": "常富街",
+          "gazette_notice_label": "G.N.751",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Previous G.N. for 常富街 cited in G.N.1945 (2021-04-01)."
+        }
+      ]
+    }
+  ]
+}

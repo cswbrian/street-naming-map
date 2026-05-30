@@ -1,0 +1,28 @@
+{
+  "batch_id": "2020-gn5984-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.5984",
+  "publication_date": "2020-10-16",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn5984/egn202024425984.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn5984/cgn202024425984.pdf",
+  "remarks": "G.N.5984 (2020-10-16) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "10599",
+      "english_name": "GASCOIGNE ROAD",
+      "chinese_name": "加士居道",
+      "history": [
+        {
+          "publication_date": "1905-03-17",
+          "change_kind": "declare",
+          "street_name_en": "Gascoigne Road",
+          "street_name_zh": "加士居道",
+          "gazette_notice_label": "G.N.158",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 加士居道 cited in G.N.5984 (2020-10-16)."
+        }
+      ]
+    }
+  ]
+}

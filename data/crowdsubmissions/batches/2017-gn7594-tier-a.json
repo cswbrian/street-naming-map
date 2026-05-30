@@ -1,0 +1,113 @@
+{
+  "batch_id": "2017-gn7594-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.7594",
+  "publication_date": "2017-10-13",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn7594/egn201721417594.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn7594/cgn201721417594.pdf",
+  "remarks": "G.N.7594 (2017-10-13) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "10566",
+      "english_name": "FUNG CHEUNG ROAD",
+      "chinese_name": "鳳翔路",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Fung Cheung Road",
+          "street_name_zh": "鳳翔路",
+          "gazette_notice_label": "G.N.2944",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 鳳翔路 cited in G.N.7594 (2017-10-13)."
+        }
+      ]
+    },
+    {
+      "street_code": "10569",
+      "english_name": "FUNG HEUNG STREET",
+      "chinese_name": "鳳香街",
+      "history": [
+        {
+          "publication_date": "1981-12-18",
+          "change_kind": "declare",
+          "street_name_en": "Fung Heung Street",
+          "street_name_zh": "鳳香街",
+          "gazette_notice_label": "G.N.3742",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 鳳香街 cited in G.N.7594 (2017-10-13)."
+        }
+      ]
+    },
+    {
+      "street_code": "13052",
+      "english_name": "SHUI PIN WAI INTERCHANGE",
+      "chinese_name": "水邊圍交匯處",
+      "history": [
+        {
+          "publication_date": "1991-06-28",
+          "change_kind": "declare",
+          "street_name_en": "Shui Pin Wai Interchange",
+          "street_name_zh": "水邊圍交匯處",
+          "gazette_notice_label": "G.N.2214",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 水邊圍交匯處 cited in G.N.7594 (2017-10-13)."
+        }
+      ]
+    },
+    {
+      "street_code": "12654",
+      "english_name": "WANG FAT PATH",
+      "chinese_name": "宏發徑",
+      "history": [
+        {
+          "publication_date": "1984-05-18",
+          "change_kind": "declare",
+          "street_name_en": "Wang Fat Path",
+          "street_name_zh": "宏發徑",
+          "gazette_notice_label": "G.N.1452",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 宏發徑 cited in G.N.7594 (2017-10-13)."
+        }
+      ]
+    },
+    {
+      "street_code": "12672",
+      "english_name": "WANG TAT ROAD",
+      "chinese_name": "宏達路",
+      "history": [
+        {
+          "publication_date": "1984-06-22",
+          "change_kind": "declare",
+          "street_name_en": "Wang Tat Road",
+          "street_name_zh": "宏達路",
+          "gazette_notice_label": "G.N.1827",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 宏達路 cited in G.N.7594 (2017-10-13)."
+        }
+      ]
+    },
+    {
+      "street_code": "12891",
+      "english_name": "YU KING SQUARE",
+      "chinese_name": "裕景坊",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Yu King Square",
+          "street_name_zh": "裕景坊",
+          "gazette_notice_label": "G.N.1752",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 裕景坊 cited in G.N.7594 (2017-10-13)."
+        }
+      ]
+    }
+  ]
+}

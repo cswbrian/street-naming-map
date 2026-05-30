@@ -1,0 +1,45 @@
+{
+  "batch_id": "2019-gn1655-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.1655",
+  "publication_date": "2019-03-01",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn1655/egn201923091655.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn1655/cgn201923091655.pdf",
+  "remarks": "G.N.1655 (2019-03-01) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "10867",
+      "english_name": "HUNG HOM SOUTH ROAD",
+      "chinese_name": "紅磡南道",
+      "history": [
+        {
+          "publication_date": "1989-08-18",
+          "change_kind": "declare",
+          "street_name_en": "Hung Hom South Road",
+          "street_name_zh": "紅磡南道",
+          "gazette_notice_label": "G.N.2830",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 紅磡南道 cited in G.N.1655 (2019-03-01)."
+        }
+      ]
+    },
+    {
+      "street_code": "13956",
+      "english_name": "HUNG LAI ROAD",
+      "chinese_name": "紅荔道",
+      "history": [
+        {
+          "publication_date": "1999-03-26",
+          "change_kind": "declare",
+          "street_name_en": "Hung Lai Road",
+          "street_name_zh": "紅荔道",
+          "gazette_notice_label": "G.N.1723",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 紅荔道 cited in G.N.1655 (2019-03-01)."
+        }
+      ]
+    }
+  ]
+}

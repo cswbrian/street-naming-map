@@ -1,0 +1,28 @@
+{
+  "batch_id": "2016-gn1595-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.1595",
+  "publication_date": "2016-03-18",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn1595/egn201620111595.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn1595/cgn201620111595.pdf",
+  "remarks": "G.N.1595 (2016-03-18) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "14367",
+      "english_name": "YIU SING STREET",
+      "chinese_name": "耀星街",
+      "history": [
+        {
+          "publication_date": "2012-10-19",
+          "change_kind": "declare",
+          "street_name_en": "Yiu Sing Street",
+          "street_name_zh": "耀星街",
+          "gazette_notice_label": "G.N.6891",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 耀星街 cited in G.N.1595 (2016-03-18)."
+        }
+      ]
+    }
+  ]
+}

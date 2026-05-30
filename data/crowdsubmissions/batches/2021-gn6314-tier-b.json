@@ -1,0 +1,28 @@
+{
+  "batch_id": "2021-gn6314-tier-b",
+  "gazette_notice_label": "G.N.6314",
+  "publication_date": "2021-10-08",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn6314/egn202125406314.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn6314/cgn202125406314.pdf",
+  "remarks": "G.N.6314 misparsed egazette row; canonical date from Previous G.N. in notice text.",
+  "streets": [
+    {
+      "street_code": "12919",
+      "english_name": "YUEN LONG PAU CHEUNG SQUARE",
+      "chinese_name": "元朗炮仗坊",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Yuen Long Pau Cheung Square",
+          "street_name_zh": "元朗炮仗坊",
+          "gazette_notice_label": "G.N.2944",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Parsed from misparsed egazette text; cited in G.N.6314 (2021-10-08)."
+        }
+      ]
+    }
+  ],
+  "allow_name_only": false
+}

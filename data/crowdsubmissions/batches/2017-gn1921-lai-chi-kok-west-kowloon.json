@@ -1,0 +1,45 @@
+{
+  "batch_id": "2017-gn1921-lai-chi-kok-west-kowloon",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.1921",
+  "publication_date": "2017-04-07",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/2017-gn1921/egn201721141921.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/2017-gn1921/cgn201721141921.pdf",
+  "remarks": "G.N.1921 (2017-04-07) replaces street descriptions only. Canonical dates are first Previous G.N. cited for each street.",
+  "streets": [
+    {
+      "street_code": "11149",
+      "english_name": "LAI CHI KOK ROAD",
+      "chinese_name": "荔枝角道",
+      "history": [
+        {
+          "publication_date": "1978-10-13",
+          "change_kind": "declare",
+          "street_name_en": "Lai Chi Kok Road",
+          "street_name_zh": "荔枝角道",
+          "gazette_notice_label": "G.N.2641",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Previous G.N. for 荔枝角道 cited in G.N.1921 (2017-04-07)."
+        }
+      ]
+    },
+    {
+      "street_code": "13885",
+      "english_name": "WEST KOWLOON HIGHWAY",
+      "chinese_name": "西九龍公路",
+      "history": [
+        {
+          "publication_date": "1998-05-22",
+          "change_kind": "declare",
+          "street_name_en": "West Kowloon Highway",
+          "street_name_zh": "西九龍公路",
+          "gazette_notice_label": "G.N.2489",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Previous G.N. for 西九龍公路 cited in G.N.1921 (2017-04-07)."
+        }
+      ]
+    }
+  ]
+}

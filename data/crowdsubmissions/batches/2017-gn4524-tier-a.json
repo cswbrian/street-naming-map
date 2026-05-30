@@ -1,0 +1,28 @@
+{
+  "batch_id": "2017-gn4524-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.4524",
+  "publication_date": "2017-06-30",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn4524/egn201721264524.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn4524/cgn201721264524.pdf",
+  "remarks": "G.N.4524 (2017-06-30) replaces street description only (Tier A bulk fix).",
+  "streets": [
+    {
+      "street_code": "13884",
+      "english_name": "NGA CHEUNG ROAD",
+      "chinese_name": "雅翔道",
+      "history": [
+        {
+          "publication_date": "1998-05-22",
+          "change_kind": "declare",
+          "street_name_en": "Nga Cheung Road",
+          "street_name_zh": "雅翔道",
+          "gazette_notice_label": "G.N.2488",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 雅翔道 cited in G.N.4524 (2017-06-30)."
+        }
+      ]
+    }
+  ]
+}

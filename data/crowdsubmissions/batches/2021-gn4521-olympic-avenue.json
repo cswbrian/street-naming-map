@@ -1,0 +1,28 @@
+{
+  "batch_id": "2021-gn4521-olympic-avenue",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.4521",
+  "publication_date": "2021-07-23",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/2021-gn4521/egn202125294521.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/2021-gn4521/cgn202125294521.pdf",
+  "remarks": "G.N.4521 (2021-07-23) replaces street descriptions only. Canonical naming date for 世運道 is G.N.2548 (1964-09-11) per first Previous G.N. in that notice.",
+  "streets": [
+    {
+      "street_code": "11570",
+      "english_name": "OLYMPIC AVENUE",
+      "chinese_name": "世運道",
+      "history": [
+        {
+          "publication_date": "1964-09-11",
+          "change_kind": "declare",
+          "street_name_en": "Olympic Avenue",
+          "street_name_zh": "世運道",
+          "gazette_notice_label": "G.N.2548",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Previous G.N. for 世運道 cited in G.N.4521 (2021-07-23)."
+        }
+      ]
+    }
+  ]
+}

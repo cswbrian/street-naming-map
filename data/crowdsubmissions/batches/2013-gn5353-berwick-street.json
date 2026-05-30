@@ -1,0 +1,28 @@
+{
+  "batch_id": "2013-gn5353-berwick-street",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.5353",
+  "publication_date": "2013-09-06",
+  "pdf_en": "data/egazette/raw-pdfs/en/2013-17-36-5353-en.pdf",
+  "pdf_zh": "data/egazette/raw-pdfs/zh/2013-17-36-5353-zh.pdf",
+  "remarks": "G.N.5353 (2013-09-06) replaces street description only. Canonical naming date is G.N.804 (1950-06-24) per Previous G.N. cited in that notice.",
+  "streets": [
+    {
+      "street_code": "10061",
+      "english_name": "BERWICK STREET",
+      "chinese_name": "巴域街",
+      "history": [
+        {
+          "publication_date": "1950-06-24",
+          "change_kind": "declare",
+          "street_name_en": "Berwick Street",
+          "street_name_zh": "巴域街",
+          "gazette_notice_label": "G.N.804",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Previous G.N. for 巴域街 cited in G.N.5353 (2013-09-06)."
+        }
+      ]
+    }
+  ]
+}

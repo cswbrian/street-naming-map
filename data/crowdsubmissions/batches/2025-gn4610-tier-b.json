@@ -1,0 +1,28 @@
+{
+  "batch_id": "2025-gn4610-tier-b",
+  "gazette_notice_label": "G.N.4610",
+  "publication_date": "2025-07-25",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn4610/egn202529304610.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn4610/cgn202529304610.pdf",
+  "remarks": "G.N.4610 misparsed egazette row; canonical date from Previous G.N. in notice text.",
+  "streets": [
+    {
+      "street_code": "13995",
+      "english_name": "YING HEI ROAD",
+      "chinese_name": "迎禧路",
+      "history": [
+        {
+          "publication_date": "1999-12-24",
+          "change_kind": "declare",
+          "street_name_en": "Ying Hei Road",
+          "street_name_zh": "迎禧路",
+          "gazette_notice_label": "G.N.8173",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Parsed from misparsed egazette text; cited in G.N.4610 (2025-07-25)."
+        }
+      ]
+    }
+  ],
+  "allow_name_only": false
+}

@@ -590,7 +590,13 @@ export function buildCrowdEventsFromStreetEntry(street, batchDefaults = {}) {
   return history.map((entry, index) => {
     const publicationDate = String(entry.publication_date ?? entry.date ?? '').trim()
     const changeKind = normalizeChangeKind(entry.change_kind) ?? 'declare'
-    const suffix = streetCode ?? String(index + 1)
+    const nameSlug =
+      resolvedEn && resolvedZh
+        ? `${normalizeStreetName(resolvedEn)}-${String(resolvedZh).replace(/\s/g, '')}`
+            .replace(/[^A-Za-z0-9-]/g, '')
+            .slice(0, 48)
+        : ''
+    const suffix = streetCode ?? (nameSlug || String(index + 1))
     const submissionId =
       String(entry.submission_id ?? '').trim() ||
       `${batchDefaults.batch_id ?? 'history'}-${suffix}-${publicationDate}`

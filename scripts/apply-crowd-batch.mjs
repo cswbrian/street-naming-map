@@ -152,13 +152,22 @@ async function copyBatchPdfs(batch, batchId) {
   return copied
 }
 
-function resolveStreet(batchStreet, pendingMap) {
+function resolveStreet(batchStreet, pendingMap, options = {}) {
   const row = {
     street_code: batchStreet.street_code ?? batchStreet.code ?? '',
     english_name: batchStreet.english_name ?? batchStreet.en ?? '',
     chinese_name: batchStreet.chinese_name ?? batchStreet.zh ?? batchStreet.name ?? '',
   }
+  const allowNameOnly = options.allowNameOnly ?? batchStreet.allow_name_only ?? false
   const roadKey = matchRowToRoadKey(row, pendingMap)
+  if (!roadKey && allowNameOnly && (row.english_name || row.chinese_name)) {
+    return {
+      roadKey: `${normalizeStreetName(row.english_name)}|${row.chinese_name}`.replace(/\|+$/, '|'),
+      street_code: row.street_code || '',
+      english_name: normalizeStreetName(row.english_name) || row.english_name,
+      chinese_name: row.chinese_name || '',
+    }
+  }
   if (!roadKey) {
     throw new Error(
       `Could not match street: ${row.chinese_name || row.english_name || row.street_code}`,
@@ -174,6 +183,14 @@ function resolveStreet(batchStreet, pendingMap) {
         road = candidate
         break
       }
+    }
+  }
+  if (!road && allowNameOnly && (row.english_name || row.chinese_name)) {
+    return {
+      roadKey: roadKey || `${normalizeStreetName(row.english_name)}|${row.chinese_name}`,
+      street_code: row.street_code || '',
+      english_name: normalizeStreetName(row.english_name) || row.english_name,
+      chinese_name: row.chinese_name || '',
     }
   }
   if (!road) {
@@ -305,6 +322,7 @@ async function main() {
   }
 
   const pendingMap = await loadPendingRoadKeys(projectRoot)
+  const resolveOpts = { allowNameOnly: batch.allow_name_only === true }
   const copiedPdfs = await copyBatchPdfs(batch, notice.batch_id)
   const displayDate = formatDisplayDate(publicationDate)
   const batchDefaults = {
@@ -321,7 +339,7 @@ async function main() {
 
   for (const [index, street] of streets.entries()) {
     if (typeof street === 'object' && Array.isArray(street.history) && street.history.length) {
-      const resolved = resolveStreet(street, pendingMap)
+      const resolved = resolveStreet(street, pendingMap, resolveOpts)
       const built = buildCrowdEventsFromStreetEntry(
         { ...street, street_code: resolved.street_code },
         batchDefaults,
@@ -332,8 +350,8 @@ async function main() {
 
     const resolved =
       typeof street === 'string'
-        ? resolveStreet({ chinese_name: street }, pendingMap)
-        : resolveStreet(street, pendingMap)
+        ? resolveStreet({ chinese_name: street }, pendingMap, resolveOpts)
+        : resolveStreet(street, pendingMap, resolveOpts)
     const suffix = resolved.street_code || String(index + 1)
     csvRows.push({
       street_code: resolved.street_code,
@@ -356,7 +374,7 @@ async function main() {
       const today = new Date().toISOString().slice(0, 10)
       for (const street of streets) {
         if (typeof street !== 'object' || !Array.isArray(street.history) || !street.history.length) continue
-        const resolved = resolveStreet(street, pendingMap)
+        const resolved = resolveStreet(street, pendingMap, resolveOpts)
         const roadKey = resolved.roadKey ?? `code:${resolved.street_code}`
         tracker.by_road_key = tracker.by_road_key ?? {}
         tracker.by_road_key[roadKey] = { status: 'approved', approved_at: today }
@@ -379,14 +397,19 @@ async function main() {
     console.log(`Published ${published.copied} PDF(s) to public/egazette/`)
   }
 
-  execSync('npm run import:crowdsubmissions', { cwd: projectRoot, stdio: 'inherit' })
-  const patched = await patchCrowdEventUrls(notice, publicationDate)
-  if (patched) console.log(`Patched ${patched} event(s) with hosted gazette URLs`)
+  if (process.env.SKIP_IMPORT !== '1') {
+    execSync('npm run import:crowdsubmissions', { cwd: projectRoot, stdio: 'inherit' })
+    const patched = await patchCrowdEventUrls(notice, publicationDate)
+    if (patched) console.log(`Patched ${patched} event(s) with hosted gazette URLs`)
+  }
 
-  execSync('npm run merge:crowd', { cwd: projectRoot, stdio: 'inherit' })
-  execSync('npm run report:pending-years', { cwd: projectRoot, stdio: 'inherit' })
-
-  console.log('\nDone. Streets now show 社群 (crowdsubmitted) and appear in 最近核實.')
+  if (process.env.SKIP_MERGE !== '1') {
+    execSync('npm run merge:crowd', { cwd: projectRoot, stdio: 'inherit' })
+    execSync('npm run report:pending-years', { cwd: projectRoot, stdio: 'inherit' })
+    console.log('\nDone. Streets now show 社群 (crowdsubmitted) and appear in 最近核實.')
+  } else {
+    console.log('\nBatch history appended (SKIP_MERGE=1).')
+  }
   console.log('Next: git add public/data data/crowdsubmissions && commit && push')
 }
 
