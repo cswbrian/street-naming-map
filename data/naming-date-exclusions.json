@@ -3,9 +3,20 @@
     "Gascoigne Road Flyover|加士居道天橋",
     "Gascoigne Road Fylover|加士居道天橋"
   ],
-  "street_codes": ["14494"],
-  "event_ids": ["2010-08-06|GN5076|0", "2020-10-16|GN5984|1"],
+  "street_codes": [
+    "11897",
+    "12297",
+    "13695",
+    "14494"
+  ],
+  "event_ids": [
+    "2010-08-06|GN5076|0",
+    "2020-10-16|GN5984|1"
+  ],
   "notes": {
+    "11897": "新樓街 — wrongly inherited G.N.342 (1926-06-25) via English name match to 新柳街 (code 11896).",
+    "12297": "大圓街 — wrongly inherited G.N.184 (1909-03-19) via English name match to 太原街 (code 12296).",
+    "13695": "駿昇街 — G.N.489 (1919-10-17) names 晉成街; wrongly matched to CHUN SING STREET.",
     "14494": "加士居道天橋 — hide LandsD 2020 date on map (not treated as canonical naming year)",
     "2010-08-06|GN5076|0": "吳松街 — G.N.5076 (2010-08-06) is a temporary restricted zone notice, not a street naming; wrongly linked to Woosung Street.",
     "2020-10-16|GN5984|1": "渡船街 — G.N.5984 (2020-10-16) replaces street description only; original naming is G.N.1260 (1941-10-24)."

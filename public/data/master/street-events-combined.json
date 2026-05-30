@@ -81,8 +81,8 @@
     "notice_no": "GN158",
     "government_notice_label_en": "G.N.158",
     "government_notice_label_zh": "第158號",
-    "government_notice_url_en": "/egazette/en/1905-gn158.pdf",
-    "government_notice_url_zh": "/egazette/zh/1905-gn158.pdf",
+    "government_notice_url_en": "https://digitalrepository.lib.hku.hk/catalog/gt54tb75g",
+    "government_notice_url_zh": null,
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -93,8 +93,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "1905-gn158-10599",
-    "notice_stem": "1905-gn158"
+    "submission_id": "1905-gn158-10599"
   },
   {
     "event_id": "crowd|1905-gn158-gascoigne-road-10599-1905-03-17",
@@ -1430,38 +1429,6 @@
     "submitter_remarks": "Gazette ZH 帆船街; database 捷船街.",
     "reviewed_at": "2026-05-30",
     "submission_id": "1916-gn50-schooner-street-11937-1916-02-05"
-  },
-  {
-    "event_id": "crowd|1919-gn489-chun-sing-street-13695-1919-10-17",
-    "source": "hkgro",
-    "street_code": "13695",
-    "publication_date": "1919-10-17",
-    "change_kind": "declare",
-    "street_name_en": "Chun Sing Street",
-    "street_name_zh": "晉成街",
-    "previous_street_name_en": null,
-    "previous_street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Declaration of street name (crowdsource)",
-    "notice_type_raw_zh": "街道命名（眾包）",
-    "notice_type_normalized": "declare",
-    "notice_no": "GN489",
-    "government_notice_label_en": "G.N.489",
-    "government_notice_label_zh": "第489號",
-    "government_notice_url_en": "/egazette/en/1919-gn489.pdf",
-    "government_notice_url_zh": "/egazette/zh/1919-gn489.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 1919,
-    "is_declaration_event": true,
-    "evidence_level": "gazette",
-    "proof_pdf_url": null,
-    "submitter_remarks": "Gazette ZH 晉成街; database 駿昇街.",
-    "reviewed_at": "2026-05-30",
-    "submission_id": "1919-gn489-chun-sing-street-13695-1919-10-17"
   },
   {
     "event_id": "crowd|1920-gn157-rock-hill-street-11818-1920-03-19",
@@ -13302,62 +13269,6 @@
     "submission_id": "1941-gn1261-aberdeen-streets-10171-1941-10-24"
   },
   {
-    "event_id": "1961-04-14|GN1597|0",
-    "source": "egazette_pdf",
-    "publication_date": "1961-04-14",
-    "street_name_en": "Lung Ping Road",
-    "street_name_zh": null,
-    "district_raw_en": "Sham Shui Po, Kowloon",
-    "district_raw_zh": null,
-    "notice_type_raw_en": "STREET NAME",
-    "notice_type_raw_zh": null,
-    "notice_type_normalized": "other",
-    "notice_no": "GN1597",
-    "government_notice_label_en": "G.N.1597",
-    "government_notice_label_zh": "第1597號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [
-      "KRM67"
-    ],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 1961,
-    "is_declaration_event": false,
-    "notice_key": "2016-20-11-1597-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2016-20-11-1597-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2016-20-11-1597-zh.pdf"
-  },
-  {
-    "event_id": "1961-04-14|GN1597|1",
-    "source": "egazette_pdf",
-    "publication_date": "1961-04-14",
-    "street_name_en": "Nam Cheong Street",
-    "street_name_zh": null,
-    "district_raw_en": "Sham Shui Po, Kowloon",
-    "district_raw_zh": null,
-    "notice_type_raw_en": "STREET NAME",
-    "notice_type_raw_zh": null,
-    "notice_type_normalized": "other",
-    "notice_no": "GN1597",
-    "government_notice_label_en": "G.N.1597",
-    "government_notice_label_zh": "第1597號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [
-      "KRM67"
-    ],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 1961,
-    "is_declaration_event": false,
-    "notice_key": "2016-20-11-1597-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2016-20-11-1597-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2016-20-11-1597-zh.pdf"
-  },
-  {
     "event_id": "crowd|1975-gn586-11184",
     "source": "crowdsubmitted",
     "street_code": "11184",
@@ -13562,7 +13473,7 @@
     "government_notice_label_en": "G.N.5146",
     "government_notice_label_zh": "第5146號",
     "government_notice_url_en": "/egazette/en/2002-06-34-5146.pdf",
-    "government_notice_url_zh": "/egazette/zh/2002-06-34-5146.pdf",
+    "government_notice_url_zh": null,
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -13573,8 +13484,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2002-gn5146-14124",
-    "notice_stem": "2002-06-34-5146"
+    "submission_id": "2002-gn5146-14124"
   },
   {
     "event_id": "crowd|2003-gn4729-14165",
@@ -13595,7 +13505,7 @@
     "government_notice_label_en": "G.N.4729",
     "government_notice_label_zh": "第4729號",
     "government_notice_url_en": "/egazette/en/2003-07-28-4729.pdf",
-    "government_notice_url_zh": "/egazette/zh/2003-07-28-4729.pdf",
+    "government_notice_url_zh": null,
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -13606,8 +13516,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2003-gn4729-14165",
-    "notice_stem": "2003-07-28-4729"
+    "submission_id": "2003-gn4729-14165"
   },
   {
     "event_id": "crowd|2003-gn4729-14164",
@@ -13628,7 +13537,7 @@
     "government_notice_label_en": "G.N.4729",
     "government_notice_label_zh": "第4729號",
     "government_notice_url_en": "/egazette/en/2003-07-28-4729.pdf",
-    "government_notice_url_zh": "/egazette/zh/2003-07-28-4729.pdf",
+    "government_notice_url_zh": null,
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -13639,8 +13548,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2003-gn4729-14164",
-    "notice_stem": "2003-07-28-4729"
+    "submission_id": "2003-gn4729-14164"
   },
   {
     "event_id": "crowd|2003-gn8574-14170",
@@ -13661,7 +13569,7 @@
     "government_notice_label_en": "G.N.8574",
     "government_notice_label_zh": "第8574號",
     "government_notice_url_en": "/egazette/en/2003-07-48-8574.pdf",
-    "government_notice_url_zh": "/egazette/zh/2003-07-48-8574.pdf",
+    "government_notice_url_zh": null,
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -13672,8 +13580,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2003-gn8574-14170",
-    "notice_stem": "2003-07-48-8574"
+    "submission_id": "2003-gn8574-14170"
   },
   {
     "event_id": "crowd|2003-gn8478-14171",
@@ -13694,7 +13601,7 @@
     "government_notice_label_en": "G.N.8478",
     "government_notice_label_zh": "第8478號",
     "government_notice_url_en": "/egazette/en/2003-07-49-8748.pdf",
-    "government_notice_url_zh": "/egazette/zh/2003-07-49-8748.pdf",
+    "government_notice_url_zh": null,
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -13705,8 +13612,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2003-gn8478-14171",
-    "notice_stem": "2003-07-49-8748"
+    "submission_id": "2003-gn8478-14171"
   },
   {
     "event_id": "crowd|2004-gn8104-14199",
@@ -13727,7 +13633,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+    "government_notice_url_zh": null,
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -13738,8 +13644,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14199",
-    "notice_stem": "2004-08-51-8104"
+    "submission_id": "2004-gn8104-14199"
   },
   {
     "event_id": "crowd|2004-gn8104-14200",
@@ -13760,7 +13665,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+    "government_notice_url_zh": null,
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -13771,8 +13676,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14200",
-    "notice_stem": "2004-08-51-8104"
+    "submission_id": "2004-gn8104-14200"
   },
   {
     "event_id": "crowd|2004-gn8104-14201",
@@ -13793,7 +13697,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+    "government_notice_url_zh": null,
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -13804,8 +13708,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14201",
-    "notice_stem": "2004-08-51-8104"
+    "submission_id": "2004-gn8104-14201"
   },
   {
     "event_id": "crowd|2004-gn8104-14202",
@@ -13826,7 +13729,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+    "government_notice_url_zh": null,
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -13837,8 +13740,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14202",
-    "notice_stem": "2004-08-51-8104"
+    "submission_id": "2004-gn8104-14202"
   },
   {
     "event_id": "crowd|2004-gn8104-14203",
@@ -13859,7 +13761,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+    "government_notice_url_zh": null,
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -13870,8 +13772,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14203",
-    "notice_stem": "2004-08-51-8104"
+    "submission_id": "2004-gn8104-14203"
   },
   {
     "event_id": "crowd|2004-gn8104-14204",
@@ -13892,7 +13793,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+    "government_notice_url_zh": null,
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -13903,8 +13804,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14204",
-    "notice_stem": "2004-08-51-8104"
+    "submission_id": "2004-gn8104-14204"
   },
   {
     "event_id": "crowd|2004-gn8104-14205",
@@ -13925,7 +13825,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+    "government_notice_url_zh": null,
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -13936,8 +13836,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14205",
-    "notice_stem": "2004-08-51-8104"
+    "submission_id": "2004-gn8104-14205"
   },
   {
     "event_id": "crowd|2004-gn8104-14206",
@@ -13958,7 +13857,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+    "government_notice_url_zh": null,
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -13969,8 +13868,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14206",
-    "notice_stem": "2004-08-51-8104"
+    "submission_id": "2004-gn8104-14206"
   },
   {
     "event_id": "crowd|2004-gn8104-14207",
@@ -13991,7 +13889,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+    "government_notice_url_zh": null,
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -14002,8 +13900,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14207",
-    "notice_stem": "2004-08-51-8104"
+    "submission_id": "2004-gn8104-14207"
   },
   {
     "event_id": "crowd|2004-gn8104-14208",
@@ -14024,7 +13921,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+    "government_notice_url_zh": null,
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -14035,8 +13932,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14208",
-    "notice_stem": "2004-08-51-8104"
+    "submission_id": "2004-gn8104-14208"
   },
   {
     "event_id": "crowd|2004-gn8104-1",
@@ -14057,7 +13953,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+    "government_notice_url_zh": null,
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -14068,8 +13964,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-1",
-    "notice_stem": "2004-08-51-8104"
+    "submission_id": "2004-gn8104-1"
   },
   {
     "event_id": "crowd|2004-gn8104-2",
@@ -14090,7 +13985,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+    "government_notice_url_zh": null,
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -14101,8 +13996,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-2",
-    "notice_stem": "2004-08-51-8104"
+    "submission_id": "2004-gn8104-2"
   },
   {
     "event_id": "crowd|2004-gn8428-1",
@@ -14123,7 +14017,7 @@
     "government_notice_label_en": "G.N.8428",
     "government_notice_label_zh": "第8428號",
     "government_notice_url_en": "/egazette/en/2004-08-53-8428.pdf",
-    "government_notice_url_zh": "/egazette/zh/2004-08-53-8428.pdf",
+    "government_notice_url_zh": null,
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -14134,8 +14028,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8428-1",
-    "notice_stem": "2004-08-53-8428"
+    "submission_id": "2004-gn8428-1"
   },
   {
     "event_id": "2008-08-29|GN6059|0",
@@ -15450,32 +15343,6 @@
     "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2010-14-31-5076-zh.pdf"
   },
   {
-    "event_id": "2010-08-06|GN5078|3",
-    "source": "egazette_pdf",
-    "publication_date": "2010-08-06",
-    "street_name_en": "La Salle Road",
-    "street_name_zh": "喇沙利道",
-    "district_raw_en": "KOWLOON CITY",
-    "district_raw_zh": "九龍城",
-    "notice_type_raw_en": "TEMPORARY RESTRICTED ZONE",
-    "notice_type_raw_zh": "臨時限制區",
-    "notice_type_normalized": "other",
-    "notice_no": "GN5078",
-    "government_notice_label_en": "G.N.5076",
-    "government_notice_label_zh": "第5076號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2010,
-    "is_declaration_event": false,
-    "notice_key": "2010-14-31-5076-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2010-14-31-5076-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2010-14-31-5076-zh.pdf"
-  },
-  {
     "event_id": "2010-08-06|GN5079|4",
     "source": "egazette_pdf",
     "publication_date": "2010-08-06",
@@ -16622,32 +16489,6 @@
     "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2013-17-34-4994-zh.pdf"
   },
   {
-    "event_id": "2013-09-06|GN5353|0",
-    "source": "egazette_pdf",
-    "publication_date": "2013-09-06",
-    "street_name_en": "Berwick Street",
-    "street_name_zh": "巴域街",
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN5353",
-    "government_notice_label_en": "G.N.5353",
-    "government_notice_label_zh": "第5353號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2013,
-    "is_declaration_event": true,
-    "notice_key": "2013-17-36-5353-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2013-17-36-5353-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2013-17-36-5353-zh.pdf"
-  },
-  {
     "event_id": "2013-11-01|GN6569|0",
     "source": "egazette_pdf",
     "publication_date": "2013-11-01",
@@ -17732,244 +17573,6 @@
     "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2015-19-52-9966-zh.pdf"
   },
   {
-    "event_id": "2016-01-22|GN427|0",
-    "source": "landsd",
-    "publication_date": "2016-01-22",
-    "street_name_en": "Ngau Tau Kok First Street",
-    "street_name_zh": "牛頭角第一街",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN427",
-    "government_notice_label_en": "G.N.427",
-    "government_notice_label_zh": "第427號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2016/egn20162003427.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2016/cgn20162003427.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2016,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2016-01-22|GN427|1",
-    "source": "landsd",
-    "publication_date": "2016-01-22",
-    "street_name_en": "Ngau Tau Kok Second Street",
-    "street_name_zh": "牛頭角第二街",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN427",
-    "government_notice_label_en": "G.N.427",
-    "government_notice_label_zh": "第427號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2016/egn20162003427.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2016/cgn20162003427.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2016,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2016-01-22|GN427|2",
-    "source": "landsd",
-    "publication_date": "2016-01-22",
-    "street_name_en": "Ngau Tau Kok Third Street",
-    "street_name_zh": "牛頭角第三街",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN427",
-    "government_notice_label_en": "G.N.427",
-    "government_notice_label_zh": "第427號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2016/egn20162003427.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2016/cgn20162003427.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2016,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2016-01-22|GN427|3",
-    "source": "landsd",
-    "publication_date": "2016-01-22",
-    "street_name_en": "Ngau Tau Kok Fourth Street",
-    "street_name_zh": "牛頭角第四街",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN427",
-    "government_notice_label_en": "G.N.427",
-    "government_notice_label_zh": "第427號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2016/egn20162003427.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2016/cgn20162003427.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2016,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2016-01-22|GN427|4",
-    "source": "landsd",
-    "publication_date": "2016-01-22",
-    "street_name_en": "Ngau Tau Kok Fifth Street",
-    "street_name_zh": "牛頭角第五街",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN427",
-    "government_notice_label_en": "G.N.427",
-    "government_notice_label_zh": "第427號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2016/egn20162003427.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2016/cgn20162003427.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2016,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2016-01-22|GN427|5",
-    "source": "landsd",
-    "publication_date": "2016-01-22",
-    "street_name_en": "Sau Lai Street",
-    "street_name_zh": "秀麗街",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN427",
-    "government_notice_label_en": "G.N.427",
-    "government_notice_label_zh": "第427號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2016/egn20162003427.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2016/cgn20162003427.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2016,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2016-01-22|GN427|6",
-    "source": "landsd",
-    "publication_date": "2016-01-22",
-    "street_name_en": "Sau Mau Path",
-    "street_name_zh": "秀茂徑",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN427",
-    "government_notice_label_en": "G.N.427",
-    "government_notice_label_zh": "第427號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2016/egn20162003427.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2016/cgn20162003427.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2016,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2016-01-22|GN427|7",
-    "source": "landsd",
-    "publication_date": "2016-01-22",
-    "street_name_en": "Sau Po Street",
-    "street_name_zh": "秀圃街",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN427",
-    "government_notice_label_en": "G.N.427",
-    "government_notice_label_zh": "第427號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2016/egn20162003427.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2016/cgn20162003427.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2016,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2016-01-22|GN427|8",
-    "source": "landsd",
-    "publication_date": "2016-01-22",
-    "street_name_en": "Tak Wo Street",
-    "street_name_zh": "德和街",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN427",
-    "government_notice_label_en": "G.N.427",
-    "government_notice_label_zh": "第427號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2016/egn20162003427.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2016/cgn20162003427.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2016,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2016-03-18|GN1595|0",
-    "source": "landsd",
-    "publication_date": "2016-03-18",
-    "street_name_en": "Yiu Sing Street",
-    "street_name_zh": "耀星街",
-    "district_raw_en": "Central and Western",
-    "district_raw_zh": "中西區",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN1595",
-    "government_notice_label_en": "G.N.1595",
-    "government_notice_label_zh": "第1595號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2016/egn201620111595.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2016/cgn201620111595.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2016/HKRM43.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2016/HKRM43.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "HKRM43"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "HKRM43"
-    ],
-    "year_bucket": 2016,
-    "is_declaration_event": false
-  },
-  {
     "event_id": "2016-03-18|GN1596|0",
     "source": "landsd",
     "publication_date": "2016-03-18",
@@ -17999,68 +17602,6 @@
     ],
     "year_bucket": 2016,
     "is_declaration_event": true
-  },
-  {
-    "event_id": "2016-03-18|GN1597|0",
-    "source": "landsd",
-    "publication_date": "2016-03-18",
-    "street_name_en": "Lung Ping Road",
-    "street_name_zh": "龍坪道",
-    "district_raw_en": "Sham Shui Po",
-    "district_raw_zh": "深水埗",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN1597",
-    "government_notice_label_en": "G.N.1597",
-    "government_notice_label_zh": "第1597號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2016/egn201620111597.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2016/cgn201620111597.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2016/KRM67.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2016/KRM67.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM67"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM67"
-    ],
-    "year_bucket": 2016,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2016-03-18|GN1597|1",
-    "source": "landsd",
-    "publication_date": "2016-03-18",
-    "street_name_en": "Nam Cheong Street",
-    "street_name_zh": "南昌街",
-    "district_raw_en": "Sham Shui Po",
-    "district_raw_zh": "深水埗",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN1597",
-    "government_notice_label_en": "G.N.1597",
-    "government_notice_label_zh": "第1597號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2016/egn201620111597.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2016/cgn201620111597.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2016/KRM67.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2016/KRM67.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM67"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM67"
-    ],
-    "year_bucket": 2016,
-    "is_declaration_event": false
   },
   {
     "event_id": "2016-04-29|GN2478|0",
@@ -18336,37 +17877,6 @@
     "is_declaration_event": true
   },
   {
-    "event_id": "2016-09-23|GN5399|0",
-    "source": "landsd",
-    "publication_date": "2016-09-23",
-    "street_name_en": "Tin Yan Road",
-    "street_name_zh": "天恩路",
-    "district_raw_en": "Yuen Long",
-    "district_raw_zh": "元朗",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN5399",
-    "government_notice_label_en": "G.N.5399",
-    "government_notice_label_zh": "第5399號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2016/egn201620385399.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2016/cgn201620385399.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2016/YLRM177a.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2016/YLRM177a.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "YLRM177a"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "YLRM177a"
-    ],
-    "year_bucket": 2016,
-    "is_declaration_event": false
-  },
-  {
     "event_id": "2016-11-11|GN6438|0",
     "source": "landsd",
     "publication_date": "2016-11-11",
@@ -18455,37 +17965,6 @@
     ],
     "related_gazette_plan_labels_zh": [
       "KRM97"
-    ],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-02-17|GN875|1",
-    "source": "landsd",
-    "publication_date": "2017-02-17",
-    "street_name_en": "Lung Cheung Road",
-    "street_name_zh": "龍翔道",
-    "district_raw_en": "Wong Tai Sin",
-    "district_raw_zh": "黃大仙",
-    "notice_type_raw_en": "Notice of intention to change street name",
-    "notice_type_raw_zh": "擬更改街道名稱公告",
-    "notice_type_normalized": "notice_intention_change",
-    "notice_no": "GN875",
-    "government_notice_label_en": "G.N.875",
-    "government_notice_label_zh": "第875號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn20172107875.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn20172107875.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/KRM98.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/KRM98.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM98"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM98"
     ],
     "year_bucket": 2017,
     "is_declaration_event": false
@@ -19460,68 +18939,6 @@
     "is_declaration_event": true
   },
   {
-    "event_id": "2017-04-07|GN1921|0",
-    "source": "landsd",
-    "publication_date": "2017-04-07",
-    "street_name_en": "Lai Chi Kok Road",
-    "street_name_zh": "荔枝角道",
-    "district_raw_en": "Sham Shui Po-Yau Tsim Mong",
-    "district_raw_zh": "深水埗-油尖旺",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN1921",
-    "government_notice_label_en": "G.N.1921",
-    "government_notice_label_zh": "第1921號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721141921.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721141921.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/SNP-KRM00096.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/SNP-KRM00096.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM96"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM96"
-    ],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-04-07|GN1921|1",
-    "source": "landsd",
-    "publication_date": "2017-04-07",
-    "street_name_en": "West Kowloon Highway",
-    "street_name_zh": "西九龍公路",
-    "district_raw_en": "Sham Shui Po-Yau Tsim Mong",
-    "district_raw_zh": "深水埗-油尖旺",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN1921",
-    "government_notice_label_en": "G.N.1921",
-    "government_notice_label_zh": "第1921號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721141921.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721141921.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/SNP-KRM00095.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/SNP-KRM00095.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM95"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM95"
-    ],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
     "event_id": "2017-04-07|GN1922|0",
     "source": "landsd",
     "publication_date": "2017-04-07",
@@ -19584,60 +19001,6 @@
     "is_declaration_event": false
   },
   {
-    "event_id": "2017-04-21|GN2427|1",
-    "source": "landsd",
-    "publication_date": "2017-04-21",
-    "street_name_en": "Lung Cheung Road",
-    "street_name_zh": "龍翔道",
-    "district_raw_en": "Wong Tai Sin",
-    "district_raw_zh": "黃大仙",
-    "notice_type_raw_en": "Declaration to change street name",
-    "notice_type_raw_zh": "宣布更改街道名稱",
-    "notice_type_normalized": "declaration_change",
-    "notice_no": "GN2427",
-    "government_notice_label_en": "G.N.2427",
-    "government_notice_label_zh": "第2427號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721162427.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721162427.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/KRM98.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/KRM98.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM98"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM98"
-    ],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-04-21|GN2428|0",
-    "source": "landsd",
-    "publication_date": "2017-04-21",
-    "street_name_en": "Cargo Circuit",
-    "street_name_zh": "貨運道",
-    "district_raw_en": "Kowloon City",
-    "district_raw_zh": "九龍城",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN2428",
-    "government_notice_label_en": "G.N.2428",
-    "government_notice_label_zh": "第2428號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721162428.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721162428.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
     "event_id": "2017-04-21|GN2429|0",
     "source": "landsd",
     "publication_date": "2017-04-21",
@@ -19664,290 +19027,6 @@
     ],
     "related_gazette_plan_labels_zh": [
       "KRM85"
-    ],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-05-26|GN3555|0",
-    "source": "landsd",
-    "publication_date": "2017-05-26",
-    "street_name_en": "Sunderland Road",
-    "street_name_zh": "新德鄰道",
-    "district_raw_en": "Kowloon City",
-    "district_raw_zh": "九龍城",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN3555",
-    "government_notice_label_en": "G.N.3555",
-    "government_notice_label_zh": "第3555號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721213555.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721213555.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-05-26|GN3555|1",
-    "source": "landsd",
-    "publication_date": "2017-05-26",
-    "street_name_en": "Jordan Valley South Road",
-    "street_name_zh": "佐頓谷南道",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN3555",
-    "government_notice_label_en": "G.N.3555",
-    "government_notice_label_zh": "第3555號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721213555.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721213555.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-05-26|GN3555|2",
-    "source": "landsd",
-    "publication_date": "2017-05-26",
-    "street_name_en": "Ko Long Road",
-    "street_name_zh": "高朗道",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN3555",
-    "government_notice_label_en": "G.N.3555",
-    "government_notice_label_zh": "第3555號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721213555.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721213555.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-05-26|GN3555|3",
-    "source": "landsd",
-    "publication_date": "2017-05-26",
-    "street_name_en": "Lung Shan Road",
-    "street_name_zh": "龍山道",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN3555",
-    "government_notice_label_en": "G.N.3555",
-    "government_notice_label_zh": "第3555號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721213555.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721213555.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-05-26|GN3555|4",
-    "source": "landsd",
-    "publication_date": "2017-05-26",
-    "street_name_en": "Shing Shun Road",
-    "street_name_zh": "誠信路",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN3555",
-    "government_notice_label_en": "G.N.3555",
-    "government_notice_label_zh": "第3555號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721213555.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721213555.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-05-26|GN3555|5",
-    "source": "landsd",
-    "publication_date": "2017-05-26",
-    "street_name_en": "Ching Road",
-    "street_name_zh": "青道",
-    "district_raw_en": "Wong Tai Sin",
-    "district_raw_zh": "黃大仙",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN3555",
-    "government_notice_label_en": "G.N.3555",
-    "government_notice_label_zh": "第3555號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721213555.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721213555.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-05-26|GN3555|6",
-    "source": "landsd",
-    "publication_date": "2017-05-26",
-    "street_name_en": "Fook Lai Road",
-    "street_name_zh": "復禮道",
-    "district_raw_en": "Wong Tai Sin",
-    "district_raw_zh": "黃大仙",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN3555",
-    "government_notice_label_en": "G.N.3555",
-    "government_notice_label_zh": "第3555號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721213555.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721213555.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-05-26|GN3555|7",
-    "source": "landsd",
-    "publication_date": "2017-05-26",
-    "street_name_en": "Fu Mei Street West",
-    "street_name_zh": "富美西街",
-    "district_raw_en": "Wong Tai Sin",
-    "district_raw_zh": "黃大仙",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN3555",
-    "government_notice_label_en": "G.N.3555",
-    "government_notice_label_zh": "第3555號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721213555.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721213555.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-05-26|GN3555|8",
-    "source": "landsd",
-    "publication_date": "2017-05-26",
-    "street_name_en": "Ming Tak Street",
-    "street_name_zh": "明德街",
-    "district_raw_en": "Wong Tai Sin",
-    "district_raw_zh": "黃大仙",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN3555",
-    "government_notice_label_en": "G.N.3555",
-    "government_notice_label_zh": "第3555號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721213555.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721213555.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-05-26|GN3555|9",
-    "source": "landsd",
-    "publication_date": "2017-05-26",
-    "street_name_en": "On Fu Road",
-    "street_name_zh": "安富道",
-    "district_raw_en": "Wong Tai Sin",
-    "district_raw_zh": "黃大仙",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN3555",
-    "government_notice_label_en": "G.N.3555",
-    "government_notice_label_zh": "第3555號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721213555.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721213555.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-05-26|GN3555|10",
-    "source": "landsd",
-    "publication_date": "2017-05-26",
-    "street_name_en": "Sheung Tak Street",
-    "street_name_zh": "尚德街",
-    "district_raw_en": "Wong Tai Sin",
-    "district_raw_zh": "黃大仙",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN3555",
-    "government_notice_label_en": "G.N.3555",
-    "government_notice_label_zh": "第3555號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721213555.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721213555.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-06-30|GN4524|0",
-    "source": "landsd",
-    "publication_date": "2017-06-30",
-    "street_name_en": "Nga Cheung Road",
-    "street_name_zh": "雅翔道",
-    "district_raw_en": "Yau Tsim Mong",
-    "district_raw_zh": "油尖旺",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN4524",
-    "government_notice_label_en": "G.N.4524",
-    "government_notice_label_zh": "第4524號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721264524.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721264524.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/KRM101.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/KRM101.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM101"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM101"
     ],
     "year_bucket": 2017,
     "is_declaration_event": false
@@ -19982,37 +19061,6 @@
     ],
     "year_bucket": 2017,
     "is_declaration_event": true
-  },
-  {
-    "event_id": "2017-07-14|GN5003|0",
-    "source": "landsd",
-    "publication_date": "2017-07-14",
-    "street_name_en": "Chi Kiang Street",
-    "street_name_zh": "浙江街",
-    "district_raw_en": "Kowloon City",
-    "district_raw_zh": "九龍城",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN5003",
-    "government_notice_label_en": "G.N.5003",
-    "government_notice_label_zh": "第5003號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721285003.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721285003.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/KRM102.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/KRM102.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM102"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM102"
-    ],
-    "year_bucket": 2017,
-    "is_declaration_event": false
   },
   {
     "event_id": "2017-08-04|GN5710|0",
@@ -20108,68 +19156,6 @@
     "is_declaration_event": true
   },
   {
-    "event_id": "2017-09-29|GN7315|0",
-    "source": "landsd",
-    "publication_date": "2017-09-29",
-    "street_name_en": "Wing Tung Street",
-    "street_name_zh": "永東街",
-    "district_raw_en": "Islands (Peng Chau)",
-    "district_raw_zh": "離島 (坪洲)",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN7315",
-    "government_notice_label_en": "G.N.7315",
-    "government_notice_label_zh": "第7315號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721397315.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721397315.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/ISRM97.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/ISRM97.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "ISRM97"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "ISRM97"
-    ],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-09-29|GN7315|1",
-    "source": "landsd",
-    "publication_date": "2017-09-29",
-    "street_name_en": "Yau Wing Street",
-    "street_name_zh": "友榮街",
-    "district_raw_en": "Islands (Peng Chau)",
-    "district_raw_zh": "離島 (坪洲)",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN7315",
-    "government_notice_label_en": "G.N.7315",
-    "government_notice_label_zh": "第7315號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721397315.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721397315.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/ISRM97.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/ISRM97.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "ISRM97"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "ISRM97"
-    ],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
     "event_id": "2017-09-29|GN7316|0",
     "source": "landsd",
     "publication_date": "2017-09-29",
@@ -20199,192 +19185,6 @@
     ],
     "year_bucket": 2017,
     "is_declaration_event": true
-  },
-  {
-    "event_id": "2017-10-13|GN7594|0",
-    "source": "landsd",
-    "publication_date": "2017-10-13",
-    "street_name_en": "Fung Cheung Road",
-    "street_name_zh": "鳳翔路",
-    "district_raw_en": "Yuen Long",
-    "district_raw_zh": "元朗",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN7594",
-    "government_notice_label_en": "G.N.7594",
-    "government_notice_label_zh": "第7594號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721417594.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721417594.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/YLRM179a.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/YLRM179a.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "YLRM179a"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "YLRM179a"
-    ],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-10-13|GN7594|1",
-    "source": "landsd",
-    "publication_date": "2017-10-13",
-    "street_name_en": "Fung Heung Street",
-    "street_name_zh": "鳳香街",
-    "district_raw_en": "Yuen Long",
-    "district_raw_zh": "元朗",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN7594",
-    "government_notice_label_en": "G.N.7594",
-    "government_notice_label_zh": "第7594號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721417594.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721417594.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/YLRM179a.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/YLRM179a.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "YLRM179a"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "YLRM179a"
-    ],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-10-13|GN7594|2",
-    "source": "landsd",
-    "publication_date": "2017-10-13",
-    "street_name_en": "Shui Pin Wai Interchange",
-    "street_name_zh": "水邊圍交匯處",
-    "district_raw_en": "Yuen Long",
-    "district_raw_zh": "元朗",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN7594",
-    "government_notice_label_en": "G.N.7594",
-    "government_notice_label_zh": "第7594號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721417594.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721417594.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/YLRM179a.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/YLRM179a.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "YLRM179a"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "YLRM179a"
-    ],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-10-13|GN7594|3",
-    "source": "landsd",
-    "publication_date": "2017-10-13",
-    "street_name_en": "Wang Fat Path",
-    "street_name_zh": "宏發徑",
-    "district_raw_en": "Yuen Long",
-    "district_raw_zh": "元朗",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN7594",
-    "government_notice_label_en": "G.N.7594",
-    "government_notice_label_zh": "第7594號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721417594.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721417594.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/YLRM179a.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/YLRM179a.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "YLRM179a"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "YLRM179a"
-    ],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-10-13|GN7594|4",
-    "source": "landsd",
-    "publication_date": "2017-10-13",
-    "street_name_en": "Wang Tat Road",
-    "street_name_zh": "宏達路",
-    "district_raw_en": "Yuen Long",
-    "district_raw_zh": "元朗",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN7594",
-    "government_notice_label_en": "G.N.7594",
-    "government_notice_label_zh": "第7594號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721417594.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721417594.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/YLRM179a.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/YLRM179a.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "YLRM179a"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "YLRM179a"
-    ],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2017-10-13|GN7594|5",
-    "source": "landsd",
-    "publication_date": "2017-10-13",
-    "street_name_en": "Yu King Square",
-    "street_name_zh": "裕景坊",
-    "district_raw_en": "Yuen Long",
-    "district_raw_zh": "元朗",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN7594",
-    "government_notice_label_en": "G.N.7594",
-    "government_notice_label_zh": "第7594號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721417594.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721417594.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/YLRM179a.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/YLRM179a.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "YLRM179a"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "YLRM179a"
-    ],
-    "year_bucket": 2017,
-    "is_declaration_event": false
   },
   {
     "event_id": "2017-10-13|GN7595|0",
@@ -20914,161 +19714,6 @@
     "is_declaration_event": true
   },
   {
-    "event_id": "2017-12-22|GN9867|0",
-    "source": "landsd",
-    "publication_date": "2017-12-22",
-    "street_name_en": "Un Chau Street",
-    "street_name_zh": "元州街",
-    "district_raw_en": "Sham Shui Po",
-    "district_raw_zh": "深水埗",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN9867",
-    "government_notice_label_en": "G.N.9867",
-    "government_notice_label_zh": "第9867號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721519867.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721519867.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/KRM52a.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2017/KRM52a.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM52a"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM52a"
-    ],
-    "year_bucket": 2017,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2018-02-02|GN649|0",
-    "source": "landsd",
-    "publication_date": "2018-02-02",
-    "street_name_en": "King Fuk Street",
-    "street_name_zh": "景福街",
-    "district_raw_en": "Wong Tai Sin",
-    "district_raw_zh": "黃大仙",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN649",
-    "government_notice_label_en": "G.N.649",
-    "government_notice_label_zh": "第649號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn20182205649.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn20182205649.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM107.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM107.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM107"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM107"
-    ],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2018-02-02|GN649|1",
-    "source": "landsd",
-    "publication_date": "2018-02-02",
-    "street_name_en": "Luk Hop Street",
-    "street_name_zh": "六合街",
-    "district_raw_en": "Wong Tai Sin",
-    "district_raw_zh": "黃大仙",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN649",
-    "government_notice_label_en": "G.N.649",
-    "government_notice_label_zh": "第649號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn20182205649.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn20182205649.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM107.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM107.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM107"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM107"
-    ],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2018-02-02|GN649|2",
-    "source": "landsd",
-    "publication_date": "2018-02-02",
-    "street_name_en": "Sze Mei Street",
-    "street_name_zh": "四美街",
-    "district_raw_en": "Wong Tai Sin",
-    "district_raw_zh": "黃大仙",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN649",
-    "government_notice_label_en": "G.N.649",
-    "government_notice_label_zh": "第649號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn20182205649.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn20182205649.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM107.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM107.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM107"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM107"
-    ],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2018-02-02|GN649|3",
-    "source": "landsd",
-    "publication_date": "2018-02-02",
-    "street_name_en": "Yi Lun Street",
-    "street_name_zh": "彝倫街",
-    "district_raw_en": "Wong Tai Sin",
-    "district_raw_zh": "黃大仙",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN649",
-    "government_notice_label_en": "G.N.649",
-    "government_notice_label_zh": "第649號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn20182205649.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn20182205649.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM107.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM107.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM107"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM107"
-    ],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
     "event_id": "2018-02-02|GN650|0",
     "source": "landsd",
     "publication_date": "2018-02-02",
@@ -21193,60 +19838,6 @@
     "is_declaration_event": false
   },
   {
-    "event_id": "2018-03-29|GN2323|0",
-    "source": "landsd",
-    "publication_date": "2018-03-29",
-    "street_name_en": "San Chuk Street",
-    "street_name_zh": "新竹街",
-    "district_raw_en": "Sha Tin",
-    "district_raw_zh": "沙田",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN2323",
-    "government_notice_label_en": "G.N.2323",
-    "government_notice_label_zh": "第2323號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn201822132323.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn201822132323.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2018-03-29|GN2324|0",
-    "source": "landsd",
-    "publication_date": "2018-03-29",
-    "street_name_en": "Chui Yu Road",
-    "street_name_zh": "聚魚道",
-    "district_raw_en": "Sham Shui Po-Yau Tsim Mong",
-    "district_raw_zh": "深水埗-油尖旺",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN2324",
-    "government_notice_label_en": "G.N.2324",
-    "government_notice_label_zh": "第2324號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn201822132324.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn201822132324.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM113.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM113.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM113"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM113"
-    ],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
     "event_id": "2018-03-29|GN2325|0",
     "source": "landsd",
     "publication_date": "2018-03-29",
@@ -21340,130 +19931,6 @@
     "is_declaration_event": true
   },
   {
-    "event_id": "2018-05-04|GN3296|0",
-    "source": "landsd",
-    "publication_date": "2018-05-04",
-    "street_name_en": "Sin Fat Road",
-    "street_name_zh": "茜發道",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN3296",
-    "government_notice_label_en": "G.N.3296",
-    "government_notice_label_zh": "第3296號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn201822183296.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn201822183296.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM108.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM108.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM108"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM108"
-    ],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2018-05-04|GN3296|1",
-    "source": "landsd",
-    "publication_date": "2018-05-04",
-    "street_name_en": "Shung Yiu Street",
-    "street_name_zh": "崇耀街",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN3296",
-    "government_notice_label_en": "G.N.3296",
-    "government_notice_label_zh": "第3296號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn201822183296.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn201822183296.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM121.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM121.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM121"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM121"
-    ],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2018-06-01|GN4003|0",
-    "source": "landsd",
-    "publication_date": "2018-06-01",
-    "street_name_en": "Tai Po Road",
-    "street_name_zh": "大埔道",
-    "district_raw_en": "Sham Shui Po",
-    "district_raw_zh": "深水埗",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN4003",
-    "government_notice_label_en": "G.N.4003",
-    "government_notice_label_zh": "第4003號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn201822224003.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn201822224003.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM110.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM110.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM110"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM110"
-    ],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2018-06-01|GN4004|0",
-    "source": "landsd",
-    "publication_date": "2018-06-01",
-    "street_name_en": "Wui Cheung Road",
-    "street_name_zh": "匯翔道",
-    "district_raw_en": "Yau Tsim Mong",
-    "district_raw_zh": "油尖旺",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN4004",
-    "government_notice_label_en": "G.N.4004",
-    "government_notice_label_zh": "第4004號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn201822224004.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn201822224004.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM109.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM109.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM109"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM109"
-    ],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
     "event_id": "2018-06-01|GN4004|1",
     "source": "landsd",
     "publication_date": "2018-06-01",
@@ -21495,192 +19962,6 @@
     "is_declaration_event": false
   },
   {
-    "event_id": "2018-08-10|GN6060|0",
-    "source": "landsd",
-    "publication_date": "2018-08-10",
-    "street_name_en": "Fung Mo Street",
-    "street_name_zh": "鳳舞街",
-    "district_raw_en": "Wong Tai Sin",
-    "district_raw_zh": "黃大仙",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN6060",
-    "government_notice_label_en": "G.N.6060",
-    "government_notice_label_zh": "第6060號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn201822326060.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn201822326060.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM111.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM111.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM111"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM111"
-    ],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2018-08-10|GN6060|1",
-    "source": "landsd",
-    "publication_date": "2018-08-10",
-    "street_name_en": "Lung Cheung Road",
-    "street_name_zh": "龍翔道",
-    "district_raw_en": "Sham Shui Po-Kowloon City-Kwun Tong",
-    "district_raw_zh": "深水埗-九龍城-觀塘",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN6060",
-    "government_notice_label_en": "G.N.6060",
-    "government_notice_label_zh": "第6060號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn201822326060.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn201822326060.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM111.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM111.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM111"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM111"
-    ],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2018-08-10|GN6060|2",
-    "source": "landsd",
-    "publication_date": "2018-08-10",
-    "street_name_en": "Ma Chai Hang Road",
-    "street_name_zh": "馬仔坑道",
-    "district_raw_en": "Wong Tai Sin",
-    "district_raw_zh": "黃大仙",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN6060",
-    "government_notice_label_en": "G.N.6060",
-    "government_notice_label_zh": "第6060號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn201822326060.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn201822326060.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM111.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM111.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM111"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM111"
-    ],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2018-08-10|GN6060|3",
-    "source": "landsd",
-    "publication_date": "2018-08-10",
-    "street_name_en": "Tai Hom Road",
-    "street_name_zh": "大磡道",
-    "district_raw_en": "Wong Tai Sin",
-    "district_raw_zh": "黃大仙",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN6060",
-    "government_notice_label_en": "G.N.6060",
-    "government_notice_label_zh": "第6060號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn201822326060.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn201822326060.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM111.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM111.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM111"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM111"
-    ],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2018-09-14|GN6972|0",
-    "source": "landsd",
-    "publication_date": "2018-09-14",
-    "street_name_en": "Prince Edward Road East",
-    "street_name_zh": "太子道東",
-    "district_raw_en": "Kowloon City-Wong Tai Sin",
-    "district_raw_zh": "九龍城-黃大仙",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN6972",
-    "government_notice_label_en": "G.N.6972",
-    "government_notice_label_zh": "第6972號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn201822376972.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn201822376972.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM114.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM114.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM114"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM114"
-    ],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2018-10-05|GN7463|0",
-    "source": "landsd",
-    "publication_date": "2018-10-05",
-    "street_name_en": "Hong Chong Road",
-    "street_name_zh": "康莊道",
-    "district_raw_en": "Yau Tsim Mong",
-    "district_raw_zh": "油尖旺",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN7463",
-    "government_notice_label_en": "G.N.7463",
-    "government_notice_label_zh": "第7463號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn201822407463.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn201822407463.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM117.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM117.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM117"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM117"
-    ],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
     "event_id": "2018-10-05|GN7463|1",
     "source": "landsd",
     "publication_date": "2018-10-05",
@@ -21707,130 +19988,6 @@
     ],
     "related_gazette_plan_labels_zh": [
       "KRM101a"
-    ],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2018-10-05|GN7463|2",
-    "source": "landsd",
-    "publication_date": "2018-10-05",
-    "street_name_en": "Princess Margaret Road",
-    "street_name_zh": "公主道",
-    "district_raw_en": "Kowloon City-Yau Tsim Mong",
-    "district_raw_zh": "九龍城-油尖旺",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN7463",
-    "government_notice_label_en": "G.N.7463",
-    "government_notice_label_zh": "第7463號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn201822407463.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn201822407463.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM117.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM117.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM117"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM117"
-    ],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2018-11-23|GN8793|0",
-    "source": "landsd",
-    "publication_date": "2018-11-23",
-    "street_name_en": "Austin Road West",
-    "street_name_zh": "柯士甸道西",
-    "district_raw_en": "Yau Tsim Mong",
-    "district_raw_zh": "油尖旺",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN8793",
-    "government_notice_label_en": "G.N.8793",
-    "government_notice_label_zh": "第8793號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn201822478793.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn201822478793.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM115.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM115.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM115"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM115"
-    ],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2018-11-30|GN8969|0",
-    "source": "landsd",
-    "publication_date": "2018-11-30",
-    "street_name_en": "Lai Po Road",
-    "street_name_zh": "荔寶路",
-    "district_raw_en": "Sham Shui Po",
-    "district_raw_zh": "深水埗",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN8969",
-    "government_notice_label_en": "G.N.8969",
-    "government_notice_label_zh": "第8969號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn201822488969.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn201822488969.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM120.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM120.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM120"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM120"
-    ],
-    "year_bucket": 2018,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2018-11-30|GN8969|1",
-    "source": "landsd",
-    "publication_date": "2018-11-30",
-    "street_name_en": "Lin Cheung Road",
-    "street_name_zh": "連翔道",
-    "district_raw_en": "Sham Shui Po-Yau Tsim Mong",
-    "district_raw_zh": "深水埗-油尖旺",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN8969",
-    "government_notice_label_en": "G.N.8969",
-    "government_notice_label_zh": "第8969號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn201822488969.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn201822488969.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM116.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2018/KRM116.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM116"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM116"
     ],
     "year_bucket": 2018,
     "is_declaration_event": false
@@ -21919,130 +20076,6 @@
     ],
     "year_bucket": 2019,
     "is_declaration_event": true
-  },
-  {
-    "event_id": "2019-03-01|GN1654|0",
-    "source": "landsd",
-    "publication_date": "2019-03-01",
-    "street_name_en": "Hoi Kwai Road",
-    "street_name_zh": "海貴路",
-    "district_raw_en": "Tsuen Wan",
-    "district_raw_zh": "荃灣",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN1654",
-    "government_notice_label_en": "G.N.1654",
-    "government_notice_label_zh": "第1654號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923091654.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923091654.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/TWRM179b.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/TWRM179b.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "TWRM179b"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "TWRM179b"
-    ],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-03-01|GN1654|1",
-    "source": "landsd",
-    "publication_date": "2019-03-01",
-    "street_name_en": "Tai Ho Road",
-    "street_name_zh": "大河道",
-    "district_raw_en": "Tsuen Wan",
-    "district_raw_zh": "荃灣",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN1654",
-    "government_notice_label_en": "G.N.1654",
-    "government_notice_label_zh": "第1654號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923091654.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923091654.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/TWRM179b.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/TWRM179b.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "TWRM179b"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "TWRM179b"
-    ],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-03-01|GN1655|0",
-    "source": "landsd",
-    "publication_date": "2019-03-01",
-    "street_name_en": "Hung Hom South Road",
-    "street_name_zh": "紅磡南道",
-    "district_raw_en": "Kowloon City",
-    "district_raw_zh": "九龍城",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN1655",
-    "government_notice_label_en": "G.N.1655",
-    "government_notice_label_zh": "第1655號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923091655.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923091655.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/KRM112.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/KRM112.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM112"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM112"
-    ],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-03-01|GN1655|1",
-    "source": "landsd",
-    "publication_date": "2019-03-01",
-    "street_name_en": "Hung Lai Road",
-    "street_name_zh": "紅荔道",
-    "district_raw_en": "Kowloon City",
-    "district_raw_zh": "九龍城",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN1655",
-    "government_notice_label_en": "G.N.1655",
-    "government_notice_label_zh": "第1655號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923091655.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923091655.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/KRM112.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/KRM112.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM112"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM112"
-    ],
-    "year_bucket": 2019,
-    "is_declaration_event": false
   },
   {
     "event_id": "2019-03-01|GN1656|0",
@@ -22138,130 +20171,6 @@
     "is_declaration_event": true
   },
   {
-    "event_id": "2019-03-15|GN1971|0",
-    "source": "landsd",
-    "publication_date": "2019-03-15",
-    "street_name_en": "Expo Drive",
-    "street_name_zh": "博覽道",
-    "district_raw_en": "Wan Chai",
-    "district_raw_zh": "灣仔",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN1971",
-    "government_notice_label_en": "G.N.1971",
-    "government_notice_label_zh": "第1971號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923111971.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923111971.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/HKRM48.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/HKRM48.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "HKRM48"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "HKRM48"
-    ],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-03-15|GN1971|1",
-    "source": "landsd",
-    "publication_date": "2019-03-15",
-    "street_name_en": "Expo Drive Central",
-    "street_name_zh": "博覽道中",
-    "district_raw_en": "Wan Chai",
-    "district_raw_zh": "灣仔",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN1971",
-    "government_notice_label_en": "G.N.1971",
-    "government_notice_label_zh": "第1971號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923111971.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923111971.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/HKRM48.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/HKRM48.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "HKRM48"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "HKRM48"
-    ],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-03-15|GN1971|2",
-    "source": "landsd",
-    "publication_date": "2019-03-15",
-    "street_name_en": "Expo Drive East",
-    "street_name_zh": "博覽道東",
-    "district_raw_en": "Wan Chai",
-    "district_raw_zh": "灣仔",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN1971",
-    "government_notice_label_en": "G.N.1971",
-    "government_notice_label_zh": "第1971號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923111971.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923111971.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/HKRM48.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/HKRM48.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "HKRM48"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "HKRM48"
-    ],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-03-15|GN1971|3",
-    "source": "landsd",
-    "publication_date": "2019-03-15",
-    "street_name_en": "Fleming Road",
-    "street_name_zh": "菲林明道",
-    "district_raw_en": "Wan Chai",
-    "district_raw_zh": "灣仔",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN1971",
-    "government_notice_label_en": "G.N.1971",
-    "government_notice_label_zh": "第1971號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923111971.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923111971.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/HKRM48.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/HKRM48.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "HKRM48"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "HKRM48"
-    ],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
     "event_id": "2019-03-15|GN1971|4",
     "source": "landsd",
     "publication_date": "2019-03-15",
@@ -22289,75 +20198,6 @@
     "related_gazette_plan_labels_zh": [
       "HKRM48"
     ],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-03-29|GN2321|0",
-    "source": "landsd",
-    "publication_date": "2019-03-29",
-    "street_name_en": "Expo Drive",
-    "street_name_zh": "博覽道",
-    "district_raw_en": "Wan Chai",
-    "district_raw_zh": "灣仔",
-    "notice_type_raw_en": "Corrigendum",
-    "notice_type_raw_zh": "勘誤",
-    "notice_type_normalized": "corrigendum",
-    "notice_no": "GN2321",
-    "government_notice_label_en": "G.N.2321",
-    "government_notice_label_zh": "第2321號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923132321.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923132321.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-03-29|GN2321|1",
-    "source": "landsd",
-    "publication_date": "2019-03-29",
-    "street_name_en": "Expo Drive Central",
-    "street_name_zh": "博覽道中",
-    "district_raw_en": "Wan Chai",
-    "district_raw_zh": "灣仔",
-    "notice_type_raw_en": "Corrigendum",
-    "notice_type_raw_zh": "勘誤",
-    "notice_type_normalized": "corrigendum",
-    "notice_no": "GN2321",
-    "government_notice_label_en": "G.N.2321",
-    "government_notice_label_zh": "第2321號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923132321.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923132321.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-03-29|GN2321|2",
-    "source": "landsd",
-    "publication_date": "2019-03-29",
-    "street_name_en": "Expo Drive East",
-    "street_name_zh": "博覽道東",
-    "district_raw_en": "Wan Chai",
-    "district_raw_zh": "灣仔",
-    "notice_type_raw_en": "Corrigendum",
-    "notice_type_raw_zh": "勘誤",
-    "notice_type_normalized": "corrigendum",
-    "notice_no": "GN2321",
-    "government_notice_label_en": "G.N.2321",
-    "government_notice_label_zh": "第2321號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923132321.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923132321.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
     "year_bucket": 2019,
     "is_declaration_event": false
   },
@@ -22501,136 +20341,6 @@
     "is_declaration_event": true
   },
   {
-    "event_id": "2019-05-31|GN3586|0",
-    "source": "landsd",
-    "publication_date": "2019-05-31",
-    "street_name_en": "Church Lane",
-    "street_name_zh": "教堂里",
-    "district_raw_en": "Eastern",
-    "district_raw_zh": "東區",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN3586",
-    "government_notice_label_en": "G.N.3586",
-    "government_notice_label_zh": "第3586號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923223586.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923223586.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-05-31|GN3586|1",
-    "source": "landsd",
-    "publication_date": "2019-05-31",
-    "street_name_en": "Harbour Parade",
-    "street_name_zh": "海港道",
-    "district_raw_en": "Eastern",
-    "district_raw_zh": "東區",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN3586",
-    "government_notice_label_en": "G.N.3586",
-    "government_notice_label_zh": "第3586號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923223586.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923223586.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-05-31|GN3586|2",
-    "source": "landsd",
-    "publication_date": "2019-05-31",
-    "street_name_en": "Nation Street",
-    "street_name_zh": "禮信街",
-    "district_raw_en": "Eastern",
-    "district_raw_zh": "東區",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN3586",
-    "government_notice_label_en": "G.N.3586",
-    "government_notice_label_zh": "第3586號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923223586.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923223586.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-05-31|GN3587|0",
-    "source": "landsd",
-    "publication_date": "2019-05-31",
-    "street_name_en": "Lung Ma Road",
-    "street_name_zh": "龍馬路",
-    "district_raw_en": "North",
-    "district_raw_zh": "北區",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN3587",
-    "government_notice_label_en": "G.N.3587",
-    "government_notice_label_zh": "第3587號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923223587.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923223587.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/DNRM106.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/DNRM106.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "DNRM106"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "DNRM106"
-    ],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-05-31|GN3587|0",
-    "source": "egazette_pdf",
-    "publication_date": "2019-05-31",
-    "street_name_en": "Lung Ma Road G.n. 3544 Dated 1 September 1995",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN3587",
-    "government_notice_label_en": "G.N.3587",
-    "government_notice_label_zh": "第3587號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [
-      "DNRM106"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "DNRM106"
-    ],
-    "year_bucket": 2019,
-    "is_declaration_event": true,
-    "notice_key": "2019-23-22-3587-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2019-23-22-3587-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2019-23-22-3587-zh.pdf"
-  },
-  {
     "event_id": "2019-05-31|GN3588|0",
     "source": "landsd",
     "publication_date": "2019-05-31",
@@ -22691,284 +20401,6 @@
     ],
     "year_bucket": 2019,
     "is_declaration_event": true
-  },
-  {
-    "event_id": "2019-07-26|GN4780|0",
-    "source": "landsd",
-    "publication_date": "2019-07-26",
-    "street_name_en": "Cheung Sha Wan Road",
-    "street_name_zh": "長沙灣道",
-    "district_raw_en": "Sham Shui Po - Yau Tsim Mong",
-    "district_raw_zh": "深水埗-油尖旺",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN4780",
-    "government_notice_label_en": "G.N.4780",
-    "government_notice_label_zh": "第4780號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923304780.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923304780.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/KRM125.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/KRM125.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM125"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM125"
-    ],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-07-26|GN4781|0",
-    "source": "landsd",
-    "publication_date": "2019-07-26",
-    "street_name_en": "Airport Road",
-    "street_name_zh": "機場路",
-    "district_raw_en": "Islands (Lantau)",
-    "district_raw_zh": "離島 (大嶼山)",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN4781",
-    "government_notice_label_en": "G.N.4781",
-    "government_notice_label_zh": "第4781號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923304781.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923304781.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/ISRM98a.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/ISRM98a.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "ISRM98a"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "ISRM98a"
-    ],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-07-26|GN4781|1",
-    "source": "landsd",
-    "publication_date": "2019-07-26",
-    "street_name_en": "Cheong Hong Road",
-    "street_name_zh": "暢航路",
-    "district_raw_en": "Islands (Lantau)",
-    "district_raw_zh": "離島 (大嶼山)",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN4781",
-    "government_notice_label_en": "G.N.4781",
-    "government_notice_label_zh": "第4781號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923304781.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923304781.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/ISRM98a.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/ISRM98a.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "ISRM98a"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "ISRM98a"
-    ],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-07-26|GN4781|2",
-    "source": "landsd",
-    "publication_date": "2019-07-26",
-    "street_name_en": "East Coast Road",
-    "street_name_zh": "東岸路",
-    "district_raw_en": "Islands (Lantau)",
-    "district_raw_zh": "離島 (大嶼山)",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN4781",
-    "government_notice_label_en": "G.N.4781",
-    "government_notice_label_zh": "第4781號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923304781.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923304781.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/ISRM98a.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/ISRM98a.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "ISRM98a"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "ISRM98a"
-    ],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-07-26|GN4781|3",
-    "source": "landsd",
-    "publication_date": "2019-07-26",
-    "street_name_en": "Kwo Lo Wan Road",
-    "street_name_zh": "過路灣路",
-    "district_raw_en": "Islands (Lantau)",
-    "district_raw_zh": "離島 (大嶼山)",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN4781",
-    "government_notice_label_en": "G.N.4781",
-    "government_notice_label_zh": "第4781號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923304781.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923304781.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/ISRM98a.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/ISRM98a.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "ISRM98a"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "ISRM98a"
-    ],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-07-26|GN4781|4",
-    "source": "landsd",
-    "publication_date": "2019-07-26",
-    "street_name_en": "Tung Fai Road",
-    "street_name_zh": "東輝路",
-    "district_raw_en": "Islands (Lantau)",
-    "district_raw_zh": "離島 (大嶼山)",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN4781",
-    "government_notice_label_en": "G.N.4781",
-    "government_notice_label_zh": "第4781號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923304781.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923304781.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/ISRM98a.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2019/ISRM98a.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "ISRM98a"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "ISRM98a"
-    ],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-09-27|GN6067|0",
-    "source": "landsd",
-    "publication_date": "2019-09-27",
-    "street_name_en": "Wan Fuk Street",
-    "street_name_zh": "環福街",
-    "district_raw_en": "Kowloon City",
-    "district_raw_zh": "九龍城",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN6067",
-    "government_notice_label_en": "G.N.6067",
-    "government_notice_label_zh": "第6067號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923396067.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923396067.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-09-27|GN6067|1",
-    "source": "landsd",
-    "publication_date": "2019-09-27",
-    "street_name_en": "Wan King Street",
-    "street_name_zh": "環景街",
-    "district_raw_en": "Kowloon City",
-    "district_raw_zh": "九龍城",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN6067",
-    "government_notice_label_en": "G.N.6067",
-    "government_notice_label_zh": "第6067號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923396067.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923396067.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-09-27|GN6067|2",
-    "source": "landsd",
-    "publication_date": "2019-09-27",
-    "street_name_en": "Wan Lei Street",
-    "street_name_zh": "環利街",
-    "district_raw_en": "Kowloon City",
-    "district_raw_zh": "九龍城",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN6067",
-    "government_notice_label_en": "G.N.6067",
-    "government_notice_label_zh": "第6067號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923396067.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923396067.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2019,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2019-09-27|GN6067|3",
-    "source": "landsd",
-    "publication_date": "2019-09-27",
-    "street_name_en": "Wan Shun Street",
-    "street_name_zh": "環順街",
-    "district_raw_en": "Kowloon City",
-    "district_raw_zh": "九龍城",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN6067",
-    "government_notice_label_en": "G.N.6067",
-    "government_notice_label_zh": "第6067號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923396067.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923396067.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2019,
-    "is_declaration_event": false
   },
   {
     "event_id": "2019-09-27|GN6068|0",
@@ -23459,67 +20891,6 @@
     "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2020-24-14-1669-zh.pdf"
   },
   {
-    "event_id": "2020-04-03|GN1670|0",
-    "source": "landsd",
-    "publication_date": "2020-04-03",
-    "street_name_en": "Nam Hing West Road",
-    "street_name_zh": "南慶西路",
-    "district_raw_en": "Yuen Long",
-    "district_raw_zh": "元朗",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN1670",
-    "government_notice_label_en": "G.N.1670",
-    "government_notice_label_zh": "第1670號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024141670.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024141670.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/YLRM214.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/YLRM214.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "YLRM214"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "YLRM214"
-    ],
-    "year_bucket": 2020,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2020-04-03|GN1670|0",
-    "source": "egazette_pdf",
-    "publication_date": "2020-04-03",
-    "street_name_en": "Nam Hing West Road G.n. 3286 Dated 16 May 2003",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN1670",
-    "government_notice_label_en": "G.N.1670",
-    "government_notice_label_zh": "第1670號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [
-      "YLRM214"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "YLRM214"
-    ],
-    "year_bucket": 2020,
-    "is_declaration_event": true,
-    "notice_key": "2020-24-14-1670-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2020-24-14-1670-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2020-24-14-1670-zh.pdf"
-  },
-  {
     "event_id": "2020-05-22|GN2656|0",
     "source": "landsd",
     "publication_date": "2020-05-22",
@@ -23549,63 +20920,6 @@
     ],
     "year_bucket": 2020,
     "is_declaration_event": true
-  },
-  {
-    "event_id": "2020-06-12|GN3235|0",
-    "source": "landsd",
-    "publication_date": "2020-06-12",
-    "street_name_en": "Shing Fung Road",
-    "street_name_zh": "承豐道",
-    "district_raw_en": "Kowloon City",
-    "district_raw_zh": "九龍城",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN3235",
-    "government_notice_label_en": "G.N.3235",
-    "government_notice_label_zh": "第3235號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024243235.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024243235.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM128.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM128.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM128"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM128"
-    ],
-    "year_bucket": 2020,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2020-06-12|GN3235|0",
-    "source": "egazette_pdf",
-    "publication_date": "2020-06-12",
-    "street_name_en": "Shing Fung Road G.n. 6493 Dated 28 September 2012",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN3235",
-    "government_notice_label_en": "G.N.3235",
-    "government_notice_label_zh": "第3235號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2020,
-    "is_declaration_event": true,
-    "notice_key": "2020-24-24-3235-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2020-24-24-3235-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2020-24-24-3235-zh.pdf"
   },
   {
     "event_id": "2020-06-12|GN3236|0",
@@ -23639,67 +20953,6 @@
     "is_declaration_event": true
   },
   {
-    "event_id": "2020-06-12|GN3237|0",
-    "source": "landsd",
-    "publication_date": "2020-06-12",
-    "street_name_en": "Luk Mei Tsuen Road",
-    "street_name_zh": "鹿尾村路",
-    "district_raw_en": "Sai Kung",
-    "district_raw_zh": "西貢",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN3237",
-    "government_notice_label_en": "G.N.3237",
-    "government_notice_label_zh": "第3237號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024243237.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024243237.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/SKRM160.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/SKRM160.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "SKRM160"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "SKRM160"
-    ],
-    "year_bucket": 2020,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2020-06-12|GN3237|0",
-    "source": "egazette_pdf",
-    "publication_date": "2020-06-12",
-    "street_name_en": "Luk Mei Tsuen Road G.n. 1786 Dated 24 May 1991",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN3237",
-    "government_notice_label_en": "G.N.3237",
-    "government_notice_label_zh": "第3237號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [
-      "SKRM160"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "SKRM160"
-    ],
-    "year_bucket": 2020,
-    "is_declaration_event": true,
-    "notice_key": "2020-24-24-3237-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2020-24-24-3237-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2020-24-24-3237-zh.pdf"
-  },
-  {
     "event_id": "2020-08-07|GN4508|0",
     "source": "landsd",
     "publication_date": "2020-08-07",
@@ -23729,63 +20982,6 @@
     ],
     "year_bucket": 2020,
     "is_declaration_event": true
-  },
-  {
-    "event_id": "2020-08-07|GN4509|0",
-    "source": "landsd",
-    "publication_date": "2020-08-07",
-    "street_name_en": "Wing Fook Street",
-    "street_name_zh": "永福街",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN4509",
-    "government_notice_label_en": "G.N.4509",
-    "government_notice_label_zh": "第4509號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024324509.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024324509.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM124.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM124.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM124"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM124"
-    ],
-    "year_bucket": 2020,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2020-08-07|GN4509|0",
-    "source": "egazette_pdf",
-    "publication_date": "2020-08-07",
-    "street_name_en": "Wing Fook Street G.n. 1982 Dated 2 August 1974",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN4509",
-    "government_notice_label_en": "G.N.4509",
-    "government_notice_label_zh": "第4509號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2020,
-    "is_declaration_event": true,
-    "notice_key": "2020-24-32-4509-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2020-24-32-4509-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2020-24-32-4509-zh.pdf"
   },
   {
     "event_id": "2020-10-16|GN5983|0",
@@ -23845,37 +21041,6 @@
     "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2020-24-42-5983-zh.pdf"
   },
   {
-    "event_id": "2020-10-16|GN5984|0",
-    "source": "landsd",
-    "publication_date": "2020-10-16",
-    "street_name_en": "Gascoigne Road",
-    "street_name_zh": "加士居道",
-    "district_raw_en": "Yau Tsim Mong",
-    "district_raw_zh": "油尖旺",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN5984",
-    "government_notice_label_en": "G.N.5984",
-    "government_notice_label_zh": "第5984號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024425984.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024425984.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM126.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM126.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM126"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM126"
-    ],
-    "year_bucket": 2020,
-    "is_declaration_event": false
-  },
-  {
     "event_id": "2020-10-23|GN6116|0",
     "source": "landsd",
     "publication_date": "2020-10-23",
@@ -23905,99 +21070,6 @@
     ],
     "year_bucket": 2020,
     "is_declaration_event": true
-  },
-  {
-    "event_id": "2020-10-23|GN6117|0",
-    "source": "landsd",
-    "publication_date": "2020-10-23",
-    "street_name_en": "Hing Kwai Street",
-    "street_name_zh": "興貴街",
-    "district_raw_en": "Tuen Mun",
-    "district_raw_zh": "屯門",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN6117",
-    "government_notice_label_en": "G.N.6117",
-    "government_notice_label_zh": "第6117號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024436117.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024436117.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/TMRM126.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/TMRM126.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "TMRM126"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "TMRM126"
-    ],
-    "year_bucket": 2020,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2020-10-23|GN6117|1",
-    "source": "landsd",
-    "publication_date": "2020-10-23",
-    "street_name_en": "Tong Hang Road",
-    "street_name_zh": "塘亨路",
-    "district_raw_en": "Tuen Mun",
-    "district_raw_zh": "屯門",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN6117",
-    "government_notice_label_en": "G.N.6117",
-    "government_notice_label_zh": "第6117號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024436117.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024436117.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/TMRM126.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/TMRM126.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "TMRM126"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "TMRM126"
-    ],
-    "year_bucket": 2020,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2020-10-23|GN6117|2",
-    "source": "landsd",
-    "publication_date": "2020-10-23",
-    "street_name_en": "Tsz Tin Road",
-    "street_name_zh": "紫田路",
-    "district_raw_en": "Tuen Mun",
-    "district_raw_zh": "屯門",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN6117",
-    "government_notice_label_en": "G.N.6117",
-    "government_notice_label_zh": "第6117號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024436117.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024436117.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/TMRM126.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/TMRM126.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "TMRM126"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "TMRM126"
-    ],
-    "year_bucket": 2020,
-    "is_declaration_event": false
   },
   {
     "event_id": "2020-10-23|GN6118|0",
@@ -24232,68 +21304,6 @@
     "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2020-24-45-6474-zh.pdf"
   },
   {
-    "event_id": "2020-11-20|GN6776|0",
-    "source": "landsd",
-    "publication_date": "2020-11-20",
-    "street_name_en": "Lin Tak Road",
-    "street_name_zh": "連德道",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN6776",
-    "government_notice_label_en": "G.N.6776",
-    "government_notice_label_zh": "第6776號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024476776.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024476776.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM123.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM123.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM123"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM123"
-    ],
-    "year_bucket": 2020,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2020-11-20|GN6776|1",
-    "source": "landsd",
-    "publication_date": "2020-11-20",
-    "street_name_en": "Tseung Kwan O Road",
-    "street_name_zh": "將軍澳道",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN6776",
-    "government_notice_label_en": "G.N.6776",
-    "government_notice_label_zh": "第6776號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024476776.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024476776.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM123.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM123.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM123"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM123"
-    ],
-    "year_bucket": 2020,
-    "is_declaration_event": false
-  },
-  {
     "event_id": "2020-12-31|GN7695|0",
     "source": "landsd",
     "publication_date": "2020-12-31",
@@ -24478,63 +21488,6 @@
     "is_declaration_event": true
   },
   {
-    "event_id": "2021-04-01|GN1945|0",
-    "source": "landsd",
-    "publication_date": "2021-04-01",
-    "street_name_en": "Sheung Foo Street",
-    "street_name_zh": "常富街",
-    "district_raw_en": "Kowloon City",
-    "district_raw_zh": "九龍城",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN1945",
-    "government_notice_label_en": "G.N.1945",
-    "government_notice_label_zh": "第1945號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2021/egn202125131945.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2021/cgn202125131945.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/KRM129.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/KRM129.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM129"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM129"
-    ],
-    "year_bucket": 2021,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2021-04-01|GN1945|0",
-    "source": "egazette_pdf",
-    "publication_date": "2021-04-01",
-    "street_name_en": "Sheung Foo Street G.n. 751 Dated 7 April 1967",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN1945",
-    "government_notice_label_en": "G.N.1945",
-    "government_notice_label_zh": "第1945號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2021,
-    "is_declaration_event": true,
-    "notice_key": "2021-25-13-1945-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2021-25-13-1945-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2021-25-13-1945-zh.pdf"
-  },
-  {
     "event_id": "2021-04-30|GN2547|0",
     "source": "landsd",
     "publication_date": "2021-04-30",
@@ -24564,67 +21517,6 @@
     ],
     "year_bucket": 2021,
     "is_declaration_event": true
-  },
-  {
-    "event_id": "2021-04-30|GN2548|0",
-    "source": "landsd",
-    "publication_date": "2021-04-30",
-    "street_name_en": "Shum Wan Road",
-    "street_name_zh": "深灣道",
-    "district_raw_en": "Southern",
-    "district_raw_zh": "南區",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN2548",
-    "government_notice_label_en": "G.N.2548",
-    "government_notice_label_zh": "第2548號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2021/egn202125172548.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2021/cgn202125172548.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/HKRM55.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/HKRM55.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "HKRM55"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "HKRM55"
-    ],
-    "year_bucket": 2021,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2021-04-30|GN2548|0",
-    "source": "egazette_pdf",
-    "publication_date": "2021-04-30",
-    "street_name_en": "Shum Wan Road G.n. 1915 Dated 26 September 1969",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN2548",
-    "government_notice_label_en": "G.N.2548",
-    "government_notice_label_zh": "第2548號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [
-      "HKRM55"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "HKRM55"
-    ],
-    "year_bucket": 2021,
-    "is_declaration_event": true,
-    "notice_key": "2021-25-17-2548-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2021-25-17-2548-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2021-25-17-2548-zh.pdf"
   },
   {
     "event_id": "2021-05-28|GN3262|0",
@@ -25130,130 +22022,6 @@
     "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2021-25-25-3897-zh.pdf"
   },
   {
-    "event_id": "2021-06-25|GN3898|0",
-    "source": "landsd",
-    "publication_date": "2021-06-25",
-    "street_name_en": "Cheung Yip Street",
-    "street_name_zh": "祥業街",
-    "district_raw_en": "Kowloon City - Kwun Tong",
-    "district_raw_zh": "九龍城 - 觀塘",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN3898",
-    "government_notice_label_en": "G.N.3898",
-    "government_notice_label_zh": "第3898號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2021/egn202125253898.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2021/cgn202125253898.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/KRM133.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/KRM133.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM133"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM133"
-    ],
-    "year_bucket": 2021,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2021-06-25|GN3898|1",
-    "source": "landsd",
-    "publication_date": "2021-06-25",
-    "street_name_en": "Shing Cheong Road",
-    "street_name_zh": "承昌道",
-    "district_raw_en": "Kowloon City",
-    "district_raw_zh": "九龍城",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN3898",
-    "government_notice_label_en": "G.N.3898",
-    "government_notice_label_zh": "第3898號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2021/egn202125253898.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2021/cgn202125253898.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/KRM133.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/KRM133.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM133"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM133"
-    ],
-    "year_bucket": 2021,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2021-07-23|GN4521|0",
-    "source": "landsd",
-    "publication_date": "2021-07-23",
-    "street_name_en": "Olympic Avenue",
-    "street_name_zh": "世運道",
-    "district_raw_en": "Kowloon City",
-    "district_raw_zh": "九龍城",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN4521",
-    "government_notice_label_en": "G.N.4521",
-    "government_notice_label_zh": "第4521號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2021/egn202125294521.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2021/cgn202125294521.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/KRM132.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/KRM132.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM132"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM132"
-    ],
-    "year_bucket": 2021,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2021-07-23|GN4521|1",
-    "source": "landsd",
-    "publication_date": "2021-07-23",
-    "street_name_en": "Sung Wong Toi Road",
-    "street_name_zh": "宋皇臺道",
-    "district_raw_en": "Kowloon City",
-    "district_raw_zh": "九龍城",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN4521",
-    "government_notice_label_en": "G.N.4521",
-    "government_notice_label_zh": "第4521號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2021/egn202125294521.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2021/cgn202125294521.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/KRM132.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/KRM132.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM132"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM132"
-    ],
-    "year_bucket": 2021,
-    "is_declaration_event": false
-  },
-  {
     "event_id": "2021-07-23|GN4522|0",
     "source": "landsd",
     "publication_date": "2021-07-23",
@@ -25371,29 +22139,6 @@
     "notice_key": "2021-25-37-5801-0",
     "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2021-25-37-5801-en.pdf",
     "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2021-25-37-5801-zh.pdf"
-  },
-  {
-    "event_id": "2021-09-24|GN6002|0",
-    "source": "landsd",
-    "publication_date": "2021-09-24",
-    "street_name_en": "Cheong Lin Path",
-    "street_name_zh": "暢連徑",
-    "district_raw_en": "Islands (Lantau)",
-    "district_raw_zh": "離島 (大嶼山)",
-    "notice_type_raw_en": "Declaration to delete street name",
-    "notice_type_raw_zh": "宣布删除街道名稱",
-    "notice_type_normalized": "declaration_delete",
-    "notice_no": "GN6002",
-    "government_notice_label_en": "G.N.6002",
-    "government_notice_label_zh": "第6002號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2021/egn202125386002.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2021/cgn202125386002.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2021,
-    "is_declaration_event": false
   },
   {
     "event_id": "2021-09-24|GN6003|0",
@@ -25579,128 +22324,6 @@
     "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2021-25-38-6003-zh.pdf"
   },
   {
-    "event_id": "2021-09-24|GN6004|0",
-    "source": "landsd",
-    "publication_date": "2021-09-24",
-    "street_name_en": "Sky City Road East",
-    "street_name_zh": "航天城東路",
-    "district_raw_en": "Islands (Lantau)",
-    "district_raw_zh": "離島 (大嶼山)",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN6004",
-    "government_notice_label_en": "G.N.6004",
-    "government_notice_label_zh": "第6004號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2021/egn202125386004.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2021/cgn202125386004.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/ISRM102.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/ISRM102.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "ISRM102"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "ISRM102"
-    ],
-    "year_bucket": 2021,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2021-09-24|GN6004|1",
-    "source": "landsd",
-    "publication_date": "2021-09-24",
-    "street_name_en": "Sky City Road",
-    "street_name_zh": "航天城路",
-    "district_raw_en": "Islands (Lantau)",
-    "district_raw_zh": "離島 (大嶼山)",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN6004",
-    "government_notice_label_en": "G.N.6004",
-    "government_notice_label_zh": "第6004號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2021/egn202125386004.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2021/cgn202125386004.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/ISRM102.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/ISRM102.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "ISRM102"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "ISRM102"
-    ],
-    "year_bucket": 2021,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2021-09-24|GN6004|0",
-    "source": "egazette_pdf",
-    "publication_date": "2021-09-24",
-    "street_name_en": "Sky Ci T Y R O A D Ea S T G.n. 5907 Dated 11 November 2005",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN6004",
-    "government_notice_label_en": "G.N.6004",
-    "government_notice_label_zh": "第6004號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [
-      "ISRM102"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "ISRM102"
-    ],
-    "year_bucket": 2021,
-    "is_declaration_event": true,
-    "notice_key": "2021-25-38-6004-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2021-25-38-6004-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2021-25-38-6004-zh.pdf"
-  },
-  {
-    "event_id": "2021-09-24|GN6004|1",
-    "source": "egazette_pdf",
-    "publication_date": "2021-09-24",
-    "street_name_en": "Sky Ci T Y R O A D G.n. 5907 Dated 11 November 2005",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN6004",
-    "government_notice_label_en": "G.N.6004",
-    "government_notice_label_zh": "第6004號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [
-      "ISRM102"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "ISRM102"
-    ],
-    "year_bucket": 2021,
-    "is_declaration_event": true,
-    "notice_key": "2021-25-38-6004-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2021-25-38-6004-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2021-25-38-6004-zh.pdf"
-  },
-  {
     "event_id": "2021-09-30|GN6129|0",
     "source": "landsd",
     "publication_date": "2021-09-30",
@@ -25730,67 +22353,6 @@
     ],
     "year_bucket": 2021,
     "is_declaration_event": true
-  },
-  {
-    "event_id": "2021-10-08|GN6314|0",
-    "source": "landsd",
-    "publication_date": "2021-10-08",
-    "street_name_en": "Yuen Long Pau Cheung Square",
-    "street_name_zh": "元朗炮仗坊",
-    "district_raw_en": "Yuen Long",
-    "district_raw_zh": "元朗",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN6314",
-    "government_notice_label_en": "G.N.6314",
-    "government_notice_label_zh": "第6314號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2021/egn202125406314.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2021/cgn202125406314.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/YLRM205.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/YLRM205.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "YLRM205"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "YLRM205"
-    ],
-    "year_bucket": 2021,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2021-10-08|GN6314|0",
-    "source": "egazette_pdf",
-    "publication_date": "2021-10-08",
-    "street_name_en": "Yuen Long Pau Cheung Square G.n. 2944 Dated 2 December 1977",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN6314",
-    "government_notice_label_en": "G.N.6314",
-    "government_notice_label_zh": "第6314號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [
-      "YLRM205"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "YLRM205"
-    ],
-    "year_bucket": 2021,
-    "is_declaration_event": true,
-    "notice_key": "2021-25-40-6314-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2021-25-40-6314-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2021-25-40-6314-zh.pdf"
   },
   {
     "event_id": "2021-10-22|GN6649|0",
@@ -25914,129 +22476,6 @@
     "notice_key": "2021-25-48-7633-0",
     "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2021-25-48-7633-en.pdf",
     "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2021-25-48-7633-zh.pdf"
-  },
-  {
-    "event_id": "2021-12-03|GN7634|0",
-    "source": "landsd",
-    "publication_date": "2021-12-03",
-    "street_name_en": "Fu Tei Road",
-    "street_name_zh": "富地路",
-    "district_raw_en": "Tuen Mun",
-    "district_raw_zh": "屯門",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN7634",
-    "government_notice_label_en": "G.N.7634",
-    "government_notice_label_zh": "第7634號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2021/egn202125487634.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2021/cgn202125487634.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/TMRM131.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2021/TMRM131.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "TMRM131"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "TMRM131"
-    ],
-    "year_bucket": 2021,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2021-12-03|GN7634|0",
-    "source": "egazette_pdf",
-    "publication_date": "2021-12-03",
-    "street_name_en": "Fu Te I R O A D G.n. 502 Dated 8 February 1991",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN7634",
-    "government_notice_label_en": "G.N.7634",
-    "government_notice_label_zh": "第7634號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [
-      "TMRM131"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "TMRM131"
-    ],
-    "year_bucket": 2021,
-    "is_declaration_event": true,
-    "notice_key": "2021-25-48-7634-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2021-25-48-7634-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2021-25-48-7634-zh.pdf"
-  },
-  {
-    "event_id": "2022-05-13|GN2362|0",
-    "source": "landsd",
-    "publication_date": "2022-05-13",
-    "street_name_en": "Cheong Hing Road",
-    "street_name_zh": "暢興路",
-    "district_raw_en": "Islands (Lantau)",
-    "district_raw_zh": "離島 (大嶼山)",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN2362",
-    "government_notice_label_en": "G.N.2362",
-    "government_notice_label_zh": "第2362號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2022/egn202226192362.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2022/cgn202226192362.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2022/ISRM104.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2022/ISRM104.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "ISRM104"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "ISRM104"
-    ],
-    "year_bucket": 2022,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2022-05-13|GN2362|1",
-    "source": "landsd",
-    "publication_date": "2022-05-13",
-    "street_name_en": "Cheong Tat Road",
-    "street_name_zh": "暢達路",
-    "district_raw_en": "Islands (Lantau)",
-    "district_raw_zh": "離島 (大嶼山)",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN2362",
-    "government_notice_label_en": "G.N.2362",
-    "government_notice_label_zh": "第2362號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2022/egn202226192362.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2022/cgn202226192362.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2022/ISRM104.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2022/ISRM104.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "ISRM104"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "ISRM104"
-    ],
-    "year_bucket": 2022,
-    "is_declaration_event": false
   },
   {
     "event_id": "2022-08-19|GN4534|0",
@@ -26335,67 +22774,6 @@
     "notice_key": "2022-26-47-6835-0",
     "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2022-26-47-6835-en.pdf",
     "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2022-26-47-6835-zh.pdf"
-  },
-  {
-    "event_id": "2022-11-25|GN6836|0",
-    "source": "landsd",
-    "publication_date": "2022-11-25",
-    "street_name_en": "Wan O Road",
-    "street_name_zh": "環澳路",
-    "district_raw_en": "Sai Kung",
-    "district_raw_zh": "西貢",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN6836",
-    "government_notice_label_en": "G.N.6836",
-    "government_notice_label_zh": "第6836號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2022/egn202226476836.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2022/cgn202226476836.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2022/SKRM164.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2022/SKRM164.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "SKRM164"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "SKRM164"
-    ],
-    "year_bucket": 2022,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2022-11-25|GN6836|0",
-    "source": "egazette_pdf",
-    "publication_date": "2022-11-25",
-    "street_name_en": "Wan O Road G.n. 935 Dated 14 February 2003",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN6836",
-    "government_notice_label_en": "G.N.6836",
-    "government_notice_label_zh": "第6836號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [
-      "SKRM164"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "SKRM164"
-    ],
-    "year_bucket": 2022,
-    "is_declaration_event": true,
-    "notice_key": "2022-26-47-6836-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2022-26-47-6836-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2022-26-47-6836-zh.pdf"
   },
   {
     "event_id": "2022-12-09|GN7138|0",
@@ -26764,94 +23142,6 @@
     "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2023-27-7-1075-zh.pdf"
   },
   {
-    "event_id": "2023-03-10|GN1533|0",
-    "source": "landsd",
-    "publication_date": "2023-03-10",
-    "street_name_en": "Fuk Shun Street",
-    "street_name_zh": "福順街",
-    "district_raw_en": "Yuen Long",
-    "district_raw_zh": "元朗",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN1533",
-    "government_notice_label_en": "G.N.1533",
-    "government_notice_label_zh": "第1533號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2023/egn202327101533.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2023/cgn202327101533.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2023/YLRM219.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2023/YLRM219.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "YLRM219"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "YLRM219"
-    ],
-    "year_bucket": 2023,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2023-03-24|GN1790|0",
-    "source": "landsd",
-    "publication_date": "2023-03-24",
-    "street_name_en": "Shing Fung Road",
-    "street_name_zh": "承豐道",
-    "district_raw_en": "Kowloon City",
-    "district_raw_zh": "九龍城",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN1790",
-    "government_notice_label_en": "G.N.1790",
-    "government_notice_label_zh": "第1790號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2023/egn202327121790.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2023/cgn202327121790.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2023/KRM128a.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2023/KRM128a.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM128a"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM128a"
-    ],
-    "year_bucket": 2023,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2023-03-24|GN1790|0",
-    "source": "egazette_pdf",
-    "publication_date": "2023-03-24",
-    "street_name_en": "Shing Fung R O A D G.n. 3235 Dated 12 June 2020",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN1790",
-    "government_notice_label_en": "G.N.1790",
-    "government_notice_label_zh": "第1790號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2023,
-    "is_declaration_event": true,
-    "notice_key": "2023-27-12-1790-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2023-27-12-1790-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2023-27-12-1790-zh.pdf"
-  },
-  {
     "event_id": "2023-04-28|GN2593|0",
     "source": "landsd",
     "publication_date": "2023-04-28",
@@ -26881,94 +23171,6 @@
     ],
     "year_bucket": 2023,
     "is_declaration_event": true
-  },
-  {
-    "event_id": "2023-04-28|GN2594|0",
-    "source": "landsd",
-    "publication_date": "2023-04-28",
-    "street_name_en": "Dakota Drive",
-    "street_name_zh": "德高道",
-    "district_raw_en": "Kowloon City",
-    "district_raw_zh": "九龍城",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN2594",
-    "government_notice_label_en": "G.N.2594",
-    "government_notice_label_zh": "第2594號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2023/egn202327172594.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2023/cgn202327172594.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2023/KRM140.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2023/KRM140.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM140"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM140"
-    ],
-    "year_bucket": 2023,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2023-05-05|GN2752|0",
-    "source": "landsd",
-    "publication_date": "2023-05-05",
-    "street_name_en": "Chun Tin Street",
-    "street_name_zh": "春田街",
-    "district_raw_en": "Kowloon City",
-    "district_raw_zh": "九龍城",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN2752",
-    "government_notice_label_en": "G.N.2752",
-    "government_notice_label_zh": "第2752號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2023/egn202327182752.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2023/cgn202327182752.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2023/KRM139.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2023/KRM139.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM139"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM139"
-    ],
-    "year_bucket": 2023,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2023-05-05|GN2752|0",
-    "source": "egazette_pdf",
-    "publication_date": "2023-05-05",
-    "street_name_en": "Chun T In Street G.n. 200 Dated 18 February 1955",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN2752",
-    "government_notice_label_en": "G.N.2752",
-    "government_notice_label_zh": "第2752號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2023,
-    "is_declaration_event": true,
-    "notice_key": "2023-27-18-2752-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2023-27-18-2752-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2023-27-18-2752-zh.pdf"
   },
   {
     "event_id": "2023-05-12|GN2908|0",
@@ -27087,37 +23289,6 @@
     "notice_key": "2023-27-20-3075-0",
     "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2023-27-20-3075-en.pdf",
     "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2023-27-20-3075-zh.pdf"
-  },
-  {
-    "event_id": "2023-06-02|GN3377|0",
-    "source": "landsd",
-    "publication_date": "2023-06-02",
-    "street_name_en": "Anderson Road",
-    "street_name_zh": "安達臣道",
-    "district_raw_en": "Sai Kung - Kwun Tong",
-    "district_raw_zh": "西貢-觀塘",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN3377",
-    "government_notice_label_en": "G.N.3377",
-    "government_notice_label_zh": "第3377號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2023/egn202327223377.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2023/cgn202327223377.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2023/SKRM165.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2023/SKRM165.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "SKRM165"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "SKRM165"
-    ],
-    "year_bucket": 2023,
-    "is_declaration_event": false
   },
   {
     "event_id": "2023-06-09|GN3522|0",
@@ -27240,159 +23411,6 @@
     "notice_key": "2023-27-25-3740-0",
     "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2023-27-25-3740-en.pdf",
     "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2023-27-25-3740-zh.pdf"
-  },
-  {
-    "event_id": "2023-06-23|GN3741|0",
-    "source": "landsd",
-    "publication_date": "2023-06-23",
-    "street_name_en": "Hung Hing Road",
-    "street_name_zh": "鴻興道",
-    "district_raw_en": "Wan Chai",
-    "district_raw_zh": "灣仔",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN3741",
-    "government_notice_label_en": "G.N.3741",
-    "government_notice_label_zh": "第3741號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2023/egn202327253741.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2023/cgn202327253741.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2023/HKRM57.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2023/HKRM57.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "HKRM57"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "HKRM57"
-    ],
-    "year_bucket": 2023,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2023-06-23|GN3741|1",
-    "source": "landsd",
-    "publication_date": "2023-06-23",
-    "street_name_en": "Convention Avenue",
-    "street_name_zh": "會議道",
-    "district_raw_en": "Wan Chai",
-    "district_raw_zh": "灣仔",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN3741",
-    "government_notice_label_en": "G.N.3741",
-    "government_notice_label_zh": "第3741號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2023/egn202327253741.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2023/cgn202327253741.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2023/HKRM57.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2023/HKRM57.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "HKRM57"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "HKRM57"
-    ],
-    "year_bucket": 2023,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2023-06-23|GN3741|2",
-    "source": "landsd",
-    "publication_date": "2023-06-23",
-    "street_name_en": "Lung King Street",
-    "street_name_zh": "龍景街",
-    "district_raw_en": "Wan Chai",
-    "district_raw_zh": "灣仔",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN3741",
-    "government_notice_label_en": "G.N.3741",
-    "government_notice_label_zh": "第3741號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2023/egn202327253741.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2023/cgn202327253741.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2023/HKRM57.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2023/HKRM57.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "HKRM57"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "HKRM57"
-    ],
-    "year_bucket": 2023,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2023-06-23|GN3741|0",
-    "source": "egazette_pdf",
-    "publication_date": "2023-06-23",
-    "street_name_en": "Conv E N T Ion A V E Nu E G.n. 400 Dated 5 February 1988",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN3741",
-    "government_notice_label_en": "G.N.3741",
-    "government_notice_label_zh": "第3741號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [
-      "HKRM57"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "HKRM57"
-    ],
-    "year_bucket": 2023,
-    "is_declaration_event": true,
-    "notice_key": "2023-27-25-3741-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2023-27-25-3741-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2023-27-25-3741-zh.pdf"
-  },
-  {
-    "event_id": "2023-06-23|GN3741|1",
-    "source": "egazette_pdf",
-    "publication_date": "2023-06-23",
-    "street_name_en": "Lung King Street G.n. 1382 Dated 31 M Ay 1974",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN3741",
-    "government_notice_label_en": "G.N.3741",
-    "government_notice_label_zh": "第3741號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [
-      "HKRM57"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "HKRM57"
-    ],
-    "year_bucket": 2023,
-    "is_declaration_event": true,
-    "notice_key": "2023-27-25-3741-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2023-27-25-3741-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2023-27-25-3741-zh.pdf"
   },
   {
     "event_id": "2023-07-28|GN4517|0",
@@ -27728,37 +23746,6 @@
     "is_declaration_event": true
   },
   {
-    "event_id": "2024-05-03|GN2573|0",
-    "source": "landsd",
-    "publication_date": "2024-05-03",
-    "street_name_en": "Tin Wan Street",
-    "street_name_zh": "田灣街",
-    "district_raw_en": "Southern",
-    "district_raw_zh": "南區",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN2573",
-    "government_notice_label_en": "G.N.2573",
-    "government_notice_label_zh": "第2573號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2024/egn202428182573.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2024/cgn202428182573.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2024/HKRM49.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2024/HKRM49.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "HKRM49"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "HKRM49"
-    ],
-    "year_bucket": 2024,
-    "is_declaration_event": false
-  },
-  {
     "event_id": "2024-05-10|GN2696|0",
     "source": "landsd",
     "publication_date": "2024-05-10",
@@ -27907,67 +23894,6 @@
     ],
     "year_bucket": 2024,
     "is_declaration_event": false
-  },
-  {
-    "event_id": "2024-08-16|GN4838|0",
-    "source": "landsd",
-    "publication_date": "2024-08-16",
-    "street_name_en": "Chui Kwan Drive",
-    "street_name_zh": "翠群徑",
-    "district_raw_en": "Islands (Lantau)",
-    "district_raw_zh": "離島 (大嶼山)",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN4838",
-    "government_notice_label_en": "G.N.4838",
-    "government_notice_label_zh": "第4838號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2024/egn202428334838.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2024/cgn202428334838.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2024/ISRM50b.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2024/ISRM50b.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "ISRM50b"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "ISRM50b"
-    ],
-    "year_bucket": 2024,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2024-08-16|GN4838|0",
-    "source": "egazette_pdf",
-    "publication_date": "2024-08-16",
-    "street_name_en": "Chui Kw A Nd R Iv E G.n. 8354 Dated 30 December 1999",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN4838",
-    "government_notice_label_en": "G.N.4838",
-    "government_notice_label_zh": "第4838號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [
-      "ISRM50B"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "ISRM50B"
-    ],
-    "year_bucket": 2024,
-    "is_declaration_event": true,
-    "notice_key": "2024-28-33-4838-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2024-28-33-4838-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2024-28-33-4838-zh.pdf"
   },
   {
     "event_id": "2024-08-23|GN4962|0",
@@ -28211,37 +24137,6 @@
     "is_declaration_event": true
   },
   {
-    "event_id": "2024-11-15|GN6899|0",
-    "source": "landsd",
-    "publication_date": "2024-11-15",
-    "street_name_en": "Choi Yuen Road",
-    "street_name_zh": "彩園路",
-    "district_raw_en": "North",
-    "district_raw_zh": "北區",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN6899",
-    "government_notice_label_en": "G.N.6899",
-    "government_notice_label_zh": "第6899號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2024/egn202428466899.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2024/cgn202428466899.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2024/DNRM117.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2024/DNRM117.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "DNRM117"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "DNRM117"
-    ],
-    "year_bucket": 2024,
-    "is_declaration_event": false
-  },
-  {
     "event_id": "2024-12-06|GN7369|0",
     "source": "landsd",
     "publication_date": "2024-12-06",
@@ -28271,63 +24166,6 @@
     ],
     "year_bucket": 2024,
     "is_declaration_event": true
-  },
-  {
-    "event_id": "2024-12-06|GN7370|0",
-    "source": "landsd",
-    "publication_date": "2024-12-06",
-    "street_name_en": "Shing Cheong Road",
-    "street_name_zh": "承昌道",
-    "district_raw_en": "Kowloon City",
-    "district_raw_zh": "九龍城",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN7370",
-    "government_notice_label_en": "G.N.7370",
-    "government_notice_label_zh": "第7370號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2024/egn202428497370.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2024/cgn202428497370.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2024/KRM144.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2024/KRM144.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM144"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM144"
-    ],
-    "year_bucket": 2024,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2024-12-06|GN7370|0",
-    "source": "egazette_pdf",
-    "publication_date": "2024-12-06",
-    "street_name_en": "Shing Cheong Road G.n. 3898 Dated 25 June 2021",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN7370",
-    "government_notice_label_en": "G.N.7370",
-    "government_notice_label_zh": "第7370號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2024,
-    "is_declaration_event": true,
-    "notice_key": "2024-28-49-7370-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2024-28-49-7370-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2024-28-49-7370-zh.pdf"
   },
   {
     "event_id": "2025-01-24|GN565|0",
@@ -28481,98 +24319,6 @@
     "notice_key": "2025-29-9-1271-0",
     "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2025-29-9-1271-en.pdf",
     "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2025-29-9-1271-zh.pdf"
-  },
-  {
-    "event_id": "2025-04-25|GN2547|0",
-    "source": "landsd",
-    "publication_date": "2025-04-25",
-    "street_name_en": "Heung Yip Road",
-    "street_name_zh": "香葉道",
-    "district_raw_en": "Southern",
-    "district_raw_zh": "南區",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN2547",
-    "government_notice_label_en": "G.N.2547",
-    "government_notice_label_zh": "第2547號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2025/egn202529172547.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2025/cgn202529172547.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2025/HKRM59.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2025/HKRM59.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "HKRM59"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "HKRM59"
-    ],
-    "year_bucket": 2025,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2025-07-25|GN4610|0",
-    "source": "landsd",
-    "publication_date": "2025-07-25",
-    "street_name_en": "Ying Hei Road",
-    "street_name_zh": "迎禧路",
-    "district_raw_en": "Islands (Lantau)",
-    "district_raw_zh": "離島 (大嶼山)",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN4610",
-    "government_notice_label_en": "G.N.4610",
-    "government_notice_label_zh": "第4610號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2025/egn202529304610.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2025/cgn202529304610.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2025/ISRM110a.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2025/ISRM110a.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "ISRM110a"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "ISRM110a"
-    ],
-    "year_bucket": 2025,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2025-07-25|GN4610|0",
-    "source": "egazette_pdf",
-    "publication_date": "2025-07-25",
-    "street_name_en": "Ying Hei Road G.n. 8173 Dated 24 December 1999",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN4610",
-    "government_notice_label_en": "G.N.4610",
-    "government_notice_label_zh": "第4610號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [
-      "ISRM110A"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "ISRM110A"
-    ],
-    "year_bucket": 2025,
-    "is_declaration_event": true,
-    "notice_key": "2025-29-30-4610-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2025-29-30-4610-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2025-29-30-4610-zh.pdf"
   },
   {
     "event_id": "2025-07-25|GN4611|0",
@@ -29243,120 +24989,6 @@
     "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2025-29-47-7381-zh.pdf"
   },
   {
-    "event_id": "2025-11-21|GN7382|0",
-    "source": "landsd",
-    "publication_date": "2025-11-21",
-    "street_name_en": "Yau Ma Tei Interchange",
-    "street_name_zh": "油麻地交匯處",
-    "district_raw_en": "Yau Tsim Mong",
-    "district_raw_zh": "油尖旺",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN7382",
-    "government_notice_label_en": "G.N.7382",
-    "government_notice_label_zh": "第7382號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2025/egn202529477382.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2025/cgn202529477382.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2025/KRM147.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2025/KRM147.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM147"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM147"
-    ],
-    "year_bucket": 2025,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2025-11-21|GN7382|0",
-    "source": "egazette_pdf",
-    "publication_date": "2025-11-21",
-    "street_name_en": "Yau Ma Tei Interchange G.n. 1920 Dated 7 April 2017",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN7382",
-    "government_notice_label_en": "G.N.7382",
-    "government_notice_label_zh": "第7382號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2025,
-    "is_declaration_event": true,
-    "notice_key": "2025-29-47-7382-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2025-29-47-7382-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2025-29-47-7382-zh.pdf"
-  },
-  {
-    "event_id": "2025-12-19|GN8147|0",
-    "source": "landsd",
-    "publication_date": "2025-12-19",
-    "street_name_en": "Cultural Drive",
-    "street_name_zh": "文化道",
-    "district_raw_en": "Yau Tsim Mong",
-    "district_raw_zh": "油尖旺",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN8147",
-    "government_notice_label_en": "G.N.8147",
-    "government_notice_label_zh": "第8147號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2025/egn202529518147.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2025/cgn202529518147.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2025/KRM149.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2025/KRM149.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM149"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM149"
-    ],
-    "year_bucket": 2025,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2025-12-19|GN8147|0",
-    "source": "egazette_pdf",
-    "publication_date": "2025-12-19",
-    "street_name_en": "Cultural Drive G.n. 5801 Dated 17 September 2021",
-    "street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Street Name",
-    "notice_type_raw_zh": "街道命名",
-    "notice_type_normalized": "declaration",
-    "notice_no": "GN8147",
-    "government_notice_label_en": "G.N.8147",
-    "government_notice_label_zh": "第8147號",
-    "government_notice_url_en": null,
-    "government_notice_url_zh": null,
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 2025,
-    "is_declaration_event": true,
-    "notice_key": "2025-29-51-8147-0",
-    "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2025-29-51-8147-en.pdf",
-    "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2025-29-51-8147-zh.pdf"
-  },
-  {
     "event_id": "2026-01-16|GN377|0",
     "source": "landsd",
     "publication_date": "2026-01-16",
@@ -29508,68 +25140,6 @@
     ],
     "year_bucket": 2026,
     "is_declaration_event": true
-  },
-  {
-    "event_id": "2026-02-13|GN996|0",
-    "source": "landsd",
-    "publication_date": "2026-02-13",
-    "street_name_en": "Hoi Yuen Road",
-    "street_name_zh": "開源道",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN996",
-    "government_notice_label_en": "G.N.996",
-    "government_notice_label_zh": "第996號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2026/egn20263007996.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2026/cgn20263007996.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2026/KRM150.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2026/KRM150.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM150"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM150"
-    ],
-    "year_bucket": 2026,
-    "is_declaration_event": false
-  },
-  {
-    "event_id": "2026-02-13|GN996|1",
-    "source": "landsd",
-    "publication_date": "2026-02-13",
-    "street_name_en": "Kei Yip Lane",
-    "street_name_zh": "基業里",
-    "district_raw_en": "Kwun Tong",
-    "district_raw_zh": "觀塘",
-    "notice_type_raw_en": "Replacing description of street",
-    "notice_type_raw_zh": "取代街道說明",
-    "notice_type_normalized": "replace_description",
-    "notice_no": "GN996",
-    "government_notice_label_en": "G.N.996",
-    "government_notice_label_zh": "第996號",
-    "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2026/egn20263007996.pdf",
-    "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2026/cgn20263007996.pdf",
-    "related_gazette_plan_urls_en": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2026/KRM150.pdf"
-    ],
-    "related_gazette_plan_urls_zh": [
-      "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2026/KRM150.pdf"
-    ],
-    "related_gazette_plan_labels_en": [
-      "KRM150"
-    ],
-    "related_gazette_plan_labels_zh": [
-      "KRM150"
-    ],
-    "year_bucket": 2026,
-    "is_declaration_event": false
   },
   {
     "event_id": "2026-03-27|GN1839|0",
