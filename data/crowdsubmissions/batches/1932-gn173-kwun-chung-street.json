@@ -1,0 +1,25 @@
+{
+  "batch_id": "1932-gn173-kwun-chung-street",
+  "gazette_notice_label": "Government Notification No. 173",
+  "publication_date": "1932-03-18",
+  "gazette_url_en": "/egazette/en/1932-gn173.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/187327.pdf",
+  "streets": [
+    {
+      "street_code": "11141",
+      "english_name": "KWUN CHUNG STREET",
+      "chinese_name": "官涌街",
+      "history": [
+        {
+          "publication_date": "1932-03-18",
+          "change_kind": "declare",
+          "street_name_en": "Kwun Chung Street",
+          "street_name_zh": "官涌街",
+          "gazette_notice_label": "Government Notification No. 173",
+          "proof_pdf_url": "/egazette/en/1932-gn173.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

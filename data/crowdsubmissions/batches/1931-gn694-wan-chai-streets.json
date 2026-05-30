@@ -1,0 +1,58 @@
+{
+  "batch_id": "1931-gn694-wan-chai-streets",
+  "gazette_notice_label": "Government Notification No. 694",
+  "publication_date": "1931-10-30",
+  "gazette_url_en": "/egazette/en/1931-gn694.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/619953.pdf",
+  "streets": [
+    {
+      "street_code": "10892",
+      "english_name": "JAFFE ROAD",
+      "chinese_name": "謝斐道",
+      "history": [
+        {
+          "publication_date": "1931-10-30",
+          "change_kind": "declare",
+          "street_name_en": "Jaffé Road",
+          "street_name_zh": "謝斐道",
+          "gazette_notice_label": "Government Notification No. 694",
+          "proof_pdf_url": "/egazette/en/1931-gn694.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12354",
+      "english_name": "THOMSON ROAD",
+      "chinese_name": "譚臣道",
+      "history": [
+        {
+          "publication_date": "1931-10-30",
+          "change_kind": "declare",
+          "street_name_en": "Thomson Road",
+          "street_name_zh": "譚臣道",
+          "gazette_notice_label": "Government Notification No. 694",
+          "proof_pdf_url": "/egazette/en/1931-gn694.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12413",
+      "english_name": "TSING CHAU STREET",
+      "chinese_name": "青州街",
+      "history": [
+        {
+          "publication_date": "1931-10-30",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Chau Street",
+          "street_name_zh": "青洲街",
+          "gazette_notice_label": "Government Notification No. 694",
+          "proof_pdf_url": "/egazette/en/1931-gn694.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 青洲街; database 青州街."
+        }
+      ]
+    }
+  ]
+}

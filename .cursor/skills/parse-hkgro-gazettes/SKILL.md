@@ -53,7 +53,7 @@ DESCRIPTION  |  FUTURE NAME  |  CHINESE VERSION
 Extract per row:
 - English name (strip trailing `.`)
 - Chinese name
-- Description → `submitter_remarks`
+- Description (use for **matching/disambiguation only** — do not store in batch unless names mismatch)
 - Shared: notice `No. N`, gazette header date, `change_kind: declare`
 
 ## Step 2 — Match every street to GeoJSON
@@ -74,8 +74,8 @@ Then verify geometry:
 
 | Match result | Action |
 |--------------|--------|
-| EN + ZH exact, code in GeoJSON | Apply |
-| EN exact, ZH differs slightly (e.g. 連合道 vs 連道) | Apply with location in `submitter_remarks`; card auto-shows Chinese mismatch |
+| EN + ZH exact, code in GeoJSON | Apply — **no** `submitter_remarks` |
+| EN exact, ZH differs slightly (e.g. 連合道 vs 連道) | Apply; `submitter_remarks` notes mismatch only (e.g. `Gazette ZH 連合道; database 連道.`) |
 | EN matches, not in GeoJSON | **Skip** — report to user |
 | No match | **Skip** — report to user |
 | Multiple EN matches | Use DESCRIPTION (lots, intersecting roads) to pick one; else ask user |
@@ -93,7 +93,6 @@ Prefer `street_code` over name-only matching once confirmed.
   "publication_date": "1931-05-15",
   "gazette_url_en": "/egazette/en/1931-gn300.pdf",
   "pdf_en": "/absolute/path/to/618645.pdf",
-  "remarks": "HKGRO g1931/618645.pdf — 15 streets declared in one notice.",
   "streets": [
     {
       "street_code": "12167",
@@ -106,8 +105,7 @@ Prefer `street_code` over name-only matching once confirmed.
         "street_name_zh": "糖街",
         "gazette_notice_label": "Government Notification No. 300",
         "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
-        "evidence_level": "gazette",
-        "submitter_remarks": "Street off Yee Wo Street…"
+        "evidence_level": "gazette"
       }]
     }
   ]
@@ -115,6 +113,10 @@ Prefer `street_code` over name-only matching once confirmed.
 ```
 
 Rules:
+- **Omit `submitter_remarks`** when gazette English and Chinese both match the database exactly.
+- **Include `submitter_remarks` only** when gazette EN or ZH differs from the matched record (e.g. `Gazette ZH 連合道; database 連道.`).
+- **Never** store gazette DESCRIPTION text or lot references in remarks.
+- **Never** auto-fill batch-level `remarks` or generic “Batch G.N. … community submission” text — omit `submitter_remarks` unless gazette EN/ZH ≠ database.
 - **Never** store `sunzi.lib.hku.hk` as primary URL — only `/egazette/en/…`.
 - All streets in one notice share the same date, G.N., and hosted PDF.
 - Save to `data/crowdsubmissions/batches/{year}-gn{no}-{slug}.json`.

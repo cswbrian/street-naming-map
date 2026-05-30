@@ -27,7 +27,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "1"
   },
@@ -59,7 +59,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch GN8104 community submission",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "2004-gn8104-14199",
     "notice_stem": "2004-08-51-8104"
@@ -92,7 +92,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch GN8104 community submission",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "2004-gn8104-14200",
     "notice_stem": "2004-08-51-8104"
@@ -125,7 +125,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch GN8104 community submission",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "2004-gn8104-14201",
     "notice_stem": "2004-08-51-8104"
@@ -158,7 +158,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch GN8104 community submission",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "2004-gn8104-14202",
     "notice_stem": "2004-08-51-8104"
@@ -191,7 +191,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch GN8104 community submission",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "2004-gn8104-14203",
     "notice_stem": "2004-08-51-8104"
@@ -224,7 +224,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch GN8104 community submission",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "2004-gn8104-14204",
     "notice_stem": "2004-08-51-8104"
@@ -257,7 +257,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch GN8104 community submission",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "2004-gn8104-14205",
     "notice_stem": "2004-08-51-8104"
@@ -290,7 +290,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch GN8104 community submission",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "2004-gn8104-14206",
     "notice_stem": "2004-08-51-8104"
@@ -323,7 +323,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch GN8104 community submission",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "2004-gn8104-14207",
     "notice_stem": "2004-08-51-8104"
@@ -356,7 +356,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch GN8104 community submission",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "2004-gn8104-14208",
     "notice_stem": "2004-08-51-8104"
@@ -389,7 +389,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch GN8104 community submission",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "2004-gn8104-1",
     "notice_stem": "2004-08-51-8104"
@@ -422,7 +422,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch GN8104 community submission",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "2004-gn8104-2",
     "notice_stem": "2004-08-51-8104"
@@ -455,7 +455,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch GN8104 community submission",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "2004-gn8104-14201",
     "notice_stem": "2004-08-51-8104"
@@ -488,7 +488,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch G.N.8428 community submission",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "2004-gn8428-1",
     "notice_stem": "2004-08-53-8428"
@@ -521,7 +521,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch G.N.8478 community submission",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "2003-gn8478-14171",
     "notice_stem": "2003-07-49-8748"
@@ -554,7 +554,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch G.N.5146 community submission",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "2002-gn5146-14124",
     "notice_stem": "2002-06-34-5146"
@@ -587,7 +587,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch G.N.4729 community submission",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "2003-gn4729-14164",
     "notice_stem": "2003-07-28-4729"
@@ -620,7 +620,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch G.N.4729 community submission",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "2003-gn4729-14165",
     "notice_stem": "2003-07-28-4729"
@@ -653,7 +653,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch G.N.8574 community submission",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "2003-gn8574-14170",
     "notice_stem": "2003-07-48-8574"
@@ -686,7 +686,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch G.N.996 community submission (bilingual PDF)",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "1975-gn996-10669"
   },
@@ -718,7 +718,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch G.N.586 community submission (bilingual PDF)",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "1975-gn586-11184"
   },
@@ -750,7 +750,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch G.N.1043 community submission (bilingual PDF)",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "1979-gn1043-11610"
   },
@@ -782,7 +782,7 @@
     "is_declaration_event": true,
     "evidence_level": "gazette",
     "proof_pdf_url": null,
-    "submitter_remarks": "Batch G.N.158 community submission (HKU HKGRO gazette scan)",
+    "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "1905-gn158-10599"
   }

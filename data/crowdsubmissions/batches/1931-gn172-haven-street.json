@@ -4,7 +4,6 @@
   "publication_date": "1931-03-20",
   "gazette_url_en": "/egazette/en/1931-gn172.pdf",
   "pdf_en": "data/crowdsubmissions/batch-inbox/1931-gn172-haven/1931-gn172.pdf",
-  "remarks": "HKGRO g1931/618213.pdf — private street off Caroline Road named Haven Street (希雲街).",
   "streets": [
     {
       "street_code": "10675",
@@ -18,8 +17,7 @@
           "street_name_zh": "希雲街",
           "gazette_notice_label": "Government Notification No. 172",
           "government_notice_url_en": "/egazette/en/1931-gn172.pdf",
-          "evidence_level": "gazette",
-          "submitter_remarks": "Private street off Caroline Road, c. 45 yds NE of Pennington Street (I.L. 2147 RP); G.N.172."
+          "evidence_level": "gazette"
         }
       ]
     }

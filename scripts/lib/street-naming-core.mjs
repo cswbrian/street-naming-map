@@ -592,7 +592,7 @@ export function buildCrowdEventsFromStreetEntry(street, batchDefaults = {}) {
         null,
       evidence_level: evidenceLevel,
       is_declaration_event: entry.is_declaration_event,
-      submitter_remarks: entry.submitter_remarks ?? entry.remarks ?? batchDefaults.remarks ?? null,
+      submitter_remarks: entry.submitter_remarks ?? entry.remarks ?? null,
       reviewed_at: entry.reviewed_at ?? batchDefaults.reviewed_at ?? null,
     })
   })

@@ -1,0 +1,105 @@
+{
+  "batch_id": "1932-gn245-ap-lei-chau-streets",
+  "gazette_notice_label": "Government Notification No. 245",
+  "publication_date": "1932-04-22",
+  "gazette_url_en": "/egazette/en/1932-gn245.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/187588.pdf",
+  "streets": [
+    {
+      "street_code": "10873",
+      "english_name": "HUNG SHING STREET",
+      "chinese_name": "洪聖街",
+      "history": [
+        {
+          "publication_date": "1932-04-22",
+          "change_kind": "declare",
+          "street_name_en": "Hung Shing Street",
+          "street_name_zh": "洪聖街",
+          "gazette_notice_label": "Government Notification No. 245",
+          "proof_pdf_url": "/egazette/en/1932-gn245.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10750",
+      "english_name": "HO KING STREET",
+      "chinese_name": "好景街",
+      "history": [
+        {
+          "publication_date": "1932-04-22",
+          "change_kind": "declare",
+          "street_name_en": "Ho King Street",
+          "street_name_zh": "好景街",
+          "gazette_notice_label": "Government Notification No. 245",
+          "proof_pdf_url": "/egazette/en/1932-gn245.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11908",
+      "english_name": "SAN SHI STREET",
+      "chinese_name": "新市街",
+      "history": [
+        {
+          "publication_date": "1932-04-22",
+          "change_kind": "declare",
+          "street_name_en": "San Shi Street",
+          "street_name_zh": "新市街",
+          "gazette_notice_label": "Government Notification No. 245",
+          "proof_pdf_url": "/egazette/en/1932-gn245.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12603",
+      "english_name": "WAI FUNG STREET",
+      "chinese_name": "惠風街",
+      "history": [
+        {
+          "publication_date": "1932-04-22",
+          "change_kind": "declare",
+          "street_name_en": "Wai Fung Street",
+          "street_name_zh": "惠風街",
+          "gazette_notice_label": "Government Notification No. 245",
+          "proof_pdf_url": "/egazette/en/1932-gn245.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11708",
+      "english_name": "PING LAN STREET",
+      "chinese_name": "平瀾街",
+      "history": [
+        {
+          "publication_date": "1932-04-22",
+          "change_kind": "declare",
+          "street_name_en": "Ping Lan Street",
+          "street_name_zh": "平瀾街",
+          "gazette_notice_label": "Government Notification No. 245",
+          "proof_pdf_url": "/egazette/en/1932-gn245.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11981",
+      "english_name": "SHAN MING STREET",
+      "chinese_name": "山明街",
+      "history": [
+        {
+          "publication_date": "1932-04-22",
+          "change_kind": "declare",
+          "street_name_en": "Shan Ming Street",
+          "street_name_zh": "山明街",
+          "gazette_notice_label": "Government Notification No. 245",
+          "proof_pdf_url": "/egazette/en/1932-gn245.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

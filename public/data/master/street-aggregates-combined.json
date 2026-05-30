@@ -134,7 +134,7 @@
         "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch G.N.158 community submission (HKU HKGRO gazette scan)"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -166,7 +166,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch G.N.158 community submission (HKU HKGRO gazette scan)",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1905-gn158-10599"
       }
@@ -1605,7 +1605,7 @@
         "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": ""
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -1637,7 +1637,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1"
       }
@@ -1706,6 +1706,70 @@
     "event_count": 1
   },
   {
+    "street_key": "code:12940",
+    "street_code": "12940",
+    "street_name_en": "Yuk Sau Street",
+    "street_name_zh": "毓秀街",
+    "canonical_naming_date": "1930-03-07",
+    "canonical_naming_year": 1930,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1930-03-07",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1930-03-07",
+        "change_kind": "declare",
+        "name_en": "Yuk Sau Street",
+        "name_zh": "毓秀街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.590",
+        "notice_label_zh": "第590號",
+        "notice_url_en": "/egazette/en/1932-gn590.pdf",
+        "notice_url_zh": "/egazette/zh/1932-gn590.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": "Gazette EN Yau Sau Street in G.N.138 (1930-03-07); corrected to Yuk Sau Street in G.N.590."
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1932-gn590-yuk-sau-street-12940-1930-03-07",
+        "source": "crowdsubmitted",
+        "street_code": "12940",
+        "publication_date": "1930-03-07",
+        "change_kind": "declare",
+        "street_name_en": "Yuk Sau Street",
+        "street_name_zh": "毓秀街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN590",
+        "government_notice_label_en": "G.N.590",
+        "government_notice_label_zh": "第590號",
+        "government_notice_url_en": "/egazette/en/1932-gn590.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn590.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1930,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": "Gazette EN Yau Sau Street in G.N.138 (1930-03-07); corrected to Yuk Sau Street in G.N.590.",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1932-gn590-yuk-sau-street-12940-1930-03-07",
+        "notice_stem": "1932-gn590"
+      }
+    ],
+    "event_count": 1
+  },
+  {
     "street_key": "code:12315",
     "street_code": "12315",
     "street_name_en": "Tak Shing Street",
@@ -1729,7 +1793,7 @@
         "notice_url_zh": "/egazette/zh/1931-gn58.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Street commencing at Nathan Road NW corner of K.I.L. 1134, parallel to Austin Road through K.I.L. 1297, junction with Cox's Road; G.N.58."
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -1761,10 +1825,394 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": "/egazette/en/1931-gn58.pdf",
-        "submitter_remarks": "Street commencing at Nathan Road NW corner of K.I.L. 1134, parallel to Austin Road through K.I.L. 1297, junction with Cox's Road; G.N.58.",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1931-gn58-tak-shing-12315-1931-01-30",
         "notice_stem": "1931-gn58"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:12216",
+    "street_code": "12216",
+    "street_name_en": "Tai Hang Road",
+    "street_name_zh": "大坑道",
+    "canonical_naming_date": "1931-02-13",
+    "canonical_naming_year": 1931,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1931-02-13",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1931-02-13",
+        "change_kind": "declare",
+        "name_en": "Tai Hang Road",
+        "name_zh": "大坑道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.86",
+        "notice_label_zh": "第86號",
+        "notice_url_en": "/egazette/en/1931-gn86.pdf",
+        "notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1931-gn86-tai-hang-lok-shan-12216-1931-02-13",
+        "source": "crowdsubmitted",
+        "street_code": "12216",
+        "publication_date": "1931-02-13",
+        "change_kind": "declare",
+        "street_name_en": "Tai Hang Road",
+        "street_name_zh": "大坑道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN86",
+        "government_notice_label_en": "G.N.86",
+        "government_notice_label_zh": "第86號",
+        "government_notice_url_en": "/egazette/en/1931-gn86.pdf",
+        "government_notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1931,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1931-gn86-tai-hang-lok-shan-12216-1931-02-13",
+        "notice_stem": "1931-gn86"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:12862",
+    "street_code": "12862",
+    "street_name_en": "Yik Kwan Avenue",
+    "street_name_zh": "益群道",
+    "canonical_naming_date": "1931-02-13",
+    "canonical_naming_year": 1931,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1931-02-13",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1931-02-13",
+        "change_kind": "declare",
+        "name_en": "Yik Kwan Avenue",
+        "name_zh": "益群道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.86",
+        "notice_label_zh": "第86號",
+        "notice_url_en": "/egazette/en/1931-gn86.pdf",
+        "notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1931-gn86-tai-hang-lok-shan-12862-1931-02-13",
+        "source": "crowdsubmitted",
+        "street_code": "12862",
+        "publication_date": "1931-02-13",
+        "change_kind": "declare",
+        "street_name_en": "Yik Kwan Avenue",
+        "street_name_zh": "益群道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN86",
+        "government_notice_label_en": "G.N.86",
+        "government_notice_label_zh": "第86號",
+        "government_notice_url_en": "/egazette/en/1931-gn86.pdf",
+        "government_notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1931,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1931-gn86-tai-hang-lok-shan-12862-1931-02-13",
+        "notice_stem": "1931-gn86"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:11222",
+    "street_code": "11222",
+    "street_name_en": "Li Kwan Avenue",
+    "street_name_zh": "利群道",
+    "canonical_naming_date": "1931-02-13",
+    "canonical_naming_year": 1931,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1931-02-13",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1931-02-13",
+        "change_kind": "declare",
+        "name_en": "Li Kwan Avenue",
+        "name_zh": "利群道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.86",
+        "notice_label_zh": "第86號",
+        "notice_url_en": "/egazette/en/1931-gn86.pdf",
+        "notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1931-gn86-tai-hang-lok-shan-11222-1931-02-13",
+        "source": "crowdsubmitted",
+        "street_code": "11222",
+        "publication_date": "1931-02-13",
+        "change_kind": "declare",
+        "street_name_en": "Li Kwan Avenue",
+        "street_name_zh": "利群道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN86",
+        "government_notice_label_en": "G.N.86",
+        "government_notice_label_zh": "第86號",
+        "government_notice_url_en": "/egazette/en/1931-gn86.pdf",
+        "government_notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1931,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1931-gn86-tai-hang-lok-shan-11222-1931-02-13",
+        "notice_stem": "1931-gn86"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10548",
+    "street_code": "10548",
+    "street_name_en": "Fuk Kwan Avenue",
+    "street_name_zh": "福群道",
+    "canonical_naming_date": "1931-02-13",
+    "canonical_naming_year": 1931,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1931-02-13",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1931-02-13",
+        "change_kind": "declare",
+        "name_en": "Fuk Kwan Avenue",
+        "name_zh": "福群道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.86",
+        "notice_label_zh": "第86號",
+        "notice_url_en": "/egazette/en/1931-gn86.pdf",
+        "notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1931-gn86-tai-hang-lok-shan-10548-1931-02-13",
+        "source": "crowdsubmitted",
+        "street_code": "10548",
+        "publication_date": "1931-02-13",
+        "change_kind": "declare",
+        "street_name_en": "Fuk Kwan Avenue",
+        "street_name_zh": "福群道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN86",
+        "government_notice_label_en": "G.N.86",
+        "government_notice_label_zh": "第86號",
+        "government_notice_url_en": "/egazette/en/1931-gn86.pdf",
+        "government_notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1931,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1931-gn86-tai-hang-lok-shan-10548-1931-02-13",
+        "notice_stem": "1931-gn86"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:11263",
+    "street_code": "11263",
+    "street_name_en": "Lok Shan Road",
+    "street_name_zh": "落山道",
+    "canonical_naming_date": "1931-02-13",
+    "canonical_naming_year": 1931,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1931-02-13",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1931-02-13",
+        "change_kind": "declare",
+        "name_en": "Lok Shan Road",
+        "name_zh": "落山道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.86",
+        "notice_label_zh": "第86號",
+        "notice_url_en": "/egazette/en/1931-gn86.pdf",
+        "notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1931-gn86-tai-hang-lok-shan-11263-1931-02-13",
+        "source": "crowdsubmitted",
+        "street_code": "11263",
+        "publication_date": "1931-02-13",
+        "change_kind": "declare",
+        "street_name_en": "Lok Shan Road",
+        "street_name_zh": "落山道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN86",
+        "government_notice_label_en": "G.N.86",
+        "government_notice_label_zh": "第86號",
+        "government_notice_url_en": "/egazette/en/1931-gn86.pdf",
+        "government_notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1931,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1931-gn86-tai-hang-lok-shan-11263-1931-02-13",
+        "notice_stem": "1931-gn86"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10202",
+    "street_code": "10202",
+    "street_name_en": "Cheung Ning Street",
+    "street_name_zh": "長寧街",
+    "canonical_naming_date": "1931-02-13",
+    "canonical_naming_year": 1931,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1931-02-13",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1931-02-13",
+        "change_kind": "declare",
+        "name_en": "Cheung Ning Street",
+        "name_zh": "長寧街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.86",
+        "notice_label_zh": "第86號",
+        "notice_url_en": "/egazette/en/1931-gn86.pdf",
+        "notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1931-gn86-tai-hang-lok-shan-10202-1931-02-13",
+        "source": "crowdsubmitted",
+        "street_code": "10202",
+        "publication_date": "1931-02-13",
+        "change_kind": "declare",
+        "street_name_en": "Cheung Ning Street",
+        "street_name_zh": "長寧街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN86",
+        "government_notice_label_en": "G.N.86",
+        "government_notice_label_zh": "第86號",
+        "government_notice_url_en": "/egazette/en/1931-gn86.pdf",
+        "government_notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1931,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1931-gn86-tai-hang-lok-shan-10202-1931-02-13",
+        "notice_stem": "1931-gn86"
       }
     ],
     "event_count": 1
@@ -1793,7 +2241,7 @@
         "notice_url_zh": "/egazette/zh/1931-gn172.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Private street off Caroline Road, c. 45 yds NE of Pennington Street (I.L. 2147 RP); G.N.172. HKGRO: https://sunzi.lib.hku.hk/hkgro/view/g1931/618213.pdf"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -1825,7 +2273,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": "/egazette/en/1931-gn172.pdf",
-        "submitter_remarks": "Private street off Caroline Road, c. 45 yds NE of Pennington Street (I.L. 2147 RP); G.N.172. HKGRO: https://sunzi.lib.hku.hk/hkgro/view/g1931/618213.pdf",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1931-gn172-haven-10675-1931-03-20",
         "notice_stem": "1931-gn172"
@@ -1857,7 +2305,7 @@
         "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Street off Yee Wo Street, SW corner of I.L. 781, parallel with Great George Street, terminating at Praya Wall and eastern corner of I.L. 782."
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -1889,7 +2337,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Street off Yee Wo Street, SW corner of I.L. 781, parallel with Great George Street, terminating at Praya Wall and eastern corner of I.L. 782.",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1931-gn300-shaukiwan-streets-12167-1931-05-15",
         "notice_stem": "1931-gn300"
@@ -1921,7 +2369,7 @@
         "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Road off Shaukiwan Road, SE corner of S.I.L. 505, northerly between S.I.Ls. 107 & 534, passing Nam On Street, terminating at junction with new Praya."
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -1953,7 +2401,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Road off Shaukiwan Road, SE corner of S.I.L. 505, northerly between S.I.Ls. 107 & 534, passing Nam On Street, terminating at junction with new Praya.",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1931-gn300-shaukiwan-streets-10013-1931-05-15",
         "notice_stem": "1931-gn300"
@@ -1985,7 +2433,7 @@
         "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Street off Shaukiwan Road, SW corner of S.I.L. 104, north-easterly between S.I.Ls. 105 and 104, terminating at junction with Factory Street."
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -2017,7 +2465,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Street off Shaukiwan Road, SW corner of S.I.L. 104, north-easterly between S.I.Ls. 105 and 104, terminating at junction with Factory Street.",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1931-gn300-shaukiwan-streets-10307-1931-05-15",
         "notice_stem": "1931-gn300"
@@ -2049,7 +2497,7 @@
         "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Street off Aldrich Street, NW corner of S.I.L. 107, south-easterly past SE corner of S.I.L. 446, terminating at junction with Shaukiwan Road."
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -2081,7 +2529,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Street off Aldrich Street, NW corner of S.I.L. 107, south-easterly past SE corner of S.I.L. 446, terminating at junction with Shaukiwan Road.",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1931-gn300-shaukiwan-streets-10420-1931-05-15",
         "notice_stem": "1931-gn300"
@@ -2113,7 +2561,7 @@
         "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Street off Factory Street, SW corner of S.I.L. 512, northerly, terminating at junction with Kam Wah Street."
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -2145,7 +2593,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Street off Factory Street, SW corner of S.I.L. 512, northerly, terminating at junction with Kam Wah Street.",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1931-gn300-shaukiwan-streets-12273-1931-05-15",
         "notice_stem": "1931-gn300"
@@ -2177,7 +2625,7 @@
         "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Street off Factory Street, SW corner of S.I.L. 448, parallel with Tai Tak Street, terminating at junction with Kam Wah Street."
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -2209,7 +2657,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Street off Factory Street, SW corner of S.I.L. 448, parallel with Tai Tak Street, terminating at junction with Kam Wah Street.",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1931-gn300-shaukiwan-streets-11455-1931-05-15",
         "notice_stem": "1931-gn300"
@@ -2241,7 +2689,7 @@
         "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Street off Shaukiwan Road, SE corner of M.L. 277, north-westerly between M.Ls. 277 and 290, terminating at sea wall."
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -2273,7 +2721,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Street off Shaukiwan Road, SE corner of M.L. 277, north-westerly between M.Ls. 277 and 290, terminating at sea wall.",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1931-gn300-shaukiwan-streets-11566-1931-05-15",
         "notice_stem": "1931-gn300"
@@ -2305,7 +2753,7 @@
         "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Street off Shaukiwan Road, NE corner of I.L. 1617, south-easterly between I.Ls. 2358 and 2322, terminating at eastern corner of I.L. 2358 and new 100' road."
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -2337,7 +2785,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Street off Shaukiwan Road, NE corner of I.L. 1617, south-easterly between I.Ls. 2358 and 2322, terminating at eastern corner of I.L. 2358 and new 100' road.",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1931-gn300-shaukiwan-streets-10068-1931-05-15",
         "notice_stem": "1931-gn300"
@@ -2369,7 +2817,7 @@
         "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Street off Shaukiwan Road, NE corner of I.L. 1618, parallel with Boat Street, terminating at eastern corner of I.L. 2316 and new 100' road."
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -2401,7 +2849,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Street off Shaukiwan Road, NE corner of I.L. 1618, parallel with Boat Street, terminating at eastern corner of I.L. 2316 and new 100' road.",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1931-gn300-shaukiwan-streets-10564-1931-05-15",
         "notice_stem": "1931-gn300"
@@ -2433,7 +2881,7 @@
         "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Street off Shaukiwan Road, SE corner of M.L. 321, north-westerly between M.Ls. 321 and 130, terminating at new praya wall."
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -2465,7 +2913,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Street off Shaukiwan Road, SE corner of M.L. 321, north-westerly between M.Ls. 321 and 130, terminating at new praya wall.",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1931-gn300-shaukiwan-streets-11781-1931-05-15",
         "notice_stem": "1931-gn300"
@@ -2497,7 +2945,7 @@
         "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Road off Watson Road, NE corner of M.L. 396, parallel with Whitfield Road, terminating at sea wall and SE corner of M.L. 285."
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -2529,7 +2977,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Road off Watson Road, NE corner of M.L. 396, parallel with Whitfield Road, terminating at sea wall and SE corner of M.L. 285.",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1931-gn300-shaukiwan-streets-11027-1931-05-15",
         "notice_stem": "1931-gn300"
@@ -2561,7 +3009,7 @@
         "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Street off Whitfield Road, SE of I.L. 2204, north-westerly, terminating at junction with Vacuum Road."
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -2593,7 +3041,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Street off Whitfield Road, SE of I.L. 2204, north-westerly, terminating at junction with Vacuum Road.",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1931-gn300-shaukiwan-streets-10606-1931-05-15",
         "notice_stem": "1931-gn300"
@@ -2625,7 +3073,7 @@
         "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Road off Broadwood Road, NW corner of I.L. 1946, northerly to Caroline Hill Road junction."
+        "submitter_remarks": "Gazette ZH 連合道; database 連道."
       }
     ],
     "event_history": [
@@ -2657,7 +3105,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Road off Broadwood Road, NW corner of I.L. 1946, northerly to Caroline Hill Road junction.",
+        "submitter_remarks": "Gazette ZH 連合道; database 連道.",
         "reviewed_at": "2026-05-30",
         "submission_id": "1931-gn300-shaukiwan-streets-11240-1931-05-15",
         "notice_stem": "1931-gn300"
@@ -2689,7 +3137,7 @@
         "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Path off Caroline Hill Road, SW corner of I.L. 2147, north-easterly and northerly at side of I.L. 1018, terminating at junction with Shaukiwan Road."
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -2721,7 +3169,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Path off Caroline Hill Road, SW corner of I.L. 2147, north-easterly and northerly at side of I.L. 1018, terminating at junction with Shaukiwan Road.",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1931-gn300-shaukiwan-streets-10341-1931-05-15",
         "notice_stem": "1931-gn300"
@@ -2753,7 +3201,7 @@
         "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Road off Shaukiwan Road, NW corner of I.L. 1900, passing I.Ls. 2532, 2121, 1879 and 2686 (Tung Wah Eastern Hospital), terminating at junction with Caroline Hill Road."
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -2785,10 +3233,1226 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Road off Shaukiwan Road, NW corner of I.L. 1900, passing I.Ls. 2532, 2121, 1879 and 2686 (Tung Wah Eastern Hospital), terminating at junction with Caroline Hill Road.",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1931-gn300-shaukiwan-streets-10400-1931-05-15",
         "notice_stem": "1931-gn300"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10892",
+    "street_code": "10892",
+    "street_name_en": "Jaffé Road",
+    "street_name_zh": "謝斐道",
+    "canonical_naming_date": "1931-10-30",
+    "canonical_naming_year": 1931,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1931-10-30",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1931-10-30",
+        "change_kind": "declare",
+        "name_en": "Jaffé Road",
+        "name_zh": "謝斐道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.694",
+        "notice_label_zh": "第694號",
+        "notice_url_en": "/egazette/en/1931-gn694.pdf",
+        "notice_url_zh": "/egazette/zh/1931-gn694.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1931-gn694-wan-chai-streets-10892-1931-10-30",
+        "source": "crowdsubmitted",
+        "street_code": "10892",
+        "publication_date": "1931-10-30",
+        "change_kind": "declare",
+        "street_name_en": "Jaffé Road",
+        "street_name_zh": "謝斐道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN694",
+        "government_notice_label_en": "G.N.694",
+        "government_notice_label_zh": "第694號",
+        "government_notice_url_en": "/egazette/en/1931-gn694.pdf",
+        "government_notice_url_zh": "/egazette/zh/1931-gn694.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1931,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1931-gn694-wan-chai-streets-10892-1931-10-30",
+        "notice_stem": "1931-gn694"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:12354",
+    "street_code": "12354",
+    "street_name_en": "Thomson Road",
+    "street_name_zh": "譚臣道",
+    "canonical_naming_date": "1931-10-30",
+    "canonical_naming_year": 1931,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1931-10-30",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1931-10-30",
+        "change_kind": "declare",
+        "name_en": "Thomson Road",
+        "name_zh": "譚臣道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.694",
+        "notice_label_zh": "第694號",
+        "notice_url_en": "/egazette/en/1931-gn694.pdf",
+        "notice_url_zh": "/egazette/zh/1931-gn694.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1931-gn694-wan-chai-streets-12354-1931-10-30",
+        "source": "crowdsubmitted",
+        "street_code": "12354",
+        "publication_date": "1931-10-30",
+        "change_kind": "declare",
+        "street_name_en": "Thomson Road",
+        "street_name_zh": "譚臣道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN694",
+        "government_notice_label_en": "G.N.694",
+        "government_notice_label_zh": "第694號",
+        "government_notice_url_en": "/egazette/en/1931-gn694.pdf",
+        "government_notice_url_zh": "/egazette/zh/1931-gn694.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1931,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1931-gn694-wan-chai-streets-12354-1931-10-30",
+        "notice_stem": "1931-gn694"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:12413",
+    "street_code": "12413",
+    "street_name_en": "Tsing Chau Street",
+    "street_name_zh": "青洲街",
+    "canonical_naming_date": "1931-10-30",
+    "canonical_naming_year": 1931,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1931-10-30",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1931-10-30",
+        "change_kind": "declare",
+        "name_en": "Tsing Chau Street",
+        "name_zh": "青洲街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.694",
+        "notice_label_zh": "第694號",
+        "notice_url_en": "/egazette/en/1931-gn694.pdf",
+        "notice_url_zh": "/egazette/zh/1931-gn694.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": "Gazette ZH 青洲街; database 青州街."
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1931-gn694-wan-chai-streets-12413-1931-10-30",
+        "source": "crowdsubmitted",
+        "street_code": "12413",
+        "publication_date": "1931-10-30",
+        "change_kind": "declare",
+        "street_name_en": "Tsing Chau Street",
+        "street_name_zh": "青洲街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN694",
+        "government_notice_label_en": "G.N.694",
+        "government_notice_label_zh": "第694號",
+        "government_notice_url_en": "/egazette/en/1931-gn694.pdf",
+        "government_notice_url_zh": "/egazette/zh/1931-gn694.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1931,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": "Gazette ZH 青洲街; database 青州街.",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1931-gn694-wan-chai-streets-12413-1931-10-30",
+        "notice_stem": "1931-gn694"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10620",
+    "street_code": "10620",
+    "street_name_en": "Grampian Road",
+    "street_name_zh": "嘉林邊道",
+    "canonical_naming_date": "1932-02-19",
+    "canonical_naming_year": 1932,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1932-02-19",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1932-02-19",
+        "change_kind": "declare",
+        "name_en": "Grampian Road",
+        "name_zh": "嘉林邊道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.107",
+        "notice_label_zh": "第107號",
+        "notice_url_en": "/egazette/en/1932-gn107.pdf",
+        "notice_url_zh": "/egazette/zh/1932-gn107.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1932-gn107-grampian-road-10620-1932-02-19",
+        "source": "crowdsubmitted",
+        "street_code": "10620",
+        "publication_date": "1932-02-19",
+        "change_kind": "declare",
+        "street_name_en": "Grampian Road",
+        "street_name_zh": "嘉林邊道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN107",
+        "government_notice_label_en": "G.N.107",
+        "government_notice_label_zh": "第107號",
+        "government_notice_url_en": "/egazette/en/1932-gn107.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn107.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1932,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1932-gn107-grampian-road-10620-1932-02-19",
+        "notice_stem": "1932-gn107"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:11141",
+    "street_code": "11141",
+    "street_name_en": "Kwun Chung Street",
+    "street_name_zh": "官涌街",
+    "canonical_naming_date": "1932-03-18",
+    "canonical_naming_year": 1932,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1932-03-18",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1932-03-18",
+        "change_kind": "declare",
+        "name_en": "Kwun Chung Street",
+        "name_zh": "官涌街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.173",
+        "notice_label_zh": "第173號",
+        "notice_url_en": "/egazette/en/1932-gn173.pdf",
+        "notice_url_zh": "/egazette/zh/1932-gn173.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1932-gn173-kwun-chung-street-11141-1932-03-18",
+        "source": "crowdsubmitted",
+        "street_code": "11141",
+        "publication_date": "1932-03-18",
+        "change_kind": "declare",
+        "street_name_en": "Kwun Chung Street",
+        "street_name_zh": "官涌街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN173",
+        "government_notice_label_en": "G.N.173",
+        "government_notice_label_zh": "第173號",
+        "government_notice_url_en": "/egazette/en/1932-gn173.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn173.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1932,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1932-gn173-kwun-chung-street-11141-1932-03-18",
+        "notice_stem": "1932-gn173"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10873",
+    "street_code": "10873",
+    "street_name_en": "Hung Shing Street",
+    "street_name_zh": "洪聖街",
+    "canonical_naming_date": "1932-04-22",
+    "canonical_naming_year": 1932,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1932-04-22",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1932-04-22",
+        "change_kind": "declare",
+        "name_en": "Hung Shing Street",
+        "name_zh": "洪聖街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.245",
+        "notice_label_zh": "第245號",
+        "notice_url_en": "/egazette/en/1932-gn245.pdf",
+        "notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1932-gn245-ap-lei-chau-streets-10873-1932-04-22",
+        "source": "crowdsubmitted",
+        "street_code": "10873",
+        "publication_date": "1932-04-22",
+        "change_kind": "declare",
+        "street_name_en": "Hung Shing Street",
+        "street_name_zh": "洪聖街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN245",
+        "government_notice_label_en": "G.N.245",
+        "government_notice_label_zh": "第245號",
+        "government_notice_url_en": "/egazette/en/1932-gn245.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1932,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1932-gn245-ap-lei-chau-streets-10873-1932-04-22",
+        "notice_stem": "1932-gn245"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10750",
+    "street_code": "10750",
+    "street_name_en": "Ho King Street",
+    "street_name_zh": "好景街",
+    "canonical_naming_date": "1932-04-22",
+    "canonical_naming_year": 1932,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1932-04-22",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1932-04-22",
+        "change_kind": "declare",
+        "name_en": "Ho King Street",
+        "name_zh": "好景街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.245",
+        "notice_label_zh": "第245號",
+        "notice_url_en": "/egazette/en/1932-gn245.pdf",
+        "notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1932-gn245-ap-lei-chau-streets-10750-1932-04-22",
+        "source": "crowdsubmitted",
+        "street_code": "10750",
+        "publication_date": "1932-04-22",
+        "change_kind": "declare",
+        "street_name_en": "Ho King Street",
+        "street_name_zh": "好景街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN245",
+        "government_notice_label_en": "G.N.245",
+        "government_notice_label_zh": "第245號",
+        "government_notice_url_en": "/egazette/en/1932-gn245.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1932,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1932-gn245-ap-lei-chau-streets-10750-1932-04-22",
+        "notice_stem": "1932-gn245"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:11908",
+    "street_code": "11908",
+    "street_name_en": "San Shi Street",
+    "street_name_zh": "新市街",
+    "canonical_naming_date": "1932-04-22",
+    "canonical_naming_year": 1932,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1932-04-22",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1932-04-22",
+        "change_kind": "declare",
+        "name_en": "San Shi Street",
+        "name_zh": "新市街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.245",
+        "notice_label_zh": "第245號",
+        "notice_url_en": "/egazette/en/1932-gn245.pdf",
+        "notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1932-gn245-ap-lei-chau-streets-11908-1932-04-22",
+        "source": "crowdsubmitted",
+        "street_code": "11908",
+        "publication_date": "1932-04-22",
+        "change_kind": "declare",
+        "street_name_en": "San Shi Street",
+        "street_name_zh": "新市街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN245",
+        "government_notice_label_en": "G.N.245",
+        "government_notice_label_zh": "第245號",
+        "government_notice_url_en": "/egazette/en/1932-gn245.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1932,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1932-gn245-ap-lei-chau-streets-11908-1932-04-22",
+        "notice_stem": "1932-gn245"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:12603",
+    "street_code": "12603",
+    "street_name_en": "Wai Fung Street",
+    "street_name_zh": "惠風街",
+    "canonical_naming_date": "1932-04-22",
+    "canonical_naming_year": 1932,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1932-04-22",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1932-04-22",
+        "change_kind": "declare",
+        "name_en": "Wai Fung Street",
+        "name_zh": "惠風街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.245",
+        "notice_label_zh": "第245號",
+        "notice_url_en": "/egazette/en/1932-gn245.pdf",
+        "notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1932-gn245-ap-lei-chau-streets-12603-1932-04-22",
+        "source": "crowdsubmitted",
+        "street_code": "12603",
+        "publication_date": "1932-04-22",
+        "change_kind": "declare",
+        "street_name_en": "Wai Fung Street",
+        "street_name_zh": "惠風街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN245",
+        "government_notice_label_en": "G.N.245",
+        "government_notice_label_zh": "第245號",
+        "government_notice_url_en": "/egazette/en/1932-gn245.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1932,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1932-gn245-ap-lei-chau-streets-12603-1932-04-22",
+        "notice_stem": "1932-gn245"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:11708",
+    "street_code": "11708",
+    "street_name_en": "Ping Lan Street",
+    "street_name_zh": "平瀾街",
+    "canonical_naming_date": "1932-04-22",
+    "canonical_naming_year": 1932,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1932-04-22",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1932-04-22",
+        "change_kind": "declare",
+        "name_en": "Ping Lan Street",
+        "name_zh": "平瀾街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.245",
+        "notice_label_zh": "第245號",
+        "notice_url_en": "/egazette/en/1932-gn245.pdf",
+        "notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1932-gn245-ap-lei-chau-streets-11708-1932-04-22",
+        "source": "crowdsubmitted",
+        "street_code": "11708",
+        "publication_date": "1932-04-22",
+        "change_kind": "declare",
+        "street_name_en": "Ping Lan Street",
+        "street_name_zh": "平瀾街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN245",
+        "government_notice_label_en": "G.N.245",
+        "government_notice_label_zh": "第245號",
+        "government_notice_url_en": "/egazette/en/1932-gn245.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1932,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1932-gn245-ap-lei-chau-streets-11708-1932-04-22",
+        "notice_stem": "1932-gn245"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:11981",
+    "street_code": "11981",
+    "street_name_en": "Shan Ming Street",
+    "street_name_zh": "山明街",
+    "canonical_naming_date": "1932-04-22",
+    "canonical_naming_year": 1932,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1932-04-22",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1932-04-22",
+        "change_kind": "declare",
+        "name_en": "Shan Ming Street",
+        "name_zh": "山明街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.245",
+        "notice_label_zh": "第245號",
+        "notice_url_en": "/egazette/en/1932-gn245.pdf",
+        "notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1932-gn245-ap-lei-chau-streets-11981-1932-04-22",
+        "source": "crowdsubmitted",
+        "street_code": "11981",
+        "publication_date": "1932-04-22",
+        "change_kind": "declare",
+        "street_name_en": "Shan Ming Street",
+        "street_name_zh": "山明街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN245",
+        "government_notice_label_en": "G.N.245",
+        "government_notice_label_zh": "第245號",
+        "government_notice_url_en": "/egazette/en/1932-gn245.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1932,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1932-gn245-ap-lei-chau-streets-11981-1932-04-22",
+        "notice_stem": "1932-gn245"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:11041",
+    "street_code": "11041",
+    "street_name_en": "Kiu Kiang Street",
+    "street_name_zh": "九江街",
+    "canonical_naming_date": "1932-05-06",
+    "canonical_naming_year": 1932,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1932-05-06",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1932-05-06",
+        "change_kind": "declare",
+        "name_en": "Kiu Kiang Street",
+        "name_zh": "九江街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.278",
+        "notice_label_zh": "第278號",
+        "notice_url_en": "/egazette/en/1932-gn278.pdf",
+        "notice_url_zh": "/egazette/zh/1932-gn278.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1932-gn278-kiu-kiang-street-11041-1932-05-06",
+        "source": "crowdsubmitted",
+        "street_code": "11041",
+        "publication_date": "1932-05-06",
+        "change_kind": "declare",
+        "street_name_en": "Kiu Kiang Street",
+        "street_name_zh": "九江街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN278",
+        "government_notice_label_en": "G.N.278",
+        "government_notice_label_zh": "第278號",
+        "government_notice_url_en": "/egazette/en/1932-gn278.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn278.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1932,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1932-gn278-kiu-kiang-street-11041-1932-05-06",
+        "notice_stem": "1932-gn278"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:11634",
+    "street_code": "11634",
+    "street_name_en": "Pak Po Street",
+    "street_name_zh": "白布街",
+    "canonical_naming_date": "1932-07-15",
+    "canonical_naming_year": 1932,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1932-07-15",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1932-07-15",
+        "change_kind": "declare",
+        "name_en": "Pak Po Street",
+        "name_zh": "白布街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.465",
+        "notice_label_zh": "第465號",
+        "notice_url_en": "/egazette/en/1932-gn465.pdf",
+        "notice_url_zh": "/egazette/zh/1932-gn465.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1932-gn465-pak-po-street-11634-1932-07-15",
+        "source": "crowdsubmitted",
+        "street_code": "11634",
+        "publication_date": "1932-07-15",
+        "change_kind": "declare",
+        "street_name_en": "Pak Po Street",
+        "street_name_zh": "白布街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN465",
+        "government_notice_label_en": "G.N.465",
+        "government_notice_label_zh": "第465號",
+        "government_notice_url_en": "/egazette/en/1932-gn465.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn465.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1932,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1932-gn465-pak-po-street-11634-1932-07-15",
+        "notice_stem": "1932-gn465"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:12800",
+    "street_code": "12800",
+    "street_name_en": "Wun Sha Street",
+    "street_name_zh": "浣紗街",
+    "canonical_naming_date": "1932-08-19",
+    "canonical_naming_year": 1932,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1932-08-19",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1932-08-19",
+        "change_kind": "declare",
+        "name_en": "Wun Sha Street",
+        "name_zh": "浣紗街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.542",
+        "notice_label_zh": "第542號",
+        "notice_url_en": "/egazette/en/1932-gn542.pdf",
+        "notice_url_zh": "/egazette/zh/1932-gn542.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1932-gn542-wun-sha-street-12800-1932-08-19",
+        "source": "crowdsubmitted",
+        "street_code": "12800",
+        "publication_date": "1932-08-19",
+        "change_kind": "declare",
+        "street_name_en": "Wun Sha Street",
+        "street_name_zh": "浣紗街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN542",
+        "government_notice_label_en": "G.N.542",
+        "government_notice_label_zh": "第542號",
+        "government_notice_url_en": "/egazette/en/1932-gn542.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn542.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1932,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1932-gn542-wun-sha-street-12800-1932-08-19",
+        "notice_stem": "1932-gn542"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:11724",
+    "street_code": "11724",
+    "street_name_en": "Playing Field Road",
+    "street_name_zh": "運動場道",
+    "canonical_naming_date": "1932-09-16",
+    "canonical_naming_year": 1932,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1932-09-16",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1932-09-16",
+        "change_kind": "declare",
+        "name_en": "Playing Field Road",
+        "name_zh": "運動場道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.591",
+        "notice_label_zh": "第591號",
+        "notice_url_en": "/egazette/en/1932-gn591.pdf",
+        "notice_url_zh": "/egazette/zh/1932-gn591.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1932-gn591-playing-field-road-11724-1932-09-16",
+        "source": "crowdsubmitted",
+        "street_code": "11724",
+        "publication_date": "1932-09-16",
+        "change_kind": "declare",
+        "street_name_en": "Playing Field Road",
+        "street_name_zh": "運動場道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN591",
+        "government_notice_label_en": "G.N.591",
+        "government_notice_label_zh": "第591號",
+        "government_notice_url_en": "/egazette/en/1932-gn591.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn591.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1932,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1932-gn591-playing-field-road-11724-1932-09-16",
+        "notice_stem": "1932-gn591"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:12782",
+    "street_code": "12782",
+    "street_name_en": "Wong Nei Cheong Gap Road",
+    "street_name_zh": "黃泥涌峽道",
+    "canonical_naming_date": "1932-10-07",
+    "canonical_naming_year": 1932,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1932-10-07",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1932-10-07",
+        "change_kind": "declare",
+        "name_en": "Wong Nei Cheong Gap Road",
+        "name_zh": "黃泥涌峽道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.635",
+        "notice_label_zh": "第635號",
+        "notice_url_en": "/egazette/en/1932-gn635.pdf",
+        "notice_url_zh": "/egazette/zh/1932-gn635.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": "Gazette EN Wong Nei Cheong Gap Road; database Wong Nai Chung Gap Road."
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1932-gn635-south-side-roads-12782-1932-10-07",
+        "source": "crowdsubmitted",
+        "street_code": "12782",
+        "publication_date": "1932-10-07",
+        "change_kind": "declare",
+        "street_name_en": "Wong Nei Cheong Gap Road",
+        "street_name_zh": "黃泥涌峽道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN635",
+        "government_notice_label_en": "G.N.635",
+        "government_notice_label_zh": "第635號",
+        "government_notice_url_en": "/egazette/en/1932-gn635.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn635.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1932,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": "Gazette EN Wong Nei Cheong Gap Road; database Wong Nai Chung Gap Road.",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1932-gn635-south-side-roads-12782-1932-10-07",
+        "notice_stem": "1932-gn635"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10066",
+    "street_code": "10066",
+    "street_name_en": "Blue Pool Road",
+    "street_name_zh": "藍塘道",
+    "canonical_naming_date": "1932-10-07",
+    "canonical_naming_year": 1932,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1932-10-07",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1932-10-07",
+        "change_kind": "declare",
+        "name_en": "Blue Pool Road",
+        "name_zh": "藍塘道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.635",
+        "notice_label_zh": "第635號",
+        "notice_url_en": "/egazette/en/1932-gn635.pdf",
+        "notice_url_zh": "/egazette/zh/1932-gn635.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1932-gn635-south-side-roads-10066-1932-10-07",
+        "source": "crowdsubmitted",
+        "street_code": "10066",
+        "publication_date": "1932-10-07",
+        "change_kind": "declare",
+        "street_name_en": "Blue Pool Road",
+        "street_name_zh": "藍塘道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN635",
+        "government_notice_label_en": "G.N.635",
+        "government_notice_label_zh": "第635號",
+        "government_notice_url_en": "/egazette/en/1932-gn635.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn635.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1932,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1932-gn635-south-side-roads-10066-1932-10-07",
+        "notice_stem": "1932-gn635"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:11815",
+    "street_code": "11815",
+    "street_name_en": "Repulse Bay Road",
+    "street_name_zh": "淺水灣道",
+    "canonical_naming_date": "1932-10-07",
+    "canonical_naming_year": 1932,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1932-10-07",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1932-10-07",
+        "change_kind": "declare",
+        "name_en": "Repulse Bay Road",
+        "name_zh": "淺水灣道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.635",
+        "notice_label_zh": "第635號",
+        "notice_url_en": "/egazette/en/1932-gn635.pdf",
+        "notice_url_zh": "/egazette/zh/1932-gn635.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1932-gn635-south-side-roads-11815-1932-10-07",
+        "source": "crowdsubmitted",
+        "street_code": "11815",
+        "publication_date": "1932-10-07",
+        "change_kind": "declare",
+        "street_name_en": "Repulse Bay Road",
+        "street_name_zh": "淺水灣道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN635",
+        "government_notice_label_en": "G.N.635",
+        "government_notice_label_zh": "第635號",
+        "government_notice_url_en": "/egazette/en/1932-gn635.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn635.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1932,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1932-gn635-south-side-roads-11815-1932-10-07",
+        "notice_stem": "1932-gn635"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10888",
+    "street_code": "10888",
+    "street_name_en": "Island Road",
+    "street_name_zh": "香島道",
+    "canonical_naming_date": "1932-10-07",
+    "canonical_naming_year": 1932,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1932-10-07",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1932-10-07",
+        "change_kind": "declare",
+        "name_en": "Island Road",
+        "name_zh": "香島道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.635",
+        "notice_label_zh": "第635號",
+        "notice_url_en": "/egazette/en/1932-gn635.pdf",
+        "notice_url_zh": "/egazette/zh/1932-gn635.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1932-gn635-south-side-roads-10888-1932-10-07",
+        "source": "crowdsubmitted",
+        "street_code": "10888",
+        "publication_date": "1932-10-07",
+        "change_kind": "declare",
+        "street_name_en": "Island Road",
+        "street_name_zh": "香島道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN635",
+        "government_notice_label_en": "G.N.635",
+        "government_notice_label_zh": "第635號",
+        "government_notice_url_en": "/egazette/en/1932-gn635.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn635.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1932,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1932-gn635-south-side-roads-10888-1932-10-07",
+        "notice_stem": "1932-gn635"
       }
     ],
     "event_count": 1
@@ -2935,7 +4599,7 @@
         "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch G.N.586 community submission (bilingual PDF)"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -2967,7 +4631,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch G.N.586 community submission (bilingual PDF)",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1975-gn586-11184"
       }
@@ -2998,7 +4662,7 @@
         "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch G.N.996 community submission (bilingual PDF)"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -3030,7 +4694,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch G.N.996 community submission (bilingual PDF)",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1975-gn996-10669"
       }
@@ -3061,7 +4725,7 @@
         "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch G.N.1043 community submission (bilingual PDF)"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -3093,7 +4757,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch G.N.1043 community submission (bilingual PDF)",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "1979-gn1043-11610"
       }
@@ -3307,7 +4971,7 @@
         "notice_url_zh": "/egazette/zh/2002-06-34-5146.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch G.N.5146 community submission"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -3339,7 +5003,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch G.N.5146 community submission",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "2002-gn5146-14124",
         "notice_stem": "2002-06-34-5146"
@@ -3371,7 +5035,7 @@
         "notice_url_zh": "/egazette/zh/2003-07-28-4729.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch G.N.4729 community submission"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -3403,7 +5067,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch G.N.4729 community submission",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "2003-gn4729-14165",
         "notice_stem": "2003-07-28-4729"
@@ -3435,7 +5099,7 @@
         "notice_url_zh": "/egazette/zh/2003-07-28-4729.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch G.N.4729 community submission"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -3467,7 +5131,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch G.N.4729 community submission",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "2003-gn4729-14164",
         "notice_stem": "2003-07-28-4729"
@@ -3499,7 +5163,7 @@
         "notice_url_zh": "/egazette/zh/2003-07-48-8574.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch G.N.8574 community submission"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -3531,7 +5195,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch G.N.8574 community submission",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "2003-gn8574-14170",
         "notice_stem": "2003-07-48-8574"
@@ -3563,7 +5227,7 @@
         "notice_url_zh": "/egazette/zh/2003-07-49-8748.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch G.N.8478 community submission"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -3595,7 +5259,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch G.N.8478 community submission",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "2003-gn8478-14171",
         "notice_stem": "2003-07-49-8748"
@@ -3627,7 +5291,7 @@
         "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch GN8104 community submission"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -3659,7 +5323,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch GN8104 community submission",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "2004-gn8104-14199",
         "notice_stem": "2004-08-51-8104"
@@ -3691,7 +5355,7 @@
         "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch GN8104 community submission"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -3723,7 +5387,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch GN8104 community submission",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "2004-gn8104-14200",
         "notice_stem": "2004-08-51-8104"
@@ -3755,7 +5419,7 @@
         "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch GN8104 community submission"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -3787,7 +5451,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch GN8104 community submission",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "2004-gn8104-14201",
         "notice_stem": "2004-08-51-8104"
@@ -3819,7 +5483,7 @@
         "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch GN8104 community submission"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -3851,7 +5515,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch GN8104 community submission",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "2004-gn8104-14202",
         "notice_stem": "2004-08-51-8104"
@@ -3883,7 +5547,7 @@
         "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch GN8104 community submission"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -3915,7 +5579,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch GN8104 community submission",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "2004-gn8104-14203",
         "notice_stem": "2004-08-51-8104"
@@ -3947,7 +5611,7 @@
         "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch GN8104 community submission"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -3979,7 +5643,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch GN8104 community submission",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "2004-gn8104-14204",
         "notice_stem": "2004-08-51-8104"
@@ -4011,7 +5675,7 @@
         "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch GN8104 community submission"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -4043,7 +5707,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch GN8104 community submission",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "2004-gn8104-14205",
         "notice_stem": "2004-08-51-8104"
@@ -4075,7 +5739,7 @@
         "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch GN8104 community submission"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -4107,7 +5771,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch GN8104 community submission",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "2004-gn8104-14206",
         "notice_stem": "2004-08-51-8104"
@@ -4139,7 +5803,7 @@
         "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch GN8104 community submission"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -4171,7 +5835,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch GN8104 community submission",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "2004-gn8104-14207",
         "notice_stem": "2004-08-51-8104"
@@ -4203,7 +5867,7 @@
         "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch GN8104 community submission"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -4235,7 +5899,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch GN8104 community submission",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "2004-gn8104-14208",
         "notice_stem": "2004-08-51-8104"
@@ -4267,7 +5931,7 @@
         "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch GN8104 community submission"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -4299,7 +5963,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch GN8104 community submission",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "2004-gn8104-1",
         "notice_stem": "2004-08-51-8104"
@@ -4331,7 +5995,7 @@
         "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch GN8104 community submission"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -4363,7 +6027,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch GN8104 community submission",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "2004-gn8104-2",
         "notice_stem": "2004-08-51-8104"
@@ -4395,7 +6059,7 @@
         "notice_url_zh": "/egazette/zh/2004-08-53-8428.pdf",
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": "Batch G.N.8428 community submission"
+        "submitter_remarks": null
       }
     ],
     "event_history": [
@@ -4427,7 +6091,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": "Batch G.N.8428 community submission",
+        "submitter_remarks": null,
         "reviewed_at": "2026-05-30",
         "submission_id": "2004-gn8428-1",
         "notice_stem": "2004-08-53-8428"

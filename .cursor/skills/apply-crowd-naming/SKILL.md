@@ -76,6 +76,8 @@ Template: `data/crowdsubmissions/batch-template.json`
 
 **Streets only as strings:** `"streets": ["竹篙灣公路", "欣澳道"]` also works.
 
+**`submitter_remarks`:** omit when gazette English and Chinese both match the database record exactly. Include only when gazette EN or ZH differs from the matched street (e.g. `Gazette ZH 連合道; database 連道.`). Do not store gazette location descriptions, lot references, or generic batch labels like `Batch G.N.8104 community submission`.
+
 ## What the script updates
 
 | File | Effect |

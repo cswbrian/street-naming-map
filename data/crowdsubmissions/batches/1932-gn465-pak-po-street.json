@@ -1,0 +1,25 @@
+{
+  "batch_id": "1932-gn465-pak-po-street",
+  "gazette_notice_label": "Government Notification No. 465",
+  "publication_date": "1932-07-15",
+  "gazette_url_en": "/egazette/en/1932-gn465.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/188407.pdf",
+  "streets": [
+    {
+      "street_code": "11634",
+      "english_name": "PAK PO STREET",
+      "chinese_name": "白布街",
+      "history": [
+        {
+          "publication_date": "1932-07-15",
+          "change_kind": "declare",
+          "street_name_en": "Pak Po Street",
+          "street_name_zh": "白布街",
+          "gazette_notice_label": "Government Notification No. 465",
+          "proof_pdf_url": "/egazette/en/1932-gn465.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

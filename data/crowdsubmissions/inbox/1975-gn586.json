@@ -6,6 +6,11 @@
   "gazette_url_zh": "/egazette/zh/1975-gn586.pdf",
   "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/inbox/staging-1975-gn586/lambeth-walk.pdf",
   "pdf_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/inbox/staging-1975-gn586/lambeth-walk.pdf",
-  "remarks": "Batch G.N.586 community submission (bilingual PDF)",
-  "streets": [{ "street_code": "11184", "chinese_name": "琳寶徑", "english_name": "LAMBETH WALK" }]
+  "streets": [
+    {
+      "street_code": "11184",
+      "chinese_name": "琳寶徑",
+      "english_name": "LAMBETH WALK"
+    }
+  ]
 }

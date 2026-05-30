@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-30T05:23:03.734Z",
+  "generated_at": "2026-05-30T05:37:17.892Z",
   "source_file": "public/data/hk-streets.geojson",
   "totals": {
     "total_segments": 39602,
-    "segments_missing_naming_year": 36404,
+    "segments_missing_naming_year": 36259,
     "unique_roads": 12225,
     "unique_roads_with_street_name": 4579,
-    "unique_roads_with_naming_year": 419,
-    "unique_roads_with_street_name_and_naming_year": 419,
-    "unique_roads_missing_naming_year": 11806,
-    "unique_roads_missing_naming_year_with_street_name": 4160
+    "unique_roads_with_naming_year": 445,
+    "unique_roads_with_street_name_and_naming_year": 445,
+    "unique_roads_missing_naming_year": 11780,
+    "unique_roads_missing_naming_year_with_street_name": 4134
   },
   "roads": [
     {
@@ -2763,10 +2763,46 @@
       "english_name": "REPULSE BAY ROAD",
       "chinese_name": "淺水灣道",
       "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1932,
+      "naming_date": "1932-10-07",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:11815",
+        "street_code": "11815",
+        "canonical_naming_date": "1932-10-07",
+        "canonical_naming_year": 1932,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1932-10-07",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1932-10-07",
+            "change_kind": "declare",
+            "name_en": "Repulse Bay Road",
+            "name_zh": "淺水灣道",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.635",
+            "notice_label_zh": "第635號",
+            "notice_url_en": "/egazette/en/1932-gn635.pdf",
+            "notice_url_zh": "/egazette/zh/1932-gn635.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN635",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.635",
+        "government_notice_label_zh": "第635號",
+        "government_notice_url_en": "/egazette/en/1932-gn635.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn635.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 23
     },
     {
@@ -2909,7 +2945,7 @@
             "notice_url_zh": null,
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch G.N.158 community submission (HKU HKGRO gazette scan)"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN158",
@@ -3651,10 +3687,46 @@
       "english_name": "TAI HANG ROAD",
       "chinese_name": "大坑道",
       "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1931,
+      "naming_date": "1931-02-13",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:12216",
+        "street_code": "12216",
+        "canonical_naming_date": "1931-02-13",
+        "canonical_naming_year": 1931,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1931-02-13",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1931-02-13",
+            "change_kind": "declare",
+            "name_en": "Tai Hang Road",
+            "name_zh": "大坑道",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.86",
+            "notice_label_zh": "第86號",
+            "notice_url_en": "/egazette/en/1931-gn86.pdf",
+            "notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN86",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.86",
+        "government_notice_label_zh": "第86號",
+        "government_notice_url_en": "/egazette/en/1931-gn86.pdf",
+        "government_notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 20
     },
     {
@@ -3944,10 +4016,10 @@
             "notice_label_en": "G.N.8104",
             "notice_label_zh": "第8104號",
             "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch GN8104 community submission"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN8104",
@@ -3957,7 +4029,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -4256,10 +4328,10 @@
             "notice_label_en": "G.N.8478",
             "notice_label_zh": "第8478號",
             "notice_url_en": "/egazette/en/2003-07-49-8748.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/2003-07-49-8748.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch G.N.8478 community submission"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN8478",
@@ -4269,7 +4341,7 @@
         "government_notice_label_en": "G.N.8478",
         "government_notice_label_zh": "第8478號",
         "government_notice_url_en": "/egazette/en/2003-07-49-8748.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/2003-07-49-8748.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -8205,10 +8277,46 @@
       "english_name": "WONG NAI CHUNG GAP ROAD",
       "chinese_name": "黃泥涌峽道",
       "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1932,
+      "naming_date": "1932-10-07",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:12782",
+        "street_code": "12782",
+        "canonical_naming_date": "1932-10-07",
+        "canonical_naming_year": 1932,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1932-10-07",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1932-10-07",
+            "change_kind": "declare",
+            "name_en": "Wong Nei Cheong Gap Road",
+            "name_zh": "黃泥涌峽道",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.635",
+            "notice_label_zh": "第635號",
+            "notice_url_en": "/egazette/en/1932-gn635.pdf",
+            "notice_url_zh": "/egazette/zh/1932-gn635.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": "Gazette EN Wong Nei Cheong Gap Road; database Wong Nai Chung Gap Road."
+          }
+        ],
+        "notice_no": "GN635",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.635",
+        "government_notice_label_zh": "第635號",
+        "government_notice_url_en": "/egazette/en/1932-gn635.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn635.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 13
     },
     {
@@ -8553,10 +8661,46 @@
       "english_name": "BLUE POOL ROAD",
       "chinese_name": "藍塘道",
       "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1932,
+      "naming_date": "1932-10-07",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:10066",
+        "street_code": "10066",
+        "canonical_naming_date": "1932-10-07",
+        "canonical_naming_year": 1932,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1932-10-07",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1932-10-07",
+            "change_kind": "declare",
+            "name_en": "Blue Pool Road",
+            "name_zh": "藍塘道",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.635",
+            "notice_label_zh": "第635號",
+            "notice_url_en": "/egazette/en/1932-gn635.pdf",
+            "notice_url_zh": "/egazette/zh/1932-gn635.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN635",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.635",
+        "government_notice_label_zh": "第635號",
+        "government_notice_url_en": "/egazette/en/1932-gn635.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn635.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 12
     },
     {
@@ -9827,10 +9971,10 @@
             "notice_label_en": "G.N.4729",
             "notice_label_zh": "第4729號",
             "notice_url_en": "/egazette/en/2003-07-28-4729.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/2003-07-28-4729.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch G.N.4729 community submission"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN4729",
@@ -9840,7 +9984,7 @@
         "government_notice_label_en": "G.N.4729",
         "government_notice_label_zh": "第4729號",
         "government_notice_url_en": "/egazette/en/2003-07-28-4729.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/2003-07-28-4729.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -10176,10 +10320,46 @@
       "english_name": "JAFFE ROAD",
       "chinese_name": "謝斐道",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1931,
+      "naming_date": "1931-10-30",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:10892",
+        "street_code": "10892",
+        "canonical_naming_date": "1931-10-30",
+        "canonical_naming_year": 1931,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1931-10-30",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1931-10-30",
+            "change_kind": "declare",
+            "name_en": "Jaffé Road",
+            "name_zh": "謝斐道",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.694",
+            "notice_label_zh": "第694號",
+            "notice_url_en": "/egazette/en/1931-gn694.pdf",
+            "notice_url_zh": "/egazette/zh/1931-gn694.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN694",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.694",
+        "government_notice_label_zh": "第694號",
+        "government_notice_url_en": "/egazette/en/1931-gn694.pdf",
+        "government_notice_url_zh": "/egazette/zh/1931-gn694.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 11
     },
     {
@@ -11898,10 +12078,46 @@
       "english_name": "LOK SHAN ROAD",
       "chinese_name": "落山道",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1931,
+      "naming_date": "1931-02-13",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:11263",
+        "street_code": "11263",
+        "canonical_naming_date": "1931-02-13",
+        "canonical_naming_year": 1931,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1931-02-13",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1931-02-13",
+            "change_kind": "declare",
+            "name_en": "Lok Shan Road",
+            "name_zh": "落山道",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.86",
+            "notice_label_zh": "第86號",
+            "notice_url_en": "/egazette/en/1931-gn86.pdf",
+            "notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN86",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.86",
+        "government_notice_label_zh": "第86號",
+        "government_notice_url_en": "/egazette/en/1931-gn86.pdf",
+        "government_notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 10
     },
     {
@@ -16809,10 +17025,46 @@
       "english_name": "ISLAND ROAD",
       "chinese_name": "香島道",
       "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1932,
+      "naming_date": "1932-10-07",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:10888",
+        "street_code": "10888",
+        "canonical_naming_date": "1932-10-07",
+        "canonical_naming_year": 1932,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1932-10-07",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1932-10-07",
+            "change_kind": "declare",
+            "name_en": "Island Road",
+            "name_zh": "香島道",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.635",
+            "notice_label_zh": "第635號",
+            "notice_url_en": "/egazette/en/1932-gn635.pdf",
+            "notice_url_zh": "/egazette/zh/1932-gn635.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN635",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.635",
+        "government_notice_label_zh": "第635號",
+        "government_notice_url_en": "/egazette/en/1932-gn635.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn635.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 8
     },
     {
@@ -16953,10 +17205,46 @@
       "english_name": "KIU KIANG STREET",
       "chinese_name": "九江街",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1932,
+      "naming_date": "1932-05-06",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:11041",
+        "street_code": "11041",
+        "canonical_naming_date": "1932-05-06",
+        "canonical_naming_year": 1932,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1932-05-06",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1932-05-06",
+            "change_kind": "declare",
+            "name_en": "Kiu Kiang Street",
+            "name_zh": "九江街",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.278",
+            "notice_label_zh": "第278號",
+            "notice_url_en": "/egazette/en/1932-gn278.pdf",
+            "notice_url_zh": "/egazette/zh/1932-gn278.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN278",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.278",
+        "government_notice_label_zh": "第278號",
+        "government_notice_url_en": "/egazette/en/1932-gn278.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn278.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 8
     },
     {
@@ -17696,10 +17984,10 @@
             "notice_label_en": "G.N.8104",
             "notice_label_zh": "第8104號",
             "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch GN8104 community submission"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN8104",
@@ -17709,7 +17997,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -20048,10 +20336,10 @@
             "notice_label_en": "G.N.4729",
             "notice_label_zh": "第4729號",
             "notice_url_en": "/egazette/en/2003-07-28-4729.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/2003-07-28-4729.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch G.N.4729 community submission"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN4729",
@@ -20061,7 +20349,7 @@
         "government_notice_label_en": "G.N.4729",
         "government_notice_label_zh": "第4729號",
         "government_notice_url_en": "/egazette/en/2003-07-28-4729.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/2003-07-28-4729.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -20240,10 +20528,10 @@
             "notice_label_en": "G.N.300",
             "notice_label_zh": "第300號",
             "notice_url_en": "/egazette/en/1931-gn300.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Road off Shaukiwan Road, NW corner of I.L. 1900, passing I.Ls. 2532, 2121, 1879 and 2686 (Tung Wah Eastern Hospital), terminating at junction with Caroline Hill Road."
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN300",
@@ -20253,7 +20541,7 @@
         "government_notice_label_en": "G.N.300",
         "government_notice_label_zh": "第300號",
         "government_notice_url_en": "/egazette/en/1931-gn300.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -20804,10 +21092,10 @@
             "notice_label_en": "G.N.8104",
             "notice_label_zh": "第8104號",
             "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch GN8104 community submission"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN8104",
@@ -20817,7 +21105,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -21284,10 +21572,10 @@
             "notice_label_en": "G.N.8104",
             "notice_label_zh": "第8104號",
             "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch GN8104 community submission"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN8104",
@@ -21297,7 +21585,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -21332,10 +21620,10 @@
             "notice_label_en": "G.N.8104",
             "notice_label_zh": "第8104號",
             "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch GN8104 community submission"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN8104",
@@ -21345,7 +21633,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -24923,10 +25211,10 @@
             "notice_label_en": "G.N.8104",
             "notice_label_zh": "第8104號",
             "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch GN8104 community submission"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN8104",
@@ -24936,7 +25224,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -25283,10 +25571,10 @@
             "notice_label_en": "G.N.8104",
             "notice_label_zh": "第8104號",
             "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch GN8104 community submission"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN8104",
@@ -25296,7 +25584,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -27060,10 +27348,46 @@
       "english_name": "WUN SHA STREET",
       "chinese_name": "浣紗街",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1932,
+      "naming_date": "1932-08-19",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:12800",
+        "street_code": "12800",
+        "canonical_naming_date": "1932-08-19",
+        "canonical_naming_year": 1932,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1932-08-19",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1932-08-19",
+            "change_kind": "declare",
+            "name_en": "Wun Sha Street",
+            "name_zh": "浣紗街",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.542",
+            "notice_label_zh": "第542號",
+            "notice_url_en": "/egazette/en/1932-gn542.pdf",
+            "notice_url_zh": "/egazette/zh/1932-gn542.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN542",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.542",
+        "government_notice_label_zh": "第542號",
+        "government_notice_url_en": "/egazette/en/1932-gn542.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn542.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 6
     },
     {
@@ -31187,10 +31511,10 @@
             "notice_label_en": "G.N.300",
             "notice_label_zh": "第300號",
             "notice_url_en": "/egazette/en/1931-gn300.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Street off Aldrich Street, NW corner of S.I.L. 107, south-easterly past SE corner of S.I.L. 446, terminating at junction with Shaukiwan Road."
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN300",
@@ -31200,7 +31524,7 @@
         "government_notice_label_en": "G.N.300",
         "government_notice_label_zh": "第300號",
         "government_notice_url_en": "/egazette/en/1931-gn300.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -33144,10 +33468,46 @@
       "english_name": "PLAYING FIELD ROAD",
       "chinese_name": "運動場道",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1932,
+      "naming_date": "1932-09-16",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:11724",
+        "street_code": "11724",
+        "canonical_naming_date": "1932-09-16",
+        "canonical_naming_year": 1932,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1932-09-16",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1932-09-16",
+            "change_kind": "declare",
+            "name_en": "Playing Field Road",
+            "name_zh": "運動場道",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.591",
+            "notice_label_zh": "第591號",
+            "notice_url_en": "/egazette/en/1932-gn591.pdf",
+            "notice_url_zh": "/egazette/zh/1932-gn591.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN591",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.591",
+        "government_notice_label_zh": "第591號",
+        "government_notice_url_en": "/egazette/en/1932-gn591.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn591.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 5
     },
     {
@@ -33239,10 +33599,10 @@
             "notice_label_en": "G.N.5146",
             "notice_label_zh": "第5146號",
             "notice_url_en": "/egazette/en/2002-06-34-5146.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/2002-06-34-5146.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch G.N.5146 community submission"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN5146",
@@ -33252,7 +33612,7 @@
         "government_notice_label_en": "G.N.5146",
         "government_notice_label_zh": "第5146號",
         "government_notice_url_en": "/egazette/en/2002-06-34-5146.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/2002-06-34-5146.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -39275,10 +39635,10 @@
             "notice_label_en": "G.N.300",
             "notice_label_zh": "第300號",
             "notice_url_en": "/egazette/en/1931-gn300.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Road off Shaukiwan Road, SE corner of S.I.L. 505, northerly between S.I.Ls. 107 & 534, passing Nam On Street, terminating at junction with new Praya."
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN300",
@@ -39288,7 +39648,7 @@
         "government_notice_label_en": "G.N.300",
         "government_notice_label_zh": "第300號",
         "government_notice_url_en": "/egazette/en/1931-gn300.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -41045,10 +41405,10 @@
             "notice_label_en": "G.N.8428",
             "notice_label_zh": "第8428號",
             "notice_url_en": "/egazette/en/2004-08-53-8428.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/2004-08-53-8428.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch G.N.8428 community submission"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN8428",
@@ -41058,7 +41418,7 @@
         "government_notice_label_en": "G.N.8428",
         "government_notice_label_zh": "第8428號",
         "government_notice_url_en": "/egazette/en/2004-08-53-8428.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/2004-08-53-8428.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -42137,10 +42497,10 @@
             "notice_label_en": "G.N.300",
             "notice_label_zh": "第300號",
             "notice_url_en": "/egazette/en/1931-gn300.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Street off Shaukiwan Road, SE corner of M.L. 277, north-westerly between M.Ls. 277 and 290, terminating at sea wall."
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN300",
@@ -42150,7 +42510,7 @@
         "government_notice_label_en": "G.N.300",
         "government_notice_label_zh": "第300號",
         "government_notice_url_en": "/egazette/en/1931-gn300.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -44177,10 +44537,10 @@
             "notice_label_en": "G.N.8104",
             "notice_label_zh": "第8104號",
             "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch GN8104 community submission"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN8104",
@@ -44190,7 +44550,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -56817,10 +57177,46 @@
       "english_name": "GRAMPIAN ROAD",
       "chinese_name": "嘉林邊道",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1932,
+      "naming_date": "1932-02-19",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:10620",
+        "street_code": "10620",
+        "canonical_naming_date": "1932-02-19",
+        "canonical_naming_year": 1932,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1932-02-19",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1932-02-19",
+            "change_kind": "declare",
+            "name_en": "Grampian Road",
+            "name_zh": "嘉林邊道",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.107",
+            "notice_label_zh": "第107號",
+            "notice_url_en": "/egazette/en/1932-gn107.pdf",
+            "notice_url_zh": "/egazette/zh/1932-gn107.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN107",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.107",
+        "government_notice_label_zh": "第107號",
+        "government_notice_url_en": "/egazette/en/1932-gn107.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn107.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 3
     },
     {
@@ -57095,7 +57491,7 @@
             "notice_url_zh": null,
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch G.N.996 community submission (bilingual PDF)"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN996",
@@ -58319,7 +58715,7 @@
             "notice_url_zh": null,
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch G.N.586 community submission (bilingual PDF)"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN586",
@@ -59252,10 +59648,10 @@
             "notice_label_en": "G.N.300",
             "notice_label_zh": "第300號",
             "notice_url_en": "/egazette/en/1931-gn300.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Street off Factory Street, SW corner of S.I.L. 448, parallel with Tai Tak Street, terminating at junction with Kam Wah Street."
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN300",
@@ -59265,7 +59661,7 @@
         "government_notice_label_en": "G.N.300",
         "government_notice_label_zh": "第300號",
         "government_notice_url_en": "/egazette/en/1931-gn300.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -59961,10 +60357,46 @@
       "english_name": "PING LAN STREET",
       "chinese_name": "平瀾街",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1932,
+      "naming_date": "1932-04-22",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:11708",
+        "street_code": "11708",
+        "canonical_naming_date": "1932-04-22",
+        "canonical_naming_year": 1932,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1932-04-22",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1932-04-22",
+            "change_kind": "declare",
+            "name_en": "Ping Lan Street",
+            "name_zh": "平瀾街",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.245",
+            "notice_label_zh": "第245號",
+            "notice_url_en": "/egazette/en/1932-gn245.pdf",
+            "notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN245",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.245",
+        "government_notice_label_zh": "第245號",
+        "government_notice_url_en": "/egazette/en/1932-gn245.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 3
     },
     {
@@ -61617,10 +62049,46 @@
       "english_name": "THOMSON ROAD",
       "chinese_name": "譚臣道",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1931,
+      "naming_date": "1931-10-30",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:12354",
+        "street_code": "12354",
+        "canonical_naming_date": "1931-10-30",
+        "canonical_naming_year": 1931,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1931-10-30",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1931-10-30",
+            "change_kind": "declare",
+            "name_en": "Thomson Road",
+            "name_zh": "譚臣道",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.694",
+            "notice_label_zh": "第694號",
+            "notice_url_en": "/egazette/en/1931-gn694.pdf",
+            "notice_url_zh": "/egazette/zh/1931-gn694.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN694",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.694",
+        "government_notice_label_zh": "第694號",
+        "government_notice_url_en": "/egazette/en/1931-gn694.pdf",
+        "government_notice_url_zh": "/egazette/zh/1931-gn694.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 3
     },
     {
@@ -72662,10 +73130,10 @@
             "notice_label_en": "G.N.8104",
             "notice_label_zh": "第8104號",
             "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch GN8104 community submission"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN8104",
@@ -72675,7 +73143,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -72891,10 +73359,46 @@
       "english_name": "CHEUNG NING STREET",
       "chinese_name": "長寧街",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1931,
+      "naming_date": "1931-02-13",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:10202",
+        "street_code": "10202",
+        "canonical_naming_date": "1931-02-13",
+        "canonical_naming_year": 1931,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1931-02-13",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1931-02-13",
+            "change_kind": "declare",
+            "name_en": "Cheung Ning Street",
+            "name_zh": "長寧街",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.86",
+            "notice_label_zh": "第86號",
+            "notice_url_en": "/egazette/en/1931-gn86.pdf",
+            "notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN86",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.86",
+        "government_notice_label_zh": "第86號",
+        "government_notice_url_en": "/egazette/en/1931-gn86.pdf",
+        "government_notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 2
     },
     {
@@ -73562,10 +74066,10 @@
             "notice_label_en": "G.N.300",
             "notice_label_zh": "第300號",
             "notice_url_en": "/egazette/en/1931-gn300.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Path off Caroline Hill Road, SW corner of I.L. 2147, north-easterly and northerly at side of I.L. 1018, terminating at junction with Shaukiwan Road."
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN300",
@@ -73575,7 +74079,7 @@
         "government_notice_label_en": "G.N.300",
         "government_notice_label_zh": "第300號",
         "government_notice_url_en": "/egazette/en/1931-gn300.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -74043,10 +74547,46 @@
       "english_name": "FUK KWAN AVENUE",
       "chinese_name": "福群道",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1931,
+      "naming_date": "1931-02-13",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:10548",
+        "street_code": "10548",
+        "canonical_naming_date": "1931-02-13",
+        "canonical_naming_year": 1931,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1931-02-13",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1931-02-13",
+            "change_kind": "declare",
+            "name_en": "Fuk Kwan Avenue",
+            "name_zh": "福群道",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.86",
+            "notice_label_zh": "第86號",
+            "notice_url_en": "/egazette/en/1931-gn86.pdf",
+            "notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN86",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.86",
+        "government_notice_label_zh": "第86號",
+        "government_notice_url_en": "/egazette/en/1931-gn86.pdf",
+        "government_notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 2
     },
     {
@@ -74967,10 +75507,46 @@
       "english_name": "HUNG SHING STREET",
       "chinese_name": "洪聖街",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1932,
+      "naming_date": "1932-04-22",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:10873",
+        "street_code": "10873",
+        "canonical_naming_date": "1932-04-22",
+        "canonical_naming_year": 1932,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1932-04-22",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1932-04-22",
+            "change_kind": "declare",
+            "name_en": "Hung Shing Street",
+            "name_zh": "洪聖街",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.245",
+            "notice_label_zh": "第245號",
+            "notice_url_en": "/egazette/en/1932-gn245.pdf",
+            "notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN245",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.245",
+        "government_notice_label_zh": "第245號",
+        "government_notice_url_en": "/egazette/en/1932-gn245.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 2
     },
     {
@@ -75578,10 +76154,10 @@
             "notice_label_en": "G.N.300",
             "notice_label_zh": "第300號",
             "notice_url_en": "/egazette/en/1931-gn300.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Road off Watson Road, NE corner of M.L. 396, parallel with Whitfield Road, terminating at sea wall and SE corner of M.L. 285."
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN300",
@@ -75591,7 +76167,7 @@
         "government_notice_label_en": "G.N.300",
         "government_notice_label_zh": "第300號",
         "government_notice_url_en": "/egazette/en/1931-gn300.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -76035,10 +76611,46 @@
       "english_name": "KWUN CHUNG STREET",
       "chinese_name": "官涌街",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1932,
+      "naming_date": "1932-03-18",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:11141",
+        "street_code": "11141",
+        "canonical_naming_date": "1932-03-18",
+        "canonical_naming_year": 1932,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1932-03-18",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1932-03-18",
+            "change_kind": "declare",
+            "name_en": "Kwun Chung Street",
+            "name_zh": "官涌街",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.173",
+            "notice_label_zh": "第173號",
+            "notice_url_en": "/egazette/en/1932-gn173.pdf",
+            "notice_url_zh": "/egazette/zh/1932-gn173.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN173",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.173",
+        "government_notice_label_zh": "第173號",
+        "government_notice_url_en": "/egazette/en/1932-gn173.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn173.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 2
     },
     {
@@ -78086,10 +78698,10 @@
             "notice_label_en": "G.N.8574",
             "notice_label_zh": "第8574號",
             "notice_url_en": "/egazette/en/2003-07-48-8574.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/2003-07-48-8574.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch G.N.8574 community submission"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN8574",
@@ -78099,7 +78711,7 @@
         "government_notice_label_en": "G.N.8574",
         "government_notice_label_zh": "第8574號",
         "government_notice_url_en": "/egazette/en/2003-07-48-8574.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/2003-07-48-8574.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -78662,10 +79274,10 @@
             "notice_label_en": "G.N.300",
             "notice_label_zh": "第300號",
             "notice_url_en": "/egazette/en/1931-gn300.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Street off Shaukiwan Road, SE corner of M.L. 321, north-westerly between M.Ls. 321 and 130, terminating at new praya wall."
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN300",
@@ -78675,7 +79287,7 @@
         "government_notice_label_en": "G.N.300",
         "government_notice_label_zh": "第300號",
         "government_notice_url_en": "/egazette/en/1931-gn300.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -79107,10 +79719,46 @@
       "english_name": "SAN SHI STREET",
       "chinese_name": "新市街",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1932,
+      "naming_date": "1932-04-22",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:11908",
+        "street_code": "11908",
+        "canonical_naming_date": "1932-04-22",
+        "canonical_naming_year": 1932,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1932-04-22",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1932-04-22",
+            "change_kind": "declare",
+            "name_en": "San Shi Street",
+            "name_zh": "新市街",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.245",
+            "notice_label_zh": "第245號",
+            "notice_url_en": "/egazette/en/1932-gn245.pdf",
+            "notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN245",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.245",
+        "government_notice_label_zh": "第245號",
+        "government_notice_url_en": "/egazette/en/1932-gn245.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 2
     },
     {
@@ -79214,10 +79862,10 @@
             "notice_label_en": "G.N.8104",
             "notice_label_zh": "第8104號",
             "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch GN8104 community submission"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN8104",
@@ -79227,7 +79875,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -80297,7 +80945,7 @@
             "notice_url_zh": "/egazette/zh/1931-gn58.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Street commencing at Nathan Road NW corner of K.I.L. 1134, parallel to Austin Road through K.I.L. 1297, junction with Cox's Road; G.N.58."
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN58",
@@ -81339,10 +81987,46 @@
       "english_name": "WAI FUNG STREET",
       "chinese_name": "惠風街",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1932,
+      "naming_date": "1932-04-22",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:12603",
+        "street_code": "12603",
+        "canonical_naming_date": "1932-04-22",
+        "canonical_naming_year": 1932,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1932-04-22",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1932-04-22",
+            "change_kind": "declare",
+            "name_en": "Wai Fung Street",
+            "name_zh": "惠風街",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.245",
+            "notice_label_zh": "第245號",
+            "notice_url_en": "/egazette/en/1932-gn245.pdf",
+            "notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN245",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.245",
+        "government_notice_label_zh": "第245號",
+        "government_notice_url_en": "/egazette/en/1932-gn245.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 2
     },
     {
@@ -82515,10 +83199,46 @@
       "english_name": "YUK SAU STREET",
       "chinese_name": "毓秀街",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1930,
+      "naming_date": "1930-03-07",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:12940",
+        "street_code": "12940",
+        "canonical_naming_date": "1930-03-07",
+        "canonical_naming_year": 1930,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1930-03-07",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1930-03-07",
+            "change_kind": "declare",
+            "name_en": "Yuk Sau Street",
+            "name_zh": "毓秀街",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.590",
+            "notice_label_zh": "第590號",
+            "notice_url_en": "/egazette/en/1932-gn590.pdf",
+            "notice_url_zh": "/egazette/zh/1932-gn590.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": "Gazette EN Yau Sau Street in G.N.138 (1930-03-07); corrected to Yuk Sau Street in G.N.590."
+          }
+        ],
+        "notice_no": "GN590",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.590",
+        "government_notice_label_zh": "第590號",
+        "government_notice_url_en": "/egazette/en/1932-gn590.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn590.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 2
     },
     {
@@ -139610,10 +140330,10 @@
             "notice_label_en": "G.N.300",
             "notice_label_zh": "第300號",
             "notice_url_en": "/egazette/en/1931-gn300.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Street off Shaukiwan Road, NE corner of I.L. 1617, south-easterly between I.Ls. 2358 and 2322, terminating at eastern corner of I.L. 2358 and new 100' road."
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN300",
@@ -139623,7 +140343,7 @@
         "government_notice_label_en": "G.N.300",
         "government_notice_label_zh": "第300號",
         "government_notice_url_en": "/egazette/en/1931-gn300.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -141326,10 +142046,10 @@
             "notice_label_en": "G.N.300",
             "notice_label_zh": "第300號",
             "notice_url_en": "/egazette/en/1931-gn300.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Street off Shaukiwan Road, SW corner of S.I.L. 104, north-easterly between S.I.Ls. 105 and 104, terminating at junction with Factory Street."
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN300",
@@ -141339,7 +142059,7 @@
         "government_notice_label_en": "G.N.300",
         "government_notice_label_zh": "第300號",
         "government_notice_url_en": "/egazette/en/1931-gn300.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -143465,10 +144185,10 @@
             "notice_label_en": "G.N.300",
             "notice_label_zh": "第300號",
             "notice_url_en": "/egazette/en/1931-gn300.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Street off Shaukiwan Road, NE corner of I.L. 1618, parallel with Boat Street, terminating at eastern corner of I.L. 2316 and new 100' road."
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN300",
@@ -143478,7 +144198,7 @@
         "government_notice_label_en": "G.N.300",
         "government_notice_label_zh": "第300號",
         "government_notice_url_en": "/egazette/en/1931-gn300.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -143885,10 +144605,10 @@
             "notice_label_en": "G.N.300",
             "notice_label_zh": "第300號",
             "notice_url_en": "/egazette/en/1931-gn300.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Street off Whitfield Road, SE of I.L. 2204, north-westerly, terminating at junction with Vacuum Road."
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN300",
@@ -143898,7 +144618,7 @@
         "government_notice_label_en": "G.N.300",
         "government_notice_label_zh": "第300號",
         "government_notice_url_en": "/egazette/en/1931-gn300.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -144416,7 +145136,7 @@
             "notice_url_zh": "/egazette/zh/1931-gn172.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Private street off Caroline Road, c. 45 yds NE of Pennington Street (I.L. 2147 RP); G.N.172. HKGRO: https://sunzi.lib.hku.hk/hkgro/view/g1931/618213.pdf"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN172",
@@ -145074,10 +145794,46 @@
       "english_name": "HO KING STREET",
       "chinese_name": "好景街",
       "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1932,
+      "naming_date": "1932-04-22",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:10750",
+        "street_code": "10750",
+        "canonical_naming_date": "1932-04-22",
+        "canonical_naming_year": 1932,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1932-04-22",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1932-04-22",
+            "change_kind": "declare",
+            "name_en": "Ho King Street",
+            "name_zh": "好景街",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.245",
+            "notice_label_zh": "第245號",
+            "notice_url_en": "/egazette/en/1932-gn245.pdf",
+            "notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN245",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.245",
+        "government_notice_label_zh": "第245號",
+        "government_notice_url_en": "/egazette/en/1932-gn245.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 1
     },
     {
@@ -148806,10 +149562,46 @@
       "english_name": "LI KWAN AVENUE",
       "chinese_name": "利群道",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1931,
+      "naming_date": "1931-02-13",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:11222",
+        "street_code": "11222",
+        "canonical_naming_date": "1931-02-13",
+        "canonical_naming_year": 1931,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1931-02-13",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1931-02-13",
+            "change_kind": "declare",
+            "name_en": "Li Kwan Avenue",
+            "name_zh": "利群道",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.86",
+            "notice_label_zh": "第86號",
+            "notice_url_en": "/egazette/en/1931-gn86.pdf",
+            "notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN86",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.86",
+        "government_notice_label_zh": "第86號",
+        "government_notice_url_en": "/egazette/en/1931-gn86.pdf",
+        "government_notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 1
     },
     {
@@ -148961,10 +149753,10 @@
             "notice_label_en": "G.N.300",
             "notice_label_zh": "第300號",
             "notice_url_en": "/egazette/en/1931-gn300.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Road off Broadwood Road, NW corner of I.L. 1946, northerly, terminating at junction with Caroline Hill Road. Gazette Chinese: 連合道; current DB name: 連道."
+            "submitter_remarks": "Gazette ZH 連合道; database 連道."
           }
         ],
         "notice_no": "GN300",
@@ -148974,7 +149766,7 @@
         "government_notice_label_en": "G.N.300",
         "government_notice_label_zh": "第300號",
         "government_notice_url_en": "/egazette/en/1931-gn300.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -151820,7 +152612,7 @@
             "notice_url_zh": null,
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Batch G.N.1043 community submission (bilingual PDF)"
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN1043",
@@ -151938,10 +152730,46 @@
       "english_name": "PAK PO STREET",
       "chinese_name": "白布街",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1932,
+      "naming_date": "1932-07-15",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:11634",
+        "street_code": "11634",
+        "canonical_naming_date": "1932-07-15",
+        "canonical_naming_year": 1932,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1932-07-15",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1932-07-15",
+            "change_kind": "declare",
+            "name_en": "Pak Po Street",
+            "name_zh": "白布街",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.465",
+            "notice_label_zh": "第465號",
+            "notice_url_en": "/egazette/en/1932-gn465.pdf",
+            "notice_url_zh": "/egazette/zh/1932-gn465.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN465",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.465",
+        "government_notice_label_zh": "第465號",
+        "government_notice_url_en": "/egazette/en/1932-gn465.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn465.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 1
     },
     {
@@ -155010,10 +155838,46 @@
       "english_name": "SHAN MING STREET",
       "chinese_name": "山明街",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1932,
+      "naming_date": "1932-04-22",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:11981",
+        "street_code": "11981",
+        "canonical_naming_date": "1932-04-22",
+        "canonical_naming_year": 1932,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1932-04-22",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1932-04-22",
+            "change_kind": "declare",
+            "name_en": "Shan Ming Street",
+            "name_zh": "山明街",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.245",
+            "notice_label_zh": "第245號",
+            "notice_url_en": "/egazette/en/1932-gn245.pdf",
+            "notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN245",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.245",
+        "government_notice_label_zh": "第245號",
+        "government_notice_url_en": "/egazette/en/1932-gn245.pdf",
+        "government_notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 1
     },
     {
@@ -156497,10 +157361,10 @@
             "notice_label_en": "G.N.300",
             "notice_label_zh": "第300號",
             "notice_url_en": "/egazette/en/1931-gn300.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Street off Yee Wo Street, SW corner of I.L. 781, parallel with Great George Street, terminating at Praya Wall and eastern corner of I.L. 782."
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN300",
@@ -156510,7 +157374,7 @@
         "government_notice_label_en": "G.N.300",
         "government_notice_label_zh": "第300號",
         "government_notice_url_en": "/egazette/en/1931-gn300.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -156845,10 +157709,10 @@
             "notice_label_en": "G.N.300",
             "notice_label_zh": "第300號",
             "notice_url_en": "/egazette/en/1931-gn300.pdf",
-            "notice_url_zh": null,
+            "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
             "evidence_level": "gazette",
             "source": "crowdsubmitted",
-            "submitter_remarks": "Street off Factory Street, SW corner of S.I.L. 512, northerly, terminating at junction with Kam Wah Street."
+            "submitter_remarks": null
           }
         ],
         "notice_no": "GN300",
@@ -156858,7 +157722,7 @@
         "government_notice_label_en": "G.N.300",
         "government_notice_label_zh": "第300號",
         "government_notice_url_en": "/egazette/en/1931-gn300.pdf",
-        "government_notice_url_zh": null,
+        "government_notice_url_zh": "/egazette/zh/1931-gn300.pdf",
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -158157,10 +159021,46 @@
       "english_name": "TSING CHAU STREET",
       "chinese_name": "青州街",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1931,
+      "naming_date": "1931-10-30",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:12413",
+        "street_code": "12413",
+        "canonical_naming_date": "1931-10-30",
+        "canonical_naming_year": 1931,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1931-10-30",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1931-10-30",
+            "change_kind": "declare",
+            "name_en": "Tsing Chau Street",
+            "name_zh": "青洲街",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.694",
+            "notice_label_zh": "第694號",
+            "notice_url_en": "/egazette/en/1931-gn694.pdf",
+            "notice_url_zh": "/egazette/zh/1931-gn694.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": "Gazette ZH 青洲街; database 青州街."
+          }
+        ],
+        "notice_no": "GN694",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.694",
+        "government_notice_label_zh": "第694號",
+        "government_notice_url_en": "/egazette/en/1931-gn694.pdf",
+        "government_notice_url_zh": "/egazette/zh/1931-gn694.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 1
     },
     {
@@ -161016,10 +161916,46 @@
       "english_name": "YIK KWAN AVENUE",
       "chinese_name": "益群道",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
+      "naming_year": 1931,
+      "naming_date": "1931-02-13",
+      "naming_source": "crowdsubmitted",
+      "naming_details": {
+        "street_key": "code:12862",
+        "street_code": "12862",
+        "canonical_naming_date": "1931-02-13",
+        "canonical_naming_year": 1931,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1931-02-13",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1931-02-13",
+            "change_kind": "declare",
+            "name_en": "Yik Kwan Avenue",
+            "name_zh": "益群道",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.86",
+            "notice_label_zh": "第86號",
+            "notice_url_en": "/egazette/en/1931-gn86.pdf",
+            "notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": null
+          }
+        ],
+        "notice_no": "GN86",
+        "notice_type": "declare",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.86",
+        "government_notice_label_zh": "第86號",
+        "government_notice_url_en": "/egazette/en/1931-gn86.pdf",
+        "government_notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 1
     },
     {
@@ -163185,18 +164121,6 @@
       "segment_count": 23
     },
     {
-      "road_key": "code:11815",
-      "street_code": "11815",
-      "english_name": "REPULSE BAY ROAD",
-      "chinese_name": "淺水灣道",
-      "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 23
-    },
-    {
       "road_key": "code:12165",
       "street_code": "12165",
       "english_name": "STUBBS ROAD",
@@ -163681,18 +164605,6 @@
       "street_code": "11959",
       "english_name": "SHA TAU KOK ROAD - MA MEI HA",
       "chinese_name": "沙頭角公路　－　馬尾下段",
-      "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 20
-    },
-    {
-      "road_key": "code:12216",
-      "street_code": "12216",
-      "english_name": "TAI HANG ROAD",
-      "chinese_name": "大坑道",
       "street_type": "Main Road",
       "naming_year": null,
       "naming_date": null,
@@ -166668,18 +167580,6 @@
       "segment_count": 13
     },
     {
-      "road_key": "code:12782",
-      "street_code": "12782",
-      "english_name": "WONG NAI CHUNG GAP ROAD",
-      "chinese_name": "黃泥涌峽道",
-      "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 13
-    },
-    {
       "road_key": "code:12792",
       "street_code": "12792",
       "english_name": "WU CHUI ROAD",
@@ -167009,18 +167909,6 @@
       "english_name": null,
       "chinese_name": null,
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 12
-    },
-    {
-      "road_key": "code:10066",
-      "street_code": "10066",
-      "english_name": "BLUE POOL ROAD",
-      "chinese_name": "藍塘道",
-      "street_type": "Main Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -168233,18 +169121,6 @@
       "english_name": "HOI WANG ROAD",
       "chinese_name": "海泓道",
       "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 11
-    },
-    {
-      "road_key": "code:10892",
-      "street_code": "10892",
-      "english_name": "JAFFE ROAD",
-      "chinese_name": "謝斐道",
-      "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -169492,18 +170368,6 @@
       "street_code": "11254",
       "english_name": "LOK KING STREET",
       "chinese_name": "樂景街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 10
-    },
-    {
-      "road_key": "code:11263",
-      "street_code": "11263",
-      "english_name": "LOK SHAN ROAD",
-      "chinese_name": "落山道",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -173136,18 +174000,6 @@
       "segment_count": 8
     },
     {
-      "road_key": "code:10888",
-      "street_code": "10888",
-      "english_name": "ISLAND ROAD",
-      "chinese_name": "香島道",
-      "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 8
-    },
-    {
       "road_key": "code:13604",
       "street_code": "13604",
       "english_name": "KA LUNG ROAD",
@@ -173176,18 +174028,6 @@
       "street_code": "14080",
       "english_name": "KAM TSIN SOUTH ROAD",
       "chinese_name": "金錢南路",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 8
-    },
-    {
-      "road_key": "code:11041",
-      "street_code": "11041",
-      "english_name": "KIU KIANG STREET",
-      "chinese_name": "九江街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -180864,18 +181704,6 @@
       "segment_count": 6
     },
     {
-      "road_key": "code:12800",
-      "street_code": "12800",
-      "english_name": "WUN SHA STREET",
-      "chinese_name": "浣紗街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 6
-    },
-    {
       "road_key": "code:12807",
       "street_code": "12807",
       "english_name": "YAN CHING STREET",
@@ -185980,18 +186808,6 @@
       "street_code": "13122",
       "english_name": "PING YEE ROAD",
       "chinese_name": "屏義路",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 5
-    },
-    {
-      "road_key": "code:11724",
-      "street_code": "11724",
-      "english_name": "PLAYING FIELD ROAD",
-      "chinese_name": "運動場道",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -207108,18 +207924,6 @@
       "segment_count": 3
     },
     {
-      "road_key": "code:10620",
-      "street_code": "10620",
-      "english_name": "GRAMPIAN ROAD",
-      "chinese_name": "嘉林邊道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 3
-    },
-    {
       "road_key": "code:14300",
       "street_code": "14300",
       "english_name": "HA TSUEN ROAD",
@@ -209520,18 +210324,6 @@
       "segment_count": 3
     },
     {
-      "road_key": "code:11708",
-      "street_code": "11708",
-      "english_name": "PING LAN STREET",
-      "chinese_name": "平瀾街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 3
-    },
-    {
       "road_key": "code:11718",
       "street_code": "11718",
       "english_name": "PING TONG STREET NORTH",
@@ -210689,18 +211481,6 @@
       "english_name": "TEXACO ROAD NORTH",
       "chinese_name": "德士古道北",
       "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 3
-    },
-    {
-      "road_key": "code:12354",
-      "street_code": "12354",
-      "english_name": "THOMSON ROAD",
-      "chinese_name": "譚臣道",
-      "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -221220,18 +222000,6 @@
       "segment_count": 2
     },
     {
-      "road_key": "code:10202",
-      "street_code": "10202",
-      "english_name": "CHEUNG NING STREET",
-      "chinese_name": "長寧街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 2
-    },
-    {
       "road_key": "code:13075",
       "street_code": "13075",
       "english_name": "CHEUNG PAK ROAD",
@@ -222180,18 +222948,6 @@
       "segment_count": 2
     },
     {
-      "road_key": "code:10548",
-      "street_code": "10548",
-      "english_name": "FUK KWAN AVENUE",
-      "chinese_name": "福群道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 2
-    },
-    {
       "road_key": "code:10550",
       "street_code": "10550",
       "english_name": "FUK LO TSUN ROAD",
@@ -222960,18 +223716,6 @@
       "segment_count": 2
     },
     {
-      "road_key": "code:10873",
-      "street_code": "10873",
-      "english_name": "HUNG SHING STREET",
-      "chinese_name": "洪聖街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 2
-    },
-    {
       "road_key": "code:39528",
       "street_code": "39528",
       "english_name": "INTAKE ROAD",
@@ -223672,18 +224416,6 @@
       "street_code": "11139",
       "english_name": "KWU HANG ROAD",
       "chinese_name": "古坑道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 2
-    },
-    {
-      "road_key": "code:11141",
-      "street_code": "11141",
-      "english_name": "KWUN CHUNG STREET",
-      "chinese_name": "官涌街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -225984,18 +226716,6 @@
       "segment_count": 2
     },
     {
-      "road_key": "code:11908",
-      "street_code": "11908",
-      "english_name": "SAN SHI STREET",
-      "chinese_name": "新市街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 2
-    },
-    {
       "road_key": "code:11913",
       "street_code": "11913",
       "english_name": "SAN TSOI STREET",
@@ -227736,18 +228456,6 @@
       "segment_count": 2
     },
     {
-      "road_key": "code:12603",
-      "street_code": "12603",
-      "english_name": "WAI FUNG STREET",
-      "chinese_name": "惠風街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 2
-    },
-    {
       "road_key": "code:12605",
       "street_code": "12605",
       "english_name": "WAI KEK STREET",
@@ -228664,18 +229372,6 @@
       "street_code": "12932",
       "english_name": "YUET LUN STREET",
       "chinese_name": "月輪街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 2
-    },
-    {
-      "road_key": "code:12940",
-      "street_code": "12940",
-      "english_name": "YUK SAU STREET",
-      "chinese_name": "毓秀街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -290112,18 +290808,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:10750",
-      "street_code": "10750",
-      "english_name": "HO KING STREET",
-      "chinese_name": "好景街",
-      "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:10752",
       "street_code": "10752",
       "english_name": "HO KWOK LANE",
@@ -293112,18 +293796,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:11222",
-      "street_code": "11222",
-      "english_name": "LI KWAN AVENUE",
-      "chinese_name": "利群道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:11225",
       "street_code": "11225",
       "english_name": "LI SING STREET",
@@ -295612,18 +296284,6 @@
       "street_code": "39394",
       "english_name": "PAK FA ROAD",
       "chinese_name": "百花路",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:11634",
-      "street_code": "11634",
-      "english_name": "PAK PO STREET",
-      "chinese_name": "白布街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -298212,18 +298872,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:11981",
-      "street_code": "11981",
-      "english_name": "SHAN MING STREET",
-      "chinese_name": "山明街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:11983",
       "street_code": "11983",
       "english_name": "SHAN PIN TERRACE",
@@ -300660,18 +301308,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:12413",
-      "street_code": "12413",
-      "english_name": "TSING CHAU STREET",
-      "chinese_name": "青州街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:14198",
       "street_code": "14198",
       "english_name": "TSING KO ROAD",
@@ -303017,18 +303653,6 @@
       "english_name": "YI PEI SQUARE",
       "chinese_name": "二陂坊",
       "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "naming_details": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:12862",
-      "street_code": "12862",
-      "english_name": "YIK KWAN AVENUE",
-      "chinese_name": "益群道",
-      "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,

@@ -1,0 +1,26 @@
+{
+  "batch_id": "1932-gn590-yuk-sau-street",
+  "gazette_notice_label": "Government Notification No. 590",
+  "publication_date": "1930-03-07",
+  "gazette_url_en": "/egazette/en/1932-gn590.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/188797.pdf",
+  "streets": [
+    {
+      "street_code": "12940",
+      "english_name": "YUK SAU STREET",
+      "chinese_name": "毓秀街",
+      "history": [
+        {
+          "publication_date": "1930-03-07",
+          "change_kind": "declare",
+          "street_name_en": "Yuk Sau Street",
+          "street_name_zh": "毓秀街",
+          "gazette_notice_label": "Government Notification No. 590",
+          "proof_pdf_url": "/egazette/en/1932-gn590.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette EN Yau Sau Street in G.N.138 (1930-03-07); corrected to Yuk Sau Street in G.N.590."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "batch_id": "1931-gn86-tai-hang-lok-shan",
+  "gazette_notice_label": "Government Notification No. 86",
+  "publication_date": "1931-02-13",
+  "gazette_url_en": "/egazette/en/1931-gn86.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/617916.pdf",
+  "streets": [
+    {
+      "street_code": "12216",
+      "english_name": "TAI HANG ROAD",
+      "chinese_name": "大坑道",
+      "history": [
+        {
+          "publication_date": "1931-02-13",
+          "change_kind": "declare",
+          "street_name_en": "Tai Hang Road",
+          "street_name_zh": "大坑道",
+          "gazette_notice_label": "Government Notification No. 86",
+          "proof_pdf_url": "/egazette/en/1931-gn86.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12862",
+      "english_name": "YIK KWAN AVENUE",
+      "chinese_name": "益群道",
+      "history": [
+        {
+          "publication_date": "1931-02-13",
+          "change_kind": "declare",
+          "street_name_en": "Yik Kwan Avenue",
+          "street_name_zh": "益群道",
+          "gazette_notice_label": "Government Notification No. 86",
+          "proof_pdf_url": "/egazette/en/1931-gn86.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11222",
+      "english_name": "LI KWAN AVENUE",
+      "chinese_name": "利群道",
+      "history": [
+        {
+          "publication_date": "1931-02-13",
+          "change_kind": "declare",
+          "street_name_en": "Li Kwan Avenue",
+          "street_name_zh": "利群道",
+          "gazette_notice_label": "Government Notification No. 86",
+          "proof_pdf_url": "/egazette/en/1931-gn86.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10548",
+      "english_name": "FUK KWAN AVENUE",
+      "chinese_name": "福群道",
+      "history": [
+        {
+          "publication_date": "1931-02-13",
+          "change_kind": "declare",
+          "street_name_en": "Fuk Kwan Avenue",
+          "street_name_zh": "福群道",
+          "gazette_notice_label": "Government Notification No. 86",
+          "proof_pdf_url": "/egazette/en/1931-gn86.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11263",
+      "english_name": "LOK SHAN ROAD",
+      "chinese_name": "落山道",
+      "history": [
+        {
+          "publication_date": "1931-02-13",
+          "change_kind": "declare",
+          "street_name_en": "Lok Shan Road",
+          "street_name_zh": "落山道",
+          "gazette_notice_label": "Government Notification No. 86",
+          "proof_pdf_url": "/egazette/en/1931-gn86.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10202",
+      "english_name": "CHEUNG NING STREET",
+      "chinese_name": "長寧街",
+      "history": [
+        {
+          "publication_date": "1931-02-13",
+          "change_kind": "declare",
+          "street_name_en": "Cheung Ning Street",
+          "street_name_zh": "長寧街",
+          "gazette_notice_label": "Government Notification No. 86",
+          "proof_pdf_url": "/egazette/en/1931-gn86.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

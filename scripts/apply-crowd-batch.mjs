@@ -307,13 +307,11 @@ async function main() {
   const pendingMap = await loadPendingRoadKeys(projectRoot)
   const copiedPdfs = await copyBatchPdfs(batch, notice.batch_id)
   const displayDate = formatDisplayDate(publicationDate)
-  const remarks = batch.remarks ?? `Batch ${notice.notice_label} community submission`
   const batchDefaults = {
     batch_id: notice.batch_id,
     gazette_notice_label: notice.notice_label,
     gazette_url_en: notice.url_en,
     gazette_url_zh: notice.url_zh,
-    remarks,
     reviewed_at: new Date().toISOString().slice(0, 10),
   }
 
@@ -344,7 +342,7 @@ async function main() {
       notice_label: notice.notice_label,
       gazette_url: notice.url_en ?? '',
       submission_id: `${notice.batch_id}-${suffix}`,
-      remarks,
+      remarks: batch.remarks ?? '',
     })
   }
 

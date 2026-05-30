@@ -3,8 +3,11 @@
   "publication_date": "1905-03-17",
   "batch_id": "1905-gn158",
   "gazette_url_en": "https://digitalrepository.lib.hku.hk/catalog/gt54tb75g",
-  "remarks": "Batch G.N.158 community submission (HKU HKGRO gazette scan)",
   "streets": [
-    { "street_code": "10599", "chinese_name": "加士居道", "english_name": "GASCOIGNE ROAD" }
+    {
+      "street_code": "10599",
+      "chinese_name": "加士居道",
+      "english_name": "GASCOIGNE ROAD"
+    }
   ]
 }

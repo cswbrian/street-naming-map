@@ -4,7 +4,6 @@
   "publication_date": "1931-01-30",
   "gazette_url_en": "/egazette/en/1931-gn58.pdf",
   "pdf_en": "data/crowdsubmissions/batch-inbox/1931-gn58-tak-shing/1931-gn58.pdf",
-  "remarks": "Street off Nathan Road/Austin Road named Tak Shing Street (德成街); hosted at /egazette/en/1931-gn58.pdf.",
   "streets": [
     {
       "street_code": "12315",
@@ -18,8 +17,7 @@
           "street_name_zh": "德成街",
           "gazette_notice_label": "Government Notification No. 58",
           "proof_pdf_url": "/egazette/en/1931-gn58.pdf",
-          "evidence_level": "gazette",
-          "submitter_remarks": "Street commencing at Nathan Road NW corner of K.I.L. 1134, parallel to Austin Road through K.I.L. 1297, junction with Cox's Road; G.N.58."
+          "evidence_level": "gazette"
         }
       ]
     }

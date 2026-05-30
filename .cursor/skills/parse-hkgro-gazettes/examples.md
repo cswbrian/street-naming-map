@@ -40,7 +40,7 @@ Batch: `1931-gn58-tak-shing-street.json` · Hosted: `/egazette/en/1931-gn58.pdf`
 | 14 | Cotton Path | 棉花路 | 10341 | ✓ |
 | 15 | Eastern Hospital Road | 東院道 | 10400 | ✓ |
 
-\*Gazette 連合道; DB has 連道 — matched on English + Broadwood/Caroline Hill description.
+\*Gazette 連合道; DB has 連道 — matched on English + Broadwood/Caroline Hill description. Only this row gets `submitter_remarks`: `Gazette ZH 連合道; database 連道.`
 
 One batch `1931-gn300-…` with 15 `streets` entries · Hosted: `/egazette/en/1931-gn300.pdf`
 

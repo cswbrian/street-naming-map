@@ -69,7 +69,7 @@ python3 scripts/render-gazette-pdf.py notice.pdf --page 1 --out /tmp/p2.png
 Less common for bulk street lists. Still look for:
 - “undermentioned … street(s)” / “to be known … by the name”
 - English + Chinese name pair
-- Lot references (K.I.L., S.I.L., M.I.L., I.L.) in DESCRIPTION column → `submitter_remarks`
+- Lot references (K.I.L., S.I.L., M.I.L., I.L.) in DESCRIPTION column → use to pick `street_code`; do not copy into `submitter_remarks`
 
 ## Field extraction rules
 
@@ -80,7 +80,7 @@ Less common for bulk street lists. Still look for:
 | Change kind | “to be known for the future” → `declare`; “instead of” / former name → `rename` |
 | English name | FUTURE NAME column; strip trailing period |
 | Chinese name | CHINESE VERSION column |
-| Description | DESCRIPTION column (first ~120 chars for remarks) |
+| Description | DESCRIPTION column — matching/disambiguation only; **not** stored in batch |
 
 ## Street matching (mandatory)
 
@@ -88,7 +88,7 @@ For **each** extracted row:
 
 1. Search `public/data/master/pending-naming-years.csv` by Chinese name, then English.
 2. Confirm `street_code` exists in `public/data/hk-streets.geojson` (has map geometry).
-3. If Chinese differs slightly (e.g. gazette **連合道**, DB **連道**), match on **English + location description**; put location in `submitter_remarks` only — the map card auto-generates the Chinese mismatch note.
+3. If Chinese differs slightly (e.g. gazette **連合道**, DB **連道**), match on **English + location description**; set `submitter_remarks` to the name mismatch only (e.g. `Gazette ZH 連合道; database 連道.`) — omit remarks when EN and ZH both match exactly.
 4. If **no GeoJSON match** → report as unmatched; do not apply.
 5. If multiple English matches → use DESCRIPTION (district, intersecting roads, lot numbers) to disambiguate.
 

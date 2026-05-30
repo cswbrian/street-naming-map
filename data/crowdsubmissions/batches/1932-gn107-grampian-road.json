@@ -1,0 +1,25 @@
+{
+  "batch_id": "1932-gn107-grampian-road",
+  "gazette_notice_label": "Government Notification No. 107",
+  "publication_date": "1932-02-19",
+  "gazette_url_en": "/egazette/en/1932-gn107.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/187126.pdf",
+  "streets": [
+    {
+      "street_code": "10620",
+      "english_name": "GRAMPIAN ROAD",
+      "chinese_name": "嘉林邊道",
+      "history": [
+        {
+          "publication_date": "1932-02-19",
+          "change_kind": "declare",
+          "street_name_en": "Grampian Road",
+          "street_name_zh": "嘉林邊道",
+          "gazette_notice_label": "Government Notification No. 107",
+          "proof_pdf_url": "/egazette/en/1932-gn107.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

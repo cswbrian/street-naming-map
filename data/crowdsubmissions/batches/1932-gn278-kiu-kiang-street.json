@@ -1,0 +1,25 @@
+{
+  "batch_id": "1932-gn278-kiu-kiang-street",
+  "gazette_notice_label": "Government Notification No. 278",
+  "publication_date": "1932-05-06",
+  "gazette_url_en": "/egazette/en/1932-gn278.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/187687.pdf",
+  "streets": [
+    {
+      "street_code": "11041",
+      "english_name": "KIU KIANG STREET",
+      "chinese_name": "九江街",
+      "history": [
+        {
+          "publication_date": "1932-05-06",
+          "change_kind": "declare",
+          "street_name_en": "Kiu Kiang Street",
+          "street_name_zh": "九江街",
+          "gazette_notice_label": "Government Notification No. 278",
+          "proof_pdf_url": "/egazette/en/1932-gn278.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

@@ -6,6 +6,11 @@
   "gazette_url_zh": "/egazette/zh/1979-gn1043.pdf",
   "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/inbox/staging-1979-gn1043/on-wah-street.pdf",
   "pdf_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/inbox/staging-1979-gn1043/on-wah-street.pdf",
-  "remarks": "Batch G.N.1043 community submission (bilingual PDF)",
-  "streets": [{ "street_code": "11610", "chinese_name": "安華街", "english_name": "ON WAH STREET" }]
+  "streets": [
+    {
+      "street_code": "11610",
+      "chinese_name": "安華街",
+      "english_name": "ON WAH STREET"
+    }
+  ]
 }
