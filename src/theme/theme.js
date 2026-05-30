@@ -57,18 +57,18 @@ export const MAP_BACKGROUND_COLORS = {
 /** Era colors indexed g1–g6; tuned separately for dark vs light basemaps. */
 export const MAP_ROAD_PALETTE = {
   dark: {
-    unknown: '#B0B8C9',
+    unknown: '#6e7585',
     eras: ['#5B6CFF', '#3FA9FF', '#2ED3FF', '#35F2C3', '#C6FF4D', '#FF5FD2'],
     highlightGlow: '#e8e8e8',
     highlightCore: '#f0f0f0',
     focus: '#9a9a9a',
     opacity: {
-      unknown: 0.9,
+      unknown: 0.38,
       fadeMin: 0.1,
       fadeMid: 0.35,
       fadeMax: 0.95,
       dimMultiplier: 0.32,
-      labelUnknown: 0.75,
+      labelUnknown: 0.4,
       labelFadeMin: 0.05,
       labelFadeMid: 0.4,
       labelFadeMax: 0.9,
@@ -76,18 +76,18 @@ export const MAP_ROAD_PALETTE = {
     },
   },
   light: {
-    unknown: '#5C6578',
+    unknown: '#9aa3b0',
     eras: ['#3141D4', '#0072C9', '#0091B0', '#008566', '#6E9300', '#C41585'],
     highlightGlow: '#ffffff',
     highlightCore: '#1a2332',
     focus: '#4a5568',
     opacity: {
-      unknown: 1,
+      unknown: 0.45,
       fadeMin: 0.38,
       fadeMid: 0.62,
       fadeMax: 1,
       dimMultiplier: 0.45,
-      labelUnknown: 0.92,
+      labelUnknown: 0.48,
       labelFadeMin: 0.35,
       labelFadeMid: 0.62,
       labelFadeMax: 0.98,
