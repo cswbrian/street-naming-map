@@ -231,7 +231,7 @@ function MapPage() {
       .filter((item) => item.searchText.includes(keyword))
       .slice(0, 10)
   }, [roadIndex, roadSearch])
-  const viewportTarget = useMemo(() => {
+  const roadViewportTarget = useMemo(() => {
     if (activeRoad) {
       if (Array.isArray(activeRoad.bbox) && activeRoad.bbox.length === 4) {
         return {
@@ -245,6 +245,10 @@ function MapPage() {
     if (clickedRoadCenter) {
       return { center: clickedRoadCenter, zoom: 14.8 }
     }
+    return null
+  }, [activeRoad, clickedRoadCenter])
+
+  const viewportTarget = useMemo(() => {
     if (activeSubDistrict) {
       const center = subDistrictCenters[activeSubDistrict.id]
       if (center) {
@@ -259,7 +263,7 @@ function MapPage() {
       }
     }
     return null
-  }, [activeRoad, activeSubDistrict, activeRegionId, subDistrictCenters, clickedRoadCenter])
+  }, [activeSubDistrict, activeRegionId, subDistrictCenters])
 
   useEffect(() => {
     if (!activeSubDistrictId) return
@@ -588,6 +592,7 @@ function MapPage() {
         activeGroup={activeGroup}
         onMapReady={() => setIsMapLoading(false)}
         viewportTarget={viewportTarget}
+        roadViewportTarget={roadViewportTarget}
         selectedRoadKey={selectedRoadKey}
         selectedRoadCenter={clickedRoadCenter ?? activeRoad?.center ?? null}
         selectedRoadInfo={selectedRoadInfo}

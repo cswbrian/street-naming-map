@@ -25,6 +25,36 @@ const FOCUS_SOURCE_ID = 'focus-area-source'
 const FOCUS_LAYER_ID = 'focus-area-layer'
 const DATA_URL = `${import.meta.env.BASE_URL}data/hk-streets.geojson`
 const DEFAULT_VIEW = { center: [114.1694, 22.3193], zoom: 10.9 }
+
+const flyMapToViewportTarget = (map, target) => {
+  if (target?.center) {
+    map.flyTo({
+      center: target.center,
+      zoom: target.zoom ?? 14,
+      pitch: 0,
+      bearing: 0,
+      duration: 780,
+      essential: true,
+    })
+    return
+  }
+
+  if (target?.bbox) {
+    map.fitBounds(
+      [
+        [target.bbox[0], target.bbox[1]],
+        [target.bbox[2], target.bbox[3]],
+      ],
+      {
+        padding: target.padding ?? { top: 90, right: 70, bottom: 130, left: 70 },
+        duration: 820,
+        essential: true,
+        maxZoom: target.maxZoom ?? 13.2,
+      },
+    )
+  }
+}
+
 const HK_BOUNDS = [
   [113.82, 22.15],
   [114.45, 22.58],
@@ -251,6 +281,7 @@ function MapView({
   activeGroup,
   onMapReady,
   viewportTarget,
+  roadViewportTarget,
   selectedRoadKey,
   selectedRoadCenter,
   selectedRoadInfo,
@@ -613,6 +644,10 @@ function MapView({
     }
 
     if (!viewportTarget?.bbox && !viewportTarget?.center) {
+      if (roadViewportTarget?.bbox || roadViewportTarget?.center) {
+        return
+      }
+
       map.easeTo({
         center: DEFAULT_VIEW.center,
         zoom: DEFAULT_VIEW.zoom,
@@ -629,40 +664,31 @@ function MapView({
       return
     }
 
-    if (viewportTarget?.center) {
-      map.flyTo({
-        center: viewportTarget.center,
-        zoom: viewportTarget.zoom ?? 14,
-        pitch: 0,
-        bearing: 0,
-        duration: 780,
-        essential: true,
-      })
-      const source = map.getSource(FOCUS_SOURCE_ID)
-      if (source) {
-        source.setData({ type: 'FeatureCollection', features: [] })
-      }
-      return
-    }
-
-    map.fitBounds(
-      [
-        [viewportTarget.bbox[0], viewportTarget.bbox[1]],
-        [viewportTarget.bbox[2], viewportTarget.bbox[3]],
-      ],
-      {
-        padding: viewportTarget.padding ?? { top: 90, right: 70, bottom: 130, left: 70 },
-        duration: 820,
-        essential: true,
-        maxZoom: viewportTarget.maxZoom ?? 13.2,
-      },
-    )
+    flyMapToViewportTarget(map, viewportTarget)
 
     const source = map.getSource(FOCUS_SOURCE_ID)
     if (source) {
       source.setData({ type: 'FeatureCollection', features: [] })
     }
-  }, [viewportTarget])
+  }, [viewportTarget, roadViewportTarget])
+
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map) {
+      return
+    }
+
+    if (!roadViewportTarget?.bbox && !roadViewportTarget?.center) {
+      return
+    }
+
+    flyMapToViewportTarget(map, roadViewportTarget)
+
+    const source = map.getSource(FOCUS_SOURCE_ID)
+    if (source) {
+      source.setData({ type: 'FeatureCollection', features: [] })
+    }
+  }, [roadViewportTarget])
 
   useEffect(() => {
     const map = mapRef.current
