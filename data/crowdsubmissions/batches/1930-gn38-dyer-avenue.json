@@ -1,0 +1,26 @@
+{
+  "batch_id": "1930-gn38-dyer-avenue",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 38",
+  "publication_date": "1930-01-17",
+  "gazette_url_en": "/egazette/en/1930-gn38.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1930-gn38-dyer-avenue/1930-gn38.pdf",
+  "streets": [
+    {
+      "street_code": "10395",
+      "english_name": "DYER AVENUE",
+      "chinese_name": "戴亞街",
+      "history": [
+        {
+          "publication_date": "1930-01-17",
+          "change_kind": "declare",
+          "street_name_en": "Dyer Avenue",
+          "street_name_zh": "戴亞街",
+          "gazette_notice_label": "Government Notification No. 38",
+          "government_notice_url_en": "/egazette/en/1930-gn38.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

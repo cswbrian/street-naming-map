@@ -1,0 +1,26 @@
+{
+  "batch_id": "1920-gn194-li-chit-street",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 194",
+  "publication_date": "1920-04-01",
+  "gazette_url_en": "/egazette/en/1920-gn194.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1920-gn194-li-chit-street/1920-gn194.pdf",
+  "streets": [
+    {
+      "street_code": "11221",
+      "english_name": "LI CHIT STREET",
+      "chinese_name": "李節街",
+      "history": [
+        {
+          "publication_date": "1920-04-01",
+          "change_kind": "declare",
+          "street_name_en": "Li Chit Street",
+          "street_name_zh": "李節街",
+          "gazette_notice_label": "Government Notification No. 194",
+          "government_notice_url_en": "/egazette/en/1920-gn194.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

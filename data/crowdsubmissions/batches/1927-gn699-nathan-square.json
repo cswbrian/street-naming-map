@@ -1,0 +1,365 @@
+{
+  "batch_id": "1927-gn699-nathan-square",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 699",
+  "publication_date": "1927-11-25",
+  "gazette_url_en": "/egazette/en/1927-gn699.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1927-gn699-nathan-square/1927-gn699.pdf",
+  "streets": [
+    {
+      "street_code": "11777",
+      "english_name": "PORTLAND STREET",
+      "chinese_name": "砵蘭街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Portland Street",
+          "street_name_zh": "砵蘭街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10206",
+      "english_name": "CHEUNG SHA WAN ROAD",
+      "chinese_name": "長沙灣道",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Cheung Sha Wan Road",
+          "street_name_zh": "長沙灣道",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10025",
+      "english_name": "APLIU STREET",
+      "chinese_name": "鴨寮街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Apliu Street",
+          "street_name_zh": "鴨寮街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10989",
+      "english_name": "KI LUNG STREET",
+      "chinese_name": "基隆街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Ki Lung Street",
+          "street_name_zh": "基隆街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12239",
+      "english_name": "TAI NAN STREET",
+      "chinese_name": "大南街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Tai Nan Street",
+          "street_name_zh": "大南街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12844",
+      "english_name": "YEE KUK STREET",
+      "chinese_name": "醫局街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Yee Kuk Street",
+          "street_name_zh": "醫局街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10635",
+      "english_name": "HAI TAN STREET",
+      "chinese_name": "海壇街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Hai Tan Street",
+          "street_name_zh": "海壇街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12509",
+      "english_name": "TUNG CHAU STREET",
+      "chinese_name": "通州街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Tung Chau Street",
+          "street_name_zh": "通州街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10053",
+      "english_name": "BEDFORD ROAD",
+      "chinese_name": "必發道",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Bedford Road",
+          "street_name_zh": "必發道",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11190",
+      "english_name": "LARCH STREET",
+      "chinese_name": "洋松街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Larch Street",
+          "street_name_zh": "洋松街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10559",
+      "english_name": "FUK TSUN STREET",
+      "chinese_name": "福全街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Fuk Tsun Street",
+          "street_name_zh": "福全街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10033",
+      "english_name": "ASH STREET",
+      "chinese_name": "槐樹街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Ash Street",
+          "street_name_zh": "槐樹街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11694",
+      "english_name": "PINE STREET",
+      "chinese_name": "杉樹街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Pine Street",
+          "street_name_zh": "杉樹街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10054",
+      "english_name": "BEECH STREET",
+      "chinese_name": "櫸樹街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Beech Street",
+          "street_name_zh": "櫸樹街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10411",
+      "english_name": "ELM STREET",
+      "chinese_name": "榆樹街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Elm Street",
+          "street_name_zh": "榆樹街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12777",
+      "english_name": "WONG CHUK STREET",
+      "chinese_name": "黃竹街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Wong Chuk Street",
+          "street_name_zh": "黃竹街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11395",
+      "english_name": "MAPLE STREET",
+      "chinese_name": "楓樹街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Maple Street",
+          "street_name_zh": "楓樹街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11776",
+      "english_name": "POPLAR STREET",
+      "chinese_name": "白楊街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Poplar Street",
+          "street_name_zh": "白楊街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10151",
+      "english_name": "CEDAR STREET",
+      "chinese_name": "柏樹街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Cedar Street",
+          "street_name_zh": "柏樹街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11233",
+      "english_name": "LIME STREET",
+      "chinese_name": "菩提街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Lime Street",
+          "street_name_zh": "菩提街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10490",
+      "english_name": "FIR STREET",
+      "chinese_name": "松樹街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Fir Street",
+          "street_name_zh": "松樹街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10075",
+      "english_name": "BOUNDARY STREET",
+      "chinese_name": "界限街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Boundary Street",
+          "street_name_zh": "界限街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "parse_flags": [
+    "Cheung Sha Wan Road: database naming_year 2019 later than gazette 1927"
+  ]
+}

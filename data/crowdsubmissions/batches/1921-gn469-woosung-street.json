@@ -1,0 +1,26 @@
+{
+  "batch_id": "1921-gn469-woosung-street",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 469",
+  "publication_date": "1921-11-10",
+  "gazette_url_en": "/egazette/en/1921-gn469.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1921-gn469-woosung-street/1921-gn469.pdf",
+  "streets": [
+    {
+      "street_code": "12343",
+      "english_name": "TEMPLE STREET",
+      "chinese_name": "廟街",
+      "history": [
+        {
+          "publication_date": "1921-11-10",
+          "change_kind": "declare",
+          "street_name_en": "Temple Street",
+          "street_name_zh": "廟街",
+          "gazette_notice_label": "Government Notification No. 469",
+          "government_notice_url_en": "/egazette/en/1921-gn469.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

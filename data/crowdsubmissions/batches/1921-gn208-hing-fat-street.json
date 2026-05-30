@@ -1,0 +1,26 @@
+{
+  "batch_id": "1921-gn208-hing-fat-street",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 208",
+  "publication_date": "1921-05-06",
+  "gazette_url_en": "/egazette/en/1921-gn208.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1921-gn208-hing-fat-street/1921-gn208.pdf",
+  "streets": [
+    {
+      "street_code": "10717",
+      "english_name": "HING FAT STREET",
+      "chinese_name": "興發街",
+      "history": [
+        {
+          "publication_date": "1921-05-06",
+          "change_kind": "declare",
+          "street_name_en": "Hing Fat Street",
+          "street_name_zh": "興發街",
+          "gazette_notice_label": "Government Notification No. 208",
+          "government_notice_url_en": "/egazette/en/1921-gn208.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

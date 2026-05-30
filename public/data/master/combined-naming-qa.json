@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-30T06:48:33.313Z",
+  "generated_at": "2026-05-30T07:49:50.480Z",
   "counts": {
-    "crowd_events_merged": 225,
-    "combined_events": 756,
-    "street_aggregates": 730,
-    "streets_with_naming_year": 728
+    "crowd_events_merged": 433,
+    "combined_events": 964,
+    "street_aggregates": 925,
+    "streets_with_naming_year": 923
   },
   "join_stats": {
     "matched_exact_features": 2618,
-    "matched_fallback_features": 1336,
-    "unmatched_features": 35648,
+    "matched_fallback_features": 2439,
+    "unmatched_features": 34545,
     "total_features": 39602
   }
 }

@@ -1,0 +1,42 @@
+{
+  "batch_id": "1924-gn187-sassoon-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 187",
+  "publication_date": "1924-04-04",
+  "gazette_url_en": "/egazette/en/1924-gn187.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1924-gn187-sassoon-road/1924-gn187.pdf",
+  "streets": [
+    {
+      "street_code": "11923",
+      "english_name": "SASSOON ROAD",
+      "chinese_name": "沙宣道",
+      "history": [
+        {
+          "publication_date": "1924-04-04",
+          "change_kind": "declare",
+          "street_name_en": "Sassoon Road",
+          "street_name_zh": "沙宣道",
+          "gazette_notice_label": "Government Notification No. 187",
+          "government_notice_url_en": "/egazette/en/1924-gn187.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12269",
+      "english_name": "TAI SHEK STREET",
+      "chinese_name": "大石街",
+      "history": [
+        {
+          "publication_date": "1924-04-04",
+          "change_kind": "declare",
+          "street_name_en": "Tai Shek Street",
+          "street_name_zh": "大石街",
+          "gazette_notice_label": "Government Notification No. 187",
+          "government_notice_url_en": "/egazette/en/1924-gn187.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "batch_id": "1924-gn621-wai-ching-street",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 621",
+  "publication_date": "1924-11-07",
+  "gazette_url_en": "/egazette/en/1924-gn621.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1924-gn621-wai-ching-street/1924-gn621.pdf",
+  "streets": [
+    {
+      "street_code": "12602",
+      "english_name": "WAI CHING STREET",
+      "chinese_name": "偉晴街",
+      "history": [
+        {
+          "publication_date": "1924-11-07",
+          "change_kind": "declare",
+          "street_name_en": "Wai Ching Street",
+          "street_name_zh": "偉晴街",
+          "gazette_notice_label": "Government Notification No. 621",
+          "government_notice_url_en": "/egazette/en/1924-gn621.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "batch_id": "1929-gn312-johnston-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 312",
+  "publication_date": "1929-06-14",
+  "gazette_url_en": "/egazette/en/1929-gn312.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1929-gn312-johnston-road/1929-gn312.pdf",
+  "streets": [
+    {
+      "street_code": "10900",
+      "english_name": "JOHNSTON ROAD",
+      "chinese_name": "莊士敦道",
+      "history": [
+        {
+          "publication_date": "1929-06-14",
+          "change_kind": "declare",
+          "street_name_en": "Johnston Road",
+          "street_name_zh": "莊士敦道",
+          "gazette_notice_label": "Government Notification No. 312",
+          "government_notice_url_en": "/egazette/en/1929-gn312.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10689",
+      "english_name": "HENNESSY ROAD",
+      "chinese_name": "軒尼詩道",
+      "history": [
+        {
+          "publication_date": "1929-06-14",
+          "change_kind": "declare",
+          "street_name_en": "Hennessy Road",
+          "street_name_zh": "軒尼詩道",
+          "gazette_notice_label": "Government Notification No. 312",
+          "government_notice_url_en": "/egazette/en/1929-gn312.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11250",
+      "english_name": "LOCKHART ROAD",
+      "chinese_name": "駱克道",
+      "history": [
+        {
+          "publication_date": "1929-06-14",
+          "change_kind": "declare",
+          "street_name_en": "Lockhart Road",
+          "street_name_zh": "駱克道",
+          "gazette_notice_label": "Government Notification No. 312",
+          "government_notice_url_en": "/egazette/en/1929-gn312.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10609",
+      "english_name": "GLOUCESTER ROAD",
+      "chinese_name": "告士打道",
+      "history": [
+        {
+          "publication_date": "1929-06-14",
+          "change_kind": "declare",
+          "street_name_en": "Gloucester Road",
+          "street_name_zh": "告士打道",
+          "gazette_notice_label": "Government Notification No. 312",
+          "government_notice_url_en": "/egazette/en/1929-gn312.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10482",
+      "english_name": "FENWICK STREET",
+      "chinese_name": "分域街",
+      "history": [
+        {
+          "publication_date": "1929-06-14",
+          "change_kind": "declare",
+          "street_name_en": "Fenwick Street",
+          "street_name_zh": "分域街",
+          "gazette_notice_label": "Government Notification No. 312",
+          "government_notice_url_en": "/egazette/en/1929-gn312.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11286",
+      "english_name": "LUARD ROAD",
+      "chinese_name": "盧押道",
+      "history": [
+        {
+          "publication_date": "1929-06-14",
+          "change_kind": "declare",
+          "street_name_en": "Luard Road",
+          "street_name_zh": "盧押道",
+          "gazette_notice_label": "Government Notification No. 312",
+          "government_notice_url_en": "/egazette/en/1929-gn312.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11557",
+      "english_name": "O'BRIEN ROAD",
+      "chinese_name": "柯布連道",
+      "history": [
+        {
+          "publication_date": "1929-06-14",
+          "change_kind": "declare",
+          "street_name_en": "O'brien Road",
+          "street_name_zh": "柯布連道",
+          "gazette_notice_label": "Government Notification No. 312",
+          "government_notice_url_en": "/egazette/en/1929-gn312.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10495",
+      "english_name": "FLEMING ROAD",
+      "chinese_name": "菲林明道",
+      "history": [
+        {
+          "publication_date": "1929-06-14",
+          "change_kind": "declare",
+          "street_name_en": "Fleming Road",
+          "street_name_zh": "菲林明道",
+          "gazette_notice_label": "Government Notification No. 312",
+          "government_notice_url_en": "/egazette/en/1929-gn312.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12161",
+      "english_name": "STEWART ROAD",
+      "chinese_name": "史釗域道",
+      "history": [
+        {
+          "publication_date": "1929-06-14",
+          "change_kind": "declare",
+          "street_name_en": "Stewart Road",
+          "street_name_zh": "史釗域道",
+          "gazette_notice_label": "Government Notification No. 312",
+          "government_notice_url_en": "/egazette/en/1929-gn312.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12395",
+      "english_name": "TONNOCHY ROAD",
+      "chinese_name": "杜老誌道",
+      "history": [
+        {
+          "publication_date": "1929-06-14",
+          "change_kind": "declare",
+          "street_name_en": "Tonnochy Road",
+          "street_name_zh": "謝斐道",
+          "gazette_notice_label": "Government Notification No. 312",
+          "government_notice_url_en": "/egazette/en/1929-gn312.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 謝斐道; database 杜老誌道."
+        }
+      ]
+    },
+    {
+      "street_code": "11401",
+      "english_name": "MARSH ROAD",
+      "chinese_name": "馬師道",
+      "history": [
+        {
+          "publication_date": "1929-06-14",
+          "change_kind": "declare",
+          "street_name_en": "Marsh Road",
+          "street_name_zh": "馬師道",
+          "gazette_notice_label": "Government Notification No. 312",
+          "government_notice_url_en": "/egazette/en/1929-gn312.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10113",
+      "english_name": "CANAL ROAD WEST",
+      "chinese_name": "堅拿道西",
+      "history": [
+        {
+          "publication_date": "1929-06-14",
+          "change_kind": "declare",
+          "street_name_en": "Canal Road West",
+          "street_name_zh": "堅拿道西",
+          "gazette_notice_label": "Government Notification No. 312",
+          "government_notice_url_en": "/egazette/en/1929-gn312.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10112",
+      "english_name": "CANAL ROAD EAST",
+      "chinese_name": "堅拿道東",
+      "history": [
+        {
+          "publication_date": "1929-06-14",
+          "change_kind": "declare",
+          "street_name_en": "Canal Road East",
+          "street_name_zh": "堅拿道東",
+          "gazette_notice_label": "Government Notification No. 312",
+          "government_notice_url_en": "/egazette/en/1929-gn312.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11683",
+      "english_name": "PERCIVAL STREET",
+      "chinese_name": "波斯富街",
+      "history": [
+        {
+          "publication_date": "1929-06-14",
+          "change_kind": "declare",
+          "street_name_en": "Percival Street",
+          "street_name_zh": "波斯富街",
+          "gazette_notice_label": "Government Notification No. 312",
+          "government_notice_url_en": "/egazette/en/1929-gn312.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "parse_flags": [
+    "Fleming Road: database naming_year 2019 later than gazette 1929"
+  ]
+}

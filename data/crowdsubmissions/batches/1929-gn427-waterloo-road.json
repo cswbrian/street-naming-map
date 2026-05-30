@@ -1,0 +1,268 @@
+{
+  "batch_id": "1929-gn427-waterloo-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 427",
+  "publication_date": "1929-08-23",
+  "gazette_url_en": "/egazette/en/1929-gn427.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1929-gn427-waterloo-road/1929-gn427.pdf",
+  "streets": [
+    {
+      "street_code": "12690",
+      "english_name": "WATERLOO ROAD",
+      "chinese_name": "窩打老道",
+      "history": [
+        {
+          "publication_date": "1929-08-23",
+          "change_kind": "declare",
+          "street_name_en": "Waterloo Road",
+          "street_name_zh": "窩打老道",
+          "gazette_notice_label": "Government Notification No. 427",
+          "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10075",
+      "english_name": "BOUNDARY STREET",
+      "chinese_name": "界限街",
+      "history": [
+        {
+          "publication_date": "1929-08-23",
+          "change_kind": "declare",
+          "street_name_en": "Boundary Street",
+          "street_name_zh": "界限街",
+          "gazette_notice_label": "Government Notification No. 427",
+          "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10339",
+      "english_name": "CORNWALL STREET",
+      "chinese_name": "歌和老街",
+      "history": [
+        {
+          "publication_date": "1929-08-23",
+          "change_kind": "declare",
+          "street_name_en": "Cornwall Street",
+          "street_name_zh": "歌和老道",
+          "gazette_notice_label": "Government Notification No. 427",
+          "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 歌和老道; database 歌和老街."
+        }
+      ]
+    },
+    {
+      "street_code": "12166",
+      "english_name": "SUFFOLK ROAD",
+      "chinese_name": "沙福道",
+      "history": [
+        {
+          "publication_date": "1929-08-23",
+          "change_kind": "declare",
+          "street_name_en": "Suffolk Road",
+          "street_name_zh": "沙福道",
+          "gazette_notice_label": "Government Notification No. 427",
+          "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10984",
+      "english_name": "KENT ROAD",
+      "chinese_name": "根德道",
+      "history": [
+        {
+          "publication_date": "1929-08-23",
+          "change_kind": "declare",
+          "street_name_en": "Kent Road",
+          "street_name_zh": "根德道",
+          "gazette_notice_label": "Government Notification No. 427",
+          "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12127",
+      "english_name": "SOMERSET ROAD",
+      "chinese_name": "森麻實道",
+      "history": [
+        {
+          "publication_date": "1929-08-23",
+          "change_kind": "declare",
+          "street_name_en": "Somerset Road",
+          "street_name_zh": "森麻實道",
+          "gazette_notice_label": "Government Notification No. 427",
+          "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10376",
+      "english_name": "DEVON ROAD",
+      "chinese_name": "德雲道",
+      "history": [
+        {
+          "publication_date": "1929-08-23",
+          "change_kind": "declare",
+          "street_name_en": "Devon Road",
+          "street_name_zh": "德雲道",
+          "gazette_notice_label": "Government Notification No. 427",
+          "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10382",
+      "english_name": "DORSET CRESCENT",
+      "chinese_name": "多實街",
+      "history": [
+        {
+          "publication_date": "1929-08-23",
+          "change_kind": "declare",
+          "street_name_en": "Dorset Crescent",
+          "street_name_zh": "多實街",
+          "gazette_notice_label": "Government Notification No. 427",
+          "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11549",
+      "english_name": "NORFOLK ROAD",
+      "chinese_name": "羅福道",
+      "history": [
+        {
+          "publication_date": "1929-08-23",
+          "change_kind": "declare",
+          "street_name_en": "Norfolk Road",
+          "street_name_zh": "羅福道",
+          "gazette_notice_label": "Government Notification No. 427",
+          "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12887",
+      "english_name": "YORK ROAD",
+      "chinese_name": "約道",
+      "history": [
+        {
+          "publication_date": "1929-08-23",
+          "change_kind": "declare",
+          "street_name_en": "York Road",
+          "street_name_zh": "約道",
+          "gazette_notice_label": "Government Notification No. 427",
+          "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11829",
+      "english_name": "RUTLAND QUADRANT",
+      "chinese_name": "律倫街",
+      "history": [
+        {
+          "publication_date": "1929-08-23",
+          "change_kind": "declare",
+          "street_name_en": "Rutland Quadrant",
+          "street_name_zh": "律倫街",
+          "gazette_notice_label": "Government Notification No. 427",
+          "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10351",
+      "english_name": "CUMBERLAND ROAD",
+      "chinese_name": "金巴倫道",
+      "history": [
+        {
+          "publication_date": "1929-08-23",
+          "change_kind": "declare",
+          "street_name_en": "Cumberland Road",
+          "street_name_zh": "金巴倫道",
+          "gazette_notice_label": "Government Notification No. 427",
+          "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12193",
+      "english_name": "SURREY LANE",
+      "chinese_name": "舒梨道",
+      "history": [
+        {
+          "publication_date": "1929-08-23",
+          "change_kind": "declare",
+          "street_name_en": "Surrey Lane",
+          "street_name_zh": "舒梨里",
+          "gazette_notice_label": "Government Notification No. 427",
+          "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 舒梨里; database 舒梨道."
+        }
+      ]
+    },
+    {
+      "street_code": "11239",
+      "english_name": "LINCOLN ROAD",
+      "chinese_name": "林肯道",
+      "history": [
+        {
+          "publication_date": "1929-08-23",
+          "change_kind": "declare",
+          "street_name_en": "Lincoln Road",
+          "street_name_zh": "林肯道",
+          "gazette_notice_label": "Government Notification No. 427",
+          "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10414",
+      "english_name": "ESSEX CRESCENT",
+      "chinese_name": "雅息士道",
+      "history": [
+        {
+          "publication_date": "1929-08-23",
+          "change_kind": "declare",
+          "street_name_en": "Essex Crescent",
+          "street_name_zh": "雅息士道",
+          "gazette_notice_label": "Government Notification No. 427",
+          "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12145",
+      "english_name": "STAFFORD ROAD",
+      "chinese_name": "施他佛道",
+      "history": [
+        {
+          "publication_date": "1929-08-23",
+          "change_kind": "declare",
+          "street_name_en": "Stafford Road",
+          "street_name_zh": "施他佛道",
+          "gazette_notice_label": "Government Notification No. 427",
+          "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

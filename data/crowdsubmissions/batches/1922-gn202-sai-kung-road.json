@@ -1,0 +1,27 @@
+{
+  "batch_id": "1922-gn202-sai-kung-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 202",
+  "publication_date": "1922-05-05",
+  "gazette_url_en": "/egazette/en/1922-gn202.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1922-gn202-sai-kung-road/1922-gn202.pdf",
+  "streets": [
+    {
+      "street_code": "11840",
+      "english_name": "SAI KUNG ROAD",
+      "chinese_name": "西貢道",
+      "history": [
+        {
+          "publication_date": "1922-05-05",
+          "change_kind": "declare",
+          "street_name_en": "Sai Kung Road",
+          "street_name_zh": "西貢路",
+          "gazette_notice_label": "Government Notification No. 202",
+          "government_notice_url_en": "/egazette/en/1922-gn202.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 西貢路; database 西貢道."
+        }
+      ]
+    }
+  ]
+}

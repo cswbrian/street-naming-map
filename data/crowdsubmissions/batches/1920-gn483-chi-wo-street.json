@@ -1,0 +1,27 @@
+{
+  "batch_id": "1920-gn483-chi-wo-street",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 483",
+  "publication_date": "1920-09-17",
+  "gazette_url_en": "/egazette/en/1920-gn483.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1920-gn483-chi-wo-street/1920-gn483.pdf",
+  "streets": [
+    {
+      "street_code": "10231",
+      "english_name": "CHI WO STREET",
+      "chinese_name": "志和街",
+      "history": [
+        {
+          "publication_date": "1920-09-17",
+          "change_kind": "declare",
+          "street_name_en": "Chi Wo Street",
+          "street_name_zh": "致和街",
+          "gazette_notice_label": "Government Notification No. 483",
+          "government_notice_url_en": "/egazette/en/1920-gn483.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 致和街; database 志和街."
+        }
+      ]
+    }
+  ]
+}

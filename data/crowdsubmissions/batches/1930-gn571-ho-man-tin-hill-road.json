@@ -1,0 +1,26 @@
+{
+  "batch_id": "1930-gn571-ho-man-tin-hill-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 571",
+  "publication_date": "1930-09-12",
+  "gazette_url_en": "/egazette/en/1930-gn571.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1930-gn571-ho-man-tin-hill-road/1930-gn571.pdf",
+  "streets": [
+    {
+      "street_code": "10755",
+      "english_name": "HO MAN TIN HILL ROAD",
+      "chinese_name": "何文田山道",
+      "history": [
+        {
+          "publication_date": "1930-09-12",
+          "change_kind": "declare",
+          "street_name_en": "Ho Man Tin Hill Road",
+          "street_name_zh": "何文田山道",
+          "gazette_notice_label": "Government Notification No. 571",
+          "government_notice_url_en": "/egazette/en/1930-gn571.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

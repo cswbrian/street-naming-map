@@ -35,6 +35,7 @@ export const translations = {
     reportError: '找不到街道目錄報告。請先執行 npm run report:pending-years。',
     roadTypesTitle: '道路類型',
     periodStatsTitle: '命名年份分期',
+    periodStatsHint: '街道命名日期並不一定相等於街道落成或開放日期。',
     searchTable: '以街道編號／名稱／類型／年份／日期搜尋',
     showingStreets: '顯示 {shown} / {total} 條街道',
     colStreet: '街道名稱',
@@ -146,6 +147,8 @@ export const translations = {
     reportError: 'Street directory report not found. Run npm run report:pending-years first.',
     roadTypesTitle: 'Road types',
     periodStatsTitle: 'Naming year periods',
+    periodStatsHint:
+      'Street naming dates are not necessarily the same as the dates streets were built or opened to the public.',
     searchTable: 'Search by street code, name, type, year, or date',
     showingStreets: 'Showing {shown} / {total} streets',
     colStreet: 'Street name',

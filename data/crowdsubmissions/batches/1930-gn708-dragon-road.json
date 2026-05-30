@@ -1,0 +1,43 @@
+{
+  "batch_id": "1930-gn708-dragon-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 708",
+  "publication_date": "1930-11-28",
+  "gazette_url_en": "/egazette/en/1930-gn708.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1930-gn708-dragon-road/1930-gn708.pdf",
+  "streets": [
+    {
+      "street_code": "10385",
+      "english_name": "DRAGON ROAD",
+      "chinese_name": "皇龍道",
+      "history": [
+        {
+          "publication_date": "1930-11-28",
+          "change_kind": "declare",
+          "street_name_en": "Dragon Road",
+          "street_name_zh": "黃龍道",
+          "gazette_notice_label": "Government Notification No. 708",
+          "government_notice_url_en": "/egazette/en/1930-gn708.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 黃龍道; database 皇龍道."
+        }
+      ]
+    },
+    {
+      "street_code": "12361",
+      "english_name": "TIN HAU TEMPLE ROAD",
+      "chinese_name": "天后廟道",
+      "history": [
+        {
+          "publication_date": "1930-11-28",
+          "change_kind": "declare",
+          "street_name_en": "Tin Hau Temple Road",
+          "street_name_zh": "天后廟道",
+          "gazette_notice_label": "Government Notification No. 708",
+          "government_notice_url_en": "/egazette/en/1930-gn708.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

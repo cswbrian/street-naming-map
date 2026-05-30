@@ -1,0 +1,27 @@
+{
+  "batch_id": "1920-gn550-kwong-hon-terrace",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 550",
+  "publication_date": "1920-11-05",
+  "gazette_url_en": "/egazette/en/1920-gn550.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1920-gn550-kwong-hon-terrace/1920-gn550.pdf",
+  "streets": [
+    {
+      "street_code": "11128",
+      "english_name": "KWONG HON TERRACE",
+      "chinese_name": "光漢臺",
+      "history": [
+        {
+          "publication_date": "1920-11-05",
+          "change_kind": "declare",
+          "street_name_en": "Kwong Hon Terrace",
+          "street_name_zh": "光漢台",
+          "gazette_notice_label": "Government Notification No. 550",
+          "government_notice_url_en": "/egazette/en/1920-gn550.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 光漢台; database 光漢臺."
+        }
+      ]
+    }
+  ]
+}

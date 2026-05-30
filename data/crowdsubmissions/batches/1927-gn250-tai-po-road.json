@@ -1,0 +1,29 @@
+{
+  "batch_id": "1927-gn250-tai-po-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 250",
+  "publication_date": "1927-04-29",
+  "gazette_url_en": "/egazette/en/1927-gn250.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1927-gn250-tai-po-road/1927-gn250.pdf",
+  "streets": [
+    {
+      "street_code": "12254",
+      "english_name": "TAI PO ROAD",
+      "chinese_name": "大埔道",
+      "history": [
+        {
+          "publication_date": "1927-04-29",
+          "change_kind": "declare",
+          "street_name_en": "Tai Po Road",
+          "street_name_zh": "大埔道",
+          "gazette_notice_label": "Government Notification No. 250",
+          "government_notice_url_en": "/egazette/en/1927-gn250.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "parse_flags": [
+    "Tai Po Road: database naming_year 2018 later than gazette 1927"
+  ]
+}

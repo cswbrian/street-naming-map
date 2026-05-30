@@ -1,0 +1,26 @@
+{
+  "batch_id": "1923-gn77-stubbs-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 77",
+  "publication_date": "1923-02-15",
+  "gazette_url_en": "/egazette/en/1923-gn77.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1923-gn77-stubbs-road/1923-gn77.pdf",
+  "streets": [
+    {
+      "street_code": "12165",
+      "english_name": "STUBBS ROAD",
+      "chinese_name": "司徒拔道",
+      "history": [
+        {
+          "publication_date": "1923-02-15",
+          "change_kind": "declare",
+          "street_name_en": "Stubbs Road",
+          "street_name_zh": "司徒拔道",
+          "gazette_notice_label": "Government Notification No. 77",
+          "government_notice_url_en": "/egazette/en/1923-gn77.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

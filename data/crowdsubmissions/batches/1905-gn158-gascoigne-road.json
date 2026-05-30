@@ -1,0 +1,26 @@
+{
+  "batch_id": "1905-gn158-gascoigne-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 158",
+  "publication_date": "1905-03-17",
+  "gazette_url_en": "/egazette/en/1905-gn158.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1905-gn158-gascoigne-road/1905-gn158.pdf",
+  "streets": [
+    {
+      "street_code": "10599",
+      "english_name": "GASCOIGNE ROAD",
+      "chinese_name": "加士居道",
+      "history": [
+        {
+          "publication_date": "1905-03-17",
+          "change_kind": "declare",
+          "street_name_en": "Gascoigne Road",
+          "street_name_zh": "加士居道",
+          "gazette_notice_label": "Government Notification No. 158",
+          "government_notice_url_en": "/egazette/en/1905-gn158.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

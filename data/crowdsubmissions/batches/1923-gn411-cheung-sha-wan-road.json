@@ -1,0 +1,239 @@
+{
+  "batch_id": "1923-gn411-cheung-sha-wan-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 411",
+  "publication_date": "1923-09-28",
+  "gazette_url_en": "/egazette/en/1923-gn411.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1923-gn411-cheung-sha-wan-road/1923-gn411.pdf",
+  "streets": [
+    {
+      "street_code": "10206",
+      "english_name": "CHEUNG SHA WAN ROAD",
+      "chinese_name": "長沙灣道",
+      "history": [
+        {
+          "publication_date": "1923-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Cheung Sha Wan Road",
+          "street_name_zh": "長沙灣道",
+          "gazette_notice_label": "Government Notification No. 411",
+          "government_notice_url_en": "/egazette/en/1923-gn411.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12556",
+      "english_name": "UN CHAU STREET",
+      "chinese_name": "元州街",
+      "history": [
+        {
+          "publication_date": "1923-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Un Chau Street",
+          "street_name_zh": "元州街",
+          "gazette_notice_label": "Government Notification No. 411",
+          "government_notice_url_en": "/egazette/en/1923-gn411.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12225",
+      "english_name": "TAI KOK TSUI ROAD",
+      "chinese_name": "大角咀道",
+      "history": [
+        {
+          "publication_date": "1923-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Tai Kok Tsui Road",
+          "street_name_zh": "大角咀道",
+          "gazette_notice_label": "Government Notification No. 411",
+          "government_notice_url_en": "/egazette/en/1923-gn411.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12754",
+      "english_name": "WINSLOW STREET",
+      "chinese_name": "溫思勞街",
+      "history": [
+        {
+          "publication_date": "1923-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Winslow Street",
+          "street_name_zh": "溫思勞街",
+          "gazette_notice_label": "Government Notification No. 411",
+          "government_notice_url_en": "/egazette/en/1923-gn411.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10041",
+      "english_name": "BAKER STREET",
+      "chinese_name": "必嘉街",
+      "history": [
+        {
+          "publication_date": "1923-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Baker Street",
+          "street_name_zh": "必嘉街",
+          "gazette_notice_label": "Government Notification No. 411",
+          "government_notice_url_en": "/egazette/en/1923-gn411.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11245",
+      "english_name": "LO LUNG HANG STREET",
+      "chinese_name": "老龍坑街",
+      "history": [
+        {
+          "publication_date": "1923-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Lo Lung Hang Street",
+          "street_name_zh": "老龍坑街",
+          "gazette_notice_label": "Government Notification No. 411",
+          "government_notice_url_en": "/egazette/en/1923-gn411.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12578",
+      "english_name": "WA FUNG STREET",
+      "chinese_name": "華豐街",
+      "history": [
+        {
+          "publication_date": "1923-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Wa Fung Street",
+          "street_name_zh": "華豐街",
+          "gazette_notice_label": "Government Notification No. 411",
+          "government_notice_url_en": "/egazette/en/1923-gn411.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11693",
+      "english_name": "PILKEM STREET",
+      "chinese_name": "庇利金街",
+      "history": [
+        {
+          "publication_date": "1923-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Pilkem Street",
+          "street_name_zh": "庇利金街",
+          "gazette_notice_label": "Government Notification No. 411",
+          "government_notice_url_en": "/egazette/en/1923-gn411.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11430",
+      "english_name": "MINDEN AVENUE",
+      "chinese_name": "棉登徑",
+      "history": [
+        {
+          "publication_date": "1923-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Minden Avenue",
+          "street_name_zh": "棉登徑",
+          "gazette_notice_label": "Government Notification No. 411",
+          "government_notice_url_en": "/egazette/en/1923-gn411.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12390",
+      "english_name": "TONG MI ROAD",
+      "chinese_name": "塘尾道",
+      "history": [
+        {
+          "publication_date": "1923-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Tong Mi Road",
+          "street_name_zh": "塘尾道",
+          "gazette_notice_label": "Government Notification No. 411",
+          "government_notice_url_en": "/egazette/en/1923-gn411.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11454",
+      "english_name": "MONG KOK ROAD",
+      "chinese_name": "旺角道",
+      "history": [
+        {
+          "publication_date": "1923-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Mong Kok Road",
+          "street_name_zh": "旺角道",
+          "gazette_notice_label": "Government Notification No. 411",
+          "government_notice_url_en": "/egazette/en/1923-gn411.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10100",
+      "english_name": "BUTE STREET",
+      "chinese_name": "弼街",
+      "history": [
+        {
+          "publication_date": "1923-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Bute Street",
+          "street_name_zh": "弼街",
+          "gazette_notice_label": "Government Notification No. 411",
+          "government_notice_url_en": "/egazette/en/1923-gn411.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10029",
+      "english_name": "ARRAN STREET",
+      "chinese_name": "鴉蘭街",
+      "history": [
+        {
+          "publication_date": "1923-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Arran Street",
+          "street_name_zh": "鴉蘭街",
+          "gazette_notice_label": "Government Notification No. 411",
+          "government_notice_url_en": "/egazette/en/1923-gn411.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11133",
+      "english_name": "KWONG WA STREET",
+      "chinese_name": "廣華街",
+      "history": [
+        {
+          "publication_date": "1923-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Kwong Wa Street",
+          "street_name_zh": "廣華街",
+          "gazette_notice_label": "Government Notification No. 411",
+          "government_notice_url_en": "/egazette/en/1923-gn411.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "parse_flags": [
+    "Cheung Sha Wan Road: database naming_year 2019 later than gazette 1923",
+    "Un Chau Street: database naming_year 2017 later than gazette 1923",
+    "Arran Street: database naming_year 2010 later than gazette 1923"
+  ]
+}

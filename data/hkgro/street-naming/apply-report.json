@@ -1,0 +1,2689 @@
+{
+  "rows": [
+    {
+      "batch": "1901-gn272-chi-sing-lane",
+      "gn": 272,
+      "date": "1901-05-11",
+      "gaz_en": "Chi Sing Lane",
+      "gaz_zh": "\u7f6e\u5bcc\u91cc",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1904-gn523-black-s-link",
+      "gn": 523,
+      "date": "1904-07-29",
+      "gaz_en": "Black's Link",
+      "gaz_zh": "\u5e03\u529b\u5f91",
+      "code": "10064",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1905-gn158-gascoigne-road",
+      "gn": 158,
+      "date": "1905-03-17",
+      "gaz_en": "Gascoigne Road",
+      "gaz_zh": "\u52a0\u58eb\u5c45\u9053",
+      "code": "10599",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1905-gn286-rumsey-street",
+      "gn": 286,
+      "date": "1905-05-12",
+      "gaz_en": "Rumsey Street",
+      "gaz_zh": "\u6797\u58eb\u8857",
+      "code": "11827",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1905-gn287-wing-wo-street",
+      "gn": 287,
+      "date": "1905-05-12",
+      "gaz_en": "Wing Wo Street",
+      "gaz_zh": "\u6c38\u548c\u8857",
+      "code": "12750",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1906-gn662-hatton-road",
+      "gn": 662,
+      "date": "1906-08-03",
+      "gaz_en": "Hatton Road",
+      "gaz_zh": "\u65ed\u9fa2\u9053",
+      "code": "10666",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1907-gn250-may-road",
+      "gn": 250,
+      "date": "1907-04-12",
+      "gaz_en": "May Road",
+      "gaz_zh": "\u6885\u9053",
+      "code": "11407",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1907-gn250-may-road",
+      "gn": 250,
+      "date": "1907-04-12",
+      "gaz_en": "Conduit Road",
+      "gaz_zh": "\u5e72\u8afe\u9053",
+      "code": "10326",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1907-gn250-may-road",
+      "gn": 250,
+      "date": "1907-04-12",
+      "gaz_en": "Queen's Gardens",
+      "gaz_zh": "\u7687\u540e\u50cf\u5ee3\u5834",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1909-gn459-tai-kat-street",
+      "gn": 459,
+      "date": "1909-07-23",
+      "gaz_en": "Tai Cheong Street",
+      "gaz_zh": "\u592a\u7965\u8857",
+      "code": "12204",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1909-gn459-tai-kat-street",
+      "gn": 459,
+      "date": "1909-07-23",
+      "gaz_en": "Tai Foo Street",
+      "gaz_zh": "\u592a\u5bcc\u8857",
+      "code": "12210",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1909-gn459-tai-kat-street",
+      "gn": 459,
+      "date": "1909-07-23",
+      "gaz_en": "Tai Hong Street",
+      "gaz_zh": "\u592a\u5eb7\u8857",
+      "code": "12223",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1909-gn459-tai-kat-street",
+      "gn": 459,
+      "date": "1909-07-23",
+      "gaz_en": "Tai Ning Street",
+      "gaz_zh": "\u592a\u5be7\u8857",
+      "code": "12241",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1909-gn459-tai-kat-street",
+      "gn": 459,
+      "date": "1909-07-23",
+      "gaz_en": "Tai On Street",
+      "gaz_zh": "\u592a\u5b89\u8857",
+      "code": "12246",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1909-gn459-tai-kat-street",
+      "gn": 459,
+      "date": "1909-07-23",
+      "gaz_en": "Tai Kat Street",
+      "gaz_zh": "\u592a\u5409\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1915-gn225-broadwood-road",
+      "gn": 225,
+      "date": "1915-05-21",
+      "gaz_en": "Broadwood Road",
+      "gaz_zh": "\u6a02\u6d3b\u9053",
+      "code": "10093",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1915-gn244-lugard-road",
+      "gn": 244,
+      "date": "1915-05-28",
+      "gaz_en": "Lugard Road",
+      "gaz_zh": "\u76e7\u5409\u9053",
+      "code": "11298",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1915-gn244-lugard-road",
+      "gn": 244,
+      "date": "1915-05-28",
+      "gaz_en": "Findlay Road",
+      "gaz_zh": "\u82ac\u68a8\u9053",
+      "code": "10488",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1915-gn244-lugard-road",
+      "gn": 244,
+      "date": "1915-05-28",
+      "gaz_en": "Findlay Path",
+      "gaz_zh": "\u82ac\u68a8\u5f91",
+      "code": "10487",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1915-gn271-cheung-lok-street",
+      "gn": 271,
+      "date": "1915-06-18",
+      "gaz_en": "Cheung Lok Street",
+      "gaz_zh": "\u9577\u6a02\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1915-gn475-jones-street",
+      "gn": 475,
+      "date": "1915-10-22",
+      "gaz_en": "Jones Street",
+      "gaz_zh": "\u74ca\u65af\u8857",
+      "code": "10902",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1916-gn50-schooner-street",
+      "gn": 50,
+      "date": "1916-02-05",
+      "gaz_en": "Schooner Street",
+      "gaz_zh": "\u5e06\u8239\u8857",
+      "code": "11937",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1919-gn489-chun-sing-street",
+      "gn": 489,
+      "date": "1919-10-17",
+      "gaz_en": "Chun Sing Street",
+      "gaz_zh": "\u6649\u6210\u8857",
+      "code": "13695",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1920-gn157-rock-hill-street",
+      "gn": 157,
+      "date": "1920-03-19",
+      "gaz_en": "Rock Hill Street",
+      "gaz_zh": "\u77f3\u5c71\u8857",
+      "code": "11818",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1920-gn157-rock-hill-street",
+      "gn": 157,
+      "date": "1920-03-19",
+      "gaz_en": "Tregunter Path",
+      "gaz_zh": "\u5730\u5229\u6839\u5fb7\u9053",
+      "code": "12399",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1920-gn194-li-chit-street",
+      "gn": 194,
+      "date": "1920-04-01",
+      "gaz_en": "Li Chit Street",
+      "gaz_zh": "\u674e\u7bc0\u8857",
+      "code": "11221",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1920-gn483-chi-wo-street",
+      "gn": 483,
+      "date": "1920-09-17",
+      "gaz_en": "Chi Wo Street",
+      "gaz_zh": "\u81f4\u548c\u8857",
+      "code": "10231",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1920-gn550-kwong-hon-terrace",
+      "gn": 550,
+      "date": "1920-11-05",
+      "gaz_en": "Kwong Hon Terrace",
+      "gaz_zh": "\u5149\u6f22\u53f0",
+      "code": "11128",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1921-gn46-prat-avenue",
+      "gn": 46,
+      "date": "1921-02-04",
+      "gaz_en": "Prat Avenue",
+      "gaz_zh": "\u52c3\u5229\u4e9e\u8857",
+      "code": "11782",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1921-gn208-hing-fat-street",
+      "gn": 208,
+      "date": "1921-05-06",
+      "gaz_en": "Hing Fat Street",
+      "gaz_zh": "\u8208\u767c\u8857",
+      "code": "10717",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1921-gn271-severn-road",
+      "gn": 271,
+      "date": "1921-06-17",
+      "gaz_en": "Severn Road",
+      "gaz_zh": "\u65bd\u52f3\u9053",
+      "code": "11951",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1921-gn469-woosung-street",
+      "gn": 469,
+      "date": "1921-11-10",
+      "gaz_en": "Temple Street",
+      "gaz_zh": "\u5edf\u8857",
+      "code": "12343",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1921-gn469-woosung-street",
+      "gn": 469,
+      "date": "1921-11-10",
+      "gaz_en": "Woosung Street",
+      "gaz_zh": "\u5433\u677e\u8857",
+      "code": "",
+      "geo": "",
+      "status": "already_dated:1909"
+    },
+    {
+      "batch": "1922-gn202-sai-kung-road",
+      "gn": 202,
+      "date": "1922-05-05",
+      "gaz_en": "Sai Kung Road",
+      "gaz_zh": "\u897f\u8ca2\u8def",
+      "code": "11840",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1922-gn202-sai-kung-road",
+      "gn": 202,
+      "date": "1922-05-05",
+      "gaz_en": "Kai Tak Bund",
+      "gaz_zh": "\u555f\u5fb7\u6ff1",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1922-gn202-sai-kung-road",
+      "gn": 202,
+      "date": "1922-05-05",
+      "gaz_en": "Sam Tack Road",
+      "gaz_zh": "\u4e09\u5fb7\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1922-gn202-sai-kung-road",
+      "gn": 202,
+      "date": "1922-05-05",
+      "gaz_en": "Kai Yan Road",
+      "gaz_zh": "\u555f\u4ec1\u8def",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1922-gn202-sai-kung-road",
+      "gn": 202,
+      "date": "1922-05-05",
+      "gaz_en": "Kai Yee Road",
+      "gaz_zh": "\u555f\u7fa9\u8def",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1922-gn202-sai-kung-road",
+      "gn": 202,
+      "date": "1922-05-05",
+      "gaz_en": "Yat Tack Road",
+      "gaz_zh": "\u4e00\u5fb7\u8def",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1922-gn202-sai-kung-road",
+      "gn": 202,
+      "date": "1922-05-05",
+      "gaz_en": "Yee Tack Road",
+      "gaz_zh": "\u4e8c\u5fb7\u8def",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1922-gn251-tai-wan-road",
+      "gn": 251,
+      "date": "1922-06-02",
+      "gaz_en": "Tai Wan Road",
+      "gaz_zh": "\u5927\u7063\u9053",
+      "code": "12282",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1922-gn335-mau-lam-street",
+      "gn": 335,
+      "date": "1922-07-28",
+      "gaz_en": "Mau Lam Street",
+      "gaz_zh": "\u8302\u6797\u8857",
+      "code": "11405",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1923-gn77-stubbs-road",
+      "gn": 77,
+      "date": "1923-02-15",
+      "gaz_en": "Stubbs Road",
+      "gaz_zh": "\u53f8\u5f92\u62d4\u9053",
+      "code": "12165",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "Cheung Sha Wan Road",
+      "gaz_zh": "\u9577\u6c99\u7063\u9053",
+      "code": "10206",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "Un Chau Street",
+      "gaz_zh": "\u5143\u5dde\u8857",
+      "code": "12556",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "Tai Kok Tsui Road",
+      "gaz_zh": "\u5927\u89d2\u5480\u9053",
+      "code": "12225",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "Winslow Street",
+      "gaz_zh": "\u6eab\u601d\u52de\u8857",
+      "code": "12754",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "Baker Street",
+      "gaz_zh": "\u5fc5\u5609\u8857",
+      "code": "10041",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "Lo Lung Hang Street",
+      "gaz_zh": "\u8001\u9f8d\u5751\u8857",
+      "code": "11245",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "Wa Fung Street",
+      "gaz_zh": "\u83ef\u8c50\u8857",
+      "code": "12578",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "Pilkem Street",
+      "gaz_zh": "\u5e87\u5229\u91d1\u8857",
+      "code": "11693",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "Minden Avenue",
+      "gaz_zh": "\u68c9\u767b\u5f91",
+      "code": "11430",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "Tong Mi Road",
+      "gaz_zh": "\u5858\u5c3e\u9053",
+      "code": "12390",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "Mong Kok Road",
+      "gaz_zh": "\u65fa\u89d2\u9053",
+      "code": "11454",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "Bute Street",
+      "gaz_zh": "\u5f3c\u8857",
+      "code": "10100",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "Arran Street",
+      "gaz_zh": "\u9d09\u862d\u8857",
+      "code": "10029",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "Kwong Wa Street",
+      "gaz_zh": "\u5ee3\u83ef\u8857",
+      "code": "11133",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "Om Yau Street",
+      "gaz_zh": "\u5eb5\u7531\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "Tin Liu Street",
+      "gaz_zh": "\u7530\u5bee\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "Edward Avenue",
+      "gaz_zh": "\u5b9c\u83ef\u5f91",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "Depot Road",
+      "gaz_zh": "\u8eca\u5ee0\u9053",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "Cheung On Street",
+      "gaz_zh": "\u9577\u5b89\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "",
+      "gaz_zh": "",
+      "code": "",
+      "geo": "",
+      "status": "FLAG: Cheung Sha Wan Road: database naming_year 2019 later than gazette 1923"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "",
+      "gaz_zh": "",
+      "code": "",
+      "geo": "",
+      "status": "FLAG: Un Chau Street: database naming_year 2017 later than gazette 1923"
+    },
+    {
+      "batch": "1923-gn411-cheung-sha-wan-road",
+      "gn": 411,
+      "date": "1923-09-28",
+      "gaz_en": "",
+      "gaz_zh": "",
+      "code": "",
+      "geo": "",
+      "status": "FLAG: Arran Street: database naming_year 2010 later than gazette 1923"
+    },
+    {
+      "batch": "1923-gn567-lee-tung-street",
+      "gn": 567,
+      "date": "1923-12-28",
+      "gaz_en": "Lee Tung Street",
+      "gaz_zh": "\u5229\u6771\u8857",
+      "code": "11205",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1923-gn567-lee-tung-street",
+      "gn": 567,
+      "date": "1923-12-28",
+      "gaz_en": "Prince's Terrace",
+      "gaz_zh": "\u592a\u5b50\u53f0",
+      "code": "11789",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1924-gn29-mount-davis-road",
+      "gn": 29,
+      "date": "1924-01-18",
+      "gaz_en": "Mount Davis Road",
+      "gaz_zh": "\u6469\u661f\u5dba\u9053",
+      "code": "11472",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1924-gn41-siu-cheung-fong",
+      "gn": 41,
+      "date": "1924-01-25",
+      "gaz_en": "Siu Cheung Fong",
+      "gaz_zh": "\u5146\u7965\u574a",
+      "code": "12115",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1924-gn187-sassoon-road",
+      "gn": 187,
+      "date": "1924-04-04",
+      "gaz_en": "Sassoon Road",
+      "gaz_zh": "\u6c99\u5ba3\u9053",
+      "code": "11923",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1924-gn187-sassoon-road",
+      "gn": 187,
+      "date": "1924-04-04",
+      "gaz_en": "Tai Shek Street",
+      "gaz_zh": "\u5927\u77f3\u8857",
+      "code": "12269",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1924-gn492-sai-yeung-choi-street",
+      "gn": 492,
+      "date": "1924-08-29",
+      "gaz_en": "Tung Choi Street",
+      "gaz_zh": "\u901a\u83dc\u8857",
+      "code": "12513",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1924-gn492-sai-yeung-choi-street",
+      "gn": 492,
+      "date": "1924-08-29",
+      "gaz_en": "Fa Yuen Street",
+      "gaz_zh": "\u82b1\u5712\u8857",
+      "code": "10419",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1924-gn492-sai-yeung-choi-street",
+      "gn": 492,
+      "date": "1924-08-29",
+      "gaz_en": "Sai Yee Street",
+      "gaz_zh": "\u6d17\u8863\u8857",
+      "code": "11861",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1924-gn492-sai-yeung-choi-street",
+      "gn": 492,
+      "date": "1924-08-29",
+      "gaz_en": "Hak Po Street",
+      "gaz_zh": "\u9ed1\u5e03\u8857",
+      "code": "10639",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1924-gn492-sai-yeung-choi-street",
+      "gn": 492,
+      "date": "1924-08-29",
+      "gaz_en": "Yim Po Fong Street",
+      "gaz_zh": "\u67d3\u5e03\u623f\u8857",
+      "code": "12865",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1924-gn492-sai-yeung-choi-street",
+      "gn": 492,
+      "date": "1924-08-29",
+      "gaz_en": "Tung Fong Street",
+      "gaz_zh": "\u6771\u65b9\u8857",
+      "code": "12517",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1924-gn492-sai-yeung-choi-street",
+      "gn": 492,
+      "date": "1924-08-29",
+      "gaz_en": "Sai Yeung Choi Street",
+      "gaz_zh": "\u897f\u6d0b\u83dc\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1924-gn621-wai-ching-street",
+      "gn": 621,
+      "date": "1924-11-07",
+      "gaz_en": "Wai Ching Street",
+      "gaz_zh": "\u5049\u6674\u8857",
+      "code": "12602",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1925-gn37-tai-pak-terrace",
+      "gn": 37,
+      "date": "1925-01-23",
+      "gaz_en": "Tai Pak Terrace",
+      "gaz_zh": "\u592a\u767d\u53f0",
+      "code": "12249",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1925-gn37-tai-pak-terrace",
+      "gn": 37,
+      "date": "1925-01-23",
+      "gaz_en": "Hee Wong Terrace",
+      "gaz_zh": "\u7fb2\u7687\u53f0",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1925-gn172-middle-gap-road",
+      "gn": 172,
+      "date": "1925-03-27",
+      "gaz_en": "Middle Gap Road",
+      "gaz_zh": "\u4e2d\u5cfd\u9053",
+      "code": "11423",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1925-gn340-kwong-ming-street",
+      "gn": 340,
+      "date": "1925-06-12",
+      "gaz_en": "Kwong Ming Street",
+      "gaz_zh": "\u5149\u660e\u8857",
+      "code": "11130",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1925-gn575-village-road",
+      "gn": 575,
+      "date": "1925-10-09",
+      "gaz_en": "Village Road",
+      "gaz_zh": "\u5c71\u6751\u9053",
+      "code": "12572",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1925-gn575-village-road",
+      "gn": 575,
+      "date": "1925-10-09",
+      "gaz_en": "Kwan Yick Street",
+      "gaz_zh": "\u5747\u76ca\u8857",
+      "code": "11110",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1925-gn575-village-road",
+      "gn": 575,
+      "date": "1925-10-09",
+      "gaz_en": "Soares Avenue",
+      "gaz_zh": "\u68ad\u690f\u9053",
+      "code": "12123",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1925-gn575-village-road",
+      "gn": 575,
+      "date": "1925-10-09",
+      "gaz_en": "Julia Avenue",
+      "gaz_zh": "\u68d7\u68a8\u96c5\u9053",
+      "code": "10908",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1925-gn575-village-road",
+      "gn": 575,
+      "date": "1925-10-09",
+      "gaz_en": "Ema Avenue",
+      "gaz_zh": "\u8277\u99ac\u9053",
+      "code": "10413",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1925-gn575-village-road",
+      "gn": 575,
+      "date": "1925-10-09",
+      "gaz_en": "San Francisco Path",
+      "gaz_zh": "\u820a\u91d1\u5c71\u5f91",
+      "code": "11881",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn46-mount-cameron-road",
+      "gn": 46,
+      "date": "1926-01-29",
+      "gaz_en": "Mount Cameron Road",
+      "gaz_zh": "\u91d1\u99ac\u9e9f\u5c71\u9053",
+      "code": "11470",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn46-mount-cameron-road",
+      "gn": 46,
+      "date": "1926-01-29",
+      "gaz_en": "Ventris Road",
+      "gaz_zh": "\u96f2\u5730\u5229\u9053",
+      "code": "12567",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn46-mount-cameron-road",
+      "gn": 46,
+      "date": "1926-01-29",
+      "gaz_en": "Ching Lin Terrace",
+      "gaz_zh": "\u9752\u84ee\u53f0",
+      "code": "10249",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn46-mount-cameron-road",
+      "gn": 46,
+      "date": "1926-01-29",
+      "gaz_en": "To Li Terrace",
+      "gaz_zh": "\u6843\u674e\u53f0",
+      "code": "12384",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn46-mount-cameron-road",
+      "gn": 46,
+      "date": "1926-01-29",
+      "gaz_en": "Kee Cheong Street",
+      "gaz_zh": "\u65d7\u660c\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1926-gn46-mount-cameron-road",
+      "gn": 46,
+      "date": "1926-01-29",
+      "gaz_en": "Hok Sz Terrace",
+      "gaz_zh": "\u5b78\u58eb\u53f0",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1926-gn46-mount-cameron-road",
+      "gn": 46,
+      "date": "1926-01-29",
+      "gaz_en": "Nathan Road",
+      "gaz_zh": "\u5f4c\u6566\u9053",
+      "code": "",
+      "geo": "",
+      "status": "already_dated:1909"
+    },
+    {
+      "batch": "1926-gn152-kwong-fung-terrace",
+      "gn": 152,
+      "date": "1926-03-19",
+      "gaz_en": "Kwong Fung Terrace",
+      "gaz_zh": "\u5ee3\u8c50\u53f0",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "To Kwa Wan Road",
+      "gaz_zh": "\u571f\u74dc\u7063\u9053",
+      "code": "12383",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Argyle Street",
+      "gaz_zh": "\u4e9e\u7686\u8001\u8857",
+      "code": "10027",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Kowloon City Road",
+      "gaz_zh": "\u4e5d\u9f8d\u57ce\u9053",
+      "code": "11063",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Ma Tau Chung Road",
+      "gaz_zh": "\u78bc\u982d\u6d8c\u9053",
+      "code": "11349",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Sung Wong Toi Road",
+      "gaz_zh": "\u5b8b\u7687\u81fa\u9053",
+      "code": "12189",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Pau Chung Street",
+      "gaz_zh": "\u70ae\u4ed7\u8857",
+      "code": "11666",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Pak Tai Street",
+      "gaz_zh": "\u5317\u5e1d\u8857",
+      "code": "11647",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Mok Cheong Street",
+      "gaz_zh": "\u6728\u5ee0\u8857",
+      "code": "11453",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Ma Tau Kok Road",
+      "gaz_zh": "\u78bc\u982d\u89d2\u9053",
+      "code": "11350",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "San Shan Road",
+      "gaz_zh": "\u65b0\u5c71\u9053",
+      "code": "11907",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Ma Hang Chung Road",
+      "gaz_zh": "\u99ac\u5751\u6d8c\u9053",
+      "code": "11339",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Sheung Heung Road",
+      "gaz_zh": "\u4e0a\u9109\u9053",
+      "code": "12029",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Boundary Street",
+      "gaz_zh": "\u754c\u9650\u8857",
+      "code": "10075",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Tam Kung Road",
+      "gaz_zh": "\u8b5a\u516c\u9053",
+      "code": "12330",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Wong Tai Street",
+      "gaz_zh": "\u9ec3\u5e1d\u8857",
+      "code": "12785",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Tung On Street",
+      "gaz_zh": "\u6771\u5b89\u8857",
+      "code": "12532",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Ma Tau Wei Road",
+      "gaz_zh": "\u78bc\u982d\u570d\u9053",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Kau Pui Shek Road",
+      "gaz_zh": "\u73d3\u676f\u77f3\u9053",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Kung Yuen Road",
+      "gaz_zh": "\u516c\u5712\u9053",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Ping Street",
+      "gaz_zh": "\u4e19\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Tai Street",
+      "gaz_zh": "\u5e1d\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Sung Street",
+      "gaz_zh": "\u5b8b\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Ching Lung Street",
+      "gaz_zh": "\u9752\u9f8d\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Wong King Street",
+      "gaz_zh": "\u9ec3\u666f\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Koo Chick Street",
+      "gaz_zh": "\u53e4\u8e5f\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Sing Ti Street",
+      "gaz_zh": "\u8056\u5730\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "Ki Lim Street",
+      "gaz_zh": "\u7d00\u5ff5\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "",
+      "gaz_zh": "",
+      "code": "",
+      "geo": "",
+      "status": "FLAG: Sung Wong Toi Road: database naming_year 2021 later than gazette 1926"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "",
+      "gaz_zh": "",
+      "code": "",
+      "geo": "",
+      "status": "FLAG: Sheung Heung Road: database naming_year 1935 later than gazette 1926"
+    },
+    {
+      "batch": "1926-gn202-to-kwa-wan-road",
+      "gn": 202,
+      "date": "1926-04-16",
+      "gaz_en": "",
+      "gaz_zh": "",
+      "code": "",
+      "geo": "",
+      "status": "FLAG: Tam Kung Road: database naming_year 2010 later than gazette 1926"
+    },
+    {
+      "batch": "1926-gn318-tsing-fung-street",
+      "gn": 318,
+      "date": "1926-06-11",
+      "gaz_en": "Tsing Fung Street",
+      "gaz_zh": "\u6e05\u98a8\u8857",
+      "code": "12419",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn318-tsing-fung-street",
+      "gn": 318,
+      "date": "1926-06-11",
+      "gaz_en": "Lau Li Street",
+      "gaz_zh": "\u7409\u7483\u8857",
+      "code": "11193",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn318-tsing-fung-street",
+      "gn": 318,
+      "date": "1926-06-11",
+      "gaz_en": "Ngan Mok Street",
+      "gaz_zh": "\u9280\u5e55\u8857",
+      "code": "11525",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn318-tsing-fung-street",
+      "gn": 318,
+      "date": "1926-06-11",
+      "gaz_en": "Yacht Street",
+      "gaz_zh": "\u5e06\u8239\u8857",
+      "code": "12805",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn318-tsing-fung-street",
+      "gn": 318,
+      "date": "1926-06-11",
+      "gaz_en": "Lau Sin Street",
+      "gaz_zh": "\u7559\u4ed9\u8857",
+      "code": "11195",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn318-tsing-fung-street",
+      "gn": 318,
+      "date": "1926-06-11",
+      "gaz_en": "Sai Wan Ho Street",
+      "gaz_zh": "\u897f\u7063\u6cb3\u8857",
+      "code": "11856",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn318-tsing-fung-street",
+      "gn": 318,
+      "date": "1926-06-11",
+      "gaz_en": "Tang Lung Street",
+      "gaz_zh": "\u767b\u9f8d\u8857",
+      "code": "12335",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn318-tsing-fung-street",
+      "gn": 318,
+      "date": "1926-06-11",
+      "gaz_en": "Ewo Hill Street",
+      "gaz_zh": "\u6021\u548c\u5c71\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1926-gn342-nga-tsin-wai-road",
+      "gn": 342,
+      "date": "1926-06-25",
+      "gaz_en": "Nga Tsin Wai Road",
+      "gaz_zh": "\u8859\u524d\u570d\u9053",
+      "code": "11517",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn342-nga-tsin-wai-road",
+      "gn": 342,
+      "date": "1926-06-25",
+      "gaz_en": "Shek Ku Lung Road",
+      "gaz_zh": "\u77f3\u53e4\u58df\u9053",
+      "code": "11996",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn342-nga-tsin-wai-road",
+      "gn": 342,
+      "date": "1926-06-25",
+      "gaz_en": "Sa Po Road",
+      "gaz_zh": "\u6c99\u57d4\u9053",
+      "code": "11831",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn342-nga-tsin-wai-road",
+      "gn": 342,
+      "date": "1926-06-25",
+      "gaz_en": "Tak Ku Ling Road",
+      "gaz_zh": "\u6253\u9f13\u5dba\u9053",
+      "code": "12308",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn342-nga-tsin-wai-road",
+      "gn": 342,
+      "date": "1926-06-25",
+      "gaz_en": "Ha Heung Road",
+      "gaz_zh": "\u4e0b\u9109\u9053",
+      "code": "10632",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn342-nga-tsin-wai-road",
+      "gn": 342,
+      "date": "1926-06-25",
+      "gaz_en": "Kowloon City Road",
+      "gaz_zh": "\u4e5d\u9f8d\u57ce\u9053",
+      "code": "11063",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn342-nga-tsin-wai-road",
+      "gn": 342,
+      "date": "1926-06-25",
+      "gaz_en": "Shek Tong Street",
+      "gaz_zh": "\u77f3\u5858\u8857",
+      "code": "12015",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn342-nga-tsin-wai-road",
+      "gn": 342,
+      "date": "1926-06-25",
+      "gaz_en": "San Lau Street",
+      "gaz_zh": "\u65b0\u67f3\u8857",
+      "code": "11896",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn342-nga-tsin-wai-road",
+      "gn": 342,
+      "date": "1926-06-25",
+      "gaz_en": "San Wai Street",
+      "gaz_zh": "\u65b0\u570d\u8857",
+      "code": "11916",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn342-nga-tsin-wai-road",
+      "gn": 342,
+      "date": "1926-06-25",
+      "gaz_en": "Lo Lung Hang Street",
+      "gaz_zh": "\u8001\u9f8d\u5751\u8857",
+      "code": "11245",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn342-nga-tsin-wai-road",
+      "gn": 342,
+      "date": "1926-06-25",
+      "gaz_en": "Fat Kwong Street",
+      "gaz_zh": "\u4f5b\u5149\u8857",
+      "code": "10473",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1926-gn342-nga-tsin-wai-road",
+      "gn": 342,
+      "date": "1926-06-25",
+      "gaz_en": "Po Kong Road",
+      "gaz_zh": "\u84b2\u5d17\u9053",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1926-gn342-nga-tsin-wai-road",
+      "gn": 342,
+      "date": "1926-06-25",
+      "gaz_en": "Shek Shan Road",
+      "gaz_zh": "\u77f3\u5c71\u9053",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1926-gn342-nga-tsin-wai-road",
+      "gn": 342,
+      "date": "1926-06-25",
+      "gaz_en": "Hau Pui Loong Road",
+      "gaz_zh": "\u9760\u80cc\u58df\u9053",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1926-gn342-nga-tsin-wai-road",
+      "gn": 342,
+      "date": "1926-06-25",
+      "gaz_en": "Gillies Avenue",
+      "gaz_zh": "\u6a5f\u5229\u58eb\u9053",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1926-gn342-nga-tsin-wai-road",
+      "gn": 342,
+      "date": "1926-06-25",
+      "gaz_en": "",
+      "gaz_zh": "",
+      "code": "",
+      "geo": "",
+      "status": "FLAG: Gazette Chinese column illegible \u2014 ZH from hk-place"
+    },
+    {
+      "batch": "1926-gn342-nga-tsin-wai-road",
+      "gn": 342,
+      "date": "1926-06-25",
+      "gaz_en": "",
+      "gaz_zh": "",
+      "code": "",
+      "geo": "",
+      "status": "FLAG: San Lau Street: database naming_year 1935 later than gazette 1926"
+    },
+    {
+      "batch": "1926-gn423-shek-kip-mei-street",
+      "gn": 423,
+      "date": "1926-08-13",
+      "gaz_en": "Shek Kip Mei Street",
+      "gaz_zh": "\u77f3\u7864\u5c3e\u8857",
+      "code": "11995",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn250-tai-po-road",
+      "gn": 250,
+      "date": "1927-04-29",
+      "gaz_en": "Tai Po Road",
+      "gaz_zh": "\u5927\u57d4\u9053",
+      "code": "12254",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn250-tai-po-road",
+      "gn": 250,
+      "date": "1927-04-29",
+      "gaz_en": "",
+      "gaz_zh": "",
+      "code": "",
+      "geo": "",
+      "status": "FLAG: Tai Po Road: database naming_year 2018 later than gazette 1927"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Portland Street",
+      "gaz_zh": "\u7835\u862d\u8857",
+      "code": "11777",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Cheung Sha Wan Road",
+      "gaz_zh": "\u9577\u6c99\u7063\u9053",
+      "code": "10206",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Apliu Street",
+      "gaz_zh": "\u9d28\u5bee\u8857",
+      "code": "10025",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Ki Lung Street",
+      "gaz_zh": "\u57fa\u9686\u8857",
+      "code": "10989",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Tai Nan Street",
+      "gaz_zh": "\u5927\u5357\u8857",
+      "code": "12239",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Yee Kuk Street",
+      "gaz_zh": "\u91ab\u5c40\u8857",
+      "code": "12844",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Hai Tan Street",
+      "gaz_zh": "\u6d77\u58c7\u8857",
+      "code": "10635",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Tung Chau Street",
+      "gaz_zh": "\u901a\u5dde\u8857",
+      "code": "12509",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Bedford Road",
+      "gaz_zh": "\u5fc5\u767c\u9053",
+      "code": "10053",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Larch Street",
+      "gaz_zh": "\u6d0b\u677e\u8857",
+      "code": "11190",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Fuk Tsun Street",
+      "gaz_zh": "\u798f\u5168\u8857",
+      "code": "10559",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Ash Street",
+      "gaz_zh": "\u69d0\u6a39\u8857",
+      "code": "10033",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Pine Street",
+      "gaz_zh": "\u6749\u6a39\u8857",
+      "code": "11694",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Beech Street",
+      "gaz_zh": "\u6af8\u6a39\u8857",
+      "code": "10054",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Elm Street",
+      "gaz_zh": "\u6986\u6a39\u8857",
+      "code": "10411",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Wong Chuk Street",
+      "gaz_zh": "\u9ec3\u7af9\u8857",
+      "code": "12777",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Maple Street",
+      "gaz_zh": "\u6953\u6a39\u8857",
+      "code": "11395",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Poplar Street",
+      "gaz_zh": "\u767d\u694a\u8857",
+      "code": "11776",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Cedar Street",
+      "gaz_zh": "\u67cf\u6a39\u8857",
+      "code": "10151",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Lime Street",
+      "gaz_zh": "\u83e9\u63d0\u8857",
+      "code": "11233",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Fir Street",
+      "gaz_zh": "\u677e\u6a39\u8857",
+      "code": "10490",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Boundary Street",
+      "gaz_zh": "\u754c\u9650\u8857",
+      "code": "10075",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Nathan Square",
+      "gaz_zh": "\u5f4c\u6566\u576a",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Tin Liu Street",
+      "gaz_zh": "\u7530\u5bee\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Om Yau Street",
+      "gaz_zh": "\u83f4\u7531\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Yu Chow Street",
+      "gaz_zh": "\u6c5d\u5dde\u8857",
+      "code": "",
+      "geo": "",
+      "status": "no_match"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "Canton Road",
+      "gaz_zh": "\u5ee3\u6771\u9053",
+      "code": "",
+      "geo": "",
+      "status": "already_dated:1909"
+    },
+    {
+      "batch": "1927-gn699-nathan-square",
+      "gn": 699,
+      "date": "1927-11-25",
+      "gaz_en": "",
+      "gaz_zh": "",
+      "code": "",
+      "geo": "",
+      "status": "FLAG: Cheung Sha Wan Road: database naming_year 2019 later than gazette 1927"
+    },
+    {
+      "batch": "1928-gn386-kotewall-road",
+      "gn": 386,
+      "date": "1928-07-06",
+      "gaz_en": "Kotewall Road",
+      "gaz_zh": "\u65ed\u9fa2\u9053",
+      "code": "11062",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1928-gn386-kotewall-road",
+      "gn": 386,
+      "date": "1928-07-06",
+      "gaz_en": "Po Shan Road",
+      "gaz_zh": "\u5bf6\u73ca\u9053",
+      "code": "11750",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn140-electric-street",
+      "gn": 140,
+      "date": "1929-03-15",
+      "gaz_en": "Electric Street",
+      "gaz_zh": "\u96fb\u6c23\u8857",
+      "code": "10407",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn283-malacca-street",
+      "gn": 283,
+      "date": "1929-05-31",
+      "gaz_en": "Malacca Street",
+      "gaz_zh": "\u99ac\u4f86\u8857",
+      "code": "11364",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn312-johnston-road",
+      "gn": 312,
+      "date": "1929-06-14",
+      "gaz_en": "Johnston Road",
+      "gaz_zh": "\u838a\u58eb\u6566\u9053",
+      "code": "10900",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn312-johnston-road",
+      "gn": 312,
+      "date": "1929-06-14",
+      "gaz_en": "Hennessy Road",
+      "gaz_zh": "\u8ed2\u5c3c\u8a69\u9053",
+      "code": "10689",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn312-johnston-road",
+      "gn": 312,
+      "date": "1929-06-14",
+      "gaz_en": "Lockhart Road",
+      "gaz_zh": "\u99f1\u514b\u9053",
+      "code": "11250",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn312-johnston-road",
+      "gn": 312,
+      "date": "1929-06-14",
+      "gaz_en": "Gloucester Road",
+      "gaz_zh": "\u544a\u58eb\u6253\u9053",
+      "code": "10609",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn312-johnston-road",
+      "gn": 312,
+      "date": "1929-06-14",
+      "gaz_en": "Fenwick Street",
+      "gaz_zh": "\u5206\u57df\u8857",
+      "code": "10482",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn312-johnston-road",
+      "gn": 312,
+      "date": "1929-06-14",
+      "gaz_en": "Luard Road",
+      "gaz_zh": "\u76e7\u62bc\u9053",
+      "code": "11286",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn312-johnston-road",
+      "gn": 312,
+      "date": "1929-06-14",
+      "gaz_en": "O'brien Road",
+      "gaz_zh": "\u67ef\u5e03\u9023\u9053",
+      "code": "11557",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn312-johnston-road",
+      "gn": 312,
+      "date": "1929-06-14",
+      "gaz_en": "Fleming Road",
+      "gaz_zh": "\u83f2\u6797\u660e\u9053",
+      "code": "10495",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn312-johnston-road",
+      "gn": 312,
+      "date": "1929-06-14",
+      "gaz_en": "Stewart Road",
+      "gaz_zh": "\u53f2\u91d7\u57df\u9053",
+      "code": "12161",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn312-johnston-road",
+      "gn": 312,
+      "date": "1929-06-14",
+      "gaz_en": "Tonnochy Road",
+      "gaz_zh": "\u8b1d\u6590\u9053",
+      "code": "12395",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn312-johnston-road",
+      "gn": 312,
+      "date": "1929-06-14",
+      "gaz_en": "Marsh Road",
+      "gaz_zh": "\u99ac\u5e2b\u9053",
+      "code": "11401",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn312-johnston-road",
+      "gn": 312,
+      "date": "1929-06-14",
+      "gaz_en": "Canal Road West",
+      "gaz_zh": "\u5805\u62ff\u9053\u897f",
+      "code": "10113",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn312-johnston-road",
+      "gn": 312,
+      "date": "1929-06-14",
+      "gaz_en": "Canal Road East",
+      "gaz_zh": "\u5805\u62ff\u9053\u6771",
+      "code": "10112",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn312-johnston-road",
+      "gn": 312,
+      "date": "1929-06-14",
+      "gaz_en": "Percival Street",
+      "gaz_zh": "\u6ce2\u65af\u5bcc\u8857",
+      "code": "11683",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn312-johnston-road",
+      "gn": 312,
+      "date": "1929-06-14",
+      "gaz_en": "",
+      "gaz_zh": "",
+      "code": "",
+      "geo": "",
+      "status": "FLAG: Fleming Road: database naming_year 2019 later than gazette 1929"
+    },
+    {
+      "batch": "1929-gn331-boundary-street",
+      "gn": 331,
+      "date": "1929-06-21",
+      "gaz_en": "Boundary Street",
+      "gaz_zh": "\u754c\u9650\u8857",
+      "code": "10075",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn331-boundary-street",
+      "gn": 331,
+      "date": "1929-06-21",
+      "gaz_en": "Embankment Road",
+      "gaz_zh": "\u57fa\u5824\u9053",
+      "code": "10412",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn331-boundary-street",
+      "gn": 331,
+      "date": "1929-06-21",
+      "gaz_en": "Knight Street",
+      "gaz_zh": "\u52f3\u5fb7\u8857",
+      "code": "11048",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn331-boundary-street",
+      "gn": 331,
+      "date": "1929-06-21",
+      "gaz_en": "Duke Street",
+      "gaz_zh": "\u516c\u7235\u8857",
+      "code": "10389",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn331-boundary-street",
+      "gn": 331,
+      "date": "1929-06-21",
+      "gaz_en": "Waterloo Road",
+      "gaz_zh": "\u7aa9\u6253\u8001\u9053",
+      "code": "12690",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn427-waterloo-road",
+      "gn": 427,
+      "date": "1929-08-23",
+      "gaz_en": "Waterloo Road",
+      "gaz_zh": "\u7aa9\u6253\u8001\u9053",
+      "code": "12690",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn427-waterloo-road",
+      "gn": 427,
+      "date": "1929-08-23",
+      "gaz_en": "Boundary Street",
+      "gaz_zh": "\u754c\u9650\u8857",
+      "code": "10075",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn427-waterloo-road",
+      "gn": 427,
+      "date": "1929-08-23",
+      "gaz_en": "Cornwall Street",
+      "gaz_zh": "\u6b4c\u548c\u8001\u9053",
+      "code": "10339",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn427-waterloo-road",
+      "gn": 427,
+      "date": "1929-08-23",
+      "gaz_en": "Suffolk Road",
+      "gaz_zh": "\u6c99\u798f\u9053",
+      "code": "12166",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn427-waterloo-road",
+      "gn": 427,
+      "date": "1929-08-23",
+      "gaz_en": "Kent Road",
+      "gaz_zh": "\u6839\u5fb7\u9053",
+      "code": "10984",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn427-waterloo-road",
+      "gn": 427,
+      "date": "1929-08-23",
+      "gaz_en": "Somerset Road",
+      "gaz_zh": "\u68ee\u9ebb\u5be6\u9053",
+      "code": "12127",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn427-waterloo-road",
+      "gn": 427,
+      "date": "1929-08-23",
+      "gaz_en": "Devon Road",
+      "gaz_zh": "\u5fb7\u96f2\u9053",
+      "code": "10376",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn427-waterloo-road",
+      "gn": 427,
+      "date": "1929-08-23",
+      "gaz_en": "Dorset Crescent",
+      "gaz_zh": "\u591a\u5be6\u8857",
+      "code": "10382",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn427-waterloo-road",
+      "gn": 427,
+      "date": "1929-08-23",
+      "gaz_en": "Norfolk Road",
+      "gaz_zh": "\u7f85\u798f\u9053",
+      "code": "11549",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn427-waterloo-road",
+      "gn": 427,
+      "date": "1929-08-23",
+      "gaz_en": "York Road",
+      "gaz_zh": "\u7d04\u9053",
+      "code": "12887",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn427-waterloo-road",
+      "gn": 427,
+      "date": "1929-08-23",
+      "gaz_en": "Rutland Quadrant",
+      "gaz_zh": "\u5f8b\u502b\u8857",
+      "code": "11829",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn427-waterloo-road",
+      "gn": 427,
+      "date": "1929-08-23",
+      "gaz_en": "Cumberland Road",
+      "gaz_zh": "\u91d1\u5df4\u502b\u9053",
+      "code": "10351",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn427-waterloo-road",
+      "gn": 427,
+      "date": "1929-08-23",
+      "gaz_en": "Surrey Lane",
+      "gaz_zh": "\u8212\u68a8\u91cc",
+      "code": "12193",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn427-waterloo-road",
+      "gn": 427,
+      "date": "1929-08-23",
+      "gaz_en": "Lincoln Road",
+      "gaz_zh": "\u6797\u80af\u9053",
+      "code": "11239",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn427-waterloo-road",
+      "gn": 427,
+      "date": "1929-08-23",
+      "gaz_en": "Essex Crescent",
+      "gaz_zh": "\u96c5\u606f\u58eb\u9053",
+      "code": "10414",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn427-waterloo-road",
+      "gn": 427,
+      "date": "1929-08-23",
+      "gaz_en": "Stafford Road",
+      "gaz_zh": "\u65bd\u4ed6\u4f5b\u9053",
+      "code": "12145",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1929-gn616-ho-man-tin-street",
+      "gn": 616,
+      "date": "1929-11-29",
+      "gaz_en": "Ho Man Tin Street",
+      "gaz_zh": "\u4f55\u6587\u7530\u8857",
+      "code": "10756",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn38-dyer-avenue",
+      "gn": 38,
+      "date": "1930-01-17",
+      "gaz_en": "Dyer Avenue",
+      "gaz_zh": "\u6234\u4e9e\u8857",
+      "code": "10395",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn39-nullah-road",
+      "gn": 39,
+      "date": "1930-01-17",
+      "gaz_en": "Nullah Road",
+      "gaz_zh": "\u6c34\u6e20\u9053",
+      "code": "11556",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn39-nullah-road",
+      "gn": 39,
+      "date": "1930-01-17",
+      "gaz_en": "Reclamation Street",
+      "gaz_zh": "\u65b0\u586b\u5730\u8857",
+      "code": "11810",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn39-nullah-road",
+      "gn": 39,
+      "date": "1930-01-17",
+      "gaz_en": "Battery Street",
+      "gaz_zh": "\u70ae\u53f0\u8857",
+      "code": "10046",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn39-nullah-road",
+      "gn": 39,
+      "date": "1930-01-17",
+      "gaz_en": "Min Street",
+      "gaz_zh": "\u95a9\u8857",
+      "code": "11429",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn138-village-road",
+      "gn": 138,
+      "date": "1930-03-07",
+      "gaz_en": "Village Road",
+      "gaz_zh": "\u5c71\u6751\u9053",
+      "code": "12572",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn138-village-road",
+      "gn": 138,
+      "date": "1930-03-07",
+      "gaz_en": "Shan Kwong Road",
+      "gaz_zh": "\u5c71\u5149\u9053",
+      "code": "11978",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn138-village-road",
+      "gn": 138,
+      "date": "1930-03-07",
+      "gaz_en": "Po Shin Street",
+      "gaz_zh": "\u666e\u5584\u8857",
+      "code": "11751",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn138-village-road",
+      "gn": 138,
+      "date": "1930-03-07",
+      "gaz_en": "Wang Tak Street",
+      "gaz_zh": "\u5b8f\u5fb7\u8857",
+      "code": "12671",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn138-village-road",
+      "gn": 138,
+      "date": "1930-03-07",
+      "gaz_en": "Yik Yam Street",
+      "gaz_zh": "\u5955\u852d\u8857",
+      "code": "12863",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn138-village-road",
+      "gn": 138,
+      "date": "1930-03-07",
+      "gaz_en": "King Kwong Street",
+      "gaz_zh": "\u666f\u5149\u8857",
+      "code": "11025",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn138-village-road",
+      "gn": 138,
+      "date": "1930-03-07",
+      "gaz_en": "Yuk Sau Street",
+      "gaz_zh": "\u6bd3\u79c0\u8857",
+      "code": "12940",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn138-village-road",
+      "gn": 138,
+      "date": "1930-03-07",
+      "gaz_en": "Tsui Man Street",
+      "gaz_zh": "\u805a\u6587\u8857",
+      "code": "12478",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn138-village-road",
+      "gn": 138,
+      "date": "1930-03-07",
+      "gaz_en": "Tsap Tseung Street",
+      "gaz_zh": "\u96c6\u7965\u8857",
+      "code": "12405",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn138-village-road",
+      "gn": 138,
+      "date": "1930-03-07",
+      "gaz_en": "Tsoi Tak Street",
+      "gaz_zh": "\u8f09\u5fb7\u8857",
+      "code": "12458",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn138-village-road",
+      "gn": 138,
+      "date": "1930-03-07",
+      "gaz_en": "Yuen Yuen Street",
+      "gaz_zh": "\u6e90\u9060\u8857",
+      "code": "12931",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn138-village-road",
+      "gn": 138,
+      "date": "1930-03-07",
+      "gaz_en": "Min Fat Street",
+      "gaz_zh": "\u7dbf\u767c\u8857",
+      "code": "11427",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn138-village-road",
+      "gn": 138,
+      "date": "1930-03-07",
+      "gaz_en": "Cheong Ming Street",
+      "gaz_zh": "\u660c\u660e\u8857",
+      "code": "10175",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn138-village-road",
+      "gn": 138,
+      "date": "1930-03-07",
+      "gaz_en": "Shing Ping Street",
+      "gaz_zh": "\u6607\u5e73\u8857",
+      "code": "12055",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn138-village-road",
+      "gn": 138,
+      "date": "1930-03-07",
+      "gaz_en": "Lun Hing Street",
+      "gaz_zh": "\u806f\u8208\u8857",
+      "code": "11307",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn138-village-road",
+      "gn": 138,
+      "date": "1930-03-07",
+      "gaz_en": "Tsun Yuen Street",
+      "gaz_zh": "\u6649\u6e90\u8857",
+      "code": "12487",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn138-village-road",
+      "gn": 138,
+      "date": "1930-03-07",
+      "gaz_en": "Kwai Fong Street",
+      "gaz_zh": "\u6842\u82b3\u8857",
+      "code": "11081",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn138-village-road",
+      "gn": 138,
+      "date": "1930-03-07",
+      "gaz_en": "",
+      "gaz_zh": "",
+      "code": "",
+      "geo": "",
+      "status": "FLAG: G.N.138 lists Yau Sau Street; later G.N.590 corrected to Yuk Sau Street"
+    },
+    {
+      "batch": "1930-gn262-tai-po-road",
+      "gn": 262,
+      "date": "1930-05-02",
+      "gaz_en": "Tai Po Road",
+      "gaz_zh": "\u5927\u57d4\u9053",
+      "code": "12254",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn262-tai-po-road",
+      "gn": 262,
+      "date": "1930-05-02",
+      "gaz_en": "On Fu Road",
+      "gaz_zh": "\u5b89\u5bcc\u9053",
+      "code": "11576",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn262-tai-po-road",
+      "gn": 262,
+      "date": "1930-05-02",
+      "gaz_en": "Tsing Yuen Street",
+      "gaz_zh": "\u9756\u9060\u8857",
+      "code": "12454",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn262-tai-po-road",
+      "gn": 262,
+      "date": "1930-05-02",
+      "gaz_en": "Wai Yan Street",
+      "gaz_zh": "\u61f7\u4ec1\u8857",
+      "code": "12621",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn262-tai-po-road",
+      "gn": 262,
+      "date": "1930-05-02",
+      "gaz_en": "Nam Shing Street",
+      "gaz_zh": "\u5357\u76db\u8857",
+      "code": "11498",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn262-tai-po-road",
+      "gn": 262,
+      "date": "1930-05-02",
+      "gaz_en": "Wai Yi Street",
+      "gaz_zh": "\u61f7\u7fa9\u8857",
+      "code": "12622",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn262-tai-po-road",
+      "gn": 262,
+      "date": "1930-05-02",
+      "gaz_en": "Shung Tak Street",
+      "gaz_zh": "\u5d07\u5fb7\u8857",
+      "code": "12102",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn262-tai-po-road",
+      "gn": 262,
+      "date": "1930-05-02",
+      "gaz_en": "Pak Shing Street",
+      "gaz_zh": "\u5317\u76db\u8857",
+      "code": "11646",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn262-tai-po-road",
+      "gn": 262,
+      "date": "1930-05-02",
+      "gaz_en": "Fu Shin Street",
+      "gaz_zh": "\u5bcc\u5584\u8857",
+      "code": "10528",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn262-tai-po-road",
+      "gn": 262,
+      "date": "1930-05-02",
+      "gaz_en": "Yan Hing Street",
+      "gaz_zh": "\u4ec1\u8208\u8857",
+      "code": "12810",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn262-tai-po-road",
+      "gn": 262,
+      "date": "1930-05-02",
+      "gaz_en": "Sui On Street",
+      "gaz_zh": "\u745e\u5b89\u8857",
+      "code": "12172",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn262-tai-po-road",
+      "gn": 262,
+      "date": "1930-05-02",
+      "gaz_en": "",
+      "gaz_zh": "",
+      "code": "",
+      "geo": "",
+      "status": "FLAG: Tai Po Road: database naming_year 2018 later than gazette 1930"
+    },
+    {
+      "batch": "1930-gn262-tai-po-road",
+      "gn": 262,
+      "date": "1930-05-02",
+      "gaz_en": "",
+      "gaz_zh": "",
+      "code": "",
+      "geo": "",
+      "status": "FLAG: On Fu Road: database naming_year 2017 later than gazette 1930"
+    },
+    {
+      "batch": "1930-gn571-ho-man-tin-hill-road",
+      "gn": 571,
+      "date": "1930-09-12",
+      "gaz_en": "Ho Man Tin Hill Road",
+      "gaz_zh": "\u4f55\u6587\u7530\u5c71\u9053",
+      "code": "10755",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn652-on-lok-lane",
+      "gn": 652,
+      "date": "1930-10-24",
+      "gaz_en": "On Lok Lane",
+      "gaz_zh": "\u5b89\u6a02\u91cc",
+      "code": "11588",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn686-nam-on-street",
+      "gn": 686,
+      "date": "1930-11-14",
+      "gaz_en": "Nam On Street",
+      "gaz_zh": "\u5357\u5b89\u8857",
+      "code": "11495",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn708-dragon-road",
+      "gn": 708,
+      "date": "1930-11-28",
+      "gaz_en": "Dragon Road",
+      "gaz_zh": "\u9ec3\u9f8d\u9053",
+      "code": "10385",
+      "geo": "\u2713",
+      "status": "applied"
+    },
+    {
+      "batch": "1930-gn708-dragon-road",
+      "gn": 708,
+      "date": "1930-11-28",
+      "gaz_en": "Tin Hau Temple Road",
+      "gaz_zh": "\u5929\u540e\u5edf\u9053",
+      "code": "12361",
+      "geo": "\u2713",
+      "status": "applied"
+    }
+  ],
+  "deferred": [
+    [
+      "461264",
+      "no applicable streets (1 skipped)"
+    ],
+    [
+      "8121",
+      "Hill District segment renames \u2014 verify manually"
+    ],
+    [
+      "41098",
+      "no applicable streets (1 skipped)"
+    ],
+    [
+      "61545",
+      "Rename notice \u2014 needs rename workflow"
+    ],
+    [
+      "61559",
+      "Cox's Path/Road swap \u2014 needs rename workflow"
+    ],
+    [
+      "98807",
+      "Superseded by G.N. 202 (99239.pdf)"
+    ],
+    [
+      "99068",
+      "no applicable streets (1 skipped)"
+    ],
+    [
+      "99398",
+      "Mosque Terrace rename \u2014 needs rename workflow"
+    ]
+  ],
+  "batches_written": 57
+}

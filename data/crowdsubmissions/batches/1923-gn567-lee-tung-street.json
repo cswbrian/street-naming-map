@@ -1,0 +1,42 @@
+{
+  "batch_id": "1923-gn567-lee-tung-street",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 567",
+  "publication_date": "1923-12-28",
+  "gazette_url_en": "/egazette/en/1923-gn567.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1923-gn567-lee-tung-street/1923-gn567.pdf",
+  "streets": [
+    {
+      "street_code": "11205",
+      "english_name": "LEE TUNG STREET",
+      "chinese_name": "利東街",
+      "history": [
+        {
+          "publication_date": "1923-12-28",
+          "change_kind": "declare",
+          "street_name_en": "Lee Tung Street",
+          "street_name_zh": "利東街",
+          "gazette_notice_label": "Government Notification No. 567",
+          "government_notice_url_en": "/egazette/en/1923-gn567.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11789",
+      "english_name": "PRINCE'S TERRACE",
+      "chinese_name": "太子台",
+      "history": [
+        {
+          "publication_date": "1923-12-28",
+          "change_kind": "declare",
+          "street_name_en": "Prince's Terrace",
+          "street_name_zh": "太子台",
+          "gazette_notice_label": "Government Notification No. 567",
+          "government_notice_url_en": "/egazette/en/1923-gn567.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

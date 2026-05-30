@@ -1,0 +1,106 @@
+{
+  "batch_id": "1925-gn575-village-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 575",
+  "publication_date": "1925-10-09",
+  "gazette_url_en": "/egazette/en/1925-gn575.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1925-gn575-village-road/1925-gn575.pdf",
+  "streets": [
+    {
+      "street_code": "12572",
+      "english_name": "VILLAGE ROAD",
+      "chinese_name": "山村道",
+      "history": [
+        {
+          "publication_date": "1925-10-09",
+          "change_kind": "declare",
+          "street_name_en": "Village Road",
+          "street_name_zh": "山村道",
+          "gazette_notice_label": "Government Notification No. 575",
+          "government_notice_url_en": "/egazette/en/1925-gn575.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11110",
+      "english_name": "KWAN YICK STREET",
+      "chinese_name": "均益街",
+      "history": [
+        {
+          "publication_date": "1925-10-09",
+          "change_kind": "declare",
+          "street_name_en": "Kwan Yick Street",
+          "street_name_zh": "均益街",
+          "gazette_notice_label": "Government Notification No. 575",
+          "government_notice_url_en": "/egazette/en/1925-gn575.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12123",
+      "english_name": "SOARES AVENUE",
+      "chinese_name": "梭椏道",
+      "history": [
+        {
+          "publication_date": "1925-10-09",
+          "change_kind": "declare",
+          "street_name_en": "Soares Avenue",
+          "street_name_zh": "梭椏道",
+          "gazette_notice_label": "Government Notification No. 575",
+          "government_notice_url_en": "/egazette/en/1925-gn575.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10908",
+      "english_name": "JULIA AVENUE",
+      "chinese_name": "棗梨雅道",
+      "history": [
+        {
+          "publication_date": "1925-10-09",
+          "change_kind": "declare",
+          "street_name_en": "Julia Avenue",
+          "street_name_zh": "棗梨雅道",
+          "gazette_notice_label": "Government Notification No. 575",
+          "government_notice_url_en": "/egazette/en/1925-gn575.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10413",
+      "english_name": "EMMA AVENUE",
+      "chinese_name": "艷馬道",
+      "history": [
+        {
+          "publication_date": "1925-10-09",
+          "change_kind": "declare",
+          "street_name_en": "Ema Avenue",
+          "street_name_zh": "艷馬道",
+          "gazette_notice_label": "Government Notification No. 575",
+          "government_notice_url_en": "/egazette/en/1925-gn575.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11881",
+      "english_name": "SAN FRANCISCO PATH",
+      "chinese_name": "舊金山徑",
+      "history": [
+        {
+          "publication_date": "1925-10-09",
+          "change_kind": "declare",
+          "street_name_en": "San Francisco Path",
+          "street_name_zh": "舊金山徑",
+          "gazette_notice_label": "Government Notification No. 575",
+          "government_notice_url_en": "/egazette/en/1925-gn575.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

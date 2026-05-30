@@ -1,0 +1,122 @@
+{
+  "batch_id": "1926-gn318-tsing-fung-street",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 318",
+  "publication_date": "1926-06-11",
+  "gazette_url_en": "/egazette/en/1926-gn318.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1926-gn318-tsing-fung-street/1926-gn318.pdf",
+  "streets": [
+    {
+      "street_code": "12419",
+      "english_name": "TSING FUNG STREET",
+      "chinese_name": "清風街",
+      "history": [
+        {
+          "publication_date": "1926-06-11",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Fung Street",
+          "street_name_zh": "清風街",
+          "gazette_notice_label": "Government Notification No. 318",
+          "government_notice_url_en": "/egazette/en/1926-gn318.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11193",
+      "english_name": "LAU LI STREET",
+      "chinese_name": "琉璃街",
+      "history": [
+        {
+          "publication_date": "1926-06-11",
+          "change_kind": "declare",
+          "street_name_en": "Lau Li Street",
+          "street_name_zh": "琉璃街",
+          "gazette_notice_label": "Government Notification No. 318",
+          "government_notice_url_en": "/egazette/en/1926-gn318.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11525",
+      "english_name": "NGAN MOK STREET",
+      "chinese_name": "銀幕街",
+      "history": [
+        {
+          "publication_date": "1926-06-11",
+          "change_kind": "declare",
+          "street_name_en": "Ngan Mok Street",
+          "street_name_zh": "銀幕街",
+          "gazette_notice_label": "Government Notification No. 318",
+          "government_notice_url_en": "/egazette/en/1926-gn318.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12805",
+      "english_name": "YACHT STREET",
+      "chinese_name": "帆船街",
+      "history": [
+        {
+          "publication_date": "1926-06-11",
+          "change_kind": "declare",
+          "street_name_en": "Yacht Street",
+          "street_name_zh": "帆船街",
+          "gazette_notice_label": "Government Notification No. 318",
+          "government_notice_url_en": "/egazette/en/1926-gn318.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11195",
+      "english_name": "LAU SIN STREET",
+      "chinese_name": "留仙街",
+      "history": [
+        {
+          "publication_date": "1926-06-11",
+          "change_kind": "declare",
+          "street_name_en": "Lau Sin Street",
+          "street_name_zh": "留仙街",
+          "gazette_notice_label": "Government Notification No. 318",
+          "government_notice_url_en": "/egazette/en/1926-gn318.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11856",
+      "english_name": "SAI WAN HO STREET",
+      "chinese_name": "西灣河街",
+      "history": [
+        {
+          "publication_date": "1926-06-11",
+          "change_kind": "declare",
+          "street_name_en": "Sai Wan Ho Street",
+          "street_name_zh": "西灣河街",
+          "gazette_notice_label": "Government Notification No. 318",
+          "government_notice_url_en": "/egazette/en/1926-gn318.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12335",
+      "english_name": "TANG LUNG STREET",
+      "chinese_name": "登龍街",
+      "history": [
+        {
+          "publication_date": "1926-06-11",
+          "change_kind": "declare",
+          "street_name_en": "Tang Lung Street",
+          "street_name_zh": "登龍街",
+          "gazette_notice_label": "Government Notification No. 318",
+          "government_notice_url_en": "/egazette/en/1926-gn318.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

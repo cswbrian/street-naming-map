@@ -1,0 +1,76 @@
+{
+  "batch_id": "1926-gn46-mount-cameron-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 46",
+  "publication_date": "1926-01-29",
+  "gazette_url_en": "/egazette/en/1926-gn46.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1926-gn46-mount-cameron-road/1926-gn46.pdf",
+  "streets": [
+    {
+      "street_code": "11470",
+      "english_name": "MOUNT CAMERON ROAD",
+      "chinese_name": "金馬麟山道",
+      "history": [
+        {
+          "publication_date": "1926-01-29",
+          "change_kind": "declare",
+          "street_name_en": "Mount Cameron Road",
+          "street_name_zh": "金馬麟山道",
+          "gazette_notice_label": "Government Notification No. 46",
+          "government_notice_url_en": "/egazette/en/1926-gn46.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12567",
+      "english_name": "VENTRIS ROAD",
+      "chinese_name": "雲地利道",
+      "history": [
+        {
+          "publication_date": "1926-01-29",
+          "change_kind": "declare",
+          "street_name_en": "Ventris Road",
+          "street_name_zh": "雲地利道",
+          "gazette_notice_label": "Government Notification No. 46",
+          "government_notice_url_en": "/egazette/en/1926-gn46.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10249",
+      "english_name": "CHING LIN TERRACE",
+      "chinese_name": "青蓮臺",
+      "history": [
+        {
+          "publication_date": "1926-01-29",
+          "change_kind": "declare",
+          "street_name_en": "Ching Lin Terrace",
+          "street_name_zh": "青蓮台",
+          "gazette_notice_label": "Government Notification No. 46",
+          "government_notice_url_en": "/egazette/en/1926-gn46.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 青蓮台; database 青蓮臺."
+        }
+      ]
+    },
+    {
+      "street_code": "12384",
+      "english_name": "TO LI TERRACE",
+      "chinese_name": "桃李臺",
+      "history": [
+        {
+          "publication_date": "1926-01-29",
+          "change_kind": "declare",
+          "street_name_en": "To Li Terrace",
+          "street_name_zh": "桃李台",
+          "gazette_notice_label": "Government Notification No. 46",
+          "government_notice_url_en": "/egazette/en/1926-gn46.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 桃李台; database 桃李臺."
+        }
+      ]
+    }
+  ]
+}

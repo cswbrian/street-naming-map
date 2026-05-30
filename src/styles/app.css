@@ -250,6 +250,211 @@
   color: var(--sn-text-muted);
 }
 
+.pending-dashboard-layout {
+  display: block;
+}
+
+.pending-dashboard-aside,
+.pending-dashboard-main {
+  min-width: 0;
+}
+
+@media (min-width: 820px) {
+  .app-shell.is-dashboard {
+    overflow: hidden;
+  }
+
+  .pending-dashboard {
+    height: calc(100vh - 3.15rem);
+    padding: 0.6rem 0.85rem 0.8rem;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .pending-dashboard-layout {
+    display: grid;
+    grid-template-columns: minmax(228px, 252px) minmax(0, 1fr);
+    gap: 0.75rem;
+    height: 100%;
+    min-height: 0;
+  }
+
+  .pending-dashboard-aside {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-height: 0;
+    border: 1px solid var(--sn-border);
+    border-radius: var(--sn-radius);
+    background: var(--sn-bg-panel);
+    padding: 0.55rem 0.58rem 0.58rem;
+  }
+
+  .pending-dashboard-aside .pending-stats-title {
+    margin: 0 0 0.1rem;
+    font-size: 0.74rem;
+  }
+
+  .pending-dashboard-aside .pending-stats-hint {
+    margin: 0.05rem 0 0;
+    font-size: 0.62rem;
+    line-height: 1.3;
+  }
+
+  .pending-dashboard-aside .pending-stats-section + .pending-stats-section {
+    margin-top: 0;
+  }
+
+  .pending-dashboard-aside .pending-stats-grid {
+    margin-top: 0.28rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.22rem;
+  }
+
+  .pending-dashboard-aside .pending-stats-section--periods .pending-stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .pending-dashboard-aside .pending-stat-card {
+    padding: 0.22rem 0.26rem;
+  }
+
+  .pending-dashboard-aside .pending-stat-card h3 {
+    font-size: 0.64rem;
+    line-height: 1.12;
+  }
+
+  .pending-dashboard-aside .pending-stats-section--periods .pending-stat-card h3 {
+    font-size: 0.6rem;
+  }
+
+  .pending-dashboard-aside .pending-stat-card strong {
+    margin-top: 0.03rem;
+    font-size: 0.76rem;
+  }
+
+  .pending-dashboard-aside .pending-filter-row {
+    margin-top: auto;
+    padding-top: 0.4rem;
+    border-top: 1px solid var(--sn-border);
+  }
+
+  .pending-dashboard-aside .pending-filter-btn {
+    flex: 1;
+    text-align: center;
+    padding: 0.26rem 0.4rem;
+    font-size: 0.72rem;
+  }
+
+  .pending-dashboard-main {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  .pending-dashboard-main .pending-table-controls {
+    margin-top: 0;
+    flex-shrink: 0;
+  }
+
+  .pending-dashboard-main .pending-search-input {
+    width: 100%;
+    flex: 1;
+    font-size: 0.8rem;
+  }
+
+  .pending-dashboard-main .pending-coverage-section {
+    margin-top: 0.4rem;
+    flex-shrink: 0;
+  }
+
+  .pending-dashboard-main .pending-table-wrap {
+    margin-top: 0.4rem;
+    flex: 1;
+    min-height: 0;
+    max-height: none;
+  }
+
+  .pending-dashboard-main .pending-dashboard-note {
+    flex-shrink: 0;
+    margin-top: 0.4rem;
+  }
+}
+
+@media (min-width: 1121px) {
+  .pending-dashboard {
+    padding: 0.65rem 1rem 0.85rem;
+  }
+
+  .pending-dashboard-layout {
+    grid-template-columns: minmax(272px, 292px) minmax(0, 1fr);
+    gap: 0.85rem;
+  }
+
+  .pending-dashboard-aside {
+    gap: 0.55rem;
+    padding: 0.6rem 0.65rem 0.65rem;
+  }
+
+  .pending-dashboard-aside .pending-stats-title {
+    margin: 0 0 0.12rem;
+    font-size: 0.76rem;
+  }
+
+  .pending-dashboard-aside .pending-stats-hint {
+    margin: 0.06rem 0 0;
+    font-size: 0.64rem;
+    line-height: 1.32;
+  }
+
+  .pending-dashboard-aside .pending-stats-grid {
+    margin-top: 0.3rem;
+    gap: 0.24rem;
+  }
+
+  .pending-dashboard-aside .pending-stats-section--periods .pending-stats-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .pending-dashboard-aside .pending-stat-card {
+    padding: 0.24rem 0.28rem;
+  }
+
+  .pending-dashboard-aside .pending-stat-card h3 {
+    font-size: 0.66rem;
+    line-height: 1.15;
+  }
+
+  .pending-dashboard-aside .pending-stats-section--periods .pending-stat-card h3 {
+    font-size: 0.62rem;
+  }
+
+  .pending-dashboard-aside .pending-stat-card strong {
+    font-size: 0.78rem;
+  }
+
+  .pending-dashboard-aside .pending-filter-row {
+    padding-top: 0.45rem;
+  }
+
+  .pending-dashboard-aside .pending-filter-btn {
+    flex: initial;
+    font-size: 0.74rem;
+  }
+
+  .pending-dashboard-main .pending-coverage-section {
+    margin-top: 0.45rem;
+  }
+
+  .pending-dashboard-main .pending-table-wrap {
+    margin-top: 0.45rem;
+  }
+
+  .pending-dashboard-main .pending-dashboard-note {
+    margin-top: 0.45rem;
+  }
+}
+
 .pending-stats-grid {
   margin-top: 0.9rem;
   display: grid;
@@ -265,6 +470,13 @@
   margin: 0.9rem 0 0.15rem;
   font-size: 0.84rem;
   font-weight: 600;
+}
+
+.pending-stats-hint {
+  margin: 0.12rem 0 0;
+  font-size: 0.76rem;
+  line-height: 1.35;
+  color: var(--sn-text-muted);
 }
 
 .pending-stat-card {
@@ -985,12 +1197,6 @@
   flex-shrink: 0;
 }
 
-@media (max-width: 1120px) {
-  .pending-stats-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
-
 @media (max-width: 960px) {
   .pending-col-type,
   .pending-col-type-head,
@@ -1591,7 +1797,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.45rem;
-  width: min(310px, calc(100vw - 2rem));
+  width: min(440px, calc(100vw - 2rem));
   z-index: 6;
 }
 
@@ -1880,7 +2086,7 @@
   }
 
   .hud-bottom-stack {
-    width: min(360px, calc(100vw - 2rem));
+    width: min(440px, calc(100vw - 2rem));
   }
 }
 
@@ -1944,11 +2150,12 @@
   .legend-groups {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.2rem;
+    max-height: 12.5rem;
   }
 
   .legend-item {
-    font-size: 0.68rem;
-    padding: 0.2rem 0.28rem;
+    font-size: 0.66rem;
+    padding: 0.18rem 0.24rem;
   }
 
   .legend-panel,
@@ -2020,8 +2227,8 @@
 .legend-groups {
   margin-top: 0.5rem;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.24rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.18rem 0.24rem;
 }
 
 .legend-panel .panel-content,
@@ -2037,24 +2244,32 @@
 .legend-item {
   display: flex;
   align-items: center;
-  gap: 0.45rem;
-  font-size: 0.73rem;
+  gap: 0.35rem;
+  min-width: 0;
+  font-size: 0.68rem;
   color: var(--sn-text);
   background: transparent;
   border: 1px solid transparent;
   border-radius: var(--sn-radius);
-  padding: 0.22rem 0.3rem;
+  padding: 0.18rem 0.22rem;
   text-align: left;
   cursor: pointer;
   transition: border-color 120ms ease, background-color 120ms ease;
 }
 
 .legend-swatch {
-  width: 0.65rem;
-  height: 0.65rem;
+  width: 0.55rem;
+  height: 0.55rem;
   border-radius: 1px;
   border: 1px solid var(--sn-border-strong);
   flex-shrink: 0;
+}
+
+.legend-item > span:not(.legend-swatch) {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .legend-item:hover {

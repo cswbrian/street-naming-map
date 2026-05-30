@@ -1,0 +1,192 @@
+{
+  "batch_id": "1926-gn342-nga-tsin-wai-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 342",
+  "publication_date": "1926-06-25",
+  "gazette_url_en": "/egazette/en/1926-gn342.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1926-gn342-nga-tsin-wai-road/1926-gn342.pdf",
+  "streets": [
+    {
+      "street_code": "11517",
+      "english_name": "NGA TSIN WAI ROAD",
+      "chinese_name": "衙前圍道",
+      "history": [
+        {
+          "publication_date": "1926-06-25",
+          "change_kind": "declare",
+          "street_name_en": "Nga Tsin Wai Road",
+          "street_name_zh": "衙前圍道",
+          "gazette_notice_label": "Government Notification No. 342",
+          "government_notice_url_en": "/egazette/en/1926-gn342.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11996",
+      "english_name": "SHEK KU LUNG ROAD",
+      "chinese_name": "石鼓壟道",
+      "history": [
+        {
+          "publication_date": "1926-06-25",
+          "change_kind": "declare",
+          "street_name_en": "Shek Ku Lung Road",
+          "street_name_zh": "石古壟道",
+          "gazette_notice_label": "Government Notification No. 342",
+          "government_notice_url_en": "/egazette/en/1926-gn342.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 石古壟道; database 石鼓壟道."
+        }
+      ]
+    },
+    {
+      "street_code": "11831",
+      "english_name": "SA PO ROAD",
+      "chinese_name": "沙浦道",
+      "history": [
+        {
+          "publication_date": "1926-06-25",
+          "change_kind": "declare",
+          "street_name_en": "Sa Po Road",
+          "street_name_zh": "沙埔道",
+          "gazette_notice_label": "Government Notification No. 342",
+          "government_notice_url_en": "/egazette/en/1926-gn342.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 沙埔道; database 沙浦道."
+        }
+      ]
+    },
+    {
+      "street_code": "12308",
+      "english_name": "TAK KU LING ROAD",
+      "chinese_name": "打鼓嶺道",
+      "history": [
+        {
+          "publication_date": "1926-06-25",
+          "change_kind": "declare",
+          "street_name_en": "Tak Ku Ling Road",
+          "street_name_zh": "打鼓嶺道",
+          "gazette_notice_label": "Government Notification No. 342",
+          "government_notice_url_en": "/egazette/en/1926-gn342.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10632",
+      "english_name": "HA HEUNG ROAD",
+      "chinese_name": "下鄉道",
+      "history": [
+        {
+          "publication_date": "1926-06-25",
+          "change_kind": "declare",
+          "street_name_en": "Ha Heung Road",
+          "street_name_zh": "下鄉道",
+          "gazette_notice_label": "Government Notification No. 342",
+          "government_notice_url_en": "/egazette/en/1926-gn342.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11063",
+      "english_name": "KOWLOON CITY ROAD",
+      "chinese_name": "九龍城道",
+      "history": [
+        {
+          "publication_date": "1926-06-25",
+          "change_kind": "declare",
+          "street_name_en": "Kowloon City Road",
+          "street_name_zh": "九龍城道",
+          "gazette_notice_label": "Government Notification No. 342",
+          "government_notice_url_en": "/egazette/en/1926-gn342.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12015",
+      "english_name": "SHEK TONG STREET",
+      "chinese_name": "石塘街",
+      "history": [
+        {
+          "publication_date": "1926-06-25",
+          "change_kind": "declare",
+          "street_name_en": "Shek Tong Street",
+          "street_name_zh": "石塘街",
+          "gazette_notice_label": "Government Notification No. 342",
+          "government_notice_url_en": "/egazette/en/1926-gn342.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11896",
+      "english_name": "SAN LAU STREET",
+      "chinese_name": "新柳街",
+      "history": [
+        {
+          "publication_date": "1926-06-25",
+          "change_kind": "declare",
+          "street_name_en": "San Lau Street",
+          "street_name_zh": "新柳街",
+          "gazette_notice_label": "Government Notification No. 342",
+          "government_notice_url_en": "/egazette/en/1926-gn342.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11916",
+      "english_name": "SAN WAI STREET",
+      "chinese_name": "新圍街",
+      "history": [
+        {
+          "publication_date": "1926-06-25",
+          "change_kind": "declare",
+          "street_name_en": "San Wai Street",
+          "street_name_zh": "新圍街",
+          "gazette_notice_label": "Government Notification No. 342",
+          "government_notice_url_en": "/egazette/en/1926-gn342.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11245",
+      "english_name": "LO LUNG HANG STREET",
+      "chinese_name": "老龍坑街",
+      "history": [
+        {
+          "publication_date": "1926-06-25",
+          "change_kind": "declare",
+          "street_name_en": "Lo Lung Hang Street",
+          "street_name_zh": "老龍坑街",
+          "gazette_notice_label": "Government Notification No. 342",
+          "government_notice_url_en": "/egazette/en/1926-gn342.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10473",
+      "english_name": "FAT KWONG STREET",
+      "chinese_name": "佛光街",
+      "history": [
+        {
+          "publication_date": "1926-06-25",
+          "change_kind": "declare",
+          "street_name_en": "Fat Kwong Street",
+          "street_name_zh": "佛光街",
+          "gazette_notice_label": "Government Notification No. 342",
+          "government_notice_url_en": "/egazette/en/1926-gn342.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "parse_flags": [
+    "Gazette Chinese column illegible — ZH from hk-place",
+    "San Lau Street: database naming_year 1935 later than gazette 1926"
+  ]
+}

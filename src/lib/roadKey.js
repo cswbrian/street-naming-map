@@ -22,7 +22,7 @@ export const normalizeStreetNameForMatch = (name) => {
   return value
 }
 
-/** Keys used to match rows against recently-verified.json and submission tracker. */
+/** Keys used to match rows against the submission tracker. */
 export const buildStreetMatchKeys = (enName, zhName, streetCode) => {
   const keys = new Set()
   const en = normalizeStreetNameForMatch(enName)

@@ -1,0 +1,43 @@
+{
+  "batch_id": "1920-gn157-rock-hill-street",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 157",
+  "publication_date": "1920-03-19",
+  "gazette_url_en": "/egazette/en/1920-gn157.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1920-gn157-rock-hill-street/1920-gn157.pdf",
+  "streets": [
+    {
+      "street_code": "11818",
+      "english_name": "ROCK HILL STREET",
+      "chinese_name": "石山街",
+      "history": [
+        {
+          "publication_date": "1920-03-19",
+          "change_kind": "declare",
+          "street_name_en": "Rock Hill Street",
+          "street_name_zh": "石山街",
+          "gazette_notice_label": "Government Notification No. 157",
+          "government_notice_url_en": "/egazette/en/1920-gn157.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12399",
+      "english_name": "TREGUNTER PATH",
+      "chinese_name": "地利根德里",
+      "history": [
+        {
+          "publication_date": "1920-03-19",
+          "change_kind": "declare",
+          "street_name_en": "Tregunter Path",
+          "street_name_zh": "地利根德道",
+          "gazette_notice_label": "Government Notification No. 157",
+          "government_notice_url_en": "/egazette/en/1920-gn157.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 地利根德道; database 地利根德里."
+        }
+      ]
+    }
+  ]
+}

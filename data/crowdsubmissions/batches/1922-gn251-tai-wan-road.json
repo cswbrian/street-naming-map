@@ -1,0 +1,27 @@
+{
+  "batch_id": "1922-gn251-tai-wan-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 251",
+  "publication_date": "1922-06-02",
+  "gazette_url_en": "/egazette/en/1922-gn251.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1922-gn251-tai-wan-road/1922-gn251.pdf",
+  "streets": [
+    {
+      "street_code": "12282",
+      "english_name": "TAI WAN ROAD",
+      "chinese_name": "大環道",
+      "history": [
+        {
+          "publication_date": "1922-06-02",
+          "change_kind": "declare",
+          "street_name_en": "Tai Wan Road",
+          "street_name_zh": "大灣道",
+          "gazette_notice_label": "Government Notification No. 251",
+          "government_notice_url_en": "/egazette/en/1922-gn251.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 大灣道; database 大環道."
+        }
+      ]
+    }
+  ]
+}

@@ -1,24 +1,22 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { useLocale } from '../i18n/LocaleContext'
-import { getRoadTypeLabel, PERIOD_GROUP_DEFS } from '../i18n/translations'
+import { getPeriodLabel, getRoadTypeLabel, PERIOD_GROUP_DEFS } from '../i18n/translations'
 import ContributeActionIcon from './ContributeActionIcon.jsx'
 import { buildSingleStreetFormUrl } from '../lib/contributeForm.js'
 import { trackContributeOpen, trackNamesFilter, trackNoticeOpen } from '../lib/analytics.js'
 import { getNoticeLink } from '../lib/governmentNotice.js'
 import { hasStreetName } from '../lib/roadKey'
 import { getNamingSourceBadgeKey, getNamingSourceKind } from '../lib/namingSourceBadge.js'
-import { buildRecentlyVerifiedIndex, hasNamingYear, isRecentlyVerified } from '../lib/submissionStatus.js'
+import { hasNamingYear } from '../lib/submissionStatus.js'
 
 const DATA_URL = `${import.meta.env.BASE_URL}data/master/pending-naming-years.json`
-const RECENT_URL = `${import.meta.env.BASE_URL}data/master/recently-verified.json`
 
-const LIST_FILTERS = ['all', 'pending', 'verified']
+const LIST_FILTERS = ['all', 'pending']
 
 const FILTER_LABEL_KEYS = {
   all: 'filterAll',
   pending: 'filterPendingDate',
-  verified: 'filterRecentlyVerified',
 }
 
 const ROAD_TYPE_PRIORITY = {
@@ -51,7 +49,6 @@ function PendingDashboard({ onOpenRoadOnMap }) {
   const [searchParams, setSearchParams] = useSearchParams()
   const filterFromUrl = searchParams.get('filter') || 'all'
   const [report, setReport] = useState(null)
-  const [recentlyVerified, setRecentlyVerified] = useState(null)
   const [isLoading, setIsLoading] = useState(true)
   const [searchText, setSearchText] = useState('')
   const [error, setError] = useState('')
@@ -101,13 +98,11 @@ function PendingDashboard({ onOpenRoadOnMap }) {
     const load = async () => {
       try {
         setError('')
-        const [reportRes, recentRes] = await Promise.all([fetch(DATA_URL), fetch(RECENT_URL)])
+        const reportRes = await fetch(DATA_URL)
         if (!reportRes.ok) throw new Error('report')
         const data = await reportRes.json()
-        const recent = recentRes.ok ? await recentRes.json() : null
         if (mounted) {
           setReport(data)
-          setRecentlyVerified(recent)
         }
       } catch {
         if (mounted) setError('reportError')
@@ -120,11 +115,6 @@ function PendingDashboard({ onOpenRoadOnMap }) {
       mounted = false
     }
   }, [])
-
-  const recentlyVerifiedIndex = useMemo(
-    () => buildRecentlyVerifiedIndex(recentlyVerified?.streets ?? []),
-    [recentlyVerified],
-  )
 
   const rows = useMemo(() => {
     const allRows = Array.isArray(report?.roads) ? report.roads : []
@@ -146,8 +136,6 @@ function PendingDashboard({ onOpenRoadOnMap }) {
     let list = rows
     if (listFilter === 'pending') {
       list = list.filter((row) => !hasNamingYear(row) && !formatNamingDate(row.naming_date))
-    } else if (listFilter === 'verified') {
-      list = list.filter((row) => isRecentlyVerified(row, recentlyVerifiedIndex))
     }
     if (typeFilter) {
       list = list.filter((row) => (row.street_type || 'Unknown Type') === typeFilter)
@@ -161,7 +149,7 @@ function PendingDashboard({ onOpenRoadOnMap }) {
         `${row.street_code ?? ''} ${row.english_name ?? ''} ${row.chinese_name ?? ''} ${row.street_type ?? ''} ${row.naming_year ?? ''} ${row.naming_date ?? ''}`.toLowerCase()
       return haystack.includes(loweredQuery)
     })
-  }, [rows, loweredQuery, listFilter, recentlyVerifiedIndex, typeFilter, periodFilter])
+  }, [rows, loweredQuery, listFilter, typeFilter, periodFilter])
 
   const sortedRows = useMemo(() => {
     const getStreetName = (row) =>
@@ -231,10 +219,10 @@ function PendingDashboard({ onOpenRoadOnMap }) {
     })
     return PERIOD_GROUP_DEFS.map((group) => ({
       id: group.id,
-      label: t(group.rangeKey),
+      label: getPeriodLabel(group, locale),
       count: counts.get(group.id) ?? 0,
     }))
-  }, [rows, t])
+  }, [locale, rows])
 
   return (
     <section className="pending-dashboard">
@@ -245,83 +233,96 @@ function PendingDashboard({ onOpenRoadOnMap }) {
       ) : null}
 
       {!isLoading && !error && report ? (
-        <>
-          <section className="pending-stats-section">
-            <h2 className="pending-stats-title">{t('roadTypesTitle')}</h2>
-            <div className="pending-stats-grid">
-              {roadTypeStats.map((item) => (
+        <div className="pending-dashboard-layout">
+          <aside
+            className="pending-dashboard-aside"
+            aria-label={`${t('roadTypesTitle')} / ${t('periodStatsTitle')}`}
+          >
+            <section className="pending-stats-section pending-stats-section--road-types">
+              <h2 className="pending-stats-title">{t('roadTypesTitle')}</h2>
+              <div className="pending-stats-grid">
+                {roadTypeStats.map((item) => (
+                  <button
+                    type="button"
+                    key={`type-${item.label}`}
+                    className={`pending-stat-card ${typeFilter === item.label ? 'is-active' : ''}`}
+                    onClick={() => handleTypeFilterChange(item.label)}
+                    aria-pressed={typeFilter === item.label}
+                  >
+                    <h3>{getRoadTypeLabel(locale, item.label)}</h3>
+                    <strong>{formatNumber(locale, item.count)}</strong>
+                  </button>
+                ))}
+              </div>
+            </section>
+
+            <section className="pending-stats-section pending-stats-section--periods">
+              <h2 className="pending-stats-title">{t('periodStatsTitle')}</h2>
+              <p className="pending-stats-hint">{t('periodStatsHint')}</p>
+              <div className="pending-stats-grid">
+                {periodStats.map((item) => (
+                  <button
+                    type="button"
+                    key={`period-${item.id}`}
+                    className={`pending-stat-card ${periodFilter === item.id ? 'is-active' : ''}`}
+                    onClick={() => handlePeriodFilterChange(item.id)}
+                    aria-pressed={periodFilter === item.id}
+                  >
+                    <h3>{item.label}</h3>
+                    <strong>{formatNumber(locale, item.count)}</strong>
+                  </button>
+                ))}
+              </div>
+            </section>
+
+            <div className="pending-filter-row">
+              {LIST_FILTERS.map((id) => (
                 <button
+                  key={id}
                   type="button"
-                  key={`type-${item.label}`}
-                  className={`pending-stat-card ${typeFilter === item.label ? 'is-active' : ''}`}
-                  onClick={() => handleTypeFilterChange(item.label)}
-                  aria-pressed={typeFilter === item.label}
+                  className={`pending-filter-btn ${listFilter === id ? 'is-active' : ''}`}
+                  onClick={() => handleListFilterChange(id)}
                 >
-                  <h3>{getRoadTypeLabel(locale, item.label)}</h3>
-                  <strong>{formatNumber(locale, item.count)}</strong>
+                  {t(FILTER_LABEL_KEYS[id])}
                 </button>
               ))}
             </div>
-          </section>
+          </aside>
 
-          <section className="pending-stats-section">
-            <h2 className="pending-stats-title">{t('periodStatsTitle')}</h2>
-            <div className="pending-stats-grid">
-              {periodStats.map((item) => (
-                <button
-                  type="button"
-                  key={`period-${item.id}`}
-                  className={`pending-stat-card ${periodFilter === item.id ? 'is-active' : ''}`}
-                  onClick={() => handlePeriodFilterChange(item.id)}
-                  aria-pressed={periodFilter === item.id}
-                >
-                  <h3>{item.label}</h3>
-                  <strong>{formatNumber(locale, item.count)}</strong>
-                </button>
-              ))}
+          <div className="pending-dashboard-main">
+            <div className="pending-table-controls">
+              <input
+                type="text"
+                className="pending-search-input"
+                value={searchText}
+                onChange={(event) => setSearchText(event.target.value)}
+                placeholder={t('searchTable')}
+              />
+              <span>
+                {t('showingStreets', {
+                  shown: formatNumber(locale, filteredRows.length),
+                  total: formatNumber(locale, rows.length),
+                })}
+              </span>
             </div>
-          </section>
 
-          <div className="pending-filter-row">
-            {LIST_FILTERS.map((id) => (
-              <button
-                key={id}
-                type="button"
-                className={`pending-filter-btn ${listFilter === id ? 'is-active' : ''}`}
-                onClick={() => handleListFilterChange(id)}
+            <section className="pending-coverage-section pending-table-stats">
+              <div
+                className="pending-coverage-bar"
+                role="progressbar"
+                aria-valuenow={coverage.named}
+                aria-valuemin={0}
+                aria-valuemax={coverage.total}
               >
-                {t(FILTER_LABEL_KEYS[id])}
-              </button>
-            ))}
-          </div>
+                <div className="pending-coverage-fill" style={{ width: `${coverage.pct.toFixed(1)}%` }} />
+              </div>
+              <p className="pending-coverage-label">
+                {t('contributeNamed')}: {formatNumber(locale, coverage.named)} /{' '}
+                {formatNumber(locale, coverage.total)} ({coverage.pct.toFixed(1)}%)
+              </p>
+            </section>
 
-          <div className="pending-table-controls">
-            <input
-              type="text"
-              className="pending-search-input"
-              value={searchText}
-              onChange={(event) => setSearchText(event.target.value)}
-              placeholder={t('searchTable')}
-            />
-            <span>
-              {t('showingStreets', {
-                shown: formatNumber(locale, filteredRows.length),
-                total: formatNumber(locale, rows.length),
-              })}
-            </span>
-          </div>
-
-          <section className="pending-coverage-section pending-table-stats">
-            <div className="pending-coverage-bar" role="progressbar" aria-valuenow={coverage.named} aria-valuemin={0} aria-valuemax={coverage.total}>
-              <div className="pending-coverage-fill" style={{ width: `${coverage.pct.toFixed(1)}%` }} />
-            </div>
-            <p className="pending-coverage-label">
-              {t('contributeNamed')}: {formatNumber(locale, coverage.named)} / {formatNumber(locale, coverage.total)} (
-              {coverage.pct.toFixed(1)}%)
-            </p>
-          </section>
-
-          <div className="pending-table-wrap">
+            <div className="pending-table-wrap">
             <table className="pending-table">
               <colgroup>
                 <col className="pending-col-street" />
@@ -468,11 +469,12 @@ function PendingDashboard({ onOpenRoadOnMap }) {
                 })}
               </tbody>
             </table>
+            </div>
+            {sortedRows.length > 500 ? (
+              <p className="pending-dashboard-note">{t('truncatedRows')}</p>
+            ) : null}
           </div>
-          {sortedRows.length > 500 ? (
-            <p className="pending-dashboard-note">{t('truncatedRows')}</p>
-          ) : null}
-        </>
+        </div>
       ) : null}
     </section>
   )

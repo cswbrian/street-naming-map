@@ -1,0 +1,58 @@
+{
+  "batch_id": "1915-gn244-lugard-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 244",
+  "publication_date": "1915-05-28",
+  "gazette_url_en": "/egazette/en/1915-gn244.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1915-gn244-lugard-road/1915-gn244.pdf",
+  "streets": [
+    {
+      "street_code": "11298",
+      "english_name": "LUGARD ROAD",
+      "chinese_name": "盧吉道",
+      "history": [
+        {
+          "publication_date": "1915-05-28",
+          "change_kind": "declare",
+          "street_name_en": "Lugard Road",
+          "street_name_zh": "盧吉道",
+          "gazette_notice_label": "Government Notification No. 244",
+          "government_notice_url_en": "/egazette/en/1915-gn244.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10488",
+      "english_name": "FINDLAY ROAD",
+      "chinese_name": "芬梨道",
+      "history": [
+        {
+          "publication_date": "1915-05-28",
+          "change_kind": "declare",
+          "street_name_en": "Findlay Road",
+          "street_name_zh": "芬梨道",
+          "gazette_notice_label": "Government Notification No. 244",
+          "government_notice_url_en": "/egazette/en/1915-gn244.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10487",
+      "english_name": "FINDLAY PATH",
+      "chinese_name": "芬梨徑",
+      "history": [
+        {
+          "publication_date": "1915-05-28",
+          "change_kind": "declare",
+          "street_name_en": "Findlay Path",
+          "street_name_zh": "芬梨徑",
+          "gazette_notice_label": "Government Notification No. 244",
+          "government_notice_url_en": "/egazette/en/1915-gn244.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

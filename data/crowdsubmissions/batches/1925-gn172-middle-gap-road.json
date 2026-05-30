@@ -1,0 +1,26 @@
+{
+  "batch_id": "1925-gn172-middle-gap-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 172",
+  "publication_date": "1925-03-27",
+  "gazette_url_en": "/egazette/en/1925-gn172.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1925-gn172-middle-gap-road/1925-gn172.pdf",
+  "streets": [
+    {
+      "street_code": "11423",
+      "english_name": "MIDDLE GAP ROAD",
+      "chinese_name": "中峽道",
+      "history": [
+        {
+          "publication_date": "1925-03-27",
+          "change_kind": "declare",
+          "street_name_en": "Middle Gap Road",
+          "street_name_zh": "中峽道",
+          "gazette_notice_label": "Government Notification No. 172",
+          "government_notice_url_en": "/egazette/en/1925-gn172.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

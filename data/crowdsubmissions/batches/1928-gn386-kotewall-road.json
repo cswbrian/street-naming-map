@@ -1,0 +1,42 @@
+{
+  "batch_id": "1928-gn386-kotewall-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 386",
+  "publication_date": "1928-07-06",
+  "gazette_url_en": "/egazette/en/1928-gn386.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1928-gn386-kotewall-road/1928-gn386.pdf",
+  "streets": [
+    {
+      "street_code": "11062",
+      "english_name": "KOTEWALL ROAD",
+      "chinese_name": "旭龢道",
+      "history": [
+        {
+          "publication_date": "1928-07-06",
+          "change_kind": "declare",
+          "street_name_en": "Kotewall Road",
+          "street_name_zh": "旭龢道",
+          "gazette_notice_label": "Government Notification No. 386",
+          "government_notice_url_en": "/egazette/en/1928-gn386.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11750",
+      "english_name": "PO SHAN ROAD",
+      "chinese_name": "寶珊道",
+      "history": [
+        {
+          "publication_date": "1928-07-06",
+          "change_kind": "declare",
+          "street_name_en": "Po Shan Road",
+          "street_name_zh": "寶珊道",
+          "gazette_notice_label": "Government Notification No. 386",
+          "government_notice_url_en": "/egazette/en/1928-gn386.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

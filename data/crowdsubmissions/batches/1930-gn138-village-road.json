@@ -1,0 +1,285 @@
+{
+  "batch_id": "1930-gn138-village-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 138",
+  "publication_date": "1930-03-07",
+  "gazette_url_en": "/egazette/en/1930-gn138.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1930-gn138-village-road/1930-gn138.pdf",
+  "streets": [
+    {
+      "street_code": "12572",
+      "english_name": "VILLAGE ROAD",
+      "chinese_name": "山村道",
+      "history": [
+        {
+          "publication_date": "1930-03-07",
+          "change_kind": "declare",
+          "street_name_en": "Village Road",
+          "street_name_zh": "山村道",
+          "gazette_notice_label": "Government Notification No. 138",
+          "government_notice_url_en": "/egazette/en/1930-gn138.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11978",
+      "english_name": "SHAN KWONG ROAD",
+      "chinese_name": "山光道",
+      "history": [
+        {
+          "publication_date": "1930-03-07",
+          "change_kind": "declare",
+          "street_name_en": "Shan Kwong Road",
+          "street_name_zh": "山光道",
+          "gazette_notice_label": "Government Notification No. 138",
+          "government_notice_url_en": "/egazette/en/1930-gn138.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11751",
+      "english_name": "PO SHIN STREET",
+      "chinese_name": "普善街",
+      "history": [
+        {
+          "publication_date": "1930-03-07",
+          "change_kind": "declare",
+          "street_name_en": "Po Shin Street",
+          "street_name_zh": "普善街",
+          "gazette_notice_label": "Government Notification No. 138",
+          "government_notice_url_en": "/egazette/en/1930-gn138.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12671",
+      "english_name": "WANG TAK STREET",
+      "chinese_name": "宏德街",
+      "history": [
+        {
+          "publication_date": "1930-03-07",
+          "change_kind": "declare",
+          "street_name_en": "Wang Tak Street",
+          "street_name_zh": "宏德街",
+          "gazette_notice_label": "Government Notification No. 138",
+          "government_notice_url_en": "/egazette/en/1930-gn138.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12863",
+      "english_name": "YIK YAM STREET",
+      "chinese_name": "奕蔭街",
+      "history": [
+        {
+          "publication_date": "1930-03-07",
+          "change_kind": "declare",
+          "street_name_en": "Yik Yam Street",
+          "street_name_zh": "奕蔭街",
+          "gazette_notice_label": "Government Notification No. 138",
+          "government_notice_url_en": "/egazette/en/1930-gn138.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11025",
+      "english_name": "KING KWONG STREET",
+      "chinese_name": "景光街",
+      "history": [
+        {
+          "publication_date": "1930-03-07",
+          "change_kind": "declare",
+          "street_name_en": "King Kwong Street",
+          "street_name_zh": "景光街",
+          "gazette_notice_label": "Government Notification No. 138",
+          "government_notice_url_en": "/egazette/en/1930-gn138.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12940",
+      "english_name": "YUK SAU STREET",
+      "chinese_name": "毓秀街",
+      "history": [
+        {
+          "publication_date": "1930-03-07",
+          "change_kind": "declare",
+          "street_name_en": "Yuk Sau Street",
+          "street_name_zh": "毓秀街",
+          "gazette_notice_label": "Government Notification No. 138",
+          "government_notice_url_en": "/egazette/en/1930-gn138.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12478",
+      "english_name": "TSUI MAN STREET",
+      "chinese_name": "聚文街",
+      "history": [
+        {
+          "publication_date": "1930-03-07",
+          "change_kind": "declare",
+          "street_name_en": "Tsui Man Street",
+          "street_name_zh": "聚文街",
+          "gazette_notice_label": "Government Notification No. 138",
+          "government_notice_url_en": "/egazette/en/1930-gn138.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12405",
+      "english_name": "TSAP TSEUNG STREET",
+      "chinese_name": "集祥街",
+      "history": [
+        {
+          "publication_date": "1930-03-07",
+          "change_kind": "declare",
+          "street_name_en": "Tsap Tseung Street",
+          "street_name_zh": "集祥街",
+          "gazette_notice_label": "Government Notification No. 138",
+          "government_notice_url_en": "/egazette/en/1930-gn138.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12458",
+      "english_name": "TSOI TAK STREET",
+      "chinese_name": "載德街",
+      "history": [
+        {
+          "publication_date": "1930-03-07",
+          "change_kind": "declare",
+          "street_name_en": "Tsoi Tak Street",
+          "street_name_zh": "載德街",
+          "gazette_notice_label": "Government Notification No. 138",
+          "government_notice_url_en": "/egazette/en/1930-gn138.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12931",
+      "english_name": "YUEN YUEN STREET",
+      "chinese_name": "源遠街",
+      "history": [
+        {
+          "publication_date": "1930-03-07",
+          "change_kind": "declare",
+          "street_name_en": "Yuen Yuen Street",
+          "street_name_zh": "源遠街",
+          "gazette_notice_label": "Government Notification No. 138",
+          "government_notice_url_en": "/egazette/en/1930-gn138.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11427",
+      "english_name": "MIN FAT STREET",
+      "chinese_name": "綿發街",
+      "history": [
+        {
+          "publication_date": "1930-03-07",
+          "change_kind": "declare",
+          "street_name_en": "Min Fat Street",
+          "street_name_zh": "綿發街",
+          "gazette_notice_label": "Government Notification No. 138",
+          "government_notice_url_en": "/egazette/en/1930-gn138.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10175",
+      "english_name": "CHEONG MING STREET",
+      "chinese_name": "昌明街",
+      "history": [
+        {
+          "publication_date": "1930-03-07",
+          "change_kind": "declare",
+          "street_name_en": "Cheong Ming Street",
+          "street_name_zh": "昌明街",
+          "gazette_notice_label": "Government Notification No. 138",
+          "government_notice_url_en": "/egazette/en/1930-gn138.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12055",
+      "english_name": "SHING PING STREET",
+      "chinese_name": "昇平街",
+      "history": [
+        {
+          "publication_date": "1930-03-07",
+          "change_kind": "declare",
+          "street_name_en": "Shing Ping Street",
+          "street_name_zh": "昇平街",
+          "gazette_notice_label": "Government Notification No. 138",
+          "government_notice_url_en": "/egazette/en/1930-gn138.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11307",
+      "english_name": "LUN HING STREET",
+      "chinese_name": "聯興街",
+      "history": [
+        {
+          "publication_date": "1930-03-07",
+          "change_kind": "declare",
+          "street_name_en": "Lun Hing Street",
+          "street_name_zh": "聯興街",
+          "gazette_notice_label": "Government Notification No. 138",
+          "government_notice_url_en": "/egazette/en/1930-gn138.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12487",
+      "english_name": "TSUN YUEN STREET",
+      "chinese_name": "晉源街",
+      "history": [
+        {
+          "publication_date": "1930-03-07",
+          "change_kind": "declare",
+          "street_name_en": "Tsun Yuen Street",
+          "street_name_zh": "晉源街",
+          "gazette_notice_label": "Government Notification No. 138",
+          "government_notice_url_en": "/egazette/en/1930-gn138.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11081",
+      "english_name": "KWAI FONG STREET",
+      "chinese_name": "桂芳街",
+      "history": [
+        {
+          "publication_date": "1930-03-07",
+          "change_kind": "declare",
+          "street_name_en": "Kwai Fong Street",
+          "street_name_zh": "桂芳街",
+          "gazette_notice_label": "Government Notification No. 138",
+          "government_notice_url_en": "/egazette/en/1930-gn138.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "parse_flags": [
+    "G.N.138 lists Yau Sau Street; later G.N.590 corrected to Yuk Sau Street"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "batch_id": "1906-gn662-hatton-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 662",
+  "publication_date": "1906-08-03",
+  "gazette_url_en": "/egazette/en/1906-gn662.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1906-gn662-hatton-road/1906-gn662.pdf",
+  "streets": [
+    {
+      "street_code": "10666",
+      "english_name": "HATTON ROAD",
+      "chinese_name": "克頓道",
+      "history": [
+        {
+          "publication_date": "1906-08-03",
+          "change_kind": "declare",
+          "street_name_en": "Hatton Road",
+          "street_name_zh": "旭龢道",
+          "gazette_notice_label": "Government Notification No. 662",
+          "government_notice_url_en": "/egazette/en/1906-gn662.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 旭龢道; database 克頓道."
+        }
+      ]
+    }
+  ]
+}

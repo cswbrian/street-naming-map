@@ -1,7 +1,7 @@
 [
   {
     "event_id": "crowd|1",
-    "source": "crowdsubmitted",
+    "source": "hkgro",
     "street_code": null,
     "publication_date": "1909-05-28",
     "change_kind": null,
@@ -11,8 +11,8 @@
     "previous_street_name_zh": null,
     "district_raw_en": null,
     "district_raw_zh": null,
-    "notice_type_raw_en": "Declaration of street name (crowdsource)",
-    "notice_type_raw_zh": "街道命名（眾包）",
+    "notice_type_raw_en": "Declaration of street name (HKGRO)",
+    "notice_type_raw_zh": "街道命名（HKGRO）",
     "notice_type_normalized": "declaration",
     "notice_no": "GN323",
     "government_notice_label_en": "G.N.323",
@@ -50,7 +50,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": null,
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -61,7 +61,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14199"
+    "submission_id": "2004-gn8104-14199",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-14200",
@@ -82,7 +83,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": null,
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -93,7 +94,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14200"
+    "submission_id": "2004-gn8104-14200",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-14201",
@@ -114,7 +116,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": null,
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -125,7 +127,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14201"
+    "submission_id": "2004-gn8104-14201",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-14202",
@@ -146,7 +149,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": null,
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -157,7 +160,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14202"
+    "submission_id": "2004-gn8104-14202",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-14203",
@@ -178,7 +182,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": null,
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -189,7 +193,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14203"
+    "submission_id": "2004-gn8104-14203",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-14204",
@@ -210,7 +215,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": null,
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -221,7 +226,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14204"
+    "submission_id": "2004-gn8104-14204",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-14205",
@@ -242,7 +248,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": null,
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -253,7 +259,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14205"
+    "submission_id": "2004-gn8104-14205",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-14206",
@@ -274,7 +281,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": null,
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -285,7 +292,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14206"
+    "submission_id": "2004-gn8104-14206",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-14207",
@@ -306,7 +314,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": null,
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -317,7 +325,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14207"
+    "submission_id": "2004-gn8104-14207",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-14208",
@@ -338,7 +347,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": null,
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -349,7 +358,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14208"
+    "submission_id": "2004-gn8104-14208",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-1",
@@ -370,7 +380,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": null,
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -381,7 +391,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-1"
+    "submission_id": "2004-gn8104-1",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-2",
@@ -402,7 +413,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": null,
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -413,7 +424,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-2"
+    "submission_id": "2004-gn8104-2",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8104-14201",
@@ -434,7 +446,7 @@
     "government_notice_label_en": "G.N.8104",
     "government_notice_label_zh": "第8104號",
     "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-    "government_notice_url_zh": null,
+    "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -445,7 +457,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8104-14201"
+    "submission_id": "2004-gn8104-14201",
+    "notice_stem": "2004-08-51-8104"
   },
   {
     "event_id": "crowd|2004-gn8428-1",
@@ -466,7 +479,7 @@
     "government_notice_label_en": "G.N.8428",
     "government_notice_label_zh": "第8428號",
     "government_notice_url_en": "/egazette/en/2004-08-53-8428.pdf",
-    "government_notice_url_zh": null,
+    "government_notice_url_zh": "/egazette/zh/2004-08-53-8428.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -477,7 +490,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2004-gn8428-1"
+    "submission_id": "2004-gn8428-1",
+    "notice_stem": "2004-08-53-8428"
   },
   {
     "event_id": "crowd|2003-gn8478-14171",
@@ -498,7 +512,7 @@
     "government_notice_label_en": "G.N.8478",
     "government_notice_label_zh": "第8478號",
     "government_notice_url_en": "/egazette/en/2003-07-49-8748.pdf",
-    "government_notice_url_zh": null,
+    "government_notice_url_zh": "/egazette/zh/2003-07-49-8748.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -509,7 +523,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2003-gn8478-14171"
+    "submission_id": "2003-gn8478-14171",
+    "notice_stem": "2003-07-49-8748"
   },
   {
     "event_id": "crowd|2002-gn5146-14124",
@@ -530,7 +545,7 @@
     "government_notice_label_en": "G.N.5146",
     "government_notice_label_zh": "第5146號",
     "government_notice_url_en": "/egazette/en/2002-06-34-5146.pdf",
-    "government_notice_url_zh": null,
+    "government_notice_url_zh": "/egazette/zh/2002-06-34-5146.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -541,7 +556,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2002-gn5146-14124"
+    "submission_id": "2002-gn5146-14124",
+    "notice_stem": "2002-06-34-5146"
   },
   {
     "event_id": "crowd|2003-gn4729-14164",
@@ -562,7 +578,7 @@
     "government_notice_label_en": "G.N.4729",
     "government_notice_label_zh": "第4729號",
     "government_notice_url_en": "/egazette/en/2003-07-28-4729.pdf",
-    "government_notice_url_zh": null,
+    "government_notice_url_zh": "/egazette/zh/2003-07-28-4729.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -573,7 +589,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2003-gn4729-14164"
+    "submission_id": "2003-gn4729-14164",
+    "notice_stem": "2003-07-28-4729"
   },
   {
     "event_id": "crowd|2003-gn4729-14165",
@@ -594,7 +611,7 @@
     "government_notice_label_en": "G.N.4729",
     "government_notice_label_zh": "第4729號",
     "government_notice_url_en": "/egazette/en/2003-07-28-4729.pdf",
-    "government_notice_url_zh": null,
+    "government_notice_url_zh": "/egazette/zh/2003-07-28-4729.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -605,7 +622,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2003-gn4729-14165"
+    "submission_id": "2003-gn4729-14165",
+    "notice_stem": "2003-07-28-4729"
   },
   {
     "event_id": "crowd|2003-gn8574-14170",
@@ -626,7 +644,7 @@
     "government_notice_label_en": "G.N.8574",
     "government_notice_label_zh": "第8574號",
     "government_notice_url_en": "/egazette/en/2003-07-48-8574.pdf",
-    "government_notice_url_zh": null,
+    "government_notice_url_zh": "/egazette/zh/2003-07-48-8574.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -637,7 +655,8 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "2003-gn8574-14170"
+    "submission_id": "2003-gn8574-14170",
+    "notice_stem": "2003-07-48-8574"
   },
   {
     "event_id": "crowd|1975-gn996-10669",
@@ -737,7 +756,7 @@
   },
   {
     "event_id": "crowd|1905-gn158-10599",
-    "source": "crowdsubmitted",
+    "source": "hkgro",
     "street_code": "10599",
     "publication_date": "1905-03-17",
     "change_kind": null,
@@ -747,14 +766,14 @@
     "previous_street_name_zh": null,
     "district_raw_en": null,
     "district_raw_zh": null,
-    "notice_type_raw_en": "Declaration of street name (crowdsource)",
-    "notice_type_raw_zh": "街道命名（眾包）",
+    "notice_type_raw_en": "Declaration of street name (HKGRO)",
+    "notice_type_raw_zh": "街道命名（HKGRO）",
     "notice_type_normalized": "declaration",
     "notice_no": "GN158",
     "government_notice_label_en": "G.N.158",
     "government_notice_label_zh": "第158號",
-    "government_notice_url_en": "https://digitalrepository.lib.hku.hk/catalog/gt54tb75g",
-    "government_notice_url_zh": null,
+    "government_notice_url_en": "/egazette/en/1905-gn158.pdf",
+    "government_notice_url_zh": "/egazette/zh/1905-gn158.pdf",
     "related_gazette_plan_urls_en": [],
     "related_gazette_plan_urls_zh": [],
     "related_gazette_plan_labels_en": [],
@@ -765,6 +784,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-05-30",
-    "submission_id": "1905-gn158-10599"
+    "submission_id": "1905-gn158-10599",
+    "notice_stem": "1905-gn158"
   }
 ]

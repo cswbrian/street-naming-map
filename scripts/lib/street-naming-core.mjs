@@ -458,32 +458,69 @@ export function mergeEvents(landsdEvents, egazetteEvents, crowdEvents = []) {
   })
 }
 
-function crowdNoticeTypeLabels(changeKind, isDecl) {
+export function noticeTypeLabelsForSource(source, changeKind, isDecl) {
+  const hkgro = source === 'hkgro'
   if (changeKind === 'rename') {
     return {
-      en: 'Street name change (crowdsource)',
-      zh: '街道易名（眾包）',
+      en: hkgro ? 'Street name change (HKGRO)' : 'Street name change (crowdsource)',
+      zh: hkgro ? '街道易名（HKGRO）' : '街道易名（眾包）',
       normalized: 'rename',
     }
   }
   if (changeKind === 'delete') {
     return {
-      en: 'Street name deletion (crowdsource)',
-      zh: '街道名稱刪除（眾包）',
+      en: hkgro ? 'Street name deletion (HKGRO)' : 'Street name deletion (crowdsource)',
+      zh: hkgro ? '街道名稱刪除（HKGRO）' : '街道名稱刪除（眾包）',
       normalized: 'delete',
     }
   }
   if (isDecl) {
     return {
-      en: 'Declaration of street name (crowdsource)',
-      zh: '街道命名（眾包）',
+      en: hkgro ? 'Declaration of street name (HKGRO)' : 'Declaration of street name (crowdsource)',
+      zh: hkgro ? '街道命名（HKGRO）' : '街道命名（眾包）',
       normalized: 'declaration',
     }
   }
   return {
-    en: 'Street naming event (crowdsource)',
-    zh: '街道命名事件（眾包）',
+    en: hkgro ? 'Street naming event (HKGRO)' : 'Street naming event (crowdsource)',
+    zh: hkgro ? '街道命名事件（HKGRO）' : '街道命名事件（眾包）',
     normalized: 'other',
+  }
+}
+
+/** @deprecated use noticeTypeLabelsForSource */
+function crowdNoticeTypeLabels(changeKind, isDecl) {
+  return noticeTypeLabelsForSource('crowdsubmitted', changeKind, isDecl)
+}
+
+export function shouldUseHkgroSource(event) {
+  if (event?.source === 'hkgro') return true
+  if (event?.source && event.source !== 'crowdsubmitted') return false
+  const year = Number(String(event.publication_date ?? '').slice(0, 4))
+  if (year >= 1900 && year <= 1939) return true
+  const url = String(event.government_notice_url_en ?? event.gazette_url ?? '')
+  const match = url.match(/\/egazette\/en\/(\d{4})-gn/i)
+  if (!match) return false
+  const urlYear = Number(match[1])
+  return urlYear >= 1900 && urlYear <= 1939
+}
+
+export function isColonialHkgroCrowdEvent(event) {
+  return shouldUseHkgroSource(event) && (event?.source ?? 'crowdsubmitted') === 'crowdsubmitted'
+}
+
+export function reclassifyColonialCrowdEvent(event) {
+  if (!isColonialHkgroCrowdEvent(event)) return event
+  const changeKind = normalizeChangeKind(event.change_kind)
+  const isDecl =
+    event.is_declaration_event === true ||
+    (event.is_declaration_event !== false && changeKind !== 'rename' && changeKind !== 'delete')
+  const noticeTypes = noticeTypeLabelsForSource('hkgro', changeKind, isDecl)
+  return {
+    ...event,
+    source: 'hkgro',
+    notice_type_raw_en: noticeTypes.en,
+    notice_type_raw_zh: noticeTypes.zh,
   }
 }
 
@@ -498,14 +535,15 @@ export function finalizeCrowdEvent(raw, index = 0) {
   const isDecl =
     raw.is_declaration_event === true ||
     (raw.is_declaration_event !== false && changeKind !== 'rename' && changeKind !== 'delete')
-  const noticeTypes = crowdNoticeTypeLabels(changeKind, isDecl)
+  const source = raw.source ?? (shouldUseHkgroSource(raw) ? 'hkgro' : 'crowdsubmitted')
+  const noticeTypes = noticeTypeLabelsForSource(source, changeKind, isDecl)
   const evidenceLevel =
     normalizeEvidenceLevel(raw.evidence_level) ??
     (raw.government_notice_url_en || raw.gazette_url ? 'gazette' : null)
 
   return {
     event_id: raw.event_id ?? `crowd|${submissionId}`,
-    source: raw.source ?? 'crowdsubmitted',
+    source,
     street_code: String(raw.street_code ?? '').trim() || null,
     publication_date: publicationDate,
     change_kind: changeKind,

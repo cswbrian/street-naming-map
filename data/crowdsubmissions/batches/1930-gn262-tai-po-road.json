@@ -1,0 +1,190 @@
+{
+  "batch_id": "1930-gn262-tai-po-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 262",
+  "publication_date": "1930-05-02",
+  "gazette_url_en": "/egazette/en/1930-gn262.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1930-gn262-tai-po-road/1930-gn262.pdf",
+  "streets": [
+    {
+      "street_code": "12254",
+      "english_name": "TAI PO ROAD",
+      "chinese_name": "大埔道",
+      "history": [
+        {
+          "publication_date": "1930-05-02",
+          "change_kind": "declare",
+          "street_name_en": "Tai Po Road",
+          "street_name_zh": "大埔道",
+          "gazette_notice_label": "Government Notification No. 262",
+          "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11576",
+      "english_name": "ON FU ROAD",
+      "chinese_name": "安富道",
+      "history": [
+        {
+          "publication_date": "1930-05-02",
+          "change_kind": "declare",
+          "street_name_en": "On Fu Road",
+          "street_name_zh": "安富道",
+          "gazette_notice_label": "Government Notification No. 262",
+          "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12454",
+      "english_name": "TSING YUEN STREET",
+      "chinese_name": "靖遠街",
+      "history": [
+        {
+          "publication_date": "1930-05-02",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Yuen Street",
+          "street_name_zh": "靖遠街",
+          "gazette_notice_label": "Government Notification No. 262",
+          "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12621",
+      "english_name": "WAI YAN STREET",
+      "chinese_name": "懷仁街",
+      "history": [
+        {
+          "publication_date": "1930-05-02",
+          "change_kind": "declare",
+          "street_name_en": "Wai Yan Street",
+          "street_name_zh": "懷仁街",
+          "gazette_notice_label": "Government Notification No. 262",
+          "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11498",
+      "english_name": "NAM SHING STREET",
+      "chinese_name": "南盛街",
+      "history": [
+        {
+          "publication_date": "1930-05-02",
+          "change_kind": "declare",
+          "street_name_en": "Nam Shing Street",
+          "street_name_zh": "南盛街",
+          "gazette_notice_label": "Government Notification No. 262",
+          "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12622",
+      "english_name": "WAI YI STREET",
+      "chinese_name": "懷義街",
+      "history": [
+        {
+          "publication_date": "1930-05-02",
+          "change_kind": "declare",
+          "street_name_en": "Wai Yi Street",
+          "street_name_zh": "懷義街",
+          "gazette_notice_label": "Government Notification No. 262",
+          "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12102",
+      "english_name": "SHUNG TAK STREET",
+      "chinese_name": "崇德街",
+      "history": [
+        {
+          "publication_date": "1930-05-02",
+          "change_kind": "declare",
+          "street_name_en": "Shung Tak Street",
+          "street_name_zh": "崇德街",
+          "gazette_notice_label": "Government Notification No. 262",
+          "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11646",
+      "english_name": "PAK SHING STREET",
+      "chinese_name": "北盛街",
+      "history": [
+        {
+          "publication_date": "1930-05-02",
+          "change_kind": "declare",
+          "street_name_en": "Pak Shing Street",
+          "street_name_zh": "北盛街",
+          "gazette_notice_label": "Government Notification No. 262",
+          "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10528",
+      "english_name": "FU SHIN STREET",
+      "chinese_name": "富善街",
+      "history": [
+        {
+          "publication_date": "1930-05-02",
+          "change_kind": "declare",
+          "street_name_en": "Fu Shin Street",
+          "street_name_zh": "富善街",
+          "gazette_notice_label": "Government Notification No. 262",
+          "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12810",
+      "english_name": "YAN HING STREET",
+      "chinese_name": "仁興街",
+      "history": [
+        {
+          "publication_date": "1930-05-02",
+          "change_kind": "declare",
+          "street_name_en": "Yan Hing Street",
+          "street_name_zh": "仁興街",
+          "gazette_notice_label": "Government Notification No. 262",
+          "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12172",
+      "english_name": "SUI ON STREET",
+      "chinese_name": "瑞安街",
+      "history": [
+        {
+          "publication_date": "1930-05-02",
+          "change_kind": "declare",
+          "street_name_en": "Sui On Street",
+          "street_name_zh": "瑞安街",
+          "gazette_notice_label": "Government Notification No. 262",
+          "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "parse_flags": [
+    "Tai Po Road: database naming_year 2018 later than gazette 1930",
+    "On Fu Road: database naming_year 2017 later than gazette 1930"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "batch_id": "1915-gn475-jones-street",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 475",
+  "publication_date": "1915-10-22",
+  "gazette_url_en": "/egazette/en/1915-gn475.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1915-gn475-jones-street/1915-gn475.pdf",
+  "streets": [
+    {
+      "street_code": "10902",
+      "english_name": "JONES STREET",
+      "chinese_name": "重士街",
+      "history": [
+        {
+          "publication_date": "1915-10-22",
+          "change_kind": "declare",
+          "street_name_en": "Jones Street",
+          "street_name_zh": "瓊斯街",
+          "gazette_notice_label": "Government Notification No. 475",
+          "government_notice_url_en": "/egazette/en/1915-gn475.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 瓊斯街; database 重士街."
+        }
+      ]
+    }
+  ]
+}

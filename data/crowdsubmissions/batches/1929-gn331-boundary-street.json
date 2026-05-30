@@ -1,0 +1,91 @@
+{
+  "batch_id": "1929-gn331-boundary-street",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 331",
+  "publication_date": "1929-06-21",
+  "gazette_url_en": "/egazette/en/1929-gn331.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1929-gn331-boundary-street/1929-gn331.pdf",
+  "streets": [
+    {
+      "street_code": "10075",
+      "english_name": "BOUNDARY STREET",
+      "chinese_name": "界限街",
+      "history": [
+        {
+          "publication_date": "1929-06-21",
+          "change_kind": "declare",
+          "street_name_en": "Boundary Street",
+          "street_name_zh": "界限街",
+          "gazette_notice_label": "Government Notification No. 331",
+          "government_notice_url_en": "/egazette/en/1929-gn331.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10412",
+      "english_name": "EMBANKMENT ROAD",
+      "chinese_name": "基堤道",
+      "history": [
+        {
+          "publication_date": "1929-06-21",
+          "change_kind": "declare",
+          "street_name_en": "Embankment Road",
+          "street_name_zh": "基堤道",
+          "gazette_notice_label": "Government Notification No. 331",
+          "government_notice_url_en": "/egazette/en/1929-gn331.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11048",
+      "english_name": "KNIGHT STREET",
+      "chinese_name": "勵德街",
+      "history": [
+        {
+          "publication_date": "1929-06-21",
+          "change_kind": "declare",
+          "street_name_en": "Knight Street",
+          "street_name_zh": "勳德街",
+          "gazette_notice_label": "Government Notification No. 331",
+          "government_notice_url_en": "/egazette/en/1929-gn331.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 勳德街; database 勵德街."
+        }
+      ]
+    },
+    {
+      "street_code": "10389",
+      "english_name": "DUKE STREET",
+      "chinese_name": "公爵街",
+      "history": [
+        {
+          "publication_date": "1929-06-21",
+          "change_kind": "declare",
+          "street_name_en": "Duke Street",
+          "street_name_zh": "公爵街",
+          "gazette_notice_label": "Government Notification No. 331",
+          "government_notice_url_en": "/egazette/en/1929-gn331.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12690",
+      "english_name": "WATERLOO ROAD",
+      "chinese_name": "窩打老道",
+      "history": [
+        {
+          "publication_date": "1929-06-21",
+          "change_kind": "declare",
+          "street_name_en": "Waterloo Road",
+          "street_name_zh": "窩打老道",
+          "gazette_notice_label": "Government Notification No. 331",
+          "government_notice_url_en": "/egazette/en/1929-gn331.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "batch_id": "1926-gn202-to-kwa-wan-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 202",
+  "publication_date": "1926-04-16",
+  "gazette_url_en": "/egazette/en/1926-gn202.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1926-gn202-to-kwa-wan-road/1926-gn202.pdf",
+  "streets": [
+    {
+      "street_code": "12383",
+      "english_name": "TO KWA WAN ROAD",
+      "chinese_name": "土瓜灣道",
+      "history": [
+        {
+          "publication_date": "1926-04-16",
+          "change_kind": "declare",
+          "street_name_en": "To Kwa Wan Road",
+          "street_name_zh": "土瓜灣道",
+          "gazette_notice_label": "Government Notification No. 202",
+          "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10027",
+      "english_name": "ARGYLE STREET",
+      "chinese_name": "亞皆老街",
+      "history": [
+        {
+          "publication_date": "1926-04-16",
+          "change_kind": "declare",
+          "street_name_en": "Argyle Street",
+          "street_name_zh": "亞皆老街",
+          "gazette_notice_label": "Government Notification No. 202",
+          "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11063",
+      "english_name": "KOWLOON CITY ROAD",
+      "chinese_name": "九龍城道",
+      "history": [
+        {
+          "publication_date": "1926-04-16",
+          "change_kind": "declare",
+          "street_name_en": "Kowloon City Road",
+          "street_name_zh": "九龍城道",
+          "gazette_notice_label": "Government Notification No. 202",
+          "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11349",
+      "english_name": "MA TAU CHUNG ROAD",
+      "chinese_name": "馬頭涌道",
+      "history": [
+        {
+          "publication_date": "1926-04-16",
+          "change_kind": "declare",
+          "street_name_en": "Ma Tau Chung Road",
+          "street_name_zh": "碼頭涌道",
+          "gazette_notice_label": "Government Notification No. 202",
+          "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 碼頭涌道; database 馬頭涌道."
+        }
+      ]
+    },
+    {
+      "street_code": "12189",
+      "english_name": "SUNG WONG TOI ROAD",
+      "chinese_name": "宋皇臺道",
+      "history": [
+        {
+          "publication_date": "1926-04-16",
+          "change_kind": "declare",
+          "street_name_en": "Sung Wong Toi Road",
+          "street_name_zh": "宋皇臺道",
+          "gazette_notice_label": "Government Notification No. 202",
+          "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11666",
+      "english_name": "PAU CHUNG STREET",
+      "chinese_name": "炮仗街",
+      "history": [
+        {
+          "publication_date": "1926-04-16",
+          "change_kind": "declare",
+          "street_name_en": "Pau Chung Street",
+          "street_name_zh": "炮仗街",
+          "gazette_notice_label": "Government Notification No. 202",
+          "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11647",
+      "english_name": "PAK TAI STREET",
+      "chinese_name": "北帝街",
+      "history": [
+        {
+          "publication_date": "1926-04-16",
+          "change_kind": "declare",
+          "street_name_en": "Pak Tai Street",
+          "street_name_zh": "北帝街",
+          "gazette_notice_label": "Government Notification No. 202",
+          "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11453",
+      "english_name": "MOK CHEONG STREET",
+      "chinese_name": "木廠街",
+      "history": [
+        {
+          "publication_date": "1926-04-16",
+          "change_kind": "declare",
+          "street_name_en": "Mok Cheong Street",
+          "street_name_zh": "木廠街",
+          "gazette_notice_label": "Government Notification No. 202",
+          "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11350",
+      "english_name": "MA TAU KOK ROAD",
+      "chinese_name": "馬頭角道",
+      "history": [
+        {
+          "publication_date": "1926-04-16",
+          "change_kind": "declare",
+          "street_name_en": "Ma Tau Kok Road",
+          "street_name_zh": "碼頭角道",
+          "gazette_notice_label": "Government Notification No. 202",
+          "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 碼頭角道; database 馬頭角道."
+        }
+      ]
+    },
+    {
+      "street_code": "11907",
+      "english_name": "SAN SHAN ROAD",
+      "chinese_name": "新山道",
+      "history": [
+        {
+          "publication_date": "1926-04-16",
+          "change_kind": "declare",
+          "street_name_en": "San Shan Road",
+          "street_name_zh": "新山道",
+          "gazette_notice_label": "Government Notification No. 202",
+          "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11339",
+      "english_name": "MA HANG CHUNG ROAD",
+      "chinese_name": "馬坑涌道",
+      "history": [
+        {
+          "publication_date": "1926-04-16",
+          "change_kind": "declare",
+          "street_name_en": "Ma Hang Chung Road",
+          "street_name_zh": "馬坑涌道",
+          "gazette_notice_label": "Government Notification No. 202",
+          "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12029",
+      "english_name": "SHEUNG HEUNG ROAD",
+      "chinese_name": "上鄉道",
+      "history": [
+        {
+          "publication_date": "1926-04-16",
+          "change_kind": "declare",
+          "street_name_en": "Sheung Heung Road",
+          "street_name_zh": "上鄉道",
+          "gazette_notice_label": "Government Notification No. 202",
+          "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10075",
+      "english_name": "BOUNDARY STREET",
+      "chinese_name": "界限街",
+      "history": [
+        {
+          "publication_date": "1926-04-16",
+          "change_kind": "declare",
+          "street_name_en": "Boundary Street",
+          "street_name_zh": "界限街",
+          "gazette_notice_label": "Government Notification No. 202",
+          "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12330",
+      "english_name": "TAM KUNG ROAD",
+      "chinese_name": "譚公道",
+      "history": [
+        {
+          "publication_date": "1926-04-16",
+          "change_kind": "declare",
+          "street_name_en": "Tam Kung Road",
+          "street_name_zh": "譚公道",
+          "gazette_notice_label": "Government Notification No. 202",
+          "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12785",
+      "english_name": "WONG TAI STREET",
+      "chinese_name": "旺堤街",
+      "history": [
+        {
+          "publication_date": "1926-04-16",
+          "change_kind": "declare",
+          "street_name_en": "Wong Tai Street",
+          "street_name_zh": "黃帝街",
+          "gazette_notice_label": "Government Notification No. 202",
+          "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 黃帝街; database 旺堤街."
+        }
+      ]
+    },
+    {
+      "street_code": "12532",
+      "english_name": "TUNG ON STREET",
+      "chinese_name": "東安街",
+      "history": [
+        {
+          "publication_date": "1926-04-16",
+          "change_kind": "declare",
+          "street_name_en": "Tung On Street",
+          "street_name_zh": "東安街",
+          "gazette_notice_label": "Government Notification No. 202",
+          "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "parse_flags": [
+    "Sung Wong Toi Road: database naming_year 2021 later than gazette 1926",
+    "Sheung Heung Road: database naming_year 1935 later than gazette 1926",
+    "Tam Kung Road: database naming_year 2010 later than gazette 1926"
+  ]
+}

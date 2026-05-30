@@ -1,0 +1,26 @@
+{
+  "batch_id": "1930-gn652-on-lok-lane",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 652",
+  "publication_date": "1930-10-24",
+  "gazette_url_en": "/egazette/en/1930-gn652.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1930-gn652-on-lok-lane/1930-gn652.pdf",
+  "streets": [
+    {
+      "street_code": "11588",
+      "english_name": "ON LOK LANE",
+      "chinese_name": "安樂里",
+      "history": [
+        {
+          "publication_date": "1930-10-24",
+          "change_kind": "declare",
+          "street_name_en": "On Lok Lane",
+          "street_name_zh": "安樂里",
+          "gazette_notice_label": "Government Notification No. 652",
+          "government_notice_url_en": "/egazette/en/1930-gn652.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

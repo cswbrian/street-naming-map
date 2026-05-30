@@ -1,0 +1,43 @@
+{
+  "batch_id": "1907-gn250-may-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 250",
+  "publication_date": "1907-04-12",
+  "gazette_url_en": "/egazette/en/1907-gn250.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1907-gn250-may-road/1907-gn250.pdf",
+  "streets": [
+    {
+      "street_code": "11407",
+      "english_name": "MAY ROAD",
+      "chinese_name": "梅道",
+      "history": [
+        {
+          "publication_date": "1907-04-12",
+          "change_kind": "declare",
+          "street_name_en": "May Road",
+          "street_name_zh": "梅道",
+          "gazette_notice_label": "Government Notification No. 250",
+          "government_notice_url_en": "/egazette/en/1907-gn250.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10326",
+      "english_name": "CONDUIT ROAD",
+      "chinese_name": "干德道",
+      "history": [
+        {
+          "publication_date": "1907-04-12",
+          "change_kind": "declare",
+          "street_name_en": "Conduit Road",
+          "street_name_zh": "干諾道",
+          "gazette_notice_label": "Government Notification No. 250",
+          "government_notice_url_en": "/egazette/en/1907-gn250.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 干諾道; database 干德道."
+        }
+      ]
+    }
+  ]
+}

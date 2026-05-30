@@ -1,0 +1,90 @@
+{
+  "batch_id": "1909-gn459-tai-kat-street",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 459",
+  "publication_date": "1909-07-23",
+  "gazette_url_en": "/egazette/en/1909-gn459.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1909-gn459-tai-kat-street/1909-gn459.pdf",
+  "streets": [
+    {
+      "street_code": "12204",
+      "english_name": "TAI CHEONG STREET",
+      "chinese_name": "太祥街",
+      "history": [
+        {
+          "publication_date": "1909-07-23",
+          "change_kind": "declare",
+          "street_name_en": "Tai Cheong Street",
+          "street_name_zh": "太祥街",
+          "gazette_notice_label": "Government Notification No. 459",
+          "government_notice_url_en": "/egazette/en/1909-gn459.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12210",
+      "english_name": "TAI FOO STREET",
+      "chinese_name": "太富街",
+      "history": [
+        {
+          "publication_date": "1909-07-23",
+          "change_kind": "declare",
+          "street_name_en": "Tai Foo Street",
+          "street_name_zh": "太富街",
+          "gazette_notice_label": "Government Notification No. 459",
+          "government_notice_url_en": "/egazette/en/1909-gn459.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12223",
+      "english_name": "TAI HONG STREET",
+      "chinese_name": "太康街",
+      "history": [
+        {
+          "publication_date": "1909-07-23",
+          "change_kind": "declare",
+          "street_name_en": "Tai Hong Street",
+          "street_name_zh": "太康街",
+          "gazette_notice_label": "Government Notification No. 459",
+          "government_notice_url_en": "/egazette/en/1909-gn459.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12241",
+      "english_name": "TAI NING STREET",
+      "chinese_name": "太寧街",
+      "history": [
+        {
+          "publication_date": "1909-07-23",
+          "change_kind": "declare",
+          "street_name_en": "Tai Ning Street",
+          "street_name_zh": "太寧街",
+          "gazette_notice_label": "Government Notification No. 459",
+          "government_notice_url_en": "/egazette/en/1909-gn459.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12246",
+      "english_name": "TAI ON STREET",
+      "chinese_name": "太安街",
+      "history": [
+        {
+          "publication_date": "1909-07-23",
+          "change_kind": "declare",
+          "street_name_en": "Tai On Street",
+          "street_name_zh": "太安街",
+          "gazette_notice_label": "Government Notification No. 459",
+          "government_notice_url_en": "/egazette/en/1909-gn459.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

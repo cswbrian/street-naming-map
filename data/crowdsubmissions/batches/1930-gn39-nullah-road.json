@@ -1,0 +1,74 @@
+{
+  "batch_id": "1930-gn39-nullah-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 39",
+  "publication_date": "1930-01-17",
+  "gazette_url_en": "/egazette/en/1930-gn39.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1930-gn39-nullah-road/1930-gn39.pdf",
+  "streets": [
+    {
+      "street_code": "11556",
+      "english_name": "NULLAH ROAD",
+      "chinese_name": "水渠道",
+      "history": [
+        {
+          "publication_date": "1930-01-17",
+          "change_kind": "declare",
+          "street_name_en": "Nullah Road",
+          "street_name_zh": "水渠道",
+          "gazette_notice_label": "Government Notification No. 39",
+          "government_notice_url_en": "/egazette/en/1930-gn39.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11810",
+      "english_name": "RECLAMATION STREET",
+      "chinese_name": "新填地街",
+      "history": [
+        {
+          "publication_date": "1930-01-17",
+          "change_kind": "declare",
+          "street_name_en": "Reclamation Street",
+          "street_name_zh": "新填地街",
+          "gazette_notice_label": "Government Notification No. 39",
+          "government_notice_url_en": "/egazette/en/1930-gn39.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10046",
+      "english_name": "BATTERY STREET",
+      "chinese_name": "炮台街",
+      "history": [
+        {
+          "publication_date": "1930-01-17",
+          "change_kind": "declare",
+          "street_name_en": "Battery Street",
+          "street_name_zh": "炮台街",
+          "gazette_notice_label": "Government Notification No. 39",
+          "government_notice_url_en": "/egazette/en/1930-gn39.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11429",
+      "english_name": "MIN STREET",
+      "chinese_name": "閩街",
+      "history": [
+        {
+          "publication_date": "1930-01-17",
+          "change_kind": "declare",
+          "street_name_en": "Min Street",
+          "street_name_zh": "閩街",
+          "gazette_notice_label": "Government Notification No. 39",
+          "government_notice_url_en": "/egazette/en/1930-gn39.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

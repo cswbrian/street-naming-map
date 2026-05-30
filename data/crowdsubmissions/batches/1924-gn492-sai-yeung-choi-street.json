@@ -1,0 +1,106 @@
+{
+  "batch_id": "1924-gn492-sai-yeung-choi-street",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 492",
+  "publication_date": "1924-08-29",
+  "gazette_url_en": "/egazette/en/1924-gn492.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1924-gn492-sai-yeung-choi-street/1924-gn492.pdf",
+  "streets": [
+    {
+      "street_code": "12513",
+      "english_name": "TUNG CHOI STREET",
+      "chinese_name": "通菜街",
+      "history": [
+        {
+          "publication_date": "1924-08-29",
+          "change_kind": "declare",
+          "street_name_en": "Tung Choi Street",
+          "street_name_zh": "通菜街",
+          "gazette_notice_label": "Government Notification No. 492",
+          "government_notice_url_en": "/egazette/en/1924-gn492.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10419",
+      "english_name": "FA YUEN STREET",
+      "chinese_name": "花園街",
+      "history": [
+        {
+          "publication_date": "1924-08-29",
+          "change_kind": "declare",
+          "street_name_en": "Fa Yuen Street",
+          "street_name_zh": "花園街",
+          "gazette_notice_label": "Government Notification No. 492",
+          "government_notice_url_en": "/egazette/en/1924-gn492.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11861",
+      "english_name": "SAI YEE STREET",
+      "chinese_name": "洗衣街",
+      "history": [
+        {
+          "publication_date": "1924-08-29",
+          "change_kind": "declare",
+          "street_name_en": "Sai Yee Street",
+          "street_name_zh": "洗衣街",
+          "gazette_notice_label": "Government Notification No. 492",
+          "government_notice_url_en": "/egazette/en/1924-gn492.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10639",
+      "english_name": "HAK PO STREET",
+      "chinese_name": "黑布街",
+      "history": [
+        {
+          "publication_date": "1924-08-29",
+          "change_kind": "declare",
+          "street_name_en": "Hak Po Street",
+          "street_name_zh": "黑布街",
+          "gazette_notice_label": "Government Notification No. 492",
+          "government_notice_url_en": "/egazette/en/1924-gn492.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12865",
+      "english_name": "YIM PO FONG STREET",
+      "chinese_name": "染布房街",
+      "history": [
+        {
+          "publication_date": "1924-08-29",
+          "change_kind": "declare",
+          "street_name_en": "Yim Po Fong Street",
+          "street_name_zh": "染布房街",
+          "gazette_notice_label": "Government Notification No. 492",
+          "government_notice_url_en": "/egazette/en/1924-gn492.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12517",
+      "english_name": "TUNG FONG STREET",
+      "chinese_name": "東方街",
+      "history": [
+        {
+          "publication_date": "1924-08-29",
+          "change_kind": "declare",
+          "street_name_en": "Tung Fong Street",
+          "street_name_zh": "東方街",
+          "gazette_notice_label": "Government Notification No. 492",
+          "government_notice_url_en": "/egazette/en/1924-gn492.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

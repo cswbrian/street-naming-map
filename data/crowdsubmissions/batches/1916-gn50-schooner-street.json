@@ -1,0 +1,27 @@
+{
+  "batch_id": "1916-gn50-schooner-street",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 50",
+  "publication_date": "1916-02-05",
+  "gazette_url_en": "/egazette/en/1916-gn50.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1916-gn50-schooner-street/1916-gn50.pdf",
+  "streets": [
+    {
+      "street_code": "11937",
+      "english_name": "SCHOONER STREET",
+      "chinese_name": "捷船街",
+      "history": [
+        {
+          "publication_date": "1916-02-05",
+          "change_kind": "declare",
+          "street_name_en": "Schooner Street",
+          "street_name_zh": "帆船街",
+          "gazette_notice_label": "Government Notification No. 50",
+          "government_notice_url_en": "/egazette/en/1916-gn50.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 帆船街; database 捷船街."
+        }
+      ]
+    }
+  ]
+}
