@@ -13,6 +13,7 @@ import {
   classifyEgazetteEvent,
   enrichGeojson,
   mergeEvents,
+  normalizeNamingDateExclusions,
 } from './lib/street-naming-core.mjs'
 
 const __filename = fileURLToPath(import.meta.url)
@@ -36,6 +37,16 @@ const EGAZETTE_PILOT_EVENTS = path.join(
 )
 const COMBINED_EVENTS = path.join(MASTER_DIR, 'street-events-combined.json')
 const COMBINED_AGGREGATES = path.join(MASTER_DIR, 'street-aggregates-combined.json')
+const NAMING_DATE_EXCLUSIONS = path.join(projectRoot, 'data', 'naming-date-exclusions.json')
+
+async function loadNamingDateExclusions() {
+  try {
+    const raw = JSON.parse(await readFile(NAMING_DATE_EXCLUSIONS, 'utf8'))
+    return normalizeNamingDateExclusions(raw)
+  } catch {
+    return normalizeNamingDateExclusions({})
+  }
+}
 
 function parseArgs(argv) {
   const opts = { usePilot: false }
@@ -82,10 +93,11 @@ async function main() {
   const opts = parseArgs(process.argv.slice(2))
   const egazettePath = opts.usePilot ? EGAZETTE_PILOT_EVENTS : EGAZETTE_EVENTS
 
-  const [landsd, egazetteRaw, sourceRaw] = await Promise.all([
+  const [landsd, egazetteRaw, sourceRaw, namingDateExclusions] = await Promise.all([
     readFile(LANDSD_EVENTS, 'utf8').then(JSON.parse),
     readFile(egazettePath, 'utf8').then(JSON.parse),
     readFile(SOURCE_PATH, 'utf8').then(JSON.parse),
+    loadNamingDateExclusions(),
   ])
 
   const extractionMap = await loadExtractionMap()
@@ -104,10 +116,11 @@ async function main() {
   }
 
   const combined = mergeEvents(landsd, egazetteEvents)
-  const aggregates = aggregateByStreet(combined)
+  const aggregates = aggregateByStreet(combined, { namingDateExclusions })
 
   const { enriched, joinStats } = enrichGeojson(sourceRaw, aggregates, {
     geojsonName: 'HK_Streets_Combined',
+    namingDateExclusions,
   })
 
   await mkdir(MASTER_DIR, { recursive: true })

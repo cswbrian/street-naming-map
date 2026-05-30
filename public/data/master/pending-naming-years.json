@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-30T04:06:36.694Z",
+  "generated_at": "2026-05-30T04:09:57.263Z",
   "source_file": "public/data/hk-streets.geojson",
   "totals": {
     "total_segments": 39602,
-    "segments_missing_naming_year": 37829,
+    "segments_missing_naming_year": 37842,
     "unique_roads": 12225,
     "unique_roads_with_street_name": 4579,
-    "unique_roads_with_naming_year": 279,
-    "unique_roads_with_street_name_and_naming_year": 279,
-    "unique_roads_missing_naming_year": 11946,
-    "unique_roads_missing_naming_year_with_street_name": 4300
+    "unique_roads_with_naming_year": 278,
+    "unique_roads_with_street_name_and_naming_year": 278,
+    "unique_roads_missing_naming_year": 11947,
+    "unique_roads_missing_naming_year_with_street_name": 4301
   },
   "roads": [
     {
@@ -6026,14 +6026,14 @@
       "english_name": "GASCOIGNE ROAD FLYOVER",
       "chinese_name": "加士居道天橋",
       "street_type": "Main Road",
-      "naming_year": 2020,
-      "naming_date": "2020-10-16",
-      "naming_source": "landsd_2016_plus",
+      "naming_year": null,
+      "naming_date": null,
+      "naming_source": null,
       "naming_details": {
         "street_key": "Gascoigne Road Flyover|加士居道天橋",
-        "canonical_naming_date": "2020-10-16",
-        "canonical_naming_year": 2020,
-        "derivation_reason": "declaration_earliest",
+        "canonical_naming_date": null,
+        "canonical_naming_year": null,
+        "derivation_reason": "excluded_manual",
         "event_count": 2,
         "notice_no": "GN5983",
         "notice_type": "declaration",
@@ -157796,6 +157796,34 @@
       "naming_date": null,
       "naming_source": null,
       "naming_details": null,
+      "segment_count": 13
+    },
+    {
+      "road_key": "code:14494",
+      "street_code": "14494",
+      "english_name": "GASCOIGNE ROAD FLYOVER",
+      "chinese_name": "加士居道天橋",
+      "street_type": "Main Road",
+      "naming_year": null,
+      "naming_date": null,
+      "naming_source": null,
+      "naming_details": {
+        "street_key": "Gascoigne Road Flyover|加士居道天橋",
+        "canonical_naming_date": null,
+        "canonical_naming_year": null,
+        "derivation_reason": "excluded_manual",
+        "event_count": 2,
+        "notice_no": "GN5983",
+        "notice_type": "declaration",
+        "notice_source": "landsd",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.5983",
+        "government_notice_label_zh": "第5983號",
+        "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024425983.pdf",
+        "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024425983.pdf",
+        "related_gazette_plan_url_en": "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM39.pdf",
+        "related_gazette_plan_url_zh": "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM39.pdf"
+      },
       "segment_count": 13
     },
     {

@@ -10,6 +10,7 @@ import {
   aggregateByStreet,
   enrichGeojson,
   mergeEvents,
+  normalizeNamingDateExclusions,
 } from './lib/street-naming-core.mjs'
 
 const __filename = fileURLToPath(import.meta.url)
@@ -26,6 +27,16 @@ const COMBINED_EVENTS = path.join(MASTER_DIR, 'street-events-combined.json')
 const COMBINED_AGGREGATES = path.join(MASTER_DIR, 'street-aggregates-combined.json')
 const LANDSD_EVENTS = path.join(MASTER_DIR, 'landsd-street-events-2016plus.json')
 const CROWD_APPROVED = path.join(projectRoot, 'data', 'crowdsubmissions', 'street-events-approved.json')
+const NAMING_DATE_EXCLUSIONS = path.join(projectRoot, 'data', 'naming-date-exclusions.json')
+
+async function loadNamingDateExclusions() {
+  try {
+    const raw = JSON.parse(await readFile(NAMING_DATE_EXCLUSIONS, 'utf8'))
+    return normalizeNamingDateExclusions(raw)
+  } catch {
+    return normalizeNamingDateExclusions({})
+  }
+}
 
 async function loadJson(filePath, fallback = null) {
   try {
@@ -36,12 +47,14 @@ async function loadJson(filePath, fallback = null) {
 }
 
 async function main() {
-  const [combinedExisting, landsdFallback, crowdRaw, sourceRaw] = await Promise.all([
-    loadJson(COMBINED_EVENTS, null),
-    loadJson(LANDSD_EVENTS, []),
-    loadJson(CROWD_APPROVED, []),
-    readFile(SOURCE_PATH, 'utf8').then(JSON.parse),
-  ])
+  const [combinedExisting, landsdFallback, crowdRaw, sourceRaw, namingDateExclusions] =
+    await Promise.all([
+      loadJson(COMBINED_EVENTS, null),
+      loadJson(LANDSD_EVENTS, []),
+      loadJson(CROWD_APPROVED, []),
+      readFile(SOURCE_PATH, 'utf8').then(JSON.parse),
+      loadNamingDateExclusions(),
+    ])
 
   const crowdEvents = Array.isArray(crowdRaw) ? crowdRaw : []
   if (!crowdEvents.length) {
@@ -54,10 +67,11 @@ async function main() {
   const landsd = baseEvents.filter((e) => e.source === 'landsd')
   const egazette = baseEvents.filter((e) => e.source === 'egazette_pdf')
   const combined = mergeEvents(landsd, egazette, crowdEvents)
-  const aggregates = aggregateByStreet(combined)
+  const aggregates = aggregateByStreet(combined, { namingDateExclusions })
 
   const { enriched, joinStats } = enrichGeojson(sourceRaw, aggregates, {
     geojsonName: 'HK_Streets_Combined',
+    namingDateExclusions,
   })
 
   await mkdir(MASTER_DIR, { recursive: true })

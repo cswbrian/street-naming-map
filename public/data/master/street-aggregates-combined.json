@@ -14307,9 +14307,9 @@
     "street_key": "Gascoigne Road Flyover|加士居道天橋",
     "street_name_en": "Gascoigne Road Flyover",
     "street_name_zh": "加士居道天橋",
-    "canonical_naming_date": "2020-10-16",
-    "canonical_naming_year": 2020,
-    "derivation_reason": "declaration_earliest",
+    "canonical_naming_date": null,
+    "canonical_naming_year": null,
+    "derivation_reason": "excluded_manual",
     "event_history": [
       {
         "event_id": "2020-10-16|GN5983|0",
@@ -14372,9 +14372,9 @@
     "street_key": "Gascoigne Road Fylover|加士居道天橋",
     "street_name_en": "Gascoigne Road Fylover",
     "street_name_zh": "加士居道天橋",
-    "canonical_naming_date": "2020-10-16",
-    "canonical_naming_year": 2020,
-    "derivation_reason": "declaration_earliest",
+    "canonical_naming_date": null,
+    "canonical_naming_year": null,
+    "derivation_reason": "excluded_manual",
     "event_history": [
       {
         "event_id": "2020-10-16|GN5983|0",

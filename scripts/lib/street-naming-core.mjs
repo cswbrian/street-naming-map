@@ -145,7 +145,19 @@ export function groupBy(items, keyFn) {
   return map
 }
 
-export function aggregateByStreet(events) {
+export function normalizeNamingDateExclusions(raw) {
+  return {
+    streetKeys: new Set(raw?.street_keys ?? []),
+    streetCodes: new Set((raw?.street_codes ?? []).map(String)),
+  }
+}
+
+function isExcludedStreetKey(streetKey, exclusions) {
+  return exclusions?.streetKeys?.has(streetKey) ?? false
+}
+
+export function aggregateByStreet(events, options = {}) {
+  const exclusions = options.namingDateExclusions ?? null
   const grouped = groupBy(events, (item) => makeStreetKey(item.street_name_en, item.street_name_zh))
   const aggregates = []
 
@@ -153,9 +165,14 @@ export function aggregateByStreet(events) {
     if (streetKey === '|') continue
     const ordered = group.toSorted((a, b) => a.publication_date.localeCompare(b.publication_date))
     const declaration = ordered.find((event) => event.is_declaration_event)
-    const canonicalNamingDate = declaration?.publication_date ?? null
-    const canonicalNamingYear = canonicalNamingDate ? Number(canonicalNamingDate.slice(0, 4)) : null
-    const derivationReason = declaration ? 'declaration_earliest' : 'no_declaration_found'
+    let canonicalNamingDate = declaration?.publication_date ?? null
+    let canonicalNamingYear = canonicalNamingDate ? Number(canonicalNamingDate.slice(0, 4)) : null
+    let derivationReason = declaration ? 'declaration_earliest' : 'no_declaration_found'
+    if (isExcludedStreetKey(streetKey, exclusions)) {
+      canonicalNamingDate = null
+      canonicalNamingYear = null
+      derivationReason = 'excluded_manual'
+    }
     const [streetNameEn, streetNameZh] = streetKey.split('|')
 
     aggregates.push({
@@ -221,8 +238,26 @@ export function enrichGeojson(sourceData, aggregates, options = {}) {
   let matchedFallback = 0
   let unmatched = 0
 
+  const excludedCodes = options.namingDateExclusions?.streetCodes ?? new Set()
+
   const features = sourceData.features.map((feature) => {
     const props = feature.properties ?? {}
+    const streetCode = String(props.STREETCODE ?? '').trim()
+    if (streetCode && excludedCodes.has(streetCode)) {
+      unmatched += 1
+      return {
+        ...feature,
+        properties: {
+          ...props,
+          naming_year: null,
+          naming_date: null,
+          naming_source: null,
+          naming_derivation_reason: 'excluded_manual',
+          naming_event_count: 0,
+        },
+      }
+    }
+
     const en = String(props.ENGLISHSTREETNAME ?? '').trim()
     const zh = String(props.CHINESESTREETNAME ?? '').trim()
     const key = makeStreetKey(en, zh)
@@ -240,15 +275,19 @@ export function enrichGeojson(sourceData, aggregates, options = {}) {
     else if (fallback) matchedFallback += 1
     else unmatched += 1
 
+    const excluded = isExcludedStreetKey(key, options.namingDateExclusions)
+
     return {
       ...feature,
       properties: {
         ...props,
-        naming_year: fallback?.canonical_naming_year ?? null,
-        naming_date: fallback?.canonical_naming_date ?? null,
-        naming_source: fallback ? resolveNamingSource(fallback, options) : null,
-        naming_derivation_reason: fallback?.derivation_reason ?? null,
-        naming_event_count: fallback?.event_count ?? 0,
+        naming_year: excluded ? null : (fallback?.canonical_naming_year ?? null),
+        naming_date: excluded ? null : (fallback?.canonical_naming_date ?? null),
+        naming_source: excluded ? null : fallback ? resolveNamingSource(fallback, options) : null,
+        naming_derivation_reason: excluded
+          ? 'excluded_manual'
+          : (fallback?.derivation_reason ?? null),
+        naming_event_count: excluded ? 0 : (fallback?.event_count ?? 0),
       },
     }
   })
