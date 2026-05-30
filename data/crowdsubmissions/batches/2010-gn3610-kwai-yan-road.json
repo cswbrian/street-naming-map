@@ -1,0 +1,28 @@
+{
+  "batch_id": "2010-gn3610-kwai-yan-road",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.3610",
+  "publication_date": "2010-06-18",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/2010-gn3610-kwai-yan-road/2010-14-24-3610-en.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/2010-gn3610-kwai-yan-road/2010-14-24-3610-zh.pdf",
+  "remarks": "G.N.3610 (2010-06-18) replaces street description only. First Previous G.N. is G.N.4036 (1982-12-24).",
+  "streets": [
+    {
+      "street_code": "11105",
+      "english_name": "KWAI YAN ROAD",
+      "chinese_name": "葵仁路",
+      "history": [
+        {
+          "publication_date": "1982-12-24",
+          "change_kind": "declare",
+          "street_name_en": "Kwai Yan Road",
+          "street_name_zh": "葵仁路",
+          "gazette_notice_label": "G.N.4036",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 葵仁路 cited in G.N.3610 (2010-06-18)."
+        }
+      ]
+    }
+  ]
+}
