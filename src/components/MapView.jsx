@@ -85,6 +85,14 @@ const buildSelectedRoadChipHtml = (selectedRoadInfo, locale) => {
     selectedRoadInfo.nameHistory?.length
       ? `<div class="selected-road-chip-row selected-road-chip-row-history"><dt class="selected-road-chip-label">${escapeHtml(labels.colNameHistory)}</dt><dd class="selected-road-chip-value"><div class="selected-road-chip-history-mount"></div></dd></div>`
       : '',
+    selectedRoadInfo.namingRemarks?.length
+      ? buildMetaRow(
+          labels.colRemarks,
+          `<ul class="selected-road-chip-remarks">${selectedRoadInfo.namingRemarks
+            .map((remark) => `<li>${escapeHtml(remark)}</li>`)
+            .join('')}</ul>`,
+        )
+      : '',
   ].join('')
 
   const actionButtons = [

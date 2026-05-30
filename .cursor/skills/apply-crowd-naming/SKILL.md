@@ -1,6 +1,6 @@
 ---
 name: apply-crowd-naming
-description: Apply community-verified Hong Kong street naming dates to street-naming-map. Use when the user submits gazette proof (G.N. number, date, street names, PDF paths) and asks to mark roads as 最近核實 with 社群, approve crowd submissions, or update naming dates from community data.
+description: Apply community-verified Hong Kong street naming dates to street-naming-map. Use when the user submits gazette proof (G.N. number, date, street names, PDF paths) and asks to mark roads as 最近核實 with 社群, approve crowd submissions, or update naming dates from community data. For HKGRO historical gazette PDF scans first, use parse-hkgro-gazettes.
 ---
 
 # Apply crowd naming submissions

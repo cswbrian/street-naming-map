@@ -20,7 +20,7 @@ import {
 import { buildNoticeLookup, getNoticeLink, resolveNoticeLink } from '../lib/governmentNotice.js'
 import { getNamingDisplay, hasRowNamingDate } from '../lib/namingDisplay.js'
 import { getNamingSourceBadgeKey, getNamingSourceKind } from '../lib/namingSourceBadge.js'
-import { buildNameHistoryTimelineItems } from '../lib/nameHistory.js'
+import { buildNameHistoryTimelineItems, buildNamingRemarks } from '../lib/nameHistory.js'
 import { buildPendingRoadLookup, resolvePendingRoadRow } from '../lib/pendingRoadLookup.js'
 import { getDefaultMapPanelCollapse } from '../lib/mapViewport.js'
 import { buildRoadKey, hasStreetName, normalizeRoadName, parseRoadKey } from '../lib/roadKey'
@@ -168,9 +168,17 @@ function MapPage() {
           locale,
         })
     const rowForDisplay = pendingRow ?? displayRow
-    const nameHistory = buildNameHistoryTimelineItems(pendingRow?.naming_details, locale, {
-      historyGazettePending: t('historyGazettePending'),
-    })
+    const displayNames = {
+      en: pendingRow?.english_name || enName,
+      zh: pendingRow?.chinese_name || zhName,
+    }
+    const nameHistory = buildNameHistoryTimelineItems(
+      pendingRow?.naming_details,
+      locale,
+      { historyGazettePending: t('historyGazettePending') },
+      displayNames,
+    )
+    const namingRemarks = buildNamingRemarks(pendingRow?.naming_details, displayNames, locale)
     const namingYear = activeRoad?.year ?? pickedRoadMeta?.year ?? displayRow.naming_year ?? null
     const shareUrl =
       typeof window !== 'undefined'
@@ -188,6 +196,7 @@ function MapPage() {
       namingDisplay: getNamingDisplay(rowForDisplay, t),
       isNamingPending: !hasRowNamingDate(rowForDisplay),
       nameHistory,
+      namingRemarks,
       noticeLink,
       sourceBadge: sourceBadgeKey
         ? {

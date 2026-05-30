@@ -1,0 +1,235 @@
+{
+  "batch_id": "1931-gn300-shaukiwan-streets",
+  "gazette_notice_label": "Government Notification No. 300",
+  "publication_date": "1931-05-15",
+  "gazette_url_en": "/egazette/en/1931-gn300.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/618645.pdf",
+  "remarks": "HKGRO g1931/618645.pdf — 15 streets declared in Colonial Secretary notice No. 300; hosted at /egazette/en/1931-gn300.pdf.",
+  "streets": [
+    {
+      "street_code": "12167",
+      "english_name": "SUGAR STREET",
+      "chinese_name": "糖街",
+      "history": [{
+        "publication_date": "1931-05-15",
+        "change_kind": "declare",
+        "street_name_en": "Sugar Street",
+        "street_name_zh": "糖街",
+        "gazette_notice_label": "Government Notification No. 300",
+        "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
+        "evidence_level": "gazette",
+        "submitter_remarks": "Street off Yee Wo Street, SW corner of I.L. 781, parallel with Great George Street, terminating at Praya Wall and eastern corner of I.L. 782."
+      }]
+    },
+    {
+      "street_code": "10013",
+      "english_name": "ALDRICH STREET",
+      "chinese_name": "愛秩序街",
+      "history": [{
+        "publication_date": "1931-05-15",
+        "change_kind": "declare",
+        "street_name_en": "Aldrich Street",
+        "street_name_zh": "愛秩序街",
+        "gazette_notice_label": "Government Notification No. 300",
+        "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
+        "evidence_level": "gazette",
+        "submitter_remarks": "Road off Shaukiwan Road, SE corner of S.I.L. 505, northerly between S.I.Ls. 107 & 534, passing Nam On Street, terminating at junction with new Praya."
+      }]
+    },
+    {
+      "street_code": "10307",
+      "english_name": "CHURCH STREET",
+      "chinese_name": "教堂街",
+      "history": [{
+        "publication_date": "1931-05-15",
+        "change_kind": "declare",
+        "street_name_en": "Church Street",
+        "street_name_zh": "教堂街",
+        "gazette_notice_label": "Government Notification No. 300",
+        "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
+        "evidence_level": "gazette",
+        "submitter_remarks": "Street off Shaukiwan Road, SW corner of S.I.L. 104, north-easterly between S.I.Ls. 105 and 104, terminating at junction with Factory Street."
+      }]
+    },
+    {
+      "street_code": "10420",
+      "english_name": "FACTORY STREET",
+      "chinese_name": "工廠街",
+      "history": [{
+        "publication_date": "1931-05-15",
+        "change_kind": "declare",
+        "street_name_en": "Factory Street",
+        "street_name_zh": "工廠街",
+        "gazette_notice_label": "Government Notification No. 300",
+        "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
+        "evidence_level": "gazette",
+        "submitter_remarks": "Street off Aldrich Street, NW corner of S.I.L. 107, south-easterly past SE corner of S.I.L. 446, terminating at junction with Shaukiwan Road."
+      }]
+    },
+    {
+      "street_code": "12273",
+      "english_name": "TAI TAK STREET",
+      "chinese_name": "大德街",
+      "history": [{
+        "publication_date": "1931-05-15",
+        "change_kind": "declare",
+        "street_name_en": "Tai Tak Street",
+        "street_name_zh": "大德街",
+        "gazette_notice_label": "Government Notification No. 300",
+        "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
+        "evidence_level": "gazette",
+        "submitter_remarks": "Street off Factory Street, SW corner of S.I.L. 512, northerly, terminating at junction with Kam Wah Street."
+      }]
+    },
+    {
+      "street_code": "11455",
+      "english_name": "MONG LUNG STREET",
+      "chinese_name": "望隆街",
+      "history": [{
+        "publication_date": "1931-05-15",
+        "change_kind": "declare",
+        "street_name_en": "Mong Lung Street",
+        "street_name_zh": "望隆街",
+        "gazette_notice_label": "Government Notification No. 300",
+        "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
+        "evidence_level": "gazette",
+        "submitter_remarks": "Street off Factory Street, SW corner of S.I.L. 448, parallel with Tai Tak Street, terminating at junction with Kam Wah Street."
+      }]
+    },
+    {
+      "street_code": "11566",
+      "english_name": "OIL STREET",
+      "chinese_name": "油街",
+      "history": [{
+        "publication_date": "1931-05-15",
+        "change_kind": "declare",
+        "street_name_en": "Oil Street",
+        "street_name_zh": "油街",
+        "gazette_notice_label": "Government Notification No. 300",
+        "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
+        "evidence_level": "gazette",
+        "submitter_remarks": "Street off Shaukiwan Road, SE corner of M.L. 277, north-westerly between M.Ls. 277 and 290, terminating at sea wall."
+      }]
+    },
+    {
+      "street_code": "10068",
+      "english_name": "BOAT STREET",
+      "chinese_name": "艇街",
+      "history": [{
+        "publication_date": "1931-05-15",
+        "change_kind": "declare",
+        "street_name_en": "Boat Street",
+        "street_name_zh": "艇街",
+        "gazette_notice_label": "Government Notification No. 300",
+        "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
+        "evidence_level": "gazette",
+        "submitter_remarks": "Street off Shaukiwan Road, NE corner of I.L. 1617, south-easterly between I.Ls. 2358 and 2322, terminating at eastern corner of I.L. 2358 and new 100' road."
+      }]
+    },
+    {
+      "street_code": "10564",
+      "english_name": "FUK YUEN STREET",
+      "chinese_name": "福元街",
+      "history": [{
+        "publication_date": "1931-05-15",
+        "change_kind": "declare",
+        "street_name_en": "Fuk Yuen Street",
+        "street_name_zh": "福元街",
+        "gazette_notice_label": "Government Notification No. 300",
+        "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
+        "evidence_level": "gazette",
+        "submitter_remarks": "Street off Shaukiwan Road, NE corner of I.L. 1618, parallel with Boat Street, terminating at eastern corner of I.L. 2316 and new 100' road."
+      }]
+    },
+    {
+      "street_code": "11781",
+      "english_name": "POWER STREET",
+      "chinese_name": "大強街",
+      "history": [{
+        "publication_date": "1931-05-15",
+        "change_kind": "declare",
+        "street_name_en": "Power Street",
+        "street_name_zh": "大強街",
+        "gazette_notice_label": "Government Notification No. 300",
+        "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
+        "evidence_level": "gazette",
+        "submitter_remarks": "Street off Shaukiwan Road, SE corner of M.L. 321, north-westerly between M.Ls. 321 and 130, terminating at new praya wall."
+      }]
+    },
+    {
+      "street_code": "11027",
+      "english_name": "KING MING ROAD",
+      "chinese_name": "景明道",
+      "history": [{
+        "publication_date": "1931-05-15",
+        "change_kind": "declare",
+        "street_name_en": "King Ming Road",
+        "street_name_zh": "景明道",
+        "gazette_notice_label": "Government Notification No. 300",
+        "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
+        "evidence_level": "gazette",
+        "submitter_remarks": "Road off Watson Road, NE corner of M.L. 396, parallel with Whitfield Road, terminating at sea wall and SE corner of M.L. 285."
+      }]
+    },
+    {
+      "street_code": "10606",
+      "english_name": "GLASS STREET",
+      "chinese_name": "玻璃街",
+      "history": [{
+        "publication_date": "1931-05-15",
+        "change_kind": "declare",
+        "street_name_en": "Glass Street",
+        "street_name_zh": "玻璃街",
+        "gazette_notice_label": "Government Notification No. 300",
+        "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
+        "evidence_level": "gazette",
+        "submitter_remarks": "Street off Whitfield Road, SE of I.L. 2204, north-westerly, terminating at junction with Vacuum Road."
+      }]
+    },
+    {
+      "street_code": "11240",
+      "english_name": "LINK ROAD",
+      "chinese_name": "連道",
+      "history": [{
+        "publication_date": "1931-05-15",
+        "change_kind": "declare",
+        "street_name_en": "Link Road",
+        "street_name_zh": "連合道",
+        "gazette_notice_label": "Government Notification No. 300",
+        "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
+        "evidence_level": "gazette",
+        "submitter_remarks": "Road off Broadwood Road, NW corner of I.L. 1946, northerly to Caroline Hill Road junction."
+      }]
+    },
+    {
+      "street_code": "10341",
+      "english_name": "COTTON PATH",
+      "chinese_name": "棉花路",
+      "history": [{
+        "publication_date": "1931-05-15",
+        "change_kind": "declare",
+        "street_name_en": "Cotton Path",
+        "street_name_zh": "棉花路",
+        "gazette_notice_label": "Government Notification No. 300",
+        "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
+        "evidence_level": "gazette",
+        "submitter_remarks": "Path off Caroline Hill Road, SW corner of I.L. 2147, north-easterly and northerly at side of I.L. 1018, terminating at junction with Shaukiwan Road."
+      }]
+    },
+    {
+      "street_code": "10400",
+      "english_name": "EASTERN HOSPITAL ROAD",
+      "chinese_name": "東院道",
+      "history": [{
+        "publication_date": "1931-05-15",
+        "change_kind": "declare",
+        "street_name_en": "Eastern Hospital Road",
+        "street_name_zh": "東院道",
+        "gazette_notice_label": "Government Notification No. 300",
+        "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
+        "evidence_level": "gazette",
+        "submitter_remarks": "Road off Shaukiwan Road, NW corner of I.L. 1900, passing I.Ls. 2532, 2121, 1879 and 2686 (Tung Wah Eastern Hospital), terminating at junction with Caroline Hill Road."
+      }]
+    }
+  ]
+}

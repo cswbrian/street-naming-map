@@ -1,6 +1,17 @@
 import { formatNoticeLabel } from './formatNoticeLabel.js'
+import { normalizeStreetNameForMatch } from './roadKey.js'
 
 const normalize = (value) => String(value ?? '').trim()
+
+function namesMatchEntryAndDisplay(entry, displayNames) {
+  const entryEn = normalizeStreetNameForMatch(entry.name_en)
+  const entryZh = normalize(entry.name_zh)
+  const displayEn = normalizeStreetNameForMatch(displayNames?.en)
+  const displayZh = normalize(displayNames?.zh)
+  if (displayEn && entryEn && displayEn === entryEn) return true
+  if (displayZh && entryZh && displayZh === entryZh) return true
+  return false
+}
 
 function isCurrentGazetteRename(entry, details) {
   const currentSince = normalize(
@@ -20,20 +31,26 @@ function hasPreviousName(entry) {
 }
 
 /** Entries to show under “Previous name”. Keeps gazette renames but drops duplicate date/notice in the list. */
-function filterFormerNameEntries(details) {
+function filterFormerNameEntries(details, displayNames = null) {
   const history = details?.name_history
   if (!Array.isArray(history) || !history.length) return []
 
   return history.filter((entry) => {
+    if (entry.change_kind === 'declare' && namesMatchEntryAndDisplay(entry, displayNames)) {
+      return false
+    }
+    if (entry.change_kind === 'rename' && !hasPreviousName(entry)) {
+      return false
+    }
     if (isCurrentGazetteRename(entry, details)) {
       return hasPreviousName(entry)
     }
-    return true
+    return entry.change_kind === 'rename' || entry.change_kind === 'declare'
   })
 }
 
-export function hasNameHistory(details) {
-  return filterFormerNameEntries(details).length >= 1
+export function hasNameHistory(details, displayNames = null) {
+  return filterFormerNameEntries(details, displayNames).length >= 1
 }
 
 export function formatHistoryDate(date) {
@@ -78,8 +95,8 @@ export function getHistoryNoticeLink(entry, locale) {
 }
 
 /** Structured items for NameHistoryList. */
-export function buildNameHistoryTimelineItems(details, locale, labels) {
-  const filtered = filterFormerNameEntries(details)
+export function buildNameHistoryTimelineItems(details, locale, labels, displayNames = null) {
+  const filtered = filterFormerNameEntries(details, displayNames)
   if (!filtered.length) return null
 
   const items = []
@@ -107,6 +124,49 @@ export function buildNameHistoryTimelineItems(details, locale, labels) {
   }
 
   return items.length ? items : null
+}
+
+function buildChineseNameMismatchRemark(entry, displayNames, locale) {
+  const displayZh = normalize(displayNames?.zh)
+  const entryZh = normalize(entry.name_zh)
+  const displayEn = normalizeStreetNameForMatch(displayNames?.en)
+  const entryEn = normalizeStreetNameForMatch(entry.name_en)
+  if (!displayZh || !entryZh || displayZh === entryZh) return null
+  if (displayEn && entryEn && displayEn !== entryEn) return null
+  if (!hasGazetteProof(entry)) return null
+  return locale === 'zh'
+    ? `憲報中文為「${entryZh}」；現行圖資為「${displayZh}」。`
+    : `Gazette Chinese 「${entryZh}」; current map name 「${displayZh}」.`
+}
+
+function stripRedundantMismatchClause(raw) {
+  return normalize(raw)
+    .replace(/\s*Gazette Chinese:\s*[^;]+;\s*current DB name:\s*[^.]+\.?\s*/gi, '')
+    .replace(/\s*憲報中文[：:]\s*[^；;]+[；;]\s*現行[^。.]+[。.]?\s*/g, '')
+    .trim()
+}
+
+/** Card remarks for naming caveats (e.g. gazette vs map Chinese name). */
+export function buildNamingRemarks(details, displayNames, locale) {
+  const history = details?.name_history
+  if (!Array.isArray(history) || !history.length) return null
+
+  const remarks = []
+  for (const entry of history) {
+    const mismatch = buildChineseNameMismatchRemark(entry, displayNames, locale)
+    if (mismatch) remarks.push(mismatch)
+
+    const cleaned = stripRedundantMismatchClause(entry.submitter_remarks)
+    if (cleaned) remarks.push(cleaned)
+  }
+
+  const unique = [...new Set(remarks.map((text) => normalize(text)).filter(Boolean))]
+  return unique.length
+    ? unique.map((text) => {
+        const original = remarks.find((candidate) => normalize(candidate) === text)
+        return original ?? text
+      })
+    : null
 }
 
 /** @deprecated Use buildNameHistoryTimelineItems — kept for any external callers */

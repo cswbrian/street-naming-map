@@ -104,6 +104,7 @@ export const translations = {
     mapRoadShareAria: '複製街道連結',
     mapRoadShareCopied: '已複製連結',
     colNameHistory: '舊稱',
+    colRemarks: '備註',
     historyGazettePending: '憲報待補',
     colStatus: '狀態',
     aboutSeoDescription:
@@ -221,6 +222,7 @@ export const translations = {
     mapRoadShareAria: 'Copy street link',
     mapRoadShareCopied: 'Link copied',
     colNameHistory: 'Previous name',
+    colRemarks: 'Notes',
     historyGazettePending: 'Gazette pending',
     colStatus: 'Status',
     aboutSeoDescription:
