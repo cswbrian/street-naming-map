@@ -198,7 +198,7 @@ code:10226,10226,CHI FU ROAD,置富道,Secondary Road,,,,,19
 code:10325,10325,CONCORDE ROAD,協調道,Secondary Road,2015,2015-01-23,https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn201822091473.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn201822091473.pdf,19
 code:39004,39004,EASTERN HARBOUR CROSSING,東區海底隧道,Tunnel,,,,,19
 code:13951,13951,LAI PO ROAD,荔寶路,Secondary Road,2018,2018-11-30,https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn201822509290.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn201822509290.pdf,19
-code:14201,14201,MAGIC ROAD,神奇道,Secondary Road,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,/egazette/zh/2004-08-51-8104.pdf,19
+code:14201,14201,MAGIC ROAD,神奇道,Secondary Road,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,,19
 code:14126,14126,PAK LAM ROAD,珀林路,Secondary Road,,,,,19
 code:13736,13736,PALM SPRINGS BOULEVARD,加州花園大道,Secondary Road,,,,,19
 code:14326,14326,POK CHUEN STREET,博泉街,Secondary Road,2010,2010-04-09,/egazette/en/2010-14-14-2046.pdf,/egazette/zh/2010-14-14-2046.pdf,19
@@ -209,7 +209,7 @@ code:12113,12113,SING WOO ROAD,成和道,Main Road,,,,,19
 code:12225,12225,TAI KOK TSUI ROAD,大角咀道,Secondary Road,,,,,19
 code:13158,13158,TIN YAN ROAD,天恩路,Secondary Road,2016,2016-09-23,https://www.landsd.gov.hk/doc/en/street-name/egazette/2016/egn201620385399.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2016/cgn201620385399.pdf,19
 code:13783,13783,TSING KWAI HIGHWAY,青葵公路,Highway,,,,,19
-code:14171,14171,TSING YI HONG WAN ROAD,青衣航運路,Secondary Road,2003,2003-12-15,/egazette/en/2003-07-49-8748.pdf,/egazette/zh/2003-07-49-8748.pdf,19
+code:14171,14171,TSING YI HONG WAN ROAD,青衣航運路,Secondary Road,2003,2003-12-15,/egazette/en/2003-07-49-8748.pdf,,19
 code:41273,41273,,,Secondary Road,,,,,18
 code:40137,40137,,,Secondary Road,,,,,18
 code:40649,40649,,,Secondary Road,,,,,18
@@ -251,7 +251,7 @@ code:39226,39226,BAUHINIA ROAD SOUTH,紫荊南路,Secondary Road,,,,,17
 code:10133,10133,CASTLE PEAK ROAD - KWU TUNG,青山公路　－　古洞段,Secondary Road,,,,,17
 code:10167,10167,CHATHAM ROAD SOUTH,漆咸道南,Main Road,,,,,17
 code:10371,10371,DEEP WATER BAY ROAD,深水灣道,Secondary Road,,,,,17
-code:10909,10909,JUNCTION ROAD,聯合道,Main Road,,,,,17
+code:10909,10909,JUNCTION ROAD,聯合道,Main Road,1933,1933-05-12,/egazette/en/1933-gn340.pdf,/egazette/zh/1933-gn340.pdf,17
 code:14101,14101,KAM HO ROAD,錦河路,Secondary Road,,,,,17
 code:14066,14066,KWAI CHUNG INTERCHANGE,葵涌交匯處,Secondary Road,,,,,17
 code:11492,11492,NAM LONG SHAN ROAD,南朗山道,Secondary Road,,,,,17
@@ -362,7 +362,7 @@ code:13896,13896,HING WAH STREET WEST,興華街西,Secondary Road,,,,,14
 code:10739,10739,HIP WO STREET,協和街,Secondary Road,,,,,14
 code:13909,13909,HO SHEUNG HEUNG ROAD,河上鄉路,Secondary Road,,,,,14
 code:13957,13957,HUNG LUEN ROAD,紅鸞道,Secondary Road,,,,,14
-code:10897,10897,JAVA ROAD,渣華道,Main Road,,,,,14
+code:10897,10897,JAVA ROAD,渣華道,Main Road,1933,1933-07-28,/egazette/en/1933-gn511.pdf,,14
 code:10930,10930,KAI FUK ROAD,啓福道,Main Road,,,,,14
 code:10962,10962,KAM TSIN ROAD,金錢路,Secondary Road,,,,,14
 code:10986,10986,KEUNG SHAN ROAD,羗山道,Main Road,,,,,14
@@ -445,7 +445,7 @@ code:14364,14364,SHING CHEONG ROAD,承昌道,Secondary Road,2021,2021-06-25,http
 code:14149,14149,SHUI TSIU SAN TSUEN ROAD,水蕉新村路,Secondary Road,,,,,13
 code:14439,14439,SHUN LIN ROAD,順連路,Secondary Road,2017,2017-03-10,https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721101273.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721101273.pdf,13
 code:12129,12129,SOUTH BAY ROAD,南灣道,Secondary Road,,,,,13
-code:12156,12156,STANLEY VILLAGE ROAD,赤柱村道,Secondary Road,,,,,13
+code:12156,12156,STANLEY VILLAGE ROAD,赤柱村道,Secondary Road,1933,1933-11-10,/egazette/en/1933-gn727.pdf,/egazette/zh/1933-gn727.pdf,13
 code:12189,12189,SUNG WONG TOI ROAD,宋皇臺道,Secondary Road,2021,2021-07-23,https://www.landsd.gov.hk/doc/en/street-name/egazette/2021/egn202125294521.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2021/cgn202125294521.pdf,13
 code:12208,12208,TAI CHUNG ROAD,大涌道,Main Road,,,,,13
 code:12231,12231,TAI LIN PAI ROAD,大連排道,Secondary Road,,,,,13
@@ -578,7 +578,7 @@ code:39020,39020,ABERDEEN TUNNEL,香港仔隧道,Tunnel,,,,,11
 code:10100,10100,BUTE STREET,弼街,Secondary Road,,,,,11
 code:10112,10112,CANAL ROAD EAST,堅拿道東,Main Road,,,,,11
 code:10189,10189,CHEUNG FU STREET,長富街,Secondary Road,,,,,11
-code:14165,14165,CHING SHING ROAD,清城路,Secondary Road,2003,2003-07-01,/egazette/en/2003-07-28-4729.pdf,/egazette/zh/2003-07-28-4729.pdf,11
+code:14165,14165,CHING SHING ROAD,清城路,Secondary Road,2003,2003-07-01,/egazette/en/2003-07-28-4729.pdf,,11
 code:10262,10262,CHOI HA ROAD,彩霞道,Secondary Road,2009,2009-06-26,/egazette/en/2009-13-26-4008.pdf,/egazette/zh/2009-13-26-4008.pdf,11
 code:14415,14415,CHOI HUNG INTERCHANGE,彩虹交匯處,Main Road,2016,2016-07-08,https://www.landsd.gov.hk/doc/en/street-name/egazette/2016/egn201620273863.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2016/cgn201620273863.pdf,11
 code:14230,14230,CHONG SAN ROAD,創新路,Secondary Road,,,,,11
@@ -684,7 +684,7 @@ code:51712,51712,,,Secondary Road,,,,,10
 code:52812,52812,,,Secondary Road,,,,,10
 code:10041,10041,BAKER STREET,必嘉街,Secondary Road,,,,,10
 code:14260,14260,BEL-AIR PEAK AVENUE,貝沙山道,Secondary Road,2009,2009-02-06,/egazette/en/2009-13-6-851.pdf,/egazette/zh/2009-13-6-851.pdf,10
-code:10125,10125,CARPENTER ROAD,賈炳達道,Secondary Road,,,,,10
+code:10125,10125,CARPENTER ROAD,賈炳達道,Secondary Road,1933,1933-05-12,/egazette/en/1933-gn340.pdf,/egazette/zh/1933-gn340.pdf,10
 code:10137,10137,CASTLE PEAK ROAD - SAN HUI,青山公路　－　新墟段,Main Road,,,,,10
 code:39358,39358,CENTRAL AVENUE,中央道,Secondary Road,,,,,10
 code:10180,10180,CHEONG WAN ROAD,暢運道,Main Road,2015,2015-11-13,/egazette/en/2015-19-46-8864.pdf,/egazette/zh/2015-19-46-8864.pdf,10
@@ -738,7 +738,7 @@ code:12207,12207,TAI CHUNG KIU ROAD,大涌橋路,Main Road,,,,,10
 code:12239,12239,TAI NAN STREET,大南街,Secondary Road,,,,,10
 code:12329,12329,TAM KON SHAN ROAD,担杆山路,Secondary Road,,,,,10
 code:12361,12361,TIN HAU TEMPLE ROAD,天后廟道,Secondary Road,,,,,10
-code:12363,12363,TIN KWONG ROAD,天光道,Secondary Road,,,,,10
+code:12363,12363,TIN KWONG ROAD,天光道,Secondary Road,1933,1933-12-22,/egazette/en/1933-gn823.pdf,/egazette/zh/1933-gn823.pdf,10
 code:13117,13117,TIN SHING ROAD,天城路,Secondary Road,,,,,10
 code:13155,13155,TIN TSZ ROAD,天慈路,Main Road,,,,,10
 code:12369,12369,TIN WAN PRAYA ROAD,田灣海旁道,Secondary Road,,,,,10
@@ -751,7 +751,7 @@ code:13964,13964,TSING YI NORTH COASTAL ROAD,青衣北岸公路,Main Road,,,,,10
 code:12476,12476,TSUI LAM ROAD,翠琳路,Secondary Road,,,,,10
 code:12480,12480,TSUI PING ROAD,翠屏道,Secondary Road,,,,,10
 code:13917,13917,TUNG FAI ROAD,東輝路,Secondary Road,2019,2019-07-26,https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923304781.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923304781.pdf,10
-code:12543,12543,TUNG TAU WAN ROAD,東頭灣道,Secondary Road,,,,,10
+code:12543,12543,TUNG TAU WAN ROAD,東頭灣道,Secondary Road,1933,1933-11-10,/egazette/en/1933-gn727.pdf,/egazette/zh/1933-gn727.pdf,10
 code:14134,14134,TUNG WUI ROAD,東匯路,Secondary Road,,,,,10
 code:39511,39511,WESTERN ROAD,西路,Secondary Road,,,,,10
 code:12777,12777,WONG CHUK STREET,黃竹街,Secondary Road,,,,,10
@@ -1092,7 +1092,7 @@ code:12111,12111,SIN FAT ROAD,茜發道,Secondary Road,2018,2018-05-04,https://w
 code:14235,14235,SKY PLAZA ROAD CENTRAL,翔天中路,Main Road,,,,,8
 code:13803,13803,SOUTH PERIMETER ROAD,南環路,Secondary Road,,,,,8
 code:12181,12181,SUN YIP STREET,新業街,Secondary Road,,,,,8
-code:14200,14200,SUNNY BAY ROAD,欣澳道,Secondary Road,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,/egazette/zh/2004-08-51-8104.pdf,8
+code:14200,14200,SUNNY BAY ROAD,欣澳道,Secondary Road,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,,8
 code:12200,12200,SZE MEI STREET,四美街,Secondary Road,2018,2018-02-02,https://www.landsd.gov.hk/doc/en/street-name/egazette/2018/egn20182205649.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2018/cgn20182205649.pdf,8
 code:12209,12209,TAI FONG STREET,大方街,Secondary Road,,,,,8
 code:12223,12223,TAI HONG STREET,太康街,Secondary Road,,,,,8
@@ -1273,7 +1273,7 @@ code:10152,10152,CENTRE STREET,正街,Secondary Road,,,,,7
 code:13044,13044,CHE KENG TUK ROAD,輋徑篤路,Secondary Road,,,,,7
 code:10179,10179,CHEONG TUNG ROAD,暢通道,Secondary Road,,,,,7
 code:10190,10190,CHEUNG HANG ROAD,長坑路,Secondary Road,,,,,7
-code:14164,14164,CHING HIU ROAD,清曉路,Secondary Road,2003,2003-07-11,/egazette/en/2003-07-28-4729.pdf,/egazette/zh/2003-07-28-4729.pdf,7
+code:14164,14164,CHING HIU ROAD,清曉路,Secondary Road,2003,2003-07-11,/egazette/en/2003-07-28-4729.pdf,,7
 code:10253,10253,CHING TAK STREET,正德街,Secondary Road,,,,,7
 code:14296,14296,CHOI HING ROAD,彩興路,Secondary Road,2010,2010-07-16,/egazette/en/2010-14-28-4562.pdf,/egazette/zh/2010-14-28-4562.pdf,7
 code:13528,13528,CHUEN ON ROAD,全安路,Secondary Road,,,,,7
@@ -1318,7 +1318,7 @@ code:11210,11210,LEI PUI STREET,梨貝街,Secondary Road,,,,,7
 code:11212,11212,LEI TUNG ESTATE ROAD,利東邨道,Secondary Road,,,,,7
 code:11232,11232,LIM CHO STREET,念祖街,Secondary Road,,,,,7
 code:14105,14105,LONG WO ROAD,朗和路,Secondary Road,,,,,7
-code:14206,14206,LONG YAN ROAD,朗欣路,Secondary Road,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,/egazette/zh/2004-08-51-8104.pdf,7
+code:14206,14206,LONG YAN ROAD,朗欣路,Secondary Road,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,,7
 code:11298,11298,LUGARD ROAD,盧吉道,Secondary Road,,,,,7
 code:13023,13023,LUNG KWU TAN ROAD,龍鼓灘路,Secondary Road,,,,,7
 code:13619,13619,LUNG WAN STREET,龍運街,Secondary Road,,,,,7
@@ -1343,8 +1343,8 @@ code:11624,11624,PAI TAU STREET,排頭街,Secondary Road,,,,,7
 code:11627,11627,PAK HOI STREET,北海街,Secondary Road,1909,1909-03-19,/egazette/en/1909-gn184.pdf,/egazette/zh/1909-gn184.pdf,7
 code:11630,11630,PAK KONG ROAD,北港路,Secondary Road,,,,,7
 code:11640,11640,PAK SHE PRAYA ROAD,北社海傍路,Track,,,,,7
-code:14208,14208,PARK PROMENADE,迎樂路,Track,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,/egazette/zh/2004-08-51-8104.pdf,7
-code:14199,14199,PENNY'S BAY HIGHWAY,竹篙灣公路,Highway,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,/egazette/zh/2004-08-51-8104.pdf,7
+code:14208,14208,PARK PROMENADE,迎樂路,Track,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,,7
+code:14199,14199,PENNY'S BAY HIGHWAY,竹篙灣公路,Highway,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,,7
 code:11683,11683,PERCIVAL STREET,波斯富街,Main Road,,,,,7
 code:11685,11685,PERKINS ROAD,白建時道,Secondary Road,,,,,7
 code:11689,11689,PIK SHA ROAD,碧沙路,Secondary Road,,,,,7
@@ -1606,7 +1606,7 @@ code:10418,10418,FA PO STREET,花圃街,Secondary Road,,,,,6
 code:14189,14189,FAI KING ROAD,快景路,Secondary Road,,,,,6
 code:13676,13676,FAN LENG LAU ROAD,粉嶺樓路,Secondary Road,,,,,6
 code:13703,13703,FANLING STATION ROAD,粉嶺車站路,Secondary Road,,,,,6
-code:14203,14203,FANTASY ROAD,幻想道,Secondary Road,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,/egazette/zh/2004-08-51-8104.pdf,6
+code:14203,14203,FANTASY ROAD,幻想道,Secondary Road,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,,6
 code:39343,39343,FOURTH STREET TAI WAI,大圍第四街,Track,,,,,6
 code:10521,10521,FU KIN STREET,富健街,Secondary Road,,,,,6
 code:10556,10556,FUK SHUN STREET,福順街,Secondary Road,2023,2023-03-10,https://www.landsd.gov.hk/doc/en/street-name/egazette/2023/egn202327101533.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2023/cgn202327101533.pdf,6
@@ -1627,7 +1627,7 @@ code:13958,13958,HUNG LOK ROAD,紅樂道,Secondary Road,,,,,6
 code:13720,13720,HUNG SHUN ROAD,洪順路,Secondary Road,,,,,6
 code:10876,10876,HUNG TO ROAD,鴻圖道,Secondary Road,,,,,6
 code:10879,10879,HYSAN AVENUE,希慎道,Secondary Road,,,,,6
-code:14202,14202,INSPIRATION DRIVE,迪欣路,Secondary Road,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,/egazette/zh/2004-08-51-8104.pdf,6
+code:14202,14202,INSPIRATION DRIVE,迪欣路,Secondary Road,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,,6
 code:10938,10938,KAI SHING STREET,啓成街,Secondary Road,,,,,6
 code:10941,10941,KAI TIN ROAD,啟田道,Secondary Road,,,,,6
 code:10945,10945,KAI YIP ROAD,啟業道,Secondary Road,,,,,6
@@ -2191,7 +2191,7 @@ code:12987,12987,PO FUNG ROAD,寶豐路,Secondary Road,,,,,5
 code:11746,11746,PO LUN STREET,寶輪街,Secondary Road,,,,,5
 code:13183,13183,PO PING ROAD,保平路,Secondary Road,,,,,5
 code:11752,11752,PO SHING STREET,寶城街,Secondary Road,,,,,5
-code:14124,14124,POK WAI SOUTH ROAD,壆圍南路,Secondary Road,2002,2002-08-23,/egazette/en/2002-06-34-5146.pdf,/egazette/zh/2002-06-34-5146.pdf,5
+code:14124,14124,POK WAI SOUTH ROAD,壆圍南路,Secondary Road,2002,2002-08-23,/egazette/en/2002-06-34-5146.pdf,,5
 code:11779,11779,POTTINGER STREET,砵典乍街,Track,,,,,5
 code:39450,39450,PRECIPITATOR ROAD,除塵器道,Secondary Road,,,,,5
 code:39563,39563,RIGI AVENUE,瑞奇大道,Secondary Road,,,,,5
@@ -2227,7 +2227,7 @@ code:13507,13507,SHUN TAT STREET,順達街,Secondary Road,,,,,5
 code:14306,14306,SIENA AVENUE,海澄湖畔路,Secondary Road,,,,,5
 code:13512,13512,SIU LUN STREET,兆麟街,Secondary Road,,,,,5
 code:14145,14145,SO KWUN WAT TSUEN ROAD,掃管笏村路,Secondary Road,,,,,5
-code:12147,12147,STANLEY BEACH ROAD,赤柱灘道,Secondary Road,,,,,5
+code:12147,12147,STANLEY BEACH ROAD,赤柱灘道,Secondary Road,1933,1933-11-10,/egazette/en/1933-gn727.pdf,/egazette/zh/1933-gn727.pdf,5
 code:12150,12150,STANLEY MAIN STREET,赤柱大街,Secondary Road,,,,,5
 code:12159,12159,STAUNTON STREET,士丹頓街,Secondary Road,,,,,5
 code:12164,12164,STONE NULLAH LANE,石水渠街,Secondary Road,,,,,5
@@ -2705,7 +2705,7 @@ code:10417,10417,FA PENG ROAD,花屏路,Track,,,,,4
 code:39224,39224,FAIRVIEW PARK 11TH STREET RIVER NORTH,錦綉花園河北第十一街,Secondary Road,,,,,4
 code:39221,39221,FAIRVIEW PARK 8TH STREET RIVER NORTH,錦綉花園河北第八街,Secondary Road,,,,,4
 code:10423,10423,FAIRVIEW PARK ROAD NORTH,錦綉大道北,Secondary Road,,,,,4
-code:10471,10471,FARM ROAD,農圃道,Secondary Road,,,,,4
+code:10471,10471,FARM ROAD,農圃道,Secondary Road,1933,1933-12-22,/egazette/en/1933-gn823.pdf,/egazette/zh/1933-gn823.pdf,4
 code:10489,10489,FINNIE STREET,芬尼街,Secondary Road,,,,,4
 code:10506,10506,FOOK TAK STREET,福德街,Track,,,,,4
 code:10512,10512,FORTRESS HILL ROAD,炮台山道,Secondary Road,,,,,4
@@ -2764,7 +2764,7 @@ code:10946,10946,KAI YUEN STREET,繼園街,Secondary Road,,,,,4
 code:14082,14082,KAM CHUI ROAD,金翠路,Secondary Road,,,,,4
 code:10951,10951,KAM CHUK LANE,金竹里,Secondary Road,,,,,4
 code:14418,14418,KAM KONG ROAD,錦江路,Secondary Road,2017,2017-01-20,https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn20172103330.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn20172103330.pdf,4
-code:14209,14209,KAM TIN BYPASS,錦田繞道,Main Road,2004,2004-12-31,/egazette/en/2004-08-53-8428.pdf,/egazette/zh/2004-08-53-8428.pdf,4
+code:14209,14209,KAM TIN BYPASS,錦田繞道,Main Road,2004,2004-12-31,/egazette/en/2004-08-53-8428.pdf,,4
 code:10963,10963,KAM WA STREET,金華街,Secondary Road,,,,,4
 code:13617,13617,KAM YING ROAD,錦英路,Secondary Road,,,,,4
 code:13065,13065,KAP PIN LONG LOWER LANE,甲邊朗下里,Secondary Road,,,,,4
@@ -2936,7 +2936,7 @@ code:12376,12376,TING ON STREET,定安街,Secondary Road,,,,,4
 code:12964,12964,TING TAI ROAD,汀太路,Main Road,,,,,4
 code:12993,12993,TONG HANG ROAD,塘亨路,Secondary Road,2020,2020-10-23,https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024436117.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024436117.pdf,4
 code:13871,13871,TONG MING STREET,唐明街,Secondary Road,,,,,4
-code:12391,12391,TONG SHUI ROAD,糖水道,Secondary Road,,,,,4
+code:12391,12391,TONG SHUI ROAD,糖水道,Secondary Road,1933,1933-07-28,/egazette/en/1933-gn511.pdf,/egazette/zh/1933-gn511.pdf,4
 code:13872,13872,TONG TAK STREET,唐德街,Secondary Road,,,,,4
 code:13894,13894,TONKIN STREET WEST,東京街西,Secondary Road,,,,,4
 code:12396,12396,TOWN PARK ROAD NORTH,公園北路,Secondary Road,,,,,4
@@ -2971,7 +2971,7 @@ code:39506,39506,WESTERN ROAD,西路,Secondary Road,,,,,4
 code:12701,12701,WESTLANDS ROAD,華蘭路,Secondary Road,,,,,4
 code:12734,12734,WING LUNG STREET,永隆街,Secondary Road,,,,,4
 code:13737,13737,WING TAK STREET,永德街,Secondary Road,,,,,4
-code:14204,14204,WING YAN ROAD,榮欣路,Secondary Road,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,/egazette/zh/2004-08-51-8104.pdf,4
+code:14204,14204,WING YAN ROAD,榮欣路,Secondary Road,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,,4
 code:12751,12751,WING YIP STREET,榮業街,Secondary Road,,,,,4
 code:12762,12762,WO LIU HANG ROAD,禾寮坑路,Secondary Road,,,,,4
 code:13029,13029,WO YI HOP LANE,和宜合里,Secondary Road,,,,,4
@@ -3916,7 +3916,7 @@ code:10176,10176,CHEONG SAN LANE,昌新里,Secondary Road,,,,,3
 code:14281,14281,CHEONG WUI ROAD,暢匯路,Secondary Road,,,,,3
 code:13809,13809,CHEONG YIP ROAD,暢業路,Secondary Road,,,,,3
 code:10186,10186,CHEUNG CHAU SPORTS ROAD,長洲體育路,Track,,,,,3
-code:10193,10193,CHEUNG HONG STREET,長康街,Secondary Road,,,,,3
+code:10193,10193,CHEUNG HONG STREET,長康街,Secondary Road,1933,1933-07-28,/egazette/en/1933-gn511.pdf,/egazette/zh/1933-gn511.pdf,3
 code:10196,10196,CHEUNG LAI STREET,長荔街,Secondary Road,,,,,3
 code:10197,10197,CHEUNG LEE STREET,祥利街,Secondary Road,,,,,3
 code:10209,10209,CHEUNG SHING STREET,長城街,Secondary Road,,,,,3
@@ -4181,9 +4181,9 @@ code:11523,11523,NGAN HON STREET,銀漢街,Secondary Road,,,,,3
 code:13906,13906,NIN FUNG ROAD,年豐路,Secondary Road,,,,,3
 code:11544,11544,NING FOO STREET,寧富街,Secondary Road,,,,,3
 code:13135,13135,NORTH POINT ESTATE LANE,北角邨里,Secondary Road,,,,,3
-code:11550,11550,NORTH POINT ROAD,北角道,Secondary Road,,,,,3
+code:11550,11550,NORTH POINT ROAD,北角道,Secondary Road,1933,1933-07-28,/egazette/en/1933-gn511.pdf,/egazette/zh/1933-gn511.pdf,3
 code:11552,11552,NORTH STREET,北街,Secondary Road,,,,,3
-code:11553,11553,NORTH VIEW STREET,北景街,Secondary Road,,,,,3
+code:11553,11553,NORTH VIEW STREET,北景街,Secondary Road,1933,1933-07-28,/egazette/en/1933-gn511.pdf,/egazette/zh/1933-gn511.pdf,3
 code:11557,11557,O'BRIEN ROAD,柯布連道,Secondary Road,,,,,3
 code:14017,14017,OI YIN STREET,愛賢街,Secondary Road,,,,,3
 code:39520,39520,OIL TANK ROAD WEST,,Secondary Road,,,,,3
@@ -5200,7 +5200,7 @@ code:39548,39548,CELESTIAL AVENUE,半山徑,Secondary Road,,,,,2
 code:39505,39505,CENTRAL ROAD,中間道,Secondary Road,,,,,2
 code:39479,39479,CHA KWO LING MAIN STREET,茶果嶺大街,Track,,,,,2
 code:10156,10156,CHAK ON ROAD,澤安道,Secondary Road,,,,,2
-code:14205,14205,CHAK YAN ROAD,澤欣路,Secondary Road,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,/egazette/zh/2004-08-51-8104.pdf,2
+code:14205,14205,CHAK YAN ROAD,澤欣路,Secondary Road,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,,2
 code:10161,10161,CHANGSHA STREET,長沙街,Secondary Road,1909,1909-03-19,/egazette/en/1909-gn184.pdf,/egazette/zh/1909-gn184.pdf,2
 code:13551,13551,CHAP FUK ROAD,集福路,Secondary Road,,,,,2
 code:14011,14011,CHAU TAU WEST ROAD,洲頭西路,Secondary Road,,,,,2
@@ -5288,7 +5288,7 @@ code:10500,10500,FOO KWAI STREET,富貴街,Secondary Road,,,,,2
 code:10502,10502,FOO YUEN STREET,富源街,Secondary Road,,,,,2
 code:10508,10508,FOOK YUM ROAD,福蔭道,Secondary Road,,,,,2
 code:10509,10509,FORBES STREET,科士街,Secondary Road,,,,,2
-code:10511,10511,FORT STREET,堡壘街,Secondary Road,,,,,2
+code:10511,10511,FORT STREET,堡壘街,Secondary Road,1933,1933-07-28,/egazette/en/1933-gn511.pdf,/egazette/zh/1933-gn511.pdf,2
 code:13018,13018,FU HANG ROAD,虎坑路,Secondary Road,,,,,2
 code:13878,13878,FU HONG STREET,富康街,Secondary Road,,,,,2
 code:13233,13233,FU MEI STREET EAST,富美東街,Secondary Road,,,,,2
@@ -5300,7 +5300,7 @@ code:13876,13876,FU YEE ROAD,富怡道,Secondary Road,,,,,2
 code:10538,10538,FU YUE STREET,富裕街,Secondary Road,,,,,2
 code:10539,10539,FU YUNG STREET,芙蓉街,Secondary Road,,,,,2
 code:10548,10548,FUK KWAN AVENUE,福群道,Secondary Road,1931,1931-02-13,/egazette/en/1931-gn86.pdf,/egazette/zh/1931-gn86.pdf,2
-code:10550,10550,FUK LO TSUN ROAD,福佬村道,Secondary Road,,,,,2
+code:10550,10550,FUK LO TSUN ROAD,福佬村道,Secondary Road,1933,1933-05-12,/egazette/en/1933-gn340.pdf,/egazette/zh/1933-gn340.pdf,2
 code:13131,13131,FUK LOK PATH,福樂徑,Track,,,,,2
 code:13132,13132,FUK SHING PATH,福盛徑,Track,,,,,2
 code:10567,10567,FUNG CHI ROAD,鳳池路,Secondary Road,,,,,2
@@ -5323,7 +5323,7 @@ code:10640,10640,HAM TIN STREET,鹹田街,Secondary Road,,,,,2
 code:13726,13726,HANG KWAI STREET,恆貴街,Secondary Road,,,,,2
 code:13767,13767,HANG MING STREET,恆明街,Secondary Road,,,,,2
 code:13657,13657,HANG SHIN LINK,行善里,Secondary Road,,,,,2
-code:10673,10673,HAU WONG ROAD,侯王道,Secondary Road,,,,,2
+code:10673,10673,HAU WONG ROAD,侯王道,Secondary Road,1933,1933-05-12,/egazette/en/1933-gn340.pdf,/egazette/zh/1933-gn340.pdf,2
 code:10674,10674,HAU YUEN PATH,校園徑,Secondary Road,,,,,2
 code:10676,10676,HAWTHORN ROAD,荷塘道,Secondary Road,,,,,2
 code:10679,10679,HEALTHY STREET CENTRAL,健康中街,Secondary Road,,,,,2
@@ -5334,7 +5334,7 @@ code:10696,10696,HEUNG SZE WUI STREET,鄉事會街,Secondary Road,,,,,2
 code:14531,14531,HEUNG TSZ ROAD,鄉梓路,Secondary Road,2022,2022-12-30,https://www.landsd.gov.hk/doc/en/street-name/egazette/2022/egn202226527562.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2022/cgn202226527562.pdf,2
 code:10697,10697,HEUNG WO STREET,享和街,Secondary Road,,,,,2
 code:10701,10701,HI SHI ROAD,喜士路,Track,,,,,2
-code:10709,10709,HILLWOOD ROAD,山林道,Secondary Road,,,,,2
+code:10709,10709,HILLWOOD ROAD,山林道,Secondary Road,1933,1933-05-12,/egazette/en/1933-gn341.pdf,/egazette/zh/1933-gn341.pdf,2
 code:10710,10710,HIN FAT LANE,顯發里,Secondary Road,,,,,2
 code:13711,13711,HIN KWAI LANE,顯貴里,Secondary Road,,,,,2
 code:10714,10714,HIN TIN STREET,顯田街,Secondary Road,,,,,2
@@ -5463,7 +5463,7 @@ code:11223,11223,LI PO LUNG PATH,李寶龍路,Track,,,,,2
 code:39299,39299,LILAC PATH,丁香徑,Secondary Road,,,,,2
 code:13846,13846,LING HONG ROAD,靈康路,Secondary Road,,,,,2
 code:14187,14187,LING KWONG STREET,嶺光街,Secondary Road,,,,,2
-code:11241,11241,LION ROCK ROAD,獅子石道,Secondary Road,,,,,2
+code:11241,11241,LION ROCK ROAD,獅子石道,Secondary Road,1933,1933-05-12,/egazette/en/1933-gn340.pdf,/egazette/zh/1933-gn340.pdf,2
 code:14331,14331,LIU POK ROAD,料壆路,Secondary Road,2010,2010-06-25,/egazette/en/2010-14-25-4011.pdf,/egazette/zh/2010-14-25-4011.pdf,2
 code:11245,11245,LO LUNG HANG STREET,老龍坑街,Secondary Road,,,,,2
 code:11248,11248,LO WU STATION ROAD,羅湖道,Secondary Road,,,,,2
@@ -5485,7 +5485,7 @@ code:11300,11300,LUK HOP STREET,六合街,Secondary Road,2018,2018-02-02,https:/
 code:11309,11309,LUNG CHI PATH,龍池徑,Track,,,,,2
 code:14503,14503,LUNG CHUN ROAD,龍峻路,Secondary Road,2021,2021-02-26,https://www.landsd.gov.hk/doc/en/street-name/egazette/2021/egn202125081088.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2021/cgn202125081088.pdf,2
 code:11311,11311,LUNG FUNG STREET,龍鳳街,Secondary Road,,,,,2
-code:11315,11315,LUNG KONG ROAD,龍崗道,Secondary Road,,,,,2
+code:11315,11315,LUNG KONG ROAD,龍崗道,Secondary Road,1933,1933-05-12,/egazette/en/1933-gn340.pdf,/egazette/zh/1933-gn340.pdf,2
 code:11318,11318,LUNG PAK STREET,龍柏街,Secondary Road,,,,,2
 code:11324,11324,LUNG TAK STREET,龍德街,Secondary Road,,,,,2
 code:14391,14391,LUNG TIN STREET,龍田街,Secondary Road,2014,2014-03-14,/egazette/en/2014-18-11-1563.pdf,/egazette/zh/2014-18-11-1563.pdf,2
@@ -5535,12 +5535,12 @@ code:14535,14535,MUK WO STREET,沐和街,Secondary Road,2023,2023-04-28,https://
 code:39592,39592,MURRAY ROAD,苗力賢路,Secondary Road,,,,,2
 code:14275,14275,NAM HANG TSUEN ROAD,南坑村路,Secondary Road,,,,,2
 code:11489,11489,NAM HONG STREET,南康街,Secondary Road,,,,,2
-code:11490,11490,NAM KOK ROAD,南角道,Secondary Road,,,,,2
+code:11490,11490,NAM KOK ROAD,南角道,Secondary Road,1933,1933-05-12,/egazette/en/1933-gn340.pdf,/egazette/zh/1933-gn340.pdf,2
 code:11493,11493,NAM NING STREET,南寧街,Secondary Road,,,,,2
 code:11498,11498,NAM SHING STREET,南盛街,Secondary Road,,,,,2
 code:11500,11500,NAM TAU STREET,南頭街,Secondary Road,,,,,2
 code:39577,39577,NEUCHATEL AVENUE,納沙泰爾大道,Secondary Road,,,,,2
-code:11516,11516,NGA TSIN LONG ROAD,衙前塱道,Secondary Road,,,,,2
+code:11516,11516,NGA TSIN LONG ROAD,衙前塱道,Secondary Road,1933,1933-05-12,/egazette/en/1933-gn340.pdf,/egazette/zh/1933-gn340.pdf,2
 code:11518,11518,NGA YING CHAU STREET,牙鷹洲街,Secondary Road,,,,,2
 code:11521,11521,NGAN FUNG STREET,銀鳳街,Secondary Road,,,,,2
 code:11525,11525,NGAN MOK STREET,銀幕街,Secondary Road,,,,,2
@@ -5571,7 +5571,7 @@ code:14506,14506,ON YU PATH,安愉徑,Secondary Road,2021,2021-05-28,https://www
 code:11621,11621,OSMANTHUS ROAD,丹桂路,Secondary Road,,,,,2
 code:39526,39526,OUTFALL ROAD,出水口路,Secondary Road,,,,,2
 code:11623,11623,PAI CHONG ROAD,排廠路,Track,,,,,2
-code:14170,14170,PAK FA LAM ROAD,百花林路,Secondary Road,2003,2003-11-28,/egazette/en/2003-07-48-8574.pdf,/egazette/zh/2003-07-48-8574.pdf,2
+code:14170,14170,PAK FA LAM ROAD,百花林路,Secondary Road,2003,2003-11-28,/egazette/en/2003-07-48-8574.pdf,,2
 code:11629,11629,PAK KOK TSUI ROAD,北角咀路,Track,,,,,2
 code:13060,13060,PAK KONG AU ROAD,北港㘭路,Secondary Road,,,,,2
 code:11632,11632,PAK LEE STREET,百利街,Secondary Road,,,,,2
@@ -5650,7 +5650,7 @@ code:39289,39289,SANTA CLARA AVENUE,聖哥拉徑,Secondary Road,,,,,2
 code:14078,14078,SAU FUNG STREET,秀豐街,Secondary Road,,,,,2
 code:11932,11932,SAU WA FONG,秀華坊,Track,,,,,2
 code:11934,11934,SCENIC VILLA DRIVE,美景徑,Secondary Road,,,,,2
-code:14207,14207,SEA POINT ROAD,海鳴路,Secondary Road,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,/egazette/zh/2004-08-51-8104.pdf,2
+code:14207,14207,SEA POINT ROAD,海鳴路,Secondary Road,2004,2004-12-17,/egazette/en/2004-08-51-8104.pdf,,2
 code:11944,11944,SEAVIEW PROMENADE,麗海堤岸路,Track,,,,,2
 code:11949,11949,SEE CHEUNG STREET,市場街,Track,,,,,2
 code:11966,11966,SHA TIN STATION CIRCUIT,沙田車站圍,Secondary Road,,,,,2
@@ -10733,7 +10733,7 @@ code:10280,10280,CHUN SHING STREET,春勝街,Secondary Road,,,,,1
 code:10281,10281,CHUN TIN STREET,春田街,Secondary Road,2023,2023-05-05,https://www.landsd.gov.hk/doc/en/street-name/egazette/2023/egn202327182752.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2023/cgn202327182752.pdf,1
 code:13817,13817,CHUN WAN ROAD SOUTH,駿運南路,Secondary Road,,,,,1
 code:10283,10283,CHUN WING STREET,振榮街,Secondary Road,,,,,1
-code:10285,10285,CHUN YEUNG STREET,春秧街,Secondary Road,,,,,1
+code:10285,10285,CHUN YEUNG STREET,春秧街,Secondary Road,1933,1933-07-28,/egazette/en/1933-gn511.pdf,/egazette/zh/1933-gn511.pdf,1
 code:10288,10288,CHUNG CHING STREET,忠正街,Secondary Road,,,,,1
 code:10293,10293,CHUNG HOK ROAD,中學路,Track,,,,,1
 code:13519,13519,CHUNG KING ROAD,中景道,Secondary Road,,,,,1
@@ -10889,7 +10889,7 @@ code:14094,14094,FLOWER MARKET PATH,花墟徑,Track,,,,,1
 code:10499,10499,FONG WAH LANE,芳華里,Track,,,,,1
 code:10501,10501,FOO MING STREET,富明街,Secondary Road,,,,,1
 code:10507,10507,FOOK YAT PATH,福日徑,Track,,,,,1
-code:10510,10510,FORFAR ROAD,科發道,Secondary Road,,,,,1
+code:10510,10510,FORFAR ROAD,科發道,Secondary Road,1933,1933-12-22,/egazette/en/1933-gn823.pdf,/egazette/zh/1933-gn823.pdf,1
 code:10513,10513,FORTUNE STREET,幸福街,Secondary Road,,,,,1
 code:39589,39589,FRASER RISE,符理善徑,Secondary Road,,,,,1
 code:10516,10516,FRASER ROAD,符禮修路,Secondary Road,,,,,1
@@ -11543,7 +11543,7 @@ code:14303,14303,PENG YU PATH,坪愉徑,Track,,,,,1
 code:39302,39302,PEONY PATH,牡丹徑,Secondary Road,,,,,1
 code:39559,39559,PETRUS AVENUE,貝翠大道,Secondary Road,,,,,1
 code:39545,39545,PHOENIX PATH,鳳凰徑,Secondary Road,,,,,1
-code:11695,11695,PINE TREE HILL ROAD,松山道,Secondary Road,,,,,1
+code:11695,11695,PINE TREE HILL ROAD,松山道,Secondary Road,1933,1933-05-12,/egazette/en/1933-gn341.pdf,/egazette/zh/1933-gn341.pdf,1
 code:11699,11699,PING CHI STREET,平治街,Main Road,,,,,1
 code:11701,11701,PING FAI PATH,屏輝徑,Track,,,,,1
 code:11702,11702,PING FU PATH,屏富徑,Track,,,,,1
@@ -11842,12 +11842,12 @@ code:12151,12151,STANLEY MARKET ROAD,赤柱市場道,Secondary Road,,,,,1
 code:12152,12152,STANLEY MOUND ROAD,赤柱崗道,Secondary Road,,,,,1
 code:12160,12160,STAVELEY STREET,士他花利街,Track,,,,,1
 code:12162,12162,STEWART TERRACE,十間,Secondary Road,,,,,1
-code:12163,12163,STIRLING ROAD,士他令道,Secondary Road,,,,,1
+code:12163,12163,STIRLING ROAD,士他令道,Secondary Road,1933,1933-12-22,/egazette/en/1933-gn823.pdf,/egazette/zh/1933-gn823.pdf,1
 code:12167,12167,SUGAR STREET,糖街,Secondary Road,1931,1931-05-15,/egazette/en/1931-gn300.pdf,/egazette/zh/1931-gn300.pdf,1
 code:12168,12168,SUI FUNG LANE,穗豐里,Secondary Road,,,,,1
 code:12172,12172,SUI ON STREET,瑞安街,Secondary Road,,,,,1
 code:12176,12176,SUN KI STREET,新基街,Track,,,,,1
-code:12180,12180,SUN WUI ROAD,新會道,Secondary Road,,,,,1
+code:12180,12180,SUN WUI ROAD,新會道,Secondary Road,1933,1933-07-28,/egazette/en/1933-gn511.pdf,/egazette/zh/1933-gn511.pdf,1
 code:12184,12184,SUNG HING LANE,崇慶里,Track,,,,,1
 code:12185,12185,SUNG KIT STREET,崇潔街,Track,,,,,1
 code:12190,12190,SUNG YIN LANE,崇賢里,Secondary Road,,,,,1
@@ -11901,7 +11901,7 @@ code:39164,39164,TAI YUEN TSUEN LANE No.7,大元村第七巷,Track,,,,,1
 code:39165,39165,TAI YUEN TSUEN LANE No.8,大元村第八巷,Track,,,,,1
 code:12300,12300,TAK CHEONG LANE,德昌里,Secondary Road,,,,,1
 code:12302,12302,TAK CHING COURT,德政圍,Secondary Road,,,,,1
-code:12305,12305,TAK HING STREET,德興街,Secondary Road,,,,,1
+code:12305,12305,TAK HING STREET,德興街,Secondary Road,1933,1933-07-14,/egazette/en/1933-gn481.pdf,/egazette/zh/1933-gn481.pdf,1
 code:13837,13837,TAK HOI STREET,德海街,Secondary Road,,,,,1
 code:12307,12307,TAK KEI STREET,得基街,Secondary Road,,,,,1
 code:12309,12309,TAK LEE STREET,得利街,Secondary Road,,,,,1
@@ -12013,7 +12013,7 @@ code:12559,12559,UN ON LANE WEST,元安里西,Track,,,,,1
 code:12560,12560,UN SHING LANE,元勝里,Track,,,,,1
 code:14384,14384,UNIVERSAL GATE ROAD,普門路,Secondary Road,2013,2013-08-23,/egazette/en/2013-17-34-4994.pdf,/egazette/zh/2013-17-34-4994.pdf,1
 code:12561,12561,UNIVERSITY DRIVE,大學道,Secondary Road,,,,,1
-code:12566,12566,VALLEY ROAD,山谷道,Secondary Road,,,,,1
+code:12566,12566,VALLEY ROAD,山谷道,Secondary Road,1933,1933-07-14,/egazette/en/1933-gn481.pdf,/egazette/zh/1933-gn481.pdf,1
 code:39279,39279,VENTURA AVENUE,溫黛娜徑,Secondary Road,,,,,1
 code:12568,12568,VERBENA ROAD,地錦路,Secondary Road,,,,,1
 code:39285,39285,VICTORIANA AVENUE,維狄雅徑,Secondary Road,,,,,1

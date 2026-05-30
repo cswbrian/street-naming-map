@@ -1,0 +1,41 @@
+{
+  "batch_id": "1933-gn481-valley-tak-hing",
+  "gazette_notice_label": "Government Notification No. 481",
+  "publication_date": "1933-07-14",
+  "gazette_url_en": "/egazette/en/1933-gn481.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/197771.pdf",
+  "streets": [
+    {
+      "street_code": "12566",
+      "english_name": "VALLEY ROAD",
+      "chinese_name": "山谷道",
+      "history": [
+        {
+          "publication_date": "1933-07-14",
+          "change_kind": "declare",
+          "street_name_en": "Valley Road",
+          "street_name_zh": "山谷道",
+          "gazette_notice_label": "Government Notification No. 481",
+          "proof_pdf_url": "/egazette/en/1933-gn481.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12305",
+      "english_name": "TAK HING STREET",
+      "chinese_name": "德興街",
+      "history": [
+        {
+          "publication_date": "1933-07-14",
+          "change_kind": "declare",
+          "street_name_en": "Tak Hing Street",
+          "street_name_zh": "德興街",
+          "gazette_notice_label": "Government Notification No. 481",
+          "proof_pdf_url": "/egazette/en/1933-gn481.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

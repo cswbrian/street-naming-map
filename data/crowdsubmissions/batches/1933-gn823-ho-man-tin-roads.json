@@ -1,0 +1,73 @@
+{
+  "batch_id": "1933-gn823-ho-man-tin-roads",
+  "gazette_notice_label": "Government Notification No. 823",
+  "publication_date": "1933-12-22",
+  "gazette_url_en": "/egazette/en/1933-gn823.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/198836.pdf",
+  "streets": [
+    {
+      "street_code": "12363",
+      "english_name": "TIN KWONG ROAD",
+      "chinese_name": "天光道",
+      "history": [
+        {
+          "publication_date": "1933-12-22",
+          "change_kind": "declare",
+          "street_name_en": "Tin Kwong Road",
+          "street_name_zh": "天光道",
+          "gazette_notice_label": "Government Notification No. 823",
+          "proof_pdf_url": "/egazette/en/1933-gn823.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10471",
+      "english_name": "FARM ROAD",
+      "chinese_name": "農圃道",
+      "history": [
+        {
+          "publication_date": "1933-12-22",
+          "change_kind": "declare",
+          "street_name_en": "Farm Road",
+          "street_name_zh": "農圃道",
+          "gazette_notice_label": "Government Notification No. 823",
+          "proof_pdf_url": "/egazette/en/1933-gn823.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10510",
+      "english_name": "FORFAR ROAD",
+      "chinese_name": "科發道",
+      "history": [
+        {
+          "publication_date": "1933-12-22",
+          "change_kind": "declare",
+          "street_name_en": "Forfar Road",
+          "street_name_zh": "科發道",
+          "gazette_notice_label": "Government Notification No. 823",
+          "proof_pdf_url": "/egazette/en/1933-gn823.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12163",
+      "english_name": "STIRLING ROAD",
+      "chinese_name": "士他令道",
+      "history": [
+        {
+          "publication_date": "1933-12-22",
+          "change_kind": "declare",
+          "street_name_en": "Stirling Road",
+          "street_name_zh": "士他令道",
+          "gazette_notice_label": "Government Notification No. 823",
+          "proof_pdf_url": "/egazette/en/1933-gn823.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "batch_id": "1933-gn511-north-point-streets",
+  "gazette_notice_label": "Government Notification No. 511",
+  "publication_date": "1933-07-28",
+  "gazette_url_en": "/egazette/en/1933-gn511.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/197861.pdf",
+  "streets": [
+    {
+      "street_code": "12180",
+      "english_name": "SUN WUI ROAD",
+      "chinese_name": "新會道",
+      "history": [
+        {
+          "publication_date": "1933-07-28",
+          "change_kind": "declare",
+          "street_name_en": "Sun Wui Road",
+          "street_name_zh": "新會路",
+          "gazette_notice_label": "Government Notification No. 511",
+          "proof_pdf_url": "/egazette/en/1933-gn511.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 新會路; database 新會道."
+        }
+      ]
+    },
+    {
+      "street_code": "10897",
+      "english_name": "JAVA ROAD",
+      "chinese_name": "渣華道",
+      "history": [
+        {
+          "publication_date": "1933-07-28",
+          "change_kind": "declare",
+          "street_name_en": "Java Road",
+          "street_name_zh": "爪哇路",
+          "gazette_notice_label": "Government Notification No. 511",
+          "proof_pdf_url": "/egazette/en/1933-gn511.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 爪哇路; database 渣華道."
+        }
+      ]
+    },
+    {
+      "street_code": "10285",
+      "english_name": "CHUN YEUNG STREET",
+      "chinese_name": "春秧街",
+      "history": [
+        {
+          "publication_date": "1933-07-28",
+          "change_kind": "declare",
+          "street_name_en": "Chun Yeung Street",
+          "street_name_zh": "春秧街",
+          "gazette_notice_label": "Government Notification No. 511",
+          "proof_pdf_url": "/egazette/en/1933-gn511.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11550",
+      "english_name": "NORTH POINT ROAD",
+      "chinese_name": "北角道",
+      "history": [
+        {
+          "publication_date": "1933-07-28",
+          "change_kind": "declare",
+          "street_name_en": "North Point Road",
+          "street_name_zh": "北角路",
+          "gazette_notice_label": "Government Notification No. 511",
+          "proof_pdf_url": "/egazette/en/1933-gn511.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 北角路; database 北角道."
+        }
+      ]
+    },
+    {
+      "street_code": "12391",
+      "english_name": "TONG SHUI ROAD",
+      "chinese_name": "糖水道",
+      "history": [
+        {
+          "publication_date": "1933-07-28",
+          "change_kind": "declare",
+          "street_name_en": "Tong Shui Road",
+          "street_name_zh": "糖水路",
+          "gazette_notice_label": "Government Notification No. 511",
+          "proof_pdf_url": "/egazette/en/1933-gn511.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 糖水路; database 糖水道."
+        }
+      ]
+    },
+    {
+      "street_code": "10511",
+      "english_name": "FORT STREET",
+      "chinese_name": "堡壘街",
+      "history": [
+        {
+          "publication_date": "1933-07-28",
+          "change_kind": "declare",
+          "street_name_en": "Fort Street",
+          "street_name_zh": "堡壘街",
+          "gazette_notice_label": "Government Notification No. 511",
+          "proof_pdf_url": "/egazette/en/1933-gn511.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10193",
+      "english_name": "CHEUNG HONG STREET",
+      "chinese_name": "長康街",
+      "history": [
+        {
+          "publication_date": "1933-07-28",
+          "change_kind": "declare",
+          "street_name_en": "Cheung Hong Street",
+          "street_name_zh": "長康街",
+          "gazette_notice_label": "Government Notification No. 511",
+          "proof_pdf_url": "/egazette/en/1933-gn511.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11553",
+      "english_name": "NORTH VIEW STREET",
+      "chinese_name": "北景街",
+      "history": [
+        {
+          "publication_date": "1933-07-28",
+          "change_kind": "declare",
+          "street_name_en": "North View Street",
+          "street_name_zh": "北景街",
+          "gazette_notice_label": "Government Notification No. 511",
+          "proof_pdf_url": "/egazette/en/1933-gn511.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

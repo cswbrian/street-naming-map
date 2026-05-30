@@ -1,0 +1,140 @@
+{
+  "batch_id": "1933-gn340-kowloon-city-roads",
+  "gazette_notice_label": "Government Notification No. 340",
+  "publication_date": "1933-05-12",
+  "gazette_url_en": "/egazette/en/1933-gn340.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/197339.pdf",
+  "streets": [
+    {
+      "street_code": "11315",
+      "english_name": "LUNG KONG ROAD",
+      "chinese_name": "龍崗道",
+      "history": [
+        {
+          "publication_date": "1933-05-12",
+          "change_kind": "declare",
+          "street_name_en": "Lung Kong Road",
+          "street_name_zh": "龍崗道",
+          "gazette_notice_label": "Government Notification No. 340",
+          "proof_pdf_url": "/egazette/en/1933-gn340.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11490",
+      "english_name": "NAM KOK ROAD",
+      "chinese_name": "南角道",
+      "history": [
+        {
+          "publication_date": "1933-05-12",
+          "change_kind": "declare",
+          "street_name_en": "Nam Kok Road",
+          "street_name_zh": "南角路",
+          "gazette_notice_label": "Government Notification No. 340",
+          "proof_pdf_url": "/egazette/en/1933-gn340.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 南角路; database 南角道."
+        }
+      ]
+    },
+    {
+      "street_code": "11516",
+      "english_name": "NGA TSIN LONG ROAD",
+      "chinese_name": "衙前塱道",
+      "history": [
+        {
+          "publication_date": "1933-05-12",
+          "change_kind": "declare",
+          "street_name_en": "Nga Tsin Long Road",
+          "street_name_zh": "衙前塱道",
+          "gazette_notice_label": "Government Notification No. 340",
+          "proof_pdf_url": "/egazette/en/1933-gn340.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10673",
+      "english_name": "HAU WONG ROAD",
+      "chinese_name": "侯王道",
+      "history": [
+        {
+          "publication_date": "1933-05-12",
+          "change_kind": "declare",
+          "street_name_en": "Hau Wong Road",
+          "street_name_zh": "侯王道",
+          "gazette_notice_label": "Government Notification No. 340",
+          "proof_pdf_url": "/egazette/en/1933-gn340.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11241",
+      "english_name": "LION ROCK ROAD",
+      "chinese_name": "獅子石道",
+      "history": [
+        {
+          "publication_date": "1933-05-12",
+          "change_kind": "declare",
+          "street_name_en": "Lion Rock Road",
+          "street_name_zh": "獅子石街",
+          "gazette_notice_label": "Government Notification No. 340",
+          "proof_pdf_url": "/egazette/en/1933-gn340.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 獅子石街; database 獅子石道."
+        }
+      ]
+    },
+    {
+      "street_code": "10550",
+      "english_name": "FUK LO TSUN ROAD",
+      "chinese_name": "福佬村道",
+      "history": [
+        {
+          "publication_date": "1933-05-12",
+          "change_kind": "declare",
+          "street_name_en": "Fuk Lo Tsun Road",
+          "street_name_zh": "福老村道",
+          "gazette_notice_label": "Government Notification No. 340",
+          "proof_pdf_url": "/egazette/en/1933-gn340.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 福老村道; database 福佬村道."
+        }
+      ]
+    },
+    {
+      "street_code": "10909",
+      "english_name": "JUNCTION ROAD",
+      "chinese_name": "聯合道",
+      "history": [
+        {
+          "publication_date": "1933-05-12",
+          "change_kind": "declare",
+          "street_name_en": "Junction Road",
+          "street_name_zh": "聯合道",
+          "gazette_notice_label": "Government Notification No. 340",
+          "proof_pdf_url": "/egazette/en/1933-gn340.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10125",
+      "english_name": "CARPENTER ROAD",
+      "chinese_name": "賈炳達道",
+      "history": [
+        {
+          "publication_date": "1933-05-12",
+          "change_kind": "declare",
+          "street_name_en": "Carpenter Road",
+          "street_name_zh": "賈炳達道",
+          "gazette_notice_label": "Government Notification No. 340",
+          "proof_pdf_url": "/egazette/en/1933-gn340.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

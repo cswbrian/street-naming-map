@@ -134,7 +134,7 @@
         "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -166,7 +166,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
         "submission_id": "1905-gn158-10599"
       }
@@ -1605,7 +1605,7 @@
         "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -1637,7 +1637,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
         "submission_id": "1"
       }
@@ -4458,6 +4458,1733 @@
     "event_count": 1
   },
   {
+    "street_key": "code:11315",
+    "street_code": "11315",
+    "street_name_en": "Lung Kong Road",
+    "street_name_zh": "龍崗道",
+    "canonical_naming_date": "1933-05-12",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-05-12",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-05-12",
+        "change_kind": "declare",
+        "name_en": "Lung Kong Road",
+        "name_zh": "龍崗道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.340",
+        "notice_label_zh": "第340號",
+        "notice_url_en": "/egazette/en/1933-gn340.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn340.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn340-kowloon-city-roads-11315-1933-05-12",
+        "source": "crowdsubmitted",
+        "street_code": "11315",
+        "publication_date": "1933-05-12",
+        "change_kind": "declare",
+        "street_name_en": "Lung Kong Road",
+        "street_name_zh": "龍崗道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN340",
+        "government_notice_label_en": "G.N.340",
+        "government_notice_label_zh": "第340號",
+        "government_notice_url_en": "/egazette/en/1933-gn340.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn340.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn340-kowloon-city-roads-11315-1933-05-12",
+        "notice_stem": "1933-gn340"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:11490",
+    "street_code": "11490",
+    "street_name_en": "Nam Kok Road",
+    "street_name_zh": "南角路",
+    "canonical_naming_date": "1933-05-12",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-05-12",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-05-12",
+        "change_kind": "declare",
+        "name_en": "Nam Kok Road",
+        "name_zh": "南角路",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.340",
+        "notice_label_zh": "第340號",
+        "notice_url_en": "/egazette/en/1933-gn340.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn340.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": "Gazette ZH 南角路; database 南角道."
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn340-kowloon-city-roads-11490-1933-05-12",
+        "source": "crowdsubmitted",
+        "street_code": "11490",
+        "publication_date": "1933-05-12",
+        "change_kind": "declare",
+        "street_name_en": "Nam Kok Road",
+        "street_name_zh": "南角路",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN340",
+        "government_notice_label_en": "G.N.340",
+        "government_notice_label_zh": "第340號",
+        "government_notice_url_en": "/egazette/en/1933-gn340.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn340.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": "Gazette ZH 南角路; database 南角道.",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn340-kowloon-city-roads-11490-1933-05-12",
+        "notice_stem": "1933-gn340"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:11516",
+    "street_code": "11516",
+    "street_name_en": "Nga Tsin Long Road",
+    "street_name_zh": "衙前塱道",
+    "canonical_naming_date": "1933-05-12",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-05-12",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-05-12",
+        "change_kind": "declare",
+        "name_en": "Nga Tsin Long Road",
+        "name_zh": "衙前塱道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.340",
+        "notice_label_zh": "第340號",
+        "notice_url_en": "/egazette/en/1933-gn340.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn340.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn340-kowloon-city-roads-11516-1933-05-12",
+        "source": "crowdsubmitted",
+        "street_code": "11516",
+        "publication_date": "1933-05-12",
+        "change_kind": "declare",
+        "street_name_en": "Nga Tsin Long Road",
+        "street_name_zh": "衙前塱道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN340",
+        "government_notice_label_en": "G.N.340",
+        "government_notice_label_zh": "第340號",
+        "government_notice_url_en": "/egazette/en/1933-gn340.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn340.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn340-kowloon-city-roads-11516-1933-05-12",
+        "notice_stem": "1933-gn340"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10673",
+    "street_code": "10673",
+    "street_name_en": "Hau Wong Road",
+    "street_name_zh": "侯王道",
+    "canonical_naming_date": "1933-05-12",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-05-12",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-05-12",
+        "change_kind": "declare",
+        "name_en": "Hau Wong Road",
+        "name_zh": "侯王道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.340",
+        "notice_label_zh": "第340號",
+        "notice_url_en": "/egazette/en/1933-gn340.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn340.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn340-kowloon-city-roads-10673-1933-05-12",
+        "source": "crowdsubmitted",
+        "street_code": "10673",
+        "publication_date": "1933-05-12",
+        "change_kind": "declare",
+        "street_name_en": "Hau Wong Road",
+        "street_name_zh": "侯王道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN340",
+        "government_notice_label_en": "G.N.340",
+        "government_notice_label_zh": "第340號",
+        "government_notice_url_en": "/egazette/en/1933-gn340.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn340.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn340-kowloon-city-roads-10673-1933-05-12",
+        "notice_stem": "1933-gn340"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:11241",
+    "street_code": "11241",
+    "street_name_en": "Lion Rock Road",
+    "street_name_zh": "獅子石街",
+    "canonical_naming_date": "1933-05-12",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-05-12",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-05-12",
+        "change_kind": "declare",
+        "name_en": "Lion Rock Road",
+        "name_zh": "獅子石街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.340",
+        "notice_label_zh": "第340號",
+        "notice_url_en": "/egazette/en/1933-gn340.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn340.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": "Gazette ZH 獅子石街; database 獅子石道."
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn340-kowloon-city-roads-11241-1933-05-12",
+        "source": "crowdsubmitted",
+        "street_code": "11241",
+        "publication_date": "1933-05-12",
+        "change_kind": "declare",
+        "street_name_en": "Lion Rock Road",
+        "street_name_zh": "獅子石街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN340",
+        "government_notice_label_en": "G.N.340",
+        "government_notice_label_zh": "第340號",
+        "government_notice_url_en": "/egazette/en/1933-gn340.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn340.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": "Gazette ZH 獅子石街; database 獅子石道.",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn340-kowloon-city-roads-11241-1933-05-12",
+        "notice_stem": "1933-gn340"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10550",
+    "street_code": "10550",
+    "street_name_en": "Fuk Lo Tsun Road",
+    "street_name_zh": "福老村道",
+    "canonical_naming_date": "1933-05-12",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-05-12",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-05-12",
+        "change_kind": "declare",
+        "name_en": "Fuk Lo Tsun Road",
+        "name_zh": "福老村道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.340",
+        "notice_label_zh": "第340號",
+        "notice_url_en": "/egazette/en/1933-gn340.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn340.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": "Gazette ZH 福老村道; database 福佬村道."
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn340-kowloon-city-roads-10550-1933-05-12",
+        "source": "crowdsubmitted",
+        "street_code": "10550",
+        "publication_date": "1933-05-12",
+        "change_kind": "declare",
+        "street_name_en": "Fuk Lo Tsun Road",
+        "street_name_zh": "福老村道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN340",
+        "government_notice_label_en": "G.N.340",
+        "government_notice_label_zh": "第340號",
+        "government_notice_url_en": "/egazette/en/1933-gn340.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn340.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": "Gazette ZH 福老村道; database 福佬村道.",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn340-kowloon-city-roads-10550-1933-05-12",
+        "notice_stem": "1933-gn340"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10909",
+    "street_code": "10909",
+    "street_name_en": "Junction Road",
+    "street_name_zh": "聯合道",
+    "canonical_naming_date": "1933-05-12",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-05-12",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-05-12",
+        "change_kind": "declare",
+        "name_en": "Junction Road",
+        "name_zh": "聯合道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.340",
+        "notice_label_zh": "第340號",
+        "notice_url_en": "/egazette/en/1933-gn340.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn340.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn340-kowloon-city-roads-10909-1933-05-12",
+        "source": "crowdsubmitted",
+        "street_code": "10909",
+        "publication_date": "1933-05-12",
+        "change_kind": "declare",
+        "street_name_en": "Junction Road",
+        "street_name_zh": "聯合道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN340",
+        "government_notice_label_en": "G.N.340",
+        "government_notice_label_zh": "第340號",
+        "government_notice_url_en": "/egazette/en/1933-gn340.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn340.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn340-kowloon-city-roads-10909-1933-05-12",
+        "notice_stem": "1933-gn340"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10125",
+    "street_code": "10125",
+    "street_name_en": "Carpenter Road",
+    "street_name_zh": "賈炳達道",
+    "canonical_naming_date": "1933-05-12",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-05-12",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-05-12",
+        "change_kind": "declare",
+        "name_en": "Carpenter Road",
+        "name_zh": "賈炳達道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.340",
+        "notice_label_zh": "第340號",
+        "notice_url_en": "/egazette/en/1933-gn340.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn340.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn340-kowloon-city-roads-10125-1933-05-12",
+        "source": "crowdsubmitted",
+        "street_code": "10125",
+        "publication_date": "1933-05-12",
+        "change_kind": "declare",
+        "street_name_en": "Carpenter Road",
+        "street_name_zh": "賈炳達道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN340",
+        "government_notice_label_en": "G.N.340",
+        "government_notice_label_zh": "第340號",
+        "government_notice_url_en": "/egazette/en/1933-gn340.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn340.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn340-kowloon-city-roads-10125-1933-05-12",
+        "notice_stem": "1933-gn340"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10709",
+    "street_code": "10709",
+    "street_name_en": "Hill Wood Road",
+    "street_name_zh": "山林道",
+    "canonical_naming_date": "1933-05-12",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-05-12",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-05-12",
+        "change_kind": "declare",
+        "name_en": "Hill Wood Road",
+        "name_zh": "山林道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.341",
+        "notice_label_zh": "第341號",
+        "notice_url_en": "/egazette/en/1933-gn341.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn341.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": "Gazette EN Hill Wood Road; database Hillwood Road."
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn341-chater-estate-10709-1933-05-12",
+        "source": "crowdsubmitted",
+        "street_code": "10709",
+        "publication_date": "1933-05-12",
+        "change_kind": "declare",
+        "street_name_en": "Hill Wood Road",
+        "street_name_zh": "山林道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN341",
+        "government_notice_label_en": "G.N.341",
+        "government_notice_label_zh": "第341號",
+        "government_notice_url_en": "/egazette/en/1933-gn341.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn341.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": "Gazette EN Hill Wood Road; database Hillwood Road.",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn341-chater-estate-10709-1933-05-12",
+        "notice_stem": "1933-gn341"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:11695",
+    "street_code": "11695",
+    "street_name_en": "Pine Tree Hill Road",
+    "street_name_zh": "松山道",
+    "canonical_naming_date": "1933-05-12",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-05-12",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-05-12",
+        "change_kind": "declare",
+        "name_en": "Pine Tree Hill Road",
+        "name_zh": "松山道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.341",
+        "notice_label_zh": "第341號",
+        "notice_url_en": "/egazette/en/1933-gn341.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn341.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn341-chater-estate-11695-1933-05-12",
+        "source": "crowdsubmitted",
+        "street_code": "11695",
+        "publication_date": "1933-05-12",
+        "change_kind": "declare",
+        "street_name_en": "Pine Tree Hill Road",
+        "street_name_zh": "松山道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN341",
+        "government_notice_label_en": "G.N.341",
+        "government_notice_label_zh": "第341號",
+        "government_notice_url_en": "/egazette/en/1933-gn341.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn341.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn341-chater-estate-11695-1933-05-12",
+        "notice_stem": "1933-gn341"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:12566",
+    "street_code": "12566",
+    "street_name_en": "Valley Road",
+    "street_name_zh": "山谷道",
+    "canonical_naming_date": "1933-07-14",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-07-14",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-07-14",
+        "change_kind": "declare",
+        "name_en": "Valley Road",
+        "name_zh": "山谷道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.481",
+        "notice_label_zh": "第481號",
+        "notice_url_en": "/egazette/en/1933-gn481.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn481.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn481-valley-tak-hing-12566-1933-07-14",
+        "source": "crowdsubmitted",
+        "street_code": "12566",
+        "publication_date": "1933-07-14",
+        "change_kind": "declare",
+        "street_name_en": "Valley Road",
+        "street_name_zh": "山谷道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN481",
+        "government_notice_label_en": "G.N.481",
+        "government_notice_label_zh": "第481號",
+        "government_notice_url_en": "/egazette/en/1933-gn481.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn481.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn481-valley-tak-hing-12566-1933-07-14",
+        "notice_stem": "1933-gn481"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:12305",
+    "street_code": "12305",
+    "street_name_en": "Tak Hing Street",
+    "street_name_zh": "德興街",
+    "canonical_naming_date": "1933-07-14",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-07-14",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-07-14",
+        "change_kind": "declare",
+        "name_en": "Tak Hing Street",
+        "name_zh": "德興街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.481",
+        "notice_label_zh": "第481號",
+        "notice_url_en": "/egazette/en/1933-gn481.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn481.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn481-valley-tak-hing-12305-1933-07-14",
+        "source": "crowdsubmitted",
+        "street_code": "12305",
+        "publication_date": "1933-07-14",
+        "change_kind": "declare",
+        "street_name_en": "Tak Hing Street",
+        "street_name_zh": "德興街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN481",
+        "government_notice_label_en": "G.N.481",
+        "government_notice_label_zh": "第481號",
+        "government_notice_url_en": "/egazette/en/1933-gn481.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn481.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn481-valley-tak-hing-12305-1933-07-14",
+        "notice_stem": "1933-gn481"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:12180",
+    "street_code": "12180",
+    "street_name_en": "Sun Wui Road",
+    "street_name_zh": "新會路",
+    "canonical_naming_date": "1933-07-28",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-07-28",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-07-28",
+        "change_kind": "declare",
+        "name_en": "Sun Wui Road",
+        "name_zh": "新會路",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.511",
+        "notice_label_zh": "第511號",
+        "notice_url_en": "/egazette/en/1933-gn511.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn511.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": "Gazette ZH 新會路; database 新會道."
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn511-north-point-streets-12180-1933-07-28",
+        "source": "crowdsubmitted",
+        "street_code": "12180",
+        "publication_date": "1933-07-28",
+        "change_kind": "declare",
+        "street_name_en": "Sun Wui Road",
+        "street_name_zh": "新會路",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN511",
+        "government_notice_label_en": "G.N.511",
+        "government_notice_label_zh": "第511號",
+        "government_notice_url_en": "/egazette/en/1933-gn511.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn511.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": "Gazette ZH 新會路; database 新會道.",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn511-north-point-streets-12180-1933-07-28",
+        "notice_stem": "1933-gn511"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10285",
+    "street_code": "10285",
+    "street_name_en": "Chun Yeung Street",
+    "street_name_zh": "春秧街",
+    "canonical_naming_date": "1933-07-28",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-07-28",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-07-28",
+        "change_kind": "declare",
+        "name_en": "Chun Yeung Street",
+        "name_zh": "春秧街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.511",
+        "notice_label_zh": "第511號",
+        "notice_url_en": "/egazette/en/1933-gn511.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn511.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn511-north-point-streets-10285-1933-07-28",
+        "source": "crowdsubmitted",
+        "street_code": "10285",
+        "publication_date": "1933-07-28",
+        "change_kind": "declare",
+        "street_name_en": "Chun Yeung Street",
+        "street_name_zh": "春秧街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN511",
+        "government_notice_label_en": "G.N.511",
+        "government_notice_label_zh": "第511號",
+        "government_notice_url_en": "/egazette/en/1933-gn511.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn511.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn511-north-point-streets-10285-1933-07-28",
+        "notice_stem": "1933-gn511"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:11550",
+    "street_code": "11550",
+    "street_name_en": "North Point Road",
+    "street_name_zh": "北角路",
+    "canonical_naming_date": "1933-07-28",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-07-28",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-07-28",
+        "change_kind": "declare",
+        "name_en": "North Point Road",
+        "name_zh": "北角路",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.511",
+        "notice_label_zh": "第511號",
+        "notice_url_en": "/egazette/en/1933-gn511.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn511.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": "Gazette ZH 北角路; database 北角道."
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn511-north-point-streets-11550-1933-07-28",
+        "source": "crowdsubmitted",
+        "street_code": "11550",
+        "publication_date": "1933-07-28",
+        "change_kind": "declare",
+        "street_name_en": "North Point Road",
+        "street_name_zh": "北角路",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN511",
+        "government_notice_label_en": "G.N.511",
+        "government_notice_label_zh": "第511號",
+        "government_notice_url_en": "/egazette/en/1933-gn511.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn511.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": "Gazette ZH 北角路; database 北角道.",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn511-north-point-streets-11550-1933-07-28",
+        "notice_stem": "1933-gn511"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:12391",
+    "street_code": "12391",
+    "street_name_en": "Tong Shui Road",
+    "street_name_zh": "糖水路",
+    "canonical_naming_date": "1933-07-28",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-07-28",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-07-28",
+        "change_kind": "declare",
+        "name_en": "Tong Shui Road",
+        "name_zh": "糖水路",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.511",
+        "notice_label_zh": "第511號",
+        "notice_url_en": "/egazette/en/1933-gn511.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn511.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": "Gazette ZH 糖水路; database 糖水道."
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn511-north-point-streets-12391-1933-07-28",
+        "source": "crowdsubmitted",
+        "street_code": "12391",
+        "publication_date": "1933-07-28",
+        "change_kind": "declare",
+        "street_name_en": "Tong Shui Road",
+        "street_name_zh": "糖水路",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN511",
+        "government_notice_label_en": "G.N.511",
+        "government_notice_label_zh": "第511號",
+        "government_notice_url_en": "/egazette/en/1933-gn511.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn511.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": "Gazette ZH 糖水路; database 糖水道.",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn511-north-point-streets-12391-1933-07-28",
+        "notice_stem": "1933-gn511"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10511",
+    "street_code": "10511",
+    "street_name_en": "Fort Street",
+    "street_name_zh": "堡壘街",
+    "canonical_naming_date": "1933-07-28",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-07-28",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-07-28",
+        "change_kind": "declare",
+        "name_en": "Fort Street",
+        "name_zh": "堡壘街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.511",
+        "notice_label_zh": "第511號",
+        "notice_url_en": "/egazette/en/1933-gn511.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn511.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn511-north-point-streets-10511-1933-07-28",
+        "source": "crowdsubmitted",
+        "street_code": "10511",
+        "publication_date": "1933-07-28",
+        "change_kind": "declare",
+        "street_name_en": "Fort Street",
+        "street_name_zh": "堡壘街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN511",
+        "government_notice_label_en": "G.N.511",
+        "government_notice_label_zh": "第511號",
+        "government_notice_url_en": "/egazette/en/1933-gn511.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn511.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn511-north-point-streets-10511-1933-07-28",
+        "notice_stem": "1933-gn511"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10193",
+    "street_code": "10193",
+    "street_name_en": "Cheung Hong Street",
+    "street_name_zh": "長康街",
+    "canonical_naming_date": "1933-07-28",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-07-28",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-07-28",
+        "change_kind": "declare",
+        "name_en": "Cheung Hong Street",
+        "name_zh": "長康街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.511",
+        "notice_label_zh": "第511號",
+        "notice_url_en": "/egazette/en/1933-gn511.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn511.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn511-north-point-streets-10193-1933-07-28",
+        "source": "crowdsubmitted",
+        "street_code": "10193",
+        "publication_date": "1933-07-28",
+        "change_kind": "declare",
+        "street_name_en": "Cheung Hong Street",
+        "street_name_zh": "長康街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN511",
+        "government_notice_label_en": "G.N.511",
+        "government_notice_label_zh": "第511號",
+        "government_notice_url_en": "/egazette/en/1933-gn511.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn511.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn511-north-point-streets-10193-1933-07-28",
+        "notice_stem": "1933-gn511"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:11553",
+    "street_code": "11553",
+    "street_name_en": "North View Street",
+    "street_name_zh": "北景街",
+    "canonical_naming_date": "1933-07-28",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-07-28",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-07-28",
+        "change_kind": "declare",
+        "name_en": "North View Street",
+        "name_zh": "北景街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.511",
+        "notice_label_zh": "第511號",
+        "notice_url_en": "/egazette/en/1933-gn511.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn511.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn511-north-point-streets-11553-1933-07-28",
+        "source": "crowdsubmitted",
+        "street_code": "11553",
+        "publication_date": "1933-07-28",
+        "change_kind": "declare",
+        "street_name_en": "North View Street",
+        "street_name_zh": "北景街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN511",
+        "government_notice_label_en": "G.N.511",
+        "government_notice_label_zh": "第511號",
+        "government_notice_url_en": "/egazette/en/1933-gn511.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn511.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn511-north-point-streets-11553-1933-07-28",
+        "notice_stem": "1933-gn511"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10897",
+    "street_code": "10897",
+    "street_name_en": "Java Road",
+    "street_name_zh": "爪哇路",
+    "canonical_naming_date": "1933-07-28",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-07-28",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-07-28",
+        "change_kind": "declare",
+        "name_en": "Java Road",
+        "name_zh": "爪哇路",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.511",
+        "notice_label_zh": "第511號",
+        "notice_url_en": "/egazette/en/1933-gn511.pdf",
+        "notice_url_zh": null,
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": "Gazette ZH 爪哇路; database 渣華道."
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn511-north-point-streets-10897-1933-07-28",
+        "source": "crowdsubmitted",
+        "street_code": "10897",
+        "publication_date": "1933-07-28",
+        "change_kind": "declare",
+        "street_name_en": "Java Road",
+        "street_name_zh": "爪哇路",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN511",
+        "government_notice_label_en": "G.N.511",
+        "government_notice_label_zh": "第511號",
+        "government_notice_url_en": "/egazette/en/1933-gn511.pdf",
+        "government_notice_url_zh": null,
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": "Gazette ZH 爪哇路; database 渣華道.",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn511-north-point-streets-10897-1933-07-28"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:12156",
+    "street_code": "12156",
+    "street_name_en": "Stanley Village Road",
+    "street_name_zh": "赤柱村道",
+    "canonical_naming_date": "1933-11-10",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-11-10",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-11-10",
+        "change_kind": "declare",
+        "name_en": "Stanley Village Road",
+        "name_zh": "赤柱村道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.727",
+        "notice_label_zh": "第727號",
+        "notice_url_en": "/egazette/en/1933-gn727.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn727.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn727-stanley-roads-12156-1933-11-10",
+        "source": "crowdsubmitted",
+        "street_code": "12156",
+        "publication_date": "1933-11-10",
+        "change_kind": "declare",
+        "street_name_en": "Stanley Village Road",
+        "street_name_zh": "赤柱村道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN727",
+        "government_notice_label_en": "G.N.727",
+        "government_notice_label_zh": "第727號",
+        "government_notice_url_en": "/egazette/en/1933-gn727.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn727.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn727-stanley-roads-12156-1933-11-10",
+        "notice_stem": "1933-gn727"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:12147",
+    "street_code": "12147",
+    "street_name_en": "Stanley Beach Road",
+    "street_name_zh": "赤柱灘道",
+    "canonical_naming_date": "1933-11-10",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-11-10",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-11-10",
+        "change_kind": "declare",
+        "name_en": "Stanley Beach Road",
+        "name_zh": "赤柱灘道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.727",
+        "notice_label_zh": "第727號",
+        "notice_url_en": "/egazette/en/1933-gn727.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn727.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn727-stanley-roads-12147-1933-11-10",
+        "source": "crowdsubmitted",
+        "street_code": "12147",
+        "publication_date": "1933-11-10",
+        "change_kind": "declare",
+        "street_name_en": "Stanley Beach Road",
+        "street_name_zh": "赤柱灘道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN727",
+        "government_notice_label_en": "G.N.727",
+        "government_notice_label_zh": "第727號",
+        "government_notice_url_en": "/egazette/en/1933-gn727.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn727.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn727-stanley-roads-12147-1933-11-10",
+        "notice_stem": "1933-gn727"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:12543",
+    "street_code": "12543",
+    "street_name_en": "Tung Tau Wan Road",
+    "street_name_zh": "東頭灣道",
+    "canonical_naming_date": "1933-11-10",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-11-10",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-11-10",
+        "change_kind": "declare",
+        "name_en": "Tung Tau Wan Road",
+        "name_zh": "東頭灣道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.727",
+        "notice_label_zh": "第727號",
+        "notice_url_en": "/egazette/en/1933-gn727.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn727.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn727-stanley-roads-12543-1933-11-10",
+        "source": "crowdsubmitted",
+        "street_code": "12543",
+        "publication_date": "1933-11-10",
+        "change_kind": "declare",
+        "street_name_en": "Tung Tau Wan Road",
+        "street_name_zh": "東頭灣道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN727",
+        "government_notice_label_en": "G.N.727",
+        "government_notice_label_zh": "第727號",
+        "government_notice_url_en": "/egazette/en/1933-gn727.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn727.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn727-stanley-roads-12543-1933-11-10",
+        "notice_stem": "1933-gn727"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:12363",
+    "street_code": "12363",
+    "street_name_en": "Tin Kwong Road",
+    "street_name_zh": "天光道",
+    "canonical_naming_date": "1933-12-22",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-12-22",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-12-22",
+        "change_kind": "declare",
+        "name_en": "Tin Kwong Road",
+        "name_zh": "天光道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.823",
+        "notice_label_zh": "第823號",
+        "notice_url_en": "/egazette/en/1933-gn823.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn823.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn823-ho-man-tin-roads-12363-1933-12-22",
+        "source": "crowdsubmitted",
+        "street_code": "12363",
+        "publication_date": "1933-12-22",
+        "change_kind": "declare",
+        "street_name_en": "Tin Kwong Road",
+        "street_name_zh": "天光道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN823",
+        "government_notice_label_en": "G.N.823",
+        "government_notice_label_zh": "第823號",
+        "government_notice_url_en": "/egazette/en/1933-gn823.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn823.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn823-ho-man-tin-roads-12363-1933-12-22",
+        "notice_stem": "1933-gn823"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10471",
+    "street_code": "10471",
+    "street_name_en": "Farm Road",
+    "street_name_zh": "農圃道",
+    "canonical_naming_date": "1933-12-22",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-12-22",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-12-22",
+        "change_kind": "declare",
+        "name_en": "Farm Road",
+        "name_zh": "農圃道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.823",
+        "notice_label_zh": "第823號",
+        "notice_url_en": "/egazette/en/1933-gn823.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn823.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn823-ho-man-tin-roads-10471-1933-12-22",
+        "source": "crowdsubmitted",
+        "street_code": "10471",
+        "publication_date": "1933-12-22",
+        "change_kind": "declare",
+        "street_name_en": "Farm Road",
+        "street_name_zh": "農圃道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN823",
+        "government_notice_label_en": "G.N.823",
+        "government_notice_label_zh": "第823號",
+        "government_notice_url_en": "/egazette/en/1933-gn823.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn823.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn823-ho-man-tin-roads-10471-1933-12-22",
+        "notice_stem": "1933-gn823"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10510",
+    "street_code": "10510",
+    "street_name_en": "Forfar Road",
+    "street_name_zh": "科發道",
+    "canonical_naming_date": "1933-12-22",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-12-22",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-12-22",
+        "change_kind": "declare",
+        "name_en": "Forfar Road",
+        "name_zh": "科發道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.823",
+        "notice_label_zh": "第823號",
+        "notice_url_en": "/egazette/en/1933-gn823.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn823.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn823-ho-man-tin-roads-10510-1933-12-22",
+        "source": "crowdsubmitted",
+        "street_code": "10510",
+        "publication_date": "1933-12-22",
+        "change_kind": "declare",
+        "street_name_en": "Forfar Road",
+        "street_name_zh": "科發道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN823",
+        "government_notice_label_en": "G.N.823",
+        "government_notice_label_zh": "第823號",
+        "government_notice_url_en": "/egazette/en/1933-gn823.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn823.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn823-ho-man-tin-roads-10510-1933-12-22",
+        "notice_stem": "1933-gn823"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:12163",
+    "street_code": "12163",
+    "street_name_en": "Stirling Road",
+    "street_name_zh": "士他令道",
+    "canonical_naming_date": "1933-12-22",
+    "canonical_naming_year": 1933,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1933-12-22",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1933-12-22",
+        "change_kind": "declare",
+        "name_en": "Stirling Road",
+        "name_zh": "士他令道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.823",
+        "notice_label_zh": "第823號",
+        "notice_url_en": "/egazette/en/1933-gn823.pdf",
+        "notice_url_zh": "/egazette/zh/1933-gn823.pdf",
+        "evidence_level": "gazette",
+        "source": "crowdsubmitted",
+        "submitter_remarks": null
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|1933-gn823-ho-man-tin-roads-12163-1933-12-22",
+        "source": "crowdsubmitted",
+        "street_code": "12163",
+        "publication_date": "1933-12-22",
+        "change_kind": "declare",
+        "street_name_en": "Stirling Road",
+        "street_name_zh": "士他令道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN823",
+        "government_notice_label_en": "G.N.823",
+        "government_notice_label_zh": "第823號",
+        "government_notice_url_en": "/egazette/en/1933-gn823.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn823.pdf",
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1933,
+        "is_declaration_event": true,
+        "evidence_level": "gazette",
+        "proof_pdf_url": null,
+        "submitter_remarks": null,
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1933-gn823-ho-man-tin-roads-12163-1933-12-22",
+        "notice_stem": "1933-gn823"
+      }
+    ],
+    "event_count": 1
+  },
+  {
     "street_key": "Lung Ping Road|",
     "street_code": null,
     "street_name_en": "Lung Ping Road",
@@ -4599,7 +6326,7 @@
         "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -4631,7 +6358,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
         "submission_id": "1975-gn586-11184"
       }
@@ -4662,7 +6389,7 @@
         "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -4694,7 +6421,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
         "submission_id": "1975-gn996-10669"
       }
@@ -4725,7 +6452,7 @@
         "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -4757,7 +6484,7 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
         "submission_id": "1979-gn1043-11610"
       }
@@ -4968,10 +6695,10 @@
         "notice_label_en": "G.N.5146",
         "notice_label_zh": "第5146號",
         "notice_url_en": "/egazette/en/2002-06-34-5146.pdf",
-        "notice_url_zh": "/egazette/zh/2002-06-34-5146.pdf",
+        "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -4994,7 +6721,7 @@
         "government_notice_label_en": "G.N.5146",
         "government_notice_label_zh": "第5146號",
         "government_notice_url_en": "/egazette/en/2002-06-34-5146.pdf",
-        "government_notice_url_zh": "/egazette/zh/2002-06-34-5146.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_urls_en": [],
         "related_gazette_plan_urls_zh": [],
         "related_gazette_plan_labels_en": [],
@@ -5003,10 +6730,9 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
-        "submission_id": "2002-gn5146-14124",
-        "notice_stem": "2002-06-34-5146"
+        "submission_id": "2002-gn5146-14124"
       }
     ],
     "event_count": 1
@@ -5032,10 +6758,10 @@
         "notice_label_en": "G.N.4729",
         "notice_label_zh": "第4729號",
         "notice_url_en": "/egazette/en/2003-07-28-4729.pdf",
-        "notice_url_zh": "/egazette/zh/2003-07-28-4729.pdf",
+        "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -5058,7 +6784,7 @@
         "government_notice_label_en": "G.N.4729",
         "government_notice_label_zh": "第4729號",
         "government_notice_url_en": "/egazette/en/2003-07-28-4729.pdf",
-        "government_notice_url_zh": "/egazette/zh/2003-07-28-4729.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_urls_en": [],
         "related_gazette_plan_urls_zh": [],
         "related_gazette_plan_labels_en": [],
@@ -5067,10 +6793,9 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
-        "submission_id": "2003-gn4729-14165",
-        "notice_stem": "2003-07-28-4729"
+        "submission_id": "2003-gn4729-14165"
       }
     ],
     "event_count": 1
@@ -5096,10 +6821,10 @@
         "notice_label_en": "G.N.4729",
         "notice_label_zh": "第4729號",
         "notice_url_en": "/egazette/en/2003-07-28-4729.pdf",
-        "notice_url_zh": "/egazette/zh/2003-07-28-4729.pdf",
+        "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -5122,7 +6847,7 @@
         "government_notice_label_en": "G.N.4729",
         "government_notice_label_zh": "第4729號",
         "government_notice_url_en": "/egazette/en/2003-07-28-4729.pdf",
-        "government_notice_url_zh": "/egazette/zh/2003-07-28-4729.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_urls_en": [],
         "related_gazette_plan_urls_zh": [],
         "related_gazette_plan_labels_en": [],
@@ -5131,10 +6856,9 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
-        "submission_id": "2003-gn4729-14164",
-        "notice_stem": "2003-07-28-4729"
+        "submission_id": "2003-gn4729-14164"
       }
     ],
     "event_count": 1
@@ -5160,10 +6884,10 @@
         "notice_label_en": "G.N.8574",
         "notice_label_zh": "第8574號",
         "notice_url_en": "/egazette/en/2003-07-48-8574.pdf",
-        "notice_url_zh": "/egazette/zh/2003-07-48-8574.pdf",
+        "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -5186,7 +6910,7 @@
         "government_notice_label_en": "G.N.8574",
         "government_notice_label_zh": "第8574號",
         "government_notice_url_en": "/egazette/en/2003-07-48-8574.pdf",
-        "government_notice_url_zh": "/egazette/zh/2003-07-48-8574.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_urls_en": [],
         "related_gazette_plan_urls_zh": [],
         "related_gazette_plan_labels_en": [],
@@ -5195,10 +6919,9 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
-        "submission_id": "2003-gn8574-14170",
-        "notice_stem": "2003-07-48-8574"
+        "submission_id": "2003-gn8574-14170"
       }
     ],
     "event_count": 1
@@ -5224,10 +6947,10 @@
         "notice_label_en": "G.N.8478",
         "notice_label_zh": "第8478號",
         "notice_url_en": "/egazette/en/2003-07-49-8748.pdf",
-        "notice_url_zh": "/egazette/zh/2003-07-49-8748.pdf",
+        "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -5250,7 +6973,7 @@
         "government_notice_label_en": "G.N.8478",
         "government_notice_label_zh": "第8478號",
         "government_notice_url_en": "/egazette/en/2003-07-49-8748.pdf",
-        "government_notice_url_zh": "/egazette/zh/2003-07-49-8748.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_urls_en": [],
         "related_gazette_plan_urls_zh": [],
         "related_gazette_plan_labels_en": [],
@@ -5259,10 +6982,9 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
-        "submission_id": "2003-gn8478-14171",
-        "notice_stem": "2003-07-49-8748"
+        "submission_id": "2003-gn8478-14171"
       }
     ],
     "event_count": 1
@@ -5288,10 +7010,10 @@
         "notice_label_en": "G.N.8104",
         "notice_label_zh": "第8104號",
         "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -5314,7 +7036,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_urls_en": [],
         "related_gazette_plan_urls_zh": [],
         "related_gazette_plan_labels_en": [],
@@ -5323,10 +7045,9 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
-        "submission_id": "2004-gn8104-14199",
-        "notice_stem": "2004-08-51-8104"
+        "submission_id": "2004-gn8104-14199"
       }
     ],
     "event_count": 1
@@ -5352,10 +7073,10 @@
         "notice_label_en": "G.N.8104",
         "notice_label_zh": "第8104號",
         "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -5378,7 +7099,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_urls_en": [],
         "related_gazette_plan_urls_zh": [],
         "related_gazette_plan_labels_en": [],
@@ -5387,10 +7108,9 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
-        "submission_id": "2004-gn8104-14200",
-        "notice_stem": "2004-08-51-8104"
+        "submission_id": "2004-gn8104-14200"
       }
     ],
     "event_count": 1
@@ -5416,10 +7136,10 @@
         "notice_label_en": "G.N.8104",
         "notice_label_zh": "第8104號",
         "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -5442,7 +7162,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_urls_en": [],
         "related_gazette_plan_urls_zh": [],
         "related_gazette_plan_labels_en": [],
@@ -5451,10 +7171,9 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
-        "submission_id": "2004-gn8104-14201",
-        "notice_stem": "2004-08-51-8104"
+        "submission_id": "2004-gn8104-14201"
       }
     ],
     "event_count": 1
@@ -5480,10 +7199,10 @@
         "notice_label_en": "G.N.8104",
         "notice_label_zh": "第8104號",
         "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -5506,7 +7225,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_urls_en": [],
         "related_gazette_plan_urls_zh": [],
         "related_gazette_plan_labels_en": [],
@@ -5515,10 +7234,9 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
-        "submission_id": "2004-gn8104-14202",
-        "notice_stem": "2004-08-51-8104"
+        "submission_id": "2004-gn8104-14202"
       }
     ],
     "event_count": 1
@@ -5544,10 +7262,10 @@
         "notice_label_en": "G.N.8104",
         "notice_label_zh": "第8104號",
         "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -5570,7 +7288,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_urls_en": [],
         "related_gazette_plan_urls_zh": [],
         "related_gazette_plan_labels_en": [],
@@ -5579,10 +7297,9 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
-        "submission_id": "2004-gn8104-14203",
-        "notice_stem": "2004-08-51-8104"
+        "submission_id": "2004-gn8104-14203"
       }
     ],
     "event_count": 1
@@ -5608,10 +7325,10 @@
         "notice_label_en": "G.N.8104",
         "notice_label_zh": "第8104號",
         "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -5634,7 +7351,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_urls_en": [],
         "related_gazette_plan_urls_zh": [],
         "related_gazette_plan_labels_en": [],
@@ -5643,10 +7360,9 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
-        "submission_id": "2004-gn8104-14204",
-        "notice_stem": "2004-08-51-8104"
+        "submission_id": "2004-gn8104-14204"
       }
     ],
     "event_count": 1
@@ -5672,10 +7388,10 @@
         "notice_label_en": "G.N.8104",
         "notice_label_zh": "第8104號",
         "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -5698,7 +7414,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_urls_en": [],
         "related_gazette_plan_urls_zh": [],
         "related_gazette_plan_labels_en": [],
@@ -5707,10 +7423,9 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
-        "submission_id": "2004-gn8104-14205",
-        "notice_stem": "2004-08-51-8104"
+        "submission_id": "2004-gn8104-14205"
       }
     ],
     "event_count": 1
@@ -5736,10 +7451,10 @@
         "notice_label_en": "G.N.8104",
         "notice_label_zh": "第8104號",
         "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -5762,7 +7477,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_urls_en": [],
         "related_gazette_plan_urls_zh": [],
         "related_gazette_plan_labels_en": [],
@@ -5771,10 +7486,9 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
-        "submission_id": "2004-gn8104-14206",
-        "notice_stem": "2004-08-51-8104"
+        "submission_id": "2004-gn8104-14206"
       }
     ],
     "event_count": 1
@@ -5800,10 +7514,10 @@
         "notice_label_en": "G.N.8104",
         "notice_label_zh": "第8104號",
         "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -5826,7 +7540,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_urls_en": [],
         "related_gazette_plan_urls_zh": [],
         "related_gazette_plan_labels_en": [],
@@ -5835,10 +7549,9 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
-        "submission_id": "2004-gn8104-14207",
-        "notice_stem": "2004-08-51-8104"
+        "submission_id": "2004-gn8104-14207"
       }
     ],
     "event_count": 1
@@ -5864,10 +7577,10 @@
         "notice_label_en": "G.N.8104",
         "notice_label_zh": "第8104號",
         "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -5890,7 +7603,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_urls_en": [],
         "related_gazette_plan_urls_zh": [],
         "related_gazette_plan_labels_en": [],
@@ -5899,10 +7612,9 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
-        "submission_id": "2004-gn8104-14208",
-        "notice_stem": "2004-08-51-8104"
+        "submission_id": "2004-gn8104-14208"
       }
     ],
     "event_count": 1
@@ -5928,10 +7640,10 @@
         "notice_label_en": "G.N.8104",
         "notice_label_zh": "第8104號",
         "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -5954,7 +7666,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_urls_en": [],
         "related_gazette_plan_urls_zh": [],
         "related_gazette_plan_labels_en": [],
@@ -5963,10 +7675,9 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
-        "submission_id": "2004-gn8104-1",
-        "notice_stem": "2004-08-51-8104"
+        "submission_id": "2004-gn8104-1"
       }
     ],
     "event_count": 1
@@ -5992,10 +7703,10 @@
         "notice_label_en": "G.N.8104",
         "notice_label_zh": "第8104號",
         "notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -6018,7 +7729,7 @@
         "government_notice_label_en": "G.N.8104",
         "government_notice_label_zh": "第8104號",
         "government_notice_url_en": "/egazette/en/2004-08-51-8104.pdf",
-        "government_notice_url_zh": "/egazette/zh/2004-08-51-8104.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_urls_en": [],
         "related_gazette_plan_urls_zh": [],
         "related_gazette_plan_labels_en": [],
@@ -6027,10 +7738,9 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
-        "submission_id": "2004-gn8104-2",
-        "notice_stem": "2004-08-51-8104"
+        "submission_id": "2004-gn8104-2"
       }
     ],
     "event_count": 1
@@ -6056,10 +7766,10 @@
         "notice_label_en": "G.N.8428",
         "notice_label_zh": "第8428號",
         "notice_url_en": "/egazette/en/2004-08-53-8428.pdf",
-        "notice_url_zh": "/egazette/zh/2004-08-53-8428.pdf",
+        "notice_url_zh": null,
         "evidence_level": "gazette",
         "source": "crowdsubmitted",
-        "submitter_remarks": null
+        "submitter_remarks": ""
       }
     ],
     "event_history": [
@@ -6082,7 +7792,7 @@
         "government_notice_label_en": "G.N.8428",
         "government_notice_label_zh": "第8428號",
         "government_notice_url_en": "/egazette/en/2004-08-53-8428.pdf",
-        "government_notice_url_zh": "/egazette/zh/2004-08-53-8428.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_urls_en": [],
         "related_gazette_plan_urls_zh": [],
         "related_gazette_plan_labels_en": [],
@@ -6091,10 +7801,9 @@
         "is_declaration_event": true,
         "evidence_level": "gazette",
         "proof_pdf_url": null,
-        "submitter_remarks": null,
+        "submitter_remarks": "",
         "reviewed_at": "2026-05-30",
-        "submission_id": "2004-gn8428-1",
-        "notice_stem": "2004-08-53-8428"
+        "submission_id": "2004-gn8428-1"
       }
     ],
     "event_count": 1

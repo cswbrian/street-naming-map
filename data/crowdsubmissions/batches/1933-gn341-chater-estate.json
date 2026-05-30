@@ -1,0 +1,42 @@
+{
+  "batch_id": "1933-gn341-chater-estate",
+  "gazette_notice_label": "Government Notification No. 341",
+  "publication_date": "1933-05-12",
+  "gazette_url_en": "/egazette/en/1933-gn341.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/197342.pdf",
+  "streets": [
+    {
+      "street_code": "10709",
+      "english_name": "HILLWOOD ROAD",
+      "chinese_name": "山林道",
+      "history": [
+        {
+          "publication_date": "1933-05-12",
+          "change_kind": "declare",
+          "street_name_en": "Hill Wood Road",
+          "street_name_zh": "山林道",
+          "gazette_notice_label": "Government Notification No. 341",
+          "proof_pdf_url": "/egazette/en/1933-gn341.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette EN Hill Wood Road; database Hillwood Road."
+        }
+      ]
+    },
+    {
+      "street_code": "11695",
+      "english_name": "PINE TREE HILL ROAD",
+      "chinese_name": "松山道",
+      "history": [
+        {
+          "publication_date": "1933-05-12",
+          "change_kind": "declare",
+          "street_name_en": "Pine Tree Hill Road",
+          "street_name_zh": "松山道",
+          "gazette_notice_label": "Government Notification No. 341",
+          "proof_pdf_url": "/egazette/en/1933-gn341.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "batch_id": "1933-gn727-stanley-roads",
+  "gazette_notice_label": "Government Notification No. 727",
+  "publication_date": "1933-11-10",
+  "gazette_url_en": "/egazette/en/1933-gn727.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/198536.pdf",
+  "streets": [
+    {
+      "street_code": "12156",
+      "english_name": "STANLEY VILLAGE ROAD",
+      "chinese_name": "赤柱村道",
+      "history": [
+        {
+          "publication_date": "1933-11-10",
+          "change_kind": "declare",
+          "street_name_en": "Stanley Village Road",
+          "street_name_zh": "赤柱村道",
+          "gazette_notice_label": "Government Notification No. 727",
+          "proof_pdf_url": "/egazette/en/1933-gn727.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12147",
+      "english_name": "STANLEY BEACH ROAD",
+      "chinese_name": "赤柱灘道",
+      "history": [
+        {
+          "publication_date": "1933-11-10",
+          "change_kind": "declare",
+          "street_name_en": "Stanley Beach Road",
+          "street_name_zh": "赤柱灘道",
+          "gazette_notice_label": "Government Notification No. 727",
+          "proof_pdf_url": "/egazette/en/1933-gn727.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12543",
+      "english_name": "TUNG TAU WAN ROAD",
+      "chinese_name": "東頭灣道",
+      "history": [
+        {
+          "publication_date": "1933-11-10",
+          "change_kind": "declare",
+          "street_name_en": "Tung Tau Wan Road",
+          "street_name_zh": "東頭灣道",
+          "gazette_notice_label": "Government Notification No. 727",
+          "proof_pdf_url": "/egazette/en/1933-gn727.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}
