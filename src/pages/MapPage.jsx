@@ -6,7 +6,7 @@ import TimelineSlider from '../components/TimelineSlider'
 import { useLocale } from '../i18n/LocaleContext'
 import { useTheme } from '../theme/ThemeContext'
 import { getThemedLegendColor } from '../theme/theme.js'
-import { COLOR_GROUP_DEFS, getRoadTypeLabel } from '../i18n/translations'
+import { COLOR_GROUP_DEFS, getPeriodLabel, getRoadTypeLabel } from '../i18n/translations'
 import { REGION_OPTIONS, DISTRICT_OPTIONS } from '../config/regions.mjs'
 import subdistrictCentersConfig from '../config/subdistrictCenters.json'
 import { buildSingleStreetFormUrl } from '../lib/contributeForm.js'
@@ -73,11 +73,11 @@ function MapPage() {
 
   const colorGroups = useMemo(
     () =>
-      COLOR_GROUP_DEFS.map((group) => {
-        const normalized = group.id === 'g6' ? { ...group, end: currentYear } : group
-        return { ...normalized, color: getThemedLegendColor(normalized, theme) }
-      }),
-    [currentYear, theme],
+      COLOR_GROUP_DEFS.map((group) => ({
+        ...group,
+        color: getThemedLegendColor(group, theme),
+      })),
+    [theme],
   )
 
   const activeGroup = colorGroups.find((group) => group.id === activeGroupId) ?? null
@@ -713,7 +713,7 @@ function MapPage() {
                   }
                 >
                   <span className="legend-swatch" style={{ backgroundColor: group.color }} />
-                  <span>{t(group.rangeKey)}</span>
+                  <span>{getPeriodLabel(group, locale, currentYear)}</span>
                 </button>
               ))}
             </div>

@@ -30,12 +30,6 @@ export const translations = {
     timelinePause: '暫停',
     unknownYear: '資料待補',
     unnamedStreetCode: '街道編號 {code}',
-    periodG1: '1842–1898',
-    periodG2: '1899–1945',
-    periodG3: '1946–1969',
-    periodG4: '1970–1989',
-    periodG5: '1990–2009',
-    periodG6: '2010–至今',
     periodUnknown: '資料待補',
     loadingReport: '正在載入報告…',
     reportError: '找不到街道目錄報告。請先執行 npm run report:pending-years。',
@@ -147,12 +141,6 @@ export const translations = {
     timelinePause: 'Pause',
     unknownYear: 'Data to be added',
     unnamedStreetCode: 'Street code {code}',
-    periodG1: '1842–1898',
-    periodG2: '1899–1945',
-    periodG3: '1946–1969',
-    periodG4: '1970–1989',
-    periodG5: '1990–2009',
-    periodG6: '2010–now',
     periodUnknown: 'Data to be added',
     loadingReport: 'Loading report…',
     reportError: 'Street directory report not found. Run npm run report:pending-years first.',
@@ -259,22 +247,4 @@ export function getRoadTypeLabel(locale, streetType) {
   return translations[locale]?.[key] ?? streetType ?? translations[locale].roadTypeUnknown
 }
 
-export const COLOR_GROUP_DEFS = [
-  { id: 'g1', rangeKey: 'periodG1', color: '#5B6CFF', start: 1842, end: 1898 },
-  { id: 'g2', rangeKey: 'periodG2', color: '#3FA9FF', start: 1899, end: 1945 },
-  { id: 'g3', rangeKey: 'periodG3', color: '#2ED3FF', start: 1946, end: 1969 },
-  { id: 'g4', rangeKey: 'periodG4', color: '#35F2C3', start: 1970, end: 1989 },
-  { id: 'g5', rangeKey: 'periodG5', color: '#C6FF4D', start: 1990, end: 2009 },
-  { id: 'g6', rangeKey: 'periodG6', color: '#FF5FD2', start: 2010, end: null },
-  { id: 'g-unknown', rangeKey: 'periodUnknown', color: '#B0B8C9', isUnknown: true },
-]
-
-export const PERIOD_GROUP_DEFS = [
-  { id: 'g1', rangeKey: 'periodG1', start: 1842, end: 1898 },
-  { id: 'g2', rangeKey: 'periodG2', start: 1899, end: 1945 },
-  { id: 'g3', rangeKey: 'periodG3', start: 1946, end: 1969 },
-  { id: 'g4', rangeKey: 'periodG4', start: 1970, end: 1989 },
-  { id: 'g5', rangeKey: 'periodG5', start: 1990, end: 2009 },
-  { id: 'g6', rangeKey: 'periodG6', start: 2010, end: Number.POSITIVE_INFINITY },
-  { id: 'unknown', rangeKey: 'periodUnknown', start: null, end: null },
-]
+export { COLOR_GROUP_DEFS, PERIOD_GROUP_DEFS, getPeriodLabel } from '../lib/periodGroups.js'

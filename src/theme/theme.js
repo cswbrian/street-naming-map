@@ -1,9 +1,11 @@
 export const THEME_STORAGE_KEY = 'sn-theme'
 export const DEFAULT_THEME = 'light'
 
+import { getDecadeEraColors, getDecadeYearBreaks } from '../lib/periodGroups.js'
+
 export function getSystemTheme() {
   if (typeof window === 'undefined') return DEFAULT_THEME
-  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : DEFAULT_THEME
+  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
 }
 
 export function hasStoredThemePreference() {
@@ -54,11 +56,10 @@ export const MAP_BACKGROUND_COLORS = {
   light: '#e8e8e8',
 }
 
-/** Era colors indexed g1–g6; tuned separately for dark vs light basemaps. */
+/** Road palette; era colours are generated per decade in periodGroups.js */
 export const MAP_ROAD_PALETTE = {
   dark: {
     unknown: '#6e7585',
-    eras: ['#5B6CFF', '#3FA9FF', '#2ED3FF', '#35F2C3', '#C6FF4D', '#FF5FD2'],
     highlightGlow: '#e8e8e8',
     highlightCore: '#f0f0f0',
     focus: '#9a9a9a',
@@ -77,7 +78,6 @@ export const MAP_ROAD_PALETTE = {
   },
   light: {
     unknown: '#9aa3b0',
-    eras: ['#3141D4', '#0072C9', '#0091B0', '#008566', '#6E9300', '#C41585'],
     highlightGlow: '#ffffff',
     highlightCore: '#1a2332',
     focus: '#4a5568',
@@ -96,8 +96,6 @@ export const MAP_ROAD_PALETTE = {
   },
 }
 
-const ERA_YEAR_BREAKS = [1899, 1946, 1970, 1990, 2010]
-
 /** MapLibre expression: naming year, or -1 when pending. to-number(null) is 0, not missing. */
 export function buildNamingYearExpr() {
   return [
@@ -113,21 +111,23 @@ export function getRoadPalette(theme) {
 }
 
 export function buildRoadLineColorPaint(theme) {
-  const { unknown, eras } = getRoadPalette(theme)
+  const { unknown } = getRoadPalette(theme)
+  const eras = getDecadeEraColors(theme)
+  const breaks = getDecadeYearBreaks()
   const namingYear = buildNamingYearExpr()
   return [
     'case',
     ['==', namingYear, -1],
     unknown,
-    ['step', namingYear, eras[0], ...ERA_YEAR_BREAKS.flatMap((year, index) => [year, eras[index + 1]])],
+    ['step', namingYear, eras[0], ...breaks.flatMap((year, index) => [year, eras[index + 1]])],
   ]
 }
-
-const LEGEND_ERA_IDS = ['g1', 'g2', 'g3', 'g4', 'g5', 'g6']
 
 export function getThemedLegendColor(group, theme) {
   const palette = getRoadPalette(theme)
   if (group.isUnknown) return palette.unknown
-  const eraIndex = LEGEND_ERA_IDS.indexOf(group.id)
-  return eraIndex >= 0 ? palette.eras[eraIndex] : group.color
+  if (Number.isInteger(group.colorIndex)) {
+    return getDecadeEraColors(theme)[group.colorIndex]
+  }
+  return palette.unknown
 }
