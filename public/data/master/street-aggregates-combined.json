@@ -1,5 +1,74 @@
 [
   {
+    "street_key": "Gascoigne Road|加士居道",
+    "street_name_en": "Gascoigne Road",
+    "street_name_zh": "加士居道",
+    "canonical_naming_date": "1905-03-17",
+    "canonical_naming_year": 1905,
+    "derivation_reason": "declaration_earliest",
+    "event_history": [
+      {
+        "event_id": "crowd|1905-gn158-10599",
+        "source": "crowdsubmitted",
+        "publication_date": "1905-03-17",
+        "street_name_en": "Gascoigne Road",
+        "street_name_zh": "加士居道",
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declaration",
+        "notice_no": "GN158",
+        "government_notice_label_en": "G.N.158",
+        "government_notice_label_zh": "第158號",
+        "government_notice_url_en": "https://digitalrepository.lib.hku.hk/catalog/gt54tb75g",
+        "government_notice_url_zh": null,
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1905,
+        "is_declaration_event": true,
+        "proof_pdf_url": null,
+        "submitter_remarks": "Batch G.N.158 community submission (HKU HKGRO gazette scan)",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "1905-gn158-10599"
+      },
+      {
+        "event_id": "2020-10-16|GN5984|0",
+        "source": "landsd",
+        "publication_date": "2020-10-16",
+        "street_name_en": "Gascoigne Road",
+        "street_name_zh": "加士居道",
+        "district_raw_en": "Yau Tsim Mong",
+        "district_raw_zh": "油尖旺",
+        "notice_type_raw_en": "Replacing description of street",
+        "notice_type_raw_zh": "取代街道說明",
+        "notice_type_normalized": "replace_description",
+        "notice_no": "GN5984",
+        "government_notice_label_en": "G.N.5984",
+        "government_notice_label_zh": "第5984號",
+        "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024425984.pdf",
+        "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024425984.pdf",
+        "related_gazette_plan_urls_en": [
+          "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM126.pdf"
+        ],
+        "related_gazette_plan_urls_zh": [
+          "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM126.pdf"
+        ],
+        "related_gazette_plan_labels_en": [
+          "KRM126"
+        ],
+        "related_gazette_plan_labels_zh": [
+          "KRM126"
+        ],
+        "year_bucket": 2020,
+        "is_declaration_event": false
+      }
+    ],
+    "event_count": 2
+  },
+  {
     "street_key": "Jordan Road|佐敦道",
     "street_name_en": "Jordan Road",
     "street_name_zh": "佐敦道",
@@ -255,7 +324,7 @@
         "government_notice_label_en": "G.N.1043",
         "government_notice_label_zh": "第1043號",
         "government_notice_url_en": "/egazette/en/1979-gn1043.pdf",
-        "government_notice_url_zh": "/egazette/zh/1979-gn1043.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_urls_en": [],
         "related_gazette_plan_urls_zh": [],
         "related_gazette_plan_labels_en": [],
@@ -14332,48 +14401,6 @@
         "notice_key": "2020-24-42-5983-0",
         "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2020-24-42-5983-en.pdf",
         "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2020-24-42-5983-zh.pdf"
-      }
-    ],
-    "event_count": 1
-  },
-  {
-    "street_key": "Gascoigne Road|加士居道",
-    "street_name_en": "Gascoigne Road",
-    "street_name_zh": "加士居道",
-    "canonical_naming_date": null,
-    "canonical_naming_year": null,
-    "derivation_reason": "no_declaration_found",
-    "event_history": [
-      {
-        "event_id": "2020-10-16|GN5984|0",
-        "source": "landsd",
-        "publication_date": "2020-10-16",
-        "street_name_en": "Gascoigne Road",
-        "street_name_zh": "加士居道",
-        "district_raw_en": "Yau Tsim Mong",
-        "district_raw_zh": "油尖旺",
-        "notice_type_raw_en": "Replacing description of street",
-        "notice_type_raw_zh": "取代街道說明",
-        "notice_type_normalized": "replace_description",
-        "notice_no": "GN5984",
-        "government_notice_label_en": "G.N.5984",
-        "government_notice_label_zh": "第5984號",
-        "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024425984.pdf",
-        "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024425984.pdf",
-        "related_gazette_plan_urls_en": [
-          "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM126.pdf"
-        ],
-        "related_gazette_plan_urls_zh": [
-          "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM126.pdf"
-        ],
-        "related_gazette_plan_labels_en": [
-          "KRM126"
-        ],
-        "related_gazette_plan_labels_zh": [
-          "KRM126"
-        ],
-        "year_bucket": 2020,
-        "is_declaration_event": false
       }
     ],
     "event_count": 1

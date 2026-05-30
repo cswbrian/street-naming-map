@@ -144,7 +144,7 @@ code:42069,42069,,,Secondary Road,,,,,22
 code:45319,45319,,,Secondary Road,,,,,22
 code:45313,45313,,,Secondary Road,,,,,22
 code:52926,52926,,,Secondary Road,,,,,22
-code:10599,10599,GASCOIGNE ROAD,加士居道,Main Road,,,https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024425984.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024425984.pdf,22
+code:10599,10599,GASCOIGNE ROAD,加士居道,Main Road,1905,1905-03-17,https://digitalrepository.lib.hku.hk/catalog/gt54tb75g,,22
 code:10611,10611,GOLDEN BAMBOO ROAD NORTH,金竹北路,Secondary Road,,,,,22
 code:10698,10698,HEUNG YIP ROAD,香葉道,Secondary Road,,,https://www.landsd.gov.hk/doc/en/street-name/egazette/2025/egn202529172547.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2025/cgn202529172547.pdf,22
 code:11352,11352,MA TAU WAI ROAD,馬頭圍道,Main Road,,,,,22
@@ -11504,7 +11504,7 @@ code:14216,14216,ON MUK LANE,安睦里,Secondary Road,,,,,1
 code:11599,11599,ON SHAN LANE,鞍山里,Secondary Road,,,,,1
 code:14460,14460,ON SHUN PATH,安信徑,Track,2017,2017-10-13,https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721417595.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721417595.pdf,1
 code:11609,11609,ON TING ROAD,安定道,Secondary Road,,,,,1
-code:11610,11610,ON WAH STREET,安華街,Secondary Road,1979,1979-05-09,/egazette/en/1979-gn1043.pdf,/egazette/zh/1979-gn1043.pdf,1
+code:11610,11610,ON WAH STREET,安華街,Secondary Road,1979,1979-05-09,/egazette/en/1979-gn1043.pdf,,1
 code:11613,11613,ON WO LANE,安和里,Track,,,,,1
 code:11614,11614,ON YAT STREET,安逸街,Secondary Road,,,,,1
 code:11615,11615,ON YIN STREET,安賢街,Secondary Road,,,,,1

@@ -1,6 +1,12 @@
 {
-  "generated_at": "2026-05-30T03:48:35.615Z",
+  "generated_at": "2026-05-30T04:06:27.459Z",
   "streets": [
+    {
+      "street_name_en": "Gascoigne Road",
+      "street_name_zh": "加士居道",
+      "naming_date": "1905-03-17",
+      "approved_at": "2026-05-30"
+    },
     {
       "street_name_en": "On Wah Street",
       "street_name_zh": "安華街",
@@ -112,12 +118,6 @@
     {
       "street_name_en": "Inspiration Drive",
       "street_name_zh": "迪欣路",
-      "naming_date": "2004-12-17",
-      "approved_at": "2026-05-30"
-    },
-    {
-      "street_name_en": "Magic Road",
-      "street_name_zh": "神奇道",
       "naming_date": "2004-12-17",
       "approved_at": "2026-05-30"
     }

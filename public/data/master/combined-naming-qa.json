@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-30T03:48:36.377Z",
+  "generated_at": "2026-05-30T04:06:34.988Z",
   "counts": {
-    "crowd_events_merged": 23,
-    "combined_events": 556,
+    "crowd_events_merged": 24,
+    "combined_events": 557,
     "street_aggregates": 530,
-    "streets_with_naming_year": 390
+    "streets_with_naming_year": 391
   },
   "join_stats": {
     "matched_exact_features": 2771,

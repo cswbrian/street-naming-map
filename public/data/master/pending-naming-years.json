@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-30T03:48:36.818Z",
+  "generated_at": "2026-05-30T04:06:36.694Z",
   "source_file": "public/data/hk-streets.geojson",
   "totals": {
     "total_segments": 39602,
-    "segments_missing_naming_year": 37851,
+    "segments_missing_naming_year": 37829,
     "unique_roads": 12225,
     "unique_roads_with_street_name": 4579,
-    "unique_roads_with_naming_year": 278,
-    "unique_roads_with_street_name_and_naming_year": 278,
-    "unique_roads_missing_naming_year": 11947,
-    "unique_roads_missing_naming_year_with_street_name": 4301
+    "unique_roads_with_naming_year": 279,
+    "unique_roads_with_street_name_and_naming_year": 279,
+    "unique_roads_missing_naming_year": 11946,
+    "unique_roads_missing_naming_year_with_street_name": 4300
   },
   "roads": [
     {
@@ -2190,25 +2190,25 @@
       "english_name": "GASCOIGNE ROAD",
       "chinese_name": "加士居道",
       "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": "landsd_2016_plus",
+      "naming_year": 1905,
+      "naming_date": "1905-03-17",
+      "naming_source": "combined",
       "naming_details": {
         "street_key": "Gascoigne Road|加士居道",
-        "canonical_naming_date": null,
-        "canonical_naming_year": null,
-        "derivation_reason": "no_declaration_found",
-        "event_count": 1,
-        "notice_no": "GN5984",
-        "notice_type": "replace_description",
-        "notice_source": "landsd",
+        "canonical_naming_date": "1905-03-17",
+        "canonical_naming_year": 1905,
+        "derivation_reason": "declaration_earliest",
+        "event_count": 2,
+        "notice_no": "GN158",
+        "notice_type": "declaration",
+        "notice_source": "crowdsubmitted",
         "notice_key": null,
-        "government_notice_label_en": "G.N.5984",
-        "government_notice_label_zh": "第5984號",
-        "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024425984.pdf",
-        "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024425984.pdf",
-        "related_gazette_plan_url_en": "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM126.pdf",
-        "related_gazette_plan_url_zh": "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM126.pdf"
+        "government_notice_label_en": "G.N.158",
+        "government_notice_label_zh": "第158號",
+        "government_notice_url_en": "https://digitalrepository.lib.hku.hk/catalog/gt54tb75g",
+        "government_notice_url_zh": null,
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
       },
       "segment_count": 22
     },
@@ -143486,7 +143486,7 @@
         "government_notice_label_en": "G.N.1043",
         "government_notice_label_zh": "第1043號",
         "government_notice_url_en": "/egazette/en/1979-gn1043.pdf",
-        "government_notice_url_zh": "/egazette/zh/1979-gn1043.pdf",
+        "government_notice_url_zh": null,
         "related_gazette_plan_url_en": null,
         "related_gazette_plan_url_zh": null
       },
@@ -154492,34 +154492,6 @@
       "naming_date": null,
       "naming_source": null,
       "naming_details": null,
-      "segment_count": 22
-    },
-    {
-      "road_key": "code:10599",
-      "street_code": "10599",
-      "english_name": "GASCOIGNE ROAD",
-      "chinese_name": "加士居道",
-      "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": "landsd_2016_plus",
-      "naming_details": {
-        "street_key": "Gascoigne Road|加士居道",
-        "canonical_naming_date": null,
-        "canonical_naming_year": null,
-        "derivation_reason": "no_declaration_found",
-        "event_count": 1,
-        "notice_no": "GN5984",
-        "notice_type": "replace_description",
-        "notice_source": "landsd",
-        "notice_key": null,
-        "government_notice_label_en": "G.N.5984",
-        "government_notice_label_zh": "第5984號",
-        "government_notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024425984.pdf",
-        "government_notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024425984.pdf",
-        "related_gazette_plan_url_en": "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM126.pdf",
-        "related_gazette_plan_url_zh": "https://www.landsd.gov.hk/doc/en/street-name/gnplan/2020/KRM126.pdf"
-      },
       "segment_count": 22
     },
     {
