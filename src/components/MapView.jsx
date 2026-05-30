@@ -644,10 +644,6 @@ function MapView({
     }
 
     if (!viewportTarget?.bbox && !viewportTarget?.center) {
-      if (roadViewportTarget?.bbox || roadViewportTarget?.center) {
-        return
-      }
-
       map.easeTo({
         center: DEFAULT_VIEW.center,
         zoom: DEFAULT_VIEW.zoom,
@@ -670,7 +666,7 @@ function MapView({
     if (source) {
       source.setData({ type: 'FeatureCollection', features: [] })
     }
-  }, [viewportTarget, roadViewportTarget])
+  }, [viewportTarget])
 
   useEffect(() => {
     const map = mapRef.current
