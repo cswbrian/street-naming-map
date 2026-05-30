@@ -1,0 +1,44 @@
+{
+  "batch_id": "1941-gn870-tai-hang-streets",
+  "gazette_notice_label": "Government Notification No. 870",
+  "publication_date": "1941-07-18",
+  "gazette_url_en": "/egazette/en/1941-gn870.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1941-gn870-tai-hang-streets/1941-gn870.pdf",
+  "streets": [
+    {
+      "street_code": "11620",
+      "english_name": "ORMSBY STREET",
+      "chinese_name": "安庶庇街",
+      "history": [
+        {
+          "publication_date": "1941-07-18",
+          "change_kind": "declare",
+          "street_name_en": "Ormsby Street",
+          "street_name_zh": "安庶庇道",
+          "gazette_notice_label": "Government Notification No. 870",
+          "government_notice_url_en": "/egazette/en/1941-gn870.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 安庶庇道; database 安庶庇街."
+        }
+      ]
+    },
+    {
+      "street_code": "10095",
+      "english_name": "BROWN STREET",
+      "chinese_name": "布朗街",
+      "history": [
+        {
+          "publication_date": "1941-07-18",
+          "change_kind": "declare",
+          "street_name_en": "Brown Street",
+          "street_name_zh": "寶現街",
+          "gazette_notice_label": "Government Notification No. 870",
+          "government_notice_url_en": "/egazette/en/1941-gn870.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 寶現街; database 布朗街."
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

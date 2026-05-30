@@ -1,0 +1,28 @@
+{
+  "batch_id": "1934-gn332-hysan-avenue",
+  "gazette_notice_label": "Government Notification No. 332",
+  "publication_date": "1934-04-27",
+  "gazette_url_en": "/egazette/en/1934-gn332.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1934-gn332-hysan-avenue/1934-gn332.pdf",
+  "streets": [
+    {
+      "street_code": "10879",
+      "english_name": "HYSAN AVENUE",
+      "chinese_name": "希慎道",
+      "history": [
+        {
+          "publication_date": "1934-04-27",
+          "change_kind": "rename",
+          "previous_street_name_en": "Tung Shan Street",
+          "street_name_en": "Hysan Avenue",
+          "street_name_zh": "希慎道",
+          "gazette_notice_label": "Government Notification No. 332",
+          "government_notice_url_en": "/egazette/en/1934-gn332.pdf",
+          "evidence_level": "gazette",
+          "is_declaration_event": false
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

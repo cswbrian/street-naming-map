@@ -1,0 +1,42 @@
+{
+  "batch_id": "1939-gn1047-wan-chai-streets",
+  "gazette_notice_label": "Government Notification No. 1047",
+  "publication_date": "1939-11-10",
+  "gazette_url_en": "/egazette/en/1939-gn1047.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1939-gn1047-wan-chai-streets/1939-gn1047.pdf",
+  "streets": [
+    {
+      "street_code": "12712",
+      "english_name": "WING CHEUNG STREET",
+      "chinese_name": "永祥街",
+      "history": [
+        {
+          "publication_date": "1939-11-10",
+          "change_kind": "declare",
+          "street_name_en": "Wing Cheung Street",
+          "street_name_zh": "永祥街",
+          "gazette_notice_label": "Government Notification No. 1047",
+          "government_notice_url_en": "/egazette/en/1939-gn1047.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12737",
+      "english_name": "WING NING STREET",
+      "chinese_name": "永寧街",
+      "history": [
+        {
+          "publication_date": "1939-11-10",
+          "change_kind": "declare",
+          "street_name_en": "Wing Ning Street",
+          "street_name_zh": "永寧街",
+          "gazette_notice_label": "Government Notification No. 1047",
+          "government_notice_url_en": "/egazette/en/1939-gn1047.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

@@ -1,0 +1,91 @@
+{
+  "batch_id": "1935-gn165-kowloon-tong-streets",
+  "gazette_notice_label": "Government Notification No. 165",
+  "publication_date": "1935-03-01",
+  "gazette_url_en": "/egazette/en/1935-gn165.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1935-gn165-kowloon-tong-streets/1935-gn165.pdf",
+  "streets": [
+    {
+      "street_code": "12106",
+      "english_name": "SHUNG YAN STREET",
+      "chinese_name": "崇仁街",
+      "history": [
+        {
+          "publication_date": "1935-03-01",
+          "change_kind": "declare",
+          "street_name_en": "Shung Yan Road",
+          "street_name_zh": "崇仁道",
+          "gazette_notice_label": "Government Notification No. 165",
+          "government_notice_url_en": "/egazette/en/1935-gn165.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 崇仁道; database 崇仁街."
+        }
+      ]
+    },
+    {
+      "street_code": "10320",
+      "english_name": "COLLEGE ROAD",
+      "chinese_name": "書院道",
+      "history": [
+        {
+          "publication_date": "1935-03-01",
+          "change_kind": "declare",
+          "street_name_en": "College Road",
+          "street_name_zh": "書院道",
+          "gazette_notice_label": "Government Notification No. 165",
+          "government_notice_url_en": "/egazette/en/1935-gn165.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11924",
+      "english_name": "SAU CHUK YUEN ROAD",
+      "chinese_name": "秀竹園道",
+      "history": [
+        {
+          "publication_date": "1935-03-01",
+          "change_kind": "declare",
+          "street_name_en": "Sau Chuk Yuen Road",
+          "street_name_zh": "秀竹園道",
+          "gazette_notice_label": "Government Notification No. 165",
+          "government_notice_url_en": "/egazette/en/1935-gn165.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11681",
+      "english_name": "PENTLAND STREET",
+      "chinese_name": "品蘭街",
+      "history": [
+        {
+          "publication_date": "1935-03-01",
+          "change_kind": "declare",
+          "street_name_en": "Pentland Street",
+          "street_name_zh": "品蘭街",
+          "gazette_notice_label": "Government Notification No. 165",
+          "government_notice_url_en": "/egazette/en/1935-gn165.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12069",
+      "english_name": "SHORT STREET",
+      "chinese_name": "述德街",
+      "history": [
+        {
+          "publication_date": "1935-03-01",
+          "change_kind": "declare",
+          "street_name_en": "Short Street",
+          "street_name_zh": "述德街",
+          "gazette_notice_label": "Government Notification No. 165",
+          "government_notice_url_en": "/egazette/en/1935-gn165.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

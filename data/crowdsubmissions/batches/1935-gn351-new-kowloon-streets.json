@@ -1,0 +1,106 @@
+{
+  "batch_id": "1935-gn351-new-kowloon-streets",
+  "gazette_notice_label": "Government Notification No. 351",
+  "publication_date": "1935-05-03",
+  "gazette_url_en": "/egazette/en/1935-gn351.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1935-gn351-new-kowloon-streets/1935-gn351.pdf",
+  "streets": [
+    {
+      "street_code": "11057",
+      "english_name": "KOM TSUN STREET",
+      "chinese_name": "甘泉街",
+      "history": [
+        {
+          "publication_date": "1935-05-03",
+          "change_kind": "declare",
+          "street_name_en": "Kom Tsun Street",
+          "street_name_zh": "甘泉街",
+          "gazette_notice_label": "Government Notification No. 351",
+          "government_notice_url_en": "/egazette/en/1935-gn351.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11118",
+      "english_name": "KWONG CHEUNG STREET",
+      "chinese_name": "光昌街",
+      "history": [
+        {
+          "publication_date": "1935-05-03",
+          "change_kind": "declare",
+          "street_name_en": "Kwong Cheung Street",
+          "street_name_zh": "光昌街",
+          "gazette_notice_label": "Government Notification No. 351",
+          "government_notice_url_en": "/egazette/en/1935-gn351.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12404",
+      "english_name": "TSAP FAI STREET",
+      "chinese_name": "集輝街",
+      "history": [
+        {
+          "publication_date": "1935-05-03",
+          "change_kind": "declare",
+          "street_name_en": "Tsap Fai Street",
+          "street_name_zh": "集輝街",
+          "gazette_notice_label": "Government Notification No. 351",
+          "government_notice_url_en": "/egazette/en/1935-gn351.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11131",
+      "english_name": "KWONG SHING STREET",
+      "chinese_name": "廣成街",
+      "history": [
+        {
+          "publication_date": "1935-05-03",
+          "change_kind": "declare",
+          "street_name_en": "Kwong Shing Street",
+          "street_name_zh": "廣成街",
+          "gazette_notice_label": "Government Notification No. 351",
+          "government_notice_url_en": "/egazette/en/1935-gn351.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12882",
+      "english_name": "YIU TUNG STREET",
+      "chinese_name": "耀東街",
+      "history": [
+        {
+          "publication_date": "1935-05-03",
+          "change_kind": "declare",
+          "street_name_en": "Yiu Tung Street",
+          "street_name_zh": "耀東街",
+          "gazette_notice_label": "Government Notification No. 351",
+          "government_notice_url_en": "/egazette/en/1935-gn351.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10276",
+      "english_name": "CHUK YUEN ROAD",
+      "chinese_name": "竹園道",
+      "history": [
+        {
+          "publication_date": "1935-05-03",
+          "change_kind": "declare",
+          "street_name_en": "Chuk Yuen Road",
+          "street_name_zh": "竹園道",
+          "gazette_notice_label": "Government Notification No. 351",
+          "government_notice_url_en": "/egazette/en/1935-gn351.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

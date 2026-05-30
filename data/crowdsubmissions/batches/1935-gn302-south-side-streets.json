@@ -1,0 +1,138 @@
+{
+  "batch_id": "1935-gn302-south-side-streets",
+  "gazette_notice_label": "Government Notification No. 302",
+  "publication_date": "1935-04-12",
+  "gazette_url_en": "/egazette/en/1935-gn302.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1935-gn302-south-side-streets/1935-gn302.pdf",
+  "streets": [
+    {
+      "street_code": "12006",
+      "english_name": "SHEK O ROAD",
+      "chinese_name": "石澳道",
+      "history": [
+        {
+          "publication_date": "1935-04-12",
+          "change_kind": "declare",
+          "street_name_en": "Shek O Road",
+          "street_name_zh": "石澳道",
+          "gazette_notice_label": "Government Notification No. 302",
+          "government_notice_url_en": "/egazette/en/1935-gn302.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10062",
+      "english_name": "BIG WAVE BAY ROAD",
+      "chinese_name": "大浪灣道",
+      "history": [
+        {
+          "publication_date": "1935-04-12",
+          "change_kind": "declare",
+          "street_name_en": "Big Wave Bay Road",
+          "street_name_zh": "大浪灣道",
+          "gazette_notice_label": "Government Notification No. 302",
+          "government_notice_url_en": "/egazette/en/1935-gn302.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10117",
+      "english_name": "CAPE D'AGUILAR ROAD",
+      "chinese_name": "鶴咀道",
+      "history": [
+        {
+          "publication_date": "1935-04-12",
+          "change_kind": "declare",
+          "street_name_en": "Cape D'aguilar Road",
+          "street_name_zh": "鶴咀道",
+          "gazette_notice_label": "Government Notification No. 302",
+          "government_notice_url_en": "/egazette/en/1935-gn302.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12129",
+      "english_name": "SOUTH BAY ROAD",
+      "chinese_name": "南灣道",
+      "history": [
+        {
+          "publication_date": "1935-04-12",
+          "change_kind": "declare",
+          "street_name_en": "South Bay Road",
+          "street_name_zh": "南灣道",
+          "gazette_notice_label": "Government Notification No. 302",
+          "government_notice_url_en": "/egazette/en/1935-gn302.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10318",
+      "english_name": "CLUB STREET",
+      "chinese_name": "會所街",
+      "history": [
+        {
+          "publication_date": "1935-04-12",
+          "change_kind": "declare",
+          "street_name_en": "Club Street",
+          "street_name_zh": "會所街",
+          "gazette_notice_label": "Government Notification No. 302",
+          "government_notice_url_en": "/egazette/en/1935-gn302.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10856",
+      "english_name": "HOSPITAL PATH",
+      "chinese_name": "醫院徑",
+      "history": [
+        {
+          "publication_date": "1935-04-12",
+          "change_kind": "declare",
+          "street_name_en": "Hospital Path",
+          "street_name_zh": "醫院徑",
+          "gazette_notice_label": "Government Notification No. 302",
+          "government_notice_url_en": "/egazette/en/1935-gn302.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11244",
+      "english_name": "LLOYD PATH",
+      "chinese_name": "雷丹彌徑",
+      "history": [
+        {
+          "publication_date": "1935-04-12",
+          "change_kind": "declare",
+          "street_name_en": "Lloyd Path",
+          "street_name_zh": "雷丹彌徑",
+          "gazette_notice_label": "Government Notification No. 302",
+          "government_notice_url_en": "/egazette/en/1935-gn302.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10050",
+      "english_name": "BEACH ROAD",
+      "chinese_name": "海灘道",
+      "history": [
+        {
+          "publication_date": "1935-04-12",
+          "change_kind": "declare",
+          "street_name_en": "Beach Road",
+          "street_name_zh": "海灘道",
+          "gazette_notice_label": "Government Notification No. 302",
+          "government_notice_url_en": "/egazette/en/1935-gn302.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

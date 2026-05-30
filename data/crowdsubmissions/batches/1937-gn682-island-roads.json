@@ -1,0 +1,123 @@
+{
+  "batch_id": "1937-gn682-island-roads",
+  "gazette_notice_label": "Government Notification No. 682",
+  "publication_date": "1937-09-24",
+  "gazette_url_en": "/egazette/en/1937-gn682.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1937-gn682-island-roads/1937-gn682.pdf",
+  "streets": [
+    {
+      "street_code": "12074",
+      "english_name": "SHU KUK STREET",
+      "chinese_name": "書局街",
+      "history": [
+        {
+          "publication_date": "1937-09-24",
+          "change_kind": "declare",
+          "street_name_en": "Shu Kuk Street",
+          "street_name_zh": "書局街",
+          "gazette_notice_label": "Government Notification No. 682",
+          "government_notice_url_en": "/egazette/en/1937-gn682.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10955",
+      "english_name": "KAM HONG STREET",
+      "chinese_name": "琴行街",
+      "history": [
+        {
+          "publication_date": "1937-09-24",
+          "change_kind": "declare",
+          "street_name_en": "Kam Hong Street",
+          "street_name_zh": "琴行街",
+          "gazette_notice_label": "Government Notification No. 682",
+          "government_notice_url_en": "/egazette/en/1937-gn682.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11396",
+      "english_name": "MARBLE ROAD",
+      "chinese_name": "馬寶道",
+      "history": [
+        {
+          "publication_date": "1937-09-24",
+          "change_kind": "declare",
+          "street_name_en": "Marble Road",
+          "street_name_zh": "馬寶道",
+          "gazette_notice_label": "Government Notification No. 682",
+          "government_notice_url_en": "/egazette/en/1937-gn682.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11767",
+      "english_name": "POK FU LAM RESERVOIR ROAD",
+      "chinese_name": "薄扶林水塘道",
+      "history": [
+        {
+          "publication_date": "1937-09-24",
+          "change_kind": "declare",
+          "street_name_en": "Pokfulam Reservoir Road",
+          "street_name_zh": "薄扶林水塘道",
+          "gazette_notice_label": "Government Notification No. 682",
+          "government_notice_url_en": "/egazette/en/1937-gn682.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10371",
+      "english_name": "DEEP WATER BAY ROAD",
+      "chinese_name": "深水灣道",
+      "history": [
+        {
+          "publication_date": "1937-09-24",
+          "change_kind": "declare",
+          "street_name_en": "Deep Water Bay Road",
+          "street_name_zh": "深水灣道",
+          "gazette_notice_label": "Government Notification No. 682",
+          "government_notice_url_en": "/egazette/en/1937-gn682.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12781",
+      "english_name": "WONG MA KOK ROAD",
+      "chinese_name": "黃麻角道",
+      "history": [
+        {
+          "publication_date": "1937-09-24",
+          "change_kind": "declare",
+          "street_name_en": "Wong Ma Kok Road",
+          "street_name_zh": "黃蔴角道",
+          "gazette_notice_label": "Government Notification No. 682",
+          "government_notice_url_en": "/egazette/en/1937-gn682.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 黃蔴角道; database 黃麻角道."
+        }
+      ]
+    },
+    {
+      "street_code": "12775",
+      "english_name": "WONG CHUK HANG PATH",
+      "chinese_name": "黃竹坑徑",
+      "history": [
+        {
+          "publication_date": "1937-09-24",
+          "change_kind": "declare",
+          "street_name_en": "Wong Chuk Hang Path",
+          "street_name_zh": "黃竹坑徑",
+          "gazette_notice_label": "Government Notification No. 682",
+          "government_notice_url_en": "/egazette/en/1937-gn682.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

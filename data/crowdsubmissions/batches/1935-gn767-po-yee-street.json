@@ -1,0 +1,26 @@
+{
+  "batch_id": "1935-gn767-po-yee-street",
+  "gazette_notice_label": "Government Notification No. 767",
+  "publication_date": "1935-10-04",
+  "gazette_url_en": "/egazette/en/1935-gn767.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1935-gn767-po-yee-street/1935-gn767.pdf",
+  "streets": [
+    {
+      "street_code": "11762",
+      "english_name": "PO YEE STREET",
+      "chinese_name": "普義街",
+      "history": [
+        {
+          "publication_date": "1935-10-04",
+          "change_kind": "declare",
+          "street_name_en": "Po Yee Street",
+          "street_name_zh": "普義街",
+          "gazette_notice_label": "Government Notification No. 767",
+          "government_notice_url_en": "/egazette/en/1935-gn767.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

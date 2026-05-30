@@ -1,0 +1,42 @@
+{
+  "batch_id": "1939-gn1179-north-point-streets",
+  "gazette_notice_label": "Government Notification No. 1179",
+  "publication_date": "1939-12-15",
+  "gazette_url_en": "/egazette/en/1939-gn1179.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1939-gn1179-north-point-streets/1939-gn1179.pdf",
+  "streets": [
+    {
+      "street_code": "12407",
+      "english_name": "TSAT TSZ MUI ROAD",
+      "chinese_name": "七姊妹道",
+      "history": [
+        {
+          "publication_date": "1939-12-15",
+          "change_kind": "declare",
+          "street_name_en": "Tsat Tse Mui Road",
+          "street_name_zh": "七姊妹道",
+          "gazette_notice_label": "Government Notification No. 1179",
+          "government_notice_url_en": "/egazette/en/1939-gn1179.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12357",
+      "english_name": "TIN CHIU STREET",
+      "chinese_name": "電照街",
+      "history": [
+        {
+          "publication_date": "1939-12-15",
+          "change_kind": "declare",
+          "street_name_en": "Tin Chiu Street",
+          "street_name_zh": "電照街",
+          "gazette_notice_label": "Government Notification No. 1179",
+          "government_notice_url_en": "/egazette/en/1939-gn1179.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

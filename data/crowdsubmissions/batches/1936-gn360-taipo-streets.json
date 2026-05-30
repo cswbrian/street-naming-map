@@ -1,0 +1,42 @@
+{
+  "batch_id": "1936-gn360-taipo-streets",
+  "gazette_notice_label": "Government Notification No. 360",
+  "publication_date": "1936-04-17",
+  "gazette_url_en": "/egazette/en/1936-gn360.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1936-gn360-taipo-streets/1936-gn360.pdf",
+  "streets": [
+    {
+      "street_code": "10686",
+      "english_name": "HEI YUEN STREET",
+      "chinese_name": "戲院街",
+      "history": [
+        {
+          "publication_date": "1936-04-17",
+          "change_kind": "declare",
+          "street_name_en": "Hei Yuen Street",
+          "street_name_zh": "戲院街",
+          "gazette_notice_label": "Government Notification No. 360",
+          "government_notice_url_en": "/egazette/en/1936-gn360.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "13997",
+      "english_name": "TUNG CHEONG STREET",
+      "chinese_name": "東昌街",
+      "history": [
+        {
+          "publication_date": "1936-04-17",
+          "change_kind": "declare",
+          "street_name_en": "Tung Cheung Street",
+          "street_name_zh": "東昌街",
+          "gazette_notice_label": "Government Notification No. 360",
+          "government_notice_url_en": "/egazette/en/1936-gn360.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

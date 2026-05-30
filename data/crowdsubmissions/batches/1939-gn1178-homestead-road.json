@@ -1,0 +1,26 @@
+{
+  "batch_id": "1939-gn1178-homestead-road",
+  "gazette_notice_label": "Government Notification No. 1178",
+  "publication_date": "1939-12-15",
+  "gazette_url_en": "/egazette/en/1939-gn1178.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1939-gn1178-homestead-road/1939-gn1178.pdf",
+  "streets": [
+    {
+      "street_code": "10800",
+      "english_name": "HOMESTEAD ROAD",
+      "chinese_name": "堪仕達道",
+      "history": [
+        {
+          "publication_date": "1939-12-15",
+          "change_kind": "declare",
+          "street_name_en": "Homestead Road",
+          "street_name_zh": "堪仕達道",
+          "gazette_notice_label": "Government Notification No. 1178",
+          "government_notice_url_en": "/egazette/en/1939-gn1178.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

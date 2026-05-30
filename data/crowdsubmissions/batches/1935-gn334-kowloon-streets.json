@@ -1,0 +1,202 @@
+{
+  "batch_id": "1935-gn334-kowloon-streets",
+  "gazette_notice_label": "Government Notification No. 334",
+  "publication_date": "1935-04-26",
+  "gazette_url_en": "/egazette/en/1935-gn334.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1935-gn334-kowloon-streets/1935-gn334.pdf",
+  "streets": [
+    {
+      "street_code": "11896",
+      "english_name": "SAN LAU STREET",
+      "chinese_name": "新柳街",
+      "history": [
+        {
+          "publication_date": "1935-04-26",
+          "change_kind": "declare",
+          "street_name_en": "San Lau Street",
+          "street_name_zh": "新柳街",
+          "gazette_notice_label": "Government Notification No. 334",
+          "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11985",
+      "english_name": "SHANSI STREET",
+      "chinese_name": "山西街",
+      "history": [
+        {
+          "publication_date": "1935-04-26",
+          "change_kind": "declare",
+          "street_name_en": "Shansi Street",
+          "street_name_zh": "山西街",
+          "gazette_notice_label": "Government Notification No. 334",
+          "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10990",
+      "english_name": "KIANG HSI STREET",
+      "chinese_name": "江西街",
+      "history": [
+        {
+          "publication_date": "1935-04-26",
+          "change_kind": "declare",
+          "street_name_en": "Kiang Hsi Street",
+          "street_name_zh": "江西街",
+          "gazette_notice_label": "Government Notification No. 334",
+          "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10020",
+      "english_name": "ANHUI STREET",
+      "chinese_name": "安徽街",
+      "history": [
+        {
+          "publication_date": "1935-04-26",
+          "change_kind": "declare",
+          "street_name_en": "Anhui Street",
+          "street_name_zh": "安徽街",
+          "gazette_notice_label": "Government Notification No. 334",
+          "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10991",
+      "english_name": "KIANG SU STREET",
+      "chinese_name": "江蘇街",
+      "history": [
+        {
+          "publication_date": "1935-04-26",
+          "change_kind": "declare",
+          "street_name_en": "Kiang Su Street",
+          "street_name_zh": "江蘇街",
+          "gazette_notice_label": "Government Notification No. 334",
+          "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12029",
+      "english_name": "SHEUNG HEUNG ROAD",
+      "chinese_name": "上鄉道",
+      "history": [
+        {
+          "publication_date": "1935-04-26",
+          "change_kind": "declare",
+          "street_name_en": "Sheung Heung Road",
+          "street_name_zh": "上鄉道",
+          "gazette_notice_label": "Government Notification No. 334",
+          "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11111",
+      "english_name": "KWEI CHOW STREET",
+      "chinese_name": "貴州街",
+      "history": [
+        {
+          "publication_date": "1935-04-26",
+          "change_kind": "declare",
+          "street_name_en": "Kwei Chow Street",
+          "street_name_zh": "貴州街",
+          "gazette_notice_label": "Government Notification No. 334",
+          "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12199",
+      "english_name": "SZE CHUEN STREET",
+      "chinese_name": "四川街",
+      "history": [
+        {
+          "publication_date": "1935-04-26",
+          "change_kind": "declare",
+          "street_name_en": "Sze Chuen Street",
+          "street_name_zh": "四川街",
+          "gazette_notice_label": "Government Notification No. 334",
+          "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10039",
+      "english_name": "BAILEY STREET",
+      "chinese_name": "庇利街",
+      "history": [
+        {
+          "publication_date": "1935-04-26",
+          "change_kind": "declare",
+          "street_name_en": "Bailey Street",
+          "street_name_zh": "庇利街",
+          "gazette_notice_label": "Government Notification No. 334",
+          "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10396",
+      "english_name": "EARL STREET",
+      "chinese_name": "伯爵街",
+      "history": [
+        {
+          "publication_date": "1935-04-26",
+          "change_kind": "declare",
+          "street_name_en": "Earl Street",
+          "street_name_zh": "伯爵街",
+          "gazette_notice_label": "Government Notification No. 334",
+          "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10065",
+      "english_name": "BLENHEIM AVENUE",
+      "chinese_name": "白蘭軒道",
+      "history": [
+        {
+          "publication_date": "1935-04-26",
+          "change_kind": "declare",
+          "street_name_en": "Blenheim Avenue",
+          "street_name_zh": "白蘭軒道",
+          "gazette_notice_label": "Government Notification No. 334",
+          "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10881",
+      "english_name": "ICHANG STREET",
+      "chinese_name": "宜昌街",
+      "history": [
+        {
+          "publication_date": "1935-04-26",
+          "change_kind": "declare",
+          "street_name_en": "Ichang Street",
+          "street_name_zh": "宜昌街",
+          "gazette_notice_label": "Government Notification No. 334",
+          "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

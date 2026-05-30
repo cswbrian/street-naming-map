@@ -1,0 +1,42 @@
+{
+  "batch_id": "1941-gn1261-aberdeen-streets",
+  "gazette_notice_label": "Government Notification No. 1261",
+  "publication_date": "1941-10-24",
+  "gazette_url_en": "/egazette/en/1941-gn1261.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1941-gn1261-aberdeen-streets/1941-gn1261.pdf",
+  "streets": [
+    {
+      "street_code": "11272",
+      "english_name": "LOK YEUNG STREET",
+      "chinese_name": "洛陽街",
+      "history": [
+        {
+          "publication_date": "1941-10-24",
+          "change_kind": "declare",
+          "street_name_en": "Lok Yeung Street",
+          "street_name_zh": "洛陽街",
+          "gazette_notice_label": "Government Notification No. 1261",
+          "government_notice_url_en": "/egazette/en/1941-gn1261.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10171",
+      "english_name": "CHENGTU ROAD",
+      "chinese_name": "成都道",
+      "history": [
+        {
+          "publication_date": "1941-10-24",
+          "change_kind": "declare",
+          "street_name_en": "Chengtu Road",
+          "street_name_zh": "成都道",
+          "gazette_notice_label": "Government Notification No. 1261",
+          "government_notice_url_en": "/egazette/en/1941-gn1261.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

@@ -1,0 +1,26 @@
+{
+  "batch_id": "1935-gn139-cliff-road",
+  "gazette_notice_label": "Government Notification No. 139",
+  "publication_date": "1935-02-22",
+  "gazette_url_en": "/egazette/en/1935-gn139.pdf",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/1935-gn139-cliff-road/1935-gn139.pdf",
+  "streets": [
+    {
+      "street_code": "10315",
+      "english_name": "CLIFF ROAD",
+      "chinese_name": "石壁道",
+      "history": [
+        {
+          "publication_date": "1935-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Cliff Road",
+          "street_name_zh": "石壁道",
+          "gazette_notice_label": "Government Notification No. 139",
+          "government_notice_url_en": "/egazette/en/1935-gn139.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

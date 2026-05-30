@@ -25,7 +25,7 @@ Process **HKGRO-only** historical gazette scans for **street-naming-map**.
 3. **Match each street** to `pending-naming-years` **and confirm in `hk-streets.geojson`**.
 4. **Build one batch JSON per notice** (all streets from same G.N. in one batch).
 5. **Apply** + **self-host** PDF at `/egazette/en/{year}-gn{no}.pdf`.
-6. **Report** match table: gazette name → code → in GeoJSON? → applied?
+6. **Report** match table: gazette name → code → in GeoJSON? → applied? (source **HKGRO**)
 
 For notice layout patterns, see [gazette-patterns.md](gazette-patterns.md).  
 For walkthroughs, see [examples.md](examples.md).
@@ -89,6 +89,7 @@ Prefer `street_code` over name-only matching once confirmed.
 ```json
 {
   "batch_id": "1931-gn300-shaukiwan-streets",
+  "source": "hkgro",
   "gazette_notice_label": "Government Notification No. 300",
   "publication_date": "1931-05-15",
   "gazette_url_en": "/egazette/en/1931-gn300.pdf",
@@ -113,6 +114,7 @@ Prefer `street_code` over name-only matching once confirmed.
 ```
 
 Rules:
+- Set **`"source": "hkgro"`** on every HKGRO batch — map and tables show **HKGRO**, not 社群.
 - **Omit `submitter_remarks`** when gazette English and Chinese both match the database exactly.
 - **Include `submitter_remarks` only** when gazette EN or ZH differs from the matched record (e.g. `Gazette ZH 連合道; database 連道.`).
 - **Never** store gazette DESCRIPTION text or lot references in remarks.

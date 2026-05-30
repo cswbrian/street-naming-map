@@ -1,0 +1,43 @@
+{
+  "batch_id": "1936-gn885-kadoorie-braga",
+  "gazette_notice_label": "Government Notification No. 885",
+  "publication_date": "1936-11-06",
+  "gazette_url_en": "/egazette/en/1936-gn885.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1936-gn885-kadoorie-braga/1936-gn885.pdf",
+  "streets": [
+    {
+      "street_code": "10924",
+      "english_name": "KADOORIE AVENUE",
+      "chinese_name": "嘉道理道",
+      "history": [
+        {
+          "publication_date": "1936-11-06",
+          "change_kind": "declare",
+          "street_name_en": "Kadoorie Avenue",
+          "street_name_zh": "嘉道理道",
+          "gazette_notice_label": "Government Notification No. 885",
+          "government_notice_url_en": "/egazette/en/1936-gn885.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10083",
+      "english_name": "BRAGA CIRCUIT",
+      "chinese_name": "布力架街",
+      "history": [
+        {
+          "publication_date": "1936-11-06",
+          "change_kind": "declare",
+          "street_name_en": "Braga Circuit",
+          "street_name_zh": "布力架道",
+          "gazette_notice_label": "Government Notification No. 885",
+          "government_notice_url_en": "/egazette/en/1936-gn885.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 布力架道; database 布力架街."
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

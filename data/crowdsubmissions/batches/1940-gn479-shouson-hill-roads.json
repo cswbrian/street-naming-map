@@ -1,0 +1,42 @@
+{
+  "batch_id": "1940-gn479-shouson-hill-roads",
+  "gazette_notice_label": "Government Notification No. 479",
+  "publication_date": "1940-04-26",
+  "gazette_url_en": "/egazette/en/1940-gn479.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1940-gn479-shouson-hill-roads/1940-gn479.pdf",
+  "streets": [
+    {
+      "street_code": "12072",
+      "english_name": "SHOUSON HILL ROAD WEST",
+      "chinese_name": "壽臣山道西",
+      "history": [
+        {
+          "publication_date": "1940-04-26",
+          "change_kind": "declare",
+          "street_name_en": "Shouson Hill Road West",
+          "street_name_zh": "壽臣山道西",
+          "gazette_notice_label": "Government Notification No. 479",
+          "government_notice_url_en": "/egazette/en/1940-gn479.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12071",
+      "english_name": "SHOUSON HILL ROAD EAST",
+      "chinese_name": "壽臣山道東",
+      "history": [
+        {
+          "publication_date": "1940-04-26",
+          "change_kind": "declare",
+          "street_name_en": "Shouson Hill Road East",
+          "street_name_zh": "壽臣山道東",
+          "gazette_notice_label": "Government Notification No. 479",
+          "government_notice_url_en": "/egazette/en/1940-gn479.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

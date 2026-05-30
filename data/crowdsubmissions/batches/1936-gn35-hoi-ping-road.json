@@ -1,0 +1,26 @@
+{
+  "batch_id": "1936-gn35-hoi-ping-road",
+  "gazette_notice_label": "Government Notification No. 35",
+  "publication_date": "1936-01-10",
+  "gazette_url_en": "/egazette/en/1936-gn35.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1936-gn35-hoi-ping-road/1936-gn35.pdf",
+  "streets": [
+    {
+      "street_code": "10782",
+      "english_name": "HOI PING ROAD",
+      "chinese_name": "開平道",
+      "history": [
+        {
+          "publication_date": "1936-01-10",
+          "change_kind": "declare",
+          "street_name_en": "Hoi Ping Road",
+          "street_name_zh": "開平道",
+          "gazette_notice_label": "Government Notification No. 35",
+          "government_notice_url_en": "/egazette/en/1936-gn35.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

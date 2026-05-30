@@ -1,0 +1,90 @@
+{
+  "batch_id": "1940-gn154-happy-valley-roads",
+  "gazette_notice_label": "Government Notification No. 154",
+  "publication_date": "1940-02-07",
+  "gazette_url_en": "/egazette/en/1940-gn154.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1940-gn154-happy-valley-roads/1940-gn154.pdf",
+  "streets": [
+    {
+      "street_code": "10676",
+      "english_name": "HAWTHORN ROAD",
+      "chinese_name": "荷塘道",
+      "history": [
+        {
+          "publication_date": "1940-02-07",
+          "change_kind": "declare",
+          "street_name_en": "Hawthorn Road",
+          "street_name_zh": "荷塘道",
+          "gazette_notice_label": "Government Notification No. 154",
+          "government_notice_url_en": "/egazette/en/1940-gn154.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10797",
+      "english_name": "HOLLY ROAD",
+      "chinese_name": "冬青道",
+      "history": [
+        {
+          "publication_date": "1940-02-07",
+          "change_kind": "declare",
+          "street_name_en": "Holly Road",
+          "street_name_zh": "冬青道",
+          "gazette_notice_label": "Government Notification No. 154",
+          "government_notice_url_en": "/egazette/en/1940-gn154.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10625",
+      "english_name": "GREEN LANE",
+      "chinese_name": "箕璉坊",
+      "history": [
+        {
+          "publication_date": "1940-02-07",
+          "change_kind": "declare",
+          "street_name_en": "Green Lane",
+          "street_name_zh": "箕璉坊",
+          "gazette_notice_label": "Government Notification No. 154",
+          "government_notice_url_en": "/egazette/en/1940-gn154.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10094",
+      "english_name": "BROOM ROAD",
+      "chinese_name": "蟠龍道",
+      "history": [
+        {
+          "publication_date": "1940-02-07",
+          "change_kind": "declare",
+          "street_name_en": "Broom Road",
+          "street_name_zh": "蟠龍道",
+          "gazette_notice_label": "Government Notification No. 154",
+          "government_notice_url_en": "/egazette/en/1940-gn154.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10087",
+      "english_name": "BRIAR AVENUE",
+      "chinese_name": "比雅道",
+      "history": [
+        {
+          "publication_date": "1940-02-07",
+          "change_kind": "declare",
+          "street_name_en": "Briar Avenue",
+          "street_name_zh": "比雅道",
+          "gazette_notice_label": "Government Notification No. 154",
+          "government_notice_url_en": "/egazette/en/1940-gn154.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

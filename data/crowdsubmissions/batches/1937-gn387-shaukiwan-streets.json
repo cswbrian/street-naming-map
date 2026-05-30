@@ -1,0 +1,91 @@
+{
+  "batch_id": "1937-gn387-shaukiwan-streets",
+  "gazette_notice_label": "Government Notification No. 387",
+  "publication_date": "1937-06-04",
+  "gazette_url_en": "/egazette/en/1937-gn387.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1937-gn387-shaukiwan-streets/1937-gn387.pdf",
+  "streets": [
+    {
+      "street_code": "10799",
+      "english_name": "HOLY CROSS PATH",
+      "chinese_name": "聖十字徑",
+      "history": [
+        {
+          "publication_date": "1937-06-04",
+          "change_kind": "declare",
+          "street_name_en": "Holy Cross Path",
+          "street_name_zh": "聖十字路",
+          "gazette_notice_label": "Government Notification No. 387",
+          "government_notice_url_en": "/egazette/en/1937-gn387.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 聖十字路; database 聖十字徑."
+        }
+      ]
+    },
+    {
+      "street_code": "10779",
+      "english_name": "HOI NING STREET",
+      "chinese_name": "海寧街",
+      "history": [
+        {
+          "publication_date": "1937-06-04",
+          "change_kind": "declare",
+          "street_name_en": "Hoi Ning Street",
+          "street_name_zh": "海寧街",
+          "gazette_notice_label": "Government Notification No. 387",
+          "government_notice_url_en": "/egazette/en/1937-gn387.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10764",
+      "english_name": "HOI AN STREET",
+      "chinese_name": "海晏街",
+      "history": [
+        {
+          "publication_date": "1937-06-04",
+          "change_kind": "declare",
+          "street_name_en": "Hoi An Street",
+          "street_name_zh": "海晏街",
+          "gazette_notice_label": "Government Notification No. 387",
+          "government_notice_url_en": "/egazette/en/1937-gn387.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10769",
+      "english_name": "HOI FOO STREET",
+      "chinese_name": "海富街",
+      "history": [
+        {
+          "publication_date": "1937-06-04",
+          "change_kind": "declare",
+          "street_name_en": "Hoi Foo Street",
+          "street_name_zh": "海富街",
+          "gazette_notice_label": "Government Notification No. 387",
+          "government_notice_url_en": "/egazette/en/1937-gn387.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10726",
+      "english_name": "HING MAN STREET",
+      "chinese_name": "興民街",
+      "history": [
+        {
+          "publication_date": "1937-06-04",
+          "change_kind": "declare",
+          "street_name_en": "Hing Man Street",
+          "street_name_zh": "興民街",
+          "gazette_notice_label": "Government Notification No. 387",
+          "government_notice_url_en": "/egazette/en/1937-gn387.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

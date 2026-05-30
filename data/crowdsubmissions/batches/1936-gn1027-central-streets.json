@@ -1,0 +1,42 @@
+{
+  "batch_id": "1936-gn1027-central-streets",
+  "gazette_notice_label": "Government Notification No. 1027",
+  "publication_date": "1936-12-31",
+  "gazette_url_en": "/egazette/en/1936-gn1027.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1936-gn1027-central-streets/1936-gn1027.pdf",
+  "streets": [
+    {
+      "street_code": "12348",
+      "english_name": "THEATRE LANE",
+      "chinese_name": "戲院里",
+      "history": [
+        {
+          "publication_date": "1936-12-31",
+          "change_kind": "declare",
+          "street_name_en": "Theatre Lane",
+          "street_name_zh": "戲院里",
+          "gazette_notice_label": "Government Notification No. 1027",
+          "government_notice_url_en": "/egazette/en/1936-gn1027.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10074",
+      "english_name": "BORRETT ROAD",
+      "chinese_name": "波老道",
+      "history": [
+        {
+          "publication_date": "1936-12-31",
+          "change_kind": "declare",
+          "street_name_en": "Borrett Road",
+          "street_name_zh": "波老道",
+          "gazette_notice_label": "Government Notification No. 1027",
+          "government_notice_url_en": "/egazette/en/1936-gn1027.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

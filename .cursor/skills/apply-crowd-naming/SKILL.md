@@ -15,7 +15,9 @@ Typical input:
 - List of Chinese and/or English street names
 - Optional PDF paths (`cgn…pdf`, `egn…pdf`)
 
-Goal: mark streets as **社群** (`crowdsubmitted`) and list them under **最近核實**.
+Goal: mark streets under **最近核實**. Source badge depends on batch type:
+- **Modern e-Gazette** (`egn…` / `cgn…`) → **社群** (`crowdsubmitted`)
+- **HKGRO colonial scans** → use [parse-hkgro-gazettes](../parse-hkgro-gazettes/SKILL.md) → **HKGRO** (`hkgro`)
 
 ## Workflow
 
@@ -87,7 +89,7 @@ Template: `data/crowdsubmissions/batch-template.json`
 | `data/crowdsubmissions/street-events-approved.json` | Crowd events |
 | `public/data/master/submission-tracker.json` | Approved badges |
 | `public/data/master/recently-verified.json` | 最近核實 list |
-| `public/data/hk-streets.geojson` | Map coloring + 社群 source |
+| `public/data/hk-streets.geojson` | Map coloring + source badge (`crowdsubmitted` or `hkgro`) |
 
 ## CSV header pitfall
 

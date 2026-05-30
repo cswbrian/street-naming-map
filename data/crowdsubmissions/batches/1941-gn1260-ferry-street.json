@@ -1,0 +1,26 @@
+{
+  "batch_id": "1941-gn1260-ferry-street",
+  "gazette_notice_label": "Government Notification No. 1260",
+  "publication_date": "1941-10-24",
+  "gazette_url_en": "/egazette/en/1941-gn1260.pdf",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/1941-gn1260-ferry-street/1941-gn1260.pdf",
+  "streets": [
+    {
+      "street_code": "10483",
+      "english_name": "FERRY STREET",
+      "chinese_name": "渡船街",
+      "history": [
+        {
+          "publication_date": "1941-10-24",
+          "change_kind": "declare",
+          "street_name_en": "Ferry Street",
+          "street_name_zh": "渡船街",
+          "gazette_notice_label": "Government Notification No. 1260",
+          "government_notice_url_en": "/egazette/en/1941-gn1260.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

@@ -1,0 +1,27 @@
+{
+  "batch_id": "1939-gn489-sports-road",
+  "gazette_notice_label": "Government Notification No. 489",
+  "publication_date": "1939-06-19",
+  "gazette_url_en": "/egazette/en/1939-gn489.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1939-gn489-sports-road/1939-gn489.pdf",
+  "streets": [
+    {
+      "street_code": "12134",
+      "english_name": "SPORTS ROAD",
+      "chinese_name": "體育道",
+      "history": [
+        {
+          "publication_date": "1939-06-19",
+          "change_kind": "declare",
+          "street_name_en": "Sports Road",
+          "street_name_zh": "體育路",
+          "gazette_notice_label": "Government Notification No. 489",
+          "government_notice_url_en": "/egazette/en/1939-gn489.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 體育路; database 體育道."
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

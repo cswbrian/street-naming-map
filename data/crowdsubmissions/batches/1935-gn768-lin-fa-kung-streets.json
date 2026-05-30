@@ -1,0 +1,58 @@
+{
+  "batch_id": "1935-gn768-lin-fa-kung-streets",
+  "gazette_notice_label": "Government Notification No. 768",
+  "publication_date": "1935-10-04",
+  "gazette_url_en": "/egazette/en/1935-gn768.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1935-gn768-lin-fa-kung-streets/1935-gn768.pdf",
+  "streets": [
+    {
+      "street_code": "11234",
+      "english_name": "LIN FA KUNG STREET EAST",
+      "chinese_name": "蓮花宮東街",
+      "history": [
+        {
+          "publication_date": "1935-10-04",
+          "change_kind": "declare",
+          "street_name_en": "Lin Fa Kung Street East",
+          "street_name_zh": "蓮花宮東街",
+          "gazette_notice_label": "Government Notification No. 768",
+          "government_notice_url_en": "/egazette/en/1935-gn768.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11235",
+      "english_name": "LIN FA KUNG STREET WEST",
+      "chinese_name": "蓮花宮西街",
+      "history": [
+        {
+          "publication_date": "1935-10-04",
+          "change_kind": "declare",
+          "street_name_en": "Lin Fa Kung Street West",
+          "street_name_zh": "蓮花宮西街",
+          "gazette_notice_label": "Government Notification No. 768",
+          "government_notice_url_en": "/egazette/en/1935-gn768.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11231",
+      "english_name": "LILY STREET",
+      "chinese_name": "蓮花街",
+      "history": [
+        {
+          "publication_date": "1935-10-04",
+          "change_kind": "declare",
+          "street_name_en": "Lily Street",
+          "street_name_zh": "蓮花街",
+          "gazette_notice_label": "Government Notification No. 768",
+          "government_notice_url_en": "/egazette/en/1935-gn768.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

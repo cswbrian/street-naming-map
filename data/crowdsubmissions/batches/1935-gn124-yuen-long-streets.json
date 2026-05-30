@@ -1,0 +1,123 @@
+{
+  "batch_id": "1935-gn124-yuen-long-streets",
+  "gazette_notice_label": "Government Notification No. 124",
+  "publication_date": "1935-02-15",
+  "gazette_url_en": "/egazette/en/1935-gn124.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1935-gn124-yuen-long-streets/1935-gn124.pdf",
+  "streets": [
+    {
+      "street_code": "12267",
+      "english_name": "TAI SAN STREET",
+      "chinese_name": "大新街",
+      "history": [
+        {
+          "publication_date": "1935-02-15",
+          "change_kind": "declare",
+          "street_name_en": "Tai San Street",
+          "street_name_zh": "大新街",
+          "gazette_notice_label": "Government Notification No. 124",
+          "government_notice_url_en": "/egazette/en/1935-gn124.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12825",
+      "english_name": "YAT SAN STREET",
+      "chinese_name": "日新街",
+      "history": [
+        {
+          "publication_date": "1935-02-15",
+          "change_kind": "declare",
+          "street_name_en": "Yat San Street",
+          "street_name_zh": "日新街",
+          "gazette_notice_label": "Government Notification No. 124",
+          "government_notice_url_en": "/egazette/en/1935-gn124.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12833",
+      "english_name": "YAU SAN STREET",
+      "chinese_name": "又新街",
+      "history": [
+        {
+          "publication_date": "1935-02-15",
+          "change_kind": "declare",
+          "street_name_en": "Yau San Street",
+          "street_name_zh": "又新街",
+          "gazette_notice_label": "Government Notification No. 124",
+          "government_notice_url_en": "/egazette/en/1935-gn124.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10477",
+      "english_name": "FAU TSOI STREET",
+      "chinese_name": "阜財街",
+      "history": [
+        {
+          "publication_date": "1935-02-15",
+          "change_kind": "declare",
+          "street_name_en": "Fau Tsoi Street",
+          "street_name_zh": "阜財街",
+          "gazette_notice_label": "Government Notification No. 124",
+          "government_notice_url_en": "/egazette/en/1935-gn124.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11070",
+      "english_name": "KUK TING STREET",
+      "chinese_name": "谷亭街",
+      "history": [
+        {
+          "publication_date": "1935-02-15",
+          "change_kind": "declare",
+          "street_name_en": "Kuk Ting Street",
+          "street_name_zh": "穀亭街",
+          "gazette_notice_label": "Government Notification No. 124",
+          "government_notice_url_en": "/egazette/en/1935-gn124.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 穀亭街; database 谷亭街."
+        }
+      ]
+    },
+    {
+      "street_code": "12212",
+      "english_name": "TAI FUNG STREET",
+      "chinese_name": "泰豐街",
+      "history": [
+        {
+          "publication_date": "1935-02-15",
+          "change_kind": "declare",
+          "street_name_en": "Tai Fung Street",
+          "street_name_zh": "泰豐街",
+          "gazette_notice_label": "Government Notification No. 124",
+          "government_notice_url_en": "/egazette/en/1935-gn124.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11853",
+      "english_name": "SAI TAI STREET",
+      "chinese_name": "西堤街",
+      "history": [
+        {
+          "publication_date": "1935-02-15",
+          "change_kind": "declare",
+          "street_name_en": "Sai Tai Street",
+          "street_name_zh": "西堤街",
+          "gazette_notice_label": "Government Notification No. 124",
+          "government_notice_url_en": "/egazette/en/1935-gn124.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

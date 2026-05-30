@@ -1,0 +1,235 @@
+{
+  "batch_id": "1934-gn91-cheung-sha-wan-streets",
+  "gazette_notice_label": "Government Notification No. 91",
+  "publication_date": "1934-02-09",
+  "gazette_url_en": "/egazette/en/1934-gn91.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1934-gn91-cheung-sha-wan-streets/1934-gn91.pdf",
+  "streets": [
+    {
+      "street_code": "12093",
+      "english_name": "SHUN NING ROAD",
+      "chinese_name": "順寧道",
+      "history": [
+        {
+          "publication_date": "1934-02-09",
+          "change_kind": "declare",
+          "street_name_en": "Shun Ning Road",
+          "street_name_zh": "順寧道",
+          "gazette_notice_label": "Government Notification No. 91",
+          "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11749",
+      "english_name": "PO ON ROAD",
+      "chinese_name": "保安道",
+      "history": [
+        {
+          "publication_date": "1934-02-09",
+          "change_kind": "declare",
+          "street_name_en": "Po On Road",
+          "street_name_zh": "普安道",
+          "gazette_notice_label": "Government Notification No. 91",
+          "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 普安道; database 保安道."
+        }
+      ]
+    },
+    {
+      "street_code": "12620",
+      "english_name": "WAI WAI ROAD",
+      "chinese_name": "懷惠道",
+      "history": [
+        {
+          "publication_date": "1934-02-09",
+          "change_kind": "declare",
+          "street_name_en": "Wai Wai Road",
+          "street_name_zh": "懷惠道",
+          "gazette_notice_label": "Government Notification No. 91",
+          "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11129",
+      "english_name": "KWONG LEE ROAD",
+      "chinese_name": "廣利道",
+      "history": [
+        {
+          "publication_date": "1934-02-09",
+          "change_kind": "declare",
+          "street_name_en": "Kwong Lee Road",
+          "street_name_zh": "廣利道",
+          "gazette_notice_label": "Government Notification No. 91",
+          "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12724",
+      "english_name": "WING HONG STREET",
+      "chinese_name": "永康街",
+      "history": [
+        {
+          "publication_date": "1934-02-09",
+          "change_kind": "declare",
+          "street_name_en": "Wing Hong Street",
+          "street_name_zh": "永康街",
+          "gazette_notice_label": "Government Notification No. 91",
+          "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11065",
+      "english_name": "KOWLOON ROAD",
+      "chinese_name": "九龍道",
+      "history": [
+        {
+          "publication_date": "1934-02-09",
+          "change_kind": "declare",
+          "street_name_en": "Kowloon Road",
+          "street_name_zh": "九龍道",
+          "gazette_notice_label": "Government Notification No. 91",
+          "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10111",
+      "english_name": "CAMP STREET",
+      "chinese_name": "營盤街",
+      "history": [
+        {
+          "publication_date": "1934-02-09",
+          "change_kind": "declare",
+          "street_name_en": "Camp Street",
+          "street_name_zh": "營盤街",
+          "gazette_notice_label": "Government Notification No. 91",
+          "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11783",
+      "english_name": "PRATAS STREET",
+      "chinese_name": "東沙島街",
+      "history": [
+        {
+          "publication_date": "1934-02-09",
+          "change_kind": "declare",
+          "street_name_en": "Pratas Street",
+          "street_name_zh": "東沙島街",
+          "gazette_notice_label": "Government Notification No. 91",
+          "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12394",
+      "english_name": "TONKIN STREET",
+      "chinese_name": "東京街",
+      "history": [
+        {
+          "publication_date": "1934-02-09",
+          "change_kind": "declare",
+          "street_name_en": "Tonkin Street",
+          "street_name_zh": "東京街",
+          "gazette_notice_label": "Government Notification No. 91",
+          "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12734",
+      "english_name": "WING LUNG STREET",
+      "chinese_name": "永隆街",
+      "history": [
+        {
+          "publication_date": "1934-02-09",
+          "change_kind": "declare",
+          "street_name_en": "Wing Lung Street",
+          "street_name_zh": "永隆街",
+          "gazette_notice_label": "Government Notification No. 91",
+          "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10475",
+      "english_name": "FAT TSEUNG STREET",
+      "chinese_name": "發祥街",
+      "history": [
+        {
+          "publication_date": "1934-02-09",
+          "change_kind": "declare",
+          "street_name_en": "Fat Tseung Street",
+          "street_name_zh": "發祥街",
+          "gazette_notice_label": "Government Notification No. 91",
+          "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10188",
+      "english_name": "CHEUNG FAT STREET",
+      "chinese_name": "長發街",
+      "history": [
+        {
+          "publication_date": "1934-02-09",
+          "change_kind": "declare",
+          "street_name_en": "Cheung Fat Street",
+          "street_name_zh": "長發街",
+          "gazette_notice_label": "Government Notification No. 91",
+          "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10731",
+      "english_name": "HING WAH STREET",
+      "chinese_name": "興華街",
+      "history": [
+        {
+          "publication_date": "1934-02-09",
+          "change_kind": "declare",
+          "street_name_en": "Hing Wah Street",
+          "street_name_zh": "興華街",
+          "gazette_notice_label": "Government Notification No. 91",
+          "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10215",
+      "english_name": "CHEUNG WAH STREET",
+      "chinese_name": "昌華街",
+      "history": [
+        {
+          "publication_date": "1934-02-09",
+          "change_kind": "declare",
+          "street_name_en": "Cheung Wah Street",
+          "street_name_zh": "昌華街",
+          "gazette_notice_label": "Government Notification No. 91",
+          "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

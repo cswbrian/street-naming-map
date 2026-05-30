@@ -1,0 +1,58 @@
+{
+  "batch_id": "1935-gn490-causeway-bay-roads",
+  "gazette_notice_label": "Government Notification No. 490",
+  "publication_date": "1935-06-21",
+  "gazette_url_en": "/egazette/en/1935-gn490.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1935-gn490-causeway-bay-roads/1935-gn490.pdf",
+  "streets": [
+    {
+      "street_code": "11038",
+      "english_name": "KING'S ROAD",
+      "chinese_name": "英皇道",
+      "history": [
+        {
+          "publication_date": "1935-06-21",
+          "change_kind": "declare",
+          "street_name_en": "King's Road",
+          "street_name_zh": "英皇道",
+          "gazette_notice_label": "Government Notification No. 490",
+          "government_notice_url_en": "/egazette/en/1935-gn490.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10406",
+      "english_name": "ELECTRIC ROAD",
+      "chinese_name": "電氣道",
+      "history": [
+        {
+          "publication_date": "1935-06-21",
+          "change_kind": "declare",
+          "street_name_en": "Electric Road",
+          "street_name_zh": "電氣道",
+          "gazette_notice_label": "Government Notification No. 490",
+          "government_notice_url_en": "/egazette/en/1935-gn490.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12525",
+      "english_name": "TUNG LO WAN ROAD",
+      "chinese_name": "銅鑼灣道",
+      "history": [
+        {
+          "publication_date": "1935-06-21",
+          "change_kind": "declare",
+          "street_name_en": "Tung Lo Wan Road",
+          "street_name_zh": "銅鑼灣道",
+          "gazette_notice_label": "Government Notification No. 490",
+          "government_notice_url_en": "/egazette/en/1935-gn490.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

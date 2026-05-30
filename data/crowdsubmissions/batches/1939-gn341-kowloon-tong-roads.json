@@ -1,0 +1,76 @@
+{
+  "batch_id": "1939-gn341-kowloon-tong-roads",
+  "gazette_notice_label": "Government Notification No. 341",
+  "publication_date": "1939-04-28",
+  "gazette_url_en": "/egazette/en/1939-gn341.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1939-gn341-kowloon-tong-roads/1939-gn341.pdf",
+  "streets": [
+    {
+      "street_code": "10761",
+      "english_name": "HO TUNG ROAD",
+      "chinese_name": "何東道",
+      "history": [
+        {
+          "publication_date": "1939-04-28",
+          "change_kind": "declare",
+          "street_name_en": "Ho Tung Road",
+          "street_name_zh": "何東道",
+          "gazette_notice_label": "Government Notification No. 341",
+          "government_notice_url_en": "/egazette/en/1939-gn341.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10373",
+      "english_name": "DERBY ROAD",
+      "chinese_name": "打比道",
+      "history": [
+        {
+          "publication_date": "1939-04-28",
+          "change_kind": "declare",
+          "street_name_en": "Derby Road",
+          "street_name_zh": "多庇道",
+          "gazette_notice_label": "Government Notification No. 341",
+          "government_notice_url_en": "/egazette/en/1939-gn341.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 多庇道; database 打比道."
+        }
+      ]
+    },
+    {
+      "street_code": "10496",
+      "english_name": "FLINT ROAD",
+      "chinese_name": "火石道",
+      "history": [
+        {
+          "publication_date": "1939-04-28",
+          "change_kind": "declare",
+          "street_name_en": "Flint Road",
+          "street_name_zh": "芙蓮道",
+          "gazette_notice_label": "Government Notification No. 341",
+          "government_notice_url_en": "/egazette/en/1939-gn341.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Gazette ZH 芙蓮道; database 火石道."
+        }
+      ]
+    },
+    {
+      "street_code": "11187",
+      "english_name": "LANCASHIRE ROAD",
+      "chinese_name": "蘭開夏道",
+      "history": [
+        {
+          "publication_date": "1939-04-28",
+          "change_kind": "declare",
+          "street_name_en": "Lancashire Road",
+          "street_name_zh": "蘭開夏道",
+          "gazette_notice_label": "Government Notification No. 341",
+          "government_notice_url_en": "/egazette/en/1939-gn341.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

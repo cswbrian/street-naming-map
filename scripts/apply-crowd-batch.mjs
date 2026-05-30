@@ -313,6 +313,7 @@ async function main() {
     gazette_url_en: notice.url_en,
     gazette_url_zh: notice.url_zh,
     reviewed_at: new Date().toISOString().slice(0, 10),
+    source: batch.source ?? null,
   }
 
   const historyEvents = []

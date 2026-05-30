@@ -1,0 +1,29 @@
+{
+  "batch_id": "1940-gn845-shaukiwan-road",
+  "gazette_notice_label": "Government Notification No. 845",
+  "publication_date": "1940-07-26",
+  "gazette_url_en": "/egazette/en/1940-gn845.pdf",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/1940-gn845-shaukiwan-road/1940-gn845.pdf",
+  "streets": [
+    {
+      "street_code": "11991",
+      "english_name": "SHAU KEI WAN ROAD",
+      "chinese_name": "筲箕灣道",
+      "history": [
+        {
+          "publication_date": "1940-07-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Main Street Sai Wan Ho",
+          "previous_street_name_zh": null,
+          "street_name_en": "Shaukiwan Road",
+          "street_name_zh": "筲箕灣道",
+          "gazette_notice_label": "Government Notification No. 845",
+          "government_notice_url_en": "/egazette/en/1940-gn845.pdf",
+          "evidence_level": "gazette",
+          "is_declaration_event": false
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}

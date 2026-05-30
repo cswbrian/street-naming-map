@@ -322,10 +322,12 @@ function buildUniqueNameMap(aggregates, field) {
 export function resolveNamingSource(aggregate, options = {}) {
   const history = aggregate?.event_history ?? []
   const sources = new Set(history.map((e) => e.source).filter(Boolean))
+  const hasHkgro = sources.has('hkgro')
   const hasCrowd = sources.has('crowdsubmitted')
   const hasLandsd = sources.has('landsd')
   const hasEgazette = sources.has('egazette_pdf')
-  if ([hasCrowd, hasLandsd, hasEgazette].filter(Boolean).length >= 2) return 'combined'
+  if ([hasHkgro, hasCrowd, hasLandsd, hasEgazette].filter(Boolean).length >= 2) return 'combined'
+  if (hasHkgro) return 'hkgro'
   if (hasCrowd) return 'crowdsubmitted'
   if (hasLandsd && hasEgazette) return 'combined'
   if (hasEgazette) return 'egazette_pdf'
@@ -503,7 +505,7 @@ export function finalizeCrowdEvent(raw, index = 0) {
 
   return {
     event_id: raw.event_id ?? `crowd|${submissionId}`,
-    source: 'crowdsubmitted',
+    source: raw.source ?? 'crowdsubmitted',
     street_code: String(raw.street_code ?? '').trim() || null,
     publication_date: publicationDate,
     change_kind: changeKind,
@@ -594,6 +596,7 @@ export function buildCrowdEventsFromStreetEntry(street, batchDefaults = {}) {
       is_declaration_event: entry.is_declaration_event,
       submitter_remarks: entry.submitter_remarks ?? entry.remarks ?? null,
       reviewed_at: entry.reviewed_at ?? batchDefaults.reviewed_at ?? null,
+      source: entry.source ?? batchDefaults.source ?? null,
     })
   })
 }

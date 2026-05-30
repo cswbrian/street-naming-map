@@ -51,8 +51,10 @@ export const translations = {
     colContribute: '執漏',
     sourceUnverified: '未核實',
     sourceCrowdsourced: '社群',
+    sourceHkgro: 'HKGRO',
     sourceUnverifiedHint: '專案整理資料，尚未經社群證明核實，可能有誤。',
     sourceCrowdsourcedHint: '經貢獻者提交並由維護者審核；仍可再提交證明更正。',
+    sourceHkgroHint: '香港政府憲報歷史檔案（HKGRO）掃描；憲報命名公告。',
     pending: '資料待補',
     truncatedRows: '只顯示首 500 行。請收窄搜尋以查看特定街道。',
     roadTypeHighway: '公路',
@@ -166,10 +168,13 @@ export const translations = {
     colContribute: 'Help us',
     sourceUnverified: 'Unverified',
     sourceCrowdsourced: 'Community',
+    sourceHkgro: 'HKGRO',
     sourceUnverifiedHint:
       'Project-curated data that has not been verified by community proof; may be incorrect.',
     sourceCrowdsourcedHint:
       'Submitted by a contributor and reviewed by maintainers; you can still submit corrections.',
+    sourceHkgroHint:
+      'Hong Kong Government Gazette historical archive (HKGRO) scan; colonial naming notice.',
     pending: 'Data to be added',
     truncatedRows: 'Showing first 500 rows. Narrow search to inspect specific roads.',
     roadTypeHighway: 'Highway',

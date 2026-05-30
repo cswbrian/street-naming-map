@@ -1,5 +1,7 @@
 # HKGRO gazette examples
 
+All HKGRO batches include `"source": "hkgro"` — streets show **HKGRO** on the map (not 社群).
+
 ## Example 1 — Single street (`617826.pdf` → G.N.58)
 
 **HKGRO:** `g1931/617826.pdf` · **Pattern A** (one row)

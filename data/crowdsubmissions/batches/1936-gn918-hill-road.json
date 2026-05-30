@@ -1,0 +1,28 @@
+{
+  "batch_id": "1936-gn918-hill-road",
+  "gazette_notice_label": "Government Notification No. 918",
+  "publication_date": "1936-11-20",
+  "gazette_url_en": "/egazette/en/1936-gn918.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1936-gn918-hill-road/1936-gn918.pdf",
+  "streets": [
+    {
+      "street_code": "10704",
+      "english_name": "HILL ROAD",
+      "chinese_name": "山道",
+      "history": [
+        {
+          "publication_date": "1936-11-20",
+          "change_kind": "rename",
+          "previous_street_name_en": "Clarence Street",
+          "street_name_en": "Hill Road",
+          "street_name_zh": "山道",
+          "gazette_notice_label": "Government Notification No. 918",
+          "government_notice_url_en": "/egazette/en/1936-gn918.pdf",
+          "evidence_level": "gazette",
+          "is_declaration_event": false
+        }
+      ]
+    }
+  ],
+  "source": "hkgro"
+}
