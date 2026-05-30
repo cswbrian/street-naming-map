@@ -1,0 +1,28 @@
+{
+  "batch_id": "2015-gn1456-lam-tsuen-road",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.1456",
+  "publication_date": "2015-01-30",
+  "pdf_en": "data/egazette/raw-pdfs/en/2015-19-5-1456-en.pdf",
+  "pdf_zh": "data/egazette/raw-pdfs/zh/2015-19-5-1456-zh.pdf",
+  "remarks": "G.N.1456 (2015-01-30) replaces street description only. First Previous G.N. is G.N.2894 (2008-05-02).",
+  "streets": [
+    {
+      "street_code": "14304",
+      "english_name": "LAM TSUEN HEUNG KUNG SHO ROAD",
+      "chinese_name": "林村鄉公所路",
+      "history": [
+        {
+          "publication_date": "2008-05-02",
+          "change_kind": "declare",
+          "street_name_en": "Lam Tsuen Heung Kung Sho Road",
+          "street_name_zh": "林村鄉公所路",
+          "gazette_notice_label": "G.N.2894",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 林村鄉公所路 cited in G.N.1456 (2015-01-30)."
+        }
+      ]
+    }
+  ]
+}

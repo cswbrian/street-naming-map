@@ -1,0 +1,25 @@
+{
+  "batch_id": "2001-kwai-wing-road-hkplace",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "hk-place",
+  "publication_date": "2001-07-13",
+  "remarks": "葵榮路 original naming per hk-place (2001); bogus G.N.5076/5080 link removed.",
+  "streets": [
+    {
+      "street_code": "11104",
+      "english_name": "KWAI WING ROAD",
+      "chinese_name": "葵榮路",
+      "history": [
+        {
+          "publication_date": "2001-07-13",
+          "change_kind": "declare",
+          "street_name_en": "Kwai Wing Road",
+          "street_name_zh": "葵榮路",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming per hk-place (2001-07-13)."
+        }
+      ]
+    }
+  ]
+}

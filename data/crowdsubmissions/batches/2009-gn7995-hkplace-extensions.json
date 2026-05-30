@@ -1,0 +1,60 @@
+{
+  "batch_id": "2009-gn7995-hkplace-extensions",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.7995",
+  "publication_date": "2009-12-18",
+  "pdf_en": "data/egazette/raw-pdfs/en/2009-13-51-7995-en.pdf",
+  "pdf_zh": "data/egazette/raw-pdfs/zh/2009-13-51-7995-zh.pdf",
+  "remarks": "G.N.7995 (2009-12-18) names road extensions only; canonical dates from hk-place original naming.",
+  "streets": [
+    {
+      "street_code": "14299",
+      "english_name": "TSING SHA HIGHWAY",
+      "chinese_name": "青沙公路",
+      "history": [
+        {
+          "publication_date": "2008-02-01",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Sha Highway",
+          "street_name_zh": "青沙公路",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming per hk-place (2008); G.N.7995 is extension only."
+        }
+      ]
+    },
+    {
+      "street_code": "14171",
+      "english_name": "TSING YI HONG WAN ROAD",
+      "chinese_name": "青衣航運路",
+      "history": [
+        {
+          "publication_date": "2003-12-05",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Yi Hong Wan Road",
+          "street_name_zh": "青衣航運路",
+          "gazette_notice_label": "G.N.8478",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming per hk-place (2003); G.N.7995 is extension only."
+        }
+      ]
+    },
+    {
+      "street_code": "10332",
+      "english_name": "CONTAINER PORT ROAD SOUTH",
+      "chinese_name": "貨櫃碼頭南路",
+      "history": [
+        {
+          "publication_date": "2008-05-09",
+          "change_kind": "declare",
+          "street_name_en": "Container Port Road South",
+          "street_name_zh": "貨櫃碼頭南路",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming per hk-place (2008); G.N.7995 is extension only."
+        }
+      ]
+    }
+  ]
+}

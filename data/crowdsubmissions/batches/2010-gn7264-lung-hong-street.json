@@ -1,0 +1,28 @@
+{
+  "batch_id": "2010-gn7264-lung-hong-street",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.7264",
+  "publication_date": "2010-11-19",
+  "pdf_en": "data/egazette/raw-pdfs/en/2010-14-46-7264-en.pdf",
+  "pdf_zh": "data/egazette/raw-pdfs/zh/2010-14-46-7264-zh.pdf",
+  "remarks": "G.N.7264 (2010-11-19) replaces street description only. First Previous G.N. is G.N.5851 (2001-09-21).",
+  "streets": [
+    {
+      "street_code": "14070",
+      "english_name": "LUNG HONG STREET",
+      "chinese_name": "龍康街",
+      "history": [
+        {
+          "publication_date": "2001-09-21",
+          "change_kind": "declare",
+          "street_name_en": "Lung Hong Street",
+          "street_name_zh": "龍康街",
+          "gazette_notice_label": "G.N.5851",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 龍康街 cited in G.N.7264 (2010-11-19)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "batch_id": "2010-gn4562-choi-hing-wing",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.4562",
+  "publication_date": "2010-07-16",
+  "pdf_en": "data/egazette/raw-pdfs/en/2010-14-28-4562-en.pdf",
+  "pdf_zh": "data/egazette/raw-pdfs/zh/2010-14-28-4562-zh.pdf",
+  "remarks": "G.N.4562 (2010-07-16) names road extensions only; canonical dates from hk-place.",
+  "streets": [
+    {
+      "street_code": "14296",
+      "english_name": "CHOI HING ROAD",
+      "chinese_name": "彩興路",
+      "history": [
+        {
+          "publication_date": "2007-11-09",
+          "change_kind": "declare",
+          "street_name_en": "Choi Hing Road",
+          "street_name_zh": "彩興路",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming per hk-place (2007); G.N.4562 is extension only."
+        }
+      ]
+    },
+    {
+      "street_code": "14308",
+      "english_name": "CHOI WING ROAD",
+      "chinese_name": "彩榮路",
+      "history": [
+        {
+          "publication_date": "2008-07-11",
+          "change_kind": "declare",
+          "street_name_en": "Choi Wing Road",
+          "street_name_zh": "彩榮路",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming per hk-place (2008); G.N.4562 is extension only."
+        }
+      ]
+    }
+  ]
+}

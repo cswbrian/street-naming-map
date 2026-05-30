@@ -1,0 +1,27 @@
+{
+  "batch_id": "2009-gn3680-lung-mun-road",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.3680",
+  "publication_date": "2009-06-12",
+  "pdf_en": "data/egazette/raw-pdfs/en/2009-13-24-3680-en.pdf",
+  "pdf_zh": "data/egazette/raw-pdfs/zh/2009-13-24-3680-zh.pdf",
+  "remarks": "G.N.3680 (2009-06-12) is road extension notice, not initial naming.",
+  "streets": [
+    {
+      "street_code": "11316",
+      "english_name": "LUNG MUN ROAD",
+      "chinese_name": "龍門路",
+      "history": [
+        {
+          "publication_date": "2000-08-11",
+          "change_kind": "declare",
+          "street_name_en": "Lung Mun Road",
+          "street_name_zh": "龍門路",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming per hk-place (2000); G.N.3680 is extension only."
+        }
+      ]
+    }
+  ]
+}

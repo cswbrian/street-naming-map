@@ -1,0 +1,27 @@
+{
+  "batch_id": "2009-gn4008-choi-ha-road",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.4008",
+  "publication_date": "2009-06-26",
+  "pdf_en": "data/egazette/raw-pdfs/en/2009-13-26-4008-en.pdf",
+  "pdf_zh": "data/egazette/raw-pdfs/zh/2009-13-26-4008-zh.pdf",
+  "remarks": "G.N.4008 (2009-06-26) is road extension notice, not initial naming.",
+  "streets": [
+    {
+      "street_code": "10262",
+      "english_name": "CHOI HA ROAD",
+      "chinese_name": "彩霞道",
+      "history": [
+        {
+          "publication_date": "2008-07-11",
+          "change_kind": "declare",
+          "street_name_en": "Choi Ha Road",
+          "street_name_zh": "彩霞道",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original naming per hk-place (2008); G.N.4008 is extension only."
+        }
+      ]
+    }
+  ]
+}
