@@ -1,0 +1,28 @@
+{
+  "batch_id": "2010-gn736-yu-on-street",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.736",
+  "publication_date": "2010-02-05",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/2010-gn736-yu-on-street/2010-14-5-736-en.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/2010-gn736-yu-on-street/2010-14-5-736-zh.pdf",
+  "remarks": "G.N.736 (2010-02-05) replaces street description only. First Previous G.N. is G.N.2124 (1987-07-03).",
+  "streets": [
+    {
+      "street_code": "12894",
+      "english_name": "YU ON STREET",
+      "chinese_name": "漁安街",
+      "history": [
+        {
+          "publication_date": "1987-07-03",
+          "change_kind": "declare",
+          "street_name_en": "Yu On Street",
+          "street_name_zh": "漁安街",
+          "gazette_notice_label": "G.N.2124",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 漁安街 cited in G.N.736 (2010-02-05)."
+        }
+      ]
+    }
+  ]
+}

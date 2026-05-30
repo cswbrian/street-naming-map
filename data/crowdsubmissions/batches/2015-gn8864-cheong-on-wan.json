@@ -1,0 +1,45 @@
+{
+  "batch_id": "2015-gn8864-cheong-on-wan",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.8864",
+  "publication_date": "2015-11-13",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/2015-gn8864-cheong-on-wan/2015-19-46-8864-en.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/2015-gn8864-cheong-on-wan/2015-19-46-8864-zh.pdf",
+  "remarks": "G.N.8864 (2015-11-13) replaces street descriptions only. First Previous G.N. is G.N.1565 (2001-03-09) for both 暢運道 and 安運道.",
+  "streets": [
+    {
+      "street_code": "10180",
+      "english_name": "CHEONG WAN ROAD",
+      "chinese_name": "暢運道",
+      "history": [
+        {
+          "publication_date": "2001-03-09",
+          "change_kind": "declare",
+          "street_name_en": "Cheong Wan Road",
+          "street_name_zh": "暢運道",
+          "gazette_notice_label": "G.N.1565",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 暢運道 cited in G.N.8864 (2015-11-13)."
+        }
+      ]
+    },
+    {
+      "street_code": "11611",
+      "english_name": "ON WAN ROAD",
+      "chinese_name": "安運道",
+      "history": [
+        {
+          "publication_date": "2001-03-09",
+          "change_kind": "declare",
+          "street_name_en": "On Wan Road",
+          "street_name_zh": "安運道",
+          "gazette_notice_label": "G.N.1565",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 安運道 cited in G.N.8864 (2015-11-13)."
+        }
+      ]
+    }
+  ]
+}

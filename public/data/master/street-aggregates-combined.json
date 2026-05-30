@@ -28069,6 +28069,69 @@
     "event_count": 1
   },
   {
+    "street_key": "code:10595",
+    "street_code": "10595",
+    "street_name_en": "Fung Yuen Road",
+    "street_name_zh": "鳳園路",
+    "canonical_naming_date": "1970-04-03",
+    "canonical_naming_year": 1970,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1970-04-03",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1970-04-03",
+        "change_kind": "declare",
+        "name_en": "Fung Yuen Road",
+        "name_zh": "鳳園路",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.713",
+        "notice_label_zh": "第713號",
+        "notice_url_en": null,
+        "notice_url_zh": null,
+        "evidence_level": "historical",
+        "source": "crowdsubmitted",
+        "submitter_remarks": "First Previous G.N. for 鳳園路 cited in G.N.1502 (2009-03-06)."
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|2009-gn1502-fung-yuen-road-10595-1970-04-03",
+        "source": "crowdsubmitted",
+        "street_code": "10595",
+        "publication_date": "1970-04-03",
+        "change_kind": "declare",
+        "street_name_en": "Fung Yuen Road",
+        "street_name_zh": "鳳園路",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN713",
+        "government_notice_label_en": "G.N.713",
+        "government_notice_label_zh": "第713號",
+        "government_notice_url_en": null,
+        "government_notice_url_zh": null,
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1970,
+        "is_declaration_event": true,
+        "evidence_level": "historical",
+        "proof_pdf_url": null,
+        "submitter_remarks": "First Previous G.N. for 鳳園路 cited in G.N.1502 (2009-03-06).",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "2009-gn1502-fung-yuen-road-10595-1970-04-03"
+      }
+    ],
+    "event_count": 1
+  },
+  {
     "street_key": "Ngau Tau Kok Fifth Street|牛頭角第五街",
     "street_code": null,
     "street_name_en": "Ngau Tau Kok Fifth Street",
@@ -28946,6 +29009,69 @@
         "submitter_remarks": "First Previous G.N. for 元朗炮仗坊 cited in G.N.6314 (2021-10-08).",
         "reviewed_at": "2026-05-30",
         "submission_id": "2021-gn6314-tier-a-12919-1977-12-02"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:11353",
+    "street_code": "11353",
+    "street_name_en": "Ma Tin Road",
+    "street_name_zh": "馬田路",
+    "canonical_naming_date": "1978-09-29",
+    "canonical_naming_year": 1978,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1978-09-29",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1978-09-29",
+        "change_kind": "declare",
+        "name_en": "Ma Tin Road",
+        "name_zh": "馬田路",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.2481",
+        "notice_label_zh": "第2481號",
+        "notice_url_en": null,
+        "notice_url_zh": null,
+        "evidence_level": "historical",
+        "source": "crowdsubmitted",
+        "submitter_remarks": "First Previous G.N. for 馬田路 cited in G.N.4864 (2015-07-03); also references G.N.1738 (1984-06-15)."
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|2015-gn4864-ma-kung-roads-11353-1978-09-29",
+        "source": "crowdsubmitted",
+        "street_code": "11353",
+        "publication_date": "1978-09-29",
+        "change_kind": "declare",
+        "street_name_en": "Ma Tin Road",
+        "street_name_zh": "馬田路",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN2481",
+        "government_notice_label_en": "G.N.2481",
+        "government_notice_label_zh": "第2481號",
+        "government_notice_url_en": null,
+        "government_notice_url_zh": null,
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1978,
+        "is_declaration_event": true,
+        "evidence_level": "historical",
+        "proof_pdf_url": null,
+        "submitter_remarks": "First Previous G.N. for 馬田路 cited in G.N.4864 (2015-07-03); also references G.N.1738 (1984-06-15).",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "2015-gn4864-ma-kung-roads-11353-1978-09-29"
       }
     ],
     "event_count": 1
@@ -29833,6 +29959,69 @@
     "event_count": 1
   },
   {
+    "street_key": "code:12894",
+    "street_code": "12894",
+    "street_name_en": "Yu On Street",
+    "street_name_zh": "漁安街",
+    "canonical_naming_date": "1987-07-03",
+    "canonical_naming_year": 1987,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1987-07-03",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1987-07-03",
+        "change_kind": "declare",
+        "name_en": "Yu On Street",
+        "name_zh": "漁安街",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.2124",
+        "notice_label_zh": "第2124號",
+        "notice_url_en": null,
+        "notice_url_zh": null,
+        "evidence_level": "historical",
+        "source": "crowdsubmitted",
+        "submitter_remarks": "First Previous G.N. for 漁安街 cited in G.N.736 (2010-02-05)."
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|2010-gn736-yu-on-street-12894-1987-07-03",
+        "source": "crowdsubmitted",
+        "street_code": "12894",
+        "publication_date": "1987-07-03",
+        "change_kind": "declare",
+        "street_name_en": "Yu On Street",
+        "street_name_zh": "漁安街",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN2124",
+        "government_notice_label_en": "G.N.2124",
+        "government_notice_label_zh": "第2124號",
+        "government_notice_url_en": null,
+        "government_notice_url_zh": null,
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1987,
+        "is_declaration_event": true,
+        "evidence_level": "historical",
+        "proof_pdf_url": null,
+        "submitter_remarks": "First Previous G.N. for 漁安街 cited in G.N.736 (2010-02-05).",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "2010-gn736-yu-on-street-12894-1987-07-03"
+      }
+    ],
+    "event_count": 1
+  },
+  {
     "street_key": "code:11238",
     "street_code": "11238",
     "street_name_en": "Lin Tak Road",
@@ -30652,6 +30841,132 @@
     "event_count": 1
   },
   {
+    "street_key": "code:13055",
+    "street_code": "13055",
+    "street_name_en": "Kung Um Road",
+    "street_name_zh": "公庵路",
+    "canonical_naming_date": "1991-06-28",
+    "canonical_naming_year": 1991,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1991-06-28",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1991-06-28",
+        "change_kind": "declare",
+        "name_en": "Kung Um Road",
+        "name_zh": "公庵路",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.2215",
+        "notice_label_zh": "第2215號",
+        "notice_url_en": null,
+        "notice_url_zh": null,
+        "evidence_level": "historical",
+        "source": "crowdsubmitted",
+        "submitter_remarks": "First Previous G.N. for 公庵路 cited in G.N.4864 (2015-07-03)."
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|2015-gn4864-ma-kung-roads-13055-1991-06-28",
+        "source": "crowdsubmitted",
+        "street_code": "13055",
+        "publication_date": "1991-06-28",
+        "change_kind": "declare",
+        "street_name_en": "Kung Um Road",
+        "street_name_zh": "公庵路",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN2215",
+        "government_notice_label_en": "G.N.2215",
+        "government_notice_label_zh": "第2215號",
+        "government_notice_url_en": null,
+        "government_notice_url_zh": null,
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1991,
+        "is_declaration_event": true,
+        "evidence_level": "historical",
+        "proof_pdf_url": null,
+        "submitter_remarks": "First Previous G.N. for 公庵路 cited in G.N.4864 (2015-07-03).",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "2015-gn4864-ma-kung-roads-13055-1991-06-28"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:13056",
+    "street_code": "13056",
+    "street_name_en": "Ma Tong Road",
+    "street_name_zh": "馬棠路",
+    "canonical_naming_date": "1991-06-28",
+    "canonical_naming_year": 1991,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1991-06-28",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1991-06-28",
+        "change_kind": "declare",
+        "name_en": "Ma Tong Road",
+        "name_zh": "馬棠路",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.2215",
+        "notice_label_zh": "第2215號",
+        "notice_url_en": null,
+        "notice_url_zh": null,
+        "evidence_level": "historical",
+        "source": "crowdsubmitted",
+        "submitter_remarks": "First Previous G.N. for 馬棠路 cited in G.N.4864 (2015-07-03); also references G.N.2493 (2005-05-27)."
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|2015-gn4864-ma-kung-roads-13056-1991-06-28",
+        "source": "crowdsubmitted",
+        "street_code": "13056",
+        "publication_date": "1991-06-28",
+        "change_kind": "declare",
+        "street_name_en": "Ma Tong Road",
+        "street_name_zh": "馬棠路",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN2215",
+        "government_notice_label_en": "G.N.2215",
+        "government_notice_label_zh": "第2215號",
+        "government_notice_url_en": null,
+        "government_notice_url_zh": null,
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1991,
+        "is_declaration_event": true,
+        "evidence_level": "historical",
+        "proof_pdf_url": null,
+        "submitter_remarks": "First Previous G.N. for 馬棠路 cited in G.N.4864 (2015-07-03); also references G.N.2493 (2005-05-27).",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "2015-gn4864-ma-kung-roads-13056-1991-06-28"
+      }
+    ],
+    "event_count": 1
+  },
+  {
     "street_key": "code:13141",
     "street_code": "13141",
     "street_name_en": "Tai Hom Road",
@@ -31145,6 +31460,69 @@
         "notice_key": "2020-24-43-6117-0",
         "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2020-24-43-6117-en.pdf",
         "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2020-24-43-6117-zh.pdf"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:13565",
+    "street_code": "13565",
+    "street_name_en": "Fu Chung Lane",
+    "street_name_zh": "富忠里",
+    "canonical_naming_date": "1993-04-30",
+    "canonical_naming_year": 1993,
+    "current_name_since_date": null,
+    "first_known_naming_date": "1993-04-30",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "1993-04-30",
+        "change_kind": "declare",
+        "name_en": "Fu Chung Lane",
+        "name_zh": "富忠里",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.1435",
+        "notice_label_zh": "第1435號",
+        "notice_url_en": null,
+        "notice_url_zh": null,
+        "evidence_level": "historical",
+        "source": "crowdsubmitted",
+        "submitter_remarks": "First Previous G.N. for 富忠里 cited in G.N.6435 (2011-09-30)."
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|2011-gn6435-fu-chung-lane-13565-1993-04-30",
+        "source": "crowdsubmitted",
+        "street_code": "13565",
+        "publication_date": "1993-04-30",
+        "change_kind": "declare",
+        "street_name_en": "Fu Chung Lane",
+        "street_name_zh": "富忠里",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN1435",
+        "government_notice_label_en": "G.N.1435",
+        "government_notice_label_zh": "第1435號",
+        "government_notice_url_en": null,
+        "government_notice_url_zh": null,
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 1993,
+        "is_declaration_event": true,
+        "evidence_level": "historical",
+        "proof_pdf_url": null,
+        "submitter_remarks": "First Previous G.N. for 富忠里 cited in G.N.6435 (2011-09-30).",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "2011-gn6435-fu-chung-lane-13565-1993-04-30"
       }
     ],
     "event_count": 1
@@ -32216,6 +32594,132 @@
         "submitter_remarks": "Parsed from misparsed egazette text; cited in G.N.4838 (2024-08-16).",
         "reviewed_at": "2026-05-30",
         "submission_id": "2024-gn4838-tier-b-13996-1999-12-30"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:10180",
+    "street_code": "10180",
+    "street_name_en": "Cheong Wan Road",
+    "street_name_zh": "暢運道",
+    "canonical_naming_date": "2001-03-09",
+    "canonical_naming_year": 2001,
+    "current_name_since_date": null,
+    "first_known_naming_date": "2001-03-09",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "2001-03-09",
+        "change_kind": "declare",
+        "name_en": "Cheong Wan Road",
+        "name_zh": "暢運道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.1565",
+        "notice_label_zh": "第1565號",
+        "notice_url_en": null,
+        "notice_url_zh": null,
+        "evidence_level": "historical",
+        "source": "crowdsubmitted",
+        "submitter_remarks": "First Previous G.N. for 暢運道 cited in G.N.8864 (2015-11-13)."
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|2015-gn8864-cheong-on-wan-10180-2001-03-09",
+        "source": "crowdsubmitted",
+        "street_code": "10180",
+        "publication_date": "2001-03-09",
+        "change_kind": "declare",
+        "street_name_en": "Cheong Wan Road",
+        "street_name_zh": "暢運道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN1565",
+        "government_notice_label_en": "G.N.1565",
+        "government_notice_label_zh": "第1565號",
+        "government_notice_url_en": null,
+        "government_notice_url_zh": null,
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 2001,
+        "is_declaration_event": true,
+        "evidence_level": "historical",
+        "proof_pdf_url": null,
+        "submitter_remarks": "First Previous G.N. for 暢運道 cited in G.N.8864 (2015-11-13).",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "2015-gn8864-cheong-on-wan-10180-2001-03-09"
+      }
+    ],
+    "event_count": 1
+  },
+  {
+    "street_key": "code:11611",
+    "street_code": "11611",
+    "street_name_en": "On Wan Road",
+    "street_name_zh": "安運道",
+    "canonical_naming_date": "2001-03-09",
+    "canonical_naming_year": 2001,
+    "current_name_since_date": null,
+    "first_known_naming_date": "2001-03-09",
+    "derivation_reason": "declaration_earliest",
+    "name_history": [
+      {
+        "date": "2001-03-09",
+        "change_kind": "declare",
+        "name_en": "On Wan Road",
+        "name_zh": "安運道",
+        "previous_name_en": null,
+        "previous_name_zh": null,
+        "notice_label_en": "G.N.1565",
+        "notice_label_zh": "第1565號",
+        "notice_url_en": null,
+        "notice_url_zh": null,
+        "evidence_level": "historical",
+        "source": "crowdsubmitted",
+        "submitter_remarks": "First Previous G.N. for 安運道 cited in G.N.8864 (2015-11-13)."
+      }
+    ],
+    "event_history": [
+      {
+        "event_id": "crowd|2015-gn8864-cheong-on-wan-11611-2001-03-09",
+        "source": "crowdsubmitted",
+        "street_code": "11611",
+        "publication_date": "2001-03-09",
+        "change_kind": "declare",
+        "street_name_en": "On Wan Road",
+        "street_name_zh": "安運道",
+        "previous_street_name_en": null,
+        "previous_street_name_zh": null,
+        "district_raw_en": null,
+        "district_raw_zh": null,
+        "notice_type_raw_en": "Declaration of street name (crowdsource)",
+        "notice_type_raw_zh": "街道命名（眾包）",
+        "notice_type_normalized": "declare",
+        "notice_no": "GN1565",
+        "government_notice_label_en": "G.N.1565",
+        "government_notice_label_zh": "第1565號",
+        "government_notice_url_en": null,
+        "government_notice_url_zh": null,
+        "related_gazette_plan_urls_en": [],
+        "related_gazette_plan_urls_zh": [],
+        "related_gazette_plan_labels_en": [],
+        "related_gazette_plan_labels_zh": [],
+        "year_bucket": 2001,
+        "is_declaration_event": true,
+        "evidence_level": "historical",
+        "proof_pdf_url": null,
+        "submitter_remarks": "First Previous G.N. for 安運道 cited in G.N.8864 (2015-11-13).",
+        "reviewed_at": "2026-05-30",
+        "submission_id": "2015-gn8864-cheong-on-wan-11611-2001-03-09"
       }
     ],
     "event_count": 1
@@ -34347,67 +34851,6 @@
     "event_count": 1
   },
   {
-    "street_key": "Fung Yuen Road|鳳園路",
-    "street_code": null,
-    "street_name_en": "Fung Yuen Road",
-    "street_name_zh": "鳳園路",
-    "canonical_naming_date": "2009-03-06",
-    "canonical_naming_year": 2009,
-    "current_name_since_date": null,
-    "first_known_naming_date": "2009-03-06",
-    "derivation_reason": "declaration_earliest",
-    "name_history": [
-      {
-        "date": "2009-03-06",
-        "change_kind": "declare",
-        "name_en": "Fung Yuen Road",
-        "name_zh": "鳳園路",
-        "previous_name_en": null,
-        "previous_name_zh": null,
-        "notice_label_en": "G.N.1502",
-        "notice_label_zh": "第1502號",
-        "notice_url_en": null,
-        "notice_url_zh": null,
-        "evidence_level": null,
-        "source": "egazette_pdf",
-        "submitter_remarks": null
-      }
-    ],
-    "event_history": [
-      {
-        "event_id": "2009-03-06|GN1502|1",
-        "source": "egazette_pdf",
-        "publication_date": "2009-03-06",
-        "street_name_en": "Fung Yuen Road",
-        "street_name_zh": "鳳園路",
-        "district_raw_en": "Tai Po, New Territories",
-        "district_raw_zh": "大埔區",
-        "notice_type_raw_en": "STREET NAMES",
-        "notice_type_raw_zh": "街道命名",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN1502",
-        "government_notice_label_en": "G.N.1502",
-        "government_notice_label_zh": "第1502號",
-        "government_notice_url_en": null,
-        "government_notice_url_zh": null,
-        "related_gazette_plan_urls_en": [],
-        "related_gazette_plan_urls_zh": [],
-        "related_gazette_plan_labels_en": [
-          "TPRM96"
-        ],
-        "related_gazette_plan_labels_zh": [
-          "TPRM96"
-        ],
-        "year_bucket": 2009,
-        "is_declaration_event": true,
-        "notice_key": "2009-13-10-1502-0",
-        "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2009-13-10-1502-en.pdf",
-        "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2009-13-10-1502-zh.pdf"
-      }
-    ],
-    "event_count": 1
-  },
-  {
     "street_key": "Tung Tsz Road|洞梓路",
     "street_code": null,
     "street_name_en": "Tung Tsz Road",
@@ -35676,67 +36119,6 @@
         "notice_key": "2010-14-2-296-0",
         "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2010-14-2-296-en.pdf",
         "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2010-14-2-296-zh.pdf"
-      }
-    ],
-    "event_count": 1
-  },
-  {
-    "street_key": "Yu On Street|漁安街",
-    "street_code": null,
-    "street_name_en": "Yu On Street",
-    "street_name_zh": "漁安街",
-    "canonical_naming_date": "2010-02-05",
-    "canonical_naming_year": 2010,
-    "current_name_since_date": null,
-    "first_known_naming_date": "2010-02-05",
-    "derivation_reason": "declaration_earliest",
-    "name_history": [
-      {
-        "date": "2010-02-05",
-        "change_kind": "declare",
-        "name_en": "Yu On Street",
-        "name_zh": "漁安街",
-        "previous_name_en": null,
-        "previous_name_zh": null,
-        "notice_label_en": "G.N.736",
-        "notice_label_zh": "第736號",
-        "notice_url_en": null,
-        "notice_url_zh": null,
-        "evidence_level": null,
-        "source": "egazette_pdf",
-        "submitter_remarks": null
-      }
-    ],
-    "event_history": [
-      {
-        "event_id": "2010-02-05|GN736|0",
-        "source": "egazette_pdf",
-        "publication_date": "2010-02-05",
-        "street_name_en": "Yu On Street",
-        "street_name_zh": "漁安街",
-        "district_raw_en": "Tai Po District, New Territories",
-        "district_raw_zh": "新界大埔區",
-        "notice_type_raw_en": "STREET NAME",
-        "notice_type_raw_zh": "街道命名",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN736",
-        "government_notice_label_en": "G.N.736",
-        "government_notice_label_zh": "第736號",
-        "government_notice_url_en": null,
-        "government_notice_url_zh": null,
-        "related_gazette_plan_urls_en": [],
-        "related_gazette_plan_urls_zh": [],
-        "related_gazette_plan_labels_en": [
-          "TPRM105"
-        ],
-        "related_gazette_plan_labels_zh": [
-          "TPRM105"
-        ],
-        "year_bucket": 2010,
-        "is_declaration_event": true,
-        "notice_key": "2010-14-5-736-0",
-        "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2010-14-5-736-en.pdf",
-        "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2010-14-5-736-zh.pdf"
       }
     ],
     "event_count": 1
@@ -37718,67 +38100,6 @@
         "notice_key": "2011-15-19-2996-0",
         "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2011-15-19-2996-en.pdf",
         "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2011-15-19-2996-zh.pdf"
-      }
-    ],
-    "event_count": 1
-  },
-  {
-    "street_key": "Fu Chung Lane|富忠里",
-    "street_code": null,
-    "street_name_en": "Fu Chung Lane",
-    "street_name_zh": "富忠里",
-    "canonical_naming_date": "2011-09-30",
-    "canonical_naming_year": 2011,
-    "current_name_since_date": null,
-    "first_known_naming_date": "2011-09-30",
-    "derivation_reason": "declaration_earliest",
-    "name_history": [
-      {
-        "date": "2011-09-30",
-        "change_kind": "declare",
-        "name_en": "Fu Chung Lane",
-        "name_zh": "富忠里",
-        "previous_name_en": null,
-        "previous_name_zh": null,
-        "notice_label_en": "G.N.6435",
-        "notice_label_zh": "第6435號",
-        "notice_url_en": null,
-        "notice_url_zh": null,
-        "evidence_level": null,
-        "source": "egazette_pdf",
-        "submitter_remarks": null
-      }
-    ],
-    "event_history": [
-      {
-        "event_id": "2011-09-30|GN6435|0",
-        "source": "egazette_pdf",
-        "publication_date": "2011-09-30",
-        "street_name_en": "Fu Chung Lane",
-        "street_name_zh": "富忠里",
-        "district_raw_en": "Tai Po, New Territories",
-        "district_raw_zh": "大埔區",
-        "notice_type_raw_en": "STREET NAME",
-        "notice_type_raw_zh": "街道命名",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN6435",
-        "government_notice_label_en": "G.N.6435",
-        "government_notice_label_zh": "第6435號",
-        "government_notice_url_en": null,
-        "government_notice_url_zh": null,
-        "related_gazette_plan_urls_en": [],
-        "related_gazette_plan_urls_zh": [],
-        "related_gazette_plan_labels_en": [
-          "TPRM109"
-        ],
-        "related_gazette_plan_labels_zh": [
-          "TPRM109"
-        ],
-        "year_bucket": 2011,
-        "is_declaration_event": true,
-        "notice_key": "2011-15-39-6435-0",
-        "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2011-15-39-6435-en.pdf",
-        "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2011-15-39-6435-zh.pdf"
       }
     ],
     "event_count": 1
@@ -40848,189 +41169,6 @@
     "event_count": 1
   },
   {
-    "street_key": "|公庵路",
-    "street_code": null,
-    "street_name_en": null,
-    "street_name_zh": "公庵路",
-    "canonical_naming_date": "2015-07-03",
-    "canonical_naming_year": 2015,
-    "current_name_since_date": null,
-    "first_known_naming_date": "2015-07-03",
-    "derivation_reason": "declaration_earliest",
-    "name_history": [
-      {
-        "date": "2015-07-03",
-        "change_kind": "declare",
-        "name_en": null,
-        "name_zh": "公庵路",
-        "previous_name_en": null,
-        "previous_name_zh": null,
-        "notice_label_en": "G.N.4864",
-        "notice_label_zh": "第4864號",
-        "notice_url_en": null,
-        "notice_url_zh": null,
-        "evidence_level": null,
-        "source": "egazette_pdf",
-        "submitter_remarks": null
-      }
-    ],
-    "event_history": [
-      {
-        "event_id": "2015-07-03|GN4864|0",
-        "source": "egazette_pdf",
-        "publication_date": "2015-07-03",
-        "street_name_en": null,
-        "street_name_zh": "公庵路",
-        "district_raw_en": null,
-        "district_raw_zh": null,
-        "notice_type_raw_en": "Street Name",
-        "notice_type_raw_zh": "街道命名",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN4864",
-        "government_notice_label_en": "G.N.4864",
-        "government_notice_label_zh": "第4864號",
-        "government_notice_url_en": null,
-        "government_notice_url_zh": null,
-        "related_gazette_plan_urls_en": [],
-        "related_gazette_plan_urls_zh": [],
-        "related_gazette_plan_labels_en": [
-          "YLRM174"
-        ],
-        "related_gazette_plan_labels_zh": [
-          "YLRM174"
-        ],
-        "year_bucket": 2015,
-        "is_declaration_event": true,
-        "notice_key": "2015-19-27-4864-0",
-        "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2015-19-27-4864-en.pdf",
-        "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2015-19-27-4864-zh.pdf"
-      }
-    ],
-    "event_count": 1
-  },
-  {
-    "street_key": "|馬田路",
-    "street_code": null,
-    "street_name_en": null,
-    "street_name_zh": "馬田路",
-    "canonical_naming_date": "2015-07-03",
-    "canonical_naming_year": 2015,
-    "current_name_since_date": null,
-    "first_known_naming_date": "2015-07-03",
-    "derivation_reason": "declaration_earliest",
-    "name_history": [
-      {
-        "date": "2015-07-03",
-        "change_kind": "declare",
-        "name_en": null,
-        "name_zh": "馬田路",
-        "previous_name_en": null,
-        "previous_name_zh": null,
-        "notice_label_en": "G.N.4864",
-        "notice_label_zh": "第4864號",
-        "notice_url_en": null,
-        "notice_url_zh": null,
-        "evidence_level": null,
-        "source": "egazette_pdf",
-        "submitter_remarks": null
-      }
-    ],
-    "event_history": [
-      {
-        "event_id": "2015-07-03|GN4864|1",
-        "source": "egazette_pdf",
-        "publication_date": "2015-07-03",
-        "street_name_en": null,
-        "street_name_zh": "馬田路",
-        "district_raw_en": null,
-        "district_raw_zh": null,
-        "notice_type_raw_en": "Street Name",
-        "notice_type_raw_zh": "街道命名",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN4864",
-        "government_notice_label_en": "G.N.4864",
-        "government_notice_label_zh": "第4864號",
-        "government_notice_url_en": null,
-        "government_notice_url_zh": null,
-        "related_gazette_plan_urls_en": [],
-        "related_gazette_plan_urls_zh": [],
-        "related_gazette_plan_labels_en": [
-          "YLRM174"
-        ],
-        "related_gazette_plan_labels_zh": [
-          "YLRM174"
-        ],
-        "year_bucket": 2015,
-        "is_declaration_event": true,
-        "notice_key": "2015-19-27-4864-0",
-        "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2015-19-27-4864-en.pdf",
-        "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2015-19-27-4864-zh.pdf"
-      }
-    ],
-    "event_count": 1
-  },
-  {
-    "street_key": "|馬棠路",
-    "street_code": null,
-    "street_name_en": null,
-    "street_name_zh": "馬棠路",
-    "canonical_naming_date": "2015-07-03",
-    "canonical_naming_year": 2015,
-    "current_name_since_date": null,
-    "first_known_naming_date": "2015-07-03",
-    "derivation_reason": "declaration_earliest",
-    "name_history": [
-      {
-        "date": "2015-07-03",
-        "change_kind": "declare",
-        "name_en": null,
-        "name_zh": "馬棠路",
-        "previous_name_en": null,
-        "previous_name_zh": null,
-        "notice_label_en": "G.N.4864",
-        "notice_label_zh": "第4864號",
-        "notice_url_en": null,
-        "notice_url_zh": null,
-        "evidence_level": null,
-        "source": "egazette_pdf",
-        "submitter_remarks": null
-      }
-    ],
-    "event_history": [
-      {
-        "event_id": "2015-07-03|GN4864|2",
-        "source": "egazette_pdf",
-        "publication_date": "2015-07-03",
-        "street_name_en": null,
-        "street_name_zh": "馬棠路",
-        "district_raw_en": null,
-        "district_raw_zh": null,
-        "notice_type_raw_en": "Street Name",
-        "notice_type_raw_zh": "街道命名",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN4864",
-        "government_notice_label_en": "G.N.4864",
-        "government_notice_label_zh": "第4864號",
-        "government_notice_url_en": null,
-        "government_notice_url_zh": null,
-        "related_gazette_plan_urls_en": [],
-        "related_gazette_plan_urls_zh": [],
-        "related_gazette_plan_labels_en": [
-          "YLRM174"
-        ],
-        "related_gazette_plan_labels_zh": [
-          "YLRM174"
-        ],
-        "year_bucket": 2015,
-        "is_declaration_event": true,
-        "notice_key": "2015-19-27-4864-0",
-        "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2015-19-27-4864-en.pdf",
-        "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2015-19-27-4864-zh.pdf"
-      }
-    ],
-    "event_count": 1
-  },
-  {
     "street_key": "Pak Shing Kok Road|百勝角路",
     "street_code": null,
     "street_name_en": "Pak Shing Kok Road",
@@ -41368,120 +41506,6 @@
         "notice_key": "2015-19-46-8863-0",
         "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2015-19-46-8863-en.pdf",
         "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2015-19-46-8863-zh.pdf"
-      }
-    ],
-    "event_count": 1
-  },
-  {
-    "street_key": "|暢運道",
-    "street_code": null,
-    "street_name_en": null,
-    "street_name_zh": "暢運道",
-    "canonical_naming_date": "2015-11-13",
-    "canonical_naming_year": 2015,
-    "current_name_since_date": null,
-    "first_known_naming_date": "2015-11-13",
-    "derivation_reason": "declaration_earliest",
-    "name_history": [
-      {
-        "date": "2015-11-13",
-        "change_kind": "declare",
-        "name_en": null,
-        "name_zh": "暢運道",
-        "previous_name_en": null,
-        "previous_name_zh": null,
-        "notice_label_en": "G.N.8864",
-        "notice_label_zh": "第8864號",
-        "notice_url_en": null,
-        "notice_url_zh": null,
-        "evidence_level": null,
-        "source": "egazette_pdf",
-        "submitter_remarks": null
-      }
-    ],
-    "event_history": [
-      {
-        "event_id": "2015-11-13|GN8864|0",
-        "source": "egazette_pdf",
-        "publication_date": "2015-11-13",
-        "street_name_en": null,
-        "street_name_zh": "暢運道",
-        "district_raw_en": null,
-        "district_raw_zh": null,
-        "notice_type_raw_en": "Street Name",
-        "notice_type_raw_zh": "街道命名",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN8864",
-        "government_notice_label_en": "G.N.8864",
-        "government_notice_label_zh": "第8864號",
-        "government_notice_url_en": null,
-        "government_notice_url_zh": null,
-        "related_gazette_plan_urls_en": [],
-        "related_gazette_plan_urls_zh": [],
-        "related_gazette_plan_labels_en": [],
-        "related_gazette_plan_labels_zh": [],
-        "year_bucket": 2015,
-        "is_declaration_event": true,
-        "notice_key": "2015-19-46-8864-0",
-        "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2015-19-46-8864-en.pdf",
-        "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2015-19-46-8864-zh.pdf"
-      }
-    ],
-    "event_count": 1
-  },
-  {
-    "street_key": "|安運道",
-    "street_code": null,
-    "street_name_en": null,
-    "street_name_zh": "安運道",
-    "canonical_naming_date": "2015-11-13",
-    "canonical_naming_year": 2015,
-    "current_name_since_date": null,
-    "first_known_naming_date": "2015-11-13",
-    "derivation_reason": "declaration_earliest",
-    "name_history": [
-      {
-        "date": "2015-11-13",
-        "change_kind": "declare",
-        "name_en": null,
-        "name_zh": "安運道",
-        "previous_name_en": null,
-        "previous_name_zh": null,
-        "notice_label_en": "G.N.8864",
-        "notice_label_zh": "第8864號",
-        "notice_url_en": null,
-        "notice_url_zh": null,
-        "evidence_level": null,
-        "source": "egazette_pdf",
-        "submitter_remarks": null
-      }
-    ],
-    "event_history": [
-      {
-        "event_id": "2015-11-13|GN8864|1",
-        "source": "egazette_pdf",
-        "publication_date": "2015-11-13",
-        "street_name_en": null,
-        "street_name_zh": "安運道",
-        "district_raw_en": null,
-        "district_raw_zh": null,
-        "notice_type_raw_en": "Street Name",
-        "notice_type_raw_zh": "街道命名",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN8864",
-        "government_notice_label_en": "G.N.8864",
-        "government_notice_label_zh": "第8864號",
-        "government_notice_url_en": null,
-        "government_notice_url_zh": null,
-        "related_gazette_plan_urls_en": [],
-        "related_gazette_plan_urls_zh": [],
-        "related_gazette_plan_labels_en": [],
-        "related_gazette_plan_labels_zh": [],
-        "year_bucket": 2015,
-        "is_declaration_event": true,
-        "notice_key": "2015-19-46-8864-0",
-        "pdf_path_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/en/2015-19-46-8864-en.pdf",
-        "pdf_path_zh": "/Users/coolsunwind/Documents/fun/street-naming-map/data/egazette/raw-pdfs/zh/2015-19-46-8864-zh.pdf"
       }
     ],
     "event_count": 1

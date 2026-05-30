@@ -1,0 +1,28 @@
+{
+  "batch_id": "2011-gn6435-fu-chung-lane",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.6435",
+  "publication_date": "2011-09-30",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/2011-gn6435-fu-chung-lane/2011-15-39-6435-en.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/2011-gn6435-fu-chung-lane/2011-15-39-6435-zh.pdf",
+  "remarks": "G.N.6435 (2011-09-30) replaces street description only. First Previous G.N. is G.N.1435 (1993-04-30).",
+  "streets": [
+    {
+      "street_code": "13565",
+      "english_name": "FU CHUNG LANE",
+      "chinese_name": "富忠里",
+      "history": [
+        {
+          "publication_date": "1993-04-30",
+          "change_kind": "declare",
+          "street_name_en": "Fu Chung Lane",
+          "street_name_zh": "富忠里",
+          "gazette_notice_label": "G.N.1435",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 富忠里 cited in G.N.6435 (2011-09-30)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "batch_id": "2009-gn1502-fung-yuen-road",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.1502",
+  "publication_date": "2009-03-06",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/2009-gn1502-fung-yuen-road/2009-13-10-1502-en.pdf",
+  "pdf_zh": "data/crowdsubmissions/batch-inbox/2009-gn1502-fung-yuen-road/2009-13-10-1502-zh.pdf",
+  "remarks": "G.N.1502 (2009-03-06) replaces street descriptions only. First Previous G.N. is G.N.713 (1970-04-03).",
+  "streets": [
+    {
+      "street_code": "10595",
+      "english_name": "FUNG YUEN ROAD",
+      "chinese_name": "鳳園路",
+      "history": [
+        {
+          "publication_date": "1970-04-03",
+          "change_kind": "declare",
+          "street_name_en": "Fung Yuen Road",
+          "street_name_zh": "鳳園路",
+          "gazette_notice_label": "G.N.713",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "First Previous G.N. for 鳳園路 cited in G.N.1502 (2009-03-06)."
+        }
+      ]
+    }
+  ]
+}

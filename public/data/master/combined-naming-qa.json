@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-30T15:51:00.488Z",
+  "generated_at": "2026-05-30T16:00:07.459Z",
   "counts": {
-    "crowd_events_merged": 569,
+    "crowd_events_merged": 577,
     "combined_events": 923,
     "street_aggregates": 892,
     "streets_with_naming_year": 890
   },
   "join_stats": {
-    "matched_exact_features": 1540,
-    "matched_fallback_features": 3486,
+    "matched_exact_features": 1530,
+    "matched_fallback_features": 3496,
     "unmatched_features": 34576,
     "total_features": 39602
   }
