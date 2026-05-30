@@ -4,7 +4,9 @@
     "Gascoigne Road Fylover|加士居道天橋"
   ],
   "street_codes": ["14494"],
+  "event_ids": ["2010-08-06|GN5076|0"],
   "notes": {
-    "14494": "加士居道天橋 — hide LandsD 2020 date on map (not treated as canonical naming year)"
+    "14494": "加士居道天橋 — hide LandsD 2020 date on map (not treated as canonical naming year)",
+    "2010-08-06|GN5076|0": "吳松街 — G.N.5076 (2010-08-06) is a temporary restricted zone notice, not a street naming; wrongly linked to Woosung Street."
   }
 }

@@ -103,6 +103,8 @@ export const translations = {
     mapRoadShare: '分享',
     mapRoadShareAria: '複製街道連結',
     mapRoadShareCopied: '已複製連結',
+    colNameHistory: '舊稱',
+    historyGazettePending: '憲報待補',
     colStatus: '狀態',
     aboutSeoDescription:
       '香港街道命名地圖的由來、資料來源與進度。開源專案，歡迎貢獻資料、程式或想法。',
@@ -218,6 +220,8 @@ export const translations = {
     mapRoadShare: 'Share',
     mapRoadShareAria: 'Copy street link',
     mapRoadShareCopied: 'Link copied',
+    colNameHistory: 'Previous name',
+    historyGazettePending: 'Gazette pending',
     colStatus: 'Status',
     aboutSeoDescription:
       'How the Hong Kong street naming map works, where the data comes from, and how to help. Open source — contributions welcome.',

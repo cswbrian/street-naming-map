@@ -1383,6 +1383,87 @@
   text-underline-offset: 2px;
 }
 
+.selected-road-chip-row-history {
+  align-items: start;
+}
+
+.selected-road-chip-row-history .selected-road-chip-label {
+  align-self: start;
+  padding-top: 0.12rem;
+  white-space: normal;
+  line-height: 1.25;
+}
+
+.selected-road-chip-row-history .selected-road-chip-value {
+  display: block;
+  text-align: right;
+}
+
+.selected-road-chip-history-mount {
+  min-width: 0;
+}
+
+.name-history-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.name-history-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.22rem;
+  max-width: 100%;
+}
+
+.name-history-list-date {
+  font-size: 0.68rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+  color: var(--sn-text-faint);
+  line-height: 1.2;
+}
+
+.name-history-list-name {
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--sn-chip-date);
+  text-align: right;
+  word-break: break-word;
+}
+
+.name-history-list-pending {
+  display: inline-block;
+  padding: 0.08rem 0.34rem;
+  border-radius: 0;
+  font-size: 0.68rem;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+  color: var(--sn-chip-pending-text);
+  background: var(--sn-chip-pending-bg);
+  border: 1px solid var(--sn-chip-pending-border);
+}
+
+.name-history-list-notice {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--sn-chip-notice);
+  text-decoration: none;
+}
+
+.name-history-list-notice:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .selected-road-chip-foot {
   margin-top: 0.52rem;
   padding-top: 0.46rem;

@@ -12,6 +12,7 @@ import {
   aggregateByStreet,
   classifyEgazetteEvent,
   enrichGeojson,
+  filterExcludedEvents,
   mergeEvents,
   normalizeNamingDateExclusions,
 } from './lib/street-naming-core.mjs'
@@ -103,7 +104,10 @@ async function main() {
   const extractionMap = await loadExtractionMap()
   const rawEgazetteEvents = egazetteRaw.events ?? egazetteRaw
   const datedEgazetteEvents = refreshEgazetteDates(rawEgazetteEvents, extractionMap)
-  const egazetteEvents = datedEgazetteEvents.map(classifyEgazetteEvent)
+  const egazetteEvents = filterExcludedEvents(
+    datedEgazetteEvents.map(classifyEgazetteEvent),
+    namingDateExclusions,
+  )
 
   const datesChanged = datedEgazetteEvents.some(
     (event, index) => event.publication_date !== rawEgazetteEvents[index]?.publication_date,

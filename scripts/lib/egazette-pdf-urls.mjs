@@ -24,19 +24,36 @@ export function parseEgazetteArchiveFilename(filePath) {
   if (!base) return null
 
   const match = base.match(/^(cgn|egn)(\d{4})(\d{2})(\d{2})(\d+)$/i)
-  if (!match) return null
-
-  const [, type, year, volume, gno, noticeNo] = match
-  const stem = `${year}-${volume}-${gno}-${noticeNo}`
-  return {
-    type: type.toLowerCase(),
-    year,
-    volume,
-    gno,
-    notice_no: noticeNo,
-    notice_label: `G.N.${noticeNo}`,
-    stem,
+  if (match) {
+    const [, type, year, volume, gno, noticeNo] = match
+    const stem = `${year}-${volume}-${gno}-${noticeNo}`
+    return {
+      type: type.toLowerCase(),
+      year,
+      volume,
+      gno,
+      notice_no: noticeNo,
+      notice_label: `G.N.${noticeNo}`,
+      stem,
+    }
   }
+
+  const legacyGn = base.match(/^(\d{4})-gn(\d+)$/i)
+  if (legacyGn) {
+    const [, year, noticeNo] = legacyGn
+    const stem = `${year}-gn${noticeNo}`
+    return {
+      type: 'egn',
+      year,
+      volume: null,
+      gno: null,
+      notice_no: noticeNo,
+      notice_label: `G.N.${noticeNo}`,
+      stem,
+    }
+  }
+
+  return null
 }
 
 export function buildSelfHostedPdfUrlsFromStem(stem, basePath = EGAZETTE_PUBLIC_BASE) {

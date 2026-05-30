@@ -18,7 +18,12 @@ import {
   matchRowToRoadKey,
   normalizeNamingDate,
 } from './lib/crowd-submission-core.mjs'
-import { finalizeCrowdEvent, makeStreetKey, normalizeStreetName } from './lib/street-naming-core.mjs'
+import {
+  buildCrowdEventsFromStreetEntry,
+  finalizeCrowdEvent,
+  makeStreetKey,
+  normalizeStreetName,
+} from './lib/street-naming-core.mjs'
 import {
   buildSelfHostedPdfUrlsFromStem,
   parseEgazetteArchiveFilename,
@@ -35,6 +40,12 @@ const APPROVED_EVENTS = path.join(
   'data',
   'crowdsubmissions',
   'street-events-approved.json',
+)
+const NAME_HISTORY_EVENTS = path.join(
+  projectRoot,
+  'data',
+  'crowdsubmissions',
+  'street-name-history.json',
 )
 const BATCH_INBOX = path.join(projectRoot, 'data', 'crowdsubmissions', 'batch-inbox')
 
@@ -68,7 +79,9 @@ function resolveNoticeMeta(batch) {
   const noticeLabel = String(
     batch.gazette_notice_label ?? batch.notice_label ?? fromPdf?.notice_label ?? '',
   ).trim()
-  const noticeNo = noticeLabel.replace(/^G\.?\s*N\.?\s*/i, '').trim() || fromPdf?.notice_no
+  const legacyNo = noticeLabel.match(/(?:No\.?|第)\s*(\d+)/i)?.[1]
+  const noticeNo =
+    noticeLabel.replace(/^G\.?\s*N\.?\s*/i, '').trim() || legacyNo || fromPdf?.notice_no
   const batchId =
     batch.batch_id ?? (noticeNo ? `${fromPdf?.year ?? 'unknown'}-gn${noticeNo}` : 'batch')
   const hosted = fromPdf?.stem ? buildSelfHostedPdfUrlsFromStem(fromPdf.stem) : { en: null, zh: null }
@@ -77,8 +90,13 @@ function resolveNoticeMeta(batch) {
     notice_label: noticeLabel || (noticeNo ? `G.N.${noticeNo}` : ''),
     notice_no: noticeNo,
     notice_stem: fromPdf?.stem ?? null,
-    url_en: batch.gazette_url_en ?? batch.gazette_url ?? hosted.en ?? null,
-    url_zh: batch.gazette_url_zh ?? hosted.zh ?? null,
+    url_en:
+      batch.gazette_url_en ??
+      batch.gazette_url ??
+      batch.government_notice_url_en ??
+      hosted.en ??
+      null,
+    url_zh: batch.gazette_url_zh ?? batch.government_notice_url_zh ?? hosted.zh ?? null,
     batch_id: batchId,
   }
 }
@@ -218,6 +236,31 @@ async function appendBatchCsvRows(rows) {
   await writeFile(BATCH_CSV, `${lines.join('\n')}\n`)
 }
 
+async function appendNameHistoryEvents(events) {
+  let existing = []
+  try {
+    existing = JSON.parse(await readFile(NAME_HISTORY_EVENTS, 'utf8'))
+  } catch {
+    existing = []
+  }
+  if (!Array.isArray(existing)) existing = []
+
+  const seen = new Set(existing.map((event) => event.event_id))
+  const merged = [...existing]
+  for (const event of events) {
+    if (seen.has(event.event_id)) {
+      console.warn(`Skipping duplicate history event_id: ${event.event_id}`)
+      continue
+    }
+    merged.push(event)
+    seen.add(event.event_id)
+  }
+
+  await mkdir(path.dirname(NAME_HISTORY_EVENTS), { recursive: true })
+  await writeFile(NAME_HISTORY_EVENTS, `${JSON.stringify(merged, null, 2)}\n`)
+  return merged.length - existing.length
+}
+
 async function patchCrowdEventUrls(notice, publicationDate) {
   const events = JSON.parse(await readFile(APPROVED_EVENTS, 'utf8'))
   let patched = 0
@@ -248,40 +291,89 @@ async function main() {
   if (!notice.notice_label) {
     throw new Error('Batch must include gazette_notice_label or parseable PDF filenames')
   }
-  if (!notice.url_en) {
-    throw new Error('Batch must include gazette_url or PDF paths with egazette-style filenames')
-  }
 
   const streets = batch.streets ?? batch.road_names ?? []
   if (!Array.isArray(streets) || !streets.length) {
     throw new Error('Batch must include a non-empty streets array')
   }
 
+  const hasHistory = streets.some(
+    (street) => typeof street === 'object' && Array.isArray(street.history) && street.history.length,
+  )
+  if (!notice.url_en && !hasHistory) {
+    throw new Error('Batch must include gazette_url or PDF paths with egazette-style filenames')
+  }
+
   const pendingMap = await loadPendingRoadKeys(projectRoot)
   const copiedPdfs = await copyBatchPdfs(batch, notice.batch_id)
   const displayDate = formatDisplayDate(publicationDate)
   const remarks = batch.remarks ?? `Batch ${notice.notice_label} community submission`
+  const batchDefaults = {
+    batch_id: notice.batch_id,
+    gazette_notice_label: notice.notice_label,
+    gazette_url_en: notice.url_en,
+    gazette_url_zh: notice.url_zh,
+    remarks,
+    reviewed_at: new Date().toISOString().slice(0, 10),
+  }
 
-  const csvRows = streets.map((street, index) => {
+  const historyEvents = []
+  const csvRows = []
+
+  for (const [index, street] of streets.entries()) {
+    if (typeof street === 'object' && Array.isArray(street.history) && street.history.length) {
+      const resolved = resolveStreet(street, pendingMap)
+      const built = buildCrowdEventsFromStreetEntry(
+        { ...street, street_code: resolved.street_code },
+        batchDefaults,
+      )
+      historyEvents.push(...built)
+      continue
+    }
+
     const resolved =
       typeof street === 'string'
         ? resolveStreet({ chinese_name: street }, pendingMap)
         : resolveStreet(street, pendingMap)
     const suffix = resolved.street_code || String(index + 1)
-    return {
+    csvRows.push({
       street_code: resolved.street_code,
       english_name: resolved.english_name,
       chinese_name: resolved.chinese_name,
       naming_date: displayDate,
       notice_label: notice.notice_label,
-      gazette_url: notice.url_en,
+      gazette_url: notice.url_en ?? '',
       submission_id: `${notice.batch_id}-${suffix}`,
       remarks,
-    }
-  })
+    })
+  }
 
-  await appendBatchCsvRows(csvRows)
-  console.log(`Appended ${csvRows.length} row(s) to ${BATCH_CSV}`)
+  if (historyEvents.length) {
+    const added = await appendNameHistoryEvents(historyEvents)
+    console.log(`Appended ${added} name-history event(s) to ${NAME_HISTORY_EVENTS}`)
+    const trackerPath = path.join(projectRoot, 'public', 'data', 'master', 'submission-tracker.json')
+    try {
+      const tracker = JSON.parse(await readFile(trackerPath, 'utf8'))
+      const today = new Date().toISOString().slice(0, 10)
+      for (const street of streets) {
+        if (typeof street !== 'object' || !Array.isArray(street.history) || !street.history.length) continue
+        const resolved = resolveStreet(street, pendingMap)
+        const roadKey = resolved.roadKey ?? `code:${resolved.street_code}`
+        tracker.by_road_key = tracker.by_road_key ?? {}
+        tracker.by_road_key[roadKey] = { status: 'approved', approved_at: today }
+      }
+      tracker.generated_at = new Date().toISOString()
+      await writeFile(trackerPath, `${JSON.stringify(tracker, null, 2)}\n`)
+      console.log('Updated submission-tracker for name-history streets')
+    } catch (error) {
+      console.warn('Could not update submission-tracker:', error.message)
+    }
+  }
+
+  if (csvRows.length) {
+    await appendBatchCsvRows(csvRows)
+    console.log(`Appended ${csvRows.length} row(s) to ${BATCH_CSV}`)
+  }
   if (copiedPdfs.length) {
     console.log(`Copied PDFs: ${copiedPdfs.join(', ')}`)
     const published = await publishCrowdGazettePdfs()

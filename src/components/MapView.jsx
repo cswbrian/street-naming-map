@@ -1,5 +1,7 @@
 import { useEffect, useRef } from 'react'
+import { createRoot } from 'react-dom/client'
 import maplibregl from 'maplibre-gl'
+import NameHistoryList from './NameHistoryList.jsx'
 import { MapboxOverlay } from '@deck.gl/mapbox'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import { buildRoadFilter, buildRoadKey, filterNamedStreetFeatures, hasStreetName } from '../lib/roadKey'
@@ -80,6 +82,9 @@ const buildSelectedRoadChipHtml = (selectedRoadInfo, locale) => {
           `<span class="selected-road-chip-source pending-source-badge pending-source-${selectedRoadInfo.sourceBadge.kind}" title="${escapeHtml(selectedRoadInfo.sourceBadge.hint)}">${escapeHtml(selectedRoadInfo.sourceBadge.label)}</span>`,
         )
       : buildMetaRow(labels.colSource, buildEmptyValue()),
+    selectedRoadInfo.nameHistory?.length
+      ? `<div class="selected-road-chip-row selected-road-chip-row-history"><dt class="selected-road-chip-label">${escapeHtml(labels.colNameHistory)}</dt><dd class="selected-road-chip-value"><div class="selected-road-chip-history-mount"></div></dd></div>`
+      : '',
   ].join('')
 
   const actionButtons = [
@@ -247,6 +252,7 @@ function MapView({
   const mapContainerRef = useRef(null)
   const mapRef = useRef(null)
   const selectedRoadMarkerRef = useRef(null)
+  const nameHistoryRootRef = useRef(null)
 
   const applyMapState = (map, year, group, roadKey, mapTheme = 'light') => {
     if (
@@ -655,6 +661,8 @@ function MapView({
     if (!map) return
 
     if (!selectedRoadKey || !selectedRoadCenter || !selectedRoadInfo) {
+      nameHistoryRootRef.current?.unmount()
+      nameHistoryRootRef.current = null
       if (selectedRoadMarkerRef.current) {
         selectedRoadMarkerRef.current.remove()
         selectedRoadMarkerRef.current = null
@@ -679,6 +687,20 @@ function MapView({
       noticeLink.addEventListener('click', () => {
         trackNoticeOpen('map')
       })
+    }
+
+    const historyMount = chip.querySelector('.selected-road-chip-history-mount')
+    nameHistoryRootRef.current?.unmount()
+    nameHistoryRootRef.current = null
+    if (historyMount && selectedRoadInfo.nameHistory?.length) {
+      const root = createRoot(historyMount)
+      nameHistoryRootRef.current = root
+      root.render(
+        <NameHistoryList
+          items={selectedRoadInfo.nameHistory}
+          onNoticeClick={() => trackNoticeOpen('map')}
+        />,
+      )
     }
     const closeButton = chip.querySelector('.selected-road-chip-close')
     if (closeButton) {
@@ -741,6 +763,11 @@ function MapView({
     })
       .setLngLat(selectedRoadCenter)
       .addTo(map)
+
+    return () => {
+      nameHistoryRootRef.current?.unmount()
+      nameHistoryRootRef.current = null
+    }
   }, [
     selectedRoadKey,
     selectedRoadCenter,

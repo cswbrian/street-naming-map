@@ -27,6 +27,12 @@ const APPROVED_EVENTS = path.join(
   'crowdsubmissions',
   'street-events-approved.json',
 )
+const NAME_HISTORY_EVENTS = path.join(
+  projectRoot,
+  'data',
+  'crowdsubmissions',
+  'street-name-history.json',
+)
 const BATCH_CSV = path.join(projectRoot, 'data', 'crowdsubmissions', 'batch-approved.csv')
 
 function parseArgs(argv) {
@@ -107,13 +113,14 @@ function findStemEntryForEvent(event, stemMap) {
   return null
 }
 
-async function updateApprovedEvents(stemMap) {
+async function updateCrowdEventFile(filePath, stemMap) {
   let events = []
   try {
-    events = JSON.parse(await readFile(APPROVED_EVENTS, 'utf8'))
+    events = JSON.parse(await readFile(filePath, 'utf8'))
   } catch {
     return 0
   }
+  if (!Array.isArray(events)) return 0
 
   let updated = 0
   for (const event of events) {
@@ -134,9 +141,13 @@ async function updateApprovedEvents(stemMap) {
   }
 
   if (updated) {
-    await writeFile(APPROVED_EVENTS, `${JSON.stringify(events, null, 2)}\n`)
+    await writeFile(filePath, `${JSON.stringify(events, null, 2)}\n`)
   }
   return updated
+}
+
+async function updateApprovedEvents(stemMap) {
+  return updateCrowdEventFile(APPROVED_EVENTS, stemMap)
 }
 
 async function updateBatchCsv(stemMap) {
@@ -209,8 +220,10 @@ async function main() {
 
   if (opts.updateData) {
     const eventsUpdated = await updateApprovedEvents(stems)
+    const historyUpdated = await updateCrowdEventFile(NAME_HISTORY_EVENTS, stems)
     const csvUpdated = await updateBatchCsv(stems)
     console.log(`Updated ${eventsUpdated} approved event URL(s)`)
+    console.log(`Updated ${historyUpdated} name-history event URL(s)`)
     console.log(`Updated ${csvUpdated} batch CSV row URL(s)`)
     console.log('Run: npm run merge:crowd && npm run report:pending-years')
   }

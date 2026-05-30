@@ -65,43 +65,54 @@ const buildUniqueNameMap = (aggregates, field) => {
   return uniqueMap
 }
 
+const pickNoticeEvent = (aggregate, history) => {
+  const withGazette = [...history]
+    .reverse()
+    .find((event) => event?.government_notice_url_en || event?.government_notice_url_zh)
+  if (withGazette) return withGazette
+  return (
+    history.find((event) => event?.is_declaration_event) ??
+    history.find((event) => event?.publication_date === aggregate.canonical_naming_date) ??
+    history[history.length - 1] ??
+    null
+  )
+}
+
 const pickNamingDetails = (aggregate) => {
   if (!aggregate) return null
   const history = Array.isArray(aggregate.event_history) ? aggregate.event_history : []
-  const declarationEvent =
-    history.find((event) => event?.is_declaration_event) ??
-    history.find((event) => event?.publication_date === aggregate.canonical_naming_date) ??
-    history[0] ??
-    null
+  const noticeEvent = pickNoticeEvent(aggregate, history)
 
-  const urls = governmentNoticeUrlsFromEvent(declarationEvent)
+  const urls = governmentNoticeUrlsFromEvent(noticeEvent)
   const rawNoticeLabel =
-    declarationEvent?.government_notice_label_en ??
-    declarationEvent?.government_notice_label_zh ??
-    declarationEvent?.notice_no ??
+    noticeEvent?.government_notice_label_en ??
+    noticeEvent?.government_notice_label_zh ??
+    noticeEvent?.notice_no ??
     null
   const noticeLabels = formatGovernmentNoticeLabels(rawNoticeLabel)
 
   return {
     street_key: aggregate.street_key ?? null,
+    street_code: aggregate.street_code ?? null,
     canonical_naming_date: aggregate.canonical_naming_date ?? null,
     canonical_naming_year: aggregate.canonical_naming_year ?? null,
+    current_name_since_date: aggregate.current_name_since_date ?? null,
+    first_known_naming_date: aggregate.first_known_naming_date ?? null,
     derivation_reason: aggregate.derivation_reason ?? null,
     event_count: aggregate.event_count ?? 0,
-    notice_no: declarationEvent?.notice_no ?? null,
-    notice_type: declarationEvent?.notice_type_normalized ?? null,
-    notice_source: declarationEvent?.source ?? null,
-    notice_key: declarationEvent?.notice_key ?? null,
+    name_history: aggregate.name_history ?? null,
+    notice_no: noticeEvent?.notice_no ?? null,
+    notice_type: noticeEvent?.notice_type_normalized ?? null,
+    notice_source: noticeEvent?.source ?? null,
+    notice_key: noticeEvent?.notice_key ?? null,
     government_notice_label_en:
-      noticeLabels.en ?? declarationEvent?.government_notice_label_en ?? null,
+      noticeLabels.en ?? noticeEvent?.government_notice_label_en ?? null,
     government_notice_label_zh:
-      noticeLabels.zh ?? declarationEvent?.government_notice_label_zh ?? null,
+      noticeLabels.zh ?? noticeEvent?.government_notice_label_zh ?? null,
     government_notice_url_en: urls.en,
     government_notice_url_zh: urls.zh,
-    related_gazette_plan_url_en:
-      declarationEvent?.related_gazette_plan_urls_en?.[0] ?? null,
-    related_gazette_plan_url_zh:
-      declarationEvent?.related_gazette_plan_urls_zh?.[0] ?? null,
+    related_gazette_plan_url_en: noticeEvent?.related_gazette_plan_urls_en?.[0] ?? null,
+    related_gazette_plan_url_zh: noticeEvent?.related_gazette_plan_urls_zh?.[0] ?? null,
   }
 }
 
@@ -139,6 +150,11 @@ async function main() {
   const aggregatesByStreetKey = new Map(
     aggregateRows.map((item) => [String(item.street_key ?? '').trim(), item]),
   )
+  const aggregatesByStreetCode = new Map(
+    aggregateRows
+      .filter((item) => String(item.street_code ?? '').trim())
+      .map((item) => [String(item.street_code).trim(), item]),
+  )
   const aggregatesByEnUnique = buildUniqueNameMap(aggregateRows, 'street_name_en')
   const aggregatesByZhUnique = buildUniqueNameMap(aggregateRows, 'street_name_zh')
 
@@ -160,6 +176,7 @@ async function main() {
     const roadKey = toRoadKey(en, zh, streetCode, segmentId)
     const streetKey = toStreetKey(en, zh)
     const aggregate =
+      (streetCode ? aggregatesByStreetCode.get(streetCode) : null) ??
       aggregatesByStreetKey.get(streetKey) ??
       aggregatesByEnUnique.get(en) ??
       aggregatesByZhUnique.get(zh) ??

@@ -88,6 +88,7 @@ function buildApprovedEvent(row, roadKey, pendingMap) {
 
   return finalizeCrowdEvent({
     submission_id: submissionId,
+    street_code: road?.street_code ?? (String(row.street_code ?? '').trim() || null),
     publication_date: publicationDate,
     street_name_en: en,
     street_name_zh: zh,

@@ -51,6 +51,25 @@ Template: `data/crowdsubmissions/batch-template.json`
 }
 ```
 
+**Name change history** (multiple dates per street): use `history` on a street entry and `street_code`. Events are stored in `data/crowdsubmissions/street-name-history.json`. See `docs/street-name-history-schema.md`.
+
+```json
+{
+  "gazette_notice_label": "Gazette No. 184",
+  "publication_date": "1909-03-19",
+  "gazette_url_en": "/egazette/en/1909-gn184.pdf",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/1909-gn184-taku/1909-gn184.pdf",
+  "streets": [{
+    "street_code": "12326",
+    "chinese_name": "大沽街",
+    "history": [
+      { "publication_date": "1872-01-01", "change_kind": "declare", "street_name_zh": "差館街", "evidence_level": "historical" },
+      { "publication_date": "1909-03-19", "change_kind": "rename", "previous_street_name_zh": "差館街", "street_name_zh": "大沽街", "evidence_level": "gazette" }
+    ]
+  }]
+}
+```
+
 **Street matching:** resolve by `street_code`, or match Chinese/English names against `public/data/master/pending-naming-years.json`.
 
 **PDF filenames:** `cgn200408518104` / `egn200408518104` auto-derive egazette URLs and G.N. number when `gazette_notice_label` is omitted.

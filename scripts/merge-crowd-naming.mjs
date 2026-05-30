@@ -9,6 +9,7 @@ import { fileURLToPath } from 'node:url'
 import {
   aggregateByStreet,
   enrichGeojson,
+  filterExcludedEvents,
   mergeEvents,
   normalizeNamingDateExclusions,
 } from './lib/street-naming-core.mjs'
@@ -27,6 +28,12 @@ const COMBINED_EVENTS = path.join(MASTER_DIR, 'street-events-combined.json')
 const COMBINED_AGGREGATES = path.join(MASTER_DIR, 'street-aggregates-combined.json')
 const LANDSD_EVENTS = path.join(MASTER_DIR, 'landsd-street-events-2016plus.json')
 const CROWD_APPROVED = path.join(projectRoot, 'data', 'crowdsubmissions', 'street-events-approved.json')
+const CROWD_NAME_HISTORY = path.join(
+  projectRoot,
+  'data',
+  'crowdsubmissions',
+  'street-name-history.json',
+)
 const NAMING_DATE_EXCLUSIONS = path.join(projectRoot, 'data', 'naming-date-exclusions.json')
 
 async function loadNamingDateExclusions() {
@@ -47,25 +54,35 @@ async function loadJson(filePath, fallback = null) {
 }
 
 async function main() {
-  const [combinedExisting, landsdFallback, crowdRaw, sourceRaw, namingDateExclusions] =
+  const [combinedExisting, landsdFallback, crowdRaw, crowdHistoryRaw, sourceRaw, namingDateExclusions] =
     await Promise.all([
       loadJson(COMBINED_EVENTS, null),
       loadJson(LANDSD_EVENTS, []),
       loadJson(CROWD_APPROVED, []),
+      loadJson(CROWD_NAME_HISTORY, []),
       readFile(SOURCE_PATH, 'utf8').then(JSON.parse),
       loadNamingDateExclusions(),
     ])
 
-  const crowdEvents = Array.isArray(crowdRaw) ? crowdRaw : []
+  const crowdEvents = [
+    ...(Array.isArray(crowdRaw) ? crowdRaw : []),
+    ...(Array.isArray(crowdHistoryRaw) ? crowdHistoryRaw : []),
+  ]
   if (!crowdEvents.length) {
-    console.log('No approved crowd events at', CROWD_APPROVED)
-    console.log('Run: npm run import:crowdsubmissions (without --tracker-only) after approving rows')
+    console.log('No crowd events at', CROWD_APPROVED, 'or', CROWD_NAME_HISTORY)
+    console.log('Run: npm run import:crowdsubmissions or apply-crowd-batch with history')
     return
   }
 
   const baseEvents = Array.isArray(combinedExisting) ? combinedExisting : landsdFallback
-  const landsd = baseEvents.filter((e) => e.source === 'landsd')
-  const egazette = baseEvents.filter((e) => e.source === 'egazette_pdf')
+  const landsd = filterExcludedEvents(
+    baseEvents.filter((e) => e.source === 'landsd'),
+    namingDateExclusions,
+  )
+  const egazette = filterExcludedEvents(
+    baseEvents.filter((e) => e.source === 'egazette_pdf'),
+    namingDateExclusions,
+  )
   const combined = mergeEvents(landsd, egazette, crowdEvents)
   const aggregates = aggregateByStreet(combined, { namingDateExclusions })
 

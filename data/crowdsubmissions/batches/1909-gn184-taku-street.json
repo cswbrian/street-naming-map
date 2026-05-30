@@ -1,0 +1,37 @@
+{
+  "batch_id": "1909-gn184-taku",
+  "gazette_notice_label": "Gazette No. 184",
+  "publication_date": "1909-03-19",
+  "gazette_url_en": "/egazette/en/1909-gn184.pdf",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/1909-gn184-taku/1909-gn184.pdf",
+  "remarks": "Hung Hom Station Street → Taku Street; 1872 original name without gazette on file.",
+  "streets": [
+    {
+      "street_code": "12326",
+      "english_name": "TAKU STREET",
+      "chinese_name": "大沽街",
+      "history": [
+        {
+          "publication_date": "1872-01-01",
+          "change_kind": "declare",
+          "street_name_en": "Station Street",
+          "street_name_zh": "差館街",
+          "evidence_level": "historical",
+          "is_declaration_event": true,
+          "submitter_remarks": "Original name circa 1872 (Hung Hom); gazette proof not yet on file."
+        },
+        {
+          "publication_date": "1909-03-19",
+          "change_kind": "rename",
+          "previous_street_name_en": "Station Street",
+          "street_name_en": "Taku Street",
+          "street_name_zh": "大沽街",
+          "gazette_notice_label": "Gazette No. 184",
+          "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
+          "evidence_level": "gazette",
+          "is_declaration_event": false
+        }
+      ]
+    }
+  ]
+}

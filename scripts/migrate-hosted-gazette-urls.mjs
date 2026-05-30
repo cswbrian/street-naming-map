@@ -13,6 +13,7 @@ const projectRoot = path.resolve(__dirname, '..')
 
 const TARGETS = [
   'data/crowdsubmissions/street-events-approved.json',
+  'data/crowdsubmissions/street-name-history.json',
   'data/crowdsubmissions/batch-approved.csv',
   'public/data/master/street-events-combined.json',
   'public/data/master/street-aggregates-combined.json',

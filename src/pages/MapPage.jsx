@@ -20,6 +20,7 @@ import {
 import { buildNoticeLookup, getNoticeLink, resolveNoticeLink } from '../lib/governmentNotice.js'
 import { getNamingDisplay, hasRowNamingDate } from '../lib/namingDisplay.js'
 import { getNamingSourceBadgeKey, getNamingSourceKind } from '../lib/namingSourceBadge.js'
+import { buildNameHistoryTimelineItems } from '../lib/nameHistory.js'
 import { buildPendingRoadLookup, resolvePendingRoadRow } from '../lib/pendingRoadLookup.js'
 import { getDefaultMapPanelCollapse } from '../lib/mapViewport.js'
 import { buildRoadKey, hasStreetName, normalizeRoadName, parseRoadKey } from '../lib/roadKey'
@@ -167,6 +168,9 @@ function MapPage() {
           locale,
         })
     const rowForDisplay = pendingRow ?? displayRow
+    const nameHistory = buildNameHistoryTimelineItems(pendingRow?.naming_details, locale, {
+      historyGazettePending: t('historyGazettePending'),
+    })
     const namingYear = activeRoad?.year ?? pickedRoadMeta?.year ?? displayRow.naming_year ?? null
     const shareUrl =
       typeof window !== 'undefined'
@@ -183,6 +187,7 @@ function MapPage() {
       streetType: getRoadTypeLabel(locale, displayRow.street_type) || null,
       namingDisplay: getNamingDisplay(rowForDisplay, t),
       isNamingPending: !hasRowNamingDate(rowForDisplay),
+      nameHistory,
       noticeLink,
       sourceBadge: sourceBadgeKey
         ? {

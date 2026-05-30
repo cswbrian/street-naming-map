@@ -129,10 +129,102 @@ export function makeStreetKey(streetNameEn, streetNameZh) {
   return `${normalizeStreetName(streetNameEn)}|${String(streetNameZh ?? '').trim()}`
 }
 
+export const CHANGE_KINDS = new Set(['declare', 'rename', 'delete'])
+export const EVIDENCE_LEVELS = new Set(['gazette', 'historical'])
+
+export function normalizeChangeKind(value) {
+  const text = String(value ?? '').trim().toLowerCase()
+  if (CHANGE_KINDS.has(text)) return text
+  return null
+}
+
+export function normalizeEvidenceLevel(value) {
+  const text = String(value ?? '').trim().toLowerCase()
+  if (EVIDENCE_LEVELS.has(text)) return text
+  if (!text && value === undefined) return null
+  return text || null
+}
+
+/** Stable key for grouping all events on one road centreline. */
+export function eventAggregateKey(event) {
+  const code = String(event.street_code ?? '').trim()
+  if (code) return `code:${code}`
+  return makeStreetKey(event.street_name_en, event.street_name_zh)
+}
+
 export function eventDedupeKey(event) {
-  const en = normalizeStreetName(event.street_name_en)
-  const zh = String(event.street_name_zh ?? '').trim()
-  return `${event.publication_date}|${event.notice_no}|${en}|${zh}`
+  const identity = eventAggregateKey(event)
+  const kind = normalizeChangeKind(event.change_kind) ?? 'event'
+  const prev = makeStreetKey(event.previous_street_name_en, event.previous_street_name_zh)
+  return `${identity}|${event.publication_date}|${event.notice_no ?? ''}|${kind}|${prev}`
+}
+
+function namesMatchNormalized(event, en, zh) {
+  const eventEn = normalizeStreetName(event?.street_name_en)
+  const eventZh = String(event?.street_name_zh ?? '').trim()
+  const targetEn = normalizeStreetName(en)
+  const targetZh = String(zh ?? '').trim()
+  if (targetEn && eventEn && targetEn === eventEn) return true
+  if (targetZh && eventZh && targetZh === eventZh) return true
+  return false
+}
+
+export function buildNameHistory(events) {
+  const ordered = [...events].toSorted((a, b) =>
+    String(a.publication_date ?? '').localeCompare(String(b.publication_date ?? '')),
+  )
+  return ordered.map((event) => ({
+    date: event.publication_date ?? null,
+    change_kind: normalizeChangeKind(event.change_kind) ?? (event.is_declaration_event ? 'declare' : 'other'),
+    name_en: event.street_name_en ?? null,
+    name_zh: event.street_name_zh ?? null,
+    previous_name_en: event.previous_street_name_en ?? null,
+    previous_name_zh: event.previous_street_name_zh ?? null,
+    notice_label_en: event.government_notice_label_en ?? null,
+    notice_label_zh: event.government_notice_label_zh ?? null,
+    notice_url_en: event.government_notice_url_en ?? null,
+    notice_url_zh: event.government_notice_url_zh ?? null,
+    evidence_level: normalizeEvidenceLevel(event.evidence_level),
+    source: event.source ?? null,
+    submitter_remarks: event.submitter_remarks ?? null,
+  }))
+}
+
+function deriveAggregateNaming(ordered, displayNames = {}) {
+  const displayEn = displayNames.en ?? null
+  const displayZh = displayNames.zh ?? null
+  const renames = ordered.filter((event) => normalizeChangeKind(event.change_kind) === 'rename')
+  const currentRename = [...renames]
+    .reverse()
+    .find((event) => namesMatchNormalized(event, displayEn, displayZh))
+  const currentNameSince = currentRename?.publication_date ?? null
+  const earliestDeclaration = ordered.find((event) => {
+    const kind = normalizeChangeKind(event.change_kind)
+    if (kind === 'rename' || kind === 'delete') return false
+    return event.is_declaration_event || kind === 'declare'
+  })
+  const firstEvent = ordered[0] ?? null
+  const canonicalDate =
+    currentNameSince ?? earliestDeclaration?.publication_date ?? firstEvent?.publication_date ?? null
+  let derivationReason = 'first_event'
+  if (currentNameSince) derivationReason = 'current_name_since'
+  else if (earliestDeclaration) derivationReason = 'declaration_earliest'
+
+  return {
+    canonical_naming_date: canonicalDate,
+    canonical_naming_year: canonicalDate ? Number(canonicalDate.slice(0, 4)) : null,
+    current_name_since_date: currentNameSince,
+    first_known_naming_date: firstEvent?.publication_date ?? null,
+    derivation_reason: derivationReason,
+  }
+}
+
+function pickDisplayNames(ordered) {
+  const latest = ordered[ordered.length - 1]
+  return {
+    en: latest?.street_name_en ?? null,
+    zh: latest?.street_name_zh ?? null,
+  }
 }
 
 export function groupBy(items, keyFn) {
@@ -149,7 +241,15 @@ export function normalizeNamingDateExclusions(raw) {
   return {
     streetKeys: new Set(raw?.street_keys ?? []),
     streetCodes: new Set((raw?.street_codes ?? []).map(String)),
+    eventIds: new Set(raw?.event_ids ?? []),
   }
+}
+
+/** Drop eGazette (or other) events excluded in data/naming-date-exclusions.json */
+export function filterExcludedEvents(events, exclusions) {
+  const eventIds = exclusions?.eventIds
+  if (!eventIds?.size) return events
+  return events.filter((event) => !eventIds.has(event.event_id))
 }
 
 function isExcludedStreetKey(streetKey, exclusions) {
@@ -158,30 +258,43 @@ function isExcludedStreetKey(streetKey, exclusions) {
 
 export function aggregateByStreet(events, options = {}) {
   const exclusions = options.namingDateExclusions ?? null
-  const grouped = groupBy(events, (item) => makeStreetKey(item.street_name_en, item.street_name_zh))
+  const grouped = groupBy(events, (item) => eventAggregateKey(item))
   const aggregates = []
 
-  for (const [streetKey, group] of grouped.entries()) {
-    if (streetKey === '|') continue
-    const ordered = group.toSorted((a, b) => a.publication_date.localeCompare(b.publication_date))
-    const declaration = ordered.find((event) => event.is_declaration_event)
-    let canonicalNamingDate = declaration?.publication_date ?? null
-    let canonicalNamingYear = canonicalNamingDate ? Number(canonicalNamingDate.slice(0, 4)) : null
-    let derivationReason = declaration ? 'declaration_earliest' : 'no_declaration_found'
-    if (isExcludedStreetKey(streetKey, exclusions)) {
+  for (const [aggregateKey, group] of grouped.entries()) {
+    if (aggregateKey === '|' || aggregateKey === 'code:') continue
+    const ordered = group.toSorted((a, b) =>
+      String(a.publication_date ?? '').localeCompare(String(b.publication_date ?? '')),
+    )
+    const streetCode = String(
+      ordered.find((event) => String(event.street_code ?? '').trim())?.street_code ?? '',
+    ).trim()
+    const display = pickDisplayNames(ordered)
+    const derived = deriveAggregateNaming(ordered, display)
+    let canonicalNamingDate = derived.canonical_naming_date
+    let canonicalNamingYear = derived.canonical_naming_year
+    let derivationReason = derived.derivation_reason
+    if (!canonicalNamingDate && !ordered.some((event) => event.is_declaration_event)) {
+      derivationReason = 'no_declaration_found'
+    }
+    const legacyStreetKey = makeStreetKey(display.en, display.zh)
+    if (isExcludedStreetKey(legacyStreetKey, exclusions)) {
       canonicalNamingDate = null
       canonicalNamingYear = null
       derivationReason = 'excluded_manual'
     }
-    const [streetNameEn, streetNameZh] = streetKey.split('|')
 
     aggregates.push({
-      street_key: streetKey,
-      street_name_en: streetNameEn || null,
-      street_name_zh: streetNameZh || null,
+      street_key: streetCode ? `code:${streetCode}` : legacyStreetKey,
+      street_code: streetCode || null,
+      street_name_en: display.en || null,
+      street_name_zh: display.zh || null,
       canonical_naming_date: canonicalNamingDate,
       canonical_naming_year: canonicalNamingYear,
+      current_name_since_date: derived.current_name_since_date,
+      first_known_naming_date: derived.first_known_naming_date,
       derivation_reason: derivationReason,
+      name_history: buildNameHistory(ordered),
       event_history: ordered,
       event_count: ordered.length,
     })
@@ -222,6 +335,11 @@ export function resolveNamingSource(aggregate, options = {}) {
 
 export function enrichGeojson(sourceData, aggregates, options = {}) {
   const byKey = new Map(aggregates.map((item) => [item.street_key, item]))
+  const byStreetCode = new Map(
+    aggregates
+      .filter((item) => String(item.street_code ?? '').trim())
+      .map((item) => [String(item.street_code).trim(), item]),
+  )
   const byEnUnique = buildUniqueNameMap(aggregates, 'street_name_en')
   const byZhUnique = buildUniqueNameMap(aggregates, 'street_name_zh')
 
@@ -264,6 +382,7 @@ export function enrichGeojson(sourceData, aggregates, options = {}) {
     const exact = byKey.get(key)
     const enNorm = normalizeStreetName(en)
     const fallback =
+      (streetCode ? byStreetCode.get(streetCode) : null) ??
       exact ??
       enNormMap.get(enNorm) ??
       zhNormMap.get(zh) ??
@@ -288,6 +407,12 @@ export function enrichGeojson(sourceData, aggregates, options = {}) {
           ? 'excluded_manual'
           : (fallback?.derivation_reason ?? null),
         naming_event_count: excluded ? 0 : (fallback?.event_count ?? 0),
+        first_naming_year: excluded
+          ? null
+          : fallback?.first_known_naming_date
+            ? Number(String(fallback.first_known_naming_date).slice(0, 4))
+            : null,
+        has_name_history: excluded ? false : (fallback?.event_count ?? 0) > 1,
       },
     }
   })
@@ -331,6 +456,35 @@ export function mergeEvents(landsdEvents, egazetteEvents, crowdEvents = []) {
   })
 }
 
+function crowdNoticeTypeLabels(changeKind, isDecl) {
+  if (changeKind === 'rename') {
+    return {
+      en: 'Street name change (crowdsource)',
+      zh: '街道易名（眾包）',
+      normalized: 'rename',
+    }
+  }
+  if (changeKind === 'delete') {
+    return {
+      en: 'Street name deletion (crowdsource)',
+      zh: '街道名稱刪除（眾包）',
+      normalized: 'delete',
+    }
+  }
+  if (isDecl) {
+    return {
+      en: 'Declaration of street name (crowdsource)',
+      zh: '街道命名（眾包）',
+      normalized: 'declaration',
+    }
+  }
+  return {
+    en: 'Street naming event (crowdsource)',
+    zh: '街道命名事件（眾包）',
+    normalized: 'other',
+  }
+}
+
 export function finalizeCrowdEvent(raw, index = 0) {
   const publicationDate = String(raw.publication_date ?? '').trim()
   const rawNoticeInput =
@@ -338,24 +492,33 @@ export function finalizeCrowdEvent(raw, index = 0) {
   const noticeLabels = formatGovernmentNoticeLabels(rawNoticeInput)
   const noticeNo = normalizeNoticeNo(rawNoticeInput ?? 'CROWD')
   const submissionId = String(raw.submission_id ?? raw.submissionId ?? index).trim()
-  const isDecl = raw.is_declaration_event !== false
+  const changeKind = normalizeChangeKind(raw.change_kind)
+  const isDecl =
+    raw.is_declaration_event === true ||
+    (raw.is_declaration_event !== false && changeKind !== 'rename' && changeKind !== 'delete')
+  const noticeTypes = crowdNoticeTypeLabels(changeKind, isDecl)
+  const evidenceLevel =
+    normalizeEvidenceLevel(raw.evidence_level) ??
+    (raw.government_notice_url_en || raw.gazette_url ? 'gazette' : null)
 
   return {
     event_id: raw.event_id ?? `crowd|${submissionId}`,
     source: 'crowdsubmitted',
+    street_code: String(raw.street_code ?? '').trim() || null,
     publication_date: publicationDate,
+    change_kind: changeKind,
     street_name_en: raw.street_name_en ?? null,
     street_name_zh: raw.street_name_zh ?? null,
-    district_raw_en: null,
-    district_raw_zh: null,
-    notice_type_raw_en: 'Declaration of street name (crowdsource)',
-    notice_type_raw_zh: '街道命名（眾包）',
-    notice_type_normalized: isDecl ? 'declaration' : 'other',
+    previous_street_name_en: raw.previous_street_name_en ?? null,
+    previous_street_name_zh: raw.previous_street_name_zh ?? null,
+    district_raw_en: raw.district_raw_en ?? null,
+    district_raw_zh: raw.district_raw_zh ?? null,
+    notice_type_raw_en: noticeTypes.en,
+    notice_type_raw_zh: noticeTypes.zh,
+    notice_type_normalized: changeKind ?? noticeTypes.normalized,
     notice_no: noticeNo,
-    government_notice_label_en:
-      raw.government_notice_label_en ?? noticeLabels.en,
-    government_notice_label_zh:
-      raw.government_notice_label_zh ?? noticeLabels.zh,
+    government_notice_label_en: raw.government_notice_label_en ?? noticeLabels.en,
+    government_notice_label_zh: raw.government_notice_label_zh ?? noticeLabels.zh,
     government_notice_url_en: raw.government_notice_url_en ?? raw.gazette_url ?? null,
     government_notice_url_zh: raw.government_notice_url_zh ?? null,
     related_gazette_plan_urls_en: [],
@@ -364,11 +527,75 @@ export function finalizeCrowdEvent(raw, index = 0) {
     related_gazette_plan_labels_zh: [],
     year_bucket: publicationDate ? Number(publicationDate.slice(0, 4)) : null,
     is_declaration_event: isDecl,
+    evidence_level: evidenceLevel,
     proof_pdf_url: raw.proof_pdf_url ?? null,
     submitter_remarks: raw.submitter_remarks ?? raw.remarks ?? null,
-    reviewed_at: raw.reviewed_at ?? null,
+    reviewed_at: raw.reviewed_at ?? new Date().toISOString().slice(0, 10),
     submission_id: submissionId,
   }
+}
+
+/** Build one or more crowd events from a batch street entry (optional `history` array). */
+export function buildCrowdEventsFromStreetEntry(street, batchDefaults = {}) {
+  const history = Array.isArray(street.history) ? street.history : null
+  if (!history?.length) return []
+
+  const streetCode = String(street.street_code ?? street.code ?? '').trim() || null
+  const resolvedEn =
+    normalizeStreetName(street.english_name ?? street.en) ||
+    normalizeStreetName(street.english_name) ||
+    null
+  const resolvedZh = String(street.chinese_name ?? street.zh ?? street.name ?? '').trim() || null
+
+  return history.map((entry, index) => {
+    const publicationDate = String(entry.publication_date ?? entry.date ?? '').trim()
+    const changeKind = normalizeChangeKind(entry.change_kind) ?? 'declare'
+    const suffix = streetCode ?? String(index + 1)
+    const submissionId =
+      String(entry.submission_id ?? '').trim() ||
+      `${batchDefaults.batch_id ?? 'history'}-${suffix}-${publicationDate}`
+
+    const evidenceLevel = entry.evidence_level ?? batchDefaults.evidence_level ?? null
+    const inheritBatchNotice =
+      evidenceLevel === 'gazette' || changeKind === 'rename' || changeKind === 'delete'
+
+    return finalizeCrowdEvent({
+      submission_id: submissionId,
+      street_code: streetCode,
+      publication_date: publicationDate,
+      change_kind: changeKind,
+      street_name_en:
+        entry.street_name_en ??
+        entry.english_name ??
+        (changeKind === 'rename' ? resolvedEn : entry.name_en) ??
+        resolvedEn,
+      street_name_zh:
+        entry.street_name_zh ??
+        entry.chinese_name ??
+        (changeKind === 'rename' ? resolvedZh : entry.name_zh) ??
+        resolvedZh,
+      previous_street_name_en: entry.previous_street_name_en ?? entry.previous_english_name ?? null,
+      previous_street_name_zh: entry.previous_street_name_zh ?? entry.previous_chinese_name ?? null,
+      gazette_notice_label:
+        entry.gazette_notice_label ??
+        entry.notice_label ??
+        (inheritBatchNotice ? batchDefaults.gazette_notice_label : null) ??
+        null,
+      government_notice_url_en:
+        entry.government_notice_url_en ??
+        entry.gazette_url ??
+        (inheritBatchNotice ? batchDefaults.gazette_url_en : null) ??
+        null,
+      government_notice_url_zh:
+        entry.government_notice_url_zh ??
+        (inheritBatchNotice ? batchDefaults.gazette_url_zh : null) ??
+        null,
+      evidence_level: evidenceLevel,
+      is_declaration_event: entry.is_declaration_event,
+      submitter_remarks: entry.submitter_remarks ?? entry.remarks ?? batchDefaults.remarks ?? null,
+      reviewed_at: entry.reviewed_at ?? batchDefaults.reviewed_at ?? null,
+    })
+  })
 }
 
 import { buildSelfHostedPdfUrls } from './egazette-pdf-urls.mjs'
