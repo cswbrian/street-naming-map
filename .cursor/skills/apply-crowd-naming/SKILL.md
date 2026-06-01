@@ -27,6 +27,16 @@ Typical input (any of):
 
 Goal: mark streets under **最近核實** with badge **社群** (`crowdsubmitted`) on the map.
 
+## Gazette proof backfill (existing records)
+
+When a street **already has** a naming year or a **historical** crowd event (e.g. first Previous G.N. parsed from a later G.N.4509 notice) but **no hosted gazette PDF** (`government_notice_url_en` / `proof_pdf_url` null):
+
+1. **Apply the primary gazette** for that naming date as a normal crowd batch (`pdf_en`, `gazette_notice_label`, `publication_date`, matched `street_code`). The merge pipeline attaches `/egazette/en/{year}-gn{no}.pdf` to map and 最近核實.
+2. **Do not** keep indirect citation remarks (`submitter_remarks` / batch `remarks` about “cited in G.N.…” or “misparsed egazette”). Remove them from batch JSON and drop duplicate `street-name-history` events for the same street + date once primary proof is applied.
+3. **Omit** streets that do not match `hk-streets.geojson` (user may exclude explicitly, e.g. 佑福街 with no centreline).
+4. **Colonial / scan PDFs** (`IMG_….pdf` in `batch-inbox/{year}-gn{no}/`): `publish-crowd-gazette-pdfs.mjs` copies them to `public/egazette/en/{year}-gn{no}.pdf` using the **batch folder name** when the filename is not `egn…` / `cgn…`.
+5. After removing duplicate `street-name-history` events, run **`npm run report:pending-years`** so map chip remarks in `pending-naming-years.json` stay in sync.
+
 ## Workflow
 
 ### A. User attaches a gazette PDF (parse first, apply after verification)
@@ -78,7 +88,7 @@ PDFs are copied to `batch-inbox/`, published to `public/egazette/`, and stored a
 | Colonial Urban Council / thoroughfare table | text from scan/OCR | `colonial_thoroughfare` (numbered “Thoroughfare…” rows) |
 | Image-only scan | `needs_visual_parse` | Agent transcribes from rendered PNGs |
 
-**`submitter_remarks`:** do **not** extract gazette DESCRIPTION / location paragraphs from PDFs in this skill. Omit remarks when EN+ZH match the database. Include remarks **only** when gazette EN or ZH differs from the matched record (e.g. `Gazette ZH 連合道; database 連道.`). Never use generic batch labels.
+**`submitter_remarks`:** do **not** extract gazette DESCRIPTION / location paragraphs from PDFs in this skill. Omit remarks when EN+ZH match the database. Include remarks **only** when gazette EN or ZH differs from the matched record (e.g. `Gazette ZH 連合道; database 連道.`). Never use generic batch labels or “cited in G.N.…” / “misparsed egazette” notes — primary gazette proof replaces those.
 
 ## Batch JSON shape
 

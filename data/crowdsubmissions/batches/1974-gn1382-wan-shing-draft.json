@@ -1,0 +1,16 @@
+{
+  "batch_id": "1974-gn1382",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.1382",
+  "publication_date": "1974-05-31",
+  "gazette_url_en": "/egazette/en/1974-gn1382.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260601T150509Z-3-001/IMG_4660 - Samson C.H. Tam.pdf",
+  "remarks": "運盛街 appears at top of scan (continuation from preceding gazette page); G.N. inferred as 1382 from date and adjacent notices on same gazette run.",
+  "streets": [
+    {
+      "street_code": "12640",
+      "english_name": "WAN SHING STREET",
+      "chinese_name": "運盛街"
+    }
+  ]
+}

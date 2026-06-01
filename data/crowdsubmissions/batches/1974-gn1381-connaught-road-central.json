@@ -1,0 +1,30 @@
+{
+  "batch_id": "1974-gn1381",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.1381",
+  "publication_date": "1974-05-31",
+  "gazette_url_en": "/egazette/en/1974-gn1381.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260601T150509Z-3-001/IMG_4700 - Samson C.H. Tam.pdf",
+  "streets": [
+    {
+      "street_code": "12961",
+      "english_name": "YI LOK STREET",
+      "chinese_name": "怡樂街"
+    },
+    {
+      "street_code": "10662",
+      "english_name": "HARBOUR VIEW STREET",
+      "chinese_name": "港景街"
+    },
+    {
+      "street_code": "11687",
+      "english_name": "PIER ROAD",
+      "chinese_name": "統一碼頭道"
+    },
+    {
+      "street_code": "10603",
+      "english_name": "GILMAN STREET",
+      "chinese_name": "機利文街"
+    }
+  ]
+}

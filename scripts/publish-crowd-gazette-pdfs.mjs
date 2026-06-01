@@ -67,7 +67,11 @@ export async function publishCrowdGazettePdfs(options = {}) {
   await mkdir(PUBLIC_ZH, { recursive: true })
 
   for (const src of pdfFiles) {
-    const parsed = parseEgazetteArchiveFilename(src)
+    let parsed = parseEgazetteArchiveFilename(src)
+    if (!parsed) {
+      const batchId = path.basename(path.dirname(src))
+      parsed = parseEgazetteArchiveFilename(`${batchId}.pdf`)
+    }
     if (!parsed) {
       console.warn(`Skipping unrecognized PDF name: ${src}`)
       continue

@@ -1,0 +1,20 @@
+{
+  "batch_id": "1974-gn2352",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.2352",
+  "publication_date": "1974-09-13",
+  "gazette_url_en": "/egazette/en/1974-gn2352.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260601T150509Z-3-001/IMG_4668 - Samson C.H. Tam.pdf",
+  "streets": [
+    {
+      "street_code": "11107",
+      "english_name": "KWAI YIP STREET",
+      "chinese_name": "葵葉街"
+    },
+    {
+      "street_code": "11707",
+      "english_name": "PING LAI PATH",
+      "chinese_name": "屏麗徑"
+    }
+  ]
+}

@@ -5,24 +5,5 @@
   "publication_date": "2020-08-07",
   "pdf_en": "data/crowdsubmissions/batch-inbox/tier-a-gn4509/egn202024324509.pdf",
   "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-a-gn4509/cgn202024324509.pdf",
-  "remarks": "G.N.4509 (2020-08-07) replaces street description only (Tier A bulk fix).",
-  "streets": [
-    {
-      "street_code": "12719",
-      "english_name": "WING FOOK STREET",
-      "chinese_name": "永福街",
-      "history": [
-        {
-          "publication_date": "1974-08-02",
-          "change_kind": "declare",
-          "street_name_en": "Wing Fook Street",
-          "street_name_zh": "永福街",
-          "gazette_notice_label": "G.N.1982",
-          "evidence_level": "historical",
-          "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 永福街 cited in G.N.4509 (2020-08-07)."
-        }
-      ]
-    }
-  ]
+  "streets": []
 }

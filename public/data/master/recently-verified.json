@@ -1,124 +1,124 @@
 {
-  "generated_at": "2026-06-01T15:09:52.975Z",
+  "generated_at": "2026-06-01T16:26:09.460Z",
   "streets": [
     {
-      "street_name_en": "Gascoigne Road",
-      "street_name_zh": "加士居道",
-      "naming_date": "1905-03-17",
+      "street_name_en": "Po Kong Lane",
+      "street_name_zh": "蒲崗里",
+      "naming_date": "1975-01-17",
       "approved_at": "2026-06-01"
     },
     {
-      "street_name_en": "On Wah Street",
-      "street_name_zh": "安華街",
-      "naming_date": "1979-05-09",
+      "street_name_en": "Ocean Park Road",
+      "street_name_zh": "海洋公園道",
+      "naming_date": "1975-02-07",
       "approved_at": "2026-06-01"
     },
     {
-      "street_name_en": "Lambeth Walk",
-      "street_name_zh": "琳寶徑",
-      "naming_date": "1975-03-14",
+      "street_name_en": "Heung Yip Road",
+      "street_name_zh": "香葉道",
+      "naming_date": "1975-02-07",
       "approved_at": "2026-06-01"
     },
     {
-      "street_name_en": "Hau Man Street",
-      "street_name_zh": "孝民街",
-      "naming_date": "1975-05-02",
+      "street_name_en": "Good Shepherd Street",
+      "street_name_zh": "牧愛街",
+      "naming_date": "1975-03-28",
       "approved_at": "2026-06-01"
     },
     {
-      "street_name_en": "Pak Fa Lam Road",
-      "street_name_zh": "百花林路",
-      "naming_date": "2003-11-28",
+      "street_name_en": "Chun Fai Road",
+      "street_name_zh": "春暉道",
+      "naming_date": "1975-03-28",
       "approved_at": "2026-06-01"
     },
     {
-      "street_name_en": "Ching Shing Road",
-      "street_name_zh": "清城路",
-      "naming_date": "2003-07-01",
+      "street_name_en": "Mei Lai Road",
+      "street_name_zh": "美荔道",
+      "naming_date": "1975-03-21",
       "approved_at": "2026-06-01"
     },
     {
-      "street_name_en": "Ching Hiu Road",
-      "street_name_zh": "清曉路",
-      "naming_date": "2003-07-11",
+      "street_name_en": "Gilman Street",
+      "street_name_zh": "機利文街",
+      "naming_date": "1974-05-31",
       "approved_at": "2026-06-01"
     },
     {
-      "street_name_en": "Pok Wai South Road",
-      "street_name_zh": "壆圍南路",
-      "naming_date": "2002-08-23",
+      "street_name_en": "Pier Road",
+      "street_name_zh": "統一碼頭道",
+      "naming_date": "1974-05-31",
       "approved_at": "2026-06-01"
     },
     {
-      "street_name_en": "Tsing Yi Hong Wan Road",
-      "street_name_zh": "青衣航運路",
-      "naming_date": "2003-12-15",
+      "street_name_en": "Harbour View Street",
+      "street_name_zh": "港景街",
+      "naming_date": "1974-05-31",
       "approved_at": "2026-06-01"
     },
     {
-      "street_name_en": null,
-      "street_name_zh": "錦田繞道",
-      "naming_date": "2004-12-31",
+      "street_name_en": "Yi Lok Street",
+      "street_name_zh": "怡樂街",
+      "naming_date": "1974-05-31",
       "approved_at": "2026-06-01"
     },
     {
-      "street_name_en": "Magic Road",
-      "street_name_zh": "神奇道",
-      "naming_date": "2004-12-17",
+      "street_name_en": "Container Port Road",
+      "street_name_zh": "貨櫃碼頭路",
+      "naming_date": "1974-05-31",
       "approved_at": "2026-06-01"
     },
     {
-      "street_name_en": null,
-      "street_name_zh": "欣澳道",
-      "naming_date": "2004-12-17",
+      "street_name_en": "Lung Tak Street",
+      "street_name_zh": "龍德街",
+      "naming_date": "1974-06-25",
       "approved_at": "2026-06-01"
     },
     {
-      "street_name_en": null,
-      "street_name_zh": "竹篙灣公路",
-      "naming_date": "2004-12-17",
+      "street_name_en": "Choi Ha Road",
+      "street_name_zh": "彩霞道",
+      "naming_date": "1974-12-06",
       "approved_at": "2026-06-01"
     },
     {
-      "street_name_en": "Park Promenade",
-      "street_name_zh": "迎樂路",
-      "naming_date": "2004-12-17",
+      "street_name_en": "Chun Yi Lane",
+      "street_name_zh": "真義里",
+      "naming_date": "1974-11-29",
       "approved_at": "2026-06-01"
     },
     {
-      "street_name_en": "Sea Point Road",
-      "street_name_zh": "海鳴路",
-      "naming_date": "2004-12-17",
+      "street_name_en": "Chi Man Street",
+      "street_name_zh": "治民街",
+      "naming_date": "1974-11-29",
       "approved_at": "2026-06-01"
     },
     {
-      "street_name_en": "Long Yan Road",
-      "street_name_zh": "朗欣路",
-      "naming_date": "2004-12-17",
+      "street_name_en": "Chung Man Street",
+      "street_name_zh": "忠民街",
+      "naming_date": "1974-11-29",
       "approved_at": "2026-06-01"
     },
     {
-      "street_name_en": "Chak Yan Road",
-      "street_name_zh": "澤欣路",
-      "naming_date": "2004-12-17",
+      "street_name_en": "Ngoi Man Street",
+      "street_name_zh": "愛民街",
+      "naming_date": "1974-11-29",
       "approved_at": "2026-06-01"
     },
     {
-      "street_name_en": "Wing Yan Road",
-      "street_name_zh": "榮欣路",
-      "naming_date": "2004-12-17",
+      "street_name_en": "Tin Ha Road",
+      "street_name_zh": "田廈路",
+      "naming_date": "1974-11-29",
       "approved_at": "2026-06-01"
     },
     {
-      "street_name_en": "Fantasy Road",
-      "street_name_zh": "幻想道",
-      "naming_date": "2004-12-17",
+      "street_name_en": "Ying Choi Path",
+      "street_name_zh": "英才徑",
+      "naming_date": "1974-11-22",
       "approved_at": "2026-06-01"
     },
     {
-      "street_name_en": "Inspiration Drive",
-      "street_name_zh": "迪欣路",
-      "naming_date": "2004-12-17",
+      "street_name_en": "Scenic Villa Drive",
+      "street_name_zh": "美景徑",
+      "naming_date": "1974-10-11",
       "approved_at": "2026-06-01"
     }
   ]

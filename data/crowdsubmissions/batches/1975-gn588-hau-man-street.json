@@ -1,0 +1,28 @@
+{
+  "batch_id": "1975-gn588",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.588",
+  "publication_date": "1975-03-14",
+  "gazette_url_en": "/egazette/en/1975-gn588.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260601T150509Z-3-001/IMG_4705 - Samson C.H. Tam.pdf",
+  "streets": [
+    {
+      "street_code": "10669",
+      "english_name": "HAU MAN STREET",
+      "chinese_name": "孝民街",
+      "history": [
+        {
+          "publication_date": "1975-03-14",
+          "change_kind": "rename",
+          "previous_street_name_en": "Oi Man Street",
+          "previous_street_name_zh": "愛民街",
+          "street_name_en": "Hau Man Street",
+          "street_name_zh": "孝民街",
+          "gazette_notice_label": "G.N.588",
+          "evidence_level": "gazette",
+          "is_declaration_event": false
+        }
+      ]
+    }
+  ]
+}

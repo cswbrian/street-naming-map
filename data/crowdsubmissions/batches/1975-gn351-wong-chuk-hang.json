@@ -1,0 +1,20 @@
+{
+  "batch_id": "1975-gn351",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.351",
+  "publication_date": "1975-02-07",
+  "gazette_url_en": "/egazette/en/1975-gn351.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260601T150509Z-3-001/IMG_4710 - Samson C.H. Tam.pdf",
+  "streets": [
+    {
+      "street_code": "10698",
+      "english_name": "HEUNG YIP ROAD",
+      "chinese_name": "香葉道"
+    },
+    {
+      "street_code": "11563",
+      "english_name": "OCEAN PARK ROAD",
+      "chinese_name": "海洋公園道"
+    }
+  ]
+}

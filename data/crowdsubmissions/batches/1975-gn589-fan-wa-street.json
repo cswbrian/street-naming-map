@@ -1,0 +1,39 @@
+{
+  "batch_id": "1975-gn589",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.589",
+  "publication_date": "1975-03-14",
+  "gazette_url_en": "/egazette/en/1975-gn589.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260601T150509Z-3-001/IMG_4705 - Samson C.H. Tam.pdf",
+  "streets": [
+    {
+      "street_code": "10469",
+      "english_name": "FAN WA STREET",
+      "chinese_name": "繁華街",
+      "history": [
+        {
+          "publication_date": "1974-08-02",
+          "change_kind": "declare",
+          "street_name_en": "Yau Fook Street",
+          "street_name_zh": "佑福街",
+          "gazette_notice_label": "G.N.1982",
+          "government_notice_url_en": "/egazette/en/1974-gn1982.pdf",
+          "evidence_level": "gazette",
+          "is_declaration_event": true
+        },
+        {
+          "publication_date": "1975-03-14",
+          "change_kind": "rename",
+          "previous_street_name_en": "Yau Fook Street",
+          "previous_street_name_zh": "佑福街",
+          "street_name_en": "Fan Wa Street",
+          "street_name_zh": "繁華街",
+          "gazette_notice_label": "G.N.589",
+          "government_notice_url_en": "/egazette/en/1975-gn589.pdf",
+          "evidence_level": "gazette",
+          "is_declaration_event": false
+        }
+      ]
+    }
+  ]
+}

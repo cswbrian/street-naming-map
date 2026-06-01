@@ -1,0 +1,20 @@
+{
+  "batch_id": "1975-gn702-703",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.703",
+  "publication_date": "1975-03-28",
+  "gazette_url_en": "/egazette/en/1975-gn702-703.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260601T150509Z-3-001/IMG_4704 - Samson C.H. Tam.pdf",
+  "streets": [
+    {
+      "street_code": "10277",
+      "english_name": "CHUN FAI ROAD",
+      "chinese_name": "春暉道"
+    },
+    {
+      "street_code": "10614",
+      "english_name": "GOOD SHEPHERD STREET",
+      "chinese_name": "牧愛街"
+    }
+  ]
+}
