@@ -10,6 +10,9 @@ const SITE_BASE = getSiteBaseUrl()
 /** Single-street form: https://forms.gle/jekKtsP36mrVvyAG9 */
 export const SINGLE_FORM_ID = '1FAIpQLSd-046moDam17Bhn59HAsMnbm_d5JmT5tE-jF-zHVfUwqiByA'
 
+/** Lazy batch upload (up to 10 PDFs, auto street/year detection) */
+export const LAZY_BATCH_FORM_URL = 'https://forms.gle/wcPUaoeV66dP5n4F7'
+
 /** Batch upload form */
 export const BATCH_FORM_ID = 'REPLACE_BATCH_FORM_ID'
 

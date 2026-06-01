@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import AppNav from '../components/AppNav'
 import AppSiteTitle from '../components/AppSiteTitle'
+import NamesNotificationBar from '../components/NamesNotificationBar'
 import PendingDashboard from '../components/PendingDashboard'
 import { trackSelectRoad } from '../lib/analytics.js'
 import { buildRoadKey } from '../lib/roadKey'
@@ -33,6 +34,7 @@ function NamesPage() {
         <AppSiteTitle />
         <AppNav />
       </header>
+      <NamesNotificationBar />
       <PendingDashboard onOpenRoadOnMap={openRoadOnMap} />
     </>
   )

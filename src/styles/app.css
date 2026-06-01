@@ -237,6 +237,31 @@
   color: var(--sn-text);
 }
 
+.names-notification-bar {
+  padding: 0.5rem 1rem;
+  background: var(--sn-chip-contribute-bg);
+  border-bottom: 1px solid var(--sn-chip-contribute-border);
+  font-size: 0.84rem;
+  line-height: 1.35;
+  color: var(--sn-text-muted);
+  text-align: center;
+}
+
+.names-notification-bar-line {
+  margin: 0;
+}
+
+.names-notification-bar a {
+  color: var(--sn-chip-contribute-text);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+.names-notification-bar a:hover {
+  color: var(--sn-chip-contribute-text-hover);
+}
+
 .pending-dashboard {
   position: relative;
   min-height: 100%;
@@ -1246,6 +1271,11 @@
   .app-shell:not(.is-dashboard) .maplibregl-ctrl-top-right {
     top: 3.85rem;
     right: 0.55rem;
+  }
+
+  .names-notification-bar {
+    padding: 0.45rem 0.55rem;
+    font-size: 0.8rem;
   }
 
   .pending-dashboard {
