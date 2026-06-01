@@ -1,0 +1,21 @@
+{
+  "batch_id": "2000-gn3981",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.3981",
+  "publication_date": "2000-06-23",
+  "gazette_url_en": "/egazette/en/2000-04-25-3981.pdf",
+  "gazette_url_zh": "/egazette/zh/2000-04-25-3981.pdf",
+  "pdf_zh": "/Users/coolsunwind/Downloads/drive-download-20260601T150509Z-3-001/cgn200004253981 - Yin Green.pdf",
+  "streets": [
+    {
+      "street_code": "14025",
+      "english_name": "KAI WO ROAD",
+      "chinese_name": "啟和路"
+    },
+    {
+      "street_code": "14026",
+      "english_name": "FUK WO ROAD",
+      "chinese_name": "福和路"
+    }
+  ]
+}

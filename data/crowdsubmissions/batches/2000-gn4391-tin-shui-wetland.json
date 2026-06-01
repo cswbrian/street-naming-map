@@ -1,0 +1,42 @@
+{
+  "batch_id": "2000-gn4391",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.4391",
+  "publication_date": "2000-07-07",
+  "gazette_url_en": "/egazette/en/2000-04-27-4391.pdf",
+  "gazette_url_zh": "/egazette/zh/2000-04-27-4391.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260601T150509Z-3-001/egn200004274391 - Yin Green.pdf",
+  "pdf_zh": "/Users/coolsunwind/Downloads/drive-download-20260601T150509Z-3-001/cgn200004274391 - Yin Green.pdf",
+  "streets": [
+    {
+      "street_code": "13151",
+      "english_name": "TIN SHUI ROAD",
+      "chinese_name": "天瑞路"
+    },
+    {
+      "street_code": "13148",
+      "english_name": "TIN KWAI ROAD",
+      "chinese_name": "天葵路"
+    },
+    {
+      "street_code": "14027",
+      "english_name": "WETLAND PARK ROAD",
+      "chinese_name": "濕地公園路"
+    },
+    {
+      "street_code": "14028",
+      "english_name": "TIN YIP ROAD",
+      "chinese_name": "天業路"
+    },
+    {
+      "street_code": "14029",
+      "english_name": "TIN SAU ROAD",
+      "chinese_name": "天秀路"
+    },
+    {
+      "street_code": "14030",
+      "english_name": "TIN FAI ROAD",
+      "chinese_name": "天暉路"
+    }
+  ]
+}
