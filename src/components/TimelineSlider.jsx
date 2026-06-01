@@ -17,7 +17,7 @@ function TimelineSlider({ minYear, maxYear, selectedYear, onYearChange, isCollap
         return
       }
       onYearChange(selectedYear + 1, 'play')
-    }, 1000)
+    }, 300)
 
     return () => window.clearInterval(interval)
   }, [isPlaying, selectedYear, maxYear, onYearChange])
