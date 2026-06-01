@@ -1,0 +1,90 @@
+{
+  "batch_id": "1974-gn1078",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.1078",
+  "publication_date": "1974-04-26",
+  "gazette_url_en": "/egazette/en/1974-gn1078.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/GN1078-74 116.17 - Samson C.H. Tam.pdf",
+  "streets": [
+    {
+      "street_code": "12278",
+      "english_name": "TAI TSUN STREET",
+      "chinese_name": "大全街",
+      "history": [
+        {
+          "publication_date": "1974-04-26",
+          "change_kind": "declare",
+          "street_name_en": "Tai Tsun Street",
+          "street_name_zh": "大全街",
+          "gazette_notice_label": "G.N.1078",
+          "government_notice_url_en": "/egazette/en/1974-gn1078.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "10889",
+      "english_name": "IVY STREET",
+      "chinese_name": "埃華街",
+      "history": [
+        {
+          "publication_date": "1974-04-26",
+          "change_kind": "declare",
+          "street_name_en": "Ivy Street",
+          "street_name_zh": "埃華街",
+          "gazette_notice_label": "G.N.1078",
+          "government_notice_url_en": "/egazette/en/1974-gn1078.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12785",
+      "english_name": "WONG TAI STREET",
+      "chinese_name": "旺堤街",
+      "history": [
+        {
+          "publication_date": "1974-04-26",
+          "change_kind": "declare",
+          "street_name_en": "Wong Tai Street",
+          "street_name_zh": "旺堤街",
+          "gazette_notice_label": "G.N.1078",
+          "government_notice_url_en": "/egazette/en/1974-gn1078.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "11056",
+      "english_name": "KOK CHEUNG STREET",
+      "chinese_name": "角祥街",
+      "history": [
+        {
+          "publication_date": "1974-04-26",
+          "change_kind": "declare",
+          "street_name_en": "Kok Cheung Street",
+          "street_name_zh": "角祥街",
+          "gazette_notice_label": "G.N.1078",
+          "government_notice_url_en": "/egazette/en/1974-gn1078.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    },
+    {
+      "street_code": "12205",
+      "english_name": "TAI CHING STREET",
+      "chinese_name": "大政街",
+      "history": [
+        {
+          "publication_date": "1974-04-26",
+          "change_kind": "declare",
+          "street_name_en": "Tai Ching Street",
+          "street_name_zh": "大政街",
+          "gazette_notice_label": "G.N.1078",
+          "government_notice_url_en": "/egazette/en/1974-gn1078.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}

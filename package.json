@@ -38,6 +38,7 @@
     "merge:crowd": "node scripts/merge-crowd-naming.mjs",
     "apply:crowd": "npm run import:crowdsubmissions && npm run merge:crowd && npm run report:pending-years",
     "apply:crowd:batch": "node scripts/apply-crowd-batch.mjs",
+    "parse:crowd-gazette-pdf": "node scripts/parse-crowd-gazette-pdf.mjs",
     "publish:crowd-gazettes": "node scripts/publish-crowd-gazette-pdfs.mjs --update-data && npm run merge:crowd && npm run report:pending-years",
     "migrate:hosted-gazette-urls": "node scripts/migrate-hosted-gazette-urls.mjs && npm run report:pending-years"
   },

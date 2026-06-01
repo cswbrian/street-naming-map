@@ -1,10 +1,103 @@
 {
-  "generated_at": "2026-06-01T11:21:22.343Z",
+  "generated_at": "2026-06-01T15:09:52.973Z",
   "stats": {
     "submitted": 0,
-    "approved": 0,
+    "approved": 24,
     "rejected": 0,
     "batch_uploads": 0
   },
-  "by_road_key": {}
+  "by_road_key": {
+    "name:Jordan Road|佐敦道": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "code:14199": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "code:14200": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "code:14201": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "code:14202": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "code:14203": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "code:14204": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "code:14205": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "code:14206": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "code:14207": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "code:14208": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "name:|竹篙灣公路": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "name:|欣澳道": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "name:|錦田繞道": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "code:14171": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "code:14124": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "code:14164": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "code:14165": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "code:14170": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "code:10669": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "code:11184": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "code:11610": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    },
+    "code:10599": {
+      "status": "approved",
+      "approved_at": "2026-06-01"
+    }
+  }
 }

@@ -92,7 +92,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "1905-gn158-10599"
   },
   {
@@ -1075,7 +1075,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "1"
   },
   {
@@ -3622,39 +3622,6 @@
     "submitter_remarks": null,
     "reviewed_at": "2026-05-30",
     "submission_id": "1926-gn202-to-kwa-wan-road-12330-1926-04-16",
-    "notice_stem": "1922-gn202"
-  },
-  {
-    "event_id": "crowd|1926-gn202-to-kwa-wan-road-12785-1926-04-16",
-    "source": "hkgro",
-    "street_code": "12785",
-    "publication_date": "1926-04-16",
-    "change_kind": "declare",
-    "street_name_en": "Wong Tai Street",
-    "street_name_zh": "黃帝街",
-    "previous_street_name_en": null,
-    "previous_street_name_zh": null,
-    "district_raw_en": null,
-    "district_raw_zh": null,
-    "notice_type_raw_en": "Declaration of street name (crowdsource)",
-    "notice_type_raw_zh": "街道命名（眾包）",
-    "notice_type_normalized": "declare",
-    "notice_no": "GN202",
-    "government_notice_label_en": "G.N.202",
-    "government_notice_label_zh": "第202號",
-    "government_notice_url_en": "/egazette/en/1922-gn202.pdf",
-    "government_notice_url_zh": "/egazette/zh/1922-gn202.pdf",
-    "related_gazette_plan_urls_en": [],
-    "related_gazette_plan_urls_zh": [],
-    "related_gazette_plan_labels_en": [],
-    "related_gazette_plan_labels_zh": [],
-    "year_bucket": 1926,
-    "is_declaration_event": true,
-    "evidence_level": "gazette",
-    "proof_pdf_url": null,
-    "submitter_remarks": "Gazette ZH 黃帝街; database 旺堤街.",
-    "reviewed_at": "2026-05-30",
-    "submission_id": "1926-gn202-to-kwa-wan-road-12785-1926-04-16",
     "notice_stem": "1922-gn202"
   },
   {
@@ -14613,6 +14580,161 @@
     "submission_id": "2025-gn2547-heung-yip-road-10698-1972-09-29"
   },
   {
+    "event_id": "crowd|1974-gn1078-12278-1974-04-26",
+    "source": "crowdsubmitted",
+    "street_code": "12278",
+    "publication_date": "1974-04-26",
+    "change_kind": "declare",
+    "street_name_en": "Tai Tsun Street",
+    "street_name_zh": "大全街",
+    "previous_street_name_en": null,
+    "previous_street_name_zh": null,
+    "district_raw_en": null,
+    "district_raw_zh": null,
+    "notice_type_raw_en": "Declaration of street name (crowdsource)",
+    "notice_type_raw_zh": "街道命名（眾包）",
+    "notice_type_normalized": "declare",
+    "notice_no": "GN1078",
+    "government_notice_label_en": "G.N.1078",
+    "government_notice_label_zh": "第1078號",
+    "government_notice_url_en": "/egazette/en/1974-gn1078.pdf",
+    "government_notice_url_zh": null,
+    "related_gazette_plan_urls_en": [],
+    "related_gazette_plan_urls_zh": [],
+    "related_gazette_plan_labels_en": [],
+    "related_gazette_plan_labels_zh": [],
+    "year_bucket": 1974,
+    "is_declaration_event": true,
+    "evidence_level": "gazette",
+    "proof_pdf_url": null,
+    "reviewed_at": "2026-06-01",
+    "submission_id": "1974-gn1078-12278-1974-04-26"
+  },
+  {
+    "event_id": "crowd|1974-gn1078-10889-1974-04-26",
+    "source": "crowdsubmitted",
+    "street_code": "10889",
+    "publication_date": "1974-04-26",
+    "change_kind": "declare",
+    "street_name_en": "Ivy Street",
+    "street_name_zh": "埃華街",
+    "previous_street_name_en": null,
+    "previous_street_name_zh": null,
+    "district_raw_en": null,
+    "district_raw_zh": null,
+    "notice_type_raw_en": "Declaration of street name (crowdsource)",
+    "notice_type_raw_zh": "街道命名（眾包）",
+    "notice_type_normalized": "declare",
+    "notice_no": "GN1078",
+    "government_notice_label_en": "G.N.1078",
+    "government_notice_label_zh": "第1078號",
+    "government_notice_url_en": "/egazette/en/1974-gn1078.pdf",
+    "government_notice_url_zh": null,
+    "related_gazette_plan_urls_en": [],
+    "related_gazette_plan_urls_zh": [],
+    "related_gazette_plan_labels_en": [],
+    "related_gazette_plan_labels_zh": [],
+    "year_bucket": 1974,
+    "is_declaration_event": true,
+    "evidence_level": "gazette",
+    "proof_pdf_url": null,
+    "reviewed_at": "2026-06-01",
+    "submission_id": "1974-gn1078-10889-1974-04-26"
+  },
+  {
+    "event_id": "crowd|1974-gn1078-12785-1974-04-26",
+    "source": "crowdsubmitted",
+    "street_code": "12785",
+    "publication_date": "1974-04-26",
+    "change_kind": "declare",
+    "street_name_en": "Wong Tai Street",
+    "street_name_zh": "旺堤街",
+    "previous_street_name_en": null,
+    "previous_street_name_zh": null,
+    "district_raw_en": null,
+    "district_raw_zh": null,
+    "notice_type_raw_en": "Declaration of street name (crowdsource)",
+    "notice_type_raw_zh": "街道命名（眾包）",
+    "notice_type_normalized": "declare",
+    "notice_no": "GN1078",
+    "government_notice_label_en": "G.N.1078",
+    "government_notice_label_zh": "第1078號",
+    "government_notice_url_en": "/egazette/en/1974-gn1078.pdf",
+    "government_notice_url_zh": null,
+    "related_gazette_plan_urls_en": [],
+    "related_gazette_plan_urls_zh": [],
+    "related_gazette_plan_labels_en": [],
+    "related_gazette_plan_labels_zh": [],
+    "year_bucket": 1974,
+    "is_declaration_event": true,
+    "evidence_level": "gazette",
+    "proof_pdf_url": null,
+    "reviewed_at": "2026-06-01",
+    "submission_id": "1974-gn1078-12785-1974-04-26"
+  },
+  {
+    "event_id": "crowd|1974-gn1078-11056-1974-04-26",
+    "source": "crowdsubmitted",
+    "street_code": "11056",
+    "publication_date": "1974-04-26",
+    "change_kind": "declare",
+    "street_name_en": "Kok Cheung Street",
+    "street_name_zh": "角祥街",
+    "previous_street_name_en": null,
+    "previous_street_name_zh": null,
+    "district_raw_en": null,
+    "district_raw_zh": null,
+    "notice_type_raw_en": "Declaration of street name (crowdsource)",
+    "notice_type_raw_zh": "街道命名（眾包）",
+    "notice_type_normalized": "declare",
+    "notice_no": "GN1078",
+    "government_notice_label_en": "G.N.1078",
+    "government_notice_label_zh": "第1078號",
+    "government_notice_url_en": "/egazette/en/1974-gn1078.pdf",
+    "government_notice_url_zh": null,
+    "related_gazette_plan_urls_en": [],
+    "related_gazette_plan_urls_zh": [],
+    "related_gazette_plan_labels_en": [],
+    "related_gazette_plan_labels_zh": [],
+    "year_bucket": 1974,
+    "is_declaration_event": true,
+    "evidence_level": "gazette",
+    "proof_pdf_url": null,
+    "reviewed_at": "2026-06-01",
+    "submission_id": "1974-gn1078-11056-1974-04-26"
+  },
+  {
+    "event_id": "crowd|1974-gn1078-12205-1974-04-26",
+    "source": "crowdsubmitted",
+    "street_code": "12205",
+    "publication_date": "1974-04-26",
+    "change_kind": "declare",
+    "street_name_en": "Tai Ching Street",
+    "street_name_zh": "大政街",
+    "previous_street_name_en": null,
+    "previous_street_name_zh": null,
+    "district_raw_en": null,
+    "district_raw_zh": null,
+    "notice_type_raw_en": "Declaration of street name (crowdsource)",
+    "notice_type_raw_zh": "街道命名（眾包）",
+    "notice_type_normalized": "declare",
+    "notice_no": "GN1078",
+    "government_notice_label_en": "G.N.1078",
+    "government_notice_label_zh": "第1078號",
+    "government_notice_url_en": "/egazette/en/1974-gn1078.pdf",
+    "government_notice_url_zh": null,
+    "related_gazette_plan_urls_en": [],
+    "related_gazette_plan_urls_zh": [],
+    "related_gazette_plan_labels_en": [],
+    "related_gazette_plan_labels_zh": [],
+    "year_bucket": 1974,
+    "is_declaration_event": true,
+    "evidence_level": "gazette",
+    "proof_pdf_url": null,
+    "reviewed_at": "2026-06-01",
+    "submission_id": "1974-gn1078-12205-1974-04-26"
+  },
+  {
     "event_id": "crowd|2023-gn3741-wan-chai-streets-11314-1974-05-31",
     "source": "crowdsubmitted",
     "street_code": "11314",
@@ -14677,6 +14799,38 @@
     "submission_id": "2023-gn3741-wan-chai-streets-10865-1974-05-31"
   },
   {
+    "event_id": "crowd|1974-gn1822-10042-1974-07-19",
+    "source": "crowdsubmitted",
+    "street_code": "10042",
+    "publication_date": "1974-07-19",
+    "change_kind": "declare",
+    "street_name_en": "Bank Street",
+    "street_name_zh": "銀行街",
+    "previous_street_name_en": null,
+    "previous_street_name_zh": null,
+    "district_raw_en": null,
+    "district_raw_zh": null,
+    "notice_type_raw_en": "Declaration of street name (crowdsource)",
+    "notice_type_raw_zh": "街道命名（眾包）",
+    "notice_type_normalized": "declare",
+    "notice_no": "GN1822",
+    "government_notice_label_en": "G.N.1822",
+    "government_notice_label_zh": "第1822號",
+    "government_notice_url_en": "/egazette/en/1974-gn1822.pdf",
+    "government_notice_url_zh": null,
+    "related_gazette_plan_urls_en": [],
+    "related_gazette_plan_urls_zh": [],
+    "related_gazette_plan_labels_en": [],
+    "related_gazette_plan_labels_zh": [],
+    "year_bucket": 1974,
+    "is_declaration_event": true,
+    "evidence_level": "gazette",
+    "proof_pdf_url": null,
+    "submitter_remarks": null,
+    "reviewed_at": "2026-06-01",
+    "submission_id": "1974-gn1822-10042-1974-07-19"
+  },
+  {
     "event_id": "crowd|2020-gn4509-tier-a-12719-1974-08-02",
     "source": "crowdsubmitted",
     "street_code": "12719",
@@ -14737,7 +14891,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "1975-gn586-11184"
   },
   {
@@ -14769,7 +14923,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "1975-gn996-10669"
   },
   {
@@ -15025,7 +15179,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "1979-gn1043-11610"
   },
   {
@@ -16971,7 +17125,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "2002-gn5146-14124"
   },
   {
@@ -17067,7 +17221,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "2003-gn4729-14165"
   },
   {
@@ -17099,7 +17253,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "2003-gn4729-14164"
   },
   {
@@ -17131,7 +17285,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "2003-gn8574-14170"
   },
   {
@@ -17195,7 +17349,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "2003-gn8478-14171"
   },
   {
@@ -17227,7 +17381,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "2004-gn8104-14199"
   },
   {
@@ -17259,7 +17413,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "2004-gn8104-14200"
   },
   {
@@ -17291,7 +17445,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "2004-gn8104-14201"
   },
   {
@@ -17323,7 +17477,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "2004-gn8104-14202"
   },
   {
@@ -17355,7 +17509,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "2004-gn8104-14203"
   },
   {
@@ -17387,7 +17541,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "2004-gn8104-14204"
   },
   {
@@ -17419,7 +17573,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "2004-gn8104-14205"
   },
   {
@@ -17451,7 +17605,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "2004-gn8104-14206"
   },
   {
@@ -17483,7 +17637,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "2004-gn8104-14207"
   },
   {
@@ -17515,7 +17669,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "2004-gn8104-14208"
   },
   {
@@ -17547,7 +17701,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "2004-gn8104-1"
   },
   {
@@ -17579,7 +17733,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "2004-gn8104-2"
   },
   {
@@ -17611,7 +17765,7 @@
     "evidence_level": "gazette",
     "proof_pdf_url": null,
     "submitter_remarks": "",
-    "reviewed_at": "2026-05-30",
+    "reviewed_at": "2026-06-01",
     "submission_id": "2004-gn8428-1"
   },
   {

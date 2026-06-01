@@ -850,7 +850,7 @@ code:10804,10804,HONG KIN ROAD,康健路,Secondary Road,,,,,9
 code:10810,10810,HONG LOK YUEN EIGHTEENTH STREET,康樂園第十八街,Secondary Road,,,,,9
 code:10867,10867,HUNG HOM SOUTH ROAD,紅磡南道,Secondary Road,1989,1989-08-18,,,9
 code:10872,10872,HUNG MUI KUK ROAD,紅梅谷路,Main Road,,,,,9
-code:10889,10889,IVY STREET,埃華街,Secondary Road,,,,,9
+code:10889,10889,IVY STREET,埃華街,Secondary Road,1974,1974-04-26,/egazette/en/1974-gn1078.pdf,,9
 code:10912,10912,JUSTICE DRIVE,正義道,Secondary Road,,,,,9
 code:14344,14344,KAI PAK LING ROAD,雞伯嶺路,Secondary Road,2011,2011-11-11,/egazette/en/2011-15-45-7461.pdf,/egazette/zh/2011-15-45-7461.pdf,9
 code:14102,14102,KAM PO ROAD,錦莆路,Secondary Road,,,,,9
@@ -1308,7 +1308,7 @@ code:10976,10976,KAU YUK ROAD,教育路,Secondary Road,,,,,7
 code:11017,11017,KIN WING STREET,建榮街,Secondary Road,,,,,7
 code:11054,11054,KO SHAN ROAD,高山道,Secondary Road,,,,,7
 code:14488,14488,KO SHEUNG ROAD,高上路,Secondary Road,2020,2020-04-03,https://www.landsd.gov.hk/doc/en/street-name/egazette/2020/egn202024141669.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2020/cgn202024141669.pdf,7
-code:11056,11056,KOK CHEUNG STREET,角祥街,Secondary Road,,,,,7
+code:11056,11056,KOK CHEUNG STREET,角祥街,Secondary Road,1974,1974-04-26,/egazette/en/1974-gn1078.pdf,,7
 code:13764,13764,KONG NGA PO ROAD,缸瓦甫路,Secondary Road,,,,,7
 code:11109,11109,KWAN MUN HAU STREET,關門口街,Secondary Road,,,,,7
 code:13924,13924,LAI CHEUNG ROAD,麗翔道,Secondary Road,,,,,7
@@ -4312,7 +4312,7 @@ code:14220,14220,TAI PO SHUI WO ROAD,大埔水窩路,Secondary Road,,,,,3
 code:12265,12265,TAI PO TAU SHUI WAI ROAD,大埔頭水圍路,Secondary Road,,,,,3
 code:12270,12270,TAI SHING STREET,大成街,Secondary Road,,,,,3
 code:12277,12277,TAI TSOI YUEN ROAD,大菜園路,Track,2011,2011-10-14,/egazette/en/2011-15-41-6773.pdf,/egazette/zh/2011-15-41-6773.pdf,3
-code:12278,12278,TAI TSUN STREET,大全街,Secondary Road,,,,,3
+code:12278,12278,TAI TSUN STREET,大全街,Secondary Road,1974,1974-04-26,/egazette/en/1974-gn1078.pdf,,3
 code:14286,14286,TAI WAI NEW VILLAGE ROAD,大圍新村路,Secondary Road,,,,,3
 code:12296,12296,TAI YUEN STREET,太原街,Secondary Road,1909,1909-03-19,/egazette/en/1909-gn184.pdf,/egazette/zh/1909-gn184.pdf,3
 code:12304,12304,TAK HAU STREET,德厚街,Secondary Road,,,,,3
@@ -5843,7 +5843,7 @@ code:14152,14152,WO MEI HUNG MIN ROAD,窩美紅棉路,Secondary Road,,,,,2
 code:12768,12768,WO SHUI STREET,禾穗街,Secondary Road,,,,,2
 code:12775,12775,WONG CHUK HANG PATH,黃竹坑徑,Secondary Road,1937,1937-09-24,/egazette/en/1937-gn682.pdf,/egazette/zh/1937-gn682.pdf,2
 code:12779,12779,WONG KUK AVENUE,黃菊路,Secondary Road,,,,,2
-code:12785,12785,WONG TAI STREET,旺堤街,Secondary Road,1926,1926-04-16,/egazette/en/1922-gn202.pdf,/egazette/zh/1922-gn202.pdf,2
+code:12785,12785,WONG TAI STREET,旺堤街,Secondary Road,1974,1974-04-26,/egazette/en/1974-gn1078.pdf,,2
 code:12786,12786,WONG YIN STREET,旺賢街,Secondary Road,,,,,2
 code:13642,13642,WU CHEONG STREET,湖昌街,Secondary Road,,,,,2
 code:12794,12794,WU KING ROAD,湖景路,Secondary Road,,,,,2
@@ -10622,7 +10622,7 @@ code:10033,10033,ASH STREET,槐樹街,Secondary Road,1927,1927-11-25,/egazette/e
 code:39590,39590,BAGRIE STREET,白加力街,Secondary Road,,,,,1
 code:39561,39561,BAHANS AVENUE,巴恩大道,Secondary Road,,,,,1
 code:10040,10040,BAKER COURT,必嘉圍,Track,,,,,1
-code:10042,10042,BANK STREET,銀行街,Secondary Road,,,,,1
+code:10042,10042,BANK STREET,銀行街,Secondary Road,1974,1974-07-19,/egazette/en/1974-gn1822.pdf,,1
 code:39264,39264,BANYAN PATH,青榕徑,Secondary Road,,,,,1
 code:10044,10044,BASEL ROAD,巴色道,Secondary Road,,,,,1
 code:10045,10045,BATTERY PATH,炮台里,Track,,,,,1
@@ -11856,7 +11856,7 @@ code:12193,12193,SURREY LANE,舒梨道,Secondary Road,1929,1929-08-23,/egazette/
 code:12196,12196,SWATOW STREET,汕頭街,Secondary Road,,,,,1
 code:12199,12199,SZE CHUEN STREET,四川街,Secondary Road,1935,1935-04-26,/egazette/en/1935-gn334.pdf,/egazette/zh/1935-gn334.pdf,1
 code:12201,12201,SZE PEI SQUARE,四陂坊,Track,,,,,1
-code:12205,12205,TAI CHING STREET,大政街,Secondary Road,,,,,1
+code:12205,12205,TAI CHING STREET,大政街,Secondary Road,1974,1974-04-26,/egazette/en/1974-gn1078.pdf,,1
 code:12212,12212,TAI FUNG STREET,泰豐街,Secondary Road,1935,1935-02-15,/egazette/en/1935-gn124.pdf,/egazette/zh/1935-gn124.pdf,1
 code:12222,12222,TAI HO ROAD NORTH,大河道北,Secondary Road,,,,,1
 code:12230,12230,TAI LEE STREET,泰利街,Secondary Road,,,,,1

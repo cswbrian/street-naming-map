@@ -1,0 +1,26 @@
+{
+  "batch_id": "1974-gn1822",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.1822",
+  "publication_date": "1974-07-19",
+  "gazette_url_en": "/egazette/en/1974-gn1822.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260601T150509Z-3-001/IMG_4665 - Samson C.H. Tam.pdf",
+  "streets": [
+    {
+      "street_code": "10042",
+      "english_name": "BANK STREET",
+      "chinese_name": "銀行街",
+      "history": [
+        {
+          "publication_date": "1974-07-19",
+          "change_kind": "declare",
+          "street_name_en": "Bank Street",
+          "street_name_zh": "銀行街",
+          "gazette_notice_label": "G.N.1822",
+          "government_notice_url_en": "/egazette/en/1974-gn1822.pdf",
+          "evidence_level": "gazette"
+        }
+      ]
+    }
+  ]
+}
