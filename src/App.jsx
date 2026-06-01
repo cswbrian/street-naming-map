@@ -6,6 +6,7 @@ import { LocaleProvider } from './i18n/LocaleContext'
 import { ThemeProvider } from './theme/ThemeContext'
 import LocaleRedirect from './routes/LocaleRedirect'
 import LegacyLocaleRedirect from './routes/LegacyLocaleRedirect'
+import AppFooter from './components/AppFooter'
 import './styles/app.css'
 
 function AppShell() {
@@ -14,7 +15,16 @@ function AppShell() {
 
   return (
     <main className={`app-shell ${isDashboardPage ? 'is-dashboard' : ''}`}>
-      <Outlet />
+      {isDashboardPage ? (
+        <>
+          <div className="app-dashboard-body">
+            <Outlet />
+          </div>
+          <AppFooter />
+        </>
+      ) : (
+        <Outlet />
+      )}
     </main>
   )
 }

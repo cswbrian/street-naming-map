@@ -8,7 +8,24 @@
 }
 
 .app-shell.is-dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow: hidden;
+}
+
+.app-dashboard-body {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
   overflow: auto;
+}
+
+.app-shell.is-dashboard .pending-dashboard {
+  flex: 1;
+  min-height: 0;
 }
 
 .app-top-nav-row {
@@ -285,12 +302,11 @@
 }
 
 @media (min-width: 820px) {
-  .app-shell.is-dashboard {
+  .app-dashboard-body {
     overflow: hidden;
   }
 
   .pending-dashboard {
-    height: calc(100vh - 3.15rem);
     padding: 0.6rem 0.85rem 0.8rem;
     overflow: hidden;
     box-sizing: border-box;
@@ -935,8 +951,66 @@
   max-width: 52rem;
 }
 
+.app-site-footer {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.22rem 0.75rem 0.28rem;
+  border-top: 1px solid var(--sn-border);
+  background: var(--sn-bg);
+}
+
+.app-site-footer-discord {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+  padding: 0.08rem 0.28rem;
+  border-radius: var(--sn-radius);
+  color: var(--sn-text-muted);
+  text-decoration: none;
+}
+
+.app-site-footer-discord-text {
+  font-size: 0.72rem;
+  line-height: 1.15;
+}
+
+.app-site-footer-discord svg {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+
+.app-site-footer-discord:hover {
+  color: var(--sn-text);
+  background: var(--sn-bg-panel);
+}
+
+.app-site-footer-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.65rem;
+  height: 1.65rem;
+  border-radius: var(--sn-radius);
+  color: var(--sn-text-muted);
+  text-decoration: none;
+}
+
+.app-site-footer-icon-link svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.app-site-footer-icon-link:hover {
+  color: var(--sn-text);
+  background: var(--sn-bg-panel);
+}
+
 .about-page {
-  padding: 0.5rem 1rem 2rem;
+  padding: 0.5rem 1rem 1.25rem;
   max-width: 42rem;
   margin: 0 auto;
 }

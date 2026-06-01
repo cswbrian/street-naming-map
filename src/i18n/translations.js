@@ -117,6 +117,9 @@ export const translations = {
     aboutOpenSourceBody:
       '本項目係開源專案，源碼喺 GitHub 公開。你可以 fork、改 bug、加功能，或者一齊執漏。',
     aboutGitHubCta: 'GitHub',
+    footerDiscord: 'Discord',
+    footerDiscordWelcome: '歡迎加入 Discord 頻道',
+    footerGitHub: 'GitHub',
   },
   en: {
     siteTitle: 'HK Street Chronicle',
@@ -236,6 +239,9 @@ export const translations = {
     aboutOpenSourceBody:
       'This project is open source on GitHub. Fork it, fix bugs, add features, or help fill in missing naming dates.',
     aboutGitHubCta: 'GitHub',
+    footerDiscord: 'Discord',
+    footerDiscordWelcome: 'Welcome to the Discord channel',
+    footerGitHub: 'GitHub',
   },
 }
 
