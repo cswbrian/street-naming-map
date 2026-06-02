@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T15:26:33.868Z",
+  "generated_at": "2026-06-02T17:33:42.662Z",
   "counts": {
     "crowd_events_merged": 646,
     "combined_events": 973,
@@ -8,8 +8,8 @@
   },
   "join_stats": {
     "matched_exact_features": 1265,
-    "matched_fallback_features": 3910,
-    "unmatched_features": 34427,
+    "matched_fallback_features": 3908,
+    "unmatched_features": 34429,
     "total_features": 39602
   }
 }

@@ -1,6 +1,29 @@
 import { formatNoticeLabel } from './formatNoticeLabel.js'
-import { buildStreetMatchKeys } from './roadKey.js'
+import { buildRoadKey } from './roadKey.js'
 import { resolveHostedUrl } from './resolveHostedUrl.js'
+
+/** Keys for notice lookup; avoid English-only keys when several streets share the same EN name. */
+export function buildNoticeLookupKeys(row) {
+  const keys = new Set()
+  const details = row?.naming_details
+  if (row?.road_key) keys.add(row.road_key)
+  if (details?.street_key) keys.add(details.street_key)
+  const code = String(row.street_code ?? details?.street_code ?? '').trim()
+  if (code) keys.add(`code:${code}`)
+  const nameKey = buildRoadKey(row.english_name, row.chinese_name, '')
+  if (nameKey?.includes('|')) keys.add(nameKey)
+  return keys
+}
+
+export function buildNoticeResolveKeys({ roadKey, enName, zhName, streetCode }) {
+  const keys = []
+  if (roadKey) keys.push(roadKey)
+  const code = String(streetCode ?? '').trim()
+  if (code) keys.push(`code:${code}`)
+  const nameKey = buildRoadKey(enName, zhName, '')
+  if (nameKey?.includes('|')) keys.push(nameKey)
+  return keys
+}
 
 export function getNoticeLink(namingDetails, locale) {
   if (!namingDetails) return null
@@ -26,13 +49,8 @@ export function buildNoticeLookup(roads = []) {
     const details = row?.naming_details
     if (!details) continue
     if (!details.government_notice_url_en && !details.government_notice_url_zh) continue
-    const keys = new Set([
-      row.road_key,
-      details.street_key,
-      ...buildStreetMatchKeys(row.english_name, row.chinese_name, row.street_code),
-    ])
-    for (const key of keys) {
-      if (key) lookup.set(key, details)
+    for (const key of buildNoticeLookupKeys(row)) {
+      lookup.set(key, details)
     }
   }
   return lookup
@@ -40,8 +58,7 @@ export function buildNoticeLookup(roads = []) {
 
 export function resolveNoticeLink({ roadKey, enName, zhName, streetCode, lookup, locale }) {
   if (!lookup?.size) return null
-  const keys = [roadKey, ...buildStreetMatchKeys(enName, zhName, streetCode)]
-  for (const key of keys) {
+  for (const key of buildNoticeResolveKeys({ roadKey, enName, zhName, streetCode })) {
     if (!key) continue
     const link = getNoticeLink(lookup.get(key), locale)
     if (link) return link

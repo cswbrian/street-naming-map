@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-02T15:26:34.323Z",
+  "generated_at": "2026-06-02T17:33:44.104Z",
   "source_file": "public/data/hk-streets.geojson",
   "totals": {
     "total_segments": 39602,
-    "segments_missing_naming_year": 34427,
+    "segments_missing_naming_year": 34429,
     "unique_roads": 12225,
     "unique_roads_with_street_name": 4579,
-    "unique_roads_with_naming_year": 813,
-    "unique_roads_with_street_name_and_naming_year": 813,
-    "unique_roads_missing_naming_year": 11412,
-    "unique_roads_missing_naming_year_with_street_name": 3766
+    "unique_roads_with_naming_year": 812,
+    "unique_roads_with_street_name_and_naming_year": 812,
+    "unique_roads_missing_naming_year": 11413,
+    "unique_roads_missing_naming_year_with_street_name": 3767
   },
   "roads": [
     {
@@ -85620,46 +85620,10 @@
       "english_name": "LUNG TAK STREET",
       "chinese_name": "龍德街",
       "street_type": "Secondary Road",
-      "naming_year": 1974,
-      "naming_date": "1974-06-25",
-      "naming_source": "crowdsubmitted",
-      "naming_details": {
-        "street_key": "code:11324",
-        "street_code": "11324",
-        "canonical_naming_date": "1974-06-25",
-        "canonical_naming_year": 1974,
-        "current_name_since_date": null,
-        "first_known_naming_date": "1974-06-25",
-        "derivation_reason": "declaration_earliest",
-        "event_count": 1,
-        "name_history": [
-          {
-            "date": "1974-06-25",
-            "change_kind": "declare",
-            "name_en": "Lung Tak Street",
-            "name_zh": "龍德街",
-            "previous_name_en": null,
-            "previous_name_zh": null,
-            "notice_label_en": "G.N.1626",
-            "notice_label_zh": "第1626號",
-            "notice_url_en": "/egazette/en/1974-gn1626.pdf",
-            "notice_url_zh": null,
-            "evidence_level": "gazette",
-            "source": "crowdsubmitted",
-            "submitter_remarks": ""
-          }
-        ],
-        "notice_no": "GN1626",
-        "notice_type": "declaration",
-        "notice_source": "crowdsubmitted",
-        "notice_key": null,
-        "government_notice_label_en": "G.N.1626",
-        "government_notice_label_zh": "第1626號",
-        "government_notice_url_en": "/egazette/en/1974-gn1626.pdf",
-        "government_notice_url_zh": null,
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
-      },
+      "naming_year": null,
+      "naming_date": null,
+      "naming_source": null,
+      "naming_details": null,
       "segment_count": 2
     },
     {
@@ -161769,7 +161733,43 @@
       "naming_year": 1974,
       "naming_date": "1974-06-25",
       "naming_source": "crowdsubmitted",
-      "naming_details": null,
+      "naming_details": {
+        "street_key": "code:11323",
+        "street_code": "11323",
+        "canonical_naming_date": "1974-06-25",
+        "canonical_naming_year": 1974,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1974-06-25",
+        "derivation_reason": "declaration_earliest",
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1974-06-25",
+            "change_kind": "declare",
+            "name_en": "Lung Tak Street",
+            "name_zh": "隆德街",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.1626",
+            "notice_label_zh": "第1626號",
+            "notice_url_en": "/egazette/en/1974-gn1626.pdf",
+            "notice_url_zh": null,
+            "evidence_level": "gazette",
+            "source": "crowdsubmitted",
+            "submitter_remarks": ""
+          }
+        ],
+        "notice_no": "GN1626",
+        "notice_type": "declaration",
+        "notice_source": "crowdsubmitted",
+        "notice_key": null,
+        "government_notice_label_en": "G.N.1626",
+        "government_notice_label_zh": "第1626號",
+        "government_notice_url_en": "/egazette/en/1974-gn1626.pdf",
+        "government_notice_url_zh": null,
+        "related_gazette_plan_url_en": null,
+        "related_gazette_plan_url_zh": null
+      },
       "segment_count": 1
     },
     {
@@ -235648,6 +235648,18 @@
       "street_code": "11318",
       "english_name": "LUNG PAK STREET",
       "chinese_name": "龍柏街",
+      "street_type": "Secondary Road",
+      "naming_year": null,
+      "naming_date": null,
+      "naming_source": null,
+      "naming_details": null,
+      "segment_count": 2
+    },
+    {
+      "road_key": "code:11324",
+      "street_code": "11324",
+      "english_name": "LUNG TAK STREET",
+      "chinese_name": "龍德街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,

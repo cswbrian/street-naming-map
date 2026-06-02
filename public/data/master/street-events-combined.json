@@ -15136,13 +15136,13 @@
     "submission_id": "1974-gn1382-lung-king-hung-hing-10865"
   },
   {
-    "event_id": "crowd|1974-gn1626-11324",
+    "event_id": "crowd|1974-gn1626-11323",
     "source": "crowdsubmitted",
-    "street_code": "11324",
+    "street_code": "11323",
     "publication_date": "1974-06-25",
     "change_kind": null,
     "street_name_en": "Lung Tak Street",
-    "street_name_zh": "龍德街",
+    "street_name_zh": "隆德街",
     "previous_street_name_en": null,
     "previous_street_name_zh": null,
     "district_raw_en": null,
@@ -15165,7 +15165,7 @@
     "proof_pdf_url": null,
     "submitter_remarks": "",
     "reviewed_at": "2026-06-02",
-    "submission_id": "1974-gn1626-11324"
+    "submission_id": "1974-gn1626-11323"
   },
   {
     "event_id": "crowd|1974-gn1739-11366",

@@ -1,6 +1,12 @@
 {
-  "generated_at": "2026-06-02T15:26:33.188Z",
+  "generated_at": "2026-06-02T17:32:39.090Z",
   "streets": [
+    {
+      "street_name_en": "Lung Tak Street",
+      "street_name_zh": "隆德街",
+      "naming_date": "1974-06-25",
+      "approved_at": "2026-06-02"
+    },
     {
       "street_name_en": "Marina Drive",
       "street_name_zh": "遊艇徑",
@@ -112,12 +118,6 @@
     {
       "street_name_en": "Tin Sau Road",
       "street_name_zh": "天秀路",
-      "naming_date": "2000-07-07",
-      "approved_at": "2026-06-02"
-    },
-    {
-      "street_name_en": "Tin Yip Road",
-      "street_name_zh": "天業路",
       "naming_date": "2000-07-07",
       "approved_at": "2026-06-02"
     }
