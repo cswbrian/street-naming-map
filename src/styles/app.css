@@ -2,6 +2,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
+  height: 100dvh;
   overflow: hidden;
   background: var(--sn-bg);
   color: var(--sn-text);
@@ -10,8 +11,9 @@
 .app-shell.is-dashboard {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  min-height: 100dvh;
+  height: 100vh;
+  height: 100dvh;
+  max-height: 100dvh;
   overflow: hidden;
 }
 
@@ -957,7 +959,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.4rem;
-  padding: 0.22rem 0.75rem 0.28rem;
+  padding: 0.22rem 0.75rem max(0.28rem, env(safe-area-inset-bottom, 0px));
   border-top: 1px solid var(--sn-border);
   background: var(--sn-bg);
 }
