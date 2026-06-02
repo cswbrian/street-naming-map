@@ -1,0 +1,25 @@
+{
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.6058",
+  "publication_date": "2000-09-15",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260602T150310Z-3-001/egn200004376058 - Yin Green.pdf",
+  "streets": [
+    {
+      "street_code": "14039",
+      "english_name": "Costa Avenue",
+      "chinese_name": "海堤徑"
+    },
+    {
+      "street_code": "14038",
+      "english_name": "Bijou Drive",
+      "chinese_name": "璧如徑"
+    },
+    {
+      "street_code": "14037",
+      "english_name": "Marina Drive",
+      "chinese_name": "遊艇徑"
+    }
+  ],
+  "gazette_url_en": "/egazette/en/2000-gn6058.pdf",
+  "batch_id": "2000-gn6058"
+}

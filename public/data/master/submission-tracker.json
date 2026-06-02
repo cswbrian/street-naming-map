@@ -1,10 +1,323 @@
 {
-  "generated_at": "2026-06-02T10:13:05.367Z",
+  "generated_at": "2026-06-02T15:26:33.185Z",
   "stats": {
     "submitted": 0,
-    "approved": 0,
+    "approved": 80,
     "rejected": 0,
     "batch_uploads": 0
   },
-  "by_road_key": {}
+  "by_road_key": {
+    "name:Jordan Road|佐敦道": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14199": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14200": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14201": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14202": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14203": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14204": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14205": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14206": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14207": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14208": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "name:|竹篙灣公路": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "name:|欣澳道": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "name:|錦田繞道": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14171": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14124": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14164": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14165": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14170": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:10669": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:11184": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:11610": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:10599": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:10733": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:12181": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:11616": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:12640": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:10481": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:11366": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:11314": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:10865": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:12719": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:11107": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:11707": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:11459": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:11934": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:12870": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:12359": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:11539": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:10295": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:10229": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:10286": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:10262": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:11324": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:10331": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:12961": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:10662": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:11687": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:10603": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:11413": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:10277": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:10614": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:10698": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:11563": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:11736": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:13151": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:13148": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14027": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14028": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14029": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14030": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14022": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14020": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14021": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14024": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14023": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14025": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14026": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14031": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14035": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14034": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14032": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14033": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14036": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:12104": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14039": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14038": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    },
+    "code:14037": {
+      "status": "approved",
+      "approved_at": "2026-06-02"
+    }
+  }
 }

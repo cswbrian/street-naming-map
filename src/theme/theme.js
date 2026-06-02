@@ -43,13 +43,27 @@ export const BASEMAP_TILES = {
 export const MAP_LABEL_COLORS = {
   dark: {
     text: '#f3fbff',
+    year: '#a8b4c0',
     halo: 'rgba(0, 2, 8, 0.98)',
+    haloWidth: 2.75,
+    haloBlur: 0.5,
   },
   light: {
     text: '#1a2332',
+    year: '#5c6573',
     halo: 'rgba(255, 255, 255, 0.95)',
+    haloWidth: 2.5,
+    haloBlur: 0.5,
   },
 }
+
+/** MapLibre glyph stacks (demotiles.maplibre.org); CJK falls through to Regular combo. */
+export const ROAD_LABEL_LAYER_FONT = [
+  'Open Sans Semibold',
+  'Noto Sans Bold',
+  'Noto Sans Regular',
+  'Open Sans Regular,Arial Unicode MS Regular',
+]
 
 export const MAP_BACKGROUND_COLORS = {
   dark: '#121212',
@@ -69,11 +83,12 @@ export const MAP_ROAD_PALETTE = {
       fadeMid: 0.35,
       fadeMax: 0.95,
       dimMultiplier: 0.32,
-      labelUnknown: 0.4,
-      labelFadeMin: 0.05,
-      labelFadeMid: 0.4,
-      labelFadeMax: 0.9,
-      labelDimMultiplier: 0.34,
+      labelUnknown: 0.75,
+      labelFadeMin: 0.55,
+      labelFadeMid: 0.68,
+      labelFadeMax: 0.95,
+      labelDimMultiplier: 0.65,
+      selectedLabelOpacity: 1,
     },
   },
   light: {
@@ -87,11 +102,12 @@ export const MAP_ROAD_PALETTE = {
       fadeMid: 0.62,
       fadeMax: 1,
       dimMultiplier: 0.45,
-      labelUnknown: 0.48,
-      labelFadeMin: 0.35,
-      labelFadeMid: 0.62,
-      labelFadeMax: 0.98,
-      labelDimMultiplier: 0.45,
+      labelUnknown: 0.85,
+      labelFadeMin: 0.72,
+      labelFadeMid: 0.8,
+      labelFadeMax: 1,
+      labelDimMultiplier: 0.65,
+      selectedLabelOpacity: 1,
     },
   },
 }

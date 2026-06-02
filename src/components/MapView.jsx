@@ -7,10 +7,12 @@ import 'maplibre-gl/dist/maplibre-gl.css'
 import { buildRoadFilter, buildRoadKey, filterNamedStreetFeatures, hasStreetName } from '../lib/roadKey'
 import { trackContributeOpen, trackNoticeOpen, trackShareRoad } from '../lib/analytics.js'
 import { translations } from '../i18n/translations'
+import { isMapMobileViewport } from '../lib/mapViewport.js'
 import {
   BASEMAP_TILES,
   MAP_BACKGROUND_COLORS,
   MAP_LABEL_COLORS,
+  ROAD_LABEL_LAYER_FONT,
   buildNamingYearExpr,
   buildRoadLineColorPaint,
   getRoadPalette,
@@ -18,7 +20,27 @@ import {
 
 const SOURCE_ID = 'hk-roads-source'
 const LAYER_ID = 'hk-roads-layer'
+const HIT_LAYER_ID = 'hk-roads-hit'
+const LABEL_MAIN_LAYER_ID = 'hk-roads-labels-main'
 const LABEL_LAYER_ID = 'hk-roads-labels'
+const LABEL_LAYER_IDS = [LABEL_MAIN_LAYER_ID, LABEL_LAYER_ID]
+
+/** Main arterials / tunnels only below ROAD_LABEL_MIN_ZOOM. */
+const MAIN_ROAD_LABEL_FILTER = [
+  'match',
+  ['get', 'STREETTYPE'],
+  'Highway',
+  true,
+  'Main Road',
+  true,
+  'Tunnel',
+  true,
+  false,
+]
+
+const MAIN_ROAD_LABEL_MIN_ZOOM = 12
+const ROAD_LABEL_MIN_ZOOM = 14
+const ROAD_LABEL_BILINGUAL_ZOOM = 14.5
 const HIGHLIGHT_GLOW_LAYER_ID = 'hk-road-highlight-glow'
 const HIGHLIGHT_CORE_LAYER_ID = 'hk-road-highlight-core'
 const FOCUS_SOURCE_ID = 'focus-area-source'
@@ -156,23 +178,217 @@ const buildSelectedRoadChipHtml = (selectedRoadInfo, locale) => {
   `
 }
 
-const buildRoadLabelTextField = (unknownYearLabel) => {
+/** Invisible line width used for tap / click hit testing (screen pixels). */
+const ROAD_HIT_LINE_WIDTH = [
+  'interpolate',
+  ['linear'],
+  ['zoom'],
+  9,
+  14,
+  14,
+  28,
+]
+
+const distancePointToSegmentSquared = (px, py, x1, y1, x2, y2) => {
+  const dx = x2 - x1
+  const dy = y2 - y1
+  if (dx === 0 && dy === 0) {
+    const ox = px - x1
+    const oy = py - y1
+    return ox * ox + oy * oy
+  }
+  const t = Math.max(0, Math.min(1, ((px - x1) * dx + (py - y1) * dy) / (dx * dx + dy * dy)))
+  const projX = x1 + t * dx
+  const projY = y1 + t * dy
+  const ox = px - projX
+  const oy = py - projY
+  return ox * ox + oy * oy
+}
+
+const distancePointToLineGeometry = (map, point, geometry) => {
+  const coordsList =
+    geometry?.type === 'LineString'
+      ? [geometry.coordinates]
+      : geometry?.type === 'MultiLineString'
+        ? geometry.coordinates
+        : []
+
+  let minDistSq = Infinity
+  for (const coords of coordsList) {
+    if (!Array.isArray(coords) || coords.length < 2) continue
+    for (let i = 0; i < coords.length - 1; i += 1) {
+      const a = map.project(coords[i])
+      const b = map.project(coords[i + 1])
+      const distSq = distancePointToSegmentSquared(point.x, point.y, a.x, a.y, b.x, b.y)
+      if (distSq < minDistSq) minDistSq = distSq
+    }
+  }
+  return minDistSq
+}
+
+const pickClosestRoadFeature = (map, point, features) => {
+  let best = null
+  let bestDistSq = Infinity
+
+  for (const feature of features) {
+    const enName = String(feature.properties?.ENGLISHSTREETNAME ?? '').trim()
+    const zhName = String(feature.properties?.CHINESESTREETNAME ?? '').trim()
+    if (!hasStreetName(enName, zhName)) continue
+
+    const distSq = distancePointToLineGeometry(map, point, feature.geometry)
+    if (distSq < bestDistSq) {
+      bestDistSq = distSq
+      best = feature
+    }
+  }
+
+  return best
+}
+
+const emitRoadPickFromFeature = (feature, lngLat, onRoadPick) => {
+  const enName = String(feature.properties?.ENGLISHSTREETNAME ?? '').trim()
+  const zhName = String(feature.properties?.CHINESESTREETNAME ?? '').trim()
+  if (!hasStreetName(enName, zhName)) return
+  const streetCode = String(feature.properties?.STREETCODE ?? '').trim()
+  const key = buildRoadKey(enName, zhName, streetCode)
+  if (!key) return
+  const year = Number(feature.properties?.naming_year)
+  const namingDate = String(feature.properties?.naming_date ?? '').trim()
+  const streetType = String(feature.properties?.STREETTYPE ?? '').trim()
+  const namingSource = String(feature.properties?.naming_source ?? '').trim()
+  onRoadPick?.({
+    key,
+    center: [lngLat.lng, lngLat.lat],
+    year: Number.isFinite(year) ? year : null,
+    namingDate: namingDate || null,
+    enName,
+    zhName,
+    streetCode: streetCode || null,
+    streetType: streetType || null,
+    namingSource: namingSource || null,
+  })
+}
+
+const buildPrimaryStreetNameExpr = (locale) =>
+  locale === 'zh'
+    ? ['coalesce', ['get', 'CHINESESTREETNAME'], ['get', 'ENGLISHSTREETNAME'], '']
+    : ['coalesce', ['get', 'ENGLISHSTREETNAME'], ['get', 'CHINESESTREETNAME'], '']
+
+const buildSecondaryStreetNameExpr = (locale) =>
+  locale === 'zh'
+    ? ['coalesce', ['get', 'ENGLISHSTREETNAME'], '']
+    : ['coalesce', ['get', 'CHINESESTREETNAME'], '']
+
+const LABEL_FONT_PRIMARY = [
+  'literal',
+  [
+    'Open Sans Semibold',
+    'Noto Sans Bold',
+    'Noto Sans Regular',
+    'Open Sans Regular,Arial Unicode MS Regular',
+  ],
+]
+
+const LABEL_FONT_REGULAR = [
+  'literal',
+  ['Noto Sans Regular', 'Open Sans Regular', 'Open Sans Regular,Arial Unicode MS Regular'],
+]
+
+const getLabelYearColor = (mapTheme) => (MAP_LABEL_COLORS[mapTheme] ?? MAP_LABEL_COLORS.dark).year
+
+const primaryLabelStyle = () => ({ 'font-scale': 1.12, 'text-font': LABEL_FONT_PRIMARY })
+
+const secondaryLabelStyle = () => ({ 'font-scale': 0.92, 'text-font': LABEL_FONT_REGULAR })
+
+const yearLabelStyle = (yearColor) => ({
+  'font-scale': 0.76,
+  'text-font': LABEL_FONT_REGULAR,
+  'text-color': yearColor,
+})
+
+const buildNamingYearDisplayExpr = (unknownYearLabel) => {
   const namingYear = buildNamingYearExpr()
-  return [
+  return ['case', ['==', namingYear, -1], unknownYearLabel, ['to-string', ['get', 'naming_year']]]
+}
+
+const buildYearParentheticalFormat = (unknownYearLabel, yearColor) => [
+  ' (',
+  yearLabelStyle(yearColor),
+  buildNamingYearDisplayExpr(unknownYearLabel),
+  yearLabelStyle(yearColor),
+  ')',
+  yearLabelStyle(yearColor),
+]
+
+const buildPrimaryRoadLabelExpr = (locale, unknownYearLabel, yearColor) => [
   'format',
-  ['coalesce', ['get', 'CHINESESTREETNAME'], ''],
-  { 'font-scale': 1.05 },
+  buildPrimaryStreetNameExpr(locale),
+  primaryLabelStyle(),
+  ...buildYearParentheticalFormat(unknownYearLabel, yearColor),
+]
+
+const buildBilingualRoadLabelExpr = (locale, unknownYearLabel, yearColor) => [
+  'format',
+  buildPrimaryStreetNameExpr(locale),
+  primaryLabelStyle(),
   '\n',
   {},
-  ['coalesce', ['get', 'ENGLISHSTREETNAME'], ''],
-  { 'font-scale': 0.85 },
-  ' (',
-  { 'font-scale': 0.78 },
-  ['case', ['==', namingYear, -1], unknownYearLabel, ['to-string', ['get', 'naming_year']]],
-  { 'font-scale': 0.78 },
-  ')',
-  { 'font-scale': 0.78 },
+  buildSecondaryStreetNameExpr(locale),
+  secondaryLabelStyle(),
+  ...buildYearParentheticalFormat(unknownYearLabel, yearColor),
 ]
+
+const buildRoadLabelTextField = (locale, unknownYearLabel, mapTheme) => {
+  const yearColor = getLabelYearColor(mapTheme)
+  return [
+    'step',
+    ['zoom'],
+    buildPrimaryRoadLabelExpr(locale, unknownYearLabel, yearColor),
+    ROAD_LABEL_BILINGUAL_ZOOM,
+    buildBilingualRoadLabelExpr(locale, unknownYearLabel, yearColor),
+  ]
+}
+
+const ROAD_LABEL_TEXT_SIZE = {
+  desktop: ['interpolate', ['linear'], ['zoom'], 12, 12, 15, 16, 17, 17],
+  mobile: ['interpolate', ['linear'], ['zoom'], 12, 13, 15, 17, 17, 18],
+}
+
+const buildLabelLayerPaint = (mapTheme) => {
+  const labelColors = MAP_LABEL_COLORS[mapTheme] ?? MAP_LABEL_COLORS.dark
+  return {
+    'text-color': labelColors.text,
+    'text-halo-color': labelColors.halo,
+    'text-halo-width': labelColors.haloWidth ?? 2.5,
+    'text-halo-blur': labelColors.haloBlur ?? 0.5,
+    'text-opacity': 0,
+    'text-opacity-transition': { duration: 700, delay: 0 },
+  }
+}
+
+const buildLabelLayerLayout = (locale, unknownYearLabel, mapTheme, textSize) => ({
+  'symbol-placement': 'line',
+  'text-field': buildRoadLabelTextField(locale, unknownYearLabel, mapTheme),
+  'text-font': ROAD_LABEL_LAYER_FONT,
+  'text-size': textSize,
+  'symbol-spacing': 380,
+  'text-max-width': 14,
+  'text-allow-overlap': false,
+})
+
+const applyLabelTypography = (map, mapTheme, mobile = isMapMobileViewport()) => {
+  const labelColors = MAP_LABEL_COLORS[mapTheme] ?? MAP_LABEL_COLORS.dark
+  const textSize = mobile ? ROAD_LABEL_TEXT_SIZE.mobile : ROAD_LABEL_TEXT_SIZE.desktop
+
+  for (const layerId of LABEL_LAYER_IDS) {
+    if (!map.getLayer(layerId)) continue
+    map.setPaintProperty(layerId, 'text-color', labelColors.text)
+    map.setPaintProperty(layerId, 'text-halo-color', labelColors.halo)
+    map.setPaintProperty(layerId, 'text-halo-width', labelColors.haloWidth ?? 2.5)
+    map.setPaintProperty(layerId, 'text-halo-blur', labelColors.haloBlur ?? 0.5)
+    map.setLayoutProperty(layerId, 'text-font', ROAD_LABEL_LAYER_FONT)
+    map.setLayoutProperty(layerId, 'text-size', textSize)
+  }
 }
 
 const buildBasemapStyle = (theme) => ({
@@ -223,11 +439,7 @@ const applyRoadTheme = (map, theme) => {
     )
   }
 
-  const labelColors = MAP_LABEL_COLORS[theme] ?? MAP_LABEL_COLORS.dark
-  if (map.getLayer(LABEL_LAYER_ID)) {
-    map.setPaintProperty(LABEL_LAYER_ID, 'text-color', labelColors.text)
-    map.setPaintProperty(LABEL_LAYER_ID, 'text-halo-color', labelColors.halo)
-  }
+  applyLabelTypography(map, theme)
 
   const palette = getRoadPalette(theme)
   if (map.getLayer(LAYER_ID)) {
@@ -296,6 +508,7 @@ function MapView({
   const applyMapState = (map, year, group, roadKey, mapTheme = 'light') => {
     if (
       !map.getLayer(LAYER_ID) ||
+      !map.getLayer(LABEL_MAIN_LAYER_ID) ||
       !map.getLayer(LABEL_LAYER_ID) ||
       !map.getLayer(HIGHLIGHT_GLOW_LAYER_ID) ||
       !map.getLayer(HIGHLIGHT_CORE_LAYER_ID)
@@ -324,7 +537,8 @@ function MapView({
     const combinedFilter = groupFilter ? ['all', timeFilter, groupFilter] : timeFilter
 
     map.setFilter(LAYER_ID, combinedFilter)
-    map.setFilter(LABEL_LAYER_ID, combinedFilter)
+    map.setFilter(LABEL_MAIN_LAYER_ID, ['all', combinedFilter, MAIN_ROAD_LABEL_FILTER])
+    map.setFilter(LABEL_LAYER_ID, ['all', combinedFilter, ['!', MAIN_ROAD_LABEL_FILTER]])
 
     const roadFilter = buildRoadFilter(roadKey)
     map.setFilter(HIGHLIGHT_GLOW_LAYER_ID, roadFilter)
@@ -370,13 +584,18 @@ function MapView({
       ],
     ]
 
-    map.setPaintProperty(
-      LABEL_LAYER_ID,
-      'text-opacity',
-      roadKey
-        ? ['case', roadFilter, 0.1, ['*', baseLabelOpacity, opacity.labelDimMultiplier]]
-        : baseLabelOpacity,
-    )
+    const labelOpacity = roadKey
+      ? [
+          'case',
+          roadFilter,
+          opacity.selectedLabelOpacity ?? 1,
+          ['*', baseLabelOpacity, opacity.labelDimMultiplier],
+        ]
+      : baseLabelOpacity
+
+    for (const layerId of LABEL_LAYER_IDS) {
+      map.setPaintProperty(layerId, 'text-opacity', labelOpacity)
+    }
   }
 
   useEffect(() => {
@@ -423,7 +642,7 @@ function MapView({
         type: 'line',
         source: SOURCE_ID,
         layout: {
-          'line-cap': 'round',
+          'line-cap': 'butt',
           'line-join': 'round',
         },
         paint: {
@@ -476,26 +695,26 @@ function MapView({
         },
       })
 
+      const unknownYearLabel = getUnknownYearLabel(locale)
+      const labelLayout = buildLabelLayerLayout(locale, unknownYearLabel, theme, ROAD_LABEL_TEXT_SIZE.desktop)
+      const labelPaint = buildLabelLayerPaint(theme)
+
+      map.addLayer({
+        id: LABEL_MAIN_LAYER_ID,
+        type: 'symbol',
+        source: SOURCE_ID,
+        minzoom: MAIN_ROAD_LABEL_MIN_ZOOM,
+        layout: labelLayout,
+        paint: labelPaint,
+      })
+
       map.addLayer({
         id: LABEL_LAYER_ID,
         type: 'symbol',
         source: SOURCE_ID,
-        layout: {
-          'symbol-placement': 'line',
-          'text-field': buildRoadLabelTextField(getUnknownYearLabel(locale)),
-          'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
-          'text-size': ['interpolate', ['linear'], ['zoom'], 10, 10, 14, 13],
-          'symbol-spacing': 380,
-          'text-max-width': 14,
-          'text-allow-overlap': false,
-        },
-        paint: {
-          'text-color': (MAP_LABEL_COLORS[theme] ?? MAP_LABEL_COLORS.dark).text,
-          'text-halo-color': (MAP_LABEL_COLORS[theme] ?? MAP_LABEL_COLORS.dark).halo,
-          'text-halo-width': 1.5,
-          'text-opacity': 0,
-          'text-opacity-transition': { duration: 700, delay: 0 },
-        },
+        minzoom: ROAD_LABEL_MIN_ZOOM,
+        layout: labelLayout,
+        paint: labelPaint,
       })
 
       map.addLayer({
@@ -549,38 +768,36 @@ function MapView({
         },
       })
 
-      map.on('mouseenter', LAYER_ID, () => {
-        map.getCanvas().style.cursor = 'pointer'
-      })
-      map.on('mouseleave', LAYER_ID, () => {
-        map.getCanvas().style.cursor = ''
-      })
-      map.on('click', LAYER_ID, (event) => {
-        const feature = event.features?.[0]
-        if (!feature) return
-        const enName = String(feature.properties?.ENGLISHSTREETNAME ?? '').trim()
-        const zhName = String(feature.properties?.CHINESESTREETNAME ?? '').trim()
-        if (!hasStreetName(enName, zhName)) return
-        const streetCode = String(feature.properties?.STREETCODE ?? '').trim()
-        const key = buildRoadKey(enName, zhName, streetCode)
-        if (!key) return
-        const year = Number(feature.properties?.naming_year)
-        const namingDate = String(feature.properties?.naming_date ?? '').trim()
-        const streetType = String(feature.properties?.STREETTYPE ?? '').trim()
-        const namingSource = String(feature.properties?.naming_source ?? '').trim()
-        onRoadPick?.({
-          key,
-          center: [event.lngLat.lng, event.lngLat.lat],
-          year: Number.isFinite(year) ? year : null,
-          namingDate: namingDate || null,
-          enName,
-          zhName,
-          streetCode: streetCode || null,
-          streetType: streetType || null,
-          namingSource: namingSource || null,
-        })
+      map.addLayer({
+        id: HIT_LAYER_ID,
+        type: 'line',
+        source: SOURCE_ID,
+        layout: {
+          'line-cap': 'round',
+          'line-join': 'round',
+        },
+        paint: {
+          'line-color': '#000000',
+          'line-width': ROAD_HIT_LINE_WIDTH,
+          'line-opacity': 0,
+        },
       })
 
+      map.on('mouseenter', HIT_LAYER_ID, () => {
+        map.getCanvas().style.cursor = 'pointer'
+      })
+      map.on('mouseleave', HIT_LAYER_ID, () => {
+        map.getCanvas().style.cursor = ''
+      })
+      map.on('click', HIT_LAYER_ID, (event) => {
+        const candidates = event.features ?? []
+        if (!candidates.length) return
+        const feature = pickClosestRoadFeature(map, event.point, candidates)
+        if (!feature) return
+        emitRoadPickFromFeature(feature, event.lngLat, onRoadPick)
+      })
+
+      applyLabelTypography(map, theme)
       applyMapState(map, selectedYear, activeGroup, selectedRoadKey, theme)
       onMapReady?.()
     })
@@ -621,12 +838,23 @@ function MapView({
   useEffect(() => {
     const map = mapRef.current
     if (!map?.getLayer(LABEL_LAYER_ID)) return
-    map.setLayoutProperty(
-      LABEL_LAYER_ID,
-      'text-field',
-      buildRoadLabelTextField(getUnknownYearLabel(locale)),
-    )
-  }, [locale])
+    const textField = buildRoadLabelTextField(locale, getUnknownYearLabel(locale), theme)
+    for (const layerId of LABEL_LAYER_IDS) {
+      map.setLayoutProperty(layerId, 'text-field', textField)
+    }
+  }, [locale, theme])
+
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map?.getLayer(LABEL_MAIN_LAYER_ID)) return undefined
+
+    const syncLabelTypography = () => applyLabelTypography(map, theme)
+    syncLabelTypography()
+
+    const media = window.matchMedia('(max-width: 820px)')
+    media.addEventListener('change', syncLabelTypography)
+    return () => media.removeEventListener('change', syncLabelTypography)
+  }, [theme])
 
   useEffect(() => {
     const map = mapRef.current
