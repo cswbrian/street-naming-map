@@ -1,6 +1,6 @@
 import { parseRoadKey } from './roadKey.js'
 
-export const ROAD_URL_PARAMS = ['en', 'code', 'year']
+export const ROAD_URL_PARAMS = ['en', 'zh', 'code', 'year']
 
 export function buildRoadSearchParams({ roadKey, year }) {
   const params = new URLSearchParams()
@@ -9,6 +9,7 @@ export function buildRoadSearchParams({ roadKey, year }) {
     params.set('code', parsed.streetCode)
   } else if (parsed.type === 'name') {
     if (parsed.enName) params.set('en', parsed.enName)
+    if (parsed.zhName) params.set('zh', parsed.zhName)
   }
   if (Number.isFinite(year) && year > 0) {
     params.set('year', String(year))

@@ -387,9 +387,10 @@ function MapPage() {
   useEffect(() => {
     let isMounted = true
     const en = searchParams.get('en')
+    const zh = searchParams.get('zh')
     const code = searchParams.get('code')
     const yearParam = searchParams.get('year')
-    const hasDeepLink = Boolean(en || code)
+    const hasDeepLink = Boolean(en || zh || code)
 
     const loadRoadIndex = async () => {
       try {
@@ -499,7 +500,7 @@ function MapPage() {
 
         if (hasDeepLink) {
           const namingYear = Number(yearParam)
-          const matched = code ? resolveRoadFromCode(roads, code) : resolveRoadFromNames(roads, en, '')
+          const matched = code ? resolveRoadFromCode(roads, code) : resolveRoadFromNames(roads, en, zh)
           if (matched) {
             setActiveRoadId(matched.id)
             setSelectedRoadKey(matched.id)
@@ -515,7 +516,7 @@ function MapPage() {
             setSelectedRoadKey(null)
             setClickedRoadCenter(null)
             setPickedRoadMeta(null)
-            setRoadSearch(normalizeRoadName(en) || '-')
+            setRoadSearch(normalizeRoadName(en) || normalizeRoadName(zh) || '-')
             if (Number.isFinite(namingYear)) {
               setSelectedYear((prev) => Math.max(prev, namingYear))
             }
