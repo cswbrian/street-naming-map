@@ -1,7 +1,15 @@
 {
   "street_keys": [
     "Gascoigne Road Flyover|加士居道天橋",
-    "Gascoigne Road Fylover|加士居道天橋"
+    "Gascoigne Road Fylover|加士居道天橋",
+    "Lok Wo Sha Lane|落禾沙里",
+    "Ping Ha Road|屏廈路",
+    "Ko On Lane|高安里",
+    "Ching Yau Road|清攸路",
+    "Tsing Ying Road|青盈路",
+    "Mcgregor Street|麥加力歌街",
+    "Sha Ha Path|沙下徑",
+    "Choi Hung Interchange|彩虹交匯處"
   ],
   "street_codes": [
     "11897",
@@ -15,7 +23,15 @@
     "14296",
     "14308",
     "14171",
-    "12751"
+    "12751",
+    "11270",
+    "11704",
+    "14309",
+    "14375",
+    "14378",
+    "11408",
+    "14414",
+    "14415"
   ],
   "event_ids": [
     "2009-03-06|GN1502|1",
@@ -186,7 +202,15 @@
     "crowd|2009-gn7995-hkplace-extensions-10332-2008-05-09",
     "crowd|2010-gn4562-choi-hing-wing-14296-2007-11-09",
     "crowd|2010-gn4562-choi-hing-wing-14308-2008-07-11",
-    "crowd|2003-gn8478-14171"
+    "crowd|2003-gn8478-14171",
+    "2013-03-01|GN1160|0",
+    "2013-05-10|GN2720|0",
+    "2008-08-29|GN6059|0",
+    "2013-02-08|GN747|0",
+    "2013-03-01|GN1161|0",
+    "2014-07-25|GN4345|0",
+    "2016-05-27|GN3021|0",
+    "2016-07-08|GN3863|0"
   ],
   "notes": {
     "11324": "龍德街 — G.N.1626 names 隆德街 (code 11323); wrongly matched via shared English name LUNG TAK STREET.",
@@ -357,6 +381,22 @@
     "2010-11-19|GN7264|0": "龍康街 — G.N.7264 (2010-11-19) replaces description only; first Previous G.N. is G.N.5851 (2001-09-21).",
     "2015-01-30|GN1456|0": "林村鄉公所路 — G.N.1456 (2015-01-30) replaces description only; first Previous G.N. is G.N.2894 (2008-05-02).",
     "_hkplace_news_removed_2026_06_04": "One-time removal: hk-place / news crowd rows (no news category in app); re-add via gazette pipeline only.",
-    "code:12751": "榮業街 (12751) — remove naming; same English name as 永業街 (12752) caused erroneous G.N.1023 fallback match."
+    "code:12751": "榮業街 (12751) — remove naming; same English name as 永業街 (12752) caused erroneous G.N.1023 fallback match.",
+    "11270": "落禾沙里 — eGazette event has no STREETCODE; map date removed until crowd-verified link.",
+    "11704": "屏廈路 — eGazette event has no STREETCODE; map date removed until crowd-verified link.",
+    "14309": "高安里 — eGazette event has no STREETCODE; map date removed until crowd-verified link.",
+    "14375": "清攸路 — eGazette event has no STREETCODE; map date removed until crowd-verified link.",
+    "14378": "青盈路 — eGazette event has no STREETCODE; map date removed until crowd-verified link.",
+    "11408": "麥加力歌街 — eGazette event has no STREETCODE; map date removed until crowd-verified link.",
+    "14414": "沙下徑 — eGazette event has no STREETCODE; map date removed until crowd-verified link.",
+    "14415": "彩虹交匯處 — eGazette event has no STREETCODE; map date removed until crowd-verified link.",
+    "2013-03-01|GN1160|0": "Lok Wo Sha Lane — name-only egazette row; excluded with code 11270.",
+    "2013-05-10|GN2720|0": "Ping Ha Road — name-only egazette row; excluded with code 11704.",
+    "2008-08-29|GN6059|0": "Ko On Lane — name-only egazette row; excluded with code 14309.",
+    "2013-02-08|GN747|0": "Ching Yau Road — name-only egazette row; excluded with code 14375.",
+    "2013-03-01|GN1161|0": "Tsing Ying Road — name-only egazette row; excluded with code 14378.",
+    "2014-07-25|GN4345|0": "McGregor Street — name-only egazette row; excluded with code 11408.",
+    "2016-05-27|GN3021|0": "Sha Ha Path — name-only egazette row; excluded with code 14414.",
+    "2016-07-08|GN3863|0": "Choi Hung Interchange — name-only egazette row; excluded with code 14415."
   }
 }
