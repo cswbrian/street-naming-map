@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-03T16:50:22.564Z",
+  "generated_at": "2026-06-03T18:03:10.490Z",
   "stats": {
     "submitted": 0,
-    "approved": 79,
+    "approved": 78,
     "rejected": 0,
     "batch_uploads": 0
   },
   "by_road_key": {
-    "name:Jordan Road|佐敦道": {
+    "code:10904": {
       "status": "approved",
       "approved_at": "2026-06-03"
     },
@@ -51,19 +51,7 @@
       "status": "approved",
       "approved_at": "2026-06-03"
     },
-    "name:|竹篙灣公路": {
-      "status": "approved",
-      "approved_at": "2026-06-03"
-    },
-    "name:|欣澳道": {
-      "status": "approved",
-      "approved_at": "2026-06-03"
-    },
-    "name:|錦田繞道": {
-      "status": "approved",
-      "approved_at": "2026-06-03"
-    },
-    "code:14171": {
+    "code:14209": {
       "status": "approved",
       "approved_at": "2026-06-03"
     },

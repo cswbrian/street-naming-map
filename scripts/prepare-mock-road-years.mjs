@@ -16,7 +16,7 @@ const projectRoot = path.resolve(__dirname, '..')
 
 const SOURCE_PATH = path.join(
   projectRoot,
-  'Transportation_RoadCentreline_20260402.gdb_converted.geojson',
+  'Transportation_RoadCentreline_20260601.gdb_converted.geojson',
 )
 const OUTPUT_PATH = path.join(projectRoot, 'public', 'data', 'hk-streets.geojson')
 const MASTER_OUTPUT_DIR = path.join(projectRoot, 'public', 'data', 'master')

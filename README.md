@@ -19,7 +19,7 @@ Interactive React PWA that visualizes the history of Hong Kong street developmen
 
 ## Data
 
-- Source road geometry: `Transportation_RoadCentreline_20260402.gdb_converted.geojson`
+- Source road geometry: `Transportation_RoadCentreline_20260601.gdb_converted.geojson` (LandsD Road Centreline via [CSDI metadata](https://portal.csdi.gov.hk/csdi-webpage/metadata/landsd_rcd_1637310758814_80061); dataset dated 2026-06-01)
 - LandsD source pages (2016+):
   - `https://www.landsd.gov.hk/en/survey-mapping/mapping/street-geographical-place-naming/street-naming.html`
   - `https://www.landsd.gov.hk/tc/survey-mapping/mapping/street-geographical-place-naming/street-naming.html`
