@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useMemo } from 'react'
+import { createContext, useCallback, useContext, useEffect, useMemo } from 'react'
 import { Navigate, useLocation, useNavigate, useParams } from 'react-router-dom'
 import {
   createTranslator,
@@ -35,16 +35,23 @@ export function LocaleProvider({ children }) {
     document.documentElement.lang = locale === 'zh' ? 'zh-HK' : 'en'
   }, [locale])
 
-  const setLocale = (nextLocale) => {
-    if (!isLocale(nextLocale) || nextLocale === locale) return
-    trackLocaleChange(nextLocale)
-    navigate(
-      { pathname: localePathForSuffix(nextLocale, routeSuffix), search: location.search },
-      { replace: true },
-    )
-  }
+  const setLocale = useCallback(
+    (nextLocale) => {
+      if (!isLocale(nextLocale) || nextLocale === locale) return
+      trackLocaleChange(nextLocale)
+      const suffix = getRouteSuffixFromPath(location.pathname)
+      navigate(
+        { pathname: localePathForSuffix(nextLocale, suffix), search: location.search },
+        { replace: true },
+      )
+    },
+    [locale, location.pathname, location.search, navigate],
+  )
 
-  const toggleLocale = () => setLocale(locale === 'zh' ? 'en' : 'zh')
+  const toggleLocale = useCallback(
+    () => setLocale(locale === 'zh' ? 'en' : 'zh'),
+    [locale, setLocale],
+  )
 
   const value = useMemo(
     () => ({
@@ -54,7 +61,7 @@ export function LocaleProvider({ children }) {
       toggleLocale,
       formatStreetName: formatBilingualStreetName,
     }),
-    [locale, t],
+    [locale, t, setLocale, toggleLocale],
   )
 
   return (
