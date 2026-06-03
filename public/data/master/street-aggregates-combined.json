@@ -245,7 +245,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1905-gn158-10599"
       },
       {
@@ -2063,7 +2063,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1"
       }
     ],
@@ -28435,7 +28435,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1975-gn351-10698"
       }
     ],
@@ -28813,7 +28813,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn1377-10331"
       }
     ],
@@ -28876,7 +28876,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn1379-10733"
       }
     ],
@@ -28939,7 +28939,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "G.N.1380 lists three Chai Wan thoroughfares; item 1 is also labelled 柴灣道 / Chai Wan Road (existing main road) — omitted from apply pending confirmation.",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn1380-12181"
       }
     ],
@@ -29002,71 +29002,8 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "G.N.1380 lists three Chai Wan thoroughfares; item 1 is also labelled 柴灣道 / Chai Wan Road (existing main road) — omitted from apply pending confirmation.",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn1380-11616"
-      }
-    ],
-    "event_count": 1
-  },
-  {
-    "street_key": "code:12961",
-    "street_code": "12961",
-    "street_name_en": "Yi Lok Street",
-    "street_name_zh": "怡樂街",
-    "canonical_naming_date": "1974-05-31",
-    "canonical_naming_year": 1974,
-    "current_name_since_date": null,
-    "first_known_naming_date": "1974-05-31",
-    "derivation_reason": "declaration_earliest",
-    "name_history": [
-      {
-        "date": "1974-05-31",
-        "change_kind": "declare",
-        "name_en": "Yi Lok Street",
-        "name_zh": "怡樂街",
-        "previous_name_en": null,
-        "previous_name_zh": null,
-        "notice_label_en": "G.N.1381",
-        "notice_label_zh": "第1381號",
-        "notice_url_en": "/egazette/en/1974-gn1381.pdf",
-        "notice_url_zh": null,
-        "evidence_level": "gazette",
-        "source": "crowdsubmitted",
-        "submitter_remarks": ""
-      }
-    ],
-    "event_history": [
-      {
-        "event_id": "crowd|1974-gn1381-12961",
-        "source": "crowdsubmitted",
-        "street_code": "12961",
-        "publication_date": "1974-05-31",
-        "change_kind": null,
-        "street_name_en": "Yi Lok Street",
-        "street_name_zh": "怡樂街",
-        "previous_street_name_en": null,
-        "previous_street_name_zh": null,
-        "district_raw_en": null,
-        "district_raw_zh": null,
-        "notice_type_raw_en": "Declaration of street name (crowdsource)",
-        "notice_type_raw_zh": "街道命名（眾包）",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN1381",
-        "government_notice_label_en": "G.N.1381",
-        "government_notice_label_zh": "第1381號",
-        "government_notice_url_en": "/egazette/en/1974-gn1381.pdf",
-        "government_notice_url_zh": null,
-        "related_gazette_plan_urls_en": [],
-        "related_gazette_plan_urls_zh": [],
-        "related_gazette_plan_labels_en": [],
-        "related_gazette_plan_labels_zh": [],
-        "year_bucket": 1974,
-        "is_declaration_event": true,
-        "evidence_level": "gazette",
-        "proof_pdf_url": null,
-        "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
-        "submission_id": "1974-gn1381-12961"
       }
     ],
     "event_count": 1
@@ -29128,7 +29065,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn1381-10662"
       }
     ],
@@ -29191,7 +29128,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn1381-11687"
       }
     ],
@@ -29254,7 +29191,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn1381-10603"
       }
     ],
@@ -29317,7 +29254,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "運盛街 appears at top of scan (continuation from preceding gazette page); G.N. inferred as 1382 from date and adjacent notices on same gazette run.",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn1382-12640"
       }
     ],
@@ -29380,7 +29317,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn1382-fenwick-pier-10481"
       }
     ],
@@ -29443,7 +29380,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn1382-lung-king-hung-hing-11314"
       }
     ],
@@ -29506,7 +29443,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn1382-lung-king-hung-hing-10865"
       }
     ],
@@ -29569,7 +29506,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn1626-11323"
       }
     ],
@@ -29632,7 +29569,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn1739-11366"
       }
     ],
@@ -29759,7 +29696,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn1982-12719"
       }
     ],
@@ -29934,7 +29871,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn2352-11107"
       }
     ],
@@ -29997,7 +29934,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn2352-11707"
       }
     ],
@@ -30060,7 +29997,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn2524-11459"
       }
     ],
@@ -30123,7 +30060,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn2572-11934"
       }
     ],
@@ -30186,7 +30123,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn2948-12870"
       }
     ],
@@ -30249,71 +30186,8 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn3036-12359"
-      }
-    ],
-    "event_count": 1
-  },
-  {
-    "street_key": "code:11539",
-    "street_code": "11539",
-    "street_name_en": "Ngoi Man Street",
-    "street_name_zh": "愛民街",
-    "canonical_naming_date": "1974-11-29",
-    "canonical_naming_year": 1974,
-    "current_name_since_date": null,
-    "first_known_naming_date": "1974-11-29",
-    "derivation_reason": "declaration_earliest",
-    "name_history": [
-      {
-        "date": "1974-11-29",
-        "change_kind": "declare",
-        "name_en": "Ngoi Man Street",
-        "name_zh": "愛民街",
-        "previous_name_en": null,
-        "previous_name_zh": null,
-        "notice_label_en": "G.N.3037",
-        "notice_label_zh": "第3037號",
-        "notice_url_en": "/egazette/en/1974-gn3037.pdf",
-        "notice_url_zh": null,
-        "evidence_level": "gazette",
-        "source": "crowdsubmitted",
-        "submitter_remarks": ""
-      }
-    ],
-    "event_history": [
-      {
-        "event_id": "crowd|1974-gn3037-11539",
-        "source": "crowdsubmitted",
-        "street_code": "11539",
-        "publication_date": "1974-11-29",
-        "change_kind": null,
-        "street_name_en": "Ngoi Man Street",
-        "street_name_zh": "愛民街",
-        "previous_street_name_en": null,
-        "previous_street_name_zh": null,
-        "district_raw_en": null,
-        "district_raw_zh": null,
-        "notice_type_raw_en": "Declaration of street name (crowdsource)",
-        "notice_type_raw_zh": "街道命名（眾包）",
-        "notice_type_normalized": "declaration",
-        "notice_no": "GN3037",
-        "government_notice_label_en": "G.N.3037",
-        "government_notice_label_zh": "第3037號",
-        "government_notice_url_en": "/egazette/en/1974-gn3037.pdf",
-        "government_notice_url_zh": null,
-        "related_gazette_plan_urls_en": [],
-        "related_gazette_plan_urls_zh": [],
-        "related_gazette_plan_labels_en": [],
-        "related_gazette_plan_labels_zh": [],
-        "year_bucket": 1974,
-        "is_declaration_event": true,
-        "evidence_level": "gazette",
-        "proof_pdf_url": null,
-        "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
-        "submission_id": "1974-gn3037-11539"
       }
     ],
     "event_count": 1
@@ -30375,7 +30249,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn3037-10295"
       }
     ],
@@ -30438,7 +30312,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn3037-10229"
       }
     ],
@@ -30501,7 +30375,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn3038-10286"
       }
     ],
@@ -30564,7 +30438,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1974-gn3159-10262"
       }
     ],
@@ -30627,7 +30501,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1975-gn176-11736"
       }
     ],
@@ -30690,7 +30564,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1975-gn351-11563"
       }
     ],
@@ -30753,7 +30627,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1975-gn586-11184"
       }
     ],
@@ -30864,7 +30738,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1975-gn996-10669"
       }
     ],
@@ -30927,7 +30801,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1975-gn641-11413"
       }
     ],
@@ -30990,7 +30864,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1975-gn702-703-10277"
       }
     ],
@@ -31053,7 +30927,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1975-gn702-703-10614"
       }
     ],
@@ -31559,7 +31433,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "1979-gn1043-11610"
       }
     ],
@@ -35030,7 +34904,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn3693-14022"
       }
     ],
@@ -35093,7 +34967,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn3694-14020"
       }
     ],
@@ -35156,7 +35030,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn3694-14021"
       }
     ],
@@ -35219,7 +35093,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn3864-14024"
       }
     ],
@@ -35282,7 +35156,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn3866-14023"
       }
     ],
@@ -35345,7 +35219,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn3981-14025"
       }
     ],
@@ -35408,7 +35282,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn3981-14026"
       }
     ],
@@ -35471,7 +35345,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn4391-13151"
       }
     ],
@@ -35534,7 +35408,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn4391-13148"
       }
     ],
@@ -35597,7 +35471,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn4391-14027"
       }
     ],
@@ -35660,7 +35534,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn4391-14028"
       }
     ],
@@ -35723,7 +35597,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn4391-14029"
       }
     ],
@@ -35786,7 +35660,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn4391-14030"
       }
     ],
@@ -35849,7 +35723,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn4740-14031"
       }
     ],
@@ -35912,7 +35786,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn4741-14035"
       }
     ],
@@ -35975,7 +35849,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn4742-14034"
       }
     ],
@@ -36038,7 +35912,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn4744-14032"
       }
     ],
@@ -36101,7 +35975,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn4745-14033"
       }
     ],
@@ -36164,7 +36038,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn5314-14036"
       }
     ],
@@ -36227,7 +36101,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn5315-12104"
       }
     ],
@@ -36290,7 +36164,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn6058-14039"
       }
     ],
@@ -36353,7 +36227,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn6058-14038"
       }
     ],
@@ -36416,7 +36290,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2000-gn6058-14037"
       }
     ],
@@ -36795,7 +36669,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2002-gn5146-14124"
       }
     ],
@@ -36984,7 +36858,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2003-gn4729-14165"
       }
     ],
@@ -37047,7 +36921,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2003-gn4729-14164"
       }
     ],
@@ -37110,7 +36984,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2003-gn8574-14170"
       }
     ],
@@ -37220,7 +37094,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2003-gn8478-14171"
       }
     ],
@@ -37283,7 +37157,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2004-gn8104-14199"
       }
     ],
@@ -37346,7 +37220,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2004-gn8104-14200"
       }
     ],
@@ -37409,7 +37283,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2004-gn8104-14201"
       }
     ],
@@ -37472,7 +37346,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2004-gn8104-14202"
       }
     ],
@@ -37535,7 +37409,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2004-gn8104-14203"
       }
     ],
@@ -37598,7 +37472,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2004-gn8104-14204"
       }
     ],
@@ -37661,7 +37535,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2004-gn8104-14205"
       }
     ],
@@ -37724,7 +37598,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2004-gn8104-14206"
       }
     ],
@@ -37787,7 +37661,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2004-gn8104-14207"
       }
     ],
@@ -37850,7 +37724,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2004-gn8104-14208"
       }
     ],
@@ -37913,7 +37787,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2004-gn8104-1"
       }
     ],
@@ -37976,7 +37850,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2004-gn8104-2"
       }
     ],
@@ -38039,7 +37913,7 @@
         "evidence_level": "gazette",
         "proof_pdf_url": null,
         "submitter_remarks": "",
-        "reviewed_at": "2026-06-02",
+        "reviewed_at": "2026-06-03",
         "submission_id": "2004-gn8428-1"
       }
     ],
