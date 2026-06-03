@@ -1,11 +1,10 @@
 import { useEffect, useRef } from 'react'
 import { createRoot } from 'react-dom/client'
 import maplibregl from 'maplibre-gl'
-import NameHistoryList from './NameHistoryList.jsx'
+import SelectedRoadChip from './SelectedRoadChip.jsx'
 import { MapboxOverlay } from '@deck.gl/mapbox'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import { buildRoadFilter, buildRoadKey, filterNamedStreetFeatures, hasStreetName } from '../lib/roadKey'
-import { trackContributeOpen, trackNoticeOpen, trackShareRoad } from '../lib/analytics.js'
 import { translations } from '../i18n/translations'
 import { isMapMobileViewport } from '../lib/mapViewport.js'
 import {
@@ -85,98 +84,6 @@ const HK_BOUNDS = [
 const getUnknownYearLabel = (locale) =>
   translations[locale]?.unknownYear ?? translations.en.unknownYear
 
-const escapeHtml = (value) =>
-  String(value ?? '')
-    .replaceAll('&', '&amp;')
-    .replaceAll('<', '&lt;')
-    .replaceAll('>', '&gt;')
-    .replaceAll('"', '&quot;')
-
-const buildMetaRow = (label, valueHtml) =>
-  `<div class="selected-road-chip-row"><dt class="selected-road-chip-label">${escapeHtml(label)}</dt><dd class="selected-road-chip-value">${valueHtml}</dd></div>`
-
-const buildEmptyValue = () => '<span class="selected-road-chip-empty">—</span>'
-
-const buildContributeIcon = (variant) => {
-  if (variant === 'edit') {
-    return `<svg class="selected-road-chip-contribute-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>`
-  }
-  return `<svg class="selected-road-chip-contribute-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6M12 18v-6M9 15h6"/></svg>`
-}
-
-const buildCloseIcon = () =>
-  `<svg class="selected-road-chip-close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>`
-
-const buildShareIcon = () =>
-  `<svg class="selected-road-chip-share-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>`
-
-const buildSelectedRoadChipHtml = (selectedRoadInfo, locale) => {
-  const labels = translations[locale] ?? translations.en
-  const metaRows = [
-    selectedRoadInfo.streetType
-      ? buildMetaRow(labels.colType, escapeHtml(selectedRoadInfo.streetType))
-      : '',
-    buildMetaRow(
-      labels.colNaming,
-      selectedRoadInfo.isNamingPending
-        ? `<span class="selected-road-chip-pending">${escapeHtml(selectedRoadInfo.namingDisplay ?? labels.pending)}</span>`
-        : `<span class="selected-road-chip-date">${escapeHtml(selectedRoadInfo.namingDisplay)}</span>`,
-    ),
-    selectedRoadInfo.noticeLink
-      ? buildMetaRow(
-          labels.colNotice,
-          `<a class="selected-road-chip-notice" href="${escapeHtml(selectedRoadInfo.noticeLink.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(selectedRoadInfo.noticeLink.label)}</a>`,
-        )
-      : buildMetaRow(labels.colNotice, buildEmptyValue()),
-    selectedRoadInfo.sourceBadge
-      ? buildMetaRow(
-          labels.colSource,
-          `<span class="selected-road-chip-source pending-source-badge pending-source-${selectedRoadInfo.sourceBadge.kind}" title="${escapeHtml(selectedRoadInfo.sourceBadge.hint)}">${escapeHtml(selectedRoadInfo.sourceBadge.label)}</span>`,
-        )
-      : buildMetaRow(labels.colSource, buildEmptyValue()),
-    selectedRoadInfo.nameHistory?.length
-      ? `<div class="selected-road-chip-row selected-road-chip-row-history"><dt class="selected-road-chip-label">${escapeHtml(labels.colNameHistory)}</dt><dd class="selected-road-chip-value"><div class="selected-road-chip-history-mount"></div></dd></div>`
-      : '',
-    selectedRoadInfo.namingRemarks?.length
-      ? buildMetaRow(
-          labels.colRemarks,
-          `<ul class="selected-road-chip-remarks">${selectedRoadInfo.namingRemarks
-            .map((remark) => `<li>${escapeHtml(remark)}</li>`)
-            .join('')}</ul>`,
-        )
-      : '',
-  ].join('')
-
-  const actionButtons = [
-    selectedRoadInfo.contributeUrl
-      ? `<a class="selected-road-chip-contribute" href="${escapeHtml(selectedRoadInfo.contributeUrl)}" target="_blank" rel="noopener noreferrer">${buildContributeIcon(selectedRoadInfo.contributeVariant)}<span>${escapeHtml(selectedRoadInfo.contributeLabel)}</span></a>`
-      : '',
-    selectedRoadInfo.shareUrl
-      ? `<button type="button" class="selected-road-chip-share" aria-label="${escapeHtml(selectedRoadInfo.shareAriaLabel)}">${buildShareIcon()}<span>${escapeHtml(selectedRoadInfo.shareLabel)}</span></button>`
-      : '',
-  ]
-    .filter(Boolean)
-    .join('')
-
-  const contributeBlock = actionButtons
-    ? `<footer class="selected-road-chip-foot"><div class="selected-road-chip-actions">${actionButtons}</div></footer>`
-    : ''
-
-  return `
-    <div class="selected-road-chip-content">
-      <header class="selected-road-chip-head">
-        <div class="selected-road-chip-titles">
-          ${selectedRoadInfo.zhName ? `<p class="selected-road-chip-zh">${escapeHtml(selectedRoadInfo.zhName)}</p>` : ''}
-          ${selectedRoadInfo.enName ? `<p class="selected-road-chip-en">${escapeHtml(selectedRoadInfo.enName)}</p>` : ''}
-        </div>
-        <button type="button" class="selected-road-chip-close" aria-label="${escapeHtml(labels.mapRoadCardClose)}">${buildCloseIcon()}</button>
-      </header>
-      <dl class="selected-road-chip-meta">${metaRows}</dl>
-      ${contributeBlock}
-    </div>
-    <span class="selected-road-chip-pointer" aria-hidden="true"></span>
-  `
-}
 
 /** Invisible line width used for tap / click hit testing (screen pixels). */
 const ROAD_HIT_LINE_WIDTH = [
@@ -503,7 +410,7 @@ function MapView({
   const mapContainerRef = useRef(null)
   const mapRef = useRef(null)
   const selectedRoadMarkerRef = useRef(null)
-  const nameHistoryRootRef = useRef(null)
+  const chipRootRef = useRef(null)
 
   const applyMapState = (map, year, group, roadKey, mapTheme = 'light') => {
     if (
@@ -919,8 +826,8 @@ function MapView({
     if (!map) return
 
     if (!selectedRoadKey || !selectedRoadCenter || !selectedRoadInfo) {
-      nameHistoryRootRef.current?.unmount()
-      nameHistoryRootRef.current = null
+      chipRootRef.current?.unmount()
+      chipRootRef.current = null
       if (selectedRoadMarkerRef.current) {
         selectedRoadMarkerRef.current.remove()
         selectedRoadMarkerRef.current = null
@@ -928,83 +835,21 @@ function MapView({
       return
     }
 
+    const labels = translations[locale] ?? translations.en
     const chip = document.createElement('section')
     chip.className = 'selected-road-chip'
-    chip.innerHTML = buildSelectedRoadChipHtml(selectedRoadInfo, locale)
-    const contributeLink = chip.querySelector('.selected-road-chip-contribute')
-    if (contributeLink) {
-      contributeLink.addEventListener('click', (event) => {
-        event.preventDefault()
-        event.stopPropagation()
-        trackContributeOpen('map', selectedRoadInfo.contributeVariant ?? 'add')
-        window.open(selectedRoadInfo.contributeUrl, '_blank', 'noopener,noreferrer')
-      })
-    }
-    const noticeLink = chip.querySelector('.selected-road-chip-notice')
-    if (noticeLink) {
-      noticeLink.addEventListener('click', () => {
-        trackNoticeOpen('map')
-      })
-    }
+    chip.setAttribute('aria-label', selectedRoadInfo.enName || selectedRoadInfo.zhName || '')
 
-    const historyMount = chip.querySelector('.selected-road-chip-history-mount')
-    nameHistoryRootRef.current?.unmount()
-    nameHistoryRootRef.current = null
-    if (historyMount && selectedRoadInfo.nameHistory?.length) {
-      const root = createRoot(historyMount)
-      nameHistoryRootRef.current = root
-      root.render(
-        <NameHistoryList
-          items={selectedRoadInfo.nameHistory}
-          onNoticeClick={() => trackNoticeOpen('map')}
-        />,
-      )
-    }
-    const closeButton = chip.querySelector('.selected-road-chip-close')
-    if (closeButton) {
-      closeButton.addEventListener('click', (event) => {
-        event.preventDefault()
-        event.stopPropagation()
-        onRoadClear?.()
-      })
-    }
-    const shareButton = chip.querySelector('.selected-road-chip-share')
-    if (shareButton && selectedRoadInfo.shareUrl) {
-      const defaultShareLabel = selectedRoadInfo.shareLabel
-      const copiedShareLabel = selectedRoadInfo.shareCopiedLabel
-      shareButton.addEventListener('click', async (event) => {
-        event.preventDefault()
-        event.stopPropagation()
-        const url = selectedRoadInfo.shareUrl
-        const labelSpan = shareButton.querySelector('span')
-        try {
-          if (navigator.share) {
-            await navigator.share({
-              url,
-              title: selectedRoadInfo.enName || selectedRoadInfo.zhName || '',
-            })
-            trackShareRoad('native')
-            return
-          }
-        } catch (error) {
-          if (error?.name === 'AbortError') return
-        }
-        try {
-          await navigator.clipboard.writeText(url)
-          trackShareRoad('clipboard')
-          shareButton.classList.add('is-copied')
-          if (labelSpan) labelSpan.textContent = copiedShareLabel
-          shareButton.setAttribute('aria-label', copiedShareLabel)
-          window.setTimeout(() => {
-            shareButton.classList.remove('is-copied')
-            if (labelSpan) labelSpan.textContent = defaultShareLabel
-            shareButton.setAttribute('aria-label', selectedRoadInfo.shareAriaLabel)
-          }, 2000)
-        } catch {
-          // Clipboard unavailable — URL is still synced in the address bar.
-        }
-      })
-    }
+    chipRootRef.current?.unmount()
+    chipRootRef.current = createRoot(chip)
+    chipRootRef.current.render(
+      <SelectedRoadChip
+        selectedRoadInfo={selectedRoadInfo}
+        labels={labels}
+        onClose={onRoadClear}
+      />,
+    )
+
     chip.addEventListener('click', (event) => {
       event.stopPropagation()
     })
@@ -1023,8 +868,8 @@ function MapView({
       .addTo(map)
 
     return () => {
-      nameHistoryRootRef.current?.unmount()
-      nameHistoryRootRef.current = null
+      chipRootRef.current?.unmount()
+      chipRootRef.current = null
     }
   }, [
     selectedRoadKey,
