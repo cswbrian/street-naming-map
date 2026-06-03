@@ -155,7 +155,7 @@ Hong Kong centrelines often share the **same English name** with different Chine
 2. For each street, prefer **`chinese_name` from the gazette** (and English when shown). Copy both into batch JSON.
 3. If the gazette lists only English, look up `public/data/hk-streets.geojson` or pending data for the **Chinese name** on the target centreline — do not guess from English alone.
 4. If English matches multiple roads, disambiguate with Chinese or `street_code` before apply.
-5. After apply, spot-check map chip: Chinese + English match the intended road; **來源** links to the G.N. PDF (`憲報（原文）` when primary).
+5. After apply, spot-check map chip: Chinese + English match the intended road; **來源** links to the G.N. PDF (`憲報` when primary).
 
 ### Batch JSON (required fields)
 
@@ -220,4 +220,4 @@ If editing `batch-approved.csv` manually, use header **`gazette notice label`** 
 
 1. Write batch JSON with those fields.
 2. Run `node scripts/apply-crowd-batch.mjs …`
-3. Confirm **街道** table **來源** shows `憲報（原文）` (or inferred) with working PDF link; map chip matches street names.
+3. Confirm **街道** table **來源** shows `憲報` (or `憲報（推斷）`) with working PDF link; map chip matches street names.

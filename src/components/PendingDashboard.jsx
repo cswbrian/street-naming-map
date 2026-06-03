@@ -39,7 +39,12 @@ const ROAD_TYPE_PRIORITY = {
 const formatNumber = (locale, value) =>
   new Intl.NumberFormat(locale === 'zh' ? 'zh-HK' : 'en-US').format(Number(value) || 0)
 
-import { formatNamingDate, getNamingDisplay, hasRowNamingDate } from '../lib/namingDisplay.js'
+import {
+  buildRowSearchHaystack,
+  formatNamingDate,
+  getNamingDisplay,
+  hasRowNamingDate,
+} from '../lib/namingDisplay.js'
 
 const getPeriodGroupId = (row) => {
   if (!hasNamingYear(row)) return 'unknown'
@@ -190,12 +195,8 @@ function PendingDashboard({ onOpenRoadOnMap }) {
       )
     }
     if (!loweredQuery) return list
-    return list.filter((row) => {
-      const haystack =
-        `${row.street_code ?? ''} ${row.english_name ?? ''} ${row.chinese_name ?? ''} ${row.street_type ?? ''} ${row.naming_year ?? ''} ${row.naming_date ?? ''}`.toLowerCase()
-      return haystack.includes(loweredQuery)
-    })
-  }, [rows, loweredQuery, listFilter, typeFilter, periodFilter, evidenceFilter])
+    return list.filter((row) => buildRowSearchHaystack(row, t).includes(loweredQuery))
+  }, [rows, loweredQuery, listFilter, typeFilter, periodFilter, evidenceFilter, t])
 
   const sortedRows = useMemo(() => {
     const getStreetName = (row) =>
