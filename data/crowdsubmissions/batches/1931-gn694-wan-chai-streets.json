@@ -17,7 +17,11 @@
           "street_name_zh": "謝斐道",
           "gazette_notice_label": "Government Notification No. 694",
           "proof_pdf_url": "/egazette/en/1931-gn694.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -33,7 +37,11 @@
           "street_name_zh": "譚臣道",
           "gazette_notice_label": "Government Notification No. 694",
           "proof_pdf_url": "/egazette/en/1931-gn694.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -50,10 +58,15 @@
           "gazette_notice_label": "Government Notification No. 694",
           "proof_pdf_url": "/egazette/en/1931-gn694.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 青洲街; database 青州街."
+          "submitter_remarks": "Gazette ZH 青洲街; database 青州街.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

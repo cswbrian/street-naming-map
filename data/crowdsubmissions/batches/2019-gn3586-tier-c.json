@@ -19,7 +19,21 @@
           "gazette_notice_label": "G.N.939",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3586 (2019-05-31)."
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3586 (2019-05-31).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.3586",
+              "publication_date": "2019-05-31",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.3586",
+              "cited_publication_date": "1958-07-11"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ],
       "allow_name_only": true
@@ -37,11 +51,26 @@
           "gazette_notice_label": "G.N.110",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3586 (2019-05-31)."
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3586 (2019-05-31).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.3586",
+              "publication_date": "2019-05-31",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.3586",
+              "cited_publication_date": "1960-01-22"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ],
       "allow_name_only": true
     }
   ],
-  "allow_name_only": true
+  "allow_name_only": true,
+  "evidence_schema_version": 1
 }

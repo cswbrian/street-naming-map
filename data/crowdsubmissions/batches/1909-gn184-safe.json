@@ -18,7 +18,11 @@
           "street_name_en": "Catchick Street",
           "street_name_zh": "吉席街",
           "evidence_level": "gazette",
-          "submitter_remarks": "Hong Kong: Chater Street → Catchick Street (G.N.184)."
+          "submitter_remarks": "Hong Kong: Chater Street → Catchick Street (G.N.184).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -34,7 +38,11 @@
           "street_name_en": "Tai Yuen Street",
           "street_name_zh": "太原街",
           "evidence_level": "gazette",
-          "submitter_remarks": "Hong Kong: Albany Street → Tai Yuan/Tai Yuen Street (G.N.184)."
+          "submitter_remarks": "Hong Kong: Albany Street → Tai Yuan/Tai Yuen Street (G.N.184).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -50,7 +58,11 @@
           "street_name_en": "Tung Street",
           "street_name_zh": "東街",
           "evidence_level": "gazette",
-          "submitter_remarks": "Hong Kong: East Street → Tung Street (G.N.184)."
+          "submitter_remarks": "Hong Kong: East Street → Tung Street (G.N.184).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -66,7 +78,11 @@
           "street_name_en": "Sai Street",
           "street_name_zh": "西街",
           "evidence_level": "gazette",
-          "submitter_remarks": "Hong Kong: West Street → Sai Street (G.N.184)."
+          "submitter_remarks": "Hong Kong: West Street → Sai Street (G.N.184).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -82,7 +98,11 @@
           "street_name_en": "Peking Road",
           "street_name_zh": "北京道",
           "evidence_level": "gazette",
-          "submitter_remarks": "Kowloon: Chater Street → Peking Road (G.N.184)."
+          "submitter_remarks": "Kowloon: Chater Street → Peking Road (G.N.184).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -98,7 +118,11 @@
           "street_name_en": "Hankow Road",
           "street_name_zh": "漢口道",
           "evidence_level": "gazette",
-          "submitter_remarks": "Kowloon: Garden Road → Hankow Road (G.N.184; not HK Island Garden Road)."
+          "submitter_remarks": "Kowloon: Garden Road → Hankow Road (G.N.184; not HK Island Garden Road).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -114,7 +138,11 @@
           "street_name_en": "Nathan Road",
           "street_name_zh": "彌敦道",
           "evidence_level": "gazette",
-          "submitter_remarks": "Kowloon: Robinson Road → Nathan Road (G.N.184; not HK Island Robinson Road)."
+          "submitter_remarks": "Kowloon: Robinson Road → Nathan Road (G.N.184; not HK Island Robinson Road).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -130,7 +158,11 @@
           "street_name_en": "Canton Road",
           "street_name_zh": "廣東道",
           "evidence_level": "gazette",
-          "submitter_remarks": "Kowloon/Yaumati/Mongkok: Macdonnell Road → Canton Road (G.N.184; one notice, multiple districts)."
+          "submitter_remarks": "Kowloon/Yaumati/Mongkok: Macdonnell Road → Canton Road (G.N.184; one notice, multiple districts).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -146,7 +178,11 @@
           "street_name_en": "Haiphong Road",
           "street_name_zh": "海防道",
           "evidence_level": "gazette",
-          "submitter_remarks": "Kowloon: Elgin Road → Haiphong Road (G.N.184)."
+          "submitter_remarks": "Kowloon: Elgin Road → Haiphong Road (G.N.184).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -162,7 +198,11 @@
           "street_name_en": "Hanoi Road",
           "street_name_zh": "河內道",
           "evidence_level": "gazette",
-          "submitter_remarks": "Kowloon: East Road → Hanoi Road (G.N.184)."
+          "submitter_remarks": "Kowloon: East Road → Hanoi Road (G.N.184).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -178,7 +218,11 @@
           "street_name_en": "Kansu Street",
           "street_name_zh": "甘肅街",
           "evidence_level": "gazette",
-          "submitter_remarks": "Yaumati: First Street → Kansu Street (G.N.184)."
+          "submitter_remarks": "Yaumati: First Street → Kansu Street (G.N.184).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -194,7 +238,11 @@
           "street_name_en": "Pak Hoi Street",
           "street_name_zh": "北海街",
           "evidence_level": "gazette",
-          "submitter_remarks": "Yaumati: Second Street → Pakhoi/Pak Hoi Street (G.N.184)."
+          "submitter_remarks": "Yaumati: Second Street → Pakhoi/Pak Hoi Street (G.N.184).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -210,7 +258,11 @@
           "street_name_en": "Saigon Street",
           "street_name_zh": "西貢街",
           "evidence_level": "gazette",
-          "submitter_remarks": "Yaumati: Third Street → Saigon Street (G.N.184)."
+          "submitter_remarks": "Yaumati: Third Street → Saigon Street (G.N.184).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -226,7 +278,11 @@
           "street_name_en": "Ning Po Street",
           "street_name_zh": "寧波街",
           "evidence_level": "gazette",
-          "submitter_remarks": "Yaumati: Fourth Street → Ningpo/Ning Po Street (G.N.184)."
+          "submitter_remarks": "Yaumati: Fourth Street → Ningpo/Ning Po Street (G.N.184).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -242,7 +298,11 @@
           "street_name_en": "Nanking Street",
           "street_name_zh": "南京街",
           "evidence_level": "gazette",
-          "submitter_remarks": "Yaumati: Fifth Street → Nanking Street (G.N.184)."
+          "submitter_remarks": "Yaumati: Fifth Street → Nanking Street (G.N.184).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -258,7 +318,11 @@
           "street_name_en": "Woosung Street",
           "street_name_zh": "吳松街",
           "evidence_level": "gazette",
-          "submitter_remarks": "Yaumati: Kennedy Street → Woosung Street (G.N.184)."
+          "submitter_remarks": "Yaumati: Kennedy Street → Woosung Street (G.N.184).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -274,7 +338,11 @@
           "street_name_en": "Yunnan Lane",
           "street_name_zh": "雲南里",
           "evidence_level": "gazette",
-          "submitter_remarks": "Yaumati: Seventh Lane → Yunnan Lane (G.N.184)."
+          "submitter_remarks": "Yaumati: Seventh Lane → Yunnan Lane (G.N.184).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -290,7 +358,11 @@
           "street_name_en": "Jordan Road",
           "street_name_zh": "佐敦道",
           "evidence_level": "gazette",
-          "submitter_remarks": "Yaumati: Sixth Street → Jordan Road (G.N.184)."
+          "submitter_remarks": "Yaumati: Sixth Street → Jordan Road (G.N.184).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -306,7 +378,11 @@
           "street_name_en": "Bowring Street",
           "street_name_zh": "寶靈街",
           "evidence_level": "gazette",
-          "submitter_remarks": "Yaumati: Eighth Street → Bowring Street (G.N.184)."
+          "submitter_remarks": "Yaumati: Eighth Street → Bowring Street (G.N.184).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -322,7 +398,11 @@
           "street_name_en": "Shanghai Street",
           "street_name_zh": "上海街",
           "evidence_level": "gazette",
-          "submitter_remarks": "Yaumati/Mongkok: Station Street North and Station Street South → Shanghai Street (G.N.184)."
+          "submitter_remarks": "Yaumati/Mongkok: Station Street North and Station Street South → Shanghai Street (G.N.184).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -338,7 +418,11 @@
           "street_name_en": "Changsha Street",
           "street_name_zh": "長沙街",
           "evidence_level": "gazette",
-          "submitter_remarks": "Mongkok: Hill Street → Changsha Street (G.N.184; not Hung Hom Hill→Tientsin)."
+          "submitter_remarks": "Mongkok: Hill Street → Changsha Street (G.N.184; not Hung Hom Hill→Tientsin).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -354,9 +438,14 @@
           "street_name_en": "Wuhu Street",
           "street_name_zh": "蕪湖街",
           "evidence_level": "gazette",
-          "submitter_remarks": "Hung Hom: Market Street → Wuhu Street (G.N.184)."
+          "submitter_remarks": "Hung Hom: Market Street → Wuhu Street (G.N.184).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

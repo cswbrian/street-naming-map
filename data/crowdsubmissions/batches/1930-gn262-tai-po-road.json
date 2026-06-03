@@ -18,7 +18,11 @@
           "street_name_zh": "大埔道",
           "gazette_notice_label": "Government Notification No. 262",
           "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -34,7 +38,11 @@
           "street_name_zh": "安富道",
           "gazette_notice_label": "Government Notification No. 262",
           "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -50,7 +58,11 @@
           "street_name_zh": "靖遠街",
           "gazette_notice_label": "Government Notification No. 262",
           "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -66,7 +78,11 @@
           "street_name_zh": "懷仁街",
           "gazette_notice_label": "Government Notification No. 262",
           "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -82,7 +98,11 @@
           "street_name_zh": "南盛街",
           "gazette_notice_label": "Government Notification No. 262",
           "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -98,7 +118,11 @@
           "street_name_zh": "懷義街",
           "gazette_notice_label": "Government Notification No. 262",
           "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -114,7 +138,11 @@
           "street_name_zh": "崇德街",
           "gazette_notice_label": "Government Notification No. 262",
           "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -130,7 +158,11 @@
           "street_name_zh": "北盛街",
           "gazette_notice_label": "Government Notification No. 262",
           "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -146,7 +178,11 @@
           "street_name_zh": "富善街",
           "gazette_notice_label": "Government Notification No. 262",
           "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -162,7 +198,11 @@
           "street_name_zh": "仁興街",
           "gazette_notice_label": "Government Notification No. 262",
           "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -178,7 +218,11 @@
           "street_name_zh": "瑞安街",
           "gazette_notice_label": "Government Notification No. 262",
           "government_notice_url_en": "/egazette/en/1930-gn262.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
@@ -186,5 +230,6 @@
   "parse_flags": [
     "Tai Po Road: database naming_year 2018 later than gazette 1930",
     "On Fu Road: database naming_year 2017 later than gazette 1930"
-  ]
+  ],
+  "evidence_schema_version": 1
 }

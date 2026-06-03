@@ -1,0 +1,91 @@
+{
+  "batch_id": "2005-gn5456-fo-chong-san-roads",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.5456",
+  "publication_date": "2005-10-21",
+  "gazette_url_en": "/egazette/en/2005-09-42-5456.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260603T154436Z-3-001/egn200509425456 - CS L.pdf",
+  "streets": [
+    {
+      "street_code": "14230",
+      "english_name": "CHONG SAN ROAD",
+      "chinese_name": "創新路",
+      "history": [
+        {
+          "publication_date": "2005-10-21",
+          "change_kind": "declare",
+          "street_name_en": "Chong San Road",
+          "street_name_zh": "創新路",
+          "gazette_notice_label": "G.N.5456",
+          "government_notice_url_en": "/egazette/en/2005-09-42-5456.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "street_code": "14232",
+      "english_name": "FO SHING ROAD",
+      "chinese_name": "科城路",
+      "history": [
+        {
+          "publication_date": "2005-10-21",
+          "change_kind": "declare",
+          "street_name_en": "Fo Shing Road",
+          "street_name_zh": "科城路",
+          "gazette_notice_label": "G.N.5456",
+          "government_notice_url_en": "/egazette/en/2005-09-42-5456.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "street_code": "14233",
+      "english_name": "FO YIN ROAD",
+      "chinese_name": "科研路",
+      "history": [
+        {
+          "publication_date": "2005-10-21",
+          "change_kind": "declare",
+          "street_name_en": "Fo Yin Road",
+          "street_name_zh": "科研路",
+          "gazette_notice_label": "G.N.5456",
+          "government_notice_url_en": "/egazette/en/2005-09-42-5456.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "street_code": "14231",
+      "english_name": "FO CHUN ROAD",
+      "chinese_name": "科進路",
+      "history": [
+        {
+          "publication_date": "2005-10-21",
+          "change_kind": "declare",
+          "street_name_en": "Fo King Road",
+          "street_name_zh": "科進路",
+          "gazette_notice_label": "G.N.5456",
+          "government_notice_url_en": "/egazette/en/2005-09-42-5456.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}

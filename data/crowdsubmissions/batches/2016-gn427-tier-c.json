@@ -19,7 +19,21 @@
           "gazette_notice_label": "G.N.1370",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22)."
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.427",
+              "publication_date": "2016-01-22",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.427",
+              "cited_publication_date": "1970-07-03"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ],
       "allow_name_only": true
@@ -37,7 +51,21 @@
           "gazette_notice_label": "G.N.1370",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22)."
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.427",
+              "publication_date": "2016-01-22",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.427",
+              "cited_publication_date": "1970-07-03"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ],
       "allow_name_only": true
@@ -55,7 +83,21 @@
           "gazette_notice_label": "G.N.1370",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22)."
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.427",
+              "publication_date": "2016-01-22",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.427",
+              "cited_publication_date": "1970-07-03"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ],
       "allow_name_only": true
@@ -73,7 +115,21 @@
           "gazette_notice_label": "G.N.1370",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22)."
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.427",
+              "publication_date": "2016-01-22",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.427",
+              "cited_publication_date": "1970-07-03"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ],
       "allow_name_only": true
@@ -91,7 +147,21 @@
           "gazette_notice_label": "G.N.537",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22)."
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.427",
+              "publication_date": "2016-01-22",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.427",
+              "cited_publication_date": "1967-03-04"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ],
       "allow_name_only": true
@@ -109,7 +179,21 @@
           "gazette_notice_label": "G.N.537",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22)."
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.427",
+              "publication_date": "2016-01-22",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.427",
+              "cited_publication_date": "1967-03-04"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ],
       "allow_name_only": true
@@ -127,7 +211,21 @@
           "gazette_notice_label": "G.N.537",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22)."
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.427",
+              "publication_date": "2016-01-22",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.427",
+              "cited_publication_date": "1967-03-04"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ],
       "allow_name_only": true
@@ -145,11 +243,26 @@
           "gazette_notice_label": "G.N.537",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22)."
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.427 (2016-01-22).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.427",
+              "publication_date": "2016-01-22",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.427",
+              "cited_publication_date": "1967-03-04"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ],
       "allow_name_only": true
     }
   ],
-  "allow_name_only": true
+  "allow_name_only": true,
+  "evidence_schema_version": 1
 }

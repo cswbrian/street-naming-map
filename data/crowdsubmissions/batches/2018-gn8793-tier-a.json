@@ -20,9 +20,24 @@
           "gazette_notice_label": "G.N.5530",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 柯士甸道西 cited in G.N.8793 (2018-11-23)."
+          "submitter_remarks": "First Previous G.N. for 柯士甸道西 cited in G.N.8793 (2018-11-23).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.8793",
+              "publication_date": "2018-11-23",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.8793",
+              "cited_publication_date": "1998-11-13"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

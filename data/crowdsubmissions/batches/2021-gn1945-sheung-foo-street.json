@@ -20,9 +20,24 @@
           "gazette_notice_label": "G.N.751",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Previous G.N. for 常富街 cited in G.N.1945 (2021-04-01)."
+          "submitter_remarks": "Previous G.N. for 常富街 cited in G.N.1945 (2021-04-01).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.1945",
+              "publication_date": "2021-04-01",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.1945",
+              "cited_publication_date": "1967-04-07"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

@@ -20,9 +20,24 @@
           "gazette_notice_label": "G.N.2548",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Previous G.N. for 世運道 cited in G.N.4521 (2021-07-23)."
+          "submitter_remarks": "Previous G.N. for 世運道 cited in G.N.4521 (2021-07-23).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.4521",
+              "publication_date": "2021-07-23",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.4521",
+              "cited_publication_date": "1964-09-11"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

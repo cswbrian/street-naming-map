@@ -17,7 +17,11 @@
           "street_name_zh": "洪聖街",
           "gazette_notice_label": "Government Notification No. 245",
           "proof_pdf_url": "/egazette/en/1932-gn245.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -33,7 +37,11 @@
           "street_name_zh": "好景街",
           "gazette_notice_label": "Government Notification No. 245",
           "proof_pdf_url": "/egazette/en/1932-gn245.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -49,7 +57,11 @@
           "street_name_zh": "新市街",
           "gazette_notice_label": "Government Notification No. 245",
           "proof_pdf_url": "/egazette/en/1932-gn245.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -65,7 +77,11 @@
           "street_name_zh": "惠風街",
           "gazette_notice_label": "Government Notification No. 245",
           "proof_pdf_url": "/egazette/en/1932-gn245.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -81,7 +97,11 @@
           "street_name_zh": "平瀾街",
           "gazette_notice_label": "Government Notification No. 245",
           "proof_pdf_url": "/egazette/en/1932-gn245.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -97,10 +117,15 @@
           "street_name_zh": "山明街",
           "gazette_notice_label": "Government Notification No. 245",
           "proof_pdf_url": "/egazette/en/1932-gn245.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

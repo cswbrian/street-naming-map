@@ -17,10 +17,15 @@
           "street_name_zh": "希雲街",
           "gazette_notice_label": "Government Notification No. 172",
           "government_notice_url_en": "/egazette/en/1931-gn172.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

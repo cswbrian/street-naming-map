@@ -20,9 +20,24 @@
           "gazette_notice_label": "G.N.6891",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 耀星街 cited in G.N.1595 (2016-03-18)."
+          "submitter_remarks": "First Previous G.N. for 耀星街 cited in G.N.1595 (2016-03-18).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.1595",
+              "publication_date": "2016-03-18",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.1595",
+              "cited_publication_date": "2012-10-19"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

@@ -331,7 +331,7 @@ async function main() {
     gazette_url_en: notice.url_en,
     gazette_url_zh: notice.url_zh,
     reviewed_at: new Date().toISOString().slice(0, 10),
-    // Default 社群; only explicit batch.source === 'hkgro' (parse-hkgro-gazettes) uses HKGRO
+    // Default crowdsubmitted; batch.source === 'hkgro' only from parse-hkgro-gazettes
     source: batch.source === 'hkgro' ? 'hkgro' : 'crowdsubmitted',
   }
 
@@ -343,8 +343,30 @@ async function main() {
       const resolved = resolveStreet(street, pendingMap, resolveOpts)
       const built = buildCrowdEventsFromStreetEntry(
         { ...street, street_code: resolved.street_code },
-        batchDefaults,
+        {
+          ...batchDefaults,
+          display_names: {
+            en: resolved.english_name,
+            zh: resolved.chinese_name,
+          },
+        },
       )
+      for (const event of built) {
+        if (event.evidence_kind === 'gazette_inferred' && Array.isArray(event.derived_from)) {
+          event.derived_from = event.derived_from.map((ref) => ({
+            ...ref,
+            notice_label: ref.notice_label ?? notice.notice_label,
+            publication_date: ref.publication_date ?? publicationDate,
+            government_notice_url_en:
+              ref.government_notice_url_en ?? notice.url_en ?? null,
+            government_notice_url_zh:
+              ref.government_notice_url_zh ?? notice.url_zh ?? null,
+          }))
+        } else if (!event.government_notice_url_en && notice.url_en) {
+          event.government_notice_url_en = notice.url_en
+          event.government_notice_url_zh = notice.url_zh ?? null
+        }
+      }
       historyEvents.push(...built)
       continue
     }
@@ -407,7 +429,7 @@ async function main() {
   if (process.env.SKIP_MERGE !== '1') {
     execSync('npm run merge:crowd', { cwd: projectRoot, stdio: 'inherit' })
     execSync('npm run report:pending-years', { cwd: projectRoot, stdio: 'inherit' })
-    console.log('\nDone. Streets now show 社群 (crowdsubmitted) and appear in 最近核實.')
+    console.log('\nDone. Streets updated with gazette evidence (來源) and appear in 最近核實.')
   } else {
     console.log('\nBatch history appended (SKIP_MERGE=1).')
   }

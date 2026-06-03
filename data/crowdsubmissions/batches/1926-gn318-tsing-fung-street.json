@@ -18,7 +18,11 @@
           "street_name_zh": "清風街",
           "gazette_notice_label": "Government Notification No. 318",
           "government_notice_url_en": "/egazette/en/1926-gn318.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -34,7 +38,11 @@
           "street_name_zh": "琉璃街",
           "gazette_notice_label": "Government Notification No. 318",
           "government_notice_url_en": "/egazette/en/1926-gn318.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -50,7 +58,11 @@
           "street_name_zh": "銀幕街",
           "gazette_notice_label": "Government Notification No. 318",
           "government_notice_url_en": "/egazette/en/1926-gn318.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -66,7 +78,11 @@
           "street_name_zh": "帆船街",
           "gazette_notice_label": "Government Notification No. 318",
           "government_notice_url_en": "/egazette/en/1926-gn318.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -82,7 +98,11 @@
           "street_name_zh": "留仙街",
           "gazette_notice_label": "Government Notification No. 318",
           "government_notice_url_en": "/egazette/en/1926-gn318.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -98,7 +118,11 @@
           "street_name_zh": "西灣河街",
           "gazette_notice_label": "Government Notification No. 318",
           "government_notice_url_en": "/egazette/en/1926-gn318.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -114,9 +138,14 @@
           "street_name_zh": "登龍街",
           "gazette_notice_label": "Government Notification No. 318",
           "government_notice_url_en": "/egazette/en/1926-gn318.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

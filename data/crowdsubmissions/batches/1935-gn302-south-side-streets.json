@@ -17,7 +17,11 @@
           "street_name_zh": "石澳道",
           "gazette_notice_label": "Government Notification No. 302",
           "government_notice_url_en": "/egazette/en/1935-gn302.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -33,7 +37,11 @@
           "street_name_zh": "大浪灣道",
           "gazette_notice_label": "Government Notification No. 302",
           "government_notice_url_en": "/egazette/en/1935-gn302.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -49,7 +57,11 @@
           "street_name_zh": "鶴咀道",
           "gazette_notice_label": "Government Notification No. 302",
           "government_notice_url_en": "/egazette/en/1935-gn302.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -65,7 +77,11 @@
           "street_name_zh": "南灣道",
           "gazette_notice_label": "Government Notification No. 302",
           "government_notice_url_en": "/egazette/en/1935-gn302.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -81,7 +97,11 @@
           "street_name_zh": "會所街",
           "gazette_notice_label": "Government Notification No. 302",
           "government_notice_url_en": "/egazette/en/1935-gn302.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -97,7 +117,11 @@
           "street_name_zh": "醫院徑",
           "gazette_notice_label": "Government Notification No. 302",
           "government_notice_url_en": "/egazette/en/1935-gn302.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -113,7 +137,11 @@
           "street_name_zh": "雷丹彌徑",
           "gazette_notice_label": "Government Notification No. 302",
           "government_notice_url_en": "/egazette/en/1935-gn302.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -129,10 +157,15 @@
           "street_name_zh": "海灘道",
           "gazette_notice_label": "Government Notification No. 302",
           "government_notice_url_en": "/egazette/en/1935-gn302.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

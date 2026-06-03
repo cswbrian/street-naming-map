@@ -19,7 +19,7 @@ import {
 } from '../lib/analytics.js'
 import { buildNoticeLookup, getNoticeLink, resolveNoticeLink } from '../lib/governmentNotice.js'
 import { getNamingDisplay, hasRowNamingDate } from '../lib/namingDisplay.js'
-import { getNamingSourceBadgeKey, getNamingSourceKind } from '../lib/namingSourceBadge.js'
+import { getEvidenceKindBadge, resolveDisplayEvidenceKind } from '../lib/evidenceKindBadge.js'
 import { buildNameHistoryTimelineItems, buildNamingRemarks } from '../lib/nameHistory.js'
 import { buildPendingRoadLookup, resolvePendingRoadRow } from '../lib/pendingRoadLookup.js'
 import { getDefaultMapPanelCollapse } from '../lib/mapViewport.js'
@@ -33,6 +33,8 @@ import {
 
 const ROADS_URL = `${import.meta.env.BASE_URL}data/hk-streets.geojson`
 const PENDING_URL = `${import.meta.env.BASE_URL}data/master/pending-naming-years.json`
+const NOTICE_STEMS_URL = `${import.meta.env.BASE_URL}data/master/egazette-notice-stems.json`
+const PDF_LOCALES_URL = `${import.meta.env.BASE_URL}data/master/egazette-pdf-locales.json`
 
 const parseBilingualLabel = (value) => {
   const text = String(value ?? '').trim()
@@ -63,6 +65,8 @@ function MapPage() {
   const [roadSearch, setRoadSearch] = useState('')
   const [roadIndex, setRoadIndex] = useState([])
   const [noticeLookup, setNoticeLookup] = useState(() => new Map())
+  const [noticeStemIndex, setNoticeStemIndex] = useState(null)
+  const [pdfLocales, setPdfLocales] = useState(null)
   const [pendingRoadLookup, setPendingRoadLookup] = useState(() => new Map())
   const [isRoadIndexLoading, setIsRoadIndexLoading] = useState(true)
   const [activeRoadId, setActiveRoadId] = useState(null)
@@ -153,12 +157,12 @@ function MapPage() {
       street_type: activeRoad?.streetType || pickedRoadMeta?.streetType || null,
       naming_year: activeRoad?.year ?? pickedRoadMeta?.year ?? null,
       naming_date: activeRoad?.namingDate || pickedRoadMeta?.namingDate || null,
-      naming_source: activeRoad?.namingSource || null,
     }
-    const sourceKind = getNamingSourceKind(pendingRow ?? displayRow)
-    const sourceBadgeKey = getNamingSourceBadgeKey(sourceKind)
     const noticeLink = pendingRow?.naming_details
-      ? getNoticeLink(pendingRow.naming_details, locale)
+      ? getNoticeLink(pendingRow.naming_details, locale, {
+          noticeIndex: noticeStemIndex,
+          pdfLocales,
+        })
       : resolveNoticeLink({
           roadKey: selectedRoadKey,
           enName,
@@ -166,16 +170,28 @@ function MapPage() {
           streetCode,
           lookup: noticeLookup,
           locale,
+          noticeIndex: noticeStemIndex,
+          pdfLocales,
         })
     const rowForDisplay = pendingRow ?? displayRow
     const displayNames = {
       en: pendingRow?.english_name || enName,
       zh: pendingRow?.chinese_name || zhName,
     }
+    const evidenceKind = resolveDisplayEvidenceKind(pendingRow?.naming_details)
+    const evidenceBadgeKey = evidenceKind ? getEvidenceKindBadge(evidenceKind, t) : null
     const nameHistory = buildNameHistoryTimelineItems(
       pendingRow?.naming_details,
       locale,
-      { historyGazettePending: t('historyGazettePending') },
+      {
+        historyGazettePending: t('historyGazettePending'),
+        historyGazetteInferred: t('historyGazetteInferred'),
+        evidenceNews: t('evidenceNews'),
+        evidenceHearsay: t('evidenceHearsay'),
+        evidenceLegalOther: t('evidenceLegalOther'),
+        eventRoleBuilt: t('eventRoleBuilt'),
+        eventRoleNameRemoved: t('eventRoleNameRemoved'),
+      },
       displayNames,
     )
     const namingRemarks = buildNamingRemarks(pendingRow?.naming_details, displayNames, locale)
@@ -198,13 +214,7 @@ function MapPage() {
       nameHistory,
       namingRemarks,
       noticeLink,
-      sourceBadge: sourceBadgeKey
-        ? {
-            kind: sourceKind,
-            label: t(sourceBadgeKey),
-            hint: t(`${sourceBadgeKey}Hint`),
-          }
-        : null,
+      evidenceBadge: evidenceBadgeKey,
       contributeUrl: selectedContributeMeta.url,
       contributeLabel: t('contributeFillGap'),
       contributeVariant: hasRowNamingDate(rowForDisplay) ? 'edit' : 'add',
@@ -219,6 +229,8 @@ function MapPage() {
     pickedRoadMeta,
     pendingRoadLookup,
     noticeLookup,
+    noticeStemIndex,
+    pdfLocales,
     locale,
     t,
     selectedContributeMeta.url,
@@ -394,17 +406,30 @@ function MapPage() {
 
     const loadRoadIndex = async () => {
       try {
-        const [roadsResponse, pendingResponse] = await Promise.all([
-          fetch(ROADS_URL),
-          fetch(PENDING_URL),
-        ])
+        const [roadsResponse, pendingResponse, stemsResponse, localesResponse] =
+          await Promise.all([
+            fetch(ROADS_URL),
+            fetch(PENDING_URL),
+            fetch(NOTICE_STEMS_URL),
+            fetch(PDF_LOCALES_URL),
+          ])
         if (!roadsResponse.ok) throw new Error('Unable to load roads data')
         const geojson = await roadsResponse.json()
+        let stemIndex = null
+        if (stemsResponse.ok) {
+          stemIndex = await stemsResponse.json()
+        }
+        let localesIndex = null
+        if (localesResponse.ok) {
+          localesIndex = await localesResponse.json()
+        }
         if (pendingResponse.ok) {
           const pending = await pendingResponse.json()
           const pendingRoads = pending?.roads ?? []
           if (isMounted) {
-            setNoticeLookup(buildNoticeLookup(pendingRoads))
+            setNoticeStemIndex(stemIndex)
+            setPdfLocales(localesIndex)
+            setNoticeLookup(buildNoticeLookup(pendingRoads, { noticeIndex: stemIndex }))
             setPendingRoadLookup(buildPendingRoadLookup(pendingRoads))
           }
         }
@@ -434,7 +459,6 @@ function MapPage() {
               zhName,
               streetCode: streetCode || null,
               streetType: normalizeRoadName(props.STREETTYPE) || null,
-              namingSource: normalizeRoadName(props.naming_source) || null,
               year,
               namingDate: normalizeRoadName(props.naming_date),
               center: [Number(firstCoord[0]), Number(firstCoord[1])],
@@ -488,9 +512,6 @@ function MapPage() {
           }
           if (!existing.streetType) {
             existing.streetType = normalizeRoadName(props.STREETTYPE) || null
-          }
-          if (!existing.namingSource) {
-            existing.namingSource = normalizeRoadName(props.naming_source) || null
           }
         })
 
@@ -597,7 +618,7 @@ function MapPage() {
         selectedRoadKey={selectedRoadKey}
         selectedRoadCenter={clickedRoadCenter ?? activeRoad?.center ?? null}
         selectedRoadInfo={selectedRoadInfo}
-        onRoadPick={({ key, center, year, enName, zhName, streetCode, streetType, namingDate, namingSource }) => {
+        onRoadPick={({ key, center, year, enName, zhName, streetCode, streetType, namingDate }) => {
           setSelectedRoadKey(key)
           setClickedRoadCenter(center)
           setPickedRoadMeta({
@@ -605,7 +626,6 @@ function MapPage() {
             zhName,
             streetCode,
             streetType,
-            namingSource,
             year: Number.isFinite(year) ? year : null,
             namingDate: normalizeRoadName(namingDate),
           })

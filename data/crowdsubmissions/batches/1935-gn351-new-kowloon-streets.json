@@ -17,7 +17,11 @@
           "street_name_zh": "甘泉街",
           "gazette_notice_label": "Government Notification No. 351",
           "government_notice_url_en": "/egazette/en/1935-gn351.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -33,7 +37,11 @@
           "street_name_zh": "光昌街",
           "gazette_notice_label": "Government Notification No. 351",
           "government_notice_url_en": "/egazette/en/1935-gn351.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -49,7 +57,11 @@
           "street_name_zh": "集輝街",
           "gazette_notice_label": "Government Notification No. 351",
           "government_notice_url_en": "/egazette/en/1935-gn351.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -65,7 +77,11 @@
           "street_name_zh": "廣成街",
           "gazette_notice_label": "Government Notification No. 351",
           "government_notice_url_en": "/egazette/en/1935-gn351.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -81,7 +97,11 @@
           "street_name_zh": "耀東街",
           "gazette_notice_label": "Government Notification No. 351",
           "government_notice_url_en": "/egazette/en/1935-gn351.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -97,10 +117,15 @@
           "street_name_zh": "竹園道",
           "gazette_notice_label": "Government Notification No. 351",
           "government_notice_url_en": "/egazette/en/1935-gn351.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

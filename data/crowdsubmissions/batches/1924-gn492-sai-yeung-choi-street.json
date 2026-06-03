@@ -18,7 +18,11 @@
           "street_name_zh": "通菜街",
           "gazette_notice_label": "Government Notification No. 492",
           "government_notice_url_en": "/egazette/en/1924-gn492.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -34,7 +38,11 @@
           "street_name_zh": "花園街",
           "gazette_notice_label": "Government Notification No. 492",
           "government_notice_url_en": "/egazette/en/1924-gn492.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -50,7 +58,11 @@
           "street_name_zh": "洗衣街",
           "gazette_notice_label": "Government Notification No. 492",
           "government_notice_url_en": "/egazette/en/1924-gn492.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -66,7 +78,11 @@
           "street_name_zh": "黑布街",
           "gazette_notice_label": "Government Notification No. 492",
           "government_notice_url_en": "/egazette/en/1924-gn492.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -82,7 +98,11 @@
           "street_name_zh": "染布房街",
           "gazette_notice_label": "Government Notification No. 492",
           "government_notice_url_en": "/egazette/en/1924-gn492.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -98,9 +118,14 @@
           "street_name_zh": "東方街",
           "gazette_notice_label": "Government Notification No. 492",
           "government_notice_url_en": "/egazette/en/1924-gn492.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

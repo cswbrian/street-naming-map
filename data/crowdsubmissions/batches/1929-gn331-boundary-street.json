@@ -18,7 +18,11 @@
           "street_name_zh": "界限街",
           "gazette_notice_label": "Government Notification No. 331",
           "government_notice_url_en": "/egazette/en/1929-gn331.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -34,7 +38,11 @@
           "street_name_zh": "基堤道",
           "gazette_notice_label": "Government Notification No. 331",
           "government_notice_url_en": "/egazette/en/1929-gn331.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -51,7 +59,11 @@
           "gazette_notice_label": "Government Notification No. 331",
           "government_notice_url_en": "/egazette/en/1929-gn331.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 勳德街; database 勵德街."
+          "submitter_remarks": "Gazette ZH 勳德街; database 勵德街.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -67,7 +79,11 @@
           "street_name_zh": "公爵街",
           "gazette_notice_label": "Government Notification No. 331",
           "government_notice_url_en": "/egazette/en/1929-gn331.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -83,9 +99,14 @@
           "street_name_zh": "窩打老道",
           "gazette_notice_label": "Government Notification No. 331",
           "government_notice_url_en": "/egazette/en/1929-gn331.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

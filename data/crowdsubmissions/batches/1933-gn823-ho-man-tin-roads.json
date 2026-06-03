@@ -17,7 +17,11 @@
           "street_name_zh": "天光道",
           "gazette_notice_label": "Government Notification No. 823",
           "proof_pdf_url": "/egazette/en/1933-gn823.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -33,7 +37,11 @@
           "street_name_zh": "農圃道",
           "gazette_notice_label": "Government Notification No. 823",
           "proof_pdf_url": "/egazette/en/1933-gn823.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -49,7 +57,11 @@
           "street_name_zh": "科發道",
           "gazette_notice_label": "Government Notification No. 823",
           "proof_pdf_url": "/egazette/en/1933-gn823.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -65,10 +77,15 @@
           "street_name_zh": "士他令道",
           "gazette_notice_label": "Government Notification No. 823",
           "proof_pdf_url": "/egazette/en/1933-gn823.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

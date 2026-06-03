@@ -18,10 +18,15 @@
           "gazette_notice_label": "Government Notification No. 590",
           "proof_pdf_url": "/egazette/en/1932-gn590.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette EN Yau Sau Street in G.N.138 (1930-03-07); corrected to Yuk Sau Street in G.N.590."
+          "submitter_remarks": "Gazette EN Yau Sau Street in G.N.138 (1930-03-07); corrected to Yuk Sau Street in G.N.590.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

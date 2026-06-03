@@ -18,7 +18,11 @@
           "gazette_notice_label": "Government Notification No. 511",
           "proof_pdf_url": "/egazette/en/1933-gn511.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 新會路; database 新會道."
+          "submitter_remarks": "Gazette ZH 新會路; database 新會道.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -35,7 +39,11 @@
           "gazette_notice_label": "Government Notification No. 511",
           "proof_pdf_url": "/egazette/en/1933-gn511.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 爪哇路; database 渣華道."
+          "submitter_remarks": "Gazette ZH 爪哇路; database 渣華道.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -51,7 +59,11 @@
           "street_name_zh": "春秧街",
           "gazette_notice_label": "Government Notification No. 511",
           "proof_pdf_url": "/egazette/en/1933-gn511.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -68,7 +80,11 @@
           "gazette_notice_label": "Government Notification No. 511",
           "proof_pdf_url": "/egazette/en/1933-gn511.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 北角路; database 北角道."
+          "submitter_remarks": "Gazette ZH 北角路; database 北角道.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -85,7 +101,11 @@
           "gazette_notice_label": "Government Notification No. 511",
           "proof_pdf_url": "/egazette/en/1933-gn511.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 糖水路; database 糖水道."
+          "submitter_remarks": "Gazette ZH 糖水路; database 糖水道.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -101,7 +121,11 @@
           "street_name_zh": "堡壘街",
           "gazette_notice_label": "Government Notification No. 511",
           "proof_pdf_url": "/egazette/en/1933-gn511.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -117,7 +141,11 @@
           "street_name_zh": "長康街",
           "gazette_notice_label": "Government Notification No. 511",
           "proof_pdf_url": "/egazette/en/1933-gn511.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -133,10 +161,15 @@
           "street_name_zh": "北景街",
           "gazette_notice_label": "Government Notification No. 511",
           "proof_pdf_url": "/egazette/en/1933-gn511.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

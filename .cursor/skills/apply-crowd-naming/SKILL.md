@@ -1,19 +1,20 @@
 ---
 name: apply-crowd-naming
-description: Apply community-verified Hong Kong street naming dates to street-naming-map with source 社群 (crowdsubmitted) always. Use when the user submits gazette proof (PDF, G.N., date, street names) via /apply-crowd-naming. Never use hkgro in this skill — use parse-hkgro-gazettes for sunzi/HKGRO pipeline only.
+description: Apply community-verified Hong Kong street naming dates from gazette proof (PDF, G.N., date, street names) via /apply-crowd-naming. Batch `source` must be crowdsubmitted (not hkgro). Use parse-hkgro-gazettes for sunzi/HKGRO scans only.
 ---
 
 # Apply crowd naming submissions
 
 Process community-verified street naming batches for **street-naming-map**.
 
-## Source rule (always)
+## Pipeline routing (batch `source` field)
 
-When the user invokes **`/apply-crowd-naming`**, every street in the batch must end up with map badge **社群** (`source: crowdsubmitted`).
+When the user invokes **`/apply-crowd-naming`**, set `"source": "crowdsubmitted"` on the batch JSON (or omit — `apply-crowd-batch.mjs` defaults to crowd).
 
-- Always set `"source": "crowdsubmitted"` on the batch JSON (or omit `source` — `apply-crowd-batch.mjs` defaults to 社群).
-- **Never** set `"source": "hkgro"` in batches for this skill, including colonial or pre-1997 gazette PDFs.
-- Historical sunzi/HKGRO downloads → [parse-hkgro-gazettes](../parse-hkgro-gazettes/SKILL.md) (not this skill).
+- **Never** set `"source": "hkgro"` in this skill (including colonial scans in inbox).
+- Historical sunzi/HKGRO downloads → [parse-hkgro-gazettes](../parse-hkgro-gazettes/SKILL.md).
+
+The app **does not** show crowd vs HKGRO badges. After apply, users see **來源** / **Source** = gazette evidence (`gazette_primary` / `gazette_inferred`) with a PDF link — not `naming_source`.
 
 ## When the user sends data
 
@@ -25,11 +26,11 @@ Typical input (any of):
 - List of Chinese and/or English street names
 - Optional PDF paths (`cgn…pdf`, `egn…pdf`)
 
-Goal: mark streets under **最近核實** with badge **社群** (`crowdsubmitted`) on the map.
+Goal: set naming date + **來源** `gazette_primary` (hosted PDF), list under **最近核實**, update map year coloring.
 
 ## Gazette proof backfill (existing records)
 
-When a street **already has** a naming year or a **historical** crowd event (e.g. first Previous G.N. parsed from a later G.N.4509 notice) but **no hosted gazette PDF** (`government_notice_url_en` / `proof_pdf_url` null):
+When a street **already has** a naming year or a **`gazette_inferred`** / `unknown` crowd event (e.g. first Previous G.N. parsed from a later G.N.4509 notice) but **no hosted gazette PDF** for the cited G.N. (`government_notice_url_en` / `proof_pdf_url` null):
 
 1. **Apply the primary gazette** for that naming date as a normal crowd batch (`pdf_en`, `gazette_notice_label`, `publication_date`, matched `street_code`). The merge pipeline attaches `/egazette/en/{year}-gn{no}.pdf` to map and 最近核實.
 2. **Do not** keep indirect citation remarks (`submitter_remarks` / batch `remarks` about “cited in G.N.…” or “misparsed egazette”). Remove them from batch JSON and drop duplicate `street-name-history` events for the same street + date once primary proof is applied.
@@ -55,7 +56,7 @@ Writes `data/crowdsubmissions/batches/{year}-gn{no}-draft.json` by default.
    - G.N. can often be inferred from filename (e.g. `GN1078-74…` → `G.N.1078`)
    - **Do not** transcribe gazette location/DESCRIPTION text into the batch
 
-3. **Show draft to user for verification** — names, date, match table from `--match`.
+3. **Show draft to user for verification** — G.N., date, and `--match` table: each street must show `✓` with the expected **street_code** and **Chinese** name (not English-only on a homonym).
 
 4. **Apply only after user confirms**:
 
@@ -90,12 +91,15 @@ PDFs are copied to `batch-inbox/`, published to `public/egazette/`, and stored a
 
 **`submitter_remarks`:** do **not** extract gazette DESCRIPTION / location paragraphs from PDFs in this skill. Omit remarks when EN+ZH match the database. Include remarks **only** when gazette EN or ZH differs from the matched record (e.g. `Gazette ZH 連合道; database 連道.`). Never use generic batch labels or “cited in G.N.…” / “misparsed egazette” notes — primary gazette proof replaces those.
 
+When transcribing from PDF/vision, capture **both** name columns from the notice table (Description / Name in EN and ZH). Do not fill English only and skip Chinese.
+
 ## Batch JSON shape
 
-Template: `data/crowdsubmissions/batch-template.json`
+Template: `data/crowdsubmissions/batch-template.json` (`evidence_schema_version: 1`)
 
 ```json
 {
+  "evidence_schema_version": 1,
   "source": "crowdsubmitted",
   "gazette_notice_label": "G.N.8104",
   "publication_date": "2004-12-17",
@@ -108,13 +112,74 @@ Template: `data/crowdsubmissions/batch-template.json`
 }
 ```
 
-**Name change history** (multiple dates per street): use `history` on a street entry and `street_code`. Events are stored in `data/crowdsubmissions/street-name-history.json`. See `docs/street-name-history-schema.md`.
+### `evidence_kind` (required on each `history` entry)
 
-**Street matching:** resolve by `street_code`, or match Chinese/English names against `public/data/master/pending-naming-years.json`.
+| Kind | When to use |
+|------|-------------|
+| `gazette_primary` | This batch’s G.N. PDF is the naming notice for that date |
+| `gazette_inferred` | Date/G.N. from “Previous G.N.” in another notice — set `derived_from` (citing batch G.N. + cited G.N.) |
+| `news` / `legal_other` / `hearsay` | Non-gazette; add `evidence_kind_note` or brief `submitter_remarks` |
+| `unknown` | Date known; primary gazette not on file yet |
+
+### `event_role` (required on each `history` entry)
+
+| Role | When |
+|------|------|
+| `current_name` | This event’s **after** names match geojson / the matched `street_code` row |
+| `former_name` | Older name or declare that does not match today’s map name |
+| `built` | Opened/built date (not used for map year in v1) |
+| `name_removed` | `change_kind: delete` |
+
+PDF parse drafts must include `history[]` with `evidence_kind: gazette_primary` and `event_role: current_name` for each street in the notice (see `parse-crowd-gazette-pdf.mjs`).
+
+Do **not** use deprecated `evidence_level` alone. See `docs/street-name-history-schema.md`.
+
+**Name change history** (multiple dates per street): use `history` on a street entry and `street_code`. Events are stored in `data/crowdsubmissions/street-name-history.json`.
+
+## Street matching (critical)
+
+Hong Kong centrelines often share the **same English name** with different Chinese names (e.g. **Wing Yip Street** → 榮業街 `12751` and 永業街 `12752`). **Never locate a street by English alone** when more than one pending road shares that English name.
+
+`apply-crowd-batch.mjs` / `parse-crowd-gazette-pdf.mjs --match` resolve rows via `matchRowToRoadKey` in `scripts/lib/crowd-submission-core.mjs`:
+
+| Priority | What to provide | Result |
+|----------|-----------------|--------|
+| 1 | `street_code` | Exact match (best) |
+| 2 | `chinese_name` + `english_name` | Match both against `pending-naming-years.json` |
+| 3 | `chinese_name` only | OK if **unique** in pending data |
+| 4 | `english_name` only | OK only if **exactly one** road has that English name; otherwise **stop** and ask user / add Chinese |
+
+### Agent checklist (before apply)
+
+1. Run `--match` on the draft and read the match table (`✓` / `✗` per street).
+2. For each street, prefer **`chinese_name` from the gazette** (and English when shown). Copy both into batch JSON.
+3. If the gazette lists only English, look up `public/data/hk-streets.geojson` or pending data for the **Chinese name** on the target centreline — do not guess from English alone.
+4. If English matches multiple roads, disambiguate with Chinese or `street_code` before apply.
+5. After apply, spot-check map chip: Chinese + English match the intended road; **來源** links to the G.N. PDF (`憲報（原文）` when primary).
+
+### Batch JSON (required fields)
+
+- **Always** set `chinese_name` when the notice or Lands Department plan gives it.
+- Set `english_name` when known (confirmation, not sole key).
+- Set `street_code` when `--match` or pending lookup returns it.
+
+```json
+{ "street_code": "12045", "chinese_name": "盛芳街", "english_name": "Shing Fong Street" }
+```
+
+**Avoid:**
+
+```json
+{ "english_name": "Wing Yip Street" }
+```
+
+when multiple `Wing Yip Street` rows exist — apply will **fail** or you risk the wrong centreline.
+
+**String shorthand:** `"streets": ["盛芳街", "欣澳道"]` is treated as **Chinese only** (good). Do not pass English-only strings unless you have verified uniqueness.
+
+**Homonym pitfall (map merge):** Even with a correct crowd event, `merge:crowd` used to colour lines by English fallback. Excluded wrong codes live in `data/naming-date-exclusions.json` (e.g. `12751` 榮業街). Add `street_code` there if a homonym must stay un-dated.
 
 **PDF filenames:** `cgn200408518104` / `egn200408518104` auto-derive egazette URLs and G.N. number when `gazette_notice_label` is omitted.
-
-**Streets only as strings:** `"streets": ["竹篙灣公路", "欣澳道"]` also works.
 
 ## What the script updates
 
@@ -125,7 +190,7 @@ Template: `data/crowdsubmissions/batch-template.json`
 | `data/crowdsubmissions/street-events-approved.json` | Crowd events |
 | `public/data/master/submission-tracker.json` | Approved badges |
 | `public/data/master/recently-verified.json` | 最近核實 list |
-| `public/data/hk-streets.geojson` | Map coloring + source badge **社群** (`crowdsubmitted`) |
+| `public/data/hk-streets.geojson` | Map year coloring; `naming_details` → **來源** column (`gazette_primary` / inferred) |
 
 ## CSV header pitfall
 
@@ -155,4 +220,4 @@ If editing `batch-approved.csv` manually, use header **`gazette notice label`** 
 
 1. Write batch JSON with those fields.
 2. Run `node scripts/apply-crowd-batch.mjs …`
-3. Confirm streets show `naming_source: crowdsubmitted`.
+3. Confirm **街道** table **來源** shows `憲報（原文）` (or inferred) with working PDF link; map chip matches street names.

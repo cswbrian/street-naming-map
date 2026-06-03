@@ -244,15 +244,26 @@ async function main() {
             street_name_en: street.en,
             street_name_zh: street.zh,
             gazette_notice_label: hit.gazette_notice_label,
-            evidence_level: 'historical',
+            evidence_kind: 'gazette_inferred',
             is_declaration_event: true,
-            submitter_remarks: `First Previous G.N. for ${street.zh} cited in ${notice.gn} (${notice.date}).`,
+            derived_from: [
+              {
+                kind: 'gazette_citation',
+                notice_label: notice.gn,
+                publication_date: notice.date,
+                government_notice_url_en: notice.url_en ?? null,
+                government_notice_url_zh: notice.url_zh ?? null,
+                cited_notice_label: hit.gazette_notice_label,
+                cited_publication_date: hit.publication_date,
+              },
+            ],
           },
         ],
       })
     }
     if (!batchStreets.length) continue
     batches.push({
+      evidence_schema_version: 1,
       batch_id: `${notice.date.slice(0, 4)}-${notice.notice_no.toLowerCase()}-tier-a`,
       source: 'crowdsubmitted',
       gazette_notice_label: notice.gn,

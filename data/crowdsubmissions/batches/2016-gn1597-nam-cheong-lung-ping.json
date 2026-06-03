@@ -20,7 +20,21 @@
           "gazette_notice_label": "G.N.3803",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Previous G.N. for 龍坪道 cited in G.N.1597 (2016-03-18)."
+          "submitter_remarks": "Previous G.N. for 龍坪道 cited in G.N.1597 (2016-03-18).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.1597",
+              "publication_date": "2016-03-18",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.1597",
+              "cited_publication_date": "1985-11-15"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -37,9 +51,24 @@
           "gazette_notice_label": "G.N.616",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 南昌街 in G.N.1597 (earlier than G.N.1480 of 1970-07-17)."
+          "submitter_remarks": "First Previous G.N. for 南昌街 in G.N.1597 (earlier than G.N.1480 of 1970-07-17).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.1597",
+              "publication_date": "2016-03-18",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.1597",
+              "cited_publication_date": "1961-04-14"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

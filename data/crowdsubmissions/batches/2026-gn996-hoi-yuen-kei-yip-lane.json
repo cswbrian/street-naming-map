@@ -20,7 +20,21 @@
           "gazette_notice_label": "G.N.264",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Previous G.N. for 開源道 cited in G.N.996 (2026-02-13)."
+          "submitter_remarks": "Previous G.N. for 開源道 cited in G.N.996 (2026-02-13).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.996",
+              "publication_date": "2026-02-13",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.996",
+              "cited_publication_date": "1957-02-22"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -37,9 +51,24 @@
           "gazette_notice_label": "G.N.310",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Previous G.N. for 基業里 cited in G.N.996 (2026-02-13)."
+          "submitter_remarks": "Previous G.N. for 基業里 cited in G.N.996 (2026-02-13).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.996",
+              "publication_date": "2026-02-13",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.996",
+              "cited_publication_date": "1989-01-27"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

@@ -20,9 +20,24 @@
           "gazette_notice_label": "G.N.312",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 菲林明道 cited in G.N.1971 (2019-03-15)."
+          "submitter_remarks": "First Previous G.N. for 菲林明道 cited in G.N.1971 (2019-03-15).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.1971",
+              "publication_date": "2019-03-15",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.1971",
+              "cited_publication_date": "1929-06-14"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

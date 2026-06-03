@@ -18,7 +18,11 @@
           "street_name_zh": "旭龢道",
           "gazette_notice_label": "Government Notification No. 386",
           "government_notice_url_en": "/egazette/en/1928-gn386.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -34,9 +38,14 @@
           "street_name_zh": "寶珊道",
           "gazette_notice_label": "Government Notification No. 386",
           "government_notice_url_en": "/egazette/en/1928-gn386.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

@@ -1,0 +1,31 @@
+{
+  "batch_id": "1927-gn699-yu-chau-street",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "Government Notification No. 699",
+  "publication_date": "1927-11-25",
+  "gazette_url_en": "/egazette/en/1927-gn699.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1927-gn699-yu-chau-street/1927-gn699.pdf",
+  "streets": [
+    {
+      "street_code": "12888",
+      "english_name": "YU CHAU STREET",
+      "chinese_name": "汝州街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Yu Chow Street",
+          "street_name_zh": "汝州街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}

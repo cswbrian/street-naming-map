@@ -17,7 +17,11 @@
           "street_name_zh": "永祥街",
           "gazette_notice_label": "Government Notification No. 1047",
           "government_notice_url_en": "/egazette/en/1939-gn1047.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -33,10 +37,15 @@
           "street_name_zh": "永寧街",
           "gazette_notice_label": "Government Notification No. 1047",
           "government_notice_url_en": "/egazette/en/1939-gn1047.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

@@ -20,7 +20,21 @@
           "gazette_notice_label": "G.N.1043",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 崇耀街 cited in G.N.3296 (2018-05-04)."
+          "submitter_remarks": "First Previous G.N. for 崇耀街 cited in G.N.3296 (2018-05-04).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.3296",
+              "publication_date": "2018-05-04",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.3296",
+              "cited_publication_date": "1980-04-03"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -37,9 +51,24 @@
           "gazette_notice_label": "G.N.1523",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 茜發道 cited in G.N.3296 (2018-05-04)."
+          "submitter_remarks": "First Previous G.N. for 茜發道 cited in G.N.3296 (2018-05-04).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.3296",
+              "publication_date": "2018-05-04",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.3296",
+              "cited_publication_date": "1989-05-05"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

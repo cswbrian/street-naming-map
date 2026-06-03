@@ -19,9 +19,14 @@
           "gazette_notice_label": "Government Notification No. 483",
           "government_notice_url_en": "/egazette/en/1920-gn483.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 致和街; database 志和街."
+          "submitter_remarks": "Gazette ZH 致和街; database 志和街.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

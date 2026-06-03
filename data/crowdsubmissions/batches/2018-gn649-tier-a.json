@@ -20,7 +20,21 @@
           "gazette_notice_label": "G.N.1577",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 景福街 cited in G.N.649 (2018-02-02)."
+          "submitter_remarks": "First Previous G.N. for 景福街 cited in G.N.649 (2018-02-02).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.649",
+              "publication_date": "2018-02-02",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.649",
+              "cited_publication_date": "1961-09-08"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -37,7 +51,21 @@
           "gazette_notice_label": "G.N.1577",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 六合街 cited in G.N.649 (2018-02-02)."
+          "submitter_remarks": "First Previous G.N. for 六合街 cited in G.N.649 (2018-02-02).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.649",
+              "publication_date": "2018-02-02",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.649",
+              "cited_publication_date": "1961-09-08"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -54,7 +82,21 @@
           "gazette_notice_label": "G.N.1577",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 四美街 cited in G.N.649 (2018-02-02)."
+          "submitter_remarks": "First Previous G.N. for 四美街 cited in G.N.649 (2018-02-02).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.649",
+              "publication_date": "2018-02-02",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.649",
+              "cited_publication_date": "1961-09-08"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -71,9 +113,24 @@
           "gazette_notice_label": "G.N.1577",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 彝倫街 cited in G.N.649 (2018-02-02)."
+          "submitter_remarks": "First Previous G.N. for 彝倫街 cited in G.N.649 (2018-02-02).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.649",
+              "publication_date": "2018-02-02",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.649",
+              "cited_publication_date": "1961-09-08"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

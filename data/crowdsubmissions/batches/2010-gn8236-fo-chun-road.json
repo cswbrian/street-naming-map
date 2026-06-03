@@ -1,0 +1,33 @@
+{
+  "batch_id": "2010-gn8236-fo-chun-road",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.8236",
+  "publication_date": "2010-12-24",
+  "gazette_url_en": "/egazette/en/2010-14-51-8236.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260603T154436Z-3-001/egn201014518236 - CS L.pdf",
+  "streets": [
+    {
+      "street_code": "14231",
+      "english_name": "FO CHUN ROAD",
+      "chinese_name": "科進路",
+      "history": [
+        {
+          "publication_date": "2010-12-24",
+          "change_kind": "rename",
+          "street_name_en": "Fo Chun Road",
+          "street_name_zh": "科進路",
+          "previous_street_name_en": "Fo King Road",
+          "previous_street_name_zh": null,
+          "gazette_notice_label": "G.N.8236",
+          "government_notice_url_en": "/egazette/en/2010-14-51-8236.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}

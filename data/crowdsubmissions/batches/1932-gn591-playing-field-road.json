@@ -17,10 +17,15 @@
           "street_name_zh": "運動場道",
           "gazette_notice_label": "Government Notification No. 591",
           "proof_pdf_url": "/egazette/en/1932-gn591.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

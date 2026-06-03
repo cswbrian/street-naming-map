@@ -132,6 +132,64 @@ export function makeStreetKey(streetNameEn, streetNameZh) {
 export const CHANGE_KINDS = new Set(['declare', 'rename', 'delete'])
 export const EVIDENCE_LEVELS = new Set(['gazette', 'historical'])
 
+export const EVIDENCE_KINDS = new Set([
+  'gazette_primary',
+  'gazette_inferred',
+  'legal_other',
+  'news',
+  'hearsay',
+  'unknown',
+  'other',
+])
+
+/** Badge / sort strength (higher = stronger). */
+export const EVIDENCE_KIND_STRENGTH = {
+  gazette_primary: 70,
+  gazette_inferred: 60,
+  legal_other: 50,
+  news: 40,
+  hearsay: 30,
+  unknown: 20,
+  other: 10,
+}
+
+/** UX role: what this event means for the map vs history list. */
+export const EVENT_ROLES = new Set([
+  'current_name',
+  'former_name',
+  'built',
+  'name_removed',
+])
+
+export function normalizeEventRole(value) {
+  const text = String(value ?? '').trim().toLowerCase()
+  if (EVENT_ROLES.has(text)) return text
+  return null
+}
+
+export function isCurrentNameEvent(event, displayNames = {}) {
+  const role = normalizeEventRole(event?.event_role)
+  if (role === 'current_name') return true
+  if (role === 'former_name' || role === 'built' || role === 'name_removed') return false
+  return namesMatchNormalized(event, displayNames.en, displayNames.zh)
+}
+
+/** Infer event_role from change_kind and whether after-names match geojson / display names. */
+export function resolveEventRole(event, displayNames = {}) {
+  const explicit = normalizeEventRole(event?.event_role)
+  if (explicit) return explicit
+
+  const changeKind = normalizeChangeKind(event?.change_kind)
+  if (changeKind === 'delete') return 'name_removed'
+
+  const matchesCurrent = namesMatchNormalized(event, displayNames.en, displayNames.zh)
+  if (changeKind === 'rename') return matchesCurrent ? 'current_name' : 'former_name'
+  if (changeKind === 'declare' || event?.is_declaration_event) {
+    return matchesCurrent ? 'current_name' : 'former_name'
+  }
+  return matchesCurrent ? 'current_name' : 'former_name'
+}
+
 export function normalizeChangeKind(value) {
   const text = String(value ?? '').trim().toLowerCase()
   if (CHANGE_KINDS.has(text)) return text
@@ -143,6 +201,106 @@ export function normalizeEvidenceLevel(value) {
   if (EVIDENCE_LEVELS.has(text)) return text
   if (!text && value === undefined) return null
   return text || null
+}
+
+export function normalizeEvidenceKind(value) {
+  const text = String(value ?? '').trim().toLowerCase()
+  if (EVIDENCE_KINDS.has(text)) return text
+  return null
+}
+
+export function evidenceLevelFromKind(kind) {
+  if (kind === 'gazette_primary') return 'gazette'
+  if (kind) return 'historical'
+  return null
+}
+
+export function normalizeDerivedFrom(raw) {
+  if (!Array.isArray(raw) || !raw.length) return null
+  const entries = raw
+    .map((item) => {
+      if (!item || typeof item !== 'object') return null
+      const kind = String(item.kind ?? 'gazette_citation').trim() || 'gazette_citation'
+      return {
+        kind,
+        notice_label: item.notice_label ?? null,
+        publication_date: item.publication_date ?? null,
+        government_notice_url_en: item.government_notice_url_en ?? null,
+        government_notice_url_zh: item.government_notice_url_zh ?? null,
+        cited_notice_label: item.cited_notice_label ?? null,
+        cited_publication_date: item.cited_publication_date ?? null,
+      }
+    })
+    .filter(Boolean)
+  return entries.length ? entries : null
+}
+
+/** Resolve evidence_kind from explicit field or legacy evidence_level + URLs. */
+export function resolveEvidenceKind(raw = {}) {
+  const explicit = normalizeEvidenceKind(raw.evidence_kind)
+  if (explicit) return explicit
+
+  const level = normalizeEvidenceLevel(raw.evidence_level)
+  const hasUrl = Boolean(
+    raw.government_notice_url_en || raw.government_notice_url_zh || raw.gazette_url,
+  )
+
+  if (level === 'gazette' || (hasUrl && level !== 'historical')) return 'gazette_primary'
+  if (level === 'historical') return 'unknown'
+  if (hasUrl) return 'gazette_primary'
+  return null
+}
+
+export function enrichEventWithEvidenceKind(event) {
+  if (!event) return event
+  const kind = resolveEvidenceKind(event) ?? 'unknown'
+  const evidenceLevel = evidenceLevelFromKind(kind)
+  return {
+    ...event,
+    evidence_kind: kind,
+    evidence_level: event.evidence_level ?? evidenceLevel,
+    derived_from: normalizeDerivedFrom(event.derived_from) ?? event.derived_from ?? null,
+    evidence_kind_note: event.evidence_kind_note ?? null,
+  }
+}
+
+/** Evidence + event_role (pass displayNames from geojson or latest timeline names). */
+export function enrichEvent(event, displayNames = null) {
+  if (!event) return event
+  const withEvidence = enrichEventWithEvidenceKind(event)
+  const display = displayNames ?? { en: null, zh: null }
+  return {
+    ...withEvidence,
+    event_role: resolveEventRole(withEvidence, display),
+  }
+}
+
+/** Event that supplies canonical_naming_date for the aggregate. */
+export function pickCanonicalEvidenceEvent(ordered, canonicalDate, derivationReason, displayNames = {}) {
+  if (!canonicalDate || !ordered?.length) return null
+  const sameDate = ordered.filter((event) => event.publication_date === canonicalDate)
+  if (!sameDate.length) return ordered[ordered.length - 1] ?? null
+  if (sameDate.length === 1) return sameDate[0]
+
+  const currentOnDate = sameDate.filter((event) => normalizeEventRole(event.event_role) === 'current_name')
+  if (currentOnDate.length === 1) return currentOnDate[0]
+
+  if (derivationReason === 'current_name_since') {
+    const rename = sameDate.find(
+      (event) =>
+        normalizeChangeKind(event.change_kind) === 'rename' &&
+        isCurrentNameEvent(event, displayNames),
+    )
+    if (rename) return rename
+  }
+
+  const declaration = sameDate.find(
+    (event) =>
+      (event.is_declaration_event || normalizeChangeKind(event.change_kind) === 'declare') &&
+      isCurrentNameEvent(event, displayNames),
+  )
+  if (declaration) return declaration
+  return sameDate[sameDate.length - 1]
 }
 
 /** Stable key for grouping all events on one road centreline. */
@@ -185,23 +343,25 @@ export function buildNameHistory(events) {
     notice_url_en: event.government_notice_url_en ?? null,
     notice_url_zh: event.government_notice_url_zh ?? null,
     evidence_level: normalizeEvidenceLevel(event.evidence_level),
+    evidence_kind: event.evidence_kind ?? resolveEvidenceKind(event),
+    event_role: event.event_role ?? null,
+    derived_from: normalizeDerivedFrom(event.derived_from),
+    evidence_kind_note: event.evidence_kind_note ?? null,
     source: event.source ?? null,
     submitter_remarks: event.submitter_remarks ?? null,
   }))
 }
 
 function deriveAggregateNaming(ordered, displayNames = {}) {
-  const displayEn = displayNames.en ?? null
-  const displayZh = displayNames.zh ?? null
   const renames = ordered.filter((event) => normalizeChangeKind(event.change_kind) === 'rename')
   const currentRename = [...renames]
     .reverse()
-    .find((event) => namesMatchNormalized(event, displayEn, displayZh))
+    .find((event) => isCurrentNameEvent(event, displayNames))
   const currentNameSince = currentRename?.publication_date ?? null
   const earliestDeclaration = ordered.find((event) => {
     const kind = normalizeChangeKind(event.change_kind)
     if (kind === 'rename' || kind === 'delete') return false
-    return event.is_declaration_event || kind === 'declare'
+    return (event.is_declaration_event || kind === 'declare') && isCurrentNameEvent(event, displayNames)
   })
   const firstEvent = ordered[0] ?? null
   const canonicalDate =
@@ -263,14 +423,21 @@ export function aggregateByStreet(events, options = {}) {
 
   for (const [aggregateKey, group] of grouped.entries()) {
     if (aggregateKey === '|' || aggregateKey === 'code:') continue
-    const ordered = group.toSorted((a, b) =>
+    const orderedRaw = group.toSorted((a, b) =>
       String(a.publication_date ?? '').localeCompare(String(b.publication_date ?? '')),
     )
     const streetCode = String(
-      ordered.find((event) => String(event.street_code ?? '').trim())?.street_code ?? '',
+      orderedRaw.find((event) => String(event.street_code ?? '').trim())?.street_code ?? '',
     ).trim()
-    const display = pickDisplayNames(ordered)
+    const display = pickDisplayNames(orderedRaw)
+    const ordered = orderedRaw.map((event) => enrichEvent(event, display))
     const derived = deriveAggregateNaming(ordered, display)
+    const canonicalEvent = pickCanonicalEvidenceEvent(
+      ordered,
+      derived.canonical_naming_date,
+      derived.derivation_reason,
+      display,
+    )
     let canonicalNamingDate = derived.canonical_naming_date
     let canonicalNamingYear = derived.canonical_naming_year
     let derivationReason = derived.derivation_reason
@@ -294,6 +461,9 @@ export function aggregateByStreet(events, options = {}) {
       current_name_since_date: derived.current_name_since_date,
       first_known_naming_date: derived.first_known_naming_date,
       derivation_reason: derivationReason,
+      canonical_evidence_kind: canonicalEvent?.evidence_kind ?? null,
+      canonical_evidence_event_id: canonicalEvent?.event_id ?? null,
+      canonical_event_role: canonicalEvent?.event_role ?? null,
       name_history: buildNameHistory(ordered),
       event_history: ordered,
       event_count: ordered.length,
@@ -537,11 +707,10 @@ export function finalizeCrowdEvent(raw, index = 0) {
     (raw.is_declaration_event !== false && changeKind !== 'rename' && changeKind !== 'delete')
   const source = raw.source ?? (shouldUseHkgroSource(raw) ? 'hkgro' : 'crowdsubmitted')
   const noticeTypes = noticeTypeLabelsForSource(source, changeKind, isDecl)
-  const evidenceLevel =
-    normalizeEvidenceLevel(raw.evidence_level) ??
-    (raw.government_notice_url_en || raw.gazette_url ? 'gazette' : null)
+  const displayNames = raw.display_names ?? raw.displayNames ?? null
+  const eventRole = normalizeEventRole(raw.event_role)
 
-  return {
+  const base = {
     event_id: raw.event_id ?? `crowd|${submissionId}`,
     source,
     street_code: String(raw.street_code ?? '').trim() || null,
@@ -567,12 +736,18 @@ export function finalizeCrowdEvent(raw, index = 0) {
     related_gazette_plan_labels_zh: [],
     year_bucket: publicationDate ? Number(publicationDate.slice(0, 4)) : null,
     is_declaration_event: isDecl,
-    evidence_level: evidenceLevel,
+    evidence_kind: raw.evidence_kind ?? null,
+    evidence_level: raw.evidence_level ?? null,
+    event_role: eventRole,
+    derived_from: normalizeDerivedFrom(raw.derived_from),
+    evidence_kind_note: raw.evidence_kind_note ?? null,
     proof_pdf_url: raw.proof_pdf_url ?? null,
     submitter_remarks: raw.submitter_remarks ?? raw.remarks ?? null,
     reviewed_at: raw.reviewed_at ?? new Date().toISOString().slice(0, 10),
     submission_id: submissionId,
   }
+
+  return enrichEvent(base, displayNames)
 }
 
 /** Build one or more crowd events from a batch street entry (optional `history` array). */
@@ -586,6 +761,8 @@ export function buildCrowdEventsFromStreetEntry(street, batchDefaults = {}) {
     normalizeStreetName(street.english_name) ||
     null
   const resolvedZh = String(street.chinese_name ?? street.zh ?? street.name ?? '').trim() || null
+  const displayNames = batchDefaults.display_names ??
+    batchDefaults.displayNames ?? { en: resolvedEn, zh: resolvedZh }
 
   return history.map((entry, index) => {
     const publicationDate = String(entry.publication_date ?? entry.date ?? '').trim()
@@ -601,9 +778,15 @@ export function buildCrowdEventsFromStreetEntry(street, batchDefaults = {}) {
       String(entry.submission_id ?? '').trim() ||
       `${batchDefaults.batch_id ?? 'history'}-${suffix}-${publicationDate}`
 
+    const entryKind = normalizeEvidenceKind(entry.evidence_kind)
+    const batchKind = normalizeEvidenceKind(batchDefaults.evidence_kind)
     const evidenceLevel = entry.evidence_level ?? batchDefaults.evidence_level ?? null
     const inheritBatchNotice =
-      evidenceLevel === 'gazette' || changeKind === 'rename' || changeKind === 'delete'
+      entryKind === 'gazette_primary' ||
+      batchKind === 'gazette_primary' ||
+      evidenceLevel === 'gazette' ||
+      changeKind === 'rename' ||
+      changeKind === 'delete'
 
     return finalizeCrowdEvent({
       submission_id: submissionId,
@@ -636,7 +819,12 @@ export function buildCrowdEventsFromStreetEntry(street, batchDefaults = {}) {
         entry.government_notice_url_zh ??
         (inheritBatchNotice ? batchDefaults.gazette_url_zh : null) ??
         null,
+      evidence_kind: entry.evidence_kind ?? batchDefaults.evidence_kind ?? null,
       evidence_level: evidenceLevel,
+      event_role: entry.event_role ?? null,
+      derived_from: entry.derived_from ?? batchDefaults.derived_from ?? null,
+      evidence_kind_note: entry.evidence_kind_note ?? null,
+      display_names: displayNames,
       is_declaration_event: entry.is_declaration_event,
       submitter_remarks: entry.submitter_remarks ?? entry.remarks ?? null,
       reviewed_at: entry.reviewed_at ?? batchDefaults.reviewed_at ?? null,
@@ -680,6 +868,12 @@ export function finalizeEgazetteEvent(raw, index = 0) {
     related_gazette_plan_labels_zh: raw.related_gazette_plan_labels_zh ?? [],
     year_bucket: yearBucket,
     is_declaration_event: isDecl,
+    evidence_kind: resolveEvidenceKind(raw) ?? (hosted.en || hosted.zh ? 'gazette_primary' : 'unknown'),
+    evidence_level:
+      normalizeEvidenceLevel(raw.evidence_level) ??
+      evidenceLevelFromKind(resolveEvidenceKind(raw) ?? 'gazette_primary'),
+    derived_from: normalizeDerivedFrom(raw.derived_from),
+    evidence_kind_note: raw.evidence_kind_note ?? null,
     notice_key: noticeKey,
     pdf_path_en: raw.pdf_path_en ?? null,
     pdf_path_zh: raw.pdf_path_zh ?? null,

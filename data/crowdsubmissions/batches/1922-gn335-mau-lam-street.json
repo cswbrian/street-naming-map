@@ -18,9 +18,14 @@
           "street_name_zh": "茂林街",
           "gazette_notice_label": "Government Notification No. 335",
           "government_notice_url_en": "/egazette/en/1922-gn335.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

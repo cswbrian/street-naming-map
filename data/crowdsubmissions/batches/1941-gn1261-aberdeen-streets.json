@@ -17,7 +17,11 @@
           "street_name_zh": "洛陽街",
           "gazette_notice_label": "Government Notification No. 1261",
           "government_notice_url_en": "/egazette/en/1941-gn1261.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -33,10 +37,15 @@
           "street_name_zh": "成都道",
           "gazette_notice_label": "Government Notification No. 1261",
           "government_notice_url_en": "/egazette/en/1941-gn1261.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

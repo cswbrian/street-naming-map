@@ -17,7 +17,11 @@
           "street_name_zh": "新柳街",
           "gazette_notice_label": "Government Notification No. 334",
           "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -33,7 +37,11 @@
           "street_name_zh": "山西街",
           "gazette_notice_label": "Government Notification No. 334",
           "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -49,7 +57,11 @@
           "street_name_zh": "江西街",
           "gazette_notice_label": "Government Notification No. 334",
           "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -65,7 +77,11 @@
           "street_name_zh": "安徽街",
           "gazette_notice_label": "Government Notification No. 334",
           "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -81,7 +97,11 @@
           "street_name_zh": "江蘇街",
           "gazette_notice_label": "Government Notification No. 334",
           "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -97,7 +117,11 @@
           "street_name_zh": "上鄉道",
           "gazette_notice_label": "Government Notification No. 334",
           "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -113,7 +137,11 @@
           "street_name_zh": "貴州街",
           "gazette_notice_label": "Government Notification No. 334",
           "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -129,7 +157,11 @@
           "street_name_zh": "四川街",
           "gazette_notice_label": "Government Notification No. 334",
           "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -145,7 +177,11 @@
           "street_name_zh": "庇利街",
           "gazette_notice_label": "Government Notification No. 334",
           "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -161,7 +197,11 @@
           "street_name_zh": "伯爵街",
           "gazette_notice_label": "Government Notification No. 334",
           "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -177,7 +217,11 @@
           "street_name_zh": "白蘭軒道",
           "gazette_notice_label": "Government Notification No. 334",
           "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -193,10 +237,15 @@
           "street_name_zh": "宜昌街",
           "gazette_notice_label": "Government Notification No. 334",
           "government_notice_url_en": "/egazette/en/1935-gn334.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

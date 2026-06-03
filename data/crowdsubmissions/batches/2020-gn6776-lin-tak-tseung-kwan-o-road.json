@@ -20,7 +20,21 @@
           "gazette_notice_label": "G.N.2478",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Previous G.N. for 連德道 cited in G.N.6776 (2020-11-20)."
+          "submitter_remarks": "Previous G.N. for 連德道 cited in G.N.6776 (2020-11-20).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.6776",
+              "publication_date": "2020-11-20",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.6776",
+              "cited_publication_date": "1987-07-31"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -37,9 +51,24 @@
           "gazette_notice_label": "G.N.1269",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Previous G.N. for 將軍澳道 cited in G.N.6776 (2020-11-20)."
+          "submitter_remarks": "Previous G.N. for 將軍澳道 cited in G.N.6776 (2020-11-20).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.6776",
+              "publication_date": "2020-11-20",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.6776",
+              "cited_publication_date": "1992-04-10"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

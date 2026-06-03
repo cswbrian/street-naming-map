@@ -20,9 +20,24 @@
           "gazette_notice_label": "G.N.111",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 太子道東 cited in G.N.6972 (2018-09-14)."
+          "submitter_remarks": "First Previous G.N. for 太子道東 cited in G.N.6972 (2018-09-14).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.6972",
+              "publication_date": "2018-09-14",
+              "government_notice_url_en": "/egazette/en/2018-22-37-6972.pdf",
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.111",
+              "cited_publication_date": "1979-01-12"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

@@ -17,7 +17,11 @@
           "street_name_zh": "何東道",
           "gazette_notice_label": "Government Notification No. 341",
           "government_notice_url_en": "/egazette/en/1939-gn341.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -34,7 +38,11 @@
           "gazette_notice_label": "Government Notification No. 341",
           "government_notice_url_en": "/egazette/en/1939-gn341.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 多庇道; database 打比道."
+          "submitter_remarks": "Gazette ZH 多庇道; database 打比道.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -51,7 +59,11 @@
           "gazette_notice_label": "Government Notification No. 341",
           "government_notice_url_en": "/egazette/en/1939-gn341.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 芙蓮道; database 火石道."
+          "submitter_remarks": "Gazette ZH 芙蓮道; database 火石道.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -67,10 +79,15 @@
           "street_name_zh": "蘭開夏道",
           "gazette_notice_label": "Government Notification No. 341",
           "government_notice_url_en": "/egazette/en/1939-gn341.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

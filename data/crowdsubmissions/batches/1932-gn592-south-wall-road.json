@@ -18,9 +18,14 @@
           "street_name_zh": "城南道",
           "gazette_notice_label": "Government Notification No. 592",
           "proof_pdf_url": "/egazette/en/1932-gn592.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

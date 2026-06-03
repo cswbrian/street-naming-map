@@ -17,7 +17,11 @@
           "street_name_zh": "糖街",
           "gazette_notice_label": "Government Notification No. 300",
           "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -33,7 +37,11 @@
           "street_name_zh": "愛秩序街",
           "gazette_notice_label": "Government Notification No. 300",
           "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -49,7 +57,11 @@
           "street_name_zh": "教堂街",
           "gazette_notice_label": "Government Notification No. 300",
           "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -65,7 +77,11 @@
           "street_name_zh": "工廠街",
           "gazette_notice_label": "Government Notification No. 300",
           "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -81,7 +97,11 @@
           "street_name_zh": "大德街",
           "gazette_notice_label": "Government Notification No. 300",
           "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -97,7 +117,11 @@
           "street_name_zh": "望隆街",
           "gazette_notice_label": "Government Notification No. 300",
           "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -113,7 +137,11 @@
           "street_name_zh": "油街",
           "gazette_notice_label": "Government Notification No. 300",
           "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -129,7 +157,11 @@
           "street_name_zh": "艇街",
           "gazette_notice_label": "Government Notification No. 300",
           "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -145,7 +177,11 @@
           "street_name_zh": "福元街",
           "gazette_notice_label": "Government Notification No. 300",
           "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -161,7 +197,11 @@
           "street_name_zh": "大強街",
           "gazette_notice_label": "Government Notification No. 300",
           "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -177,7 +217,11 @@
           "street_name_zh": "景明道",
           "gazette_notice_label": "Government Notification No. 300",
           "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -193,7 +237,11 @@
           "street_name_zh": "玻璃街",
           "gazette_notice_label": "Government Notification No. 300",
           "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -210,7 +258,11 @@
           "gazette_notice_label": "Government Notification No. 300",
           "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 連合道; database 連道."
+          "submitter_remarks": "Gazette ZH 連合道; database 連道.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -226,7 +278,11 @@
           "street_name_zh": "棉花路",
           "gazette_notice_label": "Government Notification No. 300",
           "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -242,10 +298,15 @@
           "street_name_zh": "東院道",
           "gazette_notice_label": "Government Notification No. 300",
           "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

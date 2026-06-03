@@ -30,22 +30,30 @@ function hasPreviousName(entry) {
   return Boolean(normalize(entry.previous_name_en) || normalize(entry.previous_name_zh))
 }
 
-/** Entries to show under “Previous name”. Keeps gazette renames but drops duplicate date/notice in the list. */
+function isHistoryOnlyEntry(entry, displayNames) {
+  const role = String(entry.event_role ?? '').trim()
+  if (role === 'current_name') return false
+  if (role === 'former_name' || role === 'built' || role === 'name_removed') return true
+  if (entry.change_kind === 'declare' && namesMatchEntryAndDisplay(entry, displayNames)) {
+    return false
+  }
+  return entry.change_kind === 'rename' || entry.change_kind === 'declare'
+}
+
+/** Entries for 舊稱 / timeline: former names, built, etc. — not current_name. */
 function filterFormerNameEntries(details, displayNames = null) {
   const history = details?.name_history
   if (!Array.isArray(history) || !history.length) return []
 
   return history.filter((entry) => {
-    if (entry.change_kind === 'declare' && namesMatchEntryAndDisplay(entry, displayNames)) {
-      return false
-    }
-    if (entry.change_kind === 'rename' && !hasPreviousName(entry)) {
+    if (!isHistoryOnlyEntry(entry, displayNames)) return false
+    if (entry.change_kind === 'rename' && !hasPreviousName(entry) && entry.event_role !== 'built') {
       return false
     }
     if (isCurrentGazetteRename(entry, details)) {
       return hasPreviousName(entry)
     }
-    return entry.change_kind === 'rename' || entry.change_kind === 'declare'
+    return true
   })
 }
 
@@ -74,8 +82,48 @@ function hasGazetteProof(entry) {
   return Boolean(normalize(entry.notice_url_en) || normalize(entry.notice_url_zh))
 }
 
+function hasDerivedGazetteProof(entry) {
+  const derived = entry.derived_from?.[0]
+  if (!derived) return false
+  return Boolean(
+    normalize(derived.government_notice_url_en) || normalize(derived.government_notice_url_zh),
+  )
+}
+
+function getHistoryEntryPendingMeta(entry, labels) {
+  const kind = String(entry.evidence_kind ?? '').trim()
+  if (hasGazetteProof(entry) || kind === 'gazette_primary') {
+    return { pending: false, pendingLabel: null }
+  }
+  if (kind === 'gazette_inferred') {
+    return {
+      pending: !hasDerivedGazetteProof(entry),
+      pendingLabel: labels.historyGazetteInferred ?? labels.historyGazettePending,
+    }
+  }
+  if (kind === 'news') return { pending: false, pendingLabel: labels.evidenceNews ?? null }
+  if (kind === 'hearsay') return { pending: false, pendingLabel: labels.evidenceHearsay ?? null }
+  if (kind === 'legal_other') {
+    return { pending: false, pendingLabel: labels.evidenceLegalOther ?? null }
+  }
+  if (kind === 'unknown' || !kind) {
+    return { pending: true, pendingLabel: labels.historyGazettePending }
+  }
+  return { pending: false, pendingLabel: null }
+}
+
+function getEventRoleLabel(entry, labels) {
+  const role = String(entry.event_role ?? '').trim()
+  if (role === 'built') return labels.eventRoleBuilt ?? null
+  if (role === 'name_removed') return labels.eventRoleNameRemoved ?? null
+  return null
+}
+
 /** Former name only (card header already shows the current name). */
 function buildHistoryName(entry, locale) {
+  if (entry.event_role === 'built') {
+    return formatName(entry, locale, 'current')
+  }
   const kind = entry.change_kind ?? 'other'
   if (kind === 'rename') {
     return formatName(entry, locale, 'previous')
@@ -84,6 +132,23 @@ function buildHistoryName(entry, locale) {
 }
 
 export function getHistoryNoticeLink(entry, locale) {
+  if (entry.evidence_kind === 'gazette_inferred' && entry.derived_from?.[0]) {
+    const derived = entry.derived_from[0]
+    const citedRaw = derived.cited_notice_label ?? entry.notice_label_en ?? entry.notice_label_zh
+    const label =
+      locale === 'zh'
+        ? formatNoticeLabel(citedRaw, 'zh') || citedRaw || '憲報'
+        : formatNoticeLabel(citedRaw, 'en') || citedRaw || 'Gazette'
+    const url =
+      locale === 'zh'
+        ? normalize(derived.government_notice_url_zh) ||
+          normalize(derived.government_notice_url_en)
+        : normalize(derived.government_notice_url_en) ||
+          normalize(derived.government_notice_url_zh)
+    if (url) return { url, label }
+    if (label) return { url: null, label }
+  }
+
   const url = normalize(entry.notice_url_en) || normalize(entry.notice_url_zh)
   if (!url) return null
   const raw = entry.notice_label_en ?? entry.notice_label_zh ?? ''
@@ -110,15 +175,18 @@ export function buildNameHistoryTimelineItems(details, locale, labels, displayNa
 
     shownNames.add(name)
     const rawDate = normalize(entry.date)
-    const pending = hideMeta ? false : !hasGazetteProof(entry)
+    const pendingMeta = hideMeta ? { pending: false, pendingLabel: null } : getHistoryEntryPendingMeta(entry, labels)
+
+    const roleLabel = hideMeta ? null : getEventRoleLabel(entry, labels)
 
     items.push({
       id: `${rawDate || 'unknown'}-${index}`,
       date: hideMeta ? null : formatHistoryDate(rawDate),
       dateTime: hideMeta ? null : rawDate || null,
       name,
-      pending,
-      pendingLabel: pending ? labels.historyGazettePending : null,
+      roleLabel,
+      pending: pendingMeta.pending,
+      pendingLabel: pendingMeta.pendingLabel,
       notice: hideMeta ? null : getHistoryNoticeLink(entry, locale),
     })
   }

@@ -18,7 +18,11 @@
           "gazette_notice_label": "Government Notification No. 165",
           "government_notice_url_en": "/egazette/en/1935-gn165.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 崇仁道; database 崇仁街."
+          "submitter_remarks": "Gazette ZH 崇仁道; database 崇仁街.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "former_name"
         }
       ]
     },
@@ -34,7 +38,11 @@
           "street_name_zh": "書院道",
           "gazette_notice_label": "Government Notification No. 165",
           "government_notice_url_en": "/egazette/en/1935-gn165.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -50,7 +58,11 @@
           "street_name_zh": "秀竹園道",
           "gazette_notice_label": "Government Notification No. 165",
           "government_notice_url_en": "/egazette/en/1935-gn165.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -66,7 +78,11 @@
           "street_name_zh": "品蘭街",
           "gazette_notice_label": "Government Notification No. 165",
           "government_notice_url_en": "/egazette/en/1935-gn165.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -82,10 +98,15 @@
           "street_name_zh": "述德街",
           "gazette_notice_label": "Government Notification No. 165",
           "government_notice_url_en": "/egazette/en/1935-gn165.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

@@ -18,7 +18,11 @@
           "street_name_zh": "大全街",
           "gazette_notice_label": "G.N.1078",
           "government_notice_url_en": "/egazette/en/1974-gn1078.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -34,7 +38,11 @@
           "street_name_zh": "埃華街",
           "gazette_notice_label": "G.N.1078",
           "government_notice_url_en": "/egazette/en/1974-gn1078.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -50,7 +58,11 @@
           "street_name_zh": "旺堤街",
           "gazette_notice_label": "G.N.1078",
           "government_notice_url_en": "/egazette/en/1974-gn1078.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -66,7 +78,11 @@
           "street_name_zh": "角祥街",
           "gazette_notice_label": "G.N.1078",
           "government_notice_url_en": "/egazette/en/1974-gn1078.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -82,9 +98,14 @@
           "street_name_zh": "大政街",
           "gazette_notice_label": "G.N.1078",
           "government_notice_url_en": "/egazette/en/1974-gn1078.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

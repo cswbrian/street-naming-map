@@ -20,7 +20,21 @@
           "gazette_notice_label": "G.N.1713",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 龍翔道 in G.N.6060 (earlier than G.N.2427 of 2017-04-21)."
+          "submitter_remarks": "First Previous G.N. for 龍翔道 in G.N.6060 (earlier than G.N.2427 of 2017-04-21).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.6060",
+              "publication_date": "2018-08-10",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.6060",
+              "cited_publication_date": "1960-11-11"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -37,7 +51,21 @@
           "gazette_notice_label": "G.N.4197",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Previous G.N. for 大磡道 cited in G.N.6060."
+          "submitter_remarks": "Previous G.N. for 大磡道 cited in G.N.6060.",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.6060",
+              "publication_date": "2018-08-10",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.6060",
+              "cited_publication_date": "1991-11-22"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -54,7 +82,21 @@
           "gazette_notice_label": "G.N.288",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 馬仔坑道 in G.N.6060 (earlier than G.N.327 of 1986-01-16)."
+          "submitter_remarks": "First Previous G.N. for 馬仔坑道 in G.N.6060 (earlier than G.N.327 of 1986-01-16).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.6060",
+              "publication_date": "2018-08-10",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.6060",
+              "cited_publication_date": "1976-02-06"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -71,9 +113,24 @@
           "gazette_notice_label": "G.N.2014",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Previous G.N. for 鳳舞街 cited in G.N.6060."
+          "submitter_remarks": "Previous G.N. for 鳳舞街 cited in G.N.6060.",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.6060",
+              "publication_date": "2018-08-10",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.6060",
+              "cited_publication_date": "1963-10-11"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

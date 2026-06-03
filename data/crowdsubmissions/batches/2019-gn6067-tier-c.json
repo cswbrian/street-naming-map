@@ -19,7 +19,21 @@
           "gazette_notice_label": "G.N.1743",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.6067 (2019-09-27)."
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.6067 (2019-09-27).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.6067",
+              "publication_date": "2019-09-27",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.6067",
+              "cited_publication_date": "1959-12-11"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ],
       "allow_name_only": true
@@ -37,7 +51,21 @@
           "gazette_notice_label": "G.N.1743",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.6067 (2019-09-27)."
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.6067 (2019-09-27).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.6067",
+              "publication_date": "2019-09-27",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.6067",
+              "cited_publication_date": "1959-12-11"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ],
       "allow_name_only": true
@@ -55,11 +83,26 @@
           "gazette_notice_label": "G.N.1743",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.6067 (2019-09-27)."
+          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.6067 (2019-09-27).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.6067",
+              "publication_date": "2019-09-27",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.6067",
+              "cited_publication_date": "1959-12-11"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ],
       "allow_name_only": true
     }
   ],
-  "allow_name_only": true
+  "allow_name_only": true,
+  "evidence_schema_version": 1
 }

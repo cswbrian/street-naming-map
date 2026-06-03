@@ -17,7 +17,11 @@
           "street_name_zh": "龍崗道",
           "gazette_notice_label": "Government Notification No. 340",
           "proof_pdf_url": "/egazette/en/1933-gn340.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -34,7 +38,11 @@
           "gazette_notice_label": "Government Notification No. 340",
           "proof_pdf_url": "/egazette/en/1933-gn340.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 南角路; database 南角道."
+          "submitter_remarks": "Gazette ZH 南角路; database 南角道.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -50,7 +58,11 @@
           "street_name_zh": "衙前塱道",
           "gazette_notice_label": "Government Notification No. 340",
           "proof_pdf_url": "/egazette/en/1933-gn340.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -66,7 +78,11 @@
           "street_name_zh": "侯王道",
           "gazette_notice_label": "Government Notification No. 340",
           "proof_pdf_url": "/egazette/en/1933-gn340.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -83,7 +99,11 @@
           "gazette_notice_label": "Government Notification No. 340",
           "proof_pdf_url": "/egazette/en/1933-gn340.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 獅子石街; database 獅子石道."
+          "submitter_remarks": "Gazette ZH 獅子石街; database 獅子石道.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -100,7 +120,11 @@
           "gazette_notice_label": "Government Notification No. 340",
           "proof_pdf_url": "/egazette/en/1933-gn340.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 福老村道; database 福佬村道."
+          "submitter_remarks": "Gazette ZH 福老村道; database 福佬村道.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -116,7 +140,11 @@
           "street_name_zh": "聯合道",
           "gazette_notice_label": "Government Notification No. 340",
           "proof_pdf_url": "/egazette/en/1933-gn340.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -132,10 +160,15 @@
           "street_name_zh": "賈炳達道",
           "gazette_notice_label": "Government Notification No. 340",
           "proof_pdf_url": "/egazette/en/1933-gn340.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

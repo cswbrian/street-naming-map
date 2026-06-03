@@ -18,7 +18,11 @@
           "street_name_zh": "窩打老道",
           "gazette_notice_label": "Government Notification No. 427",
           "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -34,7 +38,11 @@
           "street_name_zh": "界限街",
           "gazette_notice_label": "Government Notification No. 427",
           "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -51,7 +59,11 @@
           "gazette_notice_label": "Government Notification No. 427",
           "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 歌和老道; database 歌和老街."
+          "submitter_remarks": "Gazette ZH 歌和老道; database 歌和老街.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -67,7 +79,11 @@
           "street_name_zh": "沙福道",
           "gazette_notice_label": "Government Notification No. 427",
           "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -83,7 +99,11 @@
           "street_name_zh": "根德道",
           "gazette_notice_label": "Government Notification No. 427",
           "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -99,7 +119,11 @@
           "street_name_zh": "森麻實道",
           "gazette_notice_label": "Government Notification No. 427",
           "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -115,7 +139,11 @@
           "street_name_zh": "德雲道",
           "gazette_notice_label": "Government Notification No. 427",
           "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -131,7 +159,11 @@
           "street_name_zh": "多實街",
           "gazette_notice_label": "Government Notification No. 427",
           "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -147,7 +179,11 @@
           "street_name_zh": "羅福道",
           "gazette_notice_label": "Government Notification No. 427",
           "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -163,7 +199,11 @@
           "street_name_zh": "約道",
           "gazette_notice_label": "Government Notification No. 427",
           "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -179,7 +219,11 @@
           "street_name_zh": "律倫街",
           "gazette_notice_label": "Government Notification No. 427",
           "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -195,7 +239,11 @@
           "street_name_zh": "金巴倫道",
           "gazette_notice_label": "Government Notification No. 427",
           "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -212,7 +260,11 @@
           "gazette_notice_label": "Government Notification No. 427",
           "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 舒梨里; database 舒梨道."
+          "submitter_remarks": "Gazette ZH 舒梨里; database 舒梨道.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -228,7 +280,11 @@
           "street_name_zh": "林肯道",
           "gazette_notice_label": "Government Notification No. 427",
           "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -244,7 +300,11 @@
           "street_name_zh": "雅息士道",
           "gazette_notice_label": "Government Notification No. 427",
           "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -260,9 +320,14 @@
           "street_name_zh": "施他佛道",
           "gazette_notice_label": "Government Notification No. 427",
           "government_notice_url_en": "/egazette/en/1929-gn427.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

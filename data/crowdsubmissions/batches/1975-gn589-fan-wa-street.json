@@ -19,7 +19,11 @@
           "gazette_notice_label": "G.N.1982",
           "government_notice_url_en": "/egazette/en/1974-gn1982.pdf",
           "evidence_level": "gazette",
-          "is_declaration_event": true
+          "is_declaration_event": true,
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "former_name"
         },
         {
           "publication_date": "1975-03-14",
@@ -31,9 +35,14 @@
           "gazette_notice_label": "G.N.589",
           "government_notice_url_en": "/egazette/en/1975-gn589.pdf",
           "evidence_level": "gazette",
-          "is_declaration_event": false
+          "is_declaration_event": false,
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

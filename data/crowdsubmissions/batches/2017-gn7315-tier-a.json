@@ -20,7 +20,21 @@
           "gazette_notice_label": "G.N.1753",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 永東街 cited in G.N.7315 (2017-09-29)."
+          "submitter_remarks": "First Previous G.N. for 永東街 cited in G.N.7315 (2017-09-29).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.7315",
+              "publication_date": "2017-09-29",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.7315",
+              "cited_publication_date": "1983-06-03"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -37,9 +51,24 @@
           "gazette_notice_label": "G.N.3454",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 友榮街 cited in G.N.7315 (2017-09-29)."
+          "submitter_remarks": "First Previous G.N. for 友榮街 cited in G.N.7315 (2017-09-29).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.7315",
+              "publication_date": "2017-09-29",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.7315",
+              "cited_publication_date": "1985-10-18"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

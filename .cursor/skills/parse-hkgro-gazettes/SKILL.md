@@ -106,7 +106,8 @@ Prefer `street_code` over name-only matching once confirmed.
         "street_name_zh": "糖街",
         "gazette_notice_label": "Government Notification No. 300",
         "proof_pdf_url": "/egazette/en/1931-gn300.pdf",
-        "evidence_level": "gazette"
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name"
       }]
     }
   ]
@@ -114,7 +115,7 @@ Prefer `street_code` over name-only matching once confirmed.
 ```
 
 Rules:
-- Set **`"source": "hkgro"`** on every HKGRO batch — map and tables show **HKGRO**, not 社群.
+- Set **`"source": "hkgro"`** on every HKGRO batch (pipeline routing only; UI **來源** / **Source** shows gazette evidence kind, not HKGRO vs community).
 - **Omit `submitter_remarks`** when gazette English and Chinese both match the database exactly.
 - **Include `submitter_remarks` only** when gazette EN or ZH differs from the matched record (e.g. `Gazette ZH 連合道; database 連道.`).
 - **Never** store gazette DESCRIPTION text or lot references in remarks.

@@ -20,7 +20,21 @@
           "gazette_notice_label": "G.N.73",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 機場路 cited in G.N.4781 (2019-07-26)."
+          "submitter_remarks": "First Previous G.N. for 機場路 cited in G.N.4781 (2019-07-26).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.4781",
+              "publication_date": "2019-07-26",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.4781",
+              "cited_publication_date": "1998-01-02"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -37,7 +51,21 @@
           "gazette_notice_label": "G.N.73",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 暢航路 cited in G.N.4781 (2019-07-26)."
+          "submitter_remarks": "First Previous G.N. for 暢航路 cited in G.N.4781 (2019-07-26).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.4781",
+              "publication_date": "2019-07-26",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.4781",
+              "cited_publication_date": "1998-01-02"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -54,7 +82,21 @@
           "gazette_notice_label": "G.N.5705",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 東岸路 cited in G.N.4781 (2019-07-26)."
+          "submitter_remarks": "First Previous G.N. for 東岸路 cited in G.N.4781 (2019-07-26).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.4781",
+              "publication_date": "2019-07-26",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.4781",
+              "cited_publication_date": "2007-08-31"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -71,7 +113,21 @@
           "gazette_notice_label": "G.N.73",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 過路灣路 cited in G.N.4781 (2019-07-26)."
+          "submitter_remarks": "First Previous G.N. for 過路灣路 cited in G.N.4781 (2019-07-26).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.4781",
+              "publication_date": "2019-07-26",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.4781",
+              "cited_publication_date": "1998-01-02"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -88,9 +144,24 @@
           "gazette_notice_label": "G.N.6283",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 東輝路 cited in G.N.4781 (2019-07-26)."
+          "submitter_remarks": "First Previous G.N. for 東輝路 cited in G.N.4781 (2019-07-26).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.4781",
+              "publication_date": "2019-07-26",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.4781",
+              "cited_publication_date": "1998-12-18"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

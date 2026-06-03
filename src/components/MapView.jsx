@@ -97,6 +97,18 @@ const buildMetaRow = (label, valueHtml) =>
 
 const buildEmptyValue = () => '<span class="selected-road-chip-empty">—</span>'
 
+const buildEvidenceValueHtml = (evidenceBadge, noticeLink) => {
+  if (!evidenceBadge) return buildEmptyValue()
+  const title = noticeLink?.label
+    ? `${evidenceBadge.hint} — ${noticeLink.label}`
+    : evidenceBadge.hint
+  const classes = `selected-road-chip-evidence pending-evidence-badge pending-evidence-${evidenceBadge.kind}`
+  if (noticeLink?.url) {
+    return `<a class="${classes} pending-evidence-link" href="${escapeHtml(noticeLink.url)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(title)}">${escapeHtml(evidenceBadge.label)}</a>`
+  }
+  return `<span class="${classes}" title="${escapeHtml(title)}">${escapeHtml(evidenceBadge.label)}</span>`
+}
+
 const buildContributeIcon = (variant) => {
   if (variant === 'edit') {
     return `<svg class="selected-road-chip-contribute-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>`
@@ -122,18 +134,10 @@ const buildSelectedRoadChipHtml = (selectedRoadInfo, locale) => {
         ? `<span class="selected-road-chip-pending">${escapeHtml(selectedRoadInfo.namingDisplay ?? labels.pending)}</span>`
         : `<span class="selected-road-chip-date">${escapeHtml(selectedRoadInfo.namingDisplay)}</span>`,
     ),
-    selectedRoadInfo.noticeLink
-      ? buildMetaRow(
-          labels.colNotice,
-          `<a class="selected-road-chip-notice" href="${escapeHtml(selectedRoadInfo.noticeLink.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(selectedRoadInfo.noticeLink.label)}</a>`,
-        )
-      : buildMetaRow(labels.colNotice, buildEmptyValue()),
-    selectedRoadInfo.sourceBadge
-      ? buildMetaRow(
-          labels.colSource,
-          `<span class="selected-road-chip-source pending-source-badge pending-source-${selectedRoadInfo.sourceBadge.kind}" title="${escapeHtml(selectedRoadInfo.sourceBadge.hint)}">${escapeHtml(selectedRoadInfo.sourceBadge.label)}</span>`,
-        )
-      : buildMetaRow(labels.colSource, buildEmptyValue()),
+    buildMetaRow(
+      labels.colSource,
+      buildEvidenceValueHtml(selectedRoadInfo.evidenceBadge, selectedRoadInfo.noticeLink),
+    ),
     selectedRoadInfo.nameHistory?.length
       ? `<div class="selected-road-chip-row selected-road-chip-row-history"><dt class="selected-road-chip-label">${escapeHtml(labels.colNameHistory)}</dt><dd class="selected-road-chip-value"><div class="selected-road-chip-history-mount"></div></dd></div>`
       : '',
@@ -255,7 +259,6 @@ const emitRoadPickFromFeature = (feature, lngLat, onRoadPick) => {
   const year = Number(feature.properties?.naming_year)
   const namingDate = String(feature.properties?.naming_date ?? '').trim()
   const streetType = String(feature.properties?.STREETTYPE ?? '').trim()
-  const namingSource = String(feature.properties?.naming_source ?? '').trim()
   onRoadPick?.({
     key,
     center: [lngLat.lng, lngLat.lat],
@@ -265,7 +268,6 @@ const emitRoadPickFromFeature = (feature, lngLat, onRoadPick) => {
     zhName,
     streetCode: streetCode || null,
     streetType: streetType || null,
-    namingSource: namingSource || null,
   })
 }
 
@@ -940,9 +942,9 @@ function MapView({
         window.open(selectedRoadInfo.contributeUrl, '_blank', 'noopener,noreferrer')
       })
     }
-    const noticeLink = chip.querySelector('.selected-road-chip-notice')
-    if (noticeLink) {
-      noticeLink.addEventListener('click', () => {
+    const evidenceSourceLink = chip.querySelector('a.selected-road-chip-evidence')
+    if (evidenceSourceLink) {
+      evidenceSourceLink.addEventListener('click', () => {
         trackNoticeOpen('map')
       })
     }

@@ -20,9 +20,24 @@
           "gazette_notice_label": "G.N.3826",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 德高道 cited in G.N.2594 (2023-04-28)."
+          "submitter_remarks": "First Previous G.N. for 德高道 cited in G.N.2594 (2023-04-28).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.2594",
+              "publication_date": "2023-04-28",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.2594",
+              "cited_publication_date": "1987-11-13"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

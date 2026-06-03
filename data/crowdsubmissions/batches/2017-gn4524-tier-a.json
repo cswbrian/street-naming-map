@@ -20,9 +20,24 @@
           "gazette_notice_label": "G.N.2488",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 雅翔道 cited in G.N.4524 (2017-06-30)."
+          "submitter_remarks": "First Previous G.N. for 雅翔道 cited in G.N.4524 (2017-06-30).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.4524",
+              "publication_date": "2017-06-30",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.4524",
+              "cited_publication_date": "1998-05-22"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

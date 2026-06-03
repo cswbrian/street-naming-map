@@ -1,6 +1,12 @@
 import { formatNoticeLabel } from './formatNoticeLabel.js'
 import { buildRoadKey } from './roadKey.js'
 import { resolveHostedUrl } from './resolveHostedUrl.js'
+import {
+  isPlaceholderNoticeLabel,
+  pickHostedNoticeUrl,
+  resolveNoticeDisplayLabel,
+  resolveNoticeUrlsForDetails,
+} from './noticeUrls.js'
 
 /** Keys for notice lookup; avoid English-only keys when several streets share the same EN name. */
 export function buildNoticeLookupKeys(row) {
@@ -25,30 +31,46 @@ export function buildNoticeResolveKeys({ roadKey, enName, zhName, streetCode }) 
   return keys
 }
 
-export function getNoticeLink(namingDetails, locale) {
-  if (!namingDetails) return null
-  const zhUrl = resolveHostedUrl(namingDetails.government_notice_url_zh)
-  const enUrl = resolveHostedUrl(namingDetails.government_notice_url_en)
-  const rawEn = namingDetails.government_notice_label_en
-  const rawZh = namingDetails.government_notice_label_zh
-  const zhLabel = formatNoticeLabel(rawZh || rawEn, 'zh')
-  const enLabel = formatNoticeLabel(rawEn || rawZh, 'en')
-  if (locale === 'zh') {
-    if (zhUrl) return { url: zhUrl, label: zhLabel }
-    if (enUrl) return { url: enUrl, label: enLabel }
-  } else {
-    if (enUrl) return { url: enUrl, label: enLabel }
-    if (zhUrl) return { url: zhUrl, label: zhLabel }
+function resolveStoredNoticeUrls(namingDetails, options = {}) {
+  const urls = resolveNoticeUrlsForDetails(namingDetails, options)
+  return {
+    en: urls.en ?? null,
+    zh: urls.zh ?? null,
   }
-  return null
 }
 
-export function buildNoticeLookup(roads = []) {
+function noticeLinkFromUrls(urls, locale, label, pdfLocales) {
+  if (!label) return null
+  const url = pickHostedNoticeUrl(urls, locale === 'zh' ? 'zh' : 'en', pdfLocales)
+  return { url: url ?? null, label }
+}
+
+export function getNoticeLink(namingDetails, locale, options = {}) {
+  if (!namingDetails) return null
+
+  const label = resolveNoticeDisplayLabel(namingDetails, locale)
+  if (!label) return null
+
+  const urls = resolveStoredNoticeUrls(namingDetails, options)
+  const link = noticeLinkFromUrls(urls, locale, label, options.pdfLocales)
+
+  const proofRaw = namingDetails.proof_pdf_url
+  if (!link?.url && proofRaw) {
+    const proofUrl = resolveHostedUrl(proofRaw)
+    if (proofUrl) return { url: proofUrl, label }
+  }
+
+  return link
+}
+
+export function buildNoticeLookup(roads = [], options = {}) {
   const lookup = new Map()
+  const noticeIndex = options.noticeIndex ?? null
   for (const row of roads) {
     const details = row?.naming_details
     if (!details) continue
-    if (!details.government_notice_url_en && !details.government_notice_url_zh) continue
+    const { en, zh } = resolveStoredNoticeUrls(details, { noticeIndex })
+    if (!en && !zh) continue
     for (const key of buildNoticeLookupKeys(row)) {
       lookup.set(key, details)
     }
@@ -56,12 +78,21 @@ export function buildNoticeLookup(roads = []) {
   return lookup
 }
 
-export function resolveNoticeLink({ roadKey, enName, zhName, streetCode, lookup, locale }) {
+export function resolveNoticeLink({
+  roadKey,
+  enName,
+  zhName,
+  streetCode,
+  lookup,
+  locale,
+  noticeIndex,
+  pdfLocales,
+}) {
   if (!lookup?.size) return null
   for (const key of buildNoticeResolveKeys({ roadKey, enName, zhName, streetCode })) {
     if (!key) continue
-    const link = getNoticeLink(lookup.get(key), locale)
-    if (link) return link
+    const link = getNoticeLink(lookup.get(key), locale, { noticeIndex, pdfLocales })
+    if (link?.url || link?.label) return link
   }
   return null
 }

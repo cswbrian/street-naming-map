@@ -1,0 +1,81 @@
+{
+  "batch_id": "1930-gn510-fuk-streets",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "Government Notification No. 510",
+  "publication_date": "1930-08-15",
+  "gazette_url_en": "/egazette/en/1930-gn510.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1930-gn510-fuk-streets/1930-gn510.pdf",
+  "streets": [
+    {
+      "street_code": "10562",
+      "english_name": "FUK WING STREET",
+      "chinese_name": "福榮街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Tin Liu Street",
+          "street_name_zh": "田寮街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "former_name"
+        },
+        {
+          "publication_date": "1930-08-15",
+          "change_kind": "rename",
+          "street_name_en": "Fuk Wing Street",
+          "street_name_zh": "福榮街",
+          "previous_street_name_en": "Tin Liu Street",
+          "previous_street_name_zh": "田寮街",
+          "gazette_notice_label": "Government Notification No. 510",
+          "government_notice_url_en": "/egazette/en/1930-gn510.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "street_code": "10560",
+      "english_name": "FUK WA STREET",
+      "chinese_name": "福華街",
+      "history": [
+        {
+          "publication_date": "1927-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Om Yau Street",
+          "street_name_zh": "菴由街",
+          "gazette_notice_label": "Government Notification No. 699",
+          "government_notice_url_en": "/egazette/en/1927-gn699.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "former_name"
+        },
+        {
+          "publication_date": "1930-08-15",
+          "change_kind": "rename",
+          "street_name_en": "Fuk Wa Street",
+          "street_name_zh": "福華街",
+          "previous_street_name_en": "Om Yau Street",
+          "previous_street_name_zh": "菴由街",
+          "gazette_notice_label": "Government Notification No. 510",
+          "government_notice_url_en": "/egazette/en/1930-gn510.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}

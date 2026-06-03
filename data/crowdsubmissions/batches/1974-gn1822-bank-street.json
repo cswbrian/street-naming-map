@@ -18,9 +18,14 @@
           "street_name_zh": "銀行街",
           "gazette_notice_label": "G.N.1822",
           "government_notice_url_en": "/egazette/en/1974-gn1822.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

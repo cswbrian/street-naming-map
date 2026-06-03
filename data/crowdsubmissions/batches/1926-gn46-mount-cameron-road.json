@@ -18,7 +18,11 @@
           "street_name_zh": "金馬麟山道",
           "gazette_notice_label": "Government Notification No. 46",
           "government_notice_url_en": "/egazette/en/1926-gn46.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -34,7 +38,11 @@
           "street_name_zh": "雲地利道",
           "gazette_notice_label": "Government Notification No. 46",
           "government_notice_url_en": "/egazette/en/1926-gn46.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -51,7 +59,11 @@
           "gazette_notice_label": "Government Notification No. 46",
           "government_notice_url_en": "/egazette/en/1926-gn46.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 青蓮台; database 青蓮臺."
+          "submitter_remarks": "Gazette ZH 青蓮台; database 青蓮臺.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -68,9 +80,14 @@
           "gazette_notice_label": "Government Notification No. 46",
           "government_notice_url_en": "/egazette/en/1926-gn46.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 桃李台; database 桃李臺."
+          "submitter_remarks": "Gazette ZH 桃李台; database 桃李臺.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

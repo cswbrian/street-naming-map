@@ -18,7 +18,11 @@
           "gazette_notice_label": "Government Notification No. 635",
           "proof_pdf_url": "/egazette/en/1932-gn635.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette EN Wong Nei Cheong Gap Road; database Wong Nai Chung Gap Road."
+          "submitter_remarks": "Gazette EN Wong Nei Cheong Gap Road; database Wong Nai Chung Gap Road.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -34,7 +38,11 @@
           "street_name_zh": "藍塘道",
           "gazette_notice_label": "Government Notification No. 635",
           "proof_pdf_url": "/egazette/en/1932-gn635.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -50,7 +58,11 @@
           "street_name_zh": "淺水灣道",
           "gazette_notice_label": "Government Notification No. 635",
           "proof_pdf_url": "/egazette/en/1932-gn635.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -66,10 +78,15 @@
           "street_name_zh": "香島道",
           "gazette_notice_label": "Government Notification No. 635",
           "proof_pdf_url": "/egazette/en/1932-gn635.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

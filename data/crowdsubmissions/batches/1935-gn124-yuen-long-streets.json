@@ -17,7 +17,11 @@
           "street_name_zh": "大新街",
           "gazette_notice_label": "Government Notification No. 124",
           "government_notice_url_en": "/egazette/en/1935-gn124.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -33,7 +37,11 @@
           "street_name_zh": "日新街",
           "gazette_notice_label": "Government Notification No. 124",
           "government_notice_url_en": "/egazette/en/1935-gn124.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -49,7 +57,11 @@
           "street_name_zh": "又新街",
           "gazette_notice_label": "Government Notification No. 124",
           "government_notice_url_en": "/egazette/en/1935-gn124.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -65,7 +77,11 @@
           "street_name_zh": "阜財街",
           "gazette_notice_label": "Government Notification No. 124",
           "government_notice_url_en": "/egazette/en/1935-gn124.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -82,7 +98,11 @@
           "gazette_notice_label": "Government Notification No. 124",
           "government_notice_url_en": "/egazette/en/1935-gn124.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 穀亭街; database 谷亭街."
+          "submitter_remarks": "Gazette ZH 穀亭街; database 谷亭街.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -98,7 +118,11 @@
           "street_name_zh": "泰豐街",
           "gazette_notice_label": "Government Notification No. 124",
           "government_notice_url_en": "/egazette/en/1935-gn124.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -114,10 +138,15 @@
           "street_name_zh": "西堤街",
           "gazette_notice_label": "Government Notification No. 124",
           "government_notice_url_en": "/egazette/en/1935-gn124.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

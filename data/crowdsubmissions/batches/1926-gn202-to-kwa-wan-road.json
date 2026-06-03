@@ -18,7 +18,11 @@
           "street_name_zh": "土瓜灣道",
           "gazette_notice_label": "Government Notification No. 202",
           "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -34,7 +38,11 @@
           "street_name_zh": "亞皆老街",
           "gazette_notice_label": "Government Notification No. 202",
           "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -50,7 +58,11 @@
           "street_name_zh": "九龍城道",
           "gazette_notice_label": "Government Notification No. 202",
           "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -67,7 +79,11 @@
           "gazette_notice_label": "Government Notification No. 202",
           "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 碼頭涌道; database 馬頭涌道."
+          "submitter_remarks": "Gazette ZH 碼頭涌道; database 馬頭涌道.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -83,7 +99,11 @@
           "street_name_zh": "宋皇臺道",
           "gazette_notice_label": "Government Notification No. 202",
           "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -99,7 +119,11 @@
           "street_name_zh": "炮仗街",
           "gazette_notice_label": "Government Notification No. 202",
           "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -115,7 +139,11 @@
           "street_name_zh": "北帝街",
           "gazette_notice_label": "Government Notification No. 202",
           "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -131,7 +159,11 @@
           "street_name_zh": "木廠街",
           "gazette_notice_label": "Government Notification No. 202",
           "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -148,7 +180,11 @@
           "gazette_notice_label": "Government Notification No. 202",
           "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 碼頭角道; database 馬頭角道."
+          "submitter_remarks": "Gazette ZH 碼頭角道; database 馬頭角道.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -164,7 +200,11 @@
           "street_name_zh": "新山道",
           "gazette_notice_label": "Government Notification No. 202",
           "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -180,7 +220,11 @@
           "street_name_zh": "馬坑涌道",
           "gazette_notice_label": "Government Notification No. 202",
           "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -196,7 +240,11 @@
           "street_name_zh": "上鄉道",
           "gazette_notice_label": "Government Notification No. 202",
           "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -212,7 +260,11 @@
           "street_name_zh": "界限街",
           "gazette_notice_label": "Government Notification No. 202",
           "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -228,7 +280,11 @@
           "street_name_zh": "譚公道",
           "gazette_notice_label": "Government Notification No. 202",
           "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -245,7 +301,11 @@
           "gazette_notice_label": "Government Notification No. 202",
           "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 黃帝街; database 旺堤街."
+          "submitter_remarks": "Gazette ZH 黃帝街; database 旺堤街.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -261,7 +321,11 @@
           "street_name_zh": "東安街",
           "gazette_notice_label": "Government Notification No. 202",
           "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
@@ -270,5 +334,6 @@
     "Sung Wong Toi Road: database naming_year 2021 later than gazette 1926",
     "Sheung Heung Road: database naming_year 1935 later than gazette 1926",
     "Tam Kung Road: database naming_year 2010 later than gazette 1926"
-  ]
+  ],
+  "evidence_schema_version": 1
 }

@@ -138,21 +138,56 @@ export async function loadPendingRoadKeys(projectRoot) {
   }
 }
 
+function roadsByCode(pendingMap) {
+  const list = []
+  for (const [roadKey, road] of pendingMap.entries()) {
+    if (!roadKey.startsWith('code:')) continue
+    list.push({ roadKey, road })
+  }
+  return list
+}
+
+/**
+ * Resolve a batch row to pending-naming-years road_key (code:…).
+ * English names repeat often (e.g. Wing Yip Street → 榮業街 / 永業街); prefer street_code or Chinese.
+ */
 export function matchRowToRoadKey(row, pendingMap) {
   const code = normalize(row.street_code)
   if (code && pendingMap.has(`code:${code}`)) return `code:${code}`
+
+  const zh = normalize(row.chinese_name)
+  const en = normalizeStreetName(row.english_name)
+  const roads = roadsByCode(pendingMap)
+
+  if (zh) {
+    const zhHits = roads.filter(({ road }) => normalize(road.chinese_name) === zh)
+    const zhEnHits = en
+      ? zhHits.filter(({ road }) => normalizeStreetName(road.english_name) === en)
+      : zhHits
+    if (zhEnHits.length === 1) return zhEnHits[0].roadKey
+    if (zhEnHits.length > 1) return null
+    if (!en && zhHits.length === 1) return zhHits[0].roadKey
+    if (!en && zhHits.length > 1) return null
+  }
+
+  if (en) {
+    const enHits = roads.filter(({ road }) => normalizeStreetName(road.english_name) === en)
+    if (enHits.length === 1) return enHits[0].roadKey
+    if (enHits.length > 1) return null
+  }
 
   const direct = toRoadKey(row.english_name, row.chinese_name, code)
   if (direct && pendingMap.has(direct)) return direct
 
   const streetKey = makeStreetKey(row.english_name, row.chinese_name)
-  for (const [roadKey, road] of pendingMap.entries()) {
-    if (roadKey.startsWith('code:')) continue
-    const roadStreetKey = makeStreetKey(road.english_name, road.chinese_name)
-    if (roadStreetKey === streetKey && streetKey !== '|') return road.road_key ?? roadKey
+  if (streetKey !== '|') {
+    for (const { roadKey, road } of roads) {
+      if (makeStreetKey(road.english_name, road.chinese_name) === streetKey) {
+        return road.road_key ?? roadKey
+      }
+    }
   }
 
-  if (direct) return direct
   if (code) return `code:${code}`
   return null
 }

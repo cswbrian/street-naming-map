@@ -1,6 +1,6 @@
 import { useLocale } from '../i18n/LocaleContext'
 
-const DISCORD_URL = 'https://discord.gg/xTQaEqHM'
+const DISCORD_URL = 'https://discord.gg/7RzvUfYz6P'
 const GITHUB_URL = 'https://github.com/cswbrian/street-naming-map'
 
 function DiscordIcon() {

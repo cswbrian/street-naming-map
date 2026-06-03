@@ -17,7 +17,11 @@
           "street_name_zh": "大坑道",
           "gazette_notice_label": "Government Notification No. 86",
           "proof_pdf_url": "/egazette/en/1931-gn86.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -33,7 +37,11 @@
           "street_name_zh": "益群道",
           "gazette_notice_label": "Government Notification No. 86",
           "proof_pdf_url": "/egazette/en/1931-gn86.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -49,7 +57,11 @@
           "street_name_zh": "利群道",
           "gazette_notice_label": "Government Notification No. 86",
           "proof_pdf_url": "/egazette/en/1931-gn86.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -65,7 +77,11 @@
           "street_name_zh": "福群道",
           "gazette_notice_label": "Government Notification No. 86",
           "proof_pdf_url": "/egazette/en/1931-gn86.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -81,7 +97,11 @@
           "street_name_zh": "落山道",
           "gazette_notice_label": "Government Notification No. 86",
           "proof_pdf_url": "/egazette/en/1931-gn86.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -97,10 +117,15 @@
           "street_name_zh": "長寧街",
           "gazette_notice_label": "Government Notification No. 86",
           "proof_pdf_url": "/egazette/en/1931-gn86.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

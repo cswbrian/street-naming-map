@@ -1,6 +1,6 @@
 # HKGRO gazette examples
 
-All HKGRO batches include `"source": "hkgro"` — streets show **HKGRO** on the map (not 社群).
+All HKGRO batches include `"source": "hkgro"` for the HKGRO apply pipeline. The map **來源** column shows gazette evidence (e.g. **憲報（原文）**), not an HKGRO badge.
 
 ## Example 1 — Single street (`617826.pdf` → G.N.58)
 

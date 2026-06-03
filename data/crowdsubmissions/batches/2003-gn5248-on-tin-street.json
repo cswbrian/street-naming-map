@@ -1,0 +1,36 @@
+{
+  "batch_id": "2003-gn5248-on-tin-street",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.5248",
+  "publication_date": "2003-08-01",
+  "gazette_url_en": "/egazette/en/2003-07-31-5248.pdf",
+  "gazette_url_zh": "/egazette/zh/2003-07-31-5248.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260603T154436Z-3-001/egn200307315248 - CS L.pdf",
+  "pdf_zh": "/Users/coolsunwind/Downloads/drive-download-20260603T154436Z-3-001/cgn200307315248 - CS L.pdf",
+  "streets": [
+    {
+      "street_code": "11608",
+      "english_name": "ON TIN STREET",
+      "chinese_name": "安田街",
+      "history": [
+        {
+          "publication_date": "2003-08-01",
+          "change_kind": "rename",
+          "street_name_en": "On Tin Street",
+          "street_name_zh": "安田街",
+          "previous_street_name_en": "Leung Tin Lane",
+          "previous_street_name_zh": null,
+          "gazette_notice_label": "G.N.5248",
+          "evidence_level": "gazette",
+          "government_notice_url_en": "/egazette/en/2003-07-31-5248.pdf",
+          "government_notice_url_zh": "/egazette/zh/2003-07-31-5248.pdf",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}

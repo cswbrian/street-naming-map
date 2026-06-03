@@ -18,7 +18,11 @@
           "street_name_zh": "盧吉道",
           "gazette_notice_label": "Government Notification No. 244",
           "government_notice_url_en": "/egazette/en/1915-gn244.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -34,7 +38,11 @@
           "street_name_zh": "芬梨道",
           "gazette_notice_label": "Government Notification No. 244",
           "government_notice_url_en": "/egazette/en/1915-gn244.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -50,9 +58,14 @@
           "street_name_zh": "芬梨徑",
           "gazette_notice_label": "Government Notification No. 244",
           "government_notice_url_en": "/egazette/en/1915-gn244.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

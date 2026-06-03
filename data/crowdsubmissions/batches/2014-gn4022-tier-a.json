@@ -1,0 +1,41 @@
+{
+  "evidence_schema_version": 1,
+  "batch_id": "2014-gn4022-tier-a",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.4022",
+  "publication_date": "2014-07-11",
+  "gazette_url_en": "/egazette/en/2014-18-28-4022.pdf",
+  "gazette_url_zh": "/egazette/zh/2014-18-28-4022.pdf",
+  "remarks": "G.N.4022 (2014-07-11) replaces street description only; naming date from first cited G.N.4153 (1992-11-20).",
+  "streets": [
+    {
+      "street_code": "13527",
+      "english_name": "YAU TIN WEST ROAD",
+      "chinese_name": "攸田西路",
+      "history": [
+        {
+          "publication_date": "1992-11-20",
+          "change_kind": "declare",
+          "street_name_en": "Yau Tin West Road",
+          "street_name_zh": "攸田西路",
+          "gazette_notice_label": "G.N.4153",
+          "evidence_kind": "gazette_inferred",
+          "is_declaration_event": true,
+          "submitter_remarks": "G.N.4153 dated 20 November 1992 cited in G.N.4022 (2014-07-11) replace-description notice.",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.4022",
+              "publication_date": "2014-07-11",
+              "government_notice_url_en": "/egazette/en/2014-18-28-4022.pdf",
+              "government_notice_url_zh": "/egazette/zh/2014-18-28-4022.pdf",
+              "cited_notice_label": "G.N.4153",
+              "cited_publication_date": "1992-11-20"
+            }
+          ],
+          "event_role": "current_name"
+        }
+      ]
+    }
+  ]
+}

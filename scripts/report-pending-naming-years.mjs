@@ -1,7 +1,13 @@
 import { access, mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { governmentNoticeUrlsFromEvent } from './lib/egazette-pdf-urls.mjs'
+import {
+  buildNoticeStemIndex,
+  buildPdfLocaleIndex,
+  enrichDerivedFromEntry,
+  isPlaceholderNoticeLabel,
+  resolveAggregateNoticeUrls,
+} from './lib/notice-url-resolve.mjs'
 import {
   formatGovernmentNoticeLabels,
   makeStreetKey,
@@ -30,6 +36,10 @@ const COMBINED_AGGREGATES_PATH = path.join(
 const OUTPUT_DIR = path.join(projectRoot, 'public', 'data', 'master')
 const OUTPUT_JSON = path.join(OUTPUT_DIR, 'pending-naming-years.json')
 const OUTPUT_CSV = path.join(OUTPUT_DIR, 'pending-naming-years.csv')
+const NOTICE_STEMS_JSON = path.join(OUTPUT_DIR, 'egazette-notice-stems.json')
+const EGAZETTE_EN_DIR = path.join(projectRoot, 'public', 'egazette', 'en')
+const EGAZETTE_ZH_DIR = path.join(projectRoot, 'public', 'egazette', 'zh')
+const PDF_LOCALES_PATH = path.join(projectRoot, 'public/data/master/egazette-pdf-locales.json')
 
 const normalize = (value) => String(value ?? '').trim()
 
@@ -65,30 +75,68 @@ const buildUniqueNameMap = (aggregates, field) => {
   return uniqueMap
 }
 
-const pickNoticeEvent = (aggregate, history) => {
-  const withGazette = [...history]
-    .reverse()
-    .find((event) => event?.government_notice_url_en || event?.government_notice_url_zh)
-  if (withGazette) return withGazette
-  return (
-    history.find((event) => event?.is_declaration_event) ??
-    history.find((event) => event?.publication_date === aggregate.canonical_naming_date) ??
-    history[history.length - 1] ??
-    null
-  )
+const patchNameHistoryUrls = (nameHistory, urls, derivedFrom) => {
+  if (!Array.isArray(nameHistory)) return nameHistory ?? null
+  return nameHistory.map((entry) => {
+    const next = { ...entry }
+    if (urls?.en || urls?.zh) {
+      next.notice_url_en = next.notice_url_en ?? urls.en ?? null
+      next.notice_url_zh = next.notice_url_zh ?? urls.zh ?? null
+    }
+    if (derivedFrom?.length && !next.derived_from) {
+      next.derived_from = derivedFrom
+    } else if (derivedFrom?.[0] && Array.isArray(next.derived_from) && next.derived_from[0]) {
+      const merged = { ...next.derived_from[0], ...derivedFrom[0] }
+      next.derived_from = [merged]
+    }
+    return next
+  })
 }
 
-const pickNamingDetails = (aggregate) => {
+const pickNamingDetails = async (aggregate, noticeIndex, urlOptions = {}) => {
   if (!aggregate) return null
   const history = Array.isArray(aggregate.event_history) ? aggregate.event_history : []
-  const noticeEvent = pickNoticeEvent(aggregate, history)
-
-  const urls = governmentNoticeUrlsFromEvent(noticeEvent)
-  const rawNoticeLabel =
-    noticeEvent?.government_notice_label_en ??
-    noticeEvent?.government_notice_label_zh ??
-    noticeEvent?.notice_no ??
+  const canonicalKind = aggregate.canonical_evidence_kind ?? null
+  const canonicalEventId = aggregate.canonical_evidence_event_id ?? null
+  const canonicalEvent =
+    (canonicalEventId && history.find((event) => event.event_id === canonicalEventId)) ||
+    history.find(
+      (event) =>
+        event.evidence_kind === canonicalKind &&
+        event.publication_date === aggregate.canonical_naming_date,
+    ) ||
     null
+
+  const { urls, derivedFrom: resolvedDerived } = await resolveAggregateNoticeUrls(
+    aggregate,
+    noticeIndex,
+    urlOptions,
+  )
+
+  let derivedFrom = resolvedDerived
+  if (Array.isArray(derivedFrom) && derivedFrom[0]) {
+    derivedFrom = [
+      await enrichDerivedFromEntry(derivedFrom[0], {
+        remarks: canonicalEvent?.submitter_remarks,
+        history,
+        noticeIndex,
+        ...urlOptions,
+      }),
+    ]
+  }
+
+  let rawNoticeLabel =
+    canonicalKind === 'gazette_inferred' && derivedFrom?.[0]?.cited_notice_label
+      ? derivedFrom[0].cited_notice_label
+      : null
+  if (!rawNoticeLabel || isPlaceholderNoticeLabel(rawNoticeLabel)) {
+    rawNoticeLabel =
+      derivedFrom?.[0]?.notice_label ??
+      canonicalEvent?.government_notice_label_en ??
+      canonicalEvent?.notice_no ??
+      null
+  }
+  if (isPlaceholderNoticeLabel(rawNoticeLabel)) rawNoticeLabel = derivedFrom?.[0]?.notice_label ?? null
   const noticeLabels = formatGovernmentNoticeLabels(rawNoticeLabel)
 
   return {
@@ -99,20 +147,26 @@ const pickNamingDetails = (aggregate) => {
     current_name_since_date: aggregate.current_name_since_date ?? null,
     first_known_naming_date: aggregate.first_known_naming_date ?? null,
     derivation_reason: aggregate.derivation_reason ?? null,
+    canonical_evidence_kind: canonicalKind,
+    canonical_evidence_event_id: canonicalEventId,
+    canonical_event_role: aggregate.canonical_event_role ?? canonicalEvent?.event_role ?? null,
+    evidence_kind: canonicalKind,
+    derived_from: derivedFrom,
+    evidence_kind_note: canonicalEvent?.evidence_kind_note ?? null,
     event_count: aggregate.event_count ?? 0,
-    name_history: aggregate.name_history ?? null,
-    notice_no: noticeEvent?.notice_no ?? null,
-    notice_type: noticeEvent?.notice_type_normalized ?? null,
-    notice_source: noticeEvent?.source ?? null,
-    notice_key: noticeEvent?.notice_key ?? null,
+    name_history: patchNameHistoryUrls(aggregate.name_history, urls, derivedFrom),
+    notice_no: canonicalEvent?.notice_no ?? null,
+    notice_type: canonicalEvent?.notice_type_normalized ?? null,
+    notice_source: canonicalEvent?.source ?? null,
+    notice_key: canonicalEvent?.notice_key ?? null,
     government_notice_label_en:
-      noticeLabels.en ?? noticeEvent?.government_notice_label_en ?? null,
+      noticeLabels.en ?? canonicalEvent?.government_notice_label_en ?? null,
     government_notice_label_zh:
-      noticeLabels.zh ?? noticeEvent?.government_notice_label_zh ?? null,
-    government_notice_url_en: urls.en,
-    government_notice_url_zh: urls.zh,
-    related_gazette_plan_url_en: noticeEvent?.related_gazette_plan_urls_en?.[0] ?? null,
-    related_gazette_plan_url_zh: noticeEvent?.related_gazette_plan_urls_zh?.[0] ?? null,
+      noticeLabels.zh ?? canonicalEvent?.government_notice_label_zh ?? null,
+    government_notice_url_en: urls.en ?? derivedFrom?.[0]?.government_notice_url_en ?? null,
+    government_notice_url_zh: urls.zh ?? derivedFrom?.[0]?.government_notice_url_zh ?? null,
+    related_gazette_plan_url_en: canonicalEvent?.related_gazette_plan_urls_en?.[0] ?? null,
+    related_gazette_plan_url_zh: canonicalEvent?.related_gazette_plan_urls_zh?.[0] ?? null,
   }
 }
 
@@ -157,6 +211,22 @@ async function main() {
   )
   const aggregatesByEnUnique = buildUniqueNameMap(aggregateRows, 'street_name_en')
   const aggregatesByZhUnique = buildUniqueNameMap(aggregateRows, 'street_name_zh')
+  const [noticeStemIndex, pdfLocales] = await Promise.all([
+    buildNoticeStemIndex(EGAZETTE_EN_DIR),
+    buildPdfLocaleIndex({ projectRoot }),
+  ])
+  await writeFile(PDF_LOCALES_PATH, `${JSON.stringify(pdfLocales, null, 2)}\n`)
+
+  const urlOptions = { filterPublished: true, projectRoot }
+  const namingDetailsByStreetKey = new Map()
+  const namingDetailsByStreetCode = new Map()
+  for (const item of aggregateRows) {
+    const details = await pickNamingDetails(item, noticeStemIndex, urlOptions)
+    const key = String(item.street_key ?? '').trim()
+    const code = String(item.street_code ?? '').trim()
+    if (key && details) namingDetailsByStreetKey.set(key, details)
+    if (code && details) namingDetailsByStreetCode.set(code, details)
+  }
 
   const allRoads = new Map()
   let missingYearSegments = 0
@@ -181,7 +251,10 @@ async function main() {
       aggregatesByEnUnique.get(en) ??
       aggregatesByZhUnique.get(zh) ??
       null
-    const namingDetails = pickNamingDetails(aggregate)
+    const namingDetails =
+      (streetCode ? namingDetailsByStreetCode.get(streetCode) : null) ??
+      namingDetailsByStreetKey.get(streetKey) ??
+      (aggregate ? await pickNamingDetails(aggregate, noticeStemIndex, urlOptions) : null)
 
     if (!allRoads.has(roadKey)) {
       allRoads.set(roadKey, {
@@ -231,6 +304,8 @@ async function main() {
   const summary = {
     generated_at: new Date().toISOString(),
     source_file: 'public/data/hk-streets.geojson',
+    notice_stem_index_path: 'public/data/master/egazette-notice-stems.json',
+    egazette_pdf_locales_path: 'public/data/master/egazette-pdf-locales.json',
     totals: {
       total_segments: features.length,
       segments_missing_naming_year: missingYearSegments,
@@ -278,6 +353,7 @@ async function main() {
   await mkdir(OUTPUT_DIR, { recursive: true })
   await writeFile(OUTPUT_JSON, `${JSON.stringify(summary, null, 2)}\n`)
   await writeFile(OUTPUT_CSV, `${csvLines.join('\n')}\n`)
+  await writeFile(NOTICE_STEMS_JSON, `${JSON.stringify(noticeStemIndex, null, 2)}\n`)
 
   console.log(`Total segments: ${features.length}`)
   console.log(`Segments missing naming_year: ${missingYearSegments}`)

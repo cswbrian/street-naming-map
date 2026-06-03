@@ -19,10 +19,25 @@
           "gazette_notice_label": "G.N.1786",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Parsed from misparsed egazette text; cited in G.N.3237 (2020-06-12)."
+          "submitter_remarks": "Parsed from misparsed egazette text; cited in G.N.3237 (2020-06-12).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.3237",
+              "publication_date": "2020-06-12",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.3237",
+              "cited_publication_date": "1991-05-24"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "allow_name_only": false
+  "allow_name_only": false,
+  "evidence_schema_version": 1
 }

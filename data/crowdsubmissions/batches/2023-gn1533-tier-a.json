@@ -20,9 +20,24 @@
           "gazette_notice_label": "G.N.3158",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 福順街 cited in G.N.1533 (2023-03-10)."
+          "submitter_remarks": "First Previous G.N. for 福順街 cited in G.N.1533 (2023-03-10).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.1533",
+              "publication_date": "2023-03-10",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.1533",
+              "cited_publication_date": "1986-09-12"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

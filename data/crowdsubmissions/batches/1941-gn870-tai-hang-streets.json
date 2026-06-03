@@ -18,7 +18,11 @@
           "gazette_notice_label": "Government Notification No. 870",
           "government_notice_url_en": "/egazette/en/1941-gn870.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 安庶庇道; database 安庶庇街."
+          "submitter_remarks": "Gazette ZH 安庶庇道; database 安庶庇街.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -35,10 +39,15 @@
           "gazette_notice_label": "Government Notification No. 870",
           "government_notice_url_en": "/egazette/en/1941-gn870.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 寶現街; database 布朗街."
+          "submitter_remarks": "Gazette ZH 寶現街; database 布朗街.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

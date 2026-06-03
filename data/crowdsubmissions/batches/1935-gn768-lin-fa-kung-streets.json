@@ -17,7 +17,11 @@
           "street_name_zh": "蓮花宮東街",
           "gazette_notice_label": "Government Notification No. 768",
           "government_notice_url_en": "/egazette/en/1935-gn768.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -33,7 +37,11 @@
           "street_name_zh": "蓮花宮西街",
           "gazette_notice_label": "Government Notification No. 768",
           "government_notice_url_en": "/egazette/en/1935-gn768.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -49,10 +57,15 @@
           "street_name_zh": "蓮花街",
           "gazette_notice_label": "Government Notification No. 768",
           "government_notice_url_en": "/egazette/en/1935-gn768.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

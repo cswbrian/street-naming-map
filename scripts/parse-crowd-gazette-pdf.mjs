@@ -95,6 +95,16 @@ Does not apply to the map. After you verify the draft:
     await mkdir(path.dirname(outPath), { recursive: true })
   }
 
+  let pendingMap = null
+  if (opts.match && batch.streets?.length) {
+    pendingMap = await loadPendingRoadKeys(projectRoot)
+    batch.streets = batch.streets.map((street) => {
+      const road = findPendingRoad(street, pendingMap)
+      if (!road?.street_code) return street
+      return { ...street, street_code: String(road.street_code) }
+    })
+  }
+
   await writeFile(outPath, `${JSON.stringify(batch, null, 2)}\n`)
   console.log(`Draft batch: ${outPath}`)
   console.log(`  G.N.     ${batch.gazette_notice_label}`)
@@ -103,8 +113,7 @@ Does not apply to the map. After you verify the draft:
   console.log(`  Streets  ${batch.streets?.length ?? 0}`)
   console.log(`  Parser   ${batch._parse?.parser ?? '—'} (${batch._parse?.method})`)
 
-  if (opts.match && batch.streets?.length) {
-    const pendingMap = await loadPendingRoadKeys(projectRoot)
+  if (pendingMap) {
     printMatchTable(batch, pendingMap)
   }
 

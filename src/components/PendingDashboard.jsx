@@ -7,10 +7,17 @@ import { buildSingleStreetFormUrl } from '../lib/contributeForm.js'
 import { trackContributeOpen, trackNamesFilter, trackNoticeOpen } from '../lib/analytics.js'
 import { getNoticeLink } from '../lib/governmentNotice.js'
 import { hasStreetName } from '../lib/roadKey'
-import { getNamingSourceBadgeKey, getNamingSourceKind } from '../lib/namingSourceBadge.js'
+import {
+  EVIDENCE_FILTER_KIND_ORDER,
+  getEvidenceKindBadge,
+  isEvidenceFilterId,
+  resolveDisplayEvidenceKind,
+} from '../lib/evidenceKindBadge.js'
 import { hasNamingYear } from '../lib/submissionStatus.js'
 
 const DATA_URL = `${import.meta.env.BASE_URL}data/master/pending-naming-years.json`
+const NOTICE_STEMS_URL = `${import.meta.env.BASE_URL}data/master/egazette-notice-stems.json`
+const PDF_LOCALES_URL = `${import.meta.env.BASE_URL}data/master/egazette-pdf-locales.json`
 
 const LIST_FILTERS = ['all', 'pending']
 
@@ -48,7 +55,10 @@ function PendingDashboard({ onOpenRoadOnMap }) {
   const { locale, t } = useLocale()
   const [searchParams, setSearchParams] = useSearchParams()
   const filterFromUrl = searchParams.get('filter') || 'all'
+  const evidenceFromUrl = searchParams.get('evidence') || ''
   const [report, setReport] = useState(null)
+  const [noticeStemIndex, setNoticeStemIndex] = useState(null)
+  const [pdfLocales, setPdfLocales] = useState(null)
   const [isLoading, setIsLoading] = useState(true)
   const [searchText, setSearchText] = useState('')
   const [error, setError] = useState('')
@@ -58,6 +68,18 @@ function PendingDashboard({ onOpenRoadOnMap }) {
   const [sortConfig, setSortConfig] = useState({ key: 'year', direction: 'desc' })
   const [typeFilter, setTypeFilter] = useState(null)
   const [periodFilter, setPeriodFilter] = useState(null)
+  const [evidenceFilter, setEvidenceFilter] = useState(() =>
+    isEvidenceFilterId(evidenceFromUrl) ? evidenceFromUrl : null,
+  )
+
+  const syncSearchParams = (next) => {
+    const params = new URLSearchParams()
+    const list = next?.listFilter ?? listFilter
+    const evidence = next?.evidenceFilter ?? evidenceFilter
+    if (list && list !== 'all') params.set('filter', list)
+    if (evidence) params.set('evidence', evidence)
+    setSearchParams(params, { replace: true })
+  }
 
   useEffect(() => {
     if (LIST_FILTERS.includes(filterFromUrl)) {
@@ -65,16 +87,25 @@ function PendingDashboard({ onOpenRoadOnMap }) {
     }
   }, [filterFromUrl])
 
+  useEffect(() => {
+    setEvidenceFilter(isEvidenceFilterId(evidenceFromUrl) ? evidenceFromUrl : null)
+  }, [evidenceFromUrl])
+
   const handleListFilterChange = (id) => {
     trackNamesFilter('list', id)
     setListFilter(id)
     if (id === 'all') {
       setTypeFilter(null)
       setPeriodFilter(null)
-      setSearchParams({}, { replace: true })
-    } else {
-      setSearchParams({ filter: id }, { replace: true })
     }
+    syncSearchParams({ listFilter: id, evidenceFilter })
+  }
+
+  const handleEvidenceFilterChange = (kind) => {
+    const next = evidenceFilter === kind ? null : kind
+    trackNamesFilter('evidence', kind, next !== null)
+    setEvidenceFilter(next)
+    syncSearchParams({ listFilter, evidenceFilter: next })
   }
 
   const handleTypeFilterChange = (type) => {
@@ -98,11 +129,21 @@ function PendingDashboard({ onOpenRoadOnMap }) {
     const load = async () => {
       try {
         setError('')
-        const reportRes = await fetch(DATA_URL)
+        const [reportRes, stemsRes, localesRes] = await Promise.all([
+          fetch(DATA_URL),
+          fetch(NOTICE_STEMS_URL),
+          fetch(PDF_LOCALES_URL),
+        ])
         if (!reportRes.ok) throw new Error('report')
         const data = await reportRes.json()
         if (mounted) {
           setReport(data)
+          if (stemsRes.ok) {
+            setNoticeStemIndex(await stemsRes.json())
+          }
+          if (localesRes.ok) {
+            setPdfLocales(await localesRes.json())
+          }
         }
       } catch {
         if (mounted) setError('reportError')
@@ -143,13 +184,18 @@ function PendingDashboard({ onOpenRoadOnMap }) {
     if (periodFilter) {
       list = list.filter((row) => getPeriodGroupId(row) === periodFilter)
     }
+    if (evidenceFilter) {
+      list = list.filter(
+        (row) => resolveDisplayEvidenceKind(row.naming_details) === evidenceFilter,
+      )
+    }
     if (!loweredQuery) return list
     return list.filter((row) => {
       const haystack =
         `${row.street_code ?? ''} ${row.english_name ?? ''} ${row.chinese_name ?? ''} ${row.street_type ?? ''} ${row.naming_year ?? ''} ${row.naming_date ?? ''}`.toLowerCase()
       return haystack.includes(loweredQuery)
     })
-  }, [rows, loweredQuery, listFilter, typeFilter, periodFilter])
+  }, [rows, loweredQuery, listFilter, typeFilter, periodFilter, evidenceFilter])
 
   const sortedRows = useMemo(() => {
     const getStreetName = (row) =>
@@ -163,7 +209,10 @@ function PendingDashboard({ onOpenRoadOnMap }) {
       return -1
     }
     const getNotice = (row) => {
-      const link = getNoticeLink(row.naming_details, locale)
+      const link = getNoticeLink(row.naming_details, locale, {
+        noticeIndex: noticeStemIndex,
+        pdfLocales,
+      })
       return (link?.label ?? '').toLowerCase()
     }
 
@@ -183,7 +232,7 @@ function PendingDashboard({ onOpenRoadOnMap }) {
       return getStreetName(a).localeCompare(getStreetName(b))
     })
     return sorted
-  }, [filteredRows, sortConfig, locale])
+  }, [filteredRows, sortConfig, locale, noticeStemIndex, pdfLocales])
 
   const toggleSort = (key) => {
     setSortConfig((prev) => {
@@ -210,6 +259,21 @@ function PendingDashboard({ onOpenRoadOnMap }) {
         return a.label.localeCompare(b.label)
       })
   }, [rows])
+
+  const evidenceFilterOptions = useMemo(() => {
+    const counts = new Map(EVIDENCE_FILTER_KIND_ORDER.map((kind) => [kind, 0]))
+    rows.forEach((row) => {
+      const kind = resolveDisplayEvidenceKind(row.naming_details)
+      if (kind && counts.has(kind)) counts.set(kind, (counts.get(kind) ?? 0) + 1)
+    })
+    return EVIDENCE_FILTER_KIND_ORDER.filter((kind) => (counts.get(kind) ?? 0) > 0).map(
+      (kind) => ({
+        id: kind,
+        count: counts.get(kind) ?? 0,
+        badge: getEvidenceKindBadge(kind, t),
+      }),
+    )
+  }, [rows, t])
 
   const periodStats = useMemo(() => {
     const counts = new Map(PERIOD_GROUP_DEFS.map((group) => [group.id, 0]))
@@ -276,16 +340,45 @@ function PendingDashboard({ onOpenRoadOnMap }) {
             </section>
 
             <div className="pending-filter-row">
-              {LIST_FILTERS.map((id) => (
-                <button
-                  key={id}
-                  type="button"
-                  className={`pending-filter-btn ${listFilter === id ? 'is-active' : ''}`}
-                  onClick={() => handleListFilterChange(id)}
+              <div className="pending-filter-group pending-filter-group--list" role="group" aria-label={t('filterAll')}>
+                {LIST_FILTERS.map((id) => (
+                  <button
+                    key={id}
+                    type="button"
+                    className={`pending-filter-btn ${listFilter === id ? 'is-active' : ''}`}
+                    onClick={() => handleListFilterChange(id)}
+                    aria-pressed={listFilter === id}
+                  >
+                    {t(FILTER_LABEL_KEYS[id])}
+                  </button>
+                ))}
+              </div>
+              {evidenceFilterOptions.length ? (
+                <div
+                  className="pending-filter-group pending-filter-group--evidence"
+                  role="group"
+                  aria-label={t('filterSourceTitle')}
                 >
-                  {t(FILTER_LABEL_KEYS[id])}
-                </button>
-              ))}
+                  {evidenceFilterOptions.map((option) => {
+                    const label = option.badge?.label
+                    const hint = option.badge?.hint
+                    const isActive = evidenceFilter === option.id
+                    return (
+                      <button
+                        key={`evidence-${option.id}`}
+                        type="button"
+                        className={`pending-filter-btn pending-filter-btn--evidence pending-evidence-${option.id} ${isActive ? 'is-active' : ''}`}
+                        onClick={() => handleEvidenceFilterChange(option.id)}
+                        aria-pressed={isActive}
+                        title={hint}
+                      >
+                        {label}
+                        <span className="pending-filter-count">{formatNumber(locale, option.count)}</span>
+                      </button>
+                    )
+                  })}
+                </div>
+              ) : null}
             </div>
           </aside>
 
@@ -328,8 +421,7 @@ function PendingDashboard({ onOpenRoadOnMap }) {
                 <col className="pending-col-street" />
                 <col className="pending-col-type" />
                 <col className="pending-col-date" />
-                <col className="pending-col-notice" />
-                <col className="pending-col-source" />
+                <col className="pending-col-evidence" />
                 <col className="pending-col-action" />
               </colgroup>
               <thead>
@@ -352,13 +444,12 @@ function PendingDashboard({ onOpenRoadOnMap }) {
                       <span>{sortConfig.key === 'year' ? (sortConfig.direction === 'asc' ? ' ▲' : ' ▼') : ''}</span>
                     </button>
                   </th>
-                  <th>
+                  <th className="pending-col-evidence-head">
                     <button type="button" className="pending-sort-header" onClick={() => toggleSort('notice')}>
-                      {t('colNotice')}
+                      {t('colSource')}
                       <span>{sortConfig.key === 'notice' ? (sortConfig.direction === 'asc' ? ' ▲' : ' ▼') : ''}</span>
                     </button>
                   </th>
-                  <th>{t('colSource')}</th>
                   <th className="pending-col-action-head" title={t('contributeFillGap')}>
                     {t('colContribute')}
                   </th>
@@ -369,14 +460,17 @@ function PendingDashboard({ onOpenRoadOnMap }) {
                   const zhName = String(row.chinese_name ?? '').trim()
                   const enName = String(row.english_name ?? '').trim()
                   const canOpenOnMap = Boolean(onOpenRoadOnMap && enName && zhName)
-                  const notice = getNoticeLink(row.naming_details, locale)
+                  const notice = getNoticeLink(row.naming_details, locale, {
+                    noticeIndex: noticeStemIndex,
+                    pdfLocales,
+                  })
                   const formUrl = buildSingleStreetFormUrl({
                     streetCode: row.street_code,
                     englishName: row.english_name,
                     chineseName: row.chinese_name,
                   })
-                  const sourceKind = getNamingSourceKind(row)
-                  const sourceBadgeKey = getNamingSourceBadgeKey(sourceKind)
+                  const evidenceKind = resolveDisplayEvidenceKind(row.naming_details)
+                  const evidenceBadge = evidenceKind ? getEvidenceKindBadge(evidenceKind, t) : null
 
                   const streetCell = (
                     <div className="pending-street-cell">
@@ -413,28 +507,35 @@ function PendingDashboard({ onOpenRoadOnMap }) {
                         {getRoadTypeLabel(locale, row.street_type) || '—'}
                       </td>
                       <td className="pending-col-date-cell">{getNamingDisplayForRow(row)}</td>
-                      <td className="pending-col-notice-cell">
-                        {notice ? (
-                          <a
-                            href={notice.url}
-                            target="_blank"
-                            rel="noreferrer"
-                            onClick={() => trackNoticeOpen('names_table')}
-                          >
-                            {notice.label}
-                          </a>
-                        ) : (
-                          '—'
-                        )}
-                      </td>
-                      <td className="pending-col-source-cell">
-                        {sourceBadgeKey ? (
-                          <span
-                            className={`pending-source-badge pending-source-${sourceKind}`}
-                            title={t(`${sourceBadgeKey}Hint`)}
-                          >
-                            {t(sourceBadgeKey)}
-                          </span>
+                      <td className="pending-col-evidence-cell">
+                        {evidenceBadge ? (
+                          notice?.url ? (
+                            <a
+                              href={notice.url}
+                              target="_blank"
+                              rel="noreferrer"
+                              className={`pending-evidence-badge pending-evidence-link pending-evidence-${evidenceBadge.kind}`}
+                              title={
+                                notice.label
+                                  ? `${evidenceBadge.hint} — ${notice.label}`
+                                  : evidenceBadge.hint
+                              }
+                              onClick={() => trackNoticeOpen('names_table')}
+                            >
+                              {evidenceBadge.label}
+                            </a>
+                          ) : (
+                            <span
+                              className={`pending-evidence-badge pending-evidence-${evidenceBadge.kind}`}
+                              title={
+                                notice?.label
+                                  ? `${evidenceBadge.hint} — ${notice.label}`
+                                  : evidenceBadge.hint
+                              }
+                            >
+                              {evidenceBadge.label}
+                            </span>
+                          )
                         ) : (
                           '—'
                         )}

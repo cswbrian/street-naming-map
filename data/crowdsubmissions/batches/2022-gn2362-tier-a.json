@@ -20,7 +20,21 @@
           "gazette_notice_label": "G.N.5908",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 暢興路 cited in G.N.2362 (2022-05-13)."
+          "submitter_remarks": "First Previous G.N. for 暢興路 cited in G.N.2362 (2022-05-13).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.2362",
+              "publication_date": "2022-05-13",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.2362",
+              "cited_publication_date": "2005-11-11"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -37,9 +51,24 @@
           "gazette_notice_label": "G.N.3799",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 暢達路 cited in G.N.2362 (2022-05-13)."
+          "submitter_remarks": "First Previous G.N. for 暢達路 cited in G.N.2362 (2022-05-13).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.2362",
+              "publication_date": "2022-05-13",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.2362",
+              "cited_publication_date": "2005-08-05"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

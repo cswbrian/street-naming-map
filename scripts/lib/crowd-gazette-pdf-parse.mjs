@@ -92,7 +92,7 @@ export function parseColonialThoroughfareTable(textEn = '', textZh = '') {
   return rows
 }
 
-/** apply-crowd-naming / parse-crowd-gazette-pdf always → 社群 */
+/** apply-crowd-naming / parse-crowd-gazette-pdf → crowdsubmitted pipeline source */
 export function detectBatchSource() {
   return 'crowdsubmitted'
 }
@@ -172,6 +172,7 @@ export function buildCrowdBatchDraft({
     (publicationDate && gn ? `${publicationDate.slice(0, 4)}-gn${gn}` : path.basename(pdfPath, '.pdf'))
 
   return {
+    evidence_schema_version: 1,
     _draft: true,
     _parse: parseMeta,
     batch_id: batchId,
@@ -184,6 +185,19 @@ export function buildCrowdBatchDraft({
       if (row.english_name) entry.english_name = row.english_name
       if (row.chinese_name) entry.chinese_name = row.chinese_name
       if (row.street_code) entry.street_code = row.street_code
+      if (publicationDate && (row.english_name || row.chinese_name)) {
+        const nameEn = row.english_name ? normalizeStreetName(row.english_name) : null
+        entry.history = [
+          {
+            publication_date: publicationDate,
+            change_kind: 'declare',
+            street_name_en: nameEn ?? row.english_name ?? null,
+            street_name_zh: row.chinese_name ?? null,
+            evidence_kind: 'gazette_primary',
+            event_role: 'current_name',
+          },
+        ]
+      }
       return entry
     }),
   }

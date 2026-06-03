@@ -19,9 +19,14 @@
           "gazette_notice_label": "Government Notification No. 662",
           "government_notice_url_en": "/egazette/en/1906-gn662.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 旭龢道; database 克頓道."
+          "submitter_remarks": "Gazette ZH 旭龢道; database 克頓道.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

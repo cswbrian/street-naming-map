@@ -17,7 +17,11 @@
           "street_name_zh": "順寧道",
           "gazette_notice_label": "Government Notification No. 91",
           "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -34,7 +38,11 @@
           "gazette_notice_label": "Government Notification No. 91",
           "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 普安道; database 保安道."
+          "submitter_remarks": "Gazette ZH 普安道; database 保安道.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -50,7 +58,11 @@
           "street_name_zh": "懷惠道",
           "gazette_notice_label": "Government Notification No. 91",
           "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -66,7 +78,11 @@
           "street_name_zh": "廣利道",
           "gazette_notice_label": "Government Notification No. 91",
           "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -82,7 +98,11 @@
           "street_name_zh": "永康街",
           "gazette_notice_label": "Government Notification No. 91",
           "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -98,7 +118,11 @@
           "street_name_zh": "九龍道",
           "gazette_notice_label": "Government Notification No. 91",
           "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -114,7 +138,11 @@
           "street_name_zh": "營盤街",
           "gazette_notice_label": "Government Notification No. 91",
           "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -130,7 +158,11 @@
           "street_name_zh": "東沙島街",
           "gazette_notice_label": "Government Notification No. 91",
           "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -146,7 +178,11 @@
           "street_name_zh": "東京街",
           "gazette_notice_label": "Government Notification No. 91",
           "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -162,7 +198,11 @@
           "street_name_zh": "永隆街",
           "gazette_notice_label": "Government Notification No. 91",
           "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -178,7 +218,11 @@
           "street_name_zh": "發祥街",
           "gazette_notice_label": "Government Notification No. 91",
           "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -194,7 +238,11 @@
           "street_name_zh": "長發街",
           "gazette_notice_label": "Government Notification No. 91",
           "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -210,7 +258,11 @@
           "street_name_zh": "興華街",
           "gazette_notice_label": "Government Notification No. 91",
           "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -226,10 +278,15 @@
           "street_name_zh": "昌華街",
           "gazette_notice_label": "Government Notification No. 91",
           "government_notice_url_en": "/egazette/en/1934-gn91.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

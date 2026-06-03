@@ -18,7 +18,11 @@
           "street_name_zh": "山村道",
           "gazette_notice_label": "Government Notification No. 575",
           "government_notice_url_en": "/egazette/en/1925-gn575.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -34,7 +38,11 @@
           "street_name_zh": "均益街",
           "gazette_notice_label": "Government Notification No. 575",
           "government_notice_url_en": "/egazette/en/1925-gn575.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -50,7 +58,11 @@
           "street_name_zh": "梭椏道",
           "gazette_notice_label": "Government Notification No. 575",
           "government_notice_url_en": "/egazette/en/1925-gn575.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -66,7 +78,11 @@
           "street_name_zh": "棗梨雅道",
           "gazette_notice_label": "Government Notification No. 575",
           "government_notice_url_en": "/egazette/en/1925-gn575.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -82,7 +98,11 @@
           "street_name_zh": "艷馬道",
           "gazette_notice_label": "Government Notification No. 575",
           "government_notice_url_en": "/egazette/en/1925-gn575.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -98,9 +118,14 @@
           "street_name_zh": "舊金山徑",
           "gazette_notice_label": "Government Notification No. 575",
           "government_notice_url_en": "/egazette/en/1925-gn575.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

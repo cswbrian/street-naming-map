@@ -20,7 +20,21 @@
           "gazette_notice_label": "G.N.2215",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 公庵路 cited in G.N.4864 (2015-07-03)."
+          "submitter_remarks": "First Previous G.N. for 公庵路 cited in G.N.4864 (2015-07-03).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.4864",
+              "publication_date": "2015-07-03",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.4864",
+              "cited_publication_date": "1991-06-28"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -37,7 +51,21 @@
           "gazette_notice_label": "G.N.2481",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 馬田路 cited in G.N.4864 (2015-07-03); also references G.N.1738 (1984-06-15)."
+          "submitter_remarks": "First Previous G.N. for 馬田路 cited in G.N.4864 (2015-07-03); also references G.N.1738 (1984-06-15).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.4864",
+              "publication_date": "2015-07-03",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.4864",
+              "cited_publication_date": "1978-09-29"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -54,9 +82,24 @@
           "gazette_notice_label": "G.N.2215",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 馬棠路 cited in G.N.4864 (2015-07-03); also references G.N.2493 (2005-05-27)."
+          "submitter_remarks": "First Previous G.N. for 馬棠路 cited in G.N.4864 (2015-07-03); also references G.N.2493 (2005-05-27).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.4864",
+              "publication_date": "2015-07-03",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.4864",
+              "cited_publication_date": "1991-06-28"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

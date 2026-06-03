@@ -20,9 +20,14 @@
           "gazette_notice_label": "G.N.1737",
           "proof_pdf_url": "/egazette/en/2009-13-36-5553.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Original naming G.N.1737; gazette proof G.N.5553 (description amendment cites 1737)."
+          "submitter_remarks": "Original naming G.N.1737; gazette proof G.N.5553 (description amendment cites 1737).",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

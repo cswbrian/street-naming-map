@@ -18,7 +18,11 @@
           "gazette_notice_label": "Government Notification No. 387",
           "government_notice_url_en": "/egazette/en/1937-gn387.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 聖十字路; database 聖十字徑."
+          "submitter_remarks": "Gazette ZH 聖十字路; database 聖十字徑.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -34,7 +38,11 @@
           "street_name_zh": "海寧街",
           "gazette_notice_label": "Government Notification No. 387",
           "government_notice_url_en": "/egazette/en/1937-gn387.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -50,7 +58,11 @@
           "street_name_zh": "海晏街",
           "gazette_notice_label": "Government Notification No. 387",
           "government_notice_url_en": "/egazette/en/1937-gn387.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -66,7 +78,11 @@
           "street_name_zh": "海富街",
           "gazette_notice_label": "Government Notification No. 387",
           "government_notice_url_en": "/egazette/en/1937-gn387.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -82,10 +98,15 @@
           "street_name_zh": "興民街",
           "gazette_notice_label": "Government Notification No. 387",
           "government_notice_url_en": "/egazette/en/1937-gn387.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

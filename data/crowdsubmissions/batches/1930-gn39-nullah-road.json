@@ -18,7 +18,11 @@
           "street_name_zh": "水渠道",
           "gazette_notice_label": "Government Notification No. 39",
           "government_notice_url_en": "/egazette/en/1930-gn39.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -34,7 +38,11 @@
           "street_name_zh": "新填地街",
           "gazette_notice_label": "Government Notification No. 39",
           "government_notice_url_en": "/egazette/en/1930-gn39.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -50,7 +58,11 @@
           "street_name_zh": "炮台街",
           "gazette_notice_label": "Government Notification No. 39",
           "government_notice_url_en": "/egazette/en/1930-gn39.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -66,9 +78,14 @@
           "street_name_zh": "閩街",
           "gazette_notice_label": "Government Notification No. 39",
           "government_notice_url_en": "/egazette/en/1930-gn39.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

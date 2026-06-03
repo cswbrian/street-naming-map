@@ -20,9 +20,24 @@
           "gazette_notice_label": "G.N.804",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Previous G.N. for 巴域街 cited in G.N.5353 (2013-09-06)."
+          "submitter_remarks": "Previous G.N. for 巴域街 cited in G.N.5353 (2013-09-06).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.5353",
+              "publication_date": "2013-09-06",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.5353",
+              "cited_publication_date": "1950-06-24"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

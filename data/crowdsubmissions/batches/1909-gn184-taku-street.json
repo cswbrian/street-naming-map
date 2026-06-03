@@ -19,7 +19,11 @@
           "street_name_zh": "差館街",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Original name circa 1872 (Hung Hom); gazette proof not yet on file."
+          "submitter_remarks": "Original name circa 1872 (Hung Hom); gazette proof not yet on file.",
+          "evidence_kind": "unknown",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "former_name"
         },
         {
           "publication_date": "1909-03-19",
@@ -30,9 +34,14 @@
           "gazette_notice_label": "Gazette No. 184",
           "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
           "evidence_level": "gazette",
-          "is_declaration_event": false
+          "is_declaration_event": false,
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

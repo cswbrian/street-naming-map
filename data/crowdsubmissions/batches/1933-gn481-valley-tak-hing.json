@@ -17,7 +17,11 @@
           "street_name_zh": "山谷道",
           "gazette_notice_label": "Government Notification No. 481",
           "proof_pdf_url": "/egazette/en/1933-gn481.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -33,10 +37,15 @@
           "street_name_zh": "德興街",
           "gazette_notice_label": "Government Notification No. 481",
           "proof_pdf_url": "/egazette/en/1933-gn481.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

@@ -19,9 +19,14 @@
           "gazette_notice_label": "Government Notification No. 251",
           "government_notice_url_en": "/egazette/en/1922-gn251.pdf",
           "evidence_level": "gazette",
-          "submitter_remarks": "Gazette ZH 大灣道; database 大環道."
+          "submitter_remarks": "Gazette ZH 大灣道; database 大環道.",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

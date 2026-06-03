@@ -380,9 +380,24 @@
     margin-top: auto;
     padding-top: 0.4rem;
     border-top: 1px solid var(--sn-border);
+    flex-direction: column;
+    align-items: stretch;
   }
 
-  .pending-dashboard-aside .pending-filter-btn {
+  .pending-dashboard-aside .pending-filter-group--list {
+    width: 100%;
+  }
+
+  .pending-dashboard-aside .pending-filter-group--evidence {
+    flex: none;
+    width: 100%;
+    padding-left: 0;
+    border-left: none;
+    padding-top: 0.3rem;
+    border-top: 1px solid var(--sn-border);
+  }
+
+  .pending-dashboard-aside .pending-filter-group--list .pending-filter-btn {
     flex: 1;
     text-align: center;
     padding: 0.26rem 0.4rem;
@@ -480,9 +495,21 @@
     padding-top: 0.45rem;
   }
 
-  .pending-dashboard-aside .pending-filter-btn {
+  .pending-dashboard-aside .pending-filter-group--list .pending-filter-btn {
     flex: initial;
     font-size: 0.74rem;
+  }
+
+  .pending-dashboard-aside .pending-filter-row {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .pending-dashboard-aside .pending-filter-group--evidence {
+    padding-left: 0.35rem;
+    padding-top: 0;
+    border-top: none;
+    border-left: 1px solid var(--sn-border);
   }
 
   .pending-dashboard-main .pending-coverage-section {
@@ -630,12 +657,8 @@
   width: 5.75rem;
 }
 
-.pending-col-notice {
-  width: 5.25rem;
-}
-
-.pending-col-source {
-  width: 4.75rem;
+.pending-col-evidence {
+  width: 6.75rem;
 }
 
 .pending-col-action {
@@ -678,13 +701,8 @@
 }
 
 .pending-col-date-cell,
-.pending-col-notice-cell,
-.pending-col-source-cell,
+.pending-col-evidence-cell,
 .pending-col-action-cell {
-  white-space: nowrap;
-}
-
-.pending-col-notice-cell a {
   white-space: nowrap;
 }
 
@@ -823,6 +841,71 @@
   border: 1px solid rgba(53, 242, 195, 0.4);
 }
 
+.pending-evidence-badge {
+  display: inline-block;
+  padding: 0.12rem 0.38rem;
+  border-radius: 4px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+a.pending-evidence-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.pending-evidence-link:hover,
+a.pending-evidence-link:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.pending-evidence-gazette_primary {
+  color: #7ec8ff;
+  background: rgba(126, 200, 255, 0.12);
+  border: 1px solid rgba(126, 200, 255, 0.4);
+}
+
+.pending-evidence-gazette_inferred {
+  color: #c9b8ff;
+  background: rgba(201, 184, 255, 0.12);
+  border: 1px solid rgba(201, 184, 255, 0.4);
+}
+
+.pending-evidence-legal_other,
+.pending-evidence-news,
+.pending-evidence-hearsay {
+  color: var(--sn-text-muted);
+  background: rgba(176, 184, 201, 0.1);
+  border: 1px solid rgba(176, 184, 201, 0.3);
+}
+
+.pending-evidence-unknown,
+.pending-evidence-other {
+  color: #f5c842;
+  background: rgba(245, 200, 66, 0.1);
+  border: 1px solid rgba(245, 200, 66, 0.35);
+}
+
+.pending-notice-label,
+.name-history-list-notice-label {
+  color: var(--sn-text-muted);
+  font-size: 0.85em;
+}
+
+.name-history-list-evidence-tag {
+  font-size: 0.72rem;
+  color: var(--sn-text-muted);
+}
+
+.name-history-list-role {
+  font-size: 0.68rem;
+  color: var(--sn-text-muted);
+  margin-right: 0.35rem;
+}
+
 .pending-contribute-hint {
   margin: 0.35rem 0 0;
   font-size: 0.84rem;
@@ -869,7 +952,26 @@
   margin-top: 0.75rem;
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.4rem 0.35rem;
+}
+
+.pending-filter-group {
+  display: flex;
+  flex-wrap: wrap;
   gap: 0.35rem;
+  align-items: center;
+}
+
+.pending-filter-group--list {
+  flex-shrink: 0;
+}
+
+.pending-filter-group--evidence {
+  flex: 1 1 8rem;
+  min-width: 0;
+  padding-left: 0.35rem;
+  border-left: 1px solid var(--sn-border);
 }
 
 .pending-filter-btn {
@@ -880,12 +982,48 @@
   padding: 0.28rem 0.55rem;
   font-size: 0.74rem;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  line-height: 1.2;
+}
+
+.pending-filter-btn--evidence {
+  font-size: 0.68rem;
+  padding: 0.22rem 0.42rem;
+}
+
+.pending-filter-count {
+  font-size: 0.62rem;
+  font-weight: 600;
+  color: var(--sn-text-muted);
+  opacity: 0.85;
+}
+
+.pending-filter-btn.is-active .pending-filter-count {
+  color: inherit;
+  opacity: 0.75;
 }
 
 .pending-filter-btn.is-active {
   border-color: var(--sn-border-strong);
   color: var(--sn-text);
   background: var(--sn-bg-elevated);
+}
+
+.pending-filter-btn--evidence.is-active.pending-evidence-gazette_primary {
+  border-color: rgba(91, 108, 255, 0.55);
+  background: rgba(91, 108, 255, 0.12);
+}
+
+.pending-filter-btn--evidence.is-active.pending-evidence-gazette_inferred {
+  border-color: rgba(53, 242, 195, 0.45);
+  background: rgba(53, 242, 195, 0.1);
+}
+
+.pending-filter-btn--evidence.is-active.pending-evidence-unknown,
+.pending-filter-btn--evidence.is-active.pending-evidence-none {
+  border-color: var(--sn-border-strong);
 }
 
 .submission-badge {
@@ -1309,12 +1447,8 @@
     width: 5.25rem;
   }
 
-  .pending-col-notice {
-    width: 4.75rem;
-  }
-
-  .pending-col-source {
-    width: 4.5rem;
+  .pending-col-evidence {
+    width: 6rem;
   }
 
   .pending-col-action {
@@ -1409,14 +1543,9 @@
     min-width: 4.85rem;
   }
 
-  .pending-col-notice {
-    width: 4.35rem;
-    min-width: 4.35rem;
-  }
-
-  .pending-col-source {
-    width: 4.1rem;
-    min-width: 4.1rem;
+  .pending-col-evidence {
+    width: 5.5rem;
+    min-width: 5.5rem;
   }
 
   .pending-col-action {
@@ -1677,22 +1806,16 @@
   font-size: 0.68rem;
 }
 
-.selected-road-chip-notice {
-  display: inline-block;
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-size: 0.76rem;
-  font-weight: 600;
-  color: var(--sn-chip-notice);
+a.selected-road-chip-evidence.pending-evidence-link {
   text-decoration: none;
+  cursor: pointer;
 }
 
-.selected-road-chip-notice:hover {
-  color: var(--sn-chip-notice-hover);
+a.selected-road-chip-evidence.pending-evidence-link:hover,
+a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
   text-decoration: underline;
   text-underline-offset: 2px;
+  filter: brightness(1.08);
 }
 
 .selected-road-chip-row-history {

@@ -20,9 +20,24 @@
           "gazette_notice_label": "G.N.502",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 富地路 cited in G.N.7634 (2021-12-03)."
+          "submitter_remarks": "First Previous G.N. for 富地路 cited in G.N.7634 (2021-12-03).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.7634",
+              "publication_date": "2021-12-03",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.7634",
+              "cited_publication_date": "1991-02-08"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

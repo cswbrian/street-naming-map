@@ -20,7 +20,21 @@
           "gazette_notice_label": "G.N.2641",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Previous G.N. for 荔枝角道 cited in G.N.1921 (2017-04-07)."
+          "submitter_remarks": "Previous G.N. for 荔枝角道 cited in G.N.1921 (2017-04-07).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.1921",
+              "publication_date": "2017-04-07",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.1921",
+              "cited_publication_date": "1978-10-13"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -37,9 +51,24 @@
           "gazette_notice_label": "G.N.2489",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "Previous G.N. for 西九龍公路 cited in G.N.1921 (2017-04-07)."
+          "submitter_remarks": "Previous G.N. for 西九龍公路 cited in G.N.1921 (2017-04-07).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.1921",
+              "publication_date": "2017-04-07",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.1921",
+              "cited_publication_date": "1998-05-22"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

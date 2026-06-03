@@ -20,9 +20,24 @@
           "gazette_notice_label": "G.N.2633",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 聚魚道 cited in G.N.2324 (2018-03-29)."
+          "submitter_remarks": "First Previous G.N. for 聚魚道 cited in G.N.2324 (2018-03-29).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.2324",
+              "publication_date": "2018-03-29",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.2324",
+              "cited_publication_date": "1998-05-29"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

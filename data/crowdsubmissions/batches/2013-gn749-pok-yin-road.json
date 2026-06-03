@@ -1,0 +1,31 @@
+{
+  "batch_id": "2013-gn749-pok-yin-road",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.749",
+  "publication_date": "2013-02-08",
+  "gazette_url_en": "/egazette/en/2013-17-06-749.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260603T154436Z-3-001/egn20131706749 - CS L.pdf",
+  "streets": [
+    {
+      "street_code": "14377",
+      "english_name": "POK YIN ROAD",
+      "chinese_name": "博研路",
+      "history": [
+        {
+          "publication_date": "2013-02-08",
+          "change_kind": "declare",
+          "street_name_en": "Pok Yin Road",
+          "street_name_zh": "博研路",
+          "gazette_notice_label": "G.N.749",
+          "government_notice_url_en": "/egazette/en/2013-17-06-749.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}

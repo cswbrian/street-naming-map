@@ -8,7 +8,14 @@
     "12297",
     "13695",
     "14494",
-    "11324"
+    "11324",
+    "11104",
+    "14299",
+    "10332",
+    "14296",
+    "14308",
+    "14171",
+    "12751"
   ],
   "event_ids": [
     "2009-03-06|GN1502|1",
@@ -172,14 +179,21 @@
     "2010-07-16|GN4562|1",
     "2010-11-19|GN7264|0",
     "2015-01-30|GN1456|0",
-    "crowd|1926-gn202-to-kwa-wan-road-12785-1926-04-16"
+    "2014-07-11|GN4022|0",
+    "crowd|1926-gn202-to-kwa-wan-road-12785-1926-04-16",
+    "crowd|2001-kwai-wing-road-hkplace-11104-2001-07-13",
+    "crowd|2009-gn7995-hkplace-extensions-14299-2008-02-01",
+    "crowd|2009-gn7995-hkplace-extensions-10332-2008-05-09",
+    "crowd|2010-gn4562-choi-hing-wing-14296-2007-11-09",
+    "crowd|2010-gn4562-choi-hing-wing-14308-2008-07-11",
+    "crowd|2003-gn8478-14171"
   ],
   "notes": {
+    "11324": "龍德街 — G.N.1626 names 隆德街 (code 11323); wrongly matched via shared English name LUNG TAK STREET.",
     "11897": "新樓街 — wrongly inherited G.N.342 (1926-06-25) via English name match to 新柳街 (code 11896).",
     "12297": "大圓街 — wrongly inherited G.N.184 (1909-03-19) via English name match to 太原街 (code 12296).",
     "13695": "駿昇街 — G.N.489 (1919-10-17) names 晉成街; wrongly matched to CHUN SING STREET.",
     "14494": "加士居道天橋 — hide LandsD 2020 date on map (not treated as canonical naming year)",
-    "11324": "龍德街 — G.N.1626 names 隆德街 (code 11323); wrongly matched via shared English name LUNG TAK STREET.",
     "2017-02-17|GN875|1": "龍翔道 — G.N.875 (2017-02-17) is notice of intention only; canonical date is G.N.1713 (1960-11-11) per G.N.6060.",
     "2017-04-21|GN2427|1": "龍翔道 — G.N.2427 (2017-04-21) is a later street-name change; first naming is G.N.1713 (1960-11-11) per G.N.6060.",
     "2018-08-10|GN6060|0": "鳳舞街 — G.N.6060 replaces description only; naming date is G.N.2014 (1963-10-11).",
@@ -194,6 +208,7 @@
     "2015-11-13|GN8864|0": "暢運道 — G.N.8864 (2015-11-13) replaces description only; first Previous G.N. is G.N.1565 (2001-03-09).",
     "2015-11-13|GN8864|1": "安運道 — G.N.8864 (2015-11-13) replaces description only; first Previous G.N. is G.N.1565 (2001-03-09).",
     "2010-06-18|GN3610|0": "葵仁路 — G.N.3610 (2010-06-18) replaces description only; first Previous G.N. is G.N.4036 (1982-12-24).",
+    "2014-07-11|GN4022|0": "攸田西路 — G.N.4022 (2014-07-11) replaces description only; naming date is G.N.4153 (1992-11-20).",
     "2010-02-05|GN736|0": "漁安街 — G.N.736 (2010-02-05) replaces description only; first Previous G.N. is G.N.2124 (1987-07-03).",
     "2010-08-06|GN5076|0": "吳松街 — G.N.5076 (2010-08-06) is a temporary restricted zone notice, not a street naming; wrongly linked to Woosung Street.",
     "2010-08-06|GN5074|1": "鴉蘭街 — G.N.5076 gazette bundle (2010-08-06) is temporary restricted zone, not street naming.",
@@ -340,6 +355,8 @@
     "2010-07-16|GN4562|0": "彩興路 — G.N.4562 (2010-07-16) is road extension notice, not initial naming; canonical date 2007-11-09 (hk-place).",
     "2010-07-16|GN4562|1": "彩榮路 — G.N.4562 (2010-07-16) is road extension notice, not initial naming; canonical date 2008-07-11 (hk-place).",
     "2010-11-19|GN7264|0": "龍康街 — G.N.7264 (2010-11-19) replaces description only; first Previous G.N. is G.N.5851 (2001-09-21).",
-    "2015-01-30|GN1456|0": "林村鄉公所路 — G.N.1456 (2015-01-30) replaces description only; first Previous G.N. is G.N.2894 (2008-05-02)."
+    "2015-01-30|GN1456|0": "林村鄉公所路 — G.N.1456 (2015-01-30) replaces description only; first Previous G.N. is G.N.2894 (2008-05-02).",
+    "_hkplace_news_removed_2026_06_04": "One-time removal: hk-place / news crowd rows (no news category in app); re-add via gazette pipeline only.",
+    "code:12751": "榮業街 (12751) — remove naming; same English name as 永業街 (12752) caused erroneous G.N.1023 fallback match."
   }
 }

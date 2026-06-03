@@ -1,0 +1,55 @@
+{
+  "batch_id": "1909-gn323-hart-shantung",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "Government Notification No. 323",
+  "publication_date": "1909-05-28",
+  "gazette_url_en": "/egazette/en/1909-gn323.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1909-gn323-hart-shantung/1909-gn323.pdf",
+  "streets": [
+    {
+      "street_code": "10665",
+      "english_name": "HART AVENUE",
+      "chinese_name": "赫德道",
+      "history": [
+        {
+          "publication_date": "1909-05-28",
+          "change_kind": "rename",
+          "street_name_en": "Hart Avenue",
+          "street_name_zh": "赫德道",
+          "previous_street_name_en": "East Avenue",
+          "previous_street_name_zh": null,
+          "gazette_notice_label": "Government Notification No. 323",
+          "government_notice_url_en": "/egazette/en/1909-gn323.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "street_code": "11986",
+      "english_name": "SHANTUNG STREET",
+      "chinese_name": "山東街",
+      "history": [
+        {
+          "publication_date": "1909-05-28",
+          "change_kind": "rename",
+          "street_name_en": "Shantung Street",
+          "street_name_zh": "山東街",
+          "previous_street_name_en": "Nullah Lane",
+          "previous_street_name_zh": null,
+          "gazette_notice_label": "Government Notification No. 323",
+          "government_notice_url_en": "/egazette/en/1909-gn323.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}

@@ -18,12 +18,17 @@
           "street_name_zh": "大埔道",
           "gazette_notice_label": "Government Notification No. 250",
           "government_notice_url_en": "/egazette/en/1927-gn250.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
   "parse_flags": [
     "Tai Po Road: database naming_year 2018 later than gazette 1927"
-  ]
+  ],
+  "evidence_schema_version": 1
 }

@@ -1,0 +1,160 @@
+{
+  "batch_id": "2012-gn6493-kowloon-city-streets",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.6493",
+  "publication_date": "2012-09-28",
+  "gazette_url_en": "/egazette/en/2012-16-39-6493.pdf",
+  "gazette_url_zh": "/egazette/zh/2012-16-39-6493.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260603T154436Z-3-001/egn201216396493 - CS L.pdf",
+  "pdf_zh": "/Users/coolsunwind/Downloads/drive-download-20260603T154436Z-3-001/cgn201216396493 - CS L.pdf",
+  "streets": [
+    {
+      "street_code": "14359",
+      "english_name": "MUK CHUI STREET",
+      "chinese_name": "沐翠街",
+      "history": [
+        {
+          "publication_date": "2012-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Muk Chui Street",
+          "street_name_zh": "沐翠街",
+          "gazette_notice_label": "G.N.6493",
+          "government_notice_url_en": "/egazette/en/2012-16-39-6493.pdf",
+          "government_notice_url_zh": "/egazette/zh/2012-16-39-6493.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "street_code": "14360",
+      "english_name": "MUK CHUN STREET",
+      "chinese_name": "沐縉街",
+      "history": [
+        {
+          "publication_date": "2012-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Muk Chun Street",
+          "street_name_zh": "沐縉街",
+          "gazette_notice_label": "G.N.6493",
+          "government_notice_url_en": "/egazette/en/2012-16-39-6493.pdf",
+          "government_notice_url_zh": "/egazette/zh/2012-16-39-6493.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "street_code": "14361",
+      "english_name": "MUK HUNG STREET",
+      "chinese_name": "沐虹街",
+      "history": [
+        {
+          "publication_date": "2012-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Muk Hung Street",
+          "street_name_zh": "沐虹街",
+          "gazette_notice_label": "G.N.6493",
+          "government_notice_url_en": "/egazette/en/2012-16-39-6493.pdf",
+          "government_notice_url_zh": "/egazette/zh/2012-16-39-6493.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "street_code": "14362",
+      "english_name": "MUK ON STREET",
+      "chinese_name": "沐安街",
+      "history": [
+        {
+          "publication_date": "2012-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Muk On Street",
+          "street_name_zh": "沐安街",
+          "gazette_notice_label": "G.N.6493",
+          "government_notice_url_en": "/egazette/en/2012-16-39-6493.pdf",
+          "government_notice_url_zh": "/egazette/zh/2012-16-39-6493.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "street_code": "14363",
+      "english_name": "SHING KAI ROAD",
+      "chinese_name": "承啟道",
+      "history": [
+        {
+          "publication_date": "2012-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Shing Kai Road",
+          "street_name_zh": "承啟道",
+          "gazette_notice_label": "G.N.6493",
+          "government_notice_url_en": "/egazette/en/2012-16-39-6493.pdf",
+          "government_notice_url_zh": "/egazette/zh/2012-16-39-6493.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "street_code": "14364",
+      "english_name": "SHING CHEONG ROAD",
+      "chinese_name": "承昌道",
+      "history": [
+        {
+          "publication_date": "2012-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Shing Cheong Road",
+          "street_name_zh": "承昌道",
+          "gazette_notice_label": "G.N.6493",
+          "government_notice_url_en": "/egazette/en/2012-16-39-6493.pdf",
+          "government_notice_url_zh": "/egazette/zh/2012-16-39-6493.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "street_code": "14365",
+      "english_name": "SHING FUNG ROAD",
+      "chinese_name": "承豐道",
+      "history": [
+        {
+          "publication_date": "2012-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Shing Fung Road",
+          "street_name_zh": "承豐道",
+          "gazette_notice_label": "G.N.6493",
+          "government_notice_url_en": "/egazette/en/2012-16-39-6493.pdf",
+          "government_notice_url_zh": "/egazette/zh/2012-16-39-6493.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}

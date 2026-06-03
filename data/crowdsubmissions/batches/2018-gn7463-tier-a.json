@@ -20,7 +20,21 @@
           "gazette_notice_label": "G.N.4363",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 康莊道 cited in G.N.7463 (2018-10-05)."
+          "submitter_remarks": "First Previous G.N. for 康莊道 cited in G.N.7463 (2018-10-05).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.7463",
+              "publication_date": "2018-10-05",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.7463",
+              "cited_publication_date": "1999-07-30"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     },
@@ -37,9 +51,24 @@
           "gazette_notice_label": "G.N.769",
           "evidence_level": "historical",
           "is_declaration_event": true,
-          "submitter_remarks": "First Previous G.N. for 公主道 cited in G.N.7463 (2018-10-05)."
+          "submitter_remarks": "First Previous G.N. for 公主道 cited in G.N.7463 (2018-10-05).",
+          "evidence_kind": "gazette_inferred",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.7463",
+              "publication_date": "2018-10-05",
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null,
+              "cited_notice_label": "G.N.7463",
+              "cited_publication_date": "1966-03-18"
+            }
+          ],
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
-  ]
+  ],
+  "evidence_schema_version": 1
 }

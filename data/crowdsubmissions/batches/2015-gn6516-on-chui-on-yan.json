@@ -1,0 +1,55 @@
+{
+  "batch_id": "2015-gn6516-on-chui-on-yan",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.6516",
+  "publication_date": "2015-08-28",
+  "gazette_url_en": "/egazette/en/2015-19-35-6516.pdf",
+  "gazette_url_zh": "/egazette/zh/2015-19-35-6516.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260603T154436Z-3-001/egn201519356516 - CS L.pdf",
+  "pdf_zh": "/Users/coolsunwind/Downloads/drive-download-20260603T154436Z-3-001/cgn201519356516 - CS L.pdf",
+  "streets": [
+    {
+      "street_code": "14409",
+      "english_name": "ON CHUI STREET",
+      "chinese_name": "安翠街",
+      "history": [
+        {
+          "publication_date": "2015-08-28",
+          "change_kind": "declare",
+          "street_name_en": "On Chui Street",
+          "street_name_zh": "安翠街",
+          "gazette_notice_label": "G.N.6516",
+          "government_notice_url_en": "/egazette/en/2015-19-35-6516.pdf",
+          "government_notice_url_zh": "/egazette/zh/2015-19-35-6516.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "street_code": "14410",
+      "english_name": "ON YAN STREET",
+      "chinese_name": "安茵街",
+      "history": [
+        {
+          "publication_date": "2015-08-28",
+          "change_kind": "declare",
+          "street_name_en": "On Yan Street",
+          "street_name_zh": "安茵街",
+          "gazette_notice_label": "G.N.6516",
+          "government_notice_url_en": "/egazette/en/2015-19-35-6516.pdf",
+          "government_notice_url_zh": "/egazette/zh/2015-19-35-6516.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}

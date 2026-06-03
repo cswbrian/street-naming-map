@@ -17,10 +17,15 @@
           "street_name_zh": "官涌街",
           "gazette_notice_label": "Government Notification No. 173",
           "proof_pdf_url": "/egazette/en/1932-gn173.pdf",
-          "evidence_level": "gazette"
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
         }
       ]
     }
   ],
-  "source": "hkgro"
+  "source": "hkgro",
+  "evidence_schema_version": 1
 }

@@ -1,0 +1,55 @@
+{
+  "batch_id": "2013-gn6570-cheung-tai-ka-king",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.6570",
+  "publication_date": "2013-11-01",
+  "gazette_url_en": "/egazette/en/2013-17-44-6570.pdf",
+  "gazette_url_zh": "/egazette/zh/2013-17-44-6570.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260603T154436Z-3-001/egn201317446570 - CS L.pdf",
+  "pdf_zh": "/Users/coolsunwind/Downloads/drive-download-20260603T154436Z-3-001/cgn201317446570 - CS L.pdf",
+  "streets": [
+    {
+      "street_code": "14385",
+      "english_name": "CHEUNG TAI ROAD",
+      "chinese_name": "樟大路",
+      "history": [
+        {
+          "publication_date": "2013-11-01",
+          "change_kind": "declare",
+          "street_name_en": "Cheung Tai Road",
+          "street_name_zh": "樟大路",
+          "gazette_notice_label": "G.N.6570",
+          "government_notice_url_en": "/egazette/en/2013-17-44-6570.pdf",
+          "government_notice_url_zh": "/egazette/zh/2013-17-44-6570.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "street_code": "14386",
+      "english_name": "KA KING LANE",
+      "chinese_name": "嘉敬里",
+      "history": [
+        {
+          "publication_date": "2013-11-01",
+          "change_kind": "declare",
+          "street_name_en": "Ka King Lane",
+          "street_name_zh": "嘉敬里",
+          "gazette_notice_label": "G.N.6570",
+          "government_notice_url_en": "/egazette/en/2013-17-44-6570.pdf",
+          "government_notice_url_zh": "/egazette/zh/2013-17-44-6570.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}
