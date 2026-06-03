@@ -323,7 +323,7 @@ code:13652,13652,KONG TAI ROAD,江大路,Secondary Road,,,,,15
 code:13112,13112,LONG YAT ROAD,朗日路,Secondary Road,,,,,15
 code:14322,14322,LUNG WO ROAD,龍和道,Secondary Road,2009,2009-12-04,https://www.landsd.gov.hk/doc/en/street-name/egazette/2019/egn201923132321.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2019/cgn201923132321.pdf,15
 code:13861,13861,MAN CHEUNG STREET,民祥街,Secondary Road,,,,,15
-code:11415,11415,MEI TIN ROAD,美田路,Secondary Road,2009,2009-09-04,/egazette/en/2009-13-36-5553.pdf,/egazette/zh/2009-13-36-5553.pdf,15
+code:11415,11415,MEI TIN ROAD,美田路,Secondary Road,1984,1984-06-15,/egazette/en/2009-13-36-5553.pdf,,15
 code:11453,11453,MOK CHEONG STREET,木廠街,Secondary Road,1926,1926-04-16,/egazette/en/1922-gn202.pdf,/egazette/zh/1922-gn202.pdf,15
 code:11473,11473,MOUNT KELLETT ROAD,加列山道,Secondary Road,,,,,15
 code:11563,11563,OCEAN PARK ROAD,海洋公園道,Secondary Road,1975,1975-02-07,/egazette/en/1975-gn351.pdf,,15
@@ -5692,7 +5692,7 @@ code:12127,12127,SOMERSET ROAD,森麻實道,Secondary Road,1929,1929-08-23,/egaz
 code:13728,13728,SOUTH BAY PATH,南灣徑,Secondary Road,,,,,2
 code:13624,13624,SOUTH HORIZON DRIVE,海怡路,Secondary Road,,,,,2
 code:12130,12130,SOUTH LANE,南里,Secondary Road,,,,,2
-code:12132,12132,SOUTH WALL ROAD,城南道,Secondary Road,,,,,2
+code:12132,12132,SOUTH WALL ROAD,城南道,Secondary Road,1932,1932-09-16,/egazette/en/1932-gn592.pdf,/egazette/zh/1932-gn592.pdf,2
 code:12138,12138,ST. FRANCIS YARD,進教圍,Secondary Road,,,,,2
 code:12148,12148,STANLEY GAP ROAD,赤柱峽道,Main Road,,,,,2
 code:12153,12153,STANLEY NEW STREET,赤柱新街,Secondary Road,,,,,2

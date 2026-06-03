@@ -1,0 +1,28 @@
+{
+  "batch_id": "1984-gn1737-mei-tin-road",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.1737",
+  "publication_date": "1984-06-15",
+  "gazette_url_en": "/egazette/en/2009-13-36-5553.pdf",
+  "gazette_url_zh": "/egazette/zh/2009-13-36-5553.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/2009-gn5553-mei-tin-road/2009-13-36-5553 - Sing CS Liu.pdf",
+  "streets": [
+    {
+      "street_code": "11415",
+      "english_name": "Mei Tin Road",
+      "chinese_name": "美田路",
+      "history": [
+        {
+          "publication_date": "1984-06-15",
+          "change_kind": "declare",
+          "street_name_en": "Mei Tin Road",
+          "street_name_zh": "美田路",
+          "gazette_notice_label": "G.N.1737",
+          "proof_pdf_url": "/egazette/en/2009-13-36-5553.pdf",
+          "evidence_level": "gazette",
+          "submitter_remarks": "Original naming G.N.1737; gazette proof G.N.5553 (description amendment cites 1737)."
+        }
+      ]
+    }
+  ]
+}

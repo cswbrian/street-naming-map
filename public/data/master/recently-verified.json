@@ -1,6 +1,12 @@
 {
-  "generated_at": "2026-06-03T14:58:39.035Z",
+  "generated_at": "2026-06-03T15:12:03.884Z",
   "streets": [
+    {
+      "street_name_en": "Mei Tin Road",
+      "street_name_zh": "美田路",
+      "naming_date": "1984-06-15",
+      "approved_at": "2026-06-03"
+    },
     {
       "street_name_en": "Lung Tak Street",
       "street_name_zh": "隆德街",
@@ -112,12 +118,6 @@
     {
       "street_name_en": "Tin Fai Road",
       "street_name_zh": "天暉路",
-      "naming_date": "2000-07-07",
-      "approved_at": "2026-06-03"
-    },
-    {
-      "street_name_en": "Tin Sau Road",
-      "street_name_zh": "天秀路",
       "naming_date": "2000-07-07",
       "approved_at": "2026-06-03"
     }
