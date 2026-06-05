@@ -266,8 +266,19 @@
   text-align: center;
 }
 
+.names-notification-bar-inner {
+  display: grid;
+}
+
 .names-notification-bar-line {
+  grid-area: 1 / 1;
   margin: 0;
+  transition: opacity 0.35s ease;
+}
+
+.names-notification-bar-line:not(.is-active) {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .names-notification-bar a {

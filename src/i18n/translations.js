@@ -109,6 +109,7 @@ export const translations = {
     namesContributeHint: '協助補充約 {count} 條待定街道的命名日期。',
     namesBatchBarLink: '批量上傳憲報',
     namesBatchBarSuffix: '（最多 10 份，自動辨識街道名稱及年份）',
+    namesNoPost2000Intake: '我們已取得2000年或以後的憲報，現正處理中，請暫不用提交',
     mapSubmitProof: '提交命名證明',
     mapRoadCardClose: '關閉街道卡片',
     mapRoadShare: '分享',
@@ -247,6 +248,8 @@ export const translations = {
     namesContributeHint: 'Help fill naming dates for about {count} pending streets.',
     namesBatchBarLink: 'Batch upload gazettes',
     namesBatchBarSuffix: ' (up to 10 files — street names and years detected automatically)',
+    namesNoPost2000Intake:
+      'We already have gazettes from 2000 onward and are processing them — please hold off on submissions for now.',
     mapSubmitProof: 'Submit naming proof',
     mapRoadCardClose: 'Close street card',
     mapRoadShare: 'Share',
