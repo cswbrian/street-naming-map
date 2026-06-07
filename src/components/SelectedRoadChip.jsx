@@ -32,13 +32,8 @@ function SelectedRoadChip({ selectedRoadInfo, labels, onClose }) {
   const [shareCopied, setShareCopied] = useState(false)
 
   const safeContributeUrl = isSafeUrl(selectedRoadInfo.contributeUrl) ? selectedRoadInfo.contributeUrl : null
-  const safeNoticeUrl = isSafeUrl(selectedRoadInfo.noticeLink?.url) ? selectedRoadInfo.noticeLink.url : null
-  const evidenceBadge = selectedRoadInfo.evidenceBadge
-  const evidenceTitle = evidenceBadge
-    ? selectedRoadInfo.noticeLink?.label
-      ? `${evidenceBadge.hint} — ${selectedRoadInfo.noticeLink.label}`
-      : evidenceBadge.hint
-    : null
+  const showTimeline =
+    (selectedRoadInfo.nameHistory?.length ?? 0) > 0 || selectedRoadInfo.isNamingPending
 
   const handleContributeClick = useCallback(
     (e) => {
@@ -102,6 +97,9 @@ function SelectedRoadChip({ selectedRoadInfo, labels, onClose }) {
             {selectedRoadInfo.enName && (
               <p className="selected-road-chip-en">{selectedRoadInfo.enName}</p>
             )}
+            {selectedRoadInfo.streetType ? (
+              <span className="selected-road-chip-type-chip">{selectedRoadInfo.streetType}</span>
+            ) : null}
           </div>
           <button
             type="button"
@@ -112,78 +110,32 @@ function SelectedRoadChip({ selectedRoadInfo, labels, onClose }) {
             <CloseIcon />
           </button>
         </header>
-        <dl className="selected-road-chip-meta">
-          {selectedRoadInfo.streetType && (
-            <div className="selected-road-chip-row">
-              <dt className="selected-road-chip-label">{labels.colType}</dt>
-              <dd className="selected-road-chip-value">{selectedRoadInfo.streetType}</dd>
-            </div>
-          )}
-          <div className="selected-road-chip-row">
-            <dt className="selected-road-chip-label">{labels.colNaming}</dt>
-            <dd className="selected-road-chip-value">
-              {selectedRoadInfo.isNamingPending ? (
-                <span className="selected-road-chip-pending">
-                  {selectedRoadInfo.namingDisplay ?? labels.pending}
-                </span>
-              ) : (
-                <span className="selected-road-chip-date">{selectedRoadInfo.namingDisplay}</span>
-              )}
-            </dd>
-          </div>
-          <div className="selected-road-chip-row">
-            <dt className="selected-road-chip-label">{labels.colSource}</dt>
-            <dd className="selected-road-chip-value">
-              {evidenceBadge ? (
-                safeNoticeUrl ? (
-                  <a
-                    className={`selected-road-chip-evidence pending-evidence-badge pending-evidence-link pending-evidence-${evidenceBadge.kind}`}
-                    href={safeNoticeUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title={evidenceTitle}
-                    onClick={handleNoticeClick}
-                  >
-                    {evidenceBadge.label}
-                  </a>
-                ) : (
-                  <span
-                    className={`selected-road-chip-evidence pending-evidence-badge pending-evidence-${evidenceBadge.kind}`}
-                    title={evidenceTitle}
-                  >
-                    {evidenceBadge.label}
-                  </span>
-                )
-              ) : (
-                <span className="selected-road-chip-empty">—</span>
-              )}
-            </dd>
-          </div>
-          {selectedRoadInfo.nameHistory?.length > 0 && (
-            <div className="selected-road-chip-row selected-road-chip-row-history">
-              <dt className="selected-road-chip-label">{labels.colNameHistory}</dt>
-              <dd className="selected-road-chip-value">
-                <NameHistoryList
-                  items={selectedRoadInfo.nameHistory}
-                  onNoticeClick={handleNoticeClick}
-                />
-              </dd>
-            </div>
-          )}
-          {selectedRoadInfo.namingRemarks?.length > 0 && (
-            <div className="selected-road-chip-row">
-              <dt className="selected-road-chip-label">{labels.colRemarks}</dt>
-              <dd className="selected-road-chip-value">
-                <ul className="selected-road-chip-remarks">
-                  {selectedRoadInfo.namingRemarks.map((remark, i) => (
-                    // eslint-disable-next-line react/no-array-index-key
-                    <li key={i}>{remark}</li>
-                  ))}
-                </ul>
-              </dd>
-            </div>
-          )}
-        </dl>
+
+        {showTimeline && (
+          <section className="selected-road-chip-timeline" aria-labelledby="selected-road-chip-timeline-label">
+            <h3 id="selected-road-chip-timeline-label" className="selected-road-chip-section-title">
+              {labels.colNameHistory}
+            </h3>
+            <NameHistoryList
+              items={selectedRoadInfo.nameHistory}
+              onNoticeClick={handleNoticeClick}
+            />
+          </section>
+        )}
+
+        {selectedRoadInfo.namingRemarks?.length > 0 && (
+          <section className="selected-road-chip-remarks-block" aria-labelledby="selected-road-chip-remarks-label">
+            <h3 id="selected-road-chip-remarks-label" className="selected-road-chip-section-title">
+              {labels.colRemarks}
+            </h3>
+            <ul className="selected-road-chip-remarks">
+              {selectedRoadInfo.namingRemarks.map((remark, i) => (
+                // eslint-disable-next-line react/no-array-index-key
+                <li key={i}>{remark}</li>
+              ))}
+            </ul>
+          </section>
+        )}
         {(safeContributeUrl || selectedRoadInfo.shareUrl) && (
           <footer className="selected-road-chip-foot">
             <div className="selected-road-chip-actions">

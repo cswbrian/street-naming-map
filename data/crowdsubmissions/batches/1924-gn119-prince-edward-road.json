@@ -1,0 +1,55 @@
+{
+  "batch_id": "1924-gn119-prince-edward-road",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 119",
+  "publication_date": "1924-03-07",
+  "gazette_url_en": "/egazette/en/1924-gn119.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1924-gn119-prince-edward-road/1924-gn119.pdf",
+  "streets": [
+    {
+      "street_code": "11787",
+      "english_name": "PRINCE EDWARD ROAD EAST",
+      "chinese_name": "太子道東",
+      "history": [
+        {
+          "publication_date": "1924-03-07",
+          "change_kind": "rename",
+          "street_name_en": "Prince Edward Road",
+          "street_name_zh": "太子道",
+          "previous_street_name_en": "Edward Avenue",
+          "previous_street_name_zh": "宜華徑",
+          "gazette_notice_label": "Government Notification No. 119",
+          "government_notice_url_en": "/egazette/en/1924-gn119.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "former_name"
+        }
+      ]
+    },
+    {
+      "street_code": "11788",
+      "english_name": "PRINCE EDWARD ROAD WEST",
+      "chinese_name": "太子道西",
+      "history": [
+        {
+          "publication_date": "1924-03-07",
+          "change_kind": "rename",
+          "street_name_en": "Prince Edward Road",
+          "street_name_zh": "太子道",
+          "previous_street_name_en": "Edward Avenue",
+          "previous_street_name_zh": "宜華徑",
+          "gazette_notice_label": "Government Notification No. 119",
+          "government_notice_url_en": "/egazette/en/1924-gn119.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "former_name"
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}

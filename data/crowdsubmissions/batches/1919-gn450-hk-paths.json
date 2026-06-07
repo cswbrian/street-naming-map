@@ -1,0 +1,117 @@
+{
+  "batch_id": "1919-gn450-hk-paths",
+  "source": "hkgro",
+  "gazette_notice_label": "Government Notification No. 450",
+  "publication_date": "1919-09-26",
+  "gazette_url_en": "/egazette/en/1919-gn450.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1919-gn450-hk-paths/1919-gn450.pdf",
+  "streets": [
+    {
+      "street_code": "10165",
+      "english_name": "CHATHAM PATH",
+      "chinese_name": "漆咸徑",
+      "history": [
+        {
+          "publication_date": "1919-09-26",
+          "change_kind": "declare",
+          "street_name_en": "Chatham Path",
+          "street_name_zh": "漆咸徑",
+          "gazette_notice_label": "Government Notification No. 450",
+          "government_notice_url_en": "/egazette/en/1919-gn450.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "street_code": "10086",
+      "english_name": "BREWIN PATH",
+      "chinese_name": "蒲魯賢徑",
+      "history": [
+        {
+          "publication_date": "1919-09-26",
+          "change_kind": "declare",
+          "street_name_en": "Brewin Path",
+          "street_name_zh": "蒲魯賢徑",
+          "gazette_notice_label": "Government Notification No. 450",
+          "government_notice_url_en": "/egazette/en/1919-gn450.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name",
+          "submitter_remarks": "Gazette ZH 蒲魯賢道; database 蒲魯賢徑."
+        }
+      ]
+    },
+    {
+      "street_code": "10317",
+      "english_name": "CLOVELLY PATH",
+      "chinese_name": "高化利徑",
+      "history": [
+        {
+          "publication_date": "1919-09-26",
+          "change_kind": "declare",
+          "street_name_en": "Clovelly Path",
+          "street_name_zh": "高化利徑",
+          "gazette_notice_label": "Government Notification No. 450",
+          "government_notice_url_en": "/egazette/en/1919-gn450.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name",
+          "submitter_remarks": "Gazette ZH 高化利道; database 高化利徑."
+        }
+      ]
+    },
+    {
+      "street_code": "11477",
+      "english_name": "MUI FONG STREET",
+      "chinese_name": "梅芳街",
+      "history": [
+        {
+          "publication_date": "1919-09-26",
+          "change_kind": "rename",
+          "street_name_en": "Mui Fong Street",
+          "street_name_zh": "梅芳街",
+          "previous_street_name_en": "Rienaeker Street",
+          "previous_street_name_zh": "連溺加街",
+          "gazette_notice_label": "Government Notification No. 450",
+          "government_notice_url_en": "/egazette/en/1919-gn450.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "street_code": "11087",
+      "english_name": "KWAI HEUNG STREET",
+      "chinese_name": "桂香街",
+      "history": [
+        {
+          "publication_date": "1919-09-26",
+          "change_kind": "rename",
+          "street_name_en": "Kwai Heung Street",
+          "street_name_zh": "桂香街",
+          "previous_street_name_en": "Torsiem Street",
+          "previous_street_name_zh": "多善街",
+          "gazette_notice_label": "Government Notification No. 450",
+          "government_notice_url_en": "/egazette/en/1919-gn450.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}

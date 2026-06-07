@@ -9,6 +9,7 @@ import { getThemedLegendColor } from '../theme/theme.js'
 import { COLOR_GROUP_DEFS, getPeriodLabel, getRoadTypeLabel } from '../i18n/translations'
 import { REGION_OPTIONS, DISTRICT_OPTIONS } from '../config/regions.mjs'
 import subdistrictCentersConfig from '../config/subdistrictCenters.json'
+import { loadNamingRoads } from '../lib/loadNamingRoads.js'
 import { buildSingleStreetFormUrl } from '../lib/contributeForm.js'
 import {
   trackEraFilter,
@@ -32,7 +33,6 @@ import {
 } from '../lib/roadShareUrl'
 
 const ROADS_URL = `${import.meta.env.BASE_URL}data/hk-streets.geojson`
-const PENDING_URL = `${import.meta.env.BASE_URL}data/master/pending-naming-years.json`
 const NOTICE_STEMS_URL = `${import.meta.env.BASE_URL}data/master/egazette-notice-stems.json`
 const PDF_LOCALES_URL = `${import.meta.env.BASE_URL}data/master/egazette-pdf-locales.json`
 
@@ -180,6 +180,7 @@ function MapPage() {
     }
     const evidenceKind = resolveDisplayEvidenceKind(pendingRow?.naming_details)
     const evidenceBadgeKey = evidenceKind ? getEvidenceKindBadge(evidenceKind, t) : null
+    const isNamingPending = !hasRowNamingDate(rowForDisplay)
     const nameHistory = buildNameHistoryTimelineItems(
       pendingRow?.naming_details,
       locale,
@@ -189,10 +190,23 @@ function MapPage() {
         evidenceNews: t('evidenceNews'),
         evidenceHearsay: t('evidenceHearsay'),
         evidenceLegalOther: t('evidenceLegalOther'),
+        evidenceResearch: t('evidenceResearch'),
         eventRoleBuilt: t('eventRoleBuilt'),
         eventRoleNameRemoved: t('eventRoleNameRemoved'),
+        eventRoleCurrentName: t('eventRoleCurrentName'),
+        eventRoleFormerName: t('eventRoleFormerName'),
+        eventTypeRename: t('eventTypeRename'),
+        eventTypeFormerName: t('eventTypeFormerName'),
+        eventTypeCurrentName: t('eventTypeCurrentName'),
+        eventTypeBuilt: t('eventTypeBuilt'),
+        eventTypeNameRemoved: t('eventTypeNameRemoved'),
       },
       displayNames,
+      {
+        pendingDisplay: isNamingPending
+          ? getNamingDisplay(rowForDisplay, t) || t('pending')
+          : null,
+      },
     )
     const namingRemarks = buildNamingRemarks(pendingRow?.naming_details, displayNames, locale)
     const namingYear = activeRoad?.year ?? pickedRoadMeta?.year ?? displayRow.naming_year ?? null
@@ -210,7 +224,7 @@ function MapPage() {
       zhName: pendingRow?.chinese_name || zhName,
       streetType: getRoadTypeLabel(locale, displayRow.street_type) || null,
       namingDisplay: getNamingDisplay(rowForDisplay, t),
-      isNamingPending: !hasRowNamingDate(rowForDisplay),
+      isNamingPending,
       nameHistory,
       namingRemarks,
       noticeLink,
@@ -406,10 +420,10 @@ function MapPage() {
 
     const loadRoadIndex = async () => {
       try {
-        const [roadsResponse, pendingResponse, stemsResponse, localesResponse] =
+        const [roadsResponse, namingRoads, stemsResponse, localesResponse] =
           await Promise.all([
             fetch(ROADS_URL),
-            fetch(PENDING_URL),
+            loadNamingRoads(),
             fetch(NOTICE_STEMS_URL),
             fetch(PDF_LOCALES_URL),
           ])
@@ -423,15 +437,12 @@ function MapPage() {
         if (localesResponse.ok) {
           localesIndex = await localesResponse.json()
         }
-        if (pendingResponse.ok) {
-          const pending = await pendingResponse.json()
-          const pendingRoads = pending?.roads ?? []
-          if (isMounted) {
-            setNoticeStemIndex(stemIndex)
-            setPdfLocales(localesIndex)
-            setNoticeLookup(buildNoticeLookup(pendingRoads, { noticeIndex: stemIndex }))
-            setPendingRoadLookup(buildPendingRoadLookup(pendingRoads))
-          }
+        const pendingRoads = namingRoads?.roads ?? []
+        if (isMounted) {
+          setNoticeStemIndex(stemIndex)
+          setPdfLocales(localesIndex)
+          setNoticeLookup(buildNoticeLookup(pendingRoads, { noticeIndex: stemIndex }))
+          setPendingRoadLookup(buildPendingRoadLookup(pendingRoads))
         }
         const features = Array.isArray(geojson?.features) ? geojson.features : []
         const roadsMap = new Map()

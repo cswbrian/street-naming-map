@@ -1,6 +1,15 @@
-import { access, mkdir, readFile, writeFile } from 'node:fs/promises'
+import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
-import { fileURLToPath } from 'node:url'
+import {
+  pipelinePaths,
+  projectRoot,
+  publicPaths,
+} from './lib/data-paths.mjs'
+import { loadMasterEvents } from './lib/master-street-events.mjs'
+import {
+  aggregateByStreet,
+  normalizeNamingDateExclusions,
+} from './lib/street-naming-core.mjs'
 import {
   buildNoticeStemIndex,
   buildPdfLocaleIndex,
@@ -14,32 +23,14 @@ import {
   normalizeStreetName,
 } from './lib/street-naming-core.mjs'
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
-const projectRoot = path.resolve(__dirname, '..')
-
-const GEOJSON_PATH = path.join(projectRoot, 'public', 'data', 'hk-streets.geojson')
-const LANDSD_AGGREGATES_PATH = path.join(
-  projectRoot,
-  'public',
-  'data',
-  'master',
-  'landsd-street-aggregates-2016plus.json',
-)
-const COMBINED_AGGREGATES_PATH = path.join(
-  projectRoot,
-  'public',
-  'data',
-  'master',
-  'street-aggregates-combined.json',
-)
-const OUTPUT_DIR = path.join(projectRoot, 'public', 'data', 'master')
-const OUTPUT_JSON = path.join(OUTPUT_DIR, 'pending-naming-years.json')
-const OUTPUT_CSV = path.join(OUTPUT_DIR, 'pending-naming-years.csv')
-const NOTICE_STEMS_JSON = path.join(OUTPUT_DIR, 'egazette-notice-stems.json')
+const GEOJSON_PATH = publicPaths.geojson
+const OUTPUT_DIR = path.dirname(publicPaths.verifiedRoads)
+const VERIFIED_ROADS_JSON = publicPaths.verifiedRoads
+const PENDING_ROADS_JSON = publicPaths.pendingRoads
+const OUTPUT_CSV = publicPaths.pendingCsv
+const NOTICE_STEMS_JSON = publicPaths.noticeStems
 const EGAZETTE_EN_DIR = path.join(projectRoot, 'public', 'egazette', 'en')
-const EGAZETTE_ZH_DIR = path.join(projectRoot, 'public', 'egazette', 'zh')
-const PDF_LOCALES_PATH = path.join(projectRoot, 'public/data/master/egazette-pdf-locales.json')
+const PDF_LOCALES_PATH = publicPaths.pdfLocales
 
 const normalize = (value) => String(value ?? '').trim()
 
@@ -181,25 +172,48 @@ const toCsvRow = (values) =>
     })
     .join(',')
 
-async function resolveAggregatesPath() {
+const slimPendingRoad = (row) => {
+  const slim = {
+    road_key: row.road_key,
+    street_code: row.street_code,
+    english_name: row.english_name,
+    chinese_name: row.chinese_name,
+    street_type: row.street_type,
+    naming_year: row.naming_year,
+    naming_date: row.naming_date,
+    naming_source: row.naming_source,
+    segment_count: row.segment_count,
+  }
+  // Keep name history on pending roads that only have former-name events.
+  if (row.naming_details?.name_history?.length) {
+    slim.naming_details = row.naming_details
+  }
+  return slim
+}
+
+async function loadNamingDateExclusions() {
   try {
-    await access(COMBINED_AGGREGATES_PATH)
-    return COMBINED_AGGREGATES_PATH
+    const raw = JSON.parse(
+      await readFile(path.join(projectRoot, 'data', 'naming-date-exclusions.json'), 'utf8'),
+    )
+    return normalizeNamingDateExclusions(raw)
   } catch {
-    return LANDSD_AGGREGATES_PATH
+    return normalizeNamingDateExclusions({})
   }
 }
 
+async function loadAggregatesFromMaster() {
+  const events = await loadMasterEvents()
+  return aggregateByStreet(events, { namingDateExclusions: await loadNamingDateExclusions() })
+}
+
 async function main() {
-  const aggregatesPath = await resolveAggregatesPath()
-  const [rawGeojson, rawAggregates] = await Promise.all([
+  const [rawGeojson, aggregateRows] = await Promise.all([
     readFile(GEOJSON_PATH, 'utf8'),
-    readFile(aggregatesPath, 'utf8'),
+    loadAggregatesFromMaster(),
   ])
   const data = JSON.parse(rawGeojson)
-  const aggregates = JSON.parse(rawAggregates)
   const features = Array.isArray(data?.features) ? data.features : []
-  const aggregateRows = Array.isArray(aggregates) ? aggregates : []
 
   const aggregatesByStreetKey = new Map(
     aggregateRows.map((item) => [String(item.street_key ?? '').trim(), item]),
@@ -295,30 +309,43 @@ async function main() {
     if (b.segment_count !== a.segment_count) return b.segment_count - a.segment_count
     return String(a.english_name ?? '').localeCompare(String(b.english_name ?? ''))
   })
-  const pendingRoads = roads.filter((row) => row.naming_year === null)
+  const verifiedRoads = roads.filter((row) => row.naming_year !== null)
+  const pendingRoads = roads.filter((row) => row.naming_year === null).map(slimPendingRoad)
   const roadsWithStreetName = roads.filter(
     (row) => normalize(row.english_name) || normalize(row.chinese_name),
   )
   const pendingRoadsWithStreetName = roadsWithStreetName.filter((row) => row.naming_year === null)
 
-  const summary = {
+  const totals = {
+    total_segments: features.length,
+    segments_missing_naming_year: missingYearSegments,
+    unique_roads: roads.length,
+    unique_roads_with_street_name: roadsWithStreetName.length,
+    unique_roads_with_naming_year: verifiedRoads.length,
+    unique_roads_with_street_name_and_naming_year:
+      roadsWithStreetName.length - pendingRoadsWithStreetName.length,
+    unique_roads_missing_naming_year: pendingRoads.length,
+    unique_roads_missing_naming_year_with_street_name: pendingRoadsWithStreetName.length,
+  }
+
+  const sharedMeta = {
     generated_at: new Date().toISOString(),
     source_file: 'public/data/hk-streets.geojson',
     notice_stem_index_path: 'public/data/master/egazette-notice-stems.json',
     egazette_pdf_locales_path: 'public/data/master/egazette-pdf-locales.json',
-    totals: {
-      total_segments: features.length,
-      segments_missing_naming_year: missingYearSegments,
-      unique_roads: roads.length,
-      unique_roads_with_street_name: roadsWithStreetName.length,
-      unique_roads_with_naming_year: roads.length - pendingRoads.length,
-      unique_roads_with_street_name_and_naming_year:
-        roadsWithStreetName.length - pendingRoadsWithStreetName.length,
-      unique_roads_missing_naming_year: pendingRoads.length,
-      unique_roads_missing_naming_year_with_street_name: pendingRoadsWithStreetName.length,
-    },
-    roads,
-    pending_roads: pendingRoads,
+    totals,
+  }
+
+  const verifiedPayload = {
+    ...sharedMeta,
+    kind: 'verified',
+    roads: verifiedRoads,
+  }
+
+  const pendingPayload = {
+    ...sharedMeta,
+    kind: 'pending',
+    roads: pendingRoads,
   }
 
   const csvLines = [
@@ -351,15 +378,18 @@ async function main() {
   ]
 
   await mkdir(OUTPUT_DIR, { recursive: true })
-  await writeFile(OUTPUT_JSON, `${JSON.stringify(summary, null, 2)}\n`)
+  await writeFile(VERIFIED_ROADS_JSON, `${JSON.stringify(verifiedPayload, null, 2)}\n`)
+  await writeFile(PENDING_ROADS_JSON, `${JSON.stringify(pendingPayload, null, 2)}\n`)
   await writeFile(OUTPUT_CSV, `${csvLines.join('\n')}\n`)
   await writeFile(NOTICE_STEMS_JSON, `${JSON.stringify(noticeStemIndex, null, 2)}\n`)
 
   console.log(`Total segments: ${features.length}`)
   console.log(`Segments missing naming_year: ${missingYearSegments}`)
   console.log(`Unique roads: ${roads.length}`)
-  console.log(`Unique roads missing naming_year: ${pendingRoads.length}`)
-  console.log(`Wrote: ${OUTPUT_JSON}`)
+  console.log(`Verified roads: ${verifiedRoads.length}`)
+  console.log(`Pending roads: ${pendingRoads.length}`)
+  console.log(`Wrote: ${VERIFIED_ROADS_JSON}`)
+  console.log(`Wrote: ${PENDING_ROADS_JSON}`)
   console.log(`Wrote: ${OUTPUT_CSV}`)
 }
 

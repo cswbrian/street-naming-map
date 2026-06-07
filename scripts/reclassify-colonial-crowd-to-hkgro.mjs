@@ -1,31 +1,26 @@
 #!/usr/bin/env node
 /**
  * Reclassify colonial gazette crowd events (1900–1939) from crowdsubmitted → hkgro.
- * Does not touch modern e-Gazette (1970s+) community submissions.
  */
 import { readFile, writeFile, readdir } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { reclassifyColonialCrowdEvent } from './lib/street-naming-core.mjs'
+import { loadMasterEvents, saveMasterEvents } from './lib/master-street-events.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
-const APPROVED = path.join(ROOT, 'data/crowdsubmissions/street-events-approved.json')
-const HISTORY = path.join(ROOT, 'data/crowdsubmissions/street-name-history.json')
 const BATCHES_DIR = path.join(ROOT, 'data/crowdsubmissions/batches')
 
-async function reclassifyJsonFile(filePath) {
-  const raw = JSON.parse(await readFile(filePath, 'utf8'))
-  if (!Array.isArray(raw)) throw new Error(`${filePath} is not a JSON array`)
+async function reclassifyMasterEvents() {
+  const events = await loadMasterEvents()
   let changed = 0
-  const next = raw.map((event) => {
+  const next = events.map((event) => {
     const updated = reclassifyColonialCrowdEvent(event)
     if (updated.source !== event.source) changed += 1
     return updated
   })
-  if (changed) {
-    await writeFile(filePath, `${JSON.stringify(next, null, 2)}\n`)
-  }
-  return changed
+  if (changed) await saveMasterEvents(next)
+  return { changed, total: next.length }
 }
 
 async function ensureBatchSources() {
@@ -43,16 +38,15 @@ async function ensureBatchSources() {
 }
 
 async function main() {
-  const approvedChanged = await reclassifyJsonFile(APPROVED)
-  const historyChanged = await reclassifyJsonFile(HISTORY)
+  const { changed, total } = await reclassifyMasterEvents()
   const batchUpdates = await ensureBatchSources()
 
   console.log(
     JSON.stringify(
       {
-        approved_events_reclassified: approvedChanged,
-        history_events_reclassified: historyChanged,
+        events_reclassified: changed,
         batch_files_source_added: batchUpdates,
+        total_events: total,
       },
       null,
       2,

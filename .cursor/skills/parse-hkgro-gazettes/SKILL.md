@@ -137,7 +137,7 @@ cp data/crowdsubmissions/batch-inbox/{batch_id}/618645.pdf \
    data/crowdsubmissions/batch-inbox/{batch_id}/1931-gn300.pdf
 node scripts/publish-crowd-gazette-pdfs.mjs --update-data
 cp public/egazette/en/1931-gn300.pdf public/egazette/zh/1931-gn300.pdf
-npm run merge:crowd
+npm run rebuild:naming
 ```
 
 ## Step 5 — Report

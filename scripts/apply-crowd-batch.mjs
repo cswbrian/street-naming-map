@@ -29,24 +29,16 @@ import {
   parseEgazetteArchiveFilename,
 } from './lib/egazette-pdf-urls.mjs'
 import { publishCrowdGazettePdfs } from './publish-crowd-gazette-pdfs.mjs'
+import {
+  appendMasterEvents,
+  patchMasterEventsByDate,
+} from './lib/master-street-events.mjs'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const projectRoot = path.resolve(__dirname, '..')
 
 const BATCH_CSV = path.join(projectRoot, 'data', 'crowdsubmissions', 'batch-approved.csv')
-const APPROVED_EVENTS = path.join(
-  projectRoot,
-  'data',
-  'crowdsubmissions',
-  'street-events-approved.json',
-)
-const NAME_HISTORY_EVENTS = path.join(
-  projectRoot,
-  'data',
-  'crowdsubmissions',
-  'street-name-history.json',
-)
 const BATCH_INBOX = path.join(projectRoot, 'data', 'crowdsubmissions', 'batch-inbox')
 
 const CSV_HEADER =
@@ -57,7 +49,7 @@ function parseArgs(argv) {
     console.log(`Usage: node scripts/apply-crowd-batch.mjs <batch.json>
        node scripts/apply-crowd-batch.mjs --stdin
 
-Applies community-verified naming dates and runs npm run merge:crowd + report:pending-years.`)
+Applies community-verified naming dates and runs npm run rebuild:naming + report:pending-years.`)
     process.exit(0)
   }
   if (argv.includes('--stdin')) return { stdin: true, file: null }
@@ -253,47 +245,6 @@ async function appendBatchCsvRows(rows) {
   await writeFile(BATCH_CSV, `${lines.join('\n')}\n`)
 }
 
-async function appendNameHistoryEvents(events) {
-  let existing = []
-  try {
-    existing = JSON.parse(await readFile(NAME_HISTORY_EVENTS, 'utf8'))
-  } catch {
-    existing = []
-  }
-  if (!Array.isArray(existing)) existing = []
-
-  const seen = new Set(existing.map((event) => event.event_id))
-  const merged = [...existing]
-  for (const event of events) {
-    if (seen.has(event.event_id)) {
-      console.warn(`Skipping duplicate history event_id: ${event.event_id}`)
-      continue
-    }
-    merged.push(event)
-    seen.add(event.event_id)
-  }
-
-  await mkdir(path.dirname(NAME_HISTORY_EVENTS), { recursive: true })
-  await writeFile(NAME_HISTORY_EVENTS, `${JSON.stringify(merged, null, 2)}\n`)
-  return merged.length - existing.length
-}
-
-async function patchCrowdEventUrls(notice, publicationDate) {
-  const events = JSON.parse(await readFile(APPROVED_EVENTS, 'utf8'))
-  let patched = 0
-  for (const event of events) {
-    if (event.publication_date !== publicationDate) continue
-    if (notice.url_en) event.government_notice_url_en = notice.url_en
-    if (notice.url_zh) event.government_notice_url_zh = notice.url_zh
-    if (notice.notice_stem) event.notice_stem = notice.notice_stem
-    patched += 1
-  }
-  if (patched) {
-    await writeFile(APPROVED_EVENTS, `${JSON.stringify(events, null, 2)}\n`)
-  }
-  return patched
-}
-
 async function main() {
   const opts = parseArgs(process.argv.slice(2))
   const batch = await loadBatchInput(opts)
@@ -389,25 +340,8 @@ async function main() {
   }
 
   if (historyEvents.length) {
-    const added = await appendNameHistoryEvents(historyEvents)
-    console.log(`Appended ${added} name-history event(s) to ${NAME_HISTORY_EVENTS}`)
-    const trackerPath = path.join(projectRoot, 'public', 'data', 'master', 'submission-tracker.json')
-    try {
-      const tracker = JSON.parse(await readFile(trackerPath, 'utf8'))
-      const today = new Date().toISOString().slice(0, 10)
-      for (const street of streets) {
-        if (typeof street !== 'object' || !Array.isArray(street.history) || !street.history.length) continue
-        const resolved = resolveStreet(street, pendingMap, resolveOpts)
-        const roadKey = resolved.roadKey ?? `code:${resolved.street_code}`
-        tracker.by_road_key = tracker.by_road_key ?? {}
-        tracker.by_road_key[roadKey] = { status: 'approved', approved_at: today }
-      }
-      tracker.generated_at = new Date().toISOString()
-      await writeFile(trackerPath, `${JSON.stringify(tracker, null, 2)}\n`)
-      console.log('Updated submission-tracker for name-history streets')
-    } catch (error) {
-      console.warn('Could not update submission-tracker:', error.message)
-    }
+    const added = await appendMasterEvents(historyEvents)
+    console.log(`Upserted ${added} event(s) into data/master/street-events.json`)
   }
 
   if (csvRows.length) {
@@ -421,19 +355,22 @@ async function main() {
   }
 
   if (process.env.SKIP_IMPORT !== '1') {
-    execSync('npm run import:crowdsubmissions', { cwd: projectRoot, stdio: 'inherit' })
-    const patched = await patchCrowdEventUrls(notice, publicationDate)
+    const patched = await patchMasterEventsByDate(publicationDate, (event) => {
+      if (notice.url_en) event.government_notice_url_en = notice.url_en
+      if (notice.url_zh) event.government_notice_url_zh = notice.url_zh
+      if (notice.notice_stem) event.notice_stem = notice.notice_stem
+    })
     if (patched) console.log(`Patched ${patched} event(s) with hosted gazette URLs`)
   }
 
   if (process.env.SKIP_MERGE !== '1') {
-    execSync('npm run merge:crowd', { cwd: projectRoot, stdio: 'inherit' })
+    execSync('npm run rebuild:naming', { cwd: projectRoot, stdio: 'inherit' })
     execSync('npm run report:pending-years', { cwd: projectRoot, stdio: 'inherit' })
     console.log('\nDone. Streets updated with gazette evidence (來源) and appear in 最近核實.')
   } else {
     console.log('\nBatch history appended (SKIP_MERGE=1).')
   }
-  console.log('Next: git add public/data data/crowdsubmissions && commit && push')
+  console.log('Next: git add public/data data/master && commit && push')
 }
 
 main().catch((error) => {

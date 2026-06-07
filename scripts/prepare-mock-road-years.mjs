@@ -1,6 +1,12 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { pipelinePaths, projectRoot, publicPaths } from './lib/data-paths.mjs'
+import {
+  loadMasterEvents,
+  mergeMasterEvents,
+  saveMasterEvents,
+} from './lib/master-street-events.mjs'
 import {
   aggregateByStreet,
   enrichGeojson,
@@ -10,16 +16,14 @@ import {
   normalizeNoticeType,
 } from './lib/street-naming-core.mjs'
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
-const projectRoot = path.resolve(__dirname, '..')
-
 const SOURCE_PATH = path.join(
   projectRoot,
   'Transportation_RoadCentreline_20260601.gdb_converted.geojson',
 )
-const OUTPUT_PATH = path.join(projectRoot, 'public', 'data', 'hk-streets.geojson')
-const MASTER_OUTPUT_DIR = path.join(projectRoot, 'public', 'data', 'master')
+const OUTPUT_PATH = publicPaths.geojson
+const LANDSD_AGGREGATES_PATH = path.join(pipelinePaths.streetEvents, '..', 'landsd-street-aggregates-2016plus.json')
+const LANDSD_QA_JSON = path.join(pipelinePaths.streetEvents, '..', 'landsd-qa-report-2016plus.json')
+const LANDSD_QA_MD = path.join(pipelinePaths.streetEvents, '..', 'landsd-qa-report-2016plus.md')
 
 const LANDSD_EN_URL =
   'https://www.landsd.gov.hk/en/survey-mapping/mapping/street-geographical-place-naming/street-naming.html'
@@ -323,12 +327,15 @@ async function main() {
   }
 
   await mkdir(path.dirname(OUTPUT_PATH), { recursive: true })
-  await mkdir(MASTER_OUTPUT_DIR, { recursive: true })
   await writeFile(OUTPUT_PATH, `${JSON.stringify(enriched)}\n`)
-  await writeJson(path.join(MASTER_OUTPUT_DIR, 'landsd-street-events-2016plus.json'), reconciled)
-  await writeJson(path.join(MASTER_OUTPUT_DIR, 'landsd-street-aggregates-2016plus.json'), aggregates)
-  await writeJson(path.join(MASTER_OUTPUT_DIR, 'landsd-qa-report-2016plus.json'), qaReport)
-  await writeFile(path.join(MASTER_OUTPUT_DIR, 'landsd-qa-report-2016plus.md'), qaToMarkdown(qaReport))
+
+  const existing = await loadMasterEvents()
+  const withoutLandsd = existing.filter((event) => event.source !== 'landsd')
+  const nextMaster = mergeMasterEvents(withoutLandsd, reconciled)
+  await saveMasterEvents(nextMaster)
+  await writeJson(LANDSD_AGGREGATES_PATH, aggregates)
+  await writeJson(LANDSD_QA_JSON, qaReport)
+  await writeFile(LANDSD_QA_MD, qaToMarkdown(qaReport))
 
   console.log(`Generated ${enriched.features.length} road features with LandsD-derived naming dates`)
   console.log(`Reconciled events: ${reconciled.length}`)

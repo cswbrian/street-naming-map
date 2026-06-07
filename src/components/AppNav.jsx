@@ -5,7 +5,7 @@ import { useTheme } from '../theme/ThemeContext'
 import { hasStreetName } from '../lib/roadKey'
 import { hasNamingYear } from '../lib/submissionStatus.js'
 
-const PENDING_URL = `${import.meta.env.BASE_URL}data/master/pending-naming-years.json`
+import { loadPendingRoadsOnly } from '../lib/loadNamingRoads.js'
 
 function SunIcon() {
   return (
@@ -99,8 +99,7 @@ function AppNav() {
 
   useEffect(() => {
     let mounted = true
-    fetch(PENDING_URL)
-      .then((r) => (r.ok ? r.json() : null))
+    loadPendingRoadsOnly()
       .then((data) => {
         if (!mounted || !Array.isArray(data?.roads)) return
         const pending = data.roads.filter(

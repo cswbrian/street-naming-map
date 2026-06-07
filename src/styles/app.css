@@ -907,14 +907,14 @@ a.pending-evidence-link:focus-visible {
 }
 
 .name-history-list-evidence-tag {
-  font-size: 0.72rem;
-  color: var(--sn-text-muted);
+  font-size: 0.62rem;
+  color: var(--sn-text-faint);
 }
 
 .name-history-list-role {
-  font-size: 0.68rem;
-  color: var(--sn-text-muted);
-  margin-right: 0.35rem;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
 }
 
 .pending-contribute-hint {
@@ -1678,8 +1678,8 @@ a.pending-evidence-link:focus-visible {
 .selected-road-chip {
   position: relative;
   display: block;
-  min-width: 196px;
-  max-width: min(78vw, 320px);
+  min-width: 210px;
+  max-width: min(82vw, 340px);
   border: 1px solid var(--sn-chip-border);
   border-radius: 0;
   background: var(--sn-chip-bg);
@@ -1696,11 +1696,16 @@ a.pending-evidence-link:focus-visible {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 0.45rem;
+  gap: 0.5rem;
   margin: 0;
+  padding-bottom: 0.08rem;
 }
 
 .selected-road-chip-titles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.12rem;
   min-width: 0;
   flex: 1;
 }
@@ -1736,58 +1741,60 @@ a.pending-evidence-link:focus-visible {
 .selected-road-chip-zh,
 .selected-road-chip-en {
   margin: 0;
-  line-height: 1.3;
+  line-height: 1.2;
+  max-width: 100%;
+  word-break: break-word;
 }
 
 .selected-road-chip-zh {
-  font-size: 0.92rem;
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  font-size: 1.14rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
   color: var(--sn-text);
 }
 
 .selected-road-chip-en {
-  margin-top: 0.14rem;
-  font-size: 0.76rem;
+  font-size: 0.72rem;
   font-weight: 500;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
+  color: var(--sn-text-muted);
+  opacity: 0.92;
+}
+
+.selected-road-chip-type-chip {
+  display: inline-block;
+  margin-top: 0.22rem;
+  padding: 0.08rem 0.34rem;
+  border: 1px solid var(--sn-chip-divider);
+  background: var(--sn-bg-elevated, rgba(0, 0, 0, 0.03));
+  font-size: 0.58rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  line-height: 1.25;
   color: var(--sn-text-muted);
 }
 
-.selected-road-chip-meta {
-  display: grid;
-  gap: 0.28rem;
-  margin: 0.52rem 0 0;
-  padding: 0.46rem 0 0;
+.selected-road-chip-section-title {
+  margin: 0 0 0.35rem;
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--sn-chip-label);
+  line-height: 1.2;
+}
+
+.selected-road-chip-timeline {
+  margin-top: 0.48rem;
+  padding-top: 0.44rem;
   border-top: 1px solid var(--sn-chip-divider);
 }
 
-.selected-road-chip-row {
-  display: grid;
-  grid-template-columns: 4.35rem minmax(0, 1fr);
-  gap: 0.55rem;
-  align-items: center;
-  margin: 0;
-}
-
-.selected-road-chip-label {
-  margin: 0;
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--sn-chip-label);
-  white-space: nowrap;
-}
-
-.selected-road-chip-value {
-  margin: 0;
-  min-width: 0;
-  font-size: 0.78rem;
-  line-height: 1.3;
-  color: var(--sn-text);
-  text-align: right;
+.selected-road-chip-remarks-block {
+  margin-top: 0.46rem;
+  padding-top: 0.42rem;
+  border-top: 1px solid var(--sn-chip-divider);
 }
 
 .selected-road-chip-empty {
@@ -1807,8 +1814,11 @@ a.pending-evidence-link:focus-visible {
   white-space: nowrap;
 }
 
-.selected-road-chip-date {
+.name-history-list-date {
+  font-size: 0.72rem;
+  font-weight: 600;
   font-variant-numeric: tabular-nums;
+  letter-spacing: 0.01em;
   color: var(--sn-chip-date);
 }
 
@@ -1829,31 +1839,12 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
   filter: brightness(1.08);
 }
 
-.selected-road-chip-row-history {
-  align-items: start;
-}
-
-.selected-road-chip-row-history .selected-road-chip-label {
-  align-self: start;
-  padding-top: 0.12rem;
-  white-space: normal;
-  line-height: 1.25;
-}
-
-.selected-road-chip-row-history .selected-road-chip-value {
-  display: block;
-  text-align: right;
-}
-
-.selected-road-chip-history-mount {
-  min-width: 0;
-}
-
 .selected-road-chip-remarks {
   margin: 0;
-  padding-left: 1rem;
-  color: var(--text-muted, #6b7280);
-  font-size: 0.78rem;
+  padding: 0;
+  list-style: none;
+  color: var(--sn-text-muted);
+  font-size: 0.72rem;
   line-height: 1.45;
 }
 
@@ -1864,37 +1855,104 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
 .name-history-list {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 0.88rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  gap: 0.5rem;
+  align-items: stretch;
+  gap: 0;
+  width: 100%;
+  border-left: 2px solid var(--sn-chip-divider);
 }
 
 .name-history-entry {
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  gap: 0.22rem;
+  align-items: flex-start;
+  gap: 0.1rem;
   max-width: 100%;
+  padding: 0.42rem 0;
+}
+
+.name-history-entry::before {
+  content: '';
+  position: absolute;
+  left: calc(-0.88rem - 1px);
+  top: 0.5rem;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background: var(--sn-chip-bg);
+  border: 2px solid var(--sn-chip-date);
+  box-sizing: border-box;
+  transform: translateX(-50%);
+}
+
+.name-history-entry--current::before {
+  width: 0.46rem;
+  height: 0.46rem;
+  top: 0.48rem;
+  background: var(--sn-chip-date);
+  border-color: var(--sn-chip-date);
+}
+
+.name-history-entry--current .name-history-list-date {
+  font-weight: 700;
+}
+
+.name-history-entry--current .name-history-entry-type {
+  color: var(--sn-chip-date);
+  font-weight: 600;
+}
+
+.name-history-entry--current .name-history-entry-name {
+  font-weight: 600;
+  color: var(--sn-text);
+}
+
+.name-history-entry:first-child {
+  padding-top: 0.08rem;
+}
+
+.name-history-entry:last-child {
+  padding-bottom: 0;
+}
+
+.name-history-entry-headline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.38rem;
+  width: 100%;
+  line-height: 1.25;
+}
+
+.name-history-entry-type {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--sn-text-muted);
+}
+
+.name-history-entry-name {
+  margin: 0.1rem 0 0;
+  font-size: 0.76rem;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--sn-text);
+  text-align: left;
+  word-break: break-word;
 }
 
 .name-history-list-date {
-  font-size: 0.68rem;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-  letter-spacing: 0.02em;
-  color: var(--sn-text-faint);
+  flex-shrink: 0;
   line-height: 1.2;
 }
 
-.name-history-list-name {
-  font-size: 0.78rem;
-  font-weight: 500;
-  line-height: 1.3;
-  color: var(--sn-chip-date);
-  text-align: right;
-  word-break: break-word;
+.name-history-entry-source {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  margin-top: 0.12rem;
 }
 
 .name-history-list-pending {
@@ -1911,15 +1969,27 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
 }
 
 .name-history-list-notice {
-  font-size: 0.68rem;
-  font-weight: 600;
-  color: var(--sn-chip-notice);
+  font-size: 0.58rem;
+  font-weight: 500;
+  line-height: 1.35;
+  color: var(--sn-text-faint);
   text-decoration: none;
+  text-align: left;
+  word-break: break-word;
+  opacity: 0.88;
 }
 
 .name-history-list-notice:hover {
+  color: var(--sn-text-muted);
+  opacity: 1;
   text-decoration: underline;
   text-underline-offset: 2px;
+}
+
+.name-history-entry-source .name-history-list-notice-label {
+  font-size: 0.62rem;
+  color: var(--sn-text-faint);
+  opacity: 0.88;
 }
 
 .selected-road-chip-foot {

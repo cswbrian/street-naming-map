@@ -11,13 +11,13 @@ import { normalizeStoredHostedPath } from './lib/egazette-pdf-urls.mjs'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const projectRoot = path.resolve(__dirname, '..')
 
+import { normalizeStoredHostedPath } from './lib/egazette-pdf-urls.mjs'
+
 const TARGETS = [
-  'data/crowdsubmissions/street-events-approved.json',
-  'data/crowdsubmissions/street-name-history.json',
+  'data/master/street-events.json',
   'data/crowdsubmissions/batch-approved.csv',
-  'public/data/master/street-events-combined.json',
-  'public/data/master/street-aggregates-combined.json',
-  'public/data/master/pending-naming-years.json',
+  'public/data/master/verified-roads.json',
+  'public/data/master/pending-roads.json',
   'public/data/master/pending-naming-years.csv',
 ]
 

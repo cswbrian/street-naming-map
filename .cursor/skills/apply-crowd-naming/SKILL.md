@@ -33,10 +33,10 @@ Goal: set naming date + **來源** `gazette_primary` (hosted PDF), list under **
 When a street **already has** a naming year or a **`gazette_inferred`** / `unknown` crowd event (e.g. first Previous G.N. parsed from a later G.N.4509 notice) but **no hosted gazette PDF** for the cited G.N. (`government_notice_url_en` / `proof_pdf_url` null):
 
 1. **Apply the primary gazette** for that naming date as a normal crowd batch (`pdf_en`, `gazette_notice_label`, `publication_date`, matched `street_code`). The merge pipeline attaches `/egazette/en/{year}-gn{no}.pdf` to map and 最近核實.
-2. **Do not** keep indirect citation remarks (`submitter_remarks` / batch `remarks` about “cited in G.N.…” or “misparsed egazette”). Remove them from batch JSON and drop duplicate `street-name-history` events for the same street + date once primary proof is applied.
+2. **Do not** keep indirect citation remarks (`submitter_remarks` / batch `remarks` about “cited in G.N.…” or “misparsed egazette”). Remove them from batch JSON and drop duplicate crowd events for the same street + date once primary proof is applied.
 3. **Omit** streets that do not match `hk-streets.geojson` (user may exclude explicitly, e.g. 佑福街 with no centreline).
 4. **Colonial / scan PDFs** (`IMG_….pdf` in `batch-inbox/{year}-gn{no}/`): `publish-crowd-gazette-pdfs.mjs` copies them to `public/egazette/en/{year}-gn{no}.pdf` using the **batch folder name** when the filename is not `egn…` / `cgn…`.
-5. After removing duplicate `street-name-history` events, run **`npm run report:pending-years`** so map chip remarks in `pending-naming-years.json` stay in sync.
+5. After removing duplicate crowd events, run **`npm run report:pending-years`** so verified/pending road lists stay in sync.
 
 ## Workflow
 
@@ -134,7 +134,7 @@ PDF parse drafts must include `history[]` with `evidence_kind: gazette_primary` 
 
 Do **not** use deprecated `evidence_level` alone. See `docs/street-name-history-schema.md`.
 
-**Name change history** (multiple dates per street): use `history` on a street entry and `street_code`. Events are stored in `data/crowdsubmissions/street-name-history.json`.
+**Name change history** (multiple dates per street): use `history` on a street entry and `street_code`. Applied events are stored in `data/master/street-events.json`.
 
 ## Street matching (critical)
 
@@ -177,7 +177,7 @@ when multiple `Wing Yip Street` rows exist — apply will **fail** or you risk t
 
 **String shorthand:** `"streets": ["盛芳街", "欣澳道"]` is treated as **Chinese only** (good). Do not pass English-only strings unless you have verified uniqueness.
 
-**Homonym pitfall (map merge):** Even with a correct crowd event, `merge:crowd` used to colour lines by English fallback. Excluded wrong codes live in `data/naming-date-exclusions.json` (e.g. `12751` 榮業街). Add `street_code` there if a homonym must stay un-dated.
+**Homonym pitfall (map merge):** Even with a correct crowd event, geojson join used to colour lines by English fallback. Excluded wrong codes live in `data/naming-date-exclusions.json` (e.g. `12751` 榮業街). Add `street_code` there if a homonym must stay un-dated.
 
 **PDF filenames:** `cgn200408518104` / `egn200408518104` auto-derive egazette URLs and G.N. number when `gazette_notice_label` is omitted.
 
@@ -187,9 +187,7 @@ when multiple `Wing Yip Street` rows exist — apply will **fail** or you risk t
 |------|--------|
 | `data/crowdsubmissions/batch-approved.csv` | Appends approved rows |
 | `data/crowdsubmissions/batch-inbox/{batch_id}/` | Stores PDF copies |
-| `data/crowdsubmissions/street-events-approved.json` | Crowd events |
-| `public/data/master/submission-tracker.json` | Approved badges |
-| `public/data/master/recently-verified.json` | 最近核實 list |
+| `data/master/street-events.json` | All naming events (single master file) |
 | `public/data/hk-streets.geojson` | Map year coloring; `naming_details` → **來源** column (`gazette_primary` / inferred) |
 
 ## CSV header pitfall
@@ -204,7 +202,7 @@ If editing `batch-approved.csv` manually, use header **`gazette notice label`** 
 | `node scripts/apply-crowd-batch.mjs <json>` | Full batch apply (after verification) |
 | `npm run publish:crowd-gazettes` | Publish inbox PDFs + update URLs |
 | `npm run apply:crowd` | Re-import CSV + merge (after manual CSV edits) |
-| `npm run merge:crowd` | Merge only (after patching approved JSON) |
+| `npm run rebuild:naming` | Rebuild geojson after master changes |
 
 ## Example: PDF attachment
 

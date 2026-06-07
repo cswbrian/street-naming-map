@@ -121,11 +121,17 @@ export function isEmptySheetRow(row) {
 }
 
 export async function loadPendingRoadKeys(projectRoot) {
-  const path = `${projectRoot}/public/data/master/pending-naming-years.json`
+  const verifiedPath = `${projectRoot}/public/data/master/verified-roads.json`
+  const pendingPath = `${projectRoot}/public/data/master/pending-roads.json`
   try {
-    const data = JSON.parse(await readFile(path, 'utf8'))
+    const [verifiedRaw, pendingRaw] = await Promise.all([
+      readFile(verifiedPath, 'utf8').catch(() => '{"roads":[]}'),
+      readFile(pendingPath, 'utf8').catch(() => '{"roads":[]}'),
+    ])
+    const verified = JSON.parse(verifiedRaw)
+    const pending = JSON.parse(pendingRaw)
     const map = new Map()
-    for (const road of data.roads ?? []) {
+    for (const road of [...(verified.roads ?? []), ...(pending.roads ?? [])]) {
       if (road.road_key) map.set(road.road_key, road)
       const code = normalize(road.street_code)
       if (code) map.set(`code:${code}`, road)

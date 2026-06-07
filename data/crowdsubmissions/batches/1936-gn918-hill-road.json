@@ -11,6 +11,18 @@
       "chinese_name": "山道",
       "history": [
         {
+          "change_kind": "declare",
+          "street_name_en": "Clarence Street",
+          "street_name_zh": null,
+          "gazette_notice_label": "Government Notification No. 918",
+          "government_notice_url_en": "/egazette/en/1936-gn918.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submission_id": "1936-gn918-hill-road-10704-clarence-former",
+          "submitter_remarks": "Former name attested in G.N.918 rename notice; Clarence naming date not separately recorded on file."
+        },
+        {
           "publication_date": "1936-11-20",
           "change_kind": "rename",
           "previous_street_name_en": "Clarence Street",

@@ -13,52 +13,37 @@ function namesMatchEntryAndDisplay(entry, displayNames) {
   return false
 }
 
-function isCurrentGazetteRename(entry, details) {
-  const currentSince = normalize(
-    details?.current_name_since_date ?? details?.canonical_naming_date ?? '',
-  )
-  const date = normalize(entry.date)
-  return (
-    currentSince &&
-    date === currentSince &&
-    entry.change_kind === 'rename' &&
-    hasGazetteProof(entry)
-  )
-}
-
 function hasPreviousName(entry) {
   return Boolean(normalize(entry.previous_name_en) || normalize(entry.previous_name_zh))
 }
 
-function isHistoryOnlyEntry(entry, displayNames) {
+function isTimelineEntry(entry, displayNames) {
   const role = String(entry.event_role ?? '').trim()
-  if (role === 'current_name') return false
-  if (role === 'former_name' || role === 'built' || role === 'name_removed') return true
+  if (role === 'current_name' || role === 'former_name' || role === 'built' || role === 'name_removed') {
+    return true
+  }
   if (entry.change_kind === 'declare' && namesMatchEntryAndDisplay(entry, displayNames)) {
-    return false
+    return true
   }
   return entry.change_kind === 'rename' || entry.change_kind === 'declare'
 }
 
-/** Entries for 舊稱 / timeline: former names, built, etc. — not current_name. */
-function filterFormerNameEntries(details, displayNames = null) {
+/** All naming events for the chip timeline (including current name). */
+function filterTimelineEntries(details, displayNames = null) {
   const history = details?.name_history
   if (!Array.isArray(history) || !history.length) return []
 
   return history.filter((entry) => {
-    if (!isHistoryOnlyEntry(entry, displayNames)) return false
+    if (!isTimelineEntry(entry, displayNames)) return false
     if (entry.change_kind === 'rename' && !hasPreviousName(entry) && entry.event_role !== 'built') {
       return false
-    }
-    if (isCurrentGazetteRename(entry, details)) {
-      return hasPreviousName(entry)
     }
     return true
   })
 }
 
 export function hasNameHistory(details, displayNames = null) {
-  return filterFormerNameEntries(details, displayNames).length >= 1
+  return filterTimelineEntries(details, displayNames).length >= 1
 }
 
 export function formatHistoryDate(date) {
@@ -90,10 +75,27 @@ function hasDerivedGazetteProof(entry) {
   )
 }
 
+function hasSupplementaryDocumentProof(entry) {
+  const items = entry.supplementary_evidence
+  if (!Array.isArray(items)) return false
+  return items.some(
+    (item) =>
+      normalize(item?.document_url) ||
+      normalize(item?.government_notice_url_en) ||
+      normalize(item?.government_notice_url_zh),
+  )
+}
+
 function getHistoryEntryPendingMeta(entry, labels) {
   const kind = String(entry.evidence_kind ?? '').trim()
   if (hasGazetteProof(entry) || kind === 'gazette_primary') {
     return { pending: false, pendingLabel: null }
+  }
+  if (kind === 'research') {
+    return {
+      pending: !hasSupplementaryDocumentProof(entry),
+      pendingLabel: labels.evidenceResearch ?? null,
+    }
   }
   if (kind === 'gazette_inferred') {
     return {
@@ -112,11 +114,32 @@ function getHistoryEntryPendingMeta(entry, labels) {
   return { pending: false, pendingLabel: null }
 }
 
-function getEventRoleLabel(entry, labels) {
+function hasOtherTimelineEntry(entry, ordered = []) {
+  return ordered.some((other) => other !== entry)
+}
+
+function getTimelineEventTypeLabel(entry, labels, displayNames = null, ordered = []) {
   const role = String(entry.event_role ?? '').trim()
-  if (role === 'built') return labels.eventRoleBuilt ?? null
-  if (role === 'name_removed') return labels.eventRoleNameRemoved ?? null
-  return null
+  const kind = String(entry.change_kind ?? '').trim()
+  if (role === 'built') return labels.eventTypeBuilt ?? labels.eventRoleBuilt ?? null
+  if (role === 'name_removed') return labels.eventTypeNameRemoved ?? labels.eventRoleNameRemoved ?? null
+  if (role === 'current_name') {
+    // Gazette may say "rename" even when no other timeline row exists yet — show Named.
+    // Once a former_name (or other) row is recorded, show Rename.
+    if (kind === 'rename' && hasOtherTimelineEntry(entry, ordered)) {
+      return labels.eventTypeRename ?? null
+    }
+    if (kind === 'rename') {
+      return labels.eventTypeCurrentName ?? labels.eventRoleCurrentName ?? null
+    }
+    return labels.eventTypeCurrentName ?? labels.eventRoleCurrentName ?? null
+  }
+  if (role === 'former_name') return labels.eventTypeFormerName ?? labels.eventRoleFormerName ?? null
+  if (kind === 'rename') return labels.eventTypeRename ?? null
+  if (kind === 'declare' && namesMatchEntryAndDisplay(entry, displayNames)) {
+    return labels.eventTypeCurrentName ?? labels.eventRoleCurrentName ?? null
+  }
+  return labels.eventTypeFormerName ?? labels.eventRoleFormerName ?? null
 }
 
 /** Former name only (card header already shows the current name). */
@@ -126,9 +149,34 @@ function buildHistoryName(entry, locale) {
   }
   const kind = entry.change_kind ?? 'other'
   if (kind === 'rename') {
+    // Former-name renames: show the name introduced at this date (e.g. 太子道 after G.N.119).
+    if (entry.event_role === 'former_name' || entry.event_role === 'current_name') {
+      return formatName(entry, locale, 'current')
+    }
     return formatName(entry, locale, 'previous')
   }
   return formatName(entry, locale, 'current')
+}
+
+function getSupplementaryNoticeLink(entry, locale) {
+  const items = entry.supplementary_evidence
+  if (!Array.isArray(items) || !items.length) return null
+  const doc =
+    items.find((item) => normalize(item.document_url)) ??
+    items.find(
+      (item) => normalize(item.government_notice_url_en) || normalize(item.government_notice_url_zh),
+    )
+  if (!doc) return null
+  const url =
+    normalize(doc.document_url) ||
+    normalize(doc.government_notice_url_en) ||
+    normalize(doc.government_notice_url_zh)
+  if (!url) return null
+  const label =
+    locale === 'zh'
+      ? doc.publisher_zh || doc.publisher || doc.document_label || '研究'
+      : doc.publisher || doc.document_label || 'Research'
+  return { url, label }
 }
 
 export function getHistoryNoticeLink(entry, locale) {
@@ -149,45 +197,87 @@ export function getHistoryNoticeLink(entry, locale) {
     if (label) return { url: null, label }
   }
 
+  const supplementary = getSupplementaryNoticeLink(entry, locale)
+  if (supplementary) return supplementary
+
   const url = normalize(entry.notice_url_en) || normalize(entry.notice_url_zh)
   if (!url) return null
   const raw = entry.notice_label_en ?? entry.notice_label_zh ?? ''
-  const label =
+  const fullLabel =
     locale === 'zh'
       ? formatNoticeLabel(raw, 'zh') || entry.notice_label_en || '憲報'
       : formatNoticeLabel(raw, 'en') || entry.notice_label_en || 'Gazette'
-  return { url, label }
+  if (entry.evidence_kind === 'gazette_primary') {
+    return {
+      url,
+      label: locale === 'zh' ? '憲報' : 'Gazette',
+      title: fullLabel,
+    }
+  }
+  return { url, label: fullLabel }
 }
 
 /** Structured items for NameHistoryList. */
-export function buildNameHistoryTimelineItems(details, locale, labels, displayNames = null) {
-  const filtered = filterFormerNameEntries(details, displayNames)
-  if (!filtered.length) return null
+export function buildNameHistoryTimelineItems(
+  details,
+  locale,
+  labels,
+  displayNames = null,
+  options = {},
+) {
+  const filtered = details ? filterTimelineEntries(details, displayNames) : []
+  const ordered = [...filtered].toSorted((a, b) => {
+    const dateA = normalize(a.date)
+    const dateB = normalize(b.date)
+    if (!dateA && !dateB) return 0
+    if (!dateA) return 1
+    if (!dateB) return -1
+    return dateB.localeCompare(dateA)
+  })
 
   const items = []
   const shownNames = new Set()
+  let hasCurrentEntry = false
 
-  for (const [index, entry] of filtered.entries()) {
-    const hideMeta = isCurrentGazetteRename(entry, details)
+  for (const [index, entry] of ordered.entries()) {
+    const isCurrent = String(entry.event_role ?? '').trim() === 'current_name'
+    if (isCurrent) hasCurrentEntry = true
+
     const name = buildHistoryName(entry, locale)
-    if (!name || name === '—') continue
-    if (hideMeta && shownNames.has(name)) continue
+    const streetName = normalize(name) && name !== '—' ? name : null
+    const isBuiltNoName = entry.event_role === 'built' && !streetName
+    if (!isBuiltNoName && !streetName) continue
+    if (streetName && !isCurrent && shownNames.has(streetName)) continue
 
-    shownNames.add(name)
+    if (streetName) shownNames.add(streetName)
     const rawDate = normalize(entry.date)
-    const pendingMeta = hideMeta ? { pending: false, pendingLabel: null } : getHistoryEntryPendingMeta(entry, labels)
-
-    const roleLabel = hideMeta ? null : getEventRoleLabel(entry, labels)
+    const pendingMeta = getHistoryEntryPendingMeta(entry, labels)
+    const eventType = getTimelineEventTypeLabel(entry, labels, displayNames, ordered)
 
     items.push({
-      id: `${rawDate || 'unknown'}-${index}`,
-      date: hideMeta ? null : formatHistoryDate(rawDate),
-      dateTime: hideMeta ? null : rawDate || null,
-      name,
-      roleLabel,
+      id: `${entry.event_role ?? 'event'}-${rawDate || 'undated'}-${index}`,
+      date: rawDate ? formatHistoryDate(rawDate) : null,
+      dateTime: rawDate || null,
+      eventType,
+      name: streetName,
+      isCurrent,
       pending: pendingMeta.pending,
-      pendingLabel: pendingMeta.pendingLabel,
-      notice: hideMeta ? null : getHistoryNoticeLink(entry, locale),
+      pendingLabel: pendingMeta.pending ? pendingMeta.pendingLabel : null,
+      notice: getHistoryNoticeLink(entry, locale),
+    })
+  }
+
+  if (!hasCurrentEntry && options.pendingDisplay) {
+    items.unshift({
+      id: 'pending-current',
+      date: null,
+      dateTime: null,
+      eventType: labels.eventTypeCurrentName ?? labels.eventRoleCurrentName ?? null,
+      name: null,
+      isCurrent: true,
+      pending: true,
+      pendingLabel: options.pendingDisplay,
+      notice: null,
     })
   }
 

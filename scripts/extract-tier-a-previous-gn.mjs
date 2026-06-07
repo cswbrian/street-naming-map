@@ -7,9 +7,10 @@ import { execSync } from 'node:child_process'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { getDocument } from 'pdfjs-dist/legacy/build/pdf.mjs'
+import { pipelinePaths, projectRoot } from './lib/data-paths.mjs'
+import { loadMasterEventsBySource } from './lib/master-street-events.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const projectRoot = path.resolve(__dirname, '..')
 
 const MONTHS = {
   january: '01',
@@ -144,9 +145,7 @@ async function main() {
   const audit = JSON.parse(
     await readFile(path.join(projectRoot, 'public/data/master/audit-naming-years-2000-2026.json'), 'utf8'),
   )
-  const landsd = JSON.parse(
-    await readFile(path.join(projectRoot, 'public/data/master/landsd-street-events-2016plus.json'), 'utf8'),
-  )
+  const landsd = await loadMasterEventsBySource('landsd')
   const geo = JSON.parse(await readFile(path.join(projectRoot, 'public/data/hk-streets.geojson'), 'utf8'))
   const codeByName = new Map()
   for (const f of geo.features) {

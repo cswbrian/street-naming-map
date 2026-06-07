@@ -13,14 +13,19 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { classifyNewsCrowdEvent } from './lib/news-evidence-classify.mjs'
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const projectRoot = path.resolve(__dirname, '..')
-const COMBINED = path.join(projectRoot, 'public/data/master/street-events-combined.json')
-const APPROVED = path.join(projectRoot, 'data/crowdsubmissions/street-events-approved.json')
-const HISTORY = path.join(projectRoot, 'data/crowdsubmissions/street-name-history.json')
+import { pipelinePaths, projectRoot, publicPaths } from './lib/data-paths.mjs'
+import {
+  loadMasterEvents,
+  patchMasterEventById,
+  removeMasterEventById,
+  saveMasterEvents,
+} from './lib/master-street-events.mjs'
+import { classifyNewsCrowdEvent } from './lib/news-evidence-classify.mjs'
+
+const MASTER = pipelinePaths.streetEvents
 const BATCH_DIR = path.join(projectRoot, 'data/crowdsubmissions/batches')
-const STEMS = path.join(projectRoot, 'public/data/master/egazette-notice-stems.json')
-const GEOJSON = path.join(projectRoot, 'public/data/hk-streets.geojson')
+const STEMS = publicPaths.noticeStems
+const GEOJSON = publicPaths.geojson
 const REVIEW_PATH = path.join(projectRoot, 'data/crowdsubmissions/news-evidence-review.json')
 
 const dryRun = process.argv.includes('--dry-run')
@@ -124,10 +129,8 @@ async function patchBatchRemoveStreet(batchId, streetCode) {
 }
 
 async function main() {
-  const [combined, approved, history, stemsIndex, geoByZh] = await Promise.all([
-    readFile(COMBINED, 'utf8').then(JSON.parse),
-    readFile(APPROVED, 'utf8').then(JSON.parse),
-    readFile(HISTORY, 'utf8').then(JSON.parse),
+  let events = await loadMasterEvents()
+  const [stemsIndex, geoByZh] = await Promise.all([
     readFile(STEMS, 'utf8').then(JSON.parse),
     loadGeoByZh(),
   ])
@@ -135,14 +138,12 @@ async function main() {
   for (const spec of REVERT_HKPLACE_NEWS) {
     const patch = revertHkPlaceNewsPatch(spec)
     if (!dryRun) {
-      patchEventInList(combined, spec.event_id, patch)
-      patchEventInList(approved, spec.event_id, patch)
-      patchEventInList(history, spec.event_id, patch)
+      const result = patchMasterEventById(events, spec.event_id, patch)
+      events = result.events
     }
   }
 
-  const allCrowd = [...combined, ...approved, ...history]
-  const targets = combined.filter(
+  const targets = events.filter(
     (e) => e.source === 'crowdsubmitted' && e.evidence_kind === 'news' && e.is_declaration_event,
   )
 
@@ -166,9 +167,7 @@ async function main() {
 
   for (const event of targets) {
     const code = String(event.street_code ?? '').trim()
-    const siblings = code
-      ? allCrowd.filter((e) => String(e.street_code) === code)
-      : []
+    const siblings = code ? events.filter((e) => String(e.street_code) === code) : []
 
     const result = classifyNewsCrowdEvent(event, {
       stemsIndex,
@@ -211,9 +210,8 @@ async function main() {
         result.action === 'upgrade_primary' ? review.upgraded_primary : review.upgraded_inferred
       bucket.push({ ...row, publication_date: result.patch.publication_date })
       if (!dryRun) {
-        patchEventInList(combined, event.event_id, result.patch)
-        patchEventInList(approved, event.event_id, result.patch)
-        patchEventInList(history, event.event_id, result.patch)
+        const patched = patchMasterEventById(events, event.event_id, result.patch)
+        events = patched.events
       }
       continue
     }
@@ -223,20 +221,15 @@ async function main() {
 
   if (!dryRun) {
     for (const [eventId, patch] of siblingPatches) {
-      patchEventInList(combined, eventId, patch)
-      patchEventInList(approved, eventId, patch)
-      patchEventInList(history, eventId, patch)
+      const patched = patchMasterEventById(events, eventId, patch)
+      events = patched.events
     }
     for (const id of removeIds) {
-      patchEventInList(combined, id, null, true)
-      patchEventInList(approved, id, null, true)
-      patchEventInList(history, id, null, true)
+      const removed = removeMasterEventById(events, id)
+      events = removed.events
     }
     await patchBatchRemoveStreet('2009-gn7995-hkplace-extensions', '14171')
-
-    await writeFile(COMBINED, `${JSON.stringify(combined, null, 2)}\n`)
-    await writeFile(APPROVED, `${JSON.stringify(approved, null, 2)}\n`)
-    await writeFile(HISTORY, `${JSON.stringify(history, null, 2)}\n`)
+    await saveMasterEvents(events)
   }
 
   review.summary = {
@@ -253,7 +246,7 @@ async function main() {
   await writeFile(REVIEW_PATH, `${JSON.stringify(review, null, 2)}\n`)
   console.log(JSON.stringify(review.summary, null, 2))
   console.log(`Review log: ${REVIEW_PATH}`)
-  if (!dryRun) console.log('\nNext: npm run merge:crowd && npm run report:pending-years')
+  if (!dryRun) console.log('\nNext: npm run rebuild:naming && npm run report:pending-years')
 }
 
 main().catch((err) => {

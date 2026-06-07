@@ -136,6 +136,7 @@ export const EVIDENCE_KINDS = new Set([
   'gazette_primary',
   'gazette_inferred',
   'legal_other',
+  'research',
   'news',
   'hearsay',
   'unknown',
@@ -147,10 +148,48 @@ export const EVIDENCE_KIND_STRENGTH = {
   gazette_primary: 70,
   gazette_inferred: 60,
   legal_other: 50,
+  research: 45,
   news: 40,
   hearsay: 30,
   unknown: 20,
   other: 10,
+}
+
+const SUPPLEMENTARY_SUPPORTS = new Set([
+  'publication_date',
+  'street_name_zh',
+  'street_name_en',
+  'previous_street_name_zh',
+  'previous_street_name_en',
+])
+
+export function normalizeSupplementaryEvidence(raw) {
+  if (!Array.isArray(raw) || !raw.length) return null
+  const entries = raw
+    .map((item) => {
+      if (!item || typeof item !== 'object') return null
+      const supports = Array.isArray(item.supports)
+        ? [...new Set(item.supports.map((value) => String(value ?? '').trim()).filter(Boolean))].filter(
+            (value) => SUPPLEMENTARY_SUPPORTS.has(value),
+          )
+        : []
+      if (!supports.length) return null
+      return {
+        evidence_kind: normalizeEvidenceKind(item.evidence_kind) ?? 'research',
+        publisher: item.publisher ?? null,
+        publisher_zh: item.publisher_zh ?? null,
+        document_label: item.document_label ?? null,
+        document_url: item.document_url ?? null,
+        supports,
+        note: item.note ?? null,
+        notice_label: item.notice_label ?? null,
+        publication_date: item.publication_date ?? null,
+        government_notice_url_en: item.government_notice_url_en ?? null,
+        government_notice_url_zh: item.government_notice_url_zh ?? null,
+      }
+    })
+    .filter(Boolean)
+  return entries.length ? entries : null
 }
 
 /** UX role: what this event means for the map vs history list. */
@@ -261,6 +300,8 @@ export function enrichEventWithEvidenceKind(event) {
     evidence_level: event.evidence_level ?? evidenceLevel,
     derived_from: normalizeDerivedFrom(event.derived_from) ?? event.derived_from ?? null,
     evidence_kind_note: event.evidence_kind_note ?? null,
+    supplementary_evidence:
+      normalizeSupplementaryEvidence(event.supplementary_evidence) ?? event.supplementary_evidence ?? null,
   }
 }
 
@@ -347,6 +388,7 @@ export function buildNameHistory(events) {
     event_role: event.event_role ?? null,
     derived_from: normalizeDerivedFrom(event.derived_from),
     evidence_kind_note: event.evidence_kind_note ?? null,
+    supplementary_evidence: normalizeSupplementaryEvidence(event.supplementary_evidence),
     source: event.source ?? null,
     submitter_remarks: event.submitter_remarks ?? null,
   }))
@@ -364,9 +406,9 @@ function deriveAggregateNaming(ordered, displayNames = {}) {
     return (event.is_declaration_event || kind === 'declare') && isCurrentNameEvent(event, displayNames)
   })
   const firstEvent = ordered[0] ?? null
-  const canonicalDate =
-    currentNameSince ?? earliestDeclaration?.publication_date ?? firstEvent?.publication_date ?? null
-  let derivationReason = 'first_event'
+  // Map year only when a current-name event exists — former-name-only timelines stay pending.
+  const canonicalDate = currentNameSince ?? earliestDeclaration?.publication_date ?? null
+  let derivationReason = 'no_current_name_event'
   if (currentNameSince) derivationReason = 'current_name_since'
   else if (earliestDeclaration) derivationReason = 'declaration_earliest'
 
@@ -743,6 +785,7 @@ export function finalizeCrowdEvent(raw, index = 0) {
     evidence_kind_note: raw.evidence_kind_note ?? null,
     proof_pdf_url: raw.proof_pdf_url ?? null,
     submitter_remarks: raw.submitter_remarks ?? raw.remarks ?? null,
+    supplementary_evidence: normalizeSupplementaryEvidence(raw.supplementary_evidence),
     reviewed_at: raw.reviewed_at ?? new Date().toISOString().slice(0, 10),
     submission_id: submissionId,
   }
@@ -802,7 +845,7 @@ export function buildCrowdEventsFromStreetEntry(street, batchDefaults = {}) {
         entry.street_name_zh ??
         entry.chinese_name ??
         (changeKind === 'rename' ? resolvedZh : entry.name_zh) ??
-        resolvedZh,
+        (normalizeEventRole(entry.event_role) === 'former_name' ? null : resolvedZh),
       previous_street_name_en: entry.previous_street_name_en ?? entry.previous_english_name ?? null,
       previous_street_name_zh: entry.previous_street_name_zh ?? entry.previous_chinese_name ?? null,
       gazette_notice_label:
@@ -827,6 +870,7 @@ export function buildCrowdEventsFromStreetEntry(street, batchDefaults = {}) {
       display_names: displayNames,
       is_declaration_event: entry.is_declaration_event,
       submitter_remarks: entry.submitter_remarks ?? entry.remarks ?? null,
+      supplementary_evidence: entry.supplementary_evidence ?? batchDefaults.supplementary_evidence ?? null,
       reviewed_at: entry.reviewed_at ?? batchDefaults.reviewed_at ?? null,
       source: entry.source ?? batchDefaults.source ?? null,
     })

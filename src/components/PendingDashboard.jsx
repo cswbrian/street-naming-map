@@ -15,7 +15,8 @@ import {
 } from '../lib/evidenceKindBadge.js'
 import { hasNamingYear } from '../lib/submissionStatus.js'
 
-const DATA_URL = `${import.meta.env.BASE_URL}data/master/pending-naming-years.json`
+import { loadNamingRoads } from '../lib/loadNamingRoads.js'
+
 const NOTICE_STEMS_URL = `${import.meta.env.BASE_URL}data/master/egazette-notice-stems.json`
 const PDF_LOCALES_URL = `${import.meta.env.BASE_URL}data/master/egazette-pdf-locales.json`
 
@@ -135,12 +136,12 @@ function PendingDashboard({ onOpenRoadOnMap }) {
       try {
         setError('')
         const [reportRes, stemsRes, localesRes] = await Promise.all([
-          fetch(DATA_URL),
+          loadNamingRoads(),
           fetch(NOTICE_STEMS_URL),
           fetch(PDF_LOCALES_URL),
         ])
-        if (!reportRes.ok) throw new Error('report')
-        const data = await reportRes.json()
+        if (!reportRes?.roads) throw new Error('report')
+        const data = reportRes
         if (mounted) {
           setReport(data)
           if (stemsRes.ok) {

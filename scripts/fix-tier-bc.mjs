@@ -7,8 +7,8 @@ import { execSync } from 'node:child_process'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { getDocument } from 'pdfjs-dist/legacy/build/pdf.mjs'
-
-const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
+import { loadMasterEvents, loadMasterEventsBySource } from './lib/master-street-events.mjs'
+import { pipelinePaths, projectRoot, publicPaths } from './lib/data-paths.mjs'
 
 const MONTHS = {
   january: '01',
@@ -193,16 +193,11 @@ async function main() {
   const audit = JSON.parse(
     await readFile(path.join(projectRoot, 'public/data/master/audit-naming-years-2000-2026.json'), 'utf8'),
   )
-  const landsd = JSON.parse(
-    await readFile(path.join(projectRoot, 'public/data/master/landsd-street-events-2016plus.json'), 'utf8'),
-  )
-  const combined = JSON.parse(
-    await readFile(path.join(projectRoot, 'public/data/master/street-events-combined.json'), 'utf8'),
-  )
+  const landsd = await loadMasterEventsBySource('landsd')
+  const masterEvents = await loadMasterEvents()
   const geo = JSON.parse(await readFile(path.join(projectRoot, 'public/data/hk-streets.geojson'), 'utf8'))
-  const history = JSON.parse(
-    await readFile(path.join(projectRoot, 'data/crowdsubmissions/street-name-history.json'), 'utf8'),
-  )
+  const history = masterEvents
+  const combined = masterEvents
   const exclPath = path.join(projectRoot, 'data/naming-date-exclusions.json')
   const excl = JSON.parse(await readFile(exclPath, 'utf8'))
   const exclIds = new Set(excl.event_ids || [])
@@ -216,10 +211,13 @@ async function main() {
   }
   let pendingRoads = []
   try {
-    const pending = JSON.parse(
-      await readFile(path.join(projectRoot, 'public/data/master/pending-naming-years.json'), 'utf8'),
-    )
-    pendingRoads = pending.roads ?? []
+    const [verifiedRaw, pendingListRaw] = await Promise.all([
+      readFile(publicPaths.verifiedRoads, 'utf8'),
+      readFile(publicPaths.pendingRoads, 'utf8'),
+    ])
+    const verified = JSON.parse(verifiedRaw)
+    const pendingList = JSON.parse(pendingListRaw)
+    pendingRoads = [...(verified.roads ?? []), ...(pendingList.roads ?? [])]
     for (const road of pendingRoads) {
       const en = (road.english_name || '').trim().toUpperCase()
       const zh = (road.chinese_name || '').trim()

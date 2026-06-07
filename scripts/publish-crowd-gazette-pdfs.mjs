@@ -13,6 +13,7 @@ import {
   buildSelfHostedPdfUrlsFromStem,
   parseEgazetteArchiveFilename,
 } from './lib/egazette-pdf-urls.mjs'
+import { updateMasterEventUrls } from './lib/master-street-events.mjs'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -21,18 +22,6 @@ const projectRoot = path.resolve(__dirname, '..')
 const BATCH_INBOX = path.join(projectRoot, 'data', 'crowdsubmissions', 'batch-inbox')
 const PUBLIC_EN = path.join(projectRoot, 'public', 'egazette', 'en')
 const PUBLIC_ZH = path.join(projectRoot, 'public', 'egazette', 'zh')
-const APPROVED_EVENTS = path.join(
-  projectRoot,
-  'data',
-  'crowdsubmissions',
-  'street-events-approved.json',
-)
-const NAME_HISTORY_EVENTS = path.join(
-  projectRoot,
-  'data',
-  'crowdsubmissions',
-  'street-name-history.json',
-)
 const BATCH_CSV = path.join(projectRoot, 'data', 'crowdsubmissions', 'batch-approved.csv')
 
 function parseArgs(argv) {
@@ -98,60 +87,6 @@ export async function publishCrowdGazettePdfs(options = {}) {
   }
 
   return { copied, stems }
-}
-
-function findStemEntryForEvent(event, stemMap) {
-  const noticeNo = String(event.notice_no ?? '').replace(/^GN/i, '')
-  for (const entry of stemMap.values()) {
-    if (entry.notice_no === noticeNo) return entry
-  }
-
-  const submissionId = String(event.submission_id ?? '')
-  const batchHint = submissionId.match(/(\d{4}-gn\d+)/i)?.[1]
-  if (batchHint) {
-    for (const entry of stemMap.values()) {
-      if (entry.batch_ids?.has(batchHint)) return entry
-    }
-  }
-
-  return null
-}
-
-async function updateCrowdEventFile(filePath, stemMap) {
-  let events = []
-  try {
-    events = JSON.parse(await readFile(filePath, 'utf8'))
-  } catch {
-    return 0
-  }
-  if (!Array.isArray(events)) return 0
-
-  let updated = 0
-  for (const event of events) {
-    const stemEntry = findStemEntryForEvent(event, stemMap)
-    if (!stemEntry) continue
-
-    const nextEn = stemEntry.urls.en
-    const nextZh = stemEntry.urls.zh
-    if (
-      nextEn !== event.government_notice_url_en ||
-      nextZh !== event.government_notice_url_zh
-    ) {
-      event.government_notice_url_en = nextEn
-      event.government_notice_url_zh = nextZh
-      event.notice_stem = stemEntry.stem
-      updated += 1
-    }
-  }
-
-  if (updated) {
-    await writeFile(filePath, `${JSON.stringify(events, null, 2)}\n`)
-  }
-  return updated
-}
-
-async function updateApprovedEvents(stemMap) {
-  return updateCrowdEventFile(APPROVED_EVENTS, stemMap)
 }
 
 async function updateBatchCsv(stemMap) {
@@ -223,13 +158,11 @@ async function main() {
   }
 
   if (opts.updateData) {
-    const eventsUpdated = await updateApprovedEvents(stems)
-    const historyUpdated = await updateCrowdEventFile(NAME_HISTORY_EVENTS, stems)
+    const eventsUpdated = await updateMasterEventUrls(stems)
     const csvUpdated = await updateBatchCsv(stems)
-    console.log(`Updated ${eventsUpdated} approved event URL(s)`)
-    console.log(`Updated ${historyUpdated} name-history event URL(s)`)
+    console.log(`Updated ${eventsUpdated} crowd event URL(s)`)
     console.log(`Updated ${csvUpdated} batch CSV row URL(s)`)
-    console.log('Run: npm run merge:crowd && npm run report:pending-years')
+    console.log('Run: npm run rebuild:naming && npm run report:pending-years')
   }
 }
 

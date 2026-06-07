@@ -328,7 +328,7 @@ def main():
                 zh = public_zh / pdf.name
                 if not zh.exists():
                     shutil.copy2(pdf, zh)
-        subprocess.run(["npm", "run", "merge:crowd"], cwd=ROOT, check=True)
+        subprocess.run(["npm", "run", "rebuild:naming"], cwd=ROOT, check=True)
 
     report_path = ROOT / "data" / "hkgro" / "street-naming" / "apply-report.json"
     report_path.write_text(

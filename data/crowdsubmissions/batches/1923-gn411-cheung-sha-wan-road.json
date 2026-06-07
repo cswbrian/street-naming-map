@@ -27,6 +27,46 @@
       ]
     },
     {
+      "street_code": "10560",
+      "english_name": "FUK WA STREET",
+      "chinese_name": "福華街",
+      "history": [
+        {
+          "publication_date": "1923-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Om Yau Street",
+          "street_name_zh": "菴由街",
+          "gazette_notice_label": "Government Notification No. 411",
+          "government_notice_url_en": "/egazette/en/1923-gn411.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "former_name"
+        }
+      ]
+    },
+    {
+      "street_code": "10562",
+      "english_name": "FUK WING STREET",
+      "chinese_name": "福榮街",
+      "history": [
+        {
+          "publication_date": "1923-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Tin Liu Street",
+          "street_name_zh": "田寮街",
+          "gazette_notice_label": "Government Notification No. 411",
+          "government_notice_url_en": "/egazette/en/1923-gn411.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "former_name"
+        }
+      ]
+    },
+    {
       "street_code": "12556",
       "english_name": "UN CHAU STREET",
       "chinese_name": "元州街",
@@ -283,6 +323,46 @@
           "derived_from": null,
           "evidence_kind_note": null,
           "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "street_code": "11787",
+      "english_name": "PRINCE EDWARD ROAD EAST",
+      "chinese_name": "太子道東",
+      "history": [
+        {
+          "publication_date": "1923-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Edward Avenue",
+          "street_name_zh": "宜華徑",
+          "gazette_notice_label": "Government Notification No. 411",
+          "government_notice_url_en": "/egazette/en/1923-gn411.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "former_name"
+        }
+      ]
+    },
+    {
+      "street_code": "11788",
+      "english_name": "PRINCE EDWARD ROAD WEST",
+      "chinese_name": "太子道西",
+      "history": [
+        {
+          "publication_date": "1923-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Edward Avenue",
+          "street_name_zh": "宜華徑",
+          "gazette_notice_label": "Government Notification No. 411",
+          "government_notice_url_en": "/egazette/en/1923-gn411.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "former_name"
         }
       ]
     }

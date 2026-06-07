@@ -24,6 +24,6 @@ for (let i = 0; i < files.length; i++) {
 }
 console.log('\nRunning import + merge once...')
 execSync('npm run import:crowdsubmissions', { cwd: projectRoot, stdio: 'inherit' })
-execSync('npm run merge:crowd', { cwd: projectRoot, stdio: 'inherit' })
+execSync('npm run rebuild:naming', { cwd: projectRoot, stdio: 'inherit' })
 execSync('npm run report:pending-years', { cwd: projectRoot, stdio: 'inherit' })
 console.log('\nAll Tier A batches applied.')

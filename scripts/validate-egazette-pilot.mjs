@@ -5,21 +5,11 @@
 
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import path from 'node:path'
-import { fileURLToPath } from 'node:url'
 import { normalizeNoticeNo, normalizeStreetName, streetNamesMatch } from './lib/street-naming-core.mjs'
 import { PILOT_NOTICE_KEYS } from './lib/egazette-pilot-notices.mjs'
+import { projectRoot } from './lib/data-paths.mjs'
+import { loadMasterEventsBySource } from './lib/master-street-events.mjs'
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
-const projectRoot = path.resolve(__dirname, '..')
-
-const LANDSD_EVENTS = path.join(
-  projectRoot,
-  'public',
-  'data',
-  'master',
-  'landsd-street-events-2016plus.json',
-)
 const PARSED_PILOT = path.join(
   projectRoot,
   'data',
@@ -138,7 +128,7 @@ function toMarkdown(report) {
 }
 
 async function main() {
-  const landsd = JSON.parse(await readFile(LANDSD_EVENTS, 'utf8'))
+  const landsd = await loadMasterEventsBySource('landsd')
   const parsedFile = JSON.parse(await readFile(PARSED_PILOT, 'utf8'))
   const parsedEvents = parsedFile.events ?? parsedFile
 

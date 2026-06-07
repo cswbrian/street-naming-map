@@ -2,12 +2,12 @@
 /**
  * Repeatable migration: evidence_kind, derived_from, event_role on crowd data + combined events.
  * After running:
- *   npm run merge:crowd
+ *   npm run rebuild:naming
  *   npm run report:pending-years
  */
 import { readdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
-import { fileURLToPath } from 'node:url'
+import { pipelinePaths, projectRoot, publicPaths } from './lib/data-paths.mjs'
 import {
   enrichEvent,
   formatGovernmentNoticeLabels,
@@ -17,15 +17,12 @@ import {
   resolveEvidenceKind,
 } from './lib/street-naming-core.mjs'
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const projectRoot = path.resolve(__dirname, '..')
-const HISTORY_PATH = path.join(projectRoot, 'data/crowdsubmissions/street-name-history.json')
+import {
+  loadMasterEvents,
+  saveMasterEvents,
+} from './lib/master-street-events.mjs'
 const BATCH_DIR = path.join(projectRoot, 'data/crowdsubmissions/batches')
-const GEOJSON_PATH = path.join(projectRoot, 'public/data/hk-streets.geojson')
-const COMBINED_EVENTS_PATH = path.join(
-  projectRoot,
-  'public/data/master/street-events-combined.json',
-)
+const GEOJSON_PATH = publicPaths.geojson
 
 async function loadGeojsonNamesByCode() {
   const geo = JSON.parse(await readFile(GEOJSON_PATH, 'utf8'))
@@ -172,17 +169,20 @@ function migrateEvent(event, geoByCode) {
   return { event: enriched, changed }
 }
 
-async function migrateHistory(geoByCode) {
-  const raw = JSON.parse(await readFile(HISTORY_PATH, 'utf8'))
-  const events = Array.isArray(raw) ? raw : raw.events ?? []
+async function migrateMasterEvents(geoByCode) {
+  const events = await loadMasterEvents()
   let changed = 0
   const next = events.map((event) => {
     const result = migrateEvent(event, geoByCode)
     if (result.changed) changed += 1
     return result.event
   })
-  await writeFile(HISTORY_PATH, `${JSON.stringify(next, null, 2)}\n`)
-  return { file: HISTORY_PATH, changed, total: next.length }
+  if (changed) await saveMasterEvents(next)
+  return {
+    file: 'data/master/street-events.json',
+    changed,
+    total: next.length,
+  }
 }
 
 async function migrateBatch(filePath, geoByCode) {
@@ -236,28 +236,12 @@ async function migrateBatch(filePath, geoByCode) {
   return { file: path.basename(filePath), changed }
 }
 
-async function migrateCombinedEvents(geoByCode) {
-  try {
-    const events = JSON.parse(await readFile(COMBINED_EVENTS_PATH, 'utf8'))
-    let changed = 0
-    const next = events.map((event) => {
-      const result = migrateEvent(event, geoByCode)
-      if (result.changed) changed += 1
-      return result.event
-    })
-    await writeFile(COMBINED_EVENTS_PATH, `${JSON.stringify(next, null, 2)}\n`)
-    return { file: COMBINED_EVENTS_PATH, changed, total: next.length }
-  } catch {
-    return { file: COMBINED_EVENTS_PATH, changed: 0, skipped: true }
-  }
-}
-
 async function main() {
   const geoByCode = await loadGeojsonNamesByCode()
   console.log(`Geojson street codes loaded: ${geoByCode.size}`)
 
-  const historyStats = await migrateHistory(geoByCode)
-  console.log('street-name-history:', historyStats)
+  const masterStats = await migrateMasterEvents(geoByCode)
+  console.log('street-events:', masterStats)
 
   const names = (await readdir(BATCH_DIR)).filter((n) => n.endsWith('.json'))
   let batchChanged = 0
@@ -269,9 +253,6 @@ async function main() {
     }
   }
   console.log('batch entries updated:', batchChanged)
-
-  const combinedStats = await migrateCombinedEvents(geoByCode)
-  console.log('street-events-combined:', combinedStats)
 }
 
 main().catch((err) => {

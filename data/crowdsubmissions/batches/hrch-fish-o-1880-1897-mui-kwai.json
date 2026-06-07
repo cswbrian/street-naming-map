@@ -1,0 +1,118 @@
+{
+  "batch_id": "hrch-fish-o-1880-1897-mui-kwai",
+  "source": "crowdsubmitted",
+  "remarks": "HRCH fish_o: 1880 built (no name), 1897 former names, G.N.450 rename 1919 unchanged.",
+  "evidence_schema_version": 2,
+  "streets": [
+    {
+      "street_code": "11477",
+      "english_name": "MUI FONG STREET",
+      "chinese_name": "梅芳街",
+      "history": [
+        {
+          "submission_id": "hrch-fish-o-11477-built-1880",
+          "publication_date": "1880-01-01",
+          "change_kind": "declare",
+          "event_role": "built",
+          "street_name_en": null,
+          "street_name_zh": null,
+          "evidence_kind": "research",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "research",
+              "publisher": "Hong Kong Resource Centre for Heritage",
+              "publisher_zh": "香港文化古蹟資源中心",
+              "document_label": "fish_o",
+              "document_url": "https://cache.org.hk/download/fish_o_10Apr.pdf",
+              "supports": ["publication_date"],
+              "note": "Earliest built circa 1880; no street name at this stage."
+            }
+          ]
+        },
+        {
+          "submission_id": "hrch-fish-o-11477-rienaeker-1897",
+          "publication_date": "1897-01-01",
+          "change_kind": "declare",
+          "event_role": "former_name",
+          "street_name_en": "Rienaeker Street",
+          "street_name_zh": "連溺加街",
+          "evidence_kind": "research",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "research",
+              "publisher": "Hong Kong Resource Centre for Heritage",
+              "publisher_zh": "香港文化古蹟資源中心",
+              "document_label": "fish_o",
+              "document_url": "https://cache.org.hk/download/fish_o_10Apr.pdf",
+              "supports": ["publication_date", "street_name_zh"],
+              "note": "Naming year and Chinese from HRCH research."
+            },
+            {
+              "evidence_kind": "gazette_primary",
+              "supports": ["street_name_en"],
+              "notice_label": "G.N.450",
+              "publication_date": "1919-09-26",
+              "government_notice_url_en": "/egazette/en/1919-gn450.pdf",
+              "note": "EN spelling corroborated at 1919 rename; does not fix 1897 naming date."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "street_code": "11087",
+      "english_name": "KWAI HEUNG STREET",
+      "chinese_name": "桂香街",
+      "history": [
+        {
+          "submission_id": "hrch-fish-o-11087-built-1880",
+          "publication_date": "1880-01-01",
+          "change_kind": "declare",
+          "event_role": "built",
+          "street_name_en": null,
+          "street_name_zh": null,
+          "evidence_kind": "research",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "research",
+              "publisher": "Hong Kong Resource Centre for Heritage",
+              "publisher_zh": "香港文化古蹟資源中心",
+              "document_label": "fish_o",
+              "document_url": "https://cache.org.hk/download/fish_o_10Apr.pdf",
+              "supports": ["publication_date"],
+              "note": "Earliest built circa 1880; no street name at this stage."
+            }
+          ]
+        },
+        {
+          "submission_id": "hrch-fish-o-11087-torsiem-1897",
+          "publication_date": "1897-01-01",
+          "change_kind": "declare",
+          "event_role": "former_name",
+          "street_name_en": "Torsiem Street",
+          "street_name_zh": "多善街",
+          "evidence_kind": "research",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "research",
+              "publisher": "Hong Kong Resource Centre for Heritage",
+              "publisher_zh": "香港文化古蹟資源中心",
+              "document_label": "fish_o",
+              "document_url": "https://cache.org.hk/download/fish_o_10Apr.pdf",
+              "supports": ["publication_date", "street_name_zh"],
+              "note": "Naming year and Chinese from HRCH research."
+            },
+            {
+              "evidence_kind": "gazette_primary",
+              "supports": ["street_name_en"],
+              "notice_label": "G.N.450",
+              "publication_date": "1919-09-26",
+              "government_notice_url_en": "/egazette/en/1919-gn450.pdf",
+              "note": "EN spelling corroborated at 1919 rename; does not fix 1897 naming date."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

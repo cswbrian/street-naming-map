@@ -42,7 +42,8 @@ Identity on the map comes from [`public/data/hk-streets.geojson`](public/data/hk
 | `is_declaration_event` | boolean | Legacy flag; renames should be `false` |
 | `government_notice_url_en` | URL | Gazette scan (e.g. HKGRO PDF) |
 | `government_notice_label_en` | string | e.g. `Gazette No. 184` |
-| `proof_pdf_url` | URL | Non-hosted attachment |
+| `proof_pdf_url` | URL | Non-hosted attachment (legacy; prefer `supplementary_evidence`) |
+| `supplementary_evidence` | array | Extra documents supporting specific fields on this event (see below) |
 
 ### Evidence kinds
 
@@ -51,13 +52,40 @@ Identity on the map comes from [`public/data/hk-streets.geojson`](public/data/hk
 | `gazette_primary` | This event’s naming date comes from the actual gazette notice (PDF/URL on this event) |
 | `gazette_inferred` | Date/G.N. from another notice (e.g. “Previous G.N.” in a later notice); use `derived_from` |
 | `legal_other` | Ordinance, court, plan-only, other legal document |
+| `research` | Academic / heritage-centre compiled research (not gazette, not press) |
 | `news` | Newspaper, magazine, official press |
 | `hearsay` | Oral tradition, forum, unverified secondary |
 | `unknown` | Date present; type not yet classified |
 | `other` | Rare cases; set `evidence_kind_note` |
 
 **Strength order** (badges / sort only; map still shows the year):  
-`gazette_primary` > `gazette_inferred` > `legal_other` > `news` > `hearsay` > `unknown` > `other`
+`gazette_primary` > `gazette_inferred` > `legal_other` > `research` > `news` > `hearsay` > `unknown` > `other`
+
+### `supplementary_evidence` (per event, schema v2)
+
+Use when **one event** is supported by multiple documents (e.g. gazette for date + research PDF for Chinese only).
+
+```json
+{
+  "evidence_kind": "gazette_primary",
+  "government_notice_url_en": "/egazette/en/1919-gn450.pdf",
+  "supplementary_evidence": [
+    {
+      "evidence_kind": "research",
+      "publisher": "Hong Kong Resource Centre for Heritage",
+      "publisher_zh": "香港文化古蹟資源中心",
+      "document_label": "fish_o",
+      "document_url": "https://cache.org.hk/download/fish_o_10Apr.pdf",
+      "supports": ["street_name_zh"],
+      "note": "Former name Chinese; gazette has EN only."
+    }
+  ]
+}
+```
+
+**`supports` values:** `publication_date`, `street_name_en`, `street_name_zh`, `previous_street_name_en`, `previous_street_name_zh`.
+
+Event-level `evidence_kind` = primary source for the event date; supplementary rows cite what each attachment proves.
 
 ### `derived_from` (per event)
 
@@ -81,7 +109,9 @@ For `gazette_inferred` (and optionally `legal_other` / `news`):
 - **Citing** notice: later G.N. that references “Previous G.N.” (usually has PDF on the batch).
 - **Cited** notice: the G.N./date used for the canonical naming year (often label-only until backfilled).
 
-## Aggregate outputs (`street-aggregates-combined.json`)
+## Derived aggregates (computed at build time)
+
+Per-street rollups (`canonical_naming_date`, `name_history`, etc.) are computed in memory by `aggregateByStreet()` during `npm run rebuild:naming` and `npm run report:pending-years`. They are not persisted to disk.
 
 | Field | Meaning |
 |-------|---------|
@@ -157,4 +187,4 @@ Optional batch root: `evidence_schema_version: 1`
 
 Apply with: `node scripts/apply-crowd-batch.mjs data/crowdsubmissions/batches/1909-gn184-taku-street.json`
 
-After batch changes, regenerate master data: `node scripts/merge-crowd-naming.mjs` and `node scripts/report-pending-naming-years.mjs`.
+After batch changes, regenerate map data: `npm run rebuild:naming` and `npm run report:pending-years`.

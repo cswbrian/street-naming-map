@@ -9,14 +9,12 @@
 import { execSync } from 'node:child_process'
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import path from 'node:path'
-import { fileURLToPath } from 'node:url'
+import { pipelinePaths, projectRoot, publicPaths } from './lib/data-paths.mjs'
+import { loadMasterEvents, saveMasterEvents } from './lib/master-street-events.mjs'
 import { classifyEgazetteNoticeText } from './lib/egazette-evidence-classify.mjs'
 import { buildSelfHostedPdfUrls } from './lib/egazette-pdf-urls.mjs'
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const projectRoot = path.resolve(__dirname, '..')
-const COMBINED = path.join(projectRoot, 'public/data/master/street-events-combined.json')
-const GEOJSON = path.join(projectRoot, 'public/data/hk-streets.geojson')
+const GEOJSON = publicPaths.geojson
 const REVIEW_PATH = path.join(projectRoot, 'data/crowdsubmissions/unknown-egazette-review.json')
 const BATCH_DIR = path.join(projectRoot, 'data/crowdsubmissions/batches')
 
@@ -52,10 +50,7 @@ function evidenceLevelFromKind(kind) {
 }
 
 async function main() {
-  const [events, geoByZh] = await Promise.all([
-    readFile(COMBINED, 'utf8').then(JSON.parse),
-    loadGeoByZh(),
-  ])
+  const [events, geoByZh] = await Promise.all([loadMasterEvents(), loadGeoByZh()])
 
   const targets = events.filter(
     (e) =>
@@ -201,7 +196,7 @@ async function main() {
   await writeFile(REVIEW_PATH, `${JSON.stringify(review, null, 2)}\n`)
 
   if (!dryRun) {
-    await writeFile(COMBINED, `${JSON.stringify(events, null, 2)}\n`)
+    await saveMasterEvents(events)
   }
 
   if (writeBatches && !dryRun) {
@@ -226,7 +221,7 @@ async function main() {
     if (review.uncertain.length > 20) console.log(`  … and ${review.uncertain.length - 20} more`)
   }
   if (!dryRun) {
-    console.log('\nNext: npm run merge:crowd && npm run report:pending-years')
+    console.log('\nNext: npm run rebuild:naming && npm run report:pending-years')
   }
 }
 
