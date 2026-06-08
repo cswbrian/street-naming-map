@@ -112,10 +112,7 @@ function SelectedRoadChip({ selectedRoadInfo, labels, onClose }) {
         </header>
 
         {showTimeline && (
-          <section className="selected-road-chip-timeline" aria-labelledby="selected-road-chip-timeline-label">
-            <h3 id="selected-road-chip-timeline-label" className="selected-road-chip-section-title">
-              {labels.colNameHistory}
-            </h3>
+          <section className="selected-road-chip-timeline" aria-label={labels.colNameHistory}>
             <NameHistoryList
               items={selectedRoadInfo.nameHistory}
               onNoticeClick={handleNoticeClick}

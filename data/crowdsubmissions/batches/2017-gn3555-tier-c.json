@@ -4,7 +4,7 @@
   "publication_date": "2017-05-26",
   "pdf_en": "data/crowdsubmissions/batch-inbox/tier-bc-gn3555/egn201721213555.pdf",
   "pdf_zh": "data/crowdsubmissions/batch-inbox/tier-bc-gn3555/cgn201721213555.pdf",
-  "remarks": "G.N.3555 (2017-05-26) deletes street name; original naming from \"Named in\" column.",
+  "remarks": "G.N.3555 (2017-05-26) deletes street name; original naming from \"Named in\" column. On Fu Road (11576) removed — superseded by HKGRO G.N.262 (1930-05-02).",
   "streets": [
     {
       "street_code": "",
@@ -229,37 +229,6 @@
         }
       ],
       "allow_name_only": true
-    },
-    {
-      "street_code": "11576",
-      "english_name": "ON FU ROAD",
-      "chinese_name": "安富道",
-      "history": [
-        {
-          "publication_date": "1957-10-11",
-          "change_kind": "declare",
-          "street_name_en": "On Fu Road",
-          "street_name_zh": "安富道",
-          "gazette_notice_label": "G.N.1367",
-          "evidence_level": "historical",
-          "is_declaration_event": true,
-          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3555 (2017-05-26).",
-          "evidence_kind": "gazette_inferred",
-          "derived_from": [
-            {
-              "kind": "gazette_citation",
-              "notice_label": "G.N.3555",
-              "publication_date": "2017-05-26",
-              "government_notice_url_en": null,
-              "government_notice_url_zh": null,
-              "cited_notice_label": "G.N.3555",
-              "cited_publication_date": "1957-10-11"
-            }
-          ],
-          "evidence_kind_note": null,
-          "event_role": "current_name"
-        }
-      ]
     },
     {
       "street_code": "",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T17:26:46.147Z",
+  "generated_at": "2026-06-08T17:33:18.209Z",
   "source_file": "public/data/hk-streets.geojson",
   "notice_stem_index_path": "public/data/master/egazette-notice-stems.json",
   "egazette_pdf_locales_path": "public/data/master/egazette-pdf-locales.json",
@@ -3394,7 +3394,7 @@
       "street_type": "Secondary Road",
       "naming_year": 1923,
       "naming_date": "1923-09-28",
-      "naming_source": "combined",
+      "naming_source": "hkgro",
       "naming_details": {
         "street_key": "code:12556",
         "street_code": "12556",
@@ -3409,7 +3409,7 @@
         "evidence_kind": "gazette_primary",
         "derived_from": null,
         "evidence_kind_note": null,
-        "event_count": 2,
+        "event_count": 1,
         "name_history": [
           {
             "date": "1923-09-28",
@@ -3430,36 +3430,6 @@
             "supplementary_evidence": null,
             "source": "hkgro",
             "submitter_remarks": null
-          },
-          {
-            "date": "2007-05-11",
-            "change_kind": "declare",
-            "name_en": "Un Chau Street",
-            "name_zh": "元州街",
-            "previous_name_en": null,
-            "previous_name_zh": null,
-            "notice_label_en": "G.N.3077",
-            "notice_label_zh": "第3077號",
-            "notice_url_en": "/egazette/en/1923-gn411.pdf",
-            "notice_url_zh": "/egazette/zh/1923-gn411.pdf",
-            "evidence_level": "historical",
-            "evidence_kind": "gazette_inferred",
-            "event_role": "current_name",
-            "derived_from": [
-              {
-                "kind": "gazette_citation",
-                "notice_label": null,
-                "publication_date": null,
-                "government_notice_url_en": null,
-                "government_notice_url_zh": null,
-                "cited_notice_label": "G.N.9867",
-                "cited_publication_date": null
-              }
-            ],
-            "evidence_kind_note": null,
-            "supplementary_evidence": null,
-            "source": "crowdsubmitted",
-            "submitter_remarks": "First Previous G.N. for 元州街 cited in G.N.9867 (2017-12-22)."
           }
         ],
         "notice_no": "GN411",
@@ -18797,7 +18767,7 @@
       "street_type": "Secondary Road",
       "naming_year": 1930,
       "naming_date": "1930-05-02",
-      "naming_source": "combined",
+      "naming_source": "hkgro",
       "naming_details": {
         "street_key": "code:11576",
         "street_code": "11576",
@@ -18812,7 +18782,7 @@
         "evidence_kind": "gazette_primary",
         "derived_from": null,
         "evidence_kind_note": null,
-        "event_count": 2,
+        "event_count": 1,
         "name_history": [
           {
             "date": "1930-05-02",
@@ -18833,36 +18803,6 @@
             "supplementary_evidence": null,
             "source": "hkgro",
             "submitter_remarks": null
-          },
-          {
-            "date": "1957-10-11",
-            "change_kind": "declare",
-            "name_en": "On Fu Road",
-            "name_zh": "安富道",
-            "previous_name_en": null,
-            "previous_name_zh": null,
-            "notice_label_en": "G.N.1367",
-            "notice_label_zh": "第1367號",
-            "notice_url_en": "/egazette/en/1930-gn262.pdf",
-            "notice_url_zh": "/egazette/zh/1930-gn262.pdf",
-            "evidence_level": "historical",
-            "evidence_kind": "gazette_inferred",
-            "event_role": "current_name",
-            "derived_from": [
-              {
-                "kind": "gazette_citation",
-                "notice_label": null,
-                "publication_date": null,
-                "government_notice_url_en": null,
-                "government_notice_url_zh": null,
-                "cited_notice_label": "G.N.3555",
-                "cited_publication_date": null
-              }
-            ],
-            "evidence_kind_note": null,
-            "supplementary_evidence": null,
-            "source": "crowdsubmitted",
-            "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3555 (2017-05-26)."
           }
         ],
         "notice_no": "GN262",
