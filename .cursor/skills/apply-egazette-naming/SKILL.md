@@ -52,7 +52,8 @@ Goal: upsert street events via `history[]`, set **來源** `gazette_primary` (ho
 
 | Notice type | Action |
 |-------------|--------|
-| `宣布街道名稱` / Declaration of street name | `change_kind: declare`, `event_role: current_name`, `evidence_kind: gazette_primary` |
+| `宣布街道名稱` / Declaration of street name (first on file) | `change_kind: declare`, `event_role: current_name`, `evidence_kind: gazette_primary` |
+| “continuation of …” / same name, new segment | `change_kind: extend`, `event_role: current_name`, `evidence_kind: gazette_primary` |
 | Previous name in notice / “instead of” | `change_kind: rename` + `previous_street_name_*`; add `former_name` row if earlier name known without gazette |
 | `取代街道說明` / replacing description of street | **Do not** create event at citing G.N. date. Extract **first Previous G.N.** per street → `gazette_inferred` at cited date + `derived_from` citing the replace-description G.N. Host citing PDF. See `2018-gn6060-first-previous-gn.json` |
 | Built / opened date (research, news) | `event_role: built`, `evidence_kind: research` or `news`; `supplementary_evidence` for document URL |

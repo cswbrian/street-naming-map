@@ -212,6 +212,7 @@ function MapPage() {
         eventTypeRename: t('eventTypeRename'),
         eventTypeFormerName: t('eventTypeFormerName'),
         eventTypeCurrentName: t('eventTypeCurrentName'),
+        eventTypeExtend: t('eventTypeExtend'),
         eventTypeBuilt: t('eventTypeBuilt'),
         eventTypeNameRemoved: t('eventTypeNameRemoved'),
       },

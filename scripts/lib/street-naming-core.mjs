@@ -129,7 +129,7 @@ export function makeStreetKey(streetNameEn, streetNameZh) {
   return `${normalizeStreetName(streetNameEn)}|${String(streetNameZh ?? '').trim()}`
 }
 
-export const CHANGE_KINDS = new Set(['declare', 'rename', 'delete'])
+export const CHANGE_KINDS = new Set(['declare', 'rename', 'delete', 'extend'])
 export const EVIDENCE_LEVELS = new Set(['gazette', 'historical'])
 
 export const EVIDENCE_KINDS = new Set([
@@ -223,6 +223,7 @@ export function resolveEventRole(event, displayNames = {}) {
 
   const matchesCurrent = namesMatchNormalized(event, displayNames.en, displayNames.zh)
   if (changeKind === 'rename') return matchesCurrent ? 'current_name' : 'former_name'
+  if (changeKind === 'extend') return matchesCurrent ? 'current_name' : 'former_name'
   if (changeKind === 'declare' || event?.is_declaration_event) {
     return matchesCurrent ? 'current_name' : 'former_name'
   }
@@ -407,14 +408,22 @@ function deriveAggregateNaming(ordered, displayNames = {}) {
   const currentNameSince = currentRename?.publication_date ?? null
   const earliestDeclaration = ordered.find((event) => {
     const kind = normalizeChangeKind(event.change_kind)
-    if (kind === 'rename' || kind === 'delete') return false
+    if (kind === 'rename' || kind === 'delete' || kind === 'extend') return false
     return (event.is_declaration_event || kind === 'declare') && isCurrentNameEvent(event, displayNames)
   })
+  const earliestExtension = ordered.find((event) => {
+    const kind = normalizeChangeKind(event.change_kind)
+    return kind === 'extend' && isCurrentNameEvent(event, displayNames)
+  })
   const firstEvent = ordered[0] ?? null
-  const canonicalDate = currentNameSince ?? earliestDeclaration?.publication_date ?? null
+  let canonicalDate = currentNameSince ?? earliestDeclaration?.publication_date ?? null
   let derivationReason = 'no_current_name_event'
   if (currentNameSince) derivationReason = 'current_name_since'
   else if (earliestDeclaration) derivationReason = 'declaration_earliest'
+  else if (earliestExtension) {
+    canonicalDate = earliestExtension.publication_date ?? null
+    derivationReason = 'extension_earliest'
+  }
 
   const builtDate = pickEarliestBuiltDate(ordered)
   const mapDisplayDate = builtDate ?? canonicalDate
@@ -728,6 +737,13 @@ export function noticeTypeLabelsForSource(source, changeKind, isDecl) {
       normalized: 'delete',
     }
   }
+  if (changeKind === 'extend') {
+    return {
+      en: hkgro ? 'Street name extension (HKGRO)' : 'Street name extension (crowdsource)',
+      zh: hkgro ? '街道延伸（HKGRO）' : '街道延伸（眾包）',
+      normalized: 'extend',
+    }
+  }
   if (isDecl) {
     return {
       en: hkgro ? 'Declaration of street name (HKGRO)' : 'Declaration of street name (crowdsource)',
@@ -768,7 +784,10 @@ export function reclassifyColonialCrowdEvent(event) {
   const changeKind = normalizeChangeKind(event.change_kind)
   const isDecl =
     event.is_declaration_event === true ||
-    (event.is_declaration_event !== false && changeKind !== 'rename' && changeKind !== 'delete')
+    (event.is_declaration_event !== false &&
+      changeKind !== 'rename' &&
+      changeKind !== 'delete' &&
+      changeKind !== 'extend')
   const noticeTypes = noticeTypeLabelsForSource('hkgro', changeKind, isDecl)
   return {
     ...event,
@@ -788,7 +807,10 @@ export function finalizeCrowdEvent(raw, index = 0) {
   const changeKind = normalizeChangeKind(raw.change_kind)
   const isDecl =
     raw.is_declaration_event === true ||
-    (raw.is_declaration_event !== false && changeKind !== 'rename' && changeKind !== 'delete')
+    (raw.is_declaration_event !== false &&
+      changeKind !== 'rename' &&
+      changeKind !== 'delete' &&
+      changeKind !== 'extend')
   const source = raw.source ?? (shouldUseHkgroSource(raw) ? 'hkgro' : 'crowdsubmitted')
   const noticeTypes = noticeTypeLabelsForSource(source, changeKind, isDecl)
   const displayNames = raw.display_names ?? raw.displayNames ?? null
@@ -871,7 +893,8 @@ export function buildCrowdEventsFromStreetEntry(street, batchDefaults = {}) {
       batchKind === 'gazette_primary' ||
       evidenceLevel === 'gazette' ||
       changeKind === 'rename' ||
-      changeKind === 'delete'
+      changeKind === 'delete' ||
+      changeKind === 'extend'
 
     return finalizeCrowdEvent({
       submission_id: submissionId,

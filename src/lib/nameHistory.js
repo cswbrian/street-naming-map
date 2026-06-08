@@ -26,7 +26,7 @@ function isTimelineEntry(entry, displayNames) {
   if (entry.change_kind === 'declare' && namesMatchEntryAndDisplay(entry, displayNames)) {
     return true
   }
-  return entry.change_kind === 'rename' || entry.change_kind === 'declare'
+  return entry.change_kind === 'rename' || entry.change_kind === 'declare' || entry.change_kind === 'extend'
 }
 
 /** All naming events for the chip timeline (including current name). */
@@ -124,6 +124,7 @@ function getTimelineEventTypeLabel(entry, labels, displayNames = null, ordered =
   const kind = String(entry.change_kind ?? '').trim()
   if (role === 'built') return labels.eventTypeBuilt ?? labels.eventRoleBuilt ?? null
   if (role === 'name_removed') return labels.eventTypeNameRemoved ?? labels.eventRoleNameRemoved ?? null
+  if (kind === 'extend') return labels.eventTypeExtend ?? null
   if (role === 'current_name') {
     // Gazette may say "rename" even when no other timeline row exists yet — show Named.
     // Once a former_name (or other) row is recorded, show Rename.

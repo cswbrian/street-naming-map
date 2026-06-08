@@ -9,7 +9,8 @@ Identity on the map comes from [`public/data/hk-streets.geojson`](public/data/hk
 | User question | `event_role` | On map? | In 舊稱 history? |
 |---------------|--------------|---------|------------------|
 | When built / opened | `built` | **Yes** (`map_year`, earliest built) | **Yes** when recorded |
-| When was **current name** named? | `current_name` | **Yes** (`map_year` fallback via `naming_year`) | Only if also a rename with prior name |
+| When was **current name** named? | `current_name` + `declare` / `rename` | **Yes** (`map_year` fallback via `naming_year`) | `extend` rows appear as **延伸**; do not set canonical date when a `declare` exists |
+| Same name, new segment gazetted | `current_name` + `extend` | No (unless no `declare` on file) | **Yes** |
 | Earlier names | `former_name` | No | **Yes** |
 | Name abolished | `name_removed` | No | Optional |
 
@@ -31,7 +32,7 @@ Identity on the map comes from [`public/data/hk-streets.geojson`](public/data/hk
 |-------|------|-------------|
 | `street_code` | string | LandsD street code; **required** to group rename chains |
 | `publication_date` | ISO date | When the name took effect (use `YYYY-01-01` if only a year is known) |
-| `change_kind` | `declare` \| `rename` \| `delete` | Kind of change |
+| `change_kind` | `declare` \| `rename` \| `delete` \| `extend` | Kind of change (`extend` = new segment gazetted under existing name; excluded from canonical naming unless no `declare` exists) |
 | `street_name_en` / `street_name_zh` | string | Name **after** this event |
 | `previous_street_name_en` / `previous_street_name_zh` | string | Name **before** (required for `rename`) |
 | `event_role` | enum | `current_name` \| `former_name` \| `built` \| `name_removed` |

@@ -1,0 +1,33 @@
+{
+  "batch_id": "2021-gn5801-cultural-drive",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.5801",
+  "publication_date": "2021-09-17",
+  "gazette_url_en": "/egazette/en/2021-25-37-5801.pdf",
+  "gazette_url_zh": "/egazette/zh/2021-25-37-5801.pdf",
+  "pdf_en": "data/egazette/raw-pdfs/en/2021-25-37-5801-en.pdf",
+  "pdf_zh": "data/egazette/raw-pdfs/zh/2021-25-37-5801-zh.pdf",
+  "remarks": "G.N.5801 (2021-09-17) declares CULTURAL DRIVE / 文化道. Replaces misparsed egazette_pdf row and tier-B inferred crowd event.",
+  "streets": [
+    {
+      "street_code": "14516",
+      "english_name": "CULTURAL DRIVE",
+      "chinese_name": "文化道",
+      "history": [
+        {
+          "publication_date": "2021-09-17",
+          "change_kind": "declare",
+          "street_name_en": "Cultural Drive",
+          "street_name_zh": "文化道",
+          "gazette_notice_label": "G.N.5801",
+          "government_notice_url_en": "/egazette/en/2021-25-37-5801.pdf",
+          "government_notice_url_zh": "/egazette/zh/2021-25-37-5801.pdf",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}

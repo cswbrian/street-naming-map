@@ -93,7 +93,8 @@ For each matched street, build one or more `history[]` rows per [event-model.md]
 
 | Notice wording | `change_kind` | `event_role` | UI (zh) |
 |----------------|---------------|--------------|---------|
-| “to be known for the future” | `declare` | `current_name` | 命名 |
+| “to be known for the future” (first on file) | `declare` | `current_name` | 命名 |
+| “continuation of …” (name already on file) | `extend` | `current_name` | 延伸 |
 | “instead of” / lists former name | `rename` | `current_name` (or `former_name` if after-name ≠ geojson) | 命名 or 易名 / 舊稱 |
 | Earlier name from user/research, no gazette | `declare` | `former_name` | 舊稱 |
 | Name abolished | `delete` | `name_removed` | 名稱撤銷 |

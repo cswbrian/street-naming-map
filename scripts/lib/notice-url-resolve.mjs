@@ -215,6 +215,20 @@ export async function resolveAggregateNoticeUrls(aggregate, noticeIndex, options
     if (urls.en || urls.zh) return { urls, derivedFrom: [enriched], canonicalEvent }
   }
 
+  if (canonicalEvent) {
+    let fromCanonical = governmentNoticeUrlsFromEvent(canonicalEvent)
+    if (options.filterPublished) {
+      fromCanonical = await filterUrlsToPublishedFiles(fromCanonical, options)
+    }
+    if (fromCanonical.en || fromCanonical.zh) {
+      return {
+        urls: fromCanonical,
+        derivedFrom: canonicalEvent?.derived_from ?? null,
+        canonicalEvent,
+      }
+    }
+  }
+
   for (let i = history.length - 1; i >= 0; i -= 1) {
     const event = history[i]
     let fromEvent = governmentNoticeUrlsFromEvent(event)

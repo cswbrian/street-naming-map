@@ -88,7 +88,8 @@ Build one or more `history[]` rows per street. See [event-model.md](../event-mod
 
 | Gazette wording | `change_kind` | `event_role` | UI (zh) | Notes |
 |-----------------|---------------|--------------|---------|-------|
-| “to be known for the future” | `declare` | `current_name` | 命名 | Most HKGRO Colonial Secretary tables |
+| “to be known for the future” (first naming on file) | `declare` | `current_name` | 命名 | No earlier `declare` for this `street_code` |
+| “continuation of …” / 延續 (name already on file) | `extend` | `current_name` | 延伸 | Same EN/ZH; earlier `declare` or known pre-existing name |
 | “instead of” / lists former name | `rename` | `current_name` or `former_name` | 命名 / 易名 / 舊稱 | Fill `previous_street_name_en` / `previous_street_name_zh`; `current_name` when after-names match geojson |
 | Earlier name from research, no gazette | `declare` | `former_name` | 舊稱 | Second `history[]` row before gazette rename |
 | “name … abolished” / “ceased to be known” | `delete` | `name_removed` | 名稱撤銷 | Rare; verify wording before applying |

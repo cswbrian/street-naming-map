@@ -10,7 +10,7 @@ Reference for agents applying gazette batches. Full schema: [`docs/street-name-h
 
 | Axis | Values | Meaning |
 |------|--------|---------|
-| `change_kind` | `declare` \| `rename` \| `delete` | What happened in the notice |
+| `change_kind` | `declare` \| `rename` \| `delete` \| `extend` | What happened in the notice |
 | `event_role` | `current_name` \| `former_name` \| `built` \| `name_removed` | How the row appears in the 舊稱 timeline and map |
 
 `evidence_kind` controls **來源** / **Source** badges (`gazette_primary`, `gazette_inferred`, `research`, …) — not the event type label.
@@ -19,7 +19,8 @@ Reference for agents applying gazette batches. Full schema: [`docs/street-name-h
 
 | Concept (zh) | `change_kind` | `event_role` | UI label (zh) | Notes |
 |--------------|---------------|--------------|---------------|-------|
-| 命名 | `declare` (or `rename` when sole timeline row) | `current_name` | 命名 | Default for first naming or current name on map |
+| 命名 | `declare` (or `rename` when sole timeline row) | `current_name` | 命名 | First naming of this name; sets canonical date |
+| 延伸 | `extend` | `current_name` | 延伸 | Gazette names a **new segment** under existing name (“continuation of …”); excluded from canonical date when a `declare` exists |
 | 易名 | `rename` | `current_name` | 易名 | Shown when another timeline row already exists |
 | 舊稱 | `declare` or `rename` | `former_name` | 舊稱 | Name does not match today’s geojson |
 | 落成 | `declare` | `built` | 落成 | Map year uses built-first; names often null |
@@ -45,7 +46,12 @@ Read notice
 │            If user/research supplies earlier name without gazette → add second row:
 │              declare + former_name + evidence_kind: unknown|research
 │
-├─ "to be known for the future" / 宣布街道名稱?
+├─ "continuation of …" / 延續 / existing name on map + earlier declare on file?
+│   └─ YES → change_kind: extend, event_role: current_name
+│            evidence_kind: gazette_primary
+│            Does NOT replace earliest declare as canonical naming date
+│
+├─ "to be known for the future" / 宣布街道名稱 (no prior name on file)?
 │   └─ YES → change_kind: declare, event_role: current_name
 │            evidence_kind: gazette_primary (when this G.N. is the naming notice)
 │
@@ -73,7 +79,7 @@ Each `history[]` entry should set `evidence_kind` and `event_role` explicitly.
 | Field | Required when | Notes |
 |-------|---------------|-------|
 | `publication_date` | Always | ISO `YYYY-MM-DD`; use `YYYY-01-01` if only year known |
-| `change_kind` | Always | `declare`, `rename`, or `delete` |
+| `change_kind` | Always | `declare`, `rename`, `delete`, or `extend` |
 | `event_role` | Always | See table above |
 | `street_name_en` / `street_name_zh` | Usually | Name **after** this event |
 | `previous_street_name_en` / `previous_street_name_zh` | `rename` | Name **before** |
@@ -205,7 +211,24 @@ See `2018-gn6060-first-previous-gn.json`. **Do not** use citing G.N. date as nam
 
 Later: apply primary PDF for G.N.1713 → upgrade same row to `gazette_primary`, remove citation-only remarks.
 
-### 6 — Name abolished (pattern; rare)
+### 6 — Name extension (continuation)
+
+G.N.427 窩打老道 (Prince Edward Rd → Cornwall St) when G.N.331 already on file:
+
+```json
+"history": [{
+  "publication_date": "1929-08-23",
+  "change_kind": "extend",
+  "street_name_en": "Waterloo Road",
+  "street_name_zh": "窩打老道",
+  "evidence_kind": "gazette_primary",
+  "event_role": "current_name"
+}]
+```
+
+G.N.331 stays `declare` for 12690 until pre-1929 origin is sourced.
+
+### 7 — Name abolished (pattern; rare)
 
 ```json
 "history": [{
