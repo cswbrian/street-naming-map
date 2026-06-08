@@ -1,0 +1,34 @@
+{
+  "batch_id": "2025-gn7381-central-kowloon-bypass",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.7381",
+  "publication_date": "2025-11-21",
+  "pdf_en": "/Users/coolsunwind/Downloads/egn202529477381.pdf",
+  "pdf_zh": "/Users/coolsunwind/Downloads/cgn202529477381.pdf",
+  "gazette_url_en": "/egazette/en/2025-29-47-7381.pdf",
+  "gazette_url_zh": "/egazette/zh/2025-29-47-7381.pdf",
+  "remarks": "G.N.7381 (2025-11-21) declares 中九龍繞道 / Central Kowloon Bypass (~8,750 m, Plan KRM147).",
+  "streets": [
+    {
+      "street_code": "14567",
+      "english_name": "CENTRAL KOWLOON BYPASS",
+      "chinese_name": "中九龍繞道",
+      "history": [
+        {
+          "publication_date": "2025-11-21",
+          "change_kind": "declare",
+          "street_name_en": "Central Kowloon Bypass",
+          "street_name_zh": "中九龍繞道",
+          "gazette_notice_label": "G.N.7381",
+          "evidence_level": "gazette",
+          "is_declaration_event": true,
+          "evidence_kind": "gazette_primary",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}

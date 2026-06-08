@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-08T17:33:18.209Z",
+  "generated_at": "2026-06-08T17:40:54.529Z",
   "source_file": "public/data/hk-streets.geojson",
   "notice_stem_index_path": "public/data/master/egazette-notice-stems.json",
   "egazette_pdf_locales_path": "public/data/master/egazette-pdf-locales.json",
   "totals": {
     "total_segments": 39724,
-    "segments_missing_naming_year": 34307,
+    "segments_missing_naming_year": 34284,
     "unique_roads": 12233,
     "unique_roads_with_street_name": 4578,
-    "unique_roads_with_naming_year": 855,
-    "unique_roads_with_street_name_and_naming_year": 855,
-    "unique_roads_missing_naming_year": 11378,
-    "unique_roads_missing_naming_year_with_street_name": 3723
+    "unique_roads_with_naming_year": 856,
+    "unique_roads_with_street_name_and_naming_year": 856,
+    "unique_roads_missing_naming_year": 11377,
+    "unique_roads_missing_naming_year_with_street_name": 3722
   },
   "kind": "pending",
   "roads": [
@@ -1033,17 +1033,6 @@
       "english_name": "CASTLE PEAK ROAD - TAI LAM",
       "chinese_name": "青山公路　－　大欖段",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 23
-    },
-    {
-      "road_key": "code:14567",
-      "street_code": "14567",
-      "english_name": "CENTRAL KOWLOON BYPASS",
-      "chinese_name": "中九龍繞道",
-      "street_type": "Main Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
