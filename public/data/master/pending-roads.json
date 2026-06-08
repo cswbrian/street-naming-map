@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-08T17:07:16.233Z",
+  "generated_at": "2026-06-08T17:21:53.304Z",
   "source_file": "public/data/hk-streets.geojson",
   "notice_stem_index_path": "public/data/master/egazette-notice-stems.json",
   "egazette_pdf_locales_path": "public/data/master/egazette-pdf-locales.json",
   "totals": {
     "total_segments": 39724,
-    "segments_missing_naming_year": 34379,
+    "segments_missing_naming_year": 34307,
     "unique_roads": 12233,
     "unique_roads_with_street_name": 4578,
-    "unique_roads_with_naming_year": 851,
-    "unique_roads_with_street_name_and_naming_year": 851,
-    "unique_roads_missing_naming_year": 11382,
-    "unique_roads_missing_naming_year_with_street_name": 3727
+    "unique_roads_with_naming_year": 855,
+    "unique_roads_with_street_name_and_naming_year": 855,
+    "unique_roads_missing_naming_year": 11378,
+    "unique_roads_missing_naming_year_with_street_name": 3723
   },
   "kind": "pending",
   "roads": [
@@ -1083,17 +1083,6 @@
       "segment_count": 23
     },
     {
-      "road_key": "code:11805",
-      "street_code": "11805",
-      "english_name": "QUEEN'S ROAD EAST",
-      "chinese_name": "皇后大道東",
-      "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 23
-    },
-    {
       "road_key": "code:40750",
       "street_code": "40750",
       "english_name": null,
@@ -1219,17 +1208,6 @@
       "street_code": "13128",
       "english_name": "PAK WO ROAD",
       "chinese_name": "百和路",
-      "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 22
-    },
-    {
-      "road_key": "code:11804",
-      "street_code": "11804",
-      "english_name": "QUEEN'S ROAD CENTRAL",
-      "chinese_name": "皇后大道中",
       "street_type": "Main Road",
       "naming_year": null,
       "naming_date": null,
@@ -1858,17 +1836,6 @@
       "english_name": "NORTH LANTAU HIGHWAY",
       "chinese_name": "北大嶼山公路",
       "street_type": "Highway",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 18
-    },
-    {
-      "road_key": "code:11806",
-      "street_code": "11806",
-      "english_name": "QUEEN'S ROAD WEST",
-      "chinese_name": "皇后大道西",
-      "street_type": "Main Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -7846,17 +7813,6 @@
       "english_name": "PO LAM ROAD",
       "chinese_name": "寶琳路",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 9
-    },
-    {
-      "road_key": "code:11807",
-      "street_code": "11807",
-      "english_name": "QUEENSWAY",
-      "chinese_name": "金鐘道",
-      "street_type": "Main Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,

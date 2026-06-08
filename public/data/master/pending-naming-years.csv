@@ -133,7 +133,7 @@ code:14567,14567,CENTRAL KOWLOON BYPASS,中九龍繞道,Main Road,,,,,23
 code:10663,10663,HARCOURT ROAD,夏慤道,Main Road,,,,,23
 code:10875,10875,HUNG TIN ROAD,洪天路,Main Road,,,,,23
 code:11737,11737,PO KONG VILLAGE ROAD,蒲崗村道,Secondary Road,,,,,23
-code:11805,11805,QUEEN'S ROAD EAST,皇后大道東,Main Road,,,,,23
+code:11805,11805,QUEEN'S ROAD EAST,皇后大道東,Main Road,1874,1874-02-14,,,23
 code:11815,11815,REPULSE BAY ROAD,淺水灣道,Main Road,1932,1932-10-07,/egazette/en/1932-gn635.pdf,/egazette/zh/1932-gn635.pdf,23
 code:12165,12165,STUBBS ROAD,司徒拔道,Main Road,1923,1923-02-15,/egazette/en/1923-gn77.pdf,/egazette/zh/1923-gn77.pdf,23
 code:40750,40750,,,Secondary Road,,,,,22
@@ -150,7 +150,7 @@ code:10611,10611,GOLDEN BAMBOO ROAD NORTH,金竹北路,Secondary Road,,,,,22
 code:10698,10698,HEUNG YIP ROAD,香葉道,Secondary Road,1972,1972-09-29,/egazette/en/2025-29-17-2547.pdf,/egazette/zh/2025-29-17-2547.pdf,22
 code:11352,11352,MA TAU WAI ROAD,馬頭圍道,Main Road,,,,,22
 code:13128,13128,PAK WO ROAD,百和路,Main Road,,,,,22
-code:11804,11804,QUEEN'S ROAD CENTRAL,皇后大道中,Main Road,,,,,22
+code:11804,11804,QUEEN'S ROAD CENTRAL,皇后大道中,Main Road,1874,1874-02-14,,,22
 code:11906,11906,SAN SHAM ROAD,新深路,Main Road,,,,,22
 code:12387,12387,TOLO HIGHWAY,吐露港公路,Highway,,,,,22
 code:12556,12556,UN CHAU STREET,元州街,Secondary Road,1923,1923-09-28,/egazette/en/1923-gn411.pdf,/egazette/zh/1923-gn411.pdf,22
@@ -231,7 +231,7 @@ code:14287,14287,KONG SHAM WESTERN HIGHWAY,港深西部公路,Highway,,,,,18
 code:11156,11156,LAI KING HILL ROAD,荔景山路,Secondary Road,,,,,18
 code:11359,11359,MAGAZINE GAP ROAD,馬己仙峽道,Main Road,,,,,18
 code:13752,13752,NORTH LANTAU HIGHWAY,北大嶼山公路,Highway,,,,,18
-code:11806,11806,QUEEN'S ROAD WEST,皇后大道西,Main Road,,,,,18
+code:11806,11806,QUEEN'S ROAD WEST,皇后大道西,Main Road,1877,1877-01-06,,,18
 code:11923,11923,SASSOON ROAD,沙宣道,Secondary Road,1924,1924-04-04,/egazette/en/1924-gn187.pdf,/egazette/zh/1924-gn187.pdf,18
 code:11964,11964,SHA TIN ROAD,沙田路,Highway,,,,,18
 code:13594,13594,SHEK MUN INTERCHANGE,石門交匯處,Main Road,,,,,18
@@ -887,7 +887,7 @@ code:14373,14373,PAK SHING KOK ROAD,百勝角路,Secondary Road,2015,2015-07-03,
 code:11662,11662,PARKVALE DRIVE,寶峰徑,Secondary Road,,,,,9
 code:11722,11722,PITT STREET,碧街,Secondary Road,,,,,9
 code:11738,11738,PO LAM ROAD,寶琳路,Secondary Road,,,,,9
-code:11807,11807,QUEENSWAY,金鐘道,Main Road,,,,,9
+code:11807,11807,QUEENSWAY,金鐘道,Main Road,1968,1968-02-25,,,9
 code:11868,11868,SAIGON STREET,西貢街,Secondary Road,1909,1909-03-19,/egazette/en/1909-gn184.pdf,/egazette/zh/1909-gn184.pdf,9
 code:13690,13690,SAN TIN HIGHWAY,新田公路,Highway,,,,,9
 code:14050,14050,SAN WAI TSAI ROAD,新圍仔路,Secondary Road,,,,,9

@@ -1,0 +1,372 @@
+{
+  "batch_id": "queens-road-segments-research-draft",
+  "source": "crowdsubmitted",
+  "publication_date": "2026-06-09",
+  "gazette_notice_label": "Research batch (no G.N.)",
+  "remarks": "Applied 2026-06-09. HKGRO: no colonial naming G.N. for segment declares; earliest usage G.N.30/32 (1874-02-14), G.N.4 (1877-01-06). 1842 built on 11804 only — hearsay/unverified (no gazette PDF on file).",
+  "evidence_schema_version": 2,
+  "streets": [
+    {
+      "street_code": "11804",
+      "english_name": "QUEEN'S ROAD CENTRAL",
+      "chinese_name": "皇后大道中",
+      "history": [
+        {
+          "submission_id": "queens-road-11804-built-1842",
+          "publication_date": "1842-02-01",
+          "change_kind": "declare",
+          "event_role": "built",
+          "street_name_en": null,
+          "street_name_zh": null,
+          "evidence_kind": "hearsay",
+          "submitter_remarks": "First major road on Hong Kong Island; West Camp to Central, opened February 1842. Unverified — no gazette primary on file.",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "hearsay",
+              "document_label": "Industrial History HK Group road network 1841–1940",
+              "document_url": "https://industrialhistoryhk.org/development-hong-kong-road-network-1841-1940/",
+              "supports": ["publication_date"],
+              "note": "Secondary narrative only; not gazette-verified."
+            }
+          ]
+        },
+        {
+          "submission_id": "queens-road-11804-main-street-former",
+          "publication_date": "1841-05-01",
+          "change_kind": "declare",
+          "event_role": "former_name",
+          "street_name_en": "Main Street",
+          "street_name_zh": null,
+          "evidence_kind": "research",
+          "submitter_remarks": "Working name during construction before March 1842 gazette naming as Queen's Road.",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "research",
+              "document_label": "Wikipedia Queen's Road Hong Kong",
+              "document_url": "https://en.wikipedia.org/wiki/Queen%27s_Road,_Hong_Kong",
+              "supports": ["street_name_en"],
+              "note": "Originally called Main Street; renamed Queen's Road March 1842."
+            }
+          ]
+        },
+        {
+          "submission_id": "queens-road-11804-queens-road-former",
+          "publication_date": "1842-03-22",
+          "change_kind": "declare",
+          "event_role": "former_name",
+          "street_name_en": "Queen's Road",
+          "street_name_zh": "皇后大道",
+          "evidence_kind": "research",
+          "submitter_remarks": "Undifferentiated name in Pottinger notification; Chinese 皇后 is mistranslation of Queen (Victoria) per 1890 clarification.",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "research",
+              "document_label": "Industrial History HK Group / Eitel citation",
+              "document_url": "https://industrialhistoryhk.org/development-hong-kong-road-network-1841-1940/",
+              "supports": ["publication_date", "street_name_en"],
+              "note": "Hongkong Government House notification 22 March 1842; road first called Queen's Road."
+            }
+          ]
+        },
+        {
+          "submission_id": "queens-road-11804-central-declare",
+          "publication_date": "1874-02-14",
+          "change_kind": "declare",
+          "event_role": "current_name",
+          "street_name_en": "Queen's Road Central",
+          "street_name_zh": "皇后大道中",
+          "evidence_kind": "research",
+          "submitter_remarks": "Earliest HKGRO index hit for segment name 'Queen's Road Central' (G.N.30 repairs tender). Not a formal naming declaration; upgrade if colonial declare G.N. found.",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "research",
+              "document_label": "HK Gov Gazette 1874 index (G.N.30)",
+              "document_url": "https://digitalrepository.lib.hku.hk/catalog/kd17m2859",
+              "supports": ["publication_date", "street_name_en"],
+              "notice_label": "G.N.30",
+              "note": "1874-02-14: Tenders, Queen's Road Central, Repairs to."
+            }
+          ]
+        },
+        {
+          "submission_id": "queens-road-11804-meiji-former",
+          "publication_date": "1942-04-20",
+          "change_kind": "rename",
+          "event_role": "former_name",
+          "previous_street_name_en": "Queen's Road Central",
+          "previous_street_name_zh": "皇后大道中",
+          "street_name_en": "Nakameiji-dori",
+          "street_name_zh": "中明治通",
+          "evidence_kind": "legal_other",
+          "evidence_kind_note": "香港佔領地公示第十二號",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "legal_other",
+              "publisher": "Government Records Service",
+              "publisher_zh": "政府檔案處",
+              "document_label": "香港佔領地公示（第十二號）",
+              "document_url": "https://zh.wikisource.org/zh-hant/%E9%A6%99%E6%B8%AF%E4%BD%94%E9%A0%98%E5%9C%B0%E5%85%AC%E7%A4%BA%EF%BC%88%E7%AC%AC%E5%8D%81%E4%BA%8C%E8%99%9F%EF%BC%89",
+              "supports": ["publication_date", "street_name_zh", "previous_street_name_zh"],
+              "note": "Japanese occupation street renaming; restored after 1945."
+            },
+            {
+              "evidence_kind": "legal_other",
+              "publisher": "Government Records Service",
+              "publisher_zh": "政府檔案處",
+              "document_label": "GRS 香港日治時期街道更名",
+              "document_url": "https://www.grs.gov.hk/ws/erp/japanocc/chi/eve03.htm",
+              "supports": ["street_name_zh"],
+              "note": "皇后大道中 → 中明治通."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "street_code": "11805",
+      "english_name": "QUEEN'S ROAD EAST",
+      "chinese_name": "皇后大道東",
+      "history": [
+        {
+          "submission_id": "queens-road-11805-queens-road-former",
+          "publication_date": "1842-03-22",
+          "change_kind": "declare",
+          "event_role": "former_name",
+          "street_name_en": "Queen's Road",
+          "street_name_zh": "皇后大道",
+          "evidence_kind": "research",
+          "submitter_remarks": "Parent thoroughfare name before eastern segment distinguished.",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "research",
+              "document_label": "Industrial History HK Group",
+              "document_url": "https://industrialhistoryhk.org/development-hong-kong-road-network-1841-1940/",
+              "supports": ["publication_date", "street_name_en"]
+            }
+          ]
+        },
+        {
+          "submission_id": "queens-road-11805-east-declare",
+          "publication_date": "1874-02-14",
+          "change_kind": "declare",
+          "event_role": "current_name",
+          "street_name_en": "Queen's Road East",
+          "street_name_zh": "皇后大道東",
+          "evidence_kind": "research",
+          "submitter_remarks": "Earliest HKGRO index hit for segment name (G.N.32 repairs tender). 1874-01-10 G.N.6 is repairs only, not naming. Name in informal use since 1870s.",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "research",
+              "document_label": "HK Gov Gazette 1874 index (G.N.32)",
+              "document_url": "https://digitalrepository.lib.hku.hk/catalog/kd17m2859",
+              "supports": ["publication_date", "street_name_en"],
+              "notice_label": "G.N.32",
+              "note": "1874-02-14: Tenders, Queen's Road East, Repairs to."
+            },
+            {
+              "evidence_kind": "research",
+              "document_label": "Wikipedia Queen's Road East",
+              "document_url": "https://en.wikipedia.org/wiki/Queen%27s_Road_East",
+              "supports": ["street_name_en"],
+              "note": "Segment name attested in use since at least the 1870s; does not fix gazette naming date."
+            }
+          ]
+        },
+        {
+          "submission_id": "queens-road-11805-gap-road-former",
+          "publication_date": "1930-01-01",
+          "change_kind": "declare",
+          "event_role": "former_name",
+          "street_name_en": "Gap Road",
+          "street_name_zh": null,
+          "evidence_kind": "research",
+          "submitter_remarks": "Local name for section through Morrison Hill (Wan Chai–Happy Valley); still referred to circa 1930.",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "research",
+              "document_label": "Wikipedia Queen's Road East",
+              "document_url": "https://en.wikipedia.org/wiki/Queen%27s_Road_East",
+              "supports": ["street_name_en", "publication_date"],
+              "note": "Eastern part cut through Morrison Hill; known as Gap Road around 1930."
+            }
+          ]
+        },
+        {
+          "submission_id": "queens-road-11805-meiji-former",
+          "publication_date": "1942-04-20",
+          "change_kind": "rename",
+          "event_role": "former_name",
+          "previous_street_name_en": "Queen's Road East",
+          "previous_street_name_zh": "皇后大道東",
+          "street_name_en": "Higashimeiji-dori",
+          "street_name_zh": "東明治通",
+          "evidence_kind": "legal_other",
+          "evidence_kind_note": "香港佔領地公示第十二號",
+          "submitter_remarks": "佔領地公示覆蓋現皇后大道東及金鐘道一段.",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "legal_other",
+              "document_label": "香港佔領地公示（第十二號）",
+              "document_url": "https://zh.wikisource.org/zh-hant/%E9%A6%99%E6%B8%AF%E4%BD%94%E9%A0%98%E5%9C%B0%E5%85%AC%E7%A4%BA%EF%BC%88%E7%AC%AC%E5%8D%81%E4%BA%8C%E8%99%9F%EF%BC%89",
+              "supports": ["publication_date", "street_name_zh", "previous_street_name_zh"],
+              "note": "Footnote: 現皇后大道東和金鐘道."
+            },
+            {
+              "evidence_kind": "legal_other",
+              "document_label": "GRS 香港日治時期街道更名",
+              "document_url": "https://www.grs.gov.hk/ws/erp/japanocc/chi/eve03.htm",
+              "supports": ["street_name_zh"],
+              "note": "皇后大道東 → 東明治通."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "street_code": "11806",
+      "english_name": "QUEEN'S ROAD WEST",
+      "chinese_name": "皇后大道西",
+      "history": [
+        {
+          "submission_id": "queens-road-11806-queens-road-former",
+          "publication_date": "1842-03-22",
+          "change_kind": "declare",
+          "event_role": "former_name",
+          "street_name_en": "Queen's Road",
+          "street_name_zh": "皇后大道",
+          "evidence_kind": "research",
+          "submitter_remarks": "Parent thoroughfare name before western segment distinguished.",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "research",
+              "document_label": "Industrial History HK Group",
+              "document_url": "https://industrialhistoryhk.org/development-hong-kong-road-network-1841-1940/",
+              "supports": ["publication_date", "street_name_en"]
+            }
+          ]
+        },
+        {
+          "submission_id": "queens-road-11806-west-declare",
+          "publication_date": "1877-01-06",
+          "change_kind": "declare",
+          "event_role": "current_name",
+          "street_name_en": "Queen's Road West",
+          "street_name_zh": "皇后大道西",
+          "evidence_kind": "research",
+          "submitter_remarks": "Earliest HKGRO index hit for segment name (G.N.4 land sale). Segment from Water Street to Belcher's Street. Not a formal naming declaration.",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "research",
+              "document_label": "HK Gov Gazette 1877 index (G.N.4)",
+              "document_url": "https://digitalrepository.lib.hku.hk/catalog/6m317z15h",
+              "supports": ["publication_date", "street_name_en"],
+              "notice_label": "G.N.4",
+              "note": "1877-01-06: Land Sale, Queen's Road West, and Buildings."
+            }
+          ]
+        },
+        {
+          "submission_id": "queens-road-11806-meiji-former",
+          "publication_date": "1942-04-20",
+          "change_kind": "rename",
+          "event_role": "former_name",
+          "previous_street_name_en": "Queen's Road West",
+          "previous_street_name_zh": "皇后大道西",
+          "street_name_en": "Nishimeiji-dori",
+          "street_name_zh": "西明治通",
+          "evidence_kind": "legal_other",
+          "evidence_kind_note": "香港佔領地公示第十二號",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "legal_other",
+              "document_label": "香港佔領地公示（第十二號）",
+              "document_url": "https://zh.wikisource.org/zh-hant/%E9%A6%99%E6%B8%AF%E4%BD%94%E9%A0%98%E5%9C%B0%E5%85%AC%E7%A4%BA%EF%BC%88%E7%AC%AC%E5%8D%81%E4%BA%8C%E8%99%9F%EF%BC%89",
+              "supports": ["publication_date", "street_name_zh", "previous_street_name_zh"]
+            },
+            {
+              "evidence_kind": "legal_other",
+              "document_label": "GRS 香港日治時期街道更名",
+              "document_url": "https://www.grs.gov.hk/ws/erp/japanocc/chi/eve03.htm",
+              "supports": ["street_name_zh"],
+              "note": "皇后大道西 → 西明治通."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "street_code": "11807",
+      "english_name": "QUEENSWAY",
+      "chinese_name": "金鐘道",
+      "history": [
+        {
+          "submission_id": "queens-road-11807-qre-former",
+          "publication_date": "1874-01-10",
+          "change_kind": "declare",
+          "event_role": "former_name",
+          "street_name_en": "Queen's Road East",
+          "street_name_zh": "皇后大道東",
+          "evidence_kind": "research",
+          "submitter_remarks": "Admiralty section was part of Queen's Road East before separate naming as Queensway.",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "research",
+              "document_label": "Wikipedia Queensway Hong Kong",
+              "document_url": "https://en.wikipedia.org/wiki/Queensway,_Hong_Kong",
+              "supports": ["street_name_en"],
+              "note": "Originally a section of Queen's Road East between Des Voeux Road Central and Wan Chai."
+            }
+          ]
+        },
+        {
+          "submission_id": "queens-road-11807-meiji-former",
+          "publication_date": "1942-04-20",
+          "change_kind": "rename",
+          "event_role": "former_name",
+          "previous_street_name_en": "Queen's Road East",
+          "previous_street_name_zh": "皇后大道東",
+          "street_name_en": "Higashimeiji-dori",
+          "street_name_zh": "東明治通",
+          "evidence_kind": "legal_other",
+          "evidence_kind_note": "香港佔領地公示第十二號",
+          "submitter_remarks": "Same 東明治通 designation as Queen's Road East; Admiralty section not yet distinguished.",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "legal_other",
+              "document_label": "香港佔領地公示（第十二號）",
+              "document_url": "https://zh.wikisource.org/zh-hant/%E9%A6%99%E6%B8%AF%E4%BD%94%E9%A0%98%E5%9C%B0%E5%85%AC%E7%A4%BA%EF%BC%88%E7%AC%AC%E5%8D%81%E4%BA%8C%E8%99%9F%EF%BC%89",
+              "supports": ["publication_date", "street_name_zh"],
+              "note": "東明治通 footnote: 現皇后大道東和金鐘道."
+            }
+          ]
+        },
+        {
+          "submission_id": "queens-road-11807-queensway-declare",
+          "publication_date": "1968-02-25",
+          "change_kind": "declare",
+          "event_role": "current_name",
+          "street_name_en": "Queensway",
+          "street_name_zh": "金鐘道",
+          "evidence_kind": "news",
+          "submitter_remarks": "Urban Council renamed Admiralty section formerly part of Queen's Road East; not in LandsD post-2016 gazette list. Chinese 金鐘道 unrelated to Queen.",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "news",
+              "document_label": "華僑日報 1968-02-25 (via zh-yue.wikipedia)",
+              "document_url": "https://zh-yue.wikipedia.org/wiki/%E9%87%91%E9%90%98%E9%81%93",
+              "supports": ["publication_date", "street_name_zh"],
+              "note": "報導百年主要大道改稱金鐘; original newspaper scan not yet on file."
+            },
+            {
+              "evidence_kind": "research",
+              "document_label": "Yanne & Heller Signs of a Colonial Era",
+              "document_url": "https://hkupress.hku.hk/image/catalog/pdf-preview/9789622099449.pdf",
+              "supports": ["street_name_en"],
+              "note": "Urban Council settled on Queensway when QRC annex ruled out."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

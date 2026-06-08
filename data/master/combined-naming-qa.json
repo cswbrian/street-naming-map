@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-08T17:07:15.560Z",
-  "master_events": 942,
-  "street_aggregates": 909,
-  "streets_with_naming_year": 904,
+  "generated_at": "2026-06-08T17:21:52.745Z",
+  "master_events": 957,
+  "street_aggregates": 913,
+  "streets_with_naming_year": 908,
   "join_stats": {
     "matched_exact_features": 1096,
-    "matched_fallback_features": 4249,
-    "unmatched_features": 34379,
+    "matched_fallback_features": 4321,
+    "unmatched_features": 34307,
     "total_features": 39724
   },
   "sources": {
     "hkgro": 415,
-    "crowdsubmitted": 245,
+    "crowdsubmitted": 260,
     "egazette_pdf": 165,
     "landsd": 117
   }
