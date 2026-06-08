@@ -29,9 +29,11 @@ function buildDecadeEraColors(theme) {
     const t = decadeCount <= 1 ? 0 : index / (decadeCount - 1)
     const hue = ERA_HUE_START - t * ERA_HUE_SPAN
     if (theme === 'light') {
-      colors.push(hslToHex(hue, 78, 38))
+      colors.push(hslToHex(hue, 82, 36))
     } else {
-      colors.push(hslToHex(hue, 92, 62))
+      // Older violet/blue eras need extra lightness on the dark basemap.
+      const lightnessBoost = index < 3 ? 12 : index < 6 ? 6 : 0
+      colors.push(hslToHex(hue, 90, 64 + lightnessBoost))
     }
   }
 

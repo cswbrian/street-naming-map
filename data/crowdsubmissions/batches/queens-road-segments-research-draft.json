@@ -128,6 +128,25 @@
       "chinese_name": "皇后大道東",
       "history": [
         {
+          "submission_id": "queens-road-11805-built-1842",
+          "publication_date": "1842-02-01",
+          "change_kind": "declare",
+          "event_role": "built",
+          "street_name_en": null,
+          "street_name_zh": null,
+          "evidence_kind": "hearsay",
+          "submitter_remarks": "Eastern reach of original Queen's Road opened February 1842; map_year uses built-first. Unverified — no gazette primary on file.",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "hearsay",
+              "document_label": "Industrial History HK Group road network 1841–1940",
+              "document_url": "https://industrialhistoryhk.org/development-hong-kong-road-network-1841-1940/",
+              "supports": ["publication_date"],
+              "note": "Same original thoroughfare as Queen's Road Central; segment name gazetted later."
+            }
+          ]
+        },
+        {
           "submission_id": "queens-road-11805-queens-road-former",
           "publication_date": "1842-03-22",
           "change_kind": "declare",
@@ -227,6 +246,25 @@
       "english_name": "QUEEN'S ROAD WEST",
       "chinese_name": "皇后大道西",
       "history": [
+        {
+          "submission_id": "queens-road-11806-built-1842",
+          "publication_date": "1842-02-01",
+          "change_kind": "declare",
+          "event_role": "built",
+          "street_name_en": null,
+          "street_name_zh": null,
+          "evidence_kind": "hearsay",
+          "submitter_remarks": "Western reach of original Queen's Road; western segment name gazetted later. Unverified — no gazette primary on file.",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "hearsay",
+              "document_label": "Industrial History HK Group road network 1841–1940",
+              "document_url": "https://industrialhistoryhk.org/development-hong-kong-road-network-1841-1940/",
+              "supports": ["publication_date"],
+              "note": "Same original thoroughfare as Queen's Road Central; segment name gazetted later."
+            }
+          ]
+        },
         {
           "submission_id": "queens-road-11806-queens-road-former",
           "publication_date": "1842-03-22",

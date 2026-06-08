@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T17:21:53.304Z",
+  "generated_at": "2026-06-08T17:26:46.147Z",
   "source_file": "public/data/hk-streets.geojson",
   "notice_stem_index_path": "public/data/master/egazette-notice-stems.json",
   "egazette_pdf_locales_path": "public/data/master/egazette-pdf-locales.json",
@@ -2653,7 +2653,7 @@
         "canonical_naming_date": "1874-02-14",
         "canonical_naming_year": 1874,
         "current_name_since_date": null,
-        "first_known_naming_date": "1842-03-22",
+        "first_known_naming_date": "1842-02-01",
         "derivation_reason": "declaration_earliest",
         "canonical_evidence_kind": "research",
         "canonical_evidence_event_id": "crowd|queens-road-11805-east-declare",
@@ -2661,8 +2661,44 @@
         "evidence_kind": "research",
         "derived_from": null,
         "evidence_kind_note": null,
-        "event_count": 4,
+        "event_count": 5,
         "name_history": [
+          {
+            "date": "1842-02-01",
+            "change_kind": "declare",
+            "name_en": "Queen's Road East",
+            "name_zh": "皇后大道東",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": null,
+            "notice_label_zh": null,
+            "notice_url_en": null,
+            "notice_url_zh": null,
+            "evidence_level": "historical",
+            "evidence_kind": "hearsay",
+            "event_role": "built",
+            "derived_from": null,
+            "evidence_kind_note": null,
+            "supplementary_evidence": [
+              {
+                "evidence_kind": "hearsay",
+                "publisher": null,
+                "publisher_zh": null,
+                "document_label": "Industrial History HK Group road network 1841–1940",
+                "document_url": "https://industrialhistoryhk.org/development-hong-kong-road-network-1841-1940/",
+                "supports": [
+                  "publication_date"
+                ],
+                "note": "Same original thoroughfare as Queen's Road Central; segment name gazetted later.",
+                "notice_label": null,
+                "publication_date": null,
+                "government_notice_url_en": null,
+                "government_notice_url_zh": null
+              }
+            ],
+            "source": "crowdsubmitted",
+            "submitter_remarks": "Eastern reach of original Queen's Road opened February 1842; map_year uses built-first. Unverified — no gazette primary on file."
+          },
           {
             "date": "1842-03-22",
             "change_kind": "declare",
@@ -4892,7 +4928,7 @@
         "canonical_naming_date": "1877-01-06",
         "canonical_naming_year": 1877,
         "current_name_since_date": null,
-        "first_known_naming_date": "1842-03-22",
+        "first_known_naming_date": "1842-02-01",
         "derivation_reason": "declaration_earliest",
         "canonical_evidence_kind": "research",
         "canonical_evidence_event_id": "crowd|queens-road-11806-west-declare",
@@ -4900,8 +4936,44 @@
         "evidence_kind": "research",
         "derived_from": null,
         "evidence_kind_note": null,
-        "event_count": 3,
+        "event_count": 4,
         "name_history": [
+          {
+            "date": "1842-02-01",
+            "change_kind": "declare",
+            "name_en": "Queen's Road West",
+            "name_zh": "皇后大道西",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": null,
+            "notice_label_zh": null,
+            "notice_url_en": null,
+            "notice_url_zh": null,
+            "evidence_level": "historical",
+            "evidence_kind": "hearsay",
+            "event_role": "built",
+            "derived_from": null,
+            "evidence_kind_note": null,
+            "supplementary_evidence": [
+              {
+                "evidence_kind": "hearsay",
+                "publisher": null,
+                "publisher_zh": null,
+                "document_label": "Industrial History HK Group road network 1841–1940",
+                "document_url": "https://industrialhistoryhk.org/development-hong-kong-road-network-1841-1940/",
+                "supports": [
+                  "publication_date"
+                ],
+                "note": "Same original thoroughfare as Queen's Road Central; segment name gazetted later.",
+                "notice_label": null,
+                "publication_date": null,
+                "government_notice_url_en": null,
+                "government_notice_url_zh": null
+              }
+            ],
+            "source": "crowdsubmitted",
+            "submitter_remarks": "Western reach of original Queen's Road; western segment name gazetted later. Unverified — no gazette primary on file."
+          },
           {
             "date": "1842-03-22",
             "change_kind": "declare",

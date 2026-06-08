@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-08T17:21:52.745Z",
-  "master_events": 957,
+  "generated_at": "2026-06-08T17:26:46.911Z",
+  "master_events": 959,
   "street_aggregates": 913,
   "streets_with_naming_year": 908,
   "join_stats": {
@@ -11,7 +11,7 @@
   },
   "sources": {
     "hkgro": 415,
-    "crowdsubmitted": 260,
+    "crowdsubmitted": 262,
     "egazette_pdf": 165,
     "landsd": 117
   }
