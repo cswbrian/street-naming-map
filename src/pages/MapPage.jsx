@@ -1,12 +1,20 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useLocation, useSearchParams } from 'react-router-dom'
 import AppNav from '../components/AppNav'
+import MapBottomSheet from '../components/MapBottomSheet.jsx'
+import {
+  MapDistrictNavigatorPanel,
+  MapEraLegendPanel,
+  MapYearRemarksPanel,
+} from '../components/MapHudPanels.jsx'
+import MapHudToolbar from '../components/MapHudToolbar.jsx'
 import MapView from '../components/MapView'
 import TimelineSlider from '../components/TimelineSlider'
+import { useMapMobileViewport } from '../hooks/useMapMobileViewport.js'
 import { useLocale } from '../i18n/LocaleContext'
 import { useTheme } from '../theme/ThemeContext'
 import { getThemedLegendColor } from '../theme/theme.js'
-import { COLOR_GROUP_DEFS, getPeriodLabel, getRoadTypeLabel } from '../i18n/translations'
+import { COLOR_GROUP_DEFS, getRoadTypeLabel } from '../i18n/translations'
 import { REGION_OPTIONS, DISTRICT_OPTIONS } from '../config/regions.mjs'
 import subdistrictCentersConfig from '../config/subdistrictCenters.json'
 import { loadNamingRoads } from '../lib/loadNamingRoads.js'
@@ -74,6 +82,12 @@ function MapPage() {
   const [clickedRoadCenter, setClickedRoadCenter] = useState(null)
   const [pickedRoadMeta, setPickedRoadMeta] = useState(null)
   const [collapsedPanels, setCollapsedPanels] = useState(getDefaultMapPanelCollapse)
+  const [mobileSheet, setMobileSheet] = useState(null)
+  const isMobileHud = useMapMobileViewport()
+
+  useEffect(() => {
+    if (!isMobileHud) setMobileSheet(null)
+  }, [isMobileHud])
 
   const colorGroups = useMemo(
     () =>
@@ -206,6 +220,7 @@ function MapPage() {
         pendingDisplay: isNamingPending
           ? getNamingDisplay(rowForDisplay, t) || t('pending')
           : null,
+        t,
       },
     )
     const namingRemarks = buildNamingRemarks(pendingRow?.naming_details, displayNames, locale)
@@ -454,8 +469,14 @@ function MapPage() {
           if (!hasStreetName(enName, zhName)) return
           const streetCode = String(props.STREETCODE ?? '').trim()
           const key = `${enName}|${zhName}`
+          const mapYear = Number(props.map_year)
           const namingYear = Number(props.naming_year)
-          const year = Number.isFinite(namingYear) && namingYear > 0 ? namingYear : null
+          const year =
+            Number.isFinite(mapYear) && mapYear > 0
+              ? mapYear
+              : Number.isFinite(namingYear) && namingYear > 0
+                ? namingYear
+                : null
           const coords = feature?.geometry?.coordinates
           const firstCoord =
             Array.isArray(coords) && Array.isArray(coords[0]) && coords[0].length >= 2
@@ -610,9 +631,69 @@ function MapPage() {
         evolution: true,
         navigator: true,
         timeline: true,
+        yearRemarks: true,
         [panel]: false,
       }
     })
+  }
+
+  const toggleMobileSheet = (sheet) => {
+    setMobileSheet((prev) => (prev === sheet ? null : sheet))
+  }
+
+  const closeMobileSheet = () => setMobileSheet(null)
+
+  const handleEraGroupChange = (groupId) => {
+    setActiveGroupId((prev) => {
+      const next = prev === groupId ? null : groupId
+      trackEraFilter(groupId, next !== null)
+      return next
+    })
+  }
+
+  const handleRegionChange = (regionId) => {
+    setActiveRegionId((prev) => {
+      const next = prev === regionId ? null : regionId
+      trackRegionFilter(regionId, next !== null)
+      return next
+    })
+    setActiveSubDistrictId('')
+    setSubDistrictSearch('')
+    clearRoadSelection()
+  }
+
+  const handleSubDistrictSearchChange = (value) => {
+    setSubDistrictSearch(value)
+    setActiveSubDistrictId('')
+    clearRoadSelection()
+  }
+
+  const handleSubDistrictSelect = (subDistrict) => {
+    clearRoadSelection()
+    setActiveSubDistrictId(subDistrict.id)
+    setSubDistrictSearch(subDistrict.localeLabel)
+    trackSubdistrictSelect(subDistrict.id)
+    geocodeSubDistrict(subDistrict.id)
+  }
+
+  const yearRemarksLabels = {
+    intro: t('mapYearRemarksIntro'),
+    built: t('mapYearRemarksBuilt'),
+    naming: t('mapYearRemarksNaming'),
+    timeline: t('mapYearRemarksTimeline'),
+    pending: t('mapYearRemarksPending'),
+  }
+
+  const districtNavigatorLabels = {
+    searchDistrict: t('searchDistrict'),
+    noMatchingSubDistrict: t('noMatchingSubDistrict'),
+  }
+
+  const mobileSheetTitles = {
+    evolution: t('evolution'),
+    navigator: t('selectDistrict'),
+    timeline: t('timeline'),
+    yearRemarks: t('mapYearRemarksTitle'),
   }
 
   return (
@@ -708,147 +789,185 @@ function MapPage() {
           </div>
         </section>
       ) : null}
-      <div className="hud-bottom-stack">
-        <section className={`legend-panel ${collapsedPanels.evolution ? 'is-collapsed' : ''}`}>
-          <div
-            className="panel-header"
-            role="button"
-            tabIndex={0}
-            onClick={() => togglePanel('evolution')}
-            onKeyDown={(event) => {
-              if (event.key === 'Enter' || event.key === ' ') {
-                event.preventDefault()
-                togglePanel('evolution')
-              }
+      {isMobileHud ? (
+        <>
+          <MapHudToolbar
+            labels={{
+              evolution: t('evolution'),
+              district: t('mapHudDistrict'),
+              yearRemarks: t('mapYearRemarksTitle'),
+              toolbarAria: t('mapHudToolbarAria'),
             }}
-          >
-            <p className="legend-title">{t('evolution')}</p>
-            <button
-              type="button"
-              className="panel-toggle"
-              onClick={(event) => {
-                event.stopPropagation()
-                togglePanel('evolution')
+            selectedYear={selectedYear}
+            activeSheet={mobileSheet}
+            onSelect={toggleMobileSheet}
+          />
+          {(['evolution', 'navigator', 'timeline', 'yearRemarks']).map((sheetId) => (
+            <MapBottomSheet
+              key={sheetId}
+              isOpen={mobileSheet === sheetId}
+              title={mobileSheetTitles[sheetId]}
+              closeLabel={t('mapHudCloseSheet')}
+              onClose={closeMobileSheet}
+            >
+              {sheetId === 'evolution' ? (
+                <MapEraLegendPanel
+                  colorGroups={colorGroups}
+                  activeGroupId={activeGroupId}
+                  locale={locale}
+                  currentYear={currentYear}
+                  onGroupChange={handleEraGroupChange}
+                />
+              ) : null}
+              {sheetId === 'navigator' ? (
+                <MapDistrictNavigatorPanel
+                  locale={locale}
+                  regionOptions={REGION_OPTIONS}
+                  activeRegionId={activeRegionId}
+                  subDistrictSearch={subDistrictSearch}
+                  filteredSubDistrictOptions={filteredSubDistrictOptions}
+                  activeSubDistrictId={activeSubDistrictId}
+                  labels={districtNavigatorLabels}
+                  onRegionChange={handleRegionChange}
+                  onSubDistrictSearchChange={handleSubDistrictSearchChange}
+                  onSubDistrictSelect={handleSubDistrictSelect}
+                />
+              ) : null}
+              {sheetId === 'timeline' ? (
+                <TimelineSlider
+                  embedded
+                  minYear={minYear}
+                  maxYear={currentYear}
+                  selectedYear={selectedYear}
+                  onYearChange={setSelectedYear}
+                />
+              ) : null}
+              {sheetId === 'yearRemarks' ? <MapYearRemarksPanel labels={yearRemarksLabels} /> : null}
+            </MapBottomSheet>
+          ))}
+        </>
+      ) : (
+        <div className="hud-bottom-stack hud-bottom-stack--desktop">
+          <section className={`legend-panel ${collapsedPanels.evolution ? 'is-collapsed' : ''}`}>
+            <div
+              className="panel-header"
+              role="button"
+              tabIndex={0}
+              onClick={() => togglePanel('evolution')}
+              onKeyDown={(event) => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                  event.preventDefault()
+                  togglePanel('evolution')
+                }
               }}
             >
-              {collapsedPanels.evolution ? '+' : '−'}
-            </button>
-          </div>
-          <div className={`panel-content ${collapsedPanels.evolution ? 'is-collapsed' : ''}`}>
-            <div className="legend-groups">
-              {colorGroups.map((group) => (
-                <button
-                  className={`legend-item ${activeGroupId === group.id ? 'is-active' : ''}`}
-                  key={group.id}
-                  type="button"
-                  onClick={() =>
-                    setActiveGroupId((prev) => {
-                      const next = prev === group.id ? null : group.id
-                      trackEraFilter(group.id, next !== null)
-                      return next
-                    })
-                  }
-                >
-                  <span className="legend-swatch" style={{ backgroundColor: group.color }} />
-                  <span>{getPeriodLabel(group, locale, currentYear)}</span>
-                </button>
-              ))}
+              <p className="legend-title">{t('evolution')}</p>
+              <button
+                type="button"
+                className="panel-toggle"
+                onClick={(event) => {
+                  event.stopPropagation()
+                  togglePanel('evolution')
+                }}
+              >
+                {collapsedPanels.evolution ? '+' : '−'}
+              </button>
             </div>
-          </div>
-        </section>
+            <div className={`panel-content ${collapsedPanels.evolution ? 'is-collapsed' : ''}`}>
+              <MapEraLegendPanel
+                colorGroups={colorGroups}
+                activeGroupId={activeGroupId}
+                locale={locale}
+                currentYear={currentYear}
+                onGroupChange={handleEraGroupChange}
+              />
+            </div>
+          </section>
 
-        <section className={`navigator-panel ${collapsedPanels.navigator ? 'is-collapsed' : ''}`}>
-          <div
-            className="panel-header"
-            role="button"
-            tabIndex={0}
-            onClick={() => togglePanel('navigator')}
-            onKeyDown={(event) => {
-              if (event.key === 'Enter' || event.key === ' ') {
-                event.preventDefault()
-                togglePanel('navigator')
-              }
-            }}
-          >
-            <p className="legend-title">{t('selectDistrict')}</p>
-            <button
-              type="button"
-              className="panel-toggle"
-              onClick={(event) => {
-                event.stopPropagation()
-                togglePanel('navigator')
+          <section className={`navigator-panel ${collapsedPanels.navigator ? 'is-collapsed' : ''}`}>
+            <div
+              className="panel-header"
+              role="button"
+              tabIndex={0}
+              onClick={() => togglePanel('navigator')}
+              onKeyDown={(event) => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                  event.preventDefault()
+                  togglePanel('navigator')
+                }
               }}
             >
-              {collapsedPanels.navigator ? '+' : '−'}
-            </button>
-          </div>
-          <div className={`panel-content ${collapsedPanels.navigator ? 'is-collapsed' : ''}`}>
-            <div className="region-buttons">
-              {REGION_OPTIONS.map((region) => (
-                <button
-                  key={region.id}
-                  type="button"
-                  className={`region-button ${activeRegionId === region.id ? 'is-active' : ''}`}
-                  onClick={() => {
-                    setActiveRegionId((prev) => {
-                      const next = prev === region.id ? null : region.id
-                      trackRegionFilter(region.id, next !== null)
-                      return next
-                    })
-                    setActiveSubDistrictId('')
-                    setSubDistrictSearch('')
-                    clearRoadSelection()
-                  }}
-                >
-                  {locale === 'zh' ? region.nameZh : region.nameEn}
-                </button>
-              ))}
+              <p className="legend-title">{t('selectDistrict')}</p>
+              <button
+                type="button"
+                className="panel-toggle"
+                onClick={(event) => {
+                  event.stopPropagation()
+                  togglePanel('navigator')
+                }}
+              >
+                {collapsedPanels.navigator ? '+' : '−'}
+              </button>
             </div>
-            <input
-              className="district-search-input"
-              type="text"
-              value={subDistrictSearch}
-              placeholder={t('searchDistrict')}
-              onChange={(event) => {
-                setSubDistrictSearch(event.target.value)
-                setActiveSubDistrictId('')
-                clearRoadSelection()
-              }}
-            />
-            <div className="subdistrict-search-results">
-              {filteredSubDistrictOptions.length ? (
-                filteredSubDistrictOptions.map((subDistrict) => (
-                  <button
-                    key={subDistrict.id}
-                    type="button"
-                    className={`subdistrict-search-item ${activeSubDistrictId === subDistrict.id ? 'is-active' : ''}`}
-                    onClick={() => {
-                      clearRoadSelection()
-                      setActiveSubDistrictId(subDistrict.id)
-                      setSubDistrictSearch(subDistrict.localeLabel)
-                      trackSubdistrictSelect(subDistrict.id)
-                      geocodeSubDistrict(subDistrict.id)
-                    }}
-                  >
-                    {subDistrict.localeLabel}
-                  </button>
-                ))
-              ) : (
-                <p className="subdistrict-empty">{t('noMatchingSubDistrict')}</p>
-              )}
+            <div className={`panel-content ${collapsedPanels.navigator ? 'is-collapsed' : ''}`}>
+              <MapDistrictNavigatorPanel
+                locale={locale}
+                regionOptions={REGION_OPTIONS}
+                activeRegionId={activeRegionId}
+                subDistrictSearch={subDistrictSearch}
+                filteredSubDistrictOptions={filteredSubDistrictOptions}
+                activeSubDistrictId={activeSubDistrictId}
+                labels={districtNavigatorLabels}
+                onRegionChange={handleRegionChange}
+                onSubDistrictSearchChange={handleSubDistrictSearchChange}
+                onSubDistrictSelect={handleSubDistrictSelect}
+              />
             </div>
-          </div>
-        </section>
+          </section>
 
-        <TimelineSlider
-          minYear={minYear}
-          maxYear={currentYear}
-          selectedYear={selectedYear}
-          onYearChange={setSelectedYear}
-          isCollapsed={collapsedPanels.timeline}
-          onToggle={() => togglePanel('timeline')}
-        />
-      </div>
+          <TimelineSlider
+            minYear={minYear}
+            maxYear={currentYear}
+            selectedYear={selectedYear}
+            onYearChange={setSelectedYear}
+            isCollapsed={collapsedPanels.timeline}
+            onToggle={() => togglePanel('timeline')}
+          />
+
+          <section
+            className={`map-year-remarks-panel legend-panel ${collapsedPanels.yearRemarks ? 'is-collapsed' : ''}`}
+          >
+            <div
+              className="panel-header"
+              role="button"
+              tabIndex={0}
+              onClick={() => togglePanel('yearRemarks')}
+              onKeyDown={(event) => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                  event.preventDefault()
+                  togglePanel('yearRemarks')
+                }
+              }}
+            >
+              <p className="legend-title">{t('mapYearRemarksTitle')}</p>
+              <button
+                type="button"
+                className="panel-toggle"
+                onClick={(event) => {
+                  event.stopPropagation()
+                  togglePanel('yearRemarks')
+                }}
+                aria-expanded={!collapsedPanels.yearRemarks}
+              >
+                {collapsedPanels.yearRemarks ? '+' : '−'}
+              </button>
+            </div>
+            <div className={`panel-content ${collapsedPanels.yearRemarks ? 'is-collapsed' : ''}`}>
+              <MapYearRemarksPanel labels={yearRemarksLabels} />
+            </div>
+          </section>
+        </div>
+      )}
     </>
   )
 }

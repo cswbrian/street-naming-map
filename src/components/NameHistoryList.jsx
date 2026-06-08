@@ -13,6 +13,12 @@ export default function NameHistoryList({ items, onNoticeClick }) {
         const hasHeadline = Boolean(item.date || item.eventType)
         const hasSource = Boolean(noticeUrl || item.notice?.label)
         const sourceLabel = item.pending && item.pendingLabel ? item.pendingLabel : item.notice?.label
+        const evidenceKind = item.notice?.kind
+        const sourceClassName = evidenceKind
+          ? `pending-evidence-badge${noticeUrl ? ' pending-evidence-link' : ''} pending-evidence-${evidenceKind}`
+          : `name-history-list-notice name-history-list-notice-label${
+              item.pending ? ' name-history-list-pending' : ''
+            }`
 
         return (
           <li
@@ -36,7 +42,7 @@ export default function NameHistoryList({ items, onNoticeClick }) {
               <div className="name-history-entry-source">
                 {noticeUrl ? (
                   <a
-                    className="name-history-list-notice"
+                    className={sourceClassName}
                     href={noticeUrl}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -46,13 +52,7 @@ export default function NameHistoryList({ items, onNoticeClick }) {
                     {sourceLabel}
                   </a>
                 ) : (
-                  <span
-                    className={`name-history-list-notice name-history-list-notice-label${
-                      item.pending ? ' name-history-list-pending' : ''
-                    }`}
-                  >
-                    {sourceLabel}
-                  </span>
+                  <span className={sourceClassName}>{sourceLabel}</span>
                 )}
               </div>
             ) : null}

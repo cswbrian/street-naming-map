@@ -7,7 +7,7 @@ description: Name and place Hong Kong gazette PDFs for street-naming-map. Use wh
 
 **Contributor docs:** [README — Gazette PDFs](../../README.md#gazette-pdfs-naming-and-placement)
 
-**Related:** [street-naming-master](../street-naming-master/SKILL.md) for editing `street-events.json`.
+**Related:** [street-naming-master](../street-naming-master/SKILL.md) for editing `street-events.json`. [apply-egazette-naming](../apply-egazette-naming/SKILL.md) for Lands Dept `egn`/`cgn` notice batches.
 
 ## Golden rule
 

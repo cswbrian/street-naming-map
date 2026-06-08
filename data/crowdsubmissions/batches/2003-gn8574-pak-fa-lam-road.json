@@ -1,0 +1,30 @@
+{
+  "evidence_schema_version": 1,
+  "batch_id": "2003-gn8574-pak-fa-lam-road",
+  "source": "crowdsubmitted",
+  "gazette_notice_label": "G.N.8574",
+  "publication_date": "2003-11-28",
+  "gazette_url_en": "/egazette/en/2003-07-48-8574.pdf",
+  "gazette_url_zh": "/egazette/zh/2003-07-48-8574.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/egn200307488574-1 - Wu Woody.pdf",
+  "pdf_zh": "/Users/coolsunwind/Downloads/cgn200307488574 - Wu Woody.pdf",
+  "streets": [
+    {
+      "street_code": "14170",
+      "english_name": "PAK FA LAM ROAD",
+      "chinese_name": "百花林路",
+      "history": [
+        {
+          "submission_id": "2003-gn8574-14170",
+          "publication_date": "2003-11-28",
+          "change_kind": "declare",
+          "street_name_en": "Pak Fa Lam Road",
+          "street_name_zh": "百花林路",
+          "gazette_notice_label": "G.N.8574",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name"
+        }
+      ]
+    }
+  ]
+}

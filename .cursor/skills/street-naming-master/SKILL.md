@@ -23,6 +23,8 @@ All sources live here: `crowdsubmitted`, `hkgro`, `landsd`, `egazette_pdf`.
 
 Event field reference: `docs/street-name-history-schema.md`
 
+**Event types and `history[]` patterns:** [event-model.md](../event-model.md) — same classification used by parse-hkgro-gazettes and apply-egazette-naming.
+
 **Gazette PDFs:** [.cursor/skills/gazette-files/SKILL.md](../gazette-files/SKILL.md) — `notice_stem`, paths, publish, lint.
 
 ## After any edit
@@ -138,4 +140,4 @@ npm run report:pending-years
 npm run build
 ```
 
-Spot-check a street on the map: year chip + 來源 link should match the `current_name` event with strongest `evidence_kind`.
+Spot-check a street on the map: centerline year should match `map_year` (built-first, else naming); chip 來源 link should match the `current_name` event with strongest `evidence_kind`.

@@ -11,5 +11,6 @@ export function getDefaultMapPanelCollapse() {
     evolution: collapsed,
     navigator: collapsed,
     timeline: collapsed,
+    yearRemarks: true,
   }
 }

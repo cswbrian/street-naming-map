@@ -77,10 +77,21 @@ Less common for bulk street lists. Still look for:
 |-------|---------------|
 | Notice No. | `No. N` under department heading → `Government Notification No. N` |
 | Publication date | Gazette masthead date (`MAY 15, 1931` → `1931-05-15`) |
-| Change kind | “to be known for the future” → `declare`; “instead of” / former name → `rename` |
 | English name | FUTURE NAME column; strip trailing period |
 | Chinese name | CHINESE VERSION column |
+| Previous name | “instead of …” / former-name column / PREVIOUS NAME column |
 | Description | DESCRIPTION column — matching/disambiguation only; **not** stored in batch |
+
+### Change kind and event role
+
+Build one or more `history[]` rows per street. See [event-model.md](../event-model.md).
+
+| Gazette wording | `change_kind` | `event_role` | UI (zh) | Notes |
+|-----------------|---------------|--------------|---------|-------|
+| “to be known for the future” | `declare` | `current_name` | 命名 | Most HKGRO Colonial Secretary tables |
+| “instead of” / lists former name | `rename` | `current_name` or `former_name` | 命名 / 易名 / 舊稱 | Fill `previous_street_name_en` / `previous_street_name_zh`; `current_name` when after-names match geojson |
+| Earlier name from research, no gazette | `declare` | `former_name` | 舊稱 | Second `history[]` row before gazette rename |
+| “name … abolished” / “ceased to be known” | `delete` | `name_removed` | 名稱撤銷 | Rare; verify wording before applying |
 
 ## Street matching (mandatory)
 

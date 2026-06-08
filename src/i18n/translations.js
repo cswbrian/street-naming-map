@@ -26,6 +26,20 @@ export const translations = {
     searchDistrict: '搜尋地區',
     noMatchingSubDistrict: '沒有相符的地區',
     timeline: '時間軸',
+    mapHudToolbarAria: '地圖控制',
+    mapHudDistrict: '地區',
+    mapHudCloseSheet: '關閉',
+    mapYearRemarksTitle: '地圖年份說明',
+    mapYearRemarksIntro:
+      '道路標籤旁的年份與時間軸滑桿，採用下列優先次序決定顯示哪一年：',
+    mapYearRemarksBuilt:
+      '如有記錄，優先顯示街道落成或開放日期（「建成」事件）。',
+    mapYearRemarksNaming:
+      '否則顯示現用街名的政府命名日期（憲報等來源）。',
+    mapYearRemarksTimeline:
+      '點選道路可於「舊稱」查看完整事件時間軸；命名與落成日期可能相距多年。',
+    mapYearRemarksPending:
+      '標示「資料待補」表示尚未有落成或命名年份。',
     timelinePlay: '播放',
     timelinePause: '暫停',
     unknownYear: '資料待補',
@@ -35,7 +49,7 @@ export const translations = {
     reportError: '找不到街道目錄報告。請先執行 npm run report:pending-years。',
     roadTypesTitle: '道路類型',
     periodStatsTitle: '命名年份分期',
-    periodStatsHint: '街道命名日期並不一定相等於街道落成或開放日期。',
+    periodStatsHint: '地圖年份優先顯示落成／開放日期（如有記錄），否則顯示命名日期；兩者可能不同。',
     searchTable: '以街道編號／名稱／類型／年份／日期搜尋',
     showingStreets: '顯示 {shown} / {total} 條街道',
     colStreet: '街道名稱',
@@ -121,14 +135,14 @@ export const translations = {
     colRemarks: '備註',
     historyGazettePending: '憲報待補',
     historyGazetteInferred: '推斷憲報',
-    eventRoleBuilt: '建成',
+    eventRoleBuilt: '落成',
     eventRoleNameRemoved: '名稱撤銷',
     eventRoleFormerName: '舊稱',
     eventRoleCurrentName: '命名',
     eventTypeRename: '易名',
     eventTypeFormerName: '舊稱',
     eventTypeCurrentName: '命名',
-    eventTypeBuilt: '建成',
+    eventTypeBuilt: '落成',
     eventTypeNameRemoved: '名稱撤銷',
     colStatus: '狀態',
     aboutSeoDescription:
@@ -168,6 +182,20 @@ export const translations = {
     searchDistrict: 'Search district',
     noMatchingSubDistrict: 'No matching sub-district',
     timeline: 'Timeline',
+    mapHudToolbarAria: 'Map controls',
+    mapHudDistrict: 'District',
+    mapHudCloseSheet: 'Close',
+    mapYearRemarksTitle: 'About map years',
+    mapYearRemarksIntro:
+      'The year beside each road label and the timeline slider use this priority:',
+    mapYearRemarksBuilt:
+      'Built or opened date when recorded (a “Built” event in the street history).',
+    mapYearRemarksNaming:
+      'Otherwise the official government naming date for the street’s current name.',
+    mapYearRemarksTimeline:
+      'Tap a road to see the full event timeline under Name history; naming and built dates can differ by decades.',
+    mapYearRemarksPending:
+      '“Data to be added” means no built or naming year is available yet.',
     timelinePlay: 'Play',
     timelinePause: 'Pause',
     unknownYear: 'Data to be added',
@@ -178,7 +206,7 @@ export const translations = {
     roadTypesTitle: 'Road types',
     periodStatsTitle: 'Naming year periods',
     periodStatsHint:
-      'Street naming dates are not necessarily the same as the dates streets were built or opened to the public.',
+      'Map years prefer built or opened dates when recorded; otherwise the street naming date is shown. The two may differ.',
     searchTable: 'Search by street code, name, type, year, or date',
     showingStreets: 'Showing {shown} / {total} streets',
     colStreet: 'Street name',

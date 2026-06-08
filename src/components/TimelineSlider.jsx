@@ -2,7 +2,15 @@ import { useEffect, useState } from 'react'
 import { useLocale } from '../i18n/LocaleContext'
 import { trackTimelinePlay, trackTimelineYear } from '../lib/analytics.js'
 
-function TimelineSlider({ minYear, maxYear, selectedYear, onYearChange, isCollapsed, onToggle }) {
+function TimelineSlider({
+  minYear,
+  maxYear,
+  selectedYear,
+  onYearChange,
+  isCollapsed,
+  onToggle,
+  embedded = false,
+}) {
   const { t } = useLocale()
   const [isPlaying, setIsPlaying] = useState(false)
   const milestoneYears = [minYear, 1945, maxYear]
@@ -27,6 +35,57 @@ function TimelineSlider({ minYear, maxYear, selectedYear, onYearChange, isCollap
       setIsPlaying(false)
     }
   }, [isCollapsed])
+
+  const sliderBody = (
+    <div className="timeline-slider-wrap">
+      <input
+        className="timeline-slider"
+        type="range"
+        min={minYear}
+        max={maxYear}
+        step={1}
+        value={selectedYear}
+        onChange={(event) => onYearChange(Number(event.target.value), 'slider')}
+        onPointerUp={(event) => trackTimelineYear(Number(event.target.value), 'slider')}
+      />
+      {milestoneYears.map((year) => (
+        <span
+          key={year}
+          className={`timeline-milestone ${
+            year === minYear ? 'is-start' : year === maxYear ? 'is-end' : 'is-middle'
+          }`}
+          style={{ left: `${toPercent(year)}%` }}
+        >
+          {year}
+        </span>
+      ))}
+    </div>
+  )
+
+  if (embedded) {
+    return (
+      <div className="timeline-embedded">
+        <div className="timeline-embedded-actions">
+          <strong className="timeline-year-value">{selectedYear}</strong>
+          <button
+            type="button"
+            className="timeline-play-toggle"
+            onClick={() => {
+              setIsPlaying((prev) => {
+                const next = !prev
+                trackTimelinePlay(next ? 'start' : 'stop', selectedYear)
+                return next
+              })
+            }}
+            aria-label={isPlaying ? t('timelinePause') : t('timelinePlay')}
+          >
+            {isPlaying ? '❚❚' : '▶'}
+          </button>
+        </div>
+        {sliderBody}
+      </div>
+    )
+  }
 
   return (
     <section className={`timeline-shell ${isCollapsed ? 'is-collapsed' : ''}`}>
@@ -74,31 +133,7 @@ function TimelineSlider({ minYear, maxYear, selectedYear, onYearChange, isCollap
           </button>
         </div>
       </div>
-      <div className={`panel-content ${isCollapsed ? 'is-collapsed' : ''}`}>
-        <div className="timeline-slider-wrap">
-          <input
-            className="timeline-slider"
-            type="range"
-            min={minYear}
-            max={maxYear}
-            step={1}
-            value={selectedYear}
-            onChange={(event) => onYearChange(Number(event.target.value), 'slider')}
-            onPointerUp={(event) => trackTimelineYear(Number(event.target.value), 'slider')}
-          />
-          {milestoneYears.map((year) => (
-            <span
-              key={year}
-              className={`timeline-milestone ${
-                year === minYear ? 'is-start' : year === maxYear ? 'is-end' : 'is-middle'
-              }`}
-              style={{ left: `${toPercent(year)}%` }}
-            >
-              {year}
-            </span>
-          ))}
-        </div>
-      </div>
+      <div className={`panel-content ${isCollapsed ? 'is-collapsed' : ''}`}>{sliderBody}</div>
     </section>
   )
 }

@@ -6,7 +6,7 @@ Bulk workflow for harvesting, parsing, and importing **modern government gazette
 
 - Harvest hundreds of eGazette PDFs automatically
 - Parse extracted text into events and import into master via `npm run merge:egazette`
-- **Not** needed for single-notice work — use [apply-crowd-naming](../.cursor/skills/apply-crowd-naming/SKILL.md) or edit master by hand
+- **Not** needed for single-notice work — use [apply-egazette-naming](../.cursor/skills/apply-egazette-naming/SKILL.md) or edit master by hand
 
 ## Related inputs
 

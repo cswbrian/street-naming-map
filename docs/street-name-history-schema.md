@@ -8,12 +8,12 @@ Identity on the map comes from [`public/data/hk-streets.geojson`](public/data/hk
 
 | User question | `event_role` | On map? | In 舊稱 history? |
 |---------------|--------------|---------|------------------|
-| When was **current name** named? | `current_name` | **Yes** (`canonical_naming_date`) | Only if also a rename with prior name |
+| When built / opened | `built` | **Yes** (`map_year`, earliest built) | **Yes** when recorded |
+| When was **current name** named? | `current_name` | **Yes** (`map_year` fallback via `naming_year`) | Only if also a rename with prior name |
 | Earlier names | `former_name` | No | **Yes** |
-| When built / opened | `built` | No (v1) | **Yes** when recorded |
 | Name abolished | `name_removed` | No | Optional |
 
-**Naming date ≠ built date** — do not use `built` for the map year.
+**Map year vs naming date:** Centerline labels, timeline slider, and road fade use **`map_year`** (built-first, else canonical naming year). The road chip 舊稱 timeline and verified/pending split use **`naming_year`** / `canonical_naming_date` (current-name events only).
 
 ## Pipeline vs evidence
 
@@ -115,14 +115,21 @@ Per-street rollups (`canonical_naming_date`, `name_history`, etc.) are computed 
 
 | Field | Meaning |
 |-------|---------|
-| `canonical_naming_date` | Date shown on map: **current name since** if renamed, else earliest declaration |
+| `canonical_naming_date` | **Naming** date: current name since if renamed, else earliest current-name declaration |
+| `canonical_naming_year` | Year slice of `canonical_naming_date` → GeoJSON `naming_year` |
+| `map_display_date` | **Map** date: earliest `built` event, else `canonical_naming_date` |
+| `map_display_year` | Year slice of `map_display_date` → GeoJSON `map_year` |
+| `map_year_source` | `'built'` or `'naming'` — which event supplied `map_display_date` |
+| `map_derivation_reason` | `built_earliest`, `naming_canonical`, or `no_date` |
 | `canonical_evidence_kind` | `evidence_kind` of the event that supplies `canonical_naming_date` |
 | `canonical_evidence_event_id` | `event_id` of that event (QA) |
 | `canonical_event_role` | Usually `current_name` |
 | `current_name_since_date` | Latest rename to today’s name |
 | `first_known_naming_date` | Earliest event in timeline |
 | `name_history` | UI-ready timeline (derived from `event_history`) |
-| `derivation_reason` | How canonical date was chosen (`current_name_since`, etc.) |
+| `derivation_reason` | How canonical naming date was chosen (`current_name_since`, etc.) |
+
+GeoJSON segment properties (from `enrichGeojson()`): `naming_year`/`naming_date` = canonical naming only; `map_year`/`map_date`/`map_year_source` = built-first display for map UI.
 
 ## Batch JSON (`history` per street)
 

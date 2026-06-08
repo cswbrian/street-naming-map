@@ -26,7 +26,7 @@ Rebuild picks one canonical year per street from its event timeline; the UI 來�
 ## Contribute
 
 1. Find the street — use `street_code` from `public/data/hk-streets.geojson` or `pending-roads.json`.
-2. Edit `data/master/street-events.json` — insert a new event or patch by `event_id`.
+2. Add naming events — edit `data/master/street-events.json` directly, or use the **apply-egazette-naming** skill (`/apply-egazette-naming`) when you have Lands Dept eGazette PDFs (`egn…` / `cgn…`).
 3. Rebuild:
 
 ```bash
@@ -53,7 +53,7 @@ Use these Cursor skills for data work — follow them instead of improvising:
 |------|-------|
 | Edit naming events in master | [.cursor/skills/street-naming-master/SKILL.md](.cursor/skills/street-naming-master/SKILL.md) |
 | Gazette PDF naming & placement | [.cursor/skills/gazette-files/SKILL.md](.cursor/skills/gazette-files/SKILL.md) |
-| Apply crowd-verified gazette batches | [.cursor/skills/apply-crowd-naming/SKILL.md](.cursor/skills/apply-crowd-naming/SKILL.md) |
+| Apply Lands Dept eGazette naming events (`egn`/`cgn` PDFs) | [.cursor/skills/apply-egazette-naming/SKILL.md](.cursor/skills/apply-egazette-naming/SKILL.md) |
 | Parse colonial HKGRO gazette scans | [.cursor/skills/parse-hkgro-gazettes/SKILL.md](.cursor/skills/parse-hkgro-gazettes/SKILL.md) |
 
 After any master change: `npm run rebuild:naming && npm run report:pending-years`.

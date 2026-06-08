@@ -394,6 +394,11 @@ export function buildNameHistory(events) {
   }))
 }
 
+function pickEarliestBuiltDate(ordered) {
+  const built = ordered.find((event) => normalizeEventRole(event.event_role) === 'built')
+  return built?.publication_date ?? null
+}
+
 function deriveAggregateNaming(ordered, displayNames = {}) {
   const renames = ordered.filter((event) => normalizeChangeKind(event.change_kind) === 'rename')
   const currentRename = [...renames]
@@ -406,11 +411,22 @@ function deriveAggregateNaming(ordered, displayNames = {}) {
     return (event.is_declaration_event || kind === 'declare') && isCurrentNameEvent(event, displayNames)
   })
   const firstEvent = ordered[0] ?? null
-  // Map year only when a current-name event exists — former-name-only timelines stay pending.
   const canonicalDate = currentNameSince ?? earliestDeclaration?.publication_date ?? null
   let derivationReason = 'no_current_name_event'
   if (currentNameSince) derivationReason = 'current_name_since'
   else if (earliestDeclaration) derivationReason = 'declaration_earliest'
+
+  const builtDate = pickEarliestBuiltDate(ordered)
+  const mapDisplayDate = builtDate ?? canonicalDate
+  let mapDerivationReason = 'no_date'
+  let mapYearSource = null
+  if (builtDate) {
+    mapDerivationReason = 'built_earliest'
+    mapYearSource = 'built'
+  } else if (canonicalDate) {
+    mapDerivationReason = 'naming_canonical'
+    mapYearSource = 'naming'
+  }
 
   return {
     canonical_naming_date: canonicalDate,
@@ -418,6 +434,10 @@ function deriveAggregateNaming(ordered, displayNames = {}) {
     current_name_since_date: currentNameSince,
     first_known_naming_date: firstEvent?.publication_date ?? null,
     derivation_reason: derivationReason,
+    map_display_date: mapDisplayDate,
+    map_display_year: mapDisplayDate ? Number(mapDisplayDate.slice(0, 4)) : null,
+    map_year_source: mapYearSource,
+    map_derivation_reason: mapDerivationReason,
   }
 }
 
@@ -483,6 +503,10 @@ export function aggregateByStreet(events, options = {}) {
     let canonicalNamingDate = derived.canonical_naming_date
     let canonicalNamingYear = derived.canonical_naming_year
     let derivationReason = derived.derivation_reason
+    let mapDisplayDate = derived.map_display_date
+    let mapDisplayYear = derived.map_display_year
+    let mapYearSource = derived.map_year_source
+    let mapDerivationReason = derived.map_derivation_reason
     if (!canonicalNamingDate && !ordered.some((event) => event.is_declaration_event)) {
       derivationReason = 'no_declaration_found'
     }
@@ -491,6 +515,10 @@ export function aggregateByStreet(events, options = {}) {
       canonicalNamingDate = null
       canonicalNamingYear = null
       derivationReason = 'excluded_manual'
+      mapDisplayDate = null
+      mapDisplayYear = null
+      mapYearSource = null
+      mapDerivationReason = 'excluded_manual'
     }
 
     aggregates.push({
@@ -503,6 +531,10 @@ export function aggregateByStreet(events, options = {}) {
       current_name_since_date: derived.current_name_since_date,
       first_known_naming_date: derived.first_known_naming_date,
       derivation_reason: derivationReason,
+      map_display_date: mapDisplayDate,
+      map_display_year: mapDisplayYear,
+      map_year_source: mapYearSource,
+      map_derivation_reason: mapDerivationReason,
       canonical_evidence_kind: canonicalEvent?.evidence_kind ?? null,
       canonical_evidence_event_id: canonicalEvent?.event_id ?? null,
       canonical_event_role: canonicalEvent?.event_role ?? null,
@@ -583,8 +615,12 @@ export function enrichGeojson(sourceData, aggregates, options = {}) {
           ...props,
           naming_year: null,
           naming_date: null,
+          map_year: null,
+          map_date: null,
+          map_year_source: null,
           naming_source: null,
           naming_derivation_reason: 'excluded_manual',
+          map_derivation_reason: 'excluded_manual',
           naming_event_count: 0,
         },
       }
@@ -616,10 +652,16 @@ export function enrichGeojson(sourceData, aggregates, options = {}) {
         ...props,
         naming_year: excluded ? null : (fallback?.canonical_naming_year ?? null),
         naming_date: excluded ? null : (fallback?.canonical_naming_date ?? null),
+        map_year: excluded ? null : (fallback?.map_display_year ?? null),
+        map_date: excluded ? null : (fallback?.map_display_date ?? null),
+        map_year_source: excluded ? null : (fallback?.map_year_source ?? null),
         naming_source: excluded ? null : fallback ? resolveNamingSource(fallback, options) : null,
         naming_derivation_reason: excluded
           ? 'excluded_manual'
           : (fallback?.derivation_reason ?? null),
+        map_derivation_reason: excluded
+          ? 'excluded_manual'
+          : (fallback?.map_derivation_reason ?? null),
         naming_event_count: excluded ? 0 : (fallback?.event_count ?? 0),
         first_naming_year: excluded
           ? null

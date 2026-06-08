@@ -112,14 +112,30 @@ export const MAP_ROAD_PALETTE = {
   },
 }
 
-/** MapLibre expression: naming year, or -1 when pending. to-number(null) is 0, not missing. */
-export function buildNamingYearExpr() {
+/** MapLibre expression: map display year (built-first), or -1 when no year. to-number(null) is 0, not missing. */
+export function buildMapYearExpr() {
+  const mapYear = [
+    'case',
+    ['any', ['!', ['has', 'map_year']], ['==', ['get', 'map_year'], null]],
+    -1,
+    ['coalesce', ['to-number', ['get', 'map_year']], -1],
+  ]
   return [
     'case',
-    ['any', ['!', ['has', 'naming_year']], ['==', ['get', 'naming_year'], null]],
-    -1,
-    ['coalesce', ['to-number', ['get', 'naming_year']], -1],
+    ['!=', mapYear, -1],
+    mapYear,
+    [
+      'case',
+      ['any', ['!', ['has', 'naming_year']], ['==', ['get', 'naming_year'], null]],
+      -1,
+      ['coalesce', ['to-number', ['get', 'naming_year']], -1],
+    ],
   ]
+}
+
+/** @deprecated Use buildMapYearExpr — kept for callers not yet migrated. */
+export function buildNamingYearExpr() {
+  return buildMapYearExpr()
 }
 
 export function getRoadPalette(theme) {
@@ -130,12 +146,12 @@ export function buildRoadLineColorPaint(theme) {
   const { unknown } = getRoadPalette(theme)
   const eras = getDecadeEraColors(theme)
   const breaks = getDecadeYearBreaks()
-  const namingYear = buildNamingYearExpr()
+  const mapYear = buildMapYearExpr()
   return [
     'case',
-    ['==', namingYear, -1],
+    ['==', mapYear, -1],
     unknown,
-    ['step', namingYear, eras[0], ...breaks.flatMap((year, index) => [year, eras[index + 1]])],
+    ['step', mapYear, eras[0], ...breaks.flatMap((year, index) => [year, eras[index + 1]])],
   ]
 }
 

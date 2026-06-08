@@ -92,7 +92,7 @@ export function parseColonialThoroughfareTable(textEn = '', textZh = '') {
   return rows
 }
 
-/** apply-crowd-naming / parse-crowd-gazette-pdf → crowdsubmitted pipeline source */
+/** apply-egazette-naming / parse-crowd-gazette-pdf → crowdsubmitted pipeline source */
 export function detectBatchSource() {
   return 'crowdsubmitted'
 }

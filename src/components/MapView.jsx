@@ -12,7 +12,7 @@ import {
   MAP_BACKGROUND_COLORS,
   MAP_LABEL_COLORS,
   ROAD_LABEL_LAYER_FONT,
-  buildNamingYearExpr,
+  buildMapYearExpr,
   buildRoadLineColorPaint,
   getRoadPalette,
 } from '../theme/theme.js'
@@ -158,14 +158,22 @@ const emitRoadPickFromFeature = (feature, lngLat, onRoadPick) => {
   const streetCode = String(feature.properties?.STREETCODE ?? '').trim()
   const key = buildRoadKey(enName, zhName, streetCode)
   if (!key) return
-  const year = Number(feature.properties?.naming_year)
+  const mapYear = Number(feature.properties?.map_year)
+  const namingYear = Number(feature.properties?.naming_year)
+  const year =
+    Number.isFinite(mapYear) && mapYear > 0
+      ? mapYear
+      : Number.isFinite(namingYear) && namingYear > 0
+        ? namingYear
+        : null
+  const mapDate = String(feature.properties?.map_date ?? '').trim()
   const namingDate = String(feature.properties?.naming_date ?? '').trim()
   const streetType = String(feature.properties?.STREETTYPE ?? '').trim()
   onRoadPick?.({
     key,
     center: [lngLat.lng, lngLat.lat],
-    year: Number.isFinite(year) ? year : null,
-    namingDate: namingDate || null,
+    year,
+    namingDate: mapDate || namingDate || null,
     enName,
     zhName,
     streetCode: streetCode || null,
@@ -210,15 +218,20 @@ const yearLabelStyle = (yearColor) => ({
   'text-color': yearColor,
 })
 
-const buildNamingYearDisplayExpr = (unknownYearLabel) => {
-  const namingYear = buildNamingYearExpr()
-  return ['case', ['==', namingYear, -1], unknownYearLabel, ['to-string', ['get', 'naming_year']]]
+const buildMapYearDisplayExpr = (unknownYearLabel) => {
+  const mapYear = buildMapYearExpr()
+  const displayYear = [
+    'coalesce',
+    ['to-string', ['get', 'map_year']],
+    ['to-string', ['get', 'naming_year']],
+  ]
+  return ['case', ['==', mapYear, -1], unknownYearLabel, displayYear]
 }
 
 const buildYearParentheticalFormat = (unknownYearLabel, yearColor) => [
   ' (',
   yearLabelStyle(yearColor),
-  buildNamingYearDisplayExpr(unknownYearLabel),
+  buildMapYearDisplayExpr(unknownYearLabel),
   yearLabelStyle(yearColor),
   ')',
   yearLabelStyle(yearColor),
@@ -422,7 +435,7 @@ function MapView({
 
     const opacity = getRoadPalette(mapTheme).opacity
 
-    const numericYear = buildNamingYearExpr()
+    const numericYear = buildMapYearExpr()
     const unknownYearFilter = ['==', numericYear, -1]
     const knownYearFilter = ['all', ['!=', numericYear, -1], ['<=', numericYear, year]]
     const timeFilter = ['any', knownYearFilter, unknownYearFilter]

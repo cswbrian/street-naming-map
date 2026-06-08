@@ -1,3 +1,4 @@
+import { getEvidenceKindBadge } from './evidenceKindBadge.js'
 import { formatNoticeLabel } from './formatNoticeLabel.js'
 import { normalizeStreetNameForMatch } from './roadKey.js'
 
@@ -217,6 +218,38 @@ export function getHistoryNoticeLink(entry, locale) {
   return { url, label: fullLabel }
 }
 
+function getNoticeReferenceLabel(noticeLink) {
+  if (!noticeLink) return null
+  return noticeLink.title ?? noticeLink.label ?? null
+}
+
+/** Source link/label for one timeline row — matches dashboard table (badge label + G.N. in title). */
+function buildTimelineSourceMeta(entry, locale, labels, t) {
+  const noticeLink = getHistoryNoticeLink(entry, locale)
+  const pendingMeta = getHistoryEntryPendingMeta(entry, labels)
+  const badge = t ? getEvidenceKindBadge(entry.evidence_kind, t) : null
+
+  if (!badge) {
+    return {
+      pending: pendingMeta.pending,
+      pendingLabel: pendingMeta.pendingLabel,
+      notice: noticeLink,
+    }
+  }
+
+  const referenceLabel = getNoticeReferenceLabel(noticeLink)
+  return {
+    pending: pendingMeta.pending,
+    pendingLabel: pendingMeta.pending ? badge.label : null,
+    notice: {
+      url: noticeLink?.url ?? null,
+      label: badge.label,
+      title: referenceLabel ? `${badge.hint} — ${referenceLabel}` : badge.hint,
+      kind: badge.kind,
+    },
+  }
+}
+
 /** Structured items for NameHistoryList. */
 export function buildNameHistoryTimelineItems(
   details,
@@ -251,7 +284,7 @@ export function buildNameHistoryTimelineItems(
 
     if (streetName) shownNames.add(streetName)
     const rawDate = normalize(entry.date)
-    const pendingMeta = getHistoryEntryPendingMeta(entry, labels)
+    const sourceMeta = buildTimelineSourceMeta(entry, locale, labels, options.t)
     const eventType = getTimelineEventTypeLabel(entry, labels, displayNames, ordered)
 
     items.push({
@@ -261,9 +294,9 @@ export function buildNameHistoryTimelineItems(
       eventType,
       name: streetName,
       isCurrent,
-      pending: pendingMeta.pending,
-      pendingLabel: pendingMeta.pending ? pendingMeta.pendingLabel : null,
-      notice: getHistoryNoticeLink(entry, locale),
+      pending: sourceMeta.pending,
+      pendingLabel: sourceMeta.pendingLabel,
+      notice: sourceMeta.notice,
     })
   }
 
