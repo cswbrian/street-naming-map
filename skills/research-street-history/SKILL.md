@@ -14,7 +14,7 @@ description: Researcher-driven street history — earliest gazette/news/legal me
 
 **Do not use for:** modern `egn`/`cgn` PDFs → [apply-egazette-naming](../apply-egazette-naming/SKILL.md). Colonial **naming-table-only** bulk parse → [parse-hkgro-gazettes](../parse-hkgro-gazettes/SKILL.md).
 
-**References:** [event-model.md](../event-model.md) · [street-name-history-schema.md](../../docs/street-name-history-schema.md) · [gazette-files](../gazette-files/SKILL.md) · [centreline-linker](../centreline-linker/SKILL.md)
+**References:** [event-model.md](../event-model.md) · [street-name-history-schema.md](../docs/street-name-history-schema.md) · [gazette-files](../gazette-files/SKILL.md) · [centreline-linker](../centreline-linker/SKILL.md)
 
 ## Researcher principles (follow these)
 

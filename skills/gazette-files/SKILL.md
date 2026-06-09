@@ -5,7 +5,7 @@ description: Name and place Hong Kong gazette PDFs for street-naming-map. Use wh
 
 # Gazette files — naming and placement
 
-**Contributor docs:** [README](../../README.md) · [contributor-roles.md](../../docs/contributor-roles.md) · Skill routing: [README.md](../README.md)
+**Contributor docs:** [README](../README.md) · [contributor-roles.md](../docs/contributor-roles.md) · Skill routing: [README.md](../README.md)
 
 **Related:** [apply-egazette-naming](../apply-egazette-naming/SKILL.md) (modern `egn`/`cgn`), [parse-hkgro-gazettes](../parse-hkgro-gazettes/SKILL.md) (colonial scans), [centreline-linker](../centreline-linker/SKILL.md) (map linkage).
 
@@ -114,4 +114,4 @@ Warnings when self-hosted URL exists but `notice_stem` is missing (run backfill 
 
 ## Bulk eGazette pipeline
 
-Harvest/parse hundreds of PDFs: [docs/egazette-pipeline.md](../../docs/egazette-pipeline.md)
+Harvest/parse hundreds of PDFs: [docs/egazette-pipeline.md](../docs/egazette-pipeline.md)

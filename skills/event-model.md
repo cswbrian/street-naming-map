@@ -1,12 +1,12 @@
 # Street event model (batch `history[]` → master)
 
-**Reference annex — not a routable Cursor skill.** Loaded via [apply-egazette-naming](apply-egazette-naming/SKILL.md), [parse-hkgro-gazettes](parse-hkgro-gazettes/SKILL.md), [research-street-history](research-street-history/SKILL.md), or [street-naming-master](street-naming-master/SKILL.md). Routing: [.cursor/skills/README.md](README.md).
+**Reference annex — not a standalone workflow.** Loaded via [apply-egazette-naming](apply-egazette-naming/SKILL.md), [parse-hkgro-gazettes](parse-hkgro-gazettes/SKILL.md), [research-street-history](research-street-history/SKILL.md), or [street-naming-master](street-naming-master/SKILL.md). Routing: [skills/README.md](README.md).
 
-Full field schema: [`docs/street-name-history-schema.md`](../../docs/street-name-history-schema.md).
+Full field schema: [`docs/street-name-history-schema.md`](../docs/street-name-history-schema.md).
 
 **Skills:** Modern Lands Dept eGazette PDFs → [apply-egazette-naming/SKILL.md](apply-egazette-naming/SKILL.md). Colonial HKGRO scans → [parse-hkgro-gazettes/SKILL.md](parse-hkgro-gazettes/SKILL.md).
 
-**After apply:** events → [`data/master/street-events.json`](../../data/master/street-events.json). Map display → [`data/master/street-centreline-map.json`](../../data/master/street-centreline-map.json) ([centreline-linker/SKILL.md](centreline-linker/SKILL.md)).
+**After apply:** events → [`data/master/street-events.json`](../data/master/street-events.json). Map display → [`data/master/street-centreline-map.json`](../data/master/street-centreline-map.json) ([centreline-linker/SKILL.md](centreline-linker/SKILL.md)).
 
 **Do not set `street_code` on new events.** Batch rows use `link_street_code` when a geojson match is confirmed.
 

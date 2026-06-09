@@ -14,7 +14,7 @@ Parse **modern Lands Department** street-naming notices from the government e-Ga
 | In scope | Out of scope |
 |----------|--------------|
 | `egazette.gld.gov.hk` PDFs (`egn…`, `cgn…`) | HKGRO / sunzi colonial scans (`617826.pdf`, TIF2PDF) |
-| Lands Dept 街道命名 / 宣布街道名稱 / 取代街道說明 notices | Bulk harvest pipeline (`npm run merge:egazette`) — see [docs/egazette-pipeline.md](../../docs/egazette-pipeline.md) |
+| Lands Dept 街道命名 / 宣布街道名稱 / 取代街道說明 notices | Bulk harvest pipeline (`npm run merge:egazette`) — see [docs/egazette-pipeline.md](../docs/egazette-pipeline.md) |
 | Community-verified PDF drops with structured batch JSON | Direct LandsD CSV scrape (`source: landsd`) |
 
 Colonial HKGRO scans → [parse-hkgro-gazettes](../parse-hkgro-gazettes/SKILL.md).

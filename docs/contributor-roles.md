@@ -21,7 +21,7 @@ Two roles, two files. Gazette text and map linkage stay separate.
 npm run apply:crowd:batch -- data/crowdsubmissions/batches/your-notice.json
 ```
 
-Modern eGazette (`egn`/`cgn`): see [.cursor/skills/apply-egazette-naming/SKILL.md](../.cursor/skills/apply-egazette-naming/SKILL.md). Agent routing: [.cursor/skills/README.md](../.cursor/skills/README.md).
+Modern eGazette (`egn`/`cgn`): see [skills/apply-egazette-naming/SKILL.md](../skills/apply-egazette-naming/SKILL.md). Agent routing: [skills/README.md](../skills/README.md) · [AGENTS.md](../AGENTS.md).
 
 ### Checklist per event
 
@@ -65,7 +65,7 @@ npm run apply:street-links -- path/to/links.json
 npm run report:street-timelines   # inventory (+ UI at /{locale}/timelines)
 ```
 
-Example: [data/linker/example.json](../data/linker/example.json) · Agent skill: [.cursor/skills/centreline-linker/SKILL.md](../.cursor/skills/centreline-linker/SKILL.md)
+Example: [data/linker/example.json](../data/linker/example.json) · Workflow guide: [skills/centreline-linker/SKILL.md](../skills/centreline-linker/SKILL.md)
 
 ---
 

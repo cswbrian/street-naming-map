@@ -5,7 +5,7 @@ description: Edit gazette naming events in data/master/street-events.json (amend
 
 # Street naming master file
 
-**Contributor docs:** [README](../../README.md) · [contributor-roles.md](../../docs/contributor-roles.md)
+**Contributor docs:** [README](../README.md) · [contributor-roles.md](../docs/contributor-roles.md)
 
 ## Two files, two roles
 
@@ -24,7 +24,7 @@ description: Edit gazette naming events in data/master/street-events.json (amend
 
 Sources: `crowdsubmitted`, `hkgro`, `landsd`, `egazette_pdf`.
 
-- Field reference: [docs/street-name-history-schema.md](../../docs/street-name-history-schema.md)
+- Field reference: [docs/street-name-history-schema.md](../docs/street-name-history-schema.md)
 - Batch `history[]` patterns: [event-model.md](../event-model.md)
 - Gazette PDFs: [gazette-files/SKILL.md](../gazette-files/SKILL.md)
 
@@ -40,7 +40,7 @@ Optional: `npm run build` before deploy.
 
 ## Insert a new event
 
-1. **Gazette parsers:** add dated facts to `events[]` — **no `street_code`**. See [street-events-gazette-only.md](../../docs/street-events-gazette-only.md).
+1. **Gazette parsers:** add dated facts to `events[]` — **no `street_code`**. See [street-events-gazette-only.md](../docs/street-events-gazette-only.md).
 2. **Linkers:** do not add `street_code` here — use [centreline-linker/SKILL.md](../centreline-linker/SKILL.md).
 3. Unique `event_id` per row.
 
@@ -95,7 +95,7 @@ Delete by `event_id`, then rebuild. Remove `event_id` from centreline map links 
 
 ## Gazette batch workflow (preferred for PDFs)
 
-Use a parser skill instead of hand-editing when starting from a PDF — [.cursor/skills/README.md](../README.md):
+Use a parser skill instead of hand-editing when starting from a PDF — [skills/README.md](../README.md):
 
 | Task | Skill |
 |------|--------|

@@ -5,7 +5,7 @@ description: Connect gazette naming events to LandsD STREETCODEs via street-cent
 
 # Centreline linker
 
-**Role 2** in [contributor-roles.md](../../docs/contributor-roles.md). Parsers edit `street-events.json`; **you** edit `street-centreline-map.json`. Skill routing: [README.md](../README.md).
+**Role 2** in [contributor-roles.md](../docs/contributor-roles.md). Parsers edit `street-events.json`; **you** edit `street-centreline-map.json`. Skill routing: [README.md](../README.md).
 
 ## Map rule
 
@@ -51,7 +51,7 @@ Or hidden UI: `/{locale}/link-queue` (select rows → download `links.json`).
 }
 ```
 
-Example file: [data/linker/example.json](../../data/linker/example.json). Schema: [docs/street-centreline-map-schema.md](../../docs/street-centreline-map-schema.md).
+Example file: [data/linker/example.json](../data/linker/example.json). Schema: [docs/street-centreline-map-schema.md](../docs/street-centreline-map-schema.md).
 
 4. **Apply**
 
