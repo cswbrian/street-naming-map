@@ -1,15 +1,19 @@
 ---
 name: parse-hkgro-gazettes
-description: Parse HKGRO historical Hong Kong gazette PDF scans (sunzi.lib.hku.hk, TIF2PDF), extract single- or multi-street Colonial Secretary notices, verify names against hk-streets.geojson, and apply crowd naming batches. Use when the user provides HKGRO gazette PDFs, filenames like 617826.pdf or 618645.pdf, or asks to parse/map historical gazette notices to street records.
+description: Parse HKGRO colonial gazette PDF scans (sunzi.lib.hku.hk, TIF2PDF), extract Colonial Secretary street notices, build history[] batches, and apply to street-events.json. Optional link_street_code when geojson match is confirmed. Use for 617826.pdf-style scans — not modern egn/cgn PDFs.
 ---
 
-# Parse HKGRO gazettes → map street records
+# Parse HKGRO gazettes → street events
 
 Process **HKGRO-only** historical gazette scans for **street-naming-map**.
 
 **Not for modern e-Gazette** (`egn…` / `cgn…` PDFs) — use [apply-egazette-naming](../apply-egazette-naming/SKILL.md) for those.
 
-**Event model:** [event-model.md](../event-model.md) — classify each notice into `history[]` rows before apply.
+**Not for researcher workflows** (earliest non-naming cite, map-based rename chain, demoted PDF-pending row) — use [research-street-history](../research-street-history/SKILL.md). If bulk parse left a street as `no_match` in `apply-report.json`, hand-link with that skill instead of re-parsing the whole G.N.
+
+**Event model:** [event-model.md](../event-model.md) (reference) — classify each notice into `history[]` rows. Skill routing: [README.md](../README.md).
+
+**Architecture:** Parsers record gazette facts in `street-events.json` (no `street_code`). `--match` suggests `link_street_code` for linkers; map display requires `street-centreline-map.json`.
 
 ## HKGRO scope
 
@@ -24,11 +28,11 @@ Process **HKGRO-only** historical gazette scans for **street-naming-map**.
 
 1. **Identify** HKGRO PDF (filename, URL, or TIF2PDF producer).
 2. **Parse** all pages — notice may list **multiple streets** across 2+ pages.
-3. **Match each street** to `pending-naming-years` **and confirm in `hk-streets.geojson`**.
-4. **Classify notice → build `history[]` per street** (declare, rename, or multi-event chain).
-5. **Build one batch JSON per notice** (all streets from same G.N. in one batch).
-6. **Apply** + **self-host** PDF at `/egazette/en/{year}-gn{no}.pdf` → upserts events into `data/master/street-events.json`.
-7. **Report** match table: gazette name → code → GeoJSON → event type → applied?
+3. **Classify notice → build `history[]` per street** (declare, rename, or multi-event chain).
+4. **Optional match** each street to geojson (`--match`) → set `link_street_code` when confident ([centreline-linker](../centreline-linker/SKILL.md)).
+5. **Build one batch JSON per notice** (`gazette_only: true`, all streets from same G.N.).
+6. **Apply** + **self-host** PDF → upserts `data/master/street-events.json` (+ centreline map if `link_street_code` set).
+7. **Report** table: gazette name → event types → linked? → map status.
 
 For notice layout patterns, see [gazette-patterns.md](gazette-patterns.md).  
 For walkthroughs, see [examples.md](examples.md).
@@ -61,9 +65,9 @@ Extract per row:
 - Shared: notice `No. N`, gazette header date
 - Default `change_kind`: `declare` unless rename wording detected (see [gazette-patterns.md](gazette-patterns.md))
 
-## Step 2 — Match every street to GeoJSON
+## Step 2 — Optional GeoJSON match (for linking)
 
-**Do not apply a name that is not on the map.**
+**Always apply gazette facts** (`gazette_only: true`). Matching geojson is for **`link_street_code` only** — not a gate for recording the notice.
 
 For each extracted pair (EN + ZH):
 
@@ -71,21 +75,15 @@ For each extracted pair (EN + ZH):
 rg "糖街|SUGAR STREET" public/data/master/pending-naming-years.csv
 ```
 
-Then verify geometry:
-
-```python
-# street_code from CSV must appear in hk-streets.geojson
-```
-
 | Match result | Action |
 |--------------|--------|
-| EN + ZH exact, code in GeoJSON | Apply — **no** `submitter_remarks` |
-| EN exact, ZH differs slightly (e.g. 連合道 vs 連道) | Apply; `submitter_remarks` notes mismatch only (e.g. `Gazette ZH 連合道; database 連道.`) |
-| EN matches, not in GeoJSON | **Skip** — report to user |
-| No match | **Skip** — report to user |
-| Multiple EN matches | Use DESCRIPTION (lots, intersecting roads) to pick one; else ask user |
+| EN + ZH exact, code in GeoJSON | Apply events; set `link_street_code` — **no** `submitter_remarks` |
+| EN exact, ZH differs slightly | Apply events; `submitter_remarks` notes mismatch only; link only if confident |
+| EN matches, not in GeoJSON | **Apply events** without `link_street_code`; flag for linker queue |
+| No match | **Apply events** with names from gazette; flag for linker / user |
+| Multiple EN matches | Use DESCRIPTION to pick one for `link_street_code`; else defer linking |
 
-Prefer `street_code` over name-only matching once confirmed.
+Never set `street_code` on events. Defer map linkage → [centreline-linker](../centreline-linker/SKILL.md).
 
 ## Step 2b — Classify events (`history[]`)
 
@@ -103,87 +101,24 @@ For each matched street, build one or more `history[]` rows per [event-model.md]
 
 ## Step 3 — Batch JSON
 
-**One notice → one batch**, even with 15 streets.
+**One notice → one batch**, even with 15 streets. Per-street `history[]` patterns → [event-model.md](../event-model.md) (scenarios 1–7). Notice walkthroughs → [examples.md](examples.md).
 
-### Example A — first naming (declare)
+### HKGRO batch shell (fill `streets[]` from event-model)
 
 ```json
 {
   "batch_id": "1931-gn300-shaukiwan-streets",
   "source": "hkgro",
+  "gazette_only": true,
   "gazette_notice_label": "Government Notification No. 300",
   "publication_date": "1931-05-15",
   "gazette_url_en": "/egazette/en/1931-gn300.pdf",
   "pdf_en": "/absolute/path/to/618645.pdf",
-  "streets": [
-    {
-      "street_code": "12167",
-      "english_name": "SUGAR STREET",
-      "chinese_name": "糖街",
-      "history": [{
-        "publication_date": "1931-05-15",
-        "change_kind": "declare",
-        "street_name_en": "Sugar Street",
-        "street_name_zh": "糖街",
-        "gazette_notice_label": "Government Notification No. 300",
-        "evidence_kind": "gazette_primary",
-        "event_role": "current_name"
-      }]
-    }
-  ]
+  "streets": []
 }
 ```
 
-### Example B — rename with earlier name (multi-event)
-
-When gazette renames and user/research supplies the prior name without gazette proof (`1909-gn184-taku-street.json`):
-
-```json
-{
-  "street_code": "12326",
-  "english_name": "TAKU STREET",
-  "chinese_name": "大沽街",
-  "history": [
-    {
-      "publication_date": "1872-01-01",
-      "change_kind": "declare",
-      "street_name_en": "Station Street",
-      "street_name_zh": "差館街",
-      "evidence_kind": "unknown",
-      "event_role": "former_name",
-      "submitter_remarks": "Original name circa 1872; gazette proof not yet on file."
-    },
-    {
-      "publication_date": "1909-03-19",
-      "change_kind": "rename",
-      "previous_street_name_en": "Station Street",
-      "previous_street_name_zh": "差館街",
-      "street_name_en": "Taku Street",
-      "street_name_zh": "大沽街",
-      "gazette_notice_label": "Gazette No. 184",
-      "evidence_kind": "gazette_primary",
-      "event_role": "current_name"
-    }
-  ]
-}
-```
-
-### Example C — rename to intermediate name (`former_name` only)
-
-When the gazette name does not match today’s geojson (`1924-gn119-prince-edward-road.json`):
-
-```json
-"history": [{
-  "publication_date": "1924-03-07",
-  "change_kind": "rename",
-  "street_name_en": "Prince Edward Road",
-  "street_name_zh": "太子道",
-  "previous_street_name_en": "Edward Avenue",
-  "previous_street_name_zh": "宜華徑",
-  "evidence_kind": "gazette_primary",
-  "event_role": "former_name"
-}]
-```
+Each `streets[]` item: `english_name`, `chinese_name`, optional `link_street_code`, non-empty `history[]`. Real files: `data/crowdsubmissions/batches/1909-gn184-taku-street.json`, `1924-gn119-prince-edward-road.json`.
 
 Rules:
 - Set **`"source": "hkgro"`** on every HKGRO batch (pipeline routing only; UI **來源** / **Source** shows gazette evidence kind, not HKGRO vs community).
@@ -234,10 +169,10 @@ Note: unmatched names, Chinese variants, already-dated streets skipped.
 ```
 HKGRO batch:
 - [ ] PDF 1: all pages rendered → all table rows extracted
-- [ ] PDF 1: each row matched + GeoJSON verified
 - [ ] PDF 1: history[] classified per street (declare/rename/multi-event)
 - [ ] PDF 1: batch applied + PDF hosted as {year}-gn{no}.pdf
-- [ ] Events upserted in street-events.json; map chip 舊稱 + 來源 verified
+- [ ] Events in street-events.json; timelines page shows new rows
+- [ ] If link_street_code set: centreline map + map chip 舊稱 + 來源 verified
 - [ ] Summary table delivered
 ```
 
@@ -246,7 +181,7 @@ HKGRO batch:
 | Issue | Fix |
 |-------|-----|
 | Only parsed page 1 | Re-render `--page 1`, `2`, … |
-| Applied street not on map | Always verify `street_code` in GeoJSON first |
+| Applied street not on map | Add `link_street_code` + centreline map link; verify code in GeoJSON |
 | Street shorthand without `history[]` | Wrap each street in `history[]` — see [event-model.md](../event-model.md) |
 | HKGRO URL in data | Replace with `/egazette/en/{year}-gn{no}.pdf` |
 | Wrong hosted filename | Rename inbox PDF to `{year}-gn{no}.pdf` before publish |

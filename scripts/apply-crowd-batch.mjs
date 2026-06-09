@@ -23,7 +23,14 @@ import {
   finalizeCrowdEvent,
   makeStreetKey,
   normalizeStreetName,
+  slugifyForEventId,
 } from './lib/street-naming-core.mjs'
+import {
+  loadCentrelineMap,
+  saveCentrelineMap,
+  upsertCentrelineLinks,
+  validateCentrelineMap,
+} from './lib/street-centreline-map.mjs'
 import {
   buildSelfHostedPdfUrlsFromStem,
   parseEgazetteArchiveFilename,
@@ -49,7 +56,12 @@ function parseArgs(argv) {
     console.log(`Usage: node scripts/apply-crowd-batch.mjs <batch.json>
        node scripts/apply-crowd-batch.mjs --stdin
 
-Applies community-verified naming dates and runs npm run rebuild:naming + report:pending-years.`)
+Applies gazette events (no street_code required). Linkers use street-centreline-map.json.
+
+Options in batch JSON:
+  gazette_only: true (default) — do not require geojson match or street_code on events
+  allow_street_code_link: true — MAINTAINER LEGACY ONLY (writes street_code on events; ignored by map join)
+  link_street_code on a street — linker: attach events to street-centreline-map.json`)
     process.exit(0)
   }
   if (argv.includes('--stdin')) return { stdin: true, file: null }
@@ -203,6 +215,72 @@ function resolveStreet(batchStreet, pendingMap, options = {}) {
   }
 }
 
+/** Names from batch row only — no geojson lookup (gazette parser path). */
+function namesFromStreetEntry(street, index = 0) {
+  if (typeof street === 'string') {
+    return {
+      english_name: null,
+      chinese_name: street.trim(),
+      district_raw_en: null,
+      district_raw_zh: null,
+      link_street_code: null,
+    }
+  }
+  return {
+    english_name:
+      normalizeStreetName(street.english_name ?? street.en ?? street.street_name_en) || null,
+    chinese_name: String(
+      street.chinese_name ?? street.zh ?? street.name ?? street.street_name_zh ?? '',
+    ).trim() || null,
+    district_raw_en: street.district_raw_en ?? street.district_en ?? null,
+    district_raw_zh: street.district_raw_zh ?? street.district_zh ?? null,
+    link_street_code: String(street.link_street_code ?? '').trim() || null,
+  }
+}
+
+function resolveLinkStreetCode(street, allowStreetCodeLink) {
+  const explicit = String(street?.link_street_code ?? '').trim()
+  if (explicit) return explicit
+  if (!allowStreetCodeLink || typeof street !== 'object') return null
+  return String(street.street_code ?? street.code ?? '').trim() || null
+}
+
+function buildSimpleDeclareEvent(street, publicationDate, notice, batchDefaults, index) {
+  const names = namesFromStreetEntry(street, index)
+  const slug = slugifyForEventId(names.english_name, names.chinese_name) || `street-${index + 1}`
+  const allowStreetCodeLink =
+    batchDefaults.allow_street_code_link === true || batchDefaults.link_to_map === true
+  return finalizeCrowdEvent({
+    submission_id: `${batchDefaults.batch_id}-${slug}`,
+    publication_date: publicationDate,
+    change_kind: 'declare',
+    street_name_en: names.english_name,
+    street_name_zh: names.chinese_name,
+    district_raw_en: names.district_raw_en,
+    district_raw_zh: names.district_raw_zh,
+    gazette_only: batchDefaults.gazette_only !== false,
+    street_code: allowStreetCodeLink ? names.link_street_code : null,
+    gazette_notice_label: notice.notice_label,
+    government_notice_url_en: notice.url_en,
+    government_notice_url_zh: notice.url_zh,
+    evidence_kind: 'gazette_primary',
+    source: batchDefaults.source,
+    reviewed_at: batchDefaults.reviewed_at,
+  })
+}
+
+async function applyCentrelineLinksFromBatch(linkHints) {
+  if (!linkHints.length) return 0
+  const map = await loadCentrelineMap({ allowMissing: true })
+  const merged = upsertCentrelineLinks(map, linkHints)
+  const validation = validateCentrelineMap(merged)
+  if (!validation.valid) {
+    throw new Error(`Centreline map validation failed: ${JSON.stringify(validation.errors)}`)
+  }
+  await saveCentrelineMap(merged)
+  return linkHints.length
+}
+
 async function appendBatchCsvRows(rows) {
   let existing = ''
   try {
@@ -272,7 +350,11 @@ async function main() {
     throw new Error('Batch must include gazette_url or PDF paths with egazette-style filenames')
   }
 
-  const pendingMap = await loadPendingRoadKeys(projectRoot)
+  const gazetteOnly = batch.gazette_only !== false
+  const allowStreetCodeLink =
+    batch.allow_street_code_link === true || batch.link_to_map === true
+  const pendingMap =
+    gazetteOnly && !allowStreetCodeLink ? null : await loadPendingRoadKeys(projectRoot)
   const resolveOpts = { allowNameOnly: batch.allow_name_only === true }
   const copiedPdfs = await copyBatchPdfs(batch, notice.batch_id)
   const displayDate = formatDisplayDate(publicationDate)
@@ -282,26 +364,31 @@ async function main() {
     gazette_url_en: notice.url_en,
     gazette_url_zh: notice.url_zh,
     reviewed_at: new Date().toISOString().slice(0, 10),
-    // Default crowdsubmitted; batch.source === 'hkgro' only from parse-hkgro-gazettes
     source: batch.source === 'hkgro' ? 'hkgro' : 'crowdsubmitted',
+    gazette_only: gazetteOnly,
+    allow_street_code_link: allowStreetCodeLink,
+    link_to_map: allowStreetCodeLink,
   }
 
   const historyEvents = []
   const csvRows = []
+  const linkHints = []
 
   for (const [index, street] of streets.entries()) {
+    const names = namesFromStreetEntry(street, index)
+
     if (typeof street === 'object' && Array.isArray(street.history) && street.history.length) {
-      const resolved = resolveStreet(street, pendingMap, resolveOpts)
-      const built = buildCrowdEventsFromStreetEntry(
-        { ...street, street_code: resolved.street_code },
-        {
-          ...batchDefaults,
-          display_names: {
-            en: resolved.english_name,
-            zh: resolved.chinese_name,
-          },
-        },
-      )
+      const display = gazetteOnly
+        ? { en: names.english_name, zh: names.chinese_name }
+        : (() => {
+            const resolved = resolveStreet(street, pendingMap, resolveOpts)
+            return { en: resolved.english_name, zh: resolved.chinese_name }
+          })()
+
+      const built = buildCrowdEventsFromStreetEntry(street, {
+        ...batchDefaults,
+        display_names: display,
+      })
       for (const event of built) {
         if (event.evidence_kind === 'gazette_inferred' && Array.isArray(event.derived_from)) {
           event.derived_from = event.derived_from.map((ref) => ({
@@ -319,6 +406,43 @@ async function main() {
         }
       }
       historyEvents.push(...built)
+
+      const linkCode = resolveLinkStreetCode(street, allowStreetCodeLink)
+      if (linkCode && gazetteOnly) {
+        linkHints.push({
+          timeline_id: `code:${linkCode}`,
+          street_code: linkCode,
+          event_ids: built.map((e) => e.event_id),
+          status: 'active',
+          method: 'batch_link_street_code',
+          district_hint: names.district_raw_zh ?? names.district_raw_en ?? null,
+          linked_at: batchDefaults.reviewed_at,
+          linked_by: 'apply-crowd-batch',
+        })
+      }
+      continue
+    }
+
+    if (gazetteOnly) {
+      const event = buildSimpleDeclareEvent(street, publicationDate, notice, batchDefaults, index)
+      if (!event.government_notice_url_en && notice.url_en) {
+        event.government_notice_url_en = notice.url_en
+        event.government_notice_url_zh = notice.url_zh ?? null
+      }
+      historyEvents.push(event)
+      const linkCode = resolveLinkStreetCode(street, allowStreetCodeLink)
+      if (linkCode) {
+        linkHints.push({
+          timeline_id: `code:${linkCode}`,
+          street_code: linkCode,
+          event_ids: [event.event_id],
+          status: 'active',
+          method: 'batch_link_street_code',
+          district_hint: names.district_raw_zh ?? names.district_raw_en ?? null,
+          linked_at: batchDefaults.reviewed_at,
+          linked_by: 'apply-crowd-batch',
+        })
+      }
       continue
     }
 
@@ -344,6 +468,15 @@ async function main() {
     console.log(`Upserted ${added} event(s) into data/master/street-events.json`)
   }
 
+  if (linkHints.length) {
+    const linked = await applyCentrelineLinksFromBatch(linkHints)
+    console.log(`Updated ${linked} centreline map link(s) in street-centreline-map.json`)
+  } else if (gazetteOnly && historyEvents.length) {
+    console.log(
+      '\nLinker queue: events are not on the map until linked. Run: npm run report:unmapped-events',
+    )
+  }
+
   if (csvRows.length) {
     await appendBatchCsvRows(csvRows)
     console.log(`Appended ${csvRows.length} row(s) to ${BATCH_CSV}`)
@@ -364,9 +497,17 @@ async function main() {
   }
 
   if (process.env.SKIP_MERGE !== '1') {
-    execSync('npm run rebuild:naming', { cwd: projectRoot, stdio: 'inherit' })
-    execSync('npm run report:pending-years', { cwd: projectRoot, stdio: 'inherit' })
-    console.log('\nDone. Streets updated with gazette evidence (來源) and appear in 最近核實.')
+    execSync(
+      'npm run rebuild:naming && npm run report:pending-years && npm run report:street-timelines && npm run report:unmapped-events',
+      { cwd: projectRoot, stdio: 'inherit' },
+    )
+    if (gazetteOnly && linkHints.length === 0) {
+      console.log(
+        '\nDone. Gazette events saved. Map shows naming only after a linker adds street-centreline-map.json rows.',
+      )
+    } else {
+      console.log('\nDone. Rebuild complete — check 最近核實 for linked streets.')
+    }
   } else {
     console.log('\nBatch history appended (SKIP_MERGE=1).')
   }

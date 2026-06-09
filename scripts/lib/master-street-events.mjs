@@ -108,9 +108,18 @@ export function removeMasterEventById(events, eventId) {
   return { events: sortMasterEvents(next), removed: before - next.length }
 }
 
-export function findMasterEventsByStreetCode(events, streetCode) {
+/** Resolve events for a centreline code via street-centreline-map.json (preferred). */
+export function findMasterEventsByStreetCode(events, streetCode, centrelineMap) {
   const code = String(streetCode ?? '').trim()
   if (!code) return []
+
+  const links = centrelineMap?.links ?? []
+  const link = links.find((row) => String(row.street_code ?? '').trim() === code)
+  if (link?.event_ids?.length) {
+    const ids = new Set(link.event_ids.map(String))
+    return events.filter((event) => ids.has(String(event.event_id ?? '')))
+  }
+
   return events.filter((event) => String(event.street_code ?? '').trim() === code)
 }
 

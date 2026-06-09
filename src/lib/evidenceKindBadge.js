@@ -1,9 +1,13 @@
 const EVIDENCE_BADGE_KEYS = {
   gazette_primary: 'evidenceGazettePrimary',
   gazette_inferred: 'evidenceGazetteInferred',
+  gazette_mention: 'evidenceGazetteMention',
   legal_other: 'evidenceLegalOther',
+  legal_mention: 'evidenceLegalMention',
   research: 'evidenceResearch',
+  research_mention: 'evidenceResearchMention',
   news: 'evidenceNews',
+  news_mention: 'evidenceNewsMention',
   hearsay: 'evidenceHearsay',
   unknown: 'evidenceUnknown',
   other: 'evidenceOther',
@@ -13,9 +17,13 @@ const EVIDENCE_BADGE_KEYS = {
 export const EVIDENCE_KIND_ORDER = [
   'gazette_primary',
   'gazette_inferred',
+  'gazette_mention',
   'legal_other',
+  'legal_mention',
   'research',
+  'research_mention',
   'news',
+  'news_mention',
   'hearsay',
   'unknown',
   'other',
@@ -55,6 +63,18 @@ export function isEvidenceFilterId(value) {
 
 export function resolveDisplayEvidenceKind(namingDetails) {
   if (!namingDetails) return null
+  const mapKind = normalizeEvidenceKindForUi(namingDetails.map_display_evidence_kind)
+  if (mapKind) return mapKind
+
+  const mapDate = String(namingDetails.map_display_date ?? '').trim()
+  if (mapDate && Array.isArray(namingDetails.name_history)) {
+    const mapRow = namingDetails.name_history.find(
+      (entry) => String(entry.date ?? '').trim() === mapDate,
+    )
+    const rowKind = normalizeEvidenceKindForUi(mapRow?.evidence_kind)
+    if (rowKind) return rowKind
+  }
+
   const canonical = normalizeEvidenceKindForUi(
     namingDetails.canonical_evidence_kind ?? namingDetails.evidence_kind,
   )

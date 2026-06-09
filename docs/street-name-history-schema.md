@@ -1,6 +1,8 @@
 # Street name history schema
 
-Events describe how a street’s name changed over time. Multiple events per `street_code` form an ordered timeline.
+Events describe how a street’s name changed over time. Multiple events linked to the same centreline (`street-centreline-map.json`) form an ordered timeline.
+
+**Do not add `street_code` to new events** — linkage lives in [street-centreline-map.json](../data/master/street-centreline-map.json). See [street-events-gazette-only.md](street-events-gazette-only.md).
 
 ## Product model (map focus)
 
@@ -30,7 +32,7 @@ Identity on the map comes from [`public/data/hk-streets.geojson`](public/data/hk
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `street_code` | string | LandsD street code; **required** to group rename chains |
+| `street_code` | string | **Deprecated on events** — do not set on new rows. Use `street-centreline-map.json` to group events by `STREETCODE`. Legacy rows may still appear in old `event_id` slugs only. |
 | `publication_date` | ISO date | When the name took effect (use `YYYY-01-01` if only a year is known) |
 | `change_kind` | `declare` \| `rename` \| `delete` \| `extend` | Kind of change (`extend` = new segment gazetted under existing name; excluded from canonical naming unless no `declare` exists) |
 | `street_name_en` / `street_name_zh` | string | Name **after** this event |
@@ -58,9 +60,15 @@ Identity on the map comes from [`public/data/hk-streets.geojson`](public/data/hk
 | `hearsay` | Oral tradition, forum, unverified secondary |
 | `unknown` | Date present; type not yet classified |
 | `other` | Rare cases; set `evidence_kind_note` |
+| `gazette_mention` | Earliest street name in a gazette notice that is **not** a naming declaration (UI: 憲報提及) |
+| `legal_mention` | Earliest mention in a legal document (UI: 法律文件提及) |
+| `news_mention` | Earliest mention in news (UI: 新聞提及) |
+| `research_mention` | Earliest mention in research (UI: 研究提及) |
 
-**Strength order** (badges / sort only; map still shows the year):  
-`gazette_primary` > `gazette_inferred` > `legal_other` > `research` > `news` > `hearsay` > `unknown` > `other`
+**Strength order** (badges / sort only):  
+`gazette_primary` > `gazette_inferred` > `gazette_mention` > `legal_other` > `legal_mention` > `research` > `research_mention` > `news` > `news_mention` > `hearsay` > `unknown` > `other`
+
+**Attestation map year:** `map_display_date` uses earliest `*_mention` row (after `built`, before canonical naming). Set `is_declaration_event: false` on attestation rows.
 
 ### `supplementary_evidence` (per event, schema v2)
 
@@ -118,10 +126,13 @@ Per-street rollups (`canonical_naming_date`, `name_history`, etc.) are computed 
 |-------|---------|
 | `canonical_naming_date` | **Naming** date: current name since if renamed, else earliest current-name declaration |
 | `canonical_naming_year` | Year slice of `canonical_naming_date` → GeoJSON `naming_year` |
-| `map_display_date` | **Map** date: earliest `built` event, else `canonical_naming_date` |
+| `map_display_date` | **Map** date: earliest `built`, else `*_mention`, else earliest `gazette_primary`/`gazette_inferred` row, else `canonical_naming_date` |
 | `map_display_year` | Year slice of `map_display_date` → GeoJSON `map_year` |
-| `map_year_source` | `'built'` or `'naming'` — which event supplied `map_display_date` |
-| `map_derivation_reason` | `built_earliest`, `naming_canonical`, or `no_date` |
+| `map_year_source` | `'built'`, `'attestation'`, `'gazette_document'`, or `'naming'` |
+| `map_derivation_reason` | `built_earliest`, `attestation_earliest`, `gazette_document_earliest`, `naming_canonical`, or `no_date` |
+| `earliest_gazette_document_date` | Earliest gazette-backed event (incl. `former_name` naming) |
+| `earliest_attestation_date` | Earliest `*_mention` event date (if any) |
+| `earliest_attestation_year` | Year slice of `earliest_attestation_date` |
 | `canonical_evidence_kind` | `evidence_kind` of the event that supplies `canonical_naming_date` |
 | `canonical_evidence_event_id` | `event_id` of that event (QA) |
 | `canonical_event_role` | Usually `current_name` |
@@ -143,9 +154,10 @@ Optional batch root: `evidence_schema_version: 1`
   "publication_date": "1909-03-19",
   "gazette_url_en": "/egazette/en/1909-gn184.pdf",
   "pdf_en": "data/crowdsubmissions/batch-inbox/1909-gn184-taku/1909-gn184.pdf",
+  "gazette_only": true,
   "streets": [
     {
-      "street_code": "12326",
+      "link_street_code": "12326",
       "chinese_name": "大沽街",
       "english_name": "TAKU STREET",
       "history": [

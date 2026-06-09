@@ -5,11 +5,8 @@ import {
   projectRoot,
   publicPaths,
 } from './lib/data-paths.mjs'
-import { loadMasterEvents } from './lib/master-street-events.mjs'
-import {
-  aggregateByStreet,
-  normalizeNamingDateExclusions,
-} from './lib/street-naming-core.mjs'
+import { loadStreetAggregates } from './lib/load-street-aggregates.mjs'
+import { normalizeNamingDateExclusions } from './lib/street-naming-core.mjs'
 import {
   buildNoticeStemIndex,
   buildPdfLocaleIndex,
@@ -130,6 +127,49 @@ const pickNamingDetails = async (aggregate, noticeIndex, urlOptions = {}) => {
   if (isPlaceholderNoticeLabel(rawNoticeLabel)) rawNoticeLabel = derivedFrom?.[0]?.notice_label ?? null
   const noticeLabels = formatGovernmentNoticeLabels(rawNoticeLabel)
 
+  const mapEventId = String(aggregate.map_display_event_id ?? '').trim()
+  const mapEvent = mapEventId ? history.find((event) => event.event_id === mapEventId) ?? null : null
+  const mapEvidenceKind = aggregate.map_display_evidence_kind ?? mapEvent?.evidence_kind ?? null
+  const mapHistoryRow =
+    aggregate.name_history?.find(
+      (row) =>
+        String(row.date ?? '').trim() === String(aggregate.map_display_date ?? '').trim() &&
+        (!mapEvidenceKind || row.evidence_kind === mapEvidenceKind),
+    ) ?? null
+
+  let mapNoticeLabels = { en: null, zh: null }
+  if (mapEvent) {
+    const mapRaw =
+      mapEvent.government_notice_label_en ??
+      mapEvent.government_notice_label_zh ??
+      mapEvent.notice_no ??
+      null
+    mapNoticeLabels = formatGovernmentNoticeLabels(mapRaw)
+  }
+
+  const useMapForNotice = Boolean(mapEvent)
+  const noticeEvent = useMapForNotice ? mapEvent : canonicalEvent
+  const activeDerivedFrom = useMapForNotice ? null : derivedFrom
+  const activeNoticeLabels = useMapForNotice ? mapNoticeLabels : noticeLabels
+
+  if (useMapForNotice) {
+    const mapUrls = await resolveAggregateNoticeUrls(
+      { ...aggregate, canonical_naming_date: aggregate.map_display_date },
+      noticeIndex,
+      urlOptions,
+    )
+    if (mapHistoryRow?.notice_url_en || mapHistoryRow?.notice_url_zh) {
+      urls.en = mapHistoryRow.notice_url_en ?? urls.en
+      urls.zh = mapHistoryRow.notice_url_zh ?? urls.zh
+    } else if (mapUrls.urls.en || mapUrls.urls.zh) {
+      urls.en = mapUrls.urls.en ?? urls.en
+      urls.zh = mapUrls.urls.zh ?? urls.zh
+    } else if (mapEvent.government_notice_url_en || mapEvent.government_notice_url_zh) {
+      urls.en = mapEvent.government_notice_url_en ?? urls.en
+      urls.zh = mapEvent.government_notice_url_zh ?? urls.zh
+    }
+  }
+
   return {
     street_key: aggregate.street_key ?? null,
     street_code: aggregate.street_code ?? null,
@@ -138,22 +178,34 @@ const pickNamingDetails = async (aggregate, noticeIndex, urlOptions = {}) => {
     current_name_since_date: aggregate.current_name_since_date ?? null,
     first_known_naming_date: aggregate.first_known_naming_date ?? null,
     derivation_reason: aggregate.derivation_reason ?? null,
+    map_display_date: aggregate.map_display_date ?? null,
+    map_display_year: aggregate.map_display_year ?? null,
+    map_year_source: aggregate.map_year_source ?? null,
+    map_derivation_reason: aggregate.map_derivation_reason ?? null,
+    map_display_event_id: mapEventId || null,
+    map_display_evidence_kind: mapEvidenceKind,
     canonical_evidence_kind: canonicalKind,
     canonical_evidence_event_id: canonicalEventId,
     canonical_event_role: aggregate.canonical_event_role ?? canonicalEvent?.event_role ?? null,
-    evidence_kind: canonicalKind,
-    derived_from: derivedFrom,
-    evidence_kind_note: canonicalEvent?.evidence_kind_note ?? null,
+    evidence_kind: mapEvidenceKind ?? canonicalKind,
+    derived_from: activeDerivedFrom ?? derivedFrom,
+    evidence_kind_note: noticeEvent?.evidence_kind_note ?? canonicalEvent?.evidence_kind_note ?? null,
     event_count: aggregate.event_count ?? 0,
-    name_history: patchNameHistoryUrls(aggregate.name_history, urls, derivedFrom),
-    notice_no: canonicalEvent?.notice_no ?? null,
-    notice_type: canonicalEvent?.notice_type_normalized ?? null,
-    notice_source: canonicalEvent?.source ?? null,
-    notice_key: canonicalEvent?.notice_key ?? null,
+    name_history: patchNameHistoryUrls(aggregate.name_history, urls, activeDerivedFrom ?? derivedFrom),
+    notice_no: noticeEvent?.notice_no ?? canonicalEvent?.notice_no ?? null,
+    notice_type: noticeEvent?.notice_type_normalized ?? canonicalEvent?.notice_type_normalized ?? null,
+    notice_source: noticeEvent?.source ?? canonicalEvent?.source ?? null,
+    notice_key: noticeEvent?.notice_key ?? canonicalEvent?.notice_key ?? null,
     government_notice_label_en:
-      noticeLabels.en ?? canonicalEvent?.government_notice_label_en ?? null,
+      activeNoticeLabels.en ??
+      noticeLabels.en ??
+      canonicalEvent?.government_notice_label_en ??
+      null,
     government_notice_label_zh:
-      noticeLabels.zh ?? canonicalEvent?.government_notice_label_zh ?? null,
+      activeNoticeLabels.zh ??
+      noticeLabels.zh ??
+      canonicalEvent?.government_notice_label_zh ??
+      null,
     government_notice_url_en: urls.en ?? derivedFrom?.[0]?.government_notice_url_en ?? null,
     government_notice_url_zh: urls.zh ?? derivedFrom?.[0]?.government_notice_url_zh ?? null,
     related_gazette_plan_url_en: canonicalEvent?.related_gazette_plan_urls_en?.[0] ?? null,
@@ -203,8 +255,10 @@ async function loadNamingDateExclusions() {
 }
 
 async function loadAggregatesFromMaster() {
-  const events = await loadMasterEvents()
-  return aggregateByStreet(events, { namingDateExclusions: await loadNamingDateExclusions() })
+  const { aggregates } = await loadStreetAggregates({
+    namingDateExclusions: await loadNamingDateExclusions(),
+  })
+  return aggregates
 }
 
 async function main() {
@@ -248,7 +302,13 @@ async function main() {
   for (const feature of features) {
     const props = feature?.properties ?? {}
     const namingYear = props.naming_year
-    if (asMissingYear(namingYear)) {
+    const mapYear = props.map_year
+    const effectiveNamingYear = asMissingYear(namingYear)
+      ? asMissingYear(mapYear)
+        ? null
+        : Number(mapYear)
+      : Number(namingYear)
+    if (effectiveNamingYear === null) {
       missingYearSegments += 1
     }
 
@@ -270,6 +330,13 @@ async function main() {
       namingDetailsByStreetKey.get(streetKey) ??
       (aggregate ? await pickNamingDetails(aggregate, noticeStemIndex, urlOptions) : null)
 
+    const mapSurfaceYear =
+      namingDetails?.map_display_year != null ? Number(namingDetails.map_display_year) : null
+    const mapSurfaceDate = normalize(namingDetails?.map_display_date) || null
+    const tableYear = mapSurfaceYear ?? effectiveNamingYear
+    const tableDate =
+      mapSurfaceDate || normalize(props.map_date) || normalize(props.naming_date) || null
+
     if (!allRoads.has(roadKey)) {
       allRoads.set(roadKey, {
         road_key: roadKey,
@@ -277,8 +344,8 @@ async function main() {
         english_name: en || null,
         chinese_name: zh || null,
         street_type: streetType || null,
-        naming_year: asMissingYear(namingYear) ? null : Number(namingYear),
-        naming_date: normalize(props.naming_date) || null,
+        naming_year: tableYear,
+        naming_date: tableDate,
         naming_source: normalize(props.naming_source) || null,
         naming_details: namingDetails,
         segment_count: 0,
@@ -287,15 +354,11 @@ async function main() {
 
     const road = allRoads.get(roadKey)
     road.segment_count += 1
-    if (
-      road.naming_year === null &&
-      !asMissingYear(namingYear) &&
-      Number.isFinite(Number(namingYear))
-    ) {
-      road.naming_year = Number(namingYear)
+    if (road.naming_year === null && tableYear !== null) {
+      road.naming_year = tableYear
     }
-    if (!road.naming_date && normalize(props.naming_date)) {
-      road.naming_date = normalize(props.naming_date)
+    if (!road.naming_date && tableDate) {
+      road.naming_date = tableDate
     }
     if (!road.naming_source && normalize(props.naming_source)) {
       road.naming_source = normalize(props.naming_source)

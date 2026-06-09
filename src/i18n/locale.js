@@ -27,9 +27,19 @@ export function isAboutRoutePath(pathname) {
   return /\/about\/?$/.test(pathname)
 }
 
+export function isLinkQueueRoutePath(pathname) {
+  return /\/link-queue\/?$/.test(pathname)
+}
+
+export function isTimelinesRoutePath(pathname) {
+  return /\/timelines\/?$/.test(pathname)
+}
+
 export function getRouteSuffixFromPath(pathname) {
   if (isNamesRoutePath(pathname)) return 'names'
   if (isAboutRoutePath(pathname)) return 'about'
+  if (isTimelinesRoutePath(pathname)) return 'timelines'
+  if (isLinkQueueRoutePath(pathname)) return 'link-queue'
   return ''
 }
 

@@ -5,9 +5,9 @@ description: Name and place Hong Kong gazette PDFs for street-naming-map. Use wh
 
 # Gazette files — naming and placement
 
-**Contributor docs:** [README — Gazette PDFs](../../README.md#gazette-pdfs-naming-and-placement)
+**Contributor docs:** [README](../../README.md) · [contributor-roles.md](../../docs/contributor-roles.md) · Skill routing: [README.md](../README.md)
 
-**Related:** [street-naming-master](../street-naming-master/SKILL.md) for editing `street-events.json`. [apply-egazette-naming](../apply-egazette-naming/SKILL.md) for Lands Dept `egn`/`cgn` notice batches.
+**Related:** [apply-egazette-naming](../apply-egazette-naming/SKILL.md) (modern `egn`/`cgn`), [parse-hkgro-gazettes](../parse-hkgro-gazettes/SKILL.md) (colonial scans), [centreline-linker](../centreline-linker/SKILL.md) (map linkage).
 
 ## Golden rule
 
@@ -89,10 +89,10 @@ Modern eGazette events may also include:
 
 ## Agent checklist — add a new gazette
 
-1. Resolve `street_code` (see street-naming-master skill).
-2. Choose `notice_stem` from table above.
-3. Copy PDF to `public/egazette/en/{stem}.pdf` (and `zh/` if available).
-4. Add/update event in `data/master/street-events.json` with `notice_stem` + URLs.
+1. Choose `notice_stem` from table above.
+2. Copy PDF to `public/egazette/en/{stem}.pdf` (and `zh/` if available).
+3. Add/update gazette facts in `data/master/street-events.json` (`notice_stem` + URLs) — **no `street_code` on new events**.
+4. Linkers attach `event_id` → `STREETCODE` in `street-centreline-map.json` (batch `link_street_code` or `apply:street-links`).
 5. Validate and rebuild:
 
 ```bash

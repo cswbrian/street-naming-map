@@ -1,0 +1,30 @@
+{
+  "evidence_schema_version": 1,
+  "batch_id": "1925-gn514-nam-cheong-nanchang",
+  "source": "hkgro",
+  "gazette_notice_label": "G.N.514",
+  "publication_date": "1925-09-18",
+  "pdf_en": "data/crowdsubmissions/batch-inbox/1925-gn514-nam-cheong-nanchang/1925-gn514.pdf",
+  "streets": [
+    {
+      "link_street_code": "11487",
+      "english_name": "Nam Cheong Street",
+      "chinese_name": "南昌街",
+      "history": [
+        {
+          "publication_date": "1925-09-10",
+          "change_kind": "declare",
+          "is_declaration_event": false,
+          "street_name_en": "Nanchang Street",
+          "street_name_zh": null,
+          "event_role": "former_name",
+          "evidence_kind": "gazette_mention",
+          "gazette_notice_label": "G.N.514",
+          "government_notice_url_en": "/egazette/en/1925-gn514.pdf",
+          "evidence_kind_note": "Executive Council order under Rents Ordinance cites No. 58, Nanchang Street, Sham Shui Po; not a street-naming notice.",
+          "submitter_remarks": "Order date 1925-09-10; gazette published 1925-09-18 (p.438). Same street as today's Nam Cheong Street / 南昌街."
+        }
+      ]
+    }
+  ]
+}

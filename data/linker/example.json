@@ -1,0 +1,15 @@
+{
+  "links": [
+    {
+      "timeline_id": "code:10115",
+      "street_code": "10115",
+      "event_ids": ["crowd|1909-gn184-safe-10115-1909-03-19"],
+      "status": "active",
+      "method": "manual",
+      "district_hint": "Yau Ma Tei",
+      "note": "Example: former Kowloon Macdonnell Road → Canton Road",
+      "linked_at": "2026-06-09",
+      "linked_by": "linker"
+    }
+  ]
+}

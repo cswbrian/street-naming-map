@@ -1,10 +1,14 @@
 # Street event model (batch `history[]` → master)
 
-Reference for agents applying gazette batches. Full schema: [`docs/street-name-history-schema.md`](../../docs/street-name-history-schema.md).
+**Reference annex — not a routable Cursor skill.** Loaded via [apply-egazette-naming](apply-egazette-naming/SKILL.md), [parse-hkgro-gazettes](parse-hkgro-gazettes/SKILL.md), [research-street-history](research-street-history/SKILL.md), or [street-naming-master](street-naming-master/SKILL.md). Routing: [.cursor/skills/README.md](README.md).
+
+Full field schema: [`docs/street-name-history-schema.md`](../../docs/street-name-history-schema.md).
 
 **Skills:** Modern Lands Dept eGazette PDFs → [apply-egazette-naming/SKILL.md](apply-egazette-naming/SKILL.md). Colonial HKGRO scans → [parse-hkgro-gazettes/SKILL.md](parse-hkgro-gazettes/SKILL.md).
 
-**Source of truth after apply:** [`data/master/street-events.json`](../../data/master/street-events.json)
+**After apply:** events → [`data/master/street-events.json`](../../data/master/street-events.json). Map display → [`data/master/street-centreline-map.json`](../../data/master/street-centreline-map.json) ([centreline-linker/SKILL.md](centreline-linker/SKILL.md)).
+
+**Do not set `street_code` on new events.** Batch rows use `link_street_code` when a geojson match is confirmed.
 
 ## Two axes
 
@@ -25,6 +29,7 @@ Reference for agents applying gazette batches. Full schema: [`docs/street-name-h
 | 舊稱 | `declare` or `rename` | `former_name` | 舊稱 | Name does not match today’s geojson |
 | 落成 | `declare` | `built` | 落成 | Map year uses built-first; names often null |
 | 名稱撤銷 | `delete` | `name_removed` | 名稱撤銷 | Gazette explicitly abolishes a street name |
+| 憲報提及 / 新聞提及 / … | `declare` + `is_declaration_event: false` | `former_name` (usually) | 舊稱 + **XX提及** badge | Earliest documentary mention — not a naming notice; see [research-street-history](research-street-history/SKILL.md) |
 | 取代街道說明 | — | — | — | **Not a naming event** — see below |
 
 ## Decision tree
@@ -59,6 +64,14 @@ Read notice
 │   └─ YES → change_kind: declare, event_role: built
 │            evidence_kind: research|news; supplementary_evidence for document URL
 │
+├─ Earliest documentary mention (not a naming notice)?
+│   └─ YES → change_kind: declare, is_declaration_event: false
+│            event_role: former_name when name ≠ today's geojson
+│            evidence_kind: gazette_mention|legal_mention|news_mention|research_mention
+│            publication_date = verified earliest date (order date if gazette cites an order)
+│            supplementary_evidence[] for extra sources on the same event
+│            Drives map year via earliest_attestation; does NOT set canonical naming date
+│
 └─ Name explicitly abolished / ceased to be known?
     └─ YES → change_kind: delete, event_role: name_removed
 ```
@@ -88,7 +101,8 @@ Each `history[]` entry should set `evidence_kind` and `event_role` explicitly.
 | `government_notice_url_en` | Primary gazette | `/egazette/en/{year}-gn{no}.pdf` |
 | `derived_from` | `gazette_inferred` | Citation chain from citing notice to cited G.N. |
 | `supplementary_evidence` | Research/news | Per-event extra documents |
-| `submitter_remarks` | Name mismatch only | e.g. `Gazette ZH 連合道; database 連道.` — omit when EN+ZH match |
+| `submitter_remarks` | Name mismatch or EN-only | e.g. `Gazette ZH 連合道; database 連道.` — omit when EN+ZH match. Note when ZH omitted because source is English-only. |
+| `street_name_zh` / `previous_street_name_zh` | Per source | **Null** if the cited document has no Chinese for that name — do not copy from `parsed-notices.json` / hk-place guesses ([research-street-history](research-street-history/SKILL.md)) |
 
 ## Scenario examples
 
@@ -100,7 +114,7 @@ Colonial “to be known for the future” — one row:
 
 ```json
 {
-  "street_code": "12167",
+  "link_street_code": "12167",
   "english_name": "SUGAR STREET",
   "chinese_name": "糖街",
   "history": [{
@@ -185,7 +199,55 @@ See `hrch-fish-o-1880-1897-mui-kwai.json`:
 ]
 ```
 
-### 5 — 取代街道說明 → inferred Previous G.N.
+### 5 — Gazette mention (non-naming cite)
+
+See `1925-gn514-nam-cheong-nanchang.json` and [research-street-history/SKILL.md](research-street-history/SKILL.md):
+
+```json
+"history": [{
+  "publication_date": "1925-09-10",
+  "change_kind": "declare",
+  "is_declaration_event": false,
+  "street_name_en": "Nanchang Street",
+  "street_name_zh": null,
+  "evidence_kind": "gazette_mention",
+  "event_role": "former_name",
+  "gazette_notice_label": "G.N.514",
+  "government_notice_url_en": "/egazette/en/1925-gn514.pdf"
+}]
+```
+
+### 6 — Former-name naming + demoted rename
+
+See `1926-gn342-1954-gn572-kai-tak-road.json` — G.N.342 names old name; G.N.572 rename pending PDF:
+
+```json
+"history": [
+  {
+    "publication_date": "1926-06-25",
+    "change_kind": "declare",
+    "is_declaration_event": true,
+    "street_name_en": "Po Kong Road",
+    "street_name_zh": null,
+    "evidence_kind": "gazette_primary",
+    "event_role": "former_name"
+  },
+  {
+    "publication_date": "1954-05-12",
+    "change_kind": "rename",
+    "is_declaration_event": false,
+    "previous_street_name_en": "Po Kong Road",
+    "previous_street_name_zh": null,
+    "street_name_en": "Kai Tak Road",
+    "street_name_zh": "啓德道",
+    "evidence_kind": "unknown",
+    "event_role": "current_name",
+    "gazette_notice_label": "G.N.572"
+  }
+]
+```
+
+### 7 — 取代街道說明 → inferred Previous G.N.
 
 See `2018-gn6060-first-previous-gn.json`. **Do not** use citing G.N. date as naming date:
 
@@ -211,7 +273,7 @@ See `2018-gn6060-first-previous-gn.json`. **Do not** use citing G.N. date as nam
 
 Later: apply primary PDF for G.N.1713 → upgrade same row to `gazette_primary`, remove citation-only remarks.
 
-### 6 — Name extension (continuation)
+### 8 — Name extension (continuation)
 
 G.N.427 窩打老道 (Prince Edward Rd → Cornwall St) when G.N.331 already on file:
 
@@ -228,7 +290,7 @@ G.N.427 窩打老道 (Prince Edward Rd → Cornwall St) when G.N.331 already on 
 
 G.N.331 stays `declare` for 12690 until pre-1929 origin is sourced.
 
-### 7 — Name abolished (pattern; rare)
+### 9 — Name abolished (pattern; rare)
 
 ```json
 "history": [{
@@ -255,20 +317,15 @@ Use only when the gazette explicitly abolishes the name — verify wording.
 | `unknown` / `gazette_inferred` row exists | Apply primary gazette batch for cited date → upgrades `evidence_kind`, attaches PDF URL; remove stale “cited in G.N.…” remarks |
 | Manual edit | Use [`street-naming-master/SKILL.md`](street-naming-master/SKILL.md) helpers |
 
-After apply, the script runs `npm run rebuild:naming` and `npm run report:pending-years`.
+After apply, the script runs `npm run rebuild:naming`, `report:pending-years`, `report:street-timelines`, and `report:unmapped-events`.
 
 ## Post-apply verification
 
 ```bash
-# Events for a street
-rg '"street_code": "12326"' data/master/street-events.json
-
-npm run rebuild:naming
+rg '1909-gn184-taku' data/master/street-events.json   # by event_id slug
+npm run report:unmapped-events                        # linker queue if not linked
 ```
 
-Spot-check on the map:
+**Events:** PDF hosted; rows on `/{locale}/timelines`.
 
-1. Road chip **舊稱** timeline shows correct labels (命名 / 易名 / 舊稱 / 落成 / 名稱撤銷)
-2. **來源** links to hosted G.N. PDF for `gazette_primary` events
-3. Centerline year matches `map_year` (built-first when `built` event exists)
-4. Street appears under **最近核實** when canonical naming date is set
+**Map (linked only):** `rg 'code:12326' data/master/street-centreline-map.json` → chip 舊稱, 來源, `map_year`, **最近核實**.

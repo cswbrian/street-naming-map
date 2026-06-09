@@ -7,7 +7,7 @@ description: Parse Lands Department eGazette street-naming notices (egn/cgn PDFs
 
 Parse **modern Lands Department** street-naming notices from the government e-Gazette (`egn…` / `cgn…` PDFs) and upsert naming events into **street-naming-map**.
 
-**Event model:** [event-model.md](../event-model.md) — every apply must upsert full `history[]` events into `data/master/street-events.json`.
+**Event model:** [event-model.md](../event-model.md) (reference) — every apply must upsert full `history[]` events. Skill routing: [README.md](../README.md).
 
 ## Scope
 
@@ -35,7 +35,7 @@ Typical input (any of):
 - Publication date (e.g. `17/12/2004`)
 - List of Chinese and/or English street names
 
-Goal: upsert street events via `history[]`, set **來源** `gazette_primary` (hosted PDF), list under **最近核實**, update map year coloring.
+Goal: upsert gazette facts via `history[]`, host PDFs, set **來源** `gazette_primary`. Map years update only when `link_street_code` or a linker connects `street-centreline-map.json` (see [centreline-linker](../centreline-linker/SKILL.md)).
 
 ## Mandatory `history[]`
 
@@ -44,7 +44,8 @@ Goal: upsert street events via `history[]`, set **來源** `gazette_primary` (ho
 | Avoid (legacy) | Use instead |
 |----------------|-------------|
 | `"streets": ["盛芳街"]` | `{ "chinese_name": "盛芳街", "history": [{ … }] }` |
-| `{ "street_code": "12278", "chinese_name": "大全街" }` only | Same object + `history[]` with `evidence_kind` and `event_role` |
+| `street_code` on batch (parser) | Omit — linkers set `link_street_code` or edit `street-centreline-map.json` |
+| `event_role` on every history row | Omit unless needed; derived at build when linked |
 
 `parse-crowd-gazette-pdf.mjs` drafts `declare` + `current_name` only — **upgrade** to `rename`, `gazette_inferred`, or multi-event chains during verification (see [event-model.md](../event-model.md)).
 
@@ -52,7 +53,7 @@ Goal: upsert street events via `history[]`, set **來源** `gazette_primary` (ho
 
 | Notice type | Action |
 |-------------|--------|
-| `宣布街道名稱` / Declaration of street name (first on file) | `change_kind: declare`, `event_role: current_name`, `evidence_kind: gazette_primary` |
+| `宣布街道名稱` / Declaration of street name (first on file) | `change_kind: declare`, `evidence_kind: gazette_primary` |
 | “continuation of …” / same name, new segment | `change_kind: extend`, `event_role: current_name`, `evidence_kind: gazette_primary` |
 | Previous name in notice / “instead of” | `change_kind: rename` + `previous_street_name_*`; add `former_name` row if earlier name known without gazette |
 | `取代街道說明` / replacing description of street | **Do not** create event at citing G.N. date. Extract **first Previous G.N.** per street → `gazette_inferred` at cited date + `derived_from` citing the replace-description G.N. Host citing PDF. See `2018-gn6060-first-previous-gn.json` |
@@ -65,9 +66,9 @@ Goal: upsert street events via `history[]`, set **來源** `gazette_primary` (ho
 
 When a street **already has** a naming year or a **`gazette_inferred`** / `unknown` event (e.g. first Previous G.N. parsed from a later notice) but **no hosted gazette PDF** for the cited G.N. (`government_notice_url_en` null):
 
-1. **Apply the primary gazette** for that naming date (`pdf_en`, `gazette_notice_label`, `publication_date`, matched `street_code`, full `history[]`).
+1. **Apply the primary gazette** for that naming date (`pdf_en`, `gazette_notice_label`, `publication_date`, full `history[]`). Set batch `gazette_only: true` (default).
 2. **Do not** keep indirect citation remarks (`submitter_remarks` / batch `remarks` about “cited in G.N.…”).
-3. **Omit** streets that do not match `hk-streets.geojson`.
+3. **Linkers** attach map separately via `link_street_code` on the batch row or `npm run apply:street-links` — parsers do not skip streets missing from geojson.
 4. Set `gazette_url_en` / `gazette_url_zh` explicitly when PDF filenames have suffixes (e.g. `egn…-1.pdf`) that break auto-URL derivation.
 5. Run **`npm run report:pending-years`** after duplicate cleanup.
 
@@ -95,12 +96,12 @@ Writes `data/crowdsubmissions/batches/{year}-gn{no}-draft.json` by default. Pass
 
 2. **If `status: needs_visual_parse`** (image-only scan, no text layer):
    - Render pages: `python3 scripts/render-gazette-pdf.py "<pdf>" --page 0 --out /tmp/p1.png`
-   - Read PNGs visually and fill draft JSON: G.N., `publication_date`, each street’s EN/ZH (and `street_code` when matched)
+   - Read PNGs visually and fill draft JSON: G.N., `publication_date`, each street’s EN/ZH (and `link_street_code` when matched)
    - **Do not** transcribe gazette location/DESCRIPTION text into the batch
 
 3. **Classify events** — check notice type (declare / rename / replace_description / delete). Upgrade draft `history[]` per [event-model.md](../event-model.md).
 
-4. **Show draft to user for verification** — G.N., date, and `--match` table: each street must show `✓` with the expected **street_code** and **Chinese** name.
+4. **Show draft to user for verification** — G.N., date, and `--match` table. When geojson match is confident, set `link_street_code`; otherwise apply gazette facts only and leave linking to [centreline-linker](../centreline-linker/SKILL.md).
 
 5. **Apply only after user confirms**:
 
@@ -145,9 +146,10 @@ Template: `data/crowdsubmissions/batch-template.json` (`evidence_schema_version:
   "publication_date": "2004-12-17",
   "pdf_en": "/path/to/egn200408518104.pdf",
   "pdf_zh": "/path/to/cgn200408518104.pdf",
+  "gazette_only": true,
   "streets": [
     {
-      "street_code": "12278",
+      "link_street_code": "12278",
       "chinese_name": "大全街",
       "english_name": "Tai Tsun Street",
       "history": [{
@@ -189,7 +191,7 @@ See `docs/street-name-history-schema.md` for full field reference.
 
 | Priority | What to provide | Result |
 |----------|-----------------|--------|
-| 1 | `street_code` | Exact match (best) |
+| 1 | `link_street_code` (from geojson `STREETCODE`) | Exact match (best) |
 | 2 | `chinese_name` + `english_name` | Match both against pending data |
 | 3 | `chinese_name` only | OK if **unique** |
 | 4 | `english_name` only | OK only if **exactly one** road shares that English name |
@@ -204,20 +206,27 @@ See `docs/street-name-history-schema.md` for full field reference.
 
 ### Post-apply checklist
 
-1. `rg '"street_code": "CODE"' data/master/street-events.json` — event count matches `history[]` rows.
-2. Map chip **舊稱** timeline labels correct (命名 / 易名 / 舊稱 / 落成 / 名稱撤銷).
-3. **來源** links to hosted G.N. PDF (`憲報` when `gazette_primary`).
-4. Street in **最近核實** when canonical naming date is set.
-5. Centerline year matches `map_year`.
+**Events (always):**
+
+1. Grep `event_id` in `street-events.json` — count matches `history[]` rows.
+2. Hosted PDF at `/egazette/en/{stem}.pdf`; `npm run lint:gazettes` passes.
+3. Row visible on `/{locale}/timelines`.
+
+**Map (only if `link_street_code` or linker applied):**
+
+4. `rg 'code:CODE' data/master/street-centreline-map.json` — `event_ids` include new rows.
+5. Map chip **舊稱** labels correct; **來源** → G.N. PDF; centerline `map_year` matches.
+6. Street in **最近核實** when linked + canonical naming date set.
 
 ## What the script updates
 
 | File | Effect |
 |------|--------|
 | `data/master/street-events.json` | **Primary target** — upsert naming events |
+| `data/master/street-centreline-map.json` | When batch streets include `link_street_code` |
 | `data/crowdsubmissions/batch-inbox/{batch_id}/` | PDF copies |
 | `public/egazette/` | Hosted gazette PDFs |
-| `public/data/hk-streets.geojson` | Map year coloring; **來源** column |
+| `public/data/hk-streets.geojson` | Regenerated — naming years only for **linked** STREETCODEs |
 
 ## npm scripts
 
@@ -226,7 +235,8 @@ See `docs/street-name-history-schema.md` for full field reference.
 | `node scripts/parse-crowd-gazette-pdf.mjs <pdf> [--match]` | PDF → draft batch JSON |
 | `node scripts/apply-crowd-batch.mjs <json>` | Apply batch → master events |
 | `npm run publish:crowd-gazettes` | Publish inbox PDFs + update URLs |
-| `npm run rebuild:naming` | Rebuild geojson after master changes |
+| `npm run rebuild:naming` | Rebuild geojson after master/map changes |
+| `npm run report:unmapped-events` | Linker queue after parser-only apply |
 
 ## Example: eGazette PDF attachment
 

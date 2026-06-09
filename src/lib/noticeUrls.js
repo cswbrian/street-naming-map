@@ -155,13 +155,22 @@ export function resolveNoticeUrlsForDetails(details, options = {}) {
     details.name_history?.find((item) => item.date === details.canonical_naming_date) ??
     details.name_history?.[details.name_history.length - 1]
 
+  const mapDate = String(details.map_display_date ?? '').trim()
+  if (mapDate && Array.isArray(details.name_history)) {
+    const mapRow = details.name_history.find((item) => String(item.date ?? '').trim() === mapDate)
+    const mapUrls = urlsFromStored(mapRow?.notice_url_en, mapRow?.notice_url_zh)
+    if (mapUrls.en || mapUrls.zh) return mapUrls
+  }
+
   let urls = urlsFromStored(
     details.government_notice_url_en,
     details.government_notice_url_zh,
   )
   if (urls.en || urls.zh) return urls
 
-  const kind = String(details.canonical_evidence_kind ?? details.evidence_kind ?? '').trim()
+  const kind = String(
+    details.map_display_evidence_kind ?? details.canonical_evidence_kind ?? details.evidence_kind ?? '',
+  ).trim()
   const derived = details.derived_from?.[0]
 
   if (kind === 'gazette_inferred' && derived) {

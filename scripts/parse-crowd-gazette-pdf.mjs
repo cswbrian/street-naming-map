@@ -55,7 +55,7 @@ function printMatchTable(batch, pendingMap) {
     const label = street.chinese_name || street.english_name
     if (road) {
       console.log(
-        `  ✓ ${label} → code ${road.street_code ?? '?'} (${road.english_name ?? ''} / ${road.chinese_name ?? ''})`,
+        `  ✓ ${label} → link_street_code ${road.street_code ?? '?'} (${road.english_name ?? ''} / ${road.chinese_name ?? ''})`,
       )
     } else {
       console.log(`  ✗ ${label} → no match`)
@@ -101,7 +101,7 @@ Does not apply to the map. After you verify the draft:
     batch.streets = batch.streets.map((street) => {
       const road = findPendingRoad(street, pendingMap)
       if (!road?.street_code) return street
-      return { ...street, street_code: String(road.street_code) }
+      return { ...street, link_street_code: String(road.street_code) }
     })
   }
 

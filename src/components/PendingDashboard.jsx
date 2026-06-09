@@ -43,9 +43,9 @@ const formatNumber = (locale, value) =>
 import {
   buildRowSearchHaystack,
   formatNamingDate,
-  getNamingDisplay,
   hasRowNamingDate,
 } from '../lib/namingDisplay.js'
+import { getMapSurfaceDateDisplay } from '../lib/mapSurfaceDisplay.js'
 
 const getPeriodGroupId = (row) => {
   if (!hasNamingYear(row)) return 'unknown'
@@ -177,7 +177,7 @@ function PendingDashboard({ onOpenRoadOnMap }) {
 
   const loweredQuery = searchText.trim().toLowerCase()
 
-  const getNamingDisplayForRow = (row) => getNamingDisplay(row, t)
+  const getNamingDisplayForRow = (row) => getMapSurfaceDateDisplay(row, t)
 
   const filteredRows = useMemo(() => {
     let list = rows
@@ -442,7 +442,7 @@ function PendingDashboard({ onOpenRoadOnMap }) {
                   </th>
                   <th>
                     <button type="button" className="pending-sort-header" onClick={() => toggleSort('year')}>
-                      {t('colNaming')}
+                      {t('colMapYear')}
                       <span>{sortConfig.key === 'year' ? (sortConfig.direction === 'asc' ? ' ▲' : ' ▼') : ''}</span>
                     </button>
                   </th>

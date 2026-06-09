@@ -218,33 +218,45 @@ const yearLabelStyle = (yearColor) => ({
   'text-color': yearColor,
 })
 
-const buildMapYearDisplayExpr = (unknownYearLabel) => {
-  const mapYear = buildMapYearExpr()
-  const displayYear = [
-    'coalesce',
-    ['to-string', ['get', 'map_year']],
-    ['to-string', ['get', 'naming_year']],
+const getAttestationSuffix = (locale) =>
+  translations[locale]?.mapYearSuffixAttestation ?? translations.en.mapYearSuffixAttestation
+
+const buildMapYearDisplayExpr = (unknownYearLabel, attestationSuffix) => {
+  const year = buildMapYearExpr()
+  return [
+    'case',
+    ['==', year, -1],
+    unknownYearLabel,
+    [
+      'concat',
+      ['to-string', year],
+      [
+        'case',
+        ['==', ['get', 'map_year_source'], 'attestation'],
+        attestationSuffix,
+        '',
+      ],
+    ],
   ]
-  return ['case', ['==', mapYear, -1], unknownYearLabel, displayYear]
 }
 
-const buildYearParentheticalFormat = (unknownYearLabel, yearColor) => [
+const buildYearParentheticalFormat = (unknownYearLabel, attestationSuffix, yearColor) => [
   ' (',
   yearLabelStyle(yearColor),
-  buildMapYearDisplayExpr(unknownYearLabel),
+  buildMapYearDisplayExpr(unknownYearLabel, attestationSuffix),
   yearLabelStyle(yearColor),
   ')',
   yearLabelStyle(yearColor),
 ]
 
-const buildPrimaryRoadLabelExpr = (locale, unknownYearLabel, yearColor) => [
+const buildPrimaryRoadLabelExpr = (locale, unknownYearLabel, attestationSuffix, yearColor) => [
   'format',
   buildPrimaryStreetNameExpr(locale),
   primaryLabelStyle(),
-  ...buildYearParentheticalFormat(unknownYearLabel, yearColor),
+  ...buildYearParentheticalFormat(unknownYearLabel, attestationSuffix, yearColor),
 ]
 
-const buildBilingualRoadLabelExpr = (locale, unknownYearLabel, yearColor) => [
+const buildBilingualRoadLabelExpr = (locale, unknownYearLabel, attestationSuffix, yearColor) => [
   'format',
   buildPrimaryStreetNameExpr(locale),
   primaryLabelStyle(),
@@ -252,17 +264,18 @@ const buildBilingualRoadLabelExpr = (locale, unknownYearLabel, yearColor) => [
   {},
   buildSecondaryStreetNameExpr(locale),
   secondaryLabelStyle(),
-  ...buildYearParentheticalFormat(unknownYearLabel, yearColor),
+  ...buildYearParentheticalFormat(unknownYearLabel, attestationSuffix, yearColor),
 ]
 
 const buildRoadLabelTextField = (locale, unknownYearLabel, mapTheme) => {
   const yearColor = getLabelYearColor(mapTheme)
+  const attestationSuffix = getAttestationSuffix(locale)
   return [
     'step',
     ['zoom'],
-    buildPrimaryRoadLabelExpr(locale, unknownYearLabel, yearColor),
+    buildPrimaryRoadLabelExpr(locale, unknownYearLabel, attestationSuffix, yearColor),
     ROAD_LABEL_BILINGUAL_ZOOM,
-    buildBilingualRoadLabelExpr(locale, unknownYearLabel, yearColor),
+    buildBilingualRoadLabelExpr(locale, unknownYearLabel, attestationSuffix, yearColor),
   ]
 }
 

@@ -1,6 +1,12 @@
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
-import { getRouteSuffixFromPath, isAboutRoutePath, isNamesRoutePath } from '../i18n/locale'
+import {
+  getRouteSuffixFromPath,
+  isAboutRoutePath,
+  isLinkQueueRoutePath,
+  isNamesRoutePath,
+  isTimelinesRoutePath,
+} from '../i18n/locale'
 import { LOCALES } from '../i18n/translations'
 import { useLocale } from '../i18n/LocaleContext'
 import {
@@ -19,11 +25,29 @@ function PageSeo() {
   const routeSuffix = getRouteSuffixFromPath(location.pathname)
   const isAboutRoute = isAboutRoutePath(location.pathname)
   const isNamesRoute = isNamesRoutePath(location.pathname)
+  const isLinkQueueRoute = isLinkQueueRoutePath(location.pathname)
+  const isTimelinesRoute = isTimelinesRoutePath(location.pathname)
 
   useEffect(() => {
-    const pageLabel = t(isAboutRoute ? 'navAbout' : isNamesRoute ? 'navNames' : 'navMap')
+    const pageLabel = t(
+      isAboutRoute
+        ? 'navAbout'
+        : isNamesRoute
+          ? 'navNames'
+          : isTimelinesRoute
+            ? 'navTimelines'
+            : isLinkQueueRoute
+              ? 'linkQueueTitle'
+              : 'navMap',
+    )
     const documentTitle = `${t('siteTitle')} · ${pageLabel}`
-    const description = isAboutRoute ? t('aboutSeoDescription') : t('seoDescription')
+    const description = isAboutRoute
+      ? t('aboutSeoDescription')
+      : isTimelinesRoute
+        ? t('timelinesSeoDescription')
+        : isLinkQueueRoute
+          ? t('linkQueueSeoDescription')
+          : t('seoDescription')
     const canonicalUrl = getCanonicalUrl(location.pathname)
     const ogLocale = locale === 'zh' ? 'zh_HK' : 'en'
     const alternateLocale = locale === 'zh' ? 'en' : 'zh_HK'
@@ -53,7 +77,7 @@ function PageSeo() {
       locales: LOCALES,
       routeSuffix,
     })
-  }, [isAboutRoute, isNamesRoute, locale, location.pathname, routeSuffix, t])
+  }, [isAboutRoute, isLinkQueueRoute, isNamesRoute, isTimelinesRoute, locale, location.pathname, routeSuffix, t])
 
   return null
 }

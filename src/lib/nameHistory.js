@@ -1,4 +1,5 @@
 import { getEvidenceKindBadge } from './evidenceKindBadge.js'
+import { getMapSurfaceEventTypeLabel } from './mapSurfaceDisplay.js'
 import { formatNoticeLabel } from './formatNoticeLabel.js'
 import { normalizeStreetNameForMatch } from './roadKey.js'
 
@@ -109,6 +110,12 @@ function getHistoryEntryPendingMeta(entry, labels) {
   if (kind === 'legal_other') {
     return { pending: false, pendingLabel: labels.evidenceLegalOther ?? null }
   }
+  if (kind === 'gazette_mention' || kind === 'legal_mention' || kind === 'news_mention' || kind === 'research_mention') {
+    return {
+      pending: !hasGazetteProof(entry) && !hasSupplementaryDocumentProof(entry),
+      pendingLabel: null,
+    }
+  }
   if (kind === 'unknown' || !kind) {
     return { pending: true, pendingLabel: labels.historyGazettePending }
   }
@@ -120,27 +127,15 @@ function hasOtherTimelineEntry(entry, ordered = []) {
 }
 
 function getTimelineEventTypeLabel(entry, labels, displayNames = null, ordered = []) {
+  const surfaceLabel = getMapSurfaceEventTypeLabel(entry, labels, ordered)
+  if (surfaceLabel) return surfaceLabel
+
   const role = String(entry.event_role ?? '').trim()
   const kind = String(entry.change_kind ?? '').trim()
-  if (role === 'built') return labels.eventTypeBuilt ?? labels.eventRoleBuilt ?? null
-  if (role === 'name_removed') return labels.eventTypeNameRemoved ?? labels.eventRoleNameRemoved ?? null
-  if (kind === 'extend') return labels.eventTypeExtend ?? null
-  if (role === 'current_name') {
-    // Gazette may say "rename" even when no other timeline row exists yet — show Named.
-    // Once a former_name (or other) row is recorded, show Rename.
-    if (kind === 'rename' && hasOtherTimelineEntry(entry, ordered)) {
-      return labels.eventTypeRename ?? null
-    }
-    if (kind === 'rename') {
-      return labels.eventTypeCurrentName ?? labels.eventRoleCurrentName ?? null
-    }
-    return labels.eventTypeCurrentName ?? labels.eventRoleCurrentName ?? null
-  }
-  if (role === 'former_name') return labels.eventTypeFormerName ?? labels.eventRoleFormerName ?? null
-  if (kind === 'rename') return labels.eventTypeRename ?? null
   if (kind === 'declare' && namesMatchEntryAndDisplay(entry, displayNames)) {
     return labels.eventTypeCurrentName ?? labels.eventRoleCurrentName ?? null
   }
+  if (role === 'former_name') return labels.eventTypeFormerName ?? labels.eventRoleFormerName ?? null
   return labels.eventTypeFormerName ?? labels.eventRoleFormerName ?? null
 }
 

@@ -1,0 +1,44 @@
+{
+  "evidence_schema_version": 1,
+  "batch_id": "1926-gn342-1954-gn572-kai-tak-road",
+  "source": "hkgro",
+  "gazette_notice_label": "G.N.342",
+  "publication_date": "1926-06-25",
+  "pdf_en": "data/hkgro/street-naming/g1926/99659.pdf",
+  "streets": [
+    {
+      "link_street_code": "10940",
+      "english_name": "Kai Tak Road",
+      "chinese_name": "啓德道",
+      "history": [
+        {
+          "publication_date": "1926-06-25",
+          "change_kind": "declare",
+          "is_declaration_event": true,
+          "street_name_en": "Po Kong Road",
+          "street_name_zh": null,
+          "event_role": "former_name",
+          "evidence_kind": "gazette_primary",
+          "gazette_notice_label": "G.N.342",
+          "government_notice_url_en": "/egazette/en/1926-gn342.pdf",
+          "government_notice_url_zh": "/egazette/zh/1926-gn342.pdf",
+          "submitter_remarks": "G.N.342 English naming table only for Po Kong Road (Chinese column not used). Same alignment as today's Kai Tak Road (啓德道) per 1947 Kowloon Peninsula map."
+        },
+        {
+          "publication_date": "1954-05-12",
+          "change_kind": "rename",
+          "is_declaration_event": false,
+          "street_name_en": "Kai Tak Road",
+          "street_name_zh": "啓德道",
+          "previous_street_name_en": "Po Kong Road",
+          "previous_street_name_zh": null,
+          "event_role": "current_name",
+          "evidence_kind": "unknown",
+          "gazette_notice_label": "G.N.572",
+          "evidence_kind_note": "G.N.572 renames Po Kong Road to Kai Tak Road; gazette PDF not yet hosted.",
+          "submitter_remarks": "Citation from researcher; awaiting G.N.572 PDF."
+        }
+      ]
+    }
+  ]
+}
