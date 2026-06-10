@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T15:24:49.779Z",
+  "generated_at": "2026-06-10T15:57:18.625Z",
   "source_file": "public/data/hk-streets.geojson",
   "notice_stem_index_path": "public/data/master/egazette-notice-stems.json",
   "egazette_pdf_locales_path": "public/data/master/egazette-pdf-locales.json",
@@ -344,7 +344,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -356,15 +355,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -410,7 +405,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -422,15 +416,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -828,7 +818,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -840,15 +829,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -894,7 +879,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -906,15 +890,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -2368,7 +2348,6 @@
             "notice_label_zh": "第845號",
             "notice_url_en": "/egazette/en/1940-gn845.pdf",
             "notice_url_zh": "/egazette/zh/1940-gn845.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -2380,15 +2359,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1940-gn845.pdf",
-        "government_notice_url_zh": "/egazette/zh/1940-gn845.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1940-gn845.pdf"
       }
     },
     {
@@ -3952,7 +3927,6 @@
             "notice_label_zh": "第5983號",
             "notice_url_en": "/egazette/en/2020-24-42-5983.pdf",
             "notice_url_zh": "/egazette/zh/2020-24-42-5983.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": true,
             "event_role": "current_name",
@@ -3964,15 +3938,11 @@
           }
         ],
         "notice_no": "GN5983",
-        "notice_type": "declaration",
-        "notice_source": "egazette_pdf",
         "notice_key": "2020-24-42-5983-0",
         "government_notice_label_en": "G.N.5983",
         "government_notice_label_zh": "第5983號",
         "government_notice_url_en": "/egazette/en/2020-24-42-5983.pdf",
-        "government_notice_url_zh": "/egazette/zh/2020-24-42-5983.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/2020-24-42-5983.pdf"
       }
     },
     {
@@ -4161,7 +4131,6 @@
             "notice_label_zh": "第323號",
             "notice_url_en": "/egazette/en/1909-gn323.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn323.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -4173,15 +4142,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn323.pdf",
-        "government_notice_url_zh": null,
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": null
       }
     },
     {
@@ -5745,7 +5710,6 @@
             "notice_label_zh": "第5248號",
             "notice_url_en": "/egazette/en/2003-07-31-5248.pdf",
             "notice_url_zh": "/egazette/zh/2003-07-31-5248.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -5757,15 +5721,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/2003-07-31-5248.pdf",
-        "government_notice_url_zh": "/egazette/zh/2003-07-31-5248.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/2003-07-31-5248.pdf"
       }
     },
     {
@@ -6581,7 +6541,6 @@
             "notice_label_zh": "第875號",
             "notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn20172107875.pdf",
             "notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn20172107875.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -6602,7 +6561,6 @@
             "notice_label_zh": "第2427號",
             "notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721162427.pdf",
             "notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721162427.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -6623,7 +6581,6 @@
             "notice_label_zh": "第2429號",
             "notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721162429.pdf",
             "notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721162429.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -6635,15 +6592,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": null,
-        "government_notice_url_zh": null,
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": null
       }
     },
     {
@@ -8416,7 +8369,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -8428,15 +8380,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -9978,7 +9926,6 @@
             "notice_label_zh": "第918號",
             "notice_url_en": "/egazette/en/1936-gn918.pdf",
             "notice_url_zh": "/egazette/zh/1936-gn918.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": true,
             "event_role": "former_name",
@@ -9999,7 +9946,6 @@
             "notice_label_zh": "第918號",
             "notice_url_en": "/egazette/en/1936-gn918.pdf",
             "notice_url_zh": "/egazette/zh/1936-gn918.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -10011,15 +9957,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1936-gn918.pdf",
-        "government_notice_url_zh": "/egazette/zh/1936-gn918.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1936-gn918.pdf"
       }
     },
     {
@@ -10186,7 +10128,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -10198,15 +10139,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -12408,7 +12345,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -12420,15 +12356,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -13123,7 +13055,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -13135,15 +13066,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -13233,7 +13160,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -13245,15 +13171,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -13882,7 +13804,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -13894,15 +13815,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -16181,7 +16098,6 @@
             "notice_label_zh": "第332號",
             "notice_url_en": "/egazette/en/1934-gn332.pdf",
             "notice_url_zh": "/egazette/zh/1934-gn332.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -16193,15 +16109,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1934-gn332.pdf",
-        "government_notice_url_zh": "/egazette/zh/1934-gn332.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1934-gn332.pdf"
       }
     },
     {
@@ -17215,7 +17127,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -17227,15 +17138,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -21428,7 +21335,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -21440,15 +21346,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -21703,7 +21605,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -21715,15 +21616,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -22583,7 +22480,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -22595,15 +22491,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -27060,7 +26952,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -27072,15 +26963,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -27610,7 +27497,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -27622,15 +27508,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -27709,7 +27591,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -27721,15 +27602,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -27775,7 +27652,6 @@
             "notice_label_zh": "第323號",
             "notice_url_en": "/egazette/en/1909-gn323.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn323.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -27787,15 +27663,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn323.pdf",
-        "government_notice_url_zh": null,
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": null
       }
     },
     {
@@ -41206,7 +41078,6 @@
             "notice_label_zh": "第588號",
             "notice_url_en": "/egazette/en/1975-gn588.pdf",
             "notice_url_zh": "/egazette/zh/1975-gn588.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -41218,15 +41089,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1975-gn588.pdf",
-        "government_notice_url_zh": null,
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": null
       }
     },
     {
@@ -44022,7 +43889,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -44034,15 +43900,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -53614,7 +53476,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -53626,15 +53487,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -57486,7 +57343,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -57498,15 +57354,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -115247,7 +115099,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -115259,15 +115110,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {
@@ -125202,7 +125049,6 @@
             "notice_label_zh": "第3020號",
             "notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2016/egn201620213020.pdf",
             "notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2016/cgn201620213020.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -125223,7 +125069,6 @@
             "notice_label_zh": "第4332號",
             "notice_url_en": "https://www.landsd.gov.hk/doc/en/street-name/egazette/2016/egn201620304332.pdf",
             "notice_url_zh": "https://www.landsd.gov.hk/doc/tc/street-name/egazette/2016/cgn201620304332.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -125235,15 +125080,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": null,
-        "government_notice_url_zh": null,
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": null
       }
     },
     {
@@ -127269,7 +127110,6 @@
             "notice_label_zh": "第184號",
             "notice_url_en": "/egazette/en/1909-gn184.pdf",
             "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-            "evidence_level": "gazette",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": false,
             "event_role": "current_name",
@@ -127281,15 +127121,11 @@
           }
         ],
         "notice_no": null,
-        "notice_type": null,
-        "notice_source": null,
         "notice_key": null,
         "government_notice_label_en": null,
         "government_notice_label_zh": null,
         "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
-        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf",
-        "related_gazette_plan_url_en": null,
-        "related_gazette_plan_url_zh": null
+        "government_notice_url_zh": "/egazette/zh/1909-gn184.pdf"
       }
     },
     {

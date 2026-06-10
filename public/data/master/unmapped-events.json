@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T15:24:50.420Z",
+  "generated_at": "2026-06-10T15:49:23.461Z",
   "source_files": {
     "events": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-events.json",
     "centreline_map": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-centreline-map.json"
@@ -25,7 +25,6 @@
       "district_raw_en": "Sham Shui Po and Yau Tsim Mong",
       "district_raw_zh": null,
       "notice_no": "GN4780",
-      "legacy_street_code": null,
       "name_key": "Cheung Sha Wan Road|"
     },
     {
@@ -38,7 +37,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1367",
-      "legacy_street_code": null,
       "name_key": "Ching Road|青道"
     },
     {
@@ -51,7 +49,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1367",
-      "legacy_street_code": null,
       "name_key": "Fook Lai Road|復禮道"
     },
     {
@@ -64,7 +61,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1367",
-      "legacy_street_code": null,
       "name_key": "Lung Shan Road|龍山道"
     },
     {
@@ -77,7 +73,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN939",
-      "legacy_street_code": null,
       "name_key": "Church Lane|教堂里"
     },
     {
@@ -90,7 +85,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1743",
-      "legacy_street_code": null,
       "name_key": "Wan King Street|環景街"
     },
     {
@@ -103,7 +97,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1743",
-      "legacy_street_code": null,
       "name_key": "Wan Lei Street|環利街"
     },
     {
@@ -116,7 +109,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1743",
-      "legacy_street_code": null,
       "name_key": "Wan Shun Street|環順街"
     },
     {
@@ -129,7 +121,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN110",
-      "legacy_street_code": null,
       "name_key": "Nation Street|禮信街"
     },
     {
@@ -142,7 +133,6 @@
       "district_raw_en": "Eastern District, Hong Kong Island",
       "district_raw_zh": "港島東區",
       "notice_no": "GN8237",
-      "legacy_street_code": null,
       "name_key": "Hoi Tai Street|海堤街"
     },
     {
@@ -155,7 +145,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN2197",
-      "legacy_street_code": null,
       "name_key": "Ming Tak Street|明德街"
     },
     {
@@ -168,7 +157,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN2197",
-      "legacy_street_code": null,
       "name_key": "Sheung Tak Street|尚德街"
     },
     {
@@ -181,7 +169,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1628",
-      "legacy_street_code": null,
       "name_key": "Jordan Valley South Road|佐頓谷南道"
     },
     {
@@ -194,7 +181,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN89",
-      "legacy_street_code": null,
       "name_key": "Fu Mei Street West|富美西街"
     },
     {
@@ -207,7 +193,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN537",
-      "legacy_street_code": null,
       "name_key": "Sau Lai Street|秀麗街"
     },
     {
@@ -220,7 +205,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN537",
-      "legacy_street_code": null,
       "name_key": "Sau Mau Path|秀茂徑"
     },
     {
@@ -233,7 +217,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN537",
-      "legacy_street_code": null,
       "name_key": "Sau Po Street|秀圃街"
     },
     {
@@ -246,7 +229,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN537",
-      "legacy_street_code": null,
       "name_key": "Tak Wo Street|德和街"
     },
     {
@@ -259,7 +241,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1244",
-      "legacy_street_code": null,
       "name_key": "Ko Long Road|高朗道"
     },
     {
@@ -272,7 +253,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN225",
-      "legacy_street_code": null,
       "name_key": "Shing Shun Road|誠信路"
     },
     {
@@ -285,7 +265,6 @@
       "district_raw_en": "Tai Po, New Territories",
       "district_raw_zh": "大埔區",
       "notice_no": "GN1502",
-      "legacy_street_code": null,
       "name_key": "Ting Kok Road|汀角路"
     },
     {
@@ -298,7 +277,6 @@
       "district_raw_en": "Tai Po, New Territories",
       "district_raw_zh": "大埔區",
       "notice_no": "GN1502",
-      "legacy_street_code": null,
       "name_key": "Tung Tsz Road|洞梓路"
     },
     {
@@ -311,7 +289,6 @@
       "district_raw_en": "Tai Po, New Territories",
       "district_raw_zh": "大埔區",
       "notice_no": "GN1502",
-      "legacy_street_code": null,
       "name_key": "Shan Liu Road|山寮路"
     },
     {
@@ -324,7 +301,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1370",
-      "legacy_street_code": null,
       "name_key": "Ngau Tau Kok Fifth Street|牛頭角第五街"
     },
     {
@@ -337,7 +313,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1370",
-      "legacy_street_code": null,
       "name_key": "Ngau Tau Kok Fourth Street|牛頭角第四街"
     },
     {
@@ -350,7 +325,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1370",
-      "legacy_street_code": null,
       "name_key": "Ngau Tau Kok Second Street|牛頭角第二街"
     },
     {
@@ -363,7 +337,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1370",
-      "legacy_street_code": null,
       "name_key": "Ngau Tau Kok Third Street|牛頭角第三街"
     },
     {
@@ -376,7 +349,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1172",
-      "legacy_street_code": null,
       "name_key": "Concorde Road|協調道"
     },
     {
@@ -389,7 +361,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN3682",
-      "legacy_street_code": null,
       "name_key": "Cargo Circuit|貨運道"
     },
     {
@@ -402,7 +373,6 @@
       "district_raw_en": "Sha Tin District, New Territories",
       "district_raw_zh": "沙田區",
       "notice_no": "GN7994",
-      "legacy_street_code": null,
       "name_key": "Lai Ping Road|麗坪路"
     },
     {
@@ -415,7 +385,6 @@
       "district_raw_en": "Sha Tin District, New Territories",
       "district_raw_zh": "沙田區",
       "notice_no": "GN7994",
-      "legacy_street_code": null,
       "name_key": "Yung Ping Path|雍坪徑"
     },
     {
@@ -428,7 +397,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN6517",
-      "legacy_street_code": null,
       "name_key": "Fuk Man Road|福民路"
     },
     {
@@ -441,7 +409,6 @@
       "district_raw_en": "Tuen Mun, New Territories",
       "district_raw_zh": null,
       "notice_no": "GN6117",
-      "legacy_street_code": null,
       "name_key": "Tong Hang Road|"
     },
     {
@@ -454,7 +421,6 @@
       "district_raw_en": "Tuen Mun, New Territories",
       "district_raw_zh": null,
       "notice_no": "GN6117",
-      "legacy_street_code": null,
       "name_key": "Tsz Tin Road|"
     },
     {
@@ -467,7 +433,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN8863",
-      "legacy_street_code": null,
       "name_key": "|馬鞍山路"
     },
     {
@@ -480,7 +445,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN8863",
-      "legacy_street_code": null,
       "name_key": "|大老山公路"
     },
     {
@@ -493,7 +457,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN933",
-      "legacy_street_code": null,
       "name_key": "Sai Kung Rural Committee Lane|西貢鄉事會里"
     },
     {
@@ -506,7 +469,6 @@
       "district_raw_en": "Tuen Mun, New Territories",
       "district_raw_zh": null,
       "notice_no": "GN6117",
-      "legacy_street_code": null,
       "name_key": "Hing Kwai Street|"
     },
     {
@@ -519,7 +481,6 @@
       "district_raw_en": "Central and Western District, Hong Kong Island",
       "district_raw_zh": "中西區",
       "notice_no": "GN296",
-      "legacy_street_code": null,
       "name_key": "Lung Wui Road|龍匯道"
     },
     {
@@ -532,7 +493,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN172",
-      "legacy_street_code": null,
       "name_key": "San Chuk Street|新竹街"
     },
     {
@@ -545,7 +505,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN4532",
-      "legacy_street_code": null,
       "name_key": "|牛皮沙街"
     },
     {
@@ -558,7 +517,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN3296",
-      "legacy_street_code": null,
       "name_key": "Cheong Lin Path|暢連徑"
     },
     {
@@ -571,7 +529,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN6569",
-      "legacy_street_code": null,
       "name_key": "On Lai Street|安麗街"
     },
     {
@@ -584,7 +541,6 @@
       "district_raw_en": "Yuen Long, New Territories",
       "district_raw_zh": "新界元朗區",
       "notice_no": "GN6060",
-      "legacy_street_code": null,
       "name_key": "Lam Yu Road|欖裕路"
     },
     {
@@ -597,7 +553,6 @@
       "district_raw_en": "Yau Tsim Mong",
       "district_raw_zh": "油尖旺區",
       "notice_no": "GN7003",
-      "legacy_street_code": null,
       "name_key": "Nightingale Road|南丁格爾路"
     },
     {
@@ -610,7 +565,6 @@
       "district_raw_en": "Yau Tsim Mong",
       "district_raw_zh": "油尖旺區",
       "notice_no": "GN7003",
-      "legacy_street_code": null,
       "name_key": "Queen Elizabeth Hospital Road|伊利沙伯醫院路"
     },
     {
@@ -623,7 +577,6 @@
       "district_raw_en": "Yau Tsim Mong",
       "district_raw_zh": "油尖旺區",
       "notice_no": "GN7003",
-      "legacy_street_code": null,
       "name_key": "Queen Elizabeth Hospital Path|伊利沙伯醫院徑"
     },
     {
@@ -636,7 +589,6 @@
       "district_raw_en": "Tai Po, New Territories",
       "district_raw_zh": "新界大埔區",
       "notice_no": "GN7004",
-      "legacy_street_code": null,
       "name_key": "Fo Hing Street|科興街"
     },
     {
@@ -649,7 +601,6 @@
       "district_raw_en": "Islands, New Territories",
       "district_raw_zh": "新界離島區",
       "notice_no": "GN8315",
-      "legacy_street_code": null,
       "name_key": "Cheung Chau Electric Path|長洲電廠徑"
     },
     {
@@ -662,7 +613,6 @@
       "district_raw_en": "Islands, New Territories",
       "district_raw_zh": "離 島 區",
       "notice_no": "GN0683",
-      "legacy_street_code": null,
       "name_key": "Tung Chung Road|東涌道"
     },
     {
@@ -675,7 +625,6 @@
       "district_raw_en": "Kowloon City, Kowloon",
       "district_raw_zh": "九龍九龍城區",
       "notice_no": "GN0852",
-      "legacy_street_code": null,
       "name_key": "Fat Kwong Street Flyover|佛光街天橋"
     },
     {
@@ -688,7 +637,6 @@
       "district_raw_en": "Southern District, Hong Kong",
       "district_raw_zh": "港島南區",
       "notice_no": "GN851",
-      "legacy_street_code": null,
       "name_key": "Bel-Air Peak Avenue|貝沙山道"
     },
     {
@@ -701,7 +649,6 @@
       "district_raw_en": "Tuen Mun District, New Territories",
       "district_raw_zh": "屯門區",
       "notice_no": "GN1820",
-      "legacy_street_code": null,
       "name_key": "Yip Wong Road|業旺路"
     },
     {
@@ -714,7 +661,6 @@
       "district_raw_en": "Sai Kung District, New Territories",
       "district_raw_zh": "新界西貢區",
       "notice_no": "GN2232",
-      "legacy_street_code": null,
       "name_key": "LOHAS Park Road|康城路"
     },
     {
@@ -727,7 +673,6 @@
       "district_raw_en": "Yau Tsim Mong, Kowloon",
       "district_raw_zh": "油尖旺區",
       "notice_no": "GN3561",
-      "legacy_street_code": null,
       "name_key": "Wui Man Road|匯民道"
     },
     {
@@ -740,7 +685,6 @@
       "district_raw_en": "Tuen Mun District, New Territories",
       "district_raw_zh": "屯門區",
       "notice_no": "GN5125",
-      "legacy_street_code": null,
       "name_key": "Tat Fuk Road|達福路"
     },
     {
@@ -753,7 +697,6 @@
       "district_raw_en": "Tuen Mun District, New Territories",
       "district_raw_zh": "屯門區",
       "notice_no": "GN5125",
-      "legacy_street_code": null,
       "name_key": "Tung Fuk Road|同福路"
     },
     {
@@ -766,7 +709,6 @@
       "district_raw_en": "Yuen Long District, New Territories",
       "district_raw_zh": "新界元朗區",
       "notice_no": "GN5906",
-      "legacy_street_code": null,
       "name_key": "Shui Fu Road|水庫路"
     },
     {
@@ -779,7 +721,6 @@
       "district_raw_en": "Central and Western District",
       "district_raw_zh": "中西區",
       "notice_no": "GN7642",
-      "legacy_street_code": null,
       "name_key": "Lung Wo Road|龍和道"
     },
     {
@@ -792,7 +733,6 @@
       "district_raw_en": "Central and Western District",
       "district_raw_zh": "中西區",
       "notice_no": "GN7642",
-      "legacy_street_code": null,
       "name_key": "Edinburgh Place|愛丁堡廣場"
     },
     {
@@ -805,7 +745,6 @@
       "district_raw_en": "Central and Western District, Hong Kong Island",
       "district_raw_zh": "中西區",
       "notice_no": "GN1314",
-      "legacy_street_code": null,
       "name_key": "Lung Wo Road|龍和道"
     },
     {
@@ -818,7 +757,6 @@
       "district_raw_en": "Kwai Tsing District, New Territories",
       "district_raw_zh": "葵青區",
       "notice_no": "GN7995",
-      "legacy_street_code": null,
       "name_key": "Cheung Tsing Highway|長青公路"
     },
     {
@@ -831,7 +769,6 @@
       "district_raw_en": "Tsuen Wan District, New Territories",
       "district_raw_zh": "新界荃灣區",
       "notice_no": "GN7996",
-      "legacy_street_code": null,
       "name_key": "Hoi Long Path|海浪徑"
     },
     {
@@ -844,7 +781,6 @@
       "district_raw_en": "Tuen Mun District, New Territories",
       "district_raw_zh": "新界屯門區",
       "notice_no": "GN737",
-      "legacy_street_code": null,
       "name_key": "Wong Kong Wai Road|黃崗圍路"
     },
     {
@@ -857,7 +793,6 @@
       "district_raw_en": "Sha Tin, New Territories",
       "district_raw_zh": "沙田區",
       "notice_no": "GN2046",
-      "legacy_street_code": null,
       "name_key": "Pok Chuen Street|博泉街"
     },
     {
@@ -870,7 +805,6 @@
       "district_raw_en": "Sha Tin, New Territories",
       "district_raw_zh": "沙田區",
       "notice_no": "GN2046",
-      "legacy_street_code": null,
       "name_key": "Pok Chuen Path|博泉徑"
     },
     {
@@ -883,7 +817,6 @@
       "district_raw_en": "Sha Tin, New Territories",
       "district_raw_zh": "沙田區",
       "notice_no": "GN2046",
-      "legacy_street_code": null,
       "name_key": "To Shek Street|多石街"
     },
     {
@@ -896,7 +829,6 @@
       "district_raw_en": "Sha Tin, New Territories",
       "district_raw_zh": "沙田區",
       "notice_no": "GN2046",
-      "legacy_street_code": null,
       "name_key": "To Shek Path|多石徑"
     },
     {
@@ -909,7 +841,6 @@
       "district_raw_en": "Tai Po, New Territories",
       "district_raw_zh": "新界大埔區",
       "notice_no": "GN3608",
-      "legacy_street_code": null,
       "name_key": "Ma Shing Path|馬成徑"
     },
     {
@@ -922,7 +853,6 @@
       "district_raw_en": "Yuen Long, New Territories",
       "district_raw_zh": "新界元朗區",
       "notice_no": "GN3609",
-      "legacy_street_code": null,
       "name_key": "Sai Kwo Road|世歌路"
     },
     {
@@ -935,7 +865,6 @@
       "district_raw_en": "Kowloon City, Kowloon",
       "district_raw_zh": "九龍九龍城區",
       "notice_no": "GN3611",
-      "legacy_street_code": null,
       "name_key": "Sheung Kin Street|常健街"
     },
     {
@@ -948,7 +877,6 @@
       "district_raw_en": "North, New Territories",
       "district_raw_zh": "新界北區",
       "notice_no": "GN4011",
-      "legacy_street_code": null,
       "name_key": "Liu Pok Road|料壆路"
     },
     {
@@ -961,7 +889,6 @@
       "district_raw_en": "Yuen Long, New Territories",
       "district_raw_zh": "新界元朗區",
       "notice_no": "GN4012",
-      "legacy_street_code": null,
       "name_key": "Wang Ping Shan South Road|橫平山南路"
     },
     {
@@ -974,7 +901,6 @@
       "district_raw_en": "Kwun Tong, Kowloon",
       "district_raw_zh": "九龍觀塘區",
       "notice_no": "GN4562",
-      "legacy_street_code": null,
       "name_key": "Choi Wing Lane|彩榮里"
     },
     {
@@ -987,7 +913,6 @@
       "district_raw_en": "Tsuen Wan, New Territories",
       "district_raw_zh": "新界荃灣區",
       "notice_no": "GN5085",
-      "legacy_street_code": null,
       "name_key": "Sheung Kok Shan Road|上角山路"
     },
     {
@@ -1000,7 +925,6 @@
       "district_raw_en": "Central and Western, Hong Kong Island",
       "district_raw_zh": "中西區",
       "notice_no": "GN5350",
-      "legacy_street_code": null,
       "name_key": "Lung Wah Street|龍華街"
     },
     {
@@ -1013,7 +937,6 @@
       "district_raw_en": "Tsuen Wan, New Territories",
       "district_raw_zh": "新界荃灣區",
       "notice_no": "GN7631",
-      "legacy_street_code": null,
       "name_key": "Ting Yat Road|汀逸路"
     },
     {
@@ -1026,7 +949,6 @@
       "district_raw_en": "North, New Territories",
       "district_raw_zh": "新界北區",
       "notice_no": "GN7632",
-      "legacy_street_code": null,
       "name_key": "Yin Kong Road|燕崗路"
     },
     {
@@ -1039,7 +961,6 @@
       "district_raw_en": "Kwai Tsing, New Territories",
       "district_raw_zh": "葵青區",
       "notice_no": "GN1154",
-      "legacy_street_code": null,
       "name_key": "Tat Mei Road|達美路"
     },
     {
@@ -1052,7 +973,6 @@
       "district_raw_en": "Central and Western District, Hong Kong Island",
       "district_raw_zh": "港島中西區",
       "notice_no": "GN1313",
-      "legacy_street_code": null,
       "name_key": "Legislative Council Road|立法會道"
     },
     {
@@ -1065,7 +985,6 @@
       "district_raw_en": "Tuen Mun District, New Territories",
       "district_raw_zh": "屯門區",
       "notice_no": "GN2995",
-      "legacy_street_code": null,
       "name_key": "Golden Beach Path|黃金泳灘徑"
     },
     {
@@ -1078,7 +997,6 @@
       "district_raw_en": "Sha Tin, New Territories",
       "district_raw_zh": "沙田區",
       "notice_no": "GN2996",
-      "legacy_street_code": null,
       "name_key": "Mei Fai Street|美輝街"
     },
     {
@@ -1091,7 +1009,6 @@
       "district_raw_en": "Sha Tin, New Territories",
       "district_raw_zh": "沙田區",
       "notice_no": "GN2996",
-      "legacy_street_code": null,
       "name_key": "Ying Wan Lane|迎運里"
     },
     {
@@ -1104,7 +1021,6 @@
       "district_raw_en": "Islands, New Territories",
       "district_raw_zh": "新界離島區",
       "notice_no": "GN6773",
-      "legacy_street_code": null,
       "name_key": "School Road|學校路"
     },
     {
@@ -1117,7 +1033,6 @@
       "district_raw_en": "Islands, New Territories",
       "district_raw_zh": "新界離島區",
       "notice_no": "GN6773",
-      "legacy_street_code": null,
       "name_key": "Tai San Back Street|大新後街"
     },
     {
@@ -1130,7 +1045,6 @@
       "district_raw_en": "Islands, New Territories",
       "district_raw_zh": "新界離島區",
       "notice_no": "GN6773",
-      "legacy_street_code": null,
       "name_key": "Tai Tsoi Yuen Road|大菜園路"
     },
     {
@@ -1143,7 +1057,6 @@
       "district_raw_en": "Tai Po, New Territories",
       "district_raw_zh": "大埔區",
       "notice_no": "GN7459",
-      "legacy_street_code": null,
       "name_key": "Wun Yiu Road|碗窰路"
     },
     {
@@ -1156,7 +1069,6 @@
       "district_raw_en": "Sham Shui Po, Kowloon",
       "district_raw_zh": "深水埗區",
       "notice_no": "GN7460",
-      "legacy_street_code": null,
       "name_key": "Wholesale Market Street|批發市場街"
     },
     {
@@ -1169,7 +1081,6 @@
       "district_raw_en": "Yuen Long, New Territories",
       "district_raw_zh": "元朗區",
       "notice_no": "GN7461",
-      "legacy_street_code": null,
       "name_key": "Kai Pak Ling Road|雞伯嶺路"
     },
     {
@@ -1182,7 +1093,6 @@
       "district_raw_en": "Tai Po, New Territories",
       "district_raw_zh": "新界大埔區",
       "notice_no": "GN7901",
-      "legacy_street_code": null,
       "name_key": "Chai Kek Road|寨乪路"
     },
     {
@@ -1195,7 +1105,6 @@
       "district_raw_en": "Yuen Long, New Territories",
       "district_raw_zh": "元朗區",
       "notice_no": "GN2719",
-      "legacy_street_code": null,
       "name_key": "Ha Mei Road|廈尾路"
     },
     {
@@ -1208,7 +1117,6 @@
       "district_raw_en": "Yuen Long, New Territories",
       "district_raw_zh": "元朗區",
       "notice_no": "GN2719",
-      "legacy_street_code": null,
       "name_key": "Kam Pok Road East|錦壆路東"
     },
     {
@@ -1221,7 +1129,6 @@
       "district_raw_en": "Yuen Long, New Territories",
       "district_raw_zh": "元朗區",
       "notice_no": "GN2719",
-      "legacy_street_code": null,
       "name_key": "Kam Pok Road West|錦壆路西"
     },
     {
@@ -1234,7 +1141,6 @@
       "district_raw_en": "Yuen Long, New Territories",
       "district_raw_zh": "元朗區",
       "notice_no": "GN2719",
-      "legacy_street_code": null,
       "name_key": "Kiu Sau Path|橋壽徑"
     },
     {
@@ -1247,7 +1153,6 @@
       "district_raw_en": "Yuen Long, New Territories",
       "district_raw_zh": "元朗區",
       "notice_no": "GN2719",
-      "legacy_street_code": null,
       "name_key": "Kiu Tak Path|橋德徑"
     },
     {
@@ -1260,7 +1165,6 @@
       "district_raw_en": "Yuen Long, New Territories",
       "district_raw_zh": "元朗區",
       "notice_no": "GN2719",
-      "legacy_street_code": null,
       "name_key": "Tin Wah Road|天華路"
     },
     {
@@ -1273,7 +1177,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN4533",
-      "legacy_street_code": null,
       "name_key": "Lung Chak Road|龍澤路"
     },
     {
@@ -1286,7 +1189,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN4994",
-      "legacy_street_code": null,
       "name_key": "Universal Gate Road|普門路"
     },
     {
@@ -1299,7 +1201,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN6570",
-      "legacy_street_code": null,
       "name_key": "|嘉敬里"
     },
     {
@@ -1312,7 +1213,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN930",
-      "legacy_street_code": null,
       "name_key": "Muk Ning Street|沐寧街"
     },
     {
@@ -1325,7 +1225,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN931",
-      "legacy_street_code": null,
       "name_key": "Shek Tin Road|石田路"
     },
     {
@@ -1338,7 +1237,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN932",
-      "legacy_street_code": null,
       "name_key": "Tai Ching Cheung Road|大蒸場路"
     },
     {
@@ -1351,7 +1249,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1563",
-      "legacy_street_code": null,
       "name_key": "|龍田街"
     },
     {
@@ -1364,7 +1261,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1563",
-      "legacy_street_code": null,
       "name_key": "|榕樹灣廣場路"
     },
     {
@@ -1377,7 +1273,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1857",
-      "legacy_street_code": null,
       "name_key": "On Sau Road|安秀道"
     },
     {
@@ -1390,7 +1285,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN2737",
-      "legacy_street_code": null,
       "name_key": "|麥園圍路青亦路"
     },
     {
@@ -1403,7 +1297,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN3150",
-      "legacy_street_code": null,
       "name_key": "|迎康街"
     },
     {
@@ -1416,7 +1309,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN3150",
-      "legacy_street_code": null,
       "name_key": "|迎東路"
     },
     {
@@ -1429,7 +1321,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN166",
-      "legacy_street_code": null,
       "name_key": "|下灣村東路"
     },
     {
@@ -1442,7 +1333,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN166",
-      "legacy_street_code": null,
       "name_key": "|下灣村路"
     },
     {
@@ -1455,7 +1345,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1690",
-      "legacy_street_code": null,
       "name_key": "Sam Wo Road|三和路"
     },
     {
@@ -1468,7 +1357,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1691",
-      "legacy_street_code": null,
       "name_key": "Wai Yin Path|薈然徑"
     },
     {
@@ -1481,7 +1369,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN2181",
-      "legacy_street_code": null,
       "name_key": "Hang Kai Lane|坑溪里"
     },
     {
@@ -1494,7 +1381,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN2182",
-      "legacy_street_code": null,
       "name_key": "Lau Yip Street|流業街"
     },
     {
@@ -1507,7 +1393,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN2183",
-      "legacy_street_code": null,
       "name_key": "Man Chat Road|文質路"
     },
     {
@@ -1520,7 +1405,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN4273",
-      "legacy_street_code": null,
       "name_key": "|嘉健里"
     },
     {
@@ -1533,7 +1417,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN4274",
-      "legacy_street_code": null,
       "name_key": "Tramway Lane|纜車里"
     },
     {
@@ -1546,7 +1429,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN4865",
-      "legacy_street_code": null,
       "name_key": "Pak Shing Kok Road|百勝角路"
     },
     {
@@ -1559,7 +1441,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN5558",
-      "legacy_street_code": null,
       "name_key": "Pak Shing Kok Road|百勝角路"
     },
     {
@@ -1572,7 +1453,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN6516",
-      "legacy_street_code": null,
       "name_key": "|安茵街"
     },
     {
@@ -1585,7 +1465,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN8862",
-      "legacy_street_code": null,
       "name_key": "Tan Kwai Tsuen Lane|丹桂村里"
     },
     {
@@ -1598,7 +1477,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN9966",
-      "legacy_street_code": null,
       "name_key": "Lok Ma Chau Road|落馬洲路"
     },
     {
@@ -1611,7 +1489,6 @@
       "district_raw_en": "Sham Shui Po",
       "district_raw_zh": "深水埗",
       "notice_no": "GN1596",
-      "legacy_street_code": null,
       "name_key": "Lung Yuet Road|龍悅道"
     },
     {
@@ -1624,7 +1501,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN2478",
-      "legacy_street_code": null,
       "name_key": "Fung Yu Road|豐裕路"
     },
     {
@@ -1637,7 +1513,6 @@
       "district_raw_en": "Central and Western",
       "district_raw_zh": "中西區",
       "notice_no": "GN3020",
-      "legacy_street_code": null,
       "name_key": "U Lam Terrace|儒林臺"
     },
     {
@@ -1650,7 +1525,6 @@
       "district_raw_en": "Sham Shui Po",
       "district_raw_zh": "深水埗",
       "notice_no": "GN3864",
-      "legacy_street_code": null,
       "name_key": "Lung Kui Road|龍駒道"
     },
     {
@@ -1663,7 +1537,6 @@
       "district_raw_en": "Central and Western",
       "district_raw_zh": "中西區",
       "notice_no": "GN4332",
-      "legacy_street_code": null,
       "name_key": "U Lam Terrace|儒林臺"
     },
     {
@@ -1676,7 +1549,6 @@
       "district_raw_en": "Island (Peng Chau)",
       "district_raw_zh": "離島 (坪洲)",
       "notice_no": "GN5398",
-      "legacy_street_code": null,
       "name_key": "Peng Chau Ho King Street|坪洲好景街"
     },
     {
@@ -1689,7 +1561,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN6438",
-      "legacy_street_code": null,
       "name_key": "Ying Tung Road|迎東路"
     },
     {
@@ -1702,7 +1573,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN330",
-      "legacy_street_code": null,
       "name_key": "Kam Kong Road|錦江路"
     },
     {
@@ -1715,7 +1585,6 @@
       "district_raw_en": "Wong Tai Sin",
       "district_raw_zh": "黃大仙",
       "notice_no": "GN875",
-      "legacy_street_code": null,
       "name_key": "Hammer Hill Road|斧山道"
     },
     {
@@ -1728,7 +1597,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN876",
-      "legacy_street_code": null,
       "name_key": "Sheung Shing Lane|常盛里"
     },
     {
@@ -1741,7 +1609,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN1160",
-      "legacy_street_code": null,
       "name_key": "Chun Chi Lane North|振翅里北"
     },
     {
@@ -1754,7 +1621,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN1160",
-      "legacy_street_code": null,
       "name_key": "Chun Chi Lane South|振翅里南"
     },
     {
@@ -1767,7 +1633,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN1160",
-      "legacy_street_code": null,
       "name_key": "Tin Chai Lane West|天際里西"
     },
     {
@@ -1780,7 +1645,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN1160",
-      "legacy_street_code": null,
       "name_key": "Yeung Fan Lane North|揚帆里北"
     },
     {
@@ -1793,7 +1657,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN1160",
-      "legacy_street_code": null,
       "name_key": "Yeung Fan Lane South|揚帆里南"
     },
     {
@@ -1806,7 +1669,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN1160",
-      "legacy_street_code": null,
       "name_key": "Yuen Yeung Lane North|遠洋里北"
     },
     {
@@ -1819,7 +1681,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN1160",
-      "legacy_street_code": null,
       "name_key": "Yuen Yeung Lane South|遠洋里南"
     },
     {
@@ -1832,7 +1693,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN1160",
-      "legacy_street_code": null,
       "name_key": "Kai Yung Lane|啟融里"
     },
     {
@@ -1845,7 +1705,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN1160",
-      "legacy_street_code": null,
       "name_key": "Ko Fei Lane North|高飛里北"
     },
     {
@@ -1858,7 +1717,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN1160",
-      "legacy_street_code": null,
       "name_key": "Ko Fei Lane South|高飛里南"
     },
     {
@@ -1871,7 +1729,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN1160",
-      "legacy_street_code": null,
       "name_key": "Muk Tai Street|沐泰街"
     },
     {
@@ -1884,7 +1741,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN1160",
-      "legacy_street_code": null,
       "name_key": "Muk Yuen Street|沐元街"
     },
     {
@@ -1897,7 +1753,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN1160",
-      "legacy_street_code": null,
       "name_key": "Shin Lun Lane|善鄰里"
     },
     {
@@ -1910,7 +1765,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN1160",
-      "legacy_street_code": null,
       "name_key": "Shing Kai Road|承啟道"
     },
     {
@@ -1923,7 +1777,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN1160",
-      "legacy_street_code": null,
       "name_key": "Tin Chai Lane East|天際里東"
     },
     {
@@ -1936,7 +1789,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN1273",
-      "legacy_street_code": null,
       "name_key": "Chek Lap Kok Road|赤鱲角路"
     },
     {
@@ -1949,7 +1801,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN1273",
-      "legacy_street_code": null,
       "name_key": "Hong Kong-Zhuhai-Macao Bridge Hong Kong Link Road|港珠澳大橋香港連接路"
     },
     {
@@ -1962,7 +1813,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN1273",
-      "legacy_street_code": null,
       "name_key": "Shun Wan Road|順環路"
     },
     {
@@ -1975,7 +1825,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN1273",
-      "legacy_street_code": null,
       "name_key": "Shun Wui Road|順匯路"
     },
     {
@@ -1988,7 +1837,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN1273",
-      "legacy_street_code": null,
       "name_key": "Tung Wing Road|東榮路"
     },
     {
@@ -2001,7 +1849,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN1273",
-      "legacy_street_code": null,
       "name_key": "Shun Chit Road|順捷路"
     },
     {
@@ -2014,7 +1861,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN1273",
-      "legacy_street_code": null,
       "name_key": "Shun Fai Road|順暉路"
     },
     {
@@ -2027,7 +1873,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN1273",
-      "legacy_street_code": null,
       "name_key": "Shun Hang Road|順行路"
     },
     {
@@ -2040,7 +1885,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN1273",
-      "legacy_street_code": null,
       "name_key": "Shun Lin Road|順連路"
     },
     {
@@ -2053,7 +1897,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN1273",
-      "legacy_street_code": null,
       "name_key": "Shun Long Road|順朗路"
     },
     {
@@ -2066,7 +1909,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN1273",
-      "legacy_street_code": null,
       "name_key": "Shun Lui Road|順旅路"
     },
     {
@@ -2079,7 +1921,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN1273",
-      "legacy_street_code": null,
       "name_key": "Shun Ming Road|順明路"
     },
     {
@@ -2092,7 +1933,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN1273",
-      "legacy_street_code": null,
       "name_key": "Shun Ngon Road|順岸路"
     },
     {
@@ -2105,7 +1945,6 @@
       "district_raw_en": "Sham Shui Po",
       "district_raw_zh": "深水埗",
       "notice_no": "GN1920",
-      "legacy_street_code": null,
       "name_key": "Tan Lai Street|丹荔街"
     },
     {
@@ -2118,7 +1957,6 @@
       "district_raw_en": "Yau Tsim Mong",
       "district_raw_zh": "油尖旺",
       "notice_no": "GN1920",
-      "legacy_street_code": null,
       "name_key": "Yau Ma Tei Interchange|油麻地交匯處"
     },
     {
@@ -2131,7 +1969,6 @@
       "district_raw_en": "Southern",
       "district_raw_zh": "南區",
       "notice_no": "GN1922",
-      "legacy_street_code": null,
       "name_key": "Heung Yip Path|香葉徑"
     },
     {
@@ -2144,7 +1981,6 @@
       "district_raw_en": "Wong Tai Sin",
       "district_raw_zh": "黃大仙",
       "notice_no": "GN2427",
-      "legacy_street_code": null,
       "name_key": "Hammer Hill Road|斧山道"
     },
     {
@@ -2157,7 +1993,6 @@
       "district_raw_en": "Wong Tai Sin",
       "district_raw_zh": "黃大仙",
       "notice_no": "GN2429",
-      "legacy_street_code": null,
       "name_key": "Hammer Hill Road|斧山道"
     },
     {
@@ -2170,7 +2005,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN4525",
-      "legacy_street_code": null,
       "name_key": "Tai Shu Ha Road West|大樹下西路"
     },
     {
@@ -2183,7 +2017,6 @@
       "district_raw_en": "Wong Tai Sin",
       "district_raw_zh": "黃大仙",
       "notice_no": "GN5710",
-      "legacy_street_code": null,
       "name_key": "Kai San Road|啟新道"
     },
     {
@@ -2196,7 +2029,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN5710",
-      "legacy_street_code": null,
       "name_key": "Muk Long Street|沐朗街"
     },
     {
@@ -2209,7 +2041,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN7314",
-      "legacy_street_code": null,
       "name_key": "Ping Kin Lane|屏健里"
     },
     {
@@ -2222,7 +2053,6 @@
       "district_raw_en": "Sai Kung",
       "district_raw_zh": "西貢",
       "notice_no": "GN7316",
-      "legacy_street_code": null,
       "name_key": "Yee Ming Path|怡明徑"
     },
     {
@@ -2235,7 +2065,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN7595",
-      "legacy_street_code": null,
       "name_key": "Ching Yu Path|菁裕徑"
     },
     {
@@ -2248,7 +2077,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN7595",
-      "legacy_street_code": null,
       "name_key": "Fung Cheung Path|鳳翔徑"
     },
     {
@@ -2261,7 +2089,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN7595",
-      "legacy_street_code": null,
       "name_key": "Fung Kwan Path|鳳群徑"
     },
     {
@@ -2274,7 +2101,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN7595",
-      "legacy_street_code": null,
       "name_key": "Fung Yau Path|鳳攸徑"
     },
     {
@@ -2287,7 +2113,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN7595",
-      "legacy_street_code": null,
       "name_key": "Kin Cheung Street|建翔街"
     },
     {
@@ -2300,7 +2125,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN7595",
-      "legacy_street_code": null,
       "name_key": "Kin Yip Path|建業徑"
     },
     {
@@ -2313,7 +2137,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN7595",
-      "legacy_street_code": null,
       "name_key": "On Shun Path|安信徑"
     },
     {
@@ -2326,7 +2149,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN7595",
-      "legacy_street_code": null,
       "name_key": "Sai Ching Path|西菁徑"
     },
     {
@@ -2339,7 +2161,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN7595",
-      "legacy_street_code": null,
       "name_key": "Shui Che Kwun Lane|水車館里"
     },
     {
@@ -2352,7 +2173,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN7595",
-      "legacy_street_code": null,
       "name_key": "Yu Wing Path|裕榮徑"
     },
     {
@@ -2365,7 +2185,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN8364",
-      "legacy_street_code": null,
       "name_key": "Long Ngai Path|朗藝徑"
     },
     {
@@ -2378,7 +2197,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN8364",
-      "legacy_street_code": null,
       "name_key": "Sai Yu Path|西裕徑"
     },
     {
@@ -2391,7 +2209,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN8364",
-      "legacy_street_code": null,
       "name_key": "Ping Ha Path|屏廈徑"
     },
     {
@@ -2404,7 +2221,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN8364",
-      "legacy_street_code": null,
       "name_key": "Tin Shui Path|天瑞徑"
     },
     {
@@ -2417,7 +2233,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN8364",
-      "legacy_street_code": null,
       "name_key": "Tin Ying Path|天影徑"
     },
     {
@@ -2430,7 +2245,6 @@
       "district_raw_en": "Sham Shui Po",
       "district_raw_zh": "深水埗",
       "notice_no": "GN9865",
-      "legacy_street_code": null,
       "name_key": "Lai Ying Street|荔盈街"
     },
     {
@@ -2443,7 +2257,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN9866",
-      "legacy_street_code": null,
       "name_key": "Ko Po Path|高埔徑"
     },
     {
@@ -2456,7 +2269,6 @@
       "district_raw_en": "Kwun Tong",
       "district_raw_zh": "觀塘",
       "notice_no": "GN650",
-      "legacy_street_code": null,
       "name_key": "Choi Shing Lane|彩盛里"
     },
     {
@@ -2469,7 +2281,6 @@
       "district_raw_en": "Tai Po",
       "district_raw_zh": "大埔",
       "notice_no": "GN651",
-      "legacy_street_code": null,
       "name_key": "Po Min Path|坡面徑"
     },
     {
@@ -2482,7 +2293,6 @@
       "district_raw_en": "Sai Kung",
       "district_raw_zh": "西貢",
       "notice_no": "GN1472",
-      "legacy_street_code": null,
       "name_key": "Pak Sha Wan Street|白沙灣街"
     },
     {
@@ -2495,7 +2305,6 @@
       "district_raw_en": "Tuen Mun",
       "district_raw_zh": "屯門",
       "notice_no": "GN2325",
-      "legacy_street_code": null,
       "name_key": "Chui Fuk Road|翠福路"
     },
     {
@@ -2508,7 +2317,6 @@
       "district_raw_en": "Tuen Mun",
       "district_raw_zh": "屯門",
       "notice_no": "GN2325",
-      "legacy_street_code": null,
       "name_key": "Fu Fuk Road|富福路"
     },
     {
@@ -2521,7 +2329,6 @@
       "district_raw_en": "Kwun Tong",
       "district_raw_zh": "觀塘",
       "notice_no": "GN3295",
-      "legacy_street_code": null,
       "name_key": "Shung Shan Street|崇山街"
     },
     {
@@ -2534,7 +2341,6 @@
       "district_raw_en": "Yau Tsim Mong",
       "district_raw_zh": "油尖旺",
       "notice_no": "GN4004",
-      "legacy_street_code": null,
       "name_key": "Wui Man Road|匯民道"
     },
     {
@@ -2547,7 +2353,6 @@
       "district_raw_en": "Yau Tsim Mong",
       "district_raw_zh": "油尖旺",
       "notice_no": "GN7463",
-      "legacy_street_code": null,
       "name_key": "Nga Cheung Road|雅翔道"
     },
     {
@@ -2560,7 +2365,6 @@
       "district_raw_en": "Sham Shui Po",
       "district_raw_zh": "深水埗",
       "notice_no": "GN9290",
-      "legacy_street_code": null,
       "name_key": "Lai Po Road|荔寶路"
     },
     {
@@ -2573,7 +2377,6 @@
       "district_raw_en": "North - Tai Po",
       "district_raw_zh": "北區 - 大埔",
       "notice_no": "GN1094",
-      "legacy_street_code": null,
       "name_key": "Heung Yuen Wai Highway|香園圍公路"
     },
     {
@@ -2586,7 +2389,6 @@
       "district_raw_en": "Islands(Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN1095",
-      "legacy_street_code": null,
       "name_key": "Yi Tung Road|怡東路"
     },
     {
@@ -2599,7 +2401,6 @@
       "district_raw_en": "Kowloon City-Yau Tsim Mong",
       "district_raw_zh": "九龍城-油尖旺",
       "notice_no": "GN1656",
-      "legacy_street_code": null,
       "name_key": "Hung Hom Bypass|紅磡繞道"
     },
     {
@@ -2612,7 +2413,6 @@
       "district_raw_en": "Tuen Mun",
       "district_raw_zh": "屯門",
       "notice_no": "GN1657",
-      "legacy_street_code": null,
       "name_key": "Ching Lai Road|澄麗路"
     },
     {
@@ -2625,7 +2425,6 @@
       "district_raw_en": "Wan Chai",
       "district_raw_zh": "灣仔",
       "notice_no": "GN1970",
-      "legacy_street_code": null,
       "name_key": "Lung Hop Street|龍合街"
     },
     {
@@ -2638,7 +2437,6 @@
       "district_raw_en": "Wan Chai",
       "district_raw_zh": "灣仔",
       "notice_no": "GN2321",
-      "legacy_street_code": null,
       "name_key": "Fleming Road|菲林明道"
     },
     {
@@ -2651,7 +2449,6 @@
       "district_raw_en": "Sha Tin",
       "district_raw_zh": "沙田",
       "notice_no": "GN2869",
-      "legacy_street_code": null,
       "name_key": "Yiu Sha Road|耀沙路"
     },
     {
@@ -2664,7 +2461,6 @@
       "district_raw_en": "Tuen Mun",
       "district_raw_zh": "屯門",
       "notice_no": "GN2870",
-      "legacy_street_code": null,
       "name_key": "Tung Lei Path|東籬徑"
     },
     {
@@ -2677,7 +2473,6 @@
       "district_raw_en": "North",
       "district_raw_zh": "北區",
       "notice_no": "GN2871",
-      "legacy_street_code": null,
       "name_key": "Hung Leng North Road|孔嶺北路"
     },
     {
@@ -2690,7 +2485,6 @@
       "district_raw_en": "Yau Tsim Mong",
       "district_raw_zh": "油尖旺",
       "notice_no": "GN3588",
-      "legacy_street_code": null,
       "name_key": "Museum Drive|博物館道"
     },
     {
@@ -2703,7 +2497,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN4779",
-      "legacy_street_code": null,
       "name_key": "Tung Yiu Road|東耀路"
     },
     {
@@ -2716,7 +2509,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN6068",
-      "legacy_street_code": null,
       "name_key": "Hung Pak Road|洪柏路"
     },
     {
@@ -2729,7 +2521,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN6636",
-      "legacy_street_code": null,
       "name_key": "Hoi Sha Path|海沙徑"
     },
     {
@@ -2742,7 +2533,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1669",
-      "legacy_street_code": null,
       "name_key": "|米埔南路"
     },
     {
@@ -2755,7 +2545,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1669",
-      "legacy_street_code": null,
       "name_key": "|清攸徑"
     },
     {
@@ -2768,7 +2557,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1669",
-      "legacy_street_code": null,
       "name_key": "|江埔路"
     },
     {
@@ -2781,7 +2569,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1669",
-      "legacy_street_code": null,
       "name_key": "|高上路"
     },
     {
@@ -2794,7 +2581,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1669",
-      "legacy_street_code": null,
       "name_key": "|梁盛路"
     },
     {
@@ -2807,7 +2593,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1669",
-      "legacy_street_code": null,
       "name_key": "|石上路"
     },
     {
@@ -2820,7 +2605,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN2656",
-      "legacy_street_code": null,
       "name_key": "Shek Po East Road|石埗東路"
     },
     {
@@ -2833,7 +2617,6 @@
       "district_raw_en": "Sai Kung",
       "district_raw_zh": "西貢",
       "notice_no": "GN3236",
-      "legacy_street_code": null,
       "name_key": "Ho Chung North Road|蠔涌北路"
     },
     {
@@ -2846,7 +2629,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN4507",
-      "legacy_street_code": null,
       "name_key": "Tung Cheong Street|東昌街"
     },
     {
@@ -2859,7 +2641,6 @@
       "district_raw_en": "Kwun Tong",
       "district_raw_zh": "觀塘",
       "notice_no": "GN4508",
-      "legacy_street_code": null,
       "name_key": "Lai Chui Path|麗翠徑"
     },
     {
@@ -2872,7 +2653,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN5983",
-      "legacy_street_code": null,
       "name_key": "Gascoigne Road Fylover|加士居道天橋"
     },
     {
@@ -2885,7 +2665,6 @@
       "district_raw_en": "Tuen Mun",
       "district_raw_zh": "屯門",
       "notice_no": "GN6116",
-      "legacy_street_code": null,
       "name_key": "Yan Po Road|欣寶路"
     },
     {
@@ -2898,7 +2677,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN6118",
-      "legacy_street_code": null,
       "name_key": "Gascoigne Road Flyover|"
     },
     {
@@ -2911,7 +2689,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN6474",
-      "legacy_street_code": null,
       "name_key": "|屯門赤鱲角隧道公路"
     },
     {
@@ -2924,7 +2701,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN6474",
-      "legacy_street_code": null,
       "name_key": "|浩和街"
     },
     {
@@ -2937,7 +2713,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN6474",
-      "legacy_street_code": null,
       "name_key": "|浩逸街"
     },
     {
@@ -2950,7 +2725,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN6775",
-      "legacy_street_code": null,
       "name_key": "Kwun Tong Bypass|觀塘繞道"
     },
     {
@@ -2963,7 +2737,6 @@
       "district_raw_en": "Tuen Mun",
       "district_raw_zh": "屯門",
       "notice_no": "GN7695",
-      "legacy_street_code": null,
       "name_key": "Tsing Tin Interchange|青田交匯處"
     },
     {
@@ -2976,7 +2749,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN708",
-      "legacy_street_code": null,
       "name_key": "|尾逢路"
     },
     {
@@ -2989,7 +2761,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN708",
-      "legacy_street_code": null,
       "name_key": "|水尾路"
     },
     {
@@ -3002,7 +2773,6 @@
       "district_raw_en": "North",
       "district_raw_zh": "北區",
       "notice_no": "GN1088",
-      "legacy_street_code": null,
       "name_key": "Lung Chun Road|龍峻路"
     },
     {
@@ -3015,7 +2785,6 @@
       "district_raw_en": "Southern",
       "district_raw_zh": "南區",
       "notice_no": "GN2547",
-      "legacy_street_code": null,
       "name_key": "Ocean Drive|海洋徑"
     },
     {
@@ -3028,7 +2797,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN3262",
-      "legacy_street_code": null,
       "name_key": "|安愉道"
     },
     {
@@ -3041,7 +2809,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN3262",
-      "legacy_street_code": null,
       "name_key": "|安愉徑"
     },
     {
@@ -3054,7 +2821,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN3262",
-      "legacy_street_code": null,
       "name_key": "|安健道"
     },
     {
@@ -3067,7 +2833,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN3262",
-      "legacy_street_code": null,
       "name_key": "|安禧街"
     },
     {
@@ -3080,7 +2845,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN3565",
-      "legacy_street_code": null,
       "name_key": "Discovery Peak Road|愉峰道"
     },
     {
@@ -3093,7 +2857,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN3897",
-      "legacy_street_code": null,
       "name_key": "|啟德橋道"
     },
     {
@@ -3106,7 +2869,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN3897",
-      "legacy_street_code": null,
       "name_key": "|承富里"
     },
     {
@@ -3119,7 +2881,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN3897",
-      "legacy_street_code": null,
       "name_key": "|承裕里"
     },
     {
@@ -3132,7 +2893,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN3897",
-      "legacy_street_code": null,
       "name_key": "|承景街"
     },
     {
@@ -3145,7 +2905,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN4522",
-      "legacy_street_code": null,
       "name_key": "Muk Lai Street|沐禮街"
     },
     {
@@ -3158,7 +2917,6 @@
       "district_raw_en": "Kwun Tong",
       "district_raw_zh": "觀塘",
       "notice_no": "GN4715",
-      "legacy_street_code": null,
       "name_key": "Ping Shek Lane|坪石里"
     },
     {
@@ -3171,7 +2929,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN6003",
-      "legacy_street_code": null,
       "name_key": "Fi R S T Sky Street|航天城第一街"
     },
     {
@@ -3184,7 +2941,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN6003",
-      "legacy_street_code": null,
       "name_key": "S E Cond Sky Street|航天城第二街"
     },
     {
@@ -3197,7 +2953,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN6003",
-      "legacy_street_code": null,
       "name_key": "T Hi R D Sky Street|航天城第三街"
     },
     {
@@ -3210,7 +2965,6 @@
       "district_raw_en": "Tai Po",
       "district_raw_zh": "大埔",
       "notice_no": "GN6129",
-      "legacy_street_code": null,
       "name_key": "Choi Tip Street|彩蝶街"
     },
     {
@@ -3223,7 +2977,6 @@
       "district_raw_en": "Sai Kung - Kwun Tong",
       "district_raw_zh": "西貢 - 觀塘",
       "notice_no": "GN6649",
-      "legacy_street_code": null,
       "name_key": "On Pik Road|安碧道"
     },
     {
@@ -3236,7 +2989,6 @@
       "district_raw_en": "Kwun Tong",
       "district_raw_zh": "觀塘",
       "notice_no": "GN7441",
-      "legacy_street_code": null,
       "name_key": "Ko Ling Road|高嶺道"
     },
     {
@@ -3249,7 +3001,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN7633",
-      "legacy_street_code": null,
       "name_key": "T U E N Lok L A N E|屯樂里"
     },
     {
@@ -3262,7 +3013,6 @@
       "district_raw_en": "Kwun Tong",
       "district_raw_zh": "觀塘",
       "notice_no": "GN4534",
-      "legacy_street_code": null,
       "name_key": "Ko Nga Lane|高雅里"
     },
     {
@@ -3275,7 +3025,6 @@
       "district_raw_en": "Sham Shui Po",
       "district_raw_zh": "深水埗",
       "notice_no": "GN4919",
-      "legacy_street_code": null,
       "name_key": "Hoi Tat Street|海達街"
     },
     {
@@ -3288,7 +3037,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN5717",
-      "legacy_street_code": null,
       "name_key": "T In Wo R O A D|田禾路"
     },
     {
@@ -3301,7 +3049,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN6005",
-      "legacy_street_code": null,
       "name_key": "Chi Li T P At H|誌烈徑"
     },
     {
@@ -3314,7 +3061,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN6835",
-      "legacy_street_code": null,
       "name_key": "L Am T In In Ter Ch A Ng E|藍田交匯處"
     },
     {
@@ -3327,7 +3073,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN6835",
-      "legacy_street_code": null,
       "name_key": "T S E Ung L Am Highw A Y|將藍公路"
     },
     {
@@ -3340,7 +3085,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN7138",
-      "legacy_street_code": null,
       "name_key": "Hoi Shin L A N E|海善里"
     },
     {
@@ -3353,7 +3097,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN7562",
-      "legacy_street_code": null,
       "name_key": "|柏壽路"
     },
     {
@@ -3366,7 +3109,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN7562",
-      "legacy_street_code": null,
       "name_key": "|鄉梓路"
     },
     {
@@ -3379,7 +3121,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN839",
-      "legacy_street_code": null,
       "name_key": "Hoi Ying R O A D|海映路"
     },
     {
@@ -3392,7 +3133,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1075",
-      "legacy_street_code": null,
       "name_key": "|香蓮路"
     },
     {
@@ -3405,7 +3145,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1075",
-      "legacy_street_code": null,
       "name_key": "|蓮竹路"
     },
     {
@@ -3418,7 +3157,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN2593",
-      "legacy_street_code": null,
       "name_key": "Muk Wo Street|沐和街"
     },
     {
@@ -3431,7 +3169,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN2908",
-      "legacy_street_code": null,
       "name_key": "Shing Y A Us Treet|承佑街"
     },
     {
@@ -3444,7 +3181,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN3075",
-      "legacy_street_code": null,
       "name_key": "M Oon T In L A N E|滿田里"
     },
     {
@@ -3457,7 +3193,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN3522",
-      "legacy_street_code": null,
       "name_key": "Kwun Sh A P At H|觀沙徑"
     },
     {
@@ -3470,7 +3205,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN3740",
-      "legacy_street_code": null,
       "name_key": "Lung Tat P At H|龍達徑"
     },
     {
@@ -3483,7 +3217,6 @@
       "district_raw_en": "Kwun Tong",
       "district_raw_zh": "觀塘",
       "notice_no": "GN4517",
-      "legacy_street_code": null,
       "name_key": "Chi Tin Street|智田街"
     },
     {
@@ -3496,7 +3229,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN7465",
-      "legacy_street_code": null,
       "name_key": "Kam Yee Road|錦義路"
     },
     {
@@ -3509,7 +3241,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1176",
-      "legacy_street_code": null,
       "name_key": "Ma Ta K R O A D|馬得路"
     },
     {
@@ -3522,7 +3253,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1176",
-      "legacy_street_code": null,
       "name_key": "Ma Fuk R O A D|馬福路"
     },
     {
@@ -3535,7 +3265,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1176",
-      "legacy_street_code": null,
       "name_key": "Wo Lok L A N E|和樂里"
     },
     {
@@ -3548,7 +3277,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1335",
-      "legacy_street_code": null,
       "name_key": "Lung T Ing L A N E|龍庭里"
     },
     {
@@ -3561,7 +3289,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN2409",
-      "legacy_street_code": null,
       "name_key": "Toscana Drive|意濤徑"
     },
     {
@@ -3574,7 +3301,6 @@
       "district_raw_en": "North",
       "district_raw_zh": "北區",
       "notice_no": "GN2696",
-      "legacy_street_code": null,
       "name_key": "Fung Ying Path|豐盈徑"
     },
     {
@@ -3587,7 +3313,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN3412",
-      "legacy_street_code": null,
       "name_key": "Chui Kwan Drive|翠群徑"
     },
     {
@@ -3600,7 +3325,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN3555",
-      "legacy_street_code": null,
       "name_key": "Y A U M Ong L A N E|油旺里"
     },
     {
@@ -3613,7 +3337,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN4837",
-      "legacy_street_code": null,
       "name_key": "Chui Kwan Drive|翠群徑"
     },
     {
@@ -3626,7 +3349,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN4962",
-      "legacy_street_code": null,
       "name_key": "T Sz Lun R O A D|紫麟路"
     },
     {
@@ -3639,7 +3361,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN5323",
-      "legacy_street_code": null,
       "name_key": "Wui T Ung Street|匯東街"
     },
     {
@@ -3652,7 +3373,6 @@
       "district_raw_en": "Islands (Lantau)",
       "district_raw_zh": "離島 (大嶼山)",
       "notice_no": "GN5324",
-      "legacy_street_code": null,
       "name_key": "Ying Tung Road|迎東路"
     },
     {
@@ -3665,7 +3385,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN5451",
-      "legacy_street_code": null,
       "name_key": "Shing Fung L A N E|承豐里"
     },
     {
@@ -3678,7 +3397,6 @@
       "district_raw_en": "North",
       "district_raw_zh": "北區",
       "notice_no": "GN6215",
-      "legacy_street_code": null,
       "name_key": "Yuk Tong Path|沃塘徑"
     },
     {
@@ -3691,7 +3409,6 @@
       "district_raw_en": "Kowloon City",
       "district_raw_zh": "九龍城",
       "notice_no": "GN7369",
-      "legacy_street_code": null,
       "name_key": "Shing Yan Lane|承恩里"
     },
     {
@@ -3704,7 +3421,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN565",
-      "legacy_street_code": null,
       "name_key": "Long Fung Street|朗風街"
     },
     {
@@ -3717,7 +3433,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1271",
-      "legacy_street_code": null,
       "name_key": "Innov At Ion A Nd Te Chnology P Ar K R O A D|創科園路"
     },
     {
@@ -3730,7 +3445,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1271",
-      "legacy_street_code": null,
       "name_key": "Re S Ear Ch R O A D|研發路"
     },
     {
@@ -3743,7 +3457,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN4611",
-      "legacy_street_code": null,
       "name_key": "|貴東路"
     },
     {
@@ -3756,7 +3469,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN4611",
-      "legacy_street_code": null,
       "name_key": "|朗東路"
     },
     {
@@ -3769,7 +3481,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN4611",
-      "legacy_street_code": null,
       "name_key": "|曉東路"
     },
     {
@@ -3782,7 +3493,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN4611",
-      "legacy_street_code": null,
       "name_key": "|錦東街"
     },
     {
@@ -3795,7 +3505,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN4611",
-      "legacy_street_code": null,
       "name_key": "|兆東街"
     },
     {
@@ -3808,7 +3517,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN4611",
-      "legacy_street_code": null,
       "name_key": "|孝東街"
     },
     {
@@ -3821,7 +3529,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN4611",
-      "legacy_street_code": null,
       "name_key": "|彩東里"
     },
     {
@@ -3834,7 +3541,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN4611",
-      "legacy_street_code": null,
       "name_key": "|善東里"
     },
     {
@@ -3847,7 +3553,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN4611",
-      "legacy_street_code": null,
       "name_key": "|仁東里"
     },
     {
@@ -3860,7 +3565,6 @@
       "district_raw_en": "North",
       "district_raw_zh": "北區",
       "notice_no": "GN6447",
-      "legacy_street_code": null,
       "name_key": "Choi Lung Street|彩隆街"
     },
     {
@@ -3873,7 +3577,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN7381",
-      "legacy_street_code": null,
       "name_key": "|啟德交匯處"
     },
     {
@@ -3886,7 +3589,6 @@
       "district_raw_en": "Kowloon City - Kwun Tong",
       "district_raw_zh": "九龍城-觀塘",
       "notice_no": "GN7381",
-      "legacy_street_code": null,
       "name_key": "Kai Tak Interchange|啟德交匯處"
     },
     {
@@ -3899,7 +3601,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN377",
-      "legacy_street_code": null,
       "name_key": "|古洞北路"
     },
     {
@@ -3912,7 +3613,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN377",
-      "legacy_street_code": null,
       "name_key": "|古雋街"
     },
     {
@@ -3925,7 +3625,6 @@
       "district_raw_en": "Kwun Tong",
       "district_raw_zh": "觀塘",
       "notice_no": "GN995",
-      "legacy_street_code": null,
       "name_key": "Sheung Yip Street|尚業街"
     },
     {
@@ -3938,7 +3637,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1839",
-      "legacy_street_code": null,
       "name_key": "F A Nling Bypass|粉嶺繞道"
     },
     {
@@ -3951,7 +3649,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1839",
-      "legacy_street_code": null,
       "name_key": "Sh E Ung Ho R O A D|上河路"
     },
     {
@@ -3964,7 +3661,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1839",
-      "legacy_street_code": null,
       "name_key": "Fung L Am R O A D|鳳林路"
     },
     {
@@ -3977,7 +3673,6 @@
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN1839",
-      "legacy_street_code": null,
       "name_key": "Fung Ling R O A D|鳳嶺路"
     },
     {
@@ -3990,7 +3685,6 @@
       "district_raw_en": "Yuen Long",
       "district_raw_zh": "元朗",
       "notice_no": "GN2370",
-      "legacy_street_code": null,
       "name_key": "Ping Yip Street|屏業街"
     }
   ]

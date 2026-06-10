@@ -44,11 +44,6 @@ async function loadGeoByZh() {
   return map
 }
 
-function evidenceLevelFromKind(kind) {
-  if (kind === 'gazette_primary' || kind === 'gazette_inferred') return 'gazette'
-  return 'historical'
-}
-
 async function main() {
   const [events, geoByZh] = await Promise.all([loadMasterEvents(), loadGeoByZh()])
 
@@ -108,11 +103,7 @@ async function main() {
       const next = {
         ...event,
         evidence_kind: result.evidence_kind,
-        evidence_level: evidenceLevelFromKind(result.evidence_kind),
         publication_date: result.publication_date ?? event.publication_date,
-        year_bucket: result.publication_date
-          ? Number(String(result.publication_date).slice(0, 4))
-          : event.year_bucket,
         derived_from: result.derived_from,
         government_notice_url_en: draft.government_notice_url_en,
         government_notice_url_zh: draft.government_notice_url_zh,

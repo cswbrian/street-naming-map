@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Remove street_code from all events in street-events.json (Phase 5).
+ * Remove deprecated fields from all events in street-events.json.
  * Centreline linkage lives only in street-centreline-map.json.
  *
  * Usage:
@@ -10,14 +10,21 @@
 
 import { loadMasterEvents, saveMasterEvents } from './lib/master-street-events.mjs'
 
+/** Fields removed from master events — redundant with publication_date / other canonical fields. */
+const DEPRECATED_EVENT_FIELDS = ['street_code', 'proof_pdf_url', 'evidence_level', 'year_bucket']
+
 async function main() {
   const events = await loadMasterEvents()
-  let stripped = 0
+  const stripped = Object.fromEntries(DEPRECATED_EVENT_FIELDS.map((key) => [key, 0]))
   const cleaned = events.map((event) => {
-    if (!Object.hasOwn(event, 'street_code')) return event
-    stripped += 1
-    const { street_code: _removed, ...rest } = event
-    return rest
+    let next = event
+    for (const key of DEPRECATED_EVENT_FIELDS) {
+      if (!Object.hasOwn(next, key)) continue
+      stripped[key] += 1
+      if (next === event) next = { ...event }
+      delete next[key]
+    }
+    return next
   })
 
   await saveMasterEvents(cleaned)
@@ -25,7 +32,7 @@ async function main() {
     JSON.stringify(
       {
         total_events: cleaned.length,
-        stripped_street_code_fields: stripped,
+        stripped_fields: stripped,
       },
       null,
       2,

@@ -145,9 +145,7 @@ export function classifyNewsCrowdEvent(event, ctx) {
           action: 'upgrade_inferred',
           patch: {
             evidence_kind: 'gazette_inferred',
-            evidence_level: 'gazette',
             publication_date: result.publication_date,
-            year_bucket: Number(String(result.publication_date).slice(0, 4)),
             derived_from: result.derived_from,
             government_notice_url_en: draft.government_notice_url_en,
             government_notice_url_zh: draft.government_notice_url_zh,
@@ -169,9 +167,7 @@ export function classifyNewsCrowdEvent(event, ctx) {
         action: 'upgrade_primary',
         patch: {
           evidence_kind: 'gazette_primary',
-          evidence_level: 'gazette',
           publication_date: pdfDate,
-          year_bucket: pdfDate ? Number(String(pdfDate).slice(0, 4)) : event.year_bucket,
           derived_from: null,
           government_notice_url_en: draft.government_notice_url_en,
           government_notice_url_zh: draft.government_notice_url_zh,

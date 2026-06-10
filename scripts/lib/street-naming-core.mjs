@@ -329,11 +329,11 @@ export function resolveEvidenceKind(raw = {}) {
 export function enrichEventWithEvidenceKind(event) {
   if (!event) return event
   const kind = resolveEvidenceKind(event) ?? 'unknown'
-  const evidenceLevel = evidenceLevelFromKind(kind)
+  const { evidence_level: _legacyLevel, proof_pdf_url: _legacyProof, street_code: _legacyCode, ...rest } =
+    event
   return {
-    ...event,
+    ...rest,
     evidence_kind: kind,
-    evidence_level: event.evidence_level ?? evidenceLevel,
     derived_from: normalizeDerivedFrom(event.derived_from) ?? event.derived_from ?? null,
     evidence_kind_note: event.evidence_kind_note ?? null,
     supplementary_evidence:
@@ -415,7 +415,6 @@ export function buildNameHistory(events) {
     notice_label_zh: event.government_notice_label_zh ?? null,
     notice_url_en: event.government_notice_url_en ?? null,
     notice_url_zh: event.government_notice_url_zh ?? null,
-    evidence_level: normalizeEvidenceLevel(event.evidence_level),
     evidence_kind: event.evidence_kind ?? resolveEvidenceKind(event),
     is_declaration_event: event.is_declaration_event ?? null,
     event_role: event.event_role ?? null,
@@ -941,12 +940,10 @@ export function finalizeCrowdEvent(raw, index = 0) {
   const noticeTypes = noticeTypeLabelsForSource(source, changeKind, isDecl)
   const displayNames = raw.display_names ?? raw.displayNames ?? null
   const gazetteOnly = raw.gazette_only === true
-  const explicitStreetCode = String(raw.street_code ?? '').trim() || null
 
   const base = {
     event_id: raw.event_id ?? `crowd|${submissionId}`,
     source,
-    street_code: gazetteOnly || raw.omit_street_code ? null : explicitStreetCode,
     publication_date: publicationDate,
     change_kind: changeKind,
     street_name_en: raw.street_name_en ?? null,
@@ -967,14 +964,11 @@ export function finalizeCrowdEvent(raw, index = 0) {
     related_gazette_plan_urls_zh: [],
     related_gazette_plan_labels_en: [],
     related_gazette_plan_labels_zh: [],
-    year_bucket: publicationDate ? Number(publicationDate.slice(0, 4)) : null,
     is_declaration_event: isDecl,
     evidence_kind: raw.evidence_kind ?? null,
-    evidence_level: raw.evidence_level ?? null,
     event_role: normalizeEventRole(raw.event_role),
     derived_from: normalizeDerivedFrom(raw.derived_from),
     evidence_kind_note: raw.evidence_kind_note ?? null,
-    proof_pdf_url: raw.proof_pdf_url ?? null,
     submitter_remarks: raw.submitter_remarks ?? raw.remarks ?? null,
     supplementary_evidence: normalizeSupplementaryEvidence(raw.supplementary_evidence),
     reviewed_at: raw.reviewed_at ?? new Date().toISOString().slice(0, 10),
@@ -996,12 +990,6 @@ export function buildCrowdEventsFromStreetEntry(street, batchDefaults = {}) {
   const history = Array.isArray(street.history) ? street.history : null
   if (!history?.length) return []
 
-  const allowStreetCodeLink =
-    batchDefaults.allow_street_code_link === true || batchDefaults.link_to_map === true
-  const streetCode =
-    allowStreetCodeLink
-      ? String(street.link_street_code ?? street.street_code ?? street.code ?? '').trim() || null
-      : null
   const gazetteOnly = batchDefaults.gazette_only !== false
   const resolvedEn =
     normalizeStreetName(street.english_name ?? street.en) ||
@@ -1033,7 +1021,6 @@ export function buildCrowdEventsFromStreetEntry(street, batchDefaults = {}) {
 
     return finalizeCrowdEvent({
       submission_id: submissionId,
-      street_code: streetCode,
       gazette_only: gazetteOnly,
       publication_date: publicationDate,
       change_kind: changeKind,
@@ -1064,7 +1051,6 @@ export function buildCrowdEventsFromStreetEntry(street, batchDefaults = {}) {
         (inheritBatchNotice ? batchDefaults.gazette_url_zh : null) ??
         null,
       evidence_kind: entry.evidence_kind ?? batchDefaults.evidence_kind ?? null,
-      evidence_level: evidenceLevel,
       event_role: entry.event_role ?? null,
       derived_from: entry.derived_from ?? batchDefaults.derived_from ?? null,
       evidence_kind_note: entry.evidence_kind_note ?? null,
@@ -1087,7 +1073,6 @@ export function finalizeEgazetteEvent(raw, index = 0) {
   const normalized = isDecl ? 'declaration' : normalizeNoticeType(noticeTypeEn, noticeTypeTc)
   const noticeNo = normalizeNoticeNo(raw.notice_no)
   const publicationDate = raw.publication_date
-  const yearBucket = publicationDate ? Number(publicationDate.slice(0, 4)) : null
   const noticeKey = raw.notice_key ?? null
   const hosted = noticeKey ? buildSelfHostedPdfUrls(noticeKey) : { en: null, zh: null }
 
@@ -1111,12 +1096,8 @@ export function finalizeEgazetteEvent(raw, index = 0) {
     related_gazette_plan_urls_zh: raw.related_gazette_plan_urls_zh ?? [],
     related_gazette_plan_labels_en: raw.related_gazette_plan_labels_en ?? [],
     related_gazette_plan_labels_zh: raw.related_gazette_plan_labels_zh ?? [],
-    year_bucket: yearBucket,
     is_declaration_event: isDecl,
     evidence_kind: resolveEvidenceKind(raw) ?? (hosted.en || hosted.zh ? 'gazette_primary' : 'unknown'),
-    evidence_level:
-      normalizeEvidenceLevel(raw.evidence_level) ??
-      evidenceLevelFromKind(resolveEvidenceKind(raw) ?? 'gazette_primary'),
     derived_from: normalizeDerivedFrom(raw.derived_from),
     evidence_kind_note: raw.evidence_kind_note ?? null,
     notice_key: noticeKey,

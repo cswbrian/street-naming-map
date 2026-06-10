@@ -77,7 +77,6 @@ export function applyFooterPublicationDate(event, extraction) {
   return {
     ...event,
     publication_date: footerDate,
-    year_bucket: Number(footerDate.slice(0, 4)),
     event_id: `${footerDate}|${event.notice_no}|${index}`,
   }
 }

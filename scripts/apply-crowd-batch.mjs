@@ -248,8 +248,6 @@ function resolveLinkStreetCode(street, allowStreetCodeLink) {
 function buildSimpleDeclareEvent(street, publicationDate, notice, batchDefaults, index) {
   const names = namesFromStreetEntry(street, index)
   const slug = slugifyForEventId(names.english_name, names.chinese_name) || `street-${index + 1}`
-  const allowStreetCodeLink =
-    batchDefaults.allow_street_code_link === true || batchDefaults.link_to_map === true
   return finalizeCrowdEvent({
     submission_id: `${batchDefaults.batch_id}-${slug}`,
     publication_date: publicationDate,
@@ -259,7 +257,6 @@ function buildSimpleDeclareEvent(street, publicationDate, notice, batchDefaults,
     district_raw_en: names.district_raw_en,
     district_raw_zh: names.district_raw_zh,
     gazette_only: batchDefaults.gazette_only !== false,
-    street_code: allowStreetCodeLink ? names.link_street_code : null,
     gazette_notice_label: notice.notice_label,
     government_notice_url_en: notice.url_en,
     government_notice_url_zh: notice.url_zh,

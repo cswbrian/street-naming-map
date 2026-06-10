@@ -25,7 +25,6 @@ async function main() {
     for (const issue of issues) {
       const row = {
         event_id: event.event_id,
-        street_code: event.street_code,
         notice_stem: event.notice_stem ?? null,
         ...issue,
       }

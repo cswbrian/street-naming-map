@@ -23,16 +23,15 @@ Identity on the map comes from [`public/data/hk-streets.geojson`](public/data/hk
 | Field | Role |
 |-------|------|
 | `source` | **Pipeline ingest** only (`hkgro`, `crowdsubmitted`, `landsd`, `egazette_pdf`) — not shown in UI |
+| `crowd_origin` | **Crowd pipeline metadata** only (`batch`, `form`) — how the row entered `street-events.json`; not shown in UI |
 | *(UI)* **來源** / **Source** | From `evidence_kind` on `naming_details` (`gazette_primary`, `gazette_inferred`, …) |
 | `event_role` | **UX role** for this fact: `current_name`, `former_name`, `built`, `name_removed` |
 | `evidence_kind` | **What document class** supports the date (see below) |
-| `evidence_level` | **Deprecated** — use `evidence_kind`. Still read for compatibility: `gazette` → `gazette_primary`; `historical` → `unknown` until migrated |
 
 ## Event fields (crowd, LandsD, eGazette)
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `street_code` | string | **Deprecated on events** — do not set on new rows. Use `street-centreline-map.json` to group events by `STREETCODE`. Legacy rows may still appear in old `event_id` slugs only. |
 | `publication_date` | ISO date | When the name took effect (use `YYYY-01-01` if only a year is known) |
 | `change_kind` | `declare` \| `rename` \| `delete` \| `extend` | Kind of change (`extend` = new segment gazetted under existing name; excluded from canonical naming unless no `declare` exists) |
 | `street_name_en` / `street_name_zh` | string | Name **after** this event |
@@ -41,12 +40,13 @@ Identity on the map comes from [`public/data/hk-streets.geojson`](public/data/hk
 | `evidence_kind` | enum | See **Evidence kinds** |
 | `evidence_kind_note` | string | Required when `evidence_kind` is `other` |
 | `derived_from` | array | Citation chain (required for `gazette_inferred`) |
-| `evidence_level` | `gazette` \| `historical` | Deprecated; written from `evidence_kind` on merge |
 | `is_declaration_event` | boolean | Legacy flag; renames should be `false` |
 | `government_notice_url_en` | URL | Gazette scan (e.g. HKGRO PDF) |
 | `government_notice_label_en` | string | e.g. `Gazette No. 184` |
-| `proof_pdf_url` | URL | Non-hosted attachment (legacy; prefer `supplementary_evidence`) |
 | `supplementary_evidence` | array | Extra documents supporting specific fields on this event (see below) |
+| `crowd_origin` | `batch` \| `form` | Optional on `crowdsubmitted` rows. `batch` = applied via [`apply-crowd-batch.mjs`](../scripts/apply-crowd-batch.mjs); `form` = approved Google Form import via [`import-crowd-submissions.mjs`](../scripts/import-crowd-submissions.mjs). Pipeline/QA only. |
+
+**Removed from master events** (do not set on new rows): `street_code`, `proof_pdf_url`, `evidence_level`, `year_bucket` (use `publication_date` year instead). Run `npm run strip:event-street-codes` after importing legacy data.
 
 ### Evidence kinds
 

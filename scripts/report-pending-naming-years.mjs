@@ -193,8 +193,6 @@ const pickNamingDetails = async (aggregate, noticeIndex, urlOptions = {}) => {
     event_count: aggregate.event_count ?? 0,
     name_history: patchNameHistoryUrls(aggregate.name_history, urls, activeDerivedFrom ?? derivedFrom),
     notice_no: noticeEvent?.notice_no ?? canonicalEvent?.notice_no ?? null,
-    notice_type: noticeEvent?.notice_type_normalized ?? canonicalEvent?.notice_type_normalized ?? null,
-    notice_source: noticeEvent?.source ?? canonicalEvent?.source ?? null,
     notice_key: noticeEvent?.notice_key ?? canonicalEvent?.notice_key ?? null,
     government_notice_label_en:
       activeNoticeLabels.en ??
@@ -208,8 +206,6 @@ const pickNamingDetails = async (aggregate, noticeIndex, urlOptions = {}) => {
       null,
     government_notice_url_en: urls.en ?? derivedFrom?.[0]?.government_notice_url_en ?? null,
     government_notice_url_zh: urls.zh ?? derivedFrom?.[0]?.government_notice_url_zh ?? null,
-    related_gazette_plan_url_en: canonicalEvent?.related_gazette_plan_urls_en?.[0] ?? null,
-    related_gazette_plan_url_zh: canonicalEvent?.related_gazette_plan_urls_zh?.[0] ?? null,
   }
 }
 

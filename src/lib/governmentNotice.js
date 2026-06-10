@@ -1,6 +1,5 @@
 import { formatNoticeLabel } from './formatNoticeLabel.js'
 import { buildRoadKey } from './roadKey.js'
-import { resolveHostedUrl } from './resolveHostedUrl.js'
 import {
   isPlaceholderNoticeLabel,
   pickHostedNoticeUrl,
@@ -52,15 +51,7 @@ export function getNoticeLink(namingDetails, locale, options = {}) {
   if (!label) return null
 
   const urls = resolveStoredNoticeUrls(namingDetails, options)
-  const link = noticeLinkFromUrls(urls, locale, label, options.pdfLocales)
-
-  const proofRaw = namingDetails.proof_pdf_url
-  if (!link?.url && proofRaw) {
-    const proofUrl = resolveHostedUrl(proofRaw)
-    if (proofUrl) return { url: proofUrl, label }
-  }
-
-  return link
+  return noticeLinkFromUrls(urls, locale, label, options.pdfLocales)
 }
 
 export function buildNoticeLookup(roads = [], options = {}) {

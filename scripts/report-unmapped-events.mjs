@@ -58,7 +58,6 @@ async function main() {
       district_raw_en: e.district_raw_en ?? null,
       district_raw_zh: e.district_raw_zh ?? null,
       notice_no: e.notice_no ?? null,
-      legacy_street_code: e.street_code ?? null,
       name_key: `${normalizeStreetName(e.street_name_en)}|${String(e.street_name_zh ?? '').trim()}`,
     }))
     .toSorted((a, b) => String(a.publication_date).localeCompare(String(b.publication_date)))
@@ -91,7 +90,6 @@ async function main() {
       'street_name_zh',
       'district_raw_en',
       'notice_no',
-      'legacy_street_code',
     ]),
     ...rows.map((r) =>
       toCsvRow([
@@ -103,7 +101,6 @@ async function main() {
         r.street_name_zh,
         r.district_raw_en,
         r.notice_no,
-        r.legacy_street_code,
       ]),
     ),
   ]

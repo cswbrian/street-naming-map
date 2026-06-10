@@ -41,14 +41,12 @@ function builtEvent(streetCode) {
     event_id: `crowd|hrch-fish-o-${streetCode}-built-1880`,
     source: 'crowdsubmitted',
     submission_id: `hrch-fish-o-${streetCode}-built-1880`,
-    street_code: streetCode,
     publication_date: '1880-01-01',
     change_kind: 'declare',
     event_role: 'built',
     street_name_en: null,
     street_name_zh: null,
     evidence_kind: 'research',
-    evidence_level: 'historical',
     is_declaration_event: true,
     supplementary_evidence: [
       {
@@ -66,14 +64,12 @@ function formerNameEvent(streetCode, streetNameEn, streetNameZh, slug) {
     event_id: `crowd|hrch-fish-o-${streetCode}-${slug}-1897`,
     source: 'crowdsubmitted',
     submission_id: `hrch-fish-o-${streetCode}-${slug}-1897`,
-    street_code: streetCode,
     publication_date: '1897-01-01',
     change_kind: 'declare',
     event_role: 'former_name',
     street_name_en: streetNameEn,
     street_name_zh: streetNameZh,
     evidence_kind: 'research',
-    evidence_level: 'historical',
     is_declaration_event: true,
     supplementary_evidence: [
       {

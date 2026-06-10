@@ -38,4 +38,4 @@ Non-gazette rows (`evidence_kind: research`, `event_role: built`) may stay in th
 - Events are grouped into timelines via `street-centreline-map.json` (`event_ids` on each link).
 - Unlinked events stay in `street-events.json` and appear in `report:unmapped-events` / `/{locale}/timelines` (unlinked filter).
 - The map joins geometry by `STREETCODE` only — no name guessing at build time.
-- `street_code` on event rows is **removed** (see `npm run strip:event-street-codes`); do not reintroduce it on new rows.
+- Deprecated event fields (`street_code`, `proof_pdf_url`, `evidence_level`, `year_bucket`) are **removed** from master (see `npm run strip:event-street-codes`); do not reintroduce them on new rows.

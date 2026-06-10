@@ -35,25 +35,21 @@ const REVERT_HKPLACE_NEWS = [
   {
     event_id: 'crowd|2009-gn7995-hkplace-extensions-14299-2008-02-01',
     publication_date: '2008-02-01',
-    year_bucket: 2008,
     submitter_remarks: 'Original naming per hk-place (2008); G.N.7995 is extension only.',
   },
   {
     event_id: 'crowd|2009-gn7995-hkplace-extensions-10332-2008-05-09',
     publication_date: '2008-05-09',
-    year_bucket: 2008,
     submitter_remarks: 'Original naming per hk-place (2008); G.N.7995 is extension only.',
   },
   {
     event_id: 'crowd|2010-gn4562-choi-hing-wing-14296-2007-11-09',
     publication_date: '2007-11-09',
-    year_bucket: 2007,
     submitter_remarks: 'Original naming per hk-place (2007); G.N.4562 is extension only.',
   },
   {
     event_id: 'crowd|2010-gn4562-choi-hing-wing-14308-2008-07-11',
     publication_date: '2008-07-11',
-    year_bucket: 2008,
     submitter_remarks: 'Original naming per hk-place (2008); G.N.4562 is extension only.',
   },
 ]
@@ -61,9 +57,7 @@ const REVERT_HKPLACE_NEWS = [
 function revertHkPlaceNewsPatch(spec) {
   return {
     publication_date: spec.publication_date,
-    year_bucket: spec.year_bucket,
     evidence_kind: 'news',
-    evidence_level: 'historical',
     notice_no: 'CROWD',
     government_notice_label_en: null,
     government_notice_label_zh: null,
@@ -195,7 +189,6 @@ async function main() {
           change_kind: 'declare',
           event_role: 'current_name',
           evidence_kind: 'gazette_primary',
-          evidence_level: 'gazette',
         })
         review.fix_sibling_primary.push({
           event_id: primary.event_id,
