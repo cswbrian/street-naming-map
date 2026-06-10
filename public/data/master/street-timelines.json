@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-09T17:29:29.924Z",
+  "generated_at": "2026-06-10T15:24:50.161Z",
   "totals": {
-    "timelines": 915,
-    "linked_active": 617,
+    "timelines": 917,
+    "linked_active": 619,
     "unlinked": 298,
     "legacy_or_name_only": 0
   },
@@ -8660,6 +8660,45 @@
       ]
     },
     {
+      "timeline_id": "code:10971",
+      "street_code": "10971",
+      "street_name_en": "Hau Pui Loong Road",
+      "street_name_zh": "靠背壟道",
+      "canonical_naming_year": 1926,
+      "canonical_naming_date": "1926-06-25",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10971",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1926-06-25",
+          "change_kind": "declare",
+          "name_en": "Hau Pui Loong Road",
+          "name_zh": "靠背壟道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.342",
+          "notice_label_zh": "第342號",
+          "notice_url_en": "/egazette/en/1926-gn342.pdf",
+          "notice_url_zh": "/egazette/zh/1926-gn342.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "G.N.342 naming table: Hau Pui Loong Road (靠背壟道). English romanization later standardised to Kau Pui Lung Road."
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10673",
       "street_code": "10673",
       "street_name_en": "Hau Wong Road",
@@ -8986,9 +9025,9 @@
       "street_code": "11805",
       "street_name_en": "Higashimeiji-dori",
       "street_name_zh": "東明治通",
-      "canonical_naming_year": 1874,
-      "canonical_naming_date": "1874-02-14",
-      "derivation_reason": "declaration_earliest",
+      "canonical_naming_year": null,
+      "canonical_naming_date": null,
+      "derivation_reason": "no_current_name_event",
       "event_count": 5,
       "geometry_link": {
         "status": "active",
@@ -9079,16 +9118,16 @@
           "name_zh": "皇后大道東",
           "previous_name_en": null,
           "previous_name_zh": null,
-          "notice_label_en": null,
-          "notice_label_zh": null,
+          "notice_label_en": "G.N.32",
+          "notice_label_zh": "第32號",
           "notice_url_en": null,
           "notice_url_zh": null,
           "evidence_level": "historical",
-          "evidence_kind": "research",
-          "is_declaration_event": true,
+          "evidence_kind": "gazette_mention",
+          "is_declaration_event": false,
           "event_role": "current_name",
           "derived_from": null,
-          "evidence_kind_note": null,
+          "evidence_kind_note": "G.N.32 repairs tender cites Queen's Road East; not a street-naming notice.",
           "supplementary_evidence": [
             {
               "evidence_kind": "research",
@@ -9115,7 +9154,7 @@
               "supports": [
                 "street_name_en"
               ],
-              "note": "Segment name attested in use since at least the 1870s; does not fix gazette naming date.",
+              "note": "Segment name attested in use since at least the 1870s.",
               "notice_label": null,
               "publication_date": null,
               "government_notice_url_en": null,
@@ -9123,7 +9162,7 @@
             }
           ],
           "source": "crowdsubmitted",
-          "submitter_remarks": "Earliest HKGRO index hit for segment name (G.N.32 repairs tender). 1874-01-10 G.N.6 is repairs only, not naming. Name in informal use since 1870s."
+          "submitter_remarks": "Earliest HKGRO index hit for segment name. Official naming gazette not yet on file."
         },
         {
           "date": "1930-01-01",
@@ -13512,9 +13551,9 @@
       "street_code": "11087",
       "street_name_en": "Kwai Heung Street",
       "street_name_zh": "桂香街",
-      "canonical_naming_year": null,
-      "canonical_naming_date": null,
-      "derivation_reason": "no_current_name_event",
+      "canonical_naming_year": 1919,
+      "canonical_naming_date": "1919-09-26",
+      "derivation_reason": "current_name_since",
       "event_count": 3,
       "geometry_link": {
         "status": "active",
@@ -13626,13 +13665,13 @@
           "notice_url_zh": "/egazette/zh/1919-gn450.pdf",
           "evidence_level": "gazette",
           "evidence_kind": "gazette_primary",
-          "is_declaration_event": false,
+          "is_declaration_event": true,
           "event_role": "current_name",
           "derived_from": null,
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "hkgro",
-          "submitter_remarks": null
+          "submitter_remarks": "G.N.450 rename Torsiem Street → Kwai Heung Street."
         }
       ]
     },
@@ -17309,6 +17348,45 @@
       ]
     },
     {
+      "timeline_id": "code:11352",
+      "street_code": "11352",
+      "street_name_en": "Ma Tau Wei Road",
+      "street_name_zh": "碼頭圍道",
+      "canonical_naming_year": 1926,
+      "canonical_naming_date": "1926-04-16",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11352",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1926-04-16",
+          "change_kind": "declare",
+          "name_en": "Ma Tau Wei Road",
+          "name_zh": "碼頭圍道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.202",
+          "notice_label_zh": "第202號",
+          "notice_url_en": "/egazette/en/1926-gn202.pdf",
+          "notice_url_zh": "/egazette/zh/1926-gn202.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "G.N.202 naming table: Ma Tau Wei Road (碼頭圍道). Database 馬頭圍道 / Ma Tau Wai Road."
+        }
+      ]
+    },
+    {
       "timeline_id": "code:11353",
       "street_code": "11353",
       "street_name_en": "Ma Tin Road",
@@ -18435,9 +18513,9 @@
       "street_code": "11477",
       "street_name_en": "Mui Fong Street",
       "street_name_zh": "梅芳街",
-      "canonical_naming_year": null,
-      "canonical_naming_date": null,
-      "derivation_reason": "no_current_name_event",
+      "canonical_naming_year": 1919,
+      "canonical_naming_date": "1919-09-26",
+      "derivation_reason": "current_name_since",
       "event_count": 3,
       "geometry_link": {
         "status": "active",
@@ -18549,13 +18627,13 @@
           "notice_url_zh": "/egazette/zh/1919-gn450.pdf",
           "evidence_level": "gazette",
           "evidence_kind": "gazette_primary",
-          "is_declaration_event": false,
+          "is_declaration_event": true,
           "event_role": "current_name",
           "derived_from": null,
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "hkgro",
-          "submitter_remarks": null
+          "submitter_remarks": "G.N.450 rename Rienaeker Street → Mui Fong Street."
         }
       ]
     },
@@ -20057,9 +20135,9 @@
       "street_code": "11806",
       "street_name_en": "Nishimeiji-dori",
       "street_name_zh": "西明治通",
-      "canonical_naming_year": 1877,
-      "canonical_naming_date": "1877-01-06",
-      "derivation_reason": "declaration_earliest",
+      "canonical_naming_year": null,
+      "canonical_naming_date": null,
+      "derivation_reason": "no_current_name_event",
       "event_count": 4,
       "geometry_link": {
         "status": "active",
@@ -20150,16 +20228,16 @@
           "name_zh": "皇后大道西",
           "previous_name_en": null,
           "previous_name_zh": null,
-          "notice_label_en": null,
-          "notice_label_zh": null,
+          "notice_label_en": "G.N.4",
+          "notice_label_zh": "第4號",
           "notice_url_en": null,
           "notice_url_zh": null,
           "evidence_level": "historical",
-          "evidence_kind": "research",
-          "is_declaration_event": true,
+          "evidence_kind": "gazette_mention",
+          "is_declaration_event": false,
           "event_role": "current_name",
           "derived_from": null,
-          "evidence_kind_note": null,
+          "evidence_kind_note": "G.N.4 land sale cites Queen's Road West; not a street-naming notice.",
           "supplementary_evidence": [
             {
               "evidence_kind": "research",
@@ -20179,7 +20257,7 @@
             }
           ],
           "source": "crowdsubmitted",
-          "submitter_remarks": "Earliest HKGRO index hit for segment name (G.N.4 land sale). Segment from Water Street to Belcher's Street. Not a formal naming declaration."
+          "submitter_remarks": "Earliest HKGRO index hit for segment name. Official naming gazette not yet on file."
         },
         {
           "date": "1942-04-20",
@@ -25378,7 +25456,7 @@
       "geometry_link": {
         "status": "active",
         "street_code": "12029",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -25386,7 +25464,7 @@
           "date": "1926-04-16",
           "change_kind": "declare",
           "name_en": "Sheung Heung Road",
-          "name_zh": "上鄉道",
+          "name_zh": "上香道",
           "previous_name_en": null,
           "previous_name_zh": null,
           "notice_label_en": "G.N.202",
@@ -25401,7 +25479,7 @@
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "hkgro",
-          "submitter_remarks": null
+          "submitter_remarks": "G.N.202 naming table ZH 上香道; database 上鄉道."
         },
         {
           "date": "1935-04-26",
@@ -29542,9 +29620,9 @@
       "street_code": "12326",
       "street_name_en": "Taku Street",
       "street_name_zh": "大沽街",
-      "canonical_naming_year": null,
-      "canonical_naming_date": null,
-      "derivation_reason": "no_current_name_event",
+      "canonical_naming_year": 1909,
+      "canonical_naming_date": "1909-03-19",
+      "derivation_reason": "current_name_since",
       "event_count": 2,
       "geometry_link": {
         "status": "active",
@@ -29562,17 +29640,17 @@
           "previous_name_zh": null,
           "notice_label_en": null,
           "notice_label_zh": null,
-          "notice_url_en": "/egazette/en/1909-gn184.pdf",
-          "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
+          "notice_url_en": null,
+          "notice_url_zh": null,
           "evidence_level": "historical",
           "evidence_kind": "unknown",
-          "is_declaration_event": true,
+          "is_declaration_event": false,
           "event_role": "former_name",
           "derived_from": null,
-          "evidence_kind_note": null,
+          "evidence_kind_note": "Research date only; not supported by G.N.184 PDF.",
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
-          "submitter_remarks": "Original name circa 1872 (Hung Hom); gazette proof not yet on file."
+          "submitter_remarks": "Station Street / 差館街 circa 1872 (Hung Hom); pre-dates G.N.184 rename proof."
         },
         {
           "date": "1909-03-19",
@@ -29587,13 +29665,13 @@
           "notice_url_zh": "/egazette/zh/1909-gn184.pdf",
           "evidence_level": "gazette",
           "evidence_kind": "gazette_primary",
-          "is_declaration_event": false,
+          "is_declaration_event": true,
           "event_role": "current_name",
           "derived_from": null,
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "hkgro",
-          "submitter_remarks": "Hung Hom Station Street → Taku Street; Gazette No. 184 (19 Mar 1909)."
+          "submitter_remarks": "Station Street → Taku Street; G.N.184 (1909-03-19)."
         }
       ]
     },

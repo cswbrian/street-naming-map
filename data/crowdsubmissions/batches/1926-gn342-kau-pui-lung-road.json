@@ -1,0 +1,30 @@
+{
+  "evidence_schema_version": 1,
+  "batch_id": "1926-gn342-kau-pui-lung-road",
+  "source": "hkgro",
+  "gazette_notice_label": "G.N.342",
+  "publication_date": "1926-06-25",
+  "pdf_en": "data/hkgro/street-naming/g1926/99659.pdf",
+  "streets": [
+    {
+      "link_street_code": "10971",
+      "english_name": "Kau Pui Lung Road",
+      "chinese_name": "靠背壟道",
+      "history": [
+        {
+          "publication_date": "1926-06-25",
+          "change_kind": "declare",
+          "is_declaration_event": true,
+          "street_name_en": "Hau Pui Loong Road",
+          "street_name_zh": "靠背壟道",
+          "event_role": "current_name",
+          "evidence_kind": "gazette_primary",
+          "gazette_notice_label": "G.N.342",
+          "government_notice_url_en": "/egazette/en/1926-gn342.pdf",
+          "government_notice_url_zh": "/egazette/zh/1926-gn342.pdf",
+          "submitter_remarks": "G.N.342 naming table: Hau Pui Loong Road (靠背壟道). English romanization later standardised to Kau Pui Lung Road."
+        }
+      ]
+    }
+  ]
+}

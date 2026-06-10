@@ -1,0 +1,32 @@
+{
+  "evidence_schema_version": 1,
+  "batch_id": "1926-gn202-sheung-heung-road",
+  "source": "hkgro",
+  "gazette_notice_label": "G.N.202",
+  "publication_date": "1926-04-16",
+  "pdf_en": "data/hkgro/street-naming/g1926/99239.pdf",
+  "allow_street_code_link": true,
+  "streets": [
+    {
+      "link_street_code": "12029",
+      "english_name": "Sheung Heung Road",
+      "chinese_name": "上鄉道",
+      "history": [
+        {
+          "submission_id": "1926-gn202-to-kwa-wan-road-12029-1926-04-16",
+          "publication_date": "1926-04-16",
+          "change_kind": "declare",
+          "is_declaration_event": true,
+          "street_name_en": "Sheung Heung Road",
+          "street_name_zh": "上香道",
+          "event_role": "current_name",
+          "evidence_kind": "gazette_primary",
+          "gazette_notice_label": "G.N.202",
+          "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
+          "government_notice_url_zh": "/egazette/zh/1926-gn202.pdf",
+          "submitter_remarks": "G.N.202 naming table ZH 上香道; database 上鄉道."
+        }
+      ]
+    }
+  ]
+}

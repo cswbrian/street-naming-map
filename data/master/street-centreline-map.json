@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-06-09T17:06:50.489Z",
+  "updated_at": "2026-06-10T15:24:48.098Z",
   "links": [
     {
       "timeline_id": "code:10013",
@@ -2364,6 +2364,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10971",
+      "street_code": "10971",
+      "event_ids": [
+        "crowd|1926-gn342-kau-pui-lung-road-Kau-Pui-Lung-Road-靠背壟道-1926-06-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-10",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10978",
       "street_code": "10978",
       "event_ids": [
@@ -3301,6 +3314,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11352",
+      "street_code": "11352",
+      "event_ids": [
+        "crowd|1926-gn202-ma-tau-wai-road-Ma-Tau-Wai-Road-馬頭圍道-1926-04-16"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-10",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11353",
@@ -4851,11 +4877,11 @@
         "crowd|1935-gn334-kowloon-streets-12029-1935-04-26"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-10",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12045",

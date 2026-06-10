@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-09T17:34:37.313Z",
+  "generated_at": "2026-06-10T15:24:49.779Z",
   "source_file": "public/data/hk-streets.geojson",
   "notice_stem_index_path": "public/data/master/egazette-notice-stems.json",
   "egazette_pdf_locales_path": "public/data/master/egazette-pdf-locales.json",
   "totals": {
     "total_segments": 39724,
-    "segments_missing_naming_year": 35967,
+    "segments_missing_naming_year": 35940,
     "unique_roads": 12233,
     "unique_roads_with_street_name": 4578,
-    "unique_roads_with_naming_year": 826,
-    "unique_roads_with_street_name_and_naming_year": 826,
-    "unique_roads_missing_naming_year": 11407,
-    "unique_roads_missing_naming_year_with_street_name": 3752
+    "unique_roads_with_naming_year": 828,
+    "unique_roads_with_street_name_and_naming_year": 828,
+    "unique_roads_missing_naming_year": 11405,
+    "unique_roads_missing_naming_year_with_street_name": 3750
   },
   "kind": "pending",
   "roads": [
@@ -1440,17 +1440,6 @@
       "english_name": "GOLDEN BAMBOO ROAD NORTH",
       "chinese_name": "金竹北路",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 22
-    },
-    {
-      "road_key": "code:11352",
-      "street_code": "11352",
-      "english_name": "MA TAU WAI ROAD",
-      "chinese_name": "馬頭圍道",
-      "street_type": "Main Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -20994,17 +20983,6 @@
       "street_code": "14132",
       "english_name": "KAN HOK LANE",
       "chinese_name": "勤學里",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 5
-    },
-    {
-      "road_key": "code:10971",
-      "street_code": "10971",
-      "english_name": "KAU PUI LUNG ROAD",
-      "chinese_name": "靠背壟道",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,

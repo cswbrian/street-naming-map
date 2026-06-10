@@ -1,0 +1,30 @@
+{
+  "evidence_schema_version": 1,
+  "batch_id": "1926-gn202-ma-tau-wai-road",
+  "source": "hkgro",
+  "gazette_notice_label": "G.N.202",
+  "publication_date": "1926-04-16",
+  "pdf_en": "data/hkgro/street-naming/g1926/99239.pdf",
+  "streets": [
+    {
+      "link_street_code": "11352",
+      "english_name": "Ma Tau Wai Road",
+      "chinese_name": "馬頭圍道",
+      "history": [
+        {
+          "publication_date": "1926-04-16",
+          "change_kind": "declare",
+          "is_declaration_event": true,
+          "street_name_en": "Ma Tau Wei Road",
+          "street_name_zh": "碼頭圍道",
+          "event_role": "current_name",
+          "evidence_kind": "gazette_primary",
+          "gazette_notice_label": "G.N.202",
+          "government_notice_url_en": "/egazette/en/1926-gn202.pdf",
+          "government_notice_url_zh": "/egazette/zh/1926-gn202.pdf",
+          "submitter_remarks": "G.N.202 naming table: Ma Tau Wei Road (碼頭圍道). Database 馬頭圍道 / Ma Tau Wai Road."
+        }
+      ]
+    }
+  ]
+}
