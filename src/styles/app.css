@@ -2338,8 +2338,9 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
   bottom: 0.7rem;
   z-index: 6;
   display: none;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr)) auto;
   gap: 0.28rem;
+  align-items: stretch;
   padding: 0.38rem;
   border-radius: var(--sn-radius);
   background: var(--sn-bg-panel);
@@ -2370,9 +2371,20 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
   font-variant-numeric: tabular-nums;
 }
 
+.map-hud-toolbar-map {
+  font-size: 0.72rem;
+}
+
 .map-hud-toolbar-info {
   font-size: 0.92rem;
   font-weight: 500;
+  aspect-ratio: 1;
+  width: auto;
+  height: 100%;
+  padding-inline: 0.35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .map-bottom-sheet-root {
@@ -2476,6 +2488,7 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
 .timeline-shell,
 .navigator-panel,
 .legend-panel,
+.historical-map-panel-shell,
 .map-year-remarks-panel {
   position: relative;
   width: 100%;
@@ -2503,6 +2516,7 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
 
 .legend-panel.is-collapsed,
 .navigator-panel.is-collapsed,
+.historical-map-panel-shell.is-collapsed,
 .map-year-remarks-panel.is-collapsed {
   overflow: hidden;
 }
@@ -2882,6 +2896,7 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
 
   .legend-panel.is-collapsed,
   .navigator-panel.is-collapsed,
+  .historical-map-panel-shell.is-collapsed,
   .timeline-shell.is-collapsed,
   .map-year-remarks-panel.is-collapsed {
     max-height: none;
@@ -2896,6 +2911,7 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
 
 .legend-panel.is-collapsed .legend-title,
 .navigator-panel.is-collapsed .legend-title,
+.historical-map-panel-shell.is-collapsed .legend-title,
 .timeline-shell.is-collapsed .legend-title,
 .map-year-remarks-panel.is-collapsed .legend-title {
   margin-bottom: 0;
@@ -2917,14 +2933,114 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
 
 .legend-panel .panel-content,
 .navigator-panel .panel-content,
+.historical-map-panel-shell .panel-content,
 .map-year-remarks-panel .panel-content {
   margin-top: 0.5rem;
 }
 
 .legend-panel .panel-content.is-collapsed,
 .navigator-panel .panel-content.is-collapsed,
+.historical-map-panel-shell .panel-content.is-collapsed,
 .map-year-remarks-panel .panel-content.is-collapsed {
   margin-top: 0;
+}
+
+.historical-map-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.historical-map-empty {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--sn-text-muted);
+}
+
+.historical-map-group-title {
+  margin: 0 0 0.3rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--sn-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.historical-map-list,
+.historical-map-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.22rem;
+}
+
+.historical-map-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.1rem;
+  width: 100%;
+  padding: 0.38rem 0.48rem;
+  border: 1px solid var(--sn-border);
+  border-radius: var(--sn-radius);
+  background: transparent;
+  color: var(--sn-text);
+  text-align: left;
+  cursor: pointer;
+}
+
+.historical-map-item:hover {
+  border-color: var(--sn-border-strong);
+  background: var(--sn-bg-elevated);
+}
+
+.historical-map-item.is-active {
+  border-color: var(--sn-accent, #3d7ea6);
+  background: color-mix(in srgb, var(--sn-accent, #3d7ea6) 12%, transparent);
+}
+
+.historical-map-item.is-suggested:not(.is-active) {
+  border-style: dashed;
+}
+
+.historical-map-item-title {
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.historical-map-item-meta {
+  font-size: 0.68rem;
+  color: var(--sn-text-muted);
+}
+
+.historical-map-opacity {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.74rem;
+  color: var(--sn-text-muted);
+}
+
+.historical-map-opacity input[type='range'] {
+  width: 100%;
+}
+
+.historical-map-opacity-value {
+  min-width: 2.5rem;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.historical-map-attribution {
+  margin: 0;
+  font-size: 0.68rem;
+  line-height: 1.4;
+  color: var(--sn-text-muted);
+}
+
+.historical-map-attribution a {
+  color: inherit;
 }
 
 .map-year-remarks-intro {

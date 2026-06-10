@@ -145,6 +145,28 @@ npm run rebuild:naming && npm run report:pending-years
 
 Deploys to GitHub Pages on push to `main`. Live site: [cswbrian.github.io/street-naming-map](https://cswbrian.github.io/street-naming-map/).
 
+### Historical map overlay
+
+The map can show LandsD georeferenced old maps under today’s naming roads (toggle **舊地圖 / Old map** in the HUD).
+
+**Prerequisites:** [GDAL](https://gdal.org/) (`brew install gdal` on macOS).
+
+**Build tiles from GeoTIFF sources:**
+
+1. Download a zip from [DATA.GOV.HK — 歷史地圖](https://data.gov.hk/tc-data/dataset/hk-landsd-openmap-historical-maps) (e.g. [Hong Kong 1927 & 1957](https://www.landsd.gov.hk/landsd_psi_data/SMO/data/Hong-Kong-(1927-&-1957).zip)).
+2. Place each sheet under `data/historical-maps/source/{id}/` as paired `.tif` + `.tfw` (see catalog ids in [`src/config/historicalMaps.mjs`](src/config/historicalMaps.mjs)).
+3. Run:
+
+```bash
+npm run build:historical-maps -- --all
+# or one map:
+npm run build:historical-maps -- --id hk-1957
+```
+
+Output: XYZ tiles in `public/historical-maps/{id}/` and [`public/data/historical-maps-manifest.json`](public/data/historical-maps-manifest.json). Raw GeoTIFFs stay gitignored; commit the built tiles + manifest.
+
+**Repo size note:** A full territory map pyramid is tens to hundreds of MB. Add regional sheets incrementally.
+
 ---
 
 ## Further reading

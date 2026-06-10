@@ -8,8 +8,10 @@ import {
   MapYearRemarksPanel,
 } from '../components/MapHudPanels.jsx'
 import MapHudToolbar from '../components/MapHudToolbar.jsx'
+import HistoricalMapPanel from '../components/HistoricalMapPanel.jsx'
 import MapView from '../components/MapView'
 import TimelineSlider from '../components/TimelineSlider'
+import { suggestHistoricalMapId } from '../lib/historicalMapSuggest.js'
 import { useMapMobileViewport } from '../hooks/useMapMobileViewport.js'
 import { useLocale } from '../i18n/LocaleContext'
 import { useTheme } from '../theme/ThemeContext'
@@ -43,6 +45,7 @@ import {
 const ROADS_URL = `${import.meta.env.BASE_URL}data/hk-streets.geojson`
 const NOTICE_STEMS_URL = `${import.meta.env.BASE_URL}data/master/egazette-notice-stems.json`
 const PDF_LOCALES_URL = `${import.meta.env.BASE_URL}data/master/egazette-pdf-locales.json`
+const HISTORICAL_MAPS_MANIFEST_URL = `${import.meta.env.BASE_URL}data/historical-maps-manifest.json`
 
 const parseBilingualLabel = (value) => {
   const text = String(value ?? '').trim()
@@ -83,11 +86,49 @@ function MapPage() {
   const [pickedRoadMeta, setPickedRoadMeta] = useState(null)
   const [collapsedPanels, setCollapsedPanels] = useState(getDefaultMapPanelCollapse)
   const [mobileSheet, setMobileSheet] = useState(null)
+  const [historicalMapManifest, setHistoricalMapManifest] = useState({ maps: [] })
+  const [activeHistoricalMapId, setActiveHistoricalMapId] = useState(null)
+  const [historicalMapOpacity, setHistoricalMapOpacity] = useState(0.75)
+  const [historicalMapUserPicked, setHistoricalMapUserPicked] = useState(false)
   const isMobileHud = useMapMobileViewport()
 
   useEffect(() => {
     if (!isMobileHud) setMobileSheet(null)
   }, [isMobileHud])
+
+  useEffect(() => {
+    let cancelled = false
+    fetch(HISTORICAL_MAPS_MANIFEST_URL)
+      .then((response) => (response.ok ? response.json() : { maps: [] }))
+      .then((data) => {
+        if (!cancelled) {
+          setHistoricalMapManifest({
+            maps: Array.isArray(data?.maps) ? data.maps : [],
+          })
+        }
+      })
+      .catch(() => {
+        if (!cancelled) setHistoricalMapManifest({ maps: [] })
+      })
+    return () => {
+      cancelled = true
+    }
+  }, [])
+
+  const suggestedHistoricalMapId = useMemo(
+    () => suggestHistoricalMapId(historicalMapManifest.maps, selectedYear),
+    [historicalMapManifest.maps, selectedYear],
+  )
+
+  const activeHistoricalMapEntry = useMemo(
+    () => historicalMapManifest.maps.find((map) => map.id === activeHistoricalMapId) ?? null,
+    [historicalMapManifest.maps, activeHistoricalMapId],
+  )
+
+  useEffect(() => {
+    if (historicalMapUserPicked || !historicalMapManifest.maps.length) return
+    setActiveHistoricalMapId(suggestedHistoricalMapId)
+  }, [suggestedHistoricalMapId, historicalMapUserPicked, historicalMapManifest.maps.length])
 
   const colorGroups = useMemo(
     () =>
@@ -635,6 +676,7 @@ function MapPage() {
         evolution: true,
         navigator: true,
         timeline: true,
+        historicalMap: true,
         yearRemarks: true,
         [panel]: false,
       }
@@ -693,9 +735,24 @@ function MapPage() {
     noMatchingSubDistrict: t('noMatchingSubDistrict'),
   }
 
+  const historicalMapLabels = {
+    none: t('historicalMapNone'),
+    empty: t('historicalMapEmpty'),
+    opacity: t('historicalMapOpacity'),
+    suggested: t('historicalMapSuggested'),
+    attribution: t('historicalMapAttribution'),
+    datasetLink: t('historicalMapDatasetLink'),
+  }
+
+  const handleHistoricalMapSelect = (mapId) => {
+    setHistoricalMapUserPicked(true)
+    setActiveHistoricalMapId(mapId)
+  }
+
   const mobileSheetTitles = {
     evolution: t('evolution'),
     navigator: t('selectDistrict'),
+    historicalMap: t('historicalMapTitle'),
     timeline: t('timeline'),
     yearRemarks: t('mapYearRemarksTitle'),
   }
@@ -743,6 +800,8 @@ function MapPage() {
             })
           }
         }}
+        historicalMapEntry={activeHistoricalMapEntry}
+        historicalMapOpacity={historicalMapOpacity}
         onRoadClear={clearRoadSelection}
       />
       <header className="map-top-bar">
@@ -799,6 +858,7 @@ function MapPage() {
             labels={{
               evolution: t('evolution'),
               district: t('mapHudDistrict'),
+              historicalMap: t('mapHudHistoricalMap'),
               yearRemarks: t('mapYearRemarksTitle'),
               toolbarAria: t('mapHudToolbarAria'),
             }}
@@ -806,7 +866,7 @@ function MapPage() {
             activeSheet={mobileSheet}
             onSelect={toggleMobileSheet}
           />
-          {(['evolution', 'navigator', 'timeline', 'yearRemarks']).map((sheetId) => (
+          {(['evolution', 'navigator', 'historicalMap', 'timeline', 'yearRemarks']).map((sheetId) => (
             <MapBottomSheet
               key={sheetId}
               isOpen={mobileSheet === sheetId}
@@ -835,6 +895,18 @@ function MapPage() {
                   onRegionChange={handleRegionChange}
                   onSubDistrictSearchChange={handleSubDistrictSearchChange}
                   onSubDistrictSelect={handleSubDistrictSelect}
+                />
+              ) : null}
+              {sheetId === 'historicalMap' ? (
+                <HistoricalMapPanel
+                  locale={locale}
+                  maps={historicalMapManifest.maps}
+                  activeMapId={activeHistoricalMapId}
+                  suggestedMapId={historicalMapUserPicked ? null : suggestedHistoricalMapId}
+                  opacity={historicalMapOpacity}
+                  labels={historicalMapLabels}
+                  onSelectMap={handleHistoricalMapSelect}
+                  onOpacityChange={setHistoricalMapOpacity}
                 />
               ) : null}
               {sheetId === 'timeline' ? (
@@ -937,6 +1009,47 @@ function MapPage() {
             isCollapsed={collapsedPanels.timeline}
             onToggle={() => togglePanel('timeline')}
           />
+
+          <section
+            className={`historical-map-panel-shell legend-panel ${collapsedPanels.historicalMap ? 'is-collapsed' : ''}`}
+          >
+            <div
+              className="panel-header"
+              role="button"
+              tabIndex={0}
+              onClick={() => togglePanel('historicalMap')}
+              onKeyDown={(event) => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                  event.preventDefault()
+                  togglePanel('historicalMap')
+                }
+              }}
+            >
+              <p className="legend-title">{t('historicalMapTitle')}</p>
+              <button
+                type="button"
+                className="panel-toggle"
+                onClick={(event) => {
+                  event.stopPropagation()
+                  togglePanel('historicalMap')
+                }}
+              >
+                {collapsedPanels.historicalMap ? '+' : '−'}
+              </button>
+            </div>
+            <div className={`panel-content ${collapsedPanels.historicalMap ? 'is-collapsed' : ''}`}>
+              <HistoricalMapPanel
+                locale={locale}
+                maps={historicalMapManifest.maps}
+                activeMapId={activeHistoricalMapId}
+                suggestedMapId={historicalMapUserPicked ? null : suggestedHistoricalMapId}
+                opacity={historicalMapOpacity}
+                labels={historicalMapLabels}
+                onSelectMap={handleHistoricalMapSelect}
+                onOpacityChange={setHistoricalMapOpacity}
+              />
+            </div>
+          </section>
 
           <section
             className={`map-year-remarks-panel legend-panel ${collapsedPanels.yearRemarks ? 'is-collapsed' : ''}`}

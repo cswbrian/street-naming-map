@@ -2,6 +2,7 @@ function MapHudToolbar({ labels, selectedYear, activeSheet, onSelect }) {
   const items = [
     { id: 'evolution', label: labels.evolution },
     { id: 'navigator', label: labels.district },
+    { id: 'historicalMap', label: labels.historicalMap, className: 'map-hud-toolbar-map' },
     { id: 'timeline', label: String(selectedYear), className: 'map-hud-toolbar-year' },
     { id: 'yearRemarks', label: 'ⓘ', className: 'map-hud-toolbar-info', ariaLabel: labels.yearRemarks },
   ]

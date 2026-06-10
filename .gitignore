@@ -36,6 +36,11 @@ data/egazette/parsed/
 data/egazette/pilot-qa-report.json
 data/egazette/pilot-qa-report.md
 
+# Historical map source GeoTIFFs (large; tiles go to public/historical-maps/)
+data/historical-maps/source/
+data/historical-maps/build/
+data/historical-maps/downloads/
+
 # Crowd submissions (raw exports may contain emails)
 data/crowdsubmissions/responses.csv
 data/crowdsubmissions/pdfs/

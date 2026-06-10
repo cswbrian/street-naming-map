@@ -7,6 +7,7 @@ import 'maplibre-gl/dist/maplibre-gl.css'
 import { buildRoadFilter, buildRoadKey, filterNamedStreetFeatures, hasStreetName } from '../lib/roadKey'
 import { translations } from '../i18n/translations'
 import { isMapMobileViewport } from '../lib/mapViewport.js'
+import { applyHistoricalMapLayer } from '../lib/historicalMapLayer.js'
 import {
   BASEMAP_TILES,
   MAP_BACKGROUND_COLORS,
@@ -427,13 +428,21 @@ function MapView({
   selectedRoadKey,
   selectedRoadCenter,
   selectedRoadInfo,
+  historicalMapEntry,
+  historicalMapOpacity = 0.75,
   onRoadPick,
   onRoadClear,
 }) {
   const mapContainerRef = useRef(null)
   const mapRef = useRef(null)
+  const roadsReadyRef = useRef(false)
+  const historicalMapEntryRef = useRef(historicalMapEntry)
+  const historicalMapOpacityRef = useRef(historicalMapOpacity)
   const selectedRoadMarkerRef = useRef(null)
   const chipRootRef = useRef(null)
+
+  historicalMapEntryRef.current = historicalMapEntry
+  historicalMapOpacityRef.current = historicalMapOpacity
 
   const applyMapState = (map, year, group, roadKey, mapTheme = 'light') => {
     if (
@@ -729,6 +738,12 @@ function MapView({
 
       applyLabelTypography(map, theme)
       applyMapState(map, selectedYear, activeGroup, selectedRoadKey, theme)
+      roadsReadyRef.current = true
+      applyHistoricalMapLayer(
+        map,
+        historicalMapEntryRef.current,
+        historicalMapOpacityRef.current,
+      )
       onMapReady?.()
     })
 
@@ -737,6 +752,7 @@ function MapView({
     })
 
     return () => {
+      roadsReadyRef.current = false
       if (selectedRoadMarkerRef.current) {
         selectedRoadMarkerRef.current.remove()
         selectedRoadMarkerRef.current = null
@@ -901,6 +917,12 @@ function MapView({
     locale,
     onRoadClear,
   ])
+
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map || !roadsReadyRef.current || !map.getLayer(LAYER_ID)) return
+    applyHistoricalMapLayer(map, historicalMapEntry, historicalMapOpacity)
+  }, [historicalMapEntry, historicalMapOpacity])
 
   return <section className="map-container" ref={mapContainerRef} />
 }

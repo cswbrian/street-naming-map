@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-06-10T16:51:14.418Z",
+  "maps": [
+    {
+      "id": "hk-1927",
+      "year": 1927,
+      "labelEn": "Hong Kong (1927)",
+      "labelZh": "香港 (1927)",
+      "scale": "1:100,000",
+      "coverage": "territory",
+      "tileUrlTemplate": "historical-maps/hk-1927/{z}/{x}/{y}.png",
+      "minZoom": 9,
+      "maxZoom": 14,
+      "bounds": [
+        [
+          113.6824101,
+          22.067977
+        ],
+        [
+          114.5703051,
+          22.6843328
+        ]
+      ],
+      "attribution": "© Lands Department, HKSAR — Historical Maps (CSDI open data)"
+    },
+    {
+      "id": "hk-1957",
+      "year": 1957,
+      "labelEn": "Hong Kong (1957)",
+      "labelZh": "香港 (1957)",
+      "scale": "1:100,000",
+      "coverage": "territory",
+      "tileUrlTemplate": "historical-maps/hk-1957/{z}/{x}/{y}.png",
+      "minZoom": 9,
+      "maxZoom": 14,
+      "bounds": [
+        [
+          113.7802151,
+          22.1042983
+        ],
+        [
+          114.5390024,
+          22.6465929
+        ]
+      ],
+      "attribution": "© Lands Department, HKSAR — Historical Maps (CSDI open data)"
+    }
+  ]
+}
