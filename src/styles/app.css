@@ -2949,6 +2949,7 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
   display: flex;
   flex-direction: column;
   gap: 0.55rem;
+  min-width: 0;
 }
 
 .historical-map-empty {
@@ -2977,12 +2978,7 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
   display: flex;
   align-items: center;
   gap: 0.45rem;
-}
-
-.historical-map-off {
-  flex: 0 0 auto;
-  width: auto;
-  white-space: nowrap;
+  min-width: 0;
 }
 
 .historical-map-item {
@@ -2996,6 +2992,12 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
   text-align: left;
   cursor: pointer;
   line-height: 1.35;
+}
+
+.historical-map-item.historical-map-off {
+  flex: 0 0 auto;
+  width: auto;
+  white-space: nowrap;
 }
 
 .historical-map-item:hover {
