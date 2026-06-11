@@ -17,14 +17,15 @@
           "street_name_en": "Fo Chun Road",
           "street_name_zh": "科進路",
           "previous_street_name_en": "Fo King Road",
-          "previous_street_name_zh": null,
+          "previous_street_name_zh": "科景路",
           "gazette_notice_label": "G.N.8236",
           "government_notice_url_en": "/egazette/en/2010-14-51-8236.pdf",
           "evidence_level": "gazette",
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     }
