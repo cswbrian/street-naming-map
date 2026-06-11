@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useLocation, useSearchParams } from 'react-router-dom'
 import AppNav from '../components/AppNav'
 import MapBottomSheet from '../components/MapBottomSheet.jsx'
@@ -87,32 +87,37 @@ function MapPage() {
   const [collapsedPanels, setCollapsedPanels] = useState(getDefaultMapPanelCollapse)
   const [mobileSheet, setMobileSheet] = useState(null)
   const [historicalMapManifest, setHistoricalMapManifest] = useState({ maps: [] })
+  const [historicalMapManifestLoading, setHistoricalMapManifestLoading] = useState(false)
   const [activeHistoricalMapId, setActiveHistoricalMapId] = useState(null)
   const [historicalMapOpacity, setHistoricalMapOpacity] = useState(0.75)
   const [historicalMapUserPicked, setHistoricalMapUserPicked] = useState(false)
+  const historicalMapManifestFetchRef = useRef(null)
   const isMobileHud = useMapMobileViewport()
 
   useEffect(() => {
     if (!isMobileHud) setMobileSheet(null)
   }, [isMobileHud])
 
-  useEffect(() => {
-    let cancelled = false
-    fetch(HISTORICAL_MAPS_MANIFEST_URL)
+  const loadHistoricalMapManifest = useCallback(() => {
+    if (historicalMapManifestFetchRef.current) return historicalMapManifestFetchRef.current
+
+    setHistoricalMapManifestLoading(true)
+    const promise = fetch(HISTORICAL_MAPS_MANIFEST_URL)
       .then((response) => (response.ok ? response.json() : { maps: [] }))
       .then((data) => {
-        if (!cancelled) {
-          setHistoricalMapManifest({
-            maps: Array.isArray(data?.maps) ? data.maps : [],
-          })
-        }
+        setHistoricalMapManifest({
+          maps: Array.isArray(data?.maps) ? data.maps : [],
+        })
       })
       .catch(() => {
-        if (!cancelled) setHistoricalMapManifest({ maps: [] })
+        setHistoricalMapManifest({ maps: [] })
       })
-    return () => {
-      cancelled = true
-    }
+      .finally(() => {
+        setHistoricalMapManifestLoading(false)
+      })
+
+    historicalMapManifestFetchRef.current = promise
+    return promise
   }, [])
 
   const suggestedHistoricalMapId = useMemo(
@@ -124,11 +129,6 @@ function MapPage() {
     () => historicalMapManifest.maps.find((map) => map.id === activeHistoricalMapId) ?? null,
     [historicalMapManifest.maps, activeHistoricalMapId],
   )
-
-  useEffect(() => {
-    if (historicalMapUserPicked || !historicalMapManifest.maps.length) return
-    setActiveHistoricalMapId(suggestedHistoricalMapId)
-  }, [suggestedHistoricalMapId, historicalMapUserPicked, historicalMapManifest.maps.length])
 
   const colorGroups = useMemo(
     () =>
@@ -672,6 +672,10 @@ function MapPage() {
         }
       }
 
+      if (panel === 'historicalMap') {
+        loadHistoricalMapManifest()
+      }
+
       return {
         evolution: true,
         navigator: true,
@@ -684,7 +688,13 @@ function MapPage() {
   }
 
   const toggleMobileSheet = (sheet) => {
-    setMobileSheet((prev) => (prev === sheet ? null : sheet))
+    setMobileSheet((prev) => {
+      const next = prev === sheet ? null : sheet
+      if (next === 'historicalMap') {
+        loadHistoricalMapManifest()
+      }
+      return next
+    })
   }
 
   const closeMobileSheet = () => setMobileSheet(null)
@@ -738,6 +748,7 @@ function MapPage() {
   const historicalMapLabels = {
     none: t('historicalMapNone'),
     empty: t('historicalMapEmpty'),
+    loading: t('historicalMapLoading'),
     opacity: t('historicalMapOpacity'),
     suggested: t('historicalMapSuggested'),
     attribution: t('historicalMapAttribution'),
@@ -903,6 +914,7 @@ function MapPage() {
                   maps={historicalMapManifest.maps}
                   activeMapId={activeHistoricalMapId}
                   suggestedMapId={historicalMapUserPicked ? null : suggestedHistoricalMapId}
+                  isLoading={historicalMapManifestLoading}
                   opacity={historicalMapOpacity}
                   labels={historicalMapLabels}
                   onSelectMap={handleHistoricalMapSelect}
@@ -1043,6 +1055,7 @@ function MapPage() {
                 maps={historicalMapManifest.maps}
                 activeMapId={activeHistoricalMapId}
                 suggestedMapId={historicalMapUserPicked ? null : suggestedHistoricalMapId}
+                isLoading={historicalMapManifestLoading}
                 opacity={historicalMapOpacity}
                 labels={historicalMapLabels}
                 onSelectMap={handleHistoricalMapSelect}

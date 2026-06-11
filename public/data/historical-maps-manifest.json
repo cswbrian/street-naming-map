@@ -8,7 +8,7 @@
       "labelZh": "九龍半島 (1892)",
       "scale": "1:10,000",
       "coverage": "kowloon",
-      "tileUrlTemplate": "historical-maps/kowloon-1892/{z}/{x}/{y}.png",
+      "tileUrlTemplate": "historical-maps/kowloon-1892/{z}/{x}/{y}.png?v=20260611153420",
       "minZoom": 11,
       "maxZoom": 16,
       "bounds": [
@@ -30,7 +30,7 @@
       "labelZh": "維多利亞城 (1897)",
       "scale": "1:2,500",
       "coverage": "hongKongIsland",
-      "tileUrlTemplate": "historical-maps/victoria-1897/{z}/{x}/{y}.png",
+      "tileUrlTemplate": "historical-maps/victoria-1897/{z}/{x}/{y}.png?v=20260611153420",
       "minZoom": 12,
       "maxZoom": 17,
       "bounds": [
@@ -52,7 +52,7 @@
       "labelZh": "沙田 (1904)",
       "scale": "1:20,000",
       "coverage": "newTerritories",
-      "tileUrlTemplate": "historical-maps/shatin-1904/{z}/{x}/{y}.png",
+      "tileUrlTemplate": "historical-maps/shatin-1904/{z}/{x}/{y}.png?v=20260611153420",
       "minZoom": 11,
       "maxZoom": 16,
       "bounds": [
@@ -74,7 +74,7 @@
       "labelZh": "香港 (1927)",
       "scale": "1:100,000",
       "coverage": "territory",
-      "tileUrlTemplate": "historical-maps/hk-1927/{z}/{x}/{y}.png",
+      "tileUrlTemplate": "historical-maps/hk-1927/{z}/{x}/{y}.png?v=20260611153420",
       "minZoom": 9,
       "maxZoom": 14,
       "bounds": [
@@ -96,7 +96,7 @@
       "labelZh": "中環 (1938)",
       "scale": "1:2,500",
       "coverage": "hongKongIsland",
-      "tileUrlTemplate": "historical-maps/central-1938/{z}/{x}/{y}.png",
+      "tileUrlTemplate": "historical-maps/central-1938/{z}/{x}/{y}.png?v=20260611153420",
       "minZoom": 12,
       "maxZoom": 17,
       "bounds": [
@@ -118,7 +118,7 @@
       "labelZh": "九龍半島 (1947)",
       "scale": "1:10,000",
       "coverage": "kowloon",
-      "tileUrlTemplate": "historical-maps/kowloon-1947/{z}/{x}/{y}.png",
+      "tileUrlTemplate": "historical-maps/kowloon-1947/{z}/{x}/{y}.png?v=20260611153420",
       "minZoom": 11,
       "maxZoom": 16,
       "bounds": [
@@ -140,7 +140,7 @@
       "labelZh": "灣仔 (1947)",
       "scale": "1:2,500",
       "coverage": "hongKongIsland",
-      "tileUrlTemplate": "historical-maps/wanchai-1947/{z}/{x}/{y}.png",
+      "tileUrlTemplate": "historical-maps/wanchai-1947/{z}/{x}/{y}.png?v=20260611153420",
       "minZoom": 12,
       "maxZoom": 17,
       "bounds": [
@@ -162,7 +162,7 @@
       "labelZh": "香港 (1957)",
       "scale": "1:100,000",
       "coverage": "territory",
-      "tileUrlTemplate": "historical-maps/hk-1957/{z}/{x}/{y}.png",
+      "tileUrlTemplate": "historical-maps/hk-1957/{z}/{x}/{y}.png?v=20260611153420",
       "minZoom": 9,
       "maxZoom": 14,
       "bounds": [
@@ -184,7 +184,7 @@
       "labelZh": "荃灣 (1958)",
       "scale": "1:10,000",
       "coverage": "newTerritories",
-      "tileUrlTemplate": "historical-maps/tsuenwan-1958/{z}/{x}/{y}.png",
+      "tileUrlTemplate": "historical-maps/tsuenwan-1958/{z}/{x}/{y}.png?v=20260611153420",
       "minZoom": 11,
       "maxZoom": 16,
       "bounds": [
@@ -206,7 +206,7 @@
       "labelZh": "九龍半島 (1963)",
       "scale": "1:10,000",
       "coverage": "kowloon",
-      "tileUrlTemplate": "historical-maps/kowloon-1963/{z}/{x}/{y}.png",
+      "tileUrlTemplate": "historical-maps/kowloon-1963/{z}/{x}/{y}.png?v=20260611153420",
       "minZoom": 11,
       "maxZoom": 16,
       "bounds": [
@@ -228,7 +228,7 @@
       "labelZh": "九龍半島 (1970)",
       "scale": "1:10,000",
       "coverage": "kowloon",
-      "tileUrlTemplate": "historical-maps/kowloon-1970/{z}/{x}/{y}.png",
+      "tileUrlTemplate": "historical-maps/kowloon-1970/{z}/{x}/{y}.png?v=20260611153420",
       "minZoom": 11,
       "maxZoom": 16,
       "bounds": [

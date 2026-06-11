@@ -35,10 +35,11 @@ const manifestPath = join(repoRoot, 'public/data/historical-maps-manifest.json')
 const buildDir = join(repoRoot, 'data/historical-maps/build')
 
 function parseArgs(argv) {
-  const opts = { ids: [], all: false, processes: 4 }
+  const opts = { ids: [], all: false, processes: 4, optimize: true }
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i]
     if (arg === '--all') opts.all = true
+    else if (arg === '--no-optimize') opts.optimize = false
     else if (arg === '--id' && argv[i + 1]) {
       opts.ids.push(argv[++i])
     } else if (arg === '--processes' && argv[i + 1]) {
@@ -47,7 +48,8 @@ function parseArgs(argv) {
       console.log(`Usage:
   node scripts/build-historical-map-tiles.mjs --id hk-1957
   node scripts/build-historical-map-tiles.mjs --all
-  node scripts/build-historical-map-tiles.mjs --id hk-1927 --processes 8`)
+  node scripts/build-historical-map-tiles.mjs --id hk-1927 --processes 8
+  node scripts/build-historical-map-tiles.mjs --all --no-optimize`)
       process.exit(0)
     }
   }
@@ -76,8 +78,25 @@ function readManifest() {
   return JSON.parse(readFileSync(manifestPath, 'utf8'))
 }
 
+function tileVersionFromGeneratedAt(iso) {
+  return String(iso ?? '')
+    .replace(/[-:T.Z]/g, '')
+    .slice(0, 14)
+}
+
+function applyTileVersionToManifest(manifest) {
+  const version = tileVersionFromGeneratedAt(manifest.generatedAt)
+  if (!version) return
+
+  for (const map of manifest.maps) {
+    const base = String(map.tileUrlTemplate ?? '').split('?')[0]
+    map.tileUrlTemplate = `${base}?v=${version}`
+  }
+}
+
 function writeManifest(manifest) {
   manifest.generatedAt = new Date().toISOString()
+  applyTileVersionToManifest(manifest)
   writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`)
 }
 
@@ -206,7 +225,7 @@ function expandPaletteToRgbIfNeeded(sourcePath, label) {
   return rgbPath
 }
 
-function buildMap(entry, manifest, processes) {
+function buildMap(entry, manifest, processes, optimize) {
   const sheetPaths = resolveSourceSheets(entry)
   if (!sheetPaths.length) {
     console.warn(`Skip ${entry.id}: no GeoTIFF sheets in ${join(sourceRoot, entry.id)}`)
@@ -271,6 +290,8 @@ function buildMap(entry, manifest, processes) {
     `Tile ${entry.id} z${min}–${max}`,
   )
 
+  optimizePngTiles(outputDir, { enabled: optimize })
+
   const bounds = computeWgs84Bounds(warpedPath)
   const manifestEntry = {
     id: entry.id,
@@ -301,6 +322,58 @@ function countFiles(dir) {
     else if (name.name.endsWith('.png')) count += 1
   }
   return count
+}
+
+function collectPngPaths(dir) {
+  const paths = []
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    const entryPath = join(dir, entry.name)
+    if (entry.isDirectory()) {
+      paths.push(...collectPngPaths(entryPath))
+    } else if (entry.name.endsWith('.png')) {
+      paths.push(entryPath)
+    }
+  }
+  return paths
+}
+
+function hasCommand(cmd) {
+  return spawnSync('which', [cmd], { encoding: 'utf8' }).status === 0
+}
+
+function optimizePngTiles(dir, { enabled }) {
+  if (!enabled) return
+
+  const pngs = collectPngPaths(dir)
+  if (!pngs.length) return
+
+  if (hasCommand('oxipng')) {
+    const chunkSize = 64
+    console.log(`\n→ Optimizing ${pngs.length} PNG tiles with oxipng`)
+    for (let i = 0; i < pngs.length; i += chunkSize) {
+      const chunk = pngs.slice(i, i + chunkSize)
+      run(
+        'oxipng',
+        ['-o', '4', '--strip', 'safe', ...chunk],
+        `oxipng ${i + 1}–${Math.min(i + chunk.length, pngs.length)} / ${pngs.length}`,
+      )
+    }
+    return
+  }
+
+  if (hasCommand('pngquant')) {
+    console.log(`\n→ Optimizing ${pngs.length} PNG tiles with pngquant`)
+    run(
+      'pngquant',
+      ['--force', '--ext', '.png', '--quality', '65-90', '--speed', '1', ...pngs],
+      'pngquant tile compression',
+    )
+    return
+  }
+
+  console.warn(
+    'Skipping tile optimization: install oxipng (brew install oxipng) or pngquant (brew install pngquant)',
+  )
 }
 
 function discoverBuildableIds() {
@@ -431,7 +504,7 @@ function main() {
       console.warn(`Unknown catalog id: ${id}`)
       continue
     }
-    if (buildMap(entry, manifest, opts.processes)) built += 1
+    if (buildMap(entry, manifest, opts.processes, opts.optimize)) built += 1
   }
 
   writeManifest(manifest)

@@ -3014,6 +3014,12 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
   border-style: dashed;
 }
 
+.historical-map-item.is-suggested-prominent {
+  border-color: var(--sn-accent, #3d7ea6);
+  border-style: solid;
+  background: color-mix(in srgb, var(--sn-accent, #3d7ea6) 8%, transparent);
+}
+
 .historical-map-item-label {
   font-size: 0.78rem;
   font-weight: 600;

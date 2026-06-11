@@ -25,12 +25,17 @@ function HistoricalMapPanel({
   maps,
   activeMapId,
   suggestedMapId,
+  isLoading = false,
   opacity,
   labels,
   onSelectMap,
   onOpacityChange,
 }) {
   const groups = groupMapsByCoverage(maps)
+
+  if (isLoading) {
+    return <p className="historical-map-empty">{labels.loading}</p>
+  }
 
   if (!maps.length) {
     return <p className="historical-map-empty">{labels.empty}</p>
@@ -83,6 +88,7 @@ function HistoricalMapPanel({
                       'historical-map-item',
                       isActive ? 'is-active' : '',
                       isSuggested ? 'is-suggested' : '',
+                      isSuggested && !activeMapId ? 'is-suggested-prominent' : '',
                     ]
                       .filter(Boolean)
                       .join(' ')}
