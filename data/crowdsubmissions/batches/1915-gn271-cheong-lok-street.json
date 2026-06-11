@@ -1,0 +1,33 @@
+{
+  "batch_id": "1915-gn271-cheong-lok-street",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 271",
+  "publication_date": "1915-06-18",
+  "gazette_url_en": "/egazette/en/1915-gn271.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1915-gn271-cheong-lok-street/1915-gn271.pdf",
+  "streets": [
+    {
+      "link_street_code": "10174",
+      "english_name": "CHEONG LOK STREET",
+      "chinese_name": "長樂街",
+      "history": [
+        {
+          "submission_id": "1915-gn271-cheong-lok-street-10174-1915-06-18",
+          "publication_date": "1915-06-18",
+          "change_kind": "declare",
+          "street_name_en": "Cheung Lok Street",
+          "street_name_zh": "長樂街",
+          "gazette_notice_label": "Government Notification No. 271",
+          "government_notice_url_en": "/egazette/en/1915-gn271.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "submitter_remarks": "Gazette EN Cheung Lok Street; database Cheong Lok Street. Private street Nathan Road opposite Ningpo Street across K.I.L. 571."
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}

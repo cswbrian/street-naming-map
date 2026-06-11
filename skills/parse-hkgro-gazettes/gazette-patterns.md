@@ -64,7 +64,23 @@ python3 scripts/render-gazette-pdf.py notice.pdf --page 1 --out /tmp/p2.png
 
 - Same `publication_date`, same `gazette_notice_label`, same hosted PDF for all rows.
 
-### C — Other departments / formats
+### C — Present Name → New Name (rename list)
+
+```
+It is hereby notified that the following changes in the names of Roads … are about to be made:—
+
+PRESENT NAME                          NEW NAME
+Upper Richmond Road                   Robinson Road.
+The path … round "Edenhall" …         Babington Path.
+…
+```
+
+- **One notice, many renames** → one batch, one hosted PDF, **two `history[]` rows per street** (undated `former_name` + dated `rename`).
+- Present name may be a **proper street name** or a **route description** (no prior official name).
+- Do **not** record as a single `declare` or lone `rename` row — the 舊稱 timeline needs the undated former row.
+- Walkthrough: [examples.md](examples.md) Example 5 · Batch: `1904-gn59-victoria-road-renames.json` · Single-street template: `1936-gn918-hill-road.json`.
+
+### D — Other departments / formats
 
 Less common for bulk street lists. Still look for:
 - “undermentioned … street(s)” / “to be known … by the name”
@@ -91,7 +107,8 @@ Build one or more `history[]` rows per street. See [event-model.md](../event-mod
 | “to be known for the future” (first naming on file) | `declare` | `current_name` | 命名 | No earlier `declare` for this timeline |
 | “continuation of …” / 延續 (name already on file) | `extend` | `current_name` | 延伸 | Same EN/ZH; earlier `declare` or known pre-existing name |
 | “instead of” / lists former name | `rename` | `current_name` or `former_name` | 命名 / 易名 / 舊稱 | Fill `previous_street_name_en` / `previous_street_name_zh`; `current_name` when after-names match geojson |
-| Earlier name from research, no gazette | `declare` | `former_name` | 舊稱 | Second `history[]` row before gazette rename |
+| Present Name → New Name (Pattern C) | **two rows** | `former_name` then `current_name` | 舊稱 + 易名 | Row 1: omit `publication_date`, `declare`, present name. Row 2: gazette date, `rename`, new name, `is_declaration_event: true` |
+| Earlier name from research, no gazette | `declare` | `former_name` | 舊稱 | Second `history[]` row before gazette rename; use **dated** row when a verified date exists |
 | “name … abolished” / “ceased to be known” | `delete` | `name_removed` | 名稱撤銷 | Rare; verify wording before applying |
 
 ## Street matching (optional — for `link_street_code`)
@@ -132,5 +149,7 @@ Copy same scan to `public/egazette/zh/{year}-gn{no}.pdf` (pre-1997 English gazet
 | `g1931/617826.pdf` | 58 | 1931-01-30 | 1 — 德成街 |
 | `g1931/618213.pdf` | 172 | 1931-03-20 | 1 — 希雲街 |
 | `g1931/618645.pdf` | 300 | 1931-05-15 | 15 — 糖街, 愛秩序街, … 東院道 |
+| `g1904/484996.pdf` | 59 | 1904-01-29 | 6 — Robinson, Park, Lyttelton, Babington, Oaklands, Park View |
+| Hill Road rename | 918 | 1936-11-20 | 1 — Clarence Street → Hill Road |
 
 See [examples.md](examples.md) for full walkthroughs.

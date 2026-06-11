@@ -63,10 +63,12 @@ Researcher input (PDF, screenshot, URL, map, G.N. label)
 │   │      event_role: current_name if name = geojson, else former_name
 │   │      Example: Po Kong Road in G.N.342 → Kai Tak Road today
 │   │
-│   ├─ Gazette RENAME (previous / instead of)
-│   │   └─ change_kind: rename
-│   │      PDF on file → gazette_primary, is_declaration_event: true, event_role: current_name if after = geojson
-│   │      PDF missing → unknown, is_declaration_event: false (demoted)
+│   ├─ Gazette RENAME (previous / instead of / Present Name → New Name)
+│   │   └─ HKGRO rename notice → [parse-hkgro-gazettes](../parse-hkgro-gazettes/SKILL.md) **two-row pattern**:
+│   │         (1) undated former_name, (2) dated rename — even for single-street researcher submits
+│   │      PDF on file → gazette_primary on both rows; row 2 is_declaration_event: true when after = geojson
+│   │      PDF missing → unknown, is_declaration_event: false on rename row (demoted)
+│   │      Former name had its **own** earlier naming G.N. (e.g. Po Kong in G.N.342) → **dated** former_name row, not undated
 │   │
 │   ├─ Gazette cites street but NOT a naming notice (ordinance, order, address)
 │   │   └─ change_kind: declare, is_declaration_event: false
@@ -117,7 +119,7 @@ Path: `data/crowdsubmissions/batches/{year}-gn{no}-{slug}.json`
 | `pdf_en` | Inbox or `data/hkgro/street-naming/g{year}/{pdf_id}.pdf` |
 | `streets[].link_street_code` | **Required** — today's STREETCODE |
 | `streets[].english_name` / `chinese_name` | Match **geojson today** (not the old name) |
-| `history[]` | One row per dated fact; sort ascending by date |
+| `history[]` | One row per fact; undated `former_name` first, then dated rows ascending |
 
 ### 3 — Publish PDFs
 
@@ -173,9 +175,11 @@ Batch: `data/crowdsubmissions/batches/1925-gn514-nam-cheong-nanchang.json`
 
 Demote any conflicting inferred row (wrong PDF stem) in master before or after apply.
 
-## Pattern B — Former-name naming + demoted rename
+## Pattern B — Former-name naming + demoted rename (dated former row)
 
 **Case:** Kai Tak Road — G.N.342 names Po Kong Road (1926); G.N.572 rename to Kai Tak (1954, PDF pending).
+
+**Contrast:** G.N.59 / G.N.918 style renames where the former name has **no separate naming G.N.** → use **undated** `former_name` row + dated `rename` ([parse-hkgro-gazettes](../parse-hkgro-gazettes/SKILL.md) Pattern C). Example: `1904-gn59-victoria-road-renames.json`.
 
 Batch: `data/crowdsubmissions/batches/1926-gn342-1954-gn572-kai-tak-road.json`
 
@@ -319,11 +323,13 @@ When the gazette PDF arrives:
 - Leave wrong `government_notice_url_*` on demoted rows
 - Hand-edit `public/data/hk-streets.geojson` naming fields
 - Copy `street_name_zh` from `data/hkgro/street-naming/parsed-notices.json` when the gazette scan has no legible Chinese for that street (G.N.342 Po Kong Road is EN-only)
+- Record a HKGRO rename notice as a **single** `rename` row only — use undated `former_name` + dated `rename` ([parse-hkgro-gazettes](../parse-hkgro-gazettes/SKILL.md))
 
 ## QA checklist
 
 - [ ] `link_street_code` matches geojson
-- [ ] `history[]` dates ascending; earliest drives `map_year`
+- [ ] `history[]`: undated `former_name` first, then dates ascending; earliest **dated** row drives `map_year`
+- [ ] Rename notices: 舊稱 timeline shows former name as its own row (date blank)
 - [ ] Demoted rows: `is_declaration_event: false`; verified `gazette_primary` rows: `is_declaration_event: true`
 - [ ] `map_year` vs `naming_year`: built/mention can be earlier than canonical (Pattern D/E)
 - [ ] Streets table **地圖年份** uses `map_display_date`, not canonical alone

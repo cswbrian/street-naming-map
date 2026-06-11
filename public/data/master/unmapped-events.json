@@ -1,20 +1,33 @@
 {
-  "generated_at": "2026-06-11T15:10:41.720Z",
+  "generated_at": "2026-06-11T17:22:08.155Z",
   "source_files": {
     "events": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-events.json",
     "centreline_map": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-centreline-map.json"
   },
   "totals": {
-    "master_events": 962,
-    "mapped_event_ids": 656,
-    "unmapped_events": 306,
+    "master_events": 977,
+    "mapped_event_ids": 670,
+    "unmapped_events": 308,
     "by_source": {
+      "hkgro": 2,
       "egazette_pdf": 164,
       "crowdsubmitted": 25,
       "landsd": 117
     }
   },
   "events": [
+    {
+      "event_id": "crowd|1904-gn59-victoria-road-renames-park-view-1904-01-29",
+      "source": "hkgro",
+      "publication_date": "1904-01-29",
+      "change_kind": "rename",
+      "street_name_en": "Park View",
+      "street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN59",
+      "name_key": "Park View|"
+    },
     {
       "event_id": "1927-11-25|GN4780|0",
       "source": "egazette_pdf",
@@ -3686,6 +3699,18 @@
       "district_raw_zh": "元朗",
       "notice_no": "GN2370",
       "name_key": "Ping Yip Street|屏業街"
+    },
+    {
+      "event_id": "crowd|1904-gn59-victoria-road-renames-park-view-richmond-terrace-former",
+      "source": "hkgro",
+      "publication_date": null,
+      "change_kind": "declare",
+      "street_name_en": "Richmond Terrace",
+      "street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN59",
+      "name_key": "Richmond Terrace|"
     }
   ]
 }

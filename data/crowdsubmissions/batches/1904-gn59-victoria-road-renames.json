@@ -1,0 +1,215 @@
+{
+  "batch_id": "1904-gn59-victoria-road-renames",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 59",
+  "publication_date": "1904-01-29",
+  "gazette_url_en": "/egazette/en/1904-gn59.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1904-gn59-victoria-road-renames/1904-gn59.pdf",
+  "streets": [
+    {
+      "link_street_code": "11817",
+      "english_name": "ROBINSON ROAD",
+      "chinese_name": "羅便臣道",
+      "history": [
+        {
+          "submission_id": "1904-gn59-victoria-road-renames-11817-upper-richmond-former",
+          "change_kind": "declare",
+          "street_name_en": "Upper Richmond Road",
+          "street_name_zh": null,
+          "gazette_notice_label": "Government Notification No. 59",
+          "government_notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "submitter_remarks": "Former name attested in G.N.59 rename notice; separate naming date not recorded on file."
+        },
+        {
+          "submission_id": "1904-gn59-victoria-road-renames-11817-1904-01-29",
+          "publication_date": "1904-01-29",
+          "change_kind": "rename",
+          "previous_street_name_en": "Upper Richmond Road",
+          "street_name_en": "Robinson Road",
+          "street_name_zh": null,
+          "gazette_notice_label": "Government Notification No. 59",
+          "government_notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "link_street_code": "11658",
+      "english_name": "PARK ROAD",
+      "chinese_name": "柏道",
+      "history": [
+        {
+          "submission_id": "1904-gn59-victoria-road-renames-11658-park-road-former",
+          "change_kind": "declare",
+          "street_name_en": "Robinson Road (west of Upper Richmond junction)",
+          "street_name_zh": null,
+          "gazette_notice_label": "Government Notification No. 59",
+          "government_notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "submitter_remarks": "G.N.59 present name: that part of Robinson Road west of its junction with Upper Richmond Road."
+        },
+        {
+          "submission_id": "1904-gn59-victoria-road-renames-11658-1904-01-29",
+          "publication_date": "1904-01-29",
+          "change_kind": "rename",
+          "previous_street_name_en": "Robinson Road (west of Upper Richmond junction)",
+          "street_name_en": "Park Road",
+          "street_name_zh": null,
+          "gazette_notice_label": "Government Notification No. 59",
+          "government_notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "link_street_code": "11336",
+      "english_name": "LYTTELTON ROAD",
+      "chinese_name": "列堤頓道",
+      "history": [
+        {
+          "submission_id": "1904-gn59-victoria-road-renames-11336-lower-richmond-former",
+          "change_kind": "declare",
+          "street_name_en": "Lower Richmond Road",
+          "street_name_zh": null,
+          "gazette_notice_label": "Government Notification No. 59",
+          "government_notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "submitter_remarks": "Former name attested in G.N.59 rename notice; separate naming date not recorded on file."
+        },
+        {
+          "submission_id": "1904-gn59-victoria-road-renames-11336-1904-01-29",
+          "publication_date": "1904-01-29",
+          "change_kind": "rename",
+          "previous_street_name_en": "Lower Richmond Road",
+          "street_name_en": "Lyttelton Road",
+          "street_name_zh": null,
+          "gazette_notice_label": "Government Notification No. 59",
+          "government_notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "link_street_code": "10038",
+      "english_name": "BABINGTON PATH",
+      "chinese_name": "巴丙頓道",
+      "history": [
+        {
+          "submission_id": "1904-gn59-victoria-road-renames-10038-babington-former",
+          "change_kind": "declare",
+          "street_name_en": "Path round Edenhall and Inglewood",
+          "street_name_zh": null,
+          "gazette_notice_label": "Government Notification No. 59",
+          "government_notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "submitter_remarks": "G.N.59 present name: The path or road which runs Westward from Robinson Road round Edenhall and Inglewood Residences and then Southward across Lower Richmond Road into Upper Richmond Road."
+        },
+        {
+          "submission_id": "1904-gn59-victoria-road-renames-10038-1904-01-29",
+          "publication_date": "1904-01-29",
+          "change_kind": "rename",
+          "previous_street_name_en": "Path round Edenhall and Inglewood",
+          "street_name_en": "Babington Path",
+          "street_name_zh": null,
+          "gazette_notice_label": "Government Notification No. 59",
+          "government_notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "link_street_code": "11560",
+      "english_name": "OAKLANDS PATH",
+      "chinese_name": "屋蘭士里",
+      "history": [
+        {
+          "submission_id": "1904-gn59-victoria-road-renames-11560-oaklands-former",
+          "change_kind": "declare",
+          "street_name_en": "Path past Oaklands Residence",
+          "street_name_zh": null,
+          "gazette_notice_label": "Government Notification No. 59",
+          "government_notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "submitter_remarks": "G.N.59 present name: The path or road which runs Southward, from the same point in Robinson Road as above described, past Oaklands Residence to Lower Richmond Road."
+        },
+        {
+          "submission_id": "1904-gn59-victoria-road-renames-11560-1904-01-29",
+          "publication_date": "1904-01-29",
+          "change_kind": "rename",
+          "previous_street_name_en": "Path past Oaklands Residence",
+          "street_name_en": "Oaklands Path",
+          "street_name_zh": null,
+          "gazette_notice_label": "Government Notification No. 59",
+          "government_notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "english_name": "PARK VIEW",
+      "chinese_name": null,
+      "history": [
+        {
+          "submission_id": "1904-gn59-victoria-road-renames-park-view-richmond-terrace-former",
+          "change_kind": "declare",
+          "street_name_en": "Richmond Terrace",
+          "street_name_zh": null,
+          "gazette_notice_label": "Government Notification No. 59",
+          "government_notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "submitter_remarks": "Former name attested in G.N.59 rename notice; separate naming date not recorded on file."
+        },
+        {
+          "submission_id": "1904-gn59-victoria-road-renames-park-view-1904-01-29",
+          "publication_date": "1904-01-29",
+          "change_kind": "rename",
+          "previous_street_name_en": "Richmond Terrace",
+          "street_name_en": "Park View",
+          "street_name_zh": null,
+          "gazette_notice_label": "Government Notification No. 59",
+          "government_notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name"
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}

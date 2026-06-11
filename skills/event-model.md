@@ -44,12 +44,13 @@ Read notice
 │            → evidence_kind: gazette_inferred, derived_from cites citing G.N.
 │            → Host citing G.N. PDF; optional later backfill cited G.N. → gazette_primary
 │
-├─ Gazette lists previous / "instead of" name?
-│   └─ YES → change_kind: rename
-│            Fill previous_street_name_en/zh + street_name_en/zh
-│            event_role: current_name if after-names match geojson, else former_name
-│            If user/research supplies earlier name without gazette → add second row:
-│              declare + former_name + evidence_kind: unknown|research
+├─ Gazette lists previous / "instead of" / Present Name → New Name?
+│   └─ YES → **Two rows** when former name has no earlier naming G.N. on file:
+│              (1) omit publication_date, declare, event_role: former_name, street_name_en = present name
+│              (2) gazette date, rename, previous_street_name_*, street_name_en = new name, current_name
+│            See 1904-gn59-victoria-road-renames.json, 1936-gn918-hill-road.json
+│            If user/research supplies earlier name with its own verified date → dated former_name row instead
+│            Single rename row only when after-name ≠ geojson (former_name-only segment rename)
 │
 ├─ "continuation of …" / 延續 / existing name on map + earlier declare on file?
 │   └─ YES → change_kind: extend, event_role: current_name
@@ -91,7 +92,7 @@ Each `history[]` entry should set `evidence_kind` and `event_role` explicitly.
 
 | Field | Required when | Notes |
 |-------|---------------|-------|
-| `publication_date` | Always | ISO `YYYY-MM-DD`; use `YYYY-01-01` if only year known |
+| `publication_date` | Dated events | ISO `YYYY-MM-DD`; use `YYYY-01-01` if only year known. **Omit or `null`** on undated `former_name` rows attested only inside a rename notice |
 | `change_kind` | Always | `declare`, `rename`, `delete`, or `extend` |
 | `event_role` | Always | See table above |
 | `street_name_en` / `street_name_zh` | Usually | Name **after** this event |
@@ -156,7 +157,40 @@ See `1909-gn184-taku-street.json` — older name without gazette + gazette renam
 ]
 ```
 
-### 3 — Former-name-only segment rename
+### 3 — Rename notice with undated former name (two rows)
+
+When a gazette rename lists a present/previous name but that name has **no separate naming date** on file, emit **two** `history[]` rows so 舊稱 shows the old name. See `1936-gn918-hill-road.json`, `1904-gn59-victoria-road-renames.json`.
+
+```json
+"history": [
+  {
+    "submission_id": "1904-gn59-victoria-road-renames-11817-upper-richmond-former",
+    "change_kind": "declare",
+    "street_name_en": "Upper Richmond Road",
+    "street_name_zh": null,
+    "event_role": "former_name",
+    "evidence_kind": "gazette_primary",
+    "government_notice_url_en": "/egazette/en/1904-gn59.pdf",
+    "submitter_remarks": "Former name attested in G.N.59 rename notice; separate naming date not recorded on file."
+  },
+  {
+    "submission_id": "1904-gn59-victoria-road-renames-11817-1904-01-29",
+    "publication_date": "1904-01-29",
+    "change_kind": "rename",
+    "previous_street_name_en": "Upper Richmond Road",
+    "street_name_en": "Robinson Road",
+    "street_name_zh": null,
+    "evidence_kind": "gazette_primary",
+    "is_declaration_event": true,
+    "event_role": "current_name",
+    "government_notice_url_en": "/egazette/en/1904-gn59.pdf"
+  }
+]
+```
+
+Descriptive present names (route prose): short paraphrase in `street_name_en` / `previous_street_name_en`; full gazette sentence in row 1 `submitter_remarks` only.
+
+### 4 — Former-name-only segment rename
 
 See `1924-gn119-prince-edward-road.json` — segment renamed to a name that is **not** today’s map name (`former_name` only):
 
@@ -173,7 +207,7 @@ See `1924-gn119-prince-edward-road.json` — segment renamed to a name that is *
 }]
 ```
 
-### 4 — Built + former names (research)
+### 5 — Built + former names (research)
 
 See `hrch-fish-o-1880-1897-mui-kwai.json`:
 
@@ -199,7 +233,7 @@ See `hrch-fish-o-1880-1897-mui-kwai.json`:
 ]
 ```
 
-### 5 — Gazette mention (non-naming cite)
+### 6 — Gazette mention (non-naming cite)
 
 See `1925-gn514-nam-cheong-nanchang.json` and [research-street-history/SKILL.md](research-street-history/SKILL.md):
 
@@ -217,7 +251,7 @@ See `1925-gn514-nam-cheong-nanchang.json` and [research-street-history/SKILL.md]
 }]
 ```
 
-### 6 — Former-name naming + demoted rename
+### 7 — Former-name naming + demoted rename
 
 See `1926-gn342-1954-gn572-kai-tak-road.json` — G.N.342 names old name; G.N.572 rename pending PDF:
 
@@ -247,7 +281,7 @@ See `1926-gn342-1954-gn572-kai-tak-road.json` — G.N.342 names old name; G.N.57
 ]
 ```
 
-### 7 — 取代街道說明 → inferred Previous G.N.
+### 8 — 取代街道說明 → inferred Previous G.N.
 
 See `2018-gn6060-first-previous-gn.json`. **Do not** use citing G.N. date as naming date:
 
@@ -273,7 +307,7 @@ See `2018-gn6060-first-previous-gn.json`. **Do not** use citing G.N. date as nam
 
 Later: apply primary PDF for G.N.1713 → upgrade same row to `gazette_primary`, remove citation-only remarks.
 
-### 8 — Name extension (continuation)
+### 9 — Name extension (continuation)
 
 G.N.427 窩打老道 (Prince Edward Rd → Cornwall St) when G.N.331 already on file:
 
@@ -290,7 +324,7 @@ G.N.427 窩打老道 (Prince Edward Rd → Cornwall St) when G.N.331 already on 
 
 G.N.331 stays `declare` for 12690 until pre-1929 origin is sourced.
 
-### 9 — Name abolished (pattern; rare)
+### 10 — Name abolished (pattern; rare)
 
 ```json
 "history": [{

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-11T16:16:14.864Z",
+  "generated_at": "2026-06-11T17:22:36.910Z",
   "totals": {
-    "timelines": 917,
-    "linked_active": 619,
-    "unlinked": 298,
+    "timelines": 928,
+    "linked_active": 628,
+    "unlinked": 300,
     "legacy_or_name_only": 0
   },
   "timelines": [
@@ -380,6 +380,64 @@
       ]
     },
     {
+      "timeline_id": "code:10038",
+      "street_code": "10038",
+      "street_name_en": "Babington Path",
+      "street_name_zh": "巴丙頓道",
+      "canonical_naming_year": 1904,
+      "canonical_naming_date": "1904-01-29",
+      "derivation_reason": "current_name_since",
+      "event_count": 2,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10038",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": null,
+          "change_kind": "declare",
+          "name_en": "Path round Edenhall and Inglewood",
+          "name_zh": null,
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.59",
+          "notice_label_zh": "第59號",
+          "notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "notice_url_zh": "/egazette/zh/1904-gn59.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "G.N.59 present name: The path or road which runs Westward from Robinson Road round Edenhall and Inglewood Residences and then Southward across Lower Richmond Road into Upper Richmond Road."
+        },
+        {
+          "date": "1904-01-29",
+          "change_kind": "rename",
+          "name_en": "Babington Path",
+          "name_zh": "巴丙頓道",
+          "previous_name_en": "Path round Edenhall and Inglewood",
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.59",
+          "notice_label_zh": "第59號",
+          "notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "notice_url_zh": "/egazette/zh/1904-gn59.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10039",
       "street_code": "10039",
       "street_name_en": "Bailey Street",
@@ -421,7 +479,7 @@
       "timeline_id": "code:10041",
       "street_code": "10041",
       "street_name_en": "Baker Street",
-      "street_name_zh": "必嘉街",
+      "street_name_zh": "邲嘉街",
       "canonical_naming_year": 1923,
       "canonical_naming_date": "1923-09-28",
       "derivation_reason": "declaration_earliest",
@@ -437,7 +495,7 @@
           "date": "1923-09-28",
           "change_kind": "declare",
           "name_en": "Baker Street",
-          "name_zh": "必嘉街",
+          "name_zh": "邲嘉街",
           "previous_name_en": null,
           "previous_name_zh": null,
           "notice_label_en": "G.N.411",
@@ -451,7 +509,7 @@
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "hkgro",
-          "submitter_remarks": null
+          "submitter_remarks": "Gazette ZH 邲嘉街; database 必嘉街."
         }
       ]
     },
@@ -2444,6 +2502,44 @@
           "supplementary_evidence": null,
           "source": "hkgro",
           "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10174",
+      "street_code": "10174",
+      "street_name_en": "Cheung Lok Street",
+      "street_name_zh": "長樂街",
+      "canonical_naming_year": 1915,
+      "canonical_naming_date": "1915-06-18",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10174",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1915-06-18",
+          "change_kind": "declare",
+          "name_en": "Cheung Lok Street",
+          "name_zh": "長樂街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.271",
+          "notice_label_zh": "第271號",
+          "notice_url_en": "/egazette/en/1915-gn271.pdf",
+          "notice_url_zh": "/egazette/zh/1915-gn271.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "Gazette EN Cheung Lok Street; database Cheong Lok Street. Private street Nathan Road opposite Ningpo Street across K.I.L. 571."
         }
       ]
     },
@@ -14075,6 +14171,44 @@
       ]
     },
     {
+      "timeline_id": "code:11145",
+      "street_code": "11145",
+      "street_name_en": "La Salle Road",
+      "street_name_zh": "喇沙利道",
+      "canonical_naming_year": 1935,
+      "canonical_naming_date": "1935-03-01",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11145",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1935-03-01",
+          "change_kind": "declare",
+          "name_en": "La Salle Road",
+          "name_zh": "喇沙利道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.165",
+          "notice_label_zh": "第165號",
+          "notice_url_en": "/egazette/en/1935-gn165.pdf",
+          "notice_url_zh": "/egazette/zh/1935-gn165.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:11149",
       "street_code": "11149",
       "street_name_en": "Lai Chi Kok Road",
@@ -16596,6 +16730,64 @@
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "landsd",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11336",
+      "street_code": "11336",
+      "street_name_en": "Lyttelton Road",
+      "street_name_zh": "列堤頓道",
+      "canonical_naming_year": 1904,
+      "canonical_naming_date": "1904-01-29",
+      "derivation_reason": "current_name_since",
+      "event_count": 2,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11336",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": null,
+          "change_kind": "declare",
+          "name_en": "Lower Richmond Road",
+          "name_zh": null,
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.59",
+          "notice_label_zh": "第59號",
+          "notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "notice_url_zh": "/egazette/zh/1904-gn59.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "Former name attested in G.N.59 rename notice; separate naming date not recorded on file."
+        },
+        {
+          "date": "1904-01-29",
+          "change_kind": "rename",
+          "name_en": "Lyttelton Road",
+          "name_zh": "列堤頓道",
+          "previous_name_en": "Lower Richmond Road",
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.59",
+          "notice_label_zh": "第59號",
+          "notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "notice_url_zh": "/egazette/zh/1904-gn59.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
           "submitter_remarks": null
         }
       ]
@@ -19965,6 +20157,64 @@
       ]
     },
     {
+      "timeline_id": "code:11560",
+      "street_code": "11560",
+      "street_name_en": "Oaklands Path",
+      "street_name_zh": "屋蘭士里",
+      "canonical_naming_year": 1904,
+      "canonical_naming_date": "1904-01-29",
+      "derivation_reason": "current_name_since",
+      "event_count": 2,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11560",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": null,
+          "change_kind": "declare",
+          "name_en": "Path past Oaklands Residence",
+          "name_zh": null,
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.59",
+          "notice_label_zh": "第59號",
+          "notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "notice_url_zh": "/egazette/zh/1904-gn59.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "G.N.59 present name: The path or road which runs Southward, from the same point in Robinson Road as above described, past Oaklands Residence to Lower Richmond Road."
+        },
+        {
+          "date": "1904-01-29",
+          "change_kind": "rename",
+          "name_en": "Oaklands Path",
+          "name_zh": "屋蘭士里",
+          "previous_name_en": "Path past Oaklands Residence",
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.59",
+          "notice_label_zh": "第59號",
+          "notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "notice_url_zh": "/egazette/zh/1904-gn59.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "Ocean Drive|海洋徑",
       "street_code": null,
       "street_name_en": "Ocean Drive",
@@ -20961,6 +21211,102 @@
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
           "submitter_remarks": ""
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11658",
+      "street_code": "11658",
+      "street_name_en": "Park Road",
+      "street_name_zh": "柏道",
+      "canonical_naming_year": 1904,
+      "canonical_naming_date": "1904-01-29",
+      "derivation_reason": "current_name_since",
+      "event_count": 2,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11658",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": null,
+          "change_kind": "declare",
+          "name_en": "Robinson Road (west of Upper Richmond junction)",
+          "name_zh": null,
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.59",
+          "notice_label_zh": "第59號",
+          "notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "notice_url_zh": "/egazette/zh/1904-gn59.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "G.N.59 present name: that part of Robinson Road west of its junction with Upper Richmond Road."
+        },
+        {
+          "date": "1904-01-29",
+          "change_kind": "rename",
+          "name_en": "Park Road",
+          "name_zh": "柏道",
+          "previous_name_en": "Robinson Road (west of Upper Richmond junction)",
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.59",
+          "notice_label_zh": "第59號",
+          "notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "notice_url_zh": "/egazette/zh/1904-gn59.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "Park View|",
+      "street_code": null,
+      "street_name_en": "Park View",
+      "street_name_zh": null,
+      "canonical_naming_year": 1904,
+      "canonical_naming_date": "1904-01-29",
+      "derivation_reason": "current_name_since",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1904-01-29",
+          "change_kind": "rename",
+          "name_en": "Park View",
+          "name_zh": null,
+          "previous_name_en": "Richmond Terrace",
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.59",
+          "notice_label_zh": "第59號",
+          "notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "notice_url_zh": "/egazette/zh/1904-gn59.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -22822,6 +23168,102 @@
       ]
     },
     {
+      "timeline_id": "Richmond Terrace|",
+      "street_code": null,
+      "street_name_en": "Richmond Terrace",
+      "street_name_zh": null,
+      "canonical_naming_year": null,
+      "canonical_naming_date": null,
+      "derivation_reason": "no_current_name_event",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": null,
+          "change_kind": "declare",
+          "name_en": "Richmond Terrace",
+          "name_zh": null,
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.59",
+          "notice_label_zh": "第59號",
+          "notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "notice_url_zh": "/egazette/zh/1904-gn59.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "Former name attested in G.N.59 rename notice; separate naming date not recorded on file."
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11817",
+      "street_code": "11817",
+      "street_name_en": "Robinson Road",
+      "street_name_zh": "羅便臣道",
+      "canonical_naming_year": 1904,
+      "canonical_naming_date": "1904-01-29",
+      "derivation_reason": "current_name_since",
+      "event_count": 2,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11817",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": null,
+          "change_kind": "declare",
+          "name_en": "Upper Richmond Road",
+          "name_zh": null,
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.59",
+          "notice_label_zh": "第59號",
+          "notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "notice_url_zh": "/egazette/zh/1904-gn59.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "Former name attested in G.N.59 rename notice; separate naming date not recorded on file."
+        },
+        {
+          "date": "1904-01-29",
+          "change_kind": "rename",
+          "name_en": "Robinson Road",
+          "name_zh": "羅便臣道",
+          "previous_name_en": "Upper Richmond Road",
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.59",
+          "notice_label_zh": "第59號",
+          "notice_url_en": "/egazette/en/1904-gn59.pdf",
+          "notice_url_zh": "/egazette/zh/1904-gn59.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:11818",
       "street_code": "11818",
       "street_name_en": "Rock Hill Street",
@@ -23322,6 +23764,82 @@
           "supplementary_evidence": null,
           "source": "hkgro",
           "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11863",
+      "street_code": "11863",
+      "street_name_en": "Sai Yeung Choi Street",
+      "street_name_zh": "西洋菜街",
+      "canonical_naming_year": null,
+      "canonical_naming_date": null,
+      "derivation_reason": "no_current_name_event",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11863",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1924-08-29",
+          "change_kind": "declare",
+          "name_en": "Sai Yeung Choi Street",
+          "name_zh": "西洋菜街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.492",
+          "notice_label_zh": "第492號",
+          "notice_url_en": "/egazette/en/1924-gn492.pdf",
+          "notice_url_zh": "/egazette/zh/1924-gn492.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "G.N.492 named unified Sai Yeung Choi Street (西洋菜街), first street north of Soy Street parallel to Coronation Road; today's centreline is the North segment (西洋菜北街)."
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11864",
+      "street_code": "11864",
+      "street_name_en": "Sai Yeung Choi Street",
+      "street_name_zh": "西洋菜街",
+      "canonical_naming_year": null,
+      "canonical_naming_date": null,
+      "derivation_reason": "no_current_name_event",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11864",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1924-08-29",
+          "change_kind": "declare",
+          "name_en": "Sai Yeung Choi Street",
+          "name_zh": "西洋菜街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.492",
+          "notice_label_zh": "第492號",
+          "notice_url_en": "/egazette/en/1924-gn492.pdf",
+          "notice_url_zh": "/egazette/zh/1924-gn492.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "G.N.492 named unified Sai Yeung Choi Street (西洋菜街), first street north of Soy Street parallel to Coronation Road; today's centreline is the South segment (西洋菜南街)."
         }
       ]
     },

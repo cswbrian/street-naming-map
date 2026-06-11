@@ -1,11 +1,52 @@
 {
   "batch_id": "1924-gn492-sai-yeung-choi-street",
   "source": "hkgro",
+  "gazette_only": true,
   "gazette_notice_label": "Government Notification No. 492",
   "publication_date": "1924-08-29",
   "gazette_url_en": "/egazette/en/1924-gn492.pdf",
   "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1924-gn492-sai-yeung-choi-street/1924-gn492.pdf",
   "streets": [
+    {
+      "link_street_code": "11863",
+      "english_name": "SAI YEUNG CHOI STREET NORTH",
+      "chinese_name": "西洋菜北街",
+      "history": [
+        {
+          "submission_id": "1924-gn492-sai-yeung-choi-street-11863-former-1924-08-29",
+          "publication_date": "1924-08-29",
+          "change_kind": "declare",
+          "is_declaration_event": true,
+          "street_name_en": "Sai Yeung Choi Street",
+          "street_name_zh": "西洋菜街",
+          "gazette_notice_label": "Government Notification No. 492",
+          "government_notice_url_en": "/egazette/en/1924-gn492.pdf",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "G.N.492 named unified Sai Yeung Choi Street (西洋菜街), first street north of Soy Street parallel to Coronation Road; today's centreline is the North segment (西洋菜北街)."
+        }
+      ]
+    },
+    {
+      "link_street_code": "11864",
+      "english_name": "SAI YEUNG CHOI STREET SOUTH",
+      "chinese_name": "西洋菜南街",
+      "history": [
+        {
+          "submission_id": "1924-gn492-sai-yeung-choi-street-11864-former-1924-08-29",
+          "publication_date": "1924-08-29",
+          "change_kind": "declare",
+          "is_declaration_event": true,
+          "street_name_en": "Sai Yeung Choi Street",
+          "street_name_zh": "西洋菜街",
+          "gazette_notice_label": "Government Notification No. 492",
+          "government_notice_url_en": "/egazette/en/1924-gn492.pdf",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "G.N.492 named unified Sai Yeung Choi Street (西洋菜街), first street north of Soy Street parallel to Coronation Road; today's centreline is the South segment (西洋菜南街)."
+        }
+      ]
+    },
     {
       "street_code": "12513",
       "english_name": "TUNG CHOI STREET",

@@ -57,13 +57,15 @@ HKGRO scans have **empty text** — read rendered PNGs visually.
 DESCRIPTION  |  FUTURE NAME  |  CHINESE VERSION
 ```
 
+**Pattern C — rename table (Present Name → New Name):** intro says “changes in the names” / lists **Present Name** and **New Name** (may be multi-street, one page). Example: G.N.59 (1904) — Upper Richmond Road → Robinson Road; descriptive paths → Babington Path. **Always emit two `history[]` rows per street** — see [Rename notices — two rows](#rename-notices--two-history-rows-舊稱-timeline) below.
+
 Extract per row:
 - English name (strip trailing `.`)
 - Chinese name
-- Previous name (if “instead of” or former-name column present)
+- Previous / present name (rename table, “instead of”, or former-name column)
 - Description (use for **matching/disambiguation only** — do not store in batch unless names mismatch)
 - Shared: notice `No. N`, gazette header date
-- Default `change_kind`: `declare` unless rename wording detected (see [gazette-patterns.md](gazette-patterns.md))
+- Default `change_kind`: `declare` for naming-table notices; **`rename` + undated `former_name` row** for Pattern C (see [gazette-patterns.md](gazette-patterns.md))
 
 ## Step 2 — Optional GeoJSON match (for linking)
 
@@ -94,14 +96,43 @@ For each matched street, build one or more `history[]` rows per [event-model.md]
 | “to be known for the future” (first on file) | `declare` | `current_name` | 命名 |
 | “continuation of …” (name already on file) | `extend` | `current_name` | 延伸 |
 | “instead of” / lists former name | `rename` | `current_name` (or `former_name` if after-name ≠ geojson) | 命名 or 易名 / 舊稱 |
+| Present Name → New Name (rename notice; former has **no** separate naming date) | **two rows** — see below | `former_name` then `current_name` | 舊稱 + 易名 |
 | Earlier name from user/research, no gazette | `declare` | `former_name` | 舊稱 |
 | Name abolished | `delete` | `name_removed` | 名稱撤銷 |
 
 **Mandatory:** every street entry must have a non-empty `history[]` — never apply street-only shorthand without events.
 
+### Rename notices — two `history[]` rows (舊稱 timeline)
+
+When a rename notice lists a **present / previous name** but that name has **no earlier naming G.N. on file**, emit **two rows** so the 舊稱 chip shows the old name (a single `rename` row with only `previous_street_name_en` does **not** surface as its own timeline entry).
+
+Reference batches: `1936-gn918-hill-road.json`, `1904-gn59-victoria-road-renames.json`.
+
+| Row | `publication_date` | `change_kind` | `event_role` | `street_name_en` | Other |
+|-----|-------------------|---------------|--------------|------------------|-------|
+| 1 — former | **omit** (stored as `null`) | `declare` | `former_name` | Present / previous name | `evidence_kind: gazette_primary`, same G.N. PDF URL, stable `submission_id` ending `-former` |
+| 2 — rename | Gazette header date | `rename` | `current_name` | New name | `previous_street_name_en` = row 1 name; `is_declaration_event: true` |
+
+**Present name is a proper street name** (e.g. Upper Richmond Road, Clarence Street, Richmond Terrace):
+
+- Row 1 `street_name_en`: exact present name from gazette.
+- Row 1 `submitter_remarks`: `Former name attested in G.N.{no} rename notice; separate naming date not recorded on file.`
+
+**Present name is descriptive** (route text, not a prior official name — G.N.59 paths):
+
+- Row 1 `street_name_en`: short English paraphrase for the timeline (e.g. `Path round Edenhall and Inglewood`).
+- Row 1 `submitter_remarks`: full gazette present-name sentence (this is the **only** place for that prose).
+- Row 2 `previous_street_name_en`: same paraphrase as row 1.
+
+**Chinese:** omit `street_name_zh` on both rows when the scan is English-only ([research-street-history](../research-street-history/SKILL.md) rule 6).
+
+**Sort:** undated `former_name` row first, then dated `rename` row (ascending by date).
+
+**Re-apply:** if replacing a botched single-row batch, remove old `notice_stem` events before re-applying; prune stale `event_id`s from `street-centreline-map.json`.
+
 ## Step 3 — Batch JSON
 
-**One notice → one batch**, even with 15 streets. Per-street `history[]` patterns → [event-model.md](../event-model.md) (scenarios 1–7). Notice walkthroughs → [examples.md](examples.md).
+**One notice → one batch**, even with 15 streets. Per-street `history[]` patterns → [event-model.md](../event-model.md) (scenarios 1–10; **§3** = undated former + rename). Notice walkthroughs → [examples.md](examples.md).
 
 ### HKGRO batch shell (fill `streets[]` from event-model)
 
@@ -118,13 +149,13 @@ For each matched street, build one or more `history[]` rows per [event-model.md]
 }
 ```
 
-Each `streets[]` item: `english_name`, `chinese_name`, optional `link_street_code`, non-empty `history[]`. Real files: `data/crowdsubmissions/batches/1909-gn184-taku-street.json`, `1924-gn119-prince-edward-road.json`.
+Each `streets[]` item: `english_name`, `chinese_name`, optional `link_street_code`, non-empty `history[]`. Real files: `data/crowdsubmissions/batches/1909-gn184-taku-street.json`, `1924-gn119-prince-edward-road.json`, `1936-gn918-hill-road.json`, `1904-gn59-victoria-road-renames.json`.
 
 Rules:
 - Set **`"source": "hkgro"`** on every HKGRO batch (pipeline routing only; UI **來源** / **Source** shows gazette evidence kind, not HKGRO vs community).
 - **Omit `submitter_remarks`** when gazette English and Chinese both match the database exactly.
-- **Include `submitter_remarks` only** when gazette EN or ZH differs from the matched record (e.g. `Gazette ZH 連合道; database 連道.`).
-- **Never** store gazette DESCRIPTION text or lot references in remarks.
+- **Include `submitter_remarks` only** when gazette EN or ZH differs from the matched record (e.g. `Gazette ZH 連合道; database 連道.`), or for **undated `former_name` rows** (standard former-name line or full descriptive present-name text).
+- **Never** store gazette DESCRIPTION-column text or lot references in remarks — **except** full **Present Name** prose on undated `former_name` rows in Pattern C rename notices.
 - **Never** auto-fill batch-level `remarks` or generic “Batch G.N. … community submission” text — omit `submitter_remarks` unless gazette EN/ZH ≠ database.
 - **Never** store `sunzi.lib.hku.hk` as primary URL — only `/egazette/en/…`.
 - All streets in one notice share the same date, G.N., and hosted PDF (unless `history[]` includes older dates).
@@ -155,7 +186,8 @@ Multi-street inspection table:
 | # | Gazette EN/ZH | Code | GeoJSON | Event type | Status |
 |---|---------------|------|---------|------------|--------|
 | 1 | Sugar Street / 糖街 | 12167 | ✓ | 命名 | applied |
-| 2 | Taku Street / 大沽街 | 12326 | ✓ | 命名 + 舊稱 (2 events) | applied |
+| 2 | Babington Path / 巴丙頓道 | 10038 | ✓ | 舊稱 + 易名 (2 events) | applied |
+| 3 | Taku Street / 大沽街 | 12326 | ✓ | 舊稱 + 易名 (2 events) | applied |
 | … | … | … | … | … | … |
 
 Event type column: 命名, 易名, 舊稱, 落成, 名稱撤銷 (see [event-model.md](../event-model.md)).
@@ -169,7 +201,7 @@ Note: unmatched names, Chinese variants, already-dated streets skipped.
 ```
 HKGRO batch:
 - [ ] PDF 1: all pages rendered → all table rows extracted
-- [ ] PDF 1: history[] classified per street (declare/rename/multi-event)
+- [ ] PDF 1: history[] classified per street (declare/rename/multi-event; rename notices → undated former_name + dated rename)
 - [ ] PDF 1: batch applied + PDF hosted as {year}-gn{no}.pdf
 - [ ] Events in street-events.json; timelines page shows new rows
 - [ ] If link_street_code set: centreline map + map chip 舊稱 + 來源 verified
@@ -185,4 +217,6 @@ HKGRO batch:
 | Street shorthand without `history[]` | Wrap each street in `history[]` — see [event-model.md](../event-model.md) |
 | HKGRO URL in data | Replace with `/egazette/en/{year}-gn{no}.pdf` |
 | Wrong hosted filename | Rename inbox PDF to `{year}-gn{no}.pdf` before publish |
-| Rename notice recorded as declare only | Set `change_kind: rename` + `previous_street_name_*` |
+| Rename notice recorded as declare only | Pattern C: undated `former_name` row + dated `rename` row |
+| Rename notice — single row only | Old name hidden on 舊稱 timeline; add undated `former_name` row ([1936-gn918-hill-road.json](../../data/crowdsubmissions/batches/1936-gn918-hill-road.json)) |
+| Stale centreline `event_id` after re-apply | Prune IDs not in `street-events.json`; `npm run rebuild:naming` |

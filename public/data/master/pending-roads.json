@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-11T16:18:14.005Z",
+  "generated_at": "2026-06-11T17:22:36.627Z",
   "source_file": "public/data/hk-streets.geojson",
   "notice_stem_index_path": "public/data/master/egazette-notice-stems.json",
   "egazette_pdf_locales_path": "public/data/master/egazette-pdf-locales.json",
   "totals": {
     "total_segments": 39724,
-    "segments_missing_naming_year": 35940,
+    "segments_missing_naming_year": 35878,
     "unique_roads": 12233,
     "unique_roads_with_street_name": 4578,
-    "unique_roads_with_naming_year": 828,
-    "unique_roads_with_street_name_and_naming_year": 828,
-    "unique_roads_missing_naming_year": 11405,
-    "unique_roads_missing_naming_year_with_street_name": 3750
+    "unique_roads_with_naming_year": 837,
+    "unique_roads_with_street_name_and_naming_year": 837,
+    "unique_roads_missing_naming_year": 11396,
+    "unique_roads_missing_naming_year_with_street_name": 3741
   },
   "kind": "pending",
   "roads": [
@@ -979,17 +979,6 @@
       "street_code": "11697",
       "english_name": "PING CHE ROAD",
       "chinese_name": "坪輋路",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 28
-    },
-    {
-      "road_key": "code:11817",
-      "street_code": "11817",
-      "english_name": "ROBINSON ROAD",
-      "chinese_name": "羅便臣道",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -5734,17 +5723,6 @@
       "english_name": "PUI TO ROAD",
       "chinese_name": "杯渡路",
       "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 11
-    },
-    {
-      "road_key": "code:11864",
-      "street_code": "11864",
-      "english_name": "SAI YEUNG CHOI STREET SOUTH",
-      "chinese_name": "西洋菜南街",
-      "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -16216,17 +16194,6 @@
       "segment_count": 6
     },
     {
-      "road_key": "code:11145",
-      "street_code": "11145",
-      "english_name": "LA SALLE ROAD",
-      "chinese_name": "喇沙利道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 6
-    },
-    {
       "road_key": "code:11209",
       "street_code": "11209",
       "english_name": "LEI MUK ROAD",
@@ -21793,17 +21760,6 @@
       "street_code": "39563",
       "english_name": "RIGI AVENUE",
       "chinese_name": "瑞奇大道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 5
-    },
-    {
-      "road_key": "code:11863",
-      "street_code": "11863",
-      "english_name": "SAI YEUNG CHOI STREET NORTH",
-      "chinese_name": "西洋菜北街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -28743,17 +28699,6 @@
       "english_name": "PARK AVENUE",
       "chinese_name": "園林大道",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 4
-    },
-    {
-      "road_key": "code:11658",
-      "street_code": "11658",
-      "english_name": "PARK ROAD",
-      "chinese_name": "柏道",
-      "street_type": "Main Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -39973,17 +39918,6 @@
       "street_code": "39612",
       "english_name": "AVIO BOULEVARD",
       "chinese_name": "艾維奧大道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 3
-    },
-    {
-      "road_key": "code:10038",
-      "street_code": "10038",
-      "english_name": "BABINGTON PATH",
-      "chinese_name": "巴丙頓道",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -56025,17 +55959,6 @@
       "segment_count": 2
     },
     {
-      "road_key": "code:11336",
-      "street_code": "11336",
-      "english_name": "LYTTELTON ROAD",
-      "chinese_name": "列堤頓道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 2
-    },
-    {
       "road_key": "code:13789",
       "street_code": "13789",
       "english_name": "MA KAM STREET",
@@ -56535,17 +56458,6 @@
       "street_code": "14045",
       "english_name": "O KING ROAD",
       "chinese_name": "澳景路",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 2
-    },
-    {
-      "road_key": "code:11560",
-      "street_code": "11560",
-      "english_name": "OAKLANDS PATH",
-      "chinese_name": "屋蘭士里",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -112201,17 +112113,6 @@
       "street_code": "10172",
       "english_name": "CHEONG HANG LANE",
       "chinese_name": "暢行里",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:10174",
-      "street_code": "10174",
-      "english_name": "CHEONG LOK STREET",
-      "chinese_name": "長樂街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,

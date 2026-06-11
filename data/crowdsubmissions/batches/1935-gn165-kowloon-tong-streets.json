@@ -1,5 +1,7 @@
 {
   "batch_id": "1935-gn165-kowloon-tong-streets",
+  "source": "hkgro",
+  "gazette_only": true,
   "gazette_notice_label": "Government Notification No. 165",
   "publication_date": "1935-03-01",
   "gazette_url_en": "/egazette/en/1935-gn165.pdf",
@@ -42,6 +44,26 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
+          "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "link_street_code": "11145",
+      "english_name": "LA SALLE ROAD",
+      "chinese_name": "喇沙利道",
+      "history": [
+        {
+          "submission_id": "1935-gn165-kowloon-tong-streets-11145-1935-03-01",
+          "publication_date": "1935-03-01",
+          "change_kind": "declare",
+          "street_name_en": "La Salle Road",
+          "street_name_zh": "喇沙利道",
+          "gazette_notice_label": "Government Notification No. 165",
+          "government_notice_url_en": "/egazette/en/1935-gn165.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
           "event_role": "current_name"
         }
       ]
@@ -107,6 +129,5 @@
       ]
     }
   ],
-  "source": "hkgro",
   "evidence_schema_version": 1
 }

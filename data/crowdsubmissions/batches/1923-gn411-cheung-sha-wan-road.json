@@ -132,17 +132,19 @@
       "chinese_name": "必嘉街",
       "history": [
         {
+          "submission_id": "1923-gn411-cheung-sha-wan-road-10041-1923-09-28",
           "publication_date": "1923-09-28",
           "change_kind": "declare",
           "street_name_en": "Baker Street",
-          "street_name_zh": "必嘉街",
+          "street_name_zh": "邲嘉街",
           "gazette_notice_label": "Government Notification No. 411",
           "government_notice_url_en": "/egazette/en/1923-gn411.pdf",
           "evidence_level": "gazette",
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "submitter_remarks": "Gazette ZH 邲嘉街; database 必嘉街."
         }
       ]
     },
