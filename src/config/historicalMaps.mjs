@@ -5,13 +5,18 @@
  */
 
 export const HISTORICAL_MAP_COVERAGE = {
-  territory: { labelEn: 'Hong Kong', labelZh: '香港全境' },
-  victoria: { labelEn: 'Victoria', labelZh: '維多利亞城' },
+  territory: { labelEn: 'Hong Kong Full', labelZh: '香港全境' },
+  hongKongIsland: { labelEn: 'Hong Kong Island', labelZh: '香港島' },
   kowloon: { labelEn: 'Kowloon', labelZh: '九龍' },
   newTerritories: { labelEn: 'New Territories', labelZh: '新界' },
-  central: { labelEn: 'Central', labelZh: '中環' },
-  wanchai: { labelEn: 'Wan Chai', labelZh: '灣仔' },
 }
+
+export const HISTORICAL_MAP_GROUP_ORDER = [
+  'territory',
+  'hongKongIsland',
+  'kowloon',
+  'newTerritories',
+]
 
 /** @type {import('../lib/historicalMapTypes.js').HistoricalMapCatalogEntry[]} */
 export const HISTORICAL_MAP_CATALOG = [
@@ -21,7 +26,7 @@ export const HISTORICAL_MAP_CATALOG = [
     labelEn: 'Plan of Victoria (1889)',
     labelZh: '維多利亞城圖 (1889)',
     scale: '1:2,500',
-    coverage: 'victoria',
+    coverage: 'hongKongIsland',
     sourceBasename: 'HIST-VIC-1889',
     tileZoom: { min: 12, max: 17 },
   },
@@ -31,8 +36,9 @@ export const HISTORICAL_MAP_CATALOG = [
     labelEn: 'Victoria Hong Kong (1897)',
     labelZh: '維多利亞城 (1897)',
     scale: '1:2,500',
-    coverage: 'victoria',
-    sourceBasename: 'HIST-VIC-1897',
+    coverage: 'hongKongIsland',
+    sourceBasename: 'HH45',
+    sourceGlob: 'HH45_*-1897.tif',
     tileZoom: { min: 12, max: 17 },
   },
   {
@@ -42,7 +48,7 @@ export const HISTORICAL_MAP_CATALOG = [
     labelZh: '九龍半島 (1892)',
     scale: '1:10,000',
     coverage: 'kowloon',
-    sourceBasename: 'HIST-KLN-1892',
+    sourceBasename: 'HIST-HG11-1892',
     tileZoom: { min: 11, max: 16 },
   },
   {
@@ -52,7 +58,7 @@ export const HISTORICAL_MAP_CATALOG = [
     labelZh: '沙田 (1904)',
     scale: '1:20,000',
     coverage: 'newTerritories',
-    sourceBasename: 'HIST-ST-1904',
+    sourceBasename: 'HIST-HD12A-1904',
     tileZoom: { min: 11, max: 16 },
   },
   {
@@ -71,8 +77,8 @@ export const HISTORICAL_MAP_CATALOG = [
     labelEn: 'Central (1938)',
     labelZh: '中環 (1938)',
     scale: '1:2,500',
-    coverage: 'central',
-    sourceBasename: 'HIST-CEN-1938',
+    coverage: 'hongKongIsland',
+    sourceBasename: 'HIST-HG36-1938',
     tileZoom: { min: 12, max: 17 },
   },
   {
@@ -81,8 +87,8 @@ export const HISTORICAL_MAP_CATALOG = [
     labelEn: 'Wan Chai (1947)',
     labelZh: '灣仔 (1947)',
     scale: '1:2,500',
-    coverage: 'wanchai',
-    sourceBasename: 'HIST-WC-1947',
+    coverage: 'hongKongIsland',
+    sourceBasename: 'HIST-HD30-1947',
     tileZoom: { min: 12, max: 17 },
   },
   {
@@ -92,7 +98,7 @@ export const HISTORICAL_MAP_CATALOG = [
     labelZh: '九龍半島 (1947)',
     scale: '1:10,000',
     coverage: 'kowloon',
-    sourceBasename: 'HIST-KLN-1947',
+    sourceBasename: 'HIST-HD28-1947',
     tileZoom: { min: 11, max: 16 },
   },
   {
@@ -112,7 +118,7 @@ export const HISTORICAL_MAP_CATALOG = [
     labelZh: '荃灣 (1958)',
     scale: '1:10,000',
     coverage: 'newTerritories',
-    sourceBasename: 'HIST-TW-1958',
+    sourceBasename: 'HIST-HG41-1958',
     tileZoom: { min: 11, max: 16 },
   },
   {
@@ -122,7 +128,7 @@ export const HISTORICAL_MAP_CATALOG = [
     labelZh: '九龍半島 (1963)',
     scale: '1:10,000',
     coverage: 'kowloon',
-    sourceBasename: 'HIST-KLN-1963',
+    sourceBasename: 'HIST-HD25-1963',
     tileZoom: { min: 11, max: 16 },
   },
   {
@@ -132,7 +138,7 @@ export const HISTORICAL_MAP_CATALOG = [
     labelZh: '九龍半島 (1970)',
     scale: '1:10,000',
     coverage: 'kowloon',
-    sourceBasename: 'HIST-KLN-1970',
+    sourceBasename: 'HIST-HE08-1970',
     tileZoom: { min: 11, max: 16 },
   },
 ]

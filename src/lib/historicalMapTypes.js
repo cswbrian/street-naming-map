@@ -6,7 +6,8 @@
  * @property {string} labelZh
  * @property {string} scale
  * @property {keyof typeof import('../config/historicalMaps.mjs').HISTORICAL_MAP_COVERAGE} coverage
- * @property {string} sourceBasename
+ * @property {string} sourceBasename Single-sheet LandsD basename (without extension)
+ * @property {string} [sourceGlob] Optional glob for multi-sheet maps (e.g. `HH45_*-1897.tif`)
  * @property {{ min: number, max: number }} tileZoom
  */
 

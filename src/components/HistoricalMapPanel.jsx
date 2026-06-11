@@ -1,4 +1,8 @@
-import { HISTORICAL_MAP_COVERAGE, HISTORICAL_MAP_DATASET_URL } from '../config/historicalMaps.mjs'
+import {
+  HISTORICAL_MAP_COVERAGE,
+  HISTORICAL_MAP_DATASET_URL,
+  HISTORICAL_MAP_GROUP_ORDER,
+} from '../config/historicalMaps.mjs'
 
 function groupMapsByCoverage(maps) {
   const groups = new Map()
@@ -10,11 +14,10 @@ function groupMapsByCoverage(maps) {
   for (const list of groups.values()) {
     list.sort((a, b) => a.year - b.year)
   }
-  return [...groups.entries()].sort((a, b) => {
-    const yearA = a[1][0]?.year ?? 0
-    const yearB = b[1][0]?.year ?? 0
-    return yearA - yearB
-  })
+  return HISTORICAL_MAP_GROUP_ORDER.filter((coverage) => groups.has(coverage)).map((coverage) => [
+    coverage,
+    groups.get(coverage),
+  ])
 }
 
 function HistoricalMapPanel({
@@ -35,14 +38,27 @@ function HistoricalMapPanel({
 
   return (
     <div className="historical-map-panel">
-      <div className="historical-map-actions">
+      <div className="historical-map-toolbar">
         <button
           type="button"
-          className={`historical-map-item ${activeMapId ? '' : 'is-active'}`}
+          className={`historical-map-item historical-map-off ${activeMapId ? '' : 'is-active'}`}
           onClick={() => onSelectMap(null)}
         >
           {labels.none}
         </button>
+        <label className={`historical-map-opacity ${activeMapId ? '' : 'is-disabled'}`}>
+          <span className="historical-map-opacity-label">{labels.opacity}</span>
+          <input
+            type="range"
+            min="0.1"
+            max="1"
+            step="0.05"
+            value={opacity}
+            disabled={!activeMapId}
+            onChange={(event) => onOpacityChange(Number(event.target.value))}
+          />
+          <span className="historical-map-opacity-value">{Math.round(opacity * 100)}%</span>
+        </label>
       </div>
 
       {groups.map(([coverage, coverageMaps]) => {
@@ -72,11 +88,14 @@ function HistoricalMapPanel({
                       .join(' ')}
                     onClick={() => onSelectMap(map.id)}
                   >
-                    <span className="historical-map-item-title">{title}</span>
-                    <span className="historical-map-item-meta">
-                      {map.year}
-                      {map.scale ? ` · ${map.scale}` : ''}
-                      {isSuggested ? ` · ${labels.suggested}` : ''}
+                    <span className="historical-map-item-label">
+                      {title}
+                      {map.scale ? (
+                        <span className="historical-map-item-meta"> · {map.scale}</span>
+                      ) : null}
+                      {isSuggested ? (
+                        <span className="historical-map-item-meta"> · {labels.suggested}</span>
+                      ) : null}
                     </span>
                   </button>
                 )
@@ -85,21 +104,6 @@ function HistoricalMapPanel({
           </section>
         )
       })}
-
-      {activeMapId ? (
-        <label className="historical-map-opacity">
-          <span>{labels.opacity}</span>
-          <input
-            type="range"
-            min="0.1"
-            max="1"
-            step="0.05"
-            value={opacity}
-            onChange={(event) => onOpacityChange(Number(event.target.value))}
-          />
-          <span className="historical-map-opacity-value">{Math.round(opacity * 100)}%</span>
-        </label>
-      ) : null}
 
       <p className="historical-map-attribution">
         {labels.attribution}{' '}

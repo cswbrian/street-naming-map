@@ -55,7 +55,7 @@ function parseArgs(argv) {
 }
 
 function requireGdal() {
-  for (const cmd of ['gdalinfo', 'gdalwarp', 'gdaltransform']) {
+  for (const cmd of ['gdalinfo', 'gdalwarp', 'gdaltransform', 'gdalbuildvrt', 'gdal_translate']) {
     const result = spawnSync('which', [cmd], { encoding: 'utf8' })
     if (result.status !== 0) {
       console.error(`Missing ${cmd}. Install GDAL: brew install gdal`)
@@ -91,16 +91,60 @@ function resolveSourceTif(entry) {
   return candidates.find((path) => existsSync(path)) ?? null
 }
 
+function resolveTfwForTif(tifPath) {
+  const candidates = [
+    tifPath.replace(/\.tiff?$/i, '.tfw'),
+    tifPath.replace(/\.tiff?$/i, '.TFW'),
+  ]
+  return candidates.find((path) => existsSync(path)) ?? null
+}
+
+function resolveSourceSheets(entry) {
+  const dir = join(sourceRoot, entry.id)
+  if (!existsSync(dir)) return []
+
+  if (entry.sourceGlob) {
+    const prefix = entry.sourceGlob.includes('*') ? entry.sourceGlob.split('*')[0] : ''
+    const suffix = entry.sourceGlob.includes('*')
+      ? entry.sourceGlob.slice(entry.sourceGlob.indexOf('*') + 1)
+      : entry.sourceGlob
+
+    return readdirSync(dir)
+      .filter((name) => /\.tiff?$/i.test(name))
+      .filter((name) => name.startsWith(prefix) && name.endsWith(suffix))
+      .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+      .map((name) => join(dir, name))
+  }
+
+  const single = resolveSourceTif(entry)
+  return single ? [single] : []
+}
+
 function resolveSourceTfw(entry, tifPath) {
-  const dir = dirname(tifPath)
+  const fromPair = resolveTfwForTif(tifPath)
+  if (fromPair) return fromPair
+
   const base = entry.sourceBasename
+  const dir = dirname(tifPath)
   const candidates = [
     join(dir, `${base}.tfw`),
     join(dir, `${base}.TFW`),
     join(dir, `${base}.tifw`),
-    tifPath.replace(/\.tiff?$/i, '.tfw'),
   ]
   return candidates.find((path) => existsSync(path)) ?? null
+}
+
+function buildSourceVrt(entry, sheetPaths) {
+  if (sheetPaths.length === 1) return sheetPaths[0]
+
+  mkdirSync(buildDir, { recursive: true })
+  const vrtPath = join(buildDir, `${entry.id}-source.vrt`)
+  run(
+    'gdalbuildvrt',
+    ['-overwrite', '-allow_projection_difference', vrtPath, ...sheetPaths],
+    `Mosaic ${entry.id} (${sheetPaths.length} sheets)`,
+  )
+  return vrtPath
 }
 
 function run(cmd, args, label) {
@@ -138,18 +182,46 @@ function computeWgs84Bounds(warpedPath) {
   ]
 }
 
+function expandPaletteToRgbIfNeeded(sourcePath, label) {
+  const info = gdalJson([sourcePath])
+  const hasPalette = info.bands?.some((band) => band.colorInterpretation === 'Palette')
+  if (!hasPalette) return sourcePath
+
+  const rgbPath = sourcePath.replace(/\.tif$/i, '-rgb.tif')
+  if (existsSync(rgbPath)) rmSync(rgbPath)
+  run(
+    'gdal_translate',
+    [
+      '-expand',
+      'rgb',
+      '-co',
+      'COMPRESS=DEFLATE',
+      '-co',
+      'TILED=YES',
+      sourcePath,
+      rgbPath,
+    ],
+    `${label}: expand palette → RGB`,
+  )
+  return rgbPath
+}
+
 function buildMap(entry, manifest, processes) {
-  const tifPath = resolveSourceTif(entry)
-  if (!tifPath) {
-    console.warn(`Skip ${entry.id}: no GeoTIFF in ${join(sourceRoot, entry.id)}`)
+  const sheetPaths = resolveSourceSheets(entry)
+  if (!sheetPaths.length) {
+    console.warn(`Skip ${entry.id}: no GeoTIFF sheets in ${join(sourceRoot, entry.id)}`)
     return false
   }
 
-  const tfwPath = resolveSourceTfw(entry, tifPath)
-  if (!tfwPath) {
-    console.warn(`Skip ${entry.id}: missing .tfw for ${tifPath}`)
-    return false
+  for (const tifPath of sheetPaths) {
+    const tfwPath = resolveSourceTfw(entry, tifPath)
+    if (!tfwPath) {
+      console.warn(`Skip ${entry.id}: missing .tfw for ${tifPath}`)
+      return false
+    }
   }
+
+  const tifPath = buildSourceVrt(entry, sheetPaths)
 
   mkdirSync(buildDir, { recursive: true })
   const warpedPath = join(buildDir, `${entry.id}-3857.tif`)
@@ -158,6 +230,8 @@ function buildMap(entry, manifest, processes) {
   run(
     'gdalwarp',
     [
+      '-s_srs',
+      'EPSG:2326',
       '-t_srs',
       'EPSG:3857',
       '-r',
@@ -172,6 +246,8 @@ function buildMap(entry, manifest, processes) {
     ],
     `Reproject ${entry.id} → EPSG:3857`,
   )
+
+  const tileSourcePath = expandPaletteToRgbIfNeeded(warpedPath, entry.id)
 
   if (existsSync(outputDir)) {
     rmSync(outputDir, { recursive: true, force: true })
@@ -189,7 +265,7 @@ function buildMap(entry, manifest, processes) {
       String(processes),
       '--webviewer=none',
       '--resume',
-      warpedPath,
+      tileSourcePath,
       outputDir,
     ],
     `Tile ${entry.id} z${min}–${max}`,
@@ -228,7 +304,10 @@ function countFiles(dir) {
 }
 
 function discoverBuildableIds() {
-  return HISTORICAL_MAP_CATALOG.filter((entry) => resolveSourceTif(entry)).map((e) => e.id)
+  return HISTORICAL_MAP_CATALOG.filter((entry) => {
+    const sheets = resolveSourceSheets(entry)
+    return sheets.length > 0 && sheets.every((tifPath) => resolveSourceTfw(entry, tifPath))
+  }).map((e) => e.id)
 }
 
 function seedSourceFromDownloads() {
@@ -249,6 +328,51 @@ function seedSourceFromDownloads() {
         '/Users/coolsunwind/Downloads/Hong-Kong-1957',
       ],
     },
+    {
+      id: 'kowloon-1947',
+      basename: 'HIST-HD28-1947',
+      dirs: ['/Users/coolsunwind/Downloads/Kowloon-Peninsula-(Batch-1)'],
+    },
+    {
+      id: 'kowloon-1963',
+      basename: 'HIST-HD25-1963',
+      dirs: ['/Users/coolsunwind/Downloads/Kowloon-Peninsula-(Batch-1)'],
+    },
+    {
+      id: 'kowloon-1892',
+      basename: 'HIST-HG11-1892',
+      dirs: ['/Users/coolsunwind/Downloads/Kowloon-Peninsula-(Batch-2)'],
+    },
+    {
+      id: 'kowloon-1970',
+      basename: 'HIST-HE08-1970',
+      dirs: ['/Users/coolsunwind/Downloads/Kowloon-Peninsula-(Batch-2)'],
+    },
+    {
+      id: 'victoria-1897',
+      glob: 'HH45_*-1897',
+      dirs: ['/Users/coolsunwind/Downloads/1897-Hong-Kong-Map'],
+    },
+    {
+      id: 'central-1938',
+      basename: 'HIST-HG36-1938',
+      dirs: ['/Users/coolsunwind/Downloads/Central-(1938)'],
+    },
+    {
+      id: 'shatin-1904',
+      basename: 'HIST-HD12A-1904',
+      dirs: ['/Users/coolsunwind/Downloads/Sha-Tin-(1904)'],
+    },
+    {
+      id: 'wanchai-1947',
+      basename: 'HIST-HD30-1947',
+      dirs: ['/Users/coolsunwind/Downloads/Wan-Chai-(1947)'],
+    },
+    {
+      id: 'tsuenwan-1958',
+      basename: 'HIST-HG41-1958',
+      dirs: ['/Users/coolsunwind/Downloads/Tsuen-Wan-(1958)'],
+    },
   ]
 
   for (const item of downloads) {
@@ -256,6 +380,15 @@ function seedSourceFromDownloads() {
     mkdirSync(targetDir, { recursive: true })
     for (const dir of item.dirs) {
       if (!existsSync(dir)) continue
+      if (item.glob) {
+        const pattern = new RegExp(`^${item.glob.replace(/\*/g, '.*')}\\.(tif|tiff|tfw)$`, 'i')
+        for (const name of readdirSync(dir)) {
+          if (!pattern.test(name)) continue
+          const destName = name.replace(/\.tiff$/i, '.tif')
+          copyFileSync(join(dir, name), join(targetDir, destName))
+        }
+        continue
+      }
       for (const ext of ['.tfw', '.TFW']) {
         const src = join(dir, `${item.basename}${ext}`)
         if (existsSync(src)) {

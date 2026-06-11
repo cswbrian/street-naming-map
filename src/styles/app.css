@@ -2967,18 +2967,26 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
   letter-spacing: 0.03em;
 }
 
-.historical-map-list,
-.historical-map-actions {
+.historical-map-list {
   display: flex;
   flex-direction: column;
   gap: 0.22rem;
 }
 
-.historical-map-item {
+.historical-map-toolbar {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.1rem;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.historical-map-off {
+  flex: 0 0 auto;
+  width: auto;
+  white-space: nowrap;
+}
+
+.historical-map-item {
+  display: block;
   width: 100%;
   padding: 0.38rem 0.48rem;
   border: 1px solid var(--sn-border);
@@ -2987,6 +2995,7 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
   color: var(--sn-text);
   text-align: left;
   cursor: pointer;
+  line-height: 1.35;
 }
 
 .historical-map-item:hover {
@@ -3003,13 +3012,14 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
   border-style: dashed;
 }
 
-.historical-map-item-title {
+.historical-map-item-label {
   font-size: 0.78rem;
   font-weight: 600;
 }
 
 .historical-map-item-meta {
-  font-size: 0.68rem;
+  font-size: 0.78rem;
+  font-weight: 400;
   color: var(--sn-text-muted);
 }
 
@@ -3018,8 +3028,18 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
   grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 0.45rem;
+  flex: 1 1 auto;
+  min-width: 0;
   font-size: 0.74rem;
   color: var(--sn-text-muted);
+}
+
+.historical-map-opacity.is-disabled {
+  opacity: 0.55;
+}
+
+.historical-map-opacity-label {
+  white-space: nowrap;
 }
 
 .historical-map-opacity input[type='range'] {

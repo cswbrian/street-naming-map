@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2026-06-10T16:51:14.418Z",
+  "generatedAt": "2026-06-11T15:34:20.174Z",
   "maps": [
+    {
+      "id": "kowloon-1892",
+      "year": 1892,
+      "labelEn": "Kowloon Peninsula (1892)",
+      "labelZh": "九龍半島 (1892)",
+      "scale": "1:10,000",
+      "coverage": "kowloon",
+      "tileUrlTemplate": "historical-maps/kowloon-1892/{z}/{x}/{y}.png",
+      "minZoom": 11,
+      "maxZoom": 16,
+      "bounds": [
+        [
+          114.1627734,
+          22.2900072
+        ],
+        [
+          114.1959477,
+          22.3215241
+        ]
+      ],
+      "attribution": "© Lands Department, HKSAR — Historical Maps (CSDI open data)"
+    },
+    {
+      "id": "victoria-1897",
+      "year": 1897,
+      "labelEn": "Victoria Hong Kong (1897)",
+      "labelZh": "維多利亞城 (1897)",
+      "scale": "1:2,500",
+      "coverage": "hongKongIsland",
+      "tileUrlTemplate": "historical-maps/victoria-1897/{z}/{x}/{y}.png",
+      "minZoom": 12,
+      "maxZoom": 17,
+      "bounds": [
+        [
+          114.1212269,
+          22.2700596
+        ],
+        [
+          114.2000402,
+          22.2923403
+        ]
+      ],
+      "attribution": "© Lands Department, HKSAR — Historical Maps (CSDI open data)"
+    },
+    {
+      "id": "shatin-1904",
+      "year": 1904,
+      "labelEn": "Sha Tin (1904)",
+      "labelZh": "沙田 (1904)",
+      "scale": "1:20,000",
+      "coverage": "newTerritories",
+      "tileUrlTemplate": "historical-maps/shatin-1904/{z}/{x}/{y}.png",
+      "minZoom": 11,
+      "maxZoom": 16,
+      "bounds": [
+        [
+          114.1444733,
+          22.3648865
+        ],
+        [
+          114.2098676,
+          22.4185301
+        ]
+      ],
+      "attribution": "© Lands Department, HKSAR — Historical Maps (CSDI open data)"
+    },
     {
       "id": "hk-1927",
       "year": 1927,
@@ -24,6 +90,72 @@
       "attribution": "© Lands Department, HKSAR — Historical Maps (CSDI open data)"
     },
     {
+      "id": "central-1938",
+      "year": 1938,
+      "labelEn": "Central (1938)",
+      "labelZh": "中環 (1938)",
+      "scale": "1:2,500",
+      "coverage": "hongKongIsland",
+      "tileUrlTemplate": "historical-maps/central-1938/{z}/{x}/{y}.png",
+      "minZoom": 12,
+      "maxZoom": 17,
+      "bounds": [
+        [
+          114.1372592,
+          22.2566636
+        ],
+        [
+          114.1739375,
+          22.2794256
+        ]
+      ],
+      "attribution": "© Lands Department, HKSAR — Historical Maps (CSDI open data)"
+    },
+    {
+      "id": "kowloon-1947",
+      "year": 1947,
+      "labelEn": "Kowloon Peninsula (1947)",
+      "labelZh": "九龍半島 (1947)",
+      "scale": "1:10,000",
+      "coverage": "kowloon",
+      "tileUrlTemplate": "historical-maps/kowloon-1947/{z}/{x}/{y}.png",
+      "minZoom": 11,
+      "maxZoom": 16,
+      "bounds": [
+        [
+          114.1465775,
+          22.2899394
+        ],
+        [
+          114.2149527,
+          22.3460827
+        ]
+      ],
+      "attribution": "© Lands Department, HKSAR — Historical Maps (CSDI open data)"
+    },
+    {
+      "id": "wanchai-1947",
+      "year": 1947,
+      "labelEn": "Wan Chai (1947)",
+      "labelZh": "灣仔 (1947)",
+      "scale": "1:2,500",
+      "coverage": "hongKongIsland",
+      "tileUrlTemplate": "historical-maps/wanchai-1947/{z}/{x}/{y}.png",
+      "minZoom": 12,
+      "maxZoom": 17,
+      "bounds": [
+        [
+          114.1168673,
+          22.2566484
+        ],
+        [
+          114.1967957,
+          22.3024326
+        ]
+      ],
+      "attribution": "© Lands Department, HKSAR — Historical Maps (CSDI open data)"
+    },
+    {
       "id": "hk-1957",
       "year": 1957,
       "labelEn": "Hong Kong (1957)",
@@ -41,6 +173,72 @@
         [
           114.5390024,
           22.6465929
+        ]
+      ],
+      "attribution": "© Lands Department, HKSAR — Historical Maps (CSDI open data)"
+    },
+    {
+      "id": "tsuenwan-1958",
+      "year": 1958,
+      "labelEn": "Tsuen Wan (1958)",
+      "labelZh": "荃灣 (1958)",
+      "scale": "1:10,000",
+      "coverage": "newTerritories",
+      "tileUrlTemplate": "historical-maps/tsuenwan-1958/{z}/{x}/{y}.png",
+      "minZoom": 11,
+      "maxZoom": 16,
+      "bounds": [
+        [
+          114.1009696,
+          22.3579808
+        ],
+        [
+          114.1475922,
+          22.3926747
+        ]
+      ],
+      "attribution": "© Lands Department, HKSAR — Historical Maps (CSDI open data)"
+    },
+    {
+      "id": "kowloon-1963",
+      "year": 1963,
+      "labelEn": "Kowloon Peninsula (1963)",
+      "labelZh": "九龍半島 (1963)",
+      "scale": "1:10,000",
+      "coverage": "kowloon",
+      "tileUrlTemplate": "historical-maps/kowloon-1963/{z}/{x}/{y}.png",
+      "minZoom": 11,
+      "maxZoom": 16,
+      "bounds": [
+        [
+          114.1521784,
+          22.2905733
+        ],
+        [
+          114.2025797,
+          22.3374616
+        ]
+      ],
+      "attribution": "© Lands Department, HKSAR — Historical Maps (CSDI open data)"
+    },
+    {
+      "id": "kowloon-1970",
+      "year": 1970,
+      "labelEn": "Kowloon Peninsula (1970)",
+      "labelZh": "九龍半島 (1970)",
+      "scale": "1:10,000",
+      "coverage": "kowloon",
+      "tileUrlTemplate": "historical-maps/kowloon-1970/{z}/{x}/{y}.png",
+      "minZoom": 11,
+      "maxZoom": 16,
+      "bounds": [
+        [
+          114.1007326,
+          22.2709775
+        ],
+        [
+          114.2728606,
+          22.371815
         ]
       ],
       "attribution": "© Lands Department, HKSAR — Historical Maps (CSDI open data)"
