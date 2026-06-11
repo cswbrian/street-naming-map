@@ -34,7 +34,7 @@
           "gazette_notice_label": "Gazette No. 184",
           "government_notice_url_en": "/egazette/en/1909-gn184.pdf",
           "evidence_level": "gazette",
-          "is_declaration_event": false,
+          "is_declaration_event": true,
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,

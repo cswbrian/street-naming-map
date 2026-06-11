@@ -22,7 +22,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -42,7 +43,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -62,7 +64,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -82,7 +85,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -102,7 +106,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -122,7 +127,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -142,7 +148,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -162,7 +169,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -182,7 +190,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -202,7 +211,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -222,7 +232,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -242,7 +253,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -262,7 +274,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -282,7 +295,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -302,7 +316,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -322,7 +337,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -342,7 +358,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -362,7 +379,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -382,7 +400,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -402,7 +421,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -422,7 +442,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     },
@@ -442,7 +463,8 @@
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
-          "event_role": "current_name"
+          "event_role": "current_name",
+          "is_declaration_event": true
         }
       ]
     }

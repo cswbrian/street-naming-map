@@ -19,7 +19,7 @@
           "gazette_notice_label": "Government Notification No. 332",
           "government_notice_url_en": "/egazette/en/1934-gn332.pdf",
           "evidence_level": "gazette",
-          "is_declaration_event": false,
+          "is_declaration_event": true,
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,

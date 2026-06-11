@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-11T17:22:36.018Z",
+  "generated_at": "2026-06-11T17:27:18.012Z",
   "master_events": 978,
   "centreline_map_links": 628,
   "street_aggregates": 928,
-  "streets_with_naming_year": 875,
+  "streets_with_naming_year": 908,
   "join_stats": {
     "matched_by_street_code": 4132,
     "matched_exact_features": 4132,

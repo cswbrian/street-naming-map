@@ -20,7 +20,7 @@
           "street_name_zh": "孝民街",
           "gazette_notice_label": "G.N.588",
           "evidence_level": "gazette",
-          "is_declaration_event": false,
+          "is_declaration_event": true,
           "evidence_kind": "gazette_primary",
           "derived_from": null,
           "evidence_kind_note": null,
