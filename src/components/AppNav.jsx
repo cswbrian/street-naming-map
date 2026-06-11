@@ -93,7 +93,6 @@ function AppNav() {
   const mapPath = useLocalePath()
   const namesPath = useLocalePath('names')
   const aboutPath = useLocalePath('about')
-  const timelinesPath = useLocalePath('timelines')
   const [pendingCount, setPendingCount] = useState(null)
   const [menuOpen, setMenuOpen] = useState(false)
   const menuRef = useRef(null)
@@ -152,12 +151,6 @@ function AppNav() {
           {pendingCount != null ? (
             <span className="app-nav-pending-pill">{pendingCount > 9999 ? '9k+' : pendingCount}</span>
           ) : null}
-        </NavLink>
-        <NavLink
-          to={timelinesPath}
-          className={({ isActive }) => `app-top-nav-link ${isActive ? 'is-active' : ''}`}
-        >
-          {t('navTimelines')}
         </NavLink>
         <NavLink
           to={aboutPath}
