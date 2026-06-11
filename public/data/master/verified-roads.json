@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T15:57:18.625Z",
+  "generated_at": "2026-06-11T15:10:41.202Z",
   "source_file": "public/data/hk-streets.geojson",
   "notice_stem_index_path": "public/data/master/egazette-notice-stems.json",
   "egazette_pdf_locales_path": "public/data/master/egazette-pdf-locales.json",
@@ -3135,7 +3135,7 @@
         "canonical_naming_date": "1874-02-14",
         "canonical_naming_year": 1874,
         "current_name_since_date": null,
-        "first_known_naming_date": "1841-05-01",
+        "first_known_naming_date": "1842-02-01",
         "derivation_reason": "declaration_earliest",
         "map_display_date": "1842-02-01",
         "map_display_year": 1842,
@@ -3149,44 +3149,8 @@
         "evidence_kind": "hearsay",
         "derived_from": null,
         "evidence_kind_note": null,
-        "event_count": 5,
+        "event_count": 4,
         "name_history": [
-          {
-            "date": "1841-05-01",
-            "change_kind": "declare",
-            "name_en": "Main Street",
-            "name_zh": null,
-            "previous_name_en": null,
-            "previous_name_zh": null,
-            "notice_label_en": null,
-            "notice_label_zh": null,
-            "notice_url_en": null,
-            "notice_url_zh": null,
-            "evidence_kind": "research",
-            "is_declaration_event": true,
-            "event_role": "former_name",
-            "derived_from": null,
-            "evidence_kind_note": null,
-            "supplementary_evidence": [
-              {
-                "evidence_kind": "research",
-                "publisher": null,
-                "publisher_zh": null,
-                "document_label": "Wikipedia Queen's Road Hong Kong",
-                "document_url": "https://en.wikipedia.org/wiki/Queen%27s_Road,_Hong_Kong",
-                "supports": [
-                  "street_name_en"
-                ],
-                "note": "Originally called Main Street; renamed Queen's Road March 1842.",
-                "notice_label": null,
-                "publication_date": null,
-                "government_notice_url_en": null,
-                "government_notice_url_zh": null
-              }
-            ],
-            "source": "crowdsubmitted",
-            "submitter_remarks": "Working name during construction before March 1842 gazette naming as Queen's Road."
-          },
           {
             "date": "1842-02-01",
             "change_kind": "declare",

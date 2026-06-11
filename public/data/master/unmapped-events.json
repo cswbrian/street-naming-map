@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-10T15:49:23.461Z",
+  "generated_at": "2026-06-11T15:10:41.720Z",
   "source_files": {
     "events": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-events.json",
     "centreline_map": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-centreline-map.json"
   },
   "totals": {
-    "master_events": 963,
-    "mapped_event_ids": 657,
+    "master_events": 962,
+    "mapped_event_ids": 656,
     "unmapped_events": 306,
     "by_source": {
       "egazette_pdf": 164,

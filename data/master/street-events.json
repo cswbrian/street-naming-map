@@ -37,55 +37,6 @@
       "notice_stem": "1936-gn918"
     },
     {
-      "event_id": "crowd|queens-road-11804-main-street-former",
-      "source": "crowdsubmitted",
-      "publication_date": "1841-05-01",
-      "change_kind": "declare",
-      "street_name_en": "Main Street",
-      "street_name_zh": null,
-      "previous_street_name_en": null,
-      "previous_street_name_zh": null,
-      "district_raw_en": null,
-      "district_raw_zh": null,
-      "notice_type_raw_en": "Declaration of street name (crowdsource)",
-      "notice_type_raw_zh": "街道命名（眾包）",
-      "notice_type_normalized": "declare",
-      "notice_no": "CROWD",
-      "government_notice_label_en": null,
-      "government_notice_label_zh": null,
-      "government_notice_url_en": null,
-      "government_notice_url_zh": null,
-      "related_gazette_plan_urls_en": [],
-      "related_gazette_plan_urls_zh": [],
-      "related_gazette_plan_labels_en": [],
-      "related_gazette_plan_labels_zh": [],
-      "is_declaration_event": true,
-      "evidence_kind": "research",
-      "event_role": "former_name",
-      "derived_from": null,
-      "evidence_kind_note": null,
-      "submitter_remarks": "Working name during construction before March 1842 gazette naming as Queen's Road.",
-      "supplementary_evidence": [
-        {
-          "evidence_kind": "research",
-          "publisher": null,
-          "publisher_zh": null,
-          "document_label": "Wikipedia Queen's Road Hong Kong",
-          "document_url": "https://en.wikipedia.org/wiki/Queen%27s_Road,_Hong_Kong",
-          "supports": [
-            "street_name_en"
-          ],
-          "note": "Originally called Main Street; renamed Queen's Road March 1842.",
-          "notice_label": null,
-          "publication_date": null,
-          "government_notice_url_en": null,
-          "government_notice_url_zh": null
-        }
-      ],
-      "reviewed_at": "2026-06-08",
-      "submission_id": "queens-road-11804-main-street-former"
-    },
-    {
       "event_id": "crowd|queens-road-11804-built-1842",
       "source": "crowdsubmitted",
       "publication_date": "1842-02-01",
