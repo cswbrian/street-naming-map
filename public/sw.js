@@ -1,9 +1,11 @@
-const CACHE_NAME = 'hk-streets-v3'
+const CACHE_NAME = 'hk-streets-v4'
 const BASE_URL = new URL(self.registration.scope).pathname
 const PRECACHE_URLS = [
   `${BASE_URL}manifest.webmanifest`,
-  `${BASE_URL}icons/icon-192.svg`,
-  `${BASE_URL}icons/icon-512.svg`,
+  `${BASE_URL}favicon-32.png`,
+  `${BASE_URL}apple-touch-icon.png`,
+  `${BASE_URL}icons/icon-192.png`,
+  `${BASE_URL}icons/icon-512.png`,
 ]
 
 self.addEventListener('install', (event) => {
