@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-11T17:27:18.888Z",
+  "generated_at": "2026-06-15T15:37:44.041Z",
   "totals": {
-    "timelines": 928,
-    "linked_active": 628,
+    "timelines": 927,
+    "linked_active": 627,
     "unlinked": 300,
     "legacy_or_name_only": 0
   },
@@ -17503,44 +17503,6 @@
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
           "submitter_remarks": ""
-        }
-      ]
-    },
-    {
-      "timeline_id": "code:11400",
-      "street_code": "11400",
-      "street_name_en": "Market Street",
-      "street_name_zh": "街市街",
-      "canonical_naming_year": 1938,
-      "canonical_naming_date": "1938-04-14",
-      "derivation_reason": "declaration_earliest",
-      "event_count": 1,
-      "geometry_link": {
-        "status": "active",
-        "street_code": "11400",
-        "method": "migrated_from_event_street_code",
-        "district_hint": null
-      },
-      "name_history": [
-        {
-          "date": "1938-04-14",
-          "change_kind": "declare",
-          "name_en": "Market Street",
-          "name_zh": "街市街",
-          "previous_name_en": null,
-          "previous_name_zh": null,
-          "notice_label_en": "G.N.299",
-          "notice_label_zh": "第299號",
-          "notice_url_en": "/egazette/en/1938-gn299.pdf",
-          "notice_url_zh": "/egazette/zh/1938-gn299.pdf",
-          "evidence_kind": "gazette_primary",
-          "is_declaration_event": true,
-          "event_role": "current_name",
-          "derived_from": null,
-          "evidence_kind_note": null,
-          "supplementary_evidence": null,
-          "source": "hkgro",
-          "submitter_remarks": null
         }
       ]
     },

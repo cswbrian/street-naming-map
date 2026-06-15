@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-11T17:27:18.607Z",
+  "generated_at": "2026-06-15T15:37:43.780Z",
   "source_file": "public/data/hk-streets.geojson",
   "notice_stem_index_path": "public/data/master/egazette-notice-stems.json",
   "egazette_pdf_locales_path": "public/data/master/egazette-pdf-locales.json",
   "totals": {
     "total_segments": 39724,
-    "segments_missing_naming_year": 35592,
+    "segments_missing_naming_year": 35594,
     "unique_roads": 12233,
     "unique_roads_with_street_name": 4578,
-    "unique_roads_with_naming_year": 866,
-    "unique_roads_with_street_name_and_naming_year": 866,
-    "unique_roads_missing_naming_year": 11367,
-    "unique_roads_missing_naming_year_with_street_name": 3712
+    "unique_roads_with_naming_year": 864,
+    "unique_roads_with_street_name_and_naming_year": 864,
+    "unique_roads_missing_naming_year": 11369,
+    "unique_roads_missing_naming_year_with_street_name": 3714
   },
   "kind": "pending",
   "roads": [
@@ -54555,6 +54555,17 @@
       "street_code": "39281",
       "english_name": "MARIN AVENUE",
       "chinese_name": "麥蘭徑",
+      "street_type": "Secondary Road",
+      "naming_year": null,
+      "naming_date": null,
+      "naming_source": null,
+      "segment_count": 2
+    },
+    {
+      "road_key": "code:11400",
+      "street_code": "11400",
+      "english_name": "MARKET STREET",
+      "chinese_name": "街市街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -117310,6 +117321,17 @@
       "street_code": "11398",
       "english_name": "MARIGOLD ROAD",
       "chinese_name": "壽菊路",
+      "street_type": "Secondary Road",
+      "naming_year": null,
+      "naming_date": null,
+      "naming_source": null,
+      "segment_count": 1
+    },
+    {
+      "road_key": "code:11399",
+      "street_code": "11399",
+      "english_name": "MARKET STREET",
+      "chinese_name": "街市街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,

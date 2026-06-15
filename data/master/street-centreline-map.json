@@ -3448,19 +3448,6 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
-      "timeline_id": "code:11400",
-      "street_code": "11400",
-      "event_ids": [
-        "crowd|1938-gn299-tsuen-wan-streets-11400-1938-04-14"
-      ],
-      "status": "active",
-      "method": "migrated_from_event_street_code",
-      "district_hint": null,
-      "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
-    },
-    {
       "timeline_id": "code:11401",
       "street_code": "11401",
       "event_ids": [
