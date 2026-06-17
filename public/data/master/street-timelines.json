@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T15:37:44.041Z",
+  "generated_at": "2026-06-17T14:58:00.901Z",
   "totals": {
     "timelines": 927,
     "linked_active": 627,
@@ -4099,7 +4099,7 @@
       "geometry_link": {
         "status": "active",
         "street_code": "10297",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -26872,44 +26872,6 @@
       ]
     },
     {
-      "timeline_id": "code:12106",
-      "street_code": "12106",
-      "street_name_en": "Shung Yan Road",
-      "street_name_zh": "崇仁道",
-      "canonical_naming_year": 1935,
-      "canonical_naming_date": "1935-03-01",
-      "derivation_reason": "declaration_earliest",
-      "event_count": 1,
-      "geometry_link": {
-        "status": "active",
-        "street_code": "12106",
-        "method": "migrated_from_event_street_code",
-        "district_hint": null
-      },
-      "name_history": [
-        {
-          "date": "1935-03-01",
-          "change_kind": "declare",
-          "name_en": "Shung Yan Road",
-          "name_zh": "崇仁道",
-          "previous_name_en": null,
-          "previous_name_zh": null,
-          "notice_label_en": "G.N.165",
-          "notice_label_zh": "第165號",
-          "notice_url_en": "/egazette/en/1935-gn165.pdf",
-          "notice_url_zh": "/egazette/zh/1935-gn165.pdf",
-          "evidence_kind": "gazette_primary",
-          "is_declaration_event": true,
-          "event_role": "current_name",
-          "derived_from": null,
-          "evidence_kind_note": null,
-          "supplementary_evidence": null,
-          "source": "hkgro",
-          "submitter_remarks": "Gazette ZH 崇仁道; database 崇仁街."
-        }
-      ]
-    },
-    {
       "timeline_id": "code:12107",
       "street_code": "12107",
       "street_name_en": "Shung Yiu Street",
@@ -31296,6 +31258,44 @@
           "supplementary_evidence": null,
           "source": "hkgro",
           "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12468",
+      "street_code": "12468",
+      "street_name_en": "Tsuen Wan Market Street",
+      "street_name_zh": "荃灣街市街",
+      "canonical_naming_year": 1938,
+      "canonical_naming_date": "1938-04-14",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12468",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1938-04-14",
+          "change_kind": "declare",
+          "name_en": "Tsuen Wan Market Street",
+          "name_zh": "荃灣街市街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.299",
+          "notice_label_zh": "第299號",
+          "notice_url_en": "/egazette/en/1938-gn299.pdf",
+          "notice_url_zh": "/egazette/zh/1938-gn299.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "Gazette EN Market Street / ZH 街市街."
         }
       ]
     },

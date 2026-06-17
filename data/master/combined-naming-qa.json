@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-15T15:37:43.238Z",
+  "generated_at": "2026-06-17T14:57:59.937Z",
   "master_events": 977,
   "centreline_map_links": 627,
   "street_aggregates": 927,
   "streets_with_naming_year": 907,
   "join_stats": {
-    "matched_by_street_code": 4130,
-    "matched_exact_features": 4130,
+    "matched_by_street_code": 4133,
+    "matched_exact_features": 4133,
     "matched_fallback_features": 0,
-    "unmatched_features": 35594,
+    "unmatched_features": 35591,
     "total_features": 39724
   },
   "sources": {

@@ -1,16 +1,19 @@
 {
   "batch_id": "1938-gn299-tsuen-wan-streets",
+  "source": "hkgro",
+  "gazette_only": true,
   "gazette_notice_label": "Government Notification No. 299",
   "publication_date": "1938-04-14",
   "gazette_url_en": "/egazette/en/1938-gn299.pdf",
   "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1938-gn299-tsuen-wan-streets/1938-gn299.pdf",
   "streets": [
     {
-      "street_code": "10297",
+      "link_street_code": "10297",
       "english_name": "CHUNG ON STREET",
       "chinese_name": "眾安街",
       "history": [
         {
+          "submission_id": "1938-gn299-tsuen-wan-streets-10297-1938-04-14",
           "publication_date": "1938-04-14",
           "change_kind": "declare",
           "street_name_en": "Chung On Street",
@@ -19,13 +22,30 @@
           "government_notice_url_en": "/egazette/en/1938-gn299.pdf",
           "evidence_level": "gazette",
           "evidence_kind": "gazette_primary",
-          "derived_from": null,
-          "evidence_kind_note": null,
           "event_role": "current_name"
+        }
+      ]
+    },
+    {
+      "link_street_code": "12468",
+      "english_name": "TSUEN WAN MARKET STREET",
+      "chinese_name": "荃灣街市街",
+      "history": [
+        {
+          "submission_id": "1938-gn299-tsuen-wan-streets-12468-1938-04-14",
+          "publication_date": "1938-04-14",
+          "change_kind": "declare",
+          "street_name_en": "Tsuen Wan Market Street",
+          "street_name_zh": "荃灣街市街",
+          "gazette_notice_label": "Government Notification No. 299",
+          "government_notice_url_en": "/egazette/en/1938-gn299.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "submitter_remarks": "Gazette EN Market Street / ZH 街市街."
         }
       ]
     }
   ],
-  "source": "hkgro",
   "evidence_schema_version": 1
 }

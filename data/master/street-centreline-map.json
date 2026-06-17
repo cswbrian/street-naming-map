@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-06-11T17:22:05.940Z",
+  "updated_at": "2026-06-17T14:57:58.833Z",
   "links": [
     {
       "timeline_id": "code:10013",
@@ -832,11 +832,11 @@
         "crowd|1938-gn299-tsuen-wan-streets-10297-1938-04-14"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-17",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10307",
@@ -5161,19 +5161,6 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
-      "timeline_id": "code:12106",
-      "street_code": "12106",
-      "event_ids": [
-        "crowd|1935-gn165-kowloon-tong-streets-12106-1935-03-01"
-      ],
-      "status": "active",
-      "method": "migrated_from_event_street_code",
-      "district_hint": null,
-      "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
-    },
-    {
       "timeline_id": "code:12107",
       "street_code": "12107",
       "event_ids": [
@@ -6085,6 +6072,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12468",
+      "street_code": "12468",
+      "event_ids": [
+        "crowd|1938-gn299-tsuen-wan-streets-12468-1938-04-14"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-17",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12478",

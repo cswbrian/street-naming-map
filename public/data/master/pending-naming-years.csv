@@ -1728,7 +1728,7 @@ code:12409,12409,TSENG CHOI STREET,井財街,Secondary Road,,,,,6
 code:12418,12418,TSING FAT STREET,青發街,Secondary Road,,,,,6
 code:12429,12429,TSING LUK STREET,青綠街,Secondary Road,,,,,6
 code:12444,12444,TSING WU SQUARE,青湖坊,Secondary Road,,,,,6
-code:12468,12468,TSUEN WAN MARKET STREET,荃灣街市街,Secondary Road,,,,,6
+code:12468,12468,TSUEN WAN MARKET STREET,荃灣街市街,Secondary Road,1938,1938-04-14,/egazette/en/1938-gn299.pdf,/egazette/zh/1938-gn299.pdf,6
 code:12498,12498,TUEN HI ROAD,屯喜路,Secondary Road,,,,,6
 code:13997,13997,TUNG CHEONG STREET,東昌街,Secondary Road,1936,1936-04-17,/egazette/en/1936-gn360.pdf,/egazette/zh/1936-gn360.pdf,6
 code:12528,12528,TUNG LUNG ROAD,東隆道,Secondary Road,,,,,6
@@ -4293,7 +4293,7 @@ code:12054,12054,SHING ON STREET,成安街,Secondary Road,,,,,3
 code:14512,14512,SHING YU LANE,承裕里,Secondary Road,2021,2021-06-25,/egazette/en/2021-25-25-3897.pdf,/egazette/zh/2021-25-25-3897.pdf,3
 code:13142,13142,SHUI CHE KWUN LANE,水車館里,Track,2017,2017-10-13,https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721417595.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721417595.pdf,3
 code:14250,14250,SHUNG CHING ROAD,崇正路,Secondary Road,,,,,3
-code:12106,12106,SHUNG YAN STREET,崇仁街,Secondary Road,1935,1935-03-01,/egazette/en/1935-gn165.pdf,/egazette/zh/1935-gn165.pdf,3
+code:12106,12106,SHUNG YAN STREET,崇仁街,Secondary Road,,,,,3
 code:12109,12109,SILVER CAPE ROAD,銀岬路,Secondary Road,,,,,3
 code:12110,12110,SILVERSTRAND BEACH ROAD,銀綫灣道,Secondary Road,,,,,3
 code:12116,12116,SIU HONG ROAD,兆康路,Secondary Road,,,,,3
