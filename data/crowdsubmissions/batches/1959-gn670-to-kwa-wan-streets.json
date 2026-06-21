@@ -1,0 +1,84 @@
+{
+  "batch_id": "1959-gn670-to-kwa-wan-streets",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 670",
+  "publication_date": "1959-05-15",
+  "gazette_url_en": "/egazette/en/1959-gn670.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1959-gn670-to-kwa-wan-streets/1959-gn670.pdf",
+  "streets": [
+    {
+      "english_name": "MING LUN STREET",
+      "chinese_name": "明倫街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Ming Lun Street",
+          "gazette_notice_label": "Government Notification No. 670",
+          "government_notice_url_en": "/egazette/en/1959-gn670.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-05-15",
+          "street_name_zh": "明倫街"
+        }
+      ],
+      "link_street_code": "11436"
+    },
+    {
+      "english_name": "CHUNG SUN STREET",
+      "chinese_name": "忠信街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Chung Sun Street",
+          "gazette_notice_label": "Government Notification No. 670",
+          "government_notice_url_en": "/egazette/en/1959-gn670.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-05-15",
+          "street_name_zh": "忠信街"
+        }
+      ],
+      "link_street_code": "10302"
+    },
+    {
+      "english_name": "HING YIN STREET",
+      "chinese_name": "興賢街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Hing Yin Street",
+          "gazette_notice_label": "Government Notification No. 670",
+          "government_notice_url_en": "/egazette/en/1959-gn670.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-05-15",
+          "street_name_zh": "興賢街"
+        }
+      ],
+      "link_street_code": "10736"
+    },
+    {
+      "english_name": "HING YAN STREET",
+      "chinese_name": "興仁街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Hing Yan Street",
+          "gazette_notice_label": "Government Notification No. 670",
+          "government_notice_url_en": "/egazette/en/1959-gn670.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-05-15",
+          "street_name_zh": "興仁街"
+        }
+      ],
+      "link_street_code": "10735"
+    }
+  ],
+  "evidence_schema_version": 1
+}

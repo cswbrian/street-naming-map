@@ -1,0 +1,98 @@
+{
+  "batch_id": "1958-gn1068-wan-on-cluster",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 1068",
+  "publication_date": "1958-08-08",
+  "gazette_url_en": "/egazette/en/1958-gn1068.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1958-gn1068-wan-on-cluster/1958-gn1068.pdf",
+  "streets": [
+    {
+      "english_name": "WAN ON STREET",
+      "chinese_name": "環安街",
+      "history": [
+        {
+          "publication_date": "1958-08-08",
+          "change_kind": "declare",
+          "street_name_en": "Wan On Street",
+          "gazette_notice_label": "Government Notification No. 1068",
+          "government_notice_url_en": "/egazette/en/1958-gn1068.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "環安街"
+        }
+      ],
+      "link_street_code": "12639"
+    },
+    {
+      "english_name": "WAN LOK STREET",
+      "chinese_name": "環樂街",
+      "history": [
+        {
+          "publication_date": "1958-08-08",
+          "change_kind": "declare",
+          "street_name_en": "Wan Lok Street",
+          "gazette_notice_label": "Government Notification No. 1068",
+          "government_notice_url_en": "/egazette/en/1958-gn1068.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "環樂街"
+        }
+      ]
+    },
+    {
+      "english_name": "WAN HING STREET",
+      "chinese_name": "環興街",
+      "history": [
+        {
+          "publication_date": "1958-08-08",
+          "change_kind": "declare",
+          "street_name_en": "Wan Hing Street",
+          "gazette_notice_label": "Government Notification No. 1068",
+          "government_notice_url_en": "/egazette/en/1958-gn1068.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "環興街"
+        }
+      ]
+    },
+    {
+      "english_name": "WAN FAT STREET",
+      "chinese_name": "環發街",
+      "history": [
+        {
+          "publication_date": "1958-08-08",
+          "change_kind": "declare",
+          "street_name_en": "Wan Fat Street",
+          "gazette_notice_label": "Government Notification No. 1068",
+          "government_notice_url_en": "/egazette/en/1958-gn1068.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "環發街"
+        }
+      ]
+    },
+    {
+      "english_name": "WAN TAT STREET",
+      "chinese_name": "環達街",
+      "history": [
+        {
+          "publication_date": "1958-08-08",
+          "change_kind": "declare",
+          "street_name_en": "Wan Tat Street",
+          "gazette_notice_label": "Government Notification No. 1068",
+          "government_notice_url_en": "/egazette/en/1958-gn1068.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "環達街"
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}

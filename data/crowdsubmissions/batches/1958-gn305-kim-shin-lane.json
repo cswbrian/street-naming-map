@@ -1,0 +1,30 @@
+{
+  "batch_id": "1958-gn305-kim-shin-lane",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 305",
+  "publication_date": "1958-02-28",
+  "gazette_url_en": "/egazette/en/1958-gn305.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1958-gn305-kim-shin-lane/1958-gn305.pdf",
+  "streets": [
+    {
+      "english_name": "KIM SHIN LANE",
+      "chinese_name": "兼善里",
+      "history": [
+        {
+          "publication_date": "1958-02-28",
+          "change_kind": "declare",
+          "street_name_en": "Kim Shin Lane",
+          "gazette_notice_label": "Government Notification No. 305",
+          "government_notice_url_en": "/egazette/en/1958-gn305.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "兼善里"
+        }
+      ],
+      "link_street_code": "10993"
+    }
+  ],
+  "evidence_schema_version": 1
+}

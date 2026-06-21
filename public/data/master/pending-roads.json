@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-17T14:58:00.598Z",
+  "generated_at": "2026-06-21T07:04:26.213Z",
   "source_file": "public/data/hk-streets.geojson",
   "notice_stem_index_path": "public/data/master/egazette-notice-stems.json",
   "egazette_pdf_locales_path": "public/data/master/egazette-pdf-locales.json",
   "totals": {
     "total_segments": 39724,
-    "segments_missing_naming_year": 35591,
+    "segments_missing_naming_year": 35292,
     "unique_roads": 12233,
     "unique_roads_with_street_name": 4578,
-    "unique_roads_with_naming_year": 864,
-    "unique_roads_with_street_name_and_naming_year": 864,
-    "unique_roads_missing_naming_year": 11369,
-    "unique_roads_missing_naming_year_with_street_name": 3714
+    "unique_roads_with_naming_year": 938,
+    "unique_roads_with_street_name_and_naming_year": 938,
+    "unique_roads_missing_naming_year": 11295,
+    "unique_roads_missing_naming_year_with_street_name": 3640
   },
   "kind": "pending",
   "roads": [
@@ -346,17 +346,6 @@
       "segment_count": 35
     },
     {
-      "road_key": "code:10899",
-      "street_code": "10899",
-      "english_name": "JOCKEY CLUB ROAD",
-      "chinese_name": "馬會道",
-      "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 35
-    },
-    {
       "road_key": "code:11176",
       "street_code": "11176",
       "english_name": "LAM KAM ROAD",
@@ -559,17 +548,6 @@
       "street_code": "11316",
       "english_name": "LUNG MUN ROAD",
       "chinese_name": "龍門路",
-      "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 31
-    },
-    {
-      "road_key": "code:11869",
-      "street_code": "11869",
-      "english_name": "SALISBURY ROAD",
-      "chinese_name": "梳士巴利道",
       "street_type": "Main Road",
       "naming_year": null,
       "naming_date": null,
@@ -1402,17 +1380,6 @@
       "segment_count": 20
     },
     {
-      "road_key": "code:10263",
-      "street_code": "10263",
-      "english_name": "CHOI HUNG ROAD",
-      "chinese_name": "彩虹道",
-      "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 20
-    },
-    {
       "road_key": "code:13835",
       "street_code": "13835",
       "english_name": "MA TSO LUNG ROAD",
@@ -1781,17 +1748,6 @@
       "english_name": "LAI KING HILL ROAD",
       "chinese_name": "荔景山路",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 18
-    },
-    {
-      "road_key": "code:11359",
-      "street_code": "11359",
-      "english_name": "MAGAZINE GAP ROAD",
-      "chinese_name": "馬己仙峽道",
-      "street_type": "Main Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -2583,17 +2539,6 @@
       "street_code": "13889",
       "english_name": "HOI FAI ROAD",
       "chinese_name": "海輝道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 15
-    },
-    {
-      "road_key": "code:10982",
-      "street_code": "10982",
-      "english_name": "KENNEDY ROAD",
-      "chinese_name": "堅尼地道",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -3551,17 +3496,6 @@
       "street_code": "10248",
       "english_name": "CHING HONG ROAD",
       "chinese_name": "青康路",
-      "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 13
-    },
-    {
-      "road_key": "code:10597",
-      "street_code": "10597",
-      "english_name": "GARDEN ROAD",
-      "chinese_name": "花園道",
       "street_type": "Main Road",
       "naming_year": null,
       "naming_date": null,
@@ -9110,17 +9044,6 @@
       "segment_count": 8
     },
     {
-      "road_key": "code:10069",
-      "street_code": "10069",
-      "english_name": "BONHAM ROAD",
-      "chinese_name": "般咸道",
-      "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 8
-    },
-    {
       "road_key": "code:10070",
       "street_code": "10070",
       "english_name": "BONHAM STRAND",
@@ -9169,17 +9092,6 @@
       "street_code": "10121",
       "english_name": "CARMEL ROAD",
       "chinese_name": "佳美道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 8
-    },
-    {
-      "road_key": "code:10123",
-      "street_code": "10123",
-      "english_name": "CARNARVON ROAD",
-      "chinese_name": "加拿分道",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -12212,17 +12124,6 @@
       "segment_count": 7
     },
     {
-      "road_key": "code:11358",
-      "street_code": "11358",
-      "english_name": "MACDONNELL ROAD",
-      "chinese_name": "麥當勞道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 7
-    },
-    {
       "road_key": "code:13034",
       "street_code": "13034",
       "english_name": "MANG KUNG WO ROAD",
@@ -12469,28 +12370,6 @@
       "street_code": "11854",
       "english_name": "SAI TSO WAN ROAD",
       "chinese_name": "西草灣路",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 7
-    },
-    {
-      "road_key": "code:11883",
-      "street_code": "11883",
-      "english_name": "SAN FUNG AVENUE",
-      "chinese_name": "新豐路",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 7
-    },
-    {
-      "road_key": "code:11901",
-      "street_code": "11901",
-      "english_name": "SAN MA TAU STREET",
-      "chinese_name": "新碼頭街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -14687,17 +14566,6 @@
       "segment_count": 6
     },
     {
-      "road_key": "code:10077",
-      "street_code": "10077",
-      "english_name": "BOWEN ROAD",
-      "chinese_name": "寶雲道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 6
-    },
-    {
       "road_key": "code:10101",
       "street_code": "10101",
       "english_name": "BUTTERFLY VALLEY ROAD",
@@ -14735,17 +14603,6 @@
       "street_code": "39017",
       "english_name": "CANAL ROAD FLYOVER",
       "chinese_name": "堅拿道天橋",
-      "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 6
-    },
-    {
-      "road_key": "code:10163",
-      "street_code": "10163",
-      "english_name": "CHATER ROAD",
-      "chinese_name": "遮打道",
       "street_type": "Main Road",
       "naming_year": null,
       "naming_date": null,
@@ -19483,17 +19340,6 @@
       "segment_count": 5
     },
     {
-      "road_key": "code:10519",
-      "street_code": "10519",
-      "english_name": "FU HING STREET",
-      "chinese_name": "符興街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 5
-    },
-    {
       "road_key": "code:10529",
       "street_code": "10529",
       "english_name": "FU TEI AU ROAD",
@@ -20660,17 +20506,6 @@
       "segment_count": 5
     },
     {
-      "road_key": "code:11888",
-      "street_code": "11888",
-      "english_name": "SAN HONG STREET",
-      "chinese_name": "新康街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 5
-    },
-    {
       "road_key": "code:11905",
       "street_code": "11905",
       "english_name": "SAN SAU STREET",
@@ -20686,17 +20521,6 @@
       "street_code": "14251",
       "english_name": "SAN SHEK WAN NORTH ROAD",
       "chinese_name": "散石灣北路",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 5
-    },
-    {
-      "road_key": "code:11909",
-      "street_code": "11909",
-      "english_name": "SAN SHING AVENUE",
-      "chinese_name": "新成路",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -21247,17 +21071,6 @@
       "street_code": "12524",
       "english_name": "TUNG LO WAN HILL ROAD",
       "chinese_name": "銅鑼灣山路",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 5
-    },
-    {
-      "road_key": "code:12536",
-      "street_code": "12536",
-      "english_name": "TUNG SING ROAD",
-      "chinese_name": "東勝道",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -25995,17 +25808,6 @@
       "segment_count": 4
     },
     {
-      "road_key": "code:10512",
-      "street_code": "10512",
-      "english_name": "FORTRESS HILL ROAD",
-      "chinese_name": "炮台山道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 4
-    },
-    {
       "road_key": "code:14245",
       "street_code": "14245",
       "english_name": "FU KONG SHAN ROAD",
@@ -26186,17 +25988,6 @@
       "street_code": "10654",
       "english_name": "HANG TAU ROAD",
       "chinese_name": "坑頭路",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 4
-    },
-    {
-      "road_key": "code:10680",
-      "street_code": "10680",
-      "english_name": "HEALTHY STREET EAST",
-      "chinese_name": "健康東街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -26582,17 +26373,6 @@
       "street_code": "11023",
       "english_name": "KING FUNG PATH",
       "chinese_name": "景峰徑",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 4
-    },
-    {
-      "road_key": "code:11026",
-      "street_code": "11026",
-      "english_name": "KING LAM STREET",
-      "chinese_name": "瓊林街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -28107,17 +27887,6 @@
       "segment_count": 4
     },
     {
-      "road_key": "code:12482",
-      "street_code": "12482",
-      "english_name": "TSUN FU STREET",
-      "chinese_name": "巡撫街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 4
-    },
-    {
       "road_key": "code:12497",
       "street_code": "12497",
       "english_name": "TUEN FAT ROAD",
@@ -28221,17 +27990,6 @@
       "street_code": "12594",
       "english_name": "WAH KING STREET",
       "chinese_name": "華景街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 4
-    },
-    {
-      "road_key": "code:12608",
-      "street_code": "12608",
-      "english_name": "WAI ON STREET",
-      "chinese_name": "惠安街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -28650,17 +28408,6 @@
       "street_code": "39307",
       "english_name": "YUK SING ROAD",
       "chinese_name": "旭昇道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 4
-    },
-    {
-      "road_key": "code:12945",
-      "street_code": "12945",
-      "english_name": "YUN PING ROAD",
-      "chinese_name": "恩平道",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -39305,17 +39052,6 @@
       "segment_count": 3
     },
     {
-      "road_key": "code:10549",
-      "street_code": "10549",
-      "english_name": "FUK LEE STREET",
-      "chinese_name": "福利街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 3
-    },
-    {
       "road_key": "code:10561",
       "street_code": "10561",
       "english_name": "FUK WANG STREET",
@@ -39525,32 +39261,10 @@
       "segment_count": 3
     },
     {
-      "road_key": "code:10664",
-      "street_code": "10664",
-      "english_name": "HARLECH ROAD",
-      "chinese_name": "夏力道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 3
-    },
-    {
       "road_key": "code:10671",
       "street_code": "10671",
       "english_name": "HAU TEI SQUARE",
       "chinese_name": "鱟地坊",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 3
-    },
-    {
-      "road_key": "code:10681",
-      "street_code": "10681",
-      "english_name": "HEALTHY STREET WEST",
-      "chinese_name": "健康西街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -40504,17 +40218,6 @@
       "segment_count": 3
     },
     {
-      "road_key": "code:11257",
-      "street_code": "11257",
-      "english_name": "LOK KWAN STREET",
-      "chinese_name": "樂群街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 3
-    },
-    {
       "road_key": "code:14398",
       "street_code": "14398",
       "english_name": "LOK MA CHAU PATH",
@@ -40805,17 +40508,6 @@
       "street_code": "11408",
       "english_name": "MCGREGOR STREET",
       "chinese_name": "麥加力歌街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 3
-    },
-    {
-      "road_key": "code:11411",
-      "street_code": "11411",
-      "english_name": "MEI KING STREET",
-      "chinese_name": "美景街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -41131,17 +40823,6 @@
       "segment_count": 3
     },
     {
-      "road_key": "code:11568",
-      "street_code": "11568",
-      "english_name": "OLD MAIN STREET, ABERDEEN",
-      "chinese_name": "香港仔舊大街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 3
-    },
-    {
       "road_key": "code:11571",
       "street_code": "11571",
       "english_name": "ON CHEE ROAD",
@@ -41344,17 +41025,6 @@
       "street_code": "11667",
       "english_name": "PEACE AVENUE",
       "chinese_name": "太平道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 3
-    },
-    {
-      "road_key": "code:11680",
-      "street_code": "11680",
-      "english_name": "PENNINGTON STREET",
-      "chinese_name": "邊寧頓街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -41664,17 +41334,6 @@
       "english_name": "SAI WAN ROAD",
       "chinese_name": "西灣路",
       "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 3
-    },
-    {
-      "road_key": "code:11880",
-      "street_code": "11880",
-      "english_name": "SAN FAT STREET",
-      "chinese_name": "新發街",
-      "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -51713,17 +51372,6 @@
       "segment_count": 2
     },
     {
-      "road_key": "code:10089",
-      "street_code": "10089",
-      "english_name": "BRIDGES STREET",
-      "chinese_name": "必列者士街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 2
-    },
-    {
       "road_key": "code:10098",
       "street_code": "10098",
       "english_name": "BURD STREET",
@@ -52312,17 +51960,6 @@
       "english_name": "CHUNG SUM TSUEN LANE NO.7",
       "chinese_name": "中心村第七巷",
       "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 2
-    },
-    {
-      "road_key": "code:10302",
-      "street_code": "10302",
-      "english_name": "CHUNG SUN STREET",
-      "chinese_name": "忠信街",
-      "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -53356,17 +52993,6 @@
       "street_code": "13541",
       "english_name": "KA CHOI LANE",
       "chinese_name": "嘉才里",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 2
-    },
-    {
-      "road_key": "code:10920",
-      "street_code": "10920",
-      "english_name": "KA WAI MAN ROAD",
-      "chinese_name": "加惠民道",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -54496,17 +54122,6 @@
       "segment_count": 2
     },
     {
-      "road_key": "code:11394",
-      "street_code": "11394",
-      "english_name": "MANSION STREET",
-      "chinese_name": "民新街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 2
-    },
-    {
       "road_key": "code:13828",
       "street_code": "13828",
       "english_name": "MAPLE GARDENS 1ST STREET",
@@ -55167,17 +54782,6 @@
       "segment_count": 2
     },
     {
-      "road_key": "code:11655",
-      "street_code": "11655",
-      "english_name": "PAN HOI STREET",
-      "chinese_name": "濱海街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 2
-    },
-    {
       "road_key": "code:13774",
       "street_code": "13774",
       "english_name": "PARC OASIS ROAD",
@@ -55391,17 +54995,6 @@
       "street_code": "11756",
       "english_name": "PO TUCK STREET",
       "chinese_name": "保德街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 2
-    },
-    {
-      "road_key": "code:11770",
-      "street_code": "11770",
-      "english_name": "POK MAN STREET",
-      "chinese_name": "博文街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -55699,17 +55292,6 @@
       "street_code": "13618",
       "english_name": "SAN PO STREET",
       "chinese_name": "新寶街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 2
-    },
-    {
-      "road_key": "code:11913",
-      "street_code": "11913",
-      "english_name": "SAN TSOI STREET",
-      "chinese_name": "新財街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -109925,17 +109507,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:10040",
-      "street_code": "10040",
-      "english_name": "BAKER COURT",
-      "chinese_name": "必嘉圍",
-      "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:39264",
       "street_code": "39264",
       "english_name": "BANYAN PATH",
@@ -109952,17 +109523,6 @@
       "english_name": "BASEL ROAD",
       "chinese_name": "巴色道",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:10045",
-      "street_code": "10045",
-      "english_name": "BATTERY PATH",
-      "chinese_name": "炮台里",
-      "street_type": "Track",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -111652,17 +111212,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:10416",
-      "street_code": "10416",
-      "english_name": "EZRA'S LANE",
-      "chinese_name": "伊沙里",
-      "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:39214",
       "street_code": "39214",
       "english_name": "FAIRVIEW PARK 1ST STREET RIVER NORTH",
@@ -112950,17 +112499,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:10593",
-      "street_code": "10593",
-      "english_name": "FUNG YI STREET",
-      "chinese_name": "鳳儀街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:39573",
       "street_code": "39573",
       "english_name": "GENEVA EAST AVENUE",
@@ -113346,28 +112884,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:10667",
-      "street_code": "10667",
-      "english_name": "HAU FOOK STREET",
-      "chinese_name": "厚福街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:10670",
-      "street_code": "10670",
-      "english_name": "HAU TAK LANE",
-      "chinese_name": "厚德里",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:10672",
       "street_code": "10672",
       "english_name": "HAU WO STREET",
@@ -113483,17 +112999,6 @@
       "english_name": "HIBISCUS PATH",
       "chinese_name": "紅花徑",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:13250",
-      "street_code": "13250",
-      "english_name": "HILL SIDE TERRACE",
-      "chinese_name": "山坡臺",
-      "street_type": "Track",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -113621,17 +113126,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:10735",
-      "street_code": "10735",
-      "english_name": "HING YAN STREET",
-      "chinese_name": "興仁街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:39203",
       "street_code": "39203",
       "english_name": "HING YAN TSUEN LANE No.1",
@@ -113681,17 +113175,6 @@
       "english_name": "HING YAN TSUEN LANE No.5",
       "chinese_name": "興仁村第五巷",
       "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:10736",
-      "street_code": "10736",
-      "english_name": "HING YIN STREET",
-      "chinese_name": "興賢街",
-      "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -113988,17 +113471,6 @@
       "street_code": "13849",
       "english_name": "HOK LAM LANE",
       "chinese_name": "學林里",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:10789",
-      "street_code": "10789",
-      "english_name": "HOK LING STREET",
-      "chinese_name": "鶴齡街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -114391,17 +113863,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:10869",
-      "street_code": "10869",
-      "english_name": "HUNG KWONG STREET",
-      "chinese_name": "鴻光街",
-      "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:14119",
       "street_code": "14119",
       "english_name": "HUNG LEONG ROAD",
@@ -114428,17 +113889,6 @@
       "street_code": "13976",
       "english_name": "HUNG TAK ROAD",
       "chinese_name": "洪德路",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:10877",
-      "street_code": "10877",
-      "english_name": "HUNG WAN STREET",
-      "chinese_name": "鴻運街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -114582,17 +114032,6 @@
       "street_code": "10916",
       "english_name": "KA ON STREET",
       "chinese_name": "嘉安街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:10917",
-      "street_code": "10917",
-      "english_name": "KA SHIN STREET",
-      "chinese_name": "嘉善街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -115309,17 +114748,6 @@
       "english_name": "KEUNG YIP STREET",
       "chinese_name": "強業街",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:10993",
-      "street_code": "10993",
-      "english_name": "KIM SHIN LANE",
-      "chinese_name": "兼善里",
-      "street_type": "Track",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -116371,17 +115799,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:11225",
-      "street_code": "11225",
-      "english_name": "LI SING STREET",
-      "chinese_name": "李陞街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:11226",
       "street_code": "11226",
       "english_name": "LI TAK STREET",
@@ -116866,32 +116283,10 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:11303",
-      "street_code": "11303",
-      "english_name": "LUK MING STREET",
-      "chinese_name": "鹿鳴街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:11304",
       "street_code": "11304",
       "english_name": "LUK YUEN STREET",
       "chinese_name": "鹿苑街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:11305",
-      "street_code": "11305",
-      "english_name": "LUN CHEUNG STREET",
-      "chinese_name": "麟祥街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -116958,17 +116353,6 @@
       "street_code": "13969",
       "english_name": "LUNG SUM LANE",
       "chinese_name": "龍琛里",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:11326",
-      "street_code": "11326",
-      "english_name": "LUNG TO STREET",
-      "chinese_name": "龍圖街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -117167,17 +116551,6 @@
       "street_code": "11376",
       "english_name": "MAN LOK STREET",
       "chinese_name": "民樂街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:11379",
-      "street_code": "11379",
-      "english_name": "MAN ON STREET",
-      "chinese_name": "萬安街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -117526,17 +116899,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:11436",
-      "street_code": "11436",
-      "english_name": "MING LUN STREET",
-      "chinese_name": "明倫街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:11437",
       "street_code": "11437",
       "english_name": "MING NGAI STREET",
@@ -117596,17 +116958,6 @@
       "street_code": "11446",
       "english_name": "MIU KONG STREET",
       "chinese_name": "廟崗街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:11447",
-      "street_code": "11447",
-      "english_name": "MIU TUNG STREET",
-      "chinese_name": "廟東街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -117684,28 +117035,6 @@
       "street_code": "11461",
       "english_name": "MORAY ROAD",
       "chinese_name": "慕禮道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:11465",
-      "street_code": "11465",
-      "english_name": "MOSQUE JUNCTION",
-      "chinese_name": "摩羅廟交加街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:11466",
-      "street_code": "11466",
-      "english_name": "MOSQUE STREET",
-      "chinese_name": "摩羅廟街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -118642,17 +117971,6 @@
       "english_name": "PAN KWAI LANE",
       "chinese_name": "攀桂里",
       "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:11657",
-      "street_code": "11657",
-      "english_name": "PANG CHING STREET",
-      "chinese_name": "鵬程街",
-      "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -119847,17 +119165,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:11832",
-      "street_code": "11832",
-      "english_name": "SAI CHEUNG STREET",
-      "chinese_name": "西祥街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:13921",
       "street_code": "13921",
       "english_name": "SAI CHEUNG STREET NORTH",
@@ -120127,39 +119434,6 @@
       "english_name": "SAN KAI SHI LANE",
       "chinese_name": "新街市里",
       "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:11892",
-      "street_code": "11892",
-      "english_name": "SAN KAN STREET",
-      "chinese_name": "新勤街",
-      "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:11893",
-      "street_code": "11893",
-      "english_name": "SAN KIN STREET",
-      "chinese_name": "新健街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:11894",
-      "street_code": "11894",
-      "english_name": "SAN KUNG STREET",
-      "chinese_name": "新功街",
-      "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -121035,17 +120309,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:12042",
-      "street_code": "12042",
-      "english_name": "SHIM LUEN STREET",
-      "chinese_name": "蟬聯街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:12043",
       "street_code": "12043",
       "english_name": "SHIN HING STREET",
@@ -121084,17 +120347,6 @@
       "english_name": "SHING ON LANE",
       "chinese_name": "成安里",
       "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:12059",
-      "street_code": "12059",
-      "english_name": "SHING TAK STREET",
-      "chinese_name": "盛德街",
-      "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -122454,17 +121706,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:12358",
-      "street_code": "12358",
-      "english_name": "TIN CHONG STREET",
-      "chinese_name": "電廠街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:13147",
       "street_code": "13147",
       "english_name": "TIN HEI STREET",
@@ -122855,17 +122096,6 @@
       "english_name": "TSUI IN LANE",
       "chinese_name": "聚賢里",
       "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:12481",
-      "street_code": "12481",
-      "english_name": "TSUN FAT STREET",
-      "chinese_name": "駿發街",
-      "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -123789,17 +123019,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:12639",
-      "street_code": "12639",
-      "english_name": "WAN ON STREET",
-      "chinese_name": "環安街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:14173",
       "street_code": "14173",
       "english_name": "WAN POON PATH",
@@ -124212,17 +123431,6 @@
       "english_name": "WING YIN STREET",
       "chinese_name": "永賢街",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:12753",
-      "street_code": "12753",
-      "english_name": "WING YIU STREET",
-      "chinese_name": "永耀街",
-      "street_type": "Track",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -124834,17 +124042,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:12868",
-      "street_code": "12868",
-      "english_name": "YIN ON STREET",
-      "chinese_name": "燕安街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:12871",
       "street_code": "12871",
       "english_name": "YING FAI TERRACE",
@@ -124872,17 +124069,6 @@
       "english_name": "YING WA TERRACE",
       "chinese_name": "英華臺",
       "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:12874",
-      "street_code": "12874",
-      "english_name": "YING YEUNG STREET",
-      "chinese_name": "鷹揚街",
-      "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,

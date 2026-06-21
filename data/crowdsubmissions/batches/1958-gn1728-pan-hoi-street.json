@@ -1,0 +1,30 @@
+{
+  "batch_id": "1958-gn1728-pan-hoi-street",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 1728",
+  "publication_date": "1958-12-19",
+  "gazette_url_en": "/egazette/en/1958-gn1728.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1958-gn1728-pan-hoi-street/1958-gn1728.pdf",
+  "streets": [
+    {
+      "english_name": "PAN HOI STREET",
+      "chinese_name": "濱海街",
+      "history": [
+        {
+          "publication_date": "1958-12-19",
+          "change_kind": "declare",
+          "street_name_en": "Pan Hoi Street",
+          "gazette_notice_label": "Government Notification No. 1728",
+          "government_notice_url_en": "/egazette/en/1958-gn1728.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "濱海街"
+        }
+      ],
+      "link_street_code": "11655"
+    }
+  ],
+  "evidence_schema_version": 1
+}

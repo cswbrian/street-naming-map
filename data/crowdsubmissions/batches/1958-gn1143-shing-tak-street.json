@@ -1,0 +1,30 @@
+{
+  "batch_id": "1958-gn1143-shing-tak-street",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 1143",
+  "publication_date": "1958-08-22",
+  "gazette_url_en": "/egazette/en/1958-gn1143.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1958-gn1143-shing-tak-street/1958-gn1143.pdf",
+  "streets": [
+    {
+      "english_name": "SHING TAK STREET",
+      "chinese_name": "盛德街",
+      "history": [
+        {
+          "publication_date": "1958-08-22",
+          "change_kind": "declare",
+          "street_name_en": "Shing Tak Street",
+          "gazette_notice_label": "Government Notification No. 1143",
+          "government_notice_url_en": "/egazette/en/1958-gn1143.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "盛德街"
+        }
+      ],
+      "link_street_code": "12059"
+    }
+  ],
+  "evidence_schema_version": 1
+}

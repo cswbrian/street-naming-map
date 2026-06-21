@@ -1,0 +1,48 @@
+{
+  "batch_id": "1958-gn184-college-nga-tsin-wai",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 184",
+  "publication_date": "1958-02-07",
+  "gazette_url_en": "/egazette/en/1958-gn184.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1958-gn184-college-nga-tsin-wai/1958-gn184.pdf",
+  "streets": [
+    {
+      "english_name": "COLLEGE ROAD",
+      "chinese_name": "書院道",
+      "history": [
+        {
+          "publication_date": "1958-02-07",
+          "change_kind": "extend",
+          "street_name_en": "College Road",
+          "gazette_notice_label": "Government Notification No. 184",
+          "government_notice_url_en": "/egazette/en/1958-gn184.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "書院道"
+        }
+      ],
+      "link_street_code": "10320"
+    },
+    {
+      "english_name": "NGA TSIN WAI ROAD",
+      "chinese_name": "衙前圍道",
+      "history": [
+        {
+          "publication_date": "1958-02-07",
+          "change_kind": "extend",
+          "street_name_en": "Nga Tsin Wai Road",
+          "gazette_notice_label": "Government Notification No. 184",
+          "government_notice_url_en": "/egazette/en/1958-gn184.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "衙前圍道"
+        }
+      ],
+      "link_street_code": "11517"
+    }
+  ],
+  "evidence_schema_version": 1
+}

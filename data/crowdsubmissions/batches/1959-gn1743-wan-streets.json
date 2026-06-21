@@ -1,0 +1,80 @@
+{
+  "batch_id": "1959-gn1743-wan-streets",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 1743",
+  "publication_date": "1959-12-11",
+  "gazette_url_en": "/egazette/en/1959-gn1743.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1959-gn1743-wan-streets/1959-gn1743.pdf",
+  "streets": [
+    {
+      "english_name": "WAN FUK STREET",
+      "chinese_name": "環福街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Wan Fuk Street",
+          "gazette_notice_label": "Government Notification No. 1743",
+          "government_notice_url_en": "/egazette/en/1959-gn1743.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-12-11",
+          "street_name_zh": "環福街"
+        }
+      ]
+    },
+    {
+      "english_name": "WAN SHUN STREET",
+      "chinese_name": "環順街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Wan Shun Street",
+          "gazette_notice_label": "Government Notification No. 1743",
+          "government_notice_url_en": "/egazette/en/1959-gn1743.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-12-11",
+          "street_name_zh": "環順街"
+        }
+      ]
+    },
+    {
+      "english_name": "WAN KING STREET",
+      "chinese_name": "環景街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Wan King Street",
+          "gazette_notice_label": "Government Notification No. 1743",
+          "government_notice_url_en": "/egazette/en/1959-gn1743.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-12-11",
+          "street_name_zh": "環景街"
+        }
+      ]
+    },
+    {
+      "english_name": "WAN LEI STREET",
+      "chinese_name": "環利街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Wan Lei Street",
+          "gazette_notice_label": "Government Notification No. 1743",
+          "government_notice_url_en": "/egazette/en/1959-gn1743.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-12-11",
+          "street_name_zh": "環利街"
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}

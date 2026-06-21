@@ -1,0 +1,48 @@
+{
+  "batch_id": "1959-gn628-factory-tung-sing",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 628",
+  "publication_date": "1959-05-08",
+  "gazette_url_en": "/egazette/en/1959-gn628.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1959-gn628-factory-tung-sing/1959-gn628.pdf",
+  "streets": [
+    {
+      "english_name": "FACTORY STREET",
+      "chinese_name": "工廠街",
+      "history": [
+        {
+          "change_kind": "extend",
+          "street_name_en": "Factory Street",
+          "gazette_notice_label": "Government Notification No. 628",
+          "government_notice_url_en": "/egazette/en/1959-gn628.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-05-08",
+          "street_name_zh": "工廠街"
+        }
+      ],
+      "link_street_code": "10420"
+    },
+    {
+      "english_name": "TUNG SING ROAD",
+      "chinese_name": "東勝道",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Tung Sing Road",
+          "gazette_notice_label": "Government Notification No. 628",
+          "government_notice_url_en": "/egazette/en/1959-gn628.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-05-08",
+          "street_name_zh": "東勝道"
+        }
+      ],
+      "link_street_code": "12536"
+    }
+  ],
+  "evidence_schema_version": 1
+}

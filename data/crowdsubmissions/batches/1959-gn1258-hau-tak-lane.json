@@ -1,0 +1,30 @@
+{
+  "batch_id": "1959-gn1258-hau-tak-lane",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 1258",
+  "publication_date": "1959-09-11",
+  "gazette_url_en": "/egazette/en/1959-gn1258.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1959-gn1258-hau-tak-lane/1959-gn1258.pdf",
+  "streets": [
+    {
+      "english_name": "HAU TAK LANE",
+      "chinese_name": "厚德里",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Hau Tak Lane",
+          "gazette_notice_label": "Government Notification No. 1258",
+          "government_notice_url_en": "/egazette/en/1959-gn1258.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-09-11",
+          "street_name_zh": "厚德里"
+        }
+      ],
+      "link_street_code": "10670"
+    }
+  ],
+  "evidence_schema_version": 1
+}

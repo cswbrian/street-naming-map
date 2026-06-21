@@ -1,0 +1,447 @@
+{
+  "batch_id": "1958-gn865-major-streets",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 865",
+  "publication_date": "1958-06-27",
+  "gazette_url_en": "/egazette/en/1958-gn865.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1958-gn865-major-streets/1958-gn865.pdf",
+  "streets": [
+    {
+      "english_name": "BATTERY PATH",
+      "chinese_name": "炮台里",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "declare",
+          "street_name_en": "Battery Path",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "炮台里"
+        }
+      ],
+      "link_street_code": "10045"
+    },
+    {
+      "english_name": "BONHAM ROAD",
+      "chinese_name": "般咸道",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "declare",
+          "street_name_en": "Bonham Road",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "般咸道"
+        }
+      ],
+      "link_street_code": "10069"
+    },
+    {
+      "english_name": "EZRA'S LANE",
+      "chinese_name": "伊沙里",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "declare",
+          "street_name_en": "Ezra's Lane",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "伊沙里"
+        }
+      ],
+      "link_street_code": "10416"
+    },
+    {
+      "english_name": "LI SING STREET",
+      "chinese_name": "李陞街",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "declare",
+          "street_name_en": "Li Sing Street",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "李陞街"
+        }
+      ],
+      "link_street_code": "11225"
+    },
+    {
+      "english_name": "MACDONNELL ROAD",
+      "chinese_name": "麥當勞道",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "declare",
+          "street_name_en": "MacDonnell Road",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "麥當勞道"
+        }
+      ],
+      "link_street_code": "11358"
+    },
+    {
+      "english_name": "MOSQUE JUNCTION",
+      "chinese_name": "摩羅廟交加街",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "declare",
+          "street_name_en": "Mosque Junction",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "摩羅廟交加街"
+        }
+      ],
+      "link_street_code": "11465"
+    },
+    {
+      "english_name": "CHATER ROAD",
+      "chinese_name": "遮打道",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "declare",
+          "street_name_en": "Chater Road",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "遮打道"
+        }
+      ],
+      "link_street_code": "10163"
+    },
+    {
+      "english_name": "GILMAN STREET",
+      "chinese_name": "機利文街",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "declare",
+          "street_name_en": "Gilman Street",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "機利文街"
+        }
+      ],
+      "link_street_code": "10603"
+    },
+    {
+      "english_name": "BRIDGES STREET",
+      "chinese_name": "必列者士街",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "declare",
+          "street_name_en": "Bridges Street",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "必列者士街"
+        }
+      ],
+      "link_street_code": "10089"
+    },
+    {
+      "english_name": "KENNEDY ROAD",
+      "chinese_name": "堅尼地道",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "declare",
+          "street_name_en": "Kennedy Road",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "堅尼地道"
+        }
+      ],
+      "link_street_code": "10982"
+    },
+    {
+      "english_name": "SALISBURY ROAD",
+      "chinese_name": "梳士巴利道",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "declare",
+          "street_name_en": "Salisbury Road",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "梳士巴利道"
+        }
+      ],
+      "link_street_code": "11869"
+    },
+    {
+      "english_name": "CARNARVON ROAD",
+      "chinese_name": "加拿分道",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "declare",
+          "street_name_en": "Carnarvon Road",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "加拿分道"
+        }
+      ],
+      "link_street_code": "10123"
+    },
+    {
+      "english_name": "BAKER COURT",
+      "chinese_name": "必嘉圍",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "declare",
+          "street_name_en": "Baker Court",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "必嘉圍"
+        }
+      ],
+      "link_street_code": "10040"
+    },
+    {
+      "english_name": "MOSQUE STREET",
+      "chinese_name": "摩羅廟街",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "declare",
+          "street_name_en": "Mosque Street",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "摩羅廟街"
+        }
+      ],
+      "link_street_code": "11466"
+    },
+    {
+      "english_name": "RUMSEY STREET",
+      "chinese_name": "林士街",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "extend",
+          "street_name_en": "Rumsey Street",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "林士街"
+        }
+      ],
+      "link_street_code": "11827"
+    },
+    {
+      "english_name": "TREGUNTER PATH",
+      "chinese_name": "地利根德里",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "extend",
+          "street_name_en": "Tregunter Path",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "地利根德里"
+        }
+      ],
+      "link_street_code": "12399"
+    },
+    {
+      "english_name": "SIU CHEUNG FONG",
+      "chinese_name": "兆祥坊",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "extend",
+          "street_name_en": "Siu Cheung Fong",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "兆祥坊"
+        }
+      ],
+      "link_street_code": "12115"
+    },
+    {
+      "english_name": "YIM PO FONG STREET",
+      "chinese_name": "染布房街",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "extend",
+          "street_name_en": "Yim Po Fong Street",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "染布房街"
+        }
+      ],
+      "link_street_code": "12865"
+    },
+    {
+      "english_name": "BAKER STREET",
+      "chinese_name": "必嘉街",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "extend",
+          "street_name_en": "Baker Street",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "必嘉街"
+        }
+      ],
+      "link_street_code": "10041"
+    },
+    {
+      "english_name": "OAKLANDS PATH",
+      "chinese_name": "屋蘭士里",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "extend",
+          "street_name_en": "Oaklands Path",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "屋蘭士里"
+        }
+      ],
+      "link_street_code": "11560"
+    },
+    {
+      "english_name": "PRINCE EDWARD ROAD",
+      "chinese_name": "太子道",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "extend",
+          "street_name_en": "Prince Edward Road",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "太子道",
+          "submission_id": "1958-gn865-major-streets-11787-prince-edward-1958-06-27"
+        }
+      ],
+      "link_street_code": "11787"
+    },
+    {
+      "english_name": "PRINCE EDWARD ROAD",
+      "chinese_name": "太子道",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "extend",
+          "street_name_en": "Prince Edward Road",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "太子道",
+          "submission_id": "1958-gn865-major-streets-11788-prince-edward-1958-06-27"
+        }
+      ],
+      "link_street_code": "11788"
+    },
+    {
+      "english_name": "MURRAY PLACE",
+      "chinese_name": "美利台",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "declare",
+          "street_name_en": "Murray Place",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "美利台"
+        }
+      ]
+    },
+    {
+      "english_name": "HAU FOOK STREET",
+      "chinese_name": "厚福街",
+      "history": [
+        {
+          "publication_date": "1958-06-27",
+          "change_kind": "declare",
+          "street_name_en": "Salisbury Avenue",
+          "street_name_zh": "梳士巴利路",
+          "gazette_notice_label": "Government Notification No. 865",
+          "government_notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "submission_id": "1958-gn865-major-streets-10667-salisbury-avenue-1958-06-27",
+          "submitter_remarks": "G.N.865 names Salisbury Avenue 梳士巴利路; centreline Hau Fook Street 厚福街."
+        }
+      ],
+      "link_street_code": "10667"
+    }
+  ],
+  "evidence_schema_version": 1
+}

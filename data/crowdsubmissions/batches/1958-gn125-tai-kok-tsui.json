@@ -1,0 +1,48 @@
+{
+  "batch_id": "1958-gn125-tai-kok-tsui",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 125",
+  "publication_date": "1958-01-24",
+  "gazette_url_en": "/egazette/en/1958-gn125.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1958-gn125-tai-kok-tsui/1958-gn125.pdf",
+  "streets": [
+    {
+      "english_name": "POK MAN STREET",
+      "chinese_name": "博文街",
+      "history": [
+        {
+          "publication_date": "1958-01-24",
+          "change_kind": "declare",
+          "street_name_en": "Pok Man Street",
+          "gazette_notice_label": "Government Notification No. 125",
+          "government_notice_url_en": "/egazette/en/1958-gn125.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "博文街"
+        }
+      ],
+      "link_street_code": "11770"
+    },
+    {
+      "english_name": "KA SHIN STREET",
+      "chinese_name": "嘉善街",
+      "history": [
+        {
+          "publication_date": "1958-01-24",
+          "change_kind": "declare",
+          "street_name_en": "Ka Shin Street",
+          "gazette_notice_label": "Government Notification No. 125",
+          "government_notice_url_en": "/egazette/en/1958-gn125.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "嘉善街"
+        }
+      ],
+      "link_street_code": "10917"
+    }
+  ],
+  "evidence_schema_version": 1
+}

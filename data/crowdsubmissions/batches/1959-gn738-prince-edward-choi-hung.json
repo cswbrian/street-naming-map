@@ -1,0 +1,68 @@
+{
+  "batch_id": "1959-gn738-prince-edward-choi-hung",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 738",
+  "publication_date": "1959-05-29",
+  "gazette_url_en": "/egazette/en/1959-gn738.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1959-gn738-prince-edward-choi-hung/1959-gn738.pdf",
+  "streets": [
+    {
+      "english_name": "PRINCE EDWARD ROAD",
+      "chinese_name": "太子道",
+      "history": [
+        {
+          "change_kind": "extend",
+          "street_name_en": "Prince Edward Road",
+          "gazette_notice_label": "Government Notification No. 738",
+          "government_notice_url_en": "/egazette/en/1959-gn738.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-05-29",
+          "street_name_zh": "太子道",
+          "submission_id": "1959-gn738-prince-edward-road-11787-1959-05-29"
+        }
+      ],
+      "link_street_code": "11787"
+    },
+    {
+      "english_name": "PRINCE EDWARD ROAD",
+      "chinese_name": "太子道",
+      "history": [
+        {
+          "change_kind": "extend",
+          "street_name_en": "Prince Edward Road",
+          "gazette_notice_label": "Government Notification No. 738",
+          "government_notice_url_en": "/egazette/en/1959-gn738.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-05-29",
+          "street_name_zh": "太子道",
+          "submission_id": "1959-gn738-prince-edward-road-11788-1959-05-29"
+        }
+      ],
+      "link_street_code": "11788"
+    },
+    {
+      "english_name": "CHOI HUNG ROAD",
+      "chinese_name": "彩虹道",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Choi Hung Road",
+          "gazette_notice_label": "Government Notification No. 738",
+          "government_notice_url_en": "/egazette/en/1959-gn738.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-05-29",
+          "street_name_zh": "彩虹道"
+        }
+      ],
+      "link_street_code": "10263"
+    }
+  ],
+  "evidence_schema_version": 1
+}

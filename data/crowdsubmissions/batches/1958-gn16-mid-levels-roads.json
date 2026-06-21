@@ -1,0 +1,84 @@
+{
+  "batch_id": "1958-gn16-mid-levels-roads",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 16",
+  "publication_date": "1958-01-03",
+  "gazette_url_en": "/egazette/en/1958-gn16.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1958-gn16-mid-levels-roads/1958-gn16.pdf",
+  "streets": [
+    {
+      "english_name": "GARDEN ROAD",
+      "chinese_name": "花園道",
+      "history": [
+        {
+          "publication_date": "1958-01-03",
+          "change_kind": "declare",
+          "street_name_en": "Garden Road",
+          "gazette_notice_label": "Government Notification No. 16",
+          "government_notice_url_en": "/egazette/en/1958-gn16.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "花園道"
+        }
+      ],
+      "link_street_code": "10597"
+    },
+    {
+      "english_name": "ROBINSON ROAD",
+      "chinese_name": "羅便臣道",
+      "history": [
+        {
+          "publication_date": "1958-01-03",
+          "change_kind": "extend",
+          "street_name_en": "Robinson Road",
+          "gazette_notice_label": "Government Notification No. 16",
+          "government_notice_url_en": "/egazette/en/1958-gn16.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "羅便臣道"
+        }
+      ],
+      "link_street_code": "11817"
+    },
+    {
+      "english_name": "MAGAZINE GAP ROAD",
+      "chinese_name": "馬己仙峽道",
+      "history": [
+        {
+          "publication_date": "1958-01-03",
+          "change_kind": "declare",
+          "street_name_en": "Magazine Gap Road",
+          "gazette_notice_label": "Government Notification No. 16",
+          "government_notice_url_en": "/egazette/en/1958-gn16.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "馬己仙峽道"
+        }
+      ],
+      "link_street_code": "11359"
+    },
+    {
+      "english_name": "BOWEN ROAD",
+      "chinese_name": "寶雲道",
+      "history": [
+        {
+          "publication_date": "1958-01-03",
+          "change_kind": "declare",
+          "street_name_en": "Bowen Road",
+          "gazette_notice_label": "Government Notification No. 16",
+          "government_notice_url_en": "/egazette/en/1958-gn16.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "寶雲道"
+        }
+      ],
+      "link_street_code": "10077"
+    }
+  ],
+  "evidence_schema_version": 1
+}

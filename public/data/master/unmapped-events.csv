@@ -1,13 +1,23 @@
 event_id,source,publication_date,change_kind,street_name_en,street_name_zh,district_raw_en,notice_no
+crowd|1959-gn315-quarry-bay-east-former,hkgro,,declare,East Street,東街,,GN315
+crowd|1959-gn315-quarry-bay-west-former,hkgro,,declare,West Street,西街,,GN315
 crowd|1904-gn59-victoria-road-renames-park-view-1904-01-29,hkgro,1904-01-29,rename,Park View,,,GN59
 1927-11-25|GN4780|0,egazette_pdf,1927-11-25,declare,Cheung Sha Wan Road,,Sham Shui Po and Yau Tsim Mong,GN4780
 crowd|2017-gn3555-tier-c-1-1957-10-11,crowdsubmitted,1957-10-11,declare,Ching Road,青道,,GN1367
 crowd|2017-gn3555-tier-c-FookLaiRoad--1957-10-11,crowdsubmitted,1957-10-11,declare,Fook Lai Road,復禮道,,GN1367
 crowd|2017-gn3555-tier-c-LungShanRoad--1957-10-11,crowdsubmitted,1957-10-11,declare,Lung Shan Road,龍山道,,GN1367
-crowd|2019-gn3586-tier-c-1-1958-07-11,crowdsubmitted,1958-07-11,declare,Church Lane,教堂里,,GN939
-crowd|2019-gn6067-tier-c-1-1959-12-11,crowdsubmitted,1959-12-11,declare,Wan King Street,環景街,,GN1743
-crowd|2019-gn6067-tier-c-WanLeiStreet--1959-12-11,crowdsubmitted,1959-12-11,declare,Wan Lei Street,環利街,,GN1743
-crowd|2019-gn6067-tier-c-WanShunStreet--1959-12-11,crowdsubmitted,1959-12-11,declare,Wan Shun Street,環順街,,GN1743
+crowd|1958-gn865-major-streets-Murray-Place-美利台-1958-06-27,hkgro,1958-06-27,declare,Murray Place,美利台,,GN865
+crowd|1958-gn939-church-lane-Church-Lane-教堂里-1958-07-11,hkgro,1958-07-11,declare,Church Lane,教堂里,,GN939
+crowd|1958-gn1068-wan-on-cluster-Wan-Fat-Street-環發街-1958-08-08,hkgro,1958-08-08,declare,Wan Fat Street,環發街,,GN1068
+crowd|1958-gn1068-wan-on-cluster-Wan-Hing-Street-環興街-1958-08-08,hkgro,1958-08-08,declare,Wan Hing Street,環興街,,GN1068
+crowd|1958-gn1068-wan-on-cluster-Wan-Lok-Street-環樂街-1958-08-08,hkgro,1958-08-08,declare,Wan Lok Street,環樂街,,GN1068
+crowd|1958-gn1068-wan-on-cluster-Wan-Tat-Street-環達街-1958-08-08,hkgro,1958-08-08,declare,Wan Tat Street,環達街,,GN1068
+crowd|1959-gn315-urban-council-renames-Quarry-Bay-East-Street-鰂魚涌東街-1959-02-27,hkgro,1959-02-27,rename,Quarry Bay East Street,鰂魚涌東街,,GN315
+crowd|1959-gn315-urban-council-renames-Quarry-Bay-West-Street-鰂魚涌西街-1959-02-27,hkgro,1959-02-27,rename,Quarry Bay West Street,鰂魚涌西街,,GN315
+crowd|1959-gn1743-wan-streets-Wan-Fuk-Street-環福街-1959-12-11,hkgro,1959-12-11,declare,Wan Fuk Street,環福街,,GN1743
+crowd|1959-gn1743-wan-streets-Wan-King-Street-環景街-1959-12-11,hkgro,1959-12-11,declare,Wan King Street,環景街,,GN1743
+crowd|1959-gn1743-wan-streets-Wan-Lei-Street-環利街-1959-12-11,hkgro,1959-12-11,declare,Wan Lei Street,環利街,,GN1743
+crowd|1959-gn1743-wan-streets-Wan-Shun-Street-環順街-1959-12-11,hkgro,1959-12-11,declare,Wan Shun Street,環順街,,GN1743
 crowd|2019-gn3586-tier-c-1-1960-01-22,crowdsubmitted,1960-01-22,declare,Nation Street,禮信街,,GN110
 2010-12-24|GN8237|0,egazette_pdf,1960-11-04,declare,Hoi Tai Street,海堤街,"Eastern District, Hong Kong Island",GN8237
 crowd|2017-gn3555-tier-c-1-1963-11-08,crowdsubmitted,1963-11-08,declare,Ming Tak Street,明德街,,GN2197

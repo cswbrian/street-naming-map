@@ -1,0 +1,48 @@
+{
+  "batch_id": "1958-gn1478-hung-kwong-wing-yiu",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 1478",
+  "publication_date": "1958-10-31",
+  "gazette_url_en": "/egazette/en/1958-gn1478.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1958-gn1478-hung-kwong-wing-yiu/1958-gn1478.pdf",
+  "streets": [
+    {
+      "english_name": "HUNG KWONG STREET",
+      "chinese_name": "鴻光街",
+      "history": [
+        {
+          "publication_date": "1958-10-31",
+          "change_kind": "declare",
+          "street_name_en": "Hung Kwong Street",
+          "gazette_notice_label": "Government Notification No. 1478",
+          "government_notice_url_en": "/egazette/en/1958-gn1478.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "鴻光街"
+        }
+      ],
+      "link_street_code": "10869"
+    },
+    {
+      "english_name": "WING YIU STREET",
+      "chinese_name": "永耀街",
+      "history": [
+        {
+          "publication_date": "1958-10-31",
+          "change_kind": "declare",
+          "street_name_en": "Wing Yiu Street",
+          "gazette_notice_label": "Government Notification No. 1478",
+          "government_notice_url_en": "/egazette/en/1958-gn1478.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "永耀街"
+        }
+      ],
+      "link_street_code": "12753"
+    }
+  ],
+  "evidence_schema_version": 1
+}

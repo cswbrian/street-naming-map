@@ -1,0 +1,84 @@
+{
+  "batch_id": "1959-gn1608-north-point-roads",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 1608",
+  "publication_date": "1959-11-20",
+  "gazette_url_en": "/egazette/en/1959-gn1608.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1959-gn1608-north-point-roads/1959-gn1608.pdf",
+  "streets": [
+    {
+      "english_name": "TIN CHONG STREET",
+      "chinese_name": "電廠街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Tin Chong Street",
+          "gazette_notice_label": "Government Notification No. 1608",
+          "government_notice_url_en": "/egazette/en/1959-gn1608.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-11-20",
+          "street_name_zh": "電廠街"
+        }
+      ],
+      "link_street_code": "12358"
+    },
+    {
+      "english_name": "ELECTRIC ROAD",
+      "chinese_name": "電氣道",
+      "history": [
+        {
+          "change_kind": "extend",
+          "street_name_en": "Electric Road",
+          "gazette_notice_label": "Government Notification No. 1608",
+          "government_notice_url_en": "/egazette/en/1959-gn1608.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-11-20",
+          "street_name_zh": "電氣道"
+        }
+      ],
+      "link_street_code": "10406"
+    },
+    {
+      "english_name": "JAVA ROAD",
+      "chinese_name": "渣華道",
+      "history": [
+        {
+          "change_kind": "extend",
+          "street_name_en": "Java Road",
+          "gazette_notice_label": "Government Notification No. 1608",
+          "government_notice_url_en": "/egazette/en/1959-gn1608.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-11-20",
+          "street_name_zh": "渣華道"
+        }
+      ],
+      "link_street_code": "10897"
+    },
+    {
+      "english_name": "FORTRESS HILL ROAD",
+      "chinese_name": "炮台山道",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Fortress Hill Road",
+          "gazette_notice_label": "Government Notification No. 1608",
+          "government_notice_url_en": "/egazette/en/1959-gn1608.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-11-20",
+          "street_name_zh": "炮台山道"
+        }
+      ],
+      "link_street_code": "10512"
+    }
+  ],
+  "evidence_schema_version": 1
+}

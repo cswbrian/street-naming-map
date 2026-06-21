@@ -1,0 +1,210 @@
+{
+  "batch_id": "1959-gn548-ma-tau-kok-streets",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 548",
+  "publication_date": "1959-04-17",
+  "gazette_url_en": "/egazette/en/1959-gn548.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1959-gn548-ma-tau-kok-streets/1959-gn548.pdf",
+  "streets": [
+    {
+      "english_name": "LUNG TO STREET",
+      "chinese_name": "龍圖街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Lung To Street",
+          "gazette_notice_label": "Government Notification No. 548",
+          "government_notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-04-17",
+          "street_name_zh": "龍圖街"
+        }
+      ],
+      "link_street_code": "11326"
+    },
+    {
+      "english_name": "FUNG YI STREET",
+      "chinese_name": "鳳儀街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Fung Yi Street",
+          "gazette_notice_label": "Government Notification No. 548",
+          "government_notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-04-17",
+          "street_name_zh": "鳳儀街"
+        }
+      ],
+      "link_street_code": "10593"
+    },
+    {
+      "english_name": "LUK MING STREET",
+      "chinese_name": "鹿鳴街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Luk Ming Street",
+          "gazette_notice_label": "Government Notification No. 548",
+          "government_notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-04-17",
+          "street_name_zh": "鹿鳴街"
+        }
+      ],
+      "link_street_code": "11303"
+    },
+    {
+      "english_name": "LUN CHEUNG STREET",
+      "chinese_name": "麟祥街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Lun Cheung Street",
+          "gazette_notice_label": "Government Notification No. 548",
+          "government_notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-04-17",
+          "street_name_zh": "麟祥街"
+        }
+      ],
+      "link_street_code": "11305"
+    },
+    {
+      "english_name": "YING YEUNG STREET",
+      "chinese_name": "鷹揚街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Ying Yeung Street",
+          "gazette_notice_label": "Government Notification No. 548",
+          "government_notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-04-17",
+          "street_name_zh": "鷹揚街"
+        }
+      ],
+      "link_street_code": "12874"
+    },
+    {
+      "english_name": "PANG CHING STREET",
+      "chinese_name": "鵬程街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Pang Ching Street",
+          "gazette_notice_label": "Government Notification No. 548",
+          "government_notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-04-17",
+          "street_name_zh": "鵬程街"
+        }
+      ],
+      "link_street_code": "11657"
+    },
+    {
+      "english_name": "HUNG WAN STREET",
+      "chinese_name": "鴻運街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Hung Wan Street",
+          "gazette_notice_label": "Government Notification No. 548",
+          "government_notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-04-17",
+          "street_name_zh": "鴻運街"
+        }
+      ],
+      "link_street_code": "10877"
+    },
+    {
+      "english_name": "SHIM LUEN STREET",
+      "chinese_name": "蟬聯街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Shim Luen Street",
+          "gazette_notice_label": "Government Notification No. 548",
+          "government_notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-04-17",
+          "street_name_zh": "蟬聯街"
+        }
+      ],
+      "link_street_code": "12042"
+    },
+    {
+      "english_name": "YIN ON STREET",
+      "chinese_name": "燕安街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Yin On Street",
+          "gazette_notice_label": "Government Notification No. 548",
+          "government_notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-04-17",
+          "street_name_zh": "燕安街"
+        }
+      ],
+      "link_street_code": "12868"
+    },
+    {
+      "english_name": "TSUN FAT STREET",
+      "chinese_name": "駿發街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Tsun Fat Street",
+          "gazette_notice_label": "Government Notification No. 548",
+          "government_notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-04-17",
+          "street_name_zh": "駿發街"
+        }
+      ],
+      "link_street_code": "12481"
+    },
+    {
+      "english_name": "HOK LING STREET",
+      "chinese_name": "鶴齡街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Hok Ling Street",
+          "gazette_notice_label": "Government Notification No. 548",
+          "government_notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-04-17",
+          "street_name_zh": "鶴齡街"
+        }
+      ],
+      "link_street_code": "10789"
+    }
+  ],
+  "evidence_schema_version": 1
+}

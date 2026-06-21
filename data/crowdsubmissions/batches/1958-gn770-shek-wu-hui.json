@@ -1,0 +1,210 @@
+{
+  "batch_id": "1958-gn770-shek-wu-hui",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 770",
+  "publication_date": "1958-06-06",
+  "gazette_url_en": "/egazette/en/1958-gn770.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1958-gn770-shek-wu-hui/1958-gn770.pdf",
+  "streets": [
+    {
+      "english_name": "SAN FUNG AVENUE",
+      "chinese_name": "新豐路",
+      "history": [
+        {
+          "publication_date": "1958-06-06",
+          "change_kind": "declare",
+          "street_name_en": "San Fung Avenue",
+          "gazette_notice_label": "Government Notification No. 770",
+          "government_notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "新豐路"
+        }
+      ],
+      "link_street_code": "11883"
+    },
+    {
+      "english_name": "JOCKEY CLUB ROAD",
+      "chinese_name": "馬會道",
+      "history": [
+        {
+          "publication_date": "1958-06-06",
+          "change_kind": "declare",
+          "street_name_en": "Jockey Club Road",
+          "gazette_notice_label": "Government Notification No. 770",
+          "government_notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "馬會道"
+        }
+      ],
+      "link_street_code": "10899"
+    },
+    {
+      "english_name": "FU HING STREET",
+      "chinese_name": "符興街",
+      "history": [
+        {
+          "publication_date": "1958-06-06",
+          "change_kind": "declare",
+          "street_name_en": "Fu Hing Street",
+          "gazette_notice_label": "Government Notification No. 770",
+          "government_notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "符興街"
+        }
+      ],
+      "link_street_code": "10519"
+    },
+    {
+      "english_name": "SAN SHING AVENUE",
+      "chinese_name": "新成路",
+      "history": [
+        {
+          "publication_date": "1958-06-06",
+          "change_kind": "declare",
+          "street_name_en": "San Shing Avenue",
+          "gazette_notice_label": "Government Notification No. 770",
+          "government_notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "新成路"
+        }
+      ],
+      "link_street_code": "11909"
+    },
+    {
+      "english_name": "TSUN FU STREET",
+      "chinese_name": "巡撫街",
+      "history": [
+        {
+          "publication_date": "1958-06-06",
+          "change_kind": "declare",
+          "street_name_en": "Tsun Fu Street",
+          "gazette_notice_label": "Government Notification No. 770",
+          "government_notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "巡撫街"
+        }
+      ],
+      "link_street_code": "12482"
+    },
+    {
+      "english_name": "SAN TSOI STREET",
+      "chinese_name": "新財街",
+      "history": [
+        {
+          "publication_date": "1958-06-06",
+          "change_kind": "declare",
+          "street_name_en": "San Tsoi Street",
+          "gazette_notice_label": "Government Notification No. 770",
+          "government_notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "新財街"
+        }
+      ],
+      "link_street_code": "11913"
+    },
+    {
+      "english_name": "SAN FAT STREET",
+      "chinese_name": "新發街",
+      "history": [
+        {
+          "publication_date": "1958-06-06",
+          "change_kind": "declare",
+          "street_name_en": "San Fat Street",
+          "gazette_notice_label": "Government Notification No. 770",
+          "government_notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "新發街"
+        }
+      ],
+      "link_street_code": "11880"
+    },
+    {
+      "english_name": "SAN KAN STREET",
+      "chinese_name": "新勤街",
+      "history": [
+        {
+          "publication_date": "1958-06-06",
+          "change_kind": "declare",
+          "street_name_en": "San Kan Street",
+          "gazette_notice_label": "Government Notification No. 770",
+          "government_notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "新勤街"
+        }
+      ],
+      "link_street_code": "11892"
+    },
+    {
+      "english_name": "SAN HONG STREET",
+      "chinese_name": "新康街",
+      "history": [
+        {
+          "publication_date": "1958-06-06",
+          "change_kind": "declare",
+          "street_name_en": "San Hong Street",
+          "gazette_notice_label": "Government Notification No. 770",
+          "government_notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "新康街"
+        }
+      ],
+      "link_street_code": "11888"
+    },
+    {
+      "english_name": "SAN KIN STREET",
+      "chinese_name": "新健街",
+      "history": [
+        {
+          "publication_date": "1958-06-06",
+          "change_kind": "declare",
+          "street_name_en": "San Kin Street",
+          "gazette_notice_label": "Government Notification No. 770",
+          "government_notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "新健街"
+        }
+      ],
+      "link_street_code": "11893"
+    },
+    {
+      "english_name": "SAN KUNG STREET",
+      "chinese_name": "新功街",
+      "history": [
+        {
+          "publication_date": "1958-06-06",
+          "change_kind": "declare",
+          "street_name_en": "San Kung Street",
+          "gazette_notice_label": "Government Notification No. 770",
+          "government_notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "新功街"
+        }
+      ],
+      "link_street_code": "11894"
+    }
+  ],
+  "evidence_schema_version": 1
+}

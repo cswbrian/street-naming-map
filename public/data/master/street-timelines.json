@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-17T14:58:00.901Z",
+  "generated_at": "2026-06-21T07:04:26.542Z",
   "totals": {
-    "timelines": 927,
-    "linked_active": 627,
-    "unlinked": 300,
+    "timelines": 1011,
+    "linked_active": 701,
+    "unlinked": 310,
     "legacy_or_name_only": 0
   },
   "timelines": [
@@ -476,18 +476,56 @@
       ]
     },
     {
-      "timeline_id": "code:10041",
-      "street_code": "10041",
-      "street_name_en": "Baker Street",
-      "street_name_zh": "邲嘉街",
-      "canonical_naming_year": 1923,
-      "canonical_naming_date": "1923-09-28",
+      "timeline_id": "code:10040",
+      "street_code": "10040",
+      "street_name_en": "Baker Court",
+      "street_name_zh": "必嘉圍",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-27",
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
         "status": "active",
+        "street_code": "10040",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-27",
+          "change_kind": "declare",
+          "name_en": "Baker Court",
+          "name_zh": "必嘉圍",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10041",
+      "street_code": "10041",
+      "street_name_en": "Baker Street",
+      "street_name_zh": "必嘉街",
+      "canonical_naming_year": 1923,
+      "canonical_naming_date": "1923-09-28",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 2,
+      "geometry_link": {
+        "status": "active",
         "street_code": "10041",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -510,6 +548,26 @@
           "supplementary_evidence": null,
           "source": "hkgro",
           "submitter_remarks": "Gazette ZH 邲嘉街; database 必嘉街."
+        },
+        {
+          "date": "1958-06-27",
+          "change_kind": "extend",
+          "name_en": "Baker Street",
+          "name_zh": "必嘉街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -547,6 +605,44 @@
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10045",
+      "street_code": "10045",
+      "street_name_en": "Battery Path",
+      "street_name_zh": "炮台里",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-27",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10045",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-27",
+          "change_kind": "declare",
+          "name_en": "Battery Path",
+          "name_zh": "炮台里",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
           "submitter_remarks": null
         }
       ]
@@ -1018,6 +1114,44 @@
       ]
     },
     {
+      "timeline_id": "code:10069",
+      "street_code": "10069",
+      "street_name_en": "Bonham Road",
+      "street_name_zh": "般咸道",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-27",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10069",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-27",
+          "change_kind": "declare",
+          "name_en": "Bonham Road",
+          "name_zh": "般咸道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10074",
       "street_code": "10074",
       "street_name_en": "Borrett Road",
@@ -1144,6 +1278,44 @@
           "notice_url_zh": "/egazette/zh/1929-gn427.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": false,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10077",
+      "street_code": "10077",
+      "street_name_en": "Bowen Road",
+      "street_name_zh": "寶雲道",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-01-03",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10077",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-01-03",
+          "change_kind": "declare",
+          "name_en": "Bowen Road",
+          "name_zh": "寶雲道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.16",
+          "notice_label_zh": "第16號",
+          "notice_url_en": "/egazette/en/1958-gn16.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn16.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
           "event_role": "current_name",
           "derived_from": null,
           "evidence_kind_note": null,
@@ -1294,6 +1466,44 @@
           "notice_label_zh": "第154號",
           "notice_url_en": "/egazette/en/1940-gn154.pdf",
           "notice_url_zh": "/egazette/zh/1940-gn154.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10089",
+      "street_code": "10089",
+      "street_name_en": "Bridges Street",
+      "street_name_zh": "必列者士街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-27",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10089",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-27",
+          "change_kind": "declare",
+          "name_en": "Bridges Street",
+          "name_zh": "必列者士街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
           "event_role": "current_name",
@@ -1696,6 +1906,44 @@
       ]
     },
     {
+      "timeline_id": "code:10123",
+      "street_code": "10123",
+      "street_name_en": "Carnarvon Road",
+      "street_name_zh": "加拿分道",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-27",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10123",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-27",
+          "change_kind": "declare",
+          "name_en": "Carnarvon Road",
+          "name_zh": "加拿分道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10125",
       "street_code": "10125",
       "street_name_en": "Carpenter Road",
@@ -1958,6 +2206,44 @@
           "supplementary_evidence": null,
           "source": "hkgro",
           "submitter_remarks": "Mongkok: Hill Street → Changsha Street (G.N.184; not Hung Hom Hill→Tientsin)."
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10163",
+      "street_code": "10163",
+      "street_name_en": "Chater Road",
+      "street_name_zh": "遮打道",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-27",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10163",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-27",
+          "change_kind": "declare",
+          "name_en": "Chater Road",
+          "name_zh": "遮打道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -3344,6 +3630,44 @@
       ]
     },
     {
+      "timeline_id": "code:10263",
+      "street_code": "10263",
+      "street_name_en": "Choi Hung Road",
+      "street_name_zh": "彩虹道",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-05-29",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10263",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-05-29",
+          "change_kind": "declare",
+          "name_en": "Choi Hung Road",
+          "name_zh": "彩虹道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.738",
+          "notice_label_zh": "第738號",
+          "notice_url_en": "/egazette/en/1959-gn738.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn738.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "Choi Lung Street|彩隆街",
       "street_code": null,
       "street_name_en": "Choi Lung Street",
@@ -4126,6 +4450,44 @@
       ]
     },
     {
+      "timeline_id": "code:10302",
+      "street_code": "10302",
+      "street_name_en": "Chung Sun Street",
+      "street_name_zh": "忠信街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-05-15",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10302",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-05-15",
+          "change_kind": "declare",
+          "name_en": "Chung Sun Street",
+          "name_zh": "忠信街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.670",
+          "notice_label_zh": "第670號",
+          "notice_url_en": "/egazette/en/1959-gn670.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn670.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "Church Lane|教堂里",
       "street_code": null,
       "street_name_en": "Church Lane",
@@ -4150,26 +4512,16 @@
           "previous_name_zh": null,
           "notice_label_en": "G.N.939",
           "notice_label_zh": "第939號",
-          "notice_url_en": null,
-          "notice_url_zh": null,
-          "evidence_kind": "gazette_inferred",
+          "notice_url_en": "/egazette/en/1958-gn939.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn939.pdf",
+          "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
           "event_role": "current_name",
-          "derived_from": [
-            {
-              "kind": "gazette_citation",
-              "notice_label": null,
-              "publication_date": null,
-              "government_notice_url_en": null,
-              "government_notice_url_zh": null,
-              "cited_notice_label": "G.N.3586",
-              "cited_publication_date": null
-            }
-          ],
+          "derived_from": null,
           "evidence_kind_note": null,
           "supplementary_evidence": null,
-          "source": "crowdsubmitted",
-          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3586 (2019-05-31)."
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -4333,11 +4685,11 @@
       "canonical_naming_year": 1935,
       "canonical_naming_date": "1935-03-01",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "10320",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -4354,6 +4706,26 @@
           "notice_url_zh": "/egazette/zh/1935-gn165.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        },
+        {
+          "date": "1958-02-07",
+          "change_kind": "extend",
+          "name_en": "College Road",
+          "name_zh": "書院道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.184",
+          "notice_label_zh": "第184號",
+          "notice_url_en": "/egazette/en/1958-gn184.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn184.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
           "event_role": "current_name",
           "derived_from": null,
           "evidence_kind_note": null,
@@ -5164,6 +5536,44 @@
       ]
     },
     {
+      "timeline_id": "East Street|東街",
+      "street_code": null,
+      "street_name_en": "East Street",
+      "street_name_zh": "東街",
+      "canonical_naming_year": null,
+      "canonical_naming_date": null,
+      "derivation_reason": "no_current_name_event",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "",
+          "change_kind": "declare",
+          "name_en": "East Street",
+          "name_zh": "東街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.315",
+          "notice_label_zh": "第315號",
+          "notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn315.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "Former name attested in G.N.315 rename notice; separate naming date not recorded on file."
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10400",
       "street_code": "10400",
       "street_name_en": "Eastern Hospital Road",
@@ -5247,11 +5657,11 @@
       "canonical_naming_year": 1935,
       "canonical_naming_date": "1935-06-21",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "10406",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -5268,6 +5678,26 @@
           "notice_url_zh": "/egazette/zh/1935-gn490.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        },
+        {
+          "date": "1959-11-20",
+          "change_kind": "extend",
+          "name_en": "Electric Road",
+          "name_zh": "電氣道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1608",
+          "notice_label_zh": "第1608號",
+          "notice_url_en": "/egazette/en/1959-gn1608.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn1608.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
           "event_role": "current_name",
           "derived_from": null,
           "evidence_kind_note": null,
@@ -5468,6 +5898,44 @@
       ]
     },
     {
+      "timeline_id": "code:10416",
+      "street_code": "10416",
+      "street_name_en": "Ezra's Lane",
+      "street_name_zh": "伊沙里",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-27",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10416",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-27",
+          "change_kind": "declare",
+          "name_en": "Ezra's Lane",
+          "name_zh": "伊沙里",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "F A Nling Bypass|粉嶺繞道",
       "street_code": null,
       "street_name_en": "F A Nling Bypass",
@@ -5551,11 +6019,11 @@
       "canonical_naming_year": 1931,
       "canonical_naming_date": "1931-05-15",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "10420",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -5572,6 +6040,26 @@
           "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        },
+        {
+          "date": "1959-05-08",
+          "change_kind": "extend",
+          "name_en": "Factory Street",
+          "name_zh": "工廠街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.628",
+          "notice_label_zh": "第628號",
+          "notice_url_en": "/egazette/en/1959-gn628.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn628.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
           "event_role": "current_name",
           "derived_from": null,
           "evidence_kind_note": null,
@@ -6544,6 +7032,44 @@
       ]
     },
     {
+      "timeline_id": "code:10512",
+      "street_code": "10512",
+      "street_name_en": "Fortress Hill Road",
+      "street_name_zh": "炮台山道",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-11-20",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10512",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-11-20",
+          "change_kind": "declare",
+          "name_en": "Fortress Hill Road",
+          "name_zh": "炮台山道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1608",
+          "notice_label_zh": "第1608號",
+          "notice_url_en": "/egazette/en/1959-gn1608.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn1608.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:13565",
       "street_code": "13565",
       "street_name_en": "Fu Chung Lane",
@@ -6625,6 +7151,44 @@
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "landsd",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10519",
+      "street_code": "10519",
+      "street_name_en": "Fu Hing Street",
+      "street_name_zh": "符興街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-06",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10519",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-06",
+          "change_kind": "declare",
+          "name_en": "Fu Hing Street",
+          "name_zh": "符興街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.770",
+          "notice_label_zh": "第770號",
+          "notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn770.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
           "submitter_remarks": null
         }
       ]
@@ -6790,6 +7354,44 @@
           "notice_label_zh": "第86號",
           "notice_url_en": "/egazette/en/1931-gn86.pdf",
           "notice_url_zh": "/egazette/zh/1931-gn86.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10549",
+      "street_code": "10549",
+      "street_name_en": "Fuk Lee Street",
+      "street_name_zh": "福利街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-05-30",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10549",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-05-30",
+          "change_kind": "declare",
+          "name_en": "Fuk Lee Street",
+          "name_zh": "福利街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.732",
+          "notice_label_zh": "第732號",
+          "notice_url_en": "/egazette/en/1958-gn732.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn732.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
           "event_role": "current_name",
@@ -7500,6 +8102,44 @@
       ]
     },
     {
+      "timeline_id": "code:10593",
+      "street_code": "10593",
+      "street_name_en": "Fung Yi Street",
+      "street_name_zh": "鳳儀街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-04-17",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10593",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-04-17",
+          "change_kind": "declare",
+          "name_en": "Fung Yi Street",
+          "name_zh": "鳳儀街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.548",
+          "notice_label_zh": "第548號",
+          "notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn548.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "Fung Ying Path|豐盈徑",
       "street_code": null,
       "street_name_en": "Fung Ying Path",
@@ -7624,6 +8264,44 @@
       ]
     },
     {
+      "timeline_id": "code:10597",
+      "street_code": "10597",
+      "street_name_en": "Garden Road",
+      "street_name_zh": "花園道",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-01-03",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10597",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-01-03",
+          "change_kind": "declare",
+          "name_en": "Garden Road",
+          "name_zh": "花園道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.16",
+          "notice_label_zh": "第16號",
+          "notice_url_en": "/egazette/en/1958-gn16.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn16.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10599",
       "street_code": "10599",
       "street_name_en": "Gascoigne Road",
@@ -7742,17 +8420,37 @@
       "street_code": "10603",
       "street_name_en": "Gilman Street",
       "street_name_zh": "機利文街",
-      "canonical_naming_year": 1974,
-      "canonical_naming_date": "1974-05-31",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-27",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "10603",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
+        {
+          "date": "1958-06-27",
+          "change_kind": "declare",
+          "name_en": "Gilman Street",
+          "name_zh": "機利文街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        },
         {
           "date": "1974-05-31",
           "change_kind": "declare",
@@ -8424,6 +9122,44 @@
       ]
     },
     {
+      "timeline_id": "code:10664",
+      "street_code": "10664",
+      "street_name_en": "Harlech Road",
+      "street_name_zh": "夏力道",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-02-13",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10664",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-02-13",
+          "change_kind": "declare",
+          "name_en": "Harlech Road",
+          "name_zh": "夏力道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.245",
+          "notice_label_zh": "第245號",
+          "notice_url_en": "/egazette/en/1959-gn245.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn245.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10665",
       "street_code": "10665",
       "street_name_en": "Hart Avenue",
@@ -8576,6 +9312,44 @@
       ]
     },
     {
+      "timeline_id": "code:10670",
+      "street_code": "10670",
+      "street_name_en": "Hau Tak Lane",
+      "street_name_zh": "厚德里",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-09-11",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10670",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-09-11",
+          "change_kind": "declare",
+          "name_en": "Hau Tak Lane",
+          "name_zh": "厚德里",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1258",
+          "notice_label_zh": "第1258號",
+          "notice_url_en": "/egazette/en/1959-gn1258.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn1258.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10673",
       "street_code": "10673",
       "street_name_en": "Hau Wong Road",
@@ -8678,6 +9452,82 @@
           "notice_label_zh": "第154號",
           "notice_url_en": "/egazette/en/1940-gn154.pdf",
           "notice_url_zh": "/egazette/zh/1940-gn154.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10680",
+      "street_code": "10680",
+      "street_name_en": "Healthy Street East",
+      "street_name_zh": "健康東街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-09-12",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10680",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-09-12",
+          "change_kind": "declare",
+          "name_en": "Healthy Street East",
+          "name_zh": "健康東街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1260",
+          "notice_label_zh": "第1260號",
+          "notice_url_en": "/egazette/en/1958-gn1260.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn1260.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10681",
+      "street_code": "10681",
+      "street_name_en": "Healthy Street West",
+      "street_name_zh": "健康西街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-09-12",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10681",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-09-12",
+          "change_kind": "declare",
+          "name_en": "Healthy Street West",
+          "name_zh": "健康西街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1260",
+          "notice_label_zh": "第1260號",
+          "notice_url_en": "/egazette/en/1958-gn1260.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn1260.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
           "event_role": "current_name",
@@ -9181,6 +10031,64 @@
       ]
     },
     {
+      "timeline_id": "code:13250",
+      "street_code": "13250",
+      "street_name_en": "Hill Side Terrace",
+      "street_name_zh": "山坡臺",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-02-27",
+      "derivation_reason": "current_name_since",
+      "event_count": 2,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "13250",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "",
+          "change_kind": "declare",
+          "name_en": "Hill Side Terrace",
+          "name_zh": "山邊臺",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.315",
+          "notice_label_zh": "第315號",
+          "notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn315.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "Former name attested in G.N.315 rename notice; separate naming date not recorded on file."
+        },
+        {
+          "date": "1959-02-27",
+          "change_kind": "rename",
+          "name_en": "Hill Side Terrace",
+          "name_zh": "山坡臺",
+          "previous_name_en": "Hill Side Terrace",
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.315",
+          "notice_label_zh": "第315號",
+          "notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn315.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10709",
       "street_code": "10709",
       "street_name_en": "Hill Wood Road",
@@ -9539,6 +10447,82 @@
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
           "submitter_remarks": ""
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10735",
+      "street_code": "10735",
+      "street_name_en": "Hing Yan Street",
+      "street_name_zh": "興仁街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-05-15",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10735",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-05-15",
+          "change_kind": "declare",
+          "name_en": "Hing Yan Street",
+          "name_zh": "興仁街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.670",
+          "notice_label_zh": "第670號",
+          "notice_url_en": "/egazette/en/1959-gn670.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn670.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10736",
+      "street_code": "10736",
+      "street_name_en": "Hing Yin Street",
+      "street_name_zh": "興賢街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-05-15",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10736",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-05-15",
+          "change_kind": "declare",
+          "name_en": "Hing Yin Street",
+          "name_zh": "興賢街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.670",
+          "notice_label_zh": "第670號",
+          "notice_url_en": "/egazette/en/1959-gn670.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn670.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -10219,6 +11203,44 @@
       ]
     },
     {
+      "timeline_id": "code:10789",
+      "street_code": "10789",
+      "street_name_en": "Hok Ling Street",
+      "street_name_zh": "鶴齡街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-04-17",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10789",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-04-17",
+          "change_kind": "declare",
+          "name_en": "Hok Ling Street",
+          "name_zh": "鶴齡街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.548",
+          "notice_label_zh": "第548號",
+          "notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn548.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10797",
       "street_code": "10797",
       "street_name_en": "Holly Road",
@@ -10581,6 +11603,44 @@
       ]
     },
     {
+      "timeline_id": "code:10869",
+      "street_code": "10869",
+      "street_name_en": "Hung Kwong Street",
+      "street_name_zh": "鴻光街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-10-31",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10869",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-10-31",
+          "change_kind": "declare",
+          "name_en": "Hung Kwong Street",
+          "name_zh": "鴻光街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1478",
+          "notice_label_zh": "第1478號",
+          "notice_url_en": "/egazette/en/1958-gn1478.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn1478.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:13956",
       "street_code": "13956",
       "street_name_en": "Hung Lai Road",
@@ -10731,6 +11791,44 @@
           "notice_label_zh": "第245號",
           "notice_url_en": "/egazette/en/1932-gn245.pdf",
           "notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10877",
+      "street_code": "10877",
+      "street_name_en": "Hung Wan Street",
+      "street_name_zh": "鴻運街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-04-17",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10877",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-04-17",
+          "change_kind": "declare",
+          "name_en": "Hung Wan Street",
+          "name_zh": "鴻運街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.548",
+          "notice_label_zh": "第548號",
+          "notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn548.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
           "event_role": "current_name",
@@ -11050,15 +12148,15 @@
       "timeline_id": "code:10897",
       "street_code": "10897",
       "street_name_en": "Java Road",
-      "street_name_zh": "爪哇路",
+      "street_name_zh": "渣華道",
       "canonical_naming_year": 1933,
       "canonical_naming_date": "1933-07-28",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "10897",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -11081,6 +12179,64 @@
           "supplementary_evidence": null,
           "source": "hkgro",
           "submitter_remarks": "Gazette ZH 爪哇路; database 渣華道."
+        },
+        {
+          "date": "1959-11-20",
+          "change_kind": "extend",
+          "name_en": "Java Road",
+          "name_zh": "渣華道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1608",
+          "notice_label_zh": "第1608號",
+          "notice_url_en": "/egazette/en/1959-gn1608.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn1608.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10899",
+      "street_code": "10899",
+      "street_name_en": "Jockey Club Road",
+      "street_name_zh": "馬會道",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-06",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10899",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-06",
+          "change_kind": "declare",
+          "name_en": "Jockey Club Road",
+          "name_zh": "馬會道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.770",
+          "notice_label_zh": "第770號",
+          "notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn770.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -11356,6 +12512,82 @@
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10917",
+      "street_code": "10917",
+      "street_name_en": "Ka Shin Street",
+      "street_name_zh": "嘉善街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-01-24",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10917",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-01-24",
+          "change_kind": "declare",
+          "name_en": "Ka Shin Street",
+          "name_zh": "嘉善街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.125",
+          "notice_label_zh": "第125號",
+          "notice_url_en": "/egazette/en/1958-gn125.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn125.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10920",
+      "street_code": "10920",
+      "street_name_en": "Ka Wai Man Road",
+      "street_name_zh": "加惠民道",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-09-19",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10920",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-09-19",
+          "change_kind": "declare",
+          "name_en": "Ka Wai Man Road",
+          "name_zh": "加惠民道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1285",
+          "notice_label_zh": "第1285號",
+          "notice_url_en": "/egazette/en/1958-gn1285.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn1285.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
           "submitter_remarks": null
         }
       ]
@@ -11999,6 +13231,44 @@
       ]
     },
     {
+      "timeline_id": "code:10982",
+      "street_code": "10982",
+      "street_name_en": "Kennedy Road",
+      "street_name_zh": "堅尼地道",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-27",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10982",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-27",
+          "change_kind": "declare",
+          "name_en": "Kennedy Road",
+          "name_zh": "堅尼地道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10984",
       "street_code": "10984",
       "street_name_en": "Kent Road",
@@ -12139,6 +13409,44 @@
           "notice_label_zh": "第334號",
           "notice_url_en": "/egazette/en/1935-gn334.pdf",
           "notice_url_zh": "/egazette/zh/1935-gn334.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10993",
+      "street_code": "10993",
+      "street_name_en": "Kim Shin Lane",
+      "street_name_zh": "兼善里",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-02-28",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10993",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-02-28",
+          "change_kind": "declare",
+          "name_en": "Kim Shin Lane",
+          "name_zh": "兼善里",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.305",
+          "notice_label_zh": "第305號",
+          "notice_url_en": "/egazette/en/1958-gn305.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn305.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
           "event_role": "current_name",
@@ -12301,6 +13609,44 @@
           "notice_label_zh": "第138號",
           "notice_url_en": "/egazette/en/1930-gn138.pdf",
           "notice_url_zh": "/egazette/zh/1930-gn138.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11026",
+      "street_code": "11026",
+      "street_name_en": "King Lam Street",
+      "street_name_zh": "瓊林街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-10-16",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11026",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-10-16",
+          "change_kind": "declare",
+          "name_en": "King Lam Street",
+          "name_zh": "瓊林街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1411",
+          "notice_label_zh": "第1411號",
+          "notice_url_en": "/egazette/en/1959-gn1411.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn1411.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
           "event_role": "current_name",
@@ -14971,6 +16317,44 @@
       ]
     },
     {
+      "timeline_id": "code:11225",
+      "street_code": "11225",
+      "street_name_en": "Li Sing Street",
+      "street_name_zh": "李陞街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-27",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11225",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-27",
+          "change_kind": "declare",
+          "name_en": "Li Sing Street",
+          "name_zh": "李陞街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:11231",
       "street_code": "11231",
       "street_name_en": "Lily Street",
@@ -15260,18 +16644,38 @@
       "timeline_id": "code:11240",
       "street_code": "11240",
       "street_name_en": "Link Road",
-      "street_name_zh": "連合道",
-      "canonical_naming_year": 1931,
-      "canonical_naming_date": "1931-05-15",
-      "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "street_name_zh": "連道",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-02-27",
+      "derivation_reason": "current_name_since",
+      "event_count": 3,
       "geometry_link": {
         "status": "active",
         "street_code": "11240",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
+        {
+          "date": "",
+          "change_kind": "declare",
+          "name_en": "Link Road",
+          "name_zh": "連合道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.315",
+          "notice_label_zh": "第315號",
+          "notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn315.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "Former name attested in G.N.315 rename notice; separate naming date not recorded on file."
+        },
         {
           "date": "1931-05-15",
           "change_kind": "declare",
@@ -15291,6 +16695,26 @@
           "supplementary_evidence": null,
           "source": "hkgro",
           "submitter_remarks": "Gazette ZH 連合道; database 連道."
+        },
+        {
+          "date": "1959-02-27",
+          "change_kind": "rename",
+          "name_en": "Link Road",
+          "name_zh": "連道",
+          "previous_name_en": "Link Road",
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.315",
+          "notice_label_zh": "第315號",
+          "notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn315.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -15518,6 +16942,44 @@
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "egazette_pdf",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11257",
+      "street_code": "11257",
+      "street_name_en": "Lok Kwan Street",
+      "street_name_zh": "樂群街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-05-30",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11257",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-05-30",
+          "change_kind": "declare",
+          "name_en": "Lok Kwan Street",
+          "name_zh": "樂群街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.732",
+          "notice_label_zh": "第732號",
+          "notice_url_en": "/egazette/en/1958-gn732.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn732.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
           "submitter_remarks": null
         }
       ]
@@ -15919,6 +17381,82 @@
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
           "submitter_remarks": "First Previous G.N. for 鹿尾村路 cited in G.N.3237 (2020-06-12)."
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11303",
+      "street_code": "11303",
+      "street_name_en": "Luk Ming Street",
+      "street_name_zh": "鹿鳴街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-04-17",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11303",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-04-17",
+          "change_kind": "declare",
+          "name_en": "Luk Ming Street",
+          "name_zh": "鹿鳴街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.548",
+          "notice_label_zh": "第548號",
+          "notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn548.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11305",
+      "street_code": "11305",
+      "street_name_en": "Lun Cheung Street",
+      "street_name_zh": "麟祥街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-04-17",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11305",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-04-17",
+          "change_kind": "declare",
+          "name_en": "Lun Cheung Street",
+          "name_zh": "麟祥街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.548",
+          "notice_label_zh": "第548號",
+          "notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn548.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -16538,6 +18076,44 @@
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "egazette_pdf",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11326",
+      "street_code": "11326",
+      "street_name_en": "Lung To Street",
+      "street_name_zh": "龍圖街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-04-17",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11326",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-04-17",
+          "change_kind": "declare",
+          "name_en": "Lung To Street",
+          "name_zh": "龍圖街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.548",
+          "notice_label_zh": "第548號",
+          "notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn548.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
           "submitter_remarks": null
         }
       ]
@@ -17241,6 +18817,82 @@
       ]
     },
     {
+      "timeline_id": "code:11358",
+      "street_code": "11358",
+      "street_name_en": "MacDonnell Road",
+      "street_name_zh": "麥當勞道",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-27",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11358",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-27",
+          "change_kind": "declare",
+          "name_en": "MacDonnell Road",
+          "name_zh": "麥當勞道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11359",
+      "street_code": "11359",
+      "street_name_en": "Magazine Gap Road",
+      "street_name_zh": "馬己仙峽道",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-01-03",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11359",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-01-03",
+          "change_kind": "declare",
+          "name_en": "Magazine Gap Road",
+          "name_zh": "馬己仙峽道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.16",
+          "notice_label_zh": "第16號",
+          "notice_url_en": "/egazette/en/1958-gn16.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn16.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:14201",
       "street_code": "14201",
       "street_name_en": "Magic Road",
@@ -17389,6 +19041,82 @@
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
           "submitter_remarks": ""
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11379",
+      "street_code": "11379",
+      "street_name_en": "Man On Street",
+      "street_name_zh": "萬安街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-05-30",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11379",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-05-30",
+          "change_kind": "declare",
+          "name_en": "Man On Street",
+          "name_zh": "萬安街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.732",
+          "notice_label_zh": "第732號",
+          "notice_url_en": "/egazette/en/1958-gn732.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn732.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11394",
+      "street_code": "11394",
+      "street_name_en": "Mansion Street",
+      "street_name_zh": "民新街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-04-10",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11394",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-04-10",
+          "change_kind": "declare",
+          "name_en": "Mansion Street",
+          "name_zh": "民新街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.507",
+          "notice_label_zh": "第507號",
+          "notice_url_en": "/egazette/en/1959-gn507.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn507.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -17697,6 +19425,44 @@
       ]
     },
     {
+      "timeline_id": "code:11411",
+      "street_code": "11411",
+      "street_name_en": "Mei King Street",
+      "street_name_zh": "美景街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-01-23",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11411",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-01-23",
+          "change_kind": "declare",
+          "name_en": "Mei King Street",
+          "name_zh": "美景街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.131",
+          "notice_label_zh": "第131號",
+          "notice_url_en": "/egazette/en/1959-gn131.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn131.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:11413",
       "street_code": "11413",
       "street_name_en": "Mei Lai Road",
@@ -17925,6 +19691,44 @@
       ]
     },
     {
+      "timeline_id": "code:11436",
+      "street_code": "11436",
+      "street_name_en": "Ming Lun Street",
+      "street_name_zh": "明倫街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-05-15",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11436",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-05-15",
+          "change_kind": "declare",
+          "name_en": "Ming Lun Street",
+          "name_zh": "明倫街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.670",
+          "notice_label_zh": "第670號",
+          "notice_url_en": "/egazette/en/1959-gn670.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn670.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "Ming Tak Street|明德街",
       "street_code": null,
       "street_name_en": "Ming Tak Street",
@@ -17969,6 +19773,64 @@
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
           "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3555 (2017-05-26)."
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11447",
+      "street_code": "11447",
+      "street_name_en": "Miu Tung Street",
+      "street_name_zh": "廟東街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-02-27",
+      "derivation_reason": "current_name_since",
+      "event_count": 2,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11447",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "",
+          "change_kind": "declare",
+          "name_en": "Temple Street",
+          "name_zh": "廟街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.315",
+          "notice_label_zh": "第315號",
+          "notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn315.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "Former name attested in G.N.315 rename notice; separate naming date not recorded on file."
+        },
+        {
+          "date": "1959-02-27",
+          "change_kind": "rename",
+          "name_en": "Miu Tung Street",
+          "name_zh": "廟東街",
+          "previous_name_en": "Temple Street",
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.315",
+          "notice_label_zh": "第315號",
+          "notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn315.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -18121,6 +19983,82 @@
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
           "submitter_remarks": ""
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11465",
+      "street_code": "11465",
+      "street_name_en": "Mosque Junction",
+      "street_name_zh": "摩羅廟交加街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-27",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11465",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-27",
+          "change_kind": "declare",
+          "name_en": "Mosque Junction",
+          "name_zh": "摩羅廟交加街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11466",
+      "street_code": "11466",
+      "street_name_en": "Mosque Street",
+      "street_name_zh": "摩羅廟街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-27",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11466",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-27",
+          "change_kind": "declare",
+          "name_en": "Mosque Street",
+          "name_zh": "摩羅廟街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -18702,6 +20640,44 @@
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "landsd",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "Murray Place|美利台",
+      "street_code": null,
+      "street_name_en": "Murray Place",
+      "street_name_zh": "美利台",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-27",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-27",
+          "change_kind": "declare",
+          "name_en": "Murray Place",
+          "name_zh": "美利台",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
           "submitter_remarks": null
         }
       ]
@@ -19411,11 +21387,11 @@
       "canonical_naming_year": 1926,
       "canonical_naming_date": "1926-06-25",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "11517",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -19432,6 +21408,26 @@
           "notice_url_zh": "/egazette/zh/1926-gn342.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        },
+        {
+          "date": "1958-02-07",
+          "change_kind": "extend",
+          "name_en": "Nga Tsin Wai Road",
+          "name_zh": "衙前圍道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.184",
+          "notice_label_zh": "第184號",
+          "notice_url_en": "/egazette/en/1958-gn184.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn184.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
           "event_role": "current_name",
           "derived_from": null,
           "evidence_kind_note": null,
@@ -20126,7 +22122,7 @@
       "canonical_naming_year": 1904,
       "canonical_naming_date": "1904-01-29",
       "derivation_reason": "current_name_since",
-      "event_count": 2,
+      "event_count": 3,
       "geometry_link": {
         "status": "active",
         "street_code": "11560",
@@ -20167,6 +22163,26 @@
           "notice_url_zh": "/egazette/zh/1904-gn59.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        },
+        {
+          "date": "1958-06-27",
+          "change_kind": "extend",
+          "name_en": "Oaklands Path",
+          "name_zh": "屋蘭士里",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
           "event_role": "current_name",
           "derived_from": null,
           "evidence_kind_note": null,
@@ -20279,6 +22295,64 @@
           "notice_label_zh": "第300號",
           "notice_url_en": "/egazette/en/1931-gn300.pdf",
           "notice_url_zh": "/egazette/zh/1931-gn300.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11568",
+      "street_code": "11568",
+      "street_name_en": "Old Main Street, Aberdeen",
+      "street_name_zh": "香港仔舊大街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-05-02",
+      "derivation_reason": "current_name_since",
+      "event_count": 2,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11568",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "",
+          "change_kind": "declare",
+          "name_en": "Old Main Street",
+          "name_zh": "舊大街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.607",
+          "notice_label_zh": "第607號",
+          "notice_url_en": "/egazette/en/1958-gn607.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn607.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "Former name attested in G.N.607 rename notice; separate naming date not recorded on file."
+        },
+        {
+          "date": "1958-05-02",
+          "change_kind": "rename",
+          "name_en": "Old Main Street, Aberdeen",
+          "name_zh": "香港仔舊大街",
+          "previous_name_en": "Old Main Street",
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.607",
+          "notice_label_zh": "第607號",
+          "notice_url_en": "/egazette/en/1958-gn607.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn607.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
           "event_role": "current_name",
@@ -21139,6 +23213,82 @@
       ]
     },
     {
+      "timeline_id": "code:11655",
+      "street_code": "11655",
+      "street_name_en": "Pan Hoi Street",
+      "street_name_zh": "濱海街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-12-19",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11655",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-12-19",
+          "change_kind": "declare",
+          "name_en": "Pan Hoi Street",
+          "name_zh": "濱海街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1728",
+          "notice_label_zh": "第1728號",
+          "notice_url_en": "/egazette/en/1958-gn1728.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn1728.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11657",
+      "street_code": "11657",
+      "street_name_en": "Pang Ching Street",
+      "street_name_zh": "鵬程街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-04-17",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11657",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-04-17",
+          "change_kind": "declare",
+          "name_en": "Pang Ching Street",
+          "name_zh": "鵬程街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.548",
+          "notice_label_zh": "第548號",
+          "notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn548.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:14208",
       "street_code": "14208",
       "street_name_en": "Park Promenade",
@@ -21382,6 +23532,44 @@
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "landsd",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11680",
+      "street_code": "11680",
+      "street_name_en": "Pennington Street",
+      "street_name_zh": "邊寧頓街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-01-30",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11680",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-01-30",
+          "change_kind": "declare",
+          "name_en": "Pennington Street",
+          "name_zh": "邊寧頓街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.168",
+          "notice_label_zh": "第168號",
+          "notice_url_en": "/egazette/en/1959-gn168.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn168.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
           "submitter_remarks": null
         }
       ]
@@ -22261,6 +24449,44 @@
       ]
     },
     {
+      "timeline_id": "code:11770",
+      "street_code": "11770",
+      "street_name_en": "Pok Man Street",
+      "street_name_zh": "博文街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-01-24",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11770",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-01-24",
+          "change_kind": "declare",
+          "name_en": "Pok Man Street",
+          "name_zh": "博文街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.125",
+          "notice_label_zh": "第125號",
+          "notice_url_en": "/egazette/en/1958-gn125.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn125.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:14124",
       "street_code": "14124",
       "street_name_en": "Pok Wai South Road",
@@ -22572,11 +24798,11 @@
       "canonical_naming_year": 1924,
       "canonical_naming_date": "1924-03-07",
       "derivation_reason": "current_name_since",
-      "event_count": 2,
+      "event_count": 3,
       "geometry_link": {
         "status": "active",
         "street_code": "11788",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -22619,6 +24845,26 @@
           "supplementary_evidence": null,
           "source": "hkgro",
           "submitter_remarks": null
+        },
+        {
+          "date": "1958-06-27",
+          "change_kind": "extend",
+          "name_en": "Prince Edward Road",
+          "name_zh": "太子道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -22630,11 +24876,11 @@
       "canonical_naming_year": 1979,
       "canonical_naming_date": "1979-01-12",
       "derivation_reason": "declaration_earliest",
-      "event_count": 3,
+      "event_count": 5,
       "geometry_link": {
         "status": "active",
         "street_code": "11787",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -22672,6 +24918,46 @@
           "evidence_kind": "gazette_primary",
           "is_declaration_event": false,
           "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        },
+        {
+          "date": "1958-06-27",
+          "change_kind": "extend",
+          "name_en": "Prince Edward Road",
+          "name_zh": "太子道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        },
+        {
+          "date": "1959-05-29",
+          "change_kind": "extend",
+          "name_en": "Prince Edward Road",
+          "name_zh": "太子道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.738",
+          "notice_label_zh": "第738號",
+          "notice_url_en": "/egazette/en/1959-gn738.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn738.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
+          "event_role": "current_name",
           "derived_from": null,
           "evidence_kind_note": null,
           "supplementary_evidence": null,
@@ -22793,6 +25079,82 @@
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
           "submitter_remarks": "First Previous G.N. for 公主道 cited in G.N.7463 (2018-10-05)."
+        }
+      ]
+    },
+    {
+      "timeline_id": "Quarry Bay East Street|鰂魚涌東街",
+      "street_code": null,
+      "street_name_en": "Quarry Bay East Street",
+      "street_name_zh": "鰂魚涌東街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-02-27",
+      "derivation_reason": "current_name_since",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-02-27",
+          "change_kind": "rename",
+          "name_en": "Quarry Bay East Street",
+          "name_zh": "鰂魚涌東街",
+          "previous_name_en": "East Street",
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.315",
+          "notice_label_zh": "第315號",
+          "notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn315.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "Quarry Bay West Street|鰂魚涌西街",
+      "street_code": null,
+      "street_name_en": "Quarry Bay West Street",
+      "street_name_zh": "鰂魚涌西街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-02-27",
+      "derivation_reason": "current_name_since",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-02-27",
+          "change_kind": "rename",
+          "name_en": "Quarry Bay West Street",
+          "name_zh": "鰂魚涌西街",
+          "previous_name_en": "West Street",
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.315",
+          "notice_label_zh": "第315號",
+          "notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn315.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -23175,7 +25537,7 @@
       "canonical_naming_year": 1904,
       "canonical_naming_date": "1904-01-29",
       "derivation_reason": "current_name_since",
-      "event_count": 2,
+      "event_count": 3,
       "geometry_link": {
         "status": "active",
         "street_code": "11817",
@@ -23216,6 +25578,26 @@
           "notice_url_zh": "/egazette/zh/1904-gn59.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        },
+        {
+          "date": "1958-01-03",
+          "change_kind": "extend",
+          "name_en": "Robinson Road",
+          "name_zh": "羅便臣道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.16",
+          "notice_label_zh": "第16號",
+          "notice_url_en": "/egazette/en/1958-gn16.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn16.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
           "event_role": "current_name",
           "derived_from": null,
           "evidence_kind_note": null,
@@ -23271,11 +25653,11 @@
       "canonical_naming_year": 1905,
       "canonical_naming_date": "1905-05-12",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "11827",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -23292,6 +25674,26 @@
           "notice_url_zh": "/egazette/zh/1905-gn286.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        },
+        {
+          "date": "1958-06-27",
+          "change_kind": "extend",
+          "name_en": "Rumsey Street",
+          "name_zh": "林士街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
           "event_role": "current_name",
           "derived_from": null,
           "evidence_kind_note": null,
@@ -23412,6 +25814,64 @@
           "supplementary_evidence": null,
           "source": "hkgro",
           "submitter_remarks": "Gazette ZH 沙埔道; database 沙浦道."
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11832",
+      "street_code": "11832",
+      "street_name_en": "Sai Cheung Street",
+      "street_name_zh": "西祥街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-02-27",
+      "derivation_reason": "current_name_since",
+      "event_count": 2,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11832",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "",
+          "change_kind": "declare",
+          "name_en": "Beach Street",
+          "name_zh": "必治街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.315",
+          "notice_label_zh": "第315號",
+          "notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn315.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "Former name attested in G.N.315 rename notice; separate naming date not recorded on file."
+        },
+        {
+          "date": "1959-02-27",
+          "change_kind": "rename",
+          "name_en": "Sai Cheung Street",
+          "name_zh": "西祥街",
+          "previous_name_en": "Beach Street",
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.315",
+          "notice_label_zh": "第315號",
+          "notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn315.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -23882,6 +26342,82 @@
       ]
     },
     {
+      "timeline_id": "code:10667",
+      "street_code": "10667",
+      "street_name_en": "Salisbury Avenue",
+      "street_name_zh": "梳士巴利路",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-27",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10667",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-27",
+          "change_kind": "declare",
+          "name_en": "Salisbury Avenue",
+          "name_zh": "梳士巴利路",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "G.N.865 names Salisbury Avenue 梳士巴利路; centreline Hau Fook Street 厚福街."
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11869",
+      "street_code": "11869",
+      "street_name_en": "Salisbury Road",
+      "street_name_zh": "梳士巴利道",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-27",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11869",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-27",
+          "change_kind": "declare",
+          "name_en": "Salisbury Road",
+          "name_zh": "梳士巴利道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "Sam Wo Road|三和路",
       "street_code": null,
       "street_name_en": "Sam Wo Road",
@@ -23968,6 +26504,44 @@
       ]
     },
     {
+      "timeline_id": "code:11880",
+      "street_code": "11880",
+      "street_name_en": "San Fat Street",
+      "street_name_zh": "新發街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-06",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11880",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-06",
+          "change_kind": "declare",
+          "name_en": "San Fat Street",
+          "name_zh": "新發街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.770",
+          "notice_label_zh": "第770號",
+          "notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn770.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:11881",
       "street_code": "11881",
       "street_name_en": "San Francisco Path",
@@ -23994,6 +26568,196 @@
           "notice_label_zh": "第575號",
           "notice_url_en": "/egazette/en/1925-gn575.pdf",
           "notice_url_zh": "/egazette/zh/1925-gn575.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11883",
+      "street_code": "11883",
+      "street_name_en": "San Fung Avenue",
+      "street_name_zh": "新豐路",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-06",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11883",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-06",
+          "change_kind": "declare",
+          "name_en": "San Fung Avenue",
+          "name_zh": "新豐路",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.770",
+          "notice_label_zh": "第770號",
+          "notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn770.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11888",
+      "street_code": "11888",
+      "street_name_en": "San Hong Street",
+      "street_name_zh": "新康街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-06",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11888",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-06",
+          "change_kind": "declare",
+          "name_en": "San Hong Street",
+          "name_zh": "新康街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.770",
+          "notice_label_zh": "第770號",
+          "notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn770.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11892",
+      "street_code": "11892",
+      "street_name_en": "San Kan Street",
+      "street_name_zh": "新勤街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-06",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11892",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-06",
+          "change_kind": "declare",
+          "name_en": "San Kan Street",
+          "name_zh": "新勤街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.770",
+          "notice_label_zh": "第770號",
+          "notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn770.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11893",
+      "street_code": "11893",
+      "street_name_en": "San Kin Street",
+      "street_name_zh": "新健街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-06",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11893",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-06",
+          "change_kind": "declare",
+          "name_en": "San Kin Street",
+          "name_zh": "新健街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.770",
+          "notice_label_zh": "第770號",
+          "notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn770.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11894",
+      "street_code": "11894",
+      "street_name_en": "San Kung Street",
+      "street_name_zh": "新功街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-06",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11894",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-06",
+          "change_kind": "declare",
+          "name_en": "San Kung Street",
+          "name_zh": "新功街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.770",
+          "notice_label_zh": "第770號",
+          "notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn770.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
           "event_role": "current_name",
@@ -24054,6 +26818,44 @@
           "notice_url_zh": "/egazette/zh/1935-gn334.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": false,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11901",
+      "street_code": "11901",
+      "street_name_en": "San Ma Tau Street",
+      "street_name_zh": "新碼頭街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-09-19",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11901",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-09-19",
+          "change_kind": "declare",
+          "name_en": "San Ma Tau Street",
+          "name_zh": "新碼頭街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1285",
+          "notice_label_zh": "第1285號",
+          "notice_url_en": "/egazette/en/1958-gn1285.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn1285.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
           "event_role": "current_name",
           "derived_from": null,
           "evidence_kind_note": null,
@@ -24128,6 +26930,82 @@
           "notice_label_zh": "第245號",
           "notice_url_en": "/egazette/en/1932-gn245.pdf",
           "notice_url_zh": "/egazette/zh/1932-gn245.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11909",
+      "street_code": "11909",
+      "street_name_en": "San Shing Avenue",
+      "street_name_zh": "新成路",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-06",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11909",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-06",
+          "change_kind": "declare",
+          "name_en": "San Shing Avenue",
+          "name_zh": "新成路",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.770",
+          "notice_label_zh": "第770號",
+          "notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn770.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11913",
+      "street_code": "11913",
+      "street_name_en": "San Tsoi Street",
+      "street_name_zh": "新財街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-06",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11913",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-06",
+          "change_kind": "declare",
+          "name_en": "San Tsoi Street",
+          "name_zh": "新財街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.770",
+          "notice_label_zh": "第770號",
+          "notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn770.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
           "event_role": "current_name",
@@ -25512,6 +28390,44 @@
       ]
     },
     {
+      "timeline_id": "code:12042",
+      "street_code": "12042",
+      "street_name_en": "Shim Luen Street",
+      "street_name_zh": "蟬聯街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-04-17",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12042",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-04-17",
+          "change_kind": "declare",
+          "name_en": "Shim Luen Street",
+          "name_zh": "蟬聯街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.548",
+          "notice_label_zh": "第548號",
+          "notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn548.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "Shin Lun Lane|善鄰里",
       "street_code": null,
       "street_name_en": "Shin Lun Lane",
@@ -25898,6 +28814,44 @@
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
           "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.3555 (2017-05-26)."
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12059",
+      "street_code": "12059",
+      "street_name_en": "Shing Tak Street",
+      "street_name_zh": "盛德街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-08-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12059",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-08-22",
+          "change_kind": "declare",
+          "name_en": "Shing Tak Street",
+          "name_zh": "盛德街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1143",
+          "notice_label_zh": "第1143號",
+          "notice_url_en": "/egazette/en/1958-gn1143.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn1143.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -26975,11 +29929,11 @@
       "canonical_naming_year": 1924,
       "canonical_naming_date": "1924-01-25",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "12115",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -26996,6 +29950,26 @@
           "notice_url_zh": "/egazette/zh/1924-gn41.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        },
+        {
+          "date": "1958-06-27",
+          "change_kind": "extend",
+          "name_en": "Siu Cheung Fong",
+          "name_zh": "兆祥坊",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
           "event_role": "current_name",
           "derived_from": null,
           "evidence_kind_note": null,
@@ -29796,6 +32770,44 @@
       ]
     },
     {
+      "timeline_id": "code:12358",
+      "street_code": "12358",
+      "street_name_en": "Tin Chong Street",
+      "street_name_zh": "電廠街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-11-20",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12358",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-11-20",
+          "change_kind": "declare",
+          "name_en": "Tin Chong Street",
+          "name_zh": "電廠街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1608",
+          "notice_label_zh": "第1608號",
+          "notice_url_en": "/egazette/en/1959-gn1608.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn1608.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:14030",
       "street_code": "14030",
       "street_name_en": "Tin Fai Road",
@@ -30875,15 +33887,15 @@
       "timeline_id": "code:12399",
       "street_code": "12399",
       "street_name_en": "Tregunter Path",
-      "street_name_zh": "地利根德道",
+      "street_name_zh": "地利根德里",
       "canonical_naming_year": 1920,
       "canonical_naming_date": "1920-03-19",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "12399",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -30906,6 +33918,26 @@
           "supplementary_evidence": null,
           "source": "hkgro",
           "submitter_remarks": "Gazette ZH 地利根德道; database 地利根德里."
+        },
+        {
+          "date": "1958-06-27",
+          "change_kind": "extend",
+          "name_en": "Tregunter Path",
+          "name_zh": "地利根德里",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -31326,6 +34358,82 @@
           "notice_label_zh": "第138號",
           "notice_url_en": "/egazette/en/1930-gn138.pdf",
           "notice_url_zh": "/egazette/zh/1930-gn138.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12481",
+      "street_code": "12481",
+      "street_name_en": "Tsun Fat Street",
+      "street_name_zh": "駿發街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-04-17",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12481",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-04-17",
+          "change_kind": "declare",
+          "name_en": "Tsun Fat Street",
+          "name_zh": "駿發街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.548",
+          "notice_label_zh": "第548號",
+          "notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn548.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12482",
+      "street_code": "12482",
+      "street_name_en": "Tsun Fu Street",
+      "street_name_zh": "巡撫街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-06-06",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12482",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-06-06",
+          "change_kind": "declare",
+          "name_en": "Tsun Fu Street",
+          "name_zh": "巡撫街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.770",
+          "notice_label_zh": "第770號",
+          "notice_url_en": "/egazette/en/1958-gn770.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn770.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
           "event_role": "current_name",
@@ -31888,6 +34996,44 @@
           "notice_label_zh": "第202號",
           "notice_url_en": "/egazette/en/1926-gn202.pdf",
           "notice_url_zh": "/egazette/zh/1926-gn202.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12536",
+      "street_code": "12536",
+      "street_name_en": "Tung Sing Road",
+      "street_name_zh": "東勝道",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-05-08",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12536",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-05-08",
+          "change_kind": "declare",
+          "name_en": "Tung Sing Road",
+          "name_zh": "東勝道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.628",
+          "notice_label_zh": "第628號",
+          "notice_url_en": "/egazette/en/1959-gn628.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn628.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
           "event_role": "current_name",
@@ -32596,6 +35742,44 @@
       ]
     },
     {
+      "timeline_id": "code:12608",
+      "street_code": "12608",
+      "street_name_en": "Wai On Street",
+      "street_name_zh": "惠安街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-05-30",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12608",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-05-30",
+          "change_kind": "declare",
+          "name_en": "Wai On Street",
+          "name_zh": "惠安街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.732",
+          "notice_label_zh": "第732號",
+          "notice_url_en": "/egazette/en/1958-gn732.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn732.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "code:12620",
       "street_code": "12620",
       "street_name_en": "Wai Wai Road",
@@ -32748,6 +35932,120 @@
       ]
     },
     {
+      "timeline_id": "Wan Fat Street|環發街",
+      "street_code": null,
+      "street_name_en": "Wan Fat Street",
+      "street_name_zh": "環發街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-08-08",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-08-08",
+          "change_kind": "declare",
+          "name_en": "Wan Fat Street",
+          "name_zh": "環發街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1068",
+          "notice_label_zh": "第1068號",
+          "notice_url_en": "/egazette/en/1958-gn1068.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn1068.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "Wan Fuk Street|環福街",
+      "street_code": null,
+      "street_name_en": "Wan Fuk Street",
+      "street_name_zh": "環福街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-12-11",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-12-11",
+          "change_kind": "declare",
+          "name_en": "Wan Fuk Street",
+          "name_zh": "環福街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1743",
+          "notice_label_zh": "第1743號",
+          "notice_url_en": "/egazette/en/1959-gn1743.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn1743.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "Wan Hing Street|環興街",
+      "street_code": null,
+      "street_name_en": "Wan Hing Street",
+      "street_name_zh": "環興街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-08-08",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-08-08",
+          "change_kind": "declare",
+          "name_en": "Wan Hing Street",
+          "name_zh": "環興街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1068",
+          "notice_label_zh": "第1068號",
+          "notice_url_en": "/egazette/en/1958-gn1068.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn1068.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
       "timeline_id": "Wan King Street|環景街",
       "street_code": null,
       "street_name_en": "Wan King Street",
@@ -32772,26 +36070,16 @@
           "previous_name_zh": null,
           "notice_label_en": "G.N.1743",
           "notice_label_zh": "第1743號",
-          "notice_url_en": null,
-          "notice_url_zh": null,
-          "evidence_kind": "gazette_inferred",
+          "notice_url_en": "/egazette/en/1959-gn1743.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn1743.pdf",
+          "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
           "event_role": "current_name",
-          "derived_from": [
-            {
-              "kind": "gazette_citation",
-              "notice_label": null,
-              "publication_date": null,
-              "government_notice_url_en": null,
-              "government_notice_url_zh": null,
-              "cited_notice_label": "G.N.6067",
-              "cited_publication_date": null
-            }
-          ],
+          "derived_from": null,
           "evidence_kind_note": null,
           "supplementary_evidence": null,
-          "source": "crowdsubmitted",
-          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.6067 (2019-09-27)."
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -32820,26 +36108,54 @@
           "previous_name_zh": null,
           "notice_label_en": "G.N.1743",
           "notice_label_zh": "第1743號",
-          "notice_url_en": null,
-          "notice_url_zh": null,
-          "evidence_kind": "gazette_inferred",
+          "notice_url_en": "/egazette/en/1959-gn1743.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn1743.pdf",
+          "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
           "event_role": "current_name",
-          "derived_from": [
-            {
-              "kind": "gazette_citation",
-              "notice_label": null,
-              "publication_date": null,
-              "government_notice_url_en": null,
-              "government_notice_url_zh": null,
-              "cited_notice_label": "G.N.6067",
-              "cited_publication_date": null
-            }
-          ],
+          "derived_from": null,
           "evidence_kind_note": null,
           "supplementary_evidence": null,
-          "source": "crowdsubmitted",
-          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.6067 (2019-09-27)."
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "Wan Lok Street|環樂街",
+      "street_code": null,
+      "street_name_en": "Wan Lok Street",
+      "street_name_zh": "環樂街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-08-08",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-08-08",
+          "change_kind": "declare",
+          "name_en": "Wan Lok Street",
+          "name_zh": "環樂街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1068",
+          "notice_label_zh": "第1068號",
+          "notice_url_en": "/egazette/en/1958-gn1068.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn1068.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -32888,6 +36204,44 @@
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
           "submitter_remarks": "First Previous G.N. for 環澳路 cited in G.N.6836 (2022-11-25)."
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12639",
+      "street_code": "12639",
+      "street_name_en": "Wan On Street",
+      "street_name_zh": "環安街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-08-08",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12639",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-08-08",
+          "change_kind": "declare",
+          "name_en": "Wan On Street",
+          "name_zh": "環安街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1068",
+          "notice_label_zh": "第1068號",
+          "notice_url_en": "/egazette/en/1958-gn1068.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn1068.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -32954,26 +36308,54 @@
           "previous_name_zh": null,
           "notice_label_en": "G.N.1743",
           "notice_label_zh": "第1743號",
-          "notice_url_en": null,
-          "notice_url_zh": null,
-          "evidence_kind": "gazette_inferred",
+          "notice_url_en": "/egazette/en/1959-gn1743.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn1743.pdf",
+          "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
           "event_role": "current_name",
-          "derived_from": [
-            {
-              "kind": "gazette_citation",
-              "notice_label": null,
-              "publication_date": null,
-              "government_notice_url_en": null,
-              "government_notice_url_zh": null,
-              "cited_notice_label": "G.N.6067",
-              "cited_publication_date": null
-            }
-          ],
+          "derived_from": null,
           "evidence_kind_note": null,
           "supplementary_evidence": null,
-          "source": "crowdsubmitted",
-          "submitter_remarks": "Original naming (\"Named in\") cited in deletion notice G.N.6067 (2019-09-27)."
+          "source": "hkgro",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "Wan Tat Street|環達街",
+      "street_code": null,
+      "street_name_en": "Wan Tat Street",
+      "street_name_zh": "環達街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-08-08",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-08-08",
+          "change_kind": "declare",
+          "name_en": "Wan Tat Street",
+          "name_zh": "環達街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1068",
+          "notice_label_zh": "第1068號",
+          "notice_url_en": "/egazette/en/1958-gn1068.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn1068.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
         }
       ]
     },
@@ -33252,6 +36634,44 @@
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
           "submitter_remarks": "Previous G.N. for 西九龍公路 cited in G.N.1921 (2017-04-07)."
+        }
+      ]
+    },
+    {
+      "timeline_id": "West Street|西街",
+      "street_code": null,
+      "street_name_en": "West Street",
+      "street_name_zh": "西街",
+      "canonical_naming_year": null,
+      "canonical_naming_date": null,
+      "derivation_reason": "no_current_name_event",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "",
+          "change_kind": "declare",
+          "name_en": "West Street",
+          "name_zh": "西街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.315",
+          "notice_label_zh": "第315號",
+          "notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn315.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "Former name attested in G.N.315 rename notice; separate naming date not recorded on file."
         }
       ]
     },
@@ -33717,6 +37137,44 @@
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12753",
+      "street_code": "12753",
+      "street_name_en": "Wing Yiu Street",
+      "street_name_zh": "永耀街",
+      "canonical_naming_year": 1958,
+      "canonical_naming_date": "1958-10-31",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12753",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1958-10-31",
+          "change_kind": "declare",
+          "name_en": "Wing Yiu Street",
+          "name_zh": "永耀街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1478",
+          "notice_label_zh": "第1478號",
+          "notice_url_en": "/egazette/en/1958-gn1478.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn1478.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
           "submitter_remarks": null
         }
       ]
@@ -35129,11 +38587,11 @@
       "canonical_naming_year": 1924,
       "canonical_naming_date": "1924-08-29",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "12865",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -35150,6 +38608,26 @@
           "notice_url_zh": "/egazette/zh/1924-gn492.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": null
+        },
+        {
+          "date": "1958-06-27",
+          "change_kind": "extend",
+          "name_en": "Yim Po Fong Street",
+          "name_zh": "染布房街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.865",
+          "notice_label_zh": "第865號",
+          "notice_url_en": "/egazette/en/1958-gn865.pdf",
+          "notice_url_zh": "/egazette/zh/1958-gn865.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
           "event_role": "current_name",
           "derived_from": null,
           "evidence_kind_note": null,
@@ -35193,6 +38671,44 @@
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "egazette_pdf",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12868",
+      "street_code": "12868",
+      "street_name_en": "Yin On Street",
+      "street_name_zh": "燕安街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-04-17",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12868",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-04-17",
+          "change_kind": "declare",
+          "name_en": "Yin On Street",
+          "name_zh": "燕安街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.548",
+          "notice_label_zh": "第548號",
+          "notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn548.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
           "submitter_remarks": null
         }
       ]
@@ -35375,6 +38891,44 @@
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "egazette_pdf",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12874",
+      "street_code": "12874",
+      "street_name_en": "Ying Yeung Street",
+      "street_name_zh": "鷹揚街",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-04-17",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12874",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-04-17",
+          "change_kind": "declare",
+          "name_en": "Ying Yeung Street",
+          "name_zh": "鷹揚街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.548",
+          "notice_label_zh": "第548號",
+          "notice_url_en": "/egazette/en/1959-gn548.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn548.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
           "submitter_remarks": null
         }
       ]
@@ -36061,6 +39615,44 @@
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "landsd",
+          "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12945",
+      "street_code": "12945",
+      "street_name_en": "Yun Ping Road",
+      "street_name_zh": "恩平道",
+      "canonical_naming_year": 1959,
+      "canonical_naming_date": "1959-01-30",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12945",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1959-01-30",
+          "change_kind": "declare",
+          "name_en": "Yun Ping Road",
+          "name_zh": "恩平道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.168",
+          "notice_label_zh": "第168號",
+          "notice_url_en": "/egazette/en/1959-gn168.pdf",
+          "notice_url_zh": "/egazette/zh/1959-gn168.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
           "submitter_remarks": null
         }
       ]

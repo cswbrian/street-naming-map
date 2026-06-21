@@ -1,0 +1,29 @@
+{
+  "batch_id": "1958-gn939-church-lane",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 939",
+  "publication_date": "1958-07-11",
+  "gazette_url_en": "/egazette/en/1958-gn939.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1958-gn939-church-lane/1958-gn939.pdf",
+  "streets": [
+    {
+      "english_name": "CHURCH LANE",
+      "chinese_name": "教堂里",
+      "history": [
+        {
+          "publication_date": "1958-07-11",
+          "change_kind": "declare",
+          "street_name_en": "Church Lane",
+          "gazette_notice_label": "Government Notification No. 939",
+          "government_notice_url_en": "/egazette/en/1958-gn939.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "教堂里"
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}

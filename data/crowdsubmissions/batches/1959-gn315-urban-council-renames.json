@@ -1,0 +1,202 @@
+{
+  "batch_id": "1959-gn315-urban-council-renames",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 315",
+  "publication_date": "1959-02-27",
+  "gazette_url_en": "/egazette/en/1959-gn315.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1959-gn315-urban-council-renames/1959-gn315.pdf",
+  "streets": [
+    {
+      "english_name": "LINK ROAD",
+      "chinese_name": "連道",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Link Road",
+          "gazette_notice_label": "Government Notification No. 315",
+          "government_notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "street_name_zh": "連合道",
+          "submitter_remarks": "Former name attested in G.N.315 rename notice; separate naming date not recorded on file.",
+          "submission_id": "1959-gn315-link-road-former"
+        },
+        {
+          "change_kind": "rename",
+          "street_name_en": "Link Road",
+          "gazette_notice_label": "Government Notification No. 315",
+          "government_notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-02-27",
+          "street_name_zh": "連道",
+          "previous_street_name_en": "Link Road",
+          "is_declaration_event": true
+        }
+      ],
+      "link_street_code": "11240"
+    },
+    {
+      "english_name": "HILL SIDE TERRACE",
+      "chinese_name": "山坡臺",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Hill Side Terrace",
+          "gazette_notice_label": "Government Notification No. 315",
+          "government_notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "street_name_zh": "山邊臺",
+          "submitter_remarks": "Former name attested in G.N.315 rename notice; separate naming date not recorded on file.",
+          "submission_id": "1959-gn315-hill-side-terrace-former"
+        },
+        {
+          "change_kind": "rename",
+          "street_name_en": "Hill Side Terrace",
+          "gazette_notice_label": "Government Notification No. 315",
+          "government_notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-02-27",
+          "street_name_zh": "山坡臺",
+          "previous_street_name_en": "Hill Side Terrace",
+          "is_declaration_event": true
+        }
+      ],
+      "link_street_code": "13250"
+    },
+    {
+      "english_name": "QUARRY BAY EAST STREET",
+      "chinese_name": "鰂魚涌東街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "East Street",
+          "gazette_notice_label": "Government Notification No. 315",
+          "government_notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "street_name_zh": "東街",
+          "submitter_remarks": "Former name attested in G.N.315 rename notice; separate naming date not recorded on file.",
+          "submission_id": "1959-gn315-quarry-bay-east-former"
+        },
+        {
+          "change_kind": "rename",
+          "street_name_en": "Quarry Bay East Street",
+          "gazette_notice_label": "Government Notification No. 315",
+          "government_notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-02-27",
+          "street_name_zh": "鰂魚涌東街",
+          "previous_street_name_en": "East Street",
+          "is_declaration_event": true
+        }
+      ]
+    },
+    {
+      "english_name": "QUARRY BAY WEST STREET",
+      "chinese_name": "鰂魚涌西街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "West Street",
+          "gazette_notice_label": "Government Notification No. 315",
+          "government_notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "street_name_zh": "西街",
+          "submitter_remarks": "Former name attested in G.N.315 rename notice; separate naming date not recorded on file.",
+          "submission_id": "1959-gn315-quarry-bay-west-former"
+        },
+        {
+          "change_kind": "rename",
+          "street_name_en": "Quarry Bay West Street",
+          "gazette_notice_label": "Government Notification No. 315",
+          "government_notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-02-27",
+          "street_name_zh": "鰂魚涌西街",
+          "previous_street_name_en": "West Street",
+          "is_declaration_event": true
+        }
+      ]
+    },
+    {
+      "english_name": "SAI CHEUNG STREET",
+      "chinese_name": "西祥街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Beach Street",
+          "gazette_notice_label": "Government Notification No. 315",
+          "government_notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "street_name_zh": "必治街",
+          "submitter_remarks": "Former name attested in G.N.315 rename notice; separate naming date not recorded on file.",
+          "submission_id": "1959-gn315-sai-cheung-former"
+        },
+        {
+          "change_kind": "rename",
+          "street_name_en": "Sai Cheung Street",
+          "gazette_notice_label": "Government Notification No. 315",
+          "government_notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-02-27",
+          "street_name_zh": "西祥街",
+          "previous_street_name_en": "Beach Street",
+          "is_declaration_event": true
+        }
+      ],
+      "link_street_code": "11832"
+    },
+    {
+      "english_name": "MIU TUNG STREET",
+      "chinese_name": "廟東街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Temple Street",
+          "gazette_notice_label": "Government Notification No. 315",
+          "government_notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "street_name_zh": "廟街",
+          "submitter_remarks": "Former name attested in G.N.315 rename notice; separate naming date not recorded on file.",
+          "submission_id": "1959-gn315-miu-tung-former"
+        },
+        {
+          "change_kind": "rename",
+          "street_name_en": "Miu Tung Street",
+          "gazette_notice_label": "Government Notification No. 315",
+          "government_notice_url_en": "/egazette/en/1959-gn315.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-02-27",
+          "street_name_zh": "廟東街",
+          "previous_street_name_en": "Temple Street",
+          "is_declaration_event": true
+        }
+      ],
+      "link_street_code": "11447"
+    }
+  ],
+  "evidence_schema_version": 1
+}

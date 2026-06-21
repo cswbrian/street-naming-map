@@ -1,21 +1,45 @@
 {
-  "generated_at": "2026-06-17T14:58:01.350Z",
+  "generated_at": "2026-06-21T07:04:27.009Z",
   "source_files": {
     "events": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-events.json",
     "centreline_map": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-centreline-map.json"
   },
   "totals": {
-    "master_events": 977,
-    "mapped_event_ids": 669,
-    "unmapped_events": 308,
+    "master_events": 1083,
+    "mapped_event_ids": 766,
+    "unmapped_events": 318,
     "by_source": {
-      "hkgro": 2,
+      "hkgro": 16,
       "egazette_pdf": 164,
-      "crowdsubmitted": 25,
+      "crowdsubmitted": 21,
       "landsd": 117
     }
   },
   "events": [
+    {
+      "event_id": "crowd|1959-gn315-quarry-bay-east-former",
+      "source": "hkgro",
+      "publication_date": "",
+      "change_kind": "declare",
+      "street_name_en": "East Street",
+      "street_name_zh": "東街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN315",
+      "name_key": "East Street|東街"
+    },
+    {
+      "event_id": "crowd|1959-gn315-quarry-bay-west-former",
+      "source": "hkgro",
+      "publication_date": "",
+      "change_kind": "declare",
+      "street_name_en": "West Street",
+      "street_name_zh": "西街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN315",
+      "name_key": "West Street|西街"
+    },
     {
       "event_id": "crowd|1904-gn59-victoria-road-renames-park-view-1904-01-29",
       "source": "hkgro",
@@ -77,8 +101,20 @@
       "name_key": "Lung Shan Road|龍山道"
     },
     {
-      "event_id": "crowd|2019-gn3586-tier-c-1-1958-07-11",
-      "source": "crowdsubmitted",
+      "event_id": "crowd|1958-gn865-major-streets-Murray-Place-美利台-1958-06-27",
+      "source": "hkgro",
+      "publication_date": "1958-06-27",
+      "change_kind": "declare",
+      "street_name_en": "Murray Place",
+      "street_name_zh": "美利台",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN865",
+      "name_key": "Murray Place|美利台"
+    },
+    {
+      "event_id": "crowd|1958-gn939-church-lane-Church-Lane-教堂里-1958-07-11",
+      "source": "hkgro",
       "publication_date": "1958-07-11",
       "change_kind": "declare",
       "street_name_en": "Church Lane",
@@ -89,8 +125,92 @@
       "name_key": "Church Lane|教堂里"
     },
     {
-      "event_id": "crowd|2019-gn6067-tier-c-1-1959-12-11",
-      "source": "crowdsubmitted",
+      "event_id": "crowd|1958-gn1068-wan-on-cluster-Wan-Fat-Street-環發街-1958-08-08",
+      "source": "hkgro",
+      "publication_date": "1958-08-08",
+      "change_kind": "declare",
+      "street_name_en": "Wan Fat Street",
+      "street_name_zh": "環發街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1068",
+      "name_key": "Wan Fat Street|環發街"
+    },
+    {
+      "event_id": "crowd|1958-gn1068-wan-on-cluster-Wan-Hing-Street-環興街-1958-08-08",
+      "source": "hkgro",
+      "publication_date": "1958-08-08",
+      "change_kind": "declare",
+      "street_name_en": "Wan Hing Street",
+      "street_name_zh": "環興街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1068",
+      "name_key": "Wan Hing Street|環興街"
+    },
+    {
+      "event_id": "crowd|1958-gn1068-wan-on-cluster-Wan-Lok-Street-環樂街-1958-08-08",
+      "source": "hkgro",
+      "publication_date": "1958-08-08",
+      "change_kind": "declare",
+      "street_name_en": "Wan Lok Street",
+      "street_name_zh": "環樂街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1068",
+      "name_key": "Wan Lok Street|環樂街"
+    },
+    {
+      "event_id": "crowd|1958-gn1068-wan-on-cluster-Wan-Tat-Street-環達街-1958-08-08",
+      "source": "hkgro",
+      "publication_date": "1958-08-08",
+      "change_kind": "declare",
+      "street_name_en": "Wan Tat Street",
+      "street_name_zh": "環達街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1068",
+      "name_key": "Wan Tat Street|環達街"
+    },
+    {
+      "event_id": "crowd|1959-gn315-urban-council-renames-Quarry-Bay-East-Street-鰂魚涌東街-1959-02-27",
+      "source": "hkgro",
+      "publication_date": "1959-02-27",
+      "change_kind": "rename",
+      "street_name_en": "Quarry Bay East Street",
+      "street_name_zh": "鰂魚涌東街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN315",
+      "name_key": "Quarry Bay East Street|鰂魚涌東街"
+    },
+    {
+      "event_id": "crowd|1959-gn315-urban-council-renames-Quarry-Bay-West-Street-鰂魚涌西街-1959-02-27",
+      "source": "hkgro",
+      "publication_date": "1959-02-27",
+      "change_kind": "rename",
+      "street_name_en": "Quarry Bay West Street",
+      "street_name_zh": "鰂魚涌西街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN315",
+      "name_key": "Quarry Bay West Street|鰂魚涌西街"
+    },
+    {
+      "event_id": "crowd|1959-gn1743-wan-streets-Wan-Fuk-Street-環福街-1959-12-11",
+      "source": "hkgro",
+      "publication_date": "1959-12-11",
+      "change_kind": "declare",
+      "street_name_en": "Wan Fuk Street",
+      "street_name_zh": "環福街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1743",
+      "name_key": "Wan Fuk Street|環福街"
+    },
+    {
+      "event_id": "crowd|1959-gn1743-wan-streets-Wan-King-Street-環景街-1959-12-11",
+      "source": "hkgro",
       "publication_date": "1959-12-11",
       "change_kind": "declare",
       "street_name_en": "Wan King Street",
@@ -101,8 +221,8 @@
       "name_key": "Wan King Street|環景街"
     },
     {
-      "event_id": "crowd|2019-gn6067-tier-c-WanLeiStreet--1959-12-11",
-      "source": "crowdsubmitted",
+      "event_id": "crowd|1959-gn1743-wan-streets-Wan-Lei-Street-環利街-1959-12-11",
+      "source": "hkgro",
       "publication_date": "1959-12-11",
       "change_kind": "declare",
       "street_name_en": "Wan Lei Street",
@@ -113,8 +233,8 @@
       "name_key": "Wan Lei Street|環利街"
     },
     {
-      "event_id": "crowd|2019-gn6067-tier-c-WanShunStreet--1959-12-11",
-      "source": "crowdsubmitted",
+      "event_id": "crowd|1959-gn1743-wan-streets-Wan-Shun-Street-環順街-1959-12-11",
+      "source": "hkgro",
       "publication_date": "1959-12-11",
       "change_kind": "declare",
       "street_name_en": "Wan Shun Street",

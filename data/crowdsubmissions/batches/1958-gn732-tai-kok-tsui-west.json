@@ -1,0 +1,84 @@
+{
+  "batch_id": "1958-gn732-tai-kok-tsui-west",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 732",
+  "publication_date": "1958-05-30",
+  "gazette_url_en": "/egazette/en/1958-gn732.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1958-gn732-tai-kok-tsui-west/1958-gn732.pdf",
+  "streets": [
+    {
+      "english_name": "WAI ON STREET",
+      "chinese_name": "惠安街",
+      "history": [
+        {
+          "publication_date": "1958-05-30",
+          "change_kind": "declare",
+          "street_name_en": "Wai On Street",
+          "gazette_notice_label": "Government Notification No. 732",
+          "government_notice_url_en": "/egazette/en/1958-gn732.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "惠安街"
+        }
+      ],
+      "link_street_code": "12608"
+    },
+    {
+      "english_name": "FUK LEE STREET",
+      "chinese_name": "福利街",
+      "history": [
+        {
+          "publication_date": "1958-05-30",
+          "change_kind": "declare",
+          "street_name_en": "Fuk Lee Street",
+          "gazette_notice_label": "Government Notification No. 732",
+          "government_notice_url_en": "/egazette/en/1958-gn732.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "福利街"
+        }
+      ],
+      "link_street_code": "10549"
+    },
+    {
+      "english_name": "MAN ON STREET",
+      "chinese_name": "萬安街",
+      "history": [
+        {
+          "publication_date": "1958-05-30",
+          "change_kind": "declare",
+          "street_name_en": "Man On Street",
+          "gazette_notice_label": "Government Notification No. 732",
+          "government_notice_url_en": "/egazette/en/1958-gn732.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "萬安街"
+        }
+      ],
+      "link_street_code": "11379"
+    },
+    {
+      "english_name": "LOK KWAN STREET",
+      "chinese_name": "樂群街",
+      "history": [
+        {
+          "publication_date": "1958-05-30",
+          "change_kind": "declare",
+          "street_name_en": "Lok Kwan Street",
+          "gazette_notice_label": "Government Notification No. 732",
+          "government_notice_url_en": "/egazette/en/1958-gn732.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "樂群街"
+        }
+      ],
+      "link_street_code": "11257"
+    }
+  ],
+  "evidence_schema_version": 1
+}

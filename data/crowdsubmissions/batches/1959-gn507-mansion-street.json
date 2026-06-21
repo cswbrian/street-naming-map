@@ -1,0 +1,30 @@
+{
+  "batch_id": "1959-gn507-mansion-street",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 507",
+  "publication_date": "1959-04-10",
+  "gazette_url_en": "/egazette/en/1959-gn507.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1959-gn507-mansion-street/1959-gn507.pdf",
+  "streets": [
+    {
+      "english_name": "MANSION STREET",
+      "chinese_name": "民新街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Mansion Street",
+          "gazette_notice_label": "Government Notification No. 507",
+          "government_notice_url_en": "/egazette/en/1959-gn507.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-04-10",
+          "street_name_zh": "民新街"
+        }
+      ],
+      "link_street_code": "11394"
+    }
+  ],
+  "evidence_schema_version": 1
+}

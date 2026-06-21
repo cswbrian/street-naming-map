@@ -1,0 +1,30 @@
+{
+  "batch_id": "1959-gn245-harlech-road",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 245",
+  "publication_date": "1959-02-13",
+  "gazette_url_en": "/egazette/en/1959-gn245.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1959-gn245-harlech-road/1959-gn245.pdf",
+  "streets": [
+    {
+      "english_name": "HARLECH ROAD",
+      "chinese_name": "夏力道",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Harlech Road",
+          "gazette_notice_label": "Government Notification No. 245",
+          "government_notice_url_en": "/egazette/en/1959-gn245.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-02-13",
+          "street_name_zh": "夏力道"
+        }
+      ],
+      "link_street_code": "10664"
+    }
+  ],
+  "evidence_schema_version": 1
+}

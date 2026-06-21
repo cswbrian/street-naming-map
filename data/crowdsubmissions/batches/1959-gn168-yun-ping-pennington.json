@@ -1,0 +1,48 @@
+{
+  "batch_id": "1959-gn168-yun-ping-pennington",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 168",
+  "publication_date": "1959-01-30",
+  "gazette_url_en": "/egazette/en/1959-gn168.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1959-gn168-yun-ping-pennington/1959-gn168.pdf",
+  "streets": [
+    {
+      "english_name": "YUN PING ROAD",
+      "chinese_name": "恩平道",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Yun Ping Road",
+          "gazette_notice_label": "Government Notification No. 168",
+          "government_notice_url_en": "/egazette/en/1959-gn168.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-01-30",
+          "street_name_zh": "恩平道"
+        }
+      ],
+      "link_street_code": "12945"
+    },
+    {
+      "english_name": "PENNINGTON STREET",
+      "chinese_name": "邊寧頓街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Pennington Street",
+          "gazette_notice_label": "Government Notification No. 168",
+          "government_notice_url_en": "/egazette/en/1959-gn168.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-01-30",
+          "street_name_zh": "邊寧頓街"
+        }
+      ],
+      "link_street_code": "11680"
+    }
+  ],
+  "evidence_schema_version": 1
+}

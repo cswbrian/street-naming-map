@@ -1,0 +1,48 @@
+{
+  "batch_id": "1958-gn1285-ka-wai-man-san-ma-tau",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 1285",
+  "publication_date": "1958-09-19",
+  "gazette_url_en": "/egazette/en/1958-gn1285.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1958-gn1285-ka-wai-man-san-ma-tau/1958-gn1285.pdf",
+  "streets": [
+    {
+      "english_name": "KA WAI MAN ROAD",
+      "chinese_name": "加惠民道",
+      "history": [
+        {
+          "publication_date": "1958-09-19",
+          "change_kind": "declare",
+          "street_name_en": "Ka Wai Man Road",
+          "gazette_notice_label": "Government Notification No. 1285",
+          "government_notice_url_en": "/egazette/en/1958-gn1285.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "加惠民道"
+        }
+      ],
+      "link_street_code": "10920"
+    },
+    {
+      "english_name": "SAN MA TAU STREET",
+      "chinese_name": "新碼頭街",
+      "history": [
+        {
+          "publication_date": "1958-09-19",
+          "change_kind": "declare",
+          "street_name_en": "San Ma Tau Street",
+          "gazette_notice_label": "Government Notification No. 1285",
+          "government_notice_url_en": "/egazette/en/1958-gn1285.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "新碼頭街"
+        }
+      ],
+      "link_street_code": "11901"
+    }
+  ],
+  "evidence_schema_version": 1
+}

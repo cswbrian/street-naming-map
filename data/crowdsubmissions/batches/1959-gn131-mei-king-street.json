@@ -1,0 +1,30 @@
+{
+  "batch_id": "1959-gn131-mei-king-street",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 131",
+  "publication_date": "1959-01-23",
+  "gazette_url_en": "/egazette/en/1959-gn131.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1959-gn131-mei-king-street/1959-gn131.pdf",
+  "streets": [
+    {
+      "english_name": "MEI KING STREET",
+      "chinese_name": "美景街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Mei King Street",
+          "gazette_notice_label": "Government Notification No. 131",
+          "government_notice_url_en": "/egazette/en/1959-gn131.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1959-01-23",
+          "street_name_zh": "美景街"
+        }
+      ],
+      "link_street_code": "11411"
+    }
+  ],
+  "evidence_schema_version": 1
+}

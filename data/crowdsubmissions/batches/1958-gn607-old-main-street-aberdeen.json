@@ -1,0 +1,44 @@
+{
+  "batch_id": "1958-gn607-old-main-street-aberdeen",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 607",
+  "publication_date": "1958-05-02",
+  "gazette_url_en": "/egazette/en/1958-gn607.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1958-gn607-old-main-street-aberdeen/1958-gn607.pdf",
+  "streets": [
+    {
+      "english_name": "OLD MAIN STREET, ABERDEEN",
+      "chinese_name": "香港仔舊大街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Old Main Street",
+          "gazette_notice_label": "Government Notification No. 607",
+          "government_notice_url_en": "/egazette/en/1958-gn607.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "street_name_zh": "舊大街",
+          "submitter_remarks": "Former name attested in G.N.607 rename notice; separate naming date not recorded on file.",
+          "submission_id": "1958-gn607-old-main-street-aberdeen-11568-former"
+        },
+        {
+          "publication_date": "1958-05-02",
+          "change_kind": "rename",
+          "street_name_en": "Old Main Street, Aberdeen",
+          "gazette_notice_label": "Government Notification No. 607",
+          "government_notice_url_en": "/egazette/en/1958-gn607.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "香港仔舊大街",
+          "previous_street_name_en": "Old Main Street",
+          "is_declaration_event": true
+        }
+      ],
+      "link_street_code": "11568"
+    }
+  ],
+  "evidence_schema_version": 1
+}

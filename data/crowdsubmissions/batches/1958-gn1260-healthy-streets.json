@@ -1,0 +1,48 @@
+{
+  "batch_id": "1958-gn1260-healthy-streets",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 1260",
+  "publication_date": "1958-09-12",
+  "gazette_url_en": "/egazette/en/1958-gn1260.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1958-gn1260-healthy-streets/1958-gn1260.pdf",
+  "streets": [
+    {
+      "english_name": "HEALTHY STREET WEST",
+      "chinese_name": "健康西街",
+      "history": [
+        {
+          "publication_date": "1958-09-12",
+          "change_kind": "declare",
+          "street_name_en": "Healthy Street West",
+          "gazette_notice_label": "Government Notification No. 1260",
+          "government_notice_url_en": "/egazette/en/1958-gn1260.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "健康西街"
+        }
+      ],
+      "link_street_code": "10681"
+    },
+    {
+      "english_name": "HEALTHY STREET EAST",
+      "chinese_name": "健康東街",
+      "history": [
+        {
+          "publication_date": "1958-09-12",
+          "change_kind": "declare",
+          "street_name_en": "Healthy Street East",
+          "gazette_notice_label": "Government Notification No. 1260",
+          "government_notice_url_en": "/egazette/en/1958-gn1260.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "健康東街"
+        }
+      ],
+      "link_street_code": "10680"
+    }
+  ],
+  "evidence_schema_version": 1
+}
