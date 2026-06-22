@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-22T15:40:57.395Z",
+  "generated_at": "2026-06-22T17:08:45.439Z",
   "source_files": {
     "events": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-events.json",
     "centreline_map": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-centreline-map.json"
   },
   "totals": {
     "master_events": 1448,
-    "mapped_event_ids": 1135,
-    "unmapped_events": 338,
+    "mapped_event_ids": 1137,
+    "unmapped_events": 337,
     "by_source": {
       "hkgro": 18,
       "crowdsubmitted": 39,
-      "egazette_pdf": 164,
+      "egazette_pdf": 163,
       "landsd": 117
     }
   },
@@ -63,18 +63,6 @@
       "district_raw_zh": null,
       "notice_no": "GN59",
       "name_key": "Park View|"
-    },
-    {
-      "event_id": "1927-11-25|GN4780|0",
-      "source": "egazette_pdf",
-      "publication_date": "1927-11-25",
-      "change_kind": "declare",
-      "street_name_en": "Cheung Sha Wan Road",
-      "street_name_zh": null,
-      "district_raw_en": "Sham Shui Po and Yau Tsim Mong",
-      "district_raw_zh": null,
-      "notice_no": "GN4780",
-      "name_key": "Cheung Sha Wan Road|"
     },
     {
       "event_id": "crowd|2017-gn3555-tier-c-1-1957-10-11",

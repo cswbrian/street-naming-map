@@ -3,6 +3,7 @@ import { useSearchParams } from 'react-router-dom'
 import { useLocale } from '../i18n/LocaleContext'
 import { getPeriodLabel, getRoadTypeLabel, PERIOD_GROUP_DEFS } from '../i18n/translations'
 import ContributeActionIcon from './ContributeActionIcon.jsx'
+import NamingYearPeriodsPanel from './NamingYearPeriodsPanel.jsx'
 import { buildSingleStreetFormUrl } from '../lib/contributeForm.js'
 import { trackContributeOpen, trackNamesFilter, trackNoticeOpen } from '../lib/analytics.js'
 import { getNoticeLink } from '../lib/governmentNotice.js'
@@ -322,24 +323,13 @@ function PendingDashboard({ onOpenRoadOnMap }) {
               </div>
             </section>
 
-            <section className="pending-stats-section pending-stats-section--periods">
-              <h2 className="pending-stats-title">{t('periodStatsTitle')}</h2>
-              <p className="pending-stats-hint">{t('periodStatsHint')}</p>
-              <div className="pending-stats-grid">
-                {periodStats.map((item) => (
-                  <button
-                    type="button"
-                    key={`period-${item.id}`}
-                    className={`pending-stat-card ${periodFilter === item.id ? 'is-active' : ''}`}
-                    onClick={() => handlePeriodFilterChange(item.id)}
-                    aria-pressed={periodFilter === item.id}
-                  >
-                    <h3>{item.label}</h3>
-                    <strong>{formatNumber(locale, item.count)}</strong>
-                  </button>
-                ))}
-              </div>
-            </section>
+            <NamingYearPeriodsPanel
+              locale={locale}
+              t={t}
+              periodStats={periodStats}
+              periodFilter={periodFilter}
+              onPeriodFilterChange={handlePeriodFilterChange}
+            />
 
             <div className="pending-filter-row">
               <div className="pending-filter-group pending-filter-group--list" role="group" aria-label={t('filterAll')}>

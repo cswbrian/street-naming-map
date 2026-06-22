@@ -11,8 +11,9 @@ function TimelinesPage() {
   const navigate = useNavigate()
   const mapPath = useLocalePath()
 
-  const openRoadOnMap = ({ englishName, chineseName, namingYear }) => {
+  const openRoadOnMap = ({ englishName, chineseName, streetCode, namingYear }) => {
     const year = Number(namingYear)
+    const code = String(streetCode ?? '').trim()
     trackSelectRoad({
       method: 'timelines_table',
       hasYear: Number.isFinite(year) && year > 0,
@@ -21,7 +22,7 @@ function TimelinesPage() {
       chineseName,
     })
     const params = buildRoadSearchParams({
-      roadKey: buildRoadKey(englishName, chineseName),
+      roadKey: code ? buildRoadKey(null, null, code) : buildRoadKey(englishName, chineseName),
       year,
     })
     navigate({ pathname: mapPath, search: params.toString() })

@@ -20,6 +20,8 @@ Identity on the map comes from [`public/data/hk-streets.geojson`](public/data/hk
 
 **Map year vs naming date:** Centerline labels, timeline slider, and road fade use **`map_year`** (built-first, else canonical naming year). The road chip 舊稱 timeline and verified/pending split use **`naming_year`** / `canonical_naming_date` (current-name events only).
 
+**UI event-type labels** (Declare, Rename, Earliest mention, …) are derived from `change_kind` + `event_role` + evidence — see [event-model.md](../skills/event-model.md) § UI timeline labels.
+
 ## Pipeline vs evidence
 
 | Field | Role |

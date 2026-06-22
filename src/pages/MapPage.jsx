@@ -31,7 +31,7 @@ import {
 import { buildNoticeLookup, getNoticeLink, resolveNoticeLink } from '../lib/governmentNotice.js'
 import { getNamingDisplay, hasRowNamingDate } from '../lib/namingDisplay.js'
 import { getEvidenceKindBadge, resolveDisplayEvidenceKind } from '../lib/evidenceKindBadge.js'
-import { buildNameHistoryTimelineItems, buildNamingRemarks } from '../lib/nameHistory.js'
+import { buildStreetTimelineItems, buildTimelineEventLabels, buildNamingRemarks } from '../lib/nameHistory.js'
 import { buildPendingRoadLookup, resolvePendingRoadRow } from '../lib/pendingRoadLookup.js'
 import { getDefaultMapPanelCollapse } from '../lib/mapViewport.js'
 import { buildRoadKey, hasStreetName, normalizeRoadName, parseRoadKey } from '../lib/roadKey'
@@ -236,30 +236,11 @@ function MapPage() {
     const evidenceKind = resolveDisplayEvidenceKind(pendingRow?.naming_details)
     const evidenceBadgeKey = evidenceKind ? getEvidenceKindBadge(evidenceKind, t) : null
     const isNamingPending = !hasRowNamingDate(rowForDisplay)
-    const nameHistory = buildNameHistoryTimelineItems(
-      pendingRow?.naming_details,
+    const timelineLabels = buildTimelineEventLabels(t)
+    const nameHistory = buildStreetTimelineItems(
+      pendingRow?.naming_details?.name_history,
       locale,
-      {
-        historyGazettePending: t('historyGazettePending'),
-        historyGazetteInferred: t('historyGazetteInferred'),
-        evidenceNews: t('evidenceNews'),
-        evidenceHearsay: t('evidenceHearsay'),
-        evidenceLegalOther: t('evidenceLegalOther'),
-        evidenceResearch: t('evidenceResearch'),
-        eventRoleBuilt: t('eventRoleBuilt'),
-        eventRoleNameRemoved: t('eventRoleNameRemoved'),
-        eventRoleCurrentName: t('eventRoleCurrentName'),
-        eventRoleFormerName: t('eventRoleFormerName'),
-        eventTypeRename: t('eventTypeRename'),
-        eventTypeFormerName: t('eventTypeFormerName'),
-        eventTypeCurrentName: t('eventTypeCurrentName'),
-        eventTypeEarliestMention: t('eventTypeEarliestMention'),
-        eventTypeNamingPending: t('eventTypeNamingPending'),
-        eventTypeRenamePending: t('eventTypeRenamePending'),
-        eventTypeExtend: t('eventTypeExtend'),
-        eventTypeBuilt: t('eventTypeBuilt'),
-        eventTypeNameRemoved: t('eventTypeNameRemoved'),
-      },
+      timelineLabels,
       displayNames,
       {
         pendingDisplay: isNamingPending

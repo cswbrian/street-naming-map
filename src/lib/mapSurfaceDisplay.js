@@ -1,18 +1,5 @@
 import { formatNamingDate } from './namingDisplay.js'
-import { normalizeEvidenceKindForUi } from './evidenceKindBadge.js'
-
-export const MENTION_EVIDENCE_KINDS = new Set([
-  'gazette_mention',
-  'legal_mention',
-  'news_mention',
-  'research_mention',
-])
-
-/** @param {string | null | undefined} kind */
-export function isMentionEvidenceKind(kind) {
-  const normalized = normalizeEvidenceKindForUi(kind)
-  return normalized ? MENTION_EVIDENCE_KINDS.has(normalized) : false
-}
+import { isMentionEvidenceKind, normalizeEvidenceKindForUi } from './evidenceKindBadge.js'
 
 /** Evidence kind of the event that drives map_display_date. */
 export function resolveMapDisplayEvidenceKind(namingDetails) {
@@ -57,41 +44,60 @@ export function getMapSurfaceDateDisplay(row, t) {
   return `${formatted}${suffix}`
 }
 
-/**
- * @param {Record<string, unknown> | null | undefined} entry
- * @param {Record<string, string>} labels
- * @param {unknown[] | null | undefined} ordered
- */
-export function getMapSurfaceEventTypeLabel(entry, labels, ordered = []) {
+/** Stable id for timeline event-type filters (locale-independent). */
+export function getTimelineEventTypeKey(entry, ordered = []) {
   if (!entry) return null
 
   const role = String(entry.event_role ?? '').trim()
   const kind = String(entry.change_kind ?? '').trim()
   const evidenceKind = String(entry.evidence_kind ?? '').trim()
 
-  if (role === 'built') return labels.eventTypeBuilt ?? labels.eventRoleBuilt ?? null
-  if (role === 'name_removed') return labels.eventTypeNameRemoved ?? labels.eventRoleNameRemoved ?? null
-  if (kind === 'extend') return labels.eventTypeExtend ?? null
+  if (role === 'built') return 'built'
+  if (role === 'name_removed') return 'name_removed'
+  if (kind === 'extend') return 'extend'
 
   if (isMentionEvidenceKind(evidenceKind)) {
-    return labels.eventTypeEarliestMention ?? null
-  }
-
-  if (role === 'current_name' && entry.is_declaration_event === false) {
-    if (kind === 'rename') return labels.eventTypeRenamePending ?? labels.eventTypeRename ?? null
-    if (kind === 'declare' || kind === 'rename') {
-      return labels.eventTypeNamingPending ?? labels.eventTypeCurrentName ?? null
-    }
+    return 'earliest_mention'
   }
 
   if (role === 'current_name') {
     const hasOther = ordered.some((other) => other !== entry)
-    if (kind === 'rename' && hasOther) return labels.eventTypeRename ?? null
-    return labels.eventTypeCurrentName ?? labels.eventRoleCurrentName ?? null
+    if (kind === 'rename' && hasOther) return 'rename'
+    return 'declare'
   }
 
-  if (role === 'former_name') return labels.eventTypeFormerName ?? labels.eventRoleFormerName ?? null
-  if (kind === 'rename') return labels.eventTypeRename ?? null
+  if (role === 'former_name') return 'former_name'
+  if (kind === 'rename') return 'rename'
 
-  return labels.eventTypeFormerName ?? labels.eventRoleFormerName ?? null
+  return 'former_name'
+}
+
+export const TIMELINE_EVENT_TYPE_FILTER_ORDER = [
+  'declare',
+  'rename',
+  'former_name',
+  'earliest_mention',
+  'built',
+  'extend',
+  'name_removed',
+]
+
+/** UI label for a timeline event-type filter key. */
+export function getEventTypeLabelForKey(key, labels) {
+  if (!key || !labels) return null
+  const byKey = {
+    built: labels.eventTypeBuilt,
+    name_removed: labels.eventTypeNameRemoved,
+    extend: labels.eventTypeExtend,
+    earliest_mention: labels.eventTypeEarliestMention,
+    rename: labels.eventTypeRename,
+    declare: labels.eventTypeDeclare,
+    former_name: labels.eventTypeFormerName,
+  }
+  return byKey[key] ?? null
+}
+
+/** Localized timeline event-type pill from a name_history row. */
+export function getTimelineEventTypeLabel(entry, labels, ordered = []) {
+  return getEventTypeLabelForKey(getTimelineEventTypeKey(entry, ordered), labels)
 }

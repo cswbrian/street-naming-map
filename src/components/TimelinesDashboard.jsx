@@ -1,31 +1,33 @@
-import { Fragment, useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useLocale } from '../i18n/LocaleContext'
+import { getPeriodLabel, PERIOD_GROUP_DEFS } from '../i18n/translations'
 import { loadStreetTimelines } from '../lib/loadStreetTimelines.js'
-import { formatNamingDate } from '../lib/namingDisplay.js'
-
-const STATUS_ORDER = ['active', 'unlinked', 'abolished', 'disputed', 'legacy_event_code']
+import {
+  getLatestHistoryDate,
+  buildStreetTimelineItems,
+  buildTimelineEventLabels,
+  buildTimelineRowSearchHaystack,
+  buildTimelineSearchLabelSets,
+  buildTimelineEventTypeFilterStats,
+  timelineRowMatchesEventType,
+} from '../lib/nameHistory.js'
+import { buildTimelinePeriodCounts, timelineRowMatchesPeriod } from '../lib/timelinePeriodFilter.js'
+import { trackNamesFilter } from '../lib/analytics.js'
+import NamingYearPeriodsPanel from './NamingYearPeriodsPanel.jsx'
+import StreetEventTimeline from './StreetEventTimeline.jsx'
 
 const formatNumber = (locale, value) =>
   new Intl.NumberFormat(locale === 'zh' ? 'zh-HK' : 'en-US').format(Number(value) || 0)
-
-function buildSearchHaystack(row) {
-  return [
-    row.timeline_id,
-    row.street_code,
-    row.street_name_en,
-    row.street_name_zh,
-    row.geometry_link?.status,
-    row.geometry_link?.district_hint,
-  ]
-    .filter(Boolean)
-    .join(' ')
-    .toLowerCase()
-}
 
 function statusLabel(status, t) {
   const key = `timelinesStatus_${status}`
   const translated = t(key)
   return translated === key ? status : translated
+}
+
+function sortIndicator(sortConfig, key) {
+  if (sortConfig.key !== key) return ''
+  return sortConfig.direction === 'asc' ? ' ▲' : ' ▼'
 }
 
 function TimelinesDashboard({ onOpenRoadOnMap }) {
@@ -34,8 +36,9 @@ function TimelinesDashboard({ onOpenRoadOnMap }) {
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState('')
   const [searchText, setSearchText] = useState('')
-  const [statusFilter, setStatusFilter] = useState(null)
-  const [expandedId, setExpandedId] = useState(null)
+  const [periodFilter, setPeriodFilter] = useState(null)
+  const [eventTypeFilter, setEventTypeFilter] = useState(null)
+  const [expandedEventKey, setExpandedEventKey] = useState(null)
   const [sortConfig, setSortConfig] = useState({ key: 'street', direction: 'asc' })
 
   useEffect(() => {
@@ -57,46 +60,75 @@ function TimelinesDashboard({ onOpenRoadOnMap }) {
     }
   }, [])
 
+  const timelineLabels = useMemo(() => buildTimelineEventLabels(t), [t])
+  const searchLabelSets = useMemo(() => buildTimelineSearchLabelSets(), [])
+
   const rows = useMemo(
     () => (Array.isArray(report?.timelines) ? report.timelines : []),
     [report],
   )
 
-  const statusStats = useMemo(() => {
-    const counts = new Map()
-    rows.forEach((row) => {
-      const status = row.geometry_link?.status ?? 'unlinked'
-      counts.set(status, (counts.get(status) ?? 0) + 1)
-    })
-    return STATUS_ORDER.filter((id) => (counts.get(id) ?? 0) > 0).map((id) => ({
-      id,
-      count: counts.get(id) ?? 0,
-      label: statusLabel(id, t),
+  const periodStats = useMemo(() => {
+    const counts = buildTimelinePeriodCounts(rows)
+    return PERIOD_GROUP_DEFS.map((group) => ({
+      id: group.id,
+      label: getPeriodLabel(group, locale),
+      count: counts.get(group.id) ?? 0,
     }))
-  }, [rows, t])
+  }, [locale, rows])
+
+  const handlePeriodFilterChange = useCallback((periodId) => {
+    setPeriodFilter((prev) => {
+      const next = prev === periodId ? null : periodId
+      trackNamesFilter('period', periodId, next !== null)
+      return next
+    })
+  }, [])
+
+  const rowsAfterPeriod = useMemo(() => {
+    if (!periodFilter) return rows
+    return rows.filter((row) => timelineRowMatchesPeriod(row, periodFilter))
+  }, [rows, periodFilter])
+
+  const eventTypeFilterOptions = useMemo(
+    () => buildTimelineEventTypeFilterStats(rowsAfterPeriod, timelineLabels),
+    [rowsAfterPeriod, timelineLabels],
+  )
+
+  const handleEventTypeFilterChange = useCallback((typeKey) => {
+    setEventTypeFilter((prev) => {
+      const next = prev === typeKey ? null : typeKey
+      trackNamesFilter('event_type', typeKey, next !== null)
+      return next
+    })
+  }, [])
+
+  useEffect(() => {
+    if (!eventTypeFilter) return
+    if (!eventTypeFilterOptions.some((option) => option.id === eventTypeFilter)) {
+      setEventTypeFilter(null)
+    }
+  }, [eventTypeFilter, eventTypeFilterOptions])
 
   const loweredQuery = searchText.trim().toLowerCase()
 
   const filteredRows = useMemo(() => {
-    let list = rows
-    if (statusFilter) {
-      list = list.filter((row) => (row.geometry_link?.status ?? 'unlinked') === statusFilter)
+    let list = rowsAfterPeriod
+    if (eventTypeFilter) {
+      list = list.filter((row) => timelineRowMatchesEventType(row, eventTypeFilter))
     }
     if (!loweredQuery) return list
-    return list.filter((row) => buildSearchHaystack(row).includes(loweredQuery))
-  }, [rows, statusFilter, loweredQuery])
+    return list.filter((row) => buildTimelineRowSearchHaystack(row, searchLabelSets).includes(loweredQuery))
+  }, [rowsAfterPeriod, eventTypeFilter, loweredQuery, searchLabelSets])
 
   const sortedRows = useMemo(() => {
     const sign = sortConfig.direction === 'asc' ? 1 : -1
     return [...filteredRows].toSorted((a, b) => {
       let aValue
       let bValue
-      if (sortConfig.key === 'year') {
-        aValue = Number(a.canonical_naming_year) || 0
-        bValue = Number(b.canonical_naming_year) || 0
-      } else if (sortConfig.key === 'events') {
-        aValue = Number(a.event_count) || 0
-        bValue = Number(b.event_count) || 0
+      if (sortConfig.key === 'timeline') {
+        aValue = getLatestHistoryDate(a.name_history) || a.canonical_naming_date || ''
+        bValue = getLatestHistoryDate(b.name_history) || b.canonical_naming_date || ''
       } else if (sortConfig.key === 'status') {
         aValue = String(a.geometry_link?.status ?? '')
         bValue = String(b.geometry_link?.status ?? '')
@@ -115,11 +147,13 @@ function TimelinesDashboard({ onOpenRoadOnMap }) {
       if (prev.key === key) {
         return { key, direction: prev.direction === 'asc' ? 'desc' : 'asc' }
       }
-      return { key, direction: key === 'year' ? 'desc' : 'asc' }
+      return { key, direction: key === 'timeline' ? 'desc' : 'asc' }
     })
   }
 
-  const totals = report?.totals
+  const handleToggleEvent = useCallback((eventKey) => {
+    setExpandedEventKey((prev) => (prev === eventKey ? null : eventKey))
+  }, [])
 
   return (
     <section className="pending-dashboard timelines-dashboard">
@@ -137,53 +171,15 @@ function TimelinesDashboard({ onOpenRoadOnMap }) {
 
       {!isLoading && !error && report ? (
         <div className="pending-dashboard-layout">
-          <aside className="pending-dashboard-aside" aria-label={t('timelinesFilterTitle')}>
-            <section className="pending-stats-section">
-              <h2 className="pending-stats-title">{t('timelinesTotalsTitle')}</h2>
-              <div className="pending-stats-grid">
-                <div className="pending-stat-card">
-                  <h3>{t('timelinesTotal')}</h3>
-                  <strong>{formatNumber(locale, totals?.timelines ?? rows.length)}</strong>
-                </div>
-                <div className="pending-stat-card">
-                  <h3>{t('timelinesOnMap')}</h3>
-                  <strong>{formatNumber(locale, totals?.linked_active ?? 0)}</strong>
-                </div>
-                <div className="pending-stat-card">
-                  <h3>{t('timelinesUnlinked')}</h3>
-                  <strong>{formatNumber(locale, totals?.unlinked ?? 0)}</strong>
-                </div>
-              </div>
-            </section>
-
-            <section className="pending-stats-section">
-              <h2 className="pending-stats-title">{t('timelinesFilterTitle')}</h2>
-              <div className="pending-filter-row">
-                <div className="pending-filter-group pending-filter-group--list" role="group">
-                  <button
-                    type="button"
-                    className={`pending-filter-btn ${!statusFilter ? 'is-active' : ''}`}
-                    onClick={() => setStatusFilter(null)}
-                    aria-pressed={!statusFilter}
-                  >
-                    {t('filterAll')}
-                    <span className="pending-filter-count">{formatNumber(locale, rows.length)}</span>
-                  </button>
-                  {statusStats.map((item) => (
-                    <button
-                      key={item.id}
-                      type="button"
-                      className={`pending-filter-btn ${statusFilter === item.id ? 'is-active' : ''}`}
-                      onClick={() => setStatusFilter((prev) => (prev === item.id ? null : item.id))}
-                      aria-pressed={statusFilter === item.id}
-                    >
-                      {item.label}
-                      <span className="pending-filter-count">{formatNumber(locale, item.count)}</span>
-                    </button>
-                  ))}
-                </div>
-              </div>
-            </section>
+          <aside className="pending-dashboard-aside" aria-label={t('periodStatsTitle')}>
+            <NamingYearPeriodsPanel
+              locale={locale}
+              t={t}
+              periodStats={periodStats}
+              periodFilter={periodFilter}
+              onPeriodFilterChange={handlePeriodFilterChange}
+              hintKey="timelinesPeriodStatsHint"
+            />
           </aside>
 
           <div className="pending-dashboard-main">
@@ -203,31 +199,56 @@ function TimelinesDashboard({ onOpenRoadOnMap }) {
               </span>
             </div>
 
+            {eventTypeFilterOptions.length ? (
+              <div
+                className="street-event-type-filters pending-filter-row"
+                role="group"
+                aria-label={t('timelinesEventTypeFilterTitle')}
+              >
+                <div className="pending-filter-group pending-filter-group--event-type">
+                  {eventTypeFilterOptions.map((option) => (
+                    <button
+                      key={option.id}
+                      type="button"
+                      className={`pending-filter-btn pending-filter-btn--event-type ${eventTypeFilter === option.id ? 'is-active' : ''}`}
+                      onClick={() => handleEventTypeFilterChange(option.id)}
+                      aria-pressed={eventTypeFilter === option.id}
+                    >
+                      {option.label}
+                      <span className="pending-filter-count">{formatNumber(locale, option.count)}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            ) : null}
+
             <div className="pending-table-wrap">
               <table className="pending-table timelines-table">
+                <colgroup>
+                  <col className="timelines-col-street" />
+                  <col className="timelines-col-status" />
+                  <col className="timelines-col-timeline" />
+                </colgroup>
                 <thead>
                   <tr>
                     <th>
                       <button type="button" className="pending-sort-header" onClick={() => toggleSort('street')}>
                         {t('colStreet')}
-                      </button>
-                    </th>
-                    <th>
-                      <button type="button" className="pending-sort-header" onClick={() => toggleSort('year')}>
-                        {t('colNaming')}
-                      </button>
-                    </th>
-                    <th>
-                      <button type="button" className="pending-sort-header" onClick={() => toggleSort('events')}>
-                        {t('timelinesColEvents')}
+                        <span>{sortIndicator(sortConfig, 'street')}</span>
                       </button>
                     </th>
                     <th>
                       <button type="button" className="pending-sort-header" onClick={() => toggleSort('status')}>
                         {t('colStatus')}
+                        <span>{sortIndicator(sortConfig, 'status')}</span>
                       </button>
                     </th>
-                    <th>{t('timelinesColActions')}</th>
+                    <th>
+                      <button type="button" className="pending-sort-header" onClick={() => toggleSort('timeline')}>
+                        {t('colNameHistory')}
+                        <span>{sortIndicator(sortConfig, 'timeline')}</span>
+                      </button>
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
@@ -239,79 +260,70 @@ function TimelinesDashboard({ onOpenRoadOnMap }) {
                       status === 'active' &&
                       row.street_code &&
                       typeof onOpenRoadOnMap === 'function'
-                    const isExpanded = expandedId === row.timeline_id
-                    return (
-                      <Fragment key={row.timeline_id}>
-                        <tr>
-                          <td>
-                            <div className="link-queue-street-cell">
-                              {nameZh ? <span className="link-queue-street-zh">{nameZh}</span> : null}
-                              {nameEn ? <span className="link-queue-street-en">{nameEn}</span> : null}
-                              {row.street_code ? (
-                                <span className="link-queue-district">{row.street_code}</span>
-                              ) : null}
-                            </div>
-                          </td>
-                          <td>
-                            {row.canonical_naming_date
-                              ? formatNamingDate(row.canonical_naming_date)
-                              : t('unknownYear')}
-                          </td>
-                          <td>{row.event_count ?? 0}</td>
-                          <td>
-                            <span className={`timelines-status-pill is-${status}`}>
-                              {statusLabel(status, t)}
-                            </span>
-                          </td>
-                          <td className="timelines-actions-cell">
-                            {canOpenMap ? (
-                              <button
-                                type="button"
-                                className="link-queue-copy-btn"
-                                onClick={() =>
-                                  onOpenRoadOnMap({
-                                    englishName: nameEn,
-                                    chineseName: nameZh,
-                                    namingYear: row.canonical_naming_year,
-                                  })
-                                }
-                              >
-                                {t('timelinesOpenMap')}
-                              </button>
-                            ) : null}
-                            {(row.name_history?.length ?? 0) > 0 ? (
-                              <button
-                                type="button"
-                                className="link-queue-copy-btn"
-                                onClick={() =>
-                                  setExpandedId((prev) =>
-                                    prev === row.timeline_id ? null : row.timeline_id,
-                                  )
-                                }
-                              >
-                                {isExpanded ? t('timelinesHideHistory') : t('timelinesShowHistory')}
-                              </button>
-                            ) : null}
-                          </td>
-                        </tr>
-                        {isExpanded ? (
-                          <tr key={`${row.timeline_id}-history`} className="timelines-history-row">
-                            <td colSpan={5}>
-                              <ol className="timelines-history-list">
-                                {(row.name_history ?? []).map((event, index) => (
-                                  <li key={`${row.timeline_id}-${index}`}>
-                                    <strong>{formatNamingDate(event.date)}</strong>
-                                    {' · '}
-                                    {event.name_zh || event.name_en || '—'}
-                                    {event.change_kind ? ` (${event.change_kind})` : ''}
-                                    {event.notice_label_en ? ` · ${event.notice_label_en}` : ''}
-                                  </li>
-                                ))}
-                              </ol>
-                            </td>
-                          </tr>
+                    const isLinked = status === 'active'
+                    const displayNames = { en: nameEn, zh: nameZh }
+                    const openOnMap = () =>
+                      onOpenRoadOnMap({
+                        englishName: nameEn,
+                        chineseName: nameZh,
+                        streetCode: row.street_code,
+                        namingYear: row.canonical_naming_year,
+                      })
+
+                    const streetCell = (
+                      <>
+                        {nameZh ? <span className="link-queue-street-zh">{nameZh}</span> : null}
+                        {nameEn ? <span className="link-queue-street-en">{nameEn}</span> : null}
+                        {!isLinked && row.street_code ? (
+                          <span className="link-queue-district">{row.street_code}</span>
                         ) : null}
-                      </Fragment>
+                        {!isLinked && !row.street_code && row.timeline_id ? (
+                          <span className="link-queue-district">{row.timeline_id}</span>
+                        ) : null}
+                      </>
+                    )
+
+                    const statusPillLabel = statusLabel(status, t)
+                    const statusPill = canOpenMap ? (
+                      <button
+                        type="button"
+                        className="timelines-status-map-link"
+                        onClick={openOnMap}
+                        aria-label={t('timelinesOpenMapStatus', {
+                          status: statusPillLabel,
+                          code: row.street_code,
+                          name: nameEn || nameZh,
+                        })}
+                      >
+                        {statusPillLabel} · {row.street_code}
+                      </button>
+                    ) : (
+                      <span className={`timelines-status-pill is-${status}`}>{statusPillLabel}</span>
+                    )
+
+                    return (
+                      <tr key={row.timeline_id}>
+                        <td>
+                          <div className="link-queue-street-cell">{streetCell}</div>
+                        </td>
+                        <td>
+                          <div className="timelines-status-cell">{statusPill}</div>
+                        </td>
+                        <td className="timelines-timeline-cell">
+                          <StreetEventTimeline
+                            items={buildStreetTimelineItems(row.name_history, locale, timelineLabels, displayNames, {
+                              idPrefix: row.timeline_id,
+                              t,
+                            })}
+                            variant="table"
+                            expandable
+                            locale={locale}
+                            t={t}
+                            expandedEventKey={expandedEventKey}
+                            onToggleEvent={handleToggleEvent}
+                          />
+                        </td>
+                      </tr>
                     )
                   })}
                 </tbody>

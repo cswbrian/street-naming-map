@@ -428,6 +428,7 @@ export function buildNameHistory(events) {
     supplementary_evidence: normalizeSupplementaryEvidence(event.supplementary_evidence),
     source: event.source ?? null,
     submitter_remarks: event.submitter_remarks ?? null,
+    gazette_location: normalizeGazetteLocation(event.gazette_location),
   }))
 }
 

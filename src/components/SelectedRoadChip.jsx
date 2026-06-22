@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react'
-import NameHistoryList from './NameHistoryList.jsx'
+import StreetEventTimeline from './StreetEventTimeline.jsx'
 import { trackContributeOpen, trackNoticeOpen, trackShareRoad } from '../lib/analytics.js'
 
 const isSafeUrl = (url) => typeof url === 'string' && /^https?:\/\//i.test(url)
@@ -28,7 +28,7 @@ const ShareIcon = () => (
   </svg>
 )
 
-function SelectedRoadChip({ selectedRoadInfo, labels, onClose }) {
+function SelectedRoadChip({ selectedRoadInfo, labels, locale, t, onClose }) {
   const [shareCopied, setShareCopied] = useState(false)
 
   const safeContributeUrl = isSafeUrl(selectedRoadInfo.contributeUrl) ? selectedRoadInfo.contributeUrl : null
@@ -113,8 +113,11 @@ function SelectedRoadChip({ selectedRoadInfo, labels, onClose }) {
 
         {showTimeline && (
           <section className="selected-road-chip-timeline" aria-label={labels.colNameHistory}>
-            <NameHistoryList
+            <StreetEventTimeline
               items={selectedRoadInfo.nameHistory}
+              variant="chip"
+              locale={locale}
+              t={t}
               onNoticeClick={handleNoticeClick}
             />
           </section>

@@ -29,8 +29,30 @@ Full field schema: [`docs/street-name-history-schema.md`](../docs/street-name-hi
 | 舊稱 | `declare` or `rename` | `former_name` | 舊稱 | Name does not match today’s geojson |
 | 落成 | `declare` | `built` | 落成 | Map year uses built-first; names often null |
 | 名稱撤銷 | `delete` | `name_removed` | 名稱撤銷 | Gazette explicitly abolishes a street name |
-| 憲報提及 / 新聞提及 / … | `declare` + `is_declaration_event: false` | `former_name` (usually) | 舊稱 + **XX提及** badge | Earliest documentary mention — not a naming notice; see [research-street-history](research-street-history/SKILL.md) |
+| 憲報提及 / 新聞提及 / … | `declare` + `is_declaration_event: false` | `former_name` (usually) | 最早提及 + **XX提及** badge | Interim UI type; long-term model is 舊稱 + mention badge — see [research-street-history](research-street-history/SKILL.md) |
 | 取代街道說明 | — | — | — | **Not a naming event** — see below |
+
+## UI timeline labels (derived)
+
+Filter keys and display strings shown on the map chip and timelines table. Resolved in [`src/lib/mapSurfaceDisplay.js`](../src/lib/mapSurfaceDisplay.js) (`getTimelineEventTypeKey` → `getTimelineEventTypeLabel`).
+
+| Filter key | EN | ZH | Resolver rule |
+|------------|----|----|---------------|
+| `declare` | Declare | 命名 | `current_name` + (`declare` OR sole `rename`) |
+| `rename` | Rename | 易名 | `current_name` + `rename` + ≥1 other timeline row |
+| `former_name` | Former name | 舊稱 | `former_name`, non-mention evidence |
+| `earliest_mention` | Earliest mention | 最早提及 | `gazette_mention` \| `legal_mention` \| `news_mention` \| `research_mention` |
+| `extend` | Extend | 延伸 | `extend` |
+| `built` | Built | 落成 | `built` |
+| `name_removed` | Name removed | 名稱撤銷 | `name_removed` |
+
+Notes:
+
+- EN labels mirror skill notice vocabulary (`宣布街道名稱` → **Declare**, not “Named”).
+- `evidence_kind` drives **來源** / **Source** badges only — not the event-type pill.
+- `is_declaration_event: false` does **not** change the type pill; it affects canonical map year logic.
+- `gazette_inferred` (Pattern F/R) → same type key as equivalent `declare`/`rename`; badge shows 憲報（推斷）.
+- `earliest_mention` is an **interim UI type**; batch authors should still set `former_name` + `*_mention` evidence per the decision tree below.
 
 ## Decision tree
 

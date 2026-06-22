@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-22T15:36:08.302Z",
+  "generated_at": "2026-06-22T17:08:44.886Z",
   "source_file": "public/data/hk-streets.geojson",
   "notice_stem_index_path": "public/data/master/egazette-notice-stems.json",
   "egazette_pdf_locales_path": "public/data/master/egazette-pdf-locales.json",
   "totals": {
     "total_segments": 39724,
-    "segments_missing_naming_year": 33881,
+    "segments_missing_naming_year": 33852,
     "unique_roads": 12233,
     "unique_roads_with_street_name": 4578,
-    "unique_roads_with_naming_year": 1175,
-    "unique_roads_with_street_name_and_naming_year": 1175,
-    "unique_roads_missing_naming_year": 11058,
-    "unique_roads_missing_naming_year_with_street_name": 3403
+    "unique_roads_with_naming_year": 1176,
+    "unique_roads_with_street_name_and_naming_year": 1176,
+    "unique_roads_missing_naming_year": 11057,
+    "unique_roads_missing_naming_year_with_street_name": 3402
   },
   "kind": "pending",
   "roads": [
@@ -197,7 +197,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+            "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327.",
+            "gazette_location": null
           }
         ],
         "notice_no": null,
@@ -313,7 +314,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Former Chinese name 粉錦路 attested in G.N.2145; replaces description in G.N.2352 of 1972."
+            "submitter_remarks": "Former Chinese name 粉錦路 attested in G.N.2145; replaces description in G.N.2352 of 1972.",
+            "gazette_location": null
           },
           {
             "date": "1979-08-24",
@@ -333,7 +335,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "Thoroughfare commencing at its junction with Kam Tin Road and running north north-easterly for approximately 7.8 km to terminate at its junction with Castle Peak Road Kwu Tung and Tai Po Road Fanling as shown coloured red on Drawing No. NTA/YL/14A.",
+              "description_raw_zh": "此公路起點自與錦田公路會合處，向東北偏北伸展約七．八公里，至與青山公路古洞段及大埔公路粉嶺段之連接處為止，即 NTA/YL/14A 號圖則塗紅色所示者。",
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -625,7 +657,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "Road commencing from its junction with Shaukiwan Road and terminating near the coast line at Chai Wan as shown hatched yellow in drawing R.H. 1295.",
+              "description_raw_zh": null,
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -679,127 +741,6 @@
       "naming_date": null,
       "naming_source": null,
       "segment_count": 29
-    },
-    {
-      "road_key": "code:10166",
-      "street_code": "10166",
-      "english_name": "CHATHAM ROAD NORTH",
-      "chinese_name": "漆咸道北",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": "crowdsubmitted",
-      "segment_count": 29,
-      "naming_details": {
-        "street_key": "code:10166",
-        "street_code": "10166",
-        "canonical_naming_date": null,
-        "canonical_naming_year": null,
-        "current_name_since_date": null,
-        "first_known_naming_date": "",
-        "derivation_reason": "no_current_name_event",
-        "map_display_date": null,
-        "map_display_year": null,
-        "map_year_source": null,
-        "map_derivation_reason": "no_date",
-        "map_display_event_id": null,
-        "map_display_evidence_kind": null,
-        "canonical_evidence_kind": null,
-        "canonical_evidence_event_id": null,
-        "canonical_event_role": null,
-        "evidence_kind": null,
-        "derived_from": null,
-        "evidence_kind_note": null,
-        "event_count": 4,
-        "name_history": [
-          {
-            "date": "",
-            "change_kind": "declare",
-            "name_en": "Chatham Road",
-            "name_zh": "漆咸道",
-            "previous_name_en": null,
-            "previous_name_zh": null,
-            "notice_label_en": "G.N.2702",
-            "notice_label_zh": "第2702號",
-            "notice_url_en": "/egazette/en/1978-gn2702.pdf",
-            "notice_url_zh": null,
-            "evidence_kind": "gazette_primary",
-            "is_declaration_event": true,
-            "event_role": "former_name",
-            "derived_from": null,
-            "evidence_kind_note": null,
-            "supplementary_evidence": null,
-            "source": "crowdsubmitted",
-            "submitter_remarks": "Former section name attested in G.N.2702 rename notice."
-          },
-          {
-            "date": "",
-            "change_kind": "declare",
-            "name_en": "Chatham Road",
-            "name_zh": "漆咸道",
-            "previous_name_en": null,
-            "previous_name_zh": null,
-            "notice_label_en": "G.N.111",
-            "notice_label_zh": "第111號",
-            "notice_url_en": "/egazette/en/1979-gn111.pdf",
-            "notice_url_zh": null,
-            "evidence_kind": "gazette_primary",
-            "is_declaration_event": true,
-            "event_role": "former_name",
-            "derived_from": null,
-            "evidence_kind_note": null,
-            "supplementary_evidence": null,
-            "source": "crowdsubmitted",
-            "submitter_remarks": "Former section name attested in G.N.111 rename notice."
-          },
-          {
-            "date": "1978-10-20",
-            "change_kind": "rename",
-            "name_en": "Chatham Road North",
-            "name_zh": "漆咸道北",
-            "previous_name_en": "Chatham Road",
-            "previous_name_zh": "漆咸道",
-            "notice_label_en": "G.N.2702",
-            "notice_label_zh": "第2702號",
-            "notice_url_en": "/egazette/en/1978-gn2703.pdf",
-            "notice_url_zh": null,
-            "evidence_kind": "gazette_primary",
-            "is_declaration_event": false,
-            "event_role": "current_name",
-            "derived_from": null,
-            "evidence_kind_note": null,
-            "supplementary_evidence": null,
-            "source": "crowdsubmitted",
-            "submitter_remarks": null
-          },
-          {
-            "date": "1979-01-12",
-            "change_kind": "rename",
-            "name_en": "Chatham Road North",
-            "name_zh": "漆咸道北",
-            "previous_name_en": "Chatham Road",
-            "previous_name_zh": "漆咸道",
-            "notice_label_en": "G.N.111",
-            "notice_label_zh": "第111號",
-            "notice_url_en": "/egazette/en/1979-gn112.pdf",
-            "notice_url_zh": null,
-            "evidence_kind": "gazette_primary",
-            "is_declaration_event": false,
-            "event_role": "current_name",
-            "derived_from": null,
-            "evidence_kind_note": null,
-            "supplementary_evidence": null,
-            "source": "crowdsubmitted",
-            "submitter_remarks": null
-          }
-        ],
-        "notice_no": null,
-        "notice_key": null,
-        "government_notice_label_en": null,
-        "government_notice_label_zh": null,
-        "government_notice_url_en": "/egazette/en/1979-gn112.pdf",
-        "government_notice_url_zh": null
-      }
     },
     {
       "road_key": "code:13139",
@@ -994,7 +935,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Former name attested in G.N.1335 rename notice."
+            "submitter_remarks": "Former name attested in G.N.1335 rename notice.",
+            "gazette_location": null
           },
           {
             "date": "1961-08-04",
@@ -1014,7 +956,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "Road commencing from the western end of A.I.L. 109, Aberdeen Technical School and terminating at its junction with the junction of Shouson Hill Road adjoining R.B.L. 364 as shown coloured red in drawing R.H. 1295.",
+              "description_raw_zh": null,
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -2043,7 +2015,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Former compound name attested in G.N.1335 rename notice."
+            "submitter_remarks": "Former compound name attested in G.N.1335 rename notice.",
+            "gazette_location": null
           },
           {
             "date": "1961-08-04",
@@ -2063,7 +2036,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "Road commencing from its junction with Stanley Village Road and terminating at its junction with Chai Wan Road as shown coloured yellow in drawing R.H. 1295.",
+              "description_raw_zh": null,
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -2234,7 +2237,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "Thoroughfare, formerly section of Chatham Road, south of Hong Chong Road, as shown coloured blue on drawing No. KH 2600/1.",
+              "description_raw_zh": "此街道前屬康莊道以南之漆咸道一段，其位置已在KH 2600/1 號圖則內用藍色標明。",
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           },
           {
             "date": "1979-01-12",
@@ -2254,7 +2287,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "Thoroughfare, formerly section of Chatham Road, south of Hong Chong Road, as shown coloured blue on drawing No. KH 2600/1.",
+              "description_raw_zh": "此街道前屬康莊道以南之漆咸道一段，其位置已在KH 2600/1 號圖則內用藍色標明。",
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -2546,7 +2609,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "Road commencing from the Aberdeen Fish Market and terminating at the western end of A.I.L. 109, Aberdeen Technical School as shown hatched green in drawing R.H. 1295.",
+              "description_raw_zh": null,
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -3047,7 +3140,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+            "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327.",
+            "gazette_location": null
           }
         ],
         "notice_no": null,
@@ -3152,7 +3246,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+            "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327.",
+            "gazette_location": null
           }
         ],
         "notice_no": null,
@@ -3653,7 +3748,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "Road commencing from its junction with Pokfulam Road and Victoria Road and terminating in front of Aberdeen Fish Market as shown coloured green in drawing R.H. 1295.",
+              "description_raw_zh": null,
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -3736,7 +3861,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+            "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327.",
+            "gazette_location": null
           }
         ],
         "notice_no": null,
@@ -4072,7 +4198,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "egazette_pdf",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": null
           }
         ],
         "notice_no": "GN5983",
@@ -6465,7 +6592,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "landsd",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": null
           },
           {
             "date": "2017-04-21",
@@ -6485,7 +6613,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "landsd",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": null
           },
           {
             "date": "2017-04-21",
@@ -6505,7 +6634,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "landsd",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": null
           }
         ],
         "notice_no": null,
@@ -12572,7 +12702,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Chinese name change only; English unchanged per notice."
+            "submitter_remarks": "Chinese name change only; English unchanged per notice.",
+            "gazette_location": {
+              "description_raw_en": "With reference to Government Notice No. 1711 dated 6th August, 1976, it is hereby notified that the Chinese names of Keswick Street in Causeway Bay, Hong Kong and Public Square Street in Yau Ma Tei, Kowloon will be changed from 奇士域街 to 敬誠街 and 公眾四方街 to 眾坊街 with immediate effect.",
+              "description_raw_zh": "關於當局擬更改街道之中文名稱事，前經於本年八月六日在憲示第一七一一號公佈在案，茲特再行公佈：港島銅鑼灣之「奇士域街」及九龍油蔴地之「公眾四方街」，由即日起，分別改稱為「敬誠街」及「眾坊街」。",
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -15658,7 +15818,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+            "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327.",
+            "gazette_location": null
           }
         ],
         "notice_no": null,
@@ -19877,7 +20038,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Former section name attested in G.N.721 rename notice; section described in G.N.345/1976-02-13."
+            "submitter_remarks": "Former section name attested in G.N.721 rename notice; section described in G.N.345/1976-02-13.",
+            "gazette_location": null
           },
           {
             "date": "1976-04-02",
@@ -19897,7 +20059,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "With reference to Government Notice No. 345 dated 13th February, 1976, it is hereby notified that the section of Tung Ming Street (通明街) in Kwun Tong, New Kowloon referred to in the notice is renamed as Kung Lok Road (功樂道) with immediate effect.",
+              "description_raw_zh": "關於一九七六年二月十三日刊登之憲示第三四五號，茲特通告：上述憲示所述，位於新九龍觀塘通明街之一段道路，即日起由「通明街」改為「功樂道」。",
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -25744,7 +25936,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Former name attested in G.N.1866 merge rename notice; originally G.N.1381/1974-01-31."
+            "submitter_remarks": "Former name attested in G.N.1866 merge rename notice; originally G.N.1381/1974-01-31.",
+            "gazette_location": null
           },
           {
             "date": "",
@@ -25764,7 +25957,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Former name attested in G.N.1866 merge rename notice; originally G.N.1381/1974-01-31."
+            "submitter_remarks": "Former name attested in G.N.1866 merge rename notice; originally G.N.1381/1974-01-31.",
+            "gazette_location": null
           },
           {
             "date": "1975-08-22",
@@ -25784,7 +25978,43 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Merge rename from Hoi Lok, Sing Lok and Yee Lok Streets."
+            "submitter_remarks": "Merge rename from Hoi Lok, Sing Lok and Yee Lok Streets.",
+            "gazette_location": {
+              "description_raw_en": "Roads commencing at junctions with Connaught Road Central on both the eastern and western ends of I.L. 8225, running north for approximately 400 ft., including the section along the northern boundary of I.L. 8225 for approximately 300 ft., shown coloured pink on Drawing No. HH 2587.",
+              "description_raw_zh": "位於干諾道中東西兩端之內地段第八二二五號，向北伸展約四百呎，包括沿內地段第八二二五號北邊界約三百呎之一段。（在HH2587號圖則上用粉紅色標明）",
+              "parsed": {
+                "road_form": "thoroughfare",
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [
+                  {
+                    "label": "HH 2587",
+                    "color": "pink",
+                    "url_en": null
+                  }
+                ],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -26373,7 +26603,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Chinese name change only; English unchanged per notice."
+            "submitter_remarks": "Chinese name change only; English unchanged per notice.",
+            "gazette_location": {
+              "description_raw_en": "Thoroughfare commencing at its junction with Queen's Road Central and Bonham Strand and running westwards to Morrison Street.",
+              "description_raw_zh": "此街道起點與皇后大道中及文咸東街會合，向西行至摩利臣街止。",
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -28084,7 +28344,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+            "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327.",
+            "gazette_location": null
           }
         ],
         "notice_no": null,
@@ -28398,7 +28659,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Former name attested in G.N.1866 merge rename notice; originally G.N.1381/1974-01-31."
+            "submitter_remarks": "Former name attested in G.N.1866 merge rename notice; originally G.N.1381/1974-01-31.",
+            "gazette_location": null
           }
         ],
         "notice_no": null,
@@ -39294,7 +39556,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Former name attested in G.N.2703 rename notice."
+            "submitter_remarks": "Former name attested in G.N.2703 rename notice.",
+            "gazette_location": null
           },
           {
             "date": "",
@@ -39314,7 +39577,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Former name attested in G.N.1131 rename notice; replaces description in G.N.1311 of 1977."
+            "submitter_remarks": "Former name attested in G.N.1131 rename notice; replaces description in G.N.1311 of 1977.",
+            "gazette_location": null
           },
           {
             "date": "1978-10-20",
@@ -39334,7 +39598,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "Notice is hereby given that Sai Kung Wing Lung Road (西貢永隆道) a road commencing at its junction with Clearwater Bay Road near milestone 11 and terminating at the roundabout at Ngam Tau Sha, Sai Kung, New Territories, will be renamed as Hang Hau Wing Lung Road (坑口永隆道).",
+              "description_raw_zh": "茲特公佈西貢永隆道，即由十一咪附近與清水灣道之連接處起至新界西貢岩頭沙迴旋處之道路將改稱坑口永隆道。",
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           },
           {
             "date": "1979-05-04",
@@ -39354,7 +39648,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "Road commencing at its junction with Clear Water Bay Road near milestone 11 and running in a north-easterly direction for about 120 metres, then it turns to run in an east-north-easterly direction for about 450 metres, it then turns in an east-south-easterly direction for about 200 metres where it bends sharply to run in a north-north-westerly direction for about 140 metres and then turns to run in a north-westerly direction for about 180 metres, it then bends sharply to run easterly for about 70 metres and then turns north-easterly for about 50 metres, then it runs in an easterly direction for about 200 metres where it terminates at a round-about at Ngam Tau Sha as shown coloured red on Drawing No. NTA/SK/R8.",
+              "description_raw_zh": "由與清水灣道近十一咪之連接點，開始向東北伸展約一二〇米，再改向東北偏東伸展約四五〇米，然後改向東南偏東伸展約二〇〇米，至此急遽轉向西北偏北伸展約一四〇米，再改向西北伸展約一八〇米，後急遽轉向東伸展約七十米，再改向東北伸展約五十米，最後轉向東伸展約二〇〇米而止於岩頭沙迴旋處，即NTA/SK/R8號圖內以紅色顯示之部份。",
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -42300,57 +42624,7 @@
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
-      "segment_count": 3,
-      "naming_details": {
-        "street_key": "Chun Yip Street|駿業街",
-        "street_code": null,
-        "canonical_naming_date": null,
-        "canonical_naming_year": null,
-        "current_name_since_date": null,
-        "first_known_naming_date": "1960-08-12",
-        "derivation_reason": "no_declaration_found",
-        "map_display_date": null,
-        "map_display_year": null,
-        "map_year_source": null,
-        "map_derivation_reason": "no_date",
-        "map_display_event_id": null,
-        "map_display_evidence_kind": null,
-        "canonical_evidence_kind": null,
-        "canonical_evidence_event_id": null,
-        "canonical_event_role": null,
-        "evidence_kind": null,
-        "derived_from": null,
-        "evidence_kind_note": null,
-        "event_count": 1,
-        "name_history": [
-          {
-            "date": "1960-08-12",
-            "change_kind": "delete",
-            "name_en": "Chun Yip Street",
-            "name_zh": "駿業街",
-            "previous_name_en": null,
-            "previous_name_zh": null,
-            "notice_label_en": "G.N.1218",
-            "notice_label_zh": "第1218號",
-            "notice_url_en": "/egazette/en/1960-gn1218.pdf",
-            "notice_url_zh": null,
-            "evidence_kind": "gazette_primary",
-            "is_declaration_event": false,
-            "event_role": "name_removed",
-            "derived_from": null,
-            "evidence_kind_note": null,
-            "supplementary_evidence": null,
-            "source": "crowdsubmitted",
-            "submitter_remarks": null
-          }
-        ],
-        "notice_no": null,
-        "notice_key": null,
-        "government_notice_label_en": null,
-        "government_notice_label_zh": null,
-        "government_notice_url_en": "/egazette/en/1960-gn1218.pdf",
-        "government_notice_url_zh": null
-      }
+      "segment_count": 3
     },
     {
       "road_key": "code:12510",
@@ -42402,7 +42676,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Former section name attested in G.N.1301 rename notice."
+            "submitter_remarks": "Former section name attested in G.N.1301 rename notice.",
+            "gazette_location": null
           },
           {
             "date": "1976-06-18",
@@ -42422,7 +42697,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "Thoroughfare, formerly a section of Tung Chau Street as shown coloured brown hatched black on drawing No. KH 1201/2, commencing from Cheung Sha Wan Road about 150 m. east of Kom Tsun Street and terminating at King Lam Street.",
+              "description_raw_zh": "此街道前屬通州街之一段（位置在 KH 1201/2 號圖則內用棕色底黑間綫標明），其起點在長沙灣道距甘泉街以東約一百五十公尺之處，而終點則位於瓊林街。",
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -42912,7 +43217,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Former section name attested in G.N.1301 rename notice."
+            "submitter_remarks": "Former section name attested in G.N.1301 rename notice.",
+            "gazette_location": null
           },
           {
             "date": "1976-06-18",
@@ -42932,7 +43238,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "Thoroughfare, formerly a section of Yee Kuk Street as shown coloured blue hatched black on drawing No. KH 1201/2, commencing from Castle Peak Road about 140 m. east of Tung Chau West Street referred to above and terminating at King Lam Street.",
+              "description_raw_zh": "此街道前屬醫局街之一段（位置在 KH 1201/2 號圖則內用藍色底黑間綫標明），其起點在青山道距上述之通州西街以東約一百四十公尺之處，而終點則位於瓊林街。",
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -43103,7 +43439,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Former section name attested in G.N.1301 rename notice."
+            "submitter_remarks": "Former section name attested in G.N.1301 rename notice.",
+            "gazette_location": null
           },
           {
             "date": "1976-06-18",
@@ -43123,7 +43460,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "Thoroughfare, formerly a section of Yu Chau Street as shown coloured yellow hatched black on drawing No. KH 1201/2, commencing from Castle Peak Road about 140 m. east of Tai Nan West Street referred to above and terminating at King Lam Street.",
+              "description_raw_zh": "此街道前屬汝州街之一段（位置在 KH 1201/2 號圖則內用黃色底黑間綫標明），其起點在青山道距上述之大南西街以東約一百四十公尺之處，而終點則位於瓊林街。",
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -52468,7 +52835,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Former name attested in G.N.50 rename notice."
+            "submitter_remarks": "Former name attested in G.N.50 rename notice.",
+            "gazette_location": null
           },
           {
             "date": "1961-01-13",
@@ -52488,7 +52856,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "Road formerly named Fu Yan Lane extending from existing Fu Yan Street running south from its junction at Mut Wah Road for approximately 300 feet, then south-west for approximately 80 feet up to its junction with Yue Man Square as shown coloured red in plan R.K. 1201.",
+              "description_raw_zh": null,
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -53209,7 +53607,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Former name attested in G.N.3032 rename notice."
+            "submitter_remarks": "Former name attested in G.N.3032 rename notice.",
+            "gazette_location": null
           },
           {
             "date": "",
@@ -53229,7 +53628,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Former name attested in rename notice."
+            "submitter_remarks": "Former name attested in rename notice.",
+            "gazette_location": null
           },
           {
             "date": "1978-11-24",
@@ -53249,7 +53649,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "Path commencing from the southern section of Yan Ching Circuit and running north north-easterly for about 215 metres to rejoin with the northern section of Yan Ching Circuit.",
+              "description_raw_zh": "茲特公佈啟民街，即由仁政街南段開始向東北偏北伸展約二一五米而與仁政街北段連接之街道，將改稱啟民徑。",
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           },
           {
             "date": "1979-03-02",
@@ -53269,7 +53699,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "It is hereby notified that Kai Man Street (啓民街) in Tuen Mun, New Territories will henceforth be known as Kai Man Path (啓民徑) and Government Notice 1693/1975 will henceforth be read as if Kai Man Path (啓民徑) were inserted therein in lieu of Kai Man Street (啓民街).",
+              "description_raw_zh": "茲特公佈新界屯門啓民街今後將改稱為啓民徑，而憲示一九七五年第一六九三號所述之啓民街今後將視作已由啓民徑所代替論。",
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -53495,7 +53955,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Chinese name change only; English unchanged per notice."
+            "submitter_remarks": "Chinese name change only; English unchanged per notice.",
+            "gazette_location": {
+              "description_raw_en": "Thoroughfare running from Observatory Road to Carnarvon Road.",
+              "description_raw_zh": "此街道由天文台道伸展至加拿芬道。",
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -55074,7 +55564,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Chinese name change only; English unchanged per notice."
+            "submitter_remarks": "Chinese name change only; English unchanged per notice.",
+            "gazette_location": {
+              "description_raw_en": "Thoroughfare in Central District running northwards from its junction with Queen's Road Central and terminating at Connaught Road Central.",
+              "description_raw_zh": "即位於中區、由其與皇后大道中之會合點向北行而終止於干諾道中之街道。",
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -55916,7 +56436,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Former compound name attested in G.N.1335 rename notice."
+            "submitter_remarks": "Former compound name attested in G.N.1335 rename notice.",
+            "gazette_location": null
           },
           {
             "date": "1961-08-04",
@@ -55936,7 +56457,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "Road commencing from its junction with Headland Road and terminating at its junction with Stanley Village Road as shown hatched blue in drawing R.H. 1295.",
+              "description_raw_zh": null,
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -109732,7 +110283,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Chinese name change only; English unchanged per notice."
+            "submitter_remarks": "Chinese name change only; English unchanged per notice.",
+            "gazette_location": {
+              "description_raw_en": "Thoroughfare commencing at its junction with Peak Road and running north-eastwards to Gough Hill Road.",
+              "description_raw_zh": "此街道起點與山頂道會合，向東北行至歌賦山道止。",
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -112312,7 +112893,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "Notice is also given that Foo Yip Street (富業街) no longer exists in the above area.",
+              "description_raw_zh": "此外，上述地區內現時並無富業街。",
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -114771,7 +115382,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Chinese name change only; English unchanged per notice."
+            "submitter_remarks": "Chinese name change only; English unchanged per notice.",
+            "gazette_location": {
+              "description_raw_en": "With reference to Government Notice No. 1711 dated 6th August, 1976, it is hereby notified that the Chinese names of Keswick Street in Causeway Bay, Hong Kong and Public Square Street in Yau Ma Tei, Kowloon will be changed from 奇士域街 to 敬誠街 and 公眾四方街 to 眾坊街 with immediate effect.",
+              "description_raw_zh": "關於當局擬更改街道之中文名稱事，前經於本年八月六日在憲示第一七一一號公佈在案，茲特再行公佈：港島銅鑼灣之「奇士域街」及九龍油蔴地之「公眾四方街」，由即日起，分別改稱為「敬誠街」及「眾坊街」。",
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -115734,7 +116375,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+            "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327.",
+            "gazette_location": null
           }
         ],
         "notice_no": null,
@@ -119942,7 +120584,37 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Chinese name change only; English unchanged per notice."
+            "submitter_remarks": "Chinese name change only; English unchanged per notice.",
+            "gazette_location": {
+              "description_raw_en": "Cul-de-sac commencing at its junction with Causeway Road and running southwards.",
+              "description_raw_zh": "此街道為盡頭路，其起點與高士威道會合，然後向南行。",
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           }
         ],
         "notice_no": null,
@@ -121829,7 +122501,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+            "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327.",
+            "gazette_location": null
           }
         ],
         "notice_no": null,
@@ -122165,7 +122838,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "landsd",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": null
           },
           {
             "date": "2016-07-29",
@@ -122185,7 +122859,8 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "landsd",
-            "submitter_remarks": null
+            "submitter_remarks": null,
+            "gazette_location": null
           }
         ],
         "notice_no": null,

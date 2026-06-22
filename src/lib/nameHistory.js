@@ -1,5 +1,11 @@
+import { createTranslator } from '../i18n/locale.js'
 import { getEvidenceKindBadge } from './evidenceKindBadge.js'
-import { getMapSurfaceEventTypeLabel } from './mapSurfaceDisplay.js'
+import {
+  getTimelineEventTypeKey,
+  getTimelineEventTypeLabel,
+  TIMELINE_EVENT_TYPE_FILTER_ORDER,
+  getEventTypeLabelForKey,
+} from './mapSurfaceDisplay.js'
 import { formatNoticeLabel } from './formatNoticeLabel.js'
 import { normalizeStreetNameForMatch } from './roadKey.js'
 
@@ -122,23 +128,6 @@ function getHistoryEntryPendingMeta(entry, labels) {
   return { pending: false, pendingLabel: null }
 }
 
-function hasOtherTimelineEntry(entry, ordered = []) {
-  return ordered.some((other) => other !== entry)
-}
-
-function getTimelineEventTypeLabel(entry, labels, displayNames = null, ordered = []) {
-  const surfaceLabel = getMapSurfaceEventTypeLabel(entry, labels, ordered)
-  if (surfaceLabel) return surfaceLabel
-
-  const role = String(entry.event_role ?? '').trim()
-  const kind = String(entry.change_kind ?? '').trim()
-  if (kind === 'declare' && namesMatchEntryAndDisplay(entry, displayNames)) {
-    return labels.eventTypeCurrentName ?? labels.eventRoleCurrentName ?? null
-  }
-  if (role === 'former_name') return labels.eventTypeFormerName ?? labels.eventRoleFormerName ?? null
-  return labels.eventTypeFormerName ?? labels.eventRoleFormerName ?? null
-}
-
 /** Former name only (card header already shows the current name). */
 function buildHistoryName(entry, locale) {
   if (entry.event_role === 'built') {
@@ -219,6 +208,140 @@ function getNoticeReferenceLabel(noticeLink) {
   return noticeLink.title ?? noticeLink.label ?? null
 }
 
+/** Newest-first sort for raw name_history rows (undated entries last). */
+export function sortHistoryEntriesByDateDesc(events) {
+  if (!Array.isArray(events)) return []
+  return [...events].toSorted((a, b) => {
+    const dateA = normalize(a.date)
+    const dateB = normalize(b.date)
+    if (!dateA && !dateB) return 0
+    if (!dateA) return 1
+    if (!dateB) return -1
+    return dateB.localeCompare(dateA)
+  })
+}
+
+/** Latest ISO date from name_history, or empty string. */
+export function getLatestHistoryDate(events) {
+  const ordered = sortHistoryEntriesByDateDesc(events)
+  return normalize(ordered[0]?.date)
+}
+
+export function buildTimelineEventLabels(t) {
+  return {
+    historyGazettePending: t('historyGazettePending'),
+    historyGazetteInferred: t('historyGazetteInferred'),
+    evidenceNews: t('evidenceNews'),
+    evidenceHearsay: t('evidenceHearsay'),
+    evidenceLegalOther: t('evidenceLegalOther'),
+    evidenceResearch: t('evidenceResearch'),
+    eventTypeDeclare: t('eventTypeDeclare'),
+    eventTypeRename: t('eventTypeRename'),
+    eventTypeFormerName: t('eventTypeFormerName'),
+    eventTypeEarliestMention: t('eventTypeEarliestMention'),
+    eventTypeExtend: t('eventTypeExtend'),
+    eventTypeBuilt: t('eventTypeBuilt'),
+    eventTypeNameRemoved: t('eventTypeNameRemoved'),
+  }
+}
+
+const TIMELINE_SEARCH_LOCALES = ['en', 'zh']
+
+/** Label sets for timeline search (EN + ZH event type strings). */
+export function buildTimelineSearchLabelSets() {
+  return Object.fromEntries(
+    TIMELINE_SEARCH_LOCALES.map((locale) => [
+      locale,
+      buildTimelineEventLabels(createTranslator(locale)),
+    ]),
+  )
+}
+
+/** Search haystack for one timelines table row (includes UI event-type labels). */
+export function buildTimelineRowSearchHaystack(row, labelSets) {
+  const displayNames = {
+    en: row.street_name_en,
+    zh: row.street_name_zh,
+  }
+  const history = Array.isArray(row.name_history) ? row.name_history : []
+  const ordered = sortHistoryEntriesByDateDesc(history)
+  const eventTerms = []
+
+  for (const entry of ordered) {
+    for (const locale of TIMELINE_SEARCH_LOCALES) {
+      const labels = labelSets?.[locale]
+      if (!labels) continue
+      const t = createTranslator(locale)
+      const eventType = buildTimelineEventRowMeta(entry, locale, labels, displayNames, ordered, null)
+        .eventType
+      if (eventType) eventTerms.push(eventType)
+      const evidenceBadge = getEvidenceKindBadge(entry.evidence_kind, t)
+      if (evidenceBadge?.label) eventTerms.push(evidenceBadge.label)
+    }
+  }
+
+  return [
+    row.timeline_id,
+    row.street_code,
+    row.street_name_en,
+    row.street_name_zh,
+    row.geometry_link?.status,
+    row.geometry_link?.district_hint,
+    ...eventTerms,
+  ]
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase()
+}
+
+function getTimelineEventTypeKeysForRow(row) {
+  const history = Array.isArray(row?.name_history) ? row.name_history : []
+  const ordered = sortHistoryEntriesByDateDesc(history)
+  const keys = new Set()
+  for (const entry of ordered) {
+    const key = getTimelineEventTypeKey(entry, ordered)
+    if (key) keys.add(key)
+  }
+  return keys
+}
+
+/** Filter options with counts for timelines table event-type chips. */
+export function buildTimelineEventTypeFilterStats(rows, labels) {
+  const counts = new Map()
+  for (const row of rows) {
+    for (const key of getTimelineEventTypeKeysForRow(row)) {
+      counts.set(key, (counts.get(key) ?? 0) + 1)
+    }
+  }
+  return TIMELINE_EVENT_TYPE_FILTER_ORDER.filter((id) => (counts.get(id) ?? 0) > 0).map((id) => ({
+    id,
+    label: getEventTypeLabelForKey(id, labels),
+    count: counts.get(id) ?? 0,
+  }))
+}
+
+/** True when the row has at least one event of the given type key. */
+export function timelineRowMatchesEventType(row, typeKey) {
+  if (!typeKey) return true
+  return getTimelineEventTypeKeysForRow(row).has(typeKey)
+}
+
+/** Summary fields for one timelines-dashboard event row. */
+export function buildTimelineEventRowMeta(entry, locale, labels, displayNames, ordered, t) {
+  const sourceMeta = buildTimelineSourceMeta(entry, locale, labels, t)
+  return {
+    date: formatHistoryDate(entry.date),
+    dateTime: normalize(entry.date) || null,
+    eventType: getTimelineEventTypeLabel(entry, labels, ordered),
+    name: buildHistoryName(entry, locale),
+    previousName: hasPreviousName(entry) ? formatName(entry, locale, 'previous') : null,
+    isCurrent: String(entry.event_role ?? '').trim() === 'current_name',
+    pending: sourceMeta.pending,
+    pendingLabel: sourceMeta.pendingLabel,
+    notice: sourceMeta.notice,
+  }
+}
+
 /** Source link/label for one timeline row — matches dashboard table (badge label + G.N. in title). */
 function buildTimelineSourceMeta(entry, locale, labels, t) {
   const noticeLink = getHistoryNoticeLink(entry, locale)
@@ -246,7 +369,45 @@ function buildTimelineSourceMeta(entry, locale, labels, t) {
   }
 }
 
-/** Structured items for NameHistoryList. */
+function buildPendingTimelineItem(labels, pendingDisplay) {
+  const meta = {
+    date: null,
+    dateTime: null,
+    eventType: labels.eventTypeDeclare ?? null,
+    name: null,
+    previousName: null,
+    isCurrent: true,
+    pending: true,
+    pendingLabel: pendingDisplay,
+    notice: null,
+  }
+  return { id: 'pending-current', entry: null, meta, ...meta }
+}
+
+/** All raw name_history rows as unified timeline items (newest first, no filtering). */
+export function buildStreetTimelineItems(events, locale, labels, displayNames = null, options = {}) {
+  const ordered = sortHistoryEntriesByDateDesc(events)
+  const idPrefix = normalize(options.idPrefix)
+  let hasCurrentEntry = false
+
+  const items = ordered.map((entry, index) => {
+    const isCurrent = String(entry.event_role ?? '').trim() === 'current_name'
+    if (isCurrent) hasCurrentEntry = true
+    const meta = buildTimelineEventRowMeta(entry, locale, labels, displayNames, ordered, options.t)
+    const id = idPrefix
+      ? `${idPrefix}:${index}`
+      : `${entry.event_role ?? 'event'}-${normalize(entry.date) || 'undated'}-${index}`
+    return { id, entry, meta, ...meta }
+  })
+
+  if (!hasCurrentEntry && options.pendingDisplay) {
+    items.unshift(buildPendingTimelineItem(labels, options.pendingDisplay))
+  }
+
+  return items.length ? items : null
+}
+
+/** @deprecated Use buildStreetTimelineItems — kept for backward compatibility. */
 export function buildNameHistoryTimelineItems(
   details,
   locale,
@@ -254,63 +415,7 @@ export function buildNameHistoryTimelineItems(
   displayNames = null,
   options = {},
 ) {
-  const filtered = details ? filterTimelineEntries(details, displayNames) : []
-  const ordered = [...filtered].toSorted((a, b) => {
-    const dateA = normalize(a.date)
-    const dateB = normalize(b.date)
-    if (!dateA && !dateB) return 0
-    if (!dateA) return 1
-    if (!dateB) return -1
-    return dateB.localeCompare(dateA)
-  })
-
-  const items = []
-  const shownNames = new Set()
-  let hasCurrentEntry = false
-
-  for (const [index, entry] of ordered.entries()) {
-    const isCurrent = String(entry.event_role ?? '').trim() === 'current_name'
-    if (isCurrent) hasCurrentEntry = true
-
-    const name = buildHistoryName(entry, locale)
-    const streetName = normalize(name) && name !== '—' ? name : null
-    const isBuiltNoName = entry.event_role === 'built' && !streetName
-    if (!isBuiltNoName && !streetName) continue
-    if (streetName && !isCurrent && shownNames.has(streetName)) continue
-
-    if (streetName) shownNames.add(streetName)
-    const rawDate = normalize(entry.date)
-    const sourceMeta = buildTimelineSourceMeta(entry, locale, labels, options.t)
-    const eventType = getTimelineEventTypeLabel(entry, labels, displayNames, ordered)
-
-    items.push({
-      id: `${entry.event_role ?? 'event'}-${rawDate || 'undated'}-${index}`,
-      date: rawDate ? formatHistoryDate(rawDate) : null,
-      dateTime: rawDate || null,
-      eventType,
-      name: streetName,
-      isCurrent,
-      pending: sourceMeta.pending,
-      pendingLabel: sourceMeta.pendingLabel,
-      notice: sourceMeta.notice,
-    })
-  }
-
-  if (!hasCurrentEntry && options.pendingDisplay) {
-    items.unshift({
-      id: 'pending-current',
-      date: null,
-      dateTime: null,
-      eventType: labels.eventTypeCurrentName ?? labels.eventRoleCurrentName ?? null,
-      name: null,
-      isCurrent: true,
-      pending: true,
-      pendingLabel: options.pendingDisplay,
-      notice: null,
-    })
-  }
-
-  return items.length ? items : null
+  return buildStreetTimelineItems(details?.name_history, locale, labels, displayNames, options)
 }
 
 function buildChineseNameMismatchRemark(entry, displayNames, locale) {

@@ -150,9 +150,12 @@ node scripts/parse-crowd-gazette-pdf.mjs "/path/to/egn….pdf" --match
 Writes `data/crowdsubmissions/batches/{year}-gn{no}-draft.json` by default. Pass the **English** `egn…` PDF; add `cgn…` path to batch `pdf_zh` before apply.
 
 2. **If `status: needs_visual_parse`** (image-only scan, no text layer):
-   - Render pages: `python3 scripts/render-gazette-pdf.py "<pdf>" --page 0 --out /tmp/p1.png`
-   - Read PNGs visually; transcribe **from the scan only** per [gazette-parse-principles.md](../gazette-parse-principles.md)
-   - Put DESCRIPTION in `gazette_location`, not `submitter_remarks`
+   - Render pages: `python3 scripts/render-gazette-pdf.py "<pdf>" --page 0 --out /tmp/p1.png` (repeat for every page that contains the notice or street row).
+   - **OCR the notice text into `gazette_location`** — mandatory before apply; do not leave `description_raw_*` empty when the scan shows prose.
+   - Transcribe **from the scan only** per [gazette-parse-principles.md](../gazette-parse-principles.md).
+   - **Modern Lands Dept** (DESCRIPTION / 說明 block): put the full paragraph in `description_raw_en` / `description_raw_zh` on each affected `history[]` row.
+   - **Colonial rename tables** (e.g. G.N.184): put the notice preamble (`No. NNN.—It is hereby notified that…`) plus the **district heading and table row(s)** for that street in `description_raw_en`; include Chinese from the table column when printed. Use `description_raw_zh: null` when the notice body is English-only.
+   - Put location prose in `gazette_location`, **not** `submitter_remarks`.
 
 3. **Classify events** — check notice type (declare / rename / replace_description / delete). Upgrade draft `history[]` per [event-model.md](../event-model.md).
 
@@ -187,7 +190,7 @@ PDFs are copied to `batch-inbox/`, published to `public/egazette/`, and stored a
 |----------|------------|---------------|
 | Modern Lands Dept (`egn`/`cgn`, text layer) | pdfjs / PyMuPDF | `lands_modern` (regex, same as egazette pipeline) |
 | Colonial Urban Council / thoroughfare table | text from scan/OCR | `colonial_thoroughfare` |
-| Image-only scan | `needs_visual_parse` | Agent transcribes from rendered PNGs |
+| Image-only scan | `needs_visual_parse` | Agent **OCR-transcribes** rendered PNGs → `gazette_location.description_raw_*` (see workflow §A step 2) |
 
 **`submitter_remarks`:** omit when gazette EN+ZH match geojson; include for **mismatch**, **OCR/parser uncertainty**, or former-name standard lines only — see [gazette-parse-principles.md](../gazette-parse-principles.md).
 
@@ -233,12 +236,14 @@ Template: `data/crowdsubmissions/batch-template.json` (`evidence_schema_version:
 
 ### `event_role` (required on each `history` entry)
 
-| Role | When | UI (zh) |
-|------|------|---------|
-| `current_name` | After-names match geojson | 命名 (or 易名 if rename + prior timeline row) |
-| `former_name` | Does not match today’s map name | 舊稱 |
-| `built` | Opened/built date (map year built-first) | 落成 |
-| `name_removed` | `change_kind: delete` | 名稱撤銷 |
+| Role | When | UI (en) | UI (zh) |
+|------|------|---------|---------|
+| `current_name` | After-names match geojson | Declare (or Rename if rename + prior timeline row) | 命名 (or 易名) |
+| `former_name` | Does not match today’s map name | Former name | 舊稱 |
+| `built` | Opened/built date (map year built-first) | Built | 落成 |
+| `name_removed` | `change_kind: delete` | Name removed | 名稱撤銷 |
+
+`*_mention` evidence (`gazette_mention`, etc.) shows **Earliest mention** / 最早提及 in the UI — see [event-model.md](../event-model.md) § UI timeline labels.
 
 See `docs/street-name-history-schema.md` for full field reference.
 
@@ -272,7 +277,7 @@ See `docs/street-name-history-schema.md` for full field reference.
 3. Row visible on `/{locale}/timelines`.
 4. Console shows `✓ {name} → {STREETCODE}` for linked streets.
 5. `rg 'code:CODE' data/master/street-centreline-map.json` — `event_ids` include new rows.
-6. Map chip **舊稱** labels correct; **來源** → G.N. PDF; centerline `map_year` / `naming_year` updated after rebuild.
+6. Map chip type pills match [event-model.md](../event-model.md) § UI timeline labels (**Declare** / 命名 for first naming; **Earliest mention** for `*_mention` evidence); **來源** → G.N. PDF; centerline `map_year` / `naming_year` updated after rebuild.
 7. Linked streets appear in **最近核實** when canonical naming date set.
 
 **Events only (`--no-match`):**

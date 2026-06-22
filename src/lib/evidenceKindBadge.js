@@ -1,3 +1,16 @@
+export const MENTION_EVIDENCE_KINDS = new Set([
+  'gazette_mention',
+  'legal_mention',
+  'news_mention',
+  'research_mention',
+])
+
+/** @param {string | null | undefined} kind */
+export function isMentionEvidenceKind(kind) {
+  const normalized = normalizeEvidenceKindForUi(kind)
+  return normalized ? MENTION_EVIDENCE_KINDS.has(normalized) : false
+}
+
 const EVIDENCE_BADGE_KEYS = {
   gazette_primary: 'evidenceGazettePrimary',
   gazette_inferred: 'evidenceGazetteInferred',

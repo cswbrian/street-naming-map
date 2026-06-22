@@ -6,6 +6,7 @@ import { MapboxOverlay } from '@deck.gl/mapbox'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import { buildRoadFilter, buildRoadKey, filterNamedStreetFeatures, hasStreetName } from '../lib/roadKey'
 import { translations } from '../i18n/translations'
+import { createTranslator } from '../i18n/locale.js'
 import { isMapMobileViewport } from '../lib/mapViewport.js'
 import { applyHistoricalMapLayer } from '../lib/historicalMapLayer.js'
 import {
@@ -875,6 +876,7 @@ function MapView({
     }
 
     const labels = translations[locale] ?? translations.en
+    const t = createTranslator(locale)
     const chip = document.createElement('section')
     chip.className = 'selected-road-chip'
     chip.setAttribute('aria-label', selectedRoadInfo.enName || selectedRoadInfo.zhName || '')
@@ -885,6 +887,8 @@ function MapView({
       <SelectedRoadChip
         selectedRoadInfo={selectedRoadInfo}
         labels={labels}
+        locale={locale}
+        t={t}
         onClose={onRoadClear}
       />,
     )

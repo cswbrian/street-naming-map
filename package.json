@@ -17,6 +17,8 @@
     "strip:event-street-codes": "node scripts/strip-event-street-codes.mjs",
     "report:unmapped-events": "node scripts/report-unmapped-events.mjs",
     "report:street-timelines": "node scripts/report-street-timelines.mjs",
+    "report:event-label-audit": "node scripts/report-event-label-audit.mjs",
+    "test": "node --test src/lib/*.test.js",
     "apply:street-links": "node scripts/apply-street-links.mjs",
     "fetch:egazette": "node scripts/fetch-egazette-street-pdfs.mjs --download-only",
     "fetch:egazette:download": "node scripts/fetch-egazette-street-pdfs.mjs --download-only",
