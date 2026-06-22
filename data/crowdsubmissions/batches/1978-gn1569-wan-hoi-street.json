@@ -1,0 +1,27 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1978-gn1569-wan-hoi-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1569",
+  "publication_date": "1978-06-23",
+  "gazette_url_en": "/egazette/en/1978-gn1569.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1978/Scanned_20260621-1658.pdf",
+  "streets": [{
+    "english_name": "Wan Hoi Street",
+    "chinese_name": "環海街",
+    "history": [{
+      "publication_date": "1978-06-23",
+      "change_kind": "declare",
+      "street_name_en": "Wan Hoi Street",
+      "street_name_zh": "環海街",
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "notice_type_normalized": "declaration",
+      "gazette_location": {
+        "description_raw_en": "Cul-de-sac, as shown coloured green on drawing No. KH 2387/1, commencing at its junction with Dyer Avenue 75m east of the junction with Tai Wan Road, running southwards for approximately 195m and then eastwards for approximately 90m and finally southwards for approximately 65m, and terminating at the entrance to Hong Kong and Whampoa Dock.",
+        "description_raw_zh": "此街道為盡頭路，起點與戴亞街及大環道交界處以東七十五公尺之處會合，向南行約一百九十五公尺，再轉向東行約九十公尺，最後轉回南行約六十五公尺，直抵香港黃埔船塢入口處為止，位置在 K H 2387/1 號圖則上用綠色標明。"
+      }
+    }]
+  }]
+}

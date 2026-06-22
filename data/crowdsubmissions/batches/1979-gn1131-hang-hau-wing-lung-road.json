@@ -1,0 +1,42 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn1131-hang-hau-wing-lung-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1131",
+  "publication_date": "1979-05-04",
+  "gazette_url_en": "/egazette/en/1979-gn1131.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1722.pdf",
+  "remarks": "Pages span Scanned_20260621-1722.pdf and Scanned_20260621-1724(1).pdf.",
+  "streets": [
+    {
+      "english_name": "Hang Hau Wing Lung Road",
+      "chinese_name": "坑口永隆路",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Sai Kung Wing Lung Road",
+          "street_name_zh": "西貢永隆道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former name attested in G.N.1131 rename notice; replaces description in G.N.1311 of 1977."
+        },
+        {
+          "publication_date": "1979-05-04",
+          "change_kind": "rename",
+          "previous_street_name_en": "Sai Kung Wing Lung Road",
+          "previous_street_name_zh": "西貢永隆道",
+          "street_name_en": "Hang Hau Wing Lung Road",
+          "street_name_zh": "坑口永隆路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Clear Water Bay Road near milestone 11 and running in a north-easterly direction for about 120 metres, then it turns to run in an east-north-easterly direction for about 450 metres, it then turns in an east-south-easterly direction for about 200 metres where it bends sharply to run in a north-north-westerly direction for about 140 metres and then turns to run in a north-westerly direction for about 180 metres, it then bends sharply to run easterly for about 70 metres and then turns north-easterly for about 50 metres, then it runs in an easterly direction for about 200 metres where it terminates at a round-about at Ngam Tau Sha as shown coloured red on Drawing No. NTA/SK/R8.",
+            "description_raw_zh": "由與清水灣道近十一咪之連接點，開始向東北伸展約一二〇米，再改向東北偏東伸展約四五〇米，然後改向東南偏東伸展約二〇〇米，至此急遽轉向西北偏北伸展約一四〇米，再改向西北伸展約一八〇米，後急遽轉向東伸展約七十米，再改向東北伸展約五十米，最後轉向東伸展約二〇〇米而止於岩頭沙迴旋處，即NTA/SK/R8號圖內以紅色顯示之部份。"
+          }
+        }
+      ]
+    }
+  ]
+}

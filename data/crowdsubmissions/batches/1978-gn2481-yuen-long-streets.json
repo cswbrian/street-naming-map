@@ -1,0 +1,114 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1978-gn2481-yuen-long-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2481",
+  "publication_date": "1978-09-29",
+  "gazette_url_en": "/egazette/en/1978-gn2481.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1978/Scanned_20260621-1703.pdf",
+  "streets": [
+    {
+      "english_name": "Ma Wang Road",
+      "chinese_name": "媽橫路",
+      "history": [{
+        "publication_date": "1978-09-29",
+        "change_kind": "declare",
+        "street_name_en": "Ma Wang Road",
+        "street_name_zh": "媽橫路",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare commencing at the north-east corner of YUEN LONG TOWN LOT 154 and running in a westerly direction for about 140 metres where it bends and runs in a south-westerly direction for about 120 metres to its junction with MA MIU ROAD where it terminates, as shown coloured pink on Drawing No. NTA/YL/R25. (It should be noted that there will be an extension of this road of approx. 289 metres.)",
+          "description_raw_zh": "此路始於元朗市地段第一五四號之東北角，向西伸延約一四○米，然後轉向西南伸展約一二○米，至與媽廟路連接處終止；在NTA/YL/R25號圖則上以粉紅色顯示。（此路日後將延長約二八九米。）"
+        }
+      }]
+    },
+    {
+      "english_name": "Yuen Long On Hing Street",
+      "chinese_name": "元朗安興街",
+      "history": [{
+        "publication_date": "1978-09-29",
+        "change_kind": "declare",
+        "street_name_en": "Yuen Long On Hing Street",
+        "street_name_zh": "元朗安興街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Street commencing at its junction with ON HONG ROAD and running in an easterly direction for about 203 metres where it terminates at its junction with MA TIN ROAD as shown coloured brown on Drawing No. NTA/YL/R25.",
+          "description_raw_zh": "此街始於其與安康路之連接處向東伸展約二○三米至與馬田路連接處終止；在NTA/YL/R25號圖則上以棕色顯示。"
+        }
+      }]
+    },
+    {
+      "english_name": "Ma Tin Road",
+      "chinese_name": "馬田路",
+      "history": [{
+        "publication_date": "1978-09-29",
+        "change_kind": "declare",
+        "street_name_en": "Ma Tin Road",
+        "street_name_zh": "馬田路",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare commencing at its junction with KAU YUK ROAD and running in a southerly direction for about 100 metres to an open channel where it terminates as shown coloured green on Drawing No. NTA/YL/R25.",
+          "description_raw_zh": "此路始於其與教育路之連接處向南伸展約一百米至一明渠處終止；在NTA/YL/R25號圖則上以綠色顯示。"
+        }
+      }]
+    },
+    {
+      "english_name": "Kiu Hing Road",
+      "chinese_name": "僑興路",
+      "history": [{
+        "publication_date": "1978-09-29",
+        "change_kind": "declare",
+        "street_name_en": "Kiu Hing Road",
+        "street_name_zh": "僑興路",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare commencing at its junction with the round-about of TAI TONG ROAD near Tai Tong, Yuen Long and running generally in a south-westerly direction for about 290 metres where it bends to run in a west-north-westerly direction for about 240 metres to an open channel where it terminates as shown coloured red and hatched-black on Drawing No. NTA/YL/R22.",
+          "description_raw_zh": "此路始於其與元朗大棠附近之大棠路迴旋處之連接處，大致向西南伸展約二九○米，然後轉向西北偏西伸延約二四○米至一明渠處終止；在NTA/YL/R22號圖則上以紅色及黑斜綫顯示。"
+        }
+      }]
+    },
+    {
+      "english_name": "Kam Tin Road",
+      "chinese_name": "錦田公路",
+      "history": [{
+        "publication_date": "1978-09-29",
+        "change_kind": "declare",
+        "street_name_en": "Kam Tin Road",
+        "street_name_zh": "錦田公路",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare commencing at its junction with CASTLE PEAK ROAD YUEN LONG and CASTLE PEAK ROAD TAM MI at Yuen Long Au Tau and running in a south-easterly direction for about 1.1 kilometres then in an easterly direction for about 0.5 kilometre to its junction with an ungazetted road commonly known as \"Kam Sheung Road\", then continuing in an easterly direction for about 2.9 kilometres through Kam Tin Heung, along the northern boundary of Shek Kong Camp to its junction with FAN KAM ROAD where it runs for 1.95 kilometres in a south-easterly direction to terminate at its junction with \"Kam Sheung Road\", LAM KAM ROAD and ROUTE TWISK as shown coloured red and hatched-black on Drawing No. NTA/YL/R23.",
+          "description_raw_zh": "此公路始於青山公路元朗段及潭尾段兩者在坳頭之交滙處，向東南伸展約 1.1 公里，然後向東伸延約 0.5 公里與一條未經憲示命名之道路（通稱「錦上路」）接合再向東伸展約 2.9 公里經過錦田鄉，沿石崗軍營北面界綫至與粉錦公路之連接處，再向東南伸展 1.95公里，然後於「錦上路」，林錦公路及荃錦公路之交滙處終止；在NTA/YL/R23號圖則上以紅色及黑斜綫顯示。"
+        }
+      }]
+    },
+    {
+      "english_name": "Lam Kam Road",
+      "chinese_name": "林錦公路",
+      "history": [{
+        "publication_date": "1978-09-29",
+        "change_kind": "declare",
+        "street_name_en": "Lam Kam Road",
+        "street_name_zh": "林錦公路",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare commencing at its junction with ROUTE TWISK, KAM TIN ROAD and an ungazetted road commonly known as 'Kam Sheung Road', and running generally in a north-easterly direction for about 6.1 kilometres through the LAM TSUEN VALLEY to terminate at the junction with the TAI PO ROAD TAI WO, as shown coloured red and hatched-black on Drawing No. NTA/YL/R24.",
+          "description_raw_zh": "此公路始於荃錦公路，錦田公路及一條未經憲示命名之道路（通稱為「錦上路」）之交匯處，大致向東北伸展約 6.1 公里，經過林村谷至與大埔公路大窩段之連接處終止；在NTA/YL/R24號圖則上以紅色及黑斜線顯示。"
+        }
+      }]
+    }
+  ]
+}

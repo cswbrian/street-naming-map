@@ -1,0 +1,42 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn2145-fan-kam-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2145",
+  "publication_date": "1979-08-24",
+  "gazette_url_en": "/egazette/en/1979-gn2145.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1731.pdf",
+  "remarks": "Effective notice; G.N.714 intention notice superseded. Pages span Scanned_20260621-1731.pdf and Scanned_20260621-1731(1).pdf.",
+  "streets": [
+    {
+      "english_name": "Fan Kam Road",
+      "chinese_name": "粉錦公路",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Fan Kam Road",
+          "street_name_zh": "粉錦路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former Chinese name 粉錦路 attested in G.N.2145; replaces description in G.N.2352 of 1972."
+        },
+        {
+          "publication_date": "1979-08-24",
+          "change_kind": "rename",
+          "previous_street_name_en": "Fan Kam Road",
+          "previous_street_name_zh": "粉錦路",
+          "street_name_en": "Fan Kam Road",
+          "street_name_zh": "粉錦公路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Kam Tin Road and running north north-easterly for approximately 7.8 km to terminate at its junction with Castle Peak Road Kwu Tung and Tai Po Road Fanling as shown coloured red on Drawing No. NTA/YL/14A.",
+            "description_raw_zh": "此公路起點自與錦田公路會合處，向東北偏北伸展約七．八公里，至與青山公路古洞段及大埔公路粉嶺段之連接處為止，即 NTA/YL/14A 號圖則塗紅色所示者。"
+          }
+        }
+      ]
+    }
+  ]
+}

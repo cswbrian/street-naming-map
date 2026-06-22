@@ -1,0 +1,30 @@
+{
+  "batch_id": "1977-gn857-lok-ku-road",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 857",
+  "publication_date": "1977-04-15",
+  "gazette_url_en": "/egazette/en/1977-gn857.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1977-gn857-lok-ku-road/1977-gn857.pdf",
+  "streets": [
+    {
+      "english_name": "LOK KU ROAD",
+      "chinese_name": "樂古道",
+      "history": [
+        {
+          "publication_date": "1977-04-15",
+          "change_kind": "declare",
+          "street_name_en": "Lok Ku Road",
+          "gazette_notice_label": "Government Notification No. 857",
+          "government_notice_url_en": "/egazette/en/1977-gn857.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "樂古道"
+        }
+      ],
+      "link_street_code": "11255"
+    }
+  ],
+  "evidence_schema_version": 1
+}

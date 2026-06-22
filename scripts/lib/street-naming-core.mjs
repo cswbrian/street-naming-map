@@ -1,3 +1,8 @@
+import {
+  normalizeGazetteLocation,
+  planLabelsFromGazetteLocation,
+} from './gazette-location.mjs'
+
 export const DECLARATION_PATTERNS = [
   /declaration of street name/i,
   /宣布街道名稱/,
@@ -940,6 +945,20 @@ export function finalizeCrowdEvent(raw, index = 0) {
   const noticeTypes = noticeTypeLabelsForSource(source, changeKind, isDecl)
   const displayNames = raw.display_names ?? raw.displayNames ?? null
   const gazetteOnly = raw.gazette_only === true
+  const gazetteLocation = normalizeGazetteLocation(raw.gazette_location)
+  const planFromLocation = planLabelsFromGazetteLocation(gazetteLocation)
+  const planLabelsEn = [
+    ...new Set([
+      ...(Array.isArray(raw.related_gazette_plan_labels_en) ? raw.related_gazette_plan_labels_en : []),
+      ...planFromLocation,
+    ]),
+  ]
+  const planLabelsZh = [
+    ...new Set([
+      ...(Array.isArray(raw.related_gazette_plan_labels_zh) ? raw.related_gazette_plan_labels_zh : []),
+      ...planFromLocation,
+    ]),
+  ]
 
   const base = {
     event_id: raw.event_id ?? `crowd|${submissionId}`,
@@ -950,11 +969,11 @@ export function finalizeCrowdEvent(raw, index = 0) {
     street_name_zh: raw.street_name_zh ?? null,
     previous_street_name_en: raw.previous_street_name_en ?? null,
     previous_street_name_zh: raw.previous_street_name_zh ?? null,
-    district_raw_en: raw.district_raw_en ?? null,
-    district_raw_zh: raw.district_raw_zh ?? null,
-    notice_type_raw_en: noticeTypes.en,
-    notice_type_raw_zh: noticeTypes.zh,
-    notice_type_normalized: changeKind ?? noticeTypes.normalized,
+    district_raw_en: raw.district_raw_en ?? gazetteLocation?.parsed?.district_en ?? null,
+    district_raw_zh: raw.district_raw_zh ?? gazetteLocation?.parsed?.district_zh ?? null,
+    notice_type_raw_en: raw.notice_type_raw_en ?? noticeTypes.en,
+    notice_type_raw_zh: raw.notice_type_raw_zh ?? noticeTypes.zh,
+    notice_type_normalized: raw.notice_type_normalized ?? changeKind ?? noticeTypes.normalized,
     notice_no: noticeNo,
     government_notice_label_en: raw.government_notice_label_en ?? noticeLabels.en,
     government_notice_label_zh: raw.government_notice_label_zh ?? noticeLabels.zh,
@@ -962,8 +981,9 @@ export function finalizeCrowdEvent(raw, index = 0) {
     government_notice_url_zh: raw.government_notice_url_zh ?? null,
     related_gazette_plan_urls_en: [],
     related_gazette_plan_urls_zh: [],
-    related_gazette_plan_labels_en: [],
-    related_gazette_plan_labels_zh: [],
+    related_gazette_plan_labels_en: planLabelsEn,
+    related_gazette_plan_labels_zh: planLabelsZh,
+    gazette_location: gazetteLocation,
     is_declaration_event: isDecl,
     evidence_kind: raw.evidence_kind ?? null,
     event_role: normalizeEventRole(raw.event_role),
@@ -1060,6 +1080,14 @@ export function buildCrowdEventsFromStreetEntry(street, batchDefaults = {}) {
       supplementary_evidence: entry.supplementary_evidence ?? batchDefaults.supplementary_evidence ?? null,
       reviewed_at: entry.reviewed_at ?? batchDefaults.reviewed_at ?? null,
       source: entry.source ?? batchDefaults.source ?? null,
+      gazette_location: entry.gazette_location ?? batchDefaults.gazette_location ?? null,
+      related_gazette_plan_labels_en: entry.related_gazette_plan_labels_en ?? null,
+      related_gazette_plan_labels_zh: entry.related_gazette_plan_labels_zh ?? null,
+      notice_type_normalized: entry.notice_type_normalized ?? null,
+      notice_type_raw_en: entry.notice_type_raw_en ?? null,
+      notice_type_raw_zh: entry.notice_type_raw_zh ?? null,
+      district_raw_en: entry.district_raw_en ?? street.district_raw_en ?? null,
+      district_raw_zh: entry.district_raw_zh ?? street.district_raw_zh ?? null,
     })
   })
 }
@@ -1086,7 +1114,7 @@ export function finalizeEgazetteEvent(raw, index = 0) {
     district_raw_zh: raw.district_raw_zh ?? null,
     notice_type_raw_en: noticeTypeEn,
     notice_type_raw_zh: noticeTypeTc,
-    notice_type_normalized: normalized,
+    notice_type_normalized: raw.notice_type_normalized ?? normalized,
     notice_no: noticeNo,
     government_notice_label_en: raw.government_notice_label_en ?? null,
     government_notice_label_zh: raw.government_notice_label_zh ?? null,
@@ -1094,8 +1122,19 @@ export function finalizeEgazetteEvent(raw, index = 0) {
     government_notice_url_zh: raw.government_notice_url_zh ?? hosted.zh,
     related_gazette_plan_urls_en: raw.related_gazette_plan_urls_en ?? [],
     related_gazette_plan_urls_zh: raw.related_gazette_plan_urls_zh ?? [],
-    related_gazette_plan_labels_en: raw.related_gazette_plan_labels_en ?? [],
-    related_gazette_plan_labels_zh: raw.related_gazette_plan_labels_zh ?? [],
+    related_gazette_plan_labels_en: [
+      ...new Set([
+        ...(raw.related_gazette_plan_labels_en ?? []),
+        ...planLabelsFromGazetteLocation(normalizeGazetteLocation(raw.gazette_location)),
+      ]),
+    ],
+    related_gazette_plan_labels_zh: [
+      ...new Set([
+        ...(raw.related_gazette_plan_labels_zh ?? []),
+        ...planLabelsFromGazetteLocation(normalizeGazetteLocation(raw.gazette_location)),
+      ]),
+    ],
+    gazette_location: normalizeGazetteLocation(raw.gazette_location),
     is_declaration_event: isDecl,
     evidence_kind: resolveEvidenceKind(raw) ?? (hosted.en || hosted.zh ? 'gazette_primary' : 'unknown'),
     derived_from: normalizeDerivedFrom(raw.derived_from),

@@ -1,0 +1,974 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1975-gn1693-tuen-mun-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1693",
+  "publication_date": "1975-08-01",
+  "gazette_url_en": "/egazette/en/1975-gn1693.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1975/Scanned_20260621-1642.pdf",
+  "remarks": "Tat Yan Square (open space) omitted per open-space naming scope.",
+  "streets": [
+    {
+      "english_name": "Pui To Road",
+      "chinese_name": "杯渡路",
+      "history": [
+        {
+          "publication_date": "1975-08-01",
+          "change_kind": "declare",
+          "street_name_en": "Pui To Road",
+          "street_name_zh": "杯渡路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Castle Peak Road at Wong Ka Wai running in a west south-westerly direction for 427 m. and then bends to run in a west north-westerly direction for about 640 m. where it terminates, as shown coloured dark green on Drawing No. TMM 108.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "TMM 108",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Castle Peak Road at Wong Ka Wai running in a west south-westerly direction for 427 m"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Tuen Mun Heung Sze Wui Road",
+      "chinese_name": "屯門鄉事會路",
+      "history": [
+        {
+          "publication_date": "1975-08-01",
+          "change_kind": "declare",
+          "street_name_en": "Tuen Mun Heung Sze Wui Road",
+          "street_name_zh": "屯門鄉事會路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Pui To Road and running north north-westerly for about 110 m. and bending to run north north-easterly for about 310 m. where it terminates, as shown coloured pink hatched black on Drawing No. TMM 108.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "TMM 108",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Pui To Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Ho Pong Street",
+      "chinese_name": "河傍街",
+      "history": [
+        {
+          "publication_date": "1975-08-01",
+          "change_kind": "declare",
+          "street_name_en": "Ho Pong Street",
+          "street_name_zh": "河傍街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with Pui To Road and running in a north north-easterly direction along a river channel for about 450 m. where it turns east south-easterly to run for about 80 m. to terminate at the junction with Tuen Mun Heung Sze Wui Road, as shown coloured beige hatched black on Drawing No. TMM 108.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "TMM 108",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Pui To Road",
+                "Tuen Mun Heung Sze Wui Road, as shown coloured beige hatched black on Drawing No"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Ming Oi Street",
+      "chinese_name": "明愛街",
+      "history": [
+        {
+          "publication_date": "1975-08-01",
+          "change_kind": "declare",
+          "street_name_en": "Ming Oi Street",
+          "street_name_zh": "明愛街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with Ho Pong Street and running in an east south-easterly direction for about 80 m. to its junction with Tuen Mun Heung Sze Wui Road where it terminates, as shown coloured yellow on Drawing No. TMM 108.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "TMM 108",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Ho Pong Street",
+                "Tuen Mun Heung Sze Wui Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Ming Ngai Street",
+      "chinese_name": "明藝街",
+      "history": [
+        {
+          "publication_date": "1975-08-01",
+          "change_kind": "declare",
+          "street_name_en": "Ming Ngai Street",
+          "street_name_zh": "明藝街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with Ho Pong Street and running in an east south-easterly direction for about 76 m. to terminate at its junction with Tuen Mun Heung Sze Wui Road, as shown coloured green hatched black on Drawing No. TMM 108.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "TMM 108",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Ho Pong Street",
+                "Tuen Mun Heung Sze Wui Road, as shown coloured green hatched black on Drawing No"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Yan Ching Circuit",
+      "chinese_name": "仁政街",
+      "history": [
+        {
+          "publication_date": "1975-08-01",
+          "change_kind": "declare",
+          "street_name_en": "Yan Ching Circuit",
+          "street_name_zh": "仁政街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Circuit commencing at its junction with Tuen Mun Heung Sze Wui Road and Ming Oi Street, about 160 m. north of Pui To Road, and running east south-easterly for about 110 m. then turning to run in a north north-easterly direction for about 230 m. and then turning to run in a west north-westerly direction for 110 m. where it terminates at its junction with Tuen Mun Heung Sze Wui Road, as shown coloured green cross-hatched black and green hatched red on Drawing No. TMM 108. (It should be noted that the section of road hatched red, comprising approx. half the length of the circuit, has not yet been surfaced.)",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": true,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "TMM 108",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Tuen Mun Heung Sze Wui Road",
+                "Tuen Mun Heung Sze Wui Road, as shown coloured green cross-hatched black"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Kai Man Street",
+      "chinese_name": "啟民街",
+      "history": [
+        {
+          "publication_date": "1975-08-01",
+          "change_kind": "declare",
+          "street_name_en": "Kai Man Street",
+          "street_name_zh": "啟民街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Proposed street (to be formed), 40 m. east of and running paralleled to Tuen Mun Heung Sze Wui Road, running in a north north-easterly direction from the southern section of Yan Ching Circuit for about 215 m. to rejoin the northern section of Yan Ching Circuit where it terminates, as shown in broken brown line cross-hatched black on Drawing No. TMM 108.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": true,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "TMM 108",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Kai Fat Path",
+      "chinese_name": "啟發徑",
+      "history": [
+        {
+          "publication_date": "1975-08-01",
+          "change_kind": "declare",
+          "street_name_en": "Kai Fat Path",
+          "street_name_zh": "啟發徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Path commencing at its junction with Pui To Road and running north north-easterly for about 102 m. where it terminates, as shown blue hatched black on Drawing No. TMM 108.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "TMM 108",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Pui To Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Tak Ching Court",
+      "chinese_name": "德政圍",
+      "history": [
+        {
+          "publication_date": "1975-08-01",
+          "change_kind": "declare",
+          "street_name_en": "Tak Ching Court",
+          "street_name_zh": "德政圍",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Court commencing at its junction with Yan Ching Circuit and running in a southerly direction for about 40 m. where it spans the open space surrounded by buildings and extending in an easterly direction to join Kai Fat Path where it terminates, as shown coloured purple cross-hatched black on Drawing No. TMM 108.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": true,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "TMM 108",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Yan Ching Circuit"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Yan Oi Tong Circuit",
+      "chinese_name": "仁愛堂街",
+      "history": [
+        {
+          "publication_date": "1975-08-01",
+          "change_kind": "declare",
+          "street_name_en": "Yan Oi Tong Circuit",
+          "street_name_zh": "仁愛堂街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Circuit commencing at its junction with Castle Peak Road, San Hui, approx. 90 m. north of Pui To Road, and running westerly for about 64 m. where it turns to run north north-westerly for about 114 m. and then turning easterly for 64 m. to rejoin Castle Peak Road, as shown coloured beige on Drawing No. TMM 108.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "TMM 108",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Castle Peak Road, San Hui, approx"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Tin Hau Road",
+      "chinese_name": "天后路",
+      "history": [
+        {
+          "publication_date": "1975-08-01",
+          "change_kind": "declare",
+          "street_name_en": "Tin Hau Road",
+          "street_name_zh": "天后路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Pui To Road, about 220 m. west of San Fat Estate, and running generally in a southerly direction for about 336 m., then along the river channel for about 305 m., where it bends to run westerly for about 420 m. where it terminates, as shown coloured purple on Drawing No. TMM 108.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "TMM 108",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Pui To Road, about 220 m"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "San Hop Lane",
+      "chinese_name": "新合里",
+      "history": [
+        {
+          "publication_date": "1975-08-01",
+          "change_kind": "declare",
+          "street_name_en": "San Hop Lane",
+          "street_name_zh": "新合里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "A cul-de-sac commencing at its junction with Tin Hau Road, about 160 m. south of Pui To Road, and running east north-east for 50 m., then bends to run northerly for about 70 m. where it terminates in a turning circle as shown coloured yellow hatched black on Drawing No. TMM 108.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "cul_de_sac",
+              "is_cul_de_sac": true,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "TMM 108",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Tin Hau Road, about 160 m"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Hung Cheung Road",
+      "chinese_name": "洪祥路",
+      "history": [
+        {
+          "publication_date": "1975-08-01",
+          "change_kind": "declare",
+          "street_name_en": "Hung Cheung Road",
+          "street_name_zh": "洪祥路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Pui To Road about 150 m. west of Tin Hau Road and running generally in a southerly direction for about 440 m. and then bending to run westerly for about 150 m. where it terminates at its junction with Tin Hau Road, as shown coloured yellow cross-hatched black on Drawing No. TMM 108.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "TMM 108",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Pui To Road about 150 m",
+                "Tin Hau Road, as shown coloured yellow cross-hatched black on Drawing No"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "San On Street",
+      "chinese_name": "新安街",
+      "history": [
+        {
+          "publication_date": "1975-08-01",
+          "change_kind": "declare",
+          "street_name_en": "San On Street",
+          "street_name_zh": "新安街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with Hung Cheung Road about 65 m. south of Pui To Road and running east south-east for about 90 m. where it bends to run south south-east for about 310 m. to terminate at its junction with Hung Cheung Road, about 45 m. west of Tin Hau Road, as shown coloured light green on Drawing No. TMM 108.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "TMM 108",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Hung Cheung Road about 65 m",
+                "Hung Cheung Road, about 45 m"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Hing Wong Street",
+      "chinese_name": "興旺街",
+      "history": [
+        {
+          "publication_date": "1975-08-01",
+          "change_kind": "declare",
+          "street_name_en": "Hing Wong Street",
+          "street_name_zh": "興旺街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with San On Street running westerly for about 42 m. where it turns to run in a generally southerly direction for about 185 m. where it terminates at its junction with Hung Cheung Road, as shown coloured blue cross-hatched black on Drawing No. TMM 108.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "TMM 108",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "San On Street running westerly for about 42 m",
+                "Hung Cheung Road, as shown coloured blue cross-hatched black on Drawing No"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "San Ping Circuit",
+      "chinese_name": "新平街",
+      "history": [
+        {
+          "publication_date": "1975-08-01",
+          "change_kind": "declare",
+          "street_name_en": "San Ping Circuit",
+          "street_name_zh": "新平街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Circuit commencing at its junction with Hung Cheung Road, about 70 m. south of Pui To Road and running westerly for about 160 m., then bends to run southerly for about 210 m. and then turns to run easterly for about 130 m. to terminate at its junction with Hung Cheung Road, about 270 m. south of Pui To Road, as shown coloured pink on Drawing No. TMM 108.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "TMM 108",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Hung Cheung Road, about 70 m",
+                "Hung Cheung Road, about 270 m"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "San Yick Lane",
+      "chinese_name": "新益里",
+      "history": [
+        {
+          "publication_date": "1975-08-01",
+          "change_kind": "declare",
+          "street_name_en": "San Yick Lane",
+          "street_name_zh": "新益里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "A short cul-de-sac commencing at its junction with the northern section of San Ping Circuit and run in a northerly direction for about 46 m. where it terminates, as shown coloured purple hatched black on Drawing No. TMM 108.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "cul_de_sac",
+              "is_cul_de_sac": true,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "TMM 108",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "the northern section of San Ping Circuit"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "San Lik Street",
+      "chinese_name": "新力街",
+      "history": [
+        {
+          "publication_date": "1975-08-01",
+          "change_kind": "declare",
+          "street_name_en": "San Lik Street",
+          "street_name_zh": "新力街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with the northern section of San Ping Circuit, about 75 m. west of Hung Cheung Road, and running in a southerly direction for 210 m. to terminate at its junction with the southern section of San Ping Circuit as shown coloured blue on Drawing No. TMM 108.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "TMM 108",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "the northern section of San Ping Circuit, about 75 m",
+                "the southern section of San Ping Circuit as shown coloured blue on Drawing No"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

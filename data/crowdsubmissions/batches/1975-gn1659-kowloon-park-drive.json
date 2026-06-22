@@ -1,0 +1,66 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1975-gn1659-kowloon-park-drive",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1659",
+  "publication_date": "1975-07-25",
+  "gazette_url_en": "/egazette/en/1975-gn1659.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1975/Scanned_20260621-1640.pdf",
+  "streets": [
+    {
+      "english_name": "Kowloon Park Drive",
+      "chinese_name": "九龍公園徑",
+      "history": [
+        {
+          "publication_date": "1975-07-25",
+          "change_kind": "declare",
+          "street_name_en": "Kowloon Park Drive",
+          "street_name_zh": "九龍公園徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Salisbury Road about 50 metres west of Hankow Road running in a northerly direction for a distance of about 520 metres, then turning northwestward for about 120 metres and terminating at its junction with Canton Road about 210 metres north of Haiphong Road as shown coloured red on drawing No. KH 1576/1.",
+            "description_raw_zh": "此街道起點在漢口道以西約五十公尺與梳士巴利道會合之處，向北行約五百二十公尺，然後向西北行約一百二十公尺，至海防道以北約二百一十公尺與廣東道會合之處終結。（在KH1576/1號圖則上用紅色標明）",
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "KH 1576/1",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Salisbury Road about 50 metres west of Hankow Road running in a northerly direction for a distance of about 520 metres, then turning northwestward for about 120 metres",
+                "Canton Road about 210 metres north of Haiphong Road as shown coloured red on drawing No"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

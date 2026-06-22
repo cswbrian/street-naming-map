@@ -1,0 +1,30 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1960-gn468-jordan-path",
+  "gazette_notice_label": "G.N.468",
+  "publication_date": "1960-03-18",
+  "gazette_url_en": "/egazette/en/1960-gn468.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1960.pdf",
+  "streets": [
+    {
+      "english_name": "Jordan Path",
+      "chinese_name": "佐敦里",
+      "history": [
+        {
+          "publication_date": "1960-03-18",
+          "change_kind": "declare",
+          "street_name_en": "Jordan Path",
+          "street_name_zh": "佐敦里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Public Footpath leading from a point in Austin Road 170 yards west of the junction of Austin Road with Chatham Road to a point in Jordan Road, 60 yards east of the junction of Jordan Road with Cox's Road as shown coloured pink on Drawing No. R.K. 1105."
+          }
+        }
+      ]
+    }
+  ]
+}

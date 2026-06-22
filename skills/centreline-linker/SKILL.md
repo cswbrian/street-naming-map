@@ -18,7 +18,7 @@ The map shows naming years only when an **active** link connects `event_ids` →
 - `npm run report:unmapped-events` shows a growing queue
 - Homonym disambiguation (two streets, same English name)
 
-**Not this skill:** parsing gazette PDFs → [apply-egazette-naming](../apply-egazette-naming/SKILL.md) or [parse-hkgro-gazettes](../parse-hkgro-gazettes/SKILL.md). Editing event text → [street-naming-master](../street-naming-master/SKILL.md).
+**Not this skill:** parsing gazette PDFs → [apply-egazette-naming](../apply-egazette-naming/SKILL.md) or [parse-gazette-street-events](../parse-gazette-street-events/SKILL.md). Editing event text → [street-naming-master](../street-naming-master/SKILL.md).
 
 ## Workflow
 

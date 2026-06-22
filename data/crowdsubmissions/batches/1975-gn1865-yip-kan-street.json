@@ -1,0 +1,65 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1975-gn1865-yip-kan-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1865",
+  "publication_date": "1975-08-22",
+  "gazette_url_en": "/egazette/en/1975-gn1865.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1975/Scanned_20260621-1643.pdf",
+  "streets": [
+    {
+      "english_name": "Yip Kan Street",
+      "chinese_name": "業勤街",
+      "history": [
+        {
+          "publication_date": "1975-08-22",
+          "change_kind": "declare",
+          "street_name_en": "Yip Kan Street",
+          "street_name_zh": "業勤街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare behind Houses Nos. 19-45, Wong Chuk Hang Road, shown coloured pink on drawing No. HH 2608, commencing at its junction with Wong Chuk Hang Road, running north for 30 metres, turning easterly for approximately 400 metres until it meets Aberdeen Fire Station, then turning south for 30 metres and terminating back at Wong Chuk Hang Road.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "HH 2608",
+                  "color": "pink",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Wong Chuk Hang Road, running north for 30 metres, turning easterly for approximately 400 metres until it meets Aberdeen Fire Station, then turning south for 30 metres"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

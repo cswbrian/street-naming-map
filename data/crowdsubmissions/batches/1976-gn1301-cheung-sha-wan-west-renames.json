@@ -1,0 +1,129 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1976-gn1301-cheung-sha-wan-west-renames",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1301",
+  "publication_date": "1976-06-18",
+  "gazette_url_en": "/egazette/en/1976-gn1301.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1976/Scanned_20260621-1609.pdf",
+  "remarks": "Effective renames confirming G.N.403/1976-02-20 proposal.",
+  "streets": [
+    {
+      "english_name": "Tung Chau West Street",
+      "chinese_name": "通州西街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Tung Chau Street",
+          "street_name_zh": "通州街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former section name attested in G.N.1301 rename notice."
+        },
+        {
+          "publication_date": "1976-06-18",
+          "change_kind": "rename",
+          "previous_street_name_en": "Tung Chau Street",
+          "previous_street_name_zh": "通州街",
+          "street_name_en": "Tung Chau West Street",
+          "street_name_zh": "通州西街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare, formerly a section of Tung Chau Street as shown coloured brown hatched black on drawing No. KH 1201/2, commencing from Cheung Sha Wan Road about 150 m. east of Kom Tsun Street and terminating at King Lam Street.",
+            "description_raw_zh": "此街道前屬通州街之一段（位置在 KH 1201/2 號圖則內用棕色底黑間綫標明），其起點在長沙灣道距甘泉街以東約一百五十公尺之處，而終點則位於瓊林街。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Yee Kuk West Street",
+      "chinese_name": "醫局西街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Yee Kuk Street",
+          "street_name_zh": "醫局街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former section name attested in G.N.1301 rename notice."
+        },
+        {
+          "publication_date": "1976-06-18",
+          "change_kind": "rename",
+          "previous_street_name_en": "Yee Kuk Street",
+          "previous_street_name_zh": "醫局街",
+          "street_name_en": "Yee Kuk West Street",
+          "street_name_zh": "醫局西街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare, formerly a section of Yee Kuk Street as shown coloured blue hatched black on drawing No. KH 1201/2, commencing from Castle Peak Road about 140 m. east of Tung Chau West Street referred to above and terminating at King Lam Street.",
+            "description_raw_zh": "此街道前屬醫局街之一段（位置在 KH 1201/2 號圖則內用藍色底黑間綫標明），其起點在青山道距上述之通州西街以東約一百四十公尺之處，而終點則位於瓊林街。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Tai Nan West Street",
+      "chinese_name": "大南西街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Tai Nan Street",
+          "street_name_zh": "大南街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former section name attested in G.N.1301 rename notice."
+        },
+        {
+          "publication_date": "1976-06-18",
+          "change_kind": "rename",
+          "previous_street_name_en": "Tai Nan Street",
+          "previous_street_name_zh": "大南街",
+          "street_name_en": "Tai Nan West Street",
+          "street_name_zh": "大南西街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare, formerly a section of Tai Nan Street as shown coloured green hatched black on drawing No. KH 1201/2, commencing from Cheung Sha Wan Road about 300 m. east of Tung Chau West Street referred to above and terminating at King Lam Street.",
+            "description_raw_zh": "此街道前屬大南街之一段（位置在 KH 1201/2 號圖則內用綠色底黑間綫標明），其起點在長沙灣道距上述之通州西街以東約三百公尺之處，而終點則位於瓊林街。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Yu Chau West Street",
+      "chinese_name": "汝州西街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Yu Chau Street",
+          "street_name_zh": "汝州街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former section name attested in G.N.1301 rename notice."
+        },
+        {
+          "publication_date": "1976-06-18",
+          "change_kind": "rename",
+          "previous_street_name_en": "Yu Chau Street",
+          "previous_street_name_zh": "汝州街",
+          "street_name_en": "Yu Chau West Street",
+          "street_name_zh": "汝州西街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare, formerly a section of Yu Chau Street as shown coloured yellow hatched black on drawing No. KH 1201/2, commencing from Castle Peak Road about 140 m. east of Tai Nan West Street referred to above and terminating at King Lam Street.",
+            "description_raw_zh": "此街道前屬汝州街之一段（位置在 KH 1201/2 號圖則內用黃色底黑間綫標明），其起點在青山道距上述之大南西街以東約一百四十公尺之處，而終點則位於瓊林街。"
+          }
+        }
+      ]
+    }
+  ]
+}

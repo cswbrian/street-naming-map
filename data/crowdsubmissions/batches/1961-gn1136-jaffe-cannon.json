@@ -1,0 +1,48 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1961-gn1136-jaffe-cannon",
+  "gazette_notice_label": "G.N.1136",
+  "publication_date": "1961-07-07",
+  "gazette_url_en": "/egazette/en/1961-gn1136.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1961 (~1961.08).pdf",
+  "streets": [
+    {
+      "english_name": "Jaffe Road",
+      "chinese_name": "謝斐道",
+      "history": [
+        {
+          "publication_date": "1961-07-07",
+          "change_kind": "declare",
+          "street_name_en": "Jaffe Road",
+          "street_name_zh": "謝斐道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Jaffe Lane running in an easterly direction continuing the line of Jaffe Road for a distance of 150 ft. where it meets the eastern boundary of M.L. 52 R.P. as shown coloured pink on Drawing No. R.H. 853D."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Cannon Street",
+      "chinese_name": "景隆街",
+      "history": [
+        {
+          "publication_date": "1961-07-07",
+          "change_kind": "declare",
+          "street_name_en": "Cannon Street",
+          "street_name_zh": "景隆街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Jaffe Road running in a northerly direction continuing the line of Jaffe Lane for a distance of 120 ft. and then in a northwesterly direction for 150 ft. where it meets the north western boundary of M.L. 52 R.P. as shown coloured green on Drawing No. R.H. 853D."
+          }
+        }
+      ]
+    }
+  ]
+}

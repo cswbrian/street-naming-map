@@ -1,0 +1,63 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1976-gn2874-kowloon-bay-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2874",
+  "publication_date": "1976-12-24",
+  "gazette_url_en": "/egazette/en/1976-gn2874.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1976/Scanned_20260621-1622.pdf",
+  "streets": [
+    {
+      "english_name": "Shun Yip Street",
+      "chinese_name": "順業街",
+      "history": [{
+        "publication_date": "1976-12-24",
+        "change_kind": "declare",
+        "street_name_en": "Shun Yip Street",
+        "street_name_zh": "順業街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare, about 65 m. long, commencing at its junction with Hoi Bun Road, running along the south-eastern side of Blocks 1 and 2 of Kowloon Bay Factory Estate and terminating at its junction with Wai Yip Street, as shown coloured blue on drawing No. KH 2081/1.",
+          "description_raw_zh": "此街道全長約六十五公尺，由其與海濱道會合之處起，沿九龍灣工廠大廈第一及第二座之東南部伸展，至其與偉業街會合處止，其位置經在 KH 2081/1 號圖則內用藍色標明。"
+        }
+      }]
+    },
+    {
+      "english_name": "Hung Yip Street",
+      "chinese_name": "鴻業街",
+      "history": [{
+        "publication_date": "1976-12-24",
+        "change_kind": "declare",
+        "street_name_en": "Hung Yip Street",
+        "street_name_zh": "鴻業街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare, about 39 m. long, commencing at its junction with Hoi Bun Road, running along the north-western side of Block 2 of Kowloon Bay Factory Estate and terminating at its junction with an internal street separating Blocks 1 and 2 of the above Estate, as shown coloured yellow on drawing No. KH 2081/1.",
+          "description_raw_zh": "此街道全長約三十九公尺，由其與海濱道會合之處起，沿九龍灣工廠大廈第二座之西北部伸展，至其與該大廈第一、第二座間之內街會合處止，其位置經在 KH 2081/1 號圖則內用黃色標明。"
+        }
+      }]
+    },
+    {
+      "english_name": "Foo Yip Street",
+      "chinese_name": "富業街",
+      "history": [{
+        "publication_date": "1976-12-24",
+        "change_kind": "delete",
+        "street_name_en": "Foo Yip Street",
+        "street_name_zh": "富業街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "name_removed",
+        "notice_type_normalized": "deletion",
+        "gazette_location": {
+          "description_raw_en": "Notice is also given that Foo Yip Street (富業街) no longer exists in the above area.",
+          "description_raw_zh": "此外，上述地區內現時並無富業街。"
+        }
+      }]
+    }
+  ]
+}

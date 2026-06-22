@@ -1,0 +1,66 @@
+{
+  "batch_id": "1977-gn858-chai-wan-streets",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 858",
+  "publication_date": "1977-04-15",
+  "gazette_url_en": "/egazette/en/1977-gn858.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1977-gn858-chai-wan-streets/1977-gn858.pdf",
+  "streets": [
+    {
+      "english_name": "SAN HA STREET",
+      "chinese_name": "新廈街",
+      "history": [
+        {
+          "publication_date": "1977-04-15",
+          "change_kind": "declare",
+          "street_name_en": "San Ha Street",
+          "gazette_notice_label": "Government Notification No. 858",
+          "government_notice_url_en": "/egazette/en/1977-gn858.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "新廈街"
+        }
+      ],
+      "link_street_code": "11884"
+    },
+    {
+      "english_name": "WING PING STREET",
+      "chinese_name": "永平街",
+      "history": [
+        {
+          "publication_date": "1977-04-15",
+          "change_kind": "declare",
+          "street_name_en": "Wing Ping Street",
+          "gazette_notice_label": "Government Notification No. 858",
+          "government_notice_url_en": "/egazette/en/1977-gn858.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "永平街"
+        }
+      ],
+      "link_street_code": "12739"
+    },
+    {
+      "english_name": "HONG PING STREET",
+      "chinese_name": "康平街",
+      "history": [
+        {
+          "publication_date": "1977-04-15",
+          "change_kind": "declare",
+          "street_name_en": "Hong Ping Street",
+          "gazette_notice_label": "Government Notification No. 858",
+          "government_notice_url_en": "/egazette/en/1977-gn858.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "康平街"
+        }
+      ],
+      "link_street_code": "10836"
+    }
+  ],
+  "evidence_schema_version": 1
+}

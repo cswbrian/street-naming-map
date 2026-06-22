@@ -1,0 +1,41 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1961-gn50-fu-yan-street",
+  "gazette_notice_label": "G.N.50",
+  "publication_date": "1961-01-13",
+  "gazette_url_en": "/egazette/en/1961-gn50.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1961 (~1961.08).pdf",
+  "remarks": "Effective rename from Fu Yan Lane; G.N.1862/1960-12-02 was intention notice.",
+  "streets": [
+    {
+      "english_name": "Fu Yan Street",
+      "chinese_name": "輔仁街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Fu Yan Lane",
+          "street_name_zh": "輔仁里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former name attested in G.N.50 rename notice."
+        },
+        {
+          "publication_date": "1961-01-13",
+          "change_kind": "rename",
+          "previous_street_name_en": "Fu Yan Lane",
+          "previous_street_name_zh": "輔仁里",
+          "street_name_en": "Fu Yan Street",
+          "street_name_zh": "輔仁街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Road formerly named Fu Yan Lane extending from existing Fu Yan Street running south from its junction at Mut Wah Road for approximately 300 feet, then south-west for approximately 80 feet up to its junction with Yue Man Square as shown coloured red in plan R.K. 1201."
+          }
+        }
+      ]
+    }
+  ]
+}

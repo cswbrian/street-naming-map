@@ -1,0 +1,31 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn3193-shum-wan-pier-drive",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3193",
+  "publication_date": "1979-12-07",
+  "gazette_url_en": "/egazette/en/1979-gn3193.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1738.pdf",
+  "streets": [
+    {
+      "english_name": "Shum Wan Pier Drive",
+      "chinese_name": "深灣碼頭徑",
+      "history": [
+        {
+          "publication_date": "1979-12-07",
+          "change_kind": "declare",
+          "street_name_en": "Shum Wan Pier Drive",
+          "street_name_zh": "深灣碼頭徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured red on Drawing No. HH 3556 commencing at its junction with Shum Wan Road running in a north-westerly direction for about 150 m and terminating at a roundabout adjacent to the public pier.",
+            "description_raw_zh": "此街道在 HH 3556 號圖則內用紅色標明，起點與深灣道會合，向西北伸展約一百五十米，終點位於公眾碼頭毗連之迴旋處。"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1978-gn465-tsim-sha-tsui-renames",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.465",
+  "publication_date": "1978-02-24",
+  "gazette_url_en": "/egazette/en/1978-gn465.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1978/Scanned_20260621-1651.pdf",
+  "remarks": "G.N.464 on page 1 of same scan.",
+  "streets": [
+    {
+      "english_name": "Hau Fook Street",
+      "chinese_name": "厚福街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Salisbury Avenue",
+          "street_name_zh": "梳士巴利路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former name attested in G.N.465 rename notice."
+        },
+        {
+          "publication_date": "1978-02-24",
+          "change_kind": "rename",
+          "previous_street_name_en": "Salisbury Avenue",
+          "previous_street_name_zh": "梳士巴利路",
+          "street_name_en": "Hau Fook Street",
+          "street_name_zh": "厚福街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing at its junction with Carnarvon Road and running eastwards for approximately 90 m.",
+            "description_raw_zh": "此盡頭路起點與加拿芬道會合，向東伸展約九十公尺。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Kimberley Street",
+      "chinese_name": "金巴利街",
+      "history": [{
+        "publication_date": "1978-02-24",
+        "change_kind": "rename",
+        "previous_street_name_en": "Kimberley Street",
+        "previous_street_name_zh": "今巴利街",
+        "street_name_en": "Kimberley Street",
+        "street_name_zh": "金巴利街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "chinese_correction",
+        "submitter_remarks": "Chinese name change only; English unchanged per notice.",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare running from Observatory Road to Carnarvon Road.",
+          "description_raw_zh": "此街道由天文台道伸展至加拿芬道。"
+        }
+      }]
+    }
+  ]
+}

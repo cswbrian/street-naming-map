@@ -1,0 +1,48 @@
+{
+  "batch_id": "1977-gn1134-tai-po-roads",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 1134",
+  "publication_date": "1977-05-10",
+  "gazette_url_en": "/egazette/en/1977-gn1134.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1977-gn1134-tai-po-roads/1977-gn1134.pdf",
+  "streets": [
+    {
+      "english_name": "KAM TSIN ROAD",
+      "chinese_name": "金錢路",
+      "history": [
+        {
+          "publication_date": "1977-05-10",
+          "change_kind": "declare",
+          "street_name_en": "Kam Tsin Road",
+          "gazette_notice_label": "Government Notification No. 1134",
+          "government_notice_url_en": "/egazette/en/1977-gn1134.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "金錢路"
+        }
+      ],
+      "link_street_code": "10962"
+    },
+    {
+      "english_name": "HANG TAU ROAD",
+      "chinese_name": "坑頭路",
+      "history": [
+        {
+          "publication_date": "1977-05-10",
+          "change_kind": "declare",
+          "street_name_en": "Hang Tau Road",
+          "gazette_notice_label": "Government Notification No. 1134",
+          "government_notice_url_en": "/egazette/en/1977-gn1134.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "坑頭路"
+        }
+      ],
+      "link_street_code": "10654"
+    }
+  ],
+  "evidence_schema_version": 1
+}

@@ -1,11 +1,13 @@
 ---
 name: apply-egazette-naming
-description: Parse Lands Department eGazette street-naming notices (egn/cgn PDFs from egazette.gld.gov.hk), build history[] events, and upsert into street-events.json via /apply-egazette-naming. Batch source is crowdsubmitted (not hkgro). Use parse-hkgro-gazettes for sunzi/HKGRO colonial scans only.
+description: Parse Lands Department eGazette street-naming notices (egn/cgn PDFs from egazette.gld.gov.hk), build history[] events with gazette-only text, and upsert into street-events.json. Batch source is crowdsubmitted (not hkgro). Colonial HKGRO image scans → parse-gazette-street-events.
 ---
 
 # Apply Lands Department eGazette naming events
 
 Parse **modern Lands Department** street-naming notices from the government e-Gazette (`egn…` / `cgn…` PDFs) and upsert naming events into **street-naming-map**.
+
+**Shared parse rules (mandatory):** [gazette-parse-principles.md](../gazette-parse-principles.md) — all names and descriptions from the egn/cgn pair only; geojson for linking/mismatch flags; no online inference.
 
 **Event model:** [event-model.md](../event-model.md) (reference) — every apply must upsert full `history[]` events. Skill routing: [README.md](../README.md).
 
@@ -17,7 +19,16 @@ Parse **modern Lands Department** street-naming notices from the government e-Ga
 | Lands Dept 街道命名 / 宣布街道名稱 / 取代街道說明 notices | Bulk harvest pipeline (`npm run merge:egazette`) — see [docs/egazette-pipeline.md](../docs/egazette-pipeline.md) |
 | Community-verified PDF drops with structured batch JSON | Direct LandsD CSV scrape (`source: landsd`) |
 
-Colonial HKGRO scans → [parse-hkgro-gazettes](../parse-hkgro-gazettes/SKILL.md).
+Colonial HKGRO scans → [parse-gazette-street-events](../parse-gazette-street-events/SKILL.md).
+
+## Gazette-only parsing
+
+Read [gazette-parse-principles.md](../gazette-parse-principles.md) before apply.
+
+1. **English** from `egn…`; **Chinese** from `cgn…` for the **same** G.N. — do not fill ZH from geojson or hk-place.
+2. **Description** block → `gazette_location.description_raw_en` / `description_raw_zh` + `parsed` (length, plan no., junctions).
+3. **`--match`** / geojson: set `link_street_code` when confident; use `submitter_remarks` only for **EN/ZH mismatch** or **parser/OCR fixes** (e.g. spaced caps), not to paste external “correct” names.
+4. Upgrade draft `history[]` after parse — `parse-crowd-gazette-pdf.mjs` often misclassifies ZH-only rename (G.N.4332), replace_description (G.N.5399), intention notices (G.N.3412).
 
 ## Pipeline routing (batch `source` field)
 
@@ -35,7 +46,27 @@ Typical input (any of):
 - Publication date (e.g. `17/12/2004`)
 - List of Chinese and/or English street names
 
-Goal: upsert gazette facts via `history[]`, host PDFs, set **來源** `gazette_primary`. Map years update only when `link_street_code` or a linker connects `street-centreline-map.json` (see [centreline-linker](../centreline-linker/SKILL.md)).
+Goal: upsert gazette facts via `history[]`, host PDFs, set **來源** `gazette_primary`, and **push naming dates to the map** when a unique centreline match exists (`link_street_code` → `street-centreline-map.json` → `npm run rebuild:naming`).
+
+## Map linking (mandatory when match exists)
+
+After events are verified, **always apply with centreline auto-match** so verified naming dates appear on the map:
+
+```bash
+node scripts/apply-crowd-batch.mjs path/to/batch.json
+```
+
+`apply-crowd-batch.mjs` **auto-matches by default** for `gazette_only` batches: it loads pending/verified roads, sets `link_street_code` when EN+ZH (or unique EN or unique ZH) matches geojson, upserts `street-centreline-map.json`, and runs `rebuild:naming`.
+
+| Flag | Effect |
+|------|--------|
+| *(default)* | Auto-match + link + rebuild |
+| `--no-match` | Events only; no map dates (linker queue) |
+| `--match` | Explicit (same as default for gazette batches) |
+
+**Gazette names stay gazette-only** — geojson is used only to pick `STREETCODE` and flag EN/ZH mismatch (never to fill missing ZH). Homonyms with no unique match stay unlinked; use [centreline-linker](../centreline-linker/SKILL.md) manually.
+
+Parse step (`parse-crowd-gazette-pdf.mjs --match`) still previews matches in the draft JSON; **apply** performs the actual map link.
 
 ## Mandatory `history[]`
 
@@ -96,23 +127,25 @@ Writes `data/crowdsubmissions/batches/{year}-gn{no}-draft.json` by default. Pass
 
 2. **If `status: needs_visual_parse`** (image-only scan, no text layer):
    - Render pages: `python3 scripts/render-gazette-pdf.py "<pdf>" --page 0 --out /tmp/p1.png`
-   - Read PNGs visually and fill draft JSON: G.N., `publication_date`, each street’s EN/ZH (and `link_street_code` when matched)
-   - **Do not** transcribe gazette location/DESCRIPTION text into the batch
+   - Read PNGs visually; transcribe **from the scan only** per [gazette-parse-principles.md](../gazette-parse-principles.md)
+   - Put DESCRIPTION in `gazette_location`, not `submitter_remarks`
 
 3. **Classify events** — check notice type (declare / rename / replace_description / delete). Upgrade draft `history[]` per [event-model.md](../event-model.md).
 
-4. **Show draft to user for verification** — G.N., date, and `--match` table. When geojson match is confident, set `link_street_code`; otherwise apply gazette facts only and leave linking to [centreline-linker](../centreline-linker/SKILL.md).
+4. **Show draft to user for verification** — G.N., date, and `--match` table from parse step.
 
-5. **Apply only after user confirms**:
+5. **Apply** (auto-links map when centreline match is unique):
 
 ```bash
 node scripts/apply-crowd-batch.mjs data/crowdsubmissions/batches/…-draft.json
 ```
 
+Report: events upserted, `✓ … → STREETCODE` match lines, centreline links updated, rebuild complete.
+
 ### B. User provides structured fields (no PDF parse)
 
 1. **Build batch JSON** with `history[]` on every street (see template below).
-2. **Run the batch script**:
+2. **Run the batch script** (auto-match + map rebuild by default):
 
 ```bash
 node scripts/apply-crowd-batch.mjs /tmp/batch.json
@@ -132,11 +165,11 @@ PDFs are copied to `batch-inbox/`, published to `public/egazette/`, and stored a
 | Colonial Urban Council / thoroughfare table | text from scan/OCR | `colonial_thoroughfare` |
 | Image-only scan | `needs_visual_parse` | Agent transcribes from rendered PNGs |
 
-**`submitter_remarks`:** omit when EN+ZH match the database; include **only** for gazette/database name mismatches.
+**`submitter_remarks`:** omit when gazette EN+ZH match geojson; include for **mismatch**, **OCR/parser uncertainty**, or former-name standard lines only — see [gazette-parse-principles.md](../gazette-parse-principles.md).
 
 ## Batch JSON shape
 
-Template: `data/crowdsubmissions/batch-template.json` (`evidence_schema_version: 1`)
+Template: `data/crowdsubmissions/batch-template.json` (`evidence_schema_version: 2`)
 
 ```json
 {
@@ -198,25 +231,28 @@ See `docs/street-name-history-schema.md` for full field reference.
 
 ### Agent checklist (before apply)
 
-1. Run `--match` on the draft; read match table (`✓` / `✗` per street).
-2. Copy gazette **Chinese + English** into batch JSON.
+1. Run `--match` on parse draft when starting from PDF (preview only).
+2. Copy gazette **Chinese + English** into batch JSON (not from geojson).
 3. Confirm every street has non-empty `history[]` with `evidence_kind` and `event_role`.
 4. For `取代街道說明`, use Previous G.N. dates — not the citing G.N. date.
 5. Set `gazette_url_en` / `gazette_url_zh` when auto-derivation from filenames may fail.
+6. Apply **without** `--no-match` unless homonyms need manual [centreline-linker](../centreline-linker/SKILL.md).
 
 ### Post-apply checklist
 
-**Events (always):**
+**Events + map (default apply path):**
 
 1. Grep `event_id` in `street-events.json` — count matches `history[]` rows.
 2. Hosted PDF at `/egazette/en/{stem}.pdf`; `npm run lint:gazettes` passes.
 3. Row visible on `/{locale}/timelines`.
+4. Console shows `✓ {name} → {STREETCODE}` for linked streets.
+5. `rg 'code:CODE' data/master/street-centreline-map.json` — `event_ids` include new rows.
+6. Map chip **舊稱** labels correct; **來源** → G.N. PDF; centerline `map_year` / `naming_year` updated after rebuild.
+7. Linked streets appear in **最近核實** when canonical naming date set.
 
-**Map (only if `link_street_code` or linker applied):**
+**Events only (`--no-match`):**
 
-4. `rg 'code:CODE' data/master/street-centreline-map.json` — `event_ids` include new rows.
-5. Map chip **舊稱** labels correct; **來源** → G.N. PDF; centerline `map_year` matches.
-6. Street in **最近核實** when linked + canonical naming date set.
+4–7 deferred — run linker or re-apply without `--no-match`.
 
 ## What the script updates
 
@@ -233,7 +269,8 @@ See `docs/street-name-history-schema.md` for full field reference.
 | Command | Purpose |
 |---------|---------|
 | `node scripts/parse-crowd-gazette-pdf.mjs <pdf> [--match]` | PDF → draft batch JSON |
-| `node scripts/apply-crowd-batch.mjs <json>` | Apply batch → master events |
+| `node scripts/apply-crowd-batch.mjs <json>` | Apply batch → master events + **auto centreline link** + rebuild |
+| `node scripts/apply-crowd-batch.mjs <json> --no-match` | Events only (no map dates) |
 | `npm run publish:crowd-gazettes` | Publish inbox PDFs + update URLs |
 | `npm run rebuild:naming` | Rebuild geojson after master/map changes |
 | `npm run report:unmapped-events` | Linker queue after parser-only apply |
@@ -244,7 +281,7 @@ See `docs/street-name-history-schema.md` for full field reference.
 
 1. `node scripts/parse-crowd-gazette-pdf.mjs "…egn….pdf" --match`
 2. Classify `history[]` per [event-model.md](../event-model.md); add `pdf_zh`, verify matches.
-3. `node scripts/apply-crowd-batch.mjs …-draft.json`
+3. `node scripts/apply-crowd-batch.mjs …-draft.json` (links map when matches exist)
 
 ## Example: structured message
 

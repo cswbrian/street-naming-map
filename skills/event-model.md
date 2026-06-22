@@ -1,10 +1,10 @@
 # Street event model (batch `history[]` → master)
 
-**Reference annex — not a standalone workflow.** Loaded via [apply-egazette-naming](apply-egazette-naming/SKILL.md), [parse-hkgro-gazettes](parse-hkgro-gazettes/SKILL.md), [research-street-history](research-street-history/SKILL.md), or [street-naming-master](street-naming-master/SKILL.md). Routing: [skills/README.md](README.md).
+**Reference annex — not a standalone workflow.** Loaded via [apply-egazette-naming](apply-egazette-naming/SKILL.md), [parse-gazette-street-events](parse-gazette-street-events/SKILL.md), [research-street-history](research-street-history/SKILL.md), or [street-naming-master](street-naming-master/SKILL.md). Routing: [skills/README.md](README.md).
 
-Full field schema: [`docs/street-name-history-schema.md`](../docs/street-name-history-schema.md).
+Full field schema: [`docs/street-name-history-schema.md`](../docs/street-name-history-schema.md). Gazette-only parse rules: [gazette-parse-principles.md](gazette-parse-principles.md).
 
-**Skills:** Modern Lands Dept eGazette PDFs → [apply-egazette-naming/SKILL.md](apply-egazette-naming/SKILL.md). Colonial HKGRO scans → [parse-hkgro-gazettes/SKILL.md](parse-hkgro-gazettes/SKILL.md).
+**Skills:** Modern Lands Dept eGazette PDFs → [apply-egazette-naming/SKILL.md](apply-egazette-naming/SKILL.md). Colonial HKGRO scans → [parse-gazette-street-events/SKILL.md](parse-gazette-street-events/SKILL.md).
 
 **After apply:** events → [`data/master/street-events.json`](../data/master/street-events.json). Map display → [`data/master/street-centreline-map.json`](../data/master/street-centreline-map.json) ([centreline-linker/SKILL.md](centreline-linker/SKILL.md)).
 
@@ -102,8 +102,39 @@ Each `history[]` entry should set `evidence_kind` and `event_role` explicitly.
 | `government_notice_url_en` | Primary gazette | `/egazette/en/{year}-gn{no}.pdf` |
 | `derived_from` | `gazette_inferred` | Citation chain from citing notice to cited G.N. |
 | `supplementary_evidence` | Research/news | Per-event extra documents |
-| `submitter_remarks` | Name mismatch or EN-only | e.g. `Gazette ZH 連合道; database 連道.` — omit when EN+ZH match. Note when ZH omitted because source is English-only. |
+| `submitter_remarks` | Name mismatch or EN-only | e.g. `Gazette ZH 連合道; database 連道.` — omit when EN+ZH match. Note when ZH omitted because source is English-only. **Never** bulk DESCRIPTION OCR — use `gazette_location` |
+| `gazette_location` | When DESCRIPTION exists | Raw + parsed location from gazette only ([schema](../docs/street-name-history-schema.md#gazette_location-schema-v2)) |
 | `street_name_zh` / `previous_street_name_zh` | Per source | **Null** if the cited document has no Chinese for that name — do not copy from `parsed-notices.json` / hk-place guesses ([research-street-history](research-street-history/SKILL.md)) |
+
+## Pattern matrix (A–R)
+
+Reference corpus: 1961–2024 (~63 naming G.N.s). Patterns classify notice wording; timeline axes stay **`change_kind` + `event_role`**. Full gazette cues: [gazette-patterns.md](parse-gazette-street-events/gazette-patterns.md).
+
+| Pattern | Gazette cue | `change_kind` | `history[]` rows | `event_role` | Key fields / notes |
+|---------|-------------|---------------|------------------|--------------|---------------------|
+| **A** | New thoroughfare; “to be known for the future” | `declare` | 1 | `current_name` | `gazette_location` from DESCRIPTION |
+| **A′** | “continuation of …” / 延續 | `extend` | 1 | `current_name` | Does not replace canonical `declare` date |
+| **B** | Lane absorption; multi declare table | `extend` or `rename` | 1–2 | `current_name` | G.N.50 Fu Yan Lane → Street |
+| **C** | Present Name → New Name | `rename` | 2 if no prior G.N. | `former_name` + `current_name` | Undated former row + dated rename |
+| **D** | ZH-only correction; EN unchanged | `rename` | 1–2 | `current_name` | `notice_type_normalized: chinese_correction`; G.N.4332, G.N.1459 |
+| **E** | Segment split (5-col or 3-col) | `extend`/`rename` | 1 per segment | `current_name` | G.N.1335, G.N.2702; `split_boundary_en` |
+| **F** | “replace that set out in G.N. …” | — | **0 at cite date** | — | Backfill cited G.N.; `gazette_inferred`; G.N.5399 |
+| **G** | Name discontinued / abolished | `delete` | 1 | `name_removed` | G.N.851 |
+| **H** | Gazette mention (non-naming) | `declare` | 1 | varies | `is_declaration_event: false`; `gazette_mention` |
+| **I** | Merge rename (N → 1) | `rename` | N former + 1 | `former_name` × N + `current_name` | `merged_from_en/zh[]`; G.N.1866 |
+| **J** | Gazetteer harmonization (EN fix) | `rename` | 1 | `current_name` | `notice_type_normalized: gazetteer_harmonization` |
+| **K** | Paragraph rename | `rename` | 1–2 | same as C | G.N.996 |
+| **L** | Proposed street | `declare`/`extend` | 1 | `current_name` | `parsed.is_proposed: true` |
+| **M** | Suffix pending removal | `declare` now | 1+ | `current_name` | `parsed.suffix_pending_removal: true` |
+| **N** | Proposal → enactment | `declare`/`extend` | proposal + final | `current_name` | `derived_from` G.N.51 → G.N.1335 |
+| **O** | Compound former name in one cell | `rename` | 2+ per row | `former_name` × N | `merged_from_en/zh[]` |
+| **P** | Obstructed / unformed | `declare` | 1 | `current_name` | `parsed.is_partially_formed: true` |
+| **Q** | Inclusive boundary loop | `declare` | 1 | `current_name` | `parsed.includes_boundary_sections: true` |
+| **R** | Intention to change (s.111C(2)) | `rename` (demoted) | 1 | `current_name` | `gazette_inferred`; `parsed.is_proposed: true`; G.N.3412 |
+
+**Pattern F workflow:** Do not create an event at the citing G.N. date. Extract cited G.N. label(s), set `publication_date` from cited notice when known, attach amended `gazette_location` on backfilled row, host citing PDF on `derived_from` citing side.
+
+**Pattern R workflow:** Record intention with `evidence_kind: gazette_inferred` and `is_declaration_event: false`. Upgrade to `gazette_primary` when final declaration G.N. is confirmed.
 
 ## Scenario examples
 

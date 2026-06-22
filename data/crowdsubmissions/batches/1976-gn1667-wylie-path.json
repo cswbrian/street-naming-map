@@ -1,0 +1,27 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1976-gn1667-wylie-path",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1667",
+  "publication_date": "1976-07-30",
+  "gazette_url_en": "/egazette/en/1976-gn1667.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1976/Scanned_20260621-1612.pdf",
+  "streets": [{
+    "english_name": "Wylie Path",
+    "chinese_name": "衛理徑",
+    "history": [{
+      "publication_date": "1976-07-30",
+      "change_kind": "declare",
+      "street_name_en": "Wylie Path",
+      "street_name_zh": "衛理徑",
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "notice_type_normalized": "declaration",
+      "gazette_location": {
+        "description_raw_en": "Cul-de-sac as shown coloured red on Drawing No. KH 2003/1A, commencing at its junction with Wylie Road about 120 m. north of Gascoigne Road, running in a easterly direction for about 70 m., turning northerly for a distance of about 60 m., then north-easterly for about 75 m. and continuing in a south-easterly direction for a distance of about 110 m. before terminating at Wylie Court. This cul-de-sac includes a short section of about 50 m. long which branches out at its first bend and terminates at the Urban Council and Urban Services Staff Recreation Club.",
+        "description_raw_zh": "此路徑為盡頭路，位置在 KH 2003/1A 號圖則上用紅色標明，起點在加士居道以北約一百二十公尺處與衛理道會合，向東行約七十公尺，然後轉北行約六十公尺，再轉向東北行約七十五公尺，繼續向東南行約一百一十公尺，終點在「蕙園」大廈前。由此路徑第一個彎角伸出至市政局及市政事務署職員遊樂會會所為止之一段長約五十公尺之短支路，亦包括在此路徑之內。"
+      }
+    }]
+  }]
+}

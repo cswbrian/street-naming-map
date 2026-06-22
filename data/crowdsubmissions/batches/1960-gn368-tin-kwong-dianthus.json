@@ -1,0 +1,48 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1960-gn368-tin-kwong-dianthus",
+  "gazette_notice_label": "G.N.368",
+  "publication_date": "1960-03-04",
+  "gazette_url_en": "/egazette/en/1960-gn368.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1960.pdf",
+  "streets": [
+    {
+      "english_name": "Tin Kwong Road",
+      "chinese_name": "天光道",
+      "history": [
+        {
+          "publication_date": "1960-03-04",
+          "change_kind": "declare",
+          "street_name_en": "Tin Kwong Road",
+          "street_name_zh": "天光道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Ma Tau Wei Road, approximately 320 feet South of the junction with Farm Road, running West for approximately 550 feet, thence for approximately 200 feet in curve, thence North-west for approximately 1,400 feet terminating at Argyle Street, coloured red on Drawing No. R.K. 1018."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Dianthus Road",
+      "chinese_name": "石竹路",
+      "history": [
+        {
+          "publication_date": "1960-03-04",
+          "change_kind": "declare",
+          "street_name_en": "Dianthus Road",
+          "street_name_zh": "石竹路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Tat Chee Avenue, on the opposite side of Dianthus Road junction with Tat Chee Avenue, running North-South-East as Dianthus Road for approximately 280 feet and terminating at the western boundary of Kowloon-Canton Railway as shown coloured pink on Drawing No. R.K. 1112."
+          }
+        }
+      ]
+    }
+  ]
+}

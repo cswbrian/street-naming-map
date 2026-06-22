@@ -1,0 +1,30 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1960-gn467-mission-road-cancel",
+  "gazette_notice_label": "G.N.467",
+  "publication_date": "1960-03-18",
+  "gazette_url_en": "/egazette/en/1960-gn467.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1960.pdf",
+  "streets": [
+    {
+      "english_name": "Mission Road",
+      "chinese_name": "教會道",
+      "history": [
+        {
+          "publication_date": "1960-03-18",
+          "change_kind": "delete",
+          "street_name_en": "Mission Road",
+          "street_name_zh": "教會道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "name_removed",
+          "notice_type_normalized": "deletion",
+          "gazette_location": {
+            "description_raw_en": "It is hereby notified that the following street name in Volume II of the 1956 Index of Streets has been cancelled:— MISSION ROAD 教會道"
+          }
+        }
+      ]
+    }
+  ]
+}

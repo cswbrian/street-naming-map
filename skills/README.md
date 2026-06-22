@@ -15,7 +15,7 @@ Your task
 │   └─ apply-egazette-naming/SKILL.md
 │
 ├─ Colonial HKGRO scan (617826.pdf, sunzi, TIF2PDF)
-│   └─ parse-hkgro-gazettes/SKILL.md
+│   └─ parse-gazette-street-events/SKILL.md
 │       ├─ gazette-patterns.md   (notice layout)
 │       └─ examples.md           (walkthroughs)
 │
@@ -32,7 +32,8 @@ Your task
     └─ centreline-linker/SKILL.md
 
 Classifying history[] rows
-└─ event-model.md (reference)
+├─ event-model.md (reference)
+└─ gazette-parse-principles.md (gazette-only text; mismatches)
 ```
 
 ## Guides
@@ -40,7 +41,7 @@ Classifying history[] rows
 | Name | File | Use when |
 |------|------|----------|
 | research-street-history | [research-street-history/SKILL.md](research-street-history/SKILL.md) | Earliest gazette/news/legal mention; rename chains; `*_mention` evidence |
-| parse-hkgro-gazettes | [parse-hkgro-gazettes/SKILL.md](parse-hkgro-gazettes/SKILL.md) | HKGRO colonial scans; naming table parse |
+| parse-gazette-street-events | [parse-gazette-street-events/SKILL.md](parse-gazette-street-events/SKILL.md) | HKGRO colonial scans; naming table parse |
 | apply-egazette-naming | [apply-egazette-naming/SKILL.md](apply-egazette-naming/SKILL.md) | Lands Dept `egn`/`cgn` PDFs |
 | centreline-linker | [centreline-linker/SKILL.md](centreline-linker/SKILL.md) | Connect events to today’s centreline map |
 | gazette-files | [gazette-files/SKILL.md](gazette-files/SKILL.md) | Publish PDFs, fix 來源 URLs |
@@ -50,9 +51,10 @@ Classifying history[] rows
 
 | File | Purpose |
 |------|---------|
+| [gazette-parse-principles.md](gazette-parse-principles.md) | Gazette-only text; allowed references; mismatch / OCR reporting |
 | [event-model.md](event-model.md) | `history[]` decision tree, `change_kind` / `event_role` |
-| [parse-hkgro-gazettes/gazette-patterns.md](parse-hkgro-gazettes/gazette-patterns.md) | Colonial notice layouts |
-| [parse-hkgro-gazettes/examples.md](parse-hkgro-gazettes/examples.md) | HKGRO walkthroughs |
+| [parse-gazette-street-events/gazette-patterns.md](parse-gazette-street-events/gazette-patterns.md) | Colonial notice layouts |
+| [parse-gazette-street-events/examples.md](parse-gazette-street-events/examples.md) | HKGRO walkthroughs |
 
 ## Using with your tool
 

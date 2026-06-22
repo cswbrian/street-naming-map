@@ -1,0 +1,83 @@
+{
+  "batch_id": "1977-gn1311-sai-kung-roads",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 1311",
+  "publication_date": "1977-06-10",
+  "gazette_url_en": "/egazette/en/1977-gn1311.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1977-gn1311-sai-kung-roads/1977-gn1311.pdf",
+  "streets": [
+    {
+      "english_name": "HIRAM'S HIGHWAY",
+      "chinese_name": "西貢公路",
+      "history": [
+        {
+          "publication_date": "1977-06-10",
+          "change_kind": "declare",
+          "street_name_en": "Hiram's Highway",
+          "gazette_notice_label": "Government Notification No. 1311",
+          "government_notice_url_en": "/egazette/en/1977-gn1311.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "西貢公路"
+        }
+      ],
+      "link_street_code": "10741"
+    },
+    {
+      "english_name": "SILVERSTRAND BEACH ROAD",
+      "chinese_name": "銀綫灣道",
+      "history": [
+        {
+          "publication_date": "1977-06-10",
+          "change_kind": "declare",
+          "street_name_en": "Silverstrand Beach Road",
+          "gazette_notice_label": "Government Notification No. 1311",
+          "government_notice_url_en": "/egazette/en/1977-gn1311.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "銀綫灣道"
+        }
+      ],
+      "link_street_code": "12110"
+    },
+    {
+      "english_name": "SAI KUNG WING LUNG ROAD",
+      "chinese_name": "西貢永隆道",
+      "history": [
+        {
+          "publication_date": "1977-06-10",
+          "change_kind": "declare",
+          "street_name_en": "Sai Kung Wing Lung Road",
+          "gazette_notice_label": "Government Notification No. 1311",
+          "government_notice_url_en": "/egazette/en/1977-gn1311.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "西貢永隆道"
+        }
+      ]
+    },
+    {
+      "english_name": "HANG HAU ROAD",
+      "chinese_name": "坑口道",
+      "history": [
+        {
+          "publication_date": "1977-06-10",
+          "change_kind": "declare",
+          "street_name_en": "Hang Hau Road",
+          "gazette_notice_label": "Government Notification No. 1311",
+          "government_notice_url_en": "/egazette/en/1977-gn1311.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "坑口道"
+        }
+      ],
+      "link_street_code": "10646"
+    }
+  ],
+  "evidence_schema_version": 1
+}

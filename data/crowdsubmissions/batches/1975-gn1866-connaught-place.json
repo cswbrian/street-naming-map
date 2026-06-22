@@ -1,0 +1,94 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1975-gn1866-connaught-place",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1866",
+  "publication_date": "1975-08-22",
+  "gazette_url_en": "/egazette/en/1975-gn1866.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1975/Scanned_20260621-1643.pdf",
+  "remarks": "Merge rename: Hoi Lok, Sing Lok, Yee Lok → Connaught Place. Former names from G.N.1381/1974-01-31 per notice.",
+  "streets": [
+    {
+      "english_name": "Connaught Place",
+      "chinese_name": "康樂廣場",
+      "history": [
+        {
+          "submission_id": "1975-gn1866-former-hoi-lok",
+          "change_kind": "declare",
+          "event_role": "former_name",
+          "street_name_en": "Hoi Lok Street",
+          "street_name_zh": "海樂街",
+          "evidence_kind": "gazette_primary",
+          "submitter_remarks": "Former name attested in G.N.1866 merge rename notice; originally G.N.1381/1974-01-31."
+        },
+        {
+          "submission_id": "1975-gn1866-former-sing-lok",
+          "change_kind": "declare",
+          "event_role": "former_name",
+          "street_name_en": "Sing Lok Street",
+          "street_name_zh": "星樂街",
+          "evidence_kind": "gazette_primary",
+          "submitter_remarks": "Former name attested in G.N.1866 merge rename notice; originally G.N.1381/1974-01-31."
+        },
+        {
+          "submission_id": "1975-gn1866-former-yee-lok",
+          "change_kind": "declare",
+          "event_role": "former_name",
+          "street_name_en": "Yee Lok Street",
+          "street_name_zh": "怡樂街",
+          "evidence_kind": "gazette_primary",
+          "submitter_remarks": "Former name attested in G.N.1866 merge rename notice; originally G.N.1381/1974-01-31."
+        },
+        {
+          "publication_date": "1975-08-22",
+          "change_kind": "rename",
+          "previous_street_name_en": "Hoi Lok Street",
+          "previous_street_name_zh": "海樂街",
+          "street_name_en": "Connaught Place",
+          "street_name_zh": "康樂廣場",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "submitter_remarks": "Merge rename from Hoi Lok, Sing Lok and Yee Lok Streets.",
+          "gazette_location": {
+            "description_raw_en": "Roads commencing at junctions with Connaught Road Central on both the eastern and western ends of I.L. 8225, running north for approximately 400 ft., including the section along the northern boundary of I.L. 8225 for approximately 300 ft., shown coloured pink on Drawing No. HH 2587.",
+            "description_raw_zh": "位於干諾道中東西兩端之內地段第八二二五號，向北伸展約四百呎，包括沿內地段第八二二五號北邊界約三百呎之一段。（在HH2587號圖則上用粉紅色標明）",
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "HH 2587",
+                  "color": "pink",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

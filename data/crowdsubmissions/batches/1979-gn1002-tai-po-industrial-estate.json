@@ -1,0 +1,89 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn1002-tai-po-industrial-estate",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1002",
+  "publication_date": "1979-04-20",
+  "gazette_url_en": "/egazette/en/1979-gn1002.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1720.pdf",
+  "remarks": "Pages span Scanned_20260621-1720.pdf and Scanned_20260621-1720(1).pdf.",
+  "streets": [
+    {
+      "english_name": "Dai Kwai Street",
+      "chinese_name": "大貴街",
+      "history": [
+        {
+          "publication_date": "1979-04-20",
+          "change_kind": "declare",
+          "street_name_en": "Dai Kwai Street",
+          "street_name_zh": "大貴街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TING KOK ROAD, to the east of Ha Hang, and running in a southerly direction for about 617 metres where it temporarily terminates as shown coloured green on Drawing No. NTA/TP/R56. (It should be noted that there will be an extension of this street of about 155 metres in Stage II of the Tai Po Industrial Estate.)",
+            "description_raw_zh": "此街道由與下坑以東之汀角路連接處開始，向南伸展約六一七米，然後暫時終結；在 NTA/TP/R56 號圖則內以綠色顯示。（註：此街道於進行大埔工業邨第二期工程時將予延長約一五五米。）"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Dai Fu Street",
+      "chinese_name": "大富街",
+      "history": [
+        {
+          "publication_date": "1979-04-20",
+          "change_kind": "declare",
+          "street_name_en": "Dai Fu Street",
+          "street_name_zh": "大富街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with DAI KWAI STREET and running in a westerly direction for about 340 metres where it bends to run southerly for about 142 metres where it temporarily terminates as shown coloured pink on Drawing No. NTA/TP/R56. (It should be noted that there will be an extension of this street of about 325 metres in Stage II of the Tai Po Industrial Estate.)",
+            "description_raw_zh": "此街道由與大貴街之連接處開始，向西伸展約三四〇米，再改向南伸展約一四二米，然後暫時終結；在 NTA/TP/R56 號圖則內以粉紅色顯示。（註：此街道於進行大埔工業邨第二期工程時將予延長約三二五米。）"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Dai Shun Street",
+      "chinese_name": "大順街",
+      "history": [
+        {
+          "publication_date": "1979-04-20",
+          "change_kind": "declare",
+          "street_name_en": "Dai Shun Street",
+          "street_name_zh": "大順街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with DAI FU STREET and running in a southerly direction for about 140 metres where it temporarily terminates as shown coloured yellow on Drawing No. NTA/TP/R56. (It should be noted that there will be an extension of this street of about 320 metres in Stage II of the Tai Po Industrial Estate.)",
+            "description_raw_zh": "此街道由與大富街之連接處開始，向南伸展約一四〇米，然後暫時終結；在 NTA/TP/R56 號圖則內以黃色顯示。（註：此街道於進行大埔工業邨第二期工程時將予延長約三二〇米。）"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Dai Li Street",
+      "chinese_name": "大利街",
+      "history": [
+        {
+          "publication_date": "1979-04-20",
+          "change_kind": "declare",
+          "street_name_en": "Dai Li Street",
+          "street_name_zh": "大利街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with DAI KWAI STREET and running in an easterly direction for about 208 metres where it terminates as shown coloured orange on Drawing No. NTA/TP/R56.",
+            "description_raw_zh": "此街道由與大貴街之連接處開始，向東伸展約二〇八米止；在 NTA/TP/R56 號圖則內以橙色顯示。"
+          }
+        }
+      ]
+    }
+  ]
+}

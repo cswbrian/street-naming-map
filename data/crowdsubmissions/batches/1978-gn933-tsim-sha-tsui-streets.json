@@ -1,0 +1,81 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1978-gn933-tsim-sha-tsui-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.933",
+  "publication_date": "1978-04-14",
+  "gazette_url_en": "/egazette/en/1978-gn933.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1978/Scanned_20260621-1653.pdf",
+  "remarks": "G.N.934 on page 2 of same scan.",
+  "streets": [
+    {
+      "english_name": "Hing Cheung Road",
+      "chinese_name": "興祥道",
+      "history": [{
+        "publication_date": "1978-04-14",
+        "change_kind": "declare",
+        "street_name_en": "Hing Cheung Road",
+        "street_name_zh": "興祥道",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare, as shown coloured yellow on drawing No. KH 2388/1, commencing at its junction with Cheong Wan Road, about 100 m. from the junction of Cheong Wan Road and Chatham Road, running in a southerly direction for a distance of approximately 400 m. and terminating at its junction with Salisbury Road.",
+          "description_raw_zh": "此街道之起點與暢運道會合，離暢運道與漆咸道交界處約一百公尺，向南伸展約四百公尺，終點與梳士巴利道會合，其位置在 KH2388/1 號圖則上用黃色標明。"
+        }
+      }]
+    },
+    {
+      "english_name": "Ming Kwong Road",
+      "chinese_name": "明光道",
+      "history": [{
+        "publication_date": "1978-04-14",
+        "change_kind": "declare",
+        "street_name_en": "Ming Kwong Road",
+        "street_name_zh": "明光道",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare, as shown coloured green on drawing No. KH 2388/1, commencing opposite the junction of Chatham Road and Granville Road, running in an easterly direction for a distance of approximately 250 m. and terminating at its junction with Hing Cheung Road referred to above.",
+          "description_raw_zh": "此街道之起點位於漆咸道與加連威老道交界處之對面，向東伸展約二百五十公尺，終點與上述之興祥道會合，其位置在 KH2388/1 號圖則上用黃色標明。"
+        }
+      }]
+    },
+    {
+      "english_name": "Ching Yee Road",
+      "chinese_name": "正義道",
+      "history": [{
+        "publication_date": "1978-04-14",
+        "change_kind": "declare",
+        "street_name_en": "Ching Yee Road",
+        "street_name_zh": "正義道",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare, as shown coloured pink on drawing No. KH 2388/1, commencing opposite the junction of Chatham Road and Mody Road, running in an easterly direction for a distance of approximately 550 m. and parallel to Salisbury Road, and terminating at its junction with Hing Cheung Road referred to above.",
+          "description_raw_zh": "此街道之起點位於漆咸道與麼地道交界處之對面，向東伸展約五百五十公尺，並與梳士巴利道平行，終點與上述之興祥道會合，其位置在 KH2388/1 號圖則上用粉紅色標明。"
+        }
+      }]
+    },
+    {
+      "english_name": "Ching Hay Street",
+      "chinese_name": "正氣街",
+      "history": [{
+        "publication_date": "1978-04-14",
+        "change_kind": "declare",
+        "street_name_en": "Ching Hay Street",
+        "street_name_zh": "正氣街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare, as shown coloured blue on drawing No. KH 2388/1, running in a northerly direction for approximately 70 m., linking Salisbury Road to Ching Yee Road referred to above.",
+          "description_raw_zh": "此街道向北伸展，連接梳士巴利道與上述之正義道，全長約七十公尺，其位置在 KH2388/1 號圖則上用藍色標明。"
+        }
+      }]
+    }
+  ]
+}

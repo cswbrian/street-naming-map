@@ -1,0 +1,138 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1960-gn1060-mei-wa-streets",
+  "gazette_notice_label": "G.N.1060",
+  "publication_date": "1960-07-08",
+  "gazette_url_en": "/egazette/en/1960-gn1060.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1960.pdf",
+  "streets": [
+    {
+      "english_name": "Mei Wa Street",
+      "chinese_name": "美華街",
+      "history": [
+        {
+          "publication_date": "1960-07-08",
+          "change_kind": "declare",
+          "street_name_en": "Mei Wa Street",
+          "street_name_zh": "美華街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing from Ha Heung Road at 1,100 feet south of Ha Heung Road and Lok Shan Road junction, running South-eastward for 1,150 feet between K.I.L. 4148 S.A. R.P. and K.I.L. 4148 S.A. ss 1 to the boundary of K.I.L. 4148 S.B. as shown coloured red in Plan R.K. 1131."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Lai Wa Street",
+      "chinese_name": "麗華街",
+      "history": [
+        {
+          "publication_date": "1960-07-08",
+          "change_kind": "declare",
+          "street_name_en": "Lai Wa Street",
+          "street_name_zh": "麗華街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing from Ha Heung Road opposite junction with Sze Chuen Street running South-eastward for 900 feet between K.I.L. 4148 S.A. ss 1 and K.I.L. 4148 R.P. as shown coloured blue in Plan R.K. 1131."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Mong Lung Street",
+      "chinese_name": "望隆街",
+      "history": [
+        {
+          "publication_date": "1960-07-08",
+          "change_kind": "declare",
+          "street_name_en": "Mong Lung Street",
+          "street_name_zh": "望隆街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing from its junction with Kam Wa Street forming an extension to Mong Lung Street running North-eastwards for a distance of about 47 yards terminating at its junction with Po Man Street as shown coloured red in drawing R.H. 848B."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Wang Wa Street",
+      "chinese_name": "宏華街",
+      "history": [
+        {
+          "publication_date": "1960-07-08",
+          "change_kind": "declare",
+          "street_name_en": "Wang Wa Street",
+          "street_name_zh": "宏華街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing from its junction with Factory Street running North-eastwards for a distance of about 105 yards as shown coloured blue in drawing R.H. 848B."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Yue Ko Street",
+      "chinese_name": "漁歌街",
+      "history": [
+        {
+          "publication_date": "1960-07-08",
+          "change_kind": "declare",
+          "street_name_en": "Yue Ko Street",
+          "street_name_zh": "漁歌街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing from its junction with Island Road running Southwards terminating at the southern boundary of A.I.L. 162 as shown coloured green on drawing R.H. 1217."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Yue Wok Street",
+      "chinese_name": "漁獲街",
+      "history": [
+        {
+          "publication_date": "1960-07-08",
+          "change_kind": "declare",
+          "street_name_en": "Yue Wok Street",
+          "street_name_zh": "漁獲街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing from its junction with Yue Ko Street running parallel to the Island Road in a westerly direction for a distance of about 105 yards as shown coloured yellow on drawing R.H. 1217."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Yue Lei Street",
+      "chinese_name": "漁利街",
+      "history": [
+        {
+          "publication_date": "1960-07-08",
+          "change_kind": "declare",
+          "street_name_en": "Yue Lei Street",
+          "street_name_zh": "漁利街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing from a point 50 yards at the eastern side of its junction with Yue Ko Street running Westwards for a distance of about 170 yards as shown coloured pink on drawing R.H. 1217."
+          }
+        }
+      ]
+    }
+  ]
+}

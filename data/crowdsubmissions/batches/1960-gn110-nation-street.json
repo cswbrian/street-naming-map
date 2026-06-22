@@ -1,0 +1,30 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1960-gn110-nation-street",
+  "gazette_notice_label": "G.N.110",
+  "publication_date": "1960-01-22",
+  "gazette_url_en": "/egazette/en/1960-gn110.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1960.pdf",
+  "streets": [
+    {
+      "english_name": "Nation Street",
+      "chinese_name": "禮信街",
+      "history": [
+        {
+          "publication_date": "1960-01-22",
+          "change_kind": "declare",
+          "street_name_en": "Nation Street",
+          "street_name_zh": "禮信街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing from Healthy Street East running parallel to and at the Southern side of King's Road, terminating at the Western boundary line of I.L. 3507 as shown coloured pink in Drawing No. R.H. 1072A."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1978-gn1459-zh-renames",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1459",
+  "publication_date": "1978-06-09",
+  "gazette_url_en": "/egazette/en/1978-gn1459.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1978/Scanned_20260621-1656.pdf",
+  "streets": [
+    {
+      "english_name": "Jervois Street",
+      "chinese_name": "蘇杭街",
+      "history": [{
+        "publication_date": "1978-06-09",
+        "change_kind": "rename",
+        "previous_street_name_en": "Jervois Street",
+        "previous_street_name_zh": "乍畏街",
+        "street_name_en": "Jervois Street",
+        "street_name_zh": "蘇杭街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "chinese_correction",
+        "submitter_remarks": "Chinese name change only; English unchanged per notice.",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare commencing at its junction with Queen's Road Central and Bonham Strand and running westwards to Morrison Street.",
+          "description_raw_zh": "此街道起點與皇后大道中及文咸東街會合，向西行至摩利臣街止。"
+        }
+      }]
+    },
+    {
+      "english_name": "Bluff Path",
+      "chinese_name": "百祿徑",
+      "history": [{
+        "publication_date": "1978-06-09",
+        "change_kind": "rename",
+        "previous_street_name_en": "Bluff Path",
+        "previous_street_name_zh": "布刺符路",
+        "street_name_en": "Bluff Path",
+        "street_name_zh": "百祿徑",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "chinese_correction",
+        "submitter_remarks": "Chinese name change only; English unchanged per notice.",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare commencing at its junction with Peak Road and running north-eastwards to Gough Hill Road.",
+          "description_raw_zh": "此街道起點與山頂道會合，向東北行至歌賦山道止。"
+        }
+      }]
+    },
+    {
+      "english_name": "Shelter Street",
+      "chinese_name": "信德街",
+      "history": [{
+        "publication_date": "1978-06-09",
+        "change_kind": "rename",
+        "previous_street_name_en": "Shelter Street",
+        "previous_street_name_zh": "舒潦濤街",
+        "street_name_en": "Shelter Street",
+        "street_name_zh": "信德街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "chinese_correction",
+        "submitter_remarks": "Chinese name change only; English unchanged per notice.",
+        "gazette_location": {
+          "description_raw_en": "Cul-de-sac commencing at its junction with Causeway Road and running southwards.",
+          "description_raw_zh": "此街道為盡頭路，其起點與高士威道會合，然後向南行。"
+        }
+      }]
+    }
+  ]
+}

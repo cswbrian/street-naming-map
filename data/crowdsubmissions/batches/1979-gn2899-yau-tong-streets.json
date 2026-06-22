@@ -1,0 +1,50 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn2899-yau-tong-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2899",
+  "publication_date": "1979-11-09",
+  "gazette_url_en": "/egazette/en/1979-gn2899.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1735.pdf",
+  "streets": [
+    {
+      "english_name": "Yan Wing Street",
+      "chinese_name": "欣榮街",
+      "history": [
+        {
+          "publication_date": "1979-11-09",
+          "change_kind": "declare",
+          "street_name_en": "Yan Wing Street",
+          "street_name_zh": "欣榮街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare shown coloured pink on Drawing No. KH 3010/1, commencing at its junction with Ko Chiu Road, running in a southerly direction for about 115 m and then turning south-westerly for about 120 m and terminating at its junction with Cha Kwo Ling Road.",
+            "description_raw_zh": "此道路在 KH 3010/1 號圖則上以粉紅色標明，起點在高超道交界處，向南伸展約一百一十五米，轉向西南伸展約一百二十米，終點在茶果嶺道交界處。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Ka Wing Street",
+      "chinese_name": "嘉榮街",
+      "history": [
+        {
+          "publication_date": "1979-11-09",
+          "change_kind": "declare",
+          "street_name_en": "Ka Wing Street",
+          "street_name_zh": "嘉榮街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare shown coloured yellow on Drawing No. KH 3010/1, commencing at its junction with the road coloured pink on the said drawing about 40 m south of Ko Chiu Road, running in a U-shaped direction for a distance of about 290 m and terminating at its junction with the road shown coloured pink about 70 m northeast of Cha Kwo Ling Road.",
+            "description_raw_zh": "此道路在 KH 3010/1 號圖則上以黃色標明，起點在上述圖則以粉紅色標明道路交界處，高超道以南約四十米，以U形伸展約二百九十米，終點在以粉紅色標明道路交界處，茶果嶺道東北約七十米。"
+          }
+        }
+      ]
+    }
+  ]
+}

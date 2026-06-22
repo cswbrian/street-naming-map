@@ -197,3 +197,105 @@ export function matchRowToRoadKey(row, pendingMap) {
   if (code) return `code:${code}`
   return null
 }
+
+/** Resolve pending road row for a batch street object (for --match preview). */
+export function findPendingRoadForStreet(street, pendingMap) {
+  if (!street || typeof street !== 'object') return null
+  const row = {
+    street_code: street.link_street_code ?? street.street_code ?? '',
+    english_name: street.english_name ?? street.en ?? '',
+    chinese_name: street.chinese_name ?? street.zh ?? street.name ?? '',
+  }
+  const roadKey = matchRowToRoadKey(row, pendingMap)
+  if (roadKey && pendingMap.has(roadKey)) return pendingMap.get(roadKey)
+
+  const streetKey = makeStreetKey(row.english_name, row.chinese_name)
+  for (const road of pendingMap.values()) {
+    if (makeStreetKey(road.english_name, road.chinese_name) === streetKey && streetKey !== '|') {
+      return road
+    }
+  }
+  return null
+}
+
+/**
+ * When geojson match is unique, set link_street_code on batch street rows.
+ * Names on the batch row stay gazette-only; geojson is used for STREETCODE only.
+ */
+export function autoMatchBatchStreets(streets, pendingMap) {
+  const results = []
+  const matchedStreets = streets.map((street) => {
+    if (typeof street !== 'object') {
+      results.push({ label: String(street), status: 'skip', reason: 'string_shorthand' })
+      return street
+    }
+    const explicit = String(street.link_street_code ?? '').trim()
+    if (explicit) {
+      results.push({
+        label: street.chinese_name || street.english_name || explicit,
+        status: 'linked',
+        street_code: explicit,
+        reason: 'explicit',
+      })
+      return street
+    }
+
+    const row = {
+      english_name: street.english_name ?? street.en ?? '',
+      chinese_name: street.chinese_name ?? street.zh ?? street.name ?? '',
+    }
+    const label = row.chinese_name || row.english_name || '(unnamed)'
+    const roadKey = matchRowToRoadKey(row, pendingMap)
+    if (!roadKey) {
+      results.push({ label, status: 'unmatched', reason: 'no_unique_match' })
+      return street
+    }
+    const road = pendingMap.get(roadKey)
+    const code = String(road?.street_code ?? '').trim()
+    if (!code) {
+      results.push({ label, status: 'unmatched', reason: 'no_street_code' })
+      return street
+    }
+
+    const enGazette = normalizeStreetName(row.english_name)
+    const enGeo = normalizeStreetName(road.english_name)
+    const zhGazette = normalize(row.chinese_name)
+    const zhGeo = normalize(road.chinese_name)
+    const enMismatch = enGazette && enGeo && enGazette !== enGeo
+    const zhMismatch = zhGazette && zhGeo && zhGazette !== zhGeo
+
+    results.push({
+      label,
+      status: 'linked',
+      street_code: code,
+      reason: 'auto',
+      en_mismatch: enMismatch,
+      zh_mismatch: zhMismatch,
+    })
+
+    return { ...street, link_street_code: code }
+  })
+
+  return { streets: matchedStreets, results }
+}
+
+export function printBatchMatchTable(results) {
+  console.log('\nCentreline match (pending/verified roads → map link):')
+  console.log('─'.repeat(72))
+  let linked = 0
+  for (const row of results) {
+    if (row.status === 'linked') {
+      linked += 1
+      const flags = []
+      if (row.en_mismatch) flags.push('EN≠geojson')
+      if (row.zh_mismatch) flags.push('ZH≠geojson')
+      const flagText = flags.length ? ` [${flags.join('; ')} — add submitter_remarks if applying]` : ''
+      console.log(
+        `  ✓ ${row.label} → ${row.street_code} (${row.reason})${flagText}`,
+      )
+    } else if (row.status === 'unmatched') {
+      console.log(`  ✗ ${row.label} → ${row.reason}`)
+    }
+  }
+  console.log(`  ${linked}/${results.length} street(s) will link to map when applied`)
+}

@@ -1,0 +1,30 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1960-gn1932-tai-hang-sai-street",
+  "gazette_notice_label": "G.N.1932",
+  "publication_date": "1960-12-16",
+  "gazette_url_en": "/egazette/en/1960-gn1932.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1960.pdf",
+  "streets": [
+    {
+      "english_name": "Tai Hang Sai Street",
+      "chinese_name": "大坑西街",
+      "history": [
+        {
+          "publication_date": "1960-12-16",
+          "change_kind": "declare",
+          "street_name_en": "Tai Hang Sai Street",
+          "street_name_zh": "大坑西街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Tai Hang Tung Road running North-westwards for a distance of about 1,100 feet terminating at its junction with Nan Chang Street as shown coloured pink on drawing RK 1199."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1961-gn1211-salvation-army-street",
+  "gazette_notice_label": "G.N.1211",
+  "publication_date": "1961-07-21",
+  "gazette_url_en": "/egazette/en/1961-gn1211.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1961 (~1961.08).pdf",
+  "streets": [
+    {
+      "english_name": "Salvation Army Street",
+      "chinese_name": "救世軍街",
+      "history": [
+        {
+          "publication_date": "1961-07-21",
+          "change_kind": "declare",
+          "street_name_en": "Salvation Army Street",
+          "street_name_zh": "救世軍街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing at its junction with Wood Road between Victoria Technical College and Jockey Club Government School, running in a south-easterly direction for approximately 240 feet, thence in a southerly direction for approximately 90 feet and terminating at the southern boundary of I.L. 7616 as shown coloured pink on Drawing No. R.H. 1313."
+          }
+        }
+      ]
+    }
+  ]
+}

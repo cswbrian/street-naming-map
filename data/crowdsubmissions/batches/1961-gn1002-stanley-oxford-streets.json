@@ -1,0 +1,84 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1961-gn1002-stanley-oxford-streets",
+  "gazette_notice_label": "G.N.1002",
+  "publication_date": "1961-06-16",
+  "gazette_url_en": "/egazette/en/1961-gn1002.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1961 (~1961.08).pdf",
+  "streets": [
+    {
+      "english_name": "Stanley New Street",
+      "chinese_name": "赤柱新街",
+      "history": [
+        {
+          "publication_date": "1961-06-16",
+          "change_kind": "declare",
+          "street_name_en": "Stanley New Street",
+          "street_name_zh": "赤柱新街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Road commencing from its junction with Stanley Village Road running in a south-westerly direction for a distance of about 140 yards and terminating at its junction with Stanley Main Street as shown coloured green in plan No. R.H. 1308."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Stanley Market Road",
+      "chinese_name": "赤柱市場道",
+      "history": [
+        {
+          "publication_date": "1961-06-16",
+          "change_kind": "declare",
+          "street_name_en": "Stanley Market Road",
+          "street_name_zh": "赤柱市場道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Road commencing from its junction with Stanley New Street and terminating at the southern boundary of S.I.L. 10 as shown coloured pink in plan No. R.H. 1308."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Kam Ping Street",
+      "chinese_name": "錦屏街",
+      "history": [
+        {
+          "publication_date": "1961-06-16",
+          "change_kind": "declare",
+          "street_name_en": "Kam Ping Street",
+          "street_name_zh": "錦屏街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with King's Road running south-eastwards along the boundary between I.L. 1705 and I.L. 1706 for a distance of about 150 yards then running westwards for another 100 yards, terminating at its junction with Peacock Road as shown coloured pink in drawing R.H. 1316."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Oxford Road",
+      "chinese_name": "牛津道",
+      "history": [
+        {
+          "publication_date": "1961-06-16",
+          "change_kind": "extend",
+          "street_name_en": "Oxford Road",
+          "street_name_zh": "牛津道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "extension",
+          "gazette_location": {
+            "description_raw_en": "Road extending southward from the existing Oxford Road at its junction with Lancashire Road for approximately 600 feet and ending in a semi turning circle as shown coloured red in plan R.K. 1251."
+          }
+        }
+      ]
+    }
+  ]
+}

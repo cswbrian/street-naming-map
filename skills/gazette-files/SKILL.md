@@ -7,7 +7,7 @@ description: Name and place Hong Kong gazette PDFs for street-naming-map. Use wh
 
 **Contributor docs:** [README](../README.md) · [contributor-roles.md](../docs/contributor-roles.md) · Skill routing: [README.md](../README.md)
 
-**Related:** [apply-egazette-naming](../apply-egazette-naming/SKILL.md) (modern `egn`/`cgn`), [parse-hkgro-gazettes](../parse-hkgro-gazettes/SKILL.md) (colonial scans), [centreline-linker](../centreline-linker/SKILL.md) (map linkage).
+**Related:** [apply-egazette-naming](../apply-egazette-naming/SKILL.md) (modern `egn`/`cgn`), [parse-gazette-street-events](../parse-gazette-street-events/SKILL.md) (colonial scans), [centreline-linker](../centreline-linker/SKILL.md) (map linkage).
 
 ## Golden rule
 

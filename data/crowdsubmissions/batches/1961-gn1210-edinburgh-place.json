@@ -1,0 +1,30 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1961-gn1210-edinburgh-place",
+  "gazette_notice_label": "G.N.1210",
+  "publication_date": "1961-07-21",
+  "gazette_url_en": "/egazette/en/1961-gn1210.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1961 (~1961.08).pdf",
+  "streets": [
+    {
+      "english_name": "Edinburgh Place",
+      "chinese_name": "愛丁堡廣場",
+      "history": [
+        {
+          "publication_date": "1961-07-21",
+          "change_kind": "declare",
+          "street_name_en": "Edinburgh Place",
+          "street_name_zh": "愛丁堡廣場",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with the western end of Harcourt Road and running initially in a northerly direction for a distance of approximately 350 ft., subsequently in a westerly direction parallel to the sea wall for a distance of approximately 820 ft., and subsequently in a southerly direction along the western boundary of the \"Star Ferry\" Car Park for a distance of approximately 350 ft., to its junction with Connaught Road Central. With and including that section of road running along the eastern boundary of the aforementioned \"Star Ferry\" Car Park, and in a northerly direction from its junction with Connaught Road Central for a distance of approximately 350 ft., all as shown coloured pink on Drawing RH 1319."
+          }
+        }
+      ]
+    }
+  ]
+}

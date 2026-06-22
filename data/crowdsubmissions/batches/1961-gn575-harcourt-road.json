@@ -1,0 +1,30 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1961-gn575-harcourt-road",
+  "gazette_notice_label": "G.N.575",
+  "publication_date": "1961-04-07",
+  "gazette_url_en": "/egazette/en/1961-gn575.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1961 (~1961.08).pdf",
+  "streets": [
+    {
+      "english_name": "Harcourt Road",
+      "chinese_name": "夏慤道",
+      "history": [
+        {
+          "publication_date": "1961-04-07",
+          "change_kind": "declare",
+          "street_name_en": "Harcourt Road",
+          "street_name_zh": "夏慤道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Through road commencing at its junction with Murray Road near Connaught Road Central, running in an easterly direction for approximately 2,900 ft. and terminating at its junction with Gloucester Road and Arsenal Street as shown coloured red on Drawing No. RH 1289."
+          }
+        }
+      ]
+    }
+  ]
+}

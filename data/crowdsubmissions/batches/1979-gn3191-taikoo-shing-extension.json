@@ -1,0 +1,70 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn3191-taikoo-shing-extension",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3191",
+  "publication_date": "1979-12-07",
+  "gazette_url_en": "/egazette/en/1979-gn3191.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1737(1).pdf",
+  "remarks": "Pages span Scanned_20260621-1737(1).pdf, Scanned_20260621-1737.pdf, and Scanned_20260621-1738.pdf.",
+  "streets": [
+    {
+      "english_name": "Taikoo Shing Road",
+      "chinese_name": "太古城道",
+      "history": [
+        {
+          "publication_date": "1979-12-07",
+          "change_kind": "declare",
+          "street_name_en": "Taikoo Shing Road",
+          "street_name_zh": "太古城道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Extension of Taikoo Shing Road for a distance of approximately 155 m joining up the existing Taikoo Shing Road to the east at its junction with Tai Fung Avenue and the existing Taikoo Shing Road to the west running from Westlands Road, as shown coloured pink on Drawing No. HH 3619.",
+            "description_raw_zh": "此道路為太古城道延長部份，長約一五五米，其東面與太豐路交界處連接現有之太古城道，西面則與以華蘭路為起點之現有太古城道會合，其位置已在 HH 3619 號圖則內用粉紅色標明。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Tai Mou Avenue",
+      "chinese_name": "太茂路",
+      "history": [
+        {
+          "publication_date": "1979-12-07",
+          "change_kind": "declare",
+          "street_name_en": "Tai Mou Avenue",
+          "street_name_zh": "太茂路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with the western end of Taikoo Shing Road extension referred to above, running northwards for a distance of approximately 110 m as shown coloured yellow on Drawing No. HH 3619.",
+            "description_raw_zh": "此道路由與上述太古城道延長部份西端連接處開始，向北伸展約一一〇米，其位置已在 HH 3619 號圖則內用黃色標明。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Tai Yue Avenue",
+      "chinese_name": "太裕路",
+      "history": [
+        {
+          "publication_date": "1979-12-07",
+          "change_kind": "declare",
+          "street_name_en": "Tai Yue Avenue",
+          "street_name_zh": "太裕路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Taikoo Shing Road at a point approximately 265 m east of Westlands Road, running northwards for a distance of approximately 115 m as shown coloured green on Drawing No. HH 3619.",
+            "description_raw_zh": "此道路以其與太古城道交界處為起點，該處在華蘭路東面約二六五米，向北伸展約一一五米，其位置已在 HH 3619 號圖則內用綠色標明。"
+          }
+        }
+      ]
+    }
+  ]
+}

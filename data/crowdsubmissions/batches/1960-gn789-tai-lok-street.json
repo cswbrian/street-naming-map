@@ -1,0 +1,30 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1960-gn789-tai-lok-street",
+  "gazette_notice_label": "G.N.789",
+  "publication_date": "1960-05-20",
+  "gazette_url_en": "/egazette/en/1960-gn789.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1960.pdf",
+  "streets": [
+    {
+      "english_name": "Tai Lok Street",
+      "chinese_name": "太樂街",
+      "history": [
+        {
+          "publication_date": "1960-05-20",
+          "change_kind": "declare",
+          "street_name_en": "Tai Lok Street",
+          "street_name_zh": "太樂街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing from its junction with Shau Kei Wan Road, running in a South Westerly direction for a distance about 100 yards as shown coloured pink on Drawing No. R.H. 469A."
+          }
+        }
+      ]
+    }
+  ]
+}

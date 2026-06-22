@@ -1,0 +1,27 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1978-gn2108-pak-pat-shan-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2108",
+  "publication_date": "1978-08-18",
+  "gazette_url_en": "/egazette/en/1978-gn2108.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1978/Scanned_20260621-1700.pdf",
+  "streets": [{
+    "english_name": "Pak Pat Shan Road",
+    "chinese_name": "白筆山道",
+    "history": [{
+      "publication_date": "1978-08-18",
+      "change_kind": "extend",
+      "street_name_en": "Pak Pat Shan Road",
+      "street_name_zh": "白筆山道",
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "notice_type_normalized": "extension",
+      "gazette_location": {
+        "description_raw_en": "Cul-de-sac commencing from the southern end of Pak Pat Shan Road and running in a south-easterly direction for a distance of approximately 110 m., as shown coloured red on drawing No. HH 3367.",
+        "description_raw_zh": "此盡頭路自白筆山道南端起，向東南伸展約一百一十公尺，其位置經在 HH3367 號圖則上用紅色標明。"
+      }
+    }]
+  }]
+}

@@ -1,0 +1,187 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1978-gn2702-kowloon-road-splits",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2702",
+  "publication_date": "1978-10-20",
+  "gazette_url_en": "/egazette/en/1978-gn2702.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1978/Scanned_20260621-1704.pdf",
+  "remarks": "G.N.2703 on page 2 of same scan.",
+  "streets": [
+    {
+      "english_name": "Chatham Road North",
+      "chinese_name": "漆咸道北",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Chatham Road",
+          "street_name_zh": "漆咸道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former section name attested in G.N.2702 rename notice."
+        },
+        {
+          "publication_date": "1978-10-20",
+          "change_kind": "rename",
+          "previous_street_name_en": "Chatham Road",
+          "previous_street_name_zh": "漆咸道",
+          "street_name_en": "Chatham Road North",
+          "street_name_zh": "漆咸道北",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare, formerly section of Chatham Road, north of Hong Chong Road, as shown coloured green on drawing No. KH 2600/1.",
+            "description_raw_zh": "此街道前屬康莊道以北之漆咸道一段，其位置已在KH 2600/1 號圖則內用綠色標明。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Chatham Road South",
+      "chinese_name": "漆咸道南",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Chatham Road",
+          "street_name_zh": "漆咸道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former section name attested in G.N.2702 rename notice."
+        },
+        {
+          "publication_date": "1978-10-20",
+          "change_kind": "rename",
+          "previous_street_name_en": "Chatham Road",
+          "previous_street_name_zh": "漆咸道",
+          "street_name_en": "Chatham Road South",
+          "street_name_zh": "漆咸道南",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare, formerly section of Chatham Road, south of Hong Chong Road, as shown coloured blue on drawing No. KH 2600/1.",
+            "description_raw_zh": "此街道前屬康莊道以南之漆咸道一段，其位置已在KH 2600/1 號圖則內用藍色標明。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Prince Edward Road West",
+      "chinese_name": "太子道西",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Prince Edward Road",
+          "street_name_zh": "太子道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former section name attested in G.N.2702 rename notice."
+        },
+        {
+          "publication_date": "1978-10-20",
+          "change_kind": "rename",
+          "previous_street_name_en": "Prince Edward Road",
+          "previous_street_name_zh": "太子道",
+          "street_name_en": "Prince Edward Road West",
+          "street_name_zh": "太子道西",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare, formerly section of Prince Edward Road, west of Tak Ku Ling Road, as shown coloured red on drawing No. KH 2600/1.",
+            "description_raw_zh": "此街道前屬打鼓嶺道以西之太子道一段，其位置已在KH 2600/1 號圖則內用紅色標明。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Prince Edward Road East",
+      "chinese_name": "太子道東",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Prince Edward Road",
+          "street_name_zh": "太子道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former section name attested in G.N.2702 rename notice."
+        },
+        {
+          "publication_date": "1978-10-20",
+          "change_kind": "rename",
+          "previous_street_name_en": "Prince Edward Road",
+          "previous_street_name_zh": "太子道",
+          "street_name_en": "Prince Edward Road East",
+          "street_name_zh": "太子道東",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare, formerly section of Prince Edward Road, east of Tak Ku Ling Road, as shown coloured dark grey on drawing No. KH 2600/1.",
+            "description_raw_zh": "此街道前屬打鼓嶺道以東之太子道一段，其位置已在KH 2600/1 號圖則內用深灰色標明。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Sai Yeung Choi Street North",
+      "chinese_name": "西洋菜北街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Sai Yeung Choi Street",
+          "street_name_zh": "西洋菜街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former section name attested in G.N.2702 rename notice."
+        },
+        {
+          "publication_date": "1978-10-20",
+          "change_kind": "rename",
+          "previous_street_name_en": "Sai Yeung Choi Street",
+          "previous_street_name_zh": "西洋菜街",
+          "street_name_en": "Sai Yeung Choi Street North",
+          "street_name_zh": "西洋菜北街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare, formerly section of Sai Yeung Choi Street, north of Playing Field Road, as shown coloured brown on drawing No. KH 2600/1.",
+            "description_raw_zh": "此街道前屬運動場道以北之西洋菜街一段，其位置已在KH 2600/1 號圖則內用棕色標明。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Sai Yeung Choi Street South",
+      "chinese_name": "西洋菜南街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Sai Yeung Choi Street",
+          "street_name_zh": "西洋菜街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former section name attested in G.N.2702 rename notice."
+        },
+        {
+          "publication_date": "1978-10-20",
+          "change_kind": "rename",
+          "previous_street_name_en": "Sai Yeung Choi Street",
+          "previous_street_name_zh": "西洋菜街",
+          "street_name_en": "Sai Yeung Choi Street South",
+          "street_name_zh": "西洋菜南街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare, formerly section of Sai Yeung Choi Street, south of Prince Edward Road, as shown coloured yellow on drawing No. KH 2600/1.",
+            "description_raw_zh": "此街道前屬太子道以南之西洋菜街一段，其位置已在KH 2600/1 號圖則內用黃色標明。"
+          }
+        }
+      ]
+    }
+  ]
+}

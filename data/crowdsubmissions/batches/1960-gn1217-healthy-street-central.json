@@ -1,0 +1,30 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1960-gn1217-healthy-street-central",
+  "gazette_notice_label": "G.N.1217",
+  "publication_date": "1960-08-12",
+  "gazette_url_en": "/egazette/en/1960-gn1217.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1960.pdf",
+  "streets": [
+    {
+      "english_name": "Healthy Street Central",
+      "chinese_name": "健康中街",
+      "history": [
+        {
+          "publication_date": "1960-08-12",
+          "change_kind": "declare",
+          "street_name_en": "Healthy Street Central",
+          "street_name_zh": "健康中街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at the South western corner of I.L. 7210 running northwards across Tsat Tse Mui Road terminating at its junction with King's Road as shown coloured pink in drawing R.H. 1072B."
+          }
+        }
+      ]
+    }
+  ]
+}

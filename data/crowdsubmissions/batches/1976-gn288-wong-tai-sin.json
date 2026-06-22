@@ -1,0 +1,46 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1976-gn288-wong-tai-sin",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.288",
+  "publication_date": "1976-02-06",
+  "gazette_url_en": "/egazette/en/1976-gn288.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1976/Scanned_20260620-1932.pdf",
+  "streets": [
+    {
+      "english_name": "Wong Tai Sin Road",
+      "chinese_name": "黃大仙道",
+      "history": [{
+        "publication_date": "1976-02-06",
+        "change_kind": "declare",
+        "street_name_en": "Wong Tai Sin Road",
+        "street_name_zh": "黃大仙道",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare commencing at its junction with Lung Cheung Road adjacent to the southwest corner of Block 4 of Upper Wong Tai Sin Estate, running northerly for approximately 110 m, then north-easterly for approximately 255 m, terminating at the southeast corner of Block 15 of Upper Wong Tai Sin Estate. Shown coloured pink on drawing No. KH 1791/1.",
+          "description_raw_zh": "起點與龍翔道在上黃大仙邨第四座西南角之處會合，向北行約一百一十公尺，然後向東北行約二百五十五公尺，終點在上黃大仙邨第十五座東南角。（在KH1791/1號圖則上用粉紅色標明）"
+        }
+      }]
+    },
+    {
+      "english_name": "Ma Chai Hang Road",
+      "chinese_name": "馬仔坑道",
+      "history": [{
+        "publication_date": "1976-02-06",
+        "change_kind": "declare",
+        "street_name_en": "Ma Chai Hang Road",
+        "street_name_zh": "馬仔坑道",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare commencing at its junction with Wong Tai Sin Road, running north-westerly for approximately 150 m and terminating at its junction with the loop road of Fung Mo Interchange. Shown coloured green on drawing No. KH 1791/1.",
+          "description_raw_zh": "起點與黃大仙道會合，向西北行約一百五十公尺，終點與鳳舞交匯處之迴旋路會合。（在KH1791/1號圖則上用綠色標明）"
+        }
+      }]
+    }
+  ]
+}

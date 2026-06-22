@@ -1,0 +1,28 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1978-gn1852-hoi-fung-path",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1852",
+  "publication_date": "1978-07-21",
+  "gazette_url_en": "/egazette/en/1978-gn1852.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1978/Scanned_20260621-1659.pdf",
+  "remarks": "G.N.1853 on page 2 of same scan.",
+  "streets": [{
+    "english_name": "Hoi Fung Path",
+    "chinese_name": "海風徑",
+    "history": [{
+      "publication_date": "1978-07-21",
+      "change_kind": "declare",
+      "street_name_en": "Hoi Fung Path",
+      "street_name_zh": "海風徑",
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "notice_type_normalized": "declaration",
+      "gazette_location": {
+        "description_raw_en": "Cul-de-sac commencing at its junction with Tung Tau Wan Road, running in a northerly direction and then turning north-west for a total distance of approximately 60 m., as shown coloured pink on drawing No. HH 3339.",
+        "description_raw_zh": "此路徑為盡頭路，起點與東頭灣道會合，向北伸展，然後轉向西北，全長約六十公尺，其位置在 HH 3339 號圖則上用粉紅色標明。"
+      }
+    }]
+  }]
+}

@@ -1,0 +1,32 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn112-ching-sau-lane",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.112",
+  "publication_date": "1979-01-12",
+  "gazette_url_en": "/egazette/en/1979-gn112.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1712.pdf",
+  "remarks": "Pages span Scanned_20260621-1712.pdf and Scanned_20260621-1712(1).pdf.",
+  "streets": [
+    {
+      "english_name": "Ching Sau Lane",
+      "chinese_name": "靜修里",
+      "history": [
+        {
+          "publication_date": "1979-01-12",
+          "change_kind": "declare",
+          "street_name_en": "Ching Sau Lane",
+          "street_name_zh": "靜修里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing at its junction with Chung Hom Kok Road, running in a north-easterly direction and then turning east for a total distance of approximately 140 metres as shown coloured pink on drawing No. HH 3394.",
+            "description_raw_zh": "此路徑爲盡頭路，其起點位於與春坎角道交界處，向東北伸展，然後轉向東行，全長約一百四十公尺，其位置在 HH 3394 號圖則上用粉紅色標明。"
+          }
+        }
+      ]
+    }
+  ]
+}

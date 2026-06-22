@@ -1,0 +1,39 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1978-gn3032-kai-man-path",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3032",
+  "publication_date": "1978-11-24",
+  "gazette_url_en": "/egazette/en/1978-gn3032.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1978/Scanned_20260621-1706.pdf",
+  "streets": [{
+    "english_name": "Kai Man Path",
+    "chinese_name": "啟民徑",
+    "history": [
+      {
+        "change_kind": "declare",
+        "street_name_en": "Kai Man Street",
+        "street_name_zh": "啟民街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "former_name",
+        "submitter_remarks": "Former name attested in G.N.3032 rename notice."
+      },
+      {
+        "publication_date": "1978-11-24",
+        "change_kind": "rename",
+        "previous_street_name_en": "Kai Man Street",
+        "previous_street_name_zh": "啟民街",
+        "street_name_en": "Kai Man Path",
+        "street_name_zh": "啟民徑",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "rename",
+        "gazette_location": {
+          "description_raw_en": "Path commencing from the southern section of Yan Ching Circuit and running north north-easterly for about 215 metres to rejoin with the northern section of Yan Ching Circuit.",
+          "description_raw_zh": "茲特公佈啟民街，即由仁政街南段開始向東北偏北伸展約二一五米而與仁政街北段連接之街道，將改稱啟民徑。"
+        }
+      }
+    ]
+  }]
+}

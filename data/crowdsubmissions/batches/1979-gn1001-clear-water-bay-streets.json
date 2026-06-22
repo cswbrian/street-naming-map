@@ -1,0 +1,222 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn1001-clear-water-bay-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1001",
+  "publication_date": "1979-04-20",
+  "gazette_url_en": "/egazette/en/1979-gn1001.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1720.pdf",
+  "remarks": "G.N.1002 on same scan set. Pages span Scanned_20260621-1720.pdf and Scanned_20260621-1720(1).pdf.",
+  "streets": [
+    {
+      "english_name": "New Clear Water Bay Road",
+      "chinese_name": "新清水灣道",
+      "history": [
+        {
+          "publication_date": "1979-04-20",
+          "change_kind": "declare",
+          "street_name_en": "New Clear Water Bay Road",
+          "street_name_zh": "新清水灣道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured grey on Drawing No. KH 2617/1, commencing at its junction with Clear Water Bay Road adjoining Choi Wan Estate, running south-eastward for approximately 230m then eastward for about 810m before bending around a loop of about 1100m and continuing in a north-easterly direction for about 550m before it terminates at its junction with Clear Water Bay Road approximately 100m east of Fei Ngo Shan Road.",
+            "description_raw_zh": "此街道之位置在 KH 2617/1 號圖則上用灰色標明，起點與清水灣道會合，連接彩雲邨，初向東南伸展約二百三十公尺，後轉向東伸展約八百一十公尺，再環繞長約一千一百公尺之環形路，然後繼續向東北伸展約五百五十公尺，終點在飛鵝山道東面約一百公尺處，與清水灣道會合。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Shun Lee Tsuen Road",
+      "chinese_name": "順利邨道",
+      "history": [
+        {
+          "publication_date": "1979-04-20",
+          "change_kind": "declare",
+          "street_name_en": "Shun Lee Tsuen Road",
+          "street_name_zh": "順利邨道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured red on Drawing No. KH 2617/1, commencing at its junction with Sau Mau Ping Road, running in a north-west direction for about 370m turning north-easterly for about 400m and continuing in a north-westerly direction for about 380m before branching off and terminating at New Clear Water Bay Road.",
+            "description_raw_zh": "此街道之位置在 KH 2617/1 號圖則上用紅色標明，起點與秀茂坪道會合，初向西北伸展約三百七十公尺，後轉向東北伸展約四百公尺，於轉向西北繼續伸展約三百八十公尺後分支，並止於新清水灣道。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Lee On Road",
+      "chinese_name": "利安道",
+      "history": [
+        {
+          "publication_date": "1979-04-20",
+          "change_kind": "declare",
+          "street_name_en": "Lee On Road",
+          "street_name_zh": "利安道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured green on Drawing No. KH 2617/1, commencing at its junction with Shun On Road and Shun Cheung Road running in a U-shaped direction for a distance of about 1280m and terminating at its junction with New Clear Water Bay Road.",
+            "description_raw_zh": "此街道之位置在 KH 2617/1 號圖則上用綠色標明，起點與順安道及順祥道會合，以U字形伸展約一千二百八十公尺，其終點與新清水灣道會合。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Shun On Road",
+      "chinese_name": "順安道",
+      "history": [
+        {
+          "publication_date": "1979-04-20",
+          "change_kind": "declare",
+          "street_name_en": "Shun On Road",
+          "street_name_zh": "順安道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured blue on Drawing No. KH 2617/1, commencing at its junction with Sau Mau Ping Road, running in a northerly direction for a distance of about 140m and then turning north-westerly for a distance of about 560m before branching off and terminating at Shun Lee Tsuen Road.",
+            "description_raw_zh": "此街道之位置在 KH 2617/1 號圖則上用藍色標明，起點與秀茂坪道會合，初向北伸展約一百四十公尺，於轉向西北伸展約五百六十公尺後分支，並止於順利邨道。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Shun Cheung Road",
+      "chinese_name": "順祥道",
+      "history": [
+        {
+          "publication_date": "1979-04-20",
+          "change_kind": "declare",
+          "street_name_en": "Shun Cheung Road",
+          "street_name_zh": "順祥道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured brown on Drawing No. KH 2617/1, commencing at its junction with Shun On Road and Lee On Road, running in a U-shaped direction for a distance of about 600m and terminating at its junction with Shun On Road about 50m east of Shun Wo Street.",
+            "description_raw_zh": "此街道之位置在 KH 2617/1 號圖則上用棕色標明，起點與順安道及利安道會合，以U字形伸展約六百公尺，終點在順和街以東約五十公尺與順安道會合。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Shun King Street",
+      "chinese_name": "順景街",
+      "history": [
+        {
+          "publication_date": "1979-04-20",
+          "change_kind": "declare",
+          "street_name_en": "Shun King Street",
+          "street_name_zh": "順景街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured purple on Drawing No. KH 2617/1, commencing at its junction with Lee On Road, running in a westerly direction for a distance of about 120m and terminating at its junction with Shun Lee Tsuen Road.",
+            "description_raw_zh": "此街道之位置在 KH 2617/1 號圖則上用紫色標明，起點與利安道會合，向西伸展約一百二十公尺，終點與順利邨道會合。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "San Shun Street",
+      "chinese_name": "新順街",
+      "history": [
+        {
+          "publication_date": "1979-04-20",
+          "change_kind": "declare",
+          "street_name_en": "San Shun Street",
+          "street_name_zh": "新順街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured blue hatched black on Drawing No. KH 2617/1, commencing at its junction with Shun Lee Tsuen Road, running westward for a distance of about 140m and terminating at its junction with New Clear Water Bay Road.",
+            "description_raw_zh": "此街道之位置在 KH 2617/1 號圖則上用藍色底黑間標明，起點與順利邨道會合，向西伸展約一百四十公尺，終點與新清水灣道會合。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Shun Ching Street",
+      "chinese_name": "順清街",
+      "history": [
+        {
+          "publication_date": "1979-04-20",
+          "change_kind": "declare",
+          "street_name_en": "Shun Ching Street",
+          "street_name_zh": "順清街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured green hatched black on Drawing No. KH 2617/1, commencing at its junction with Shun Lee Tsuen Road, running north-eastward for a distance of 150m and terminating at its junction with New Clear Water Bay Road and San Lee Street.",
+            "description_raw_zh": "此街道之位置在 KH 2617/1 號圖則上用綠色底黑間標明，起點與順利邨道會合，向東北伸展約一百五十公尺，終點與新清水灣道及新利街會合。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "San Lee Street",
+      "chinese_name": "新利街",
+      "history": [
+        {
+          "publication_date": "1979-04-20",
+          "change_kind": "declare",
+          "street_name_en": "San Lee Street",
+          "street_name_zh": "新利街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured orange on Drawing No. KH 2617/1, commencing at its junction with New Clear Water Bay Road and Shun Ching Street, running north-eastward for a distance of about 85m and terminating at its junction with Lee On Road.",
+            "description_raw_zh": "此街道之位置在 KH 2617/1 號圖則上用橙色標明，起點與新清水灣道及順清街會合，向東北伸展約八十五公尺，終點與利安道會合。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Shun Woo Street",
+      "chinese_name": "順和街",
+      "history": [
+        {
+          "publication_date": "1979-04-20",
+          "change_kind": "declare",
+          "street_name_en": "Shun Woo Street",
+          "street_name_zh": "順和街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac as shown coloured yellow on Drawing No. KH 2617/1, commencing at its junction with Shun On Road about 140m east of the junction of Lee On Road and Shun Cheung Road, running in a north-easterly direction for about 100m, turning northward for about 120m and then continuing in a north-westerly direction for a distance of about 150m.",
+            "description_raw_zh": "此路徑之位置在 KH 2617/1 號圖則上用黃色標明，起點在利安道與順祥道交界以東約一百四十公尺處與順安道會合，初向東北伸展約一百公尺，再轉向北伸展約一百二十公尺，後繼續向西北伸展約一百五十公尺。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Shun Chi Street",
+      "chinese_name": "順緻街",
+      "history": [
+        {
+          "publication_date": "1979-04-20",
+          "change_kind": "declare",
+          "street_name_en": "Shun Chi Street",
+          "street_name_zh": "順緻街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac as shown coloured orchid on Drawing No. KH 2617/1, commencing at its junction with Lee On Road about 200m south-west of San Lee Street, running in a north-easterly direction for a distance of about 225m.",
+            "description_raw_zh": "此路徑為盡頭路，其位置在 KH 2617/1 號圖則上用淺紫色標明，起點在新利街西南約二百公尺處與利安道會合，向東北伸展約二百二十五公尺。"
+          }
+        }
+      ]
+    }
+  ]
+}

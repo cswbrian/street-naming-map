@@ -1,0 +1,27 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1976-gn1712-hong-tak-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1712",
+  "publication_date": "1976-08-06",
+  "gazette_url_en": "/egazette/en/1976-gn1712.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1976/Scanned_20260621-1613.pdf",
+  "streets": [{
+    "english_name": "Hong Tak Road",
+    "chinese_name": "康德道",
+    "history": [{
+      "publication_date": "1976-08-06",
+      "change_kind": "declare",
+      "street_name_en": "Hong Tak Road",
+      "street_name_zh": "康德道",
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "notice_type_normalized": "declaration",
+      "gazette_location": {
+        "description_raw_en": "Thoroughfare commencing at its junction with Tai Yip Street about 225 m. south of Siu Yip Street, running in an easterly direction for a distance of about 83 m. and terminating at its junction with Kwun Tong Road, as shown coloured red on Drawing No. KH 2008/1.",
+        "description_raw_zh": "此街道起點在兆業街以南約二百二十五公尺之處與大業街會合，向東行約八十三公尺，終點與觀塘道會合；其位置在 KH 2008/1 號圖則上用紅色標明。"
+      }
+    }]
+  }]
+}

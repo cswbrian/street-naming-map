@@ -1,0 +1,48 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1960-gn1713-lung-cheung-road",
+  "gazette_notice_label": "G.N.1713",
+  "publication_date": "1960-11-11",
+  "gazette_url_en": "/egazette/en/1960-gn1713.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1960.pdf",
+  "streets": [
+    {
+      "english_name": "Lung Cheung Road",
+      "chinese_name": "龍翔道",
+      "history": [
+        {
+          "publication_date": "1960-11-11",
+          "change_kind": "declare",
+          "street_name_en": "Lung Cheung Road",
+          "street_name_zh": "龍翔道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Clearwater Bay Road running generally in a westerly direction for approximately 18,000 feet and terminating at its elevated junction with Tai Po Road near milestone 3¾ as shown coloured pink on plan No. R.K. 1163."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Tai Woh Ping Road",
+      "chinese_name": "大窩坪道",
+      "history": [
+        {
+          "publication_date": "1960-11-11",
+          "change_kind": "declare",
+          "street_name_en": "Tai Woh Ping Road",
+          "street_name_zh": "大窩坪道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Tai Po Road, 250 feet south-east of milestone 3¾, winding through the hills generally in a northerly direction for approximately 900 feet and terminating at its junction with Lung Cheung Road as shown coloured blue on plan No. R.K. 1163. (Previous Gazette Notification No. 509 dated 5/4/1957 for this road is hereby cancelled)."
+          }
+        }
+      ]
+    }
+  ]
+}

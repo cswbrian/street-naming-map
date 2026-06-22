@@ -1,0 +1,42 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn3038-see-cheung-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3038",
+  "publication_date": "1979-11-23",
+  "gazette_url_en": "/egazette/en/1979-gn3038.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1736(1).pdf",
+  "remarks": "Intention notice with one-month objection period; no effective notice in 1979 scans. Pages span Scanned_20260621-1736(1).pdf (2 pages).",
+  "streets": [
+    {
+      "english_name": "See Cheung Street",
+      "chinese_name": "市場街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Sai Kung Wing Wo Street",
+          "street_name_zh": "西貢永和街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former name Sai Kung Wing Wo Street (西貢永和街) attested in G.N.3038; originally item 9 of G.N.2462 of 1976."
+        },
+        {
+          "publication_date": "1979-11-23",
+          "change_kind": "rename",
+          "previous_street_name_en": "Sai Kung Wing Wo Street",
+          "previous_street_name_zh": "西貢永和街",
+          "street_name_en": "See Cheung Street",
+          "street_name_zh": "市場街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at is junction with Sai Kung Tai Street and running in an easterly direction for about 78 metres where it turns to run in a north-easterly direction for about 102 metres to terminate at its junction with Yi Chun Street as shown dotted black on Drawing No. NTA/SK/R10.",
+            "description_raw_zh": "此街道以與西貢大街之接連處為起點，向東伸展約七十八米，然後轉向東北伸展約一〇二米至與宜春街之交界處為終點；在 NTA/SK/R10 號圖則內以黑色小圓點顯示。"
+          }
+        }
+      ]
+    }
+  ]
+}

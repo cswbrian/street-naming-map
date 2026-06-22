@@ -14,7 +14,7 @@ This repo uses **workflow guides** in [`skills/`](skills/README.md). They work w
 | Task | Guide |
 |------|-------|
 | Earliest mention, rename chain, old map, non-naming gazette cite | [`skills/research-street-history/SKILL.md`](skills/research-street-history/SKILL.md) |
-| Colonial HKGRO naming-table scan | [`skills/parse-hkgro-gazettes/SKILL.md`](skills/parse-hkgro-gazettes/SKILL.md) |
+| Colonial HKGRO naming-table scan | [`skills/parse-gazette-street-events/SKILL.md`](skills/parse-gazette-street-events/SKILL.md) |
 | Modern Lands Dept eGazette (`egn` / `cgn`) | [`skills/apply-egazette-naming/SKILL.md`](skills/apply-egazette-naming/SKILL.md) |
 | Link events to a road on the map | [`skills/centreline-linker/SKILL.md`](skills/centreline-linker/SKILL.md) |
 | Host or fix gazette PDF paths | [`skills/gazette-files/SKILL.md`](skills/gazette-files/SKILL.md) |

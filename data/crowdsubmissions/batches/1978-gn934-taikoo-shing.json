@@ -1,0 +1,47 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1978-gn934-taikoo-shing",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.934",
+  "publication_date": "1978-04-14",
+  "gazette_url_en": "/egazette/en/1978-gn934.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1978/Scanned_20260621-1653.pdf",
+  "remarks": "G.N.933 on page 1 of same scan.",
+  "streets": [
+    {
+      "english_name": "Taikoo Shing Road",
+      "chinese_name": "太古城道",
+      "history": [{
+        "publication_date": "1978-04-14",
+        "change_kind": "extend",
+        "street_name_en": "Taikoo Shing Road",
+        "street_name_zh": "太古城道",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "extension",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare commencing at its junction with the western end of Taikoo Shing Road, running westwards for a distance of approximately 145 m., as shown coloured pink on drawing No. HH3326.",
+          "description_raw_zh": "此街道之起點與太古城道之西端會合，向西伸展約一四五公尺，其位置在 HH3326 號圖則上用粉紅色標明。"
+        }
+      }]
+    },
+    {
+      "english_name": "Tai Fung Avenue",
+      "chinese_name": "太豐路",
+      "history": [{
+        "publication_date": "1978-04-14",
+        "change_kind": "declare",
+        "street_name_en": "Tai Fung Avenue",
+        "street_name_zh": "太豐路",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Cul-de-sac commencing at its junction with the western end of Taikoo Shing Road referred to above, running southwards for a distance of approximately 110 m., as shown coloured green on drawing No. HH 3326.",
+          "description_raw_zh": "此乃一條盡頭路。其起點與上述之太古城道之西端會合，向南伸展約一一〇公尺，其位置在 HH3326 號圖則上用綠色標明。"
+        }
+      }]
+    }
+  ]
+}

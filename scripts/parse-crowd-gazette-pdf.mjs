@@ -11,8 +11,11 @@
 import { mkdir, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { loadPendingRoadKeys, matchRowToRoadKey } from './lib/crowd-submission-core.mjs'
-import { makeStreetKey } from './lib/street-naming-core.mjs'
+import {
+  autoMatchBatchStreets,
+  loadPendingRoadKeys,
+  printBatchMatchTable,
+} from './lib/crowd-submission-core.mjs'
 import { parseCrowdGazettePdf } from './lib/crowd-gazette-pdf-parse.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
@@ -34,35 +37,6 @@ function parseArgs(argv) {
   return { ...opts, pdf: positional[0] ?? null }
 }
 
-function findPendingRoad(street, pendingMap) {
-  const roadKey = matchRowToRoadKey(street, pendingMap)
-  if (roadKey && pendingMap.has(roadKey)) return pendingMap.get(roadKey)
-
-  const streetKey = makeStreetKey(street.english_name, street.chinese_name)
-  for (const road of pendingMap.values()) {
-    if (makeStreetKey(road.english_name, road.chinese_name) === streetKey && streetKey !== '|') {
-      return road
-    }
-  }
-  return null
-}
-
-function printMatchTable(batch, pendingMap) {
-  console.log('\nMatch preview (pending-naming-years):')
-  console.log('─'.repeat(72))
-  for (const street of batch.streets ?? []) {
-    const road = findPendingRoad(street, pendingMap)
-    const label = street.chinese_name || street.english_name
-    if (road) {
-      console.log(
-        `  ✓ ${label} → link_street_code ${road.street_code ?? '?'} (${road.english_name ?? ''} / ${road.chinese_name ?? ''})`,
-      )
-    } else {
-      console.log(`  ✗ ${label} → no match`)
-    }
-  }
-}
-
 async function main() {
   const opts = parseArgs(process.argv)
   if (opts.help || !opts.pdf) {
@@ -72,7 +46,7 @@ Extracts G.N., publication date, street names, and location descriptions from a 
 Image-only scans return status "needs_visual_parse" — read rendered pages and fill draft JSON.
 
 Does not apply to the map. After you verify the draft:
-  node scripts/apply-crowd-batch.mjs <draft.json>`)
+  node scripts/apply-crowd-batch.mjs <draft.json>   # auto-links map when centreline match exists`)
     process.exit(opts.help ? 0 : 1)
   }
 
@@ -95,14 +69,12 @@ Does not apply to the map. After you verify the draft:
     await mkdir(path.dirname(outPath), { recursive: true })
   }
 
-  let pendingMap = null
+  let matchResults = null
   if (opts.match && batch.streets?.length) {
-    pendingMap = await loadPendingRoadKeys(projectRoot)
-    batch.streets = batch.streets.map((street) => {
-      const road = findPendingRoad(street, pendingMap)
-      if (!road?.street_code) return street
-      return { ...street, link_street_code: String(road.street_code) }
-    })
+    const pendingMap = await loadPendingRoadKeys(projectRoot)
+    const { streets: matched, results } = autoMatchBatchStreets(batch.streets, pendingMap)
+    batch.streets = matched
+    matchResults = results
   }
 
   await writeFile(outPath, `${JSON.stringify(batch, null, 2)}\n`)
@@ -113,8 +85,8 @@ Does not apply to the map. After you verify the draft:
   console.log(`  Streets  ${batch.streets?.length ?? 0}`)
   console.log(`  Parser   ${batch._parse?.parser ?? '—'} (${batch._parse?.method})`)
 
-  if (pendingMap) {
-    printMatchTable(batch, pendingMap)
+  if (matchResults) {
+    printBatchMatchTable(matchResults)
   }
 
   console.log('\nFull draft JSON written. Verify names, date, and matches before apply-crowd-batch.')

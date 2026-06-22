@@ -1,0 +1,32 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn2896-fung-shing-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2896",
+  "publication_date": "1979-11-09",
+  "gazette_url_en": "/egazette/en/1979-gn2896.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1734.pdf",
+  "remarks": "G.N.2897–2899 on same scan set.",
+  "streets": [
+    {
+      "english_name": "Fung Shing Street",
+      "chinese_name": "豐盛街",
+      "history": [
+        {
+          "publication_date": "1979-11-09",
+          "change_kind": "declare",
+          "street_name_en": "Fung Shing Street",
+          "street_name_zh": "豐盛街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac as shown coloured pink on Drawing No. KH 2334/2, commencing at its junction with Po Kong Village Road just north of Fu Shan Estate and running eastwards for a distance of 80 m approximately and then turning south-east for a distance of 270 m approximately.",
+            "description_raw_zh": "此道路為盡頭路，位置在 KH 2334/2 號圖則上以粉紅色標明，起點在富山邨以北蒲崗村道交界處，向東伸展約八十米，再轉向東南伸展約二百七十米。"
+          }
+        }
+      ]
+    }
+  ]
+}

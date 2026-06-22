@@ -1,0 +1,30 @@
+{
+  "batch_id": "1977-gn3094-man-fat-street",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 3094",
+  "publication_date": "1977-12-16",
+  "gazette_url_en": "/egazette/en/1977-gn3094.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1977-gn3094-man-fat-street/1977-gn3094.pdf",
+  "streets": [
+    {
+      "english_name": "MAN FAT STREET",
+      "chinese_name": "文發街",
+      "history": [
+        {
+          "publication_date": "1977-12-16",
+          "change_kind": "declare",
+          "street_name_en": "Man Fat Street",
+          "gazette_notice_label": "Government Notification No. 3094",
+          "government_notice_url_en": "/egazette/en/1977-gn3094.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "文發街"
+        }
+      ],
+      "link_street_code": "11367"
+    }
+  ],
+  "evidence_schema_version": 1
+}

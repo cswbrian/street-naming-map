@@ -1,0 +1,51 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn2898-kwun-tong-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2898",
+  "publication_date": "1979-11-09",
+  "gazette_url_en": "/egazette/en/1979-gn2898.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1735.pdf",
+  "remarks": "Pages span Scanned_20260621-1734.pdf and Scanned_20260621-1735.pdf.",
+  "streets": [
+    {
+      "english_name": "Hoi Bun Road",
+      "chinese_name": "海濱道",
+      "history": [
+        {
+          "publication_date": "1979-11-09",
+          "change_kind": "declare",
+          "street_name_en": "Hoi Bun Road",
+          "street_name_zh": "海濱道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured pink on Drawing No. KH 3009/1, commencing at its junction with Hoi Bun Road and Hung Yip Street, running westward for approximately 140 m and terminating at its junction with the road shown coloured yellow on the said Drawing.",
+            "description_raw_zh": "此道路在 KH 3009/1 號圖則上以粉紅色標明，起點在海濱道與鴻業街交界處，向西伸展約一百四十米，終點在上述圖則以黃色標明道路之交界處。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Cheung Yip Street",
+      "chinese_name": "祥業街",
+      "history": [
+        {
+          "publication_date": "1979-11-09",
+          "change_kind": "declare",
+          "street_name_en": "Cheung Yip Street",
+          "street_name_zh": "祥業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac, as shown coloured yellow on Drawing No. KH 3009/1, commencing at its junction with the road shown coloured pink on the said Drawing, running northward for a distance of about 85 m.",
+            "description_raw_zh": "此道路為盡頭路，在 KH 3009/1 號圖則上以黃色標明，起點在上述圖則以粉紅色標明道路交界處，向北伸展約八十五米。"
+          }
+        }
+      ]
+    }
+  ]
+}

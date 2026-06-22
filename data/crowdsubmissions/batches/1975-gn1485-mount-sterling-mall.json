@@ -1,0 +1,63 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1975-gn1485-mount-sterling-mall",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1485",
+  "publication_date": "1975-06-16",
+  "gazette_url_en": "/egazette/en/1975-gn1485.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1975/Scanned_20260621-1638.pdf",
+  "streets": [
+    {
+      "english_name": "Mount Sterling Mall",
+      "chinese_name": "萬事達廣場",
+      "history": [
+        {
+          "publication_date": "1975-06-16",
+          "change_kind": "declare",
+          "street_name_en": "Mount Sterling Mall",
+          "street_name_zh": "萬事達廣場",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing on the west side of the slip road coming down from Kwai Chung Road running in a north-westerly direction for a distance of about 650 feet and terminating on the east side of Lai Wan Road as shown coloured red on drawing No. KH 1161/1.",
+            "description_raw_zh": "起點為自葵涌道向下叉出之一條叉路的西面，向西北伸展，約長六百五十呎，終點為荔灣道之東面。（位置在KH1161/1號圖則上用紅色標明）。",
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "KH 1161/1",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1975-gn1043-on-wah-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1043",
+  "publication_date": "1975-05-09",
+  "gazette_url_en": "/egazette/en/1975-gn1043.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1975/Scanned_20260621-1636.pdf",
+  "streets": [
+    {
+      "english_name": "On Wah Street",
+      "chinese_name": "安華街",
+      "history": [
+        {
+          "publication_date": "1975-05-09",
+          "change_kind": "declare",
+          "street_name_en": "On Wah Street",
+          "street_name_zh": "安華街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Chun Wah Road about 100 feet east of Ngau Tau Kok Road and running in a southerly direction for a distance of about 250 feet as shown coloured red on drawing No. KH 1577/1.",
+            "description_raw_zh": "此街道之起點在牛頭角道以東約一百呎，與振華道會合之處；向南行約二百五十呎。（位置在KH1577/1號圖則內用紅色標明）",
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "KH 1577/1",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Chun Wah Road about 100 feet east of Ngau Tau Kok Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

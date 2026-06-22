@@ -1,0 +1,30 @@
+{
+  "batch_id": "1977-gn2860-route-twisk",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 2860",
+  "publication_date": "1977-11-25",
+  "gazette_url_en": "/egazette/en/1977-gn2860.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1977-gn2860-route-twisk/1977-gn2860.pdf",
+  "streets": [
+    {
+      "english_name": "ROUTE TWISK",
+      "chinese_name": "荃錦公路",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Route Twisk",
+          "gazette_notice_label": "Government Notification No. 2860",
+          "government_notice_url_en": "/egazette/en/1977-gn2860.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "荃錦公路"
+        }
+      ],
+      "link_street_code": "11825"
+    }
+  ],
+  "evidence_schema_version": 1
+}

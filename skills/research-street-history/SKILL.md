@@ -12,9 +12,9 @@ description: Researcher-driven street history — earliest gazette/news/legal me
 - **same road, different historical name** proved by maps or alignment,
 - **multiple sources** supporting **one verified event** (you pick the earliest date).
 
-**Do not use for:** modern `egn`/`cgn` PDFs → [apply-egazette-naming](../apply-egazette-naming/SKILL.md). Colonial **naming-table-only** bulk parse → [parse-hkgro-gazettes](../parse-hkgro-gazettes/SKILL.md).
+**Do not use for:** modern `egn`/`cgn` PDFs → [apply-egazette-naming](../apply-egazette-naming/SKILL.md). Colonial **naming-table-only** bulk parse → [parse-gazette-street-events](../parse-gazette-street-events/SKILL.md).
 
-**References:** [event-model.md](../event-model.md) · [street-name-history-schema.md](../docs/street-name-history-schema.md) · [gazette-files](../gazette-files/SKILL.md) · [centreline-linker](../centreline-linker/SKILL.md)
+**References:** [event-model.md](../event-model.md) · [gazette-parse-principles.md](../gazette-parse-principles.md) · [street-name-history-schema.md](../docs/street-name-history-schema.md) · [gazette-files](../gazette-files/SKILL.md) · [centreline-linker](../centreline-linker/SKILL.md)
 
 ## Researcher principles (follow these)
 
@@ -23,7 +23,7 @@ description: Researcher-driven street history — earliest gazette/news/legal me
 3. **Link today’s road.** Always set `link_street_code` to the **current** geojson `STREETCODE` (today’s English/Chinese on the centreline), even when the source uses an old name.
 4. **One event, many sources.** Extra PDFs, screenshots, map links → `supplementary_evidence[]` on the **same** `history[]` row; primary `evidence_kind` = main proof for the date.
 5. **Demote until PDF.** Citation-only or wrong-PDF rows: `is_declaration_event: false`, `evidence_kind: unknown`, clear `government_notice_url_*`. Upgrade later when PDF is hosted.
-6. **Chinese only from the cited source.** `street_name_zh: null` (and `previous_street_name_zh: null`) when that **document** has no readable Chinese for that name. **Never** fill ZH from `parsed-notices.json`, hk-place, geojson, or another street’s row in the same G.N. — even if a bulk HKGRO parse lists a guess. Add Chinese later only via `supplementary_evidence` with `supports: ["street_name_zh"]` when a **separate** verified source shows it.
+6. **Chinese only from the cited source.** `street_name_zh: null` when that **document** has no readable Chinese. **Never** fill ZH from geojson, `parsed-notices.json`, hk-place, or web sources — see [gazette-parse-principles.md](../gazette-parse-principles.md).
 7. **Order vs gazette date.** When a gazette **reprints an order**, use the **order date** as `publication_date` unless the researcher explicitly chooses gazette publication date.
 
 **Exception:** On a **rename to today’s name**, `street_name_zh` may match **current geojson** (`link_street_code`) because that row describes the modern official name — not because the historical gazette proved the Chinese.
@@ -64,7 +64,7 @@ Researcher input (PDF, screenshot, URL, map, G.N. label)
 │   │      Example: Po Kong Road in G.N.342 → Kai Tak Road today
 │   │
 │   ├─ Gazette RENAME (previous / instead of / Present Name → New Name)
-│   │   └─ HKGRO rename notice → [parse-hkgro-gazettes](../parse-hkgro-gazettes/SKILL.md) **two-row pattern**:
+│   │   └─ HKGRO rename notice → [parse-gazette-street-events](../parse-gazette-street-events/SKILL.md) **two-row pattern**:
 │   │         (1) undated former_name, (2) dated rename — even for single-street researcher submits
 │   │      PDF on file → gazette_primary on both rows; row 2 is_declaration_event: true when after = geojson
 │   │      PDF missing → unknown, is_declaration_event: false on rename row (demoted)
@@ -179,7 +179,7 @@ Demote any conflicting inferred row (wrong PDF stem) in master before or after a
 
 **Case:** Kai Tak Road — G.N.342 names Po Kong Road (1926); G.N.572 rename to Kai Tak (1954, PDF pending).
 
-**Contrast:** G.N.59 / G.N.918 style renames where the former name has **no separate naming G.N.** → use **undated** `former_name` row + dated `rename` ([parse-hkgro-gazettes](../parse-hkgro-gazettes/SKILL.md) Pattern C). Example: `1904-gn59-victoria-road-renames.json`.
+**Contrast:** G.N.59 / G.N.918 style renames where the former name has **no separate naming G.N.** → use **undated** `former_name` row + dated `rename` ([parse-gazette-street-events](../parse-gazette-street-events/SKILL.md) Pattern C). Example: `1904-gn59-victoria-road-renames.json`.
 
 Batch: `data/crowdsubmissions/batches/1926-gn342-1954-gn572-kai-tak-road.json`
 
@@ -312,7 +312,7 @@ When the gazette PDF arrives:
 
 ## Multi-street G.N. already bulk-parsed
 
-`parse-hkgro-gazettes` may have applied G.N.342 for **other** streets in the same notice. If your street was `no_match` in `apply-report.json`, use this skill with a **single-street batch** + `link_street_code` — do not re-parse the whole PDF.
+`parse-gazette-street-events` may have applied G.N.342 for **other** streets in the same notice. If your street was `no_match` in `apply-report.json`, use this skill with a **single-street batch** + `link_street_code` — do not re-parse the whole PDF.
 
 ## Do not
 
@@ -323,7 +323,7 @@ When the gazette PDF arrives:
 - Leave wrong `government_notice_url_*` on demoted rows
 - Hand-edit `public/data/hk-streets.geojson` naming fields
 - Copy `street_name_zh` from `data/hkgro/street-naming/parsed-notices.json` when the gazette scan has no legible Chinese for that street (G.N.342 Po Kong Road is EN-only)
-- Record a HKGRO rename notice as a **single** `rename` row only — use undated `former_name` + dated `rename` ([parse-hkgro-gazettes](../parse-hkgro-gazettes/SKILL.md))
+- Record a HKGRO rename notice as a **single** `rename` row only — use undated `former_name` + dated `rename` ([parse-gazette-street-events](../parse-gazette-street-events/SKILL.md))
 
 ## QA checklist
 

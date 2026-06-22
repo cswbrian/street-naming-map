@@ -1,0 +1,66 @@
+{
+  "batch_id": "1977-gn1794-shek-kip-mei-streets",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 1794",
+  "publication_date": "1977-07-29",
+  "gazette_url_en": "/egazette/en/1977-gn1794.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1977-gn1794-shek-kip-mei-streets/1977-gn1794.pdf",
+  "streets": [
+    {
+      "english_name": "PAK TIN STREET",
+      "chinese_name": "白田街",
+      "history": [
+        {
+          "publication_date": "1977-07-29",
+          "change_kind": "extend",
+          "street_name_en": "Pak Tin Street",
+          "gazette_notice_label": "Government Notification No. 1794",
+          "government_notice_url_en": "/egazette/en/1977-gn1794.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "白田街"
+        }
+      ],
+      "link_street_code": "11651"
+    },
+    {
+      "english_name": "PUI TAK STREET",
+      "chinese_name": "培德街",
+      "history": [
+        {
+          "publication_date": "1977-07-29",
+          "change_kind": "declare",
+          "street_name_en": "Pui Tak Street",
+          "gazette_notice_label": "Government Notification No. 1794",
+          "government_notice_url_en": "/egazette/en/1977-gn1794.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "培德街"
+        }
+      ],
+      "link_street_code": "11796"
+    },
+    {
+      "english_name": "PAK WAN STREET",
+      "chinese_name": "白雲街",
+      "history": [
+        {
+          "publication_date": "1977-07-29",
+          "change_kind": "declare",
+          "street_name_en": "Pak Wan Street",
+          "gazette_notice_label": "Government Notification No. 1794",
+          "government_notice_url_en": "/egazette/en/1977-gn1794.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "白雲街"
+        }
+      ],
+      "link_street_code": "11653"
+    }
+  ],
+  "evidence_schema_version": 1
+}

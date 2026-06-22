@@ -1,0 +1,570 @@
+{
+  "batch_id": "1977-gn2944-yuen-long-streets",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 2944",
+  "publication_date": "1977-12-02",
+  "gazette_url_en": "/egazette/en/1977-gn2944.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1977-gn2944-yuen-long-streets/1977-gn2944.pdf",
+  "streets": [
+    {
+      "english_name": "MA MIU ROAD",
+      "chinese_name": "媽廟路",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Ma Miu Road",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "媽廟路"
+        }
+      ],
+      "link_street_code": "11344"
+    },
+    {
+      "english_name": "YUEN LONG ON NING ROAD",
+      "chinese_name": "元朗安寧路",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Yuen Long On Ning Road",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "元朗安寧路"
+        }
+      ],
+      "link_street_code": "12918"
+    },
+    {
+      "english_name": "KIK YEUNG ROAD",
+      "chinese_name": "擊壤路",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Kik Yeung Road",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "擊壤路"
+        }
+      ],
+      "link_street_code": "10992"
+    },
+    {
+      "english_name": "TUNG LOK STREET",
+      "chinese_name": "同樂街",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Tung Lok Street",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "同樂街"
+        }
+      ],
+      "link_street_code": "12527"
+    },
+    {
+      "english_name": "FOOK HONG STREET",
+      "chinese_name": "福康街",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Fook Hong Street",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "福康街"
+        }
+      ],
+      "link_street_code": "10504"
+    },
+    {
+      "english_name": "SAU FU STREET",
+      "chinese_name": "壽富街",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Sau Fu Street",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "壽富街"
+        }
+      ],
+      "link_street_code": "11925"
+    },
+    {
+      "english_name": "FOOK TAK STREET",
+      "chinese_name": "福德街",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Fook Tak Street",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "福德街"
+        }
+      ],
+      "link_street_code": "10506"
+    },
+    {
+      "english_name": "YUEN LONG PAU CHEUNG SQUARE",
+      "chinese_name": "元朗炮仗坊",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "extend",
+          "street_name_en": "Yuen Long Pau Cheung Square",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "元朗炮仗坊"
+        }
+      ],
+      "link_street_code": "12919"
+    },
+    {
+      "english_name": "KUK TING STREET",
+      "chinese_name": "谷亭街",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "extend",
+          "street_name_en": "Kuk Ting Street",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "谷亭街"
+        }
+      ],
+      "link_street_code": "11070"
+    },
+    {
+      "english_name": "YUEN LONG TAI CHEUNG STREET",
+      "chinese_name": "元朗泰祥街",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Yuen Long Tai Cheung Street",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "元朗泰祥街"
+        }
+      ],
+      "link_street_code": "12920"
+    },
+    {
+      "english_name": "SAI TAI STREET",
+      "chinese_name": "西堤街",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "extend",
+          "street_name_en": "Sai Tai Street",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "西堤街"
+        }
+      ],
+      "link_street_code": "11853"
+    },
+    {
+      "english_name": "YUEN LONG TUNG TAI STREET",
+      "chinese_name": "元朗東堤街",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Yuen Long Tung Tai Street",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "元朗東堤街"
+        }
+      ],
+      "link_street_code": "12923"
+    },
+    {
+      "english_name": "TAI FUNG STREET",
+      "chinese_name": "泰豐街",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "extend",
+          "street_name_en": "Tai Fung Street",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "泰豐街"
+        }
+      ],
+      "link_street_code": "12212"
+    },
+    {
+      "english_name": "YUEN LONG TAI HANG STREET",
+      "chinese_name": "元朗泰衡街",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Yuen Long Tai Hang Street",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "元朗泰衡街"
+        }
+      ],
+      "link_street_code": "12921"
+    },
+    {
+      "english_name": "TAI KIU ROAD",
+      "chinese_name": "大橋路",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Tai Kiu Road",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "大橋路"
+        }
+      ],
+      "link_street_code": "12224"
+    },
+    {
+      "english_name": "YUEN LONG ON LOK ROAD",
+      "chinese_name": "元朗安樂路",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Yuen Long On Lok Road",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "元朗安樂路"
+        }
+      ],
+      "link_street_code": "12917"
+    },
+    {
+      "english_name": "WANG CHAU ROAD",
+      "chinese_name": "橫洲路",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Wang Chau Road",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "橫洲路"
+        }
+      ],
+      "link_street_code": "12650"
+    },
+    {
+      "english_name": "TAI LEE STREET",
+      "chinese_name": "泰利街",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Tai Lee Street",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "泰利街"
+        }
+      ],
+      "link_street_code": "12230"
+    },
+    {
+      "english_name": "YUEN LONG TAI YUK ROAD",
+      "chinese_name": "元朗體育路",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Yuen Long Tai Yuk Road",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "元朗體育路"
+        }
+      ],
+      "link_street_code": "12922"
+    },
+    {
+      "english_name": "KAU YUK ROAD",
+      "chinese_name": "教育路",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Kau Yuk Road",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "教育路"
+        }
+      ],
+      "link_street_code": "10976"
+    },
+    {
+      "english_name": "ON HONG ROAD",
+      "chinese_name": "安康路",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "On Hong Road",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "安康路"
+        }
+      ],
+      "link_street_code": "11580"
+    },
+    {
+      "english_name": "FUNG NIN ROAD",
+      "chinese_name": "豐年路",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Fung Nin Road",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "豐年路"
+        }
+      ],
+      "link_street_code": "10576"
+    },
+    {
+      "english_name": "TAI PEI TAU PATH",
+      "chinese_name": "大陂頭徑",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Tai Pei Tau Path",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "大陂頭徑"
+        }
+      ],
+      "link_street_code": "12252"
+    },
+    {
+      "english_name": "YUEN LONG HONG LOK ROAD",
+      "chinese_name": "元朗康樂路",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Yuen Long Hong Lok Road",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "元朗康樂路"
+        }
+      ],
+      "link_street_code": "12914"
+    },
+    {
+      "english_name": "FAU TSOI STREET",
+      "chinese_name": "阜財街",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "extend",
+          "street_name_en": "Fau Tsoi Street",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "阜財街"
+        }
+      ],
+      "link_street_code": "10477"
+    },
+    {
+      "english_name": "YUEN LONG NEW STREET",
+      "chinese_name": "元朗新街",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Yuen Long New Street",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "元朗新街"
+        }
+      ],
+      "link_street_code": "12915"
+    },
+    {
+      "english_name": "MAU TAN STREET",
+      "chinese_name": "牡丹街",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Mau Tan Street",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "牡丹街"
+        }
+      ],
+      "link_street_code": "11406"
+    },
+    {
+      "english_name": "HUNG MIN COURT",
+      "chinese_name": "紅棉圍",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Hung Min Court",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "紅棉圍"
+        }
+      ],
+      "link_street_code": "10870"
+    },
+    {
+      "english_name": "FUNG CHEUNG ROAD",
+      "chinese_name": "鳳翔路",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "extend",
+          "street_name_en": "Fung Cheung Road",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "鳳翔路"
+        }
+      ],
+      "link_street_code": "10566"
+    },
+    {
+      "english_name": "TAI TONG ROAD",
+      "chinese_name": "大棠路",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Tai Tong Road",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "大棠路"
+        }
+      ],
+      "link_street_code": "12276"
+    },
+    {
+      "english_name": "YAU SHIN STREET",
+      "chinese_name": "友善街",
+      "history": [
+        {
+          "publication_date": "1977-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Yau Shin Street",
+          "gazette_notice_label": "Government Notification No. 2944",
+          "government_notice_url_en": "/egazette/en/1977-gn2944.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "友善街"
+        }
+      ],
+      "link_street_code": "12834"
+    }
+  ],
+  "evidence_schema_version": 1
+}

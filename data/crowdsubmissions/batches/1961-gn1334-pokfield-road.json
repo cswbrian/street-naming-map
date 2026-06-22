@@ -1,0 +1,33 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1961-gn1334-pokfield-road",
+  "gazette_notice_label": "G.N.1334",
+  "publication_date": "1961-08-04",
+  "gazette_url_en": "/egazette/en/1961-gn1334.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1961 (~1961.08).pdf",
+  "streets": [
+    {
+      "english_name": "Pokfield Road",
+      "chinese_name": "蒲飛路",
+      "history": [
+        {
+          "publication_date": "1961-08-04",
+          "change_kind": "declare",
+          "street_name_en": "Pokfield Road",
+          "street_name_zh": "蒲飛路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Pokfulam Road near I.L. 7704, University Recreation Ground, running initially in a general Westerly direction for a distance of approximately 700 feet and subsequently in a Southwesterly direction for approximately 750 feet and terminating at its junction with Smithfield Road as shown coloured red on Drawing No. R.H. 1303. (The road is at present obstructed at its western extremity by temporary Government Quarters for the Kennedy Town slaughterhouse staff).",
+            "parsed": {
+              "is_partially_formed": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

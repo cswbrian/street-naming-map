@@ -1,7 +1,8 @@
 import path from 'node:path'
 import { parseGazetteFooterDate } from './egazette-dates.mjs'
 import { extractTextFromPdf } from './egazette-pdf-text.mjs'
-import { parseExtractionWithRegex } from './egazette-regex-parse.mjs'
+import { buildGazetteLocationFromDescription } from './gazette-location.mjs'
+import { parseModernNoticeToHistory } from './egazette-regex-parse.mjs'
 import { extractNoticeNumber, normalizeStreetName } from './street-naming-core.mjs'
 
 const STREET_SUFFIX_EN =
@@ -141,17 +142,29 @@ print(f"__PAGES__={doc.page_count}", file=sys.stderr)
 
 export function parseStreetsFromNoticeText(extraction, noticeMeta) {
   const colonial = parseColonialThoroughfareTable(extraction.text_en, extraction.text_zh)
-  if (colonial.length) return { streets: colonial, parser: 'colonial_thoroughfare' }
-
-  const modern = parseExtractionWithRegex(extraction, noticeMeta, {})
-  if (modern.length) {
+  if (colonial.length) {
     return {
-      streets: modern.map((ev) => ({
-        english_name: ev.street_name_en,
-        chinese_name: ev.street_name_zh,
-        description: null,
+      streets: colonial.map((row) => ({
+        english_name: row.english_name,
+        chinese_name: row.chinese_name,
+        description: row.description,
+        gazette_location: buildGazetteLocationFromDescription(row.description, null),
+      })),
+      parser: 'colonial_thoroughfare',
+    }
+  }
+
+  const modern = parseModernNoticeToHistory(extraction, noticeMeta)
+  if (modern.history.length) {
+    return {
+      streets: modern.history.map((h) => ({
+        english_name: h.street_name_en,
+        chinese_name: h.street_name_zh,
+        history: [h],
+        gazette_location: h.gazette_location,
       })),
       parser: 'lands_modern',
+      notice_types: modern.noticeTypes,
     }
   }
 
@@ -172,7 +185,7 @@ export function buildCrowdBatchDraft({
     (publicationDate && gn ? `${publicationDate.slice(0, 4)}-gn${gn}` : path.basename(pdfPath, '.pdf'))
 
   return {
-    evidence_schema_version: 1,
+    evidence_schema_version: 2,
     _draft: true,
     _parse: parseMeta,
     batch_id: batchId,
@@ -185,7 +198,14 @@ export function buildCrowdBatchDraft({
       if (row.english_name) entry.english_name = row.english_name
       if (row.chinese_name) entry.chinese_name = row.chinese_name
       if (row.street_code) entry.street_code = row.street_code
-      if (publicationDate && (row.english_name || row.chinese_name)) {
+
+      if (Array.isArray(row.history) && row.history.length) {
+        entry.history = row.history.map((h) => ({
+          ...h,
+          gazette_location: h.gazette_location ?? row.gazette_location ?? null,
+          event_role: h.event_role ?? 'current_name',
+        }))
+      } else if (publicationDate && (row.english_name || row.chinese_name)) {
         const nameEn = row.english_name ? normalizeStreetName(row.english_name) : null
         entry.history = [
           {
@@ -195,6 +215,7 @@ export function buildCrowdBatchDraft({
             street_name_zh: row.chinese_name ?? null,
             evidence_kind: 'gazette_primary',
             event_role: 'current_name',
+            gazette_location: row.gazette_location ?? buildGazetteLocationFromDescription(row.description, null),
           },
         ]
       }

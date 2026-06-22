@@ -1,0 +1,46 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn44-tsuen-wan-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.44",
+  "publication_date": "1979-01-05",
+  "gazette_url_en": "/egazette/en/1979-gn44.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1710.pdf",
+  "streets": [
+    {
+      "english_name": "Hing Fong Road",
+      "chinese_name": "興芳路",
+      "history": [{
+        "publication_date": "1979-01-05",
+        "change_kind": "declare",
+        "street_name_en": "Hing Fong Road",
+        "street_name_zh": "興芳路",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "The continuation of HING FONG ROAD as a thoroughfare (which was published under Government Notice No. 1023 dated 19 April 1974) and running in a south-westerly direction for about 229 metres where it terminates as shown coloured red and hatched black on Drawing No. NTA/TW/R78A.",
+          "description_raw_zh": "作為興芳路（已由一九七四年四月十九日憲示第一〇二三號公佈）之接續部份，向西南伸展約二二九米然後終止；在NTA/TW/R78A號圖則內以紅色及黑斜線顯示。"
+        }
+      }]
+    },
+    {
+      "english_name": "Sham Tsz Street",
+      "chinese_name": "深慈街",
+      "history": [{
+        "publication_date": "1979-01-05",
+        "change_kind": "declare",
+        "street_name_en": "Sham Tsz Street",
+        "street_name_zh": "深慈街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Street commencing at its junction with CASTLE PEAK ROAD, SHAM TSENG and running in a south-westerly direction for about 61 metres then it bends to run in a southerly direction for about 95 metres where it terminates at the waterfront as shown coloured red and hatched black on Drawing No. NTA/TW/R79A.",
+          "description_raw_zh": "與青山公路深井段連接之街道，向西南伸展約六十一米，再轉向南伸展約九十五米至海傍處終止；在NTA/TW/R79A號圖則內以紅色及黑斜線顯示。"
+        }
+      }]
+    }
+  ]
+}

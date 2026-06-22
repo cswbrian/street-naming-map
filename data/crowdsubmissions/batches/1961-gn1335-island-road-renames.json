@@ -1,0 +1,264 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1961-gn1335-island-road-renames",
+  "gazette_notice_label": "G.N.1335",
+  "publication_date": "1961-08-04",
+  "gazette_url_en": "/egazette/en/1961-gn1335.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1961 (~1961.08).pdf",
+  "remarks": "Effective rename of Island Road sections; supersedes G.N.300/1960-02-19 and G.N.51/1961-01-13 intention notices. Effective 1 September 1961 per notice text.",
+  "streets": [
+    {
+      "english_name": "Wong Chuk Hang Road",
+      "chinese_name": "黃竹坑道",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Island Road, Aberdeen",
+          "street_name_zh": "香港仔香島道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former name attested in G.N.1335 rename notice."
+        },
+        {
+          "publication_date": "1961-08-04",
+          "change_kind": "rename",
+          "previous_street_name_en": "Island Road, Aberdeen",
+          "previous_street_name_zh": "香港仔香島道",
+          "street_name_en": "Wong Chuk Hang Road",
+          "street_name_zh": "黃竹坑道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Road commencing from the western end of A.I.L. 109, Aberdeen Technical School and terminating at its junction with the junction of Shouson Hill Road adjoining R.B.L. 364 as shown coloured red in drawing R.H. 1295."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Repulse Bay Road",
+      "chinese_name": "淺水灣道",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Island Road, Repulse Bay",
+          "street_name_zh": "淺水灣香島道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former name attested in G.N.1335 rename notice."
+        },
+        {
+          "change_kind": "declare",
+          "street_name_en": "Repulse Bay Road",
+          "street_name_zh": "淺水灣道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former compound name attested in G.N.1335 rename notice."
+        },
+        {
+          "publication_date": "1961-08-04",
+          "change_kind": "rename",
+          "previous_street_name_en": "Island Road, Repulse Bay",
+          "previous_street_name_zh": "淺水灣香島道",
+          "street_name_en": "Repulse Bay Road",
+          "street_name_zh": "淺水灣道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Road commencing from its junction with Wong Nai Chung Gap Road and terminating at its junction with Headland Road as shown coloured blue in drawing R.H. 1295."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Stanley Gap Road",
+      "chinese_name": "赤柱峽道",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Island Road, Repulse Bay",
+          "street_name_zh": "淺水灣香島道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former name attested in G.N.1335 rename notice."
+        },
+        {
+          "change_kind": "declare",
+          "street_name_en": "Island Road, Stanley",
+          "street_name_zh": "赤柱香島道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former compound name attested in G.N.1335 rename notice."
+        },
+        {
+          "publication_date": "1961-08-04",
+          "change_kind": "rename",
+          "previous_street_name_en": "Island Road, Repulse Bay",
+          "previous_street_name_zh": "淺水灣香島道",
+          "street_name_en": "Stanley Gap Road",
+          "street_name_zh": "赤柱峽道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Road commencing from its junction with Headland Road and terminating at its junction with Stanley Village Road as shown hatched blue in drawing R.H. 1295."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Tai Tam Road",
+      "chinese_name": "大潭道",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Island Road, Tytam",
+          "street_name_zh": "大潭香島道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former name attested in G.N.1335 rename notice."
+        },
+        {
+          "change_kind": "declare",
+          "street_name_en": "Island Road, Chai Wan",
+          "street_name_zh": "柴灣香島道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former compound name attested in G.N.1335 rename notice."
+        },
+        {
+          "publication_date": "1961-08-04",
+          "change_kind": "rename",
+          "previous_street_name_en": "Island Road, Tytam",
+          "previous_street_name_zh": "大潭香島道",
+          "street_name_en": "Tai Tam Road",
+          "street_name_zh": "大潭道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Road commencing from its junction with Stanley Village Road and terminating at its junction with Chai Wan Road as shown coloured yellow in drawing R.H. 1295."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Chai Wan Road",
+      "chinese_name": "柴灣道",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Island Road, Chai Wan",
+          "street_name_zh": "柴灣香島道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former name attested in G.N.1335 rename notice."
+        },
+        {
+          "publication_date": "1961-08-04",
+          "change_kind": "rename",
+          "previous_street_name_en": "Island Road, Chai Wan",
+          "previous_street_name_zh": "柴灣香島道",
+          "street_name_en": "Chai Wan Road",
+          "street_name_zh": "柴灣道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Road commencing from its junction with Shaukiwan Road and terminating near the coast line at Chai Wan as shown hatched yellow in drawing R.H. 1295."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Shek Pai Wan Road",
+      "chinese_name": "石排灣道",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Island Road, Aberdeen",
+          "street_name_zh": "香港仔香島道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former name attested in G.N.1335 rename notice."
+        },
+        {
+          "publication_date": "1961-08-04",
+          "change_kind": "rename",
+          "previous_street_name_en": "Island Road, Aberdeen",
+          "previous_street_name_zh": "香港仔香島道",
+          "street_name_en": "Shek Pai Wan Road",
+          "street_name_zh": "石排灣道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Road commencing from its junction with Pokfulam Road and Victoria Road and terminating in front of Aberdeen Fish Market as shown coloured green in drawing R.H. 1295."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Aberdeen Main Road",
+      "chinese_name": "香港仔大道",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Island Road, Aberdeen",
+          "street_name_zh": "香港仔香島道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former name attested in G.N.1335 rename notice."
+        },
+        {
+          "publication_date": "1961-08-04",
+          "change_kind": "rename",
+          "previous_street_name_en": "Island Road, Aberdeen",
+          "previous_street_name_zh": "香港仔香島道",
+          "street_name_en": "Aberdeen Main Road",
+          "street_name_zh": "香港仔大道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Road commencing from the Aberdeen Fish Market and terminating at the western end of A.I.L. 109, Aberdeen Technical School as shown hatched green in drawing R.H. 1295."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Island Road (Deep Water Bay)",
+      "chinese_name": "深水灣香島道",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Island Road, Deep Water Bay",
+          "street_name_zh": "深水灣香島道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former name attested in G.N.1335 rename notice."
+        },
+        {
+          "publication_date": "1961-08-04",
+          "change_kind": "rename",
+          "previous_street_name_en": "Island Road, Deep Water Bay",
+          "previous_street_name_zh": "深水灣香島道",
+          "street_name_en": "Island Road (Deep Water Bay)",
+          "street_name_zh": "深水灣香島道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Road commencing from its junction with the junction of Shouson Hill Road adjoining R.B.L. 364 and terminating at its junction with Repulse Bay Road as shown hatched red in drawing R.H. 1295. Note: In the case of Island Road, (Deep Water Bay), at a later date the suffix (Deep Water Bay) will be dropped.",
+            "parsed": {
+              "suffix_pending_removal": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

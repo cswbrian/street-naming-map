@@ -1,0 +1,28 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1978-gn1853-st-johns-lane",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1853",
+  "publication_date": "1978-07-21",
+  "gazette_url_en": "/egazette/en/1978-gn1853.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1978/Scanned_20260621-1659.pdf",
+  "remarks": "G.N.1852 on page 1 of same scan.",
+  "streets": [{
+    "english_name": "St John's Lane",
+    "chinese_name": "聖約翰里",
+    "history": [{
+      "publication_date": "1978-07-21",
+      "change_kind": "declare",
+      "street_name_en": "St John's Lane",
+      "street_name_zh": "聖約翰里",
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "notice_type_normalized": "declaration",
+      "gazette_location": {
+        "description_raw_en": "Cul-de-sac commencing at its junction with Waterloo Road between Lot Nos. K.I.L. 3314 and 3564 and running eastwards for approximately 45 m., as shown coloured pink on drawing No. KH 2498/1.",
+        "description_raw_zh": "此里為盡頭路，其起點在九龍內地段第三三一四至三五六四號之間與窩打老道會合，向東伸展約四十五公尺，其位置在KH 2498/1 號圖則上用粉紅色標明。"
+      }
+    }]
+  }]
+}

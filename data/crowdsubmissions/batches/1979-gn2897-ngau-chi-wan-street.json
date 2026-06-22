@@ -1,0 +1,32 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn2897-ngau-chi-wan-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2897",
+  "publication_date": "1979-11-09",
+  "gazette_url_en": "/egazette/en/1979-gn2897.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1734.pdf",
+  "remarks": "Pages span Scanned_20260621-1734.pdf and Scanned_20260621-1735.pdf.",
+  "streets": [
+    {
+      "english_name": "Ngau Chi Wan Street",
+      "chinese_name": "牛池灣街",
+      "history": [
+        {
+          "publication_date": "1979-11-09",
+          "change_kind": "declare",
+          "street_name_en": "Ngau Chi Wan Street",
+          "street_name_zh": "牛池灣街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured grey on Drawing No. KH 2857, commencing at its junction with Jats Incline adjoining Good Hope School, running in a north-westerly direction for about 45 m, then turning westward for about 240 m and continuing in a south-westerly direction for about 60 m.",
+            "description_raw_zh": "此道路在 KH 2857 號圖則上以灰色標明，起點在鄰接德望學校之扎山道交界處，向西北伸展約四十五米，轉向西伸展約二百四十米，然後向西南伸展約六十米。"
+          }
+        }
+      ]
+    }
+  ]
+}

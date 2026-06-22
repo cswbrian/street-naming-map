@@ -1,0 +1,84 @@
+{
+  "batch_id": "1977-gn3134-tuen-mun-roads",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 3134",
+  "publication_date": "1977-12-23",
+  "gazette_url_en": "/egazette/en/1977-gn3134.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1977-gn3134-tuen-mun-roads/1977-gn3134.pdf",
+  "streets": [
+    {
+      "english_name": "MING KUM ROAD",
+      "chinese_name": "鳴琴路",
+      "history": [
+        {
+          "publication_date": "1977-12-23",
+          "change_kind": "declare",
+          "street_name_en": "Ming Kum Road",
+          "gazette_notice_label": "Government Notification No. 3134",
+          "government_notice_url_en": "/egazette/en/1977-gn3134.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "鳴琴路"
+        }
+      ],
+      "link_street_code": "11435"
+    },
+    {
+      "english_name": "SHEK PAI TAU ROAD",
+      "chinese_name": "石排頭路",
+      "history": [
+        {
+          "publication_date": "1977-12-23",
+          "change_kind": "declare",
+          "street_name_en": "Shek Pai Tau Road",
+          "gazette_notice_label": "Government Notification No. 3134",
+          "government_notice_url_en": "/egazette/en/1977-gn3134.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "石排頭路"
+        }
+      ],
+      "link_street_code": "12010"
+    },
+    {
+      "english_name": "TSING WUN ROAD",
+      "chinese_name": "青雲路",
+      "history": [
+        {
+          "publication_date": "1977-12-23",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Wun Road",
+          "gazette_notice_label": "Government Notification No. 3134",
+          "government_notice_url_en": "/egazette/en/1977-gn3134.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "青雲路"
+        }
+      ],
+      "link_street_code": "12446"
+    },
+    {
+      "english_name": "LUNG MUN ROAD",
+      "chinese_name": "龍門路",
+      "history": [
+        {
+          "publication_date": "1977-12-23",
+          "change_kind": "declare",
+          "street_name_en": "Lung Mun Road",
+          "gazette_notice_label": "Government Notification No. 3134",
+          "government_notice_url_en": "/egazette/en/1977-gn3134.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "龍門路"
+        }
+      ],
+      "link_street_code": "11316"
+    }
+  ],
+  "evidence_schema_version": 1
+}

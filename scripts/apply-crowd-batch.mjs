@@ -14,9 +14,11 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { execSync } from 'node:child_process'
 import {
+  autoMatchBatchStreets,
   loadPendingRoadKeys,
   matchRowToRoadKey,
   normalizeNamingDate,
+  printBatchMatchTable,
 } from './lib/crowd-submission-core.mjs'
 import {
   buildCrowdEventsFromStreetEntry,
@@ -58,19 +60,31 @@ function parseArgs(argv) {
 
 Applies gazette events (no street_code required). Linkers use street-centreline-map.json.
 
-Options in batch JSON:
+Options:
+  --match       Auto-set link_street_code when EN+ZH (or unique EN/ZH) matches geojson
+                (default for gazette_only batches)
+  --no-match    Skip auto centreline match; events only (no map dates)
+
+Batch JSON:
   gazette_only: true (default) — do not require geojson match or street_code on events
   allow_street_code_link: true — MAINTAINER LEGACY ONLY (writes street_code on events; ignored by map join)
-  link_street_code on a street — linker: attach events to street-centreline-map.json`)
+  link_street_code on a street — attach events to street-centreline-map.json (map naming dates)`)
     process.exit(0)
   }
-  if (argv.includes('--stdin')) return { stdin: true, file: null }
+  const noMatch = argv.includes('--no-match')
+  const matchFlag = argv.includes('--match')
+  if (argv.includes('--stdin')) return { stdin: true, file: null, autoMatch: !noMatch, matchFlag }
   const file = argv.find((a) => !a.startsWith('-'))
   if (!file) {
     console.error('Missing batch JSON path. Use --stdin or pass a file path.')
     process.exit(1)
   }
-  return { stdin: false, file: path.resolve(file) }
+  return {
+    stdin: false,
+    file: path.resolve(file),
+    autoMatch: !noMatch,
+    matchFlag,
+  }
 }
 
 function resolveNoticeMeta(batch) {
@@ -335,12 +349,12 @@ async function main() {
     throw new Error('Batch must include gazette_notice_label or parseable PDF filenames')
   }
 
-  const streets = batch.streets ?? batch.road_names ?? []
-  if (!Array.isArray(streets) || !streets.length) {
+  const streetsInput = batch.streets ?? batch.road_names ?? []
+  if (!Array.isArray(streetsInput) || !streetsInput.length) {
     throw new Error('Batch must include a non-empty streets array')
   }
 
-  const hasHistory = streets.some(
+  const hasHistory = streetsInput.some(
     (street) => typeof street === 'object' && Array.isArray(street.history) && street.history.length,
   )
   if (!notice.url_en && !hasHistory) {
@@ -350,6 +364,20 @@ async function main() {
   const gazetteOnly = batch.gazette_only !== false
   const allowStreetCodeLink =
     batch.allow_street_code_link === true || batch.link_to_map === true
+  const shouldAutoMatch =
+    (opts.autoMatch || opts.matchFlag || batch.auto_match === true) &&
+    gazetteOnly &&
+    !allowStreetCodeLink
+
+  let streets = streetsInput
+
+  if (shouldAutoMatch) {
+    const pendingForMatch = await loadPendingRoadKeys(projectRoot)
+    const { streets: matched, results } = autoMatchBatchStreets(streets, pendingForMatch)
+    streets = matched
+    printBatchMatchTable(results)
+  }
+
   const pendingMap =
     gazetteOnly && !allowStreetCodeLink ? null : await loadPendingRoadKeys(projectRoot)
   const resolveOpts = { allowNameOnly: batch.allow_name_only === true }

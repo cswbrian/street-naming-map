@@ -1,0 +1,46 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1976-gn141-kwun-tong-tai-yip",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.141",
+  "publication_date": "1976-01-16",
+  "gazette_url_en": "/egazette/en/1976-gn141.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1976/Scanned_20260620-1930.pdf",
+  "streets": [
+    {
+      "english_name": "Tai Yip Street",
+      "chinese_name": "大業街",
+      "history": [{
+        "publication_date": "1976-01-16",
+        "change_kind": "extend",
+        "street_name_en": "Tai Yip Street",
+        "street_name_zh": "大業街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "extension",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare commencing at the northern end of Tai Yip Street, running in a north-westerly direction for a distance of about 435 m and terminating in front of the proposed Mass Transit Railway Depot. Shown coloured pink on drawing No. KH 1731/1.",
+          "description_raw_zh": "起點在大業街北端，向西北伸展約四百三十五公尺，終點在擬建地下鐵路車站前面。（在KH1731/1號圖則上用粉紅色標明）"
+        }
+      }]
+    },
+    {
+      "english_name": "Siu Yip Street",
+      "chinese_name": "兆業街",
+      "history": [{
+        "publication_date": "1976-01-16",
+        "change_kind": "declare",
+        "street_name_en": "Siu Yip Street",
+        "street_name_zh": "兆業街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare about 120 m long commencing at its junction with Tai Yip Street and running on the south side of Ngau Tau Kok Police Station. Shown coloured green on drawing No. KH 1731/1.",
+          "description_raw_zh": "全長約一百二十公尺，起點與上述大業街會合，沿牛頭角警署南邊伸展。（在KH1731/1號圖則上用綠色標明）"
+        }
+      }]
+    }
+  ]
+}

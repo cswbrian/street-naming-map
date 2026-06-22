@@ -1,20 +1,35 @@
 {
-  "evidence_schema_version": 1,
+  "evidence_schema_version": 2,
   "gazette_only": true,
-  "gazette_notice_label": "G.N.8104",
-  "publication_date": "2004-12-17",
-  "pdf_en": "/absolute/path/to/egn200408518104.pdf",
-  "pdf_zh": "/absolute/path/to/cgn200408518104.pdf",
+  "gazette_notice_label": "G.N.5398",
+  "publication_date": "2016-09-23",
+  "gazette_url_en": "/egazette/en/2016-gn5398.pdf",
+  "gazette_url_zh": "/egazette/zh/2016-gn5398.pdf",
+  "pdf_en": "/absolute/path/to/egn201609235398.pdf",
+  "pdf_zh": "/absolute/path/to/cgn201609235398.pdf",
   "streets": [
     {
-      "chinese_name": "竹篙灣公路",
+      "chinese_name": "坪洲好景街",
+      "english_name": "Peng Chau Ho King Street",
       "history": [
         {
-          "publication_date": "2004-12-17",
+          "publication_date": "2016-09-23",
           "change_kind": "declare",
-          "street_name_zh": "竹篙灣公路",
-          "street_name_en": "Penny's Bay Highway",
-          "evidence_kind": "gazette_primary"
+          "street_name_zh": "坪洲好景街",
+          "street_name_en": "Peng Chau Ho King Street",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "The street is approximately 160 metres long. It starts from its junction with an unnamed road near … Plan No. ISRM95.",
+            "description_raw_zh": "這街道長約160 米 … 第ISRM95 號圖則",
+            "parsed": {
+              "length_m": 160,
+              "length_unit": "m",
+              "plan_refs": [{ "label": "ISRM95", "color": "pink", "url_en": null }],
+              "referenced_streets_en": [],
+              "unnamed_junction_refs_en": ["unnamed road near …"]
+            }
+          }
         }
       ]
     },
@@ -37,7 +52,15 @@
           "previous_street_name_en": "Station Street",
           "street_name_zh": "大沽街",
           "street_name_en": "Taku Street",
-          "evidence_kind": "gazette_primary"
+          "evidence_kind": "gazette_primary",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with …",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "referenced_streets_en": ["…"]
+            }
+          }
         }
       ]
     }

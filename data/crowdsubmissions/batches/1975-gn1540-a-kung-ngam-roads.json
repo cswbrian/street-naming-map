@@ -1,0 +1,118 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1975-gn1540-a-kung-ngam-roads",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1540",
+  "publication_date": "1975-07-11",
+  "gazette_url_en": "/egazette/en/1975-gn1540.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1975/Scanned_20260621-1639.pdf",
+  "streets": [
+    {
+      "english_name": "A Kung Ngam Road",
+      "chinese_name": "阿公岩道",
+      "history": [
+        {
+          "publication_date": "1975-07-11",
+          "change_kind": "declare",
+          "street_name_en": "A Kung Ngam Road",
+          "street_name_zh": "阿公岩道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare coloured pink on drawing No. HH 2573 commencing at the northern end of A Kung Ngam Road adjacent to Basel Road Steps and running in a northerly direction for a distance of approximately 780 feet terminating at its junction with an un-named road.",
+            "description_raw_zh": "起點為阿公岩道北端，鄰近巴色道梯級（位置在HH2573號圖則內用粉紅色標明），向北行約七百八十呎，終點與未定名之街道會合。",
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "HH 2573",
+                  "color": "pink",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "an un-named road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "A Kung Ngam Village Road",
+      "chinese_name": "阿公岩村道",
+      "history": [
+        {
+          "publication_date": "1975-07-11",
+          "change_kind": "declare",
+          "street_name_en": "A Kung Ngam Village Road",
+          "street_name_zh": "阿公岩村道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare coloured blue on drawing No. HH 2573 commencing at a point on the thoroughfare coloured pink (A Kung Ngam Road) approximately 480 feet north of Basel Road Steps and running in an easterly direction for a distance of approximately 330 feet terminating at its junction with a short section of new road coloured yellow on drawing No. HH 2573 connecting to an un-named road.",
+            "description_raw_zh": "起點為圖則內髹粉紅色之街道(阿公岩道)之一處（位置在HH2573號圖則內用藍色標明），在巴色道梯級北面約四百八十呎，向東行約三百三十呎，終點與HH2573號圖則內髹黃色之新道路之一小段會合，而與一未定名之街道銜接。",
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "HH 2573",
+                  "color": "blue",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "a short section of new road coloured yellow on drawing No"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

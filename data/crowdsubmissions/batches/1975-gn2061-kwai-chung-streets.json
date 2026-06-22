@@ -1,0 +1,329 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1975-gn2061-kwai-chung-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2061",
+  "publication_date": "1975-09-19",
+  "gazette_url_en": "/egazette/en/1975-gn2061.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1975/Scanned_20260621-1645.pdf",
+  "streets": [
+    {
+      "english_name": "Wing Kei Road",
+      "chinese_name": "永基路",
+      "history": [
+        {
+          "publication_date": "1975-09-19",
+          "change_kind": "declare",
+          "street_name_en": "Wing Kei Road",
+          "street_name_zh": "永基路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Road 10/14 (Gin Drinkers Bay Road), running NNW for ~120m, then NNE for ~140m, terminating at junction with future Road 38/2, as shown hatched black on Plan No. NTA/TW/R74.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R74",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Road 10/14 (Gin Drinkers Bay Road), running NNW for ~120m, then NNE for ~140m, terminating at junction with future Road 38/2, as shown hatched black on Plan No"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Wing Lap Street",
+      "chinese_name": "永立街",
+      "history": [
+        {
+          "publication_date": "1975-09-19",
+          "change_kind": "declare",
+          "street_name_en": "Wing Lap Street",
+          "street_name_zh": "永立街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with Road 10/14 (Gin Drinkers Bay Road), running NW for ~180m, then E for ~38m, terminating at junction with WING KEI ROAD, as shown hatched black on Plan No. NTA/TW/R74.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R74",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Road 10/14 (Gin Drinkers Bay Road), running NW for ~180m, then E for ~38m, terminating at junction with WING KEI ROAD, as shown hatched black on Plan No"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Wing Kin Road",
+      "chinese_name": "永建路",
+      "history": [
+        {
+          "publication_date": "1975-09-19",
+          "change_kind": "declare",
+          "street_name_en": "Wing Kin Road",
+          "street_name_zh": "永建路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Road 10/14 (Gin Drinkers Bay Road), running and curving NW for ~176m, terminating at junction with WING KEI ROAD, as shown hatched black on Plan No. NTA/TW/R74.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R74",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Road 10/14 (Gin Drinkers Bay Road), running",
+                "WING KEI ROAD, as shown hatched black on Plan No"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Wing Chong Street",
+      "chinese_name": "永創街",
+      "history": [
+        {
+          "publication_date": "1975-09-19",
+          "change_kind": "declare",
+          "street_name_en": "Wing Chong Street",
+          "street_name_zh": "永創街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with Road 10/14 (Gin Drinkers Bay Road), running NW for ~108m, then NNE for ~58m, terminating at junction with WING KIN ROAD, as shown hatched black on Plan No. NTA/TW/R74.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R74",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Road 10/14 (Gin Drinkers Bay Road), running NW for ~108m, then NNE for ~58m, terminating at junction with WING KIN ROAD, as shown hatched black on Plan No"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Kwong Fai Circuit",
+      "chinese_name": "光輝圍",
+      "history": [
+        {
+          "publication_date": "1975-09-19",
+          "change_kind": "declare",
+          "street_name_en": "Kwong Fai Circuit",
+          "street_name_zh": "光輝圍",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Circuit commencing at the NE corner of K.C.T.L. 188 (12m from Kwai Chung Road), running WNW for ~85m, then NNE for ~85m, then ESE for ~85m where it terminates, as shown hatched black on Plan No. NTA/TW/R73.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R73",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Kwong Fai Lane",
+      "chinese_name": "光輝里",
+      "history": [
+        {
+          "publication_date": "1975-09-19",
+          "change_kind": "declare",
+          "street_name_en": "Kwong Fai Lane",
+          "street_name_zh": "光輝里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing at its junction with the northern section of KWONG FAI CIRCUIT, at the south-west corner of K.C.T.L. 123, and running in a north north-easterly direction for about 26 meters where it spans the open space bounded by K.C.T.L. 271 and K.C.T.L. 938 as shown hatched black on Plan No. NTA/TW/R73.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "cul_de_sac",
+              "is_cul_de_sac": true,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": true,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R73",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "the northern section of KWONG FAI CIRCUIT, at the south-west corner of K"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

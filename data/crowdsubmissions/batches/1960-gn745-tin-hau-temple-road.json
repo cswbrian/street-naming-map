@@ -1,0 +1,30 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1960-gn745-tin-hau-temple-road",
+  "gazette_notice_label": "G.N.745",
+  "publication_date": "1960-05-13",
+  "gazette_url_en": "/egazette/en/1960-gn745.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1960.pdf",
+  "streets": [
+    {
+      "english_name": "Tin Hau Temple Road",
+      "chinese_name": "天后廟道",
+      "history": [
+        {
+          "publication_date": "1960-05-13",
+          "change_kind": "extend",
+          "street_name_en": "Tin Hau Temple Road",
+          "street_name_zh": "天后廟道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "extension",
+          "gazette_location": {
+            "description_raw_en": "Road East of Dragon Road commencing from Dragon Road and running in an easterly direction continuing as an extension of Tin Hau Temple Road for a distance of 5,510 ft. where it terminates at a turning circle, as shown coloured pink on Plan No. R.H. 1208."
+          }
+        }
+      ]
+    }
+  ]
+}

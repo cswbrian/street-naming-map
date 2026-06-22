@@ -1,0 +1,42 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn588-kai-man-path",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.588",
+  "publication_date": "1979-03-02",
+  "gazette_url_en": "/egazette/en/1979-gn588.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1717.pdf",
+  "remarks": "Pages span Scanned_20260621-1717.pdf and Scanned_20260621-1717(1).pdf.",
+  "streets": [
+    {
+      "english_name": "Kai Man Path",
+      "chinese_name": "啓民徑",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Kai Man Street",
+          "street_name_zh": "啓民街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former name attested in rename notice."
+        },
+        {
+          "publication_date": "1979-03-02",
+          "change_kind": "rename",
+          "previous_street_name_en": "Kai Man Street",
+          "previous_street_name_zh": "啓民街",
+          "street_name_en": "Kai Man Path",
+          "street_name_zh": "啓民徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "It is hereby notified that Kai Man Street (啓民街) in Tuen Mun, New Territories will henceforth be known as Kai Man Path (啓民徑) and Government Notice 1693/1975 will henceforth be read as if Kai Man Path (啓民徑) were inserted therein in lieu of Kai Man Street (啓民街).",
+            "description_raw_zh": "茲特公佈新界屯門啓民街今後將改稱為啓民徑，而憲示一九七五年第一六九三號所述之啓民街今後將視作已由啓民徑所代替論。"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1976-gn2462-sai-kung-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2462",
+  "publication_date": "1976-11-05",
+  "gazette_url_en": "/egazette/en/1976-gn2462.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1976/Scanned_20260621-1618.pdf",
+  "streets": [
+    {
+      "english_name": "Po Tung Road",
+      "chinese_name": "普通道",
+      "history": [{
+        "publication_date": "1976-11-05",
+        "change_kind": "declare",
+        "street_name_en": "Po Tung Road",
+        "street_name_zh": "普通道",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Road commencing at its junction with Tak Lung Front Street and running in a north-easterly direction for about 65 metres where it bends to run north north-westerly for about 25 metres, then bends to run in a north-westerly direction for 57 metres, then turns north-easterly for about 140 metres, then it runs northwards for about 200 metres and then turns to run in a north-easterly direction for about 77 metres where it terminates as shown on Plan No. NTA/SK/R2.",
+          "description_raw_zh": "此道路由與德隆前街之連接點開始，向東北伸展約六十五公尺後轉向西北偏北方伸展約二十五公尺，然後轉向西北伸展五十七公尺，然後轉向東北伸展約一百四十公尺後向北伸展約二百公尺，然後轉向東北伸展約七十七公尺後終止，見 NTA/SK/R2 號圖中所示。"
+        }
+      }]
+    },
+    {
+      "english_name": "Sai Kung Yee Kuk Street",
+      "chinese_name": "西貢醫局街",
+      "history": [{
+        "publication_date": "1976-11-05",
+        "change_kind": "declare",
+        "street_name_en": "Sai Kung Yee Kuk Street",
+        "street_name_zh": "西貢醫局街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Street commencing at its junction with Tak Lung Back Street and running in a north-easterly direction for about 30 metres, then it turns north-westerly for about 60 metres to terminate at its junction with Po Tung Road as shown on Plan No. NTA/SK/R2.",
+          "description_raw_zh": "此街由與德隆後街之連接點開始，向東北伸展約三十公尺，然後轉向西北伸展約六十公尺至與普通道連接點終止，見 NTA/SK/R2 號圖中所示。"
+        }
+      }]
+    },
+    {
+      "english_name": "Tak Lung Back Street",
+      "chinese_name": "德隆後街",
+      "history": [{
+        "publication_date": "1976-11-05",
+        "change_kind": "declare",
+        "street_name_en": "Tak Lung Back Street",
+        "street_name_zh": "德隆後街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Street commencing at its junction with Po Tung Road and running in a south-easterly direction for about 50 metres where it turns south-westerly for about 10 metres, then turns in a south-easterly direction for about 12 metres and then turns north-easterly for about 25 metres where it terminates as shown cross-hatched black on Plan No. NTA/SK/R2.",
+          "description_raw_zh": "此街由與普通道之連接點開始向東南伸展約五十公尺後轉向西南伸展約十公尺，然後轉向東南伸展約十二公尺後轉向東北伸展約二十五公尺後終止，即 NTA/SK/R2 號圖中塗黑間格部份所示。"
+        }
+      }]
+    },
+    {
+      "english_name": "Tak Lung Front Street",
+      "chinese_name": "德隆前街",
+      "history": [{
+        "publication_date": "1976-11-05",
+        "change_kind": "declare",
+        "street_name_en": "Tak Lung Front Street",
+        "street_name_zh": "德隆前街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Street commencing from its junction with Sai Kung Main Street and running in an easterly direction for about 20 metres, where it bends south-easterly for about 39 metres and then turns to a north-easterly direction for about 27 metres to terminate at its junction with Tak Lung Back Street as shown on Plan No. NTA/SK/R2.",
+          "description_raw_zh": "此街由與西貢正街之連接點開始向東南伸展約二十公尺後轉向東南伸展約三十九公尺，然後向東北伸展約二十七公尺至與德隆後街之連接點終止，見 NTA/SK/R2 號圖中所示。"
+        }
+      }]
+    },
+    {
+      "english_name": "Sai Kung Main Street",
+      "chinese_name": "西貢正街",
+      "history": [{
+        "publication_date": "1976-11-05",
+        "change_kind": "declare",
+        "street_name_en": "Sai Kung Main Street",
+        "street_name_zh": "西貢正街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Street commencing at its junction with Tak Lung Front Street and running in a southerly direction for about 85 metres where it turns easterly for about 15 metres to terminate at its junction with Sai Kung Tai Street as shown on Plan No. NTA/SK/R2.",
+          "description_raw_zh": "此街由與德隆前街之連接點開始向南伸展約八十五公尺後轉向東南伸展約十五公尺至與西貢大街之連接點終止，見 NTA/SK/R2 號圖中所示。"
+        }
+      }]
+    },
+    {
+      "english_name": "Wang Street",
+      "chinese_name": "橫街",
+      "history": [{
+        "publication_date": "1976-11-05",
+        "change_kind": "declare",
+        "street_name_en": "Wang Street",
+        "street_name_zh": "橫街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Street commencing at its junction with Sai Kung Main Street and running in an easterly direction for about 24 metres to terminate at its junction with Sai Kung Tai Street as shown on Plan No. NTA/SK/R2.",
+          "description_raw_zh": "此街由與西貢正街之連接點開始向東伸展約二十四公尺至與西貢大街之連接點終止，見 NTA/SK/R2 號圖中所示。"
+        }
+      }]
+    },
+    {
+      "english_name": "Sai Kung Tai Street",
+      "chinese_name": "西貢大街",
+      "history": [{
+        "publication_date": "1976-11-05",
+        "change_kind": "declare",
+        "street_name_en": "Sai Kung Tai Street",
+        "street_name_zh": "西貢大街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Street commencing at its junction with Tak Lung Front Street and running in a southerly direction for about 120 metres where it terminates as shown dotted black on Plan No. NTA/SK/R2.",
+          "description_raw_zh": "此街由與德隆前街之連接點開始向南伸展約一百二十公尺後終止，即 NTA/SK/R2 圖中塗黑點部份所示。"
+        }
+      }]
+    },
+    {
+      "english_name": "See Cheung Street",
+      "chinese_name": "市場街",
+      "history": [{
+        "publication_date": "1976-11-05",
+        "change_kind": "declare",
+        "street_name_en": "See Cheung Street",
+        "street_name_zh": "市場街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Street commencing at its junction with Sai Kung Tai Street and running in an easterly direction for about 78 metres to terminate at its junction with Sai Kung Wing Wo Street as shown on Plan No. NTA/SK/R2.",
+          "description_raw_zh": "此街由與西貢大街之連接點開始向東伸展約七十八公尺至與西貢永和街之連接點終止，見 NTA/SK/R2 號圖中所示。"
+        }
+      }]
+    },
+    {
+      "english_name": "Sai Kung Wing Wo Street",
+      "chinese_name": "西貢永和街",
+      "history": [{
+        "publication_date": "1976-11-05",
+        "change_kind": "declare",
+        "street_name_en": "Sai Kung Wing Wo Street",
+        "street_name_zh": "西貢永和街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Street commencing at its junction with See Cheung Street and running in a north-easterly direction for about 102 metres to terminate at its junction with Yi Chun Street as shown on Plan No. NTA/SK/R2.",
+          "description_raw_zh": "此街由與市場街之連接點開始向東北伸展約一百零二公尺至宜春街之連接點終止，見 NTA/SK/R2 號圖中所示。"
+        }
+      }]
+    },
+    {
+      "english_name": "Sai Kung Hoi Pong Street",
+      "chinese_name": "西貢海傍街",
+      "history": [{
+        "publication_date": "1976-11-05",
+        "change_kind": "declare",
+        "street_name_en": "Sai Kung Hoi Pong Street",
+        "street_name_zh": "西貢海傍街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Street commencing at its junction with Sai Kung Tai Street and running in a south south-easterly direction for about 85 metres then it bends north-easterly for about 120 metres to terminate at its junction with Yi Chun Street as shown on Plan No. NTA/SK/R2.",
+          "description_raw_zh": "此街由與西貢大街之連接點開始向東南偏南伸展約八十五公尺後轉向東北伸展約一百二十公尺至與宜春街之連接點終止，見 NTA/SK/R2 號圖中所示。"
+        }
+      }]
+    }
+  ]
+}

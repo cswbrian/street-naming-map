@@ -1,0 +1,27 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1976-gn2519-wai-yip-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2519",
+  "publication_date": "1976-11-12",
+  "gazette_url_en": "/egazette/en/1976-gn2519.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1976/Scanned_20260621-1620(1).pdf",
+  "streets": [{
+    "english_name": "Wai Yip Street",
+    "chinese_name": "偉業街",
+    "history": [{
+      "publication_date": "1976-11-12",
+      "change_kind": "extend",
+      "street_name_en": "Wai Yip Street",
+      "street_name_zh": "偉業街",
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "notice_type_normalized": "extension",
+      "gazette_location": {
+        "description_raw_en": "Thoroughfare commencing at the junction of Wai Yip Street and King Yip Street, running in a south-easterly direction for a distance of about 400 m. and terminating at its junction with Cha Kwo Ling Road, as shown coloured red on drawing No. KH 2079/1.",
+        "description_raw_zh": "此街道起點為偉業街與敬業街會合點，向東南伸展約四百公尺，終點與茶果嶺道會合，其位置在 KH 2079/1 號圖則內用紅色標明。"
+      }
+    }]
+  }]
+}

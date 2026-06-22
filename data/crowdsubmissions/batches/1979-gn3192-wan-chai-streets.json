@@ -1,0 +1,70 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn3192-wan-chai-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3192",
+  "publication_date": "1979-12-07",
+  "gazette_url_en": "/egazette/en/1979-gn3192.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1737.pdf",
+  "remarks": "Pages span Scanned_20260621-1737(1).pdf, Scanned_20260621-1737.pdf, and Scanned_20260621-1738.pdf.",
+  "streets": [
+    {
+      "english_name": "Yat Sin Street",
+      "chinese_name": "日善街",
+      "history": [
+        {
+          "publication_date": "1979-12-07",
+          "change_kind": "declare",
+          "street_name_en": "Yat Sin Street",
+          "street_name_zh": "日善街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Sung Tak Street running northward, then turning north-westward, then westward, then southward joining Oi Kwan Road for a total distance of approximately 290 m, as shown coloured pink and pink hatched black in Drawing No. HH 3608.",
+            "description_raw_zh": "此街道起點與崇德街會合，向北伸展，先轉向西北方，繼而轉向西方，再向南方伸展，與愛群道會合，全長約為二百九十米，其位置在 HH 3608 號圖則內用粉紅色及粉紅底黑間綫標明。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Lap Tak Lane",
+      "chinese_name": "立德里",
+      "history": [
+        {
+          "publication_date": "1979-12-07",
+          "change_kind": "declare",
+          "street_name_en": "Lap Tak Lane",
+          "street_name_zh": "立德里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Morrison Hill Road running westward for a distance of approximately 24 m, as shown coloured green in Drawing No. HH 3608.",
+            "description_raw_zh": "此街道起點與摩利臣山道會合，向西伸展約廿四米，其位置在 HH 3608 號圖則內用綠色標明。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Sung Yin Lane",
+      "chinese_name": "崇賢里",
+      "history": [
+        {
+          "publication_date": "1979-12-07",
+          "change_kind": "declare",
+          "street_name_en": "Sung Yin Lane",
+          "street_name_zh": "崇賢里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Oi Kwan Road running north-eastward for a distance of approximately 36 m, as shown coloured blue in Drawing No. HH 3608.",
+            "description_raw_zh": "此街道起點與愛群道會合，向東北伸展約三十六米，其位置在 HH 3608 號圖則內用藍色標明。"
+          }
+        }
+      ]
+    }
+  ]
+}

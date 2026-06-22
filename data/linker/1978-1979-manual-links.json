@@ -1,0 +1,95 @@
+{
+  "links": [
+    {
+      "timeline_id": "code:10912",
+      "street_code": "10912",
+      "event_ids": [
+        "crowd|1978-gn933-tsim-sha-tsui-streets-Ching-Yee-Road-正義道-1978-04-14"
+      ],
+      "status": "active",
+      "method": "manual",
+      "district_hint": "Tsim Sha Tsui",
+      "note": "G.N.933 正義道; geojson EN is Justice Drive (harmonized rename)",
+      "linked_at": "2026-06-22",
+      "linked_by": "linker"
+    },
+    {
+      "timeline_id": "code:12139",
+      "street_code": "12139",
+      "event_ids": [
+        "crowd|1978-gn1853-st-johns-lane-St-John-s-Lane-聖約翰里-1978-07-21"
+      ],
+      "status": "active",
+      "method": "manual",
+      "district_hint": "Ho Man Tin",
+      "note": "G.N.1853 聖約翰里; geojson ST. JOHN'S LANE (St vs St. punctuation)",
+      "linked_at": "2026-06-22",
+      "linked_by": "linker"
+    },
+    {
+      "timeline_id": "code:11274",
+      "street_code": "11274",
+      "event_ids": [
+        "crowd|1979-gn3194-sha-tin-lok-streets-Lok-Yuen-Lane-樂園里-1979-12-07"
+      ],
+      "status": "active",
+      "method": "manual",
+      "district_hint": "Sha Tin",
+      "note": "G.N.3194 樂園里 → centreline 樂園徑 LOK YUEN PATH",
+      "linked_at": "2026-06-22",
+      "linked_by": "linker"
+    },
+    {
+      "timeline_id": "code:11259",
+      "street_code": "11259",
+      "event_ids": [
+        "crowd|1979-gn3194-sha-tin-lok-streets-Lok-Lin-Street-樂蓮街-1979-12-07"
+      ],
+      "status": "active",
+      "method": "manual",
+      "district_hint": "Sha Tin",
+      "note": "G.N.3194 樂蓮街 → centreline 樂蓮徑 LOK LIN PATH",
+      "linked_at": "2026-06-22",
+      "linked_by": "linker"
+    },
+    {
+      "timeline_id": "code:11256",
+      "street_code": "11256",
+      "event_ids": [
+        "crowd|1979-gn3194-sha-tin-lok-streets-Lok-Kwai-Lane-樂葵里-1979-12-07"
+      ],
+      "status": "active",
+      "method": "manual",
+      "district_hint": "Sha Tin",
+      "note": "G.N.3194 樂葵里 → centreline 樂葵徑 LOK KWAI PATH",
+      "linked_at": "2026-06-22",
+      "linked_by": "linker"
+    },
+    {
+      "timeline_id": "code:11251",
+      "street_code": "11251",
+      "event_ids": [
+        "crowd|1979-gn3194-sha-tin-lok-streets-Lok-Fung-Lane-樂楓里-1979-12-07"
+      ],
+      "status": "active",
+      "method": "manual",
+      "district_hint": "Sha Tin",
+      "note": "G.N.3194 樂楓里 → centreline 樂楓徑 LOK FUNG PATH",
+      "linked_at": "2026-06-22",
+      "linked_by": "linker"
+    },
+    {
+      "timeline_id": "code:11252",
+      "street_code": "11252",
+      "event_ids": [
+        "crowd|1979-gn3194-sha-tin-lok-streets-Lok-Ha-Lane-樂霞里-1979-12-07"
+      ],
+      "status": "active",
+      "method": "manual",
+      "district_hint": "Sha Tin",
+      "note": "G.N.3194 樂霞里 → centreline 樂霞坊 LOK HA SQUARE",
+      "linked_at": "2026-06-22",
+      "linked_by": "linker"
+    }
+  ]
+}

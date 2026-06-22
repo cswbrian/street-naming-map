@@ -1,0 +1,132 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1976-gn1302-cheung-sha-wan-new-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1302",
+  "publication_date": "1976-06-18",
+  "gazette_url_en": "/egazette/en/1976-gn1302.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1976/Scanned_20260621-1609.pdf",
+  "remarks": "G.N.1302 on pages 3–4 of same scan as G.N.1301.",
+  "streets": [
+    {
+      "english_name": "Tai Nan West Street",
+      "chinese_name": "大南西街",
+      "history": [{
+        "publication_date": "1976-06-18",
+        "change_kind": "extend",
+        "street_name_en": "Tai Nan West Street",
+        "street_name_zh": "大南西街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "extension",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare as shown coloured blue hatched black on drawing No. KH 1552A/1, commencing at the junction of Cheung Sha Wan Road with Tai Nan West Street, running in a southerly direction for a distance of about 170 metres and terminating at its junction with Lai Chi Kok Road.",
+          "description_raw_zh": "此街道之位置，在 KH 1552A/1 號圖則上用藍色及黑間綫標明；其起點位於長沙灣道與大南西街交界處；向南伸展約一百七十公尺，終點與荔枝角道會合。"
+        }
+      }]
+    },
+    {
+      "english_name": "Cheung Lai Street",
+      "chinese_name": "長荔街",
+      "history": [{
+        "publication_date": "1976-06-18",
+        "change_kind": "declare",
+        "street_name_en": "Cheung Lai Street",
+        "street_name_zh": "長荔街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare as shown coloured blue on drawing No. KH 1552A/1, commencing at its junction with Cheung Sha Wan Road about 120 metres east of Tung Chau West Street, running in a southerly direction for a distance of about 170 metres and terminating at its junction with Lai Chi Kok Road.",
+          "description_raw_zh": "此街道之位置，在 KH 1552A/1 號圖則上用藍色標明；其起點在通州西街以東約一百二十公尺之處與長沙灣道會合，向南伸展約一百七十公尺，終點與荔枝角道會合。"
+        }
+      }]
+    },
+    {
+      "english_name": "Cheung Yee Street",
+      "chinese_name": "長義街",
+      "history": [{
+        "publication_date": "1976-06-18",
+        "change_kind": "declare",
+        "street_name_en": "Cheung Yee Street",
+        "street_name_zh": "長義街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare lying parallel about 50 metres to the north of Lai Chi Kok Road, as shown coloured brown on drawing No. KH 1552A/1, running for a distance of about 330 metres between Tai Nan West Street and Cheung Mou Street.",
+          "description_raw_zh": "此街道在荔枝角道以北約五十公尺之處與荔枝角道平行（如 KH 1552A/1 號圖則上用棕色繪示者）；其位置介於大南西街與長茂街之間，長約三百三十公尺。"
+        }
+      }]
+    },
+    {
+      "english_name": "Cheung Shun Street",
+      "chinese_name": "長順街",
+      "history": [{
+        "publication_date": "1976-06-18",
+        "change_kind": "declare",
+        "street_name_en": "Cheung Shun Street",
+        "street_name_zh": "長順街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare as shown coloured green on drawing No. KH 1552A/1, commencing at its junction with Tai Nan West Street, running parallel about 50 metres to the south of Cheung Sha Wan Road for a distance of about 460 metres and then turning in a northerly direction for a distance of about 50 metres to terminate at its junction with Cheung Sha Wan Road.",
+          "description_raw_zh": "此街道之位置，在 KH 1552A/1 號圖則上用綠色標明；其起點與大南西街會合，在長沙灣道以南約五十公尺之處與長沙灣道平行，伸展約四百六十公尺，然後轉北，伸展約五十公尺，其終點與長沙灣道會合。"
+        }
+      }]
+    },
+    {
+      "english_name": "Cheung Yue Street",
+      "chinese_name": "長裕街",
+      "history": [{
+        "publication_date": "1976-06-18",
+        "change_kind": "declare",
+        "street_name_en": "Cheung Yue Street",
+        "street_name_zh": "長裕街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare as shown coloured red on drawing No. KH 1552A/1, running in a U-shaped direction for a distance of about 210 metres and terminating at its junction with Tai Nan West Street.",
+          "description_raw_zh": "此街道之位置，在 KH 1552A/1 號圖則上用紅色標明，以 U 字形伸展約二百一十公尺，其終點與大南西街會合。"
+        }
+      }]
+    },
+    {
+      "english_name": "Cheung Mou Street",
+      "chinese_name": "長茂街",
+      "history": [{
+        "publication_date": "1976-06-18",
+        "change_kind": "declare",
+        "street_name_en": "Cheung Mou Street",
+        "street_name_zh": "長茂街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare as shown coloured red hatched black on drawing No. KH 1552A/1, commencing at its junction with Lai Chi Kok Road about 170 metres west of Cheung Lai Street, running in a northerly direction for a distance of about 110 metres and terminating at its junction with Cheung Shun Street.",
+          "description_raw_zh": "此街道之位置，在 KH 1552A/1 號圖則上用紅色及黑間綫標明；其起點在長荔街以西約一百七十公尺之處與荔枝角道會合，向北伸展約一百一十公尺，其終點與長順街會合。"
+        }
+      }]
+    },
+    {
+      "english_name": "Cheung Sha Wan Path",
+      "chinese_name": "長沙灣徑",
+      "history": [{
+        "publication_date": "1976-06-18",
+        "change_kind": "declare",
+        "street_name_en": "Cheung Sha Wan Path",
+        "street_name_zh": "長沙灣徑",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Pedestrian street as shown coloured green hatched black on drawing No. KH 1552A/1, commencing at its junction with Lai Chi Kok Road about 80 metres east of Tai Nan West Street, running in a northerly direction for a distance of about 220 metres and terminating at its junction with Cheung Sha Wan Road.",
+          "description_raw_zh": "此行人之街道在 KH 1552A/1 號圖則上用綠色及黑間綫標明；其起點在大南西街以東約八十公尺之處與荔枝角道會合，向北伸展約二百二十公尺，其終點與長沙灣道會合。"
+        }
+      }]
+    }
+  ]
+}

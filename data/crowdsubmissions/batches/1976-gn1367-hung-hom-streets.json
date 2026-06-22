@@ -1,0 +1,63 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1976-gn1367-hung-hom-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1367",
+  "publication_date": "1976-06-25",
+  "gazette_url_en": "/egazette/en/1976-gn1367.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1976/Scanned_20260621-1610.pdf",
+  "streets": [
+    {
+      "english_name": "Tak Man Street",
+      "chinese_name": "德民街",
+      "history": [{
+        "publication_date": "1976-06-25",
+        "change_kind": "declare",
+        "street_name_en": "Tak Man Street",
+        "street_name_zh": "德民街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare commencing on the south-eastern side of Dock Street opposite Wu Hu Street, running in a south-easterly direction for about 177 m. and terminating in front of K.M.L. 27 (Hong Kong & Whampoa Docks) as shown coloured yellow on drawing No. KH 1910/1.",
+          "description_raw_zh": "此街道起點位於船澳街之東南面與蕪湖街相對之處。向東南伸展而終於九龍第二十七號海段（香港黃埔船塢）之前，全長約一百七十七公尺，其位置在 KH 1910/1 號圖則上用黃色標明。"
+        }
+      }]
+    },
+    {
+      "english_name": "Man Tai Street",
+      "chinese_name": "民泰街",
+      "history": [{
+        "publication_date": "1976-06-25",
+        "change_kind": "declare",
+        "street_name_en": "Man Tai Street",
+        "street_name_zh": "民泰街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare commencing on the north-eastern side of Tak Man Street referred to above, running in a north-easterly direction for about 55 m., then turning south-easterly for a distance of about 130 m. and terminating in front of K.M.L. 27 (Hong Kong & Whampoa Docks) as shown coloured red on drawing No. KH 1910/1.",
+          "description_raw_zh": "此街道起點位於上述德民街之東北面，初向東北伸展，約五十五公尺後轉向東南伸展約一百三十公尺之距離，其終點位於九龍第二十七號海段（香港黃埔船塢）之前。位置在 KH 1910/1 號圖則上用紅色標明。"
+        }
+      }]
+    },
+    {
+      "english_name": "Man Siu Street",
+      "chinese_name": "民兆街",
+      "history": [{
+        "publication_date": "1976-06-25",
+        "change_kind": "declare",
+        "street_name_en": "Man Siu Street",
+        "street_name_zh": "民兆街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare about 55 m. long as shown coloured blue on drawing No. KH 1910/1 joining Man Tai Street and Tak Man Street, referred to above, at right angle.",
+          "description_raw_zh": "此街道以垂直角度連接上述之德民街及民泰街，全長約五十五公尺，位置在 KH 1910/1 號圖則上之藍色標明。"
+        }
+      }]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1976-gn579-pedder-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.579",
+  "publication_date": "1976-03-12",
+  "gazette_url_en": "/egazette/en/1976-gn579.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1976/Scanned_20260620-1935.pdf",
+  "remarks": "Effective rename confirming G.N.204/1976-01-23 proposal.",
+  "streets": [{
+    "english_name": "Pedder Street",
+    "chinese_name": "畢打街",
+    "history": [{
+      "publication_date": "1976-03-12",
+      "change_kind": "rename",
+      "previous_street_name_en": "Pedder Street",
+      "previous_street_name_zh": "必打街",
+      "street_name_en": "Pedder Street",
+      "street_name_zh": "畢打街",
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "notice_type_normalized": "rename",
+      "submitter_remarks": "Chinese name change only; English unchanged per notice.",
+      "gazette_location": {
+        "description_raw_en": "Thoroughfare in Central District running northwards from its junction with Queen's Road Central and terminating at Connaught Road Central.",
+        "description_raw_zh": "即位於中區、由其與皇后大道中之會合點向北行而終止於干諾道中之街道。"
+      }
+    }]
+  }]
+}

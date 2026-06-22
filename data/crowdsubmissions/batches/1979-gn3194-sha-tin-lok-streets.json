@@ -1,0 +1,127 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn3194-sha-tin-lok-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3194",
+  "publication_date": "1979-12-07",
+  "gazette_url_en": "/egazette/en/1979-gn3194.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1738.pdf",
+  "remarks": "Pages span Scanned_20260621-1737.pdf, Scanned_20260621-1738.pdf (3 pages).",
+  "streets": [
+    {
+      "english_name": "Lok Lam Road",
+      "chinese_name": "樂林路",
+      "history": [
+        {
+          "publication_date": "1979-12-07",
+          "change_kind": "declare",
+          "street_name_en": "Lok Lam Road",
+          "street_name_zh": "樂林路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at the western part of Sha Tin Town Lot No. 35 and running north-easterly for about 135 metres where it bends to run in a north-westerly direction for about 285 metres and then curves southerly for about 90 metres, it then bends again sharply to run in a west north-westerly direction for about 300 metres and curves to run north-easterly for about 80 metres where it temporarily terminates at the south-western corner of Sha Tin Town Lot No. 44 as shown dotted black on Drawing No. NTA/ST/R5A.",
+            "description_raw_zh": "此路由沙田市地段第三十五號西端開始，向東北伸展約一三五米，後改向西北伸延約二八五米，然後轉向南伸展約九十米，又急速改向西北偏西伸展約三〇〇米，再轉向東北伸延約八〇米至沙田市地段第四十四號西南角臨時終止；其位置在 NTA/ST/R5A 號圖則內以黑圓點顯示。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Lok Yuen Lane",
+      "chinese_name": "樂園里",
+      "history": [
+        {
+          "publication_date": "1979-12-07",
+          "change_kind": "declare",
+          "street_name_en": "Lok Yuen Lane",
+          "street_name_zh": "樂園里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing at its junction wth Lok Lam Road, between Sha Tin Town Lot Nos. 51 and 57 and running generally in a south-easterly direction for about 190 metres to terminate at its closed end between Sha Tin Town Lot Nos. 54 and 55 as shown shaded black on Drawing No. NTA/ST/R5A.",
+            "description_raw_zh": "此盡頭路由與樂林路（介於沙田市地段第五十一號及五十七號間）之交界處開始，大致向東南伸展約一九〇米，然後在本身位於沙田市地段第五十四及五十五號之盡頭處終結；其位置在NTA/ST/R5A號圖則內以黑斜線顯示。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Lok Lin Street",
+      "chinese_name": "樂蓮街",
+      "history": [
+        {
+          "publication_date": "1979-12-07",
+          "change_kind": "declare",
+          "street_name_en": "Lok Lin Street",
+          "street_name_zh": "樂蓮街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at the junction with Lok Lam Road, near the south-western corner of Sha Tin Town Lot No. 57 and running in a south-easterly direction for about 135 metres and then curves to run north-easterly for about 185 metres where it terminates by rejoining with Lok Lam Road, between Sha Tin Town Lot Nos. 54 and 58, as shown cross-hatched on Drawing No. NTA/ST/R5A.",
+            "description_raw_zh": "此街道與樂林路（近沙田市地段第五十七號之西南角）之交界處開始，向東南伸展約一三五米，再轉向東北伸展約一八五米與樂林路再行連接（介於沙田市地段第五十四號與五十八號間）然後終結；其位置在NTA/ST/R5A號圖則內以黑間格顯示。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Lok Kwai Lane",
+      "chinese_name": "樂葵里",
+      "history": [
+        {
+          "publication_date": "1979-12-07",
+          "change_kind": "declare",
+          "street_name_en": "Lok Kwai Lane",
+          "street_name_zh": "樂葵里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing at its junction with Lok Lam Road, to the south of Sha Tin Town Lot No. 49 and running in a southerly direction for about 30 metres where it bends to run north-westerly for about 110 metres to terminate at its closed end as shown cross-hatched on Drawing No. NTA/ST/R5A.",
+            "description_raw_zh": "此盡頭路由與樂林路（沙田市地段第四十九號以南）之交界處開始，向南伸展約三十米，再改向西北伸延約一一〇米至本身之盡頭處終結；其位置在NTA/ST/R5A號圖則內以黑間格顯示。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Lok Fung Lane",
+      "chinese_name": "樂楓里",
+      "history": [
+        {
+          "publication_date": "1979-12-07",
+          "change_kind": "declare",
+          "street_name_en": "Lok Fung Lane",
+          "street_name_zh": "樂楓里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing at its junction with Lok Lam Road, near the south-western corner of Sha Tin Town Lot No. 44 and running generally in an easterly direction for about 175 metres where it terminates in a closed end to the south of Sha Tin Town Lot No. 47 as shown hatched black on Drawing No. NTA/ST/R5A.",
+            "description_raw_zh": "此盡頭路由與樂林路（近沙田市地段第四十四號之西南角）之交界處開始，大致向東伸展一七五米，然後在位於沙田市地段第四十七號以南之盡頭處終結；其位置在NTA/ST/R5A號圖則內以黑間線顯示。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Lok Ha Lane",
+      "chinese_name": "樂霞里",
+      "history": [
+        {
+          "publication_date": "1979-12-07",
+          "change_kind": "declare",
+          "street_name_en": "Lok Ha Lane",
+          "street_name_zh": "樂霞里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing at its junction with Lok Lin Street, to the south of Sha Tin Town Lot No. 55 and running in a south-westerly direction for about 75 metres where it terminates in its closed end as shown dotted black on Drawing No. NTA/ST/R5A.",
+            "description_raw_zh": "此盡頭路由與樂蓮街（沙田市地段第五十五號以南）之交界處開始，向西南伸展約七十五米至盡頭處終結；其位置在NTA/ST/R5A號圖則內以黑圓點顯示。"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1976-gn721-kung-lok-ping-ting",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.721",
+  "publication_date": "1976-04-02",
+  "gazette_url_en": "/egazette/en/1976-gn721.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1976/Scanned_20260620-1936(1).pdf",
+  "remarks": "G.N.722 Ping Ting Road on page 2 of same scan. Effective rename confirming G.N.345/1976-02-13 proposal.",
+  "streets": [
+    {
+      "english_name": "Kung Lok Road",
+      "chinese_name": "功樂道",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Tung Ming Street",
+          "street_name_zh": "通明街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former section name attested in G.N.721 rename notice; section described in G.N.345/1976-02-13."
+        },
+        {
+          "publication_date": "1976-04-02",
+          "change_kind": "rename",
+          "previous_street_name_en": "Tung Ming Street",
+          "previous_street_name_zh": "通明街",
+          "street_name_en": "Kung Lok Road",
+          "street_name_zh": "功樂道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_notice_label": "G.N.721",
+          "gazette_location": {
+            "description_raw_en": "With reference to Government Notice No. 345 dated 13th February, 1976, it is hereby notified that the section of Tung Ming Street (通明街) in Kwun Tong, New Kowloon referred to in the notice is renamed as Kung Lok Road (功樂道) with immediate effect.",
+            "description_raw_zh": "關於一九七六年二月十三日刊登之憲示第三四五號，茲特通告：上述憲示所述，位於新九龍觀塘通明街之一段道路，即日起由「通明街」改為「功樂道」。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Ping Ting Road",
+      "chinese_name": "平定道",
+      "history": [{
+        "publication_date": "1976-04-02",
+        "change_kind": "declare",
+        "street_name_en": "Ping Ting Road",
+        "street_name_zh": "平定道",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_notice_label": "G.N.722",
+        "gazette_location": {
+          "description_raw_en": "Thoroughfare commencing at its junction with Hammer Hill Road, running in a southeast direction for a distance of about 170 m. and then turning southwards for a distance of about 400 m. as shown coloured red on drawing No. KH 1874/1.",
+          "description_raw_zh": "起點與斧山道會合，初向東南伸展約一七〇公尺，然後轉向南行約四百公尺，位置在 KH 1874/1 號圖則內用紅色標明。"
+        }
+      }]
+    }
+  ]
+}

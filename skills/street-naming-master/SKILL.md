@@ -1,6 +1,6 @@
 ---
 name: street-naming-master
-description: Edit gazette naming events in data/master/street-events.json (amend, remove, direct insert). For centreline map linkage use centreline-linker skill. For PDF batches use apply-egazette-naming or parse-hkgro-gazettes. For researcher earliest-evidence / rename chains use research-street-history.
+description: Edit gazette naming events in data/master/street-events.json (amend, remove, direct insert). For centreline map linkage use centreline-linker skill. For PDF batches use apply-egazette-naming or parse-gazette-street-events. For researcher earliest-evidence / rename chains use research-street-history.
 ---
 
 # Street naming master file
@@ -100,7 +100,7 @@ Use a parser skill instead of hand-editing when starting from a PDF — [skills/
 | Task | Skill |
 |------|--------|
 | Modern `egn`/`cgn` naming notice | [apply-egazette-naming](../apply-egazette-naming/SKILL.md) |
-| HKGRO naming table | [parse-hkgro-gazettes](../parse-hkgro-gazettes/SKILL.md) |
+| HKGRO naming table | [parse-gazette-street-events](../parse-gazette-street-events/SKILL.md) |
 | Earliest mention, rename chain, map identity, demote unverified | [research-street-history](../research-street-history/SKILL.md) |
 
 Common master patches from research workflow: demote row (`is_declaration_event: false`, `unknown`, URLs null); upgrade when PDF arrives (`gazette_primary`).

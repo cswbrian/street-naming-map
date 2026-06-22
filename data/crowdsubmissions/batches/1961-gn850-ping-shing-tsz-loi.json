@@ -1,0 +1,48 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1961-gn850-ping-shing-tsz-loi",
+  "gazette_notice_label": "G.N.850",
+  "publication_date": "1961-05-19",
+  "gazette_url_en": "/egazette/en/1961-gn850.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1961 (~1961.08).pdf",
+  "streets": [
+    {
+      "english_name": "Ping Shing Lane",
+      "chinese_name": "平成里",
+      "history": [
+        {
+          "publication_date": "1961-05-19",
+          "change_kind": "declare",
+          "street_name_en": "Ping Shing Lane",
+          "street_name_zh": "平成里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac running south west about 130 feet from its junction with Yuet Wah Street (about 100 feet south east of Mut Wah Road), then making a right angled bend and running about 100 feet in a south east direction (as shown coloured red in plan R.K. 1134A)."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Tsz Loi Lane",
+      "chinese_name": "紫來里",
+      "history": [
+        {
+          "publication_date": "1961-05-19",
+          "change_kind": "declare",
+          "street_name_en": "Tsz Loi Lane",
+          "street_name_zh": "紫來里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac running north west about 160 feet from Tin Heung Street midway between its east and west junction with Yuet Wah Street (as shown coloured blue in plan R.K. 1134A)."
+          }
+        }
+      ]
+    }
+  ]
+}

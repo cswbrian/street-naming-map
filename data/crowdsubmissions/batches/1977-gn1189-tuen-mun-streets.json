@@ -1,0 +1,246 @@
+{
+  "batch_id": "1977-gn1189-tuen-mun-streets",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 1189",
+  "publication_date": "1977-05-20",
+  "gazette_url_en": "/egazette/en/1977-gn1189.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1977-gn1189-tuen-mun-streets/1977-gn1189.pdf",
+  "streets": [
+    {
+      "english_name": "TSUN WEN ROAD",
+      "chinese_name": "震寰路",
+      "history": [
+        {
+          "publication_date": "1977-05-20",
+          "change_kind": "declare",
+          "street_name_en": "Tsun Wen Road",
+          "gazette_notice_label": "Government Notification No. 1189",
+          "government_notice_url_en": "/egazette/en/1977-gn1189.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "震寰路"
+        }
+      ],
+      "link_street_code": "12483"
+    },
+    {
+      "english_name": "KIN FUNG CIRCUIT",
+      "chinese_name": "建豐街",
+      "history": [
+        {
+          "publication_date": "1977-05-20",
+          "change_kind": "declare",
+          "street_name_en": "Kin Fung Circuit",
+          "gazette_notice_label": "Government Notification No. 1189",
+          "government_notice_url_en": "/egazette/en/1977-gn1189.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "建豐街"
+        }
+      ],
+      "link_street_code": "10999"
+    },
+    {
+      "english_name": "HO TIN STREET",
+      "chinese_name": "河田街",
+      "history": [
+        {
+          "publication_date": "1977-05-20",
+          "change_kind": "declare",
+          "street_name_en": "Ho Tin Street",
+          "gazette_notice_label": "Government Notification No. 1189",
+          "government_notice_url_en": "/egazette/en/1977-gn1189.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "河田街"
+        }
+      ],
+      "link_street_code": "10760"
+    },
+    {
+      "english_name": "KIN WING STREET",
+      "chinese_name": "建榮街",
+      "history": [
+        {
+          "publication_date": "1977-05-20",
+          "change_kind": "declare",
+          "street_name_en": "Kin Wing Street",
+          "gazette_notice_label": "Government Notification No. 1189",
+          "government_notice_url_en": "/egazette/en/1977-gn1189.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "建榮街"
+        }
+      ],
+      "link_street_code": "11017"
+    },
+    {
+      "english_name": "KIN TAI STREET",
+      "chinese_name": "建泰街",
+      "history": [
+        {
+          "publication_date": "1977-05-20",
+          "change_kind": "declare",
+          "street_name_en": "Kin Tai Street",
+          "gazette_notice_label": "Government Notification No. 1189",
+          "government_notice_url_en": "/egazette/en/1977-gn1189.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "建泰街"
+        }
+      ],
+      "link_street_code": "11012"
+    },
+    {
+      "english_name": "KIN ON STREET",
+      "chinese_name": "建安街",
+      "history": [
+        {
+          "publication_date": "1977-05-20",
+          "change_kind": "declare",
+          "street_name_en": "Kin On Street",
+          "gazette_notice_label": "Government Notification No. 1189",
+          "government_notice_url_en": "/egazette/en/1977-gn1189.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "建安街"
+        }
+      ],
+      "link_street_code": "11009"
+    },
+    {
+      "english_name": "KIN LUNG STREET",
+      "chinese_name": "建隆街",
+      "history": [
+        {
+          "publication_date": "1977-05-20",
+          "change_kind": "declare",
+          "street_name_en": "Kin Lung Street",
+          "gazette_notice_label": "Government Notification No. 1189",
+          "government_notice_url_en": "/egazette/en/1977-gn1189.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "建隆街"
+        }
+      ],
+      "link_street_code": "11006"
+    },
+    {
+      "english_name": "KIN FAT STREET",
+      "chinese_name": "建發街",
+      "history": [
+        {
+          "publication_date": "1977-05-20",
+          "change_kind": "declare",
+          "street_name_en": "Kin Fat Street",
+          "gazette_notice_label": "Government Notification No. 1189",
+          "government_notice_url_en": "/egazette/en/1977-gn1189.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "建發街"
+        }
+      ],
+      "link_street_code": "10998"
+    },
+    {
+      "english_name": "KIN KWAN STREET",
+      "chinese_name": "建群街",
+      "history": [
+        {
+          "publication_date": "1977-05-20",
+          "change_kind": "declare",
+          "street_name_en": "Kin Kwan Street",
+          "gazette_notice_label": "Government Notification No. 1189",
+          "government_notice_url_en": "/egazette/en/1977-gn1189.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "建群街"
+        }
+      ],
+      "link_street_code": "11003"
+    },
+    {
+      "english_name": "KIN WING LANE",
+      "chinese_name": "建榮里",
+      "history": [
+        {
+          "publication_date": "1977-05-20",
+          "change_kind": "declare",
+          "street_name_en": "Kin Wing Lane",
+          "gazette_notice_label": "Government Notification No. 1189",
+          "government_notice_url_en": "/egazette/en/1977-gn1189.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "建榮里"
+        }
+      ],
+      "link_street_code": "11016"
+    },
+    {
+      "english_name": "KIN FAT LANE",
+      "chinese_name": "建發里",
+      "history": [
+        {
+          "publication_date": "1977-05-20",
+          "change_kind": "declare",
+          "street_name_en": "Kin Fat Lane",
+          "gazette_notice_label": "Government Notification No. 1189",
+          "government_notice_url_en": "/egazette/en/1977-gn1189.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "建發里"
+        }
+      ],
+      "link_street_code": "10997"
+    },
+    {
+      "english_name": "KIN WONG STREET",
+      "chinese_name": "建旺街",
+      "history": [
+        {
+          "publication_date": "1977-05-20",
+          "change_kind": "declare",
+          "street_name_en": "Kin Wong Street",
+          "gazette_notice_label": "Government Notification No. 1189",
+          "government_notice_url_en": "/egazette/en/1977-gn1189.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "建旺街"
+        }
+      ],
+      "link_street_code": "11019"
+    },
+    {
+      "english_name": "PUI WING LANE",
+      "chinese_name": "沛榮里",
+      "history": [
+        {
+          "publication_date": "1977-05-20",
+          "change_kind": "declare",
+          "street_name_en": "Pui Wing Lane",
+          "gazette_notice_label": "Government Notification No. 1189",
+          "government_notice_url_en": "/egazette/en/1977-gn1189.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "沛榮里"
+        }
+      ],
+      "link_street_code": "11798"
+    }
+  ],
+  "evidence_schema_version": 1
+}

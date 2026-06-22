@@ -1,0 +1,76 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1976-gn2119-2120-zh-renames",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2119",
+  "publication_date": "1976-09-24",
+  "gazette_url_en": "/egazette/en/1976-gn2119.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1976/Scanned_20260621-1616.pdf",
+  "remarks": "G.N.2120 Keswick Street and Public Square Street on same scan. Effective renames confirming G.N.1710 and G.N.1711/1976-08-06 proposals.",
+  "streets": [
+    {
+      "english_name": "Conduit Road",
+      "chinese_name": "干德道",
+      "history": [{
+        "publication_date": "1976-09-24",
+        "change_kind": "rename",
+        "previous_street_name_en": "Conduit Road",
+        "previous_street_name_zh": "干讀道",
+        "street_name_en": "Conduit Road",
+        "street_name_zh": "干德道",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "chinese_correction",
+        "gazette_notice_label": "G.N.2119",
+        "submitter_remarks": "Chinese name change only; English unchanged per notice.",
+        "gazette_location": {
+          "description_raw_en": "With reference to Government Notice No. 1710 dated 6th August, 1976, it is hereby notified that the Chinese name of Conduit Road at Mid-Levels, Hong Kong will be changed from 干讀道 to 干德道 with immediate effect.",
+          "description_raw_zh": "關於當局擬更改街道之中文名稱事，前經於本年八月六日在憲示第一七一〇號公佈在案，茲特再行公佈：港島半山區之「干讀道」，由即日起，改稱為「干德道」。"
+        }
+      }]
+    },
+    {
+      "english_name": "Keswick Street",
+      "chinese_name": "敬誠街",
+      "history": [{
+        "publication_date": "1976-09-24",
+        "change_kind": "rename",
+        "previous_street_name_en": "Keswick Street",
+        "previous_street_name_zh": "奇士域街",
+        "street_name_en": "Keswick Street",
+        "street_name_zh": "敬誠街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "chinese_correction",
+        "gazette_notice_label": "G.N.2120",
+        "submitter_remarks": "Chinese name change only; English unchanged per notice.",
+        "gazette_location": {
+          "description_raw_en": "With reference to Government Notice No. 1711 dated 6th August, 1976, it is hereby notified that the Chinese names of Keswick Street in Causeway Bay, Hong Kong and Public Square Street in Yau Ma Tei, Kowloon will be changed from 奇士域街 to 敬誠街 and 公眾四方街 to 眾坊街 with immediate effect.",
+          "description_raw_zh": "關於當局擬更改街道之中文名稱事，前經於本年八月六日在憲示第一七一一號公佈在案，茲特再行公佈：港島銅鑼灣之「奇士域街」及九龍油蔴地之「公眾四方街」，由即日起，分別改稱為「敬誠街」及「眾坊街」。"
+        }
+      }]
+    },
+    {
+      "english_name": "Public Square Street",
+      "chinese_name": "眾坊街",
+      "history": [{
+        "publication_date": "1976-09-24",
+        "change_kind": "rename",
+        "previous_street_name_en": "Public Square Street",
+        "previous_street_name_zh": "公眾四方街",
+        "street_name_en": "Public Square Street",
+        "street_name_zh": "眾坊街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "chinese_correction",
+        "gazette_notice_label": "G.N.2120",
+        "submitter_remarks": "Chinese name change only; English unchanged per notice.",
+        "gazette_location": {
+          "description_raw_en": "With reference to Government Notice No. 1711 dated 6th August, 1976, it is hereby notified that the Chinese names of Keswick Street in Causeway Bay, Hong Kong and Public Square Street in Yau Ma Tei, Kowloon will be changed from 奇士域街 to 敬誠街 and 公眾四方街 to 眾坊街 with immediate effect.",
+          "description_raw_zh": "關於當局擬更改街道之中文名稱事，前經於本年八月六日在憲示第一七一一號公佈在案，茲特再行公佈：港島銅鑼灣之「奇士域街」及九龍油蔴地之「公眾四方街」，由即日起，分別改稱為「敬誠街」及「眾坊街」。"
+        }
+      }]
+    }
+  ]
+}

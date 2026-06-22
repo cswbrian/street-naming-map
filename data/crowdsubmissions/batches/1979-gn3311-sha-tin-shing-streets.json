@@ -1,0 +1,70 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn3311-sha-tin-shing-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3311",
+  "publication_date": "1979-12-21",
+  "gazette_url_en": "/egazette/en/1979-gn3311.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1739.pdf",
+  "remarks": "Pages span Scanned_20260621-1739.pdf (2 pages).",
+  "streets": [
+    {
+      "english_name": "Shing Chuen Road",
+      "chinese_name": "成全路",
+      "history": [
+        {
+          "publication_date": "1979-12-21",
+          "change_kind": "declare",
+          "street_name_en": "Shing Chuen Road",
+          "street_name_zh": "成全路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with an unnamed road near Sha Tin Town Lot Nos. 26 and 27 and running in a south south-easterly direction for about 85 metres where it bends to run in a south-westerly direction for about 225 metres to terminate at its junction with Shing Wan Road near the south-western corner of Sha Tin Town Lot No. 42 as shown cross-hatched on Drawing No. NTA/ST/R6.",
+            "description_raw_zh": "此道路由與沙田新市第二十六及二十七號地段附近之一條未命名之道路之交界處開始向東南偏南伸展約八十五米，然後轉向西南伸展約二二五米至與近沙田市第四十二號地段西南角隅附近之成運路之交界處終止；在NTA/ST/R6號圖則內以間格顯示。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Shing Wan Road",
+      "chinese_name": "成運路",
+      "history": [
+        {
+          "publication_date": "1979-12-21",
+          "change_kind": "declare",
+          "street_name_en": "Shing Wan Road",
+          "street_name_zh": "成運路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Shing Chuen Road near the eastern corner of Sha Tin Town Lot No. 38 and running in a north north-westerly direction for about 95 metres where it bends to run in a westerly direction for about 160 metres, it then bends to run south south-easterly for about 165 metres to terminate at its junction with Shing Chuen Road near the south-western corner of Sha Tin Town Lot No. 42 as shown dotted black on Drawing No. NTA/ST/R6.",
+            "description_raw_zh": "此道路由與沙田市第三十八號地段東角隅附近之成全路之交界處開始向西北偏北伸展約九十五米，再轉向西伸延約一六〇米，然後改向東南伸展約一六五米至與沙田市第四十二號地段西南角隅附近之成全路之交界處終止；在NTA/ST/R6號以黑圓點顯示。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Shing Hing Street",
+      "chinese_name": "成興街",
+      "history": [
+        {
+          "publication_date": "1979-12-21",
+          "change_kind": "declare",
+          "street_name_en": "Shing Hing Street",
+          "street_name_zh": "成興街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with Shing Chuen Road near Sha Tin Town Lot No. 38 and running in a north north-westerly direction for about 135 metres where it terminates at its junction with Shing Wan Road as shown hatched-black on Drawing No. NTA/ST/R6.",
+            "description_raw_zh": "此街道由與沙田市第三十八號地段附近之成全路之交界處開始向西北偏北伸展約一三五米至與成運路之交界處終止；在NTA/ST/R6號圖則內以黑間線顯示。"
+          }
+        }
+      ]
+    }
+  ]
+}

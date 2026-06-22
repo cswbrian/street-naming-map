@@ -1,0 +1,50 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn3105-sai-wan-ho-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3105",
+  "publication_date": "1979-11-30",
+  "gazette_url_en": "/egazette/en/1979-gn3105.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1736.pdf",
+  "streets": [
+    {
+      "english_name": "Tai Wing Avenue",
+      "chinese_name": "太榮路",
+      "history": [
+        {
+          "publication_date": "1979-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tai Wing Avenue",
+          "street_name_zh": "太榮路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Taikoo Shing Road and running northwards for a distance of approximately 110 m, as shown green on drawing No. HH 3562.",
+            "description_raw_zh": "此街道起點與太古城道會合，向北伸展約一一〇米，其位置在 HH 3562 號圖則內用綠色標明。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Taikoo Wan Road",
+      "chinese_name": "太古灣道",
+      "history": [
+        {
+          "publication_date": "1979-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Taikoo Wan Road",
+          "street_name_zh": "太古灣道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing at its junction with the thoroughfare referred to above and running westwards for a distance of approximately 596 m and eastwards for a distance of approximately 44 m as shown coloured red on drawing No. HH 3562.",
+            "description_raw_zh": "此街道為盡頭路，起點與上述之街道會合，向西伸展約五九六米，向東行約四十四米，其位置在 HH 3562 號圖則內用紅色標明。"
+          }
+        }
+      ]
+    }
+  ]
+}

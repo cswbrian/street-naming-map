@@ -1,0 +1,30 @@
+{
+  "batch_id": "1977-gn1914-fei-tsui-road",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 1914",
+  "publication_date": "1977-08-12",
+  "gazette_url_en": "/egazette/en/1977-gn1914.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1977-gn1914-fei-tsui-road/1977-gn1914.pdf",
+  "streets": [
+    {
+      "english_name": "FEI TSUI ROAD",
+      "chinese_name": "翡翠道",
+      "history": [
+        {
+          "publication_date": "1977-08-12",
+          "change_kind": "declare",
+          "street_name_en": "Fei Tsui Road",
+          "gazette_notice_label": "Government Notification No. 1914",
+          "government_notice_url_en": "/egazette/en/1977-gn1914.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "翡翠道"
+        }
+      ],
+      "link_street_code": "10480"
+    }
+  ],
+  "evidence_schema_version": 1
+}

@@ -1,0 +1,301 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1975-gn2327-gazetteer-harmonization",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2327",
+  "publication_date": "1975-10-24",
+  "gazette_url_en": "/egazette/en/1975-gn2327.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1975/Scanned_20260621-1646.pdf",
+  "remarks": "Gazetteer harmonization batch; Chinese names unchanged per notice.",
+  "streets": [
+    {
+      "english_name": "Pok Fu Lam Reservoir Road",
+      "chinese_name": null,
+      "history": [
+        {
+          "publication_date": "1975-10-24",
+          "change_kind": "rename",
+          "previous_street_name_en": "Pokfulam Reservoir Road",
+          "previous_street_name_zh": null,
+          "street_name_en": "Pok Fu Lam Reservoir Road",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "gazetteer_harmonization",
+          "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+        }
+      ]
+    },
+    {
+      "english_name": "Pok Fu Lam Road",
+      "chinese_name": null,
+      "history": [
+        {
+          "publication_date": "1975-10-24",
+          "change_kind": "rename",
+          "previous_street_name_en": "Pokfulam Road",
+          "previous_street_name_zh": null,
+          "street_name_en": "Pok Fu Lam Road",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "gazetteer_harmonization",
+          "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+        }
+      ]
+    },
+    {
+      "english_name": "Shau Kei Wan Road",
+      "chinese_name": null,
+      "history": [
+        {
+          "publication_date": "1975-10-24",
+          "change_kind": "rename",
+          "previous_street_name_en": "Shaukiwan Road",
+          "previous_street_name_zh": null,
+          "street_name_en": "Shau Kei Wan Road",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "gazetteer_harmonization",
+          "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+        }
+      ]
+    },
+    {
+      "english_name": "Wong Nai Chung Gap Road",
+      "chinese_name": null,
+      "history": [
+        {
+          "publication_date": "1975-10-24",
+          "change_kind": "rename",
+          "previous_street_name_en": "Wongneichong Gap Road",
+          "previous_street_name_zh": null,
+          "street_name_en": "Wong Nai Chung Gap Road",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "gazetteer_harmonization",
+          "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+        }
+      ]
+    },
+    {
+      "english_name": "Wong Nai Chung Road",
+      "chinese_name": null,
+      "history": [
+        {
+          "publication_date": "1975-10-24",
+          "change_kind": "rename",
+          "previous_street_name_en": "Wongneichong Road",
+          "previous_street_name_zh": null,
+          "street_name_en": "Wong Nai Chung Road",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "gazetteer_harmonization",
+          "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+        }
+      ]
+    },
+    {
+      "english_name": "Leung Fai Terrace",
+      "chinese_name": null,
+      "history": [
+        {
+          "publication_date": "1975-10-24",
+          "change_kind": "rename",
+          "previous_street_name_en": "Leong Fee Terrace",
+          "previous_street_name_zh": null,
+          "street_name_en": "Leung Fai Terrace",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "gazetteer_harmonization",
+          "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+        }
+      ]
+    },
+    {
+      "english_name": "Ma Tau Wai Road",
+      "chinese_name": null,
+      "history": [
+        {
+          "publication_date": "1975-10-24",
+          "change_kind": "rename",
+          "previous_street_name_en": "Ma Tau Wei Road",
+          "previous_street_name_zh": null,
+          "street_name_en": "Ma Tau Wai Road",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "gazetteer_harmonization",
+          "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+        }
+      ]
+    },
+    {
+      "english_name": "San Wai Street",
+      "chinese_name": null,
+      "history": [
+        {
+          "publication_date": "1975-10-24",
+          "change_kind": "rename",
+          "previous_street_name_en": "San Wei Street",
+          "previous_street_name_zh": null,
+          "street_name_en": "San Wai Street",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "gazetteer_harmonization",
+          "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+        }
+      ]
+    },
+    {
+      "english_name": "Tong Mei Road",
+      "chinese_name": null,
+      "history": [
+        {
+          "publication_date": "1975-10-24",
+          "change_kind": "rename",
+          "previous_street_name_en": "Tong Mi Road",
+          "previous_street_name_zh": null,
+          "street_name_en": "Tong Mei Road",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "gazetteer_harmonization",
+          "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+        }
+      ]
+    },
+    {
+      "english_name": "Tsat Tsz Mui Road",
+      "chinese_name": null,
+      "history": [
+        {
+          "publication_date": "1975-10-24",
+          "change_kind": "rename",
+          "previous_street_name_en": "Tsat Tse Mui Road",
+          "previous_street_name_zh": null,
+          "street_name_en": "Tsat Tsz Mui Road",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "gazetteer_harmonization",
+          "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+        }
+      ]
+    },
+    {
+      "english_name": "Tsz Mi Alley",
+      "chinese_name": null,
+      "history": [
+        {
+          "publication_date": "1975-10-24",
+          "change_kind": "rename",
+          "previous_street_name_en": "Tse Mi Alley",
+          "previous_street_name_zh": null,
+          "street_name_en": "Tsz Mi Alley",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "gazetteer_harmonization",
+          "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+        }
+      ]
+    },
+    {
+      "english_name": "Tai Tam Reservoir Road",
+      "chinese_name": null,
+      "history": [
+        {
+          "publication_date": "1975-10-24",
+          "change_kind": "rename",
+          "previous_street_name_en": "Tytam Reservoir Road",
+          "previous_street_name_zh": null,
+          "street_name_en": "Tai Tam Reservoir Road",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "gazetteer_harmonization",
+          "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+        }
+      ]
+    },
+    {
+      "english_name": "Wan Chai Gap Road",
+      "chinese_name": null,
+      "history": [
+        {
+          "publication_date": "1975-10-24",
+          "change_kind": "rename",
+          "previous_street_name_en": "Wanchai Gap Road",
+          "previous_street_name_zh": null,
+          "street_name_en": "Wan Chai Gap Road",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "gazetteer_harmonization",
+          "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+        }
+      ]
+    },
+    {
+      "english_name": "Wan Chai Road",
+      "chinese_name": null,
+      "history": [
+        {
+          "publication_date": "1975-10-24",
+          "change_kind": "rename",
+          "previous_street_name_en": "Wanchai Road",
+          "previous_street_name_zh": null,
+          "street_name_en": "Wan Chai Road",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "gazetteer_harmonization",
+          "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+        }
+      ]
+    },
+    {
+      "english_name": "Main Street, Ap Lei Chau",
+      "chinese_name": null,
+      "history": [
+        {
+          "publication_date": "1975-10-24",
+          "change_kind": "rename",
+          "previous_street_name_en": "Main Street, Aplichau",
+          "previous_street_name_zh": null,
+          "street_name_en": "Main Street, Ap Lei Chau",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "gazetteer_harmonization",
+          "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+        }
+      ]
+    },
+    {
+      "english_name": "Shau Kei Wan Main Street East",
+      "chinese_name": null,
+      "history": [
+        {
+          "publication_date": "1975-10-24",
+          "change_kind": "rename",
+          "previous_street_name_en": "Shaukiwan Main Street East",
+          "previous_street_name_zh": null,
+          "street_name_en": "Shau Kei Wan Main Street East",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "gazetteer_harmonization",
+          "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327."
+        }
+      ]
+    }
+  ]
+}

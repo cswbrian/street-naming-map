@@ -1,0 +1,31 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn262-tuen-mun-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.262",
+  "publication_date": "1979-01-26",
+  "gazette_url_en": "/egazette/en/1979-gn262.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1714.pdf",
+  "streets": [
+    {
+      "english_name": "Tuen Mun Road",
+      "chinese_name": "屯門公路",
+      "history": [
+        {
+          "publication_date": "1979-01-26",
+          "change_kind": "declare",
+          "street_name_en": "Tuen Mun Road",
+          "street_name_zh": "屯門公路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "A highway commencing at its junction with CASTLE PEAK ROAD, TSUEN WAN at milestone 9, near Chai Wan Kok and running generally in a west south-westerly direction, passing over the north of YAU KOM TAU to TING KAU VIADUCT, for about 3 Km. where it curves to run westerly for about 2.3 Km. to SHAM TSENG INTERCHANGE and continues for about 1.5 Km. to TSING LUNG TAU BRIDGE where it turns south-westerly for about 2.5 Km. and then bends to run north-westerly for about 1.7 Km. to reach SIU LAM INTERCHANGE and then continues generally in a north-westerly direction, passing over SO KWUN TAN BRIDGE, for about 4.6 Km. and then turns northerly for about 2 Km. to its junction with CASTLE PEAK ROAD, SAN HUI in TUEN MUN NEW TOWN, where it terminates as shown coloured red on Drawing No. NTA/TM/R5A.",
+            "description_raw_zh": "此公路由青山公路荃灣段九咪近柴灣角之連接處開始，大致向西南偏西伸展約三公里，經油柑頭北部至汀九橋，然後向西伸展約二‧三公里至深井交匯處，再續伸展約一‧五公里至青龍頭橋，又改向西南伸展約二‧五公里，然後轉向西北伸展約一‧七公里至小欖交匯處，再繼續大致向西北伸展約四‧六公里越過掃管灘橋，再而向北伸展約兩公里至屯門新市青山公路新墟段之連接處終結；在NTA/TM/R5A號圖則內以紅色顯示。"
+          }
+        }
+      ]
+    }
+  ]
+}

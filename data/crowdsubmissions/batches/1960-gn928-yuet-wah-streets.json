@@ -1,0 +1,66 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1960-gn928-yuet-wah-streets",
+  "gazette_notice_label": "G.N.928",
+  "publication_date": "1960-06-17",
+  "gazette_url_en": "/egazette/en/1960-gn928.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1960.pdf",
+  "streets": [
+    {
+      "english_name": "Yuet Wah Street",
+      "chinese_name": "月華街",
+      "history": [
+        {
+          "publication_date": "1960-06-17",
+          "change_kind": "declare",
+          "street_name_en": "Yuet Wah Street",
+          "street_name_zh": "月華街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Hip Wo Street about 230 feet south of Mut Wah Road and Hip Wo Street Junction, running south eastward for approximately 750 feet and turning round in a semi-circle of about 250 feet diameter thence running in a north by west direction for 1,250 feet till it joins in with Mut Wah Road at a point 700 feet North East of Mut Wah Road and Hip Wo Street Junction (as coloured yellow in plan R.K. 1134)."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Tin Heung Street",
+      "chinese_name": "天香街",
+      "history": [
+        {
+          "publication_date": "1960-06-17",
+          "change_kind": "declare",
+          "street_name_en": "Tin Heung Street",
+          "street_name_zh": "天香街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Link Road about 400 feet in length joining up the two arms of YUET WAH STREET about 250 feet North West of the tangent point of the semi-circle position and running in an east by north direction (as coloured blue in plan R.K. 1134)."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Shim Kwong Street",
+      "chinese_name": "曉光街",
+      "history": [
+        {
+          "publication_date": "1960-06-17",
+          "change_kind": "declare",
+          "street_name_en": "Shim Kwong Street",
+          "street_name_zh": "曉光街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Link Road about 540 feet in length, joining up the two arms of YUET WAH STREET, about 550 feet North West of the tangent point of the semi-circle position and running in an east by north direction and parallel to TIN HEUNG STREET (as coloured green in plan R.K. 1134)."
+          }
+        }
+      ]
+    }
+  ]
+}

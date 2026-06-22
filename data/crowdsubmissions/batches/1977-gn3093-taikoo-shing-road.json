@@ -1,0 +1,30 @@
+{
+  "batch_id": "1977-gn3093-taikoo-shing-road",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 3093",
+  "publication_date": "1977-12-16",
+  "gazette_url_en": "/egazette/en/1977-gn3093.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1977-gn3093-taikoo-shing-road/1977-gn3093.pdf",
+  "streets": [
+    {
+      "english_name": "TAIKOO SHING ROAD",
+      "chinese_name": "太古城道",
+      "history": [
+        {
+          "publication_date": "1977-12-16",
+          "change_kind": "extend",
+          "street_name_en": "Taikoo Shing Road",
+          "gazette_notice_label": "Government Notification No. 3093",
+          "government_notice_url_en": "/egazette/en/1977-gn3093.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "太古城道"
+        }
+      ],
+      "link_street_code": "12298"
+    }
+  ],
+  "evidence_schema_version": 1
+}

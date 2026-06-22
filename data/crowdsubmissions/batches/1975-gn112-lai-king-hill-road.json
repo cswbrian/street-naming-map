@@ -1,0 +1,65 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1975-gn112-lai-king-hill-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.112",
+  "publication_date": "1975-01-17",
+  "gazette_url_en": "/egazette/en/1975-gn112.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1975/Scanned_20260621-1629.pdf",
+  "streets": [
+    {
+      "english_name": "Lai King Hill Road",
+      "chinese_name": "荔景山路",
+      "history": [
+        {
+          "publication_date": "1975-01-17",
+          "change_kind": "declare",
+          "street_name_en": "Lai King Hill Road",
+          "street_name_zh": "荔景山路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing from its junction with Kwai Chung Road at Ha Kwai Chung, running generally parallel to Kwai Chung Road in a southerly direction for a distance of about 1,100 yards where it bends in a southeasterly direction for about 1,300 yards where it bends northwards for about 350 yards to terminate near the Lai Chi Kok Amusement Park as shown hatched black on Drawing No. NTA/TW/R72.",
+            "description_raw_zh": "此街道起點在下葵涌之葵涌道處，與葵涌道平行向南行約一千一百碼，然後向東南行約一千三百碼，再向北行約三百五十碼，至荔園遊樂場附近終結。（在NTA/TW/R72號圖內以黑間線顯示）",
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R72",
+                  "color": null,
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Kwai Chung Road at Ha Kwai Chung, running generally parallel to Kwai Chung Road in a southerly direction for a distance of about 1,100 yards"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

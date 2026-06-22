@@ -1,0 +1,28 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1978-gn464-greig-crescent",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.464",
+  "publication_date": "1978-02-24",
+  "gazette_url_en": "/egazette/en/1978-gn464.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1978/Scanned_20260621-1651.pdf",
+  "remarks": "G.N.465 on page 2 of same scan. Greig Road description amendment omitted per scope.",
+  "streets": [{
+    "english_name": "Greig Crescent",
+    "chinese_name": "基利坊",
+    "history": [{
+      "publication_date": "1978-02-24",
+      "change_kind": "declare",
+      "street_name_en": "Greig Crescent",
+      "street_name_zh": "基利坊",
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "notice_type_normalized": "declaration",
+      "gazette_location": {
+        "description_raw_en": "Thoroughfare commencing at its junction with Greig Road referred to below, running in an easterly direction, then turning south and then turning west for a total distance of approximately 238m., as shown coloured blue on drawing No. HH 3197.",
+        "description_raw_zh": "此街道起點與下述之基利路會合，先向東，然後向南，再向西伸展約二百卅八公尺，其位置在 HH 3197 號圖則上用藍色標明。"
+      }
+    }]
+  }]
+}

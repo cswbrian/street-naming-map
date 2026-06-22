@@ -1,0 +1,84 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1960-gn1673-tong-chong-streets",
+  "gazette_notice_label": "G.N.1673",
+  "publication_date": "1960-11-04",
+  "gazette_url_en": "/egazette/en/1960-gn1673.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1960.pdf",
+  "streets": [
+    {
+      "english_name": "Tong Chong Street",
+      "chinese_name": "糖廠街",
+      "history": [
+        {
+          "publication_date": "1960-11-04",
+          "change_kind": "declare",
+          "street_name_en": "Tong Chong Street",
+          "street_name_zh": "糖廠街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street between M.L. 703 and Q.B.M.L.1 commencing from its junction with King's Road running Eastwards terminating at the Eastern Boundary of M.L. 703 as shown coloured pink in drawing R.H. 1233."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Hoi Tai Street",
+      "chinese_name": "海堤街",
+      "history": [
+        {
+          "publication_date": "1960-11-04",
+          "change_kind": "declare",
+          "street_name_en": "Hoi Tai Street",
+          "street_name_zh": "海堤街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street within M.L. 703 commencing from the North-western boundary of M.L. 703 running South-eastwards about 115 yards terminating at the Western boundary of Sec. E.M.L. 703 as shown coloured orange in drawing R.H. 1233."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Hoi Wan Street",
+      "chinese_name": "海灣街",
+      "history": [
+        {
+          "publication_date": "1960-11-04",
+          "change_kind": "declare",
+          "street_name_en": "Hoi Wan Street",
+          "street_name_zh": "海灣街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street within M.L. 703 commencing from its junction with Hoi Tai Street running Southwards about 90 yards terminating at its junction with Tong Chong Street as shown coloured yellow in drawing R.H. 1233."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Hoi Kwong Street",
+      "chinese_name": "海光街",
+      "history": [
+        {
+          "publication_date": "1960-11-04",
+          "change_kind": "declare",
+          "street_name_en": "Hoi Kwong Street",
+          "street_name_zh": "海光街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street within M.L. 703 commencing from its junction with Hoi Tai Street running Southwards about 120 yards terminating at its junction with Tong Chong Street as shown coloured green in drawing R.H. 1233."
+          }
+        }
+      ]
+    }
+  ]
+}

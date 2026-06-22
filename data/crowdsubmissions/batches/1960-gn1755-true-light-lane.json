@@ -1,0 +1,30 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1960-gn1755-true-light-lane",
+  "gazette_notice_label": "G.N.1755",
+  "publication_date": "1960-11-18",
+  "gazette_url_en": "/egazette/en/1960-gn1755.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1960.pdf",
+  "streets": [
+    {
+      "english_name": "True Light Lane",
+      "chinese_name": "真光里",
+      "history": [
+        {
+          "publication_date": "1960-11-18",
+          "change_kind": "declare",
+          "street_name_en": "True Light Lane",
+          "street_name_zh": "真光里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing from the west of Suffolk Road, then running north westward for a distance of about 300 feet parallel to the Kowloon-Canton Railway and terminating at the school site of N.K.I.L. 4162, as shown coloured red in plan R.K. 1174."
+          }
+        }
+      ]
+    }
+  ]
+}

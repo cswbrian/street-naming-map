@@ -2,6 +2,8 @@
 
 Events describe how a street’s name changed over time. Multiple events linked to the same centreline (`street-centreline-map.json`) form an ordered timeline.
 
+**Schema versions:** Master `street-events.json` supports `schema_version: 2` (optional `gazette_location` on events). Batch JSON uses `evidence_schema_version: 2`. v1 rows without `gazette_location` remain valid. Field consolidation: [schema-field-consolidation.md](schema-field-consolidation.md).
+
 **Do not add `street_code` to new events** — linkage lives in [street-centreline-map.json](../data/master/street-centreline-map.json). See [street-events-gazette-only.md](street-events-gazette-only.md).
 
 ## Product model (map focus)
@@ -44,6 +46,7 @@ Identity on the map comes from [`public/data/hk-streets.geojson`](public/data/hk
 | `government_notice_url_en` | URL | Gazette scan (e.g. HKGRO PDF) |
 | `government_notice_label_en` | string | e.g. `Gazette No. 184` |
 | `supplementary_evidence` | array | Extra documents supporting specific fields on this event (see below) |
+| `gazette_location` | object | Optional (schema v2). Gazette DESCRIPTION text — raw OCR + parsed fields (see below) |
 | `crowd_origin` | `batch` \| `form` | Optional on `crowdsubmitted` rows. `batch` = applied via [`apply-crowd-batch.mjs`](../scripts/apply-crowd-batch.mjs); `form` = approved Google Form import via [`import-crowd-submissions.mjs`](../scripts/import-crowd-submissions.mjs). Pipeline/QA only. |
 
 **Removed from master events** (do not set on new rows): `street_code`, `proof_pdf_url`, `evidence_level`, `year_bucket` (use `publication_date` year instead). Run `npm run strip:event-street-codes` after importing legacy data.
@@ -96,6 +99,56 @@ Use when **one event** is supported by multiple documents (e.g. gazette for date
 
 Event-level `evidence_kind` = primary source for the event date; supplementary rows cite what each attachment proves.
 
+### `gazette_location` (schema v2)
+
+Store gazette **DESCRIPTION** prose separately from name fields and QA remarks. One schema for HKGRO OCR and modern egn/cgn text parse. Field consolidation: [schema-field-consolidation.md](schema-field-consolidation.md).
+
+```json
+{
+  "gazette_location": {
+    "description_raw_en": "Thoroughfare commencing at its junction with Greig Road … drawing No. HH 3197.",
+    "description_raw_zh": "此街道起點與基利路會合 …",
+    "parsed": {
+      "road_form": "thoroughfare",
+      "is_cul_de_sac": false,
+      "is_highway": false,
+      "is_proposed": false,
+      "is_partially_formed": false,
+      "suffix_pending_removal": false,
+      "includes_boundary_sections": false,
+      "is_open_space": false,
+      "commences_at_en": "junction with Greig Road",
+      "terminates_at_en": null,
+      "runs": ["easterly", "south", "west"],
+      "length_m": 238,
+      "length_unit": "m",
+      "plan_refs": [
+        { "label": "HH 3197", "color": "blue", "url_en": null }
+      ],
+      "district_en": "Quarry Bay",
+      "district_zh": "鰂魚涌",
+      "lot_refs": ["Tuen Mun Town Lot 90"],
+      "formerly_section_of_en": null,
+      "split_boundary_en": null,
+      "referenced_streets_en": ["Greig Road", "King's Road"],
+      "unnamed_junction_refs_en": [],
+      "replaces_gn_labels": [],
+      "merged_from_en": [],
+      "merged_from_zh": []
+    }
+  }
+}
+```
+
+**Rules:**
+
+- `description_raw_*` = verbatim gazette DESCRIPTION column or modern Description block — not paraphrase, not geojson inference.
+- `submitter_remarks` = human QA only (EN/ZH mismatch, OCR uncertainty) — **never** bulk DESCRIPTION OCR.
+- `related_gazette_plan_labels_*` dual-writes with `parsed.plan_refs[].label` during transition (`finalizeCrowdEvent` merges both).
+- `district_raw_*` when printed in notice header; `parsed.district_*` when extracted from intro text.
+
+Draft extraction: `node scripts/extract-gazette-location.mjs <pdf> [--en egn.pdf] [--zh cgn.pdf] --json`
+
 ### `derived_from` (per event)
 
 For `gazette_inferred` (and optionally `legal_other` / `news`):
@@ -145,7 +198,48 @@ GeoJSON segment properties (from `enrichGeojson()`): `naming_year`/`naming_date`
 
 ## Batch JSON (`history` per street)
 
-Optional batch root: `evidence_schema_version: 1`
+Batch root: `evidence_schema_version: 2` (v1 batches remain valid).
+
+```json
+{
+  "evidence_schema_version": 2,
+  "gazette_notice_label": "G.N.5398",
+  "publication_date": "2016-09-23",
+  "gazette_url_en": "/egazette/en/2016-gn5398.pdf",
+  "gazette_url_zh": "/egazette/zh/2016-gn5398.pdf",
+  "gazette_only": true,
+  "streets": [
+    {
+      "link_street_code": "12326",
+      "chinese_name": "坪洲好景街",
+      "english_name": "Peng Chau Ho King Street",
+      "history": [
+        {
+          "publication_date": "2016-09-23",
+          "change_kind": "declare",
+          "street_name_zh": "坪洲好景街",
+          "street_name_en": "Peng Chau Ho King Street",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "The street is approximately 160 metres long … Plan No. ISRM95.",
+            "description_raw_zh": "這街道長約160 米 … 第ISRM95 號圖則",
+            "parsed": {
+              "length_m": 160,
+              "length_unit": "m",
+              "plan_refs": [{ "label": "ISRM95", "color": "pink", "url_en": null }],
+              "referenced_streets_en": [],
+              "unnamed_junction_refs_en": ["unnamed road near …"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+```
+
+**v1 example** (no `gazette_location`):
 
 ```json
 {

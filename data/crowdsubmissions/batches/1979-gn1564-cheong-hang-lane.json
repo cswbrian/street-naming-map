@@ -1,0 +1,31 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn1564-cheong-hang-lane",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1564",
+  "publication_date": "1979-06-22",
+  "gazette_url_en": "/egazette/en/1979-gn1564.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1726.pdf",
+  "streets": [
+    {
+      "english_name": "Cheong Hang Lane",
+      "chinese_name": "暢行里",
+      "history": [
+        {
+          "publication_date": "1979-06-22",
+          "change_kind": "declare",
+          "street_name_en": "Cheong Hang Lane",
+          "street_name_zh": "暢行里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare shown coloured red on Drawing No. KH 2704/1, commencing on Cheong Hang Road 40 m south-west of its junction with Winslow Street and running north-westerly for a distance of approximately 30 m to the entrance of the Public Mortuary.",
+            "description_raw_zh": "KH 2704/1 號圖則內髹紅色之街道，其起點為暢行道與溫思勞街交匯處之西南四十米，向西北行約三十米至公衆殮房入口處。"
+          }
+        }
+      ]
+    }
+  ]
+}

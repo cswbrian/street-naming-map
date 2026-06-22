@@ -1,0 +1,372 @@
+{
+  "batch_id": "1977-gn2859-tsuen-wan-kwai-streets",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 2859",
+  "publication_date": "1977-11-25",
+  "gazette_url_en": "/egazette/en/1977-gn2859.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1977-gn2859-tsuen-wan-kwai-streets/1977-gn2859.pdf",
+  "streets": [
+    {
+      "english_name": "LUNG YUE ROAD",
+      "chinese_name": "龍如路",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Lung Yue Road",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "龍如路"
+        }
+      ],
+      "link_street_code": "11330"
+    },
+    {
+      "english_name": "LUNG TANG ROAD",
+      "chinese_name": "龍騰路",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Lung Tang Road",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "龍騰路"
+        }
+      ],
+      "link_street_code": "11325"
+    },
+    {
+      "english_name": "KIN CHUEN STREET",
+      "chinese_name": "健全街",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Kin Chuen Street",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "健全街"
+        }
+      ],
+      "link_street_code": "10996"
+    },
+    {
+      "english_name": "KWAI LUEN ROAD",
+      "chinese_name": "葵聯路",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Kwai Luen Road",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "葵聯路"
+        }
+      ],
+      "link_street_code": "11092"
+    },
+    {
+      "english_name": "KWAI HAU STREET",
+      "chinese_name": "葵孝街",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Kwai Hau Street",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "葵孝街"
+        }
+      ],
+      "link_street_code": "11085"
+    },
+    {
+      "english_name": "KWAI FUK ROAD",
+      "chinese_name": "葵福路",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Kwai Fuk Road",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "葵福路"
+        }
+      ],
+      "link_street_code": "11083"
+    },
+    {
+      "english_name": "KWAI HEI STREET",
+      "chinese_name": "葵喜街",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Kwai Hei Street",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "葵喜街"
+        }
+      ],
+      "link_street_code": "11086"
+    },
+    {
+      "english_name": "KWAI LOK STREET",
+      "chinese_name": "葵樂街",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Kwai Lok Street",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "葵樂街"
+        }
+      ],
+      "link_street_code": "11091"
+    },
+    {
+      "english_name": "CONTAINER PORT ROAD",
+      "chinese_name": "貨櫃碼頭路",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "extend",
+          "street_name_en": "Container Port Road",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "貨櫃碼頭路"
+        }
+      ],
+      "link_street_code": "10331"
+    },
+    {
+      "english_name": "KWAI TAI ROAD",
+      "chinese_name": "葵泰路",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Kwai Tai Road",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "葵泰路"
+        }
+      ],
+      "link_street_code": "11098"
+    },
+    {
+      "english_name": "KWAI TAK STREET",
+      "chinese_name": "葵德街",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Kwai Tak Street",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "葵德街"
+        }
+      ],
+      "link_street_code": "11099"
+    },
+    {
+      "english_name": "KWAI HONG STREET",
+      "chinese_name": "葵康街",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Kwai Hong Street",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "葵康街"
+        }
+      ],
+      "link_street_code": "11089"
+    },
+    {
+      "english_name": "KWAI SHUN STREET",
+      "chinese_name": "葵順街",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Kwai Shun Street",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "葵順街"
+        }
+      ],
+      "link_street_code": "11096"
+    },
+    {
+      "english_name": "KWAI FUNG CRESCENT",
+      "chinese_name": "葵豐街",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Kwai Fung Crescent",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "葵豐街"
+        }
+      ],
+      "link_street_code": "11084"
+    },
+    {
+      "english_name": "KING CHO ROAD",
+      "chinese_name": "敬祖路",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "King Cho Road",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "敬祖路"
+        }
+      ],
+      "link_street_code": "11021"
+    },
+    {
+      "english_name": "LIM CHO STREET",
+      "chinese_name": "念祖街",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Lim Cho Street",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "念祖街"
+        }
+      ],
+      "link_street_code": "11232"
+    },
+    {
+      "english_name": "WING CHO STREET",
+      "chinese_name": "榮祖街",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Wing Cho Street",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "榮祖街"
+        }
+      ],
+      "link_street_code": "12714"
+    },
+    {
+      "english_name": "LAI CHO ROAD",
+      "chinese_name": "麗祖路",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Lai Cho Road",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "麗祖路"
+        }
+      ],
+      "link_street_code": "11151"
+    },
+    {
+      "english_name": "LAI YIU STREET",
+      "chinese_name": "麗瑤街",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Lai Yiu Street",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "麗瑤街"
+        }
+      ],
+      "link_street_code": "11169"
+    },
+    {
+      "english_name": "JOINT STREET",
+      "chinese_name": "聯接街",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Joint Street",
+          "gazette_notice_label": "Government Notification No. 2859",
+          "government_notice_url_en": "/egazette/en/1977-gn2859.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "聯接街"
+        }
+      ],
+      "link_street_code": "10901"
+    }
+  ],
+  "evidence_schema_version": 1
+}

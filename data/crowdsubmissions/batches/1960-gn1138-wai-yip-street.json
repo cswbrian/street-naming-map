@@ -1,0 +1,41 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1960-gn1138-wai-yip-street",
+  "gazette_notice_label": "G.N.1138",
+  "publication_date": "1960-07-22",
+  "gazette_url_en": "/egazette/en/1960-gn1138.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1960.pdf",
+  "remarks": "Effective naming notice for Wai Yip Street; G.N.929 proposed rename from Chun Yip Street; G.N.1218 discontinues Chun Yip Street.",
+  "streets": [
+    {
+      "english_name": "Wai Yip Street",
+      "chinese_name": "偉業街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Chun Yip Street",
+          "street_name_zh": "駿業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former name attested in G.N.929 rename proposal and G.N.1218 discontinuation notice."
+        },
+        {
+          "publication_date": "1960-07-22",
+          "change_kind": "rename",
+          "previous_street_name_en": "Chun Yip Street",
+          "previous_street_name_zh": "駿業街",
+          "street_name_en": "Wai Yip Street",
+          "street_name_zh": "偉業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "rename",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with an unnamed road at a point about 150 feet on the south side of Jordan Valley Nullah, running in a southerly direction for about 1,250 feet, then south east for about 5,400 feet and terminating at its junction with King Yip Street at the N.W. side of Kwun Tong Nullah as shown coloured red in plan R.K. 1134."
+          }
+        }
+      ]
+    }
+  ]
+}

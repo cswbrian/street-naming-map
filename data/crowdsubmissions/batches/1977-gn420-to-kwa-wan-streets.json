@@ -1,0 +1,48 @@
+{
+  "batch_id": "1977-gn420-to-kwa-wan-streets",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 420",
+  "publication_date": "1977-02-17",
+  "gazette_url_en": "/egazette/en/1977-gn420.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1977-gn420-to-kwa-wan-streets/1977-gn420.pdf",
+  "streets": [
+    {
+      "english_name": "MEI KING STREET",
+      "chinese_name": "美景街",
+      "history": [
+        {
+          "publication_date": "1977-02-17",
+          "change_kind": "extend",
+          "street_name_en": "Mei King Street",
+          "gazette_notice_label": "Government Notification No. 420",
+          "government_notice_url_en": "/egazette/en/1977-gn420.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "美景街"
+        }
+      ],
+      "link_street_code": "11411"
+    },
+    {
+      "english_name": "WAI KING STREET",
+      "chinese_name": "偉景街",
+      "history": [
+        {
+          "publication_date": "1977-02-17",
+          "change_kind": "declare",
+          "street_name_en": "Wai King Street",
+          "gazette_notice_label": "Government Notification No. 420",
+          "government_notice_url_en": "/egazette/en/1977-gn420.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "偉景街"
+        }
+      ],
+      "link_street_code": "12606"
+    }
+  ],
+  "evidence_schema_version": 1
+}

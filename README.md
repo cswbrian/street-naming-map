@@ -69,14 +69,14 @@ You do **not** need a government street code.
 
 | Your PDF is… | Ask the agent to follow… |
 |--------------|--------------------------|
-| **Colonial Hong Kong scan** (HKGRO / sunzi) with a street **naming table** | **parse-hkgro-gazettes** |
+| **Colonial Hong Kong scan** (HKGRO / sunzi) with a street **naming table** | **parse-gazette-street-events** |
 | **Modern Lands Dept eGazette** (`egn…` / `cgn…`) with a street naming notice | **apply-egazette-naming** |
 | Gazette that **mentions** a street but is **not** a naming notice | **research-street-history** |
 | You are not sure | Describe the notice; the agent can pick the guide |
 
 ### Example prompts
 
-> Read `skills/parse-hkgro-gazettes/SKILL.md` and follow it. Here is G.N.342 (1926) — parse the naming table.
+> Read `skills/parse-gazette-street-events/SKILL.md` and follow it. Here is G.N.342 (1926) — parse the naming table.
 
 > Follow **apply-egazette-naming**. This is a 2024 eGazette street naming PDF for …
 
@@ -188,7 +188,7 @@ Canonical copy: [`skills/`](skills/README.md) (`.cursor/skills` is a symlink for
 |------|-------|
 | Earliest evidence, rename chains, non-naming cites | [skills/research-street-history/SKILL.md](skills/research-street-history/SKILL.md) |
 | Modern eGazette PDF (`egn` / `cgn`) | [skills/apply-egazette-naming/SKILL.md](skills/apply-egazette-naming/SKILL.md) |
-| Colonial HKGRO naming-table scan | [skills/parse-hkgro-gazettes/SKILL.md](skills/parse-hkgro-gazettes/SKILL.md) |
+| Colonial HKGRO naming-table scan | [skills/parse-gazette-street-events/SKILL.md](skills/parse-gazette-street-events/SKILL.md) |
 | Host or fix gazette PDF links | [skills/gazette-files/SKILL.md](skills/gazette-files/SKILL.md) |
 | Hand-edit events in the master file | [skills/street-naming-master/SKILL.md](skills/street-naming-master/SKILL.md) |
 | Link events to a road on the map | [skills/centreline-linker/SKILL.md](skills/centreline-linker/SKILL.md) |

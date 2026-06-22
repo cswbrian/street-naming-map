@@ -1,0 +1,50 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn713-aberdeen-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.713",
+  "publication_date": "1979-03-16",
+  "gazette_url_en": "/egazette/en/1979-gn713.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1717.pdf",
+  "streets": [
+    {
+      "english_name": "Nam Ning Street",
+      "chinese_name": "南寧街",
+      "history": [
+        {
+          "publication_date": "1979-03-16",
+          "change_kind": "declare",
+          "street_name_en": "Nam Ning Street",
+          "street_name_zh": "南寧街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare, about 360 metres long, commencing from the junction of Cheng Tu Road and Wu Pak Street running in a westerly direction, then in a northerly direction, then turning in an easterly direction and joining Cheng Tu Road near Sai On Street, as shown coloured red on drawing No. HH 3469.",
+            "description_raw_zh": "此街道全長約三百六十公尺，由成都道與湖北街交界起，向西伸展，續轉向北，然後轉向東，與成都道近西安街處會合，其位置在 HH 3469 號圖則上以紅色標明。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Fung Tin Street",
+      "chinese_name": "奉天街",
+      "history": [
+        {
+          "publication_date": "1979-03-16",
+          "change_kind": "declare",
+          "street_name_en": "Fung Tin Street",
+          "street_name_zh": "奉天街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare, about 36 metres long, commencing at its junction with Nam Ning Street, running in a westerly direction, and joining Aberdeen Main Road, as shown coloured green on drawing No. HH 3469.",
+            "description_raw_zh": "此街道全長約三十六公尺，起點與南寧街會合，向西伸展，與香港仔大道會合，其位置在 HH 3469 號圖則上以綠色標明。"
+          }
+        }
+      ]
+    }
+  ]
+}

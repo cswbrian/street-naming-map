@@ -1,0 +1,108 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn1702-tsing-yi-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1702",
+  "publication_date": "1979-07-06",
+  "gazette_url_en": "/egazette/en/1979-gn1702.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1728(1).pdf",
+  "remarks": "Pages span Scanned_20260621-1728(1).pdf (3 pages).",
+  "streets": [
+    {
+      "english_name": "Tsing Yi Road",
+      "chinese_name": "青衣路",
+      "history": [
+        {
+          "publication_date": "1979-07-06",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Yi Road",
+          "street_name_zh": "青衣路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with TSING YI HEUNG SZE WUI ROAD and KWAI TSING ROAD, and running generally in a southerly direction for about 295 metres, then bending to run south-westerly for about 455 metres where it curves to run generally in a southerly direction for about 1 160 metres, then bends again to run south-westerly for about 420 metres, and then curving to run in a west north-westerly direction for about 320 metres to terminate temporarily as shown coloured red and hatched black on Drawing No. NTA/TW/R81A. [It should be noted that there will be an extension of this road]",
+            "description_raw_zh": "此街道起點位於與青衣鄉事會路及葵青路之交匯處，大致向南伸展約二百九十五米，後轉向西南伸展約四百五十五米，又改向南伸延約一千一百六十米，後轉向西南伸展約四百二十米，再改向西北偏西伸展約三百二十米，然後暫時終止；其位置在 NTA/TW/R81A 號圖則以紅色及黑斜綫標明。(註：此街道有待擴建。)"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Ching Hong Road",
+      "chinese_name": "青康路",
+      "history": [
+        {
+          "publication_date": "1979-07-06",
+          "change_kind": "declare",
+          "street_name_en": "Ching Hong Road",
+          "street_name_zh": "青康路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with TSING YI ROAD near Cheung Ching Estate and running in a north-westerly direction for about 120 metres where it bends to run northerly for about 305 metres, and then it bends to run west north-westerly for about 520 metres where it temporarily terminates as shown coloured red and hatched black on Drawing No. NTA/TW/R81A. [It should be noted that there will be an extension of this road]",
+            "description_raw_zh": "此街道起點位於與青衣路近長青邨之交匯處，向西北伸展約一百二十米，後改向北伸延約三百零五米，再向西北偏西伸展約五百二十米，然後暫時終止；其位置在 NTA/TW/R81A 號圖則以紅色及黑綫標明。(註：此街道有待擴建。)"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Tsing Yi Heung Sze Wui Road",
+      "chinese_name": "青衣鄉事會路",
+      "history": [
+        {
+          "publication_date": "1979-07-06",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Yi Heung Sze Wui Road",
+          "street_name_zh": "青衣鄉事會路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with TSING YI ROAD and KWAI TSING ROAD, and running in a north-westerly direction for about 470 metres where it temporarily terminates as shown coloured red and hatched black on Drawing No. NTA/TW/R81A. [It should be noted that there will be an extension of this road]",
+            "description_raw_zh": "此街道起點位於與青衣路及葵青路之交匯處，向西北伸展約四百七十米，然後暫時終止；其位置在 NTA/TW/R81A 號圖則以紅色及黑斜綫標明。(註：此街道有待擴建。)"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Chung Mei Road",
+      "chinese_name": "涌美路",
+      "history": [
+        {
+          "publication_date": "1979-07-06",
+          "change_kind": "declare",
+          "street_name_en": "Chung Mei Road",
+          "street_name_zh": "涌美路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with TSING YI HEUNG SZE WUI ROAD and running in a generally westerly direction for about 490 metres where it temporarily terminates as shown coloured red and hatched black on Drawing No. NTA/TW/R81A. [It should be noted that there will be an extension of this road]",
+            "description_raw_zh": "此街道起點位於與青衣鄉事會路之交匯處，大致向西伸展約四百九十米，然後暫時終止；其位置在 NTA/TW/R81A 號圖則以紅色及黑斜綫標明。(註：此街道有待擴建。)"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Cheung Wan Street",
+      "chinese_name": "長環街",
+      "history": [
+        {
+          "publication_date": "1979-07-06",
+          "change_kind": "declare",
+          "street_name_en": "Cheung Wan Street",
+          "street_name_zh": "長環街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TSING YI HEUNG SZE WUI ROAD and running in an east north-easterly direction for about 215 metres where it terminates at the water-front as shown coloured red and hatched black on Drawing No. NTA/TW/R81A.",
+            "description_raw_zh": "此街道起點位於與青衣鄉事會路之交匯處，向東北偏東伸展約二百一十五米，至海傍處終止；其位置在 NTA/TW/R81A 號圖則以紅色及黑斜綫標明。"
+          }
+        }
+      ]
+    }
+  ]
+}

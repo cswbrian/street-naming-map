@@ -1,0 +1,40 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1978-gn2703-hang-hau-wing-lung",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2703",
+  "publication_date": "1978-10-20",
+  "gazette_url_en": "/egazette/en/1978-gn2703.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1978/Scanned_20260621-1704.pdf",
+  "remarks": "G.N.2702 on page 1 of same scan.",
+  "streets": [{
+    "english_name": "Hang Hau Wing Lung Road",
+    "chinese_name": "坑口永隆道",
+    "history": [
+      {
+        "change_kind": "declare",
+        "street_name_en": "Sai Kung Wing Lung Road",
+        "street_name_zh": "西貢永隆道",
+        "evidence_kind": "gazette_primary",
+        "event_role": "former_name",
+        "submitter_remarks": "Former name attested in G.N.2703 rename notice."
+      },
+      {
+        "publication_date": "1978-10-20",
+        "change_kind": "rename",
+        "previous_street_name_en": "Sai Kung Wing Lung Road",
+        "previous_street_name_zh": "西貢永隆道",
+        "street_name_en": "Hang Hau Wing Lung Road",
+        "street_name_zh": "坑口永隆道",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "rename",
+        "gazette_location": {
+          "description_raw_en": "Notice is hereby given that Sai Kung Wing Lung Road (西貢永隆道) a road commencing at its junction with Clearwater Bay Road near milestone 11 and terminating at the roundabout at Ngam Tau Sha, Sai Kung, New Territories, will be renamed as Hang Hau Wing Lung Road (坑口永隆道).",
+          "description_raw_zh": "茲特公佈西貢永隆道，即由十一咪附近與清水灣道之連接處起至新界西貢岩頭沙迴旋處之道路將改稱坑口永隆道。"
+        }
+      }
+    ]
+  }]
+}

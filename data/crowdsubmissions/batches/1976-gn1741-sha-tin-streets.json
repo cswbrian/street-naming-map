@@ -1,0 +1,114 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1976-gn1741-sha-tin-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1741",
+  "publication_date": "1976-08-13",
+  "gazette_url_en": "/egazette/en/1976-gn1741.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1976/Scanned_20260621-1614.pdf",
+  "streets": [
+    {
+      "english_name": "Wo Liu Hang Road",
+      "chinese_name": "禾寮坑路",
+      "history": [{
+        "publication_date": "1976-08-13",
+        "change_kind": "declare",
+        "street_name_en": "Wo Liu Hang Road",
+        "street_name_zh": "禾寮坑路",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Road commencing at its junction with Fo Tan Road to the west of Sha Tin Town Lot No. 7 and running in a north-easterly direction for about 200 metres where it terminates as shown hatched black on Drawing No. NTA/ST/R2.",
+          "description_raw_zh": "此路由沙田市區地段第七號之西面與火炭道之連接點開始向東北伸展約二百公尺後終止，即 NTA/ST/R2 號圖中塗黑斜線部份所示。"
+        }
+      }]
+    },
+    {
+      "english_name": "Wo Shui Street",
+      "chinese_name": "禾穗街",
+      "history": [{
+        "publication_date": "1976-08-13",
+        "change_kind": "declare",
+        "street_name_en": "Wo Shui Street",
+        "street_name_zh": "禾穗街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Street commencing at its junction with Wo Liu Hang Road and running in a south-easterly direction for about 174 metres where it terminates at the embankment of the railway siding as shown dotted black on Drawing No. NTA/ST/R2.",
+          "description_raw_zh": "此街由與禾寮坑路之連接點開始向東南伸展約一百七十四公尺至鐵路側軌之堤墾邊處終止，即 NTA/ST/R2 號圖中塗黑點部份所示。"
+        }
+      }]
+    },
+    {
+      "english_name": "Wo Heung Street",
+      "chinese_name": "禾香街",
+      "history": [{
+        "publication_date": "1976-08-13",
+        "change_kind": "declare",
+        "street_name_en": "Wo Heung Street",
+        "street_name_zh": "禾香街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Street commencing at its junction with Fo Tan Road to the east of Sha Tin Town Lot No. 9 and running parallel with Wo Liu Hang Road in a north-easterly direction for about 133 metres to terminate at its junction with Wo Shui Street as shown hatched black on Drawing No. NTA/ST/R2.",
+          "description_raw_zh": "此街由沙田市區地段第九號之東面與火炭道之連接點開始並與禾寮坑路平行向東北伸展約一百三十三公尺至與禾穗街滙合處止，即 NTA/ST/R2 號圖中塗黑斜線部份所示。"
+        }
+      }]
+    },
+    {
+      "english_name": "Wo Shing Street",
+      "chinese_name": "禾盛街",
+      "history": [{
+        "publication_date": "1976-08-13",
+        "change_kind": "declare",
+        "street_name_en": "Wo Shing Street",
+        "street_name_zh": "禾盛街",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Street commencing at its junction with Wo Liu Hang Road and running parallel with Wo Shui Street in a south-easterly direction for about 108 metres to terminate at its junction with Wo Heung Street as shown dotted black on Drawing No. NTA/ST/R2.",
+          "description_raw_zh": "此街由與禾寮坑路之連接點開始與禾穗街平行向東南伸展約一百○八公尺至禾香街滙合處止，即 NTA/ST/R2 號圖中塗黑點部份所示。"
+        }
+      }]
+    },
+    {
+      "english_name": "Keng Hau Road",
+      "chinese_name": "徑口路",
+      "history": [{
+        "publication_date": "1976-08-13",
+        "change_kind": "declare",
+        "street_name_en": "Keng Hau Road",
+        "street_name_zh": "徑口路",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Road commencing at its junction with Tai Po Road between M.S. 49 and M.S. 50 and running generally in south south-easterly direction for about 450 metres where it bends to run in a easterly direction for about 11 metres to terminate at the K.C.R. Bridge No. 9 as shown dotted black on Drawing No. NTA/ST/R4.",
+          "description_raw_zh": "此路由四十九哩哩程碑及五十哩哩程碑之間與大埔道之連接點開始大致向東南偏南伸展約四百五十公尺後轉向東伸展約十一公尺而止於鐵路第九號橋樑處，即 NTA/ST/R4 號圖中塗黑點部份所示。"
+        }
+      }]
+    },
+    {
+      "english_name": "Tung Lo Wan Hill Road",
+      "chinese_name": "銅鑼灣山路",
+      "history": [{
+        "publication_date": "1976-08-13",
+        "change_kind": "declare",
+        "street_name_en": "Tung Lo Wan Hill Road",
+        "street_name_zh": "銅鑼灣山路",
+        "evidence_kind": "gazette_primary",
+        "event_role": "current_name",
+        "notice_type_normalized": "declaration",
+        "gazette_location": {
+          "description_raw_en": "Road commencing at its junction with an unnamed road in front of Tung Lo Wan village of Sha Tin District in the New Territories and running in a generally north north-easterly direction for a distance of about 240 metres where it terminates as shown dotted black on Drawing No. NTA/ST/R3. (It should be noted that the extension of this road is under construction.)",
+          "description_raw_zh": "此路由與新界沙田銅鑼灣村前一未經命名道路之連接點開始大致向東北偏北伸展約二百四十公尺後終止，即 NTA/ST/R3 號圖中塗黑點部份所示。（註：延長此路之工程仍在進行中）"
+        }
+      }]
+    }
+  ]
+}

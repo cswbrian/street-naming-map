@@ -1,0 +1,51 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1979-gn1195-chi-fu-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1195",
+  "publication_date": "1979-05-11",
+  "gazette_url_en": "/egazette/en/1979-gn1195.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1979/Scanned_20260621-1724.pdf",
+  "remarks": "Pages span Scanned_20260621-1724.pdf and Scanned_20260621-1724(1).pdf.",
+  "streets": [
+    {
+      "english_name": "Chi Fu Road",
+      "chinese_name": "置富道",
+      "history": [
+        {
+          "publication_date": "1979-05-11",
+          "change_kind": "declare",
+          "street_name_en": "Chi Fu Road",
+          "street_name_zh": "置富道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Pok Fu Lam Road near the south western corner of Chi Fu Fa Yuen running firstly in a northerly direction, then in a generally north-easterly direction and turning in a south-westerly direction for a total distance of approximately 1000 m until it joins with Pok Fu Lam Road at the south eastern corner of Chi Fu Fa Yuen; as shown coloured red on Drawing No. HH 3444.",
+            "description_raw_zh": "此街道起點在置富花園西南角附近與薄扶林道會合，先向北伸展，後偏向東北再轉向西南至置富花園東南角與薄扶林道會合為止，全長約一千公尺，位置在 HH 3444 號圖則上用紅色標明。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Chi Fu Close",
+      "chinese_name": "置富徑",
+      "history": [
+        {
+          "publication_date": "1979-05-11",
+          "change_kind": "declare",
+          "street_name_en": "Chi Fu Close",
+          "street_name_zh": "置富徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing at its junction with the Chi Fu Road near the south-eastern corner of Chi Fu Fa Yuen running in a north-westerly direction, then turning in a southerly direction for a total distance of about 110 m and ending at the turning circle adjacent to the future school sites as shown coloured green on Drawing No. HH 3444.",
+            "description_raw_zh": "此路徑為盡頭路，起點在置富花園東南角附近與置富道會合，向西北伸展，後轉向南至日後興建學校地盆之迴旋處為終點，全長約一百一十公尺，位置在 HH 3444 號圖則上用綠色標明。"
+          }
+        }
+      ]
+    }
+  ]
+}

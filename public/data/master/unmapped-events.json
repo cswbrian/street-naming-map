@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-21T07:04:27.009Z",
+  "generated_at": "2026-06-22T01:29:22.088Z",
   "source_files": {
     "events": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-events.json",
     "centreline_map": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-centreline-map.json"
   },
   "totals": {
-    "master_events": 1083,
-    "mapped_event_ids": 766,
-    "unmapped_events": 318,
+    "master_events": 1444,
+    "mapped_event_ids": 1126,
+    "unmapped_events": 341,
     "by_source": {
-      "hkgro": 16,
+      "hkgro": 18,
+      "crowdsubmitted": 42,
       "egazette_pdf": 164,
-      "crowdsubmitted": 21,
       "landsd": 117
     }
   },
@@ -39,6 +39,30 @@
       "district_raw_zh": null,
       "notice_no": "GN315",
       "name_key": "West Street|西街"
+    },
+    {
+      "event_id": "crowd|1961-gn1335-island-road-renames-Island-Road-Deep-Water-Bay-深水灣香島道-",
+      "source": "crowdsubmitted",
+      "publication_date": "",
+      "change_kind": "declare",
+      "street_name_en": "Island Road, Deep Water Bay",
+      "street_name_zh": "深水灣香島道",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1335",
+      "name_key": "Island Road, Deep Water Bay|深水灣香島道"
+    },
+    {
+      "event_id": "crowd|1975-gn1866-connaught-place-Connaught-Place-康樂廣場-",
+      "source": "crowdsubmitted",
+      "publication_date": "",
+      "change_kind": "declare",
+      "street_name_en": "Yee Lok Street",
+      "street_name_zh": "怡樂街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1866",
+      "name_key": "Yee Lok Street|怡樂街"
     },
     {
       "event_id": "crowd|1904-gn59-victoria-road-renames-park-view-1904-01-29",
@@ -257,6 +281,66 @@
       "name_key": "Nation Street|禮信街"
     },
     {
+      "event_id": "crowd|1960-gn467-mission-road-cancel-Mission-Road-教會道-1960-03-18",
+      "source": "crowdsubmitted",
+      "publication_date": "1960-03-18",
+      "change_kind": "delete",
+      "street_name_en": "Mission Road",
+      "street_name_zh": "教會道",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN467",
+      "name_key": "Mission Road|教會道"
+    },
+    {
+      "event_id": "crowd|1960-gn928-yuet-wah-streets-Shim-Kwong-Street-曉光街-1960-06-17",
+      "source": "crowdsubmitted",
+      "publication_date": "1960-06-17",
+      "change_kind": "declare",
+      "street_name_en": "Shim Kwong Street",
+      "street_name_zh": "曉光街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN928",
+      "name_key": "Shim Kwong Street|曉光街"
+    },
+    {
+      "event_id": "crowd|1960-gn1060-mei-wa-streets-Lai-Wa-Street-麗華街-1960-07-08",
+      "source": "crowdsubmitted",
+      "publication_date": "1960-07-08",
+      "change_kind": "declare",
+      "street_name_en": "Lai Wa Street",
+      "street_name_zh": "麗華街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1060",
+      "name_key": "Lai Wa Street|麗華街"
+    },
+    {
+      "event_id": "crowd|1960-gn1060-mei-wa-streets-Mei-Wa-Street-美華街-1960-07-08",
+      "source": "crowdsubmitted",
+      "publication_date": "1960-07-08",
+      "change_kind": "declare",
+      "street_name_en": "Mei Wa Street",
+      "street_name_zh": "美華街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1060",
+      "name_key": "Mei Wa Street|美華街"
+    },
+    {
+      "event_id": "crowd|1960-gn1218-chun-yip-discontinued-Chun-Yip-Street-駿業街-1960-08-12",
+      "source": "crowdsubmitted",
+      "publication_date": "1960-08-12",
+      "change_kind": "delete",
+      "street_name_en": "Chun Yip Street",
+      "street_name_zh": "駿業街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1218",
+      "name_key": "Chun Yip Street|駿業街"
+    },
+    {
       "event_id": "2010-12-24|GN8237|0",
       "source": "egazette_pdf",
       "publication_date": "1960-11-04",
@@ -267,6 +351,30 @@
       "district_raw_zh": "港島東區",
       "notice_no": "GN8237",
       "name_key": "Hoi Tai Street|海堤街"
+    },
+    {
+      "event_id": "crowd|1961-gn851-shim-kwong-discontinued-Shim-Kwong-Street-曉光街-1961-05-19",
+      "source": "crowdsubmitted",
+      "publication_date": "1961-05-19",
+      "change_kind": "delete",
+      "street_name_en": "Shim Kwong Street",
+      "street_name_zh": "曉光街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN851",
+      "name_key": "Shim Kwong Street|曉光街"
+    },
+    {
+      "event_id": "crowd|1961-gn1335-island-road-renames-Island-Road-Deep-Water-Bay-深水灣香島道-1961-08-04",
+      "source": "crowdsubmitted",
+      "publication_date": "1961-08-04",
+      "change_kind": "rename",
+      "street_name_en": "Island Road (Deep Water Bay)",
+      "street_name_zh": "深水灣香島道",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1335",
+      "name_key": "Island Road (Deep Water Bay)|深水灣香島道"
     },
     {
       "event_id": "crowd|2017-gn3555-tier-c-1-1963-11-08",
@@ -471,6 +579,174 @@
       "district_raw_zh": null,
       "notice_no": "GN1370",
       "name_key": "Ngau Tau Kok Third Street|牛頭角第三街"
+    },
+    {
+      "event_id": "crowd|1975-gn1693-tuen-mun-streets-Kai-Man-Street-啟民街-1975-08-01",
+      "source": "crowdsubmitted",
+      "publication_date": "1975-08-01",
+      "change_kind": "declare",
+      "street_name_en": "Kai Man Street",
+      "street_name_zh": "啟民街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1693",
+      "name_key": "Kai Man Street|啟民街"
+    },
+    {
+      "event_id": "crowd|1975-gn1693-tuen-mun-streets-Ming-Oi-Street-明愛街-1975-08-01",
+      "source": "crowdsubmitted",
+      "publication_date": "1975-08-01",
+      "change_kind": "declare",
+      "street_name_en": "Ming Oi Street",
+      "street_name_zh": "明愛街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1693",
+      "name_key": "Ming Oi Street|明愛街"
+    },
+    {
+      "event_id": "crowd|1975-gn1693-tuen-mun-streets-Yan-Ching-Circuit-仁政街-1975-08-01",
+      "source": "crowdsubmitted",
+      "publication_date": "1975-08-01",
+      "change_kind": "declare",
+      "street_name_en": "Yan Ching Circuit",
+      "street_name_zh": "仁政街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1693",
+      "name_key": "Yan Ching Circuit|仁政街"
+    },
+    {
+      "event_id": "crowd|1975-gn2327-gazetteer-harmonization-Main-Street-Ap-Lei-Chau-1975-10-24",
+      "source": "crowdsubmitted",
+      "publication_date": "1975-10-24",
+      "change_kind": "rename",
+      "street_name_en": "Main Street, Ap Lei Chau",
+      "street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN2327",
+      "name_key": "Main Street, Ap Lei Chau|"
+    },
+    {
+      "event_id": "crowd|1975-gn2327-gazetteer-harmonization-Tong-Mei-Road-1975-10-24",
+      "source": "crowdsubmitted",
+      "publication_date": "1975-10-24",
+      "change_kind": "rename",
+      "street_name_en": "Tong Mei Road",
+      "street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN2327",
+      "name_key": "Tong Mei Road|"
+    },
+    {
+      "event_id": "crowd|1976-gn2462-sai-kung-streets-Sai-Kung-Wing-Wo-Street-西貢永和街-1976-11-05",
+      "source": "crowdsubmitted",
+      "publication_date": "1976-11-05",
+      "change_kind": "declare",
+      "street_name_en": "Sai Kung Wing Wo Street",
+      "street_name_zh": "西貢永和街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN2462",
+      "name_key": "Sai Kung Wing Wo Street|西貢永和街"
+    },
+    {
+      "event_id": "crowd|1976-gn2874-kowloon-bay-streets-Foo-Yip-Street-富業街-1976-12-24",
+      "source": "crowdsubmitted",
+      "publication_date": "1976-12-24",
+      "change_kind": "delete",
+      "street_name_en": "Foo Yip Street",
+      "street_name_zh": "富業街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN2874",
+      "name_key": "Foo Yip Street|富業街"
+    },
+    {
+      "event_id": "crowd|1977-gn1311-sai-kung-roads-Sai-Kung-Wing-Lung-Road-西貢永隆道-1977-06-10",
+      "source": "hkgro",
+      "publication_date": "1977-06-10",
+      "change_kind": "declare",
+      "street_name_en": "Sai Kung Wing Lung Road",
+      "street_name_zh": "西貢永隆道",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1311",
+      "name_key": "Sai Kung Wing Lung Road|西貢永隆道"
+    },
+    {
+      "event_id": "crowd|1977-gn2858-hang-hau-main-street-Hang-Hau-Main-Street-坑口正街-1977-11-25",
+      "source": "hkgro",
+      "publication_date": "1977-11-25",
+      "change_kind": "declare",
+      "street_name_en": "Hang Hau Main Street",
+      "street_name_zh": "坑口正街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN2858",
+      "name_key": "Hang Hau Main Street|坑口正街"
+    },
+    {
+      "event_id": "crowd|1978-gn933-tsim-sha-tsui-streets-Ching-Hay-Street-正氣街-1978-04-14",
+      "source": "crowdsubmitted",
+      "publication_date": "1978-04-14",
+      "change_kind": "declare",
+      "street_name_en": "Ching Hay Street",
+      "street_name_zh": "正氣街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN933",
+      "name_key": "Ching Hay Street|正氣街"
+    },
+    {
+      "event_id": "crowd|1978-gn933-tsim-sha-tsui-streets-Hing-Cheung-Road-興祥道-1978-04-14",
+      "source": "crowdsubmitted",
+      "publication_date": "1978-04-14",
+      "change_kind": "declare",
+      "street_name_en": "Hing Cheung Road",
+      "street_name_zh": "興祥道",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN933",
+      "name_key": "Hing Cheung Road|興祥道"
+    },
+    {
+      "event_id": "crowd|1978-gn933-tsim-sha-tsui-streets-Ming-Kwong-Road-明光道-1978-04-14",
+      "source": "crowdsubmitted",
+      "publication_date": "1978-04-14",
+      "change_kind": "declare",
+      "street_name_en": "Ming Kwong Road",
+      "street_name_zh": "明光道",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN933",
+      "name_key": "Ming Kwong Road|明光道"
+    },
+    {
+      "event_id": "crowd|1979-gn1001-clear-water-bay-streets-Shun-Cheung-Road-順祥道-1979-04-20",
+      "source": "crowdsubmitted",
+      "publication_date": "1979-04-20",
+      "change_kind": "declare",
+      "street_name_en": "Shun Cheung Road",
+      "street_name_zh": "順祥道",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1001",
+      "name_key": "Shun Cheung Road|順祥道"
+    },
+    {
+      "event_id": "crowd|1979-gn1001-clear-water-bay-streets-Shun-Woo-Street-順和街-1979-04-20",
+      "source": "crowdsubmitted",
+      "publication_date": "1979-04-20",
+      "change_kind": "declare",
+      "street_name_en": "Shun Woo Street",
+      "street_name_zh": "順和街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1001",
+      "name_key": "Shun Woo Street|順和街"
     },
     {
       "event_id": "2015-01-23|GN1172|0",

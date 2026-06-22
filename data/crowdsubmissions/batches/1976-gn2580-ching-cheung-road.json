@@ -1,0 +1,27 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1976-gn2580-ching-cheung-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2580",
+  "publication_date": "1976-11-19",
+  "gazette_url_en": "/egazette/en/1976-gn2580.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1976/Scanned_20260621-1620.pdf",
+  "streets": [{
+    "english_name": "Ching Cheung Road",
+    "chinese_name": "呈祥道",
+    "history": [{
+      "publication_date": "1976-11-19",
+      "change_kind": "extend",
+      "street_name_en": "Ching Cheung Road",
+      "street_name_zh": "呈祥道",
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "notice_type_normalized": "extension",
+      "gazette_location": {
+        "description_raw_en": "Thoroughfare as shown coloured pink on drawing No. CM 66, extending from Ching Cheung Road at the junction with Castle Peak Road and running firstly in a westerly direction, then turning to a southerly direction for a total length of 1,150 m. until it joins with Kwai Chung Road at the east bank of Lai Chi Kok Bridge.",
+        "description_raw_zh": "此街道起點為呈祥道與青山道會合點，先向西伸展、後轉向南行至與荔枝角橋東岸之葵涌道會合為止，全長一千一百五十公尺，其位置在 CM 66 號圖則內用粉紅色標明。"
+      }
+    }]
+  }]
+}

@@ -1,0 +1,115 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1975-gn1541-hung-hom-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1541",
+  "publication_date": "1975-07-11",
+  "gazette_url_en": "/egazette/en/1975-gn1541.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1975/Scanned_20260621-1639.pdf",
+  "remarks": "G.N.1541 on page 2 of same scan as G.N.1540.",
+  "streets": [
+    {
+      "english_name": "Cheong Hang Road",
+      "chinese_name": "暢行道",
+      "history": [
+        {
+          "publication_date": "1975-07-11",
+          "change_kind": "declare",
+          "street_name_en": "Cheong Hang Road",
+          "street_name_zh": "暢行道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "A L-shaped street shown coloured green on Drawing No. KH 1539/1 commencing on the south western side of Winslow Street just opposite Lo Lung Hang Street running in a south-westerly direction for a distance of about 56 metres, then turning south-easterly for a distance of about 82 metres and terminating on the north western side of the road shown coloured red on the Drawing.",
+            "description_raw_zh": "KH 1539/1 號圖則內繫綠色之 L 形街道，其起點為老龍坑街正面之溫思勞街之西南面，向西南行約五十六公尺，然後轉向東南行約八十二公尺，終點在圖則內所繪之繫紅色街道之西北面。",
+            "parsed": {
+              "road_form": "thoroughfare",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "KH 1539/1",
+                  "color": "green",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "On Ching Road",
+      "chinese_name": "安靜道",
+      "history": [
+        {
+          "publication_date": "1975-07-11",
+          "change_kind": "declare",
+          "street_name_en": "On Ching Road",
+          "street_name_zh": "安靜道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing on the north western side of the road shown coloured red on Drawing No. KH 1539/1 and running in a north-westerly direction for a distance of about 75 metres as shown coloured blue on the Drawing.",
+            "description_raw_zh": "此盡頭路起點在 KH 1539/1 號圖則內繫紅色之街道之西北面，如圖則內用藍色標明向西北行約七十五公尺。",
+            "parsed": {
+              "road_form": "cul_de_sac",
+              "is_cul_de_sac": true,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "KH 1539/1",
+                  "color": "blue",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

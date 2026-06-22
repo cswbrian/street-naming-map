@@ -1,0 +1,27 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1978-gn2918-taikoo-shing-extend",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2918",
+  "publication_date": "1978-11-10",
+  "gazette_url_en": "/egazette/en/1978-gn2918.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1978/Scanned_20260621-1706(1).pdf",
+  "streets": [{
+    "english_name": "Taikoo Shing Road",
+    "chinese_name": "太古城道",
+    "history": [{
+      "publication_date": "1978-11-10",
+      "change_kind": "extend",
+      "street_name_en": "Taikoo Shing Road",
+      "street_name_zh": "太古城道",
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "notice_type_normalized": "extension",
+      "gazette_location": {
+        "description_raw_en": "Extension of Taikoo Shing Road westward for a distance of approximately 350 m. to join up with Westlands Road, as shown coloured pink on drawing No. HH 3392.",
+        "description_raw_zh": "此街道為太古城道延長部份，向西伸展約三五〇公尺，與華蘭路會合，其位置在HH3392號圖則上用粉紅色標明。"
+      }
+    }]
+  }]
+}

@@ -1,7 +1,47 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-06-21T07:04:24.230Z",
+  "updated_at": "2026-06-22T01:29:20.200Z",
   "links": [
+    {
+      "timeline_id": "code:10003",
+      "street_code": "10003",
+      "event_ids": [
+        "crowd|1975-gn1540-a-kung-ngam-roads-A-Kung-Ngam-Road-阿公岩道-1975-07-11"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10004",
+      "street_code": "10004",
+      "event_ids": [
+        "crowd|1975-gn1540-a-kung-ngam-roads-A-Kung-Ngam-Village-Road-阿公岩村道-1975-07-11"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10005",
+      "street_code": "10005",
+      "event_ids": [
+        "crowd|1961-gn1335-island-road-renames-Aberdeen-Main-Road-香港仔大道-",
+        "crowd|1961-gn1335-island-road-renames-Aberdeen-Main-Road-香港仔大道-1961-08-04"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
     {
       "timeline_id": "code:10013",
       "street_code": "10013",
@@ -19,14 +59,15 @@
       "timeline_id": "code:10019",
       "street_code": "10019",
       "event_ids": [
-        "crowd|2023-gn3377-tier-a-10019-1976-12-10"
+        "crowd|2023-gn3377-tier-a-10019-1976-12-10",
+        "crowd|1976-gn2757-anderson-road-Anderson-Road-安達臣道-1976-12-10"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10020",
@@ -291,6 +332,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10067",
+      "street_code": "10067",
+      "event_ids": [
+        "crowd|1978-gn1459-zh-renames-Bluff-Path-百祿徑-1978-06-09"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10068",
       "street_code": "10068",
       "event_ids": [
@@ -515,6 +569,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10114",
+      "street_code": "10114",
+      "event_ids": [
+        "crowd|1961-gn1136-jaffe-cannon-Cannon-Street-景隆街-1961-07-07"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10115",
       "street_code": "10115",
       "event_ids": [
@@ -593,6 +660,20 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10155",
+      "street_code": "10155",
+      "event_ids": [
+        "crowd|1961-gn1335-island-road-renames-Chai-Wan-Road-柴灣道-",
+        "crowd|1961-gn1335-island-road-renames-Chai-Wan-Road-柴灣道-1961-08-04"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10161",
       "street_code": "10161",
       "event_ids": [
@@ -632,6 +713,38 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10166",
+      "street_code": "10166",
+      "event_ids": [
+        "crowd|1978-gn2702-kowloon-road-splits-Chatham-Road-North-漆咸道北-",
+        "crowd|1978-gn2702-kowloon-road-splits-Chatham-Road-North-漆咸道北-1978-10-20",
+        "crowd|1979-gn111-kowloon-road-splits-Chatham-Road-North-漆咸道北-",
+        "crowd|1979-gn111-kowloon-road-splits-Chatham-Road-North-漆咸道北-1979-01-12"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10167",
+      "street_code": "10167",
+      "event_ids": [
+        "crowd|1978-gn2702-kowloon-road-splits-Chatham-Road-South-漆咸道南-",
+        "crowd|1978-gn2702-kowloon-road-splits-Chatham-Road-South-漆咸道南-1978-10-20",
+        "crowd|1979-gn111-kowloon-road-splits-Chatham-Road-South-漆咸道南-",
+        "crowd|1979-gn111-kowloon-road-splits-Chatham-Road-South-漆咸道南-1979-01-12"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10168",
       "street_code": "10168",
       "event_ids": [
@@ -656,6 +769,32 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10172",
+      "street_code": "10172",
+      "event_ids": [
+        "crowd|1979-gn1564-cheong-hang-lane-Cheong-Hang-Lane-暢行里-1979-06-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10173",
+      "street_code": "10173",
+      "event_ids": [
+        "crowd|1975-gn1541-hung-hom-streets-Cheong-Hang-Road-暢行道-1975-07-11"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10174",
@@ -723,6 +862,32 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10196",
+      "street_code": "10196",
+      "event_ids": [
+        "crowd|1976-gn1302-cheung-sha-wan-new-streets-Cheung-Lai-Street-長荔街-1976-06-18"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10201",
+      "street_code": "10201",
+      "event_ids": [
+        "crowd|1976-gn1302-cheung-sha-wan-new-streets-Cheung-Mou-Street-長茂街-1976-06-18"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10202",
       "street_code": "10202",
       "event_ids": [
@@ -734,6 +899,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10205",
+      "street_code": "10205",
+      "event_ids": [
+        "crowd|1976-gn1302-cheung-sha-wan-new-streets-Cheung-Sha-Wan-Path-長沙灣徑-1976-06-18"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10206",
@@ -749,6 +927,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10212",
+      "street_code": "10212",
+      "event_ids": [
+        "crowd|1976-gn1302-cheung-sha-wan-new-streets-Cheung-Shun-Street-長順街-1976-06-18"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10215",
       "street_code": "10215",
       "event_ids": [
@@ -762,17 +953,83 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10216",
+      "street_code": "10216",
+      "event_ids": [
+        "crowd|1979-gn1702-tsing-yi-streets-Cheung-Wan-Street-長環街-1979-07-06"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10220",
+      "street_code": "10220",
+      "event_ids": [
+        "crowd|1976-gn1302-cheung-sha-wan-new-streets-Cheung-Yee-Street-長義街-1976-06-18"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10221",
       "street_code": "10221",
       "event_ids": [
-        "crowd|2021-gn3898-tier-a-10221-1979-11-09"
+        "crowd|2021-gn3898-tier-a-10221-1979-11-09",
+        "crowd|1979-gn2898-kwun-tong-streets-Cheung-Yip-Street-祥業街-1979-11-09"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10222",
+      "street_code": "10222",
+      "event_ids": [
+        "crowd|1976-gn1302-cheung-sha-wan-new-streets-Cheung-Yue-Street-長裕街-1976-06-18"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10225",
+      "street_code": "10225",
+      "event_ids": [
+        "crowd|1979-gn1195-chi-fu-streets-Chi-Fu-Close-置富徑-1979-05-11"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10226",
+      "street_code": "10226",
+      "event_ids": [
+        "crowd|1979-gn1195-chi-fu-streets-Chi-Fu-Road-置富道-1979-05-11"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10227",
@@ -814,6 +1071,32 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10247",
+      "street_code": "10247",
+      "event_ids": [
+        "crowd|1976-gn2580-ching-cheung-road-Ching-Cheung-Road-呈祥道-1976-11-19"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10248",
+      "street_code": "10248",
+      "event_ids": [
+        "crowd|1979-gn1702-tsing-yi-streets-Ching-Hong-Road-青康路-1979-07-06"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10249",
       "street_code": "10249",
       "event_ids": [
@@ -825,6 +1108,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10252",
+      "street_code": "10252",
+      "event_ids": [
+        "crowd|1979-gn112-ching-sau-lane-Ching-Sau-Lane-靜修里-1979-01-12"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10262",
@@ -869,14 +1165,15 @@
       "timeline_id": "code:10277",
       "street_code": "10277",
       "event_ids": [
-        "crowd|1975-gn702-703-10277"
+        "crowd|1975-gn702-703-10277",
+        "crowd|1975-gn702-703-Chun-Fai-Road-春暉道"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10281",
@@ -929,6 +1226,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10296",
+      "street_code": "10296",
+      "event_ids": [
+        "crowd|1979-gn1702-tsing-yi-streets-Chung-Mei-Road-涌美路-1979-07-06"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10297",
@@ -1026,27 +1336,45 @@
       "timeline_id": "code:10326",
       "street_code": "10326",
       "event_ids": [
-        "crowd|1907-gn250-may-road-10326-1907-04-12"
+        "crowd|1907-gn250-may-road-10326-1907-04-12",
+        "crowd|1976-gn2119-2120-zh-renames-Conduit-Road-干德道-1976-09-24"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10327",
+      "street_code": "10327",
+      "event_ids": [
+        "crowd|1975-gn1866-former-hoi-lok",
+        "crowd|1975-gn1866-former-sing-lok",
+        "crowd|1975-gn1866-former-yee-lok",
+        "crowd|1975-gn1866-connaught-place-Connaught-Place-康樂廣場-1975-08-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10331",
       "street_code": "10331",
       "event_ids": [
-        "crowd|1974-gn1377-10331"
+        "crowd|1974-gn1377-10331",
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-Container-Port-Road-貨櫃碼頭路-1977-11-25"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10334",
@@ -1101,6 +1429,58 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10355",
+      "street_code": "10355",
+      "event_ids": [
+        "crowd|1979-gn1002-tai-po-industrial-estate-Dai-Fu-Street-大富街-1979-04-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10358",
+      "street_code": "10358",
+      "event_ids": [
+        "crowd|1979-gn1002-tai-po-industrial-estate-Dai-Kwai-Street-大貴街-1979-04-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10359",
+      "street_code": "10359",
+      "event_ids": [
+        "crowd|1979-gn1002-tai-po-industrial-estate-Dai-Li-Street-大利街-1979-04-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10362",
+      "street_code": "10362",
+      "event_ids": [
+        "crowd|1979-gn1002-tai-po-industrial-estate-Dai-Shun-Street-大順街-1979-04-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10364",
       "street_code": "10364",
       "event_ids": [
@@ -1151,6 +1531,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10377",
+      "street_code": "10377",
+      "event_ids": [
+        "crowd|1960-gn368-tin-kwong-dianthus-Dianthus-Road-石竹路-1960-03-04"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10382",
@@ -1229,6 +1622,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10404",
+      "street_code": "10404",
+      "event_ids": [
+        "crowd|1961-gn1210-edinburgh-place-Edinburgh-Place-愛丁堡廣場-1961-07-21"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10406",
@@ -1350,18 +1756,34 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:10468",
+      "street_code": "10468",
+      "event_ids": [
+        "crowd|1979-gn2145-fan-kam-road-Fan-Kam-Road-粉錦公路-",
+        "crowd|1979-gn2145-fan-kam-road-Fan-Kam-Road-粉錦公路-1979-08-24"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10469",
       "street_code": "10469",
       "event_ids": [
         "crowd|1975-gn589-10469-1974-08-02",
-        "crowd|1975-gn589-10469-1975-03-14"
+        "crowd|1975-gn589-10469-1975-03-14",
+        "crowd|1975-gn589-Fan-Wa-Street-繁華街-1974-08-02",
+        "crowd|1975-gn589-Fan-Wa-Street-繁華街-1975-03-14"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10471",
@@ -1406,14 +1828,28 @@
       "timeline_id": "code:10477",
       "street_code": "10477",
       "event_ids": [
-        "crowd|1935-gn124-yuen-long-streets-10477-1935-02-15"
+        "crowd|1935-gn124-yuen-long-streets-10477-1935-02-15",
+        "crowd|1977-gn2944-yuen-long-streets-Fau-Tsoi-Street-阜財街-1977-12-02"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10480",
+      "street_code": "10480",
+      "event_ids": [
+        "crowd|1977-gn1914-fei-tsui-road-Fei-Tsui-Road-翡翠道-1977-08-12"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10481",
@@ -1520,6 +1956,32 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10504",
+      "street_code": "10504",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Fook-Hong-Street-福康街-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10506",
+      "street_code": "10506",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Fook-Tak-Street-福德街-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10510",
       "street_code": "10510",
       "event_ids": [
@@ -1583,6 +2045,20 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10536",
+      "street_code": "10536",
+      "event_ids": [
+        "crowd|1961-gn50-fu-yan-street-Fu-Yan-Street-輔仁街-",
+        "crowd|1961-gn50-fu-yan-street-Fu-Yan-Street-輔仁街-1961-01-13"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10548",
@@ -1694,14 +2170,15 @@
       "timeline_id": "code:10566",
       "street_code": "10566",
       "event_ids": [
-        "crowd|2017-gn7594-tier-a-10566-1977-12-02"
+        "crowd|2017-gn7594-tier-a-10566-1977-12-02",
+        "crowd|1977-gn2944-yuen-long-streets-Fung-Cheung-Road-鳳翔路-1977-12-02"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10569",
@@ -1728,6 +2205,45 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10576",
+      "street_code": "10576",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Fung-Nin-Road-豐年路-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10581",
+      "street_code": "10581",
+      "event_ids": [
+        "crowd|1979-gn2896-fung-shing-street-Fung-Shing-Street-豐盛街-1979-11-09"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10585",
+      "street_code": "10585",
+      "event_ids": [
+        "crowd|1979-gn713-aberdeen-streets-Fung-Tin-Street-奉天街-1979-03-16"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10593",
@@ -1825,14 +2341,15 @@
       "timeline_id": "code:10614",
       "street_code": "10614",
       "event_ids": [
-        "crowd|1975-gn702-703-10614"
+        "crowd|1975-gn702-703-10614",
+        "crowd|1975-gn702-703-Good-Shepherd-Street-牧愛街"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10620",
@@ -1859,6 +2376,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10626",
+      "street_code": "10626",
+      "event_ids": [
+        "crowd|1978-gn464-greig-crescent-Greig-Crescent-基利坊-1978-02-24"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10632",
@@ -1913,6 +2443,48 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10646",
+      "street_code": "10646",
+      "event_ids": [
+        "crowd|1977-gn1311-sai-kung-roads-Hang-Hau-Road-坑口道-1977-06-10"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10647",
+      "street_code": "10647",
+      "event_ids": [
+        "crowd|1978-gn2703-hang-hau-wing-lung-Hang-Hau-Wing-Lung-Road-坑口永隆道-",
+        "crowd|1978-gn2703-hang-hau-wing-lung-Hang-Hau-Wing-Lung-Road-坑口永隆道-1978-10-20",
+        "crowd|1979-gn1131-hang-hau-wing-lung-road-Hang-Hau-Wing-Lung-Road-坑口永隆路-",
+        "crowd|1979-gn1131-hang-hau-wing-lung-road-Hang-Hau-Wing-Lung-Road-坑口永隆路-1979-05-04"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10654",
+      "street_code": "10654",
+      "event_ids": [
+        "crowd|1977-gn1134-tai-po-roads-Hang-Tau-Road-坑頭路-1977-05-10"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10656",
       "street_code": "10656",
       "event_ids": [
@@ -1950,6 +2522,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10663",
+      "street_code": "10663",
+      "event_ids": [
+        "crowd|1961-gn575-harcourt-road-Harcourt-Road-夏慤道-1961-04-07"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10664",
@@ -1994,27 +2579,30 @@
       "timeline_id": "code:10667",
       "street_code": "10667",
       "event_ids": [
-        "crowd|1958-gn865-major-streets-10667-salisbury-avenue-1958-06-27"
+        "crowd|1958-gn865-major-streets-10667-salisbury-avenue-1958-06-27",
+        "crowd|1978-gn465-tsim-sha-tsui-renames-Hau-Fook-Street-厚福街-",
+        "crowd|1978-gn465-tsim-sha-tsui-renames-Hau-Fook-Street-厚福街-1978-02-24"
       ],
       "status": "active",
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-21",
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10669",
       "street_code": "10669",
       "event_ids": [
-        "crowd|1975-gn588-10669-1975-03-14"
+        "crowd|1975-gn588-10669-1975-03-14",
+        "crowd|1975-gn588-Hau-Man-Street-孝民街-1975-03-14"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10670",
@@ -2067,6 +2655,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10679",
+      "street_code": "10679",
+      "event_ids": [
+        "crowd|1960-gn1217-healthy-street-central-Healthy-Street-Central-健康中街-1960-08-12"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10680",
@@ -2124,14 +2725,15 @@
       "timeline_id": "code:10698",
       "street_code": "10698",
       "event_ids": [
-        "crowd|2025-gn2547-heung-yip-road-10698-1972-09-29"
+        "crowd|2025-gn2547-heung-yip-road-10698-1972-09-29",
+        "crowd|1975-gn351-Heung-Yip-Road-香葉道"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10704",
@@ -2177,14 +2779,15 @@
       "timeline_id": "code:10718",
       "street_code": "10718",
       "event_ids": [
-        "crowd|1974-gn1023-kwai-chung-streets-10718-1974-04-19"
+        "crowd|1974-gn1023-kwai-chung-streets-10718-1974-04-19",
+        "crowd|1979-gn44-tsuen-wan-streets-Hing-Fong-Road-興芳路-1979-01-05"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10726",
@@ -2239,6 +2842,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10734",
+      "street_code": "10734",
+      "event_ids": [
+        "crowd|1975-gn1693-tuen-mun-streets-Hing-Wong-Street-興旺街-1975-08-01"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10735",
       "street_code": "10735",
       "event_ids": [
@@ -2262,6 +2878,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-21",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10741",
+      "street_code": "10741",
+      "event_ids": [
+        "crowd|1977-gn1311-sai-kung-roads-Hiram-s-Highway-西貢公路-1977-06-10"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -2304,6 +2933,32 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10757",
+      "street_code": "10757",
+      "event_ids": [
+        "crowd|1975-gn1693-tuen-mun-streets-Ho-Pong-Street-河傍街-1975-08-01"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10760",
+      "street_code": "10760",
+      "event_ids": [
+        "crowd|1977-gn1189-tuen-mun-streets-Ho-Tin-Street-河田街-1977-05-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10761",
       "street_code": "10761",
       "event_ids": [
@@ -2330,6 +2985,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10765",
+      "street_code": "10765",
+      "event_ids": [
+        "crowd|1979-gn2898-kwun-tong-streets-Hoi-Bun-Road-海濱道-1979-11-09"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10769",
       "street_code": "10769",
       "event_ids": [
@@ -2341,6 +3009,32 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10770",
+      "street_code": "10770",
+      "event_ids": [
+        "crowd|1978-gn1852-hoi-fung-path-Hoi-Fung-Path-海風徑-1978-07-21"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10777",
+      "street_code": "10777",
+      "event_ids": [
+        "crowd|1960-gn1673-tong-chong-streets-Hoi-Kwong-Street-海光街-1960-11-04"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10779",
@@ -2367,6 +3061,32 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10784",
+      "street_code": "10784",
+      "event_ids": [
+        "crowd|1960-gn1673-tong-chong-streets-Hoi-Tai-Street-海堤街-1960-11-04"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10786",
+      "street_code": "10786",
+      "event_ids": [
+        "crowd|1960-gn1673-tong-chong-streets-Hoi-Wan-Street-海灣街-1960-11-04"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10788",
@@ -2447,6 +3167,32 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10836",
+      "street_code": "10836",
+      "event_ids": [
+        "crowd|1977-gn858-chai-wan-streets-Hong-Ping-Street-康平街-1977-04-15"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10839",
+      "street_code": "10839",
+      "event_ids": [
+        "crowd|1976-gn1712-hong-tak-road-Hong-Tak-Road-康德道-1976-08-06"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10856",
       "street_code": "10856",
       "event_ids": [
@@ -2458,6 +3204,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10863",
+      "street_code": "10863",
+      "event_ids": [
+        "crowd|1975-gn1693-tuen-mun-streets-Hung-Cheung-Road-洪祥路-1975-08-01"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10865",
@@ -2499,6 +3258,19 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:10870",
+      "street_code": "10870",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Hung-Min-Court-紅棉圍-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10873",
       "street_code": "10873",
       "event_ids": [
@@ -2522,6 +3294,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-21",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10878",
+      "street_code": "10878",
+      "event_ids": [
+        "crowd|1976-gn2874-kowloon-bay-streets-Hung-Yip-Street-鴻業街-1976-12-24"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -2580,14 +3365,15 @@
       "timeline_id": "code:10892",
       "street_code": "10892",
       "event_ids": [
-        "crowd|1931-gn694-wan-chai-streets-10892-1931-10-30"
+        "crowd|1931-gn694-wan-chai-streets-10892-1931-10-30",
+        "crowd|1961-gn1136-jaffe-cannon-Jaffe-Road-謝斐道-1961-07-07"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10897",
@@ -2601,6 +3387,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-21",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10898",
+      "street_code": "10898",
+      "event_ids": [
+        "crowd|1978-gn1459-zh-renames-Jervois-Street-蘇杭街-1978-06-09"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -2630,6 +3429,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10901",
+      "street_code": "10901",
+      "event_ids": [
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-Joint-Street-聯接街-1977-11-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10902",
       "street_code": "10902",
       "event_ids": [
@@ -2641,6 +3453,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10903",
+      "street_code": "10903",
+      "event_ids": [
+        "crowd|1960-gn468-jordan-path-Jordan-Path-佐敦里-1960-03-18"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10904",
@@ -2682,6 +3507,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10912",
+      "street_code": "10912",
+      "event_ids": [
+        "crowd|1978-gn933-tsim-sha-tsui-streets-Ching-Yee-Road-正義道-1978-04-14"
+      ],
+      "status": "active",
+      "method": "manual",
+      "district_hint": "Tsim Sha Tsui",
+      "note": "G.N.933 正義道; geojson EN is Justice Drive (harmonized rename)",
+      "linked_at": "2026-06-22",
+      "linked_by": "linker"
+    },
+    {
       "timeline_id": "code:10917",
       "street_code": "10917",
       "event_ids": [
@@ -2708,6 +3546,19 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:10921",
+      "street_code": "10921",
+      "event_ids": [
+        "crowd|1979-gn2899-yau-tong-streets-Ka-Wing-Street-嘉榮街-1979-11-09"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10924",
       "street_code": "10924",
       "event_ids": [
@@ -2719,6 +3570,35 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10929",
+      "street_code": "10929",
+      "event_ids": [
+        "crowd|1975-gn1693-tuen-mun-streets-Kai-Fat-Path-啟發徑-1975-08-01"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10936",
+      "street_code": "10936",
+      "event_ids": [
+        "crowd|1978-gn3032-kai-man-path-Kai-Man-Path-啟民徑-",
+        "crowd|1978-gn3032-kai-man-path-Kai-Man-Path-啟民徑-1978-11-24",
+        "crowd|1979-gn588-kai-man-path-Kai-Man-Path-啓民徑-",
+        "crowd|1979-gn588-kai-man-path-Kai-Man-Path-啓民徑-1979-03-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10940",
@@ -2748,6 +3628,45 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10957",
+      "street_code": "10957",
+      "event_ids": [
+        "crowd|1961-gn1002-stanley-oxford-streets-Kam-Ping-Street-錦屏街-1961-06-16"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10961",
+      "street_code": "10961",
+      "event_ids": [
+        "crowd|1978-gn2481-yuen-long-streets-Kam-Tin-Road-錦田公路-1978-09-29"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10962",
+      "street_code": "10962",
+      "event_ids": [
+        "crowd|1977-gn1134-tai-po-roads-Kam-Tsin-Road-金錢路-1977-05-10"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10966",
       "street_code": "10966",
       "event_ids": [
@@ -2774,6 +3693,19 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:10976",
+      "street_code": "10976",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Kau-Yuk-Road-教育路-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10978",
       "street_code": "10978",
       "event_ids": [
@@ -2785,6 +3717,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10980",
+      "street_code": "10980",
+      "event_ids": [
+        "crowd|1976-gn1741-sha-tin-streets-Keng-Hau-Road-徑口路-1976-08-13"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10982",
@@ -2811,6 +3756,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10985",
+      "street_code": "10985",
+      "event_ids": [
+        "crowd|1976-gn2119-2120-zh-renames-Keswick-Street-敬誠街-1976-09-24"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10989",
@@ -2852,6 +3810,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10992",
+      "street_code": "10992",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Kik-Yeung-Road-擊壤路-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10993",
       "street_code": "10993",
       "event_ids": [
@@ -2862,6 +3833,175 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-21",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10995",
+      "street_code": "10995",
+      "event_ids": [
+        "crowd|1978-gn465-tsim-sha-tsui-renames-Kimberley-Street-金巴利街-1978-02-24"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10996",
+      "street_code": "10996",
+      "event_ids": [
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-Kin-Chuen-Street-健全街-1977-11-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10997",
+      "street_code": "10997",
+      "event_ids": [
+        "crowd|1977-gn1189-tuen-mun-streets-Kin-Fat-Lane-建發里-1977-05-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10998",
+      "street_code": "10998",
+      "event_ids": [
+        "crowd|1977-gn1189-tuen-mun-streets-Kin-Fat-Street-建發街-1977-05-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10999",
+      "street_code": "10999",
+      "event_ids": [
+        "crowd|1977-gn1189-tuen-mun-streets-Kin-Fung-Circuit-建豐街-1977-05-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11003",
+      "street_code": "11003",
+      "event_ids": [
+        "crowd|1977-gn1189-tuen-mun-streets-Kin-Kwan-Street-建群街-1977-05-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11006",
+      "street_code": "11006",
+      "event_ids": [
+        "crowd|1977-gn1189-tuen-mun-streets-Kin-Lung-Street-建隆街-1977-05-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11009",
+      "street_code": "11009",
+      "event_ids": [
+        "crowd|1977-gn1189-tuen-mun-streets-Kin-On-Street-建安街-1977-05-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11012",
+      "street_code": "11012",
+      "event_ids": [
+        "crowd|1977-gn1189-tuen-mun-streets-Kin-Tai-Street-建泰街-1977-05-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11016",
+      "street_code": "11016",
+      "event_ids": [
+        "crowd|1977-gn1189-tuen-mun-streets-Kin-Wing-Lane-建榮里-1977-05-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11017",
+      "street_code": "11017",
+      "event_ids": [
+        "crowd|1977-gn1189-tuen-mun-streets-Kin-Wing-Street-建榮街-1977-05-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11019",
+      "street_code": "11019",
+      "event_ids": [
+        "crowd|1977-gn1189-tuen-mun-streets-Kin-Wong-Street-建旺街-1977-05-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11021",
+      "street_code": "11021",
+      "event_ids": [
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-King-Cho-Road-敬祖路-1977-11-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -2928,6 +4068,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11040",
+      "street_code": "11040",
+      "event_ids": [
+        "crowd|1978-gn2481-yuen-long-streets-Kiu-Hing-Road-僑興路-1978-09-29"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11041",
@@ -3022,6 +4175,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11064",
+      "street_code": "11064",
+      "event_ids": [
+        "crowd|1975-gn1659-kowloon-park-drive-Kowloon-Park-Drive-九龍公園徑-1975-07-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11065",
       "street_code": "11065",
       "event_ids": [
@@ -3038,14 +4204,29 @@
       "timeline_id": "code:11070",
       "street_code": "11070",
       "event_ids": [
-        "crowd|1935-gn124-yuen-long-streets-11070-1935-02-15"
+        "crowd|1935-gn124-yuen-long-streets-11070-1935-02-15",
+        "crowd|1977-gn2944-yuen-long-streets-Kuk-Ting-Street-谷亭街-1977-12-02"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11073",
+      "street_code": "11073",
+      "event_ids": [
+        "crowd|1976-gn721-kung-lok-ping-ting-Kung-Lok-Road-功樂道-",
+        "crowd|1976-gn721-kung-lok-ping-ting-Kung-Lok-Road-功樂道-1976-04-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11074",
@@ -3087,6 +4268,58 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11083",
+      "street_code": "11083",
+      "event_ids": [
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-Kwai-Fuk-Road-葵福路-1977-11-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11084",
+      "street_code": "11084",
+      "event_ids": [
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-Kwai-Fung-Crescent-葵豐街-1977-11-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11085",
+      "street_code": "11085",
+      "event_ids": [
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-Kwai-Hau-Street-葵孝街-1977-11-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11086",
+      "street_code": "11086",
+      "event_ids": [
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-Kwai-Hei-Street-葵喜街-1977-11-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11087",
       "street_code": "11087",
       "event_ids": [
@@ -3115,6 +4348,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11089",
+      "street_code": "11089",
+      "event_ids": [
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-Kwai-Hong-Street-葵康街-1977-11-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11090",
       "street_code": "11090",
       "event_ids": [
@@ -3128,6 +4374,32 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11091",
+      "street_code": "11091",
+      "event_ids": [
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-Kwai-Lok-Street-葵樂街-1977-11-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11092",
+      "street_code": "11092",
+      "event_ids": [
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-Kwai-Luen-Road-葵聯路-1977-11-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11095",
       "street_code": "11095",
       "event_ids": [
@@ -3139,6 +4411,59 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11096",
+      "street_code": "11096",
+      "event_ids": [
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-Kwai-Shun-Street-葵順街-1977-11-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11098",
+      "street_code": "11098",
+      "event_ids": [
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-Kwai-Tai-Road-葵泰路-1977-11-25",
+        "crowd|1979-gn1132-kwai-chung-streets-Kwai-Tai-Road-葵泰路-1979-05-04"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11099",
+      "street_code": "11099",
+      "event_ids": [
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-Kwai-Tak-Street-葵德街-1977-11-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11101",
+      "street_code": "11101",
+      "event_ids": [
+        "crowd|1979-gn1132-kwai-chung-streets-Kwai-Tsing-Road-葵青路-1979-05-04"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11105",
@@ -3204,6 +4529,32 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11120",
+      "street_code": "11120",
+      "event_ids": [
+        "crowd|1975-gn2061-kwai-chung-streets-Kwong-Fai-Circuit-光輝圍-1975-09-19"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11121",
+      "street_code": "11121",
+      "event_ids": [
+        "crowd|1975-gn2061-kwai-chung-streets-Kwong-Fai-Lane-光輝里-1975-09-19"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11128",
@@ -3310,6 +4661,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11151",
+      "street_code": "11151",
+      "event_ids": [
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-Lai-Cho-Road-麗祖路-1977-11-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11153",
       "street_code": "11153",
       "event_ids": [
@@ -3321,6 +4685,45 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11156",
+      "street_code": "11156",
+      "event_ids": [
+        "crowd|1975-gn112-lai-king-hill-road-Lai-King-Hill-Road-荔景山路-1975-01-17"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11169",
+      "street_code": "11169",
+      "event_ids": [
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-Lai-Yiu-Street-麗瑤街-1977-11-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11176",
+      "street_code": "11176",
+      "event_ids": [
+        "crowd|1978-gn2481-yuen-long-streets-Lam-Kam-Road-林錦公路-1978-09-29"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11184",
@@ -3347,6 +4750,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11189",
+      "street_code": "11189",
+      "event_ids": [
+        "crowd|1979-gn3192-wan-chai-streets-Lap-Tak-Lane-立德里-1979-12-07"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11190",
@@ -3388,6 +4804,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11203",
+      "street_code": "11203",
+      "event_ids": [
+        "crowd|1979-gn1001-clear-water-bay-streets-Lee-On-Road-利安道-1979-04-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11205",
       "street_code": "11205",
       "event_ids": [
@@ -3399,6 +4828,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11217",
+      "street_code": "11217",
+      "event_ids": [
+        "crowd|1975-gn2327-gazetteer-harmonization-Leung-Fai-Terrace-1975-10-24"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11221",
@@ -3451,6 +4893,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11232",
+      "street_code": "11232",
+      "event_ids": [
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-Lim-Cho-Street-念祖街-1977-11-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11233",
@@ -3585,6 +5040,58 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11251",
+      "street_code": "11251",
+      "event_ids": [
+        "crowd|1979-gn3194-sha-tin-lok-streets-Lok-Fung-Lane-樂楓里-1979-12-07"
+      ],
+      "status": "active",
+      "method": "manual",
+      "district_hint": "Sha Tin",
+      "note": "G.N.3194 樂楓里 → centreline 樂楓徑 LOK FUNG PATH",
+      "linked_at": "2026-06-22",
+      "linked_by": "linker"
+    },
+    {
+      "timeline_id": "code:11252",
+      "street_code": "11252",
+      "event_ids": [
+        "crowd|1979-gn3194-sha-tin-lok-streets-Lok-Ha-Lane-樂霞里-1979-12-07"
+      ],
+      "status": "active",
+      "method": "manual",
+      "district_hint": "Sha Tin",
+      "note": "G.N.3194 樂霞里 → centreline 樂霞坊 LOK HA SQUARE",
+      "linked_at": "2026-06-22",
+      "linked_by": "linker"
+    },
+    {
+      "timeline_id": "code:11255",
+      "street_code": "11255",
+      "event_ids": [
+        "crowd|1977-gn857-lok-ku-road-Lok-Ku-Road-樂古道-1977-04-15"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11256",
+      "street_code": "11256",
+      "event_ids": [
+        "crowd|1979-gn3194-sha-tin-lok-streets-Lok-Kwai-Lane-樂葵里-1979-12-07"
+      ],
+      "status": "active",
+      "method": "manual",
+      "district_hint": "Sha Tin",
+      "note": "G.N.3194 樂葵里 → centreline 樂葵徑 LOK KWAI PATH",
+      "linked_at": "2026-06-22",
+      "linked_by": "linker"
+    },
+    {
       "timeline_id": "code:11257",
       "street_code": "11257",
       "event_ids": [
@@ -3596,6 +5103,32 @@
       "note": null,
       "linked_at": "2026-06-21",
       "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11258",
+      "street_code": "11258",
+      "event_ids": [
+        "crowd|1979-gn3194-sha-tin-lok-streets-Lok-Lam-Road-樂林路-1979-12-07"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11259",
+      "street_code": "11259",
+      "event_ids": [
+        "crowd|1979-gn3194-sha-tin-lok-streets-Lok-Lin-Street-樂蓮街-1979-12-07"
+      ],
+      "status": "active",
+      "method": "manual",
+      "district_hint": "Sha Tin",
+      "note": "G.N.3194 樂蓮街 → centreline 樂蓮徑 LOK LIN PATH",
+      "linked_at": "2026-06-22",
+      "linked_by": "linker"
     },
     {
       "timeline_id": "code:11263",
@@ -3622,6 +5155,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11274",
+      "street_code": "11274",
+      "event_ids": [
+        "crowd|1979-gn3194-sha-tin-lok-streets-Lok-Yuen-Lane-樂園里-1979-12-07"
+      ],
+      "status": "active",
+      "method": "manual",
+      "district_hint": "Sha Tin",
+      "note": "G.N.3194 樂園里 → centreline 樂園徑 LOK YUEN PATH",
+      "linked_at": "2026-06-22",
+      "linked_by": "linker"
     },
     {
       "timeline_id": "code:11286",
@@ -3705,14 +5251,15 @@
       "timeline_id": "code:11308",
       "street_code": "11308",
       "event_ids": [
-        "crowd|2018-gn6060-first-previous-gn-11308-1960-11-11"
+        "crowd|2018-gn6060-first-previous-gn-11308-1960-11-11",
+        "crowd|1960-gn1713-lung-cheung-road-Lung-Cheung-Road-龍翔道-1960-11-11"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11314",
@@ -3741,6 +5288,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11316",
+      "street_code": "11316",
+      "event_ids": [
+        "crowd|1977-gn3134-tuen-mun-roads-Lung-Mun-Road-龍門路-1977-12-23"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11319",
       "street_code": "11319",
       "event_ids": [
@@ -3767,6 +5327,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11325",
+      "street_code": "11325",
+      "event_ids": [
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-Lung-Tang-Road-龍騰路-1977-11-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11326",
       "street_code": "11326",
       "event_ids": [
@@ -3777,6 +5350,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-21",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11330",
+      "street_code": "11330",
+      "event_ids": [
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-Lung-Yue-Road-龍如路-1977-11-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -3797,14 +5383,15 @@
       "timeline_id": "code:11337",
       "street_code": "11337",
       "event_ids": [
-        "crowd|2018-gn6060-first-previous-gn-11337-1976-02-06"
+        "crowd|2018-gn6060-first-previous-gn-11337-1976-02-06",
+        "crowd|1976-gn288-wong-tai-sin-Ma-Chai-Hang-Road-馬仔坑道-1976-02-06"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11339",
@@ -3818,6 +5405,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11344",
+      "street_code": "11344",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Ma-Miu-Road-媽廟路-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11349",
@@ -3849,27 +5449,42 @@
       "timeline_id": "code:11352",
       "street_code": "11352",
       "event_ids": [
-        "crowd|1926-gn202-ma-tau-wai-road-Ma-Tau-Wai-Road-馬頭圍道-1926-04-16"
+        "crowd|1926-gn202-ma-tau-wai-road-Ma-Tau-Wai-Road-馬頭圍道-1926-04-16",
+        "crowd|1975-gn2327-gazetteer-harmonization-Ma-Tau-Wai-Road-1975-10-24"
       ],
       "status": "active",
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-10",
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11353",
       "street_code": "11353",
       "event_ids": [
-        "crowd|2015-gn4864-ma-kung-roads-11353-1978-09-29"
+        "crowd|2015-gn4864-ma-kung-roads-11353-1978-09-29",
+        "crowd|1978-gn2481-yuen-long-streets-Ma-Tin-Road-馬田路-1978-09-29"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11355",
+      "street_code": "11355",
+      "event_ids": [
+        "crowd|1978-gn2481-yuen-long-streets-Ma-Wang-Road-媽橫路-1978-09-29"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11358",
@@ -3924,6 +5539,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11367",
+      "street_code": "11367",
+      "event_ids": [
+        "crowd|1977-gn3094-man-fat-street-Man-Fat-Street-文發街-1977-12-16"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11379",
       "street_code": "11379",
       "event_ids": [
@@ -3934,6 +5562,32 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-21",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11383",
+      "street_code": "11383",
+      "event_ids": [
+        "crowd|1976-gn1367-hung-hom-streets-Man-Siu-Street-民兆街-1976-06-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11384",
+      "street_code": "11384",
+      "event_ids": [
+        "crowd|1976-gn1367-hung-hom-streets-Man-Tai-Street-民泰街-1976-06-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -4002,6 +5656,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11406",
+      "street_code": "11406",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Mau-Tan-Street-牡丹街-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11407",
       "street_code": "11407",
       "event_ids": [
@@ -4031,27 +5698,29 @@
       "timeline_id": "code:11411",
       "street_code": "11411",
       "event_ids": [
-        "crowd|1959-gn131-mei-king-street-Mei-King-Street-美景街-1959-01-23"
+        "crowd|1959-gn131-mei-king-street-Mei-King-Street-美景街-1959-01-23",
+        "crowd|1977-gn420-to-kwa-wan-streets-Mei-King-Street-美景街-1977-02-17"
       ],
       "status": "active",
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-21",
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11413",
       "street_code": "11413",
       "event_ids": [
-        "crowd|1975-gn641-11413"
+        "crowd|1975-gn641-11413",
+        "crowd|1975-gn641-Mei-Lai-Road-美荔道"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11415",
@@ -4119,6 +5788,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11435",
+      "street_code": "11435",
+      "event_ids": [
+        "crowd|1977-gn3134-tuen-mun-roads-Ming-Kum-Road-鳴琴路-1977-12-23"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11436",
       "street_code": "11436",
       "event_ids": [
@@ -4129,6 +5811,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-21",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11437",
+      "street_code": "11437",
+      "event_ids": [
+        "crowd|1975-gn1693-tuen-mun-streets-Ming-Ngai-Street-明藝街-1975-08-01"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -4175,14 +5870,15 @@
       "timeline_id": "code:11455",
       "street_code": "11455",
       "event_ids": [
-        "crowd|1931-gn300-shaukiwan-streets-11455-1931-05-15"
+        "crowd|1931-gn300-shaukiwan-streets-11455-1931-05-15",
+        "crowd|1960-gn1060-mei-wa-streets-Mong-Lung-Street-望隆街-1960-07-08"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11459",
@@ -4196,6 +5892,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11460",
+      "street_code": "11460",
+      "event_ids": [
+        "crowd|1976-gn784-moorsom-road-Moorsom-Road-睦誠道-1976-04-09"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11465",
@@ -4250,6 +5959,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11476",
+      "street_code": "11476",
+      "event_ids": [
+        "crowd|1975-gn1485-mount-sterling-mall-Mount-Sterling-Mall-萬事達廣場-1975-06-16"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11477",
       "street_code": "11477",
       "event_ids": [
@@ -4269,13 +5991,15 @@
       "street_code": "11487",
       "event_ids": [
         "crowd|2016-gn1597-nam-cheong-lung-ping-11487-1961-04-14",
-        "crowd|1925-gn514-nam-cheong-nanchang-Nam-Cheong-Street-南昌街-1925-09-10"
+        "crowd|1925-gn514-nam-cheong-nanchang-Nam-Cheong-Street-南昌街-1925-09-10",
+        "crowd|1961-gn616-nam-cheong-street-Nam-Cheong-Street-南昌街-",
+        "crowd|1961-gn616-nam-cheong-street-Nam-Cheong-Street-南昌街-1961-04-14"
       ],
       "status": "active",
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -4290,6 +6014,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11493",
+      "street_code": "11493",
+      "event_ids": [
+        "crowd|1979-gn713-aberdeen-streets-Nam-Ning-Street-南寧街-1979-03-16"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11495",
@@ -4344,6 +6081,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11507",
+      "street_code": "11507",
+      "event_ids": [
+        "crowd|1979-gn1001-clear-water-bay-streets-New-Clear-Water-Bay-Road-新清水灣道-1979-04-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11516",
       "street_code": "11516",
       "event_ids": [
@@ -4382,6 +6132,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11529",
+      "street_code": "11529",
+      "event_ids": [
+        "crowd|1979-gn2897-ngau-chi-wan-street-Ngau-Chi-Wan-Street-牛池灣街-1979-11-09"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11545",
@@ -4480,14 +6243,15 @@
       "timeline_id": "code:11563",
       "street_code": "11563",
       "event_ids": [
-        "crowd|1975-gn351-11563"
+        "crowd|1975-gn351-11563",
+        "crowd|1975-gn351-Ocean-Park-Road-海洋公園道"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11566",
@@ -4530,6 +6294,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11573",
+      "street_code": "11573",
+      "event_ids": [
+        "crowd|1975-gn1541-hung-hom-streets-On-Ching-Road-安靜道-1975-07-11"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11576",
       "street_code": "11576",
       "event_ids": [
@@ -4541,6 +6318,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11580",
+      "street_code": "11580",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-On-Hong-Road-安康路-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11588",
@@ -4572,14 +6362,14 @@
       "timeline_id": "code:11610",
       "street_code": "11610",
       "event_ids": [
-        "crowd|1979-gn1043-11610"
+        "crowd|1975-gn1043-on-wah-street-On-Wah-Street-安華街-1975-05-09"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11611",
@@ -4621,6 +6411,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11622",
+      "street_code": "11622",
+      "event_ids": [
+        "crowd|1961-gn1002-stanley-oxford-streets-Oxford-Road-牛津道-1961-06-16"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11627",
       "street_code": "11627",
       "event_ids": [
@@ -4632,6 +6435,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11633",
+      "street_code": "11633",
+      "event_ids": [
+        "crowd|1978-gn2108-pak-pat-shan-road-Pak-Pat-Shan-Road-白筆山道-1978-08-18"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11634",
@@ -4671,6 +6487,32 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11651",
+      "street_code": "11651",
+      "event_ids": [
+        "crowd|1977-gn1794-shek-kip-mei-streets-Pak-Tin-Street-白田街-1977-07-29"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11653",
+      "street_code": "11653",
+      "event_ids": [
+        "crowd|1977-gn1794-shek-kip-mei-streets-Pak-Wan-Street-白雲街-1977-07-29"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11655",
@@ -4724,6 +6566,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11672",
+      "street_code": "11672",
+      "event_ids": [
+        "crowd|1976-gn579-pedder-street-Pedder-Street-畢打街-1976-03-12"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11676",
@@ -4856,6 +6711,32 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11713",
+      "street_code": "11713",
+      "event_ids": [
+        "crowd|1961-gn850-ping-shing-tsz-loi-Ping-Shing-Lane-平成里-1961-05-19"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11716",
+      "street_code": "11716",
+      "event_ids": [
+        "crowd|1976-gn721-kung-lok-ping-ting-Ping-Ting-Road-平定道-1976-04-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11724",
       "street_code": "11724",
       "event_ids": [
@@ -4872,14 +6753,15 @@
       "timeline_id": "code:11736",
       "street_code": "11736",
       "event_ids": [
-        "crowd|1975-gn176-11736"
+        "crowd|1975-gn176-11736",
+        "crowd|1975-gn176-Po-Kong-Lane-蒲崗里"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11749",
@@ -4921,6 +6803,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11757",
+      "street_code": "11757",
+      "event_ids": [
+        "crowd|1976-gn2462-sai-kung-streets-Po-Tung-Road-普通道-1976-11-05"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11762",
       "street_code": "11762",
       "event_ids": [
@@ -4937,14 +6832,28 @@
       "timeline_id": "code:11767",
       "street_code": "11767",
       "event_ids": [
-        "crowd|1937-gn682-island-roads-11767-1937-09-24"
+        "crowd|1937-gn682-island-roads-11767-1937-09-24",
+        "crowd|1975-gn2327-gazetteer-harmonization-Pok-Fu-Lam-Reservoir-Road-1975-10-24"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11768",
+      "street_code": "11768",
+      "event_ids": [
+        "crowd|1975-gn2327-gazetteer-harmonization-Pok-Fu-Lam-Road-1975-10-24"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11770",
@@ -4957,6 +6866,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-21",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11772",
+      "street_code": "11772",
+      "event_ids": [
+        "crowd|1961-gn1334-pokfield-road-Pokfield-Road-蒲飛路-1961-08-04"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -5032,13 +6954,17 @@
         "crowd|1924-gn119-prince-edward-road-11787-1924-03-07",
         "crowd|2018-gn6972-tier-a-11787-1979-01-12",
         "crowd|1958-gn865-major-streets-11787-prince-edward-1958-06-27",
-        "crowd|1959-gn738-prince-edward-road-11787-1959-05-29"
+        "crowd|1959-gn738-prince-edward-road-11787-1959-05-29",
+        "crowd|1978-gn2702-kowloon-road-splits-Prince-Edward-Road-East-太子道東-",
+        "crowd|1978-gn2702-kowloon-road-splits-Prince-Edward-Road-East-太子道東-1978-10-20",
+        "crowd|1979-gn111-kowloon-road-splits-Prince-Edward-Road-East-太子道東-",
+        "crowd|1979-gn111-kowloon-road-splits-Prince-Edward-Road-East-太子道東-1979-01-12"
       ],
       "status": "active",
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-21",
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -5048,13 +6974,17 @@
         "crowd|1923-gn411-cheung-sha-wan-road-11788-1923-09-28",
         "crowd|1924-gn119-prince-edward-road-11788-1924-03-07",
         "crowd|1958-gn865-major-streets-11788-prince-edward-1958-06-27",
-        "crowd|1959-gn738-prince-edward-road-11788-1959-05-29"
+        "crowd|1959-gn738-prince-edward-road-11788-1959-05-29",
+        "crowd|1978-gn2702-kowloon-road-splits-Prince-Edward-Road-West-太子道西-",
+        "crowd|1978-gn2702-kowloon-road-splits-Prince-Edward-Road-West-太子道西-1978-10-20",
+        "crowd|1979-gn111-kowloon-road-splits-Prince-Edward-Road-West-太子道西-",
+        "crowd|1979-gn111-kowloon-road-splits-Prince-Edward-Road-West-太子道西-1979-01-12"
       ],
       "status": "active",
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-21",
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -5082,6 +7012,58 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11793",
+      "street_code": "11793",
+      "event_ids": [
+        "crowd|1976-gn2119-2120-zh-renames-Public-Square-Street-眾坊街-1976-09-24"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11796",
+      "street_code": "11796",
+      "event_ids": [
+        "crowd|1977-gn1794-shek-kip-mei-streets-Pui-Tak-Street-培德街-1977-07-29"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11797",
+      "street_code": "11797",
+      "event_ids": [
+        "crowd|1975-gn1693-tuen-mun-streets-Pui-To-Road-杯渡路-1975-08-01"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11798",
+      "street_code": "11798",
+      "event_ids": [
+        "crowd|1977-gn1189-tuen-mun-streets-Pui-Wing-Lane-沛榮里-1977-05-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11804",
@@ -5164,14 +7146,16 @@
       "timeline_id": "code:11815",
       "street_code": "11815",
       "event_ids": [
-        "crowd|1932-gn635-south-side-roads-11815-1932-10-07"
+        "crowd|1932-gn635-south-side-roads-11815-1932-10-07",
+        "crowd|1961-gn1335-island-road-renames-Repulse-Bay-Road-淺水灣道-",
+        "crowd|1961-gn1335-island-road-renames-Repulse-Bay-Road-淺水灣道-1961-08-04"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11817",
@@ -5200,6 +7184,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11825",
+      "street_code": "11825",
+      "event_ids": [
+        "crowd|1977-gn2860-route-twisk-Route-Twisk-荃錦公路-1977-11-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11827",
@@ -5256,6 +7253,32 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:11837",
+      "street_code": "11837",
+      "event_ids": [
+        "crowd|1976-gn2462-sai-kung-streets-Sai-Kung-Hoi-Pong-Street-西貢海傍街-1976-11-05"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11838",
+      "street_code": "11838",
+      "event_ids": [
+        "crowd|1976-gn2462-sai-kung-streets-Sai-Kung-Main-Street-西貢正街-1976-11-05"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11840",
       "street_code": "11840",
       "event_ids": [
@@ -5267,6 +7290,32 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11842",
+      "street_code": "11842",
+      "event_ids": [
+        "crowd|1976-gn2462-sai-kung-streets-Sai-Kung-Tai-Street-西貢大街-1976-11-05"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11843",
+      "street_code": "11843",
+      "event_ids": [
+        "crowd|1976-gn2462-sai-kung-streets-Sai-Kung-Yee-Kuk-Street-西貢醫局街-1976-11-05"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11852",
@@ -5285,14 +7334,15 @@
       "timeline_id": "code:11853",
       "street_code": "11853",
       "event_ids": [
-        "crowd|1935-gn124-yuen-long-streets-11853-1935-02-15"
+        "crowd|1935-gn124-yuen-long-streets-11853-1935-02-15",
+        "crowd|1977-gn2944-yuen-long-streets-Sai-Tai-Street-西堤街-1977-12-02"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11856",
@@ -5324,26 +7374,34 @@
       "timeline_id": "code:11863",
       "street_code": "11863",
       "event_ids": [
-        "crowd|1924-gn492-sai-yeung-choi-street-11863-former-1924-08-29"
+        "crowd|1924-gn492-sai-yeung-choi-street-11863-former-1924-08-29",
+        "crowd|1978-gn2702-kowloon-road-splits-Sai-Yeung-Choi-Street-North-西洋菜北街-",
+        "crowd|1978-gn2702-kowloon-road-splits-Sai-Yeung-Choi-Street-North-西洋菜北街-1978-10-20",
+        "crowd|1979-gn111-kowloon-road-splits-Sai-Yeung-Choi-Street-North-西洋菜北街-",
+        "crowd|1979-gn111-kowloon-road-splits-Sai-Yeung-Choi-Street-North-西洋菜北街-1979-01-12"
       ],
       "status": "active",
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-11",
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11864",
       "street_code": "11864",
       "event_ids": [
-        "crowd|1924-gn492-sai-yeung-choi-street-11864-former-1924-08-29"
+        "crowd|1924-gn492-sai-yeung-choi-street-11864-former-1924-08-29",
+        "crowd|1978-gn2702-kowloon-road-splits-Sai-Yeung-Choi-Street-South-西洋菜南街-",
+        "crowd|1978-gn2702-kowloon-road-splits-Sai-Yeung-Choi-Street-South-西洋菜南街-1978-10-20",
+        "crowd|1979-gn111-kowloon-road-splits-Sai-Yeung-Choi-Street-South-西洋菜南街-",
+        "crowd|1979-gn111-kowloon-road-splits-Sai-Yeung-Choi-Street-South-西洋菜南街-1979-01-12"
       ],
       "status": "active",
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-11",
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -5370,6 +7428,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-21",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11870",
+      "street_code": "11870",
+      "event_ids": [
+        "crowd|1961-gn1211-salvation-army-street-Salvation-Army-Street-救世軍街-1961-07-21"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -5412,6 +7483,19 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:11884",
+      "street_code": "11884",
+      "event_ids": [
+        "crowd|1977-gn858-chai-wan-streets-San-Ha-Street-新廈街-1977-04-15"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11888",
       "street_code": "11888",
       "event_ids": [
@@ -5422,6 +7506,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-21",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11889",
+      "street_code": "11889",
+      "event_ids": [
+        "crowd|1975-gn1693-tuen-mun-streets-San-Hop-Lane-新合里-1975-08-01"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -5478,6 +7575,32 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11898",
+      "street_code": "11898",
+      "event_ids": [
+        "crowd|1979-gn1001-clear-water-bay-streets-San-Lee-Street-新利街-1979-04-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11899",
+      "street_code": "11899",
+      "event_ids": [
+        "crowd|1975-gn1693-tuen-mun-streets-San-Lik-Street-新力街-1975-08-01"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11901",
       "street_code": "11901",
       "event_ids": [
@@ -5488,6 +7611,32 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-21",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11902",
+      "street_code": "11902",
+      "event_ids": [
+        "crowd|1975-gn1693-tuen-mun-streets-San-On-Street-新安街-1975-08-01"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11904",
+      "street_code": "11904",
+      "event_ids": [
+        "crowd|1975-gn1693-tuen-mun-streets-San-Ping-Circuit-新平街-1975-08-01"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -5530,6 +7679,19 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:11910",
+      "street_code": "11910",
+      "event_ids": [
+        "crowd|1979-gn1001-clear-water-bay-streets-San-Shun-Street-新順街-1979-04-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11913",
       "street_code": "11913",
       "event_ids": [
@@ -5546,14 +7708,28 @@
       "timeline_id": "code:11916",
       "street_code": "11916",
       "event_ids": [
-        "crowd|1926-gn342-nga-tsin-wai-road-11916-1926-06-25"
+        "crowd|1926-gn342-nga-tsin-wai-road-11916-1926-06-25",
+        "crowd|1975-gn2327-gazetteer-harmonization-San-Wai-Street-1975-10-24"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11919",
+      "street_code": "11919",
+      "event_ids": [
+        "crowd|1975-gn1693-tuen-mun-streets-San-Yick-Lane-新益里-1975-08-01"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11923",
@@ -5582,6 +7758,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11925",
+      "street_code": "11925",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Sau-Fu-Street-壽富街-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11934",
       "street_code": "11934",
       "event_ids": [
@@ -5608,6 +7797,21 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11949",
+      "street_code": "11949",
+      "event_ids": [
+        "crowd|1976-gn2462-sai-kung-streets-See-Cheung-Street-市場街-1976-11-05",
+        "crowd|1979-gn3038-see-cheung-street-See-Cheung-Street-市場街-",
+        "crowd|1979-gn3038-see-cheung-street-See-Cheung-Street-市場街-1979-11-23"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11951",
       "street_code": "11951",
       "event_ids": [
@@ -5619,6 +7823,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11974",
+      "street_code": "11974",
+      "event_ids": [
+        "crowd|1979-gn44-tsuen-wan-streets-Sham-Tsz-Street-深慈街-1979-01-05"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11978",
@@ -5686,17 +7903,31 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11990",
+      "street_code": "11990",
+      "event_ids": [
+        "crowd|1975-gn2327-gazetteer-harmonization-Shau-Kei-Wan-Main-Street-East-1975-10-24"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11991",
       "street_code": "11991",
       "event_ids": [
-        "crowd|1940-gn845-shaukiwan-road-11991-1940-07-26"
+        "crowd|1940-gn845-shaukiwan-road-11991-1940-07-26",
+        "crowd|1975-gn2327-gazetteer-harmonization-Shau-Kei-Wan-Road-1975-10-24"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11995",
@@ -5751,6 +7982,33 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12010",
+      "street_code": "12010",
+      "event_ids": [
+        "crowd|1977-gn3134-tuen-mun-roads-Shek-Pai-Tau-Road-石排頭路-1977-12-23"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12011",
+      "street_code": "12011",
+      "event_ids": [
+        "crowd|1961-gn1335-island-road-renames-Shek-Pai-Wan-Road-石排灣道-",
+        "crowd|1961-gn1335-island-road-renames-Shek-Pai-Wan-Road-石排灣道-1961-08-04"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12015",
       "street_code": "12015",
       "event_ids": [
@@ -5775,6 +8033,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12023",
+      "street_code": "12023",
+      "event_ids": [
+        "crowd|1978-gn1459-zh-renames-Shelter-Street-信德街-1978-06-09"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12025",
@@ -5817,6 +8088,19 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:12044",
+      "street_code": "12044",
+      "event_ids": [
+        "crowd|1979-gn3311-sha-tin-shing-streets-Shing-Chuen-Road-成全路-1979-12-21"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12045",
       "street_code": "12045",
       "event_ids": [
@@ -5843,6 +8127,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12047",
+      "street_code": "12047",
+      "event_ids": [
+        "crowd|1979-gn3311-sha-tin-shing-streets-Shing-Hing-Street-成興街-1979-12-21"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12055",
       "street_code": "12055",
       "event_ids": [
@@ -5866,6 +8163,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-21",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12061",
+      "street_code": "12061",
+      "event_ids": [
+        "crowd|1979-gn3311-sha-tin-shing-streets-Shing-Wan-Road-成運路-1979-12-21"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -5934,6 +8244,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12082",
+      "street_code": "12082",
+      "event_ids": [
+        "crowd|1979-gn3193-shum-wan-pier-drive-Shum-Wan-Pier-Drive-深灣碼頭徑-1979-12-07"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12083",
       "street_code": "12083",
       "event_ids": [
@@ -5945,6 +8268,32 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12084",
+      "street_code": "12084",
+      "event_ids": [
+        "crowd|1979-gn1001-clear-water-bay-streets-Shun-Chi-Street-順緻街-1979-04-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12085",
+      "street_code": "12085",
+      "event_ids": [
+        "crowd|1979-gn1001-clear-water-bay-streets-Shun-Ching-Street-順清街-1979-04-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12086",
@@ -5960,6 +8309,32 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12090",
+      "street_code": "12090",
+      "event_ids": [
+        "crowd|1979-gn1001-clear-water-bay-streets-Shun-King-Street-順景街-1979-04-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12091",
+      "street_code": "12091",
+      "event_ids": [
+        "crowd|1979-gn1001-clear-water-bay-streets-Shun-Lee-Tsuen-Road-順利邨道-1979-04-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12093",
       "street_code": "12093",
       "event_ids": [
@@ -5971,6 +8346,32 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12094",
+      "street_code": "12094",
+      "event_ids": [
+        "crowd|1979-gn1001-clear-water-bay-streets-Shun-On-Road-順安道-1979-04-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12097",
+      "street_code": "12097",
+      "event_ids": [
+        "crowd|1976-gn2874-kowloon-bay-streets-Shun-Yip-Street-順業街-1976-12-24"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12102",
@@ -6012,6 +8413,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12110",
+      "street_code": "12110",
+      "event_ids": [
+        "crowd|1977-gn1311-sai-kung-roads-Silverstrand-Beach-Road-銀綫灣道-1977-06-10"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12111",
       "street_code": "12111",
       "event_ids": [
@@ -6036,6 +8450,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-21",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12119",
+      "street_code": "12119",
+      "event_ids": [
+        "crowd|1976-gn141-kwun-tong-tai-yip-Siu-Yip-Street-兆業街-1976-01-16"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -6104,6 +8531,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12139",
+      "street_code": "12139",
+      "event_ids": [
+        "crowd|1978-gn1853-st-johns-lane-St-John-s-Lane-聖約翰里-1978-07-21"
+      ],
+      "status": "active",
+      "method": "manual",
+      "district_hint": "Ho Man Tin",
+      "note": "G.N.1853 聖約翰里; geojson ST. JOHN'S LANE (St vs St. punctuation)",
+      "linked_at": "2026-06-22",
+      "linked_by": "linker"
+    },
+    {
       "timeline_id": "code:12145",
       "street_code": "12145",
       "event_ids": [
@@ -6128,6 +8568,46 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12148",
+      "street_code": "12148",
+      "event_ids": [
+        "crowd|1961-gn1335-island-road-renames-Stanley-Gap-Road-赤柱峽道-",
+        "crowd|1961-gn1335-island-road-renames-Stanley-Gap-Road-赤柱峽道-1961-08-04"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12151",
+      "street_code": "12151",
+      "event_ids": [
+        "crowd|1961-gn1002-stanley-oxford-streets-Stanley-Market-Road-赤柱市場道-1961-06-16"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12153",
+      "street_code": "12153",
+      "event_ids": [
+        "crowd|1961-gn1002-stanley-oxford-streets-Stanley-New-Street-赤柱新街-1961-06-16"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12156",
@@ -6261,6 +8741,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12190",
+      "street_code": "12190",
+      "event_ids": [
+        "crowd|1979-gn3192-wan-chai-streets-Sung-Yin-Lane-崇賢里-1979-12-07"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12193",
       "street_code": "12193",
       "event_ids": [
@@ -6339,17 +8832,31 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12211",
+      "street_code": "12211",
+      "event_ids": [
+        "crowd|1978-gn934-taikoo-shing-Tai-Fung-Avenue-太豐路-1978-04-14"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12212",
       "street_code": "12212",
       "event_ids": [
-        "crowd|1935-gn124-yuen-long-streets-12212-1935-02-15"
+        "crowd|1935-gn124-yuen-long-streets-12212-1935-02-15",
+        "crowd|1977-gn2944-yuen-long-streets-Tai-Fung-Street-泰豐街-1977-12-02"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12216",
@@ -6363,6 +8870,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12217",
+      "street_code": "12217",
+      "event_ids": [
+        "crowd|1960-gn1932-tai-hang-sai-street-Tai-Hang-Sai-Street-大坑西街-1960-12-16"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12221",
@@ -6391,6 +8911,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12224",
+      "street_code": "12224",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Tai-Kiu-Road-大橋路-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12225",
       "street_code": "12225",
       "event_ids": [
@@ -6404,6 +8937,45 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12230",
+      "street_code": "12230",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Tai-Lee-Street-泰利街-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12232",
+      "street_code": "12232",
+      "event_ids": [
+        "crowd|1960-gn789-tai-lok-street-Tai-Lok-Street-太樂街-1960-05-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12238",
+      "street_code": "12238",
+      "event_ids": [
+        "crowd|1979-gn3191-taikoo-shing-extension-Tai-Mou-Avenue-太茂路-1979-12-07"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12239",
       "street_code": "12239",
       "event_ids": [
@@ -6415,6 +8987,21 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12240",
+      "street_code": "12240",
+      "event_ids": [
+        "crowd|1976-gn1301-cheung-sha-wan-west-renames-Tai-Nan-West-Street-大南西街-",
+        "crowd|1976-gn1301-cheung-sha-wan-west-renames-Tai-Nan-West-Street-大南西街-1976-06-18",
+        "crowd|1976-gn1302-cheung-sha-wan-new-streets-Tai-Nan-West-Street-大南西街-1976-06-18"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12241",
@@ -6454,6 +9041,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12252",
+      "street_code": "12252",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Tai-Pei-Tau-Path-大陂頭徑-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12254",
@@ -6509,6 +9109,46 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12274",
+      "street_code": "12274",
+      "event_ids": [
+        "crowd|1975-gn2327-gazetteer-harmonization-Tai-Tam-Reservoir-Road-1975-10-24"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12275",
+      "street_code": "12275",
+      "event_ids": [
+        "crowd|1961-gn1335-island-road-renames-Tai-Tam-Road-大潭道-",
+        "crowd|1961-gn1335-island-road-renames-Tai-Tam-Road-大潭道-1961-08-04"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12276",
+      "street_code": "12276",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Tai-Tong-Road-大棠路-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12278",
       "street_code": "12278",
       "event_ids": [
@@ -6535,6 +9175,58 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12283",
+      "street_code": "12283",
+      "event_ids": [
+        "crowd|1979-gn3105-sai-wan-ho-streets-Tai-Wing-Avenue-太榮路-1979-11-30"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12289",
+      "street_code": "12289",
+      "event_ids": [
+        "crowd|1960-gn1713-lung-cheung-road-Tai-Woh-Ping-Road-大窩坪道-1960-11-11"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12294",
+      "street_code": "12294",
+      "event_ids": [
+        "crowd|1976-gn141-kwun-tong-tai-yip-Tai-Yip-Street-大業街-1976-01-16"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12295",
+      "street_code": "12295",
+      "event_ids": [
+        "crowd|1979-gn3191-taikoo-shing-extension-Tai-Yue-Avenue-太裕路-1979-12-07"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12296",
       "street_code": "12296",
       "event_ids": [
@@ -6546,6 +9238,49 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12298",
+      "street_code": "12298",
+      "event_ids": [
+        "crowd|1977-gn591-taikoo-shing-road-Taikoo-Shing-Road-太古城道-1977-03-11",
+        "crowd|1977-gn3093-taikoo-shing-road-Taikoo-Shing-Road-太古城道-1977-12-16",
+        "crowd|1978-gn2918-taikoo-shing-extend-Taikoo-Shing-Road-太古城道-1978-11-10",
+        "crowd|1978-gn934-taikoo-shing-Taikoo-Shing-Road-太古城道-1978-04-14",
+        "crowd|1979-gn3191-taikoo-shing-extension-Taikoo-Shing-Road-太古城道-1979-12-07"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12299",
+      "street_code": "12299",
+      "event_ids": [
+        "crowd|1979-gn3105-sai-wan-ho-streets-Taikoo-Wan-Road-太古灣道-1979-11-30"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12302",
+      "street_code": "12302",
+      "event_ids": [
+        "crowd|1975-gn1693-tuen-mun-streets-Tak-Ching-Court-德政圍-1975-08-01"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12305",
@@ -6572,6 +9307,45 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12310",
+      "street_code": "12310",
+      "event_ids": [
+        "crowd|1976-gn2462-sai-kung-streets-Tak-Lung-Back-Street-德隆後街-1976-11-05"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12311",
+      "street_code": "12311",
+      "event_ids": [
+        "crowd|1976-gn2462-sai-kung-streets-Tak-Lung-Front-Street-德隆前街-1976-11-05"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12312",
+      "street_code": "12312",
+      "event_ids": [
+        "crowd|1976-gn1367-hung-hom-streets-Tak-Man-Street-德民街-1976-06-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12315",
@@ -6705,30 +9479,58 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12360",
+      "street_code": "12360",
+      "event_ids": [
+        "crowd|1975-gn1693-tuen-mun-streets-Tin-Hau-Road-天后路-1975-08-01"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12361",
       "street_code": "12361",
       "event_ids": [
-        "crowd|1930-gn708-dragon-road-12361-1930-11-28"
+        "crowd|1930-gn708-dragon-road-12361-1930-11-28",
+        "crowd|1960-gn745-tin-hau-temple-road-Tin-Hau-Temple-Road-天后廟道-1960-05-13"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12362",
+      "street_code": "12362",
+      "event_ids": [
+        "crowd|1960-gn928-yuet-wah-streets-Tin-Heung-Street-天香街-1960-06-17"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12363",
       "street_code": "12363",
       "event_ids": [
-        "crowd|1933-gn823-ho-man-tin-roads-12363-1933-12-22"
+        "crowd|1933-gn823-ho-man-tin-roads-12363-1933-12-22",
+        "crowd|1960-gn368-tin-kwong-dianthus-Tin-Kwong-Road-天光道-1960-03-04"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12370",
@@ -6768,6 +9570,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12389",
+      "street_code": "12389",
+      "event_ids": [
+        "crowd|1960-gn1673-tong-chong-streets-Tong-Chong-Street-糖廠街-1960-11-04"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12390",
@@ -6836,6 +9651,19 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:12402",
+      "street_code": "12402",
+      "event_ids": [
+        "crowd|1960-gn1755-true-light-lane-True-Light-Lane-真光里-1960-11-18"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12404",
       "street_code": "12404",
       "event_ids": [
@@ -6865,14 +9693,15 @@
       "timeline_id": "code:12407",
       "street_code": "12407",
       "event_ids": [
-        "crowd|1939-gn1179-north-point-streets-12407-1939-12-15"
+        "crowd|1939-gn1179-north-point-streets-12407-1939-12-15",
+        "crowd|1975-gn2327-gazetteer-harmonization-Tsat-Tsz-Mui-Road-1975-10-24"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12413",
@@ -6899,6 +9728,45 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12446",
+      "street_code": "12446",
+      "event_ids": [
+        "crowd|1977-gn3134-tuen-mun-roads-Tsing-Wun-Road-青雲路-1977-12-23"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12448",
+      "street_code": "12448",
+      "event_ids": [
+        "crowd|1979-gn1702-tsing-yi-streets-Tsing-Yi-Heung-Sze-Wui-Road-青衣鄉事會路-1979-07-06"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12449",
+      "street_code": "12449",
+      "event_ids": [
+        "crowd|1979-gn1702-tsing-yi-streets-Tsing-Yi-Road-青衣路-1979-07-06"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12454",
@@ -6979,6 +9847,19 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:12483",
+      "street_code": "12483",
+      "event_ids": [
+        "crowd|1977-gn1189-tuen-mun-streets-Tsun-Wen-Road-震寰路-1977-05-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12487",
       "street_code": "12487",
       "event_ids": [
@@ -6992,6 +9873,58 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12493",
+      "street_code": "12493",
+      "event_ids": [
+        "crowd|1961-gn850-ping-shing-tsz-loi-Tsz-Loi-Lane-紫來里-1961-05-19"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12494",
+      "street_code": "12494",
+      "event_ids": [
+        "crowd|1975-gn2327-gazetteer-harmonization-Tsz-Mi-Alley-1975-10-24"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12503",
+      "street_code": "12503",
+      "event_ids": [
+        "crowd|1975-gn1693-tuen-mun-streets-Tuen-Mun-Heung-Sze-Wui-Road-屯門鄉事會路-1975-08-01"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12504",
+      "street_code": "12504",
+      "event_ids": [
+        "crowd|1979-gn262-tuen-mun-road-Tuen-Mun-Road-屯門公路-1979-01-26"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12509",
       "street_code": "12509",
       "event_ids": [
@@ -7003,6 +9936,20 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12510",
+      "street_code": "12510",
+      "event_ids": [
+        "crowd|1976-gn1301-cheung-sha-wan-west-renames-Tung-Chau-West-Street-通州西街-",
+        "crowd|1976-gn1301-cheung-sha-wan-west-renames-Tung-Chau-West-Street-通州西街-1976-06-18"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12513",
@@ -7031,6 +9978,32 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12523",
+      "street_code": "12523",
+      "event_ids": [
+        "crowd|1975-gn2060-tung-lo-wan-drive-Tung-Lo-Wan-Drive-銅鑼灣徑-1975-09-19"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12524",
+      "street_code": "12524",
+      "event_ids": [
+        "crowd|1976-gn1741-sha-tin-streets-Tung-Lo-Wan-Hill-Road-銅鑼灣山路-1976-08-13"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12525",
       "street_code": "12525",
       "event_ids": [
@@ -7042,6 +10015,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12527",
+      "street_code": "12527",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Tung-Lok-Street-同樂街-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12532",
@@ -7175,6 +10161,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12598",
+      "street_code": "12598",
+      "event_ids": [
+        "crowd|1979-gn1132-kwai-chung-streets-Wah-Yiu-Road-華瑤路-1979-05-04"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12602",
       "street_code": "12602",
       "event_ids": [
@@ -7199,6 +10198,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12606",
+      "street_code": "12606",
+      "event_ids": [
+        "crowd|1977-gn420-to-kwa-wan-streets-Wai-King-Street-偉景街-1977-02-17"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12608",
@@ -7253,6 +10265,60 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12624",
+      "street_code": "12624",
+      "event_ids": [
+        "crowd|1976-gn2519-wai-yip-street-Wai-Yip-Street-偉業街-1976-11-12",
+        "crowd|1960-gn1138-wai-yip-street-Wai-Yip-Street-偉業街-",
+        "crowd|1960-gn1138-wai-yip-street-Wai-Yip-Street-偉業街-1960-07-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12627",
+      "street_code": "12627",
+      "event_ids": [
+        "crowd|1975-gn2327-gazetteer-harmonization-Wan-Chai-Gap-Road-1975-10-24"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12628",
+      "street_code": "12628",
+      "event_ids": [
+        "crowd|1975-gn2327-gazetteer-harmonization-Wan-Chai-Road-1975-10-24"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12633",
+      "street_code": "12633",
+      "event_ids": [
+        "crowd|1978-gn1569-wan-hoi-street-Wan-Hoi-Street-環海街-1978-06-23"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12639",
       "street_code": "12639",
       "event_ids": [
@@ -7279,6 +10345,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12650",
+      "street_code": "12650",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Wang-Chau-Road-橫洲路-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12654",
       "street_code": "12654",
       "event_ids": [
@@ -7290,6 +10369,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12669",
+      "street_code": "12669",
+      "event_ids": [
+        "crowd|1976-gn2462-sai-kung-streets-Wang-Street-橫街-1976-11-05"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12671",
@@ -7318,6 +10410,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12679",
+      "street_code": "12679",
+      "event_ids": [
+        "crowd|1960-gn1060-mei-wa-streets-Wang-Wa-Street-宏華街-1960-07-08"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12690",
       "street_code": "12690",
       "event_ids": [
@@ -7343,6 +10448,32 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12714",
+      "street_code": "12714",
+      "event_ids": [
+        "crowd|1977-gn2859-tsuen-wan-kwai-streets-Wing-Cho-Street-榮祖街-1977-11-25"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12715",
+      "street_code": "12715",
+      "event_ids": [
+        "crowd|1975-gn2061-kwai-chung-streets-Wing-Chong-Street-永創街-1975-09-19"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12718",
@@ -7384,6 +10515,45 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12725",
+      "street_code": "12725",
+      "event_ids": [
+        "crowd|1975-gn2061-kwai-chung-streets-Wing-Kei-Road-永基路-1975-09-19"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12726",
+      "street_code": "12726",
+      "event_ids": [
+        "crowd|1975-gn2061-kwai-chung-streets-Wing-Kin-Road-永建路-1975-09-19"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12729",
+      "street_code": "12729",
+      "event_ids": [
+        "crowd|1975-gn2061-kwai-chung-streets-Wing-Lap-Street-永立街-1975-09-19"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12734",
       "street_code": "12734",
       "event_ids": [
@@ -7408,6 +10578,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12739",
+      "street_code": "12739",
+      "event_ids": [
+        "crowd|1977-gn858-chai-wan-streets-Wing-Ping-Street-永平街-1977-04-15"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12747",
@@ -7475,6 +10658,58 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12760",
+      "street_code": "12760",
+      "event_ids": [
+        "crowd|1976-gn1741-sha-tin-streets-Wo-Heung-Street-禾香街-1976-08-13"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12762",
+      "street_code": "12762",
+      "event_ids": [
+        "crowd|1976-gn1741-sha-tin-streets-Wo-Liu-Hang-Road-禾寮坑路-1976-08-13"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12767",
+      "street_code": "12767",
+      "event_ids": [
+        "crowd|1976-gn1741-sha-tin-streets-Wo-Shing-Street-禾盛街-1976-08-13"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12768",
+      "street_code": "12768",
+      "event_ids": [
+        "crowd|1976-gn1741-sha-tin-streets-Wo-Shui-Street-禾穗街-1976-08-13"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12775",
       "street_code": "12775",
       "event_ids": [
@@ -7486,6 +10721,20 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12776",
+      "street_code": "12776",
+      "event_ids": [
+        "crowd|1961-gn1335-island-road-renames-Wong-Chuk-Hang-Road-黃竹坑道-",
+        "crowd|1961-gn1335-island-road-renames-Wong-Chuk-Hang-Road-黃竹坑道-1961-08-04"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12777",
@@ -7517,14 +10766,41 @@
       "timeline_id": "code:12782",
       "street_code": "12782",
       "event_ids": [
-        "crowd|1932-gn635-south-side-roads-12782-1932-10-07"
+        "crowd|1932-gn635-south-side-roads-12782-1932-10-07",
+        "crowd|1975-gn2327-gazetteer-harmonization-Wong-Nai-Chung-Gap-Road-1975-10-24"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12783",
+      "street_code": "12783",
+      "event_ids": [
+        "crowd|1975-gn2327-gazetteer-harmonization-Wong-Nai-Chung-Road-1975-10-24"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12784",
+      "street_code": "12784",
+      "event_ids": [
+        "crowd|1976-gn288-wong-tai-sin-Wong-Tai-Sin-Road-黃大仙道-1976-02-06"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12785",
@@ -7579,6 +10855,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12802",
+      "street_code": "12802",
+      "event_ids": [
+        "crowd|1976-gn1667-wylie-path-Wylie-Path-衛理徑-1976-07-30"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12805",
       "street_code": "12805",
       "event_ids": [
@@ -7618,6 +10907,32 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12814",
+      "street_code": "12814",
+      "event_ids": [
+        "crowd|1975-gn1693-tuen-mun-streets-Yan-Oi-Tong-Circuit-仁愛堂街-1975-08-01"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12820",
+      "street_code": "12820",
+      "event_ids": [
+        "crowd|1979-gn2899-yau-tong-streets-Yan-Wing-Street-欣榮街-1979-11-09"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12825",
       "street_code": "12825",
       "event_ids": [
@@ -7631,6 +10946,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12826",
+      "street_code": "12826",
+      "event_ids": [
+        "crowd|1979-gn3192-wan-chai-streets-Yat-Sin-Street-日善街-1979-12-07"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12833",
       "street_code": "12833",
       "event_ids": [
@@ -7642,6 +10970,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12834",
+      "street_code": "12834",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Yau-Shin-Street-友善街-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12838",
@@ -7668,6 +11009,20 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12845",
+      "street_code": "12845",
+      "event_ids": [
+        "crowd|1976-gn1301-cheung-sha-wan-west-renames-Yee-Kuk-West-Street-醫局西街-",
+        "crowd|1976-gn1301-cheung-sha-wan-west-renames-Yee-Kuk-West-Street-醫局西街-1976-06-18"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12858",
@@ -7762,6 +11117,19 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:12879",
+      "street_code": "12879",
+      "event_ids": [
+        "crowd|1975-gn1865-yip-kan-street-Yip-Kan-Street-業勤街-1975-08-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12882",
       "street_code": "12882",
       "event_ids": [
@@ -7801,6 +11169,20 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12889",
+      "street_code": "12889",
+      "event_ids": [
+        "crowd|1976-gn1301-cheung-sha-wan-west-renames-Yu-Chau-West-Street-汝州西街-",
+        "crowd|1976-gn1301-cheung-sha-wan-west-renames-Yu-Chau-West-Street-汝州西街-1976-06-18"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12891",
       "street_code": "12891",
       "event_ids": [
@@ -7827,17 +11209,174 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12903",
+      "street_code": "12903",
+      "event_ids": [
+        "crowd|1960-gn1060-mei-wa-streets-Yue-Ko-Street-漁歌街-1960-07-08"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12905",
+      "street_code": "12905",
+      "event_ids": [
+        "crowd|1960-gn1060-mei-wa-streets-Yue-Lei-Street-漁利街-1960-07-08"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12907",
+      "street_code": "12907",
+      "event_ids": [
+        "crowd|1960-gn1060-mei-wa-streets-Yue-Wok-Street-漁獲街-1960-07-08"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12914",
+      "street_code": "12914",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Yuen-Long-Hong-Lok-Road-元朗康樂路-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12915",
+      "street_code": "12915",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Yuen-Long-New-Street-元朗新街-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12916",
+      "street_code": "12916",
+      "event_ids": [
+        "crowd|1978-gn2481-yuen-long-streets-Yuen-Long-On-Hing-Street-元朗安興街-1978-09-29"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12917",
+      "street_code": "12917",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Yuen-Long-On-Lok-Road-元朗安樂路-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12918",
+      "street_code": "12918",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Yuen-Long-On-Ning-Road-元朗安寧路-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12919",
       "street_code": "12919",
       "event_ids": [
-        "crowd|2021-gn6314-tier-a-12919-1977-12-02"
+        "crowd|2021-gn6314-tier-a-12919-1977-12-02",
+        "crowd|1977-gn2944-yuen-long-streets-Yuen-Long-Pau-Cheung-Square-元朗炮仗坊-1977-12-02"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12920",
+      "street_code": "12920",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Yuen-Long-Tai-Cheung-Street-元朗泰祥街-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12921",
+      "street_code": "12921",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Yuen-Long-Tai-Hang-Street-元朗泰衡街-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12922",
+      "street_code": "12922",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Yuen-Long-Tai-Yuk-Road-元朗體育路-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12923",
+      "street_code": "12923",
+      "event_ids": [
+        "crowd|1977-gn2944-yuen-long-streets-Yuen-Long-Tung-Tai-Street-元朗東堤街-1977-12-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12931",
@@ -7851,6 +11390,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12933",
+      "street_code": "12933",
+      "event_ids": [
+        "crowd|1960-gn928-yuet-wah-streets-Yuet-Wah-Street-月華街-1960-06-17"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12940",

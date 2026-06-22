@@ -1,0 +1,27 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1976-gn2757-anderson-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2757",
+  "publication_date": "1976-12-10",
+  "gazette_url_en": "/egazette/en/1976-gn2757.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1976/Scanned_20260621-1621.pdf",
+  "streets": [{
+    "english_name": "Anderson Road",
+    "chinese_name": "安達臣道",
+    "history": [{
+      "publication_date": "1976-12-10",
+      "change_kind": "declare",
+      "street_name_en": "Anderson Road",
+      "street_name_zh": "安達臣道",
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "notice_type_normalized": "declaration",
+      "gazette_location": {
+        "description_raw_en": "Road commencing at its junction with Clearwater Bay Road to the west of Lung Wo Tsuen and running in a south south-easterly direction for about 1,688 metres where it bends easterly for about 310 metres, then bends in a south-easterly direction for about 460 metres, then bends in a north-easterly direction for about 530 metres and then bends in a south-easterly direction for about 400 metres to terminate at Ma Yau Tong Village as shown coloured red on Drawing No. NTA/SK/R3.",
+        "description_raw_zh": "此道路由與位於龍窩村西面清水灣道之連接點開始，向東南偏南伸展約一千六百八十八米，轉向東伸展約三百一十米，然後轉向東南伸展約四百六十米，再轉向東北伸展約五百三十米，然後轉向東南伸展約四百米至馬遊塘村終止，見 NTA/SK/R3 號圖則塗紅色所示。"
+      }
+    }]
+  }]
+}

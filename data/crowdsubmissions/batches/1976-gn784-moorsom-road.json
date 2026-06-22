@@ -1,0 +1,27 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1976-gn784-moorsom-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.784",
+  "publication_date": "1976-04-09",
+  "gazette_url_en": "/egazette/en/1976-gn784.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/Gazette/1976/Scanned_20260620-1936.pdf",
+  "streets": [{
+    "english_name": "Moorsom Road",
+    "chinese_name": "睦誠道",
+    "history": [{
+      "publication_date": "1976-04-09",
+      "change_kind": "extend",
+      "street_name_en": "Moorsom Road",
+      "street_name_zh": "睦誠道",
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "notice_type_normalized": "extension",
+      "gazette_location": {
+        "description_raw_en": "A thoroughfare commencing from the end of Moorsom Road running in a westerly direction for a distance of approximately 122 metres as shown coloured red on drawing No. HH 2796.",
+        "description_raw_zh": "起點與睦誠道尾會合，向西伸展約一二二公尺，位置在 HH 2796 號圖則內用紅色標明。"
+      }
+    }]
+  }]
+}

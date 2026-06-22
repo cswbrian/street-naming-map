@@ -1,0 +1,29 @@
+{
+  "batch_id": "1977-gn2858-hang-hau-main-street",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "Government Notification No. 2858",
+  "publication_date": "1977-11-25",
+  "gazette_url_en": "/egazette/en/1977-gn2858.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1977-gn2858-hang-hau-main-street/1977-gn2858.pdf",
+  "streets": [
+    {
+      "english_name": "HANG HAU MAIN STREET",
+      "chinese_name": "坑口正街",
+      "history": [
+        {
+          "publication_date": "1977-11-25",
+          "change_kind": "declare",
+          "street_name_en": "Hang Hau Main Street",
+          "gazette_notice_label": "Government Notification No. 2858",
+          "government_notice_url_en": "/egazette/en/1977-gn2858.pdf",
+          "evidence_level": "gazette",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "street_name_zh": "坑口正街"
+        }
+      ]
+    }
+  ],
+  "evidence_schema_version": 1
+}
