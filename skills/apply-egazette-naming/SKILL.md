@@ -56,17 +56,41 @@ After events are verified, **always apply with centreline auto-match** so verifi
 node scripts/apply-crowd-batch.mjs path/to/batch.json
 ```
 
-`apply-crowd-batch.mjs` **auto-matches by default** for `gazette_only` batches: it loads pending/verified roads, sets `link_street_code` when EN+ZH (or unique EN or unique ZH) matches geojson, upserts `street-centreline-map.json`, and runs `rebuild:naming`.
+**Do not use `--no-match`** unless the street has **no** geojson centreline (abolished name, OCR-corrected name not in LandsD data). Events-only apply leaves timeline rows off the map even when a unique match exists.
+
+`apply-crowd-batch.mjs` **auto-matches by default** for `gazette_only` batches: it loads pending/verified roads, sets `link_street_code` when a unique centreline match exists, upserts `street-centreline-map.json`, and runs `rebuild:naming`.
+
+| Match rule | Links when |
+|------------|------------|
+| EN + ZH both match geojson | Always (best) |
+| **ZH unique**, EN differs (harmonized spelling) | Yes — console flags `EN≠geojson`; add `submitter_remarks` if applying |
+| EN unique, ZH null | Yes |
+| ZH unique, EN omitted | Yes |
+| Homonym (multiple ZH or EN hits) | No — set `link_street_code` manually or use [centreline-linker](../centreline-linker/SKILL.md) |
 
 | Flag | Effect |
 |------|--------|
 | *(default)* | Auto-match + link + rebuild |
-| `--no-match` | Events only; no map dates (linker queue) |
+| `--no-match` | Events only; **avoid** for normal apply |
 | `--match` | Explicit (same as default for gazette batches) |
 
-**Gazette names stay gazette-only** — geojson is used only to pick `STREETCODE` and flag EN/ZH mismatch (never to fill missing ZH). Homonyms with no unique match stay unlinked; use [centreline-linker](../centreline-linker/SKILL.md) manually.
+**Gazette names stay gazette-only** — geojson is used only to pick `STREETCODE` and flag EN/ZH mismatch (never to fill missing ZH).
 
-Parse step (`parse-crowd-gazette-pdf.mjs --match`) still previews matches in the draft JSON; **apply** performs the actual map link.
+Parse step (`parse-crowd-gazette-pdf.mjs --match`) previews matches in the draft JSON; **apply** performs the actual map link.
+
+### Post-apply map pass (required)
+
+After one or more batch applies in a session:
+
+```bash
+# Re-apply all batches from this session (refreshes links after master edits)
+for f in data/crowdsubmissions/batches/{year}-gn*.json; do
+  node scripts/apply-crowd-batch.mjs "$f"
+done
+npm run report:unmapped-events
+```
+
+For each row still in `unmapped-events.csv` with a plausible geojson match: add `link_street_code` on the batch street row (or `npm run apply:street-links`) and re-apply. Colonial HKGRO image scans use the **same** apply script and map rules as modern `egn`/`cgn` PDFs.
 
 ## Mandatory `history[]`
 
@@ -225,7 +249,7 @@ See `docs/street-name-history-schema.md` for full field reference.
 | Priority | What to provide | Result |
 |----------|-----------------|--------|
 | 1 | `link_street_code` (from geojson `STREETCODE`) | Exact match (best) |
-| 2 | `chinese_name` + `english_name` | Match both against pending data |
+| 2 | `chinese_name` + `english_name` | Match both when possible; **unique ZH still links** if EN is harmonized differently (e.g. Clearwater Bay → Clear Water Bay Road) |
 | 3 | `chinese_name` only | OK if **unique** |
 | 4 | `english_name` only | OK only if **exactly one** road shares that English name |
 
@@ -236,7 +260,8 @@ See `docs/street-name-history-schema.md` for full field reference.
 3. Confirm every street has non-empty `history[]` with `evidence_kind` and `event_role`.
 4. For `取代街道說明`, use Previous G.N. dates — not the citing G.N. date.
 5. Set `gazette_url_en` / `gazette_url_zh` when auto-derivation from filenames may fail.
-6. Apply **without** `--no-match` unless homonyms need manual [centreline-linker](../centreline-linker/SKILL.md).
+6. Apply **without** `--no-match`. Use `link_street_code` when auto-match fails but geojson identity is known (compound ZH, rename chain, EN harmonization).
+7. After apply, run `npm run report:unmapped-events` and re-apply or linker-fix any matchable rows still unmapped.
 
 ### Post-apply checklist
 

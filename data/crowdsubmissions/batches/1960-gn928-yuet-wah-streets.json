@@ -46,16 +46,17 @@
     },
     {
       "english_name": "Shim Kwong Street",
-      "chinese_name": "曉光街",
+      "chinese_name": "蟾光街",
       "history": [
         {
           "publication_date": "1960-06-17",
           "change_kind": "declare",
           "street_name_en": "Shim Kwong Street",
-          "street_name_zh": "曉光街",
+          "street_name_zh": "蟾光街",
           "evidence_kind": "gazette_primary",
           "event_role": "current_name",
           "notice_type_normalized": "declaration",
+          "submitter_remarks": "Gazette G.N.928 names Shim Kwong Street 蟾光街 (Yuet Wah estate link road, plan R.K. 1134). Not Hiu Kwong Street 曉光街.",
           "gazette_location": {
             "description_raw_en": "Link Road about 540 feet in length, joining up the two arms of YUET WAH STREET, about 550 feet North West of the tangent point of the semi-circle position and running in an east by north direction and parallel to TIN HEUNG STREET (as coloured green in plan R.K. 1134)."
           }

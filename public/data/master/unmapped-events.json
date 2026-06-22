@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-22T01:29:22.088Z",
+  "generated_at": "2026-06-22T15:40:57.395Z",
   "source_files": {
     "events": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-events.json",
     "centreline_map": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-centreline-map.json"
   },
   "totals": {
-    "master_events": 1444,
-    "mapped_event_ids": 1126,
-    "unmapped_events": 341,
+    "master_events": 1448,
+    "mapped_event_ids": 1135,
+    "unmapped_events": 338,
     "by_source": {
       "hkgro": 18,
-      "crowdsubmitted": 42,
+      "crowdsubmitted": 39,
       "egazette_pdf": 164,
       "landsd": 117
     }
@@ -39,18 +39,6 @@
       "district_raw_zh": null,
       "notice_no": "GN315",
       "name_key": "West Street|西街"
-    },
-    {
-      "event_id": "crowd|1961-gn1335-island-road-renames-Island-Road-Deep-Water-Bay-深水灣香島道-",
-      "source": "crowdsubmitted",
-      "publication_date": "",
-      "change_kind": "declare",
-      "street_name_en": "Island Road, Deep Water Bay",
-      "street_name_zh": "深水灣香島道",
-      "district_raw_en": null,
-      "district_raw_zh": null,
-      "notice_no": "GN1335",
-      "name_key": "Island Road, Deep Water Bay|深水灣香島道"
     },
     {
       "event_id": "crowd|1975-gn1866-connaught-place-Connaught-Place-康樂廣場-",
@@ -293,16 +281,16 @@
       "name_key": "Mission Road|教會道"
     },
     {
-      "event_id": "crowd|1960-gn928-yuet-wah-streets-Shim-Kwong-Street-曉光街-1960-06-17",
+      "event_id": "crowd|1960-gn928-yuet-wah-streets-Shim-Kwong-Street-蟾光街-1960-06-17",
       "source": "crowdsubmitted",
       "publication_date": "1960-06-17",
       "change_kind": "declare",
       "street_name_en": "Shim Kwong Street",
-      "street_name_zh": "曉光街",
+      "street_name_zh": "蟾光街",
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN928",
-      "name_key": "Shim Kwong Street|曉光街"
+      "name_key": "Shim Kwong Street|蟾光街"
     },
     {
       "event_id": "crowd|1960-gn1060-mei-wa-streets-Lai-Wa-Street-麗華街-1960-07-08",
@@ -329,18 +317,6 @@
       "name_key": "Mei Wa Street|美華街"
     },
     {
-      "event_id": "crowd|1960-gn1218-chun-yip-discontinued-Chun-Yip-Street-駿業街-1960-08-12",
-      "source": "crowdsubmitted",
-      "publication_date": "1960-08-12",
-      "change_kind": "delete",
-      "street_name_en": "Chun Yip Street",
-      "street_name_zh": "駿業街",
-      "district_raw_en": null,
-      "district_raw_zh": null,
-      "notice_no": "GN1218",
-      "name_key": "Chun Yip Street|駿業街"
-    },
-    {
       "event_id": "2010-12-24|GN8237|0",
       "source": "egazette_pdf",
       "publication_date": "1960-11-04",
@@ -353,28 +329,16 @@
       "name_key": "Hoi Tai Street|海堤街"
     },
     {
-      "event_id": "crowd|1961-gn851-shim-kwong-discontinued-Shim-Kwong-Street-曉光街-1961-05-19",
+      "event_id": "crowd|1961-gn851-shim-kwong-discontinued-Shim-Kwong-Street-蟾光街-1961-05-19",
       "source": "crowdsubmitted",
       "publication_date": "1961-05-19",
       "change_kind": "delete",
       "street_name_en": "Shim Kwong Street",
-      "street_name_zh": "曉光街",
+      "street_name_zh": "蟾光街",
       "district_raw_en": null,
       "district_raw_zh": null,
       "notice_no": "GN851",
-      "name_key": "Shim Kwong Street|曉光街"
-    },
-    {
-      "event_id": "crowd|1961-gn1335-island-road-renames-Island-Road-Deep-Water-Bay-深水灣香島道-1961-08-04",
-      "source": "crowdsubmitted",
-      "publication_date": "1961-08-04",
-      "change_kind": "rename",
-      "street_name_en": "Island Road (Deep Water Bay)",
-      "street_name_zh": "深水灣香島道",
-      "district_raw_en": null,
-      "district_raw_zh": null,
-      "notice_no": "GN1335",
-      "name_key": "Island Road (Deep Water Bay)|深水灣香島道"
+      "name_key": "Shim Kwong Street|蟾光街"
     },
     {
       "event_id": "crowd|2017-gn3555-tier-c-1-1963-11-08",

@@ -1,0 +1,75 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1947-gn543-nt-roads",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.543",
+  "publication_date": "1947-07-02",
+  "gazette_url_en": "/egazette/en/1947-gn543.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1947.pdf",
+  "remarks": "Combined 1947.pdf page 2 (Gazette p.697). G.N.541–542 on same page are price control / loans — skipped.",
+  "streets": [
+    {
+      "english_name": "Clearwater Bay Road",
+      "chinese_name": "清水灣道",
+      "link_street_code": "10311",
+      "history": [
+        {
+          "publication_date": "1947-07-02",
+          "change_kind": "declare",
+          "street_name_en": "Clearwater Bay Road",
+          "street_name_zh": "清水灣道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "submitter_remarks": "Gazette EN one word Clearwater; centreline CLEAR WATER BAY ROAD. Harmonizes former Sai Kung Road, Customs Pass Road and Clearwater Bay Road segments.",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at junction of Prince Edward Road & Tam Kung Road, running north of Kai Tak Air Port, to Customs Pass and thence to Clearwater Bay (formerly known in parts as Sai Kung Road, Customs Pass Road & Clearwater Bay Road).",
+            "description_raw_zh": null
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Kun Tong Road",
+      "chinese_name": "觀塘道",
+      "link_street_code": "11143",
+      "history": [
+        {
+          "publication_date": "1947-07-02",
+          "change_kind": "declare",
+          "street_name_en": "Kun Tong Road",
+          "street_name_zh": "觀塘道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "submitter_remarks": "Gazette EN Kun Tong; centreline KWUN TONG ROAD.",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at what was formerly known as the junction of Sai Kung Road & Customs Pass Road & running in a south-easterly direction towards Kun Tong (formerly known as part of Sai Kung Road).",
+            "description_raw_zh": null
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Sai Kung Road",
+      "chinese_name": "西貢道",
+      "history": [
+        {
+          "publication_date": "1947-07-02",
+          "change_kind": "declare",
+          "street_name_en": "Sai Kung Road",
+          "street_name_zh": "西貢道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "submitter_remarks": "Tai Po Tsai–Sai Kung Village segment. Earlier G.N.202 1922-05-05 (西貢路) on file; map year stays 1922.",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at Clearwater Bay Road near Tai Po Tsai running in a northerly direction & terminating at Sai Kung Village.",
+            "description_raw_zh": null
+          }
+        }
+      ]
+    }
+  ]
+}

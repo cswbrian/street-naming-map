@@ -172,6 +172,9 @@ export function matchRowToRoadKey(row, pendingMap) {
       : zhHits
     if (zhEnHits.length === 1) return zhEnHits[0].roadKey
     if (zhEnHits.length > 1) return null
+    // Gazette EN may differ from harmonized centreline EN (e.g. Clearwater vs Clear Water Bay).
+    if (en && zhHits.length === 1) return zhHits[0].roadKey
+    if (en && zhHits.length > 1) return null
     if (!en && zhHits.length === 1) return zhHits[0].roadKey
     if (!en && zhHits.length > 1) return null
   }

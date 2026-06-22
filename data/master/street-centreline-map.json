@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-06-22T01:29:20.200Z",
+  "updated_at": "2026-06-22T15:40:45.686Z",
   "links": [
     {
       "timeline_id": "code:10003",
@@ -1280,6 +1280,20 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10311",
+      "street_code": "10311",
+      "event_ids": [
+        "crowd|1947-gn543-nt-roads-Clear-Water-Bay-Road-清水灣道-1947-07-02",
+        "crowd|1947-gn543-nt-roads-Clearwater-Bay-Road-清水灣道-1947-07-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10315",
       "street_code": "10315",
       "event_ids": [
@@ -1881,14 +1895,15 @@
       "timeline_id": "code:10483",
       "street_code": "10483",
       "event_ids": [
-        "crowd|1941-gn1260-ferry-street-10483-1941-10-24"
+        "crowd|1941-gn1260-ferry-street-10483-1941-10-24",
+        "crowd|1947-gn431-ferry-street-Ferry-Street-渡船街-1947-05-23"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10487",
@@ -3339,14 +3354,16 @@
       "timeline_id": "code:10888",
       "street_code": "10888",
       "event_ids": [
-        "crowd|1932-gn635-south-side-roads-10888-1932-10-07"
+        "crowd|1932-gn635-south-side-roads-10888-1932-10-07",
+        "crowd|1961-gn1335-island-road-renames-Island-Road-Deep-Water-Bay-深水灣香島道-",
+        "crowd|1961-gn1335-island-road-renames-Island-Road-Deep-Water-Bay-深水灣香島道-1961-08-04"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10889",
@@ -4633,6 +4650,20 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11143",
+      "street_code": "11143",
+      "event_ids": [
+        "crowd|1947-gn543-nt-roads-Kwun-Tong-Road-觀塘道-1947-07-02",
+        "crowd|1947-gn543-nt-roads-Kun-Tong-Road-觀塘道-1947-07-02"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11145",
@@ -7282,14 +7313,15 @@
       "timeline_id": "code:11840",
       "street_code": "11840",
       "event_ids": [
-        "crowd|1922-gn202-sai-kung-road-11840-1922-05-05"
+        "crowd|1922-gn202-sai-kung-road-11840-1922-05-05",
+        "crowd|1947-gn543-nt-roads-Sai-Kung-Road-西貢道-1947-07-02"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11842",
@@ -10270,7 +10302,8 @@
       "event_ids": [
         "crowd|1976-gn2519-wai-yip-street-Wai-Yip-Street-偉業街-1976-11-12",
         "crowd|1960-gn1138-wai-yip-street-Wai-Yip-Street-偉業街-",
-        "crowd|1960-gn1138-wai-yip-street-Wai-Yip-Street-偉業街-1960-07-22"
+        "crowd|1960-gn1138-wai-yip-street-Wai-Yip-Street-偉業街-1960-07-22",
+        "crowd|1960-gn1218-chun-yip-discontinued-Chun-Yip-Street-駿業街-1960-08-12"
       ],
       "status": "active",
       "method": "batch_link_street_code",

@@ -1,7 +1,6 @@
 event_id,source,publication_date,change_kind,street_name_en,street_name_zh,district_raw_en,notice_no
 crowd|1959-gn315-quarry-bay-east-former,hkgro,,declare,East Street,東街,,GN315
 crowd|1959-gn315-quarry-bay-west-former,hkgro,,declare,West Street,西街,,GN315
-crowd|1961-gn1335-island-road-renames-Island-Road-Deep-Water-Bay-深水灣香島道-,crowdsubmitted,,declare,"Island Road, Deep Water Bay",深水灣香島道,,GN1335
 crowd|1975-gn1866-connaught-place-Connaught-Place-康樂廣場-,crowdsubmitted,,declare,Yee Lok Street,怡樂街,,GN1866
 crowd|1904-gn59-victoria-road-renames-park-view-1904-01-29,hkgro,1904-01-29,rename,Park View,,,GN59
 1927-11-25|GN4780|0,egazette_pdf,1927-11-25,declare,Cheung Sha Wan Road,,Sham Shui Po and Yau Tsim Mong,GN4780
@@ -22,13 +21,11 @@ crowd|1959-gn1743-wan-streets-Wan-Lei-Street-環利街-1959-12-11,hkgro,1959-12-
 crowd|1959-gn1743-wan-streets-Wan-Shun-Street-環順街-1959-12-11,hkgro,1959-12-11,declare,Wan Shun Street,環順街,,GN1743
 crowd|2019-gn3586-tier-c-1-1960-01-22,crowdsubmitted,1960-01-22,declare,Nation Street,禮信街,,GN110
 crowd|1960-gn467-mission-road-cancel-Mission-Road-教會道-1960-03-18,crowdsubmitted,1960-03-18,delete,Mission Road,教會道,,GN467
-crowd|1960-gn928-yuet-wah-streets-Shim-Kwong-Street-曉光街-1960-06-17,crowdsubmitted,1960-06-17,declare,Shim Kwong Street,曉光街,,GN928
+crowd|1960-gn928-yuet-wah-streets-Shim-Kwong-Street-蟾光街-1960-06-17,crowdsubmitted,1960-06-17,declare,Shim Kwong Street,蟾光街,,GN928
 crowd|1960-gn1060-mei-wa-streets-Lai-Wa-Street-麗華街-1960-07-08,crowdsubmitted,1960-07-08,declare,Lai Wa Street,麗華街,,GN1060
 crowd|1960-gn1060-mei-wa-streets-Mei-Wa-Street-美華街-1960-07-08,crowdsubmitted,1960-07-08,declare,Mei Wa Street,美華街,,GN1060
-crowd|1960-gn1218-chun-yip-discontinued-Chun-Yip-Street-駿業街-1960-08-12,crowdsubmitted,1960-08-12,delete,Chun Yip Street,駿業街,,GN1218
 2010-12-24|GN8237|0,egazette_pdf,1960-11-04,declare,Hoi Tai Street,海堤街,"Eastern District, Hong Kong Island",GN8237
-crowd|1961-gn851-shim-kwong-discontinued-Shim-Kwong-Street-曉光街-1961-05-19,crowdsubmitted,1961-05-19,delete,Shim Kwong Street,曉光街,,GN851
-crowd|1961-gn1335-island-road-renames-Island-Road-Deep-Water-Bay-深水灣香島道-1961-08-04,crowdsubmitted,1961-08-04,rename,Island Road (Deep Water Bay),深水灣香島道,,GN1335
+crowd|1961-gn851-shim-kwong-discontinued-Shim-Kwong-Street-蟾光街-1961-05-19,crowdsubmitted,1961-05-19,delete,Shim Kwong Street,蟾光街,,GN851
 crowd|2017-gn3555-tier-c-1-1963-11-08,crowdsubmitted,1963-11-08,declare,Ming Tak Street,明德街,,GN2197
 crowd|2017-gn3555-tier-c-SheungTakStreet--1963-11-08,crowdsubmitted,1963-11-08,declare,Sheung Tak Street,尚德街,,GN2197
 crowd|2017-gn3555-tier-c-1-1966-06-16,crowdsubmitted,1966-06-16,declare,Jordan Valley South Road,佐頓谷南道,,GN1628

@@ -1,0 +1,33 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1947-gn431-ferry-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.431",
+  "publication_date": "1947-05-23",
+  "gazette_url_en": "/egazette/en/1947-gn431.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1947.pdf",
+  "remarks": "Combined 1947.pdf page 1 (Gazette p.502). G.N.432–433 on same page are dentist lists — skipped.",
+  "streets": [
+    {
+      "english_name": "Ferry Street",
+      "chinese_name": "渡船街",
+      "history": [
+        {
+          "publication_date": "1947-05-23",
+          "change_kind": "declare",
+          "street_name_en": "Ferry Street",
+          "street_name_zh": "渡船街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "notice_type_normalized": "declaration",
+          "submitter_remarks": "Public Works Department naming notice. Earlier G.N.1260 declare 1941-10-24 remains earliest map year for this centreline.",
+          "gazette_location": {
+            "description_raw_en": "Road commencing from Jordan Road, running north, parallel to and west of Wai Ching Street and terminating at Saigon Street.",
+            "description_raw_zh": null
+          }
+        }
+      ]
+    }
+  ]
+}

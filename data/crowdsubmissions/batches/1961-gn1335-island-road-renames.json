@@ -232,6 +232,7 @@
     {
       "english_name": "Island Road (Deep Water Bay)",
       "chinese_name": "深水灣香島道",
+      "link_street_code": "10888",
       "history": [
         {
           "change_kind": "declare",
@@ -251,6 +252,7 @@
           "evidence_kind": "gazette_primary",
           "event_role": "current_name",
           "notice_type_normalized": "rename",
+          "submitter_remarks": "Gazette compound ZH 深水灣香島道; centreline 香島道 ISLAND ROAD (10888). Suffix (Deep Water Bay) later dropped per notice.",
           "gazette_location": {
             "description_raw_en": "Road commencing from its junction with the junction of Shouson Hill Road adjoining R.B.L. 364 and terminating at its junction with Repulse Bay Road as shown hatched red in drawing R.H. 1295. Note: In the case of Island Road, (Deep Water Bay), at a later date the suffix (Deep Water Bay) will be dropped.",
             "parsed": {

@@ -10,18 +10,19 @@
   "streets": [
     {
       "english_name": "Shim Kwong Street",
-      "chinese_name": "曉光街",
+      "chinese_name": "蟾光街",
       "history": [
         {
           "publication_date": "1961-05-19",
           "change_kind": "delete",
           "street_name_en": "Shim Kwong Street",
-          "street_name_zh": "曉光街",
+          "street_name_zh": "蟾光街",
           "evidence_kind": "gazette_primary",
           "event_role": "name_removed",
           "notice_type_normalized": "deletion",
+          "submitter_remarks": "Gazette G.N.851 discontinues Shim Kwong Street 蟾光街. Not Hiu Kwong Street 曉光街.",
           "gazette_location": {
-            "description_raw_en": "It is hereby notified that the use of the following street name is discontinued:— SHIM KWONG STREET 曉光街"
+            "description_raw_en": "It is hereby notified that the use of the following street name is discontinued:— SHIM KWONG STREET 蟾光街"
           }
         }
       ]

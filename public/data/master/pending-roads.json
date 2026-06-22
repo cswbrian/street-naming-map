@@ -1,31 +1,20 @@
 {
-  "generated_at": "2026-06-22T01:29:21.511Z",
+  "generated_at": "2026-06-22T15:36:08.302Z",
   "source_file": "public/data/hk-streets.geojson",
   "notice_stem_index_path": "public/data/master/egazette-notice-stems.json",
   "egazette_pdf_locales_path": "public/data/master/egazette-pdf-locales.json",
   "totals": {
     "total_segments": 39724,
-    "segments_missing_naming_year": 34041,
+    "segments_missing_naming_year": 33881,
     "unique_roads": 12233,
     "unique_roads_with_street_name": 4578,
-    "unique_roads_with_naming_year": 1174,
-    "unique_roads_with_street_name_and_naming_year": 1174,
-    "unique_roads_missing_naming_year": 11059,
-    "unique_roads_missing_naming_year_with_street_name": 3404
+    "unique_roads_with_naming_year": 1175,
+    "unique_roads_with_street_name_and_naming_year": 1175,
+    "unique_roads_missing_naming_year": 11058,
+    "unique_roads_missing_naming_year_with_street_name": 3403
   },
   "kind": "pending",
   "roads": [
-    {
-      "road_key": "code:10311",
-      "street_code": "10311",
-      "english_name": "CLEAR WATER BAY ROAD",
-      "chinese_name": "清水灣道",
-      "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 103
-    },
     {
       "road_key": "code:52563",
       "street_code": "52563",
@@ -124,17 +113,6 @@
       "naming_date": null,
       "naming_source": null,
       "segment_count": 61
-    },
-    {
-      "road_key": "code:11143",
-      "street_code": "11143",
-      "english_name": "KWUN TONG ROAD",
-      "chinese_name": "觀塘道",
-      "street_type": "Main Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 57
     },
     {
       "road_key": "code:51319",
@@ -12164,6 +12142,17 @@
       "street_code": "10712",
       "english_name": "HIN KENG STREET",
       "chinese_name": "顯徑街",
+      "street_type": "Secondary Road",
+      "naming_year": null,
+      "naming_date": null,
+      "naming_source": null,
+      "segment_count": 7
+    },
+    {
+      "road_key": "code:10742",
+      "street_code": "10742",
+      "english_name": "HIU KWONG STREET",
+      "chinese_name": "曉光街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,

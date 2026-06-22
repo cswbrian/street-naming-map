@@ -1,5 +1,5 @@
 road_key,street_code,english_name,chinese_name,street_type,naming_year,naming_date,government_notice_url_en,government_notice_url_zh,segment_count
-code:10311,10311,CLEAR WATER BAY ROAD,清水灣道,Main Road,,,,,103
+code:10311,10311,CLEAR WATER BAY ROAD,清水灣道,Main Road,1947,1947-07-02,/egazette/en/1947-gn543.pdf,,103
 code:52563,52563,,,Main Road,,,,,83
 code:53119,53119,,,Secondary Road,,,,,77
 code:14299,14299,TSING SHA HIGHWAY,青沙公路,Tunnel,,,,,77
@@ -13,7 +13,7 @@ code:52890,52890,,,Main Road,,,,,61
 code:11308,11308,LUNG CHEUNG ROAD,龍翔道,Main Road,1960,1960-11-11,/egazette/en/1960-gn1713.pdf,/egazette/zh/2018-22-32-6060.pdf,60
 code:12690,12690,WATERLOO ROAD,窩打老道,Main Road,1929,1929-06-21,/egazette/en/1929-gn331.pdf,/egazette/zh/1929-gn331.pdf,59
 code:10961,10961,KAM TIN ROAD,錦田公路,Main Road,1978,1978-09-29,/egazette/en/1978-gn2481.pdf,,57
-code:11143,11143,KWUN TONG ROAD,觀塘道,Main Road,,,,,57
+code:11143,11143,KWUN TONG ROAD,觀塘道,Main Road,1947,1947-07-02,/egazette/en/1947-gn543.pdf,,57
 code:51319,51319,,,Secondary Road,,,,,56
 code:10959,10959,KAM SHEUNG ROAD,錦上路,Secondary Road,,,,,56
 code:12131,12131,SOUTH LANTAU ROAD,嶼南道,Main Road,,,,,51
@@ -1307,7 +1307,7 @@ code:13725,13725,HANG FU STREET,恆富街,Secondary Road,,,,,7
 code:13838,13838,HAVEN OF HOPE ROAD,靈實路,Secondary Road,,,,,7
 code:10692,10692,HEUNG FAN LIU STREET,香粉寮街,Secondary Road,,,,,7
 code:10712,10712,HIN KENG STREET,顯徑街,Secondary Road,,,,,7
-code:10742,10742,HIU KWONG STREET,曉光街,Secondary Road,1960,1960-06-17,/egazette/en/1960-gn928.pdf,,7
+code:10742,10742,HIU KWONG STREET,曉光街,Secondary Road,,,,,7
 code:10780,10780,HOI PA STREET,海壩街,Secondary Road,,,,,7
 code:10860,10860,HOW MING STREET,巧明街,Secondary Road,,,,,7
 code:10874,10874,HUNG SHUI KIU MAIN STREET,洪水橋大街,Secondary Road,,,,,7

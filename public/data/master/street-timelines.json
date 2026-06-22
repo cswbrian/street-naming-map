@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-22T01:29:21.824Z",
+  "generated_at": "2026-06-22T15:36:05.960Z",
   "totals": {
-    "timelines": 1299,
-    "linked_active": 967,
+    "timelines": 1301,
+    "linked_active": 969,
     "unlinked": 332,
     "legacy_or_name_only": 0
   },
@@ -5632,6 +5632,44 @@
       ]
     },
     {
+      "timeline_id": "code:10311",
+      "street_code": "10311",
+      "street_name_en": "Clearwater Bay Road",
+      "street_name_zh": "清水灣道",
+      "canonical_naming_year": 1947,
+      "canonical_naming_date": "1947-07-02",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10311",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1947-07-02",
+          "change_kind": "declare",
+          "name_en": "Clearwater Bay Road",
+          "name_zh": "清水灣道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.543",
+          "notice_label_zh": "第543號",
+          "notice_url_en": "/egazette/en/1947-gn543.pdf",
+          "notice_url_zh": null,
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "Gazette EN one word Clearwater; centreline CLEAR WATER BAY ROAD. Harmonizes former Sai Kung Road, Customs Pass Road and Clearwater Bay Road segments."
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10315",
       "street_code": "10315",
       "street_name_en": "Cliff Road",
@@ -7969,11 +8007,11 @@
       "canonical_naming_year": 1941,
       "canonical_naming_date": "1941-10-24",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "10483",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -7996,6 +8034,26 @@
           "supplementary_evidence": null,
           "source": "hkgro",
           "submitter_remarks": null
+        },
+        {
+          "date": "1947-05-23",
+          "change_kind": "declare",
+          "name_en": "Ferry Street",
+          "name_zh": "渡船街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.431",
+          "notice_label_zh": "第431號",
+          "notice_url_en": "/egazette/en/1947-gn431.pdf",
+          "notice_url_zh": null,
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": "Public Works Department naming notice. Earlier G.N.1260 declare 1941-10-24 remains earliest map year for this centreline."
         }
       ]
     },
@@ -18611,6 +18669,44 @@
           "supplementary_evidence": null,
           "source": "hkgro",
           "submitter_remarks": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11143",
+      "street_code": "11143",
+      "street_name_en": "Kun Tong Road",
+      "street_name_zh": "觀塘道",
+      "canonical_naming_year": 1947,
+      "canonical_naming_date": "1947-07-02",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11143",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1947-07-02",
+          "change_kind": "declare",
+          "name_en": "Kun Tong Road",
+          "name_zh": "觀塘道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.543",
+          "notice_label_zh": "第543號",
+          "notice_url_en": "/egazette/en/1947-gn543.pdf",
+          "notice_url_zh": null,
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "Gazette EN Kun Tong; centreline KWUN TONG ROAD."
         }
       ]
     },
@@ -33045,15 +33141,15 @@
       "timeline_id": "code:11840",
       "street_code": "11840",
       "street_name_en": "Sai Kung Road",
-      "street_name_zh": "西貢路",
+      "street_name_zh": "西貢道",
       "canonical_naming_year": 1922,
       "canonical_naming_date": "1922-05-05",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "11840",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -33076,6 +33172,26 @@
           "supplementary_evidence": null,
           "source": "hkgro",
           "submitter_remarks": "Gazette ZH 西貢路; database 西貢道."
+        },
+        {
+          "date": "1947-07-02",
+          "change_kind": "declare",
+          "name_en": "Sai Kung Road",
+          "name_zh": "西貢道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.543",
+          "notice_label_zh": "第543號",
+          "notice_url_en": "/egazette/en/1947-gn543.pdf",
+          "notice_url_zh": null,
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": "Tai Po Tsai–Sai Kung Village segment. Earlier G.N.202 1922-05-05 (西貢路) on file; map year stays 1922."
         }
       ]
     },
@@ -36460,10 +36576,10 @@
       ]
     },
     {
-      "timeline_id": "Shim Kwong Street|曉光街",
+      "timeline_id": "Shim Kwong Street|蟾光街",
       "street_code": null,
       "street_name_en": "Shim Kwong Street",
-      "street_name_zh": "曉光街",
+      "street_name_zh": "蟾光街",
       "canonical_naming_year": 1960,
       "canonical_naming_date": "1960-06-17",
       "derivation_reason": "declaration_earliest",
@@ -36479,7 +36595,7 @@
           "date": "1960-06-17",
           "change_kind": "declare",
           "name_en": "Shim Kwong Street",
-          "name_zh": "曉光街",
+          "name_zh": "蟾光街",
           "previous_name_en": null,
           "previous_name_zh": null,
           "notice_label_en": "G.N.928",
@@ -36493,13 +36609,13 @@
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
-          "submitter_remarks": null
+          "submitter_remarks": "Gazette G.N.928 names Shim Kwong Street 蟾光街 (Yuet Wah estate link road, plan R.K. 1134). Not Hiu Kwong Street 曉光街."
         },
         {
           "date": "1961-05-19",
           "change_kind": "delete",
           "name_en": "Shim Kwong Street",
-          "name_zh": "曉光街",
+          "name_zh": "蟾光街",
           "previous_name_en": null,
           "previous_name_zh": null,
           "notice_label_en": "G.N.851",
@@ -36513,7 +36629,7 @@
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
-          "submitter_remarks": null
+          "submitter_remarks": "Gazette G.N.851 discontinues Shim Kwong Street 蟾光街. Not Hiu Kwong Street 曉光街."
         }
       ]
     },
