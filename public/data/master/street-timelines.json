@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T17:10:44.558Z",
+  "generated_at": "2026-06-24T14:48:45.413Z",
   "totals": {
     "timelines": 1297,
     "linked_active": 969,
@@ -7732,7 +7732,7 @@
       "geometry_link": {
         "status": "active",
         "street_code": "10371",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -18701,7 +18701,7 @@
       "geometry_link": {
         "status": "active",
         "street_code": "10955",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -28458,7 +28458,7 @@
       "geometry_link": {
         "status": "active",
         "street_code": "11396",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -35454,7 +35454,7 @@
           "date": "1937-09-24",
           "change_kind": "declare",
           "name_en": "Pokfulam Reservoir Road",
-          "name_zh": "薄扶林水塘道",
+          "name_zh": "撲扶林水塘道",
           "previous_name_en": null,
           "previous_name_zh": null,
           "notice_label_en": "G.N.682",
@@ -35468,7 +35468,7 @@
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "hkgro",
-          "submitter_remarks": null,
+          "submitter_remarks": "Gazette ZH 撲扶林水塘道; database 薄扶林水塘道.",
           "gazette_location": null
         },
         {
@@ -42992,7 +42992,7 @@
       "geometry_link": {
         "status": "active",
         "street_code": "12074",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -53975,7 +53975,7 @@
           "date": "",
           "change_kind": "declare",
           "name_en": "Chun Yip Street",
-          "name_zh": "駿業街",
+          "name_zh": "振業街",
           "previous_name_en": null,
           "previous_name_zh": null,
           "notice_label_en": "G.N.1138",
@@ -53998,7 +53998,7 @@
           "name_en": "Wai Yip Street",
           "name_zh": "偉業街",
           "previous_name_en": "Chun Yip Street",
-          "previous_name_zh": "駿業街",
+          "previous_name_zh": "振業街",
           "notice_label_en": "G.N.1138",
           "notice_label_zh": "第1138號",
           "notice_url_en": "/egazette/en/1960-gn1138.pdf",
@@ -54046,7 +54046,7 @@
           "date": "1960-08-12",
           "change_kind": "delete",
           "name_en": "Chun Yip Street",
-          "name_zh": "駿業街",
+          "name_zh": "振業街",
           "previous_name_en": null,
           "previous_name_zh": null,
           "notice_label_en": "G.N.1218",
@@ -54060,9 +54060,9 @@
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
-          "submitter_remarks": "Chun Yip 駿業街 renamed to Wai Yip 偉業街 (G.N.1138); same centreline 12624. Not Tsun Yip Street 駿業街.",
+          "submitter_remarks": "Chun Yip 振業街 renamed to Wai Yip 偉業街 (G.N.1138); same centreline 12624. Not Tsun Yip Street 駿業街.",
           "gazette_location": {
-            "description_raw_en": "With reference to Gazette Notification Nos. 929 and 1138 of 1960, it is hereby notified that the following street name has been discontinued with effect from Friday, 22nd July, 1960:— CHUN YIP STREET 駿業街",
+            "description_raw_en": "With reference to Gazette Notification Nos. 929 and 1138 of 1960, it is hereby notified that the following street name has been discontinued with effect from Friday, 22nd July, 1960:— CHUN YIP STREET 振業街",
             "description_raw_zh": null,
             "parsed": {
               "road_form": null,
@@ -56490,7 +56490,7 @@
       "geometry_link": {
         "status": "active",
         "street_code": "12775",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -56696,7 +56696,7 @@
       "geometry_link": {
         "status": "active",
         "street_code": "12781",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [

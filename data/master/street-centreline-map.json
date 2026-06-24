@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-06-22T17:08:42.849Z",
+  "updated_at": "2026-06-24T14:48:34.013Z",
   "links": [
     {
       "timeline_id": "code:10003",
@@ -32,7 +32,6 @@
       "timeline_id": "code:10005",
       "street_code": "10005",
       "event_ids": [
-        "crowd|1961-gn1335-island-road-renames-Aberdeen-Main-Road-香港仔大道-",
         "crowd|1961-gn1335-island-road-renames-Aberdeen-Main-Road-香港仔大道-1961-08-04"
       ],
       "status": "active",
@@ -59,8 +58,7 @@
       "timeline_id": "code:10019",
       "street_code": "10019",
       "event_ids": [
-        "crowd|2023-gn3377-tier-a-10019-1976-12-10",
-        "crowd|1976-gn2757-anderson-road-Anderson-Road-安達臣道-1976-12-10"
+        "crowd|2023-gn3377-tier-a-10019-1976-12-10"
       ],
       "status": "active",
       "method": "batch_link_street_code",
@@ -663,7 +661,6 @@
       "timeline_id": "code:10155",
       "street_code": "10155",
       "event_ids": [
-        "crowd|1961-gn1335-island-road-renames-Chai-Wan-Road-柴灣道-",
         "crowd|1961-gn1335-island-road-renames-Chai-Wan-Road-柴灣道-1961-08-04"
       ],
       "status": "active",
@@ -733,9 +730,7 @@
       "timeline_id": "code:10167",
       "street_code": "10167",
       "event_ids": [
-        "crowd|1978-gn2702-kowloon-road-splits-Chatham-Road-South-漆咸道南-",
         "crowd|1978-gn2702-kowloon-road-splits-Chatham-Road-South-漆咸道南-1978-10-20",
-        "crowd|1979-gn111-kowloon-road-splits-Chatham-Road-South-漆咸道南-",
         "crowd|1979-gn111-kowloon-road-splits-Chatham-Road-South-漆咸道南-1979-01-12",
         "crowd|1909-gn184-chatham-road-Chatham-Road-South-漆咸道南-1909-03-19"
       ],
@@ -984,8 +979,7 @@
       "timeline_id": "code:10221",
       "street_code": "10221",
       "event_ids": [
-        "crowd|2021-gn3898-tier-a-10221-1979-11-09",
-        "crowd|1979-gn2898-kwun-tong-streets-Cheung-Yip-Street-祥業街-1979-11-09"
+        "crowd|2021-gn3898-tier-a-10221-1979-11-09"
       ],
       "status": "active",
       "method": "batch_link_street_code",
@@ -1167,8 +1161,7 @@
       "timeline_id": "code:10277",
       "street_code": "10277",
       "event_ids": [
-        "crowd|1975-gn702-703-10277",
-        "crowd|1975-gn702-703-Chun-Fai-Road-春暉道"
+        "crowd|1975-gn702-703-10277"
       ],
       "status": "active",
       "method": "batch_link_street_code",
@@ -1285,8 +1278,7 @@
       "timeline_id": "code:10311",
       "street_code": "10311",
       "event_ids": [
-        "crowd|1947-gn543-nt-roads-Clear-Water-Bay-Road-清水灣道-1947-07-02",
-        "crowd|1947-gn543-nt-roads-Clearwater-Bay-Road-清水灣道-1947-07-02"
+        "crowd|1947-gn543-nt-roads-Clear-Water-Bay-Road-清水灣道-1947-07-02"
       ],
       "status": "active",
       "method": "batch_link_street_code",
@@ -1368,7 +1360,6 @@
       "event_ids": [
         "crowd|1975-gn1866-former-hoi-lok",
         "crowd|1975-gn1866-former-sing-lok",
-        "crowd|1975-gn1866-former-yee-lok",
         "crowd|1975-gn1866-connaught-place-Connaught-Place-康樂廣場-1975-08-22"
       ],
       "status": "active",
@@ -1516,11 +1507,11 @@
         "crowd|1937-gn682-island-roads-10371-1937-09-24"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-24",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10373",
@@ -1790,9 +1781,7 @@
       "street_code": "10469",
       "event_ids": [
         "crowd|1975-gn589-10469-1974-08-02",
-        "crowd|1975-gn589-10469-1975-03-14",
-        "crowd|1975-gn589-Fan-Wa-Street-繁華街-1974-08-02",
-        "crowd|1975-gn589-Fan-Wa-Street-繁華街-1975-03-14"
+        "crowd|1975-gn589-10469-1975-03-14"
       ],
       "status": "active",
       "method": "batch_link_street_code",
@@ -2358,8 +2347,7 @@
       "timeline_id": "code:10614",
       "street_code": "10614",
       "event_ids": [
-        "crowd|1975-gn702-703-10614",
-        "crowd|1975-gn702-703-Good-Shepherd-Street-牧愛街"
+        "crowd|1975-gn702-703-10614"
       ],
       "status": "active",
       "method": "batch_link_street_code",
@@ -2611,8 +2599,7 @@
       "timeline_id": "code:10669",
       "street_code": "10669",
       "event_ids": [
-        "crowd|1975-gn588-10669-1975-03-14",
-        "crowd|1975-gn588-Hau-Man-Street-孝民街-1975-03-14"
+        "crowd|1975-gn588-10669-1975-03-14"
       ],
       "status": "active",
       "method": "batch_link_street_code",
@@ -3640,11 +3627,11 @@
         "crowd|1937-gn682-island-roads-10955-1937-09-24"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-24",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10957",
@@ -4657,8 +4644,7 @@
       "timeline_id": "code:11143",
       "street_code": "11143",
       "event_ids": [
-        "crowd|1947-gn543-nt-roads-Kwun-Tong-Road-觀塘道-1947-07-02",
-        "crowd|1947-gn543-nt-roads-Kun-Tong-Road-觀塘道-1947-07-02"
+        "crowd|1947-gn543-nt-roads-Kwun-Tong-Road-觀塘道-1947-07-02"
       ],
       "status": "active",
       "method": "batch_link_street_code",
@@ -5284,8 +5270,7 @@
       "timeline_id": "code:11308",
       "street_code": "11308",
       "event_ids": [
-        "crowd|2018-gn6060-first-previous-gn-11308-1960-11-11",
-        "crowd|1960-gn1713-lung-cheung-road-Lung-Cheung-Road-龍翔道-1960-11-11"
+        "crowd|2018-gn6060-first-previous-gn-11308-1960-11-11"
       ],
       "status": "active",
       "method": "batch_link_street_code",
@@ -5416,8 +5401,7 @@
       "timeline_id": "code:11337",
       "street_code": "11337",
       "event_ids": [
-        "crowd|2018-gn6060-first-previous-gn-11337-1976-02-06",
-        "crowd|1976-gn288-wong-tai-sin-Ma-Chai-Hang-Road-馬仔坑道-1976-02-06"
+        "crowd|2018-gn6060-first-previous-gn-11337-1976-02-06"
       ],
       "status": "active",
       "method": "batch_link_street_code",
@@ -5496,8 +5480,7 @@
       "timeline_id": "code:11353",
       "street_code": "11353",
       "event_ids": [
-        "crowd|2015-gn4864-ma-kung-roads-11353-1978-09-29",
-        "crowd|1978-gn2481-yuen-long-streets-Ma-Tin-Road-馬田路-1978-09-29"
+        "crowd|2015-gn4864-ma-kung-roads-11353-1978-09-29"
       ],
       "status": "active",
       "method": "batch_link_street_code",
@@ -5656,11 +5639,11 @@
         "crowd|1937-gn682-island-roads-11396-1937-09-24"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-24",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11401",
@@ -5745,8 +5728,7 @@
       "timeline_id": "code:11413",
       "street_code": "11413",
       "event_ids": [
-        "crowd|1975-gn641-11413",
-        "crowd|1975-gn641-Mei-Lai-Road-美荔道"
+        "crowd|1975-gn641-11413"
       ],
       "status": "active",
       "method": "batch_link_street_code",
@@ -6276,8 +6258,7 @@
       "timeline_id": "code:11563",
       "street_code": "11563",
       "event_ids": [
-        "crowd|1975-gn351-11563",
-        "crowd|1975-gn351-Ocean-Park-Road-海洋公園道"
+        "crowd|1975-gn351-11563"
       ],
       "status": "active",
       "method": "batch_link_street_code",
@@ -6786,8 +6767,7 @@
       "timeline_id": "code:11736",
       "street_code": "11736",
       "event_ids": [
-        "crowd|1975-gn176-11736",
-        "crowd|1975-gn176-Po-Kong-Lane-蒲崗里"
+        "crowd|1975-gn176-11736"
       ],
       "status": "active",
       "method": "batch_link_street_code",
@@ -6872,7 +6852,7 @@
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-22",
+      "linked_at": "2026-06-24",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -6988,9 +6968,7 @@
         "crowd|2018-gn6972-tier-a-11787-1979-01-12",
         "crowd|1958-gn865-major-streets-11787-prince-edward-1958-06-27",
         "crowd|1959-gn738-prince-edward-road-11787-1959-05-29",
-        "crowd|1978-gn2702-kowloon-road-splits-Prince-Edward-Road-East-太子道東-",
         "crowd|1978-gn2702-kowloon-road-splits-Prince-Edward-Road-East-太子道東-1978-10-20",
-        "crowd|1979-gn111-kowloon-road-splits-Prince-Edward-Road-East-太子道東-",
         "crowd|1979-gn111-kowloon-road-splits-Prince-Edward-Road-East-太子道東-1979-01-12"
       ],
       "status": "active",
@@ -7426,9 +7404,7 @@
       "street_code": "11864",
       "event_ids": [
         "crowd|1924-gn492-sai-yeung-choi-street-11864-former-1924-08-29",
-        "crowd|1978-gn2702-kowloon-road-splits-Sai-Yeung-Choi-Street-South-西洋菜南街-",
         "crowd|1978-gn2702-kowloon-road-splits-Sai-Yeung-Choi-Street-South-西洋菜南街-1978-10-20",
-        "crowd|1979-gn111-kowloon-road-splits-Sai-Yeung-Choi-Street-South-西洋菜南街-",
         "crowd|1979-gn111-kowloon-road-splits-Sai-Yeung-Choi-Street-South-西洋菜南街-1979-01-12"
       ],
       "status": "active",
@@ -8032,7 +8008,6 @@
       "timeline_id": "code:12011",
       "street_code": "12011",
       "event_ids": [
-        "crowd|1961-gn1335-island-road-renames-Shek-Pai-Wan-Road-石排灣道-",
         "crowd|1961-gn1335-island-road-renames-Shek-Pai-Wan-Road-石排灣道-1961-08-04"
       ],
       "status": "active",
@@ -8271,11 +8246,11 @@
         "crowd|1937-gn682-island-roads-12074-1937-09-24"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-24",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12082",
@@ -10311,7 +10286,7 @@
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-22",
+      "linked_at": "2026-06-24",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -10751,11 +10726,11 @@
         "crowd|1937-gn682-island-roads-12775-1937-09-24"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-24",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12776",
@@ -10791,11 +10766,11 @@
         "crowd|1937-gn682-island-roads-12781-1937-09-24"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-06-24",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12782",

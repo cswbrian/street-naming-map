@@ -10,20 +10,22 @@
   "streets": [
     {
       "english_name": "Chun Yip Street",
-      "chinese_name": "駿業街",
+      "chinese_name": "振業街",
       "link_street_code": "12624",
       "history": [
         {
           "publication_date": "1960-08-12",
           "change_kind": "delete",
           "street_name_en": "Chun Yip Street",
-          "street_name_zh": "駿業街",
+          "street_name_zh": "振業街",
           "evidence_kind": "gazette_primary",
           "event_role": "name_removed",
           "notice_type_normalized": "deletion",
-          "submitter_remarks": "Chun Yip 駿業街 renamed to Wai Yip 偉業街 (G.N.1138); same centreline 12624. Not Tsun Yip Street 駿業街.",
+          "submitter_remarks": "Chun Yip 振業街 renamed to Wai Yip 偉業街 (G.N.1138); same centreline 12624. Not Tsun Yip Street 駿業街.",
+          "submission_id": "1960-gn1218-chun-yip-discontinued-Chun-Yip-Street-駿業街-1960-08-12",
+          "event_id": "crowd|1960-gn1218-chun-yip-discontinued-Chun-Yip-Street-駿業街-1960-08-12",
           "gazette_location": {
-            "description_raw_en": "With reference to Gazette Notification Nos. 929 and 1138 of 1960, it is hereby notified that the following street name has been discontinued with effect from Friday, 22nd July, 1960:— CHUN YIP STREET 駿業街"
+            "description_raw_en": "With reference to Gazette Notification Nos. 929 and 1138 of 1960, it is hereby notified that the following street name has been discontinued with effect from Friday, 22nd July, 1960:— CHUN YIP STREET 振業街"
           }
         }
       ]
