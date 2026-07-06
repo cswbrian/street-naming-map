@@ -1,0 +1,39 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1950-gn938-kiu-yam-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.938",
+  "publication_date": "1950-08-11",
+  "gazette_url_en": "/egazette/en/1950-gn938.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1950-gn938.pdf",
+  "streets": [
+    {
+      "link_street_code": "11047",
+      "chinese_name": "僑蔭街",
+      "english_name": "Kiu Yam Street",
+      "history": [
+        {
+          "publication_date": "1950-08-11",
+          "change_kind": "declare",
+          "street_name_en": "Kiu Yam Street",
+          "street_name_zh": "僑蔭街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 938. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Kiu Yam Street (僑蔭街): Cul-de-Sac running in a south westerly direction off Kowloon Road between Yen Chow Street and Kiu Kiang Street.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "cul-de-sac",
+              "referenced_streets_en": [
+                "Kowloon Road",
+                "Yen Chow Street",
+                "Kiu Kiang Street"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

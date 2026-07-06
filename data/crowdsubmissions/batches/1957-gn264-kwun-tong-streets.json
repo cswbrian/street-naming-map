@@ -1,0 +1,911 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn264-kwun-tong-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.264",
+  "publication_date": "1957-02-22",
+  "gazette_url_en": "/egazette/en/1957-gn264.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1957-gn264.pdf",
+  "streets": [
+    {
+      "link_street_code": "10537",
+      "chinese_name": "富業街",
+      "english_name": "Foo Yip Street",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Foo Yip Street",
+          "street_name_zh": "富業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Foo Yip Street (富業街): Road commencing at its junction with Hoi Bun Road and terminating at its junction with Kun Tong Road as shown coloured pink on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hoi Bun Road",
+                "Kun Tong Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11168",
+      "chinese_name": "勵業街",
+      "english_name": "Lai Yip Street",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Lai Yip Street",
+          "street_name_zh": "勵業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Lai Yip Street (勵業街): Road commencing at its junction with Hoi Bun Road and terminating at its junction with Kun Tong Road as shown coloured red on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hoi Bun Road",
+                "Kun Tong Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "10876",
+      "chinese_name": "鴻圖道",
+      "english_name": "Hung To Road",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Hung To Road",
+          "street_name_zh": "鴻圖道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Hung To Road (鴻圖道): Road commencing at its junction with Lai Yip Street and terminating at its junction with King Yip Street as shown coloured green on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "green"
+                }
+              ],
+              "referenced_streets_en": [
+                "Lai Yip Street",
+                "King Yip Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "10860",
+      "chinese_name": "巧明街",
+      "english_name": "How Ming Street",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "How Ming Street",
+          "street_name_zh": "巧明街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— How Ming Street (巧明街): Road commencing at its junction with Hoi Bun Road 1,000 feet south east of Lai Yip Street running in a north easterly direction for approximately 330 yards thence in a south easterly direction and terminating at its junction with Hoi Yuen Road as shown hatched black on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "black",
+                  "pattern": "hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hoi Bun Road",
+                "Lai Yip Street",
+                "Hoi Yuen Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "12486",
+      "chinese_name": "駿業街",
+      "english_name": "Tsun Yip Street",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Tsun Yip Street",
+          "street_name_zh": "駿業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Tsun Yip Street (駿業街): Road commencing at its junction with Hoi Bun Road 1,000 feet south east of How Ming Street running in a north easterly direction and terminating at its junction with How Ming Street as shown hatched red on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "red",
+                  "pattern": "hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hoi Bun Road",
+                "How Ming Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "10788",
+      "chinese_name": "開源道",
+      "english_name": "Hoi Yuen Road",
+      "history": [
+        {
+          "event_id": "crowd|2026-gn996-hoi-yuen-kei-yip-lane-10788-1957-02-22",
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Hoi Yuen Road",
+          "street_name_zh": "開源道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "derived_from": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Hoi Yuen Road (開源道): Road commencing at its junction with Hoi Bun Road 700 feet south east of Tsun Yip Street running in a north easterly direction and terminating at its junction with Kun Tong Road as shown coloured green on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "green"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hoi Bun Road",
+                "Tsun Yip Street",
+                "Kun Tong Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "12624",
+      "chinese_name": "駿業街",
+      "english_name": "Chun Yip Street",
+      "submitter_remarks": "Gazette ZH column 駿業街 duplicates Tsun Yip Street; G.N.1218 discontinuance uses 振業街 (centreline 12624, later Wai Yip 偉業街).",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Chun Yip Street",
+          "street_name_zh": "駿業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Chun Yip Street (駿業街): Road commencing at its junction with Hoi Yuen Road 300 feet north east of Hoi Bun Road running in a south easterly direction and terminating at its junction with King Yip Street as shown hatched burnt sienna on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "burnt sienna",
+                  "pattern": "hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hoi Yuen Road",
+                "Hoi Bun Road",
+                "King Yip Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11036",
+      "chinese_name": "敬業街",
+      "english_name": "King Yip Street",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "King Yip Street",
+          "street_name_zh": "敬業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— King Yip Street (敬業街): Road commencing at its junction with Chun Yip Street running in a north easterly direction and terminating at its junction with Shing Yip Street as shown coloured mauve on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "mauve"
+                }
+              ],
+              "referenced_streets_en": [
+                "Chun Yip Street",
+                "Shing Yip Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "10737",
+      "chinese_name": "興業街",
+      "english_name": "Hing Yip Street",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Hing Yip Street",
+          "street_name_zh": "興業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Hing Yip Street (興業街): Road commencing at its junction with Hoi Yuen Road 400 feet north east of Hung To Road running in a south easterly direction and terminating at its junction with King Yip Street as shown hatched brown on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "brown",
+                  "pattern": "hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hoi Yuen Road",
+                "Hung To Road",
+                "King Yip Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "12063",
+      "chinese_name": "成業街",
+      "english_name": "Shing Yip Street",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Shing Yip Street",
+          "street_name_zh": "成業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Shing Yip Street (成業街): Road commencing at its junction with Hoi Yuen Road 500 feet north east of Hing Yip Street running in a south easterly direction and terminating at its junction with King Yip Street as shown hatched blue on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "blue",
+                  "pattern": "hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hoi Yuen Road",
+                "Hing Yip Street",
+                "King Yip Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11292",
+      "chinese_name": "聯安街",
+      "english_name": "Luen On Street",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Luen On Street",
+          "street_name_zh": "聯安街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Luen On Street (聯安街): Road commencing at its junction with Ngau Tau Kok Road opposite the Government School site running in a north westerly direction for approximately 130 yards as shown cross hatched red on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "red",
+                  "pattern": "cross hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "Ngau Tau Kok Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "12531",
+      "chinese_name": "通明街",
+      "english_name": "Tung Ming Street",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Tung Ming Street",
+          "street_name_zh": "通明街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Tung Ming Street (通明街): Road commencing at its junction with Ngau Tau Kok Road 200 feet west of Hong Ning Road running in a north easterly direction for approximately 60 yards thence in a north westerly direction for approximately 260 yards thence in a north easterly direction and terminating at its junction with Hong Ning Road as shown hatched purple on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "purple",
+                  "pattern": "hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "Ngau Tau Kok Road",
+                "Hong Ning Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "10833",
+      "chinese_name": "康寧道",
+      "english_name": "Hong Ning Road",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Hong Ning Road",
+          "street_name_zh": "康寧道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Hong Ning Road (康寧道): Road commencing at its junction with Kun Tong Road 200 feet west of the China Light & Power Sub Station running in a north easterly direction for approximately 120 yards thence in a north westerly direction for approximately 400 yards and curving in a north easterly direction for approximately 160 yards as shown coloured burnt sienna on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "burnt sienna"
+                }
+              ],
+              "referenced_streets_en": [
+                "Kun Tong Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "10649",
+      "chinese_name": "恆安街",
+      "english_name": "Hang On Street",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Hang On Street",
+          "street_name_zh": "恆安街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Hang On Street (恆安街): Road commencing at its junction with Luen On Street 300 feet north west of Ngau Tau Kok Road running in an easterly direction and terminating at its junction with Tung Ming Street as shown hatched yellow on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "yellow",
+                  "pattern": "hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "Luen On Street",
+                "Ngau Tau Kok Road",
+                "Tung Ming Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "12846",
+      "chinese_name": "宜安街",
+      "english_name": "Yee On Street",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Yee On Street",
+          "street_name_zh": "宜安街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Yee On Street (宜安街): Road commencing at its junction with Luen On Street 150 feet north west of Ngau Tau Kok Road running in an easterly direction and terminating at its junction with Hong Ning Road as shown hatched orange on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "orange",
+                  "pattern": "hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "Luen On Street",
+                "Ngau Tau Kok Road",
+                "Hong Ning Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "10536",
+      "chinese_name": "輔仁街",
+      "english_name": "Fu Yan Street",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Fu Yan Street",
+          "street_name_zh": "輔仁街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Fu Yan Street (輔仁街): Road commencing at its junction with Hong Ning Road 400 feet north west of Mut Wah Road running in an easterly direction for approximately 50 yards thence in a southerly direction and terminating at its junction with Mut Wah Road as shown cross hatched black on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "black",
+                  "pattern": "cross hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hong Ning Road",
+                "Mut Wah Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11486",
+      "chinese_name": "物華道",
+      "english_name": "Mut Wah Road",
+      "submitter_remarks": "Gazette Mut Wah Road 物華道; geojson Mut Wah Street 物華街.",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Mut Wah Road",
+          "street_name_zh": "物華道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Mut Wah Road (物華道): Road commencing at its junction with Hong Ning Road 500 feet north east of Kun Tong Road running in an easterly direction for approximately 770 yards as shown coloured brown on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "brown"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hong Ning Road",
+                "Kun Tong Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "12906",
+      "chinese_name": "裕民坊",
+      "english_name": "Yue Man Square",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Yue Man Square",
+          "street_name_zh": "裕民坊",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Yue Man Square (裕民坊): Road commencing at its junction with Hong Ning Road 200 feet north east of Kun Tong Road running in a south easterly direction and terminating at its junction with Tung Yan Street including a public square as shown cross hatched orange on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "orange",
+                  "pattern": "cross hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hong Ning Road",
+                "Kun Tong Road",
+                "Tung Yan Street"
+              ],
+              "is_open_space": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "10739",
+      "chinese_name": "協和街",
+      "english_name": "Hip Wo Street",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Hip Wo Street",
+          "street_name_zh": "協和街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Hip Wo Street (協和街): Road commencing at its junction with Yue Man Square running in a north easterly direction and terminating at its junction with Mut Wah Road as shown cross hatched brown on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "brown",
+                  "pattern": "cross hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "Yue Man Square",
+                "Mut Wah Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "12550",
+      "chinese_name": "同仁街",
+      "english_name": "Tung Yan Street",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Tung Yan Street",
+          "street_name_zh": "同仁街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Tung Yan Street (同仁街): Road commencing at its junction with Kun Tong Road 700 feet south east of Hong Ning Road running in a north easterly direction for approximately 120 yards as shown cross hatched green on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "green",
+                  "pattern": "cross hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "Kun Tong Road",
+                "Hong Ning Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "12480",
+      "chinese_name": "翠屏道",
+      "english_name": "Tsui Ping Road",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Tsui Ping Road",
+          "street_name_zh": "翠屏道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Tsui Ping Road (翠屏道): Road commencing at its junction with Kun Tong Road south east of the site reserved for a Police Station running in a north easterly direction for approximately 200 yards thence in a north westerly direction for approximately 850 yards as shown coloured purple on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "purple"
+                }
+              ],
+              "referenced_streets_en": [
+                "Kun Tong Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "10859",
+      "chinese_name": "巧明里",
+      "english_name": "How Ming Lane",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "How Ming Lane",
+          "street_name_zh": "巧明里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— How Ming Lane (巧明里): Pedestrian way commencing at its junction with How Ming Street 200 feet north east of Hung To Road running in a north easterly direction and terminating at its junction with Kun Tong Road as shown cross hatched orange on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "pedestrian way",
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "orange",
+                  "pattern": "cross hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "How Ming Street",
+                "Hung To Road",
+                "Kun Tong Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "12485",
+      "chinese_name": "駿業里",
+      "english_name": "Tsun Yip Lane",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Tsun Yip Lane",
+          "street_name_zh": "駿業里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Tsun Yip Lane (駿業里): Pedestrian way commencing at its junction with How Ming Street at its junction with Tsun Yip Street running in a north easterly direction and terminating at its junction with Yue Man Square as shown cross hatched purple on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "pedestrian way",
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "purple",
+                  "pattern": "cross hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "How Ming Street",
+                "Tsun Yip Street",
+                "Yue Man Square"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "輔仁里",
+      "english_name": "Fu Yan Lane",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Fu Yan Lane",
+          "street_name_zh": "輔仁里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Fu Yan Lane (輔仁里): Pedestrian way commencing at its junction with Yue Man Square running in a north easterly direction and terminating at its junction with Mut Wah Road opposite Fu Yan Street as shown cross hatched green on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "pedestrian way",
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "green",
+                  "pattern": "cross hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "Yue Man Square",
+                "Mut Wah Road",
+                "Fu Yan Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11035",
+      "chinese_name": "敬業里",
+      "english_name": "King Yip Lane",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "King Yip Lane",
+          "street_name_zh": "敬業里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— King Yip Lane (敬業里): Pedestrian way commencing at its junction with Shing Yip Street at its junction with King Yip Street running in a north easterly direction and terminating at its junction with Kun Tong Road opposite Tsui Ping Road as shown cross hatched blue on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "pedestrian way",
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "blue",
+                  "pattern": "cross hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "Shing Yip Street",
+                "King Yip Street",
+                "Kun Tong Road",
+                "Tsui Ping Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11143",
+      "chinese_name": "觀塘道",
+      "english_name": "Kwun Tong Road",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "extend",
+          "street_name_en": "Kwun Tong Road",
+          "street_name_zh": "觀塘道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Kwun Tong Road (觀塘道): Extension of Kun Tong Road commencing at the north east corner of N.K.I.L. 63 passing to the west of Ngau Tau Kok Village, Kun Tong Housing Zones 1 and 3, Ham Tin Chuen and terminating at Lye Mun as shown coloured red on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11535",
+      "chinese_name": "牛頭角道",
+      "english_name": "Ngau Tau Kok Road",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Ngau Tau Kok Road",
+          "street_name_zh": "牛頭角道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Ngau Tau Kok Road (牛頭角道): Road commencing at its junction with Kun Tong Road near the north east corner of N.K.I.L. 1969 running in a north westerly direction towards River Jordan north of Ngau Tau Kok Village and terminating at its junction with Hong Ning Road as shown coloured green on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "green"
+                }
+              ],
+              "referenced_streets_en": [
+                "Kun Tong Road",
+                "Hong Ning Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "10765",
+      "chinese_name": "海濱道",
+      "english_name": "Hoi Bun Road",
+      "history": [
+        {
+          "publication_date": "1957-02-22",
+          "change_kind": "declare",
+          "street_name_en": "Hoi Bun Road",
+          "street_name_zh": "海濱道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Hoi Bun Road (海濱道): Road commencing from the south side of Jordan River Nullah and including the concourse area of the proposed Kun Tong Public Pier at the end of Hoi Yuen Road as shown coloured blue on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "blue"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hoi Yuen Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-06T16:08:07.645Z",
+  "generated_at": "2026-07-06T16:28:46.256Z",
   "totals": {
-    "timelines": 1301,
-    "linked_active": 973,
-    "unlinked": 328,
+    "timelines": 1339,
+    "linked_active": 1008,
+    "unlinked": 331,
     "legacy_or_name_only": 0
   },
   "timelines": [
@@ -1085,18 +1085,18 @@
       "street_name_en": "Berwick Street",
       "street_name_zh": "巴域街",
       "canonical_naming_year": 1950,
-      "canonical_naming_date": "1950-06-24",
+      "canonical_naming_date": "1950-06-30",
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
         "status": "active",
         "street_code": "10061",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
         {
-          "date": "1950-06-24",
+          "date": "1950-06-30",
           "change_kind": "declare",
           "name_en": "Berwick Street",
           "name_zh": "巴域街",
@@ -1104,27 +1104,50 @@
           "previous_name_zh": null,
           "notice_label_en": "G.N.804",
           "notice_label_zh": "第804號",
-          "notice_url_en": null,
-          "notice_url_zh": null,
-          "evidence_kind": "gazette_inferred",
+          "notice_url_en": "/egazette/en/1950-gn804.pdf",
+          "notice_url_zh": "/egazette/zh/1950-gn804.pdf",
+          "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
           "event_role": "current_name",
-          "derived_from": [
-            {
-              "kind": "gazette_citation",
-              "notice_label": null,
-              "publication_date": null,
-              "government_notice_url_en": null,
-              "government_notice_url_zh": null,
-              "cited_notice_label": "G.N.5353",
-              "cited_publication_date": null
-            }
-          ],
+          "derived_from": null,
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
-          "submitter_remarks": "Previous G.N. for 巴域街 cited in G.N.5353 (2013-09-06).",
-          "gazette_location": null
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 804. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Berwick Street (巴域街): Road to the North East of Taipo Road commencing at its junction with Shek Kip Mei Street and running in a north westerly direction and terminating at its junction with Kweilin Street.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Taipo Road",
+                "Shek Kip Mei Street",
+                "Kweilin Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -3688,6 +3711,83 @@
           "source": "crowdsubmitted",
           "submitter_remarks": "First Previous G.N. for 暢運道 cited in G.N.8864 (2015-11-13).",
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10182",
+      "street_code": "10182",
+      "street_name_en": "Chester Road",
+      "street_name_zh": "志士達道",
+      "canonical_naming_year": 1950,
+      "canonical_naming_date": "1950-07-21",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10182",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1950-07-21",
+          "change_kind": "declare",
+          "name_en": "Chester Road",
+          "name_zh": "志士達道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.867",
+          "notice_label_zh": "第867號",
+          "notice_url_en": "/egazette/en/1950-gn867-868-869.pdf",
+          "notice_url_zh": null,
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 867. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Chester Road (志士達道): Road extending in a northerly direction from its junction with Flint Road and terminating at its junction with Derby Road, as shown coloured red on plan No. R.K. 124 signed by Director of Public Works and dated 13th July, 1950.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 124",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Flint Road",
+                "Derby Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -6665,6 +6765,77 @@
       ]
     },
     {
+      "timeline_id": "code:10312",
+      "street_code": "10312",
+      "street_name_en": "Clementi Road",
+      "street_name_zh": "金文泰道",
+      "canonical_naming_year": 1950,
+      "canonical_naming_date": "1950-12-29",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10312",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1950-12-29",
+          "change_kind": "declare",
+          "name_en": "Clementi Road",
+          "name_zh": "金文泰道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1471",
+          "notice_label_zh": "第1471號",
+          "notice_url_en": "/egazette/en/1950-gn1471.pdf",
+          "notice_url_zh": "/egazette/zh/1950-gn1471.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 1471. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Clementi Road (金文泰道): Road extending from its junction with Tai Hang Road north to I.L. 6391, and running in an easterly direction and terminating at its junction with Sir Cecil's Ride.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Tai Hang Road",
+                "Sir Cecil's Ride"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10315",
       "street_code": "10315",
       "street_name_en": "Cliff Road",
@@ -7728,7 +7899,7 @@
       "canonical_naming_year": 1937,
       "canonical_naming_date": "1937-09-24",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "10371",
@@ -7756,6 +7927,60 @@
           "source": "hkgro",
           "submitter_remarks": null,
           "gazette_location": null
+        },
+        {
+          "date": "1950-01-06",
+          "change_kind": "extend",
+          "name_en": "Deep Water Bay Road",
+          "name_zh": "深水灣道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.28",
+          "notice_label_zh": "第28號",
+          "notice_url_en": "/egazette/en/1950-gn28.pdf",
+          "notice_url_zh": "/egazette/zh/1950-gn28.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 28. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Deep Water Bay Road (深水灣道): Road commencing from Wong Nei Chong Gap to Deep Water Bay, running from the junction of Repulse Bay Road and Black's Link, past the Military Compound at Little Hong Kong, to Island Road near the Golf Club House. Note: A section of the road inside the Military Compound is no longer open to the public.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Repulse Bay Road",
+                "Black's Link",
+                "Island Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -8058,6 +8283,77 @@
           "source": "hkgro",
           "submitter_remarks": null,
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10390",
+      "street_code": "10390",
+      "street_name_en": "Dumbarton Road",
+      "street_name_zh": "東寶庭道",
+      "canonical_naming_year": 1950,
+      "canonical_naming_date": "1950-07-28",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10390",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1950-07-28",
+          "change_kind": "declare",
+          "name_en": "Dumbarton Road",
+          "name_zh": "東寶庭道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.900",
+          "notice_label_zh": "第900號",
+          "notice_url_en": "/egazette/en/1950-gn900.pdf",
+          "notice_url_zh": "/egazette/zh/1950-gn900.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 900. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Dumbarton Road (東寶庭道): Road extending from its junction with Hau Wong Road to the extension of La Salle Road.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Hau Wong Road",
+                "La Salle Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -9939,6 +10235,83 @@
       ]
     },
     {
+      "timeline_id": "code:10537",
+      "street_code": "10537",
+      "street_name_en": "Foo Yip Street",
+      "street_name_zh": "富業街",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10537",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Foo Yip Street",
+          "name_zh": "富業街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Foo Yip Street (富業街): Road commencing at its junction with Hoi Bun Road and terminating at its junction with Kun Tong Road as shown coloured pink on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "pink",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Hoi Bun Road",
+                "Kun Tong Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "Foo Yip Street|富業街",
       "street_code": null,
       "street_name_en": "Foo Yip Street",
@@ -10515,14 +10888,92 @@
       ]
     },
     {
+      "timeline_id": "Fu Yan Lane|輔仁里",
+      "street_code": null,
+      "street_name_en": "Fu Yan Lane",
+      "street_name_zh": "輔仁里",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Fu Yan Lane",
+          "name_zh": "輔仁里",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Fu Yan Lane (輔仁里): Pedestrian way commencing at its junction with Yue Man Square running in a north easterly direction and terminating at its junction with Mut Wah Road opposite Fu Yan Street as shown cross hatched green on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "pedestrian way",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "green",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Yue Man Square",
+                "Mut Wah Road",
+                "Fu Yan Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10536",
       "street_code": "10536",
       "street_name_en": "Fu Yan Street",
       "street_name_zh": "輔仁街",
-      "canonical_naming_year": null,
-      "canonical_naming_date": null,
-      "derivation_reason": "no_current_name_event",
-      "event_count": 2,
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 3,
       "geometry_link": {
         "status": "active",
         "street_code": "10536",
@@ -10550,6 +11001,65 @@
           "source": "crowdsubmitted",
           "submitter_remarks": "Former name attested in G.N.50 rename notice.",
           "gazette_location": null
+        },
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Fu Yan Street",
+          "name_zh": "輔仁街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Fu Yan Street (輔仁街): Road commencing at its junction with Hong Ning Road 400 feet north west of Mut Wah Road running in an easterly direction for approximately 50 yards thence in a southerly direction and terminating at its junction with Mut Wah Road as shown cross hatched black on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "black",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Hong Ning Road",
+                "Mut Wah Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         },
         {
           "date": "1961-01-13",
@@ -12278,6 +12788,83 @@
       ]
     },
     {
+      "timeline_id": "code:10630",
+      "street_code": "10630",
+      "street_name_en": "Gullane Road",
+      "street_name_zh": "嘉齡道",
+      "canonical_naming_year": 1950,
+      "canonical_naming_date": "1950-09-15",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10630",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1950-09-15",
+          "change_kind": "declare",
+          "name_en": "Gullane Road",
+          "name_zh": "嘉齡道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1083",
+          "notice_label_zh": "第1083號",
+          "notice_url_en": "/egazette/en/1950-gn1083.pdf",
+          "notice_url_zh": "/egazette/zh/1950-gn1083.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 1083. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Gullane Road (嘉齡道): Road commencing at its junction with Argyle Street, running south-easterly, and terminating at its junction with Perth Street as shown coloured red on plan No. R.K. 134 signed by the Director of Public Works and dated 8th September, 1950.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 134",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Argyle Street",
+                "Perth Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10632",
       "street_code": "10632",
       "street_name_en": "Ha Heung Road",
@@ -12827,6 +13414,84 @@
           "source": "egazette_pdf",
           "submitter_remarks": null,
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10649",
+      "street_code": "10649",
+      "street_name_en": "Hang On Street",
+      "street_name_zh": "恆安街",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10649",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Hang On Street",
+          "name_zh": "恆安街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Hang On Street (恆安街): Road commencing at its junction with Luen On Street 300 feet north west of Ngau Tau Kok Road running in an easterly direction and terminating at its junction with Tung Ming Street as shown hatched yellow on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "yellow",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Luen On Street",
+                "Ngau Tau Kok Road",
+                "Tung Ming Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -14890,6 +15555,161 @@
       ]
     },
     {
+      "timeline_id": "code:10737",
+      "street_code": "10737",
+      "street_name_en": "Hing Yip Street",
+      "street_name_zh": "興業街",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10737",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Hing Yip Street",
+          "name_zh": "興業街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Hing Yip Street (興業街): Road commencing at its junction with Hoi Yuen Road 400 feet north east of Hung To Road running in a south easterly direction and terminating at its junction with King Yip Street as shown hatched brown on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "brown",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Hoi Yuen Road",
+                "Hung To Road",
+                "King Yip Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10739",
+      "street_code": "10739",
+      "street_name_en": "Hip Wo Street",
+      "street_name_zh": "協和街",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10739",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Hip Wo Street",
+          "name_zh": "協和街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Hip Wo Street (協和街): Road commencing at its junction with Yue Man Square running in a north easterly direction and terminating at its junction with Mut Wah Road as shown cross hatched brown on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "brown",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Yue Man Square",
+                "Mut Wah Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10741",
       "street_code": "10741",
       "street_name_en": "Hiram's Highway",
@@ -15283,10 +16103,10 @@
       "street_code": "10765",
       "street_name_en": "Hoi Bun Road",
       "street_name_zh": "海濱道",
-      "canonical_naming_year": 1979,
-      "canonical_naming_date": "1979-11-09",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "10765",
@@ -15294,6 +16114,64 @@
         "district_hint": null
       },
       "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Hoi Bun Road",
+          "name_zh": "海濱道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Hoi Bun Road (海濱道): Road commencing from the south side of Jordan River Nullah and including the concourse area of the proposed Kun Tong Public Pier at the end of Hoi Yuen Road as shown coloured blue on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "blue",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Hoi Yuen Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        },
         {
           "date": "1979-11-09",
           "change_kind": "declare",
@@ -16040,7 +16918,7 @@
       "geometry_link": {
         "status": "active",
         "street_code": "10788",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -16053,8 +16931,8 @@
           "previous_name_zh": null,
           "notice_label_en": "G.N.264",
           "notice_label_zh": "第264號",
-          "notice_url_en": "/egazette/en/2026-30-07-996.pdf",
-          "notice_url_zh": "/egazette/zh/2026-30-07-996.pdf",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
           "evidence_kind": "gazette_inferred",
           "is_declaration_event": true,
           "event_role": "current_name",
@@ -16322,6 +17200,82 @@
       ]
     },
     {
+      "timeline_id": "code:10833",
+      "street_code": "10833",
+      "street_name_en": "Hong Ning Road",
+      "street_name_zh": "康寧道",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10833",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Hong Ning Road",
+          "name_zh": "康寧道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Hong Ning Road (康寧道): Road commencing at its junction with Kun Tong Road 200 feet west of the China Light & Power Sub Station running in a north easterly direction for approximately 120 yards thence in a north westerly direction for approximately 400 yards and curving in a north easterly direction for approximately 160 yards as shown coloured burnt sienna on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "burnt sienna",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Kun Tong Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10836",
       "street_code": "10836",
       "street_name_en": "Hong Ping Street",
@@ -16464,6 +17418,162 @@
           "source": "hkgro",
           "submitter_remarks": null,
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10859",
+      "street_code": "10859",
+      "street_name_en": "How Ming Lane",
+      "street_name_zh": "巧明里",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10859",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "How Ming Lane",
+          "name_zh": "巧明里",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— How Ming Lane (巧明里): Pedestrian way commencing at its junction with How Ming Street 200 feet north east of Hung To Road running in a north easterly direction and terminating at its junction with Kun Tong Road as shown cross hatched orange on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "pedestrian way",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "orange",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "How Ming Street",
+                "Hung To Road",
+                "Kun Tong Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10860",
+      "street_code": "10860",
+      "street_name_en": "How Ming Street",
+      "street_name_zh": "巧明街",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10860",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "How Ming Street",
+          "name_zh": "巧明街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— How Ming Street (巧明街): Road commencing at its junction with Hoi Bun Road 1,000 feet south east of Lai Yip Street running in a north easterly direction for approximately 330 yards thence in a south easterly direction and terminating at its junction with Hoi Yuen Road as shown hatched black on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "black",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Hoi Bun Road",
+                "Lai Yip Street",
+                "Hoi Yuen Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -16916,6 +18026,83 @@
       ]
     },
     {
+      "timeline_id": "code:10876",
+      "street_code": "10876",
+      "street_name_en": "Hung To Road",
+      "street_name_zh": "鴻圖道",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10876",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Hung To Road",
+          "name_zh": "鴻圖道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Hung To Road (鴻圖道): Road commencing at its junction with Lai Yip Street and terminating at its junction with King Yip Street as shown coloured green on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "green",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Lai Yip Street",
+                "King Yip Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10877",
       "street_code": "10877",
       "street_name_en": "Hung Wan Street",
@@ -17218,6 +18405,77 @@
       ]
     },
     {
+      "timeline_id": "code:10884",
+      "street_code": "10884",
+      "street_name_en": "Inverness Road",
+      "street_name_zh": "延文禮士道",
+      "canonical_naming_year": 1950,
+      "canonical_naming_date": "1950-07-21",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10884",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1950-07-21",
+          "change_kind": "declare",
+          "name_en": "Inverness Road",
+          "name_zh": "延文禮士道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.868",
+          "notice_label_zh": "第868號",
+          "notice_url_en": "/egazette/en/1950-gn867-868-869.pdf",
+          "notice_url_zh": null,
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 868. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Inverness Road (延文禮士道): Road extending in a northerly direction from its junction with Nga Tsin Wai Road adjoining the west boundary of N.K.I.L. 3573 and terminating at its junction with Dumbarton Road adjoining the west boundary of N.K.I.L. 1382.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Nga Tsin Wai Road",
+                "Dumbarton Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10888",
       "street_code": "10888",
       "street_name_en": "Island Road (Deep Water Bay)",
@@ -17446,6 +18704,84 @@
               "formerly_section_of_en": null,
               "split_boundary_en": null,
               "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10894",
+      "street_code": "10894",
+      "street_name_en": "Jardine's Crescent",
+      "street_name_zh": "渣甸坊",
+      "canonical_naming_year": 1950,
+      "canonical_naming_date": "1950-06-09",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10894",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1950-06-09",
+          "change_kind": "declare",
+          "name_en": "Jardine's Crescent",
+          "name_zh": "渣甸坊",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.712",
+          "notice_label_zh": "第712號",
+          "notice_url_en": "/egazette/en/1950-gn712.pdf",
+          "notice_url_zh": "/egazette/zh/1950-gn712.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 712. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Jardine's Crescent (渣甸坊): Road extending from its west junction with Jardine's Bazaar near Yee Wo Street, to its east junction with Jardine's Bazaar near Pennington Street as shown coloured red on plan No. R.H. 116 signed by the Director of Public Works and dated 5th June, 1950.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.H. 116",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Jardine's Bazaar",
+                "Yee Wo Street",
+                "Pennington Street"
+              ],
               "unnamed_junction_refs_en": [],
               "replaces_gn_labels": [],
               "merged_from_en": [],
@@ -20654,6 +21990,162 @@
       ]
     },
     {
+      "timeline_id": "code:11035",
+      "street_code": "11035",
+      "street_name_en": "King Yip Lane",
+      "street_name_zh": "敬業里",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11035",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "King Yip Lane",
+          "name_zh": "敬業里",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— King Yip Lane (敬業里): Pedestrian way commencing at its junction with Shing Yip Street at its junction with King Yip Street running in a north easterly direction and terminating at its junction with Kun Tong Road opposite Tsui Ping Road as shown cross hatched blue on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "pedestrian way",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "blue",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Shing Yip Street",
+                "King Yip Street",
+                "Kun Tong Road",
+                "Tsui Ping Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11036",
+      "street_code": "11036",
+      "street_name_en": "King Yip Street",
+      "street_name_zh": "敬業街",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11036",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "King Yip Street",
+          "name_zh": "敬業街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— King Yip Street (敬業街): Road commencing at its junction with Chun Yip Street running in a north easterly direction and terminating at its junction with Shing Yip Street as shown coloured mauve on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "mauve",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Chun Yip Street",
+                "Shing Yip Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:14023",
       "street_code": "14023",
       "street_name_en": "King's Park Hill Road",
@@ -20913,6 +22405,78 @@
           "source": "egazette_pdf",
           "submitter_remarks": null,
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11047",
+      "street_code": "11047",
+      "street_name_en": "Kiu Yam Street",
+      "street_name_zh": "僑蔭街",
+      "canonical_naming_year": 1950,
+      "canonical_naming_date": "1950-08-11",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11047",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1950-08-11",
+          "change_kind": "declare",
+          "name_en": "Kiu Yam Street",
+          "name_zh": "僑蔭街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.938",
+          "notice_label_zh": "第938號",
+          "notice_url_en": "/egazette/en/1950-gn938.pdf",
+          "notice_url_zh": "/egazette/zh/1950-gn938.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 938. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Kiu Yam Street (僑蔭街): Cul-de-Sac running in a south westerly direction off Kowloon Road between Yen Chow Street and Kiu Kiang Street.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "cul-de-sac",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Kowloon Road",
+                "Yen Chow Street",
+                "Kiu Kiang Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -21627,74 +23191,6 @@
           "source": "hkgro",
           "submitter_remarks": null,
           "gazette_location": null
-        }
-      ]
-    },
-    {
-      "timeline_id": "code:11143",
-      "street_code": "11143",
-      "street_name_en": "Kun Tong Road",
-      "street_name_zh": "觀塘道",
-      "canonical_naming_year": 1947,
-      "canonical_naming_date": "1947-07-02",
-      "derivation_reason": "declaration_earliest",
-      "event_count": 1,
-      "geometry_link": {
-        "status": "active",
-        "street_code": "11143",
-        "method": "batch_link_street_code",
-        "district_hint": null
-      },
-      "name_history": [
-        {
-          "date": "1947-07-02",
-          "change_kind": "declare",
-          "name_en": "Kun Tong Road",
-          "name_zh": "觀塘道",
-          "previous_name_en": null,
-          "previous_name_zh": null,
-          "notice_label_en": "G.N.543",
-          "notice_label_zh": "第543號",
-          "notice_url_en": "/egazette/en/1947-gn543.pdf",
-          "notice_url_zh": null,
-          "evidence_kind": "gazette_primary",
-          "is_declaration_event": true,
-          "event_role": "current_name",
-          "derived_from": null,
-          "evidence_kind_note": null,
-          "supplementary_evidence": null,
-          "source": "hkgro",
-          "submitter_remarks": "Gazette EN Kun Tong; centreline KWUN TONG ROAD.",
-          "gazette_location": {
-            "description_raw_en": "Road commencing at what was formerly known as the junction of Sai Kung Road & Customs Pass Road & running in a south-easterly direction towards Kun Tong (formerly known as part of Sai Kung Road).",
-            "description_raw_zh": null,
-            "parsed": {
-              "road_form": null,
-              "is_cul_de_sac": false,
-              "is_highway": false,
-              "is_proposed": false,
-              "is_partially_formed": false,
-              "suffix_pending_removal": false,
-              "includes_boundary_sections": false,
-              "is_open_space": false,
-              "commences_at_en": null,
-              "terminates_at_en": null,
-              "runs": [],
-              "length_m": null,
-              "length_unit": null,
-              "plan_refs": [],
-              "district_en": null,
-              "district_zh": null,
-              "lot_refs": [],
-              "formerly_section_of_en": null,
-              "split_boundary_en": null,
-              "referenced_streets_en": [],
-              "unnamed_junction_refs_en": [],
-              "replaces_gn_labels": [],
-              "merged_from_en": [],
-              "merged_from_zh": []
-            }
-          }
         }
       ]
     },
@@ -22962,6 +24458,76 @@
       ]
     },
     {
+      "timeline_id": "Kwong Chiu Terrace|光照台",
+      "street_code": null,
+      "street_name_en": "Kwong Chiu Terrace",
+      "street_name_zh": "光照台",
+      "canonical_naming_year": 1950,
+      "canonical_naming_date": "1950-05-05",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1950-05-05",
+          "change_kind": "declare",
+          "name_en": "Kwong Chiu Terrace",
+          "name_zh": "光照台",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.581",
+          "notice_label_zh": "第581號",
+          "notice_url_en": "/egazette/en/1950-gn581.pdf",
+          "notice_url_zh": "/egazette/zh/1950-gn581.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 581. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Kwong Chiu Terrace (光照台): Road extending in a south-westerly direction from its junction with the road to Fortress Hill at about 60 yards south of King's Road and then within the Remaining Portion of Inland Lot 5258 and terminating at the western boundary of the lot.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "King's Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:11120",
       "street_code": "11120",
       "street_name_en": "Kwong Fai Circuit",
@@ -23459,6 +25025,130 @@
           "source": "egazette_pdf",
           "submitter_remarks": null,
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11143",
+      "street_code": "11143",
+      "street_name_en": "Kwun Tong Road",
+      "street_name_zh": "觀塘道",
+      "canonical_naming_year": 1947,
+      "canonical_naming_date": "1947-07-02",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 2,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11143",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1947-07-02",
+          "change_kind": "declare",
+          "name_en": "Kun Tong Road",
+          "name_zh": "觀塘道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.543",
+          "notice_label_zh": "第543號",
+          "notice_url_en": "/egazette/en/1947-gn543.pdf",
+          "notice_url_zh": null,
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "hkgro",
+          "submitter_remarks": "Gazette EN Kun Tong; centreline KWUN TONG ROAD.",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at what was formerly known as the junction of Sai Kung Road & Customs Pass Road & running in a south-easterly direction towards Kun Tong (formerly known as part of Sai Kung Road).",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        },
+        {
+          "date": "1957-02-22",
+          "change_kind": "extend",
+          "name_en": "Kwun Tong Road",
+          "name_zh": "觀塘道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Kwun Tong Road (觀塘道): Extension of Kun Tong Road commencing at the north east corner of N.K.I.L. 63 passing to the west of Ngau Tau Kok Village, Kun Tong Housing Zones 1 and 3, Ham Tin Chuen and terminating at Lye Mun as shown coloured red on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -24023,6 +25713,83 @@
           "source": "landsd",
           "submitter_remarks": null,
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11168",
+      "street_code": "11168",
+      "street_name_en": "Lai Yip Street",
+      "street_name_zh": "勵業街",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11168",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Lai Yip Street",
+          "name_zh": "勵業街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Lai Yip Street (勵業街): Road commencing at its junction with Hoi Bun Road and terminating at its junction with Kun Tong Road as shown coloured red on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Hoi Bun Road",
+                "Kun Tong Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -26228,6 +27995,82 @@
           "source": "hkgro",
           "submitter_remarks": null,
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11292",
+      "street_code": "11292",
+      "street_name_en": "Luen On Street",
+      "street_name_zh": "聯安街",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11292",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Luen On Street",
+          "name_zh": "聯安街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Luen On Street (聯安街): Road commencing at its junction with Ngau Tau Kok Road opposite the Government School site running in a north westerly direction for approximately 130 yards as shown cross hatched red on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Ngau Tau Kok Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -30899,6 +32742,160 @@
       ]
     },
     {
+      "timeline_id": "code:11486",
+      "street_code": "11486",
+      "street_name_en": "Mut Wah Road",
+      "street_name_zh": "物華道",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11486",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Mut Wah Road",
+          "name_zh": "物華道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Mut Wah Road (物華道): Road commencing at its junction with Hong Ning Road 500 feet north east of Kun Tong Road running in an easterly direction for approximately 770 yards as shown coloured brown on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "brown",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Hong Ning Road",
+                "Kun Tong Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "Nairn Road|楠道",
+      "street_code": null,
+      "street_name_en": "Nairn Road",
+      "street_name_zh": "楠道",
+      "canonical_naming_year": 1950,
+      "canonical_naming_date": "1950-09-15",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1950-09-15",
+          "change_kind": "declare",
+          "name_en": "Nairn Road",
+          "name_zh": "楠道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1083",
+          "notice_label_zh": "第1083號",
+          "notice_url_en": "/egazette/en/1950-gn1083.pdf",
+          "notice_url_zh": "/egazette/zh/1950-gn1083.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 1083. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Nairn Road (楠道): Road commencing at Argyle Street near Waterloo Road, running south-easterly, as shown coloured red on plan No. R.K. 133 signed by the Director of Public Works and dated 8th September, 1950.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 133",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Argyle Street",
+                "Waterloo Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:11804",
       "street_code": "11804",
       "street_name_en": "Nakameiji-dori",
@@ -32046,6 +34043,83 @@
       ]
     },
     {
+      "timeline_id": "code:11535",
+      "street_code": "11535",
+      "street_name_en": "Ngau Tau Kok Road",
+      "street_name_zh": "牛頭角道",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11535",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Ngau Tau Kok Road",
+          "name_zh": "牛頭角道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Ngau Tau Kok Road (牛頭角道): Road commencing at its junction with Kun Tong Road near the north east corner of N.K.I.L. 1969 running in a north westerly direction towards River Jordan north of Ngau Tau Kok Village and terminating at its junction with Hong Ning Road as shown coloured green on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "green",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Kun Tong Road",
+                "Hong Ning Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "Ngau Tau Kok Second Street|牛頭角第二街",
       "street_code": null,
       "street_name_en": "Ngau Tau Kok Second Street",
@@ -32679,6 +34753,82 @@
           "source": "hkgro",
           "submitter_remarks": null,
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11561",
+      "street_code": "11561",
+      "street_name_en": "Observatory Court",
+      "street_name_zh": "天文台圍",
+      "canonical_naming_year": 1950,
+      "canonical_naming_date": "1950-09-29",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11561",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1950-09-29",
+          "change_kind": "declare",
+          "name_en": "Observatory Court",
+          "name_zh": "天文台圍",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1135",
+          "notice_label_zh": "第1135號",
+          "notice_url_en": "/egazette/en/1950-gn1135.pdf",
+          "notice_url_zh": "/egazette/zh/1950-gn1135.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 1135. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Observatory Court (天文台圍): Cul-de-sac commencing at its junction with Observatory Road and terminating at a path leading to K.I.L. 441 as shown coloured red on P.W.D. Drawing No. R.K. 141 signed by the Director of Public Works and dated 21st September, 1950.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "cul-de-sac",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 141",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Observatory Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -34647,6 +36797,84 @@
           "source": "hkgro",
           "submitter_remarks": null,
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11686",
+      "street_code": "11686",
+      "street_name_en": "Perth Street",
+      "street_name_zh": "巴富街",
+      "canonical_naming_year": 1950,
+      "canonical_naming_date": "1950-09-15",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11686",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1950-09-15",
+          "change_kind": "declare",
+          "name_en": "Perth Street",
+          "name_zh": "巴富街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1083",
+          "notice_label_zh": "第1083號",
+          "notice_url_en": "/egazette/en/1950-gn1083.pdf",
+          "notice_url_zh": "/egazette/zh/1950-gn1083.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 1083. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Perth Street (巴富街): Road parallel to and south-east of Argyle Street, commencing at Nairn Road, running north-easterly, and terminating at Mission Road as shown coloured red on plan No. R.K. 135 signed by the Director of Public Works and dated 8th September, 1950.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 135",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Argyle Street",
+                "Nairn Road",
+                "Mission Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -43121,6 +45349,84 @@
       ]
     },
     {
+      "timeline_id": "code:12063",
+      "street_code": "12063",
+      "street_name_en": "Shing Yip Street",
+      "street_name_zh": "成業街",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12063",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Shing Yip Street",
+          "name_zh": "成業街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Shing Yip Street (成業街): Road commencing at its junction with Hoi Yuen Road 500 feet north east of Hing Yip Street running in a south easterly direction and terminating at its junction with King Yip Street as shown hatched blue on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "blue",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Hoi Yuen Road",
+                "Hing Yip Street",
+                "King Yip Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:12069",
       "street_code": "12069",
       "street_name_en": "Short Street",
@@ -46181,6 +48487,78 @@
           "source": "hkgro",
           "submitter_remarks": "Gazette ZH 舒梨里; database 舒梨道.",
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12198",
+      "street_code": "12198",
+      "street_name_en": "Sycamore Street",
+      "street_name_zh": "詩歌舞街",
+      "canonical_naming_year": 1950,
+      "canonical_naming_date": "1950-07-28",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12198",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1950-07-28",
+          "change_kind": "declare",
+          "name_en": "Sycamore Street",
+          "name_zh": "詩歌舞街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.900",
+          "notice_label_zh": "第900號",
+          "notice_url_en": "/egazette/en/1950-gn900.pdf",
+          "notice_url_zh": "/egazette/zh/1950-gn900.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 900. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Sycamore Street (詩歌舞街): Road extending from Prince Edward Road across Maple Street to Tai Kok Tsui Road.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Prince Edward Road",
+                "Maple Street",
+                "Tai Kok Tsui Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -52014,6 +54392,82 @@
       ]
     },
     {
+      "timeline_id": "code:12480",
+      "street_code": "12480",
+      "street_name_en": "Tsui Ping Road",
+      "street_name_zh": "翠屏道",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12480",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Tsui Ping Road",
+          "name_zh": "翠屏道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Tsui Ping Road (翠屏道): Road commencing at its junction with Kun Tong Road south east of the site reserved for a Police Station running in a north easterly direction for approximately 200 yards thence in a north westerly direction for approximately 850 yards as shown coloured purple on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "purple",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Kun Tong Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:12481",
       "street_code": "12481",
       "street_name_en": "Tsun Fat Street",
@@ -52127,6 +54581,161 @@
           "source": "hkgro",
           "submitter_remarks": null,
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12485",
+      "street_code": "12485",
+      "street_name_en": "Tsun Yip Lane",
+      "street_name_zh": "駿業里",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12485",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Tsun Yip Lane",
+          "name_zh": "駿業里",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Tsun Yip Lane (駿業里): Pedestrian way commencing at its junction with How Ming Street at its junction with Tsun Yip Street running in a north easterly direction and terminating at its junction with Yue Man Square as shown cross hatched purple on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "pedestrian way",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "purple",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "How Ming Street",
+                "Tsun Yip Street",
+                "Yue Man Square"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12486",
+      "street_code": "12486",
+      "street_name_en": "Tsun Yip Street",
+      "street_name_zh": "駿業街",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12486",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Tsun Yip Street",
+          "name_zh": "駿業街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Tsun Yip Street (駿業街): Road commencing at its junction with Hoi Bun Road 1,000 feet south east of How Ming Street running in a north easterly direction and terminating at its junction with How Ming Street as shown hatched red on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Hoi Bun Road",
+                "How Ming Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -53191,6 +55800,83 @@
       ]
     },
     {
+      "timeline_id": "code:12531",
+      "street_code": "12531",
+      "street_name_en": "Tung Ming Street",
+      "street_name_zh": "通明街",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12531",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Tung Ming Street",
+          "name_zh": "通明街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Tung Ming Street (通明街): Road commencing at its junction with Ngau Tau Kok Road 200 feet west of Hong Ning Road running in a north easterly direction for approximately 60 yards thence in a north westerly direction for approximately 260 yards thence in a north easterly direction and terminating at its junction with Hong Ning Road as shown hatched purple on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "purple",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Ngau Tau Kok Road",
+                "Hong Ning Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:12532",
       "street_code": "12532",
       "street_name_en": "Tung On Street",
@@ -53431,6 +56117,83 @@
           "source": "landsd",
           "submitter_remarks": null,
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12550",
+      "street_code": "12550",
+      "street_name_en": "Tung Yan Street",
+      "street_name_zh": "同仁街",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12550",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Tung Yan Street",
+          "name_zh": "同仁街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Tung Yan Street (同仁街): Road commencing at its junction with Kun Tong Road 700 feet south east of Hong Ning Road running in a north easterly direction for approximately 120 yards as shown cross hatched green on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "green",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Kun Tong Road",
+                "Hong Ning Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -54290,10 +57053,10 @@
       "street_code": "12624",
       "street_name_en": "Wai Yip Street",
       "street_name_zh": "偉業街",
-      "canonical_naming_year": 1976,
-      "canonical_naming_date": "1976-11-12",
-      "derivation_reason": "extension_earliest",
-      "event_count": 4,
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 5,
       "geometry_link": {
         "status": "active",
         "street_code": "12624",
@@ -54321,6 +57084,66 @@
           "source": "crowdsubmitted",
           "submitter_remarks": "Former name attested in G.N.929 rename proposal and G.N.1218 discontinuation notice.",
           "gazette_location": null
+        },
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Chun Yip Street",
+          "name_zh": "駿業街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Chun Yip Street (駿業街): Road commencing at its junction with Hoi Yuen Road 300 feet north east of Hoi Bun Road running in a south easterly direction and terminating at its junction with King Yip Street as shown hatched burnt sienna on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "burnt sienna",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Hoi Yuen Road",
+                "Hoi Bun Road",
+                "King Yip Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         },
         {
           "date": "1960-07-22",
@@ -54465,6 +57288,158 @@
               "formerly_section_of_en": null,
               "split_boundary_en": null,
               "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12625",
+      "street_code": "12625",
+      "street_name_en": "Walker Road",
+      "street_name_zh": "獲嘉道",
+      "canonical_naming_year": 1950,
+      "canonical_naming_date": "1950-07-21",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12625",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1950-07-21",
+          "change_kind": "declare",
+          "name_en": "Walker Road",
+          "name_zh": "獲嘉道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.869",
+          "notice_label_zh": "第869號",
+          "notice_url_en": "/egazette/en/1950-gn867-868-869.pdf",
+          "notice_url_zh": null,
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 869. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Walker Road (獲嘉道): Road extending from its junction with Baker Street between the public latrine and H.H.I.L. 281, across Cooke Street, Bulkeley Street and Wuhu Street, and terminating between H.H.I.L.s 214 and 215.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Baker Street",
+                "Cooke Street",
+                "Bulkeley Street",
+                "Wuhu Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12626",
+      "street_code": "12626",
+      "street_name_en": "Walnut Street",
+      "street_name_zh": "合桃街",
+      "canonical_naming_year": 1950,
+      "canonical_naming_date": "1950-09-29",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12626",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1950-09-29",
+          "change_kind": "declare",
+          "name_en": "Walnut Street",
+          "name_zh": "合桃街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1135",
+          "notice_label_zh": "第1135號",
+          "notice_url_en": "/egazette/en/1950-gn1135.pdf",
+          "notice_url_zh": "/egazette/zh/1950-gn1135.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 1135. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Walnut Street (合桃街): Road commencing at Fuk Tsun Street, crossing Larch Street and Bedford Road, and terminating at Tung Chau Street as shown coloured red on plan No. R.K. 140 signed by the Director of Public Works and dated 21st September, 1950.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 140",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Fuk Tsun Street",
+                "Larch Street",
+                "Bedford Road",
+                "Tung Chau Street"
+              ],
               "unnamed_junction_refs_en": [],
               "replaces_gn_labels": [],
               "merged_from_en": [],
@@ -55633,6 +58608,79 @@
           "source": "egazette_pdf",
           "submitter_remarks": null,
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12706",
+      "street_code": "12706",
+      "street_name_en": "Willow Street",
+      "street_name_zh": "柳樹街",
+      "canonical_naming_year": 1950,
+      "canonical_naming_date": "1950-07-28",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12706",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1950-07-28",
+          "change_kind": "declare",
+          "name_en": "Willow Street",
+          "name_zh": "柳樹街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.900",
+          "notice_label_zh": "第900號",
+          "notice_url_en": "/egazette/en/1950-gn900.pdf",
+          "notice_url_zh": "/egazette/zh/1950-gn900.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 900. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Willow Street (柳樹街): Road extending from Tung Chau Street near Poplar Street across Maple Street to Tai Kok Tsui Road.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Tung Chau Street",
+                "Poplar Street",
+                "Maple Street",
+                "Tai Kok Tsui Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -58664,6 +61712,84 @@
       ]
     },
     {
+      "timeline_id": "code:12846",
+      "street_code": "12846",
+      "street_name_en": "Yee On Street",
+      "street_name_zh": "宜安街",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12846",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Yee On Street",
+          "name_zh": "宜安街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Yee On Street (宜安街): Road commencing at its junction with Luen On Street 150 feet north west of Ngau Tau Kok Road running in an easterly direction and terminating at its junction with Hong Ning Road as shown hatched orange on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "orange",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Luen On Street",
+                "Ngau Tau Kok Road",
+                "Hong Ning Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "Yeung Fan Lane North|揚帆里北",
       "street_code": null,
       "street_name_en": "Yeung Fan Lane North",
@@ -59944,6 +63070,84 @@
               "formerly_section_of_en": null,
               "split_boundary_en": null,
               "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12906",
+      "street_code": "12906",
+      "street_name_en": "Yue Man Square",
+      "street_name_zh": "裕民坊",
+      "canonical_naming_year": 1957,
+      "canonical_naming_date": "1957-02-22",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12906",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1957-02-22",
+          "change_kind": "declare",
+          "name_en": "Yue Man Square",
+          "name_zh": "裕民坊",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.264",
+          "notice_label_zh": "第264號",
+          "notice_url_en": "/egazette/en/1957-gn264.pdf",
+          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Yue Man Square (裕民坊): Road commencing at its junction with Hong Ning Road 200 feet north east of Kun Tong Road running in a south easterly direction and terminating at its junction with Tung Yan Street including a public square as shown cross hatched orange on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": true,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "orange",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Hong Ning Road",
+                "Kun Tong Road",
+                "Tung Yan Street"
+              ],
               "unnamed_junction_refs_en": [],
               "replaces_gn_labels": [],
               "merged_from_en": [],

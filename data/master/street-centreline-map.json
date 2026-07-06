@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-06T16:06:49.786Z",
+  "updated_at": "2026-07-06T16:28:43.948Z",
   "links": [
     {
       "timeline_id": "code:10003",
@@ -268,14 +268,14 @@
       "timeline_id": "code:10061",
       "street_code": "10061",
       "event_ids": [
-        "crowd|2013-gn5353-berwick-street-10061-1950-06-24"
+        "crowd|1950-gn804-berwick-street-Berwick-Street-巴域街-1950-06-30"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10062",
@@ -833,6 +833,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10182",
+      "street_code": "10182",
+      "event_ids": [
+        "crowd|1950-gn867-868-869-kowloon-tong-streets-Chester-Road-志士達道-1950-07-21"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10188",
       "street_code": "10188",
       "event_ids": [
@@ -1288,6 +1301,19 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:10312",
+      "street_code": "10312",
+      "event_ids": [
+        "crowd|1950-gn1471-clementi-road-Clementi-Road-金文泰道-1950-12-29"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10315",
       "street_code": "10315",
       "event_ids": [
@@ -1504,13 +1530,14 @@
       "timeline_id": "code:10371",
       "street_code": "10371",
       "event_ids": [
-        "crowd|1937-gn682-island-roads-10371-1937-09-24"
+        "crowd|1937-gn682-island-roads-10371-1937-09-24",
+        "crowd|1950-gn28-deep-water-bay-road-Deep-Water-Bay-Road-深水灣道-1950-01-06"
       ],
       "status": "active",
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-24",
+      "linked_at": "2026-07-06",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -1590,6 +1617,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10390",
+      "street_code": "10390",
+      "event_ids": [
+        "crowd|1950-gn900-kowloon-streets-Dumbarton-Road-東寶庭道-1950-07-28"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10395",
@@ -2070,13 +2110,27 @@
       "street_code": "10536",
       "event_ids": [
         "crowd|1961-gn50-fu-yan-street-Fu-Yan-Street-輔仁街-",
-        "crowd|1961-gn50-fu-yan-street-Fu-Yan-Street-輔仁街-1961-01-13"
+        "crowd|1961-gn50-fu-yan-street-Fu-Yan-Street-輔仁街-1961-01-13",
+        "crowd|1957-gn264-kwun-tong-streets-Fu-Yan-Street-輔仁街-1957-02-22"
       ],
       "status": "active",
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-22",
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10537",
+      "street_code": "10537",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-Foo-Yip-Street-富業街-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -2409,6 +2463,19 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:10630",
+      "street_code": "10630",
+      "event_ids": [
+        "crowd|1950-gn1083-ho-man-tin-streets-Gullane-Road-嘉齡道-1950-09-15"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10632",
       "street_code": "10632",
       "event_ids": [
@@ -2487,6 +2554,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10649",
+      "street_code": "10649",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-Hang-On-Street-恆安街-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -2898,6 +2978,32 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:10737",
+      "street_code": "10737",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-Hing-Yip-Street-興業街-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10739",
+      "street_code": "10739",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-Hip-Wo-Street-協和街-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10741",
       "street_code": "10741",
       "event_ids": [
@@ -3005,13 +3111,14 @@
       "timeline_id": "code:10765",
       "street_code": "10765",
       "event_ids": [
-        "crowd|1979-gn2898-kwun-tong-streets-Hoi-Bun-Road-海濱道-1979-11-09"
+        "crowd|1979-gn2898-kwun-tong-streets-Hoi-Bun-Road-海濱道-1979-11-09",
+        "crowd|1957-gn264-kwun-tong-streets-Hoi-Bun-Road-海濱道-1957-02-22"
       ],
       "status": "active",
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-22",
+      "linked_at": "2026-07-06",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -3109,14 +3216,15 @@
       "timeline_id": "code:10788",
       "street_code": "10788",
       "event_ids": [
-        "crowd|2026-gn996-hoi-yuen-kei-yip-lane-10788-1957-02-22"
+        "crowd|2026-gn996-hoi-yuen-kei-yip-lane-10788-1957-02-22",
+        "crowd|1957-gn264-kwun-tong-streets-Hoi-Yuen-Road-開源道-1957-02-22"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10789",
@@ -3184,6 +3292,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10833",
+      "street_code": "10833",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-Hong-Ning-Road-康寧道-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10836",
       "street_code": "10836",
       "event_ids": [
@@ -3221,6 +3342,32 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10859",
+      "street_code": "10859",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-How-Ming-Lane-巧明里-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10860",
+      "street_code": "10860",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-How-Ming-Street-巧明街-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10863",
@@ -3301,6 +3448,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10876",
+      "street_code": "10876",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-Hung-To-Road-鴻圖道-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10877",
       "street_code": "10877",
       "event_ids": [
@@ -3353,6 +3513,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10884",
+      "street_code": "10884",
+      "event_ids": [
+        "crowd|1950-gn867-868-869-kowloon-tong-streets-Inverness-Road-延文禮士道-1950-07-21"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10888",
       "street_code": "10888",
       "event_ids": [
@@ -3392,6 +3565,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10894",
+      "street_code": "10894",
+      "event_ids": [
+        "crowd|1950-gn712-jardines-crescent-Jardine-s-Crescent-渣甸坊-1950-06-09"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -4090,6 +4276,32 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11035",
+      "street_code": "11035",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-King-Yip-Lane-敬業里-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11036",
+      "street_code": "11036",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-King-Yip-Street-敬業街-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11038",
       "street_code": "11038",
       "event_ids": [
@@ -4127,6 +4339,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11047",
+      "street_code": "11047",
+      "event_ids": [
+        "crowd|1950-gn938-kiu-yam-street-Kiu-Yam-Street-僑蔭街-1950-08-11"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11048",
@@ -4671,13 +4896,14 @@
       "timeline_id": "code:11143",
       "street_code": "11143",
       "event_ids": [
-        "crowd|1947-gn543-nt-roads-Kwun-Tong-Road-觀塘道-1947-07-02"
+        "crowd|1947-gn543-nt-roads-Kwun-Tong-Road-觀塘道-1947-07-02",
+        "crowd|1957-gn264-kwun-tong-streets-Kwun-Tong-Road-觀塘道-1957-02-22"
       ],
       "status": "active",
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-22",
+      "linked_at": "2026-07-06",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -4743,6 +4969,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11168",
+      "street_code": "11168",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-Lai-Yip-Street-勵業街-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -5227,6 +5466,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11292",
+      "street_code": "11292",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-Luen-On-Street-聯安街-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11298",
@@ -6029,6 +6281,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:11486",
+      "street_code": "11486",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-Mut-Wah-Road-物華道-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11487",
       "street_code": "11487",
       "event_ids": [
@@ -6189,6 +6454,19 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:11535",
+      "street_code": "11535",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-Ngau-Tau-Kok-Road-牛頭角道-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11545",
       "street_code": "11545",
       "event_ids": [
@@ -6279,6 +6557,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-21",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11561",
+      "street_code": "11561",
+      "event_ids": [
+        "crowd|1950-gn1135-tsim-sha-tsui-streets-Observatory-Court-天文台圍-1950-09-29"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -6672,6 +6963,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:11686",
+      "street_code": "11686",
+      "event_ids": [
+        "crowd|1950-gn1083-ho-man-tin-streets-Perth-Street-巴富街-1950-09-15"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11687",
@@ -8216,6 +8520,19 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:12063",
+      "street_code": "12063",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-Shing-Yip-Street-成業街-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12068",
       "street_code": "12068",
       "event_ids": [
@@ -8802,6 +9119,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12198",
+      "street_code": "12198",
+      "event_ids": [
+        "crowd|1950-gn900-kowloon-streets-Sycamore-Street-詩歌舞街-1950-07-28"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12199",
@@ -9871,6 +10201,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12480",
+      "street_code": "12480",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-Tsui-Ping-Road-翠屏道-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12481",
       "street_code": "12481",
       "event_ids": [
@@ -9907,6 +10250,32 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12485",
+      "street_code": "12485",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-Tsun-Yip-Lane-駿業里-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12486",
+      "street_code": "12486",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-Tsun-Yip-Street-駿業街-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -10080,6 +10449,19 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:12531",
+      "street_code": "12531",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-Tung-Ming-Street-通明街-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12532",
       "street_code": "12532",
       "event_ids": [
@@ -10130,6 +10512,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12550",
+      "street_code": "12550",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-Tung-Yan-Street-同仁街-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12556",
@@ -10321,13 +10716,40 @@
         "crowd|1976-gn2519-wai-yip-street-Wai-Yip-Street-偉業街-1976-11-12",
         "crowd|1960-gn1138-wai-yip-street-Wai-Yip-Street-偉業街-",
         "crowd|1960-gn1138-wai-yip-street-Wai-Yip-Street-偉業街-1960-07-22",
-        "crowd|1960-gn1218-chun-yip-discontinued-Chun-Yip-Street-駿業街-1960-08-12"
+        "crowd|1960-gn1218-chun-yip-discontinued-Chun-Yip-Street-駿業街-1960-08-12",
+        "crowd|1957-gn264-kwun-tong-streets-Chun-Yip-Street-駿業街-1957-02-22"
       ],
       "status": "active",
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-24",
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12625",
+      "street_code": "12625",
+      "event_ids": [
+        "crowd|1950-gn867-868-869-kowloon-tong-streets-Walker-Road-獲嘉道-1950-07-21"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12626",
+      "street_code": "12626",
+      "event_ids": [
+        "crowd|1950-gn1135-tsim-sha-tsui-streets-Walnut-Street-合桃街-1950-09-29"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -10486,6 +10908,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12706",
+      "street_code": "12706",
+      "event_ids": [
+        "crowd|1950-gn900-kowloon-streets-Willow-Street-柳樹街-1950-07-28"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12712",
@@ -11076,6 +11511,19 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:12846",
+      "street_code": "12846",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-Yee-On-Street-宜安街-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12858",
       "street_code": "12858",
       "event_ids": [
@@ -11283,6 +11731,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12906",
+      "street_code": "12906",
+      "event_ids": [
+        "crowd|1957-gn264-kwun-tong-streets-Yue-Man-Square-裕民坊-1957-02-22"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
       "linked_by": "apply-crowd-batch"
     },
     {

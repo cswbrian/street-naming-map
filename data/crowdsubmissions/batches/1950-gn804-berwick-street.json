@@ -1,0 +1,40 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1950-gn804-berwick-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.804",
+  "publication_date": "1950-06-30",
+  "gazette_url_en": "/egazette/en/1950-gn804.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1950-gn804.pdf",
+  "streets": [
+    {
+      "link_street_code": "10061",
+      "chinese_name": "巴域街",
+      "english_name": "Berwick Street",
+      "history": [
+        {
+          "event_id": "crowd|2013-gn5353-berwick-street-10061-1950-06-24",
+          "publication_date": "1950-06-30",
+          "change_kind": "declare",
+          "street_name_en": "Berwick Street",
+          "street_name_zh": "巴域街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "derived_from": null,
+          "gazette_location": {
+            "description_raw_en": "No. 804. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Berwick Street (巴域街): Road to the North East of Taipo Road commencing at its junction with Shek Kip Mei Street and running in a north westerly direction and terminating at its junction with Kweilin Street.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Taipo Road",
+                "Shek Kip Mei Street",
+                "Kweilin Street"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

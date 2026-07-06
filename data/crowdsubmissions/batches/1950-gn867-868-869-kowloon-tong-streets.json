@@ -1,0 +1,87 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1950-gn867-868-869-kowloon-tong-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.867",
+  "publication_date": "1950-07-21",
+  "gazette_url_en": "/egazette/en/1950-gn867-868-869.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1950-gn867-868-869.pdf",
+  "streets": [
+    {
+      "link_street_code": "10182",
+      "chinese_name": "志士達道",
+      "english_name": "Chester Road",
+      "history": [
+        {
+          "publication_date": "1950-07-21",
+          "change_kind": "declare",
+          "gazette_notice_label": "G.N.867",
+          "street_name_en": "Chester Road",
+          "street_name_zh": "志士達道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 867. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Chester Road (志士達道): Road extending in a northerly direction from its junction with Flint Road and terminating at its junction with Derby Road, as shown coloured red on plan No. R.K. 124 signed by Director of Public Works and dated 13th July, 1950.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [{ "label": "R.K. 124", "color": "red" }],
+              "referenced_streets_en": ["Flint Road", "Derby Road"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "10884",
+      "chinese_name": "延文禮士道",
+      "english_name": "Inverness Road",
+      "history": [
+        {
+          "publication_date": "1950-07-21",
+          "change_kind": "declare",
+          "gazette_notice_label": "G.N.868",
+          "street_name_en": "Inverness Road",
+          "street_name_zh": "延文禮士道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 868. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Inverness Road (延文禮士道): Road extending in a northerly direction from its junction with Nga Tsin Wai Road adjoining the west boundary of N.K.I.L. 3573 and terminating at its junction with Dumbarton Road adjoining the west boundary of N.K.I.L. 1382.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Nga Tsin Wai Road", "Dumbarton Road"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "12625",
+      "chinese_name": "獲嘉道",
+      "english_name": "Walker Road",
+      "history": [
+        {
+          "publication_date": "1950-07-21",
+          "change_kind": "declare",
+          "gazette_notice_label": "G.N.869",
+          "street_name_en": "Walker Road",
+          "street_name_zh": "獲嘉道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 869. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Walker Road (獲嘉道): Road extending from its junction with Baker Street between the public latrine and H.H.I.L. 281, across Cooke Street, Bulkeley Street and Wuhu Street, and terminating between H.H.I.L.s 214 and 215.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Baker Street",
+                "Cooke Street",
+                "Bulkeley Street",
+                "Wuhu Street"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

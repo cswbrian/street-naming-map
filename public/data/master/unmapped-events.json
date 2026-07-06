@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-06T16:06:51.687Z",
+  "generated_at": "2026-07-06T16:28:46.514Z",
   "source_files": {
     "events": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-events.json",
     "centreline_map": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-centreline-map.json"
   },
   "totals": {
-    "master_events": 1456,
-    "mapped_event_ids": 1119,
-    "unmapped_events": 337,
+    "master_events": 1498,
+    "mapped_event_ids": 1159,
+    "unmapped_events": 340,
     "by_source": {
       "hkgro": 18,
-      "crowdsubmitted": 39,
+      "crowdsubmitted": 42,
       "egazette_pdf": 163,
       "landsd": 117
     }
@@ -63,6 +63,42 @@
       "district_raw_zh": null,
       "notice_no": "GN59",
       "name_key": "Park View|"
+    },
+    {
+      "event_id": "crowd|1950-gn581-kwong-chiu-terrace-Kwong-Chiu-Terrace-光照台-1950-05-05",
+      "source": "crowdsubmitted",
+      "publication_date": "1950-05-05",
+      "change_kind": "declare",
+      "street_name_en": "Kwong Chiu Terrace",
+      "street_name_zh": "光照台",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN581",
+      "name_key": "Kwong Chiu Terrace|光照台"
+    },
+    {
+      "event_id": "crowd|1950-gn1083-ho-man-tin-streets-Nairn-Road-楠道-1950-09-15",
+      "source": "crowdsubmitted",
+      "publication_date": "1950-09-15",
+      "change_kind": "declare",
+      "street_name_en": "Nairn Road",
+      "street_name_zh": "楠道",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1083",
+      "name_key": "Nairn Road|楠道"
+    },
+    {
+      "event_id": "crowd|1957-gn264-kwun-tong-streets-Fu-Yan-Lane-輔仁里-1957-02-22",
+      "source": "crowdsubmitted",
+      "publication_date": "1957-02-22",
+      "change_kind": "declare",
+      "street_name_en": "Fu Yan Lane",
+      "street_name_zh": "輔仁里",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN264",
+      "name_key": "Fu Yan Lane|輔仁里"
     },
     {
       "event_id": "crowd|2017-gn3555-tier-c-1-1957-10-11",

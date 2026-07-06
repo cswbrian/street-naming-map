@@ -1,0 +1,33 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1950-gn581-kwong-chiu-terrace",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.581",
+  "publication_date": "1950-05-05",
+  "gazette_url_en": "/egazette/en/1950-gn581.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1950-gn581.pdf",
+  "streets": [
+    {
+      "chinese_name": "光照台",
+      "english_name": "Kwong Chiu Terrace",
+      "history": [
+        {
+          "publication_date": "1950-05-05",
+          "change_kind": "declare",
+          "street_name_en": "Kwong Chiu Terrace",
+          "street_name_zh": "光照台",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 581. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Kwong Chiu Terrace (光照台): Road extending in a south-westerly direction from its junction with the road to Fortress Hill at about 60 yards south of King's Road and then within the Remaining Portion of Inland Lot 5258 and terminating at the western boundary of the lot.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["King's Road"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

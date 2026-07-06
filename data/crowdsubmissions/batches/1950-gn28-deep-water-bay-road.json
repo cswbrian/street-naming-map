@@ -1,0 +1,38 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1950-gn28-deep-water-bay-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.28",
+  "publication_date": "1950-01-06",
+  "gazette_url_en": "/egazette/en/1950-gn28.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1950-gn28.pdf",
+  "streets": [
+    {
+      "link_street_code": "10371",
+      "chinese_name": "深水灣道",
+      "english_name": "Deep Water Bay Road",
+      "history": [
+        {
+          "publication_date": "1950-01-06",
+          "change_kind": "extend",
+          "street_name_en": "Deep Water Bay Road",
+          "street_name_zh": "深水灣道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 28. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Deep Water Bay Road (深水灣道): Road commencing from Wong Nei Chong Gap to Deep Water Bay, running from the junction of Repulse Bay Road and Black's Link, past the Military Compound at Little Hong Kong, to Island Road near the Golf Club House. Note: A section of the road inside the Military Compound is no longer open to the public.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Repulse Bay Road",
+                "Black's Link",
+                "Island Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1950-gn900-kowloon-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.900",
+  "publication_date": "1950-07-28",
+  "gazette_url_en": "/egazette/en/1950-gn900.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1950-gn900.pdf",
+  "streets": [
+    {
+      "link_street_code": "10390",
+      "chinese_name": "東寶庭道",
+      "english_name": "Dumbarton Road",
+      "history": [
+        {
+          "publication_date": "1950-07-28",
+          "change_kind": "declare",
+          "street_name_en": "Dumbarton Road",
+          "street_name_zh": "東寶庭道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 900. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Dumbarton Road (東寶庭道): Road extending from its junction with Hau Wong Road to the extension of La Salle Road.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Hau Wong Road", "La Salle Road"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "12198",
+      "chinese_name": "詩歌舞街",
+      "english_name": "Sycamore Street",
+      "history": [
+        {
+          "publication_date": "1950-07-28",
+          "change_kind": "declare",
+          "street_name_en": "Sycamore Street",
+          "street_name_zh": "詩歌舞街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 900. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Sycamore Street (詩歌舞街): Road extending from Prince Edward Road across Maple Street to Tai Kok Tsui Road.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Prince Edward Road",
+                "Maple Street",
+                "Tai Kok Tsui Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "12706",
+      "chinese_name": "柳樹街",
+      "english_name": "Willow Street",
+      "history": [
+        {
+          "publication_date": "1950-07-28",
+          "change_kind": "declare",
+          "street_name_en": "Willow Street",
+          "street_name_zh": "柳樹街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 900. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Willow Street (柳樹街): Road extending from Tung Chau Street near Poplar Street across Maple Street to Tai Kok Tsui Road.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Tung Chau Street",
+                "Poplar Street",
+                "Maple Street",
+                "Tai Kok Tsui Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

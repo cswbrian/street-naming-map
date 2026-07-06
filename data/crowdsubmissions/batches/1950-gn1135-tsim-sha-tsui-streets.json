@@ -1,0 +1,65 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1950-gn1135-tsim-sha-tsui-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1135",
+  "publication_date": "1950-09-29",
+  "gazette_url_en": "/egazette/en/1950-gn1135.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1950-gn1135.pdf",
+  "streets": [
+    {
+      "link_street_code": "11561",
+      "chinese_name": "天文台圍",
+      "english_name": "Observatory Court",
+      "submitter_remarks": "Gazette ZH 天文台圍; geojson 天文臺圍.",
+      "history": [
+        {
+          "publication_date": "1950-09-29",
+          "change_kind": "declare",
+          "street_name_en": "Observatory Court",
+          "street_name_zh": "天文台圍",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 1135. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Observatory Court (天文台圍): Cul-de-sac commencing at its junction with Observatory Road and terminating at a path leading to K.I.L. 441 as shown coloured red on P.W.D. Drawing No. R.K. 141 signed by the Director of Public Works and dated 21st September, 1950.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "cul-de-sac",
+              "plan_refs": [{ "label": "R.K. 141", "color": "red" }],
+              "referenced_streets_en": ["Observatory Road"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "12626",
+      "chinese_name": "合桃街",
+      "english_name": "Walnut Street",
+      "history": [
+        {
+          "publication_date": "1950-09-29",
+          "change_kind": "declare",
+          "street_name_en": "Walnut Street",
+          "street_name_zh": "合桃街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 1135. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Walnut Street (合桃街): Road commencing at Fuk Tsun Street, crossing Larch Street and Bedford Road, and terminating at Tung Chau Street as shown coloured red on plan No. R.K. 140 signed by the Director of Public Works and dated 21st September, 1950.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [{ "label": "R.K. 140", "color": "red" }],
+              "referenced_streets_en": [
+                "Fuk Tsun Street",
+                "Larch Street",
+                "Bedford Road",
+                "Tung Chau Street"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

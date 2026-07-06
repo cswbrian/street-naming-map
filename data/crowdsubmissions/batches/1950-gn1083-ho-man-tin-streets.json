@@ -1,0 +1,84 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1950-gn1083-ho-man-tin-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1083",
+  "publication_date": "1950-09-15",
+  "gazette_url_en": "/egazette/en/1950-gn1083.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1950-gn1083.pdf",
+  "streets": [
+    {
+      "link_street_code": "10630",
+      "chinese_name": "嘉齡道",
+      "english_name": "Gullane Road",
+      "history": [
+        {
+          "publication_date": "1950-09-15",
+          "change_kind": "declare",
+          "street_name_en": "Gullane Road",
+          "street_name_zh": "嘉齡道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 1083. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Gullane Road (嘉齡道): Road commencing at its junction with Argyle Street, running south-easterly, and terminating at its junction with Perth Street as shown coloured red on plan No. R.K. 134 signed by the Director of Public Works and dated 8th September, 1950.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [{ "label": "R.K. 134", "color": "red" }],
+              "referenced_streets_en": ["Argyle Street", "Perth Street"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "楠道",
+      "english_name": "Nairn Road",
+      "history": [
+        {
+          "publication_date": "1950-09-15",
+          "change_kind": "declare",
+          "street_name_en": "Nairn Road",
+          "street_name_zh": "楠道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 1083. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Nairn Road (楠道): Road commencing at Argyle Street near Waterloo Road, running south-easterly, as shown coloured red on plan No. R.K. 133 signed by the Director of Public Works and dated 8th September, 1950.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [{ "label": "R.K. 133", "color": "red" }],
+              "referenced_streets_en": ["Argyle Street", "Waterloo Road"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11686",
+      "chinese_name": "巴富街",
+      "english_name": "Perth Street",
+      "history": [
+        {
+          "publication_date": "1950-09-15",
+          "change_kind": "declare",
+          "street_name_en": "Perth Street",
+          "street_name_zh": "巴富街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 1083. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Perth Street (巴富街): Road parallel to and south-east of Argyle Street, commencing at Nairn Road, running north-easterly, and terminating at Mission Road as shown coloured red on plan No. R.K. 135 signed by the Director of Public Works and dated 8th September, 1950.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [{ "label": "R.K. 135", "color": "red" }],
+              "referenced_streets_en": [
+                "Argyle Street",
+                "Nairn Road",
+                "Mission Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

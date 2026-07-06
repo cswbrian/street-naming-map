@@ -1,0 +1,39 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1950-gn712-jardines-crescent",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.712",
+  "publication_date": "1950-06-09",
+  "gazette_url_en": "/egazette/en/1950-gn712.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1950-gn712.pdf",
+  "streets": [
+    {
+      "link_street_code": "10894",
+      "chinese_name": "渣甸坊",
+      "english_name": "Jardine's Crescent",
+      "history": [
+        {
+          "publication_date": "1950-06-09",
+          "change_kind": "declare",
+          "street_name_en": "Jardine's Crescent",
+          "street_name_zh": "渣甸坊",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 712. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Jardine's Crescent (渣甸坊): Road extending from its west junction with Jardine's Bazaar near Yee Wo Street, to its east junction with Jardine's Bazaar near Pennington Street as shown coloured red on plan No. R.H. 116 signed by the Director of Public Works and dated 5th June, 1950.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [{ "label": "R.H. 116", "color": "red" }],
+              "referenced_streets_en": [
+                "Jardine's Bazaar",
+                "Yee Wo Street",
+                "Pennington Street"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
