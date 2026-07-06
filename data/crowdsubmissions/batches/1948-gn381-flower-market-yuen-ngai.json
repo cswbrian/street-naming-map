@@ -1,0 +1,57 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1948-gn381-flower-market-yuen-ngai",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.381",
+  "publication_date": "1948-04-23",
+  "gazette_url_en": "/egazette/en/1948-gn381.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1948-gn381.pdf",
+  "streets": [
+    {
+      "link_street_code": "10497",
+      "chinese_name": "花墟道",
+      "english_name": "Flower Market Road",
+      "history": [
+        {
+          "publication_date": "1948-04-23",
+          "change_kind": "declare",
+          "street_name_en": "Flower Market Road",
+          "street_name_zh": "花墟道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 381. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Flower Market Road (花墟道): Road commencing from Sai Yee Street, running east, parallel to and North of Prince Edward Road and terminating at unnamed street running North East parallel to and adjacent to K. C. R. boundary.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Sai Yee Street", "Prince Edward Road"],
+              "unnamed_junction_refs_en": ["unnamed street running North East parallel to and adjacent to K. C. R. boundary"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "12924",
+      "chinese_name": "園藝街",
+      "english_name": "Yuen Ngai Street",
+      "history": [
+        {
+          "publication_date": "1948-04-23",
+          "change_kind": "declare",
+          "street_name_en": "Yuen Ngai Street",
+          "street_name_zh": "園藝街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 381. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Yuen Ngai Street (園藝街): Road commencing from Prince Edward Road, running north, parallel to Sai Yee Street and terminating at Flower Market Road.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Prince Edward Road", "Sai Yee Street", "Flower Market Road"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

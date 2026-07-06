@@ -1,0 +1,35 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1948-gn1215-kin-wah-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1215",
+  "publication_date": "1948-12-24",
+  "gazette_url_en": "/egazette/en/1948-gn1215.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1948-gn1215.pdf",
+  "streets": [
+    {
+      "link_street_code": "11015",
+      "chinese_name": "建華街",
+      "english_name": "Kin Wah Street",
+      "history": [
+        {
+          "publication_date": "1948-12-24",
+          "change_kind": "declare",
+          "street_name_en": "Kin Wah Street",
+          "street_name_zh": "建華街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 1215. DIRECTOR OF PUBLIC WORKS. It is hereby notified that the following road will be known in future as described hereunder:— Kin Wah Street (建華街): Road commencing from Cheung Hong Street running eastwards parallel to and south of Fort Street and terminating at the eastern boundary of I.L. 2366.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Cheung Hong Street", "Fort Street"],
+              "lot_refs": ["I.L. 2366"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1948-gn670-tanner-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.670",
+  "publication_date": "1948-07-16",
+  "gazette_url_en": "/egazette/en/1948-gn670.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1948-gn670.pdf",
+  "streets": [
+    {
+      "link_street_code": "12338",
+      "chinese_name": "丹拿道",
+      "english_name": "Tanner Road",
+      "history": [
+        {
+          "publication_date": "1948-07-16",
+          "change_kind": "declare",
+          "street_name_en": "Tanner Road",
+          "street_name_zh": "丹拿道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 670. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Tanner Road (丹拿道): Road commencing at Shu Kuk Street, south of Tsat Tse Mui Road, running east and terminating at the boundary of inland lot No. 5044.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Shu Kuk Street", "Tsat Tse Mui Road"],
+              "lot_refs": ["I.L. 5044"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1948-gn998-kadoorie-avenue",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.998",
+  "publication_date": "1948-10-29",
+  "gazette_url_en": "/egazette/en/1948-gn998.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1948-gn998.pdf",
+  "streets": [
+    {
+      "link_street_code": "10924",
+      "chinese_name": "嘉道理道",
+      "english_name": "Kadoorie Avenue",
+      "history": [
+        {
+          "publication_date": "1948-10-29",
+          "change_kind": "extend",
+          "street_name_en": "Kadoorie Avenue",
+          "street_name_zh": "嘉道理道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 998. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Kadoorie Avenue (嘉道理道): Road commencing at its junction with Kadoorie Avenue and running in a south-westerly and south direction, terminating at north-east corner of Kowloon Inland Lot No. 4137, Section B.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Kadoorie Avenue"],
+              "lot_refs": ["K.I.L. 4137 Section B"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

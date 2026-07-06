@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-24T14:48:45.413Z",
+  "generated_at": "2026-07-06T15:51:11.216Z",
   "totals": {
-    "timelines": 1297,
-    "linked_active": 969,
+    "timelines": 1301,
+    "linked_active": 973,
     "unlinked": 328,
     "legacy_or_name_only": 0
   },
@@ -9689,6 +9689,79 @@
       ]
     },
     {
+      "timeline_id": "code:10497",
+      "street_code": "10497",
+      "street_name_en": "Flower Market Road",
+      "street_name_zh": "花墟道",
+      "canonical_naming_year": 1948,
+      "canonical_naming_date": "1948-04-23",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10497",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1948-04-23",
+          "change_kind": "declare",
+          "name_en": "Flower Market Road",
+          "name_zh": "花墟道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.381",
+          "notice_label_zh": "第381號",
+          "notice_url_en": "/egazette/en/1948-gn381.pdf",
+          "notice_url_zh": "/egazette/zh/1948-gn381.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 381. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Flower Market Road (花墟道): Road commencing from Sai Yee Street, running east, parallel to and North of Prince Edward Road and terminating at unnamed street running North East parallel to and adjacent to K. C. R. boundary.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Sai Yee Street",
+                "Prince Edward Road"
+              ],
+              "unnamed_junction_refs_en": [
+                "unnamed street running North East parallel to and adjacent to K. C. R. boundary"
+              ],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:14231",
       "street_code": "14231",
       "street_name_en": "Fo Chun Road",
@@ -18093,11 +18166,11 @@
       "canonical_naming_year": 1936,
       "canonical_naming_date": "1936-11-06",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "10924",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -18121,6 +18194,60 @@
           "source": "hkgro",
           "submitter_remarks": null,
           "gazette_location": null
+        },
+        {
+          "date": "1948-10-29",
+          "change_kind": "extend",
+          "name_en": "Kadoorie Avenue",
+          "name_zh": "嘉道理道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.998",
+          "notice_label_zh": "第998號",
+          "notice_url_en": "/egazette/en/1948-gn998.pdf",
+          "notice_url_zh": "/egazette/zh/1948-gn998.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 998. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Kadoorie Avenue (嘉道理道): Road commencing at its junction with Kadoorie Avenue and running in a south-westerly and south direction, terminating at north-east corner of Kowloon Inland Lot No. 4137, Section B.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [
+                "K.I.L. 4137 Section B"
+              ],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Kadoorie Avenue"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -20089,6 +20216,79 @@
           "source": "hkgro",
           "submitter_remarks": null,
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11015",
+      "street_code": "11015",
+      "street_name_en": "Kin Wah Street",
+      "street_name_zh": "建華街",
+      "canonical_naming_year": 1948,
+      "canonical_naming_date": "1948-12-24",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11015",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1948-12-24",
+          "change_kind": "declare",
+          "name_en": "Kin Wah Street",
+          "name_zh": "建華街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1215",
+          "notice_label_zh": "第1215號",
+          "notice_url_en": "/egazette/en/1948-gn1215.pdf",
+          "notice_url_zh": "/egazette/zh/1948-gn1215.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 1215. DIRECTOR OF PUBLIC WORKS. It is hereby notified that the following road will be known in future as described hereunder:— Kin Wah Street (建華街): Road commencing from Cheung Hong Street running eastwards parallel to and south of Fort Street and terminating at the eastern boundary of I.L. 2366.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [
+                "I.L. 2366"
+              ],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Cheung Hong Street",
+                "Fort Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -41608,10 +41808,10 @@
       "street_code": "12023",
       "street_name_en": "Shelter Street",
       "street_name_zh": "信德街",
-      "canonical_naming_year": null,
-      "canonical_naming_date": null,
-      "derivation_reason": "no_declaration_found",
-      "event_count": 1,
+      "canonical_naming_year": 1948,
+      "canonical_naming_date": "1948-09-10",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "12023",
@@ -41619,6 +41819,63 @@
         "district_hint": null
       },
       "name_history": [
+        {
+          "date": "1948-09-10",
+          "change_kind": "declare",
+          "name_en": "Shelter Street",
+          "name_zh": "信德街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.842",
+          "notice_label_zh": "第842號",
+          "notice_url_en": "/egazette/en/1948-gn842.pdf",
+          "notice_url_zh": "/egazette/zh/1948-gn842.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 842. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Shelter Street (信德街): Road commencing from Causeway Road running south-east and terminating at unnamed street between I.L. 1580 and 1149.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [
+                "I.L. 1580",
+                "I.L. 1149"
+              ],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Causeway Road"
+              ],
+              "unnamed_junction_refs_en": [
+                "unnamed street between I.L. 1580 and 1149"
+              ],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        },
         {
           "date": "1978-06-09",
           "change_kind": "rename",
@@ -49112,6 +49369,79 @@
           "source": "hkgro",
           "submitter_remarks": null,
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12338",
+      "street_code": "12338",
+      "street_name_en": "Tanner Road",
+      "street_name_zh": "丹拿道",
+      "canonical_naming_year": 1948,
+      "canonical_naming_date": "1948-07-16",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12338",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1948-07-16",
+          "change_kind": "declare",
+          "name_en": "Tanner Road",
+          "name_zh": "丹拿道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.670",
+          "notice_label_zh": "第670號",
+          "notice_url_en": "/egazette/en/1948-gn670.pdf",
+          "notice_url_zh": "/egazette/zh/1948-gn670.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 670. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Tanner Road (丹拿道): Road commencing at Shu Kuk Street, south of Tsat Tse Mui Road, running east and terminating at the boundary of inland lot No. 5044.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [
+                "I.L. 5044"
+              ],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Shu Kuk Street",
+                "Tsat Tse Mui Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -60216,6 +60546,78 @@
           "source": "crowdsubmitted",
           "submitter_remarks": "",
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12924",
+      "street_code": "12924",
+      "street_name_en": "Yuen Ngai Street",
+      "street_name_zh": "園藝街",
+      "canonical_naming_year": 1948,
+      "canonical_naming_date": "1948-04-23",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12924",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1948-04-23",
+          "change_kind": "declare",
+          "name_en": "Yuen Ngai Street",
+          "name_zh": "園藝街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.381",
+          "notice_label_zh": "第381號",
+          "notice_url_en": "/egazette/en/1948-gn381.pdf",
+          "notice_url_zh": "/egazette/zh/1948-gn381.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 381. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Yuen Ngai Street (園藝街): Road commencing from Prince Edward Road, running north, parallel to Sai Yee Street and terminating at Flower Market Road.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Prince Edward Road",
+                "Sai Yee Street",
+                "Flower Market Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },

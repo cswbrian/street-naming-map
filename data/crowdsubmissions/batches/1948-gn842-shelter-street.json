@@ -1,0 +1,36 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1948-gn842-shelter-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.842",
+  "publication_date": "1948-09-10",
+  "gazette_url_en": "/egazette/en/1948-gn842.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1948-gn842.pdf",
+  "streets": [
+    {
+      "link_street_code": "12023",
+      "chinese_name": "信德街",
+      "english_name": "Shelter Street",
+      "history": [
+        {
+          "publication_date": "1948-09-10",
+          "change_kind": "declare",
+          "street_name_en": "Shelter Street",
+          "street_name_zh": "信德街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 842. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Shelter Street (信德街): Road commencing from Causeway Road running south-east and terminating at unnamed street between I.L. 1580 and 1149.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Causeway Road"],
+              "unnamed_junction_refs_en": ["unnamed street between I.L. 1580 and 1149"],
+              "lot_refs": ["I.L. 1580", "I.L. 1149"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

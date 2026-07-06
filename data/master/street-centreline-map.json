@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-06-24T14:48:34.013Z",
+  "updated_at": "2026-07-06T15:51:08.980Z",
   "links": [
     {
       "timeline_id": "code:10003",
@@ -1962,6 +1962,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10497",
+      "street_code": "10497",
+      "event_ids": [
+        "crowd|1948-gn381-flower-market-yuen-ngai-Flower-Market-Road-花墟道-1948-04-23"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10504",
       "street_code": "10504",
       "event_ids": [
@@ -3568,14 +3581,15 @@
       "timeline_id": "code:10924",
       "street_code": "10924",
       "event_ids": [
-        "crowd|1936-gn885-kadoorie-braga-10924-1936-11-06"
+        "crowd|1936-gn885-kadoorie-braga-10924-1936-11-06",
+        "crowd|1948-gn998-kadoorie-avenue-Kadoorie-Avenue-嘉道理道-1948-10-29"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10929",
@@ -3956,6 +3970,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11015",
+      "street_code": "11015",
+      "event_ids": [
+        "crowd|1948-gn1215-kin-wah-street-Kin-Wah-Street-建華街-1948-12-24"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -8047,13 +8074,14 @@
       "timeline_id": "code:12023",
       "street_code": "12023",
       "event_ids": [
-        "crowd|1978-gn1459-zh-renames-Shelter-Street-信德街-1978-06-09"
+        "crowd|1978-gn1459-zh-renames-Shelter-Street-信德街-1978-06-09",
+        "crowd|1948-gn842-shelter-street-Shelter-Street-信德街-1948-09-10"
       ],
       "status": "active",
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-22",
+      "linked_at": "2026-07-06",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -9408,6 +9436,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12338",
+      "street_code": "12338",
+      "event_ids": [
+        "crowd|1948-gn670-tanner-road-Tanner-Road-丹拿道-1948-07-16"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12343",
@@ -11386,6 +11427,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12924",
+      "street_code": "12924",
+      "event_ids": [
+        "crowd|1948-gn381-flower-market-yuen-ngai-Yuen-Ngai-Street-園藝街-1948-04-23"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-06",
       "linked_by": "apply-crowd-batch"
     },
     {
