@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-06T15:51:16.251Z",
+  "generated_at": "2026-07-06T16:06:51.687Z",
   "source_files": {
     "events": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-events.json",
     "centreline_map": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-centreline-map.json"
   },
   "totals": {
-    "master_events": 1455,
-    "mapped_event_ids": 1118,
+    "master_events": 1456,
+    "mapped_event_ids": 1119,
     "unmapped_events": 337,
     "by_source": {
       "hkgro": 18,

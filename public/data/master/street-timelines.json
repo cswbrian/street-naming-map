@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T15:51:11.216Z",
+  "generated_at": "2026-07-06T16:08:07.645Z",
   "totals": {
     "timelines": 1301,
     "linked_active": 973,
@@ -41808,9 +41808,9 @@
       "street_code": "12023",
       "street_name_en": "Shelter Street",
       "street_name_zh": "信德街",
-      "canonical_naming_year": 1948,
-      "canonical_naming_date": "1948-09-10",
-      "derivation_reason": "declaration_earliest",
+      "canonical_naming_year": null,
+      "canonical_naming_date": null,
+      "derivation_reason": "no_current_name_event",
       "event_count": 2,
       "geometry_link": {
         "status": "active",
@@ -41823,7 +41823,7 @@
           "date": "1948-09-10",
           "change_kind": "declare",
           "name_en": "Shelter Street",
-          "name_zh": "信德街",
+          "name_zh": "舒潦濤街",
           "previous_name_en": null,
           "previous_name_zh": null,
           "notice_label_en": "G.N.842",
@@ -41832,14 +41832,14 @@
           "notice_url_zh": "/egazette/zh/1948-gn842.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
-          "event_role": "current_name",
+          "event_role": "former_name",
           "derived_from": null,
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
           "submitter_remarks": null,
           "gazette_location": {
-            "description_raw_en": "No. 842. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Shelter Street (信德街): Road commencing from Causeway Road running south-east and terminating at unnamed street between I.L. 1580 and 1149.",
+            "description_raw_en": "No. 842. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Shelter Street (舒潦濤街): Road commencing from Causeway Road running south-east and terminating at unnamed street between I.L. 1580 and 1149.",
             "description_raw_zh": null,
             "parsed": {
               "road_form": null,

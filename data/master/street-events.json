@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-06T15:51:09.158Z",
+  "updated_at": "2026-07-06T16:07:21.029Z",
   "events": [
     {
       "event_id": "crowd|1904-gn59-victoria-road-renames-10038-babington-former",
@@ -17929,12 +17929,12 @@
       "notice_stem": "1948-gn670"
     },
     {
-      "event_id": "crowd|1948-gn842-shelter-street-Shelter-Street-信德街-1948-09-10",
+      "event_id": "crowd|1948-gn842-shelter-street-Shelter-Street-舒潦濤街-1948-09-10",
       "source": "crowdsubmitted",
       "publication_date": "1948-09-10",
       "change_kind": "declare",
       "street_name_en": "Shelter Street",
-      "street_name_zh": "信德街",
+      "street_name_zh": "舒潦濤街",
       "previous_street_name_en": null,
       "previous_street_name_zh": null,
       "district_raw_en": null,
@@ -17952,7 +17952,7 @@
       "related_gazette_plan_labels_en": [],
       "related_gazette_plan_labels_zh": [],
       "gazette_location": {
-        "description_raw_en": "No. 842. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Shelter Street (信德街): Road commencing from Causeway Road running south-east and terminating at unnamed street between I.L. 1580 and 1149.",
+        "description_raw_en": "No. 842. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Shelter Street (舒潦濤街): Road commencing from Causeway Road running south-east and terminating at unnamed street between I.L. 1580 and 1149.",
         "description_raw_zh": null,
         "parsed": {
           "road_form": null,
@@ -17990,13 +17990,13 @@
       },
       "is_declaration_event": true,
       "evidence_kind": "gazette_primary",
-      "event_role": "current_name",
+      "event_role": "former_name",
       "derived_from": null,
       "evidence_kind_note": null,
       "submitter_remarks": null,
       "supplementary_evidence": null,
       "reviewed_at": "2026-07-06",
-      "submission_id": "1948-gn842-shelter-street-Shelter-Street-信德街-1948-09-10",
+      "submission_id": "1948-gn842-shelter-street-Shelter-Street-舒潦濤街-1948-09-10",
       "notice_stem": "1948-gn842"
     },
     {
@@ -38640,7 +38640,7 @@
       "evidence_kind_note": null,
       "submitter_remarks": "Chinese name change only; English unchanged per notice.",
       "supplementary_evidence": null,
-      "reviewed_at": "2026-06-22",
+      "reviewed_at": "2026-07-06",
       "submission_id": "1978-gn1459-zh-renames-Bluff-Path-百祿徑-1978-06-09"
     },
     {
@@ -38703,7 +38703,7 @@
       "evidence_kind_note": null,
       "submitter_remarks": "Chinese name change only; English unchanged per notice.",
       "supplementary_evidence": null,
-      "reviewed_at": "2026-06-22",
+      "reviewed_at": "2026-07-06",
       "submission_id": "1978-gn1459-zh-renames-Jervois-Street-蘇杭街-1978-06-09"
     },
     {
@@ -38766,7 +38766,7 @@
       "evidence_kind_note": null,
       "submitter_remarks": "Chinese name change only; English unchanged per notice.",
       "supplementary_evidence": null,
-      "reviewed_at": "2026-06-22",
+      "reviewed_at": "2026-07-06",
       "submission_id": "1978-gn1459-zh-renames-Shelter-Street-信德街-1978-06-09"
     },
     {

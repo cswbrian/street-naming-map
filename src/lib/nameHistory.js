@@ -25,6 +25,50 @@ function hasPreviousName(entry) {
   return Boolean(normalize(entry.previous_name_en) || normalize(entry.previous_name_zh))
 }
 
+function zhRenameNamesDiffer(previous, current) {
+  const prev = normalize(previous)
+  const curr = normalize(current)
+  return Boolean(prev && curr && prev !== curr)
+}
+
+function enRenameNamesDiffer(previous, current) {
+  const prev = normalize(previous)
+  const curr = normalize(current)
+  if (!prev || !curr) return false
+  return normalizeStreetNameForMatch(prev) !== normalizeStreetNameForMatch(curr)
+}
+
+/** Old → new lines for rename summary (one row per language when names differ). */
+export function buildRenameDisplayLines(entry) {
+  if (!hasPreviousName(entry)) return []
+
+  const lines = []
+  if (zhRenameNamesDiffer(entry.previous_name_zh, entry.name_zh)) {
+    lines.push({
+      previous: normalize(entry.previous_name_zh),
+      current: normalize(entry.name_zh),
+    })
+  }
+  if (enRenameNamesDiffer(entry.previous_name_en, entry.name_en)) {
+    lines.push({
+      previous: normalize(entry.previous_name_en),
+      current: normalize(entry.name_en),
+    })
+  }
+
+  if (!lines.length) {
+    for (const locale of ['zh', 'en']) {
+      const previous = formatName(entry, locale, 'previous')
+      const current = formatName(entry, locale, 'current')
+      if (previous !== '—' && current !== '—' && previous !== current) {
+        lines.push({ previous, current })
+      }
+    }
+  }
+
+  return lines
+}
+
 function isTimelineEntry(entry, displayNames) {
   const role = String(entry.event_role ?? '').trim()
   if (role === 'current_name' || role === 'former_name' || role === 'built' || role === 'name_removed') {
@@ -335,6 +379,7 @@ export function buildTimelineEventRowMeta(entry, locale, labels, displayNames, o
     eventType: getTimelineEventTypeLabel(entry, labels, ordered),
     name: buildHistoryName(entry, locale),
     previousName: hasPreviousName(entry) ? formatName(entry, locale, 'previous') : null,
+    renameLines: buildRenameDisplayLines(entry),
     isCurrent: String(entry.event_role ?? '').trim() === 'current_name',
     pending: sourceMeta.pending,
     pendingLabel: sourceMeta.pendingLabel,
@@ -376,6 +421,7 @@ function buildPendingTimelineItem(labels, pendingDisplay) {
     eventType: labels.eventTypeDeclare ?? null,
     name: null,
     previousName: null,
+    renameLines: [],
     isCurrent: true,
     pending: true,
     pendingLabel: pendingDisplay,

@@ -249,7 +249,22 @@ function EventDetail({ entry, locale, t }) {
   )
 }
 
+function RenameLine({ line }) {
+  return (
+    <span className="street-event-rename-line">
+      <span className="street-event-rename-previous">{line.previous}</span>
+      <span className="street-event-rename-arrow" aria-hidden="true">
+        {' '}
+        →{' '}
+      </span>
+      <span className="street-event-rename-current">{line.current}</span>
+    </span>
+  )
+}
+
 function TimelineSummaryContent({ meta, t, onNoticeClick, undatedLabel }) {
+  const renameLines = meta.renameLines?.length ? meta.renameLines : null
+
   return (
     <span className="street-event-summary-main">
       <span className="street-event-summary-headline">
@@ -262,8 +277,16 @@ function TimelineSummaryContent({ meta, t, onNoticeClick, undatedLabel }) {
         )}
         {meta.eventType ? <span className="street-event-type">{meta.eventType}</span> : null}
       </span>
-      {meta.name ? <span className="street-event-name">{meta.name}</span> : null}
-      {meta.previousName ? <span className="street-event-previous">→ {meta.previousName}</span> : null}
+      {renameLines ? (
+        <span className="street-event-renames">
+          {renameLines.map((line, index) => (
+            // eslint-disable-next-line react/no-array-index-key
+            <RenameLine key={index} line={line} />
+          ))}
+        </span>
+      ) : meta.name ? (
+        <span className="street-event-name">{meta.name}</span>
+      ) : null}
       <span className="street-event-source">
         {meta.pending && meta.pendingLabel ? (
           <span className="street-event-pending">{meta.pendingLabel}</span>

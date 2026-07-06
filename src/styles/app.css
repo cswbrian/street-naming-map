@@ -634,9 +634,25 @@ button.street-event-summary:focus-visible {
   line-height: 1.35;
 }
 
-.street-event-previous {
-  font-size: 0.74rem;
+.street-event-renames {
+  display: flex;
+  flex-direction: column;
+  gap: 0.12rem;
+}
+
+.street-event-rename-line {
+  font-size: 0.8rem;
+  line-height: 1.35;
+}
+
+.street-event-rename-previous,
+.street-event-rename-arrow {
   color: var(--sn-text-muted);
+  font-weight: 400;
+}
+
+.street-event-rename-current {
+  font-weight: 600;
 }
 
 .street-event-source {
@@ -850,8 +866,15 @@ button.street-event-summary:focus-visible {
   color: var(--sn-text);
 }
 
-.street-event-timeline--chip .street-event-previous {
-  font-size: 0.72rem;
+.street-event-timeline--chip .street-event-rename-line {
+  font-size: 0.76rem;
+  line-height: 1.3;
+  word-break: break-word;
+}
+
+.street-event-timeline--chip .street-event-item.is-current .street-event-rename-current {
+  font-weight: 600;
+  color: var(--sn-text);
 }
 
 .street-event-timeline--chip .street-event-source {
