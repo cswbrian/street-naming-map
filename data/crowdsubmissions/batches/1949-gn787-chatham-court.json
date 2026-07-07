@@ -1,0 +1,36 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1949-gn787-chatham-court",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.787",
+  "publication_date": "1949-08-19",
+  "gazette_url_en": "/egazette/en/1949-gn787.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1949-gn787.pdf",
+  "streets": [
+    {
+      "link_street_code": "10164",
+      "chinese_name": "漆咸圍",
+      "english_name": "Chatham Court",
+      "history": [
+        {
+          "publication_date": "1949-08-19",
+          "change_kind": "declare",
+          "gazette_notice_label": "G.N.787",
+          "street_name_en": "Chatham Court",
+          "street_name_zh": "漆咸圍",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 787. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Chatham Court (漆咸圍): Cul-de-sac Road within K.I.L. 616 and commencing at its junction with Kimberley Road and running in an easterly direction and terminating at the rear of the houses fronting Chatham Road.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "cul-de-sac",
+              "referenced_streets_en": ["Kimberley Road", "Chatham Road"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

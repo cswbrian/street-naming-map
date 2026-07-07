@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-06T16:28:46.514Z",
+  "generated_at": "2026-07-07T16:04:43.706Z",
   "source_files": {
     "events": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-events.json",
     "centreline_map": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-centreline-map.json"
   },
   "totals": {
-    "master_events": 1498,
-    "mapped_event_ids": 1159,
-    "unmapped_events": 340,
+    "master_events": 1507,
+    "mapped_event_ids": 1167,
+    "unmapped_events": 341,
     "by_source": {
       "hkgro": 18,
-      "crowdsubmitted": 42,
+      "crowdsubmitted": 43,
       "egazette_pdf": 163,
       "landsd": 117
     }
@@ -63,6 +63,18 @@
       "district_raw_zh": null,
       "notice_no": "GN59",
       "name_key": "Park View|"
+    },
+    {
+      "event_id": "crowd|1949-gn1143-sunderland-road-Sunderland-Road-新德鄰道-1949-11-25",
+      "source": "crowdsubmitted",
+      "publication_date": "1949-11-25",
+      "change_kind": "declare",
+      "street_name_en": "Sunderland Road",
+      "street_name_zh": "新德鄰道",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1143",
+      "name_key": "Sunderland Road|新德鄰道"
     },
     {
       "event_id": "crowd|1950-gn581-kwong-chiu-terrace-Kwong-Chiu-Terrace-光照台-1950-05-05",

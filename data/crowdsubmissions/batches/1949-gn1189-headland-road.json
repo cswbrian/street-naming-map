@@ -1,0 +1,35 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1949-gn1189-headland-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1189",
+  "publication_date": "1949-12-09",
+  "gazette_url_en": "/egazette/en/1949-gn1189.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1949-gn1189.pdf",
+  "streets": [
+    {
+      "link_street_code": "10678",
+      "chinese_name": "赫蘭道",
+      "english_name": "Headland Road",
+      "history": [
+        {
+          "publication_date": "1949-12-09",
+          "change_kind": "declare",
+          "gazette_notice_label": "G.N.1189",
+          "street_name_en": "Headland Road",
+          "street_name_zh": "赫蘭道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 1189. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Headland Road (赫蘭道): Road to R.B.L. 508 commencing at Island Road at a point approximately 100 yds. North of the junction of Island and Chung Am Kok Roads, and running in a westerly and north westerly direction and terminating on the northern boundary of the lot between sites No. 10 and No. 11.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Island Road", "Chung Am Kok Road"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

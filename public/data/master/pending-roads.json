@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-06T16:28:45.947Z",
+  "generated_at": "2026-07-07T16:04:35.911Z",
   "source_file": "public/data/hk-streets.geojson",
   "notice_stem_index_path": "public/data/master/egazette-notice-stems.json",
   "egazette_pdf_locales_path": "public/data/master/egazette-pdf-locales.json",
   "totals": {
     "total_segments": 39724,
-    "segments_missing_naming_year": 33672,
+    "segments_missing_naming_year": 33657,
     "unique_roads": 12233,
     "unique_roads_with_street_name": 4578,
-    "unique_roads_with_naming_year": 1219,
-    "unique_roads_with_street_name_and_naming_year": 1219,
-    "unique_roads_missing_naming_year": 11014,
-    "unique_roads_missing_naming_year_with_street_name": 3359
+    "unique_roads_with_naming_year": 1226,
+    "unique_roads_with_street_name_and_naming_year": 1226,
+    "unique_roads_missing_naming_year": 11007,
+    "unique_roads_missing_naming_year_with_street_name": 3352
   },
   "kind": "pending",
   "roads": [
@@ -15005,17 +15005,6 @@
       "street_code": "10661",
       "english_name": "HARBOUR ROAD",
       "chinese_name": "港灣道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 6
-    },
-    {
-      "road_key": "code:10678",
-      "street_code": "10678",
-      "english_name": "HEADLAND ROAD",
-      "chinese_name": "赫蘭道",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -51798,17 +51787,6 @@
       "segment_count": 2
     },
     {
-      "road_key": "code:10254",
-      "street_code": "10254",
-      "english_name": "CHING WAH STREET",
-      "chinese_name": "清華街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 2
-    },
-    {
       "road_key": "code:12986",
       "street_code": "12986",
       "english_name": "CHIU SHUN ROAD",
@@ -54008,17 +53986,6 @@
       "segment_count": 2
     },
     {
-      "road_key": "code:11294",
-      "street_code": "11294",
-      "english_name": "LUEN WAN STREET",
-      "chinese_name": "聯運街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 2
-    },
-    {
       "road_key": "code:11297",
       "street_code": "11297",
       "english_name": "LUEN YICK STREET",
@@ -54408,17 +54375,6 @@
       "street_code": "11434",
       "english_name": "MING FUNG STREET",
       "chinese_name": "鳴鳳街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 2
-    },
-    {
-      "road_key": "code:11457",
-      "street_code": "11457",
-      "english_name": "MONMOUTH TERRACE",
-      "chinese_name": "萬茂臺",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -110072,17 +110028,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:10164",
-      "street_code": "10164",
-      "english_name": "CHATHAM COURT",
-      "chinese_name": "漆咸圍",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:14012",
       "street_code": "14012",
       "english_name": "CHAU TAU SOUTH ROAD",
@@ -112595,17 +112540,6 @@
       "street_code": "10618",
       "english_name": "GOUGH STREET",
       "chinese_name": "歌賦街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:10621",
-      "street_code": "10621",
-      "english_name": "GRANVILLE CIRCUIT",
-      "chinese_name": "嘉蘭圍",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -123651,17 +123585,6 @@
       "street_code": "12925",
       "english_name": "YUEN ON STREET",
       "chinese_name": "源安街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:12926",
-      "street_code": "12926",
-      "english_name": "YUEN PO STREET",
-      "chinese_name": "園圃街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,

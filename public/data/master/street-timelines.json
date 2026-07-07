@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-06T16:28:46.256Z",
+  "generated_at": "2026-07-07T16:04:36.299Z",
   "totals": {
-    "timelines": 1339,
-    "linked_active": 1008,
-    "unlinked": 331,
+    "timelines": 1347,
+    "linked_active": 1015,
+    "unlinked": 332,
     "legacy_or_name_only": 0
   },
   "timelines": [
@@ -2755,6 +2755,77 @@
       ]
     },
     {
+      "timeline_id": "code:10164",
+      "street_code": "10164",
+      "street_name_en": "Chatham Court",
+      "street_name_zh": "漆咸圍",
+      "canonical_naming_year": 1949,
+      "canonical_naming_date": "1949-08-19",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10164",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1949-08-19",
+          "change_kind": "declare",
+          "name_en": "Chatham Court",
+          "name_zh": "漆咸圍",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.787",
+          "notice_label_zh": "第787號",
+          "notice_url_en": "/egazette/en/1949-gn787.pdf",
+          "notice_url_zh": "/egazette/zh/1949-gn787.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 787. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Chatham Court (漆咸圍): Cul-de-sac Road within K.I.L. 616 and commencing at its junction with Kimberley Road and running in an easterly direction and terminating at the rear of the houses fronting Chatham Road.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "cul-de-sac",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Kimberley Road",
+                "Chatham Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10165",
       "street_code": "10165",
       "street_name_en": "Chatham Path",
@@ -5482,6 +5553,76 @@
           "source": "crowdsubmitted",
           "submitter_remarks": "",
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10254",
+      "street_code": "10254",
+      "street_name_en": "Ching Wah Street",
+      "street_name_zh": "清華街",
+      "canonical_naming_year": 1949,
+      "canonical_naming_date": "1949-01-28",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10254",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1949-01-28",
+          "change_kind": "declare",
+          "name_en": "Ching Wah Street",
+          "name_zh": "清華街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.99",
+          "notice_label_zh": "第99號",
+          "notice_url_en": "/egazette/en/1949-gn99.pdf",
+          "notice_url_zh": "/egazette/zh/1949-gn99.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 99. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Ching Wah Street (清華街): Road within Inland Lot 2366 running easterly, terminating at the boundary of Inland Lot 2366 and south of Kin Wah Street.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Kin Wah Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -12681,6 +12822,76 @@
       ]
     },
     {
+      "timeline_id": "code:10621",
+      "street_code": "10621",
+      "street_name_en": "Granville Circuit",
+      "street_name_zh": "嘉蘭圍",
+      "canonical_naming_year": 1949,
+      "canonical_naming_date": "1949-07-29",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10621",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1949-07-29",
+          "change_kind": "declare",
+          "name_en": "Granville Circuit",
+          "name_zh": "嘉蘭圍",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.715",
+          "notice_label_zh": "第715號",
+          "notice_url_en": "/egazette/en/1949-gn715.pdf",
+          "notice_url_zh": "/egazette/zh/1949-gn715.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 715. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Granville Circuit (嘉蘭圍): Road within K.I.L. 538, commencing at its western junction with Granville Road and terminating at its eastern junction with Granville Road.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Granville Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10625",
       "street_code": "10625",
       "street_name_en": "Green Lane",
@@ -14181,6 +14392,77 @@
       ]
     },
     {
+      "timeline_id": "code:10678",
+      "street_code": "10678",
+      "street_name_en": "Headland Road",
+      "street_name_zh": "赫蘭道",
+      "canonical_naming_year": 1949,
+      "canonical_naming_date": "1949-12-09",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10678",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1949-12-09",
+          "change_kind": "declare",
+          "name_en": "Headland Road",
+          "name_zh": "赫蘭道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1189",
+          "notice_label_zh": "第1189號",
+          "notice_url_en": "/egazette/en/1949-gn1189.pdf",
+          "notice_url_zh": "/egazette/zh/1949-gn1189.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 1189. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Headland Road (赫蘭道): Road to R.B.L. 508 commencing at Island Road at a point approximately 100 yds. North of the junction of Island and Chung Am Kok Roads, and running in a westerly and north westerly direction and terminating on the northern boundary of the lot between sites No. 10 and No. 11.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Island Road",
+                "Chung Am Kok Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10679",
       "street_code": "10679",
       "street_name_en": "Healthy Street Central",
@@ -14548,244 +14830,6 @@
           "supplementary_evidence": null,
           "source": "landsd",
           "submitter_remarks": null,
-          "gazette_location": null
-        }
-      ]
-    },
-    {
-      "timeline_id": "code:11805",
-      "street_code": "11805",
-      "street_name_en": "Higashimeiji-dori",
-      "street_name_zh": "東明治通",
-      "canonical_naming_year": null,
-      "canonical_naming_date": null,
-      "derivation_reason": "no_current_name_event",
-      "event_count": 5,
-      "geometry_link": {
-        "status": "active",
-        "street_code": "11805",
-        "method": "migrated_from_event_street_code",
-        "district_hint": null
-      },
-      "name_history": [
-        {
-          "date": "1842-02-01",
-          "change_kind": "declare",
-          "name_en": "Queen's Road East",
-          "name_zh": "皇后大道東",
-          "previous_name_en": null,
-          "previous_name_zh": null,
-          "notice_label_en": null,
-          "notice_label_zh": null,
-          "notice_url_en": null,
-          "notice_url_zh": null,
-          "evidence_kind": "hearsay",
-          "is_declaration_event": true,
-          "event_role": "built",
-          "derived_from": null,
-          "evidence_kind_note": null,
-          "supplementary_evidence": [
-            {
-              "evidence_kind": "hearsay",
-              "publisher": null,
-              "publisher_zh": null,
-              "document_label": "Industrial History HK Group road network 1841–1940",
-              "document_url": "https://industrialhistoryhk.org/development-hong-kong-road-network-1841-1940/",
-              "supports": [
-                "publication_date"
-              ],
-              "note": "Same original thoroughfare as Queen's Road Central; segment name gazetted later.",
-              "notice_label": null,
-              "publication_date": null,
-              "government_notice_url_en": null,
-              "government_notice_url_zh": null
-            }
-          ],
-          "source": "crowdsubmitted",
-          "submitter_remarks": "Eastern reach of original Queen's Road opened February 1842; map_year uses built-first. Unverified — no gazette primary on file.",
-          "gazette_location": null
-        },
-        {
-          "date": "1842-03-22",
-          "change_kind": "declare",
-          "name_en": "Queen's Road",
-          "name_zh": "皇后大道",
-          "previous_name_en": null,
-          "previous_name_zh": null,
-          "notice_label_en": null,
-          "notice_label_zh": null,
-          "notice_url_en": null,
-          "notice_url_zh": null,
-          "evidence_kind": "research",
-          "is_declaration_event": true,
-          "event_role": "former_name",
-          "derived_from": null,
-          "evidence_kind_note": null,
-          "supplementary_evidence": [
-            {
-              "evidence_kind": "research",
-              "publisher": null,
-              "publisher_zh": null,
-              "document_label": "Industrial History HK Group",
-              "document_url": "https://industrialhistoryhk.org/development-hong-kong-road-network-1841-1940/",
-              "supports": [
-                "publication_date",
-                "street_name_en"
-              ],
-              "note": null,
-              "notice_label": null,
-              "publication_date": null,
-              "government_notice_url_en": null,
-              "government_notice_url_zh": null
-            }
-          ],
-          "source": "crowdsubmitted",
-          "submitter_remarks": "Parent thoroughfare name before eastern segment distinguished.",
-          "gazette_location": null
-        },
-        {
-          "date": "1874-02-14",
-          "change_kind": "declare",
-          "name_en": "Queen's Road East",
-          "name_zh": "皇后大道東",
-          "previous_name_en": null,
-          "previous_name_zh": null,
-          "notice_label_en": "G.N.32",
-          "notice_label_zh": "第32號",
-          "notice_url_en": null,
-          "notice_url_zh": null,
-          "evidence_kind": "gazette_mention",
-          "is_declaration_event": false,
-          "event_role": "current_name",
-          "derived_from": null,
-          "evidence_kind_note": "G.N.32 repairs tender cites Queen's Road East; not a street-naming notice.",
-          "supplementary_evidence": [
-            {
-              "evidence_kind": "research",
-              "publisher": null,
-              "publisher_zh": null,
-              "document_label": "HK Gov Gazette 1874 index (G.N.32)",
-              "document_url": "https://digitalrepository.lib.hku.hk/catalog/kd17m2859",
-              "supports": [
-                "publication_date",
-                "street_name_en"
-              ],
-              "note": "1874-02-14: Tenders, Queen's Road East, Repairs to.",
-              "notice_label": "G.N.32",
-              "publication_date": null,
-              "government_notice_url_en": null,
-              "government_notice_url_zh": null
-            },
-            {
-              "evidence_kind": "research",
-              "publisher": null,
-              "publisher_zh": null,
-              "document_label": "Wikipedia Queen's Road East",
-              "document_url": "https://en.wikipedia.org/wiki/Queen%27s_Road_East",
-              "supports": [
-                "street_name_en"
-              ],
-              "note": "Segment name attested in use since at least the 1870s.",
-              "notice_label": null,
-              "publication_date": null,
-              "government_notice_url_en": null,
-              "government_notice_url_zh": null
-            }
-          ],
-          "source": "crowdsubmitted",
-          "submitter_remarks": "Earliest HKGRO index hit for segment name. Official naming gazette not yet on file.",
-          "gazette_location": null
-        },
-        {
-          "date": "1930-01-01",
-          "change_kind": "declare",
-          "name_en": "Gap Road",
-          "name_zh": null,
-          "previous_name_en": null,
-          "previous_name_zh": null,
-          "notice_label_en": null,
-          "notice_label_zh": null,
-          "notice_url_en": null,
-          "notice_url_zh": null,
-          "evidence_kind": "research",
-          "is_declaration_event": true,
-          "event_role": "former_name",
-          "derived_from": null,
-          "evidence_kind_note": null,
-          "supplementary_evidence": [
-            {
-              "evidence_kind": "research",
-              "publisher": null,
-              "publisher_zh": null,
-              "document_label": "Wikipedia Queen's Road East",
-              "document_url": "https://en.wikipedia.org/wiki/Queen%27s_Road_East",
-              "supports": [
-                "street_name_en",
-                "publication_date"
-              ],
-              "note": "Eastern part cut through Morrison Hill; known as Gap Road around 1930.",
-              "notice_label": null,
-              "publication_date": null,
-              "government_notice_url_en": null,
-              "government_notice_url_zh": null
-            }
-          ],
-          "source": "crowdsubmitted",
-          "submitter_remarks": "Local name for section through Morrison Hill (Wan Chai–Happy Valley); still referred to circa 1930.",
-          "gazette_location": null
-        },
-        {
-          "date": "1942-04-20",
-          "change_kind": "rename",
-          "name_en": "Higashimeiji-dori",
-          "name_zh": "東明治通",
-          "previous_name_en": "Queen's Road East",
-          "previous_name_zh": "皇后大道東",
-          "notice_label_en": "Research batch (no G.N.)",
-          "notice_label_zh": "Research batch (no G.N.)",
-          "notice_url_en": null,
-          "notice_url_zh": null,
-          "evidence_kind": "legal_other",
-          "is_declaration_event": false,
-          "event_role": "former_name",
-          "derived_from": null,
-          "evidence_kind_note": "香港佔領地公示第十二號",
-          "supplementary_evidence": [
-            {
-              "evidence_kind": "legal_other",
-              "publisher": null,
-              "publisher_zh": null,
-              "document_label": "香港佔領地公示（第十二號）",
-              "document_url": "https://zh.wikisource.org/zh-hant/%E9%A6%99%E6%B8%AF%E4%BD%94%E9%A0%98%E5%9C%B0%E5%85%AC%E7%A4%BA%EF%BC%88%E7%AC%AC%E5%8D%81%E4%BA%8C%E8%99%9F%EF%BC%89",
-              "supports": [
-                "publication_date",
-                "street_name_zh",
-                "previous_street_name_zh"
-              ],
-              "note": "Footnote: 現皇后大道東和金鐘道.",
-              "notice_label": null,
-              "publication_date": null,
-              "government_notice_url_en": null,
-              "government_notice_url_zh": null
-            },
-            {
-              "evidence_kind": "legal_other",
-              "publisher": null,
-              "publisher_zh": null,
-              "document_label": "GRS 香港日治時期街道更名",
-              "document_url": "https://www.grs.gov.hk/ws/erp/japanocc/chi/eve03.htm",
-              "supports": [
-                "street_name_zh"
-              ],
-              "note": "皇后大道東 → 東明治通.",
-              "notice_label": null,
-              "publication_date": null,
-              "government_notice_url_en": null,
-              "government_notice_url_zh": null
-            }
-          ],
-          "source": "crowdsubmitted",
-          "submitter_remarks": "佔領地公示覆蓋現皇后大道東及金鐘道一段.",
           "gazette_location": null
         }
       ]
@@ -16932,26 +16976,55 @@
           "notice_label_en": "G.N.264",
           "notice_label_zh": "第264號",
           "notice_url_en": "/egazette/en/1957-gn264.pdf",
-          "notice_url_zh": "/egazette/zh/1957-gn264.pdf",
-          "evidence_kind": "gazette_inferred",
+          "notice_url_zh": null,
+          "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
           "event_role": "current_name",
-          "derived_from": [
-            {
-              "kind": "gazette_citation",
-              "notice_label": null,
-              "publication_date": null,
-              "government_notice_url_en": null,
-              "government_notice_url_zh": null,
-              "cited_notice_label": "G.N.996",
-              "cited_publication_date": null
-            }
-          ],
+          "derived_from": null,
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
-          "submitter_remarks": "Previous G.N. for 開源道 cited in G.N.996 (2026-02-13).",
-          "gazette_location": null
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 264. COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Hoi Yuen Road (開源道): Road commencing at its junction with Hoi Bun Road 700 feet south east of Tsun Yip Street running in a north easterly direction and terminating at its junction with Kun Tong Road as shown coloured green on Plan No. L.K. 13/27C1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "L.K. 13/27C1",
+                  "color": "green",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Hoi Bun Road",
+                "Tsun Yip Street",
+                "Kun Tong Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -28075,6 +28148,76 @@
       ]
     },
     {
+      "timeline_id": "code:11294",
+      "street_code": "11294",
+      "street_name_en": "Luen Wan Street",
+      "street_name_zh": "聯運街",
+      "canonical_naming_year": 1949,
+      "canonical_naming_date": "1949-03-18",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11294",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1949-03-18",
+          "change_kind": "declare",
+          "name_en": "Luen Wan Street",
+          "name_zh": "聯運街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.266",
+          "notice_label_zh": "第266號",
+          "notice_url_en": "/egazette/en/1949-gn266.pdf",
+          "notice_url_zh": "/egazette/zh/1949-gn266.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 266. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Luen Wan Street (聯運街): Road commencing at its junction with Argyle Street, running northerly, and terminating at the entrance to Yaumati Railway Station.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Argyle Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:11298",
       "street_code": "11298",
       "street_name_en": "Lugard Road",
@@ -31798,6 +31941,77 @@
               "formerly_section_of_en": null,
               "split_boundary_en": null,
               "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11457",
+      "street_code": "11457",
+      "street_name_en": "Monmouth Terrace",
+      "street_name_zh": "萬茂臺",
+      "canonical_naming_year": 1949,
+      "canonical_naming_date": "1949-10-28",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11457",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1949-10-28",
+          "change_kind": "declare",
+          "name_en": "Monmouth Terrace",
+          "name_zh": "萬茂臺",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1044",
+          "notice_label_zh": "第1044號",
+          "notice_url_en": "/egazette/en/1949-gn1043-1044.pdf",
+          "notice_url_zh": null,
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 1044. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Monmouth Terrace (萬茂臺): Road extending from its junction with Kennedy Road opposite Inland Lot 1890 adjacent to Monmouth Path and then within Section D of Inland Lot 2837, and terminating therein.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Kennedy Road",
+                "Monmouth Path"
+              ],
               "unnamed_junction_refs_en": [],
               "replaces_gn_labels": [],
               "merged_from_en": [],
@@ -39281,6 +39495,297 @@
           "source": "egazette_pdf",
           "submitter_remarks": null,
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11805",
+      "street_code": "11805",
+      "street_name_en": "Queen's Road East",
+      "street_name_zh": "皇后大道東",
+      "canonical_naming_year": 1949,
+      "canonical_naming_date": "1949-03-25",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 6,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11805",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1842-02-01",
+          "change_kind": "declare",
+          "name_en": "Queen's Road East",
+          "name_zh": "皇后大道東",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": null,
+          "notice_label_zh": null,
+          "notice_url_en": null,
+          "notice_url_zh": null,
+          "evidence_kind": "hearsay",
+          "is_declaration_event": true,
+          "event_role": "built",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "hearsay",
+              "publisher": null,
+              "publisher_zh": null,
+              "document_label": "Industrial History HK Group road network 1841–1940",
+              "document_url": "https://industrialhistoryhk.org/development-hong-kong-road-network-1841-1940/",
+              "supports": [
+                "publication_date"
+              ],
+              "note": "Same original thoroughfare as Queen's Road Central; segment name gazetted later.",
+              "notice_label": null,
+              "publication_date": null,
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null
+            }
+          ],
+          "source": "crowdsubmitted",
+          "submitter_remarks": "Eastern reach of original Queen's Road opened February 1842; map_year uses built-first. Unverified — no gazette primary on file.",
+          "gazette_location": null
+        },
+        {
+          "date": "1842-03-22",
+          "change_kind": "declare",
+          "name_en": "Queen's Road",
+          "name_zh": "皇后大道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": null,
+          "notice_label_zh": null,
+          "notice_url_en": null,
+          "notice_url_zh": null,
+          "evidence_kind": "research",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "research",
+              "publisher": null,
+              "publisher_zh": null,
+              "document_label": "Industrial History HK Group",
+              "document_url": "https://industrialhistoryhk.org/development-hong-kong-road-network-1841-1940/",
+              "supports": [
+                "publication_date",
+                "street_name_en"
+              ],
+              "note": null,
+              "notice_label": null,
+              "publication_date": null,
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null
+            }
+          ],
+          "source": "crowdsubmitted",
+          "submitter_remarks": "Parent thoroughfare name before eastern segment distinguished.",
+          "gazette_location": null
+        },
+        {
+          "date": "1874-02-14",
+          "change_kind": "declare",
+          "name_en": "Queen's Road East",
+          "name_zh": "皇后大道東",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.32",
+          "notice_label_zh": "第32號",
+          "notice_url_en": null,
+          "notice_url_zh": null,
+          "evidence_kind": "gazette_mention",
+          "is_declaration_event": false,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": "G.N.32 repairs tender cites Queen's Road East; not a street-naming notice.",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "research",
+              "publisher": null,
+              "publisher_zh": null,
+              "document_label": "HK Gov Gazette 1874 index (G.N.32)",
+              "document_url": "https://digitalrepository.lib.hku.hk/catalog/kd17m2859",
+              "supports": [
+                "publication_date",
+                "street_name_en"
+              ],
+              "note": "1874-02-14: Tenders, Queen's Road East, Repairs to.",
+              "notice_label": "G.N.32",
+              "publication_date": null,
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null
+            },
+            {
+              "evidence_kind": "research",
+              "publisher": null,
+              "publisher_zh": null,
+              "document_label": "Wikipedia Queen's Road East",
+              "document_url": "https://en.wikipedia.org/wiki/Queen%27s_Road_East",
+              "supports": [
+                "street_name_en"
+              ],
+              "note": "Segment name attested in use since at least the 1870s.",
+              "notice_label": null,
+              "publication_date": null,
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null
+            }
+          ],
+          "source": "crowdsubmitted",
+          "submitter_remarks": "Earliest HKGRO index hit for segment name. Official naming gazette not yet on file.",
+          "gazette_location": null
+        },
+        {
+          "date": "1930-01-01",
+          "change_kind": "declare",
+          "name_en": "Gap Road",
+          "name_zh": null,
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": null,
+          "notice_label_zh": null,
+          "notice_url_en": null,
+          "notice_url_zh": null,
+          "evidence_kind": "research",
+          "is_declaration_event": true,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "research",
+              "publisher": null,
+              "publisher_zh": null,
+              "document_label": "Wikipedia Queen's Road East",
+              "document_url": "https://en.wikipedia.org/wiki/Queen%27s_Road_East",
+              "supports": [
+                "street_name_en",
+                "publication_date"
+              ],
+              "note": "Eastern part cut through Morrison Hill; known as Gap Road around 1930.",
+              "notice_label": null,
+              "publication_date": null,
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null
+            }
+          ],
+          "source": "crowdsubmitted",
+          "submitter_remarks": "Local name for section through Morrison Hill (Wan Chai–Happy Valley); still referred to circa 1930.",
+          "gazette_location": null
+        },
+        {
+          "date": "1942-04-20",
+          "change_kind": "rename",
+          "name_en": "Higashimeiji-dori",
+          "name_zh": "東明治通",
+          "previous_name_en": "Queen's Road East",
+          "previous_name_zh": "皇后大道東",
+          "notice_label_en": "Research batch (no G.N.)",
+          "notice_label_zh": "Research batch (no G.N.)",
+          "notice_url_en": null,
+          "notice_url_zh": null,
+          "evidence_kind": "legal_other",
+          "is_declaration_event": false,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": "香港佔領地公示第十二號",
+          "supplementary_evidence": [
+            {
+              "evidence_kind": "legal_other",
+              "publisher": null,
+              "publisher_zh": null,
+              "document_label": "香港佔領地公示（第十二號）",
+              "document_url": "https://zh.wikisource.org/zh-hant/%E9%A6%99%E6%B8%AF%E4%BD%94%E9%A0%98%E5%9C%B0%E5%85%AC%E7%A4%BA%EF%BC%88%E7%AC%AC%E5%8D%81%E4%BA%8C%E8%99%9F%EF%BC%89",
+              "supports": [
+                "publication_date",
+                "street_name_zh",
+                "previous_street_name_zh"
+              ],
+              "note": "Footnote: 現皇后大道東和金鐘道.",
+              "notice_label": null,
+              "publication_date": null,
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null
+            },
+            {
+              "evidence_kind": "legal_other",
+              "publisher": null,
+              "publisher_zh": null,
+              "document_label": "GRS 香港日治時期街道更名",
+              "document_url": "https://www.grs.gov.hk/ws/erp/japanocc/chi/eve03.htm",
+              "supports": [
+                "street_name_zh"
+              ],
+              "note": "皇后大道東 → 東明治通.",
+              "notice_label": null,
+              "publication_date": null,
+              "government_notice_url_en": null,
+              "government_notice_url_zh": null
+            }
+          ],
+          "source": "crowdsubmitted",
+          "submitter_remarks": "佔領地公示覆蓋現皇后大道東及金鐘道一段.",
+          "gazette_location": null
+        },
+        {
+          "date": "1949-03-25",
+          "change_kind": "declare",
+          "name_en": "Queen's Road East",
+          "name_zh": "皇后大道東",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.297",
+          "notice_label_zh": "第297號",
+          "notice_url_en": "/egazette/en/1949-gn297.pdf",
+          "notice_url_zh": "/egazette/zh/1949-gn297.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 297. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Queen's Road East (皇后大道東): Road commencing from the junction of Queen's Road Central and Garden Road and terminating at the Monument.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Queen's Road Central",
+                "Garden Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -48271,6 +48776,74 @@
           "source": "crowdsubmitted",
           "submitter_remarks": "G.N.1380 lists three Chai Wan thoroughfares; item 1 is also labelled 柴灣道 / Chai Wan Road (existing main road) — omitted from apply pending confirmation.",
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "Sunderland Road|新德鄰道",
+      "street_code": null,
+      "street_name_en": "Sunderland Road",
+      "street_name_zh": "新德鄰道",
+      "canonical_naming_year": 1949,
+      "canonical_naming_date": "1949-11-25",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1949-11-25",
+          "change_kind": "declare",
+          "name_en": "Sunderland Road",
+          "name_zh": "新德鄰道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1143",
+          "notice_label_zh": "第1143號",
+          "notice_url_en": "/egazette/en/1949-gn1143.pdf",
+          "notice_url_zh": "/egazette/zh/1949-gn1143.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 1143. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Sunderland Road (新德鄰道): Cul-de-sac road within the Air Ministry Lot No. 3, Royal Air Force Flats at Kau Lung Tsai.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "cul-de-sac",
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -63815,6 +64388,77 @@
                 "Prince Edward Road",
                 "Sai Yee Street",
                 "Flower Market Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12926",
+      "street_code": "12926",
+      "street_name_en": "Yuen Po Street",
+      "street_name_zh": "園圃街",
+      "canonical_naming_year": 1949,
+      "canonical_naming_date": "1949-10-28",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12926",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1949-10-28",
+          "change_kind": "declare",
+          "name_en": "Yuen Po Street",
+          "name_zh": "園圃街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1043",
+          "notice_label_zh": "第1043號",
+          "notice_url_en": "/egazette/en/1949-gn1043-1044.pdf",
+          "notice_url_zh": null,
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 1043. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Yuen Po Street (園圃街): Road commencing from Prince Edward Road running north-east parallel to and bordering westerly boundary of the K. C. R. and terminating at its junction with Boundary Street.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Prince Edward Road",
+                "Boundary Street"
               ],
               "unnamed_junction_refs_en": [],
               "replaces_gn_labels": [],

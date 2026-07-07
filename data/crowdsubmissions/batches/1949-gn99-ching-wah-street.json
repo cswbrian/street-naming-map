@@ -1,0 +1,35 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1949-gn99-ching-wah-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.99",
+  "publication_date": "1949-01-28",
+  "gazette_url_en": "/egazette/en/1949-gn99.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1949-gn99.pdf",
+  "streets": [
+    {
+      "link_street_code": "10254",
+      "chinese_name": "清華街",
+      "english_name": "Ching Wah Street",
+      "history": [
+        {
+          "publication_date": "1949-01-28",
+          "change_kind": "declare",
+          "gazette_notice_label": "G.N.99",
+          "street_name_en": "Ching Wah Street",
+          "street_name_zh": "清華街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 99. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Ching Wah Street (清華街): Road within Inland Lot 2366 running easterly, terminating at the boundary of Inland Lot 2366 and south of Kin Wah Street.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Kin Wah Street"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1949-gn1143-sunderland-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1143",
+  "publication_date": "1949-11-25",
+  "gazette_url_en": "/egazette/en/1949-gn1143.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1949-gn1143.pdf",
+  "streets": [
+    {
+      "chinese_name": "新德鄰道",
+      "english_name": "Sunderland Road",
+      "history": [
+        {
+          "publication_date": "1949-11-25",
+          "change_kind": "declare",
+          "gazette_notice_label": "G.N.1143",
+          "street_name_en": "Sunderland Road",
+          "street_name_zh": "新德鄰道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 1143. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Sunderland Road (新德鄰道): Cul-de-sac road within the Air Ministry Lot No. 3, Royal Air Force Flats at Kau Lung Tsai.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": "cul-de-sac"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

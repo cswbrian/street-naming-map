@@ -1,0 +1,35 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1949-gn297-queens-road-east",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.297",
+  "publication_date": "1949-03-25",
+  "gazette_url_en": "/egazette/en/1949-gn297.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1949-gn297.pdf",
+  "streets": [
+    {
+      "link_street_code": "11805",
+      "chinese_name": "皇后大道東",
+      "english_name": "Queen's Road East",
+      "history": [
+        {
+          "publication_date": "1949-03-25",
+          "change_kind": "declare",
+          "gazette_notice_label": "G.N.297",
+          "street_name_en": "Queen's Road East",
+          "street_name_zh": "皇后大道東",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 297. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Queen's Road East (皇后大道東): Road commencing from the junction of Queen's Road Central and Garden Road and terminating at the Monument.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Queen's Road Central", "Garden Road"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

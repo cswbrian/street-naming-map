@@ -1,0 +1,35 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1949-gn715-granville-circuit",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.715",
+  "publication_date": "1949-07-29",
+  "gazette_url_en": "/egazette/en/1949-gn715.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1949-gn715.pdf",
+  "streets": [
+    {
+      "link_street_code": "10621",
+      "chinese_name": "嘉蘭圍",
+      "english_name": "Granville Circuit",
+      "history": [
+        {
+          "publication_date": "1949-07-29",
+          "change_kind": "declare",
+          "gazette_notice_label": "G.N.715",
+          "street_name_en": "Granville Circuit",
+          "street_name_zh": "嘉蘭圍",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 715. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Granville Circuit (嘉蘭圍): Road within K.I.L. 538, commencing at its western junction with Granville Road and terminating at its eastern junction with Granville Road.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Granville Road"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

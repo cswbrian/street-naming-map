@@ -1,0 +1,58 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1949-gn1043-1044-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1043",
+  "publication_date": "1949-10-28",
+  "gazette_url_en": "/egazette/en/1949-gn1043-1044.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1949-gn1043-1044-streets/1949-gn1043-1044.pdf",
+  "streets": [
+    {
+      "link_street_code": "12926",
+      "chinese_name": "園圃街",
+      "english_name": "Yuen Po Street",
+      "history": [
+        {
+          "publication_date": "1949-10-28",
+          "change_kind": "declare",
+          "gazette_notice_label": "G.N.1043",
+          "street_name_en": "Yuen Po Street",
+          "street_name_zh": "園圃街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 1043. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Yuen Po Street (園圃街): Road commencing from Prince Edward Road running north-east parallel to and bordering westerly boundary of the K. C. R. and terminating at its junction with Boundary Street.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Prince Edward Road", "Boundary Street"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11457",
+      "chinese_name": "萬茂臺",
+      "english_name": "Monmouth Terrace",
+      "history": [
+        {
+          "publication_date": "1949-10-28",
+          "change_kind": "declare",
+          "gazette_notice_label": "G.N.1044",
+          "street_name_en": "Monmouth Terrace",
+          "street_name_zh": "萬茂臺",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 1044. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Monmouth Terrace (萬茂臺): Road extending from its junction with Kennedy Road opposite Inland Lot 1890 adjacent to Monmouth Path and then within Section D of Inland Lot 2837, and terminating therein.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Kennedy Road", "Monmouth Path"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

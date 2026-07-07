@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-06T16:28:43.948Z",
+  "updated_at": "2026-07-07T16:04:33.862Z",
   "links": [
     {
       "timeline_id": "code:10003",
@@ -697,6 +697,19 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:10164",
+      "street_code": "10164",
+      "event_ids": [
+        "crowd|1949-gn787-chatham-court-Chatham-Court-漆咸圍-1949-08-19"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-07",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10165",
       "street_code": "10165",
       "event_ids": [
@@ -1129,6 +1142,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10254",
+      "street_code": "10254",
+      "event_ids": [
+        "crowd|1949-gn99-ching-wah-street-Ching-Wah-Street-清華街-1949-01-28"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-07",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -2437,6 +2463,19 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10621",
+      "street_code": "10621",
+      "event_ids": [
+        "crowd|1949-gn715-granville-circuit-Granville-Circuit-嘉蘭圍-1949-07-29"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-07",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10625",
       "street_code": "10625",
       "event_ids": [
@@ -2752,6 +2791,19 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10678",
+      "street_code": "10678",
+      "event_ids": [
+        "crowd|1949-gn1189-headland-road-Headland-Road-赫蘭道-1949-12-09"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-07",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10679",
@@ -5481,6 +5533,19 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:11294",
+      "street_code": "11294",
+      "event_ids": [
+        "crowd|1949-gn266-luen-wan-street-Luen-Wan-Street-聯運街-1949-03-18"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-07",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11298",
       "street_code": "11298",
       "event_ids": [
@@ -6172,6 +6237,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11457",
+      "street_code": "11457",
+      "event_ids": [
+        "crowd|1949-gn1043-1044-streets-Monmouth-Terrace-萬茂臺-1949-10-28"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-07",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -7431,14 +7509,15 @@
         "crowd|queens-road-11805-queens-road-former",
         "crowd|queens-road-11805-east-declare",
         "crowd|queens-road-11805-gap-road-former",
-        "crowd|queens-road-11805-meiji-former"
+        "crowd|queens-road-11805-meiji-former",
+        "crowd|1949-gn297-queens-road-east-Queen-s-Road-East-皇后大道東-1949-03-25"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-07-07",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:11806",
@@ -11901,6 +11980,19 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12926",
+      "street_code": "12926",
+      "event_ids": [
+        "crowd|1949-gn1043-1044-streets-Yuen-Po-Street-園圃街-1949-10-28"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-07",
       "linked_by": "apply-crowd-batch"
     },
     {

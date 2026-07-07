@@ -1,0 +1,35 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1949-gn266-luen-wan-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.266",
+  "publication_date": "1949-03-18",
+  "gazette_url_en": "/egazette/en/1949-gn266.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1949-gn266.pdf",
+  "streets": [
+    {
+      "link_street_code": "11294",
+      "chinese_name": "聯運街",
+      "english_name": "Luen Wan Street",
+      "history": [
+        {
+          "publication_date": "1949-03-18",
+          "change_kind": "declare",
+          "gazette_notice_label": "G.N.266",
+          "street_name_en": "Luen Wan Street",
+          "street_name_zh": "聯運街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 266. PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Luen Wan Street (聯運街): Road commencing at its junction with Argyle Street, running northerly, and terminating at the entrance to Yaumati Railway Station.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Argyle Street"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
