@@ -22,7 +22,7 @@ export default function NamingYearPeriodsPanel({
   return (
     <section className="pending-stats-section pending-stats-section--periods">
       <h2 className="pending-stats-title">{t('periodStatsTitle')}</h2>
-      <p className="pending-stats-hint">{t(hintKey)}</p>
+      {hintKey ? <p className="pending-stats-hint">{t(hintKey)}</p> : null}
       <div className="pending-stats-grid">
         {stats.map((item) => (
           <button

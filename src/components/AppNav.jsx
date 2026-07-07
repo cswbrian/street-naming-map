@@ -92,6 +92,7 @@ function AppNav() {
   const { t } = useLocale()
   const mapPath = useLocalePath()
   const namesPath = useLocalePath('names')
+  const timelinesPath = useLocalePath('timelines')
   const aboutPath = useLocalePath('about')
   const [pendingCount, setPendingCount] = useState(null)
   const [menuOpen, setMenuOpen] = useState(false)
@@ -153,6 +154,12 @@ function AppNav() {
           ) : null}
         </NavLink>
         <NavLink
+          to={timelinesPath}
+          className={({ isActive }) => `app-top-nav-link ${isActive ? 'is-active' : ''}`}
+        >
+          {t('navTimelines')}
+        </NavLink>
+        <NavLink
           to={aboutPath}
           className={({ isActive }) =>
             `app-top-nav-link app-top-nav-about ${isActive ? 'is-active' : ''}`
@@ -183,6 +190,14 @@ function AppNav() {
         </button>
         {menuOpen ? (
           <div className="app-nav-menu-panel" role="menu">
+            <NavLink
+              to={timelinesPath}
+              role="menuitem"
+              className={({ isActive }) => `app-nav-menu-item app-nav-menu-link ${isActive ? 'is-active' : ''}`}
+              onClick={() => setMenuOpen(false)}
+            >
+              {t('navTimelines')}
+            </NavLink>
             <NavLink
               to={aboutPath}
               role="menuitem"

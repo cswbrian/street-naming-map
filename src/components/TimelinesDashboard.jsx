@@ -178,7 +178,7 @@ function TimelinesDashboard({ onOpenRoadOnMap }) {
               periodStats={periodStats}
               periodFilter={periodFilter}
               onPeriodFilterChange={handlePeriodFilterChange}
-              hintKey="timelinesPeriodStatsHint"
+              hintKey={null}
             />
           </aside>
 
