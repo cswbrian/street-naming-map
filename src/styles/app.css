@@ -3525,3 +3525,14 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
 .street-page-street-link:focus-visible {
   text-decoration: underline;
 }
+
+/* Build-time crawl preview: visible without JS, hidden once the SPA mounts */
+html.js #street-static-preview {
+  display: none;
+}
+
+.street-static-preview {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 1.25rem 1rem;
+}
