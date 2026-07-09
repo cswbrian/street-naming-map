@@ -5,19 +5,11 @@ import {
   isAboutRoutePath,
   isLinkQueueRoutePath,
   isNamesRoutePath,
+  isStreetRoutePath,
   isTimelinesRoutePath,
 } from '../i18n/locale'
-import { LOCALES } from '../i18n/translations'
 import { useLocale } from '../i18n/LocaleContext'
-import {
-  getCanonicalUrl,
-  getOgImageUrl,
-  OG_IMAGE_HEIGHT,
-  OG_IMAGE_WIDTH,
-  setAlternateLinks,
-  setLink,
-  setMeta,
-} from '../lib/seo'
+import { applyPageSeo, getCanonicalUrl } from '../lib/seo'
 
 function PageSeo() {
   const { locale, t } = useLocale()
@@ -27,8 +19,11 @@ function PageSeo() {
   const isNamesRoute = isNamesRoutePath(location.pathname)
   const isLinkQueueRoute = isLinkQueueRoutePath(location.pathname)
   const isTimelinesRoute = isTimelinesRoutePath(location.pathname)
+  const isStreetRoute = isStreetRoutePath(location.pathname)
 
   useEffect(() => {
+    if (isStreetRoute) return
+
     const pageLabel = t(
       isAboutRoute
         ? 'navAbout'
@@ -49,35 +44,27 @@ function PageSeo() {
           ? t('linkQueueSeoDescription')
           : t('seoDescription')
     const canonicalUrl = getCanonicalUrl(location.pathname)
-    const ogLocale = locale === 'zh' ? 'zh_HK' : 'en'
-    const alternateLocale = locale === 'zh' ? 'en' : 'zh_HK'
 
-    document.title = documentTitle
-    setMeta('name', 'description', description)
-    setMeta('property', 'og:site_name', t('siteTitle'))
-    setMeta('property', 'og:type', 'website')
-    setMeta('property', 'og:title', documentTitle)
-    setMeta('property', 'og:description', description)
-    setMeta('property', 'og:url', canonicalUrl)
-    setMeta('property', 'og:locale', ogLocale)
-    setMeta('property', 'og:locale:alternate', alternateLocale)
-    const ogImageUrl = getOgImageUrl(window.location.origin)
-    setMeta('property', 'og:image', ogImageUrl)
-    setMeta('property', 'og:image:width', String(OG_IMAGE_WIDTH))
-    setMeta('property', 'og:image:height', String(OG_IMAGE_HEIGHT))
-    setMeta('property', 'og:image:type', 'image/png')
-    setMeta('name', 'twitter:card', 'summary_large_image')
-    setMeta('name', 'twitter:title', documentTitle)
-    setMeta('name', 'twitter:description', description)
-    setMeta('name', 'twitter:image', ogImageUrl)
-    setLink('canonical', canonicalUrl)
-    setAlternateLinks({
-      pathname: location.pathname,
+    applyPageSeo({
+      title: documentTitle,
+      description,
+      canonicalUrl,
+      locale,
       origin: window.location.origin,
-      locales: LOCALES,
       routeSuffix,
+      siteName: t('siteTitle'),
     })
-  }, [isAboutRoute, isLinkQueueRoute, isNamesRoute, isTimelinesRoute, locale, location.pathname, routeSuffix, t])
+  }, [
+    isAboutRoute,
+    isLinkQueueRoute,
+    isNamesRoute,
+    isStreetRoute,
+    isTimelinesRoute,
+    locale,
+    location.pathname,
+    routeSuffix,
+    t,
+  ])
 
   return null
 }

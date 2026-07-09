@@ -668,9 +668,9 @@ export function aggregateByCentrelineMap(events, centrelineMap, options = {}) {
   const mapAggregates = []
 
   for (const link of links) {
-    if (link.status !== 'active') continue
+    const status = String(link.status ?? '').trim().toLowerCase()
+    if (status !== 'active' && status !== 'unlinked') continue
     const code = String(link.street_code ?? '').trim()
-    if (!code) continue
 
     const groupEvents = []
     for (const eventId of link.event_ids ?? []) {
@@ -682,16 +682,20 @@ export function aggregateByCentrelineMap(events, centrelineMap, options = {}) {
     }
     if (!groupEvents.length) continue
 
-    const withCode = groupEvents.map((event) =>
-      String(event.street_code ?? '').trim() ? event : { ...event, street_code: code },
-    )
+    const withCode = code
+      ? groupEvents.map((event) =>
+          String(event.street_code ?? '').trim() ? event : { ...event, street_code: code },
+        )
+      : groupEvents
     const [aggregate] = aggregateByStreet(withCode, options)
     if (aggregate) {
       mapAggregates.push({
         ...aggregate,
-        street_key: `code:${code}`,
-        street_code: code,
+        street_key: code ? `code:${code}` : aggregate.street_key,
+        street_code: code || aggregate.street_code || null,
         timeline_id: link.timeline_id,
+        page_id: link.page_id ?? null,
+        link_status: status,
       })
     }
   }

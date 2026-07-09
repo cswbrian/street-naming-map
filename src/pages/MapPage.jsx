@@ -20,6 +20,8 @@ import { COLOR_GROUP_DEFS, getRoadTypeLabel } from '../i18n/translations'
 import { REGION_OPTIONS, DISTRICT_OPTIONS } from '../config/regions.mjs'
 import subdistrictCentersConfig from '../config/subdistrictCenters.json'
 import { loadNamingRoads } from '../lib/loadNamingRoads.js'
+import { loadStreetTimelines } from '../lib/loadStreetTimelines.js'
+import { buildStreetTimelinesIndex, resolveTimelineFromRoadKey } from '../lib/streetTimelinesIndex.js'
 import { buildSingleStreetFormUrl } from '../lib/contributeForm.js'
 import {
   trackEraFilter,
@@ -79,6 +81,7 @@ function MapPage() {
   const [noticeStemIndex, setNoticeStemIndex] = useState(null)
   const [pdfLocales, setPdfLocales] = useState(null)
   const [pendingRoadLookup, setPendingRoadLookup] = useState(() => new Map())
+  const [streetTimelinesIndex, setStreetTimelinesIndex] = useState(null)
   const [isRoadIndexLoading, setIsRoadIndexLoading] = useState(true)
   const [activeRoadId, setActiveRoadId] = useState(null)
   const [selectedRoadKey, setSelectedRoadKey] = useState(null)
@@ -251,6 +254,8 @@ function MapPage() {
     )
     const namingRemarks = buildNamingRemarks(pendingRow?.naming_details, displayNames, locale)
     const namingYear = activeRoad?.year ?? pickedRoadMeta?.year ?? displayRow.naming_year ?? null
+    const timelineRow = resolveTimelineFromRoadKey(streetTimelinesIndex, selectedRoadKey)
+    const pageId = timelineRow?.page_id ?? null
     const shareUrl =
       typeof window !== 'undefined'
         ? buildRoadShareUrl({
@@ -258,6 +263,8 @@ function MapPage() {
             pathname: location.pathname,
             roadKey: selectedRoadKey,
             year: namingYear,
+            pageId,
+            locale,
           })
         : null
     return {
@@ -290,6 +297,8 @@ function MapPage() {
     t,
     selectedContributeMeta.url,
     location.pathname,
+    streetTimelinesIndex,
+    locale,
   ])
   const roadResults = useMemo(() => {
     const keyword = roadSearch.trim().toLowerCase()
@@ -461,12 +470,13 @@ function MapPage() {
 
     const loadRoadIndex = async () => {
       try {
-        const [roadsResponse, namingRoads, stemsResponse, localesResponse] =
+        const [roadsResponse, namingRoads, stemsResponse, localesResponse, timelinesData] =
           await Promise.all([
             fetch(ROADS_URL),
             loadNamingRoads(),
             fetch(NOTICE_STEMS_URL),
             fetch(PDF_LOCALES_URL),
+            loadStreetTimelines().catch(() => ({ timelines: [] })),
           ])
         if (!roadsResponse.ok) throw new Error('Unable to load roads data')
         const geojson = await roadsResponse.json()
@@ -484,6 +494,7 @@ function MapPage() {
           setPdfLocales(localesIndex)
           setNoticeLookup(buildNoticeLookup(pendingRoads, { noticeIndex: stemIndex }))
           setPendingRoadLookup(buildPendingRoadLookup(pendingRoads))
+          setStreetTimelinesIndex(buildStreetTimelinesIndex(timelinesData?.timelines ?? []))
         }
         const features = Array.isArray(geojson?.features) ? geojson.features : []
         const roadsMap = new Map()

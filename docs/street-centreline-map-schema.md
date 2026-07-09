@@ -20,7 +20,8 @@ Links **naming timelines** (groups of gazette events) to **LandsD centreline** `
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `timeline_id` | string | yes | Stable identity, e.g. `code:10115` or `tl-canton-kln` |
+| `timeline_id` | string | yes | Internal join key, e.g. `code:10115` or `page:bel-air-peak-avenue` |
+| `page_id` | string | yes | **Permanent public URL slug** — assigned once, never changed. Used in `/{locale}/streets/{page_id}`. |
 | `street_code` | string \| null | yes | LandsD `STREETCODE`; null when unlinked or abolished |
 | `event_ids` | string[] | yes | `event_id` values from `street-events.json` |
 | `status` | enum | yes | `active` · `unlinked` · `abolished` · `disputed` |
@@ -45,12 +46,14 @@ Links **naming timelines** (groups of gazette events) to **LandsD centreline** `
 2. Homonyms (e.g. two Macdonnell Roads) → **two** `timeline_id`s, **two** `street_code`s.
 3. Gazette parsers do **not** edit this file.
 4. Renames on the same centreline stay in one timeline (all `event_ids` on one link).
+5. **`page_id` is immutable** after first assign. Linking may set `street_code` / `status`, but must **not** rename `page_id`. Public street URLs and SEO depend on it.
 
 ## Example: Kowloon Macdonnell → Canton Road
 
 ```json
 {
   "timeline_id": "code:10115",
+  "page_id": "10115-canton-road",
   "street_code": "10115",
   "event_ids": ["crowd|1909-gn184-safe-10115-1909-03-19"],
   "status": "active",
@@ -68,4 +71,5 @@ Links **naming timelines** (groups of gazette events) to **LandsD centreline** `
 | `npm run strip:event-street-codes` | Remove deprecated `street_code` from all events |
 | `npm run report:unmapped-events` | Events not in any link |
 | `npm run report:street-timelines` | Generate `public/data/master/street-timelines.json` |
+| `npm run backfill:street-page-ids` | One-time / repair: assign `page_id`, create unlinked rows |
 | `npm run apply:street-links` | Apply linker JSON/CSV updates |

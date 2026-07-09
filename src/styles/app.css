@@ -3456,3 +3456,72 @@ a.selected-road-chip-evidence.pending-evidence-link:focus-visible {
   border-color: var(--sn-border-strong);
   background: var(--sn-bg-elevated);
 }
+
+.street-page {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 1.25rem 1rem 2.5rem;
+}
+
+.street-page-status,
+.street-page-empty {
+  color: var(--sn-text-muted);
+}
+
+.street-page-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.street-page-name-zh {
+  margin: 0;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  line-height: 1.2;
+}
+
+.street-page-name-en {
+  margin: 0.35rem 0 0;
+  color: var(--sn-text-muted);
+  font-size: 1rem;
+}
+
+.street-page-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.street-page-action-btn {
+  border: 1px solid var(--sn-border-strong);
+  border-radius: 0.5rem;
+  background: var(--sn-accent);
+  color: var(--sn-accent-text);
+  padding: 0.45rem 0.85rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+.street-page-action-btn.is-secondary {
+  background: transparent;
+  color: var(--sn-text);
+}
+
+.street-page-meta {
+  margin: 0 0 1rem;
+  color: var(--sn-text-muted);
+}
+
+.street-page-link,
+.street-page-street-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.street-page-street-link:hover,
+.street-page-street-link:focus-visible {
+  text-decoration: underline;
+}

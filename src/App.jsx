@@ -4,6 +4,7 @@ import NamesPage from './pages/NamesPage'
 import AboutPage from './pages/AboutPage'
 import LinkQueuePage from './pages/LinkQueuePage'
 import TimelinesPage from './pages/TimelinesPage'
+import StreetPage from './pages/StreetPage'
 import { LocaleProvider } from './i18n/LocaleContext'
 import { ThemeProvider } from './theme/ThemeContext'
 import LocaleRedirect from './routes/LocaleRedirect'
@@ -13,7 +14,7 @@ import './styles/app.css'
 
 function AppShell() {
   const location = useLocation()
-  const isDashboardPage = /\/(names|about|timelines|link-queue)\/?$/.test(location.pathname)
+  const isDashboardPage = /\/(names|about|timelines|link-queue|streets\/[^/]+)\/?$/.test(location.pathname)
 
   return (
     <main className={`app-shell ${isDashboardPage ? 'is-dashboard' : ''}`}>
@@ -57,6 +58,7 @@ function App() {
           <Route path="about" element={<AboutPage />} />
           <Route path="link-queue" element={<LinkQueuePage />} />
           <Route path="timelines" element={<TimelinesPage />} />
+          <Route path="streets/:pageId" element={<StreetPage />} />
           <Route path="contribute" element={<LegacyLocaleRedirect segment="names" />} />
         </Route>
       </Route>

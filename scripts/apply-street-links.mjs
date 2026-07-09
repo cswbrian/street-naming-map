@@ -19,7 +19,9 @@ import {
   saveCentrelineMap,
   upsertCentrelineLinks,
   validateCentrelineMap,
+  enrichCentrelineLinkHints,
 } from './lib/street-centreline-map.mjs'
+import { loadMasterEvents } from './lib/master-street-events.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const projectRoot = path.resolve(__dirname, '..')
@@ -43,7 +45,22 @@ async function main() {
   }
 
   const existing = await loadCentrelineMap({ allowMissing: true })
-  const merged = upsertCentrelineLinks(existing, incoming)
+  const events = await loadMasterEvents()
+  const eventById = new Map(
+    events.map((event) => [String(event.event_id ?? '').trim(), event]).filter(([id]) => id),
+  )
+  const resolveNames = (hint) => {
+    for (const rawId of hint.event_ids ?? []) {
+      const event = eventById.get(String(rawId).trim())
+      if (!event) continue
+      const en = String(event.street_name_en ?? '').trim()
+      const zh = String(event.street_name_zh ?? '').trim()
+      if (en || zh) return { en, zh }
+    }
+    return { en: null, zh: null }
+  }
+  const enriched = enrichCentrelineLinkHints(incoming, existing, resolveNames)
+  const merged = upsertCentrelineLinks(existing, enriched)
   const validation = validateCentrelineMap(merged)
   if (!validation.valid) {
     console.error('Validation failed:', validation.errors)

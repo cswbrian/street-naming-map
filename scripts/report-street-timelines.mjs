@@ -39,6 +39,11 @@ async function main() {
 
   const aggregates = aggregateByCentrelineMap(events, map, { namingDateExclusions: exclusions })
   const linkByTimeline = new Map((map.links ?? []).map((l) => [l.timeline_id, l]))
+  const linkByPageId = new Map(
+    (map.links ?? [])
+      .filter((l) => l.page_id)
+      .map((l) => [String(l.page_id).trim(), l]),
+  )
   const linkByCode = new Map(
     (map.links ?? [])
       .filter((l) => l.street_code)
@@ -49,6 +54,7 @@ async function main() {
     const code = String(agg.street_code ?? '').trim()
     const link =
       (code && linkByCode.get(code)) ??
+      (agg.page_id && linkByPageId.get(String(agg.page_id).trim())) ??
       [...linkByTimeline.values()].find((l) =>
         (l.event_ids ?? []).some((id) => agg.event_history?.some((e) => e.event_id === id)),
       ) ??
@@ -56,6 +62,7 @@ async function main() {
 
     return {
       timeline_id: link?.timeline_id ?? (code ? `code:${code}` : agg.street_key),
+      page_id: link?.page_id ?? agg.page_id ?? null,
       street_code: code || null,
       street_name_en: agg.street_name_en,
       street_name_zh: agg.street_name_zh,

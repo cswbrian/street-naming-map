@@ -40,6 +40,7 @@ Or hidden UI: `/{locale}/link-queue` (select rows → download `links.json`).
 {
   "links": [{
     "timeline_id": "code:10115",
+    "page_id": "10115-canton-road",
     "street_code": "10115",
     "event_ids": ["crowd|1909-gn184-safe-10115-1909-03-19"],
     "status": "active",
@@ -50,6 +51,8 @@ Or hidden UI: `/{locale}/link-queue` (select rows → download `links.json`).
   }]
 }
 ```
+
+**`page_id`:** mint once when creating a link row (batch apply, linker, or `npm run backfill:street-page-ids`). Format: `{street_code}-{en-slug}` when code known; else English slug (optionally `+ district`). Never change after publish.
 
 Example file: [data/linker/example.json](../data/linker/example.json). Schema: [docs/street-centreline-map-schema.md](../docs/street-centreline-map-schema.md).
 
@@ -86,6 +89,7 @@ When applying a gazette batch **and** geojson match is confirmed, parsers/linker
 2. Homonyms → two `timeline_id`s, two `street_code`s, separate `event_ids`.
 3. Renames on the same physical road → one link, all related `event_ids`.
 4. **Never** add `street_code` back onto events in `street-events.json`.
+5. **Never change `page_id`** on an existing link. Public URLs are `/{locale}/streets/{page_id}`.
 
 ## Verification
 

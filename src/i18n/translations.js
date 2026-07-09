@@ -217,6 +217,13 @@ export const translations = {
     timelinesTitle: '時序',
     timelinesSeoDescription:
       '瀏覽政府憲報記錄的街道命名時間線，包括已連結至地圖與尚未連結的條目。',
+    streetPageTitle: '{name} · 街道命名歷史',
+    streetPageDescription:
+      '查閱{name}的政府憲報命名記錄：{count}項事件，正式命名年份為{year}。',
+    streetPageNotFound: '找不到此街道頁面。',
+    streetPageOpenMap: '在地圖上開啟',
+    streetPageNamingYear: '正式命名年份：{year}',
+    streetPageView: '街道頁面',
     timelinesIntro:
       '以下列出從憲報解析出的所有街道事件，涵蓋現存街道與已廢除或易名前之路段。目前並未收錄所有事件。',
     timelinesReportError: '找不到時間線報告。請先執行 npm run report:street-timelines。',
@@ -480,6 +487,13 @@ export const translations = {
     timelinesTitle: 'Timeline',
     timelinesSeoDescription:
       'Browse gazette-recorded street naming timelines — linked to the map or still unlinked.',
+    streetPageTitle: '{name} · Street naming history',
+    streetPageDescription:
+      'Gazette naming record for {name}: {count} events; formal naming year {year}.',
+    streetPageNotFound: 'Street page not found.',
+    streetPageOpenMap: 'Open on map',
+    streetPageNamingYear: 'Formal naming year: {year}',
+    streetPageView: 'Street page',
     timelinesIntro:
       'Listed below are all street events parsed from the gazette, covering current streets and roads that have been abolished or renamed. Not all events have been collected yet.',
     timelinesReportError: 'Street timelines report not found. Run npm run report:street-timelines first.',

@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useLocale } from '../i18n/LocaleContext'
 import { getPeriodLabel, PERIOD_GROUP_DEFS } from '../i18n/translations'
 import { loadStreetTimelines } from '../lib/loadStreetTimelines.js'
+import { buildStreetPagePath } from '../lib/streetPageUrl.js'
 import {
   getLatestHistoryDate,
   buildStreetTimelineItems,
@@ -270,7 +272,15 @@ function TimelinesDashboard({ onOpenRoadOnMap }) {
                         namingYear: row.canonical_naming_year,
                       })
 
-                    const streetCell = (
+                    const streetCell = row.page_id ? (
+                      <Link
+                        to={buildStreetPagePath(locale, row.page_id)}
+                        className="street-page-street-link"
+                      >
+                        {nameZh ? <span className="link-queue-street-zh">{nameZh}</span> : null}
+                        {nameEn ? <span className="link-queue-street-en">{nameEn}</span> : null}
+                      </Link>
+                    ) : (
                       <>
                         {nameZh ? <span className="link-queue-street-zh">{nameZh}</span> : null}
                         {nameEn ? <span className="link-queue-street-en">{nameEn}</span> : null}

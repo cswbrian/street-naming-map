@@ -1,6 +1,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import path from 'node:path'
 import { pipelinePaths } from './data-paths.mjs'
+import { isValidPageId, buildStreetPageId } from './street-page-id.mjs'
 
 export const CENTRELINE_MAP_PATH = pipelinePaths.streetCentrelineMap
 
@@ -13,8 +14,10 @@ export function normalizeLink(raw) {
   const status = String(raw.status ?? 'active').trim().toLowerCase()
   if (!LINK_STATUSES.has(status)) return null
   const eventIds = [...new Set((raw.event_ids ?? []).map((id) => String(id ?? '').trim()).filter(Boolean))]
+  const pageId = String(raw.page_id ?? '').trim() || null
   return {
     timeline_id: timelineId,
+    page_id: pageId,
     street_code: raw.street_code == null || raw.street_code === '' ? null : String(raw.street_code).trim(),
     event_ids: eventIds,
     status,
@@ -100,12 +103,24 @@ export function validateCentrelineMap(map) {
   const warnings = []
   const seenEventIds = new Map()
   const seenTimelineIds = new Set()
+  const seenPageIds = new Set()
 
   for (const link of map?.links ?? []) {
     if (seenTimelineIds.has(link.timeline_id)) {
       errors.push({ code: 'duplicate_timeline_id', timeline_id: link.timeline_id })
     }
     seenTimelineIds.add(link.timeline_id)
+
+    const pageId = String(link.page_id ?? '').trim()
+    if (pageId) {
+      if (!isValidPageId(pageId)) {
+        errors.push({ code: 'invalid_page_id', page_id: pageId, timeline_id: link.timeline_id })
+      } else if (seenPageIds.has(pageId)) {
+        errors.push({ code: 'duplicate_page_id', page_id: pageId })
+      } else {
+        seenPageIds.add(pageId)
+      }
+    }
 
     if (link.status === 'active' && !String(link.street_code ?? '').trim()) {
       warnings.push({
@@ -131,6 +146,34 @@ export function validateCentrelineMap(map) {
   return { valid: errors.length === 0, errors, warnings }
 }
 
+export function enrichCentrelineLinkHints(linkHints, map, resolveNames = () => ({ en: null, zh: null })) {
+  const usedPageIds = new Set(
+    (map?.links ?? [])
+      .map((link) => String(link.page_id ?? '').trim())
+      .filter((id) => isValidPageId(id)),
+  )
+  const byTimeline = new Map((map?.links ?? []).map((link) => [link.timeline_id, link]))
+
+  return (linkHints ?? []).map((raw) => {
+    const existing = byTimeline.get(raw.timeline_id)
+    if (existing?.page_id && isValidPageId(existing.page_id)) {
+      return { ...raw, page_id: existing.page_id }
+    }
+    const names = resolveNames(raw)
+    const pageId = buildStreetPageId(
+      {
+        streetCode: raw.street_code,
+        streetNameEn: names.en,
+        streetNameZh: names.zh,
+        districtHint: raw.district_hint,
+        eventIds: raw.event_ids,
+      },
+      usedPageIds,
+    )
+    return { ...raw, page_id: pageId }
+  })
+}
+
 export function upsertCentrelineLinks(map, incomingLinks) {
   const byTimeline = new Map((map?.links ?? []).map((link) => [link.timeline_id, link]))
   for (const raw of incomingLinks) {
@@ -139,7 +182,8 @@ export function upsertCentrelineLinks(map, incomingLinks) {
     const existing = byTimeline.get(link.timeline_id)
     if (existing) {
       const mergedIds = [...new Set([...(existing.event_ids ?? []), ...(link.event_ids ?? [])])]
-      byTimeline.set(link.timeline_id, { ...existing, ...link, event_ids: mergedIds })
+      const pageId = existing.page_id ?? link.page_id ?? null
+      byTimeline.set(link.timeline_id, { ...existing, ...link, page_id: pageId, event_ids: mergedIds })
     } else {
       byTimeline.set(link.timeline_id, link)
     }

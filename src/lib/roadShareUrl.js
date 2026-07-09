@@ -1,5 +1,7 @@
 import { parseRoadKey } from './roadKey.js'
 
+import { buildStreetPagePath, buildStreetPageUrl } from './streetPageUrl.js'
+
 export const ROAD_URL_PARAMS = ['en', 'zh', 'code', 'year']
 
 export function buildRoadSearchParams({ roadKey, year }) {
@@ -32,8 +34,17 @@ export function roadParamsMatch(currentParams, roadParams) {
   })
 }
 
-export function buildRoadShareUrl({ origin, pathname, roadKey, year }) {
+export function buildRoadShareUrl({ origin, pathname, roadKey, year, pageId, locale }) {
+  if (pageId && locale) {
+    return buildStreetPageUrl({ origin, locale, pageId })
+  }
   const params = buildRoadSearchParams({ roadKey, year })
   const search = params.toString()
   return `${origin}${pathname}${search ? `?${search}` : ''}`
 }
+
+export function buildStreetShareUrl({ origin, locale, pageId }) {
+  return buildStreetPageUrl({ origin, locale, pageId })
+}
+
+export { buildStreetPagePath }

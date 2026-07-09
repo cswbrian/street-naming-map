@@ -32,6 +32,7 @@ import {
   saveCentrelineMap,
   upsertCentrelineLinks,
   validateCentrelineMap,
+  enrichCentrelineLinkHints,
 } from './lib/street-centreline-map.mjs'
 import {
   buildSelfHostedPdfUrlsFromStem,
@@ -280,10 +281,21 @@ function buildSimpleDeclareEvent(street, publicationDate, notice, batchDefaults,
   })
 }
 
-async function applyCentrelineLinksFromBatch(linkHints) {
+async function applyCentrelineLinksFromBatch(linkHints, eventById = new Map()) {
   if (!linkHints.length) return 0
   const map = await loadCentrelineMap({ allowMissing: true })
-  const merged = upsertCentrelineLinks(map, linkHints)
+  const resolveNames = (hint) => {
+    for (const rawId of hint.event_ids ?? []) {
+      const event = eventById.get(String(rawId).trim())
+      if (!event) continue
+      const en = String(event.street_name_en ?? '').trim()
+      const zh = String(event.street_name_zh ?? '').trim()
+      if (en || zh) return { en, zh }
+    }
+    return { en: null, zh: null }
+  }
+  const enriched = enrichCentrelineLinkHints(linkHints, map, resolveNames)
+  const merged = upsertCentrelineLinks(map, enriched)
   const validation = validateCentrelineMap(merged)
   if (!validation.valid) {
     throw new Error(`Centreline map validation failed: ${JSON.stringify(validation.errors)}`)
@@ -494,7 +506,10 @@ async function main() {
   }
 
   if (linkHints.length) {
-    const linked = await applyCentrelineLinksFromBatch(linkHints)
+    const eventById = new Map(
+      historyEvents.map((event) => [String(event.event_id ?? '').trim(), event]).filter(([id]) => id),
+    )
+    const linked = await applyCentrelineLinksFromBatch(linkHints, eventById)
     console.log(`Updated ${linked} centreline map link(s) in street-centreline-map.json`)
   } else if (gazetteOnly && historyEvents.length) {
     console.log(

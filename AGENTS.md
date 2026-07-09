@@ -22,6 +22,8 @@ This repo uses **workflow guides** in [`skills/`](skills/README.md). They work w
 
 Classifying event rows: [`skills/event-model.md`](skills/event-model.md)
 
+Street pages (SEO/share): permanent `page_id` on centreline map links → `/{locale}/streets/{page_id}`. See [`docs/street-centreline-map-schema.md`](docs/street-centreline-map-schema.md).
+
 Human overview: [`README.md`](README.md)
 
 ## Setup

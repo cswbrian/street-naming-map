@@ -12,7 +12,7 @@ description: Edit gazette naming events in data/master/street-events.json (amend
 | File | Role |
 |------|------|
 | `data/master/street-events.json` | Gazette facts (this skill) |
-| `data/master/street-centreline-map.json` | Map linkage → [centreline-linker/SKILL.md](../centreline-linker/SKILL.md) |
+| `data/master/street-centreline-map.json` | Map linkage + permanent `page_id` → [centreline-linker/SKILL.md](../centreline-linker/SKILL.md) |
 
 ```json
 {
@@ -43,6 +43,8 @@ Optional: `npm run build` before deploy.
 1. **Gazette parsers:** add dated facts to `events[]` — **no `street_code`**. See [street-events-gazette-only.md](../docs/street-events-gazette-only.md).
 2. **Linkers:** do not add `street_code` here — use [centreline-linker/SKILL.md](../centreline-linker/SKILL.md).
 3. Unique `event_id` per row.
+
+Public street pages use **`page_id`** from the centreline map (not street names or `event_id`). Correcting names in events does not change the URL.
 
 **`event_id` pattern:** `{source}|{batch-slug}-{name-slug}-{publication_date}` (old slugs may embed a code — do not copy that pattern).
 
