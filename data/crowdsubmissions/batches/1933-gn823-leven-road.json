@@ -1,0 +1,39 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1933-gn823-leven-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.823",
+  "publication_date": "1933-12-22",
+  "gazette_url_en": "/egazette/en/1933-gn823.pdf",
+  "gazette_url_zh": "/egazette/zh/1933-gn823.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1933-gn823.pdf",
+  "streets": [
+    {
+      "link_street_code": "11275",
+      "chinese_name": "露明道",
+      "english_name": "Lomond Road",
+      "history": [
+        {
+          "publication_date": "1933-12-22",
+          "change_kind": "declare",
+          "street_name_en": "Leven Road",
+          "street_name_zh": "梨雲道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 823.—COLONIAL SECRETARY'S DEPARTMENT. It is hereby notified that the undermentioned Roads will, in future, be known by the names indicated against them:— DESCRIPTION: Road on the Eastern Boundary of Site of Mental Hospital, running North North-west and connecting Argyle Street and Prince Edward Road. PROPOSED NAMES: Leven Road. CHINESE VERSION: 梨雲道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Argyle Street",
+                "Prince Edward Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

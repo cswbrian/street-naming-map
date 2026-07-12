@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T17:16:20.476Z",
+  "generated_at": "2026-07-12T17:29:20.397Z",
   "source_file": "public/data/hk-streets.geojson",
   "notice_stem_index_path": "public/data/master/egazette-notice-stems.json",
   "egazette_pdf_locales_path": "public/data/master/egazette-pdf-locales.json",
@@ -86992,8 +86992,8 @@
       "english_name": "LOMOND ROAD",
       "chinese_name": "露明道",
       "street_type": "Secondary Road",
-      "naming_year": 1953,
-      "naming_date": "1953-03-27",
+      "naming_year": 1933,
+      "naming_date": "1933-12-22",
       "naming_source": "crowdsubmitted",
       "naming_details": {
         "street_key": "code:11275",
@@ -87001,13 +87001,13 @@
         "canonical_naming_date": "1953-03-27",
         "canonical_naming_year": 1953,
         "current_name_since_date": "1953-03-27",
-        "first_known_naming_date": "",
+        "first_known_naming_date": "1933-12-22",
         "derivation_reason": "current_name_since",
-        "map_display_date": "1953-03-27",
-        "map_display_year": 1953,
+        "map_display_date": "1933-12-22",
+        "map_display_year": 1933,
         "map_year_source": "gazette_document",
         "map_derivation_reason": "gazette_document_earliest",
-        "map_display_event_id": "crowd|1953-gn419-lomond-road-Lomond-Road-露明道-1953-03-27",
+        "map_display_event_id": "crowd|1933-gn823-leven-road-Lomond-Road-露明道-1933-12-22",
         "map_display_evidence_kind": "gazette_primary",
         "canonical_evidence_kind": "gazette_primary",
         "canonical_evidence_event_id": "crowd|1953-gn419-lomond-road-Lomond-Road-露明道-1953-03-27",
@@ -87018,16 +87018,16 @@
         "event_count": 2,
         "name_history": [
           {
-            "date": "",
+            "date": "1933-12-22",
             "change_kind": "declare",
             "name_en": "Leven Road",
-            "name_zh": null,
+            "name_zh": "梨雲道",
             "previous_name_en": null,
             "previous_name_zh": null,
-            "notice_label_en": "G.N.419",
-            "notice_label_zh": "第419號",
-            "notice_url_en": "/egazette/en/1953-gn419.pdf",
-            "notice_url_zh": "/egazette/zh/1953-gn419.pdf",
+            "notice_label_en": "G.N.823",
+            "notice_label_zh": "第823號",
+            "notice_url_en": "/egazette/en/1933-gn823.pdf",
+            "notice_url_zh": "/egazette/zh/1933-gn823.pdf",
             "evidence_kind": "gazette_primary",
             "is_declaration_event": true,
             "event_role": "former_name",
@@ -87035,8 +87035,40 @@
             "evidence_kind_note": null,
             "supplementary_evidence": null,
             "source": "crowdsubmitted",
-            "submitter_remarks": "Former name attested in G.N.419 rename notice; separate naming date not recorded on file.",
-            "gazette_location": null
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "No. 823.—COLONIAL SECRETARY'S DEPARTMENT. It is hereby notified that the undermentioned Roads will, in future, be known by the names indicated against them:— DESCRIPTION: Road on the Eastern Boundary of Site of Mental Hospital, running North North-west and connecting Argyle Street and Prince Edward Road. PROPOSED NAMES: Leven Road. CHINESE VERSION: 梨雲道.",
+              "description_raw_zh": null,
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [
+                  "Argyle Street",
+                  "Prince Edward Road"
+                ],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
           },
           {
             "date": "1953-03-27",
@@ -87044,7 +87076,7 @@
             "name_en": "Lomond Road",
             "name_zh": "露明道",
             "previous_name_en": "Leven Road",
-            "previous_name_zh": null,
+            "previous_name_zh": "梨雲道",
             "notice_label_en": "G.N.419",
             "notice_label_zh": "第419號",
             "notice_url_en": "/egazette/en/1953-gn419.pdf",
@@ -87092,12 +87124,12 @@
             }
           }
         ],
-        "notice_no": "GN419",
+        "notice_no": "GN823",
         "notice_key": null,
-        "government_notice_label_en": "G.N.419",
-        "government_notice_label_zh": "第419號",
-        "government_notice_url_en": "/egazette/en/1953-gn419.pdf",
-        "government_notice_url_zh": "/egazette/zh/1953-gn419.pdf"
+        "government_notice_label_en": "G.N.823",
+        "government_notice_label_zh": "第823號",
+        "government_notice_url_en": "/egazette/en/1933-gn823.pdf",
+        "government_notice_url_zh": "/egazette/zh/1933-gn823.pdf"
       },
       "segment_count": 2
     },

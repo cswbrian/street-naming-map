@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T17:16:20.795Z",
+  "generated_at": "2026-07-12T17:28:47.910Z",
   "totals": {
     "timelines": 1825,
     "linked_active": 1469,
@@ -43943,16 +43943,16 @@
       },
       "name_history": [
         {
-          "date": "",
+          "date": "1933-12-22",
           "change_kind": "declare",
           "name_en": "Leven Road",
-          "name_zh": null,
+          "name_zh": "梨雲道",
           "previous_name_en": null,
           "previous_name_zh": null,
-          "notice_label_en": "G.N.419",
-          "notice_label_zh": "第419號",
-          "notice_url_en": "/egazette/en/1953-gn419.pdf",
-          "notice_url_zh": "/egazette/zh/1953-gn419.pdf",
+          "notice_label_en": "G.N.823",
+          "notice_label_zh": "第823號",
+          "notice_url_en": "/egazette/en/1933-gn823.pdf",
+          "notice_url_zh": "/egazette/zh/1933-gn823.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
           "event_role": "former_name",
@@ -43960,8 +43960,40 @@
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
-          "submitter_remarks": "Former name attested in G.N.419 rename notice; separate naming date not recorded on file.",
-          "gazette_location": null
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 823.—COLONIAL SECRETARY'S DEPARTMENT. It is hereby notified that the undermentioned Roads will, in future, be known by the names indicated against them:— DESCRIPTION: Road on the Eastern Boundary of Site of Mental Hospital, running North North-west and connecting Argyle Street and Prince Edward Road. PROPOSED NAMES: Leven Road. CHINESE VERSION: 梨雲道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Argyle Street",
+                "Prince Edward Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         },
         {
           "date": "1953-03-27",
@@ -43969,7 +44001,7 @@
           "name_en": "Lomond Road",
           "name_zh": "露明道",
           "previous_name_en": "Leven Road",
-          "previous_name_zh": null,
+          "previous_name_zh": "梨雲道",
           "notice_label_en": "G.N.419",
           "notice_label_zh": "第419號",
           "notice_url_en": "/egazette/en/1953-gn419.pdf",

@@ -7,21 +7,13 @@
   "publication_date": "1953-03-27",
   "gazette_url_en": "/egazette/en/1953-gn419.pdf",
   "gazette_url_zh": "/egazette/zh/1953-gn419.pdf",
-  "pdf_en": "/Users/coolsunwind/Downloads/1953-gn419.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1953-gn419.pdf",
   "streets": [
     {
       "link_street_code": "11275",
       "chinese_name": "露明道",
       "english_name": "Lomond Road",
       "history": [
-        {
-          "change_kind": "declare",
-          "street_name_en": "Leven Road",
-          "street_name_zh": null,
-          "evidence_kind": "gazette_primary",
-          "event_role": "former_name",
-          "submitter_remarks": "Former name attested in G.N.419 rename notice; separate naming date not recorded on file."
-        },
         {
           "publication_date": "1953-03-27",
           "change_kind": "rename",
@@ -31,6 +23,7 @@
           "event_role": "current_name",
           "is_declaration_event": true,
           "previous_street_name_en": "Leven Road",
+          "previous_street_name_zh": "梨雲道",
           "gazette_location": {
             "description_raw_en": "No. 419.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Description: Road formerly known as Leven Road commencing at its junction with Argyle Street bordering the western boundary of K.I.L. 4022, running in a northerly direction, and terminating at its junction with Boundary Street. Proposed Name: LOMOND ROAD. Chinese Version: 露明道.",
             "description_raw_zh": null,
