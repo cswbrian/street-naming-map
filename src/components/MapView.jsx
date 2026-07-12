@@ -42,6 +42,8 @@ const MAIN_ROAD_LABEL_FILTER = [
 const MAIN_ROAD_LABEL_MIN_ZOOM = 12
 const ROAD_LABEL_MIN_ZOOM = 14
 const ROAD_LABEL_BILINGUAL_ZOOM = 14.5
+/** Denser packing / more line candidates once streets are visually separable. */
+const ROAD_LABEL_DENSE_ZOOM = 15.5
 const HIGHLIGHT_GLOW_LAYER_ID = 'hk-road-highlight-glow'
 const HIGHLIGHT_CORE_LAYER_ID = 'hk-road-highlight-core'
 const FOCUS_SOURCE_ID = 'focus-area-source'
@@ -282,8 +284,9 @@ const buildRoadLabelTextField = (locale, unknownYearLabel, mapTheme) => {
 }
 
 const ROAD_LABEL_TEXT_SIZE = {
-  desktop: ['interpolate', ['linear'], ['zoom'], 12, 12, 15, 16, 17, 17],
-  mobile: ['interpolate', ['linear'], ['zoom'], 12, 13, 15, 17, 17, 18],
+  // Cap size a bit so bilingual labels collide less at block zoom.
+  desktop: ['interpolate', ['linear'], ['zoom'], 12, 12, 15, 15, 17, 16],
+  mobile: ['interpolate', ['linear'], ['zoom'], 12, 13, 15, 16, 17, 17],
 }
 
 const buildLabelLayerPaint = (mapTheme) => {
@@ -303,9 +306,14 @@ const buildLabelLayerLayout = (locale, unknownYearLabel, mapTheme, textSize) => 
   'text-field': buildRoadLabelTextField(locale, unknownYearLabel, mapTheme),
   'text-font': ROAD_LABEL_LAYER_FONT,
   'text-size': textSize,
-  'symbol-spacing': 380,
+  // More candidates along each line at dense zoom so a label can sit away from a crossing.
+  'symbol-spacing': ['step', ['zoom'], 380, ROAD_LABEL_DENSE_ZOOM, 220],
   'text-max-width': 14,
+  // Keep collision on so crossing streets (e.g. Nam Kok × Nga Tsin Wai) stay readable.
+  // Tighten padding so parallel short streets still fit more labels.
+  'text-padding': ['step', ['zoom'], 2, 15, 1, ROAD_LABEL_DENSE_ZOOM, 0.5],
   'text-allow-overlap': false,
+  'text-ignore-placement': false,
 })
 
 const applyLabelTypography = (map, mapTheme, mobile = isMapMobileViewport()) => {
