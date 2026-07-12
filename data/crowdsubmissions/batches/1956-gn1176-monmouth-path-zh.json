@@ -1,0 +1,64 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1956-gn1176-monmouth-path-zh",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1176",
+  "publication_date": "1956-09-14",
+  "pdf_en": "/tmp/1956-gn-pdfs/1956-gn1176.pdf",
+  "gazette_url_en": "/egazette/en/1956-gn1176.pdf",
+  "streets": [
+    {
+      "link_street_code": "11456",
+      "english_name": "Monmouth Path",
+      "chinese_name": "萬茂里",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Monmouth Path",
+          "street_name_zh": "捫茂扶路",
+          "event_role": "former_name",
+          "evidence_kind": "gazette_primary",
+          "government_notice_url_en": "/egazette/en/1956-gn1176.pdf",
+          "submitter_remarks": "Former Chinese name attested in G.N.1176 (romanized MUN MAU FU LO); separate naming date not recorded on file."
+        },
+        {
+          "publication_date": "1956-09-14",
+          "change_kind": "rename",
+          "previous_street_name_en": "Monmouth Path",
+          "previous_street_name_zh": "捫茂扶路",
+          "street_name_en": "Monmouth Path",
+          "street_name_zh": "萬茂里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "notice_type_normalized": "chinese_correction",
+          "gazette_location": {
+            "description_raw_en": "No. 1176.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Monmouth Path the Chinese version of which was previously (捫茂扶路) MUN MAU FU LO commencing at its junction with Queen's Road East at the northern corner of I.L. 47, running generally in a south-westerly direction for some 190 yards from Queen's Road East then curving to a southerly direction and making two right angles turns first to West and then back to South just before its terminating point at Monmouth Terrace at some 30 yards from Kennedy Road near I.L. 2837 as shown coloured red on Drawing No. R.H. 816. English Name: MONMOUTH PATH. Chinese Name: 萬茂里.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 816",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Queen's Road East",
+                "Monmouth Terrace",
+                "Kennedy Road"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false,
+              "lot_refs": [
+                "I.L. 47",
+                "I.L. 2837"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

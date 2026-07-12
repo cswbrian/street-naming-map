@@ -1,0 +1,45 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1956-gn1241-castle-lane",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1241",
+  "publication_date": "1956-09-28",
+  "pdf_en": "/tmp/1956-gn-pdfs/1956-gn1241.pdf",
+  "gazette_url_en": "/egazette/en/1956-gn1241.pdf",
+  "streets": [
+    {
+      "english_name": "Castle Lane",
+      "chinese_name": "衛城里",
+      "history": [
+        {
+          "publication_date": "1956-09-28",
+          "change_kind": "declare",
+          "street_name_en": "Castle Lane",
+          "street_name_zh": "衛城里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 1241.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Cul-de-sac commencing at its junction with Castle Road between House No. 3A and House No. 7, 'Kom-Tong Hall', running in a south-westerly direction for some 75 yards, deflecting 90° to the left at two points, one at some 30 yards and the other at some 75 yards from Castle Road, both running in a south-easterly direction for some 33 yards as shown coloured pink on Drawing No. R.H. 818. English Name: CASTLE LANE. Chinese Name: 衛城里.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 818",
+                  "color": "pink",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Castle Road"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "10127"
+    }
+  ]
+}

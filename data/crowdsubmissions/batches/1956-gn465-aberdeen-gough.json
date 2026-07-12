@@ -1,0 +1,102 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1956-gn465-aberdeen-gough",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.465",
+  "publication_date": "1956-04-13",
+  "pdf_en": "/tmp/1956-gn-pdfs/1956-gn465.pdf",
+  "gazette_url_en": "/egazette/en/1956-gn465.pdf",
+  "streets": [
+    {
+      "english_name": "Aberdeen Reservoir Road",
+      "chinese_name": "押巴甸水塘道",
+      "history": [
+        {
+          "publication_date": "1956-04-13",
+          "change_kind": "declare",
+          "street_name_en": "Aberdeen Reservoir Road",
+          "street_name_zh": "押巴甸水塘道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "submitter_remarks": "Gazette ZH 押巴甸水塘道; geojson 香港仔水塘道 (ZH later changed by G.N.710 of 1984).",
+          "gazette_location": {
+            "description_raw_en": "No. 465.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Road commencing at its junction with Island Road near A.I.L. 111 running generally in a north-easterly direction and terminating at Mount Cameron Road near R.B.L. 249 as shown coloured red on Drawing No. R.H. 750. English Name: ABERDEEN RESERVOIR ROAD. Chinese Name: 押巴甸水塘道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 750",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Island Road",
+                "Mount Cameron Road"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false,
+              "lot_refs": [
+                "A.I.L. 111",
+                "R.B.L. 249"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10007"
+    },
+    {
+      "link_street_code": "10616",
+      "english_name": "Gough Hill Path",
+      "chinese_name": "歌賦山里",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Gough Hill Road",
+          "street_name_zh": null,
+          "event_role": "former_name",
+          "evidence_kind": "gazette_primary",
+          "government_notice_url_en": "/egazette/en/1956-gn465.pdf",
+          "submitter_remarks": "Former name attested in G.N.465 rename notice; separate naming date not recorded on file."
+        },
+        {
+          "publication_date": "1956-04-13",
+          "change_kind": "rename",
+          "previous_street_name_en": "Gough Hill Road",
+          "previous_street_name_zh": null,
+          "street_name_en": "Gough Hill Path",
+          "street_name_zh": "歌賦山里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 465.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Road formerly known as Gough Hill Road, between Aberdeen Road at R.B.L. 545 and Stubbs Road near R.B.L. 23 as shown coloured blue on Drawing No. R.H. 772. English Name: GOUGH HILL PATH. Chinese Name: 歌賦山里.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 772",
+                  "color": "blue",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Aberdeen Road",
+                "Stubbs Road"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false,
+              "formerly_section_of_en": "Gough Hill Road",
+              "lot_refs": [
+                "R.B.L. 545",
+                "R.B.L. 23"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

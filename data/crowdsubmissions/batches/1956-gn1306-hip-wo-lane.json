@@ -1,0 +1,47 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1956-gn1306-hip-wo-lane",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1306",
+  "publication_date": "1956-10-12",
+  "pdf_en": "/tmp/1956-gn-pdfs/1956-gn1306.pdf",
+  "gazette_url_en": "/egazette/en/1956-gn1306.pdf",
+  "streets": [
+    {
+      "english_name": "Hip Wo Lane",
+      "chinese_name": "協和里",
+      "history": [
+        {
+          "publication_date": "1956-10-12",
+          "change_kind": "declare",
+          "street_name_en": "Hip Wo Lane",
+          "street_name_zh": "協和里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 1306.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Road commencing at its junction with Min Fat Street running in a south-easterly direction immediately to the north-east of and parallel to Sing Woo Road and terminating at its junction with Tsun Yuen Street, as shown coloured red on drawing No. R. H. 826. English Name: HIP WO LANE. Chinese Name: 協和里.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 826",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Min Fat Street",
+                "Sing Woo Road",
+                "Tsun Yuen Street"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false
+            }
+          }
+        }
+      ],
+      "link_street_code": "10738"
+    }
+  ]
+}

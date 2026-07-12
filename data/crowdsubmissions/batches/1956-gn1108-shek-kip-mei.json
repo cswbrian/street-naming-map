@@ -1,0 +1,111 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1956-gn1108-shek-kip-mei",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1108",
+  "publication_date": "1956-08-31",
+  "pdf_en": "/tmp/1956-gn-pdfs/1956-gn1108.pdf",
+  "gazette_url_en": "/egazette/en/1956-gn1108.pdf",
+  "streets": [
+    {
+      "english_name": "Tai Hang Tung Road",
+      "chinese_name": "大坑東道",
+      "history": [
+        {
+          "publication_date": "1956-08-31",
+          "change_kind": "declare",
+          "street_name_en": "Tai Hang Tung Road",
+          "street_name_zh": "大坑東道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 1108.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Road to the East of Polo Ground commencing at its junction with Boundary Street running in a northerly direction for approximately 400 yards, thence curving in a northwesterly direction for approximately 250 yards and thence running in a northeasterly direction for approximately 390 yards as shown coloured red in drawing R.K. 689/1. English Name: TAI HANG TUNG ROAD. Chinese Name: 大坑東道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 689/1",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Boundary Street"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false
+            }
+          }
+        }
+      ],
+      "link_street_code": "12218"
+    },
+    {
+      "english_name": "Woh Chai Street",
+      "chinese_name": "窩仔街",
+      "history": [
+        {
+          "publication_date": "1956-08-31",
+          "change_kind": "declare",
+          "street_name_en": "Woh Chai Street",
+          "street_name_zh": "窩仔街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 1108.—COLONIAL SECRETARIAT. Road commencing from the southeasterly boundary of the Shek Kip Mei multi-storey resettlement flats running in a northwesterly direction for approximately 440 yards and terminating at Pak Tin Street as shown coloured blue in drawing R.K. 689/1. English Name: WOH CHAI STREET. Chinese Name: 窩仔街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 689/1",
+                  "color": "blue",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Pak Tin Street"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false
+            }
+          }
+        }
+      ],
+      "link_street_code": "12773"
+    },
+    {
+      "english_name": "Pak Tin Street",
+      "chinese_name": "白田街",
+      "history": [
+        {
+          "publication_date": "1956-08-31",
+          "change_kind": "declare",
+          "street_name_en": "Pak Tin Street",
+          "street_name_zh": "白田街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 1108.—COLONIAL SECRETARIAT. Road commencing at its junction with Berwick Street running in a northeasterly direction for approximately 200 yards as shown coloured green in drawing R.K. 689/1. English Name: PAK TIN STREET. Chinese Name: 白田街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 689/1",
+                  "color": "green",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Berwick Street"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false
+            }
+          }
+        }
+      ],
+      "link_street_code": "11651"
+    }
+  ]
+}

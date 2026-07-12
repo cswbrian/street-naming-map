@@ -1,0 +1,46 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1956-gn1650-wylie-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1650",
+  "publication_date": "1956-12-21",
+  "pdf_en": "/tmp/1956-gn-pdfs/1956-gn1650.pdf",
+  "gazette_url_en": "/egazette/en/1956-gn1650.pdf",
+  "streets": [
+    {
+      "english_name": "Wylie Road",
+      "chinese_name": "衛理道",
+      "history": [
+        {
+          "publication_date": "1956-12-21",
+          "change_kind": "declare",
+          "street_name_en": "Wylie Road",
+          "street_name_zh": "衛理道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 1650.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Road commencing at its junction with Gascoigne Road approximately 700' northwest of bridge over the Kowloon Canton Railway, running in a northerly direction and terminating at Waterloo Road as shown coloured red on Drawing R. K. 745. English Name: WYLIE ROAD. Chinese Name: 衛理道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 745",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Gascoigne Road",
+                "Waterloo Road"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false
+            }
+          }
+        }
+      ],
+      "link_street_code": "12803"
+    }
+  ]
+}

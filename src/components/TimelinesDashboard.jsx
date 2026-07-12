@@ -27,6 +27,11 @@ function statusLabel(status, t) {
   return translated === key ? status : translated
 }
 
+/** Normalize geometry_link.status for filter chips (active vs everything else as unlinked). */
+function linkStatusKey(row) {
+  return row?.geometry_link?.status === 'active' ? 'active' : 'unlinked'
+}
+
 function sortIndicator(sortConfig, key) {
   if (sortConfig.key !== key) return ''
   return sortConfig.direction === 'asc' ? ' ▲' : ' ▼'
@@ -39,6 +44,7 @@ function TimelinesDashboard({ onOpenRoadOnMap }) {
   const [error, setError] = useState('')
   const [searchText, setSearchText] = useState('')
   const [periodFilter, setPeriodFilter] = useState(null)
+  const [linkStatusFilter, setLinkStatusFilter] = useState(null)
   const [eventTypeFilter, setEventTypeFilter] = useState(null)
   const [expandedEventKey, setExpandedEventKey] = useState(null)
   const [sortConfig, setSortConfig] = useState({ key: 'street', direction: 'asc' })
@@ -92,9 +98,42 @@ function TimelinesDashboard({ onOpenRoadOnMap }) {
     return rows.filter((row) => timelineRowMatchesPeriod(row, periodFilter))
   }, [rows, periodFilter])
 
+  const linkStatusFilterOptions = useMemo(() => {
+    let active = 0
+    let unlinked = 0
+    for (const row of rowsAfterPeriod) {
+      if (linkStatusKey(row) === 'active') active += 1
+      else unlinked += 1
+    }
+    return [
+      { id: 'active', label: t('timelinesOnMap'), count: active },
+      { id: 'unlinked', label: t('timelinesUnlinked'), count: unlinked },
+    ].filter((option) => option.count > 0)
+  }, [rowsAfterPeriod, t])
+
+  const handleLinkStatusFilterChange = useCallback((statusKey) => {
+    setLinkStatusFilter((prev) => {
+      const next = prev === statusKey ? null : statusKey
+      trackNamesFilter('link_status', statusKey, next !== null)
+      return next
+    })
+  }, [])
+
+  useEffect(() => {
+    if (!linkStatusFilter) return
+    if (!linkStatusFilterOptions.some((option) => option.id === linkStatusFilter)) {
+      setLinkStatusFilter(null)
+    }
+  }, [linkStatusFilter, linkStatusFilterOptions])
+
+  const rowsAfterLinkStatus = useMemo(() => {
+    if (!linkStatusFilter) return rowsAfterPeriod
+    return rowsAfterPeriod.filter((row) => linkStatusKey(row) === linkStatusFilter)
+  }, [rowsAfterPeriod, linkStatusFilter])
+
   const eventTypeFilterOptions = useMemo(
-    () => buildTimelineEventTypeFilterStats(rowsAfterPeriod, timelineLabels),
-    [rowsAfterPeriod, timelineLabels],
+    () => buildTimelineEventTypeFilterStats(rowsAfterLinkStatus, timelineLabels),
+    [rowsAfterLinkStatus, timelineLabels],
   )
 
   const handleEventTypeFilterChange = useCallback((typeKey) => {
@@ -115,13 +154,13 @@ function TimelinesDashboard({ onOpenRoadOnMap }) {
   const loweredQuery = searchText.trim().toLowerCase()
 
   const filteredRows = useMemo(() => {
-    let list = rowsAfterPeriod
+    let list = rowsAfterLinkStatus
     if (eventTypeFilter) {
       list = list.filter((row) => timelineRowMatchesEventType(row, eventTypeFilter))
     }
     if (!loweredQuery) return list
     return list.filter((row) => buildTimelineRowSearchHaystack(row, searchLabelSets).includes(loweredQuery))
-  }, [rowsAfterPeriod, eventTypeFilter, loweredQuery, searchLabelSets])
+  }, [rowsAfterLinkStatus, eventTypeFilter, loweredQuery, searchLabelSets])
 
   const sortedRows = useMemo(() => {
     const sign = sortConfig.direction === 'asc' ? 1 : -1
@@ -200,6 +239,29 @@ function TimelinesDashboard({ onOpenRoadOnMap }) {
                 })}
               </span>
             </div>
+
+            {linkStatusFilterOptions.length ? (
+              <div
+                className="street-event-type-filters pending-filter-row"
+                role="group"
+                aria-label={t('timelinesFilterTitle')}
+              >
+                <div className="pending-filter-group pending-filter-group--event-type">
+                  {linkStatusFilterOptions.map((option) => (
+                    <button
+                      key={option.id}
+                      type="button"
+                      className={`pending-filter-btn pending-filter-btn--event-type ${linkStatusFilter === option.id ? 'is-active' : ''}`}
+                      onClick={() => handleLinkStatusFilterChange(option.id)}
+                      aria-pressed={linkStatusFilter === option.id}
+                    >
+                      {option.label}
+                      <span className="pending-filter-count">{formatNumber(locale, option.count)}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            ) : null}
 
             {eventTypeFilterOptions.length ? (
               <div

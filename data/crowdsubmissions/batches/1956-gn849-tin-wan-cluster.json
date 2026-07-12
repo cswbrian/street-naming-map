@@ -1,0 +1,125 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1956-gn849-tin-wan-cluster",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.849",
+  "publication_date": "1956-07-06",
+  "pdf_en": "/tmp/1956-gn-pdfs/1956-gn849.pdf",
+  "gazette_url_en": "/egazette/en/1956-gn849.pdf",
+  "streets": [
+    {
+      "link_street_code": "12370",
+      "english_name": "Tin Wan Street",
+      "chinese_name": "田灣街",
+      "history": [
+        {
+          "submission_id": "2024-gn2573-tin-wan-street-12370-1956-07-06",
+          "publication_date": "1956-07-06",
+          "change_kind": "declare",
+          "street_name_en": "Tin Wan Street",
+          "street_name_zh": "田灣街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "derived_from": null,
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 849.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Cul-de-sac commencing at its junction with Island Road at A.I.L. 72 running in a north-easterly direction across the said lot and terminating at a turning circle some 500 yards from Island Road as shown coloured red on drawing No. R.H. 786. English Name: TIN WAN STREET. Chinese Name: 田灣街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 786",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Island Road"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": true,
+              "lot_refs": [
+                "A.I.L. 72"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Ka Wo Street",
+      "chinese_name": "嘉禾街",
+      "history": [
+        {
+          "publication_date": "1956-07-06",
+          "change_kind": "declare",
+          "street_name_en": "Ka Wo Street",
+          "street_name_zh": "嘉禾街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 849.—COLONIAL SECRETARIAT. Road inside A.I.L. 72, commencing at its junction with Tin Wan Street, running in a north-westerly direction immediately to the north-east of and parallel to Island Road and terminating at the north-western boundary of the said lot as shown coloured brown on drawing No. R.H. 786. English Name: KA WO STREET. Chinese Name: 嘉禾街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 786",
+                  "color": "brown",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Tin Wan Street",
+                "Island Road"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false,
+              "lot_refs": [
+                "A.I.L. 72"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10922"
+    },
+    {
+      "english_name": "Tang Fung Street",
+      "chinese_name": "登豐街",
+      "history": [
+        {
+          "publication_date": "1956-07-06",
+          "change_kind": "declare",
+          "street_name_en": "Tang Fung Street",
+          "street_name_zh": "登豐街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 849.—COLONIAL SECRETARIAT. Road inside A.I.L. 72, commencing at its junction with Tin Wan Street opposite Ka Wo Street and running in a south-easterly direction for some 50 yards as shown coloured green on drawing No. R.H. 786. English Name: TANG FUNG STREET. Chinese Name: 登豐街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 786",
+                  "color": "green",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Tin Wan Street",
+                "Ka Wo Street"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false,
+              "lot_refs": [
+                "A.I.L. 72"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12334"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-12T17:26:37.278Z",
+  "updated_at": "2026-07-12T17:52:42.687Z",
   "links": [
     {
       "timeline_id": "code:10003",
@@ -63,7 +63,8 @@
       "page_id": "10007-aberdeen-reservoir-road",
       "street_code": "10007",
       "event_ids": [
-        "crowd|1984-gn710-aberdeen-reservoir-Aberdeen-Reservoir-Road-香港仔水塘道-1984-03-09"
+        "crowd|1984-gn710-aberdeen-reservoir-Aberdeen-Reservoir-Road-香港仔水塘道-1984-03-09",
+        "crowd|1956-gn465-aberdeen-gough-Aberdeen-Reservoir-Road-押巴甸水塘道-1956-04-13"
       ],
       "status": "active",
       "method": "batch_link_street_code",
@@ -250,7 +251,8 @@
       "event_ids": [
         "crowd|1923-gn411-cheung-sha-wan-road-10041-1923-09-28",
         "crowd|1958-gn865-major-streets-Baker-Street-必嘉街-1958-06-27",
-        "crowd|1980-gn1581-hung-hom-streets-Baker-Street-必嘉街-1980-05-23"
+        "crowd|1980-gn1581-hung-hom-streets-Baker-Street-必嘉街-1980-05-23",
+        "crowd|1956-gn717-yaumatei-hunghom-Baker-Street-必嘉街-1956-06-08"
       ],
       "status": "active",
       "method": "batch_link_street_code",
@@ -744,14 +746,15 @@
       "page_id": "10115-canton-road",
       "street_code": "10115",
       "event_ids": [
-        "crowd|1909-gn184-safe-10115-1909-03-19"
+        "crowd|1909-gn184-safe-10115-1909-03-19",
+        "crowd|1956-gn717-yaumatei-hunghom-Canton-Road-廣東道-1956-06-08"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-07-12",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10117",
@@ -815,6 +818,20 @@
       "street_code": "10126",
       "event_ids": [
         "crowd|1953-gn1420-yau-yat-chuen-Cassia-Road-窩梳路-1953-11-20"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-12",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10127",
+      "page_id": "10127-castle-lane",
+      "street_code": "10127",
+      "event_ids": [
+        "crowd|1956-gn1241-castle-lane-Castle-Lane-衛城里-1956-09-28"
       ],
       "status": "active",
       "method": "batch_link_street_code",
@@ -1573,6 +1590,20 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10250",
+      "page_id": "10250-ching-ping-street",
+      "street_code": "10250",
+      "event_ids": [
+        "crowd|1956-gn717-yaumatei-hunghom-Ching-Ping-Street-澄平街-1956-06-08"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-12",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10252",
@@ -3745,6 +3776,21 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:10616",
+      "page_id": "10616-gough-hill-road",
+      "street_code": "10616",
+      "event_ids": [
+        "crowd|1956-gn465-aberdeen-gough-Gough-Hill-Path-歌賦山里-",
+        "crowd|1956-gn465-aberdeen-gough-Gough-Hill-Path-歌賦山里-1956-04-13"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-12",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10620",
       "page_id": "10620-grampian-road",
       "street_code": "10620",
@@ -3897,6 +3943,20 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10643",
+      "page_id": "10643-hammer-hill-road",
+      "street_code": "10643",
+      "event_ids": [
+        "crowd|1956-gn1468-governors-walk-hammer-hill-Hammer-Hill-Road-斧山道-1956-11-16"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-12",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10644",
@@ -4240,6 +4300,20 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:10685",
+      "page_id": "10685-hei-wo-street",
+      "street_code": "10685",
+      "event_ids": [
+        "crowd|1956-gn355-hei-wo-street-Hei-Wo-Street-熙和街-1956-03-16"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-12",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10686",
       "page_id": "10686-hei-yuen-street",
       "street_code": "10686",
@@ -4562,6 +4636,20 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-07-06",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10738",
+      "page_id": "10738-hip-wo-lane",
+      "street_code": "10738",
+      "event_ids": [
+        "crowd|1956-gn1306-hip-wo-lane-Hip-Wo-Lane-協和里-1956-10-12"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-12",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -5659,6 +5747,20 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:10922",
+      "page_id": "10922-ka-wo-street",
+      "street_code": "10922",
+      "event_ids": [
+        "crowd|1956-gn849-tin-wan-cluster-Ka-Wo-Street-嘉禾街-1956-07-06"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-12",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10923",
       "page_id": "10923-ka-yip-street",
       "street_code": "10923",
@@ -6201,13 +6303,14 @@
       "page_id": "10995-kimberley-street",
       "street_code": "10995",
       "event_ids": [
-        "crowd|1978-gn465-tsim-sha-tsui-renames-Kimberley-Street-金巴利街-1978-02-24"
+        "crowd|1978-gn465-tsim-sha-tsui-renames-Kimberley-Street-金巴利街-1978-02-24",
+        "crowd|1956-gn565-kimberley-street-Kimberley-Street-金巴利街-1956-05-04"
       ],
       "status": "active",
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-22",
+      "linked_at": "2026-07-12",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -9468,6 +9571,22 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:11456",
+      "page_id": "11456-monmouth-path",
+      "street_code": "11456",
+      "event_ids": [
+        "crowd|1956-gn917-monmouth-path-intention-Monmouth-Path-萬茂里-1956-07-20",
+        "crowd|1956-gn1176-monmouth-path-zh-Monmouth-Path-萬茂里-",
+        "crowd|1956-gn1176-monmouth-path-zh-Monmouth-Path-萬茂里-1956-09-14"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-12",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11457",
       "page_id": "11457-monmouth-terrace",
       "street_code": "11457",
@@ -10702,13 +10821,14 @@
       "page_id": "11651-pak-tin-street",
       "street_code": "11651",
       "event_ids": [
-        "crowd|1977-gn1794-shek-kip-mei-streets-Pak-Tin-Street-白田街-1977-07-29"
+        "crowd|1977-gn1794-shek-kip-mei-streets-Pak-Tin-Street-白田街-1977-07-29",
+        "crowd|1956-gn1108-shek-kip-mei-Pak-Tin-Street-白田街-1956-08-31"
       ],
       "status": "active",
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-22",
+      "linked_at": "2026-07-12",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -14193,6 +14313,20 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:12152",
+      "page_id": "12152-stanley-mound-road",
+      "street_code": "12152",
+      "event_ids": [
+        "crowd|1956-gn1207-stanley-mound-road-Stanley-Mound-Road-赤柱崗道-1956-09-21"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-12",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12153",
       "page_id": "12153-stanley-new-street",
       "street_code": "12153",
@@ -14615,6 +14749,20 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12218",
+      "page_id": "12218-tai-hang-tung-road",
+      "street_code": "12218",
+      "event_ids": [
+        "crowd|1956-gn1108-shek-kip-mei-Tai-Hang-Tung-Road-大坑東道-1956-08-31"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-12",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -15371,6 +15519,20 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:12334",
+      "page_id": "12334-tang-fung-street",
+      "street_code": "12334",
+      "event_ids": [
+        "crowd|1956-gn849-tin-wan-cluster-Tang-Fung-Street-登豐街-1956-07-06"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-12",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12335",
       "page_id": "12335-tang-lung-street",
       "street_code": "12335",
@@ -15474,6 +15636,20 @@
       "street_code": "12344",
       "event_ids": [
         "crowd|1983-gn3497-tsuen-wan-Texaco-Interchange-德士古交匯處-1983-11-04"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-12",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12347",
+      "page_id": "12347-the-governor-s-walk",
+      "street_code": "12347",
+      "event_ids": [
+        "crowd|1956-gn1468-governors-walk-hammer-hill-The-Governor-s-Walk-育民里-1956-11-16"
       ],
       "status": "active",
       "method": "batch_link_street_code",
@@ -15660,11 +15836,11 @@
         "crowd|2024-gn2573-tin-wan-street-12370-1956-07-06"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-07-12",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12374",
@@ -16496,6 +16672,20 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12488",
+      "page_id": "12488-tsung-man-street",
+      "street_code": "12488",
+      "event_ids": [
+        "crowd|1956-gn805-tsung-man-street-Tsung-Man-Street-崇文街-1956-06-29"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-12",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12491",
@@ -17687,6 +17877,20 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12702",
+      "page_id": "12702-whampoa-street",
+      "street_code": "12702",
+      "event_ids": [
+        "crowd|1956-gn717-yaumatei-hunghom-Whampoa-Street-黃埔街-1956-06-08"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-12",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12703",
       "page_id": "12703-wharf-road",
       "street_code": "12703",
@@ -18152,6 +18356,20 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:12773",
+      "page_id": "12773-woh-chai-street",
+      "street_code": "12773",
+      "event_ids": [
+        "crowd|1956-gn1108-shek-kip-mei-Woh-Chai-Street-窩仔街-1956-08-31"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-12",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12774",
       "page_id": "12774-wong-chu-road",
       "street_code": "12774",
@@ -18377,6 +18595,20 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-06-22",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12803",
+      "page_id": "12803-wylie-road",
+      "street_code": "12803",
+      "event_ids": [
+        "crowd|1956-gn1650-wylie-road-Wylie-Road-衛理道-1956-12-21"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-12",
       "linked_by": "apply-crowd-batch"
     },
     {

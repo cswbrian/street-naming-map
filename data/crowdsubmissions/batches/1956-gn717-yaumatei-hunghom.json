@@ -1,0 +1,216 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1956-gn717-yaumatei-hunghom",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.717",
+  "publication_date": "1956-06-08",
+  "pdf_en": "/tmp/1956-gn-pdfs/1956-gn717.pdf",
+  "gazette_url_en": "/egazette/en/1956-gn717.pdf",
+  "streets": [
+    {
+      "english_name": "Ching Ping Street",
+      "chinese_name": "澄平街",
+      "history": [
+        {
+          "publication_date": "1956-06-08",
+          "change_kind": "declare",
+          "street_name_en": "Ching Ping Street",
+          "street_name_zh": "澄平街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 717.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Road commencing at the North side of Public Square Street about 105 yards West of Canton Road and following the seawall in a northerly direction to its junction with Waterloo Road as shown coloured yellow on plan No. R.K. 708. English Name: CHING PING STREET. Chinese Name: 澄平街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 708",
+                  "color": "yellow",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Public Square Street",
+                "Canton Road",
+                "Waterloo Road"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false
+            }
+          }
+        }
+      ],
+      "link_street_code": "10250"
+    },
+    {
+      "english_name": "Canton Road",
+      "chinese_name": "廣東道",
+      "history": [
+        {
+          "publication_date": "1956-06-08",
+          "change_kind": "extend",
+          "street_name_en": "Canton Road",
+          "street_name_zh": "廣東道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 717.—COLONIAL SECRETARIAT. Extension of Canton Road in a northerly direction from Public Square Street to Tung Kun Street as shown coloured pink on plan No. R.K. 708. English Name: CANTON ROAD. Chinese Name: 廣東道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 708",
+                  "color": "pink",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Public Square Street",
+                "Tung Kun Street"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false
+            }
+          }
+        }
+      ],
+      "link_street_code": "10115"
+    },
+    {
+      "english_name": "Cheung Shui Street",
+      "chinese_name": "祥瑞街",
+      "history": [
+        {
+          "publication_date": "1956-06-08",
+          "change_kind": "declare",
+          "street_name_en": "Cheung Shui Street",
+          "street_name_zh": "祥瑞街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "submitter_remarks": "No geojson centreline match (abolished Yau Ma Tei seawall streets).",
+          "gazette_location": {
+            "description_raw_en": "No. 717.—COLONIAL SECRETARIAT. Road about 40 yards to the North of Public Square Street and parallel to it; commencing 10 yards to the East of the seawall and running in an easterly direction to its junction with Canton Road as shown coloured blue on plan No. R.K. 708. English Name: CHEUNG SHUI STREET. Chinese Name: 祥瑞街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 708",
+                  "color": "blue",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Public Square Street",
+                "Canton Road"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Lee Tat Street",
+      "chinese_name": "利達街",
+      "history": [
+        {
+          "publication_date": "1956-06-08",
+          "change_kind": "declare",
+          "street_name_en": "Lee Tat Street",
+          "street_name_zh": "利達街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "submitter_remarks": "No geojson centreline match (abolished Yau Ma Tei seawall streets).",
+          "gazette_location": {
+            "description_raw_en": "No. 717.—COLONIAL SECRETARIAT. Road about 40 yards to the South of Tung Kun Street and parallel to it; commencing 10 yards to the East of the seawall and running in an easterly direction to its junction with Canton Road as shown coloured burnt sienna on plan No. R.K. 708. English Name: LEE TAT STREET. Chinese Name: 利達街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 708",
+                  "color": "burnt sienna",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Tung Kun Street",
+                "Canton Road"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Baker Street",
+      "chinese_name": "必嘉街",
+      "history": [
+        {
+          "publication_date": "1956-06-08",
+          "change_kind": "declare",
+          "street_name_en": "Baker Street",
+          "street_name_zh": "必嘉街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 717.—COLONIAL SECRETARIAT. Road about 80 yards to the south of Bulkeley Street and parallel to it, commencing at its junction with Gillies Avenue and running in a south easterly direction for approximately 100 yards as shown coloured burnt sienna in drawing No. R.K. 692. English Name: BAKER STREET. Chinese Name: 必嘉街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 692",
+                  "color": "burnt sienna",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Bulkeley Street",
+                "Gillies Avenue"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false
+            }
+          }
+        }
+      ],
+      "link_street_code": "10041"
+    },
+    {
+      "english_name": "Whampoa Street",
+      "chinese_name": "黃埔街",
+      "history": [
+        {
+          "publication_date": "1956-06-08",
+          "change_kind": "declare",
+          "street_name_en": "Whampoa Street",
+          "street_name_zh": "黃埔街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 717.—COLONIAL SECRETARIAT. Road about 60 yards to the east of Gillies Avenue and parallel to it as shown coloured red in drawing No. R.K. 692. English Name: WHAMPOA STREET. Chinese Name: 黃埔街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 692",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Gillies Avenue"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false
+            }
+          }
+        }
+      ],
+      "link_street_code": "12702"
+    }
+  ]
+}

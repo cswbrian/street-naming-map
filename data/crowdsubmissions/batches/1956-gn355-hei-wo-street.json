@@ -1,0 +1,49 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1956-gn355-hei-wo-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.355",
+  "publication_date": "1956-03-16",
+  "pdf_en": "/tmp/1956-gn-pdfs/1956-gn355.pdf",
+  "gazette_url_en": "/egazette/en/1956-gn355.pdf",
+  "streets": [
+    {
+      "english_name": "Hei Wo Street",
+      "chinese_name": "熙和街",
+      "history": [
+        {
+          "publication_date": "1956-03-16",
+          "change_kind": "declare",
+          "street_name_en": "Hei Wo Street",
+          "street_name_zh": "熙和街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 355.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Cul-de-sac from King's Road adjoining M. L. 526, Sec. A running Northwards for some 45 yards then Eastwards parallel to Java Road some 54 yards as shown coloured pink on plan No. R.H. 751. English Name: HEI WO STREET. Chinese Name: 熙和街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 751",
+                  "color": "pink",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "King's Road",
+                "Java Road"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": true,
+              "lot_refs": [
+                "M.L. 526 Sec. A"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10685"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-12T17:26:24.366Z",
+  "updated_at": "2026-07-12T17:52:43.618Z",
   "events": [
     {
       "event_id": "crowd|1904-gn59-victoria-road-renames-10038-babington-former",
@@ -371,6 +371,74 @@
       "supplementary_evidence": null,
       "reviewed_at": "2026-07-12",
       "submission_id": "1951-gn445-leighton-road-leighton-hill-former"
+    },
+    {
+      "event_id": "crowd|1956-gn1176-monmouth-path-zh-Monmouth-Path-萬茂里-",
+      "source": "crowdsubmitted",
+      "publication_date": "",
+      "change_kind": "declare",
+      "street_name_en": "Monmouth Path",
+      "street_name_zh": "捫茂扶路",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN1176",
+      "government_notice_label_en": "G.N.1176",
+      "government_notice_label_zh": "第1176號",
+      "government_notice_url_en": "/egazette/en/1956-gn1176.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn1176.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [],
+      "related_gazette_plan_labels_zh": [],
+      "gazette_location": null,
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "former_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": "Former Chinese name attested in G.N.1176 (romanized MUN MAU FU LO); separate naming date not recorded on file.",
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn1176-monmouth-path-zh-Monmouth-Path-萬茂里-"
+    },
+    {
+      "event_id": "crowd|1956-gn465-aberdeen-gough-Gough-Hill-Path-歌賦山里-",
+      "source": "crowdsubmitted",
+      "publication_date": "",
+      "change_kind": "declare",
+      "street_name_en": "Gough Hill Road",
+      "street_name_zh": null,
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN465",
+      "government_notice_label_en": "G.N.465",
+      "government_notice_label_zh": "第465號",
+      "government_notice_url_en": "/egazette/en/1956-gn465.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn465.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [],
+      "related_gazette_plan_labels_zh": [],
+      "gazette_location": null,
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "former_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": "Former name attested in G.N.465 rename notice; separate naming date not recorded on file.",
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn465-aberdeen-gough-Gough-Hill-Path-歌賦山里-"
     },
     {
       "event_id": "crowd|1958-gn607-old-main-street-aberdeen-11568-former",
@@ -5513,7 +5581,7 @@
       "source": "hkgro",
       "publication_date": "1923-09-28",
       "change_kind": "declare",
-      "street_name_en": "Wa Fung Street",
+      "street_name_en": "Wa Fung Kai",
       "street_name_zh": "華豐街",
       "previous_street_name_en": null,
       "previous_street_name_zh": null,
@@ -5532,15 +5600,19 @@
       "related_gazette_plan_labels_en": [],
       "related_gazette_plan_labels_zh": [],
       "is_declaration_event": true,
-      "submitter_remarks": null,
-      "reviewed_at": "2026-06-07",
+      "submitter_remarks": "Gazette EN Wa Fung Kai; geojson Wa Fung Street.",
+      "reviewed_at": "2026-07-13",
       "submission_id": "1923-gn411-cheung-sha-wan-road-12578-1923-09-28",
       "evidence_kind": "gazette_primary",
       "derived_from": null,
       "evidence_kind_note": null,
       "event_role": "current_name",
       "crowd_origin": "batch",
-      "notice_stem": "1923-gn411"
+      "notice_stem": "1923-gn411",
+      "gazette_location": {
+        "description_raw_en": "Road beginning at the north-west Boundary of Hung Hom Inland Lot No. 241 and running in a south-easterly direction and terminating at the south-east boundary of Hung Hom Inland Lot No. 239 being parallel to and between Winslow Street and Baker Street.",
+        "description_raw_zh": null
+      }
     },
     {
       "event_id": "crowd|1923-gn411-cheung-sha-wan-road-12754-1923-09-28",
@@ -27148,6 +27220,1021 @@
       "notice_stem": "1955-gn925"
     },
     {
+      "event_id": "crowd|1956-gn355-hei-wo-street-Hei-Wo-Street-熙和街-1956-03-16",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-03-16",
+      "change_kind": "declare",
+      "street_name_en": "Hei Wo Street",
+      "street_name_zh": "熙和街",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN355",
+      "government_notice_label_en": "G.N.355",
+      "government_notice_label_zh": "第355號",
+      "government_notice_url_en": "/egazette/en/1956-gn355.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn355.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.H. 751"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.H. 751"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 355.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Cul-de-sac from King's Road adjoining M. L. 526, Sec. A running Northwards for some 45 yards then Eastwards parallel to Java Road some 54 yards as shown coloured pink on plan No. R.H. 751. English Name: HEI WO STREET. Chinese Name: 熙和街.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": true,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.H. 751",
+              "color": "pink",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [
+            "M.L. 526 Sec. A"
+          ],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "King's Road",
+            "Java Road"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn355-hei-wo-street-Hei-Wo-Street-熙和街-1956-03-16",
+      "notice_stem": "1956-gn355"
+    },
+    {
+      "event_id": "crowd|1956-gn465-aberdeen-gough-Aberdeen-Reservoir-Road-押巴甸水塘道-1956-04-13",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-04-13",
+      "change_kind": "declare",
+      "street_name_en": "Aberdeen Reservoir Road",
+      "street_name_zh": "押巴甸水塘道",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN465",
+      "government_notice_label_en": "G.N.465",
+      "government_notice_label_zh": "第465號",
+      "government_notice_url_en": "/egazette/en/1956-gn465.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn465.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.H. 750"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.H. 750"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 465.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Road commencing at its junction with Island Road near A.I.L. 111 running generally in a north-easterly direction and terminating at Mount Cameron Road near R.B.L. 249 as shown coloured red on Drawing No. R.H. 750. English Name: ABERDEEN RESERVOIR ROAD. Chinese Name: 押巴甸水塘道.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.H. 750",
+              "color": "red",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [
+            "A.I.L. 111",
+            "R.B.L. 249"
+          ],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Island Road",
+            "Mount Cameron Road"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": "Gazette ZH 押巴甸水塘道; geojson 香港仔水塘道 (ZH later changed by G.N.710 of 1984).",
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn465-aberdeen-gough-Aberdeen-Reservoir-Road-押巴甸水塘道-1956-04-13",
+      "notice_stem": "1956-gn465"
+    },
+    {
+      "event_id": "crowd|1956-gn465-aberdeen-gough-Gough-Hill-Path-歌賦山里-1956-04-13",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-04-13",
+      "change_kind": "rename",
+      "street_name_en": "Gough Hill Path",
+      "street_name_zh": "歌賦山里",
+      "previous_street_name_en": "Gough Hill Road",
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Street name change (crowdsource)",
+      "notice_type_raw_zh": "街道易名（眾包）",
+      "notice_type_normalized": "rename",
+      "notice_no": "GN465",
+      "government_notice_label_en": "G.N.465",
+      "government_notice_label_zh": "第465號",
+      "government_notice_url_en": "/egazette/en/1956-gn465.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn465.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.H. 772"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.H. 772"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 465.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Road formerly known as Gough Hill Road, between Aberdeen Road at R.B.L. 545 and Stubbs Road near R.B.L. 23 as shown coloured blue on Drawing No. R.H. 772. English Name: GOUGH HILL PATH. Chinese Name: 歌賦山里.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.H. 772",
+              "color": "blue",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [
+            "R.B.L. 545",
+            "R.B.L. 23"
+          ],
+          "formerly_section_of_en": "Gough Hill Road",
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Aberdeen Road",
+            "Stubbs Road"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn465-aberdeen-gough-Gough-Hill-Path-歌賦山里-1956-04-13",
+      "notice_stem": "1956-gn465"
+    },
+    {
+      "event_id": "crowd|1956-gn565-kimberley-street-Kimberley-Street-金巴利街-1956-05-04",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-05-04",
+      "change_kind": "declare",
+      "street_name_en": "Kimberley Street",
+      "street_name_zh": "金巴利街",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN565",
+      "government_notice_label_en": "G.N.565",
+      "government_notice_label_zh": "第565號",
+      "government_notice_url_en": "/egazette/en/1956-gn565.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn565.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.K. 686"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.K. 686"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 565.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Thoroughfare between Kimberley Road and Granville Road as shown coloured red on drawing No. R.K. 686. English Name: KIMBERLEY STREET. Chinese Name: 金巴利街.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.K. 686",
+              "color": "red",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Kimberley Road",
+            "Granville Road"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn565-kimberley-street-Kimberley-Street-金巴利街-1956-05-04",
+      "notice_stem": "1956-gn565"
+    },
+    {
+      "event_id": "crowd|1956-gn717-yaumatei-hunghom-Baker-Street-必嘉街-1956-06-08",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-06-08",
+      "change_kind": "declare",
+      "street_name_en": "Baker Street",
+      "street_name_zh": "必嘉街",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN717",
+      "government_notice_label_en": "G.N.717",
+      "government_notice_label_zh": "第717號",
+      "government_notice_url_en": "/egazette/en/1956-gn717.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn717.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.K. 692"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.K. 692"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 717.—COLONIAL SECRETARIAT. Road about 80 yards to the south of Bulkeley Street and parallel to it, commencing at its junction with Gillies Avenue and running in a south easterly direction for approximately 100 yards as shown coloured burnt sienna in drawing No. R.K. 692. English Name: BAKER STREET. Chinese Name: 必嘉街.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.K. 692",
+              "color": "burnt sienna",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Bulkeley Street",
+            "Gillies Avenue"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn717-yaumatei-hunghom-Baker-Street-必嘉街-1956-06-08",
+      "notice_stem": "1956-gn717"
+    },
+    {
+      "event_id": "crowd|1956-gn717-yaumatei-hunghom-Canton-Road-廣東道-1956-06-08",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-06-08",
+      "change_kind": "extend",
+      "street_name_en": "Canton Road",
+      "street_name_zh": "廣東道",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Street name extension (crowdsource)",
+      "notice_type_raw_zh": "街道延伸（眾包）",
+      "notice_type_normalized": "extend",
+      "notice_no": "GN717",
+      "government_notice_label_en": "G.N.717",
+      "government_notice_label_zh": "第717號",
+      "government_notice_url_en": "/egazette/en/1956-gn717.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn717.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.K. 708"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.K. 708"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 717.—COLONIAL SECRETARIAT. Extension of Canton Road in a northerly direction from Public Square Street to Tung Kun Street as shown coloured pink on plan No. R.K. 708. English Name: CANTON ROAD. Chinese Name: 廣東道.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.K. 708",
+              "color": "pink",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Public Square Street",
+            "Tung Kun Street"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": false,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn717-yaumatei-hunghom-Canton-Road-廣東道-1956-06-08",
+      "notice_stem": "1956-gn717"
+    },
+    {
+      "event_id": "crowd|1956-gn717-yaumatei-hunghom-Cheung-Shui-Street-祥瑞街-1956-06-08",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-06-08",
+      "change_kind": "declare",
+      "street_name_en": "Cheung Shui Street",
+      "street_name_zh": "祥瑞街",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN717",
+      "government_notice_label_en": "G.N.717",
+      "government_notice_label_zh": "第717號",
+      "government_notice_url_en": "/egazette/en/1956-gn717.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn717.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.K. 708"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.K. 708"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 717.—COLONIAL SECRETARIAT. Road about 40 yards to the North of Public Square Street and parallel to it; commencing 10 yards to the East of the seawall and running in an easterly direction to its junction with Canton Road as shown coloured blue on plan No. R.K. 708. English Name: CHEUNG SHUI STREET. Chinese Name: 祥瑞街.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.K. 708",
+              "color": "blue",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Public Square Street",
+            "Canton Road"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": "No geojson centreline match (abolished Yau Ma Tei seawall streets).",
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn717-yaumatei-hunghom-Cheung-Shui-Street-祥瑞街-1956-06-08",
+      "notice_stem": "1956-gn717"
+    },
+    {
+      "event_id": "crowd|1956-gn717-yaumatei-hunghom-Ching-Ping-Street-澄平街-1956-06-08",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-06-08",
+      "change_kind": "declare",
+      "street_name_en": "Ching Ping Street",
+      "street_name_zh": "澄平街",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN717",
+      "government_notice_label_en": "G.N.717",
+      "government_notice_label_zh": "第717號",
+      "government_notice_url_en": "/egazette/en/1956-gn717.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn717.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.K. 708"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.K. 708"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 717.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Road commencing at the North side of Public Square Street about 105 yards West of Canton Road and following the seawall in a northerly direction to its junction with Waterloo Road as shown coloured yellow on plan No. R.K. 708. English Name: CHING PING STREET. Chinese Name: 澄平街.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.K. 708",
+              "color": "yellow",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Public Square Street",
+            "Canton Road",
+            "Waterloo Road"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn717-yaumatei-hunghom-Ching-Ping-Street-澄平街-1956-06-08",
+      "notice_stem": "1956-gn717"
+    },
+    {
+      "event_id": "crowd|1956-gn717-yaumatei-hunghom-Lee-Tat-Street-利達街-1956-06-08",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-06-08",
+      "change_kind": "declare",
+      "street_name_en": "Lee Tat Street",
+      "street_name_zh": "利達街",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN717",
+      "government_notice_label_en": "G.N.717",
+      "government_notice_label_zh": "第717號",
+      "government_notice_url_en": "/egazette/en/1956-gn717.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn717.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.K. 708"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.K. 708"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 717.—COLONIAL SECRETARIAT. Road about 40 yards to the South of Tung Kun Street and parallel to it; commencing 10 yards to the East of the seawall and running in an easterly direction to its junction with Canton Road as shown coloured burnt sienna on plan No. R.K. 708. English Name: LEE TAT STREET. Chinese Name: 利達街.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.K. 708",
+              "color": "burnt sienna",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Tung Kun Street",
+            "Canton Road"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": "No geojson centreline match (abolished Yau Ma Tei seawall streets).",
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn717-yaumatei-hunghom-Lee-Tat-Street-利達街-1956-06-08",
+      "notice_stem": "1956-gn717"
+    },
+    {
+      "event_id": "crowd|1956-gn717-yaumatei-hunghom-Whampoa-Street-黃埔街-1956-06-08",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-06-08",
+      "change_kind": "declare",
+      "street_name_en": "Whampoa Street",
+      "street_name_zh": "黃埔街",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN717",
+      "government_notice_label_en": "G.N.717",
+      "government_notice_label_zh": "第717號",
+      "government_notice_url_en": "/egazette/en/1956-gn717.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn717.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.K. 692"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.K. 692"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 717.—COLONIAL SECRETARIAT. Road about 60 yards to the east of Gillies Avenue and parallel to it as shown coloured red in drawing No. R.K. 692. English Name: WHAMPOA STREET. Chinese Name: 黃埔街.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.K. 692",
+              "color": "red",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Gillies Avenue"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn717-yaumatei-hunghom-Whampoa-Street-黃埔街-1956-06-08",
+      "notice_stem": "1956-gn717"
+    },
+    {
+      "event_id": "crowd|1956-gn805-tsung-man-street-Tsung-Man-Street-崇文街-1956-06-29",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-06-29",
+      "change_kind": "declare",
+      "street_name_en": "Tsung Man Street",
+      "street_name_zh": "崇文街",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN805",
+      "government_notice_label_en": "G.N.805",
+      "government_notice_label_zh": "第805號",
+      "government_notice_url_en": "/egazette/en/1956-gn805.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn805.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.H. 795"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.H. 795"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 805.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Road commencing at its junction with Aberdeen Reservoir Road between A.I.L.s 111 and 154, running in a Westerly direction and terminating at the West boundary of Aberdeen Primary School as shown coloured red on drawing No. R.H. 795. English Name: TSUNG MAN STREET. Chinese Name: 崇文街.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.H. 795",
+              "color": "red",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [
+            "A.I.L. 111",
+            "A.I.L. 154"
+          ],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Aberdeen Reservoir Road"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn805-tsung-man-street-Tsung-Man-Street-崇文街-1956-06-29",
+      "notice_stem": "1956-gn805"
+    },
+    {
+      "event_id": "crowd|1956-gn849-tin-wan-cluster-Ka-Wo-Street-嘉禾街-1956-07-06",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-07-06",
+      "change_kind": "declare",
+      "street_name_en": "Ka Wo Street",
+      "street_name_zh": "嘉禾街",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN849",
+      "government_notice_label_en": "G.N.849",
+      "government_notice_label_zh": "第849號",
+      "government_notice_url_en": "/egazette/en/1956-gn849.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn849.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.H. 786"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.H. 786"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 849.—COLONIAL SECRETARIAT. Road inside A.I.L. 72, commencing at its junction with Tin Wan Street, running in a north-westerly direction immediately to the north-east of and parallel to Island Road and terminating at the north-western boundary of the said lot as shown coloured brown on drawing No. R.H. 786. English Name: KA WO STREET. Chinese Name: 嘉禾街.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.H. 786",
+              "color": "brown",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [
+            "A.I.L. 72"
+          ],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Tin Wan Street",
+            "Island Road"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn849-tin-wan-cluster-Ka-Wo-Street-嘉禾街-1956-07-06",
+      "notice_stem": "1956-gn849"
+    },
+    {
+      "event_id": "crowd|1956-gn849-tin-wan-cluster-Tang-Fung-Street-登豐街-1956-07-06",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-07-06",
+      "change_kind": "declare",
+      "street_name_en": "Tang Fung Street",
+      "street_name_zh": "登豐街",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN849",
+      "government_notice_label_en": "G.N.849",
+      "government_notice_label_zh": "第849號",
+      "government_notice_url_en": "/egazette/en/1956-gn849.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn849.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.H. 786"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.H. 786"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 849.—COLONIAL SECRETARIAT. Road inside A.I.L. 72, commencing at its junction with Tin Wan Street opposite Ka Wo Street and running in a south-easterly direction for some 50 yards as shown coloured green on drawing No. R.H. 786. English Name: TANG FUNG STREET. Chinese Name: 登豐街.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.H. 786",
+              "color": "green",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [
+            "A.I.L. 72"
+          ],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Tin Wan Street",
+            "Ka Wo Street"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn849-tin-wan-cluster-Tang-Fung-Street-登豐街-1956-07-06",
+      "notice_stem": "1956-gn849"
+    },
+    {
       "event_id": "crowd|2024-gn2573-tin-wan-street-12370-1956-07-06",
       "source": "crowdsubmitted",
       "publication_date": "1956-07-06",
@@ -27164,32 +28251,892 @@
       "notice_no": "GN849",
       "government_notice_label_en": "G.N.849",
       "government_notice_label_zh": "第849號",
-      "government_notice_url_en": "/egazette/en/2024-28-18-2573.pdf",
-      "government_notice_url_zh": "/egazette/zh/2024-28-18-2573.pdf",
+      "government_notice_url_en": "/egazette/en/1956-gn849.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn849.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.H. 786"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.H. 786"
+      ],
+      "is_declaration_event": true,
+      "submitter_remarks": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "2024-gn2573-tin-wan-street-12370-1956-07-06",
+      "notice_stem": "1956-gn849",
+      "evidence_kind": "gazette_primary",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "event_role": "current_name",
+      "crowd_origin": "batch",
+      "gazette_location": {
+        "description_raw_en": "No. 849.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Cul-de-sac commencing at its junction with Island Road at A.I.L. 72 running in a north-easterly direction across the said lot and terminating at a turning circle some 500 yards from Island Road as shown coloured red on drawing No. R.H. 786. English Name: TIN WAN STREET. Chinese Name: 田灣街.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": true,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.H. 786",
+              "color": "red",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [
+            "A.I.L. 72"
+          ],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Island Road"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "supplementary_evidence": null
+    },
+    {
+      "event_id": "crowd|1956-gn917-monmouth-path-intention-Monmouth-Path-萬茂里-1956-07-20",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-07-20",
+      "change_kind": "rename",
+      "street_name_en": "Monmouth Path",
+      "street_name_zh": "萬茂里",
+      "previous_street_name_en": "Monmouth Path",
+      "previous_street_name_zh": "捫茂扶路",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Street name change (crowdsource)",
+      "notice_type_raw_zh": "街道易名（眾包）",
+      "notice_type_normalized": "chinese_correction",
+      "notice_no": "GN917",
+      "government_notice_label_en": "G.N.917",
+      "government_notice_label_zh": "第917號",
+      "government_notice_url_en": "/egazette/en/1956-gn917.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn917.pdf",
       "related_gazette_plan_urls_en": [],
       "related_gazette_plan_urls_zh": [],
       "related_gazette_plan_labels_en": [],
       "related_gazette_plan_labels_zh": [],
-      "is_declaration_event": true,
-      "submitter_remarks": "First Previous G.N. for 田灣街 cited in G.N.2573 (2024-05-03).",
-      "reviewed_at": "2026-05-30",
-      "submission_id": "2024-gn2573-tin-wan-street-12370-1956-07-06",
-      "notice_stem": "2024-28-18-2573",
-      "evidence_kind": "gazette_inferred",
-      "derived_from": [
-        {
-          "kind": "gazette_citation",
-          "notice_label": null,
-          "publication_date": null,
-          "government_notice_url_en": null,
-          "government_notice_url_zh": null,
-          "cited_notice_label": "G.N.2573",
-          "cited_publication_date": null
+      "gazette_location": {
+        "description_raw_en": "No. 917.—URBAN COUNCIL. MONMOUTH PATH. Notice of intention to alter the Chinese translation of Monmouth Path from 捫茂扶路 to 萬茂里. Any objections to be addressed to the Secretary, Urban Council, within one month. R. W. PRIMROSE, Secretary, Urban Council. 20th July, 1956.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": true,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
         }
-      ],
-      "evidence_kind_note": null,
+      },
+      "is_declaration_event": false,
+      "evidence_kind": "gazette_inferred",
       "event_role": "current_name",
-      "crowd_origin": "batch"
+      "derived_from": null,
+      "evidence_kind_note": "Intention notice only — demote to gazette_inferred until confirming declaration G.N.1176.",
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn917-monmouth-path-intention-Monmouth-Path-萬茂里-1956-07-20",
+      "notice_stem": "1956-gn917"
+    },
+    {
+      "event_id": "crowd|1956-gn1108-shek-kip-mei-Pak-Tin-Street-白田街-1956-08-31",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-08-31",
+      "change_kind": "declare",
+      "street_name_en": "Pak Tin Street",
+      "street_name_zh": "白田街",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN1108",
+      "government_notice_label_en": "G.N.1108",
+      "government_notice_label_zh": "第1108號",
+      "government_notice_url_en": "/egazette/en/1956-gn1108.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn1108.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.K. 689/1"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.K. 689/1"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 1108.—COLONIAL SECRETARIAT. Road commencing at its junction with Berwick Street running in a northeasterly direction for approximately 200 yards as shown coloured green in drawing R.K. 689/1. English Name: PAK TIN STREET. Chinese Name: 白田街.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.K. 689/1",
+              "color": "green",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Berwick Street"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn1108-shek-kip-mei-Pak-Tin-Street-白田街-1956-08-31",
+      "notice_stem": "1956-gn1108"
+    },
+    {
+      "event_id": "crowd|1956-gn1108-shek-kip-mei-Tai-Hang-Tung-Road-大坑東道-1956-08-31",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-08-31",
+      "change_kind": "declare",
+      "street_name_en": "Tai Hang Tung Road",
+      "street_name_zh": "大坑東道",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN1108",
+      "government_notice_label_en": "G.N.1108",
+      "government_notice_label_zh": "第1108號",
+      "government_notice_url_en": "/egazette/en/1956-gn1108.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn1108.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.K. 689/1"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.K. 689/1"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 1108.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Road to the East of Polo Ground commencing at its junction with Boundary Street running in a northerly direction for approximately 400 yards, thence curving in a northwesterly direction for approximately 250 yards and thence running in a northeasterly direction for approximately 390 yards as shown coloured red in drawing R.K. 689/1. English Name: TAI HANG TUNG ROAD. Chinese Name: 大坑東道.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.K. 689/1",
+              "color": "red",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Boundary Street"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn1108-shek-kip-mei-Tai-Hang-Tung-Road-大坑東道-1956-08-31",
+      "notice_stem": "1956-gn1108"
+    },
+    {
+      "event_id": "crowd|1956-gn1108-shek-kip-mei-Woh-Chai-Street-窩仔街-1956-08-31",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-08-31",
+      "change_kind": "declare",
+      "street_name_en": "Woh Chai Street",
+      "street_name_zh": "窩仔街",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN1108",
+      "government_notice_label_en": "G.N.1108",
+      "government_notice_label_zh": "第1108號",
+      "government_notice_url_en": "/egazette/en/1956-gn1108.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn1108.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.K. 689/1"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.K. 689/1"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 1108.—COLONIAL SECRETARIAT. Road commencing from the southeasterly boundary of the Shek Kip Mei multi-storey resettlement flats running in a northwesterly direction for approximately 440 yards and terminating at Pak Tin Street as shown coloured blue in drawing R.K. 689/1. English Name: WOH CHAI STREET. Chinese Name: 窩仔街.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.K. 689/1",
+              "color": "blue",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Pak Tin Street"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn1108-shek-kip-mei-Woh-Chai-Street-窩仔街-1956-08-31",
+      "notice_stem": "1956-gn1108"
+    },
+    {
+      "event_id": "crowd|1956-gn1176-monmouth-path-zh-Monmouth-Path-萬茂里-1956-09-14",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-09-14",
+      "change_kind": "rename",
+      "street_name_en": "Monmouth Path",
+      "street_name_zh": "萬茂里",
+      "previous_street_name_en": "Monmouth Path",
+      "previous_street_name_zh": "捫茂扶路",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Street name change (crowdsource)",
+      "notice_type_raw_zh": "街道易名（眾包）",
+      "notice_type_normalized": "chinese_correction",
+      "notice_no": "GN1176",
+      "government_notice_label_en": "G.N.1176",
+      "government_notice_label_zh": "第1176號",
+      "government_notice_url_en": "/egazette/en/1956-gn1176.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn1176.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.H. 816"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.H. 816"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 1176.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Monmouth Path the Chinese version of which was previously (捫茂扶路) MUN MAU FU LO commencing at its junction with Queen's Road East at the northern corner of I.L. 47, running generally in a south-westerly direction for some 190 yards from Queen's Road East then curving to a southerly direction and making two right angles turns first to West and then back to South just before its terminating point at Monmouth Terrace at some 30 yards from Kennedy Road near I.L. 2837 as shown coloured red on Drawing No. R.H. 816. English Name: MONMOUTH PATH. Chinese Name: 萬茂里.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.H. 816",
+              "color": "red",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [
+            "I.L. 47",
+            "I.L. 2837"
+          ],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Queen's Road East",
+            "Monmouth Terrace",
+            "Kennedy Road"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn1176-monmouth-path-zh-Monmouth-Path-萬茂里-1956-09-14",
+      "notice_stem": "1956-gn1176"
+    },
+    {
+      "event_id": "crowd|1956-gn1207-stanley-mound-road-Stanley-Mound-Road-赤柱崗道-1956-09-21",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-09-21",
+      "change_kind": "declare",
+      "street_name_en": "Stanley Mound Road",
+      "street_name_zh": "赤柱崗道",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN1207",
+      "government_notice_label_en": "G.N.1207",
+      "government_notice_label_zh": "第1207號",
+      "government_notice_url_en": "/egazette/en/1956-gn1207.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn1207.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [],
+      "related_gazette_plan_labels_zh": [],
+      "gazette_location": {
+        "description_raw_en": "No. 1207.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Road commencing at its junction with Stanley Village Road along the southern boundary of R.B.L. 627 running easterly and terminating at its junction with Stanley Beach Road. English Name: STANLEY MOUND ROAD. Chinese Name: 赤柱崗道.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [
+            "R.B.L. 627"
+          ],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Stanley Village Road",
+            "Stanley Beach Road"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn1207-stanley-mound-road-Stanley-Mound-Road-赤柱崗道-1956-09-21",
+      "notice_stem": "1956-gn1207"
+    },
+    {
+      "event_id": "crowd|1956-gn1241-castle-lane-Castle-Lane-衛城里-1956-09-28",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-09-28",
+      "change_kind": "declare",
+      "street_name_en": "Castle Lane",
+      "street_name_zh": "衛城里",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN1241",
+      "government_notice_label_en": "G.N.1241",
+      "government_notice_label_zh": "第1241號",
+      "government_notice_url_en": "/egazette/en/1956-gn1241.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn1241.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.H. 818"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.H. 818"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 1241.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Cul-de-sac commencing at its junction with Castle Road between House No. 3A and House No. 7, 'Kom-Tong Hall', running in a south-westerly direction for some 75 yards, deflecting 90° to the left at two points, one at some 30 yards and the other at some 75 yards from Castle Road, both running in a south-easterly direction for some 33 yards as shown coloured pink on Drawing No. R.H. 818. English Name: CASTLE LANE. Chinese Name: 衛城里.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": true,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.H. 818",
+              "color": "pink",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Castle Road"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn1241-castle-lane-Castle-Lane-衛城里-1956-09-28",
+      "notice_stem": "1956-gn1241"
+    },
+    {
+      "event_id": "crowd|1956-gn1306-hip-wo-lane-Hip-Wo-Lane-協和里-1956-10-12",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-10-12",
+      "change_kind": "declare",
+      "street_name_en": "Hip Wo Lane",
+      "street_name_zh": "協和里",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN1306",
+      "government_notice_label_en": "G.N.1306",
+      "government_notice_label_zh": "第1306號",
+      "government_notice_url_en": "/egazette/en/1956-gn1306.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn1306.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.H. 826"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.H. 826"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 1306.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Road commencing at its junction with Min Fat Street running in a south-easterly direction immediately to the north-east of and parallel to Sing Woo Road and terminating at its junction with Tsun Yuen Street, as shown coloured red on drawing No. R. H. 826. English Name: HIP WO LANE. Chinese Name: 協和里.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.H. 826",
+              "color": "red",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Min Fat Street",
+            "Sing Woo Road",
+            "Tsun Yuen Street"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn1306-hip-wo-lane-Hip-Wo-Lane-協和里-1956-10-12",
+      "notice_stem": "1956-gn1306"
+    },
+    {
+      "event_id": "crowd|1956-gn1468-governors-walk-hammer-hill-Hammer-Hill-Road-斧山道-1956-11-16",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-11-16",
+      "change_kind": "declare",
+      "street_name_en": "Hammer Hill Road",
+      "street_name_zh": "斧山道",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN1468",
+      "government_notice_label_en": "G.N.1468",
+      "government_notice_label_zh": "第1468號",
+      "government_notice_url_en": "/egazette/en/1956-gn1468.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn1468.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.K. 741"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.K. 741"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 1468.—COLONIAL SECRETARIAT. Road commencing at its junction with Clearwater Bay Road running in a northerly direction for approximately 500 yards, then in a northeasterly direction for approximately 500 yards, thence in a northwesterly direction for approximately 450 yards and terminating at No. 8 Cemetery as shown coloured red in Drawing No. R.K. 741. English Name: HAMMER HILL ROAD. Chinese Name: 斧山道.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.K. 741",
+              "color": "red",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Clearwater Bay Road"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn1468-governors-walk-hammer-hill-Hammer-Hill-Road-斧山道-1956-11-16",
+      "notice_stem": "1956-gn1468"
+    },
+    {
+      "event_id": "crowd|1956-gn1468-governors-walk-hammer-hill-The-Governor-s-Walk-育民里-1956-11-16",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-11-16",
+      "change_kind": "declare",
+      "street_name_en": "The Governor's Walk",
+      "street_name_zh": "育民里",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN1468",
+      "government_notice_label_en": "G.N.1468",
+      "government_notice_label_zh": "第1468號",
+      "government_notice_url_en": "/egazette/en/1956-gn1468.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn1468.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.H. 760"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.H. 760"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 1468.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— A hill path near the summit of Victoria Peak, commencing at the southern approach road to Mountain Lodge (R.B.L. 738) and thence circling outside the southern boundary of R.B.L. 738 in an easterly direction and terminating at its junction with an eastern approach road to Mountain Lodge as shown coloured red on Drawing No. R.H. 760. English Name: THE GOVERNOR'S WALK. Chinese Name: 育民里.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.H. 760",
+              "color": "red",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [
+            "R.B.L. 738"
+          ],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": "Gazette ZH 育民里; geojson 同樂徑.",
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn1468-governors-walk-hammer-hill-The-Governor-s-Walk-育民里-1956-11-16",
+      "notice_stem": "1956-gn1468"
+    },
+    {
+      "event_id": "crowd|1956-gn1650-wylie-road-Wylie-Road-衛理道-1956-12-21",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-12-21",
+      "change_kind": "declare",
+      "street_name_en": "Wylie Road",
+      "street_name_zh": "衛理道",
+      "previous_street_name_en": null,
+      "previous_street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_type_raw_en": "Declaration of street name (crowdsource)",
+      "notice_type_raw_zh": "街道命名（眾包）",
+      "notice_type_normalized": "declare",
+      "notice_no": "GN1650",
+      "government_notice_label_en": "G.N.1650",
+      "government_notice_label_zh": "第1650號",
+      "government_notice_url_en": "/egazette/en/1956-gn1650.pdf",
+      "government_notice_url_zh": "/egazette/zh/1956-gn1650.pdf",
+      "related_gazette_plan_urls_en": [],
+      "related_gazette_plan_urls_zh": [],
+      "related_gazette_plan_labels_en": [
+        "R.K. 745"
+      ],
+      "related_gazette_plan_labels_zh": [
+        "R.K. 745"
+      ],
+      "gazette_location": {
+        "description_raw_en": "No. 1650.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Road commencing at its junction with Gascoigne Road approximately 700' northwest of bridge over the Kowloon Canton Railway, running in a northerly direction and terminating at Waterloo Road as shown coloured red on Drawing R. K. 745. English Name: WYLIE ROAD. Chinese Name: 衛理道.",
+        "description_raw_zh": null,
+        "parsed": {
+          "road_form": null,
+          "is_cul_de_sac": false,
+          "is_highway": false,
+          "is_proposed": false,
+          "is_partially_formed": false,
+          "suffix_pending_removal": false,
+          "includes_boundary_sections": false,
+          "is_open_space": false,
+          "commences_at_en": null,
+          "terminates_at_en": null,
+          "runs": [],
+          "length_m": null,
+          "length_unit": null,
+          "plan_refs": [
+            {
+              "label": "R.K. 745",
+              "color": "red",
+              "url_en": null
+            }
+          ],
+          "district_en": null,
+          "district_zh": null,
+          "lot_refs": [],
+          "formerly_section_of_en": null,
+          "split_boundary_en": null,
+          "referenced_streets_en": [
+            "Gascoigne Road",
+            "Waterloo Road"
+          ],
+          "unnamed_junction_refs_en": [],
+          "replaces_gn_labels": [],
+          "merged_from_en": [],
+          "merged_from_zh": []
+        }
+      },
+      "is_declaration_event": true,
+      "evidence_kind": "gazette_primary",
+      "event_role": "current_name",
+      "derived_from": null,
+      "evidence_kind_note": null,
+      "submitter_remarks": null,
+      "supplementary_evidence": null,
+      "reviewed_at": "2026-07-12",
+      "submission_id": "1956-gn1650-wylie-road-Wylie-Road-衛理道-1956-12-21",
+      "notice_stem": "1956-gn1650"
     },
     {
       "event_id": "crowd|1957-gn264-kwun-tong-streets-Chun-Yip-Street-駿業街-1957-02-22",

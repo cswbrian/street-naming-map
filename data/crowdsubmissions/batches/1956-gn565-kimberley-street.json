@@ -1,0 +1,46 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1956-gn565-kimberley-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.565",
+  "publication_date": "1956-05-04",
+  "pdf_en": "/tmp/1956-gn-pdfs/1956-gn565.pdf",
+  "gazette_url_en": "/egazette/en/1956-gn565.pdf",
+  "streets": [
+    {
+      "english_name": "Kimberley Street",
+      "chinese_name": "金巴利街",
+      "history": [
+        {
+          "publication_date": "1956-05-04",
+          "change_kind": "declare",
+          "street_name_en": "Kimberley Street",
+          "street_name_zh": "金巴利街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 565.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Thoroughfare between Kimberley Road and Granville Road as shown coloured red on drawing No. R.K. 686. English Name: KIMBERLEY STREET. Chinese Name: 金巴利街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 686",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Kimberley Road",
+                "Granville Road"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false
+            }
+          }
+        }
+      ],
+      "link_street_code": "10995"
+    }
+  ]
+}

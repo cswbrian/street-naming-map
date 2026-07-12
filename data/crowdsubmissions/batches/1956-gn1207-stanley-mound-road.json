@@ -1,0 +1,43 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1956-gn1207-stanley-mound-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1207",
+  "publication_date": "1956-09-21",
+  "pdf_en": "/tmp/1956-gn-pdfs/1956-gn1207.pdf",
+  "gazette_url_en": "/egazette/en/1956-gn1207.pdf",
+  "streets": [
+    {
+      "english_name": "Stanley Mound Road",
+      "chinese_name": "赤柱崗道",
+      "history": [
+        {
+          "publication_date": "1956-09-21",
+          "change_kind": "declare",
+          "street_name_en": "Stanley Mound Road",
+          "street_name_zh": "赤柱崗道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 1207.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Road commencing at its junction with Stanley Village Road along the southern boundary of R.B.L. 627 running easterly and terminating at its junction with Stanley Beach Road. English Name: STANLEY MOUND ROAD. Chinese Name: 赤柱崗道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [],
+              "referenced_streets_en": [
+                "Stanley Village Road",
+                "Stanley Beach Road"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false,
+              "lot_refs": [
+                "R.B.L. 627"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12152"
+    }
+  ]
+}

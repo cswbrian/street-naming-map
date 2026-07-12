@@ -1,0 +1,42 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1956-gn917-monmouth-path-intention",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.917",
+  "publication_date": "1956-07-20",
+  "pdf_en": "/tmp/1956-gn-pdfs/1956-gn917.pdf",
+  "gazette_url_en": "/egazette/en/1956-gn917.pdf",
+  "streets": [
+    {
+      "link_street_code": "11456",
+      "english_name": "Monmouth Path",
+      "chinese_name": "萬茂里",
+      "history": [
+        {
+          "publication_date": "1956-07-20",
+          "change_kind": "rename",
+          "previous_street_name_en": "Monmouth Path",
+          "previous_street_name_zh": "捫茂扶路",
+          "street_name_en": "Monmouth Path",
+          "street_name_zh": "萬茂里",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Intention notice only — demote to gazette_inferred until confirming declaration G.N.1176.",
+          "gazette_location": {
+            "description_raw_en": "No. 917.—URBAN COUNCIL. MONMOUTH PATH. Notice of intention to alter the Chinese translation of Monmouth Path from 捫茂扶路 to 萬茂里. Any objections to be addressed to the Secretary, Urban Council, within one month. R. W. PRIMROSE, Secretary, Urban Council. 20th July, 1956.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [],
+              "referenced_streets_en": [],
+              "is_proposed": true,
+              "is_cul_de_sac": false
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-12T17:28:48.159Z",
+  "generated_at": "2026-07-12T17:52:46.107Z",
   "source_files": {
     "events": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-events.json",
     "centreline_map": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-centreline-map.json"
   },
   "totals": {
-    "master_events": 2068,
-    "mapped_event_ids": 2055,
-    "unmapped_events": 23,
+    "master_events": 2094,
+    "mapped_event_ids": 2079,
+    "unmapped_events": 25,
     "by_source": {
-      "crowdsubmitted": 23
+      "crowdsubmitted": 25
     }
   },
   "events": [
@@ -132,6 +132,30 @@
       "district_raw_zh": null,
       "notice_no": "GN164",
       "name_key": "Kin Man Street|健文街"
+    },
+    {
+      "event_id": "crowd|1956-gn717-yaumatei-hunghom-Cheung-Shui-Street-祥瑞街-1956-06-08",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-06-08",
+      "change_kind": "declare",
+      "street_name_en": "Cheung Shui Street",
+      "street_name_zh": "祥瑞街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN717",
+      "name_key": "Cheung Shui Street|祥瑞街"
+    },
+    {
+      "event_id": "crowd|1956-gn717-yaumatei-hunghom-Lee-Tat-Street-利達街-1956-06-08",
+      "source": "crowdsubmitted",
+      "publication_date": "1956-06-08",
+      "change_kind": "declare",
+      "street_name_en": "Lee Tat Street",
+      "street_name_zh": "利達街",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN717",
+      "name_key": "Lee Tat Street|利達街"
     },
     {
       "event_id": "crowd|1980-gn2486-tai-po-dai-streets-Dai-Pang-Street-大鵬街-1980-08-08",

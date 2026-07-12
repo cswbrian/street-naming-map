@@ -1,0 +1,80 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1956-gn1468-governors-walk-hammer-hill",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1468",
+  "publication_date": "1956-11-16",
+  "pdf_en": "/tmp/1956-gn-pdfs/1956-gn1468.pdf",
+  "gazette_url_en": "/egazette/en/1956-gn1468.pdf",
+  "streets": [
+    {
+      "english_name": "The Governor's Walk",
+      "chinese_name": "育民里",
+      "history": [
+        {
+          "publication_date": "1956-11-16",
+          "change_kind": "declare",
+          "street_name_en": "The Governor's Walk",
+          "street_name_zh": "育民里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "submitter_remarks": "Gazette ZH 育民里; geojson 同樂徑.",
+          "gazette_location": {
+            "description_raw_en": "No. 1468.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfares will be known in future as described hereunder:— A hill path near the summit of Victoria Peak, commencing at the southern approach road to Mountain Lodge (R.B.L. 738) and thence circling outside the southern boundary of R.B.L. 738 in an easterly direction and terminating at its junction with an eastern approach road to Mountain Lodge as shown coloured red on Drawing No. R.H. 760. English Name: THE GOVERNOR'S WALK. Chinese Name: 育民里.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 760",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [],
+              "is_proposed": false,
+              "is_cul_de_sac": false,
+              "lot_refs": [
+                "R.B.L. 738"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12347"
+    },
+    {
+      "english_name": "Hammer Hill Road",
+      "chinese_name": "斧山道",
+      "history": [
+        {
+          "publication_date": "1956-11-16",
+          "change_kind": "declare",
+          "street_name_en": "Hammer Hill Road",
+          "street_name_zh": "斧山道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 1468.—COLONIAL SECRETARIAT. Road commencing at its junction with Clearwater Bay Road running in a northerly direction for approximately 500 yards, then in a northeasterly direction for approximately 500 yards, thence in a northwesterly direction for approximately 450 yards and terminating at No. 8 Cemetery as shown coloured red in Drawing No. R.K. 741. English Name: HAMMER HILL ROAD. Chinese Name: 斧山道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 741",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Clearwater Bay Road"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false
+            }
+          }
+        }
+      ],
+      "link_street_code": "10643"
+    }
+  ]
+}

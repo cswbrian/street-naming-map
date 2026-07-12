@@ -1,0 +1,49 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1956-gn805-tsung-man-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.805",
+  "publication_date": "1956-06-29",
+  "pdf_en": "/tmp/1956-gn-pdfs/1956-gn805.pdf",
+  "gazette_url_en": "/egazette/en/1956-gn805.pdf",
+  "streets": [
+    {
+      "english_name": "Tsung Man Street",
+      "chinese_name": "崇文街",
+      "history": [
+        {
+          "publication_date": "1956-06-29",
+          "change_kind": "declare",
+          "street_name_en": "Tsung Man Street",
+          "street_name_zh": "崇文街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 805.—COLONIAL SECRETARIAT. It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Road commencing at its junction with Aberdeen Reservoir Road between A.I.L.s 111 and 154, running in a Westerly direction and terminating at the West boundary of Aberdeen Primary School as shown coloured red on drawing No. R.H. 795. English Name: TSUNG MAN STREET. Chinese Name: 崇文街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 795",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Aberdeen Reservoir Road"
+              ],
+              "is_proposed": false,
+              "is_cul_de_sac": false,
+              "lot_refs": [
+                "A.I.L. 111",
+                "A.I.L. 154"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12488"
+    }
+  ]
+}
