@@ -1,0 +1,89 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1980-gn514-aberdeen-tin-wan",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.514",
+  "publication_date": "1980-02-15",
+  "gazette_url_en": "/egazette/en/1980-gn514.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1980/Scanned_20260711-1408.pdf",
+  "streets": [
+    {
+      "chinese_name": "香港仔海旁道",
+      "english_name": "Aberdeen Praya Road",
+      "history": [
+        {
+          "publication_date": "1980-02-15",
+          "change_kind": "declare",
+          "street_name_en": "Aberdeen Praya Road",
+          "street_name_zh": "香港仔海旁道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 514.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Thoroughfare as shown coloured red on Drawing No. HH 3616, joining Aberdeen Main Road near the east of Aberdeen Wholesale Fish Market, running in a north-westerly direction for about 160 m and terminating at its junction with Shek Pai Wan Road about 45 m west of Tin Wan Hill Road. Proposed Name: ABERDEEN PRAYA ROAD. Chinese Version: 香港仔海旁道.",
+            "description_raw_zh": "此道路在香港仔魚類批發市場東面附近與香港仔大道連接，向西北伸展約一六〇米，終點在田灣山道西面約四十五米處與石排灣道會合，其位置在 HH 3616 號圖則內用紅色標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Aberdeen Main Road",
+                "Shek Pai Wan Road",
+                "Tin Wan Hill Road"
+              ]
+            }
+          },
+          "submitter_remarks": "Gazette ZH 香港仔海旁道; geojson 香港仔海傍道."
+        }
+      ],
+      "link_street_code": "10006"
+    },
+    {
+      "chinese_name": "田灣山道",
+      "english_name": "Tin Wan Hill Road",
+      "history": [
+        {
+          "publication_date": "1980-02-15",
+          "change_kind": "declare",
+          "street_name_en": "Tin Wan Hill Road",
+          "street_name_zh": "田灣山道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 514.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Thoroughfare as shown coloured yellow on Drawing No. HH 3616, commencing at the junction of Shek Pai Wan Road and Tin Wan Hill Road, running in a south-westerly direction for about 23 m and terminating at its junction with the road shown coloured red on the said Drawing. Proposed Name: TIN WAN HILL ROAD. Chinese Version: 田灣山道.",
+            "description_raw_zh": "此道路之位置在 HH 3616 號圖則內用黃色標明，由石排灣道與田灣山道之連接處開始，向西南伸展約廿三米，終點與在上述圖則內以紅色標明之道路會合。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Shek Pai Wan Road",
+                "Tin Wan Hill Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12367"
+    },
+    {
+      "chinese_name": "田灣海旁道",
+      "english_name": "Tin Wan Praya Road",
+      "history": [
+        {
+          "publication_date": "1980-02-15",
+          "change_kind": "declare",
+          "street_name_en": "Tin Wan Praya Road",
+          "street_name_zh": "田灣海旁道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 514.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Thoroughfare as shown coloured green on Drawing No. HH 3616, commencing at its junction with the road shown coloured red on the said Drawing, running in a westerly direction for about 120 m and terminating in front of the Sewage Screening Plant. Proposed Name: TIN WAN PRAYA ROAD. Chinese Version: 田灣海旁道.",
+            "description_raw_zh": "此道路之位置在 HH 3616 號圖則內用綠色標明，由與在上述圖則內用紅色標明之道路連接處開始，向西伸展約一百二十米，並在污水隔濾廠前終結。",
+            "parsed": {
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "12369"
+    }
+  ]
+}

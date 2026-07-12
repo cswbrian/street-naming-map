@@ -1,0 +1,175 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn1452-yuen-long",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1452",
+  "publication_date": "1984-05-18",
+  "gazette_url_en": "/egazette/en/1984-gn1452.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn1452.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1616.pdf",
+  "streets": [
+    {
+      "chinese_name": "福德街",
+      "english_name": "Fook Tak Street",
+      "link_street_code": "10506",
+      "history": [
+        {
+          "publication_date": "1984-05-18",
+          "change_kind": "extend",
+          "street_name_en": "Fook Tak Street",
+          "street_name_zh": "福德街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension to the existing FOOK TAK STREET (which was gazetted vide G.N. 2944/77) commencing at its junction with TUNG LOK STREET and running in a westerly direction for about 77 metres where it terminates at its junction with KIU LOK SQUARE as shown coloured pink and hatched black on Plan No. LD/YL/R7.",
+            "description_raw_zh": "此街為憲示第二九四四／七七號所公告之福德街之延展部份，由與同樂街交界處起，向西伸展約七十七米，至與橋樂坊交界處終止。在LD/YL/R7號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R7",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tung Lok Street",
+                "Kiu Lok Square"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "西菁街",
+      "english_name": "Sai Ching Street",
+      "link_street_code": "11833",
+      "history": [
+        {
+          "publication_date": "1984-05-18",
+          "change_kind": "extend",
+          "street_name_en": "Sai Ching Street",
+          "street_name_zh": "西菁街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension to the existing SAI CHING STREET (which was gazetted vide G.N. 3742/81) running in a southerly direction for about 114 metres and then turns smoothly to run in a westerly direction for about 145 metres where it terminates at its junction with SAI YU STREET as shown coloured pink and hatched black on Plan No. LD/YL/R7.",
+            "description_raw_zh": "此街為憲示第三七四二／八一號所公告之西菁街之延展部份，向南伸展約一百一十四米，再順轉向西伸展約一百四十五米，至與西裕街交界處終止。在LD/YL/R7號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R7",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sai Yu Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "西裕街",
+      "english_name": "Sai Yu Street",
+      "link_street_code": "11865",
+      "history": [
+        {
+          "publication_date": "1984-05-18",
+          "change_kind": "extend",
+          "street_name_en": "Sai Yu Street",
+          "street_name_zh": "西裕街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension to the existing SAI YU STREET (which was gazetted vide G.N. 3742/81) running in a southerly direction for about 67 metres and then turns smoothly to run in an easterly direction for about 45 metres where it terminates at its junction with SAI CHING STREET as shown coloured pink and hatched black on Plan No. LD/YL/R7.",
+            "description_raw_zh": "此街為憲示第三七四二／八一號所公告之西裕街之延展部份，向南伸展約六十七米，再順轉向東伸展約四十五米，至與西菁街交界處終止。在LD/YL/R7號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R7",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sai Ching Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "宏發徑",
+      "english_name": "Wang Fat Path",
+      "link_street_code": "12654",
+      "history": [
+        {
+          "publication_date": "1984-05-18",
+          "change_kind": "declare",
+          "street_name_en": "Wang Fat Path",
+          "street_name_zh": "宏發徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Path commencing at its junction with HOP YICK ROAD and running in a northerly direction for about 92 metres where it terminates as shown coloured pink and hatched black on Plan No. LD/YL/R7.",
+            "description_raw_zh": "此徑由與合益路交界處起，向北伸展約九十二米，至盡頭處終止。在LD/YL/R7號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R7",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hop Yick Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "建德街",
+      "english_name": "Kin Tak Street",
+      "link_street_code": "11013",
+      "history": [
+        {
+          "publication_date": "1984-05-18",
+          "change_kind": "declare",
+          "street_name_en": "Kin Tak Street",
+          "street_name_zh": "建德街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with HOP YICK ROAD opposite to WANG FAT PATH and running in a southerly direction for about 80 metres; it then turns to run in an easterly direction for about 109 metres and then turns to run in a northerly direction for about 117 metres where it terminates and rejoins HOP YICK ROAD as shown coloured pink and hatched black on Plan No. LD/YL/R7.",
+            "description_raw_zh": "此街在宏發徑對面，由與合益路交界處起，向南伸展約八十米，再轉向東伸展約一百〇九米，然後向北伸展約一百一十七米，至與合益路交界處終止。在LD/YL/R7號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R7",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hop Yick Road",
+                "Wang Fat Path"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

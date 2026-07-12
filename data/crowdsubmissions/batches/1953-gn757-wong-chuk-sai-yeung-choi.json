@@ -1,0 +1,76 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1953-gn757-wong-chuk-sai-yeung-choi",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.757",
+  "publication_date": "1953-06-12",
+  "gazette_url_en": "/egazette/en/1953-gn757.pdf",
+  "gazette_url_zh": "/egazette/zh/1953-gn757.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1953-gn757.pdf",
+  "streets": [
+    {
+      "link_street_code": "12777",
+      "chinese_name": "黃竹街",
+      "english_name": "Wong Chuk Street",
+      "history": [
+        {
+          "publication_date": "1953-06-12",
+          "change_kind": "extend",
+          "street_name_en": "Wong Chuk Street",
+          "street_name_zh": "黃竹街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 757.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road to the east of Taipo Road opposite Wong Chuk Street commencing from Taipo Road running in a north-easterly direction for a distance of 290' and terminating at the eastern boundary of N.K.I.L. 317, as shown coloured brown on plan No. R.K. 344A signed by the Director of Public Works and dated 4th June, 1953. Proposed Name: WONG CHUK STREET. Chinese Version: 黃竹街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 344A",
+                  "color": "brown"
+                }
+              ],
+              "referenced_streets_en": [
+                "Taipo Road",
+                "Wong Chuk Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "西洋菜街",
+      "english_name": "Sai Yeung Choi Street",
+      "history": [
+        {
+          "publication_date": "1953-06-12",
+          "change_kind": "declare",
+          "street_name_en": "Sai Yeung Choi Street",
+          "street_name_zh": "西洋菜街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "submitter_remarks": "Gazette name 西洋菜街 / Sai Yeung Choi Street; geojson only has 西洋菜北街/南街 — no unique centreline link.",
+          "gazette_location": {
+            "description_raw_en": "No. 757.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road to the east of and parallel to Taipo Road commencing from the southern boundary of N.K.I.L. 317 running in a northerly direction for a distance of 350' and terminating at the northern boundary of N.K.I.L. 317, as shown coloured red on plan No. R.K. 344A signed by the Director of Public Works and dated 4th June, 1953. Proposed Name: SAI YEUNG CHOI STREET. Chinese Version: 西洋菜街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 344A",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Taipo Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

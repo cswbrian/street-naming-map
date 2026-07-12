@@ -1,0 +1,448 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn3742-yuen-long",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3742",
+  "publication_date": "1981-12-18",
+  "gazette_url_en": "/egazette/en/1981-gn3742.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn3742.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1454.pdf",
+  "streets": [
+    {
+      "chinese_name": "鳳琴街",
+      "english_name": "Fung Kam Street",
+      "history": [
+        {
+          "publication_date": "1981-12-18",
+          "change_kind": "declare",
+          "street_name_en": "Fung Kam Street",
+          "street_name_zh": "鳳琴街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with FUNG CHEUNG ROAD and running in an easterly direction for about 90 metres then curving to run northerly for about 265 metres where it terminates at its junction with FUNG YAU STREET NORTH as shown coloured grey on Drawing No. NTA/YL/R28C.",
+            "description_raw_zh": "此街由與鳳翔路交界處起，向東伸展約九十米，然後順屈向北伸展約二百六十五米，至與鳳攸北街交界處終止，在 NTA/YL/R28C 號圖則上以灰色顯示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Fung Cheung Road",
+                "Fung Yau Street North"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10570"
+    },
+    {
+      "chinese_name": "鳳攸南街",
+      "english_name": "Fung Yau Street South",
+      "history": [
+        {
+          "publication_date": "1981-12-18",
+          "change_kind": "declare",
+          "street_name_en": "Fung Yau Street South",
+          "street_name_zh": "鳳攸南街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with FUNG KAM STREET and running in an easterly direction for about 150 metres, then it bends to run north-easterly for about 26 metres to terminate at its junction with FUNG YAU STREET EAST as shown coloured red on Drawing No. NTA/YL/R28C.",
+            "description_raw_zh": "此街由與鳳琴街交界處起，向東伸展約一百五十米，然後屈向東北伸展約二十六米，至與鳳攸東街交界處終止，在 NTA/YL/R28C 號圖則上以紅色顯示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Fung Kam Street",
+                "Fung Yau Street East"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10592"
+    },
+    {
+      "chinese_name": "鳳攸東街",
+      "english_name": "Fung Yau Street East",
+      "history": [
+        {
+          "publication_date": "1981-12-18",
+          "change_kind": "declare",
+          "street_name_en": "Fung Yau Street East",
+          "street_name_zh": "鳳攸東街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with FUNG YAU STREET SOUTH and curving to run in a northerly direction for about 136 metres and then turning to run north-westerly for about 70 metres to terminate at its junction with FUNG YAU STREET NORTH as shown coloured red and hatched black on Drawing No. NTA/YL/R28C.",
+            "description_raw_zh": "此街由與鳳攸南街交界處起，然後順屈向北伸展約一百三十六米，再朝向西北伸展約七十米，至與鳳攸北街交界處終止，在 NTA/YL/R28C 號圖則上以紅色間以黑綫顯示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Fung Yau Street South",
+                "Fung Yau Street North"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10590"
+    },
+    {
+      "chinese_name": "鳳攸北街",
+      "english_name": "Fung Yau Street North",
+      "history": [
+        {
+          "publication_date": "1981-12-18",
+          "change_kind": "declare",
+          "street_name_en": "Fung Yau Street North",
+          "street_name_zh": "鳳攸北街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with FUNG YAU STREET EAST and running in a westerly direction for about 228 metres where it terminates at its closed end as shown coloured red and cross-hatched black on Drawing No. NTA/YL/R28C.",
+            "description_raw_zh": "此街由與鳳攸東街交界處起，向西伸展約二百二十八米，至其盡頭處終止，在 NTA/YL/R28C 號圖則上以紅色間以交叉黑綫顯示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Fung Yau Street East"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10591"
+    },
+    {
+      "chinese_name": "鳳群街",
+      "english_name": "Fung Kwan Street",
+      "history": [
+        {
+          "publication_date": "1981-12-18",
+          "change_kind": "declare",
+          "street_name_en": "Fung Kwan Street",
+          "street_name_zh": "鳳群街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with FUNG YAU STREET EAST and running in a westerly direction for about 169 metres to terminate at its junction with FUNG KAM STREET as shown coloured blue on Drawing No. NTA/YL/R28C.",
+            "description_raw_zh": "此街由與鳳攸東街交界處起，向西伸展約一百六十九米，至與鳳琴街交界處終止，在 NTA/YL/R28C 號圖則上以藍色顯示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Fung Yau Street East",
+                "Fung Kam Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10572"
+    },
+    {
+      "chinese_name": "鳳香街",
+      "english_name": "Fung Heung Street",
+      "history": [
+        {
+          "publication_date": "1981-12-18",
+          "change_kind": "declare",
+          "street_name_en": "Fung Heung Street",
+          "street_name_zh": "鳳香街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with FUNG KAM STREET and running in a westerly direction for about 55 metres then curving to run southerly for about 115 metres to terminate at its closed end as shown coloured light blue on Drawing No. NTA/YL/R28C.",
+            "description_raw_zh": "此街由與鳳琴街交界處起，向西伸展約五十五米，然後順屈向南伸展約一百一十五米，至其盡頭處終止，在 NTA/YL/R28C 號圖則上以淺藍色顯示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Fung Kam Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10569"
+    },
+    {
+      "chinese_name": "又新街",
+      "english_name": "Yau San Street",
+      "history": [
+        {
+          "publication_date": "1981-12-18",
+          "change_kind": "declare",
+          "street_name_en": "Yau San Street",
+          "street_name_zh": "又新街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with CASTLE PEAK ROAD YUEN LONG and running southerly for about 275 metres to terminate at its junction with HOP YICK ROAD as shown hatched black and coloured dark brown on Drawing No. NTA/YL/R28C. (It should be noted that the part of the street as shown hatched black will be reconstructed.)",
+            "description_raw_zh": "此街由與青山公路元朗段交界處起，向南伸展約二百七十五米，至與合益路交界處終止，在 NTA/YL/R28C 號圖則上以黑影綫及深啡色顯示。（註：此街以黑影綫顯示之部份將重新鋪築。）",
+            "parsed": {
+              "referenced_streets_en": [
+                "Castle Peak Road",
+                "Hop Yick Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12833"
+    },
+    {
+      "chinese_name": "建樂街",
+      "english_name": "Kin Lok Street",
+      "history": [
+        {
+          "publication_date": "1981-12-18",
+          "change_kind": "declare",
+          "street_name_en": "Kin Lok Street",
+          "street_name_zh": "建樂街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with FUNG CHEUNG ROAD and running in a westerly direction for about 82 metres where it terminates temporarily as shown coloured light yellow on Drawing No. NTA/YL/R28C. (It should be noted that there is a future extension of this street of about 30 metres in a westerly direction as shown hatched black on the said Drawing.)",
+            "description_raw_zh": "此街由與鳳翔路交界處起向西伸展約八十二米處暫時終止，在 NTA/YL/R28C 號圖則上以淺黃色顯示。(註：此街將會向西延長三十米，在上述圖則上以黑影綫顯示。)",
+            "parsed": {
+              "referenced_streets_en": [
+                "Fung Cheung Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11005"
+    },
+    {
+      "chinese_name": "建業街",
+      "english_name": "Kin Yip Street",
+      "history": [
+        {
+          "publication_date": "1981-12-18",
+          "change_kind": "declare",
+          "street_name_en": "Kin Yip Street",
+          "street_name_zh": "建業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with KIN LOK STREET and running in a southerly direction for about 103 metres then curving to run westerly for about 90 metres to terminate at its junction with YAU SAN STREET as shown coloured blue on Drawing No. NTA/YL/R28C.",
+            "description_raw_zh": "此街由與建樂街交界處起，向南伸展約一百零三米，然後順屈向西伸展約九十米，至與又新街交界處終止，在 NTA/YL/R28C 號圖則上以藍色顯示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Kin Lok Street",
+                "Yau San Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11020"
+    },
+    {
+      "chinese_name": "合財街",
+      "english_name": "Hop Choi Street",
+      "history": [
+        {
+          "publication_date": "1981-12-18",
+          "change_kind": "declare",
+          "street_name_en": "Hop Choi Street",
+          "street_name_zh": "合財街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with HOP YICK ROAD and running in a northerly direction for about 70 metres where it terminates temporarily as shown coloured green and hatched green on Drawing No. NTA/YL/R28C. (It should be noted that the part of the street as shown hatched green is not yet constructed and there is a future extension of this street of about 140 metres as shown hatched black on the said Drawing.)",
+            "description_raw_zh": "此街由與合益路交界處起，向北伸展約七十米處暫時終止，在 NTA/YL/R28C 號圖則上以綠色及綠影綫顯示。(註：此街以綠影綫顯示之部分尚未興建，並將會延長一百四十米，在上述圖則上以黑影綫顯示。)",
+            "parsed": {
+              "referenced_streets_en": [
+                "Hop Yick Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10849"
+    },
+    {
+      "chinese_name": "康景街",
+      "english_name": "Hong King Street",
+      "history": [
+        {
+          "publication_date": "1981-12-18",
+          "change_kind": "declare",
+          "street_name_en": "Hong King Street",
+          "street_name_zh": "康景街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "U-shaped thoroughfare commencing at its junction with YUEN LONG HONG LOK ROAD approximately 45 metres away from CASTLE PEAK ROAD YUEN LONG and running in an easterly direction for about 42 metres then curving to run southerly for about 51 metres before curving to run westerly for about 42 metres where it terminates by rejoining YUEN LONG HONG LOK ROAD as shown coloured purple on Drawing No. NTA/YL/R28C. (It should be noted that the part of the street running southerly and as shown hatched black on the said Drawing is not yet constructed.)",
+            "description_raw_zh": "此U字形道路由距離青山公路元朗段約四十五米與元朗康樂路交界處起，向東伸展約四十二米，然後屈向南伸展約五十一米，再屈向西伸展四十二米，至再與元朗康樂路會合處終止，在 NTA/YL/R28C 號圖則上以紫色顯示。（註：此路向南伸展之部份尚未興建，在上述圖則上以黑影綫顯示。）",
+            "parsed": {
+              "referenced_streets_en": [
+                "Yuen Long Hong Lok Road",
+                "Castle Peak Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10805"
+    },
+    {
+      "chinese_name": "西裕街",
+      "english_name": "Sai Yu Street",
+      "history": [
+        {
+          "publication_date": "1981-12-18",
+          "change_kind": "declare",
+          "street_name_en": "Sai Yu Street",
+          "street_name_zh": "西裕街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with KAU YUK ROAD and running in a southerly direction for about 140 metres where it terminates temporarily as shown coloured apple green on Drawing No. NTA/YL/R28C. (It should be noted that there is a future extension of this street of about 106 metres as shown hatched black on the said Drawing.)",
+            "description_raw_zh": "此街由與教育路交界處起，向南伸展約一百四十米處暫時終止，在 NTA/YL/R28C 號圖則上以蘋果綠色顯示。(註：此街將會延長約一百零六米，在上述圖則上以黑影綫顯示。)",
+            "parsed": {
+              "referenced_streets_en": [
+                "Kau Yuk Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11865"
+    },
+    {
+      "chinese_name": "西菁街",
+      "english_name": "Sai Ching Street",
+      "history": [
+        {
+          "publication_date": "1981-12-18",
+          "change_kind": "declare",
+          "street_name_en": "Sai Ching Street",
+          "street_name_zh": "西菁街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with SAI YU STREET and running easterly for about 127 metres then bending to run south-easterly for about 18 metres where it terminates temporarily as shown coloured pink on Drawing No. NTA/YL/R28C. (It should be noted that there is a future extension of this street as shown cross-hatched black on the said Drawing.)",
+            "description_raw_zh": "此街由與西裕街交界處起，向東伸展約一百二十七米，然後屈向東南伸展約十八米處暫時終止，在 NTA/YL/R28C 號圖則上以粉紅色顯示。(註：此街將會延長，在上述圖則上以交叉黑影綫顯示。)",
+            "parsed": {
+              "referenced_streets_en": [
+                "Sai Yu Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11833"
+    },
+    {
+      "chinese_name": "屏信街",
+      "english_name": "Ping Shun Street",
+      "history": [
+        {
+          "publication_date": "1981-12-18",
+          "change_kind": "declare",
+          "street_name_en": "Ping Shun Street",
+          "street_name_zh": "屏信街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with YUEN LONG ON NING ROAD and running in a northerly direction for about 122 metres and then curving to run from north-westerly to westerly for about 50 metres where it terminates temporarily as shown coloured brown on Drawing No. NTA/YL/R28C. (It should be noted that there is a future extension of this street of about 30 metres as shown hatched black on the said Drawing.)",
+            "description_raw_zh": "此街由與元朗安寧路交界處起，向北伸展約一百二十二米，然後屈向西北再朝西伸展共約五十米處暫時終止，在NTA/YL/R28C號圖則上以啡色顯示。（註：此街將會延長約三十米，在上述圖則上以黑影綫顯示。）",
+            "parsed": {
+              "referenced_streets_en": [
+                "Yuen Long On Ning Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11714"
+    },
+    {
+      "chinese_name": "安信街",
+      "english_name": "On Shun Street",
+      "history": [
+        {
+          "publication_date": "1981-12-18",
+          "change_kind": "declare",
+          "street_name_en": "On Shun Street",
+          "street_name_zh": "安信街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "U-shaped thoroughfare commencing at its junction with YUEN LONG ON NING ROAD approximately 55 metres away from KIK YEUNG ROAD and running in a southerly direction for about 77 metres then curving to run westerly for about 116 metres before curving to run northerly for about 77 metres where it terminates by rejoining YUEN LONG ON NING ROAD as shown coloured orange on Drawing No. NTA/YL/R28C. (It should be noted that the part of the street running westerly and as shown hatched black on the said Drawing is not yet constructed.)",
+            "description_raw_zh": "此U字形道路由距擊壤路約五十五米與元朗安寧路交界處起，向南伸展約七十七米，然後屈向西伸展約一百一十六米，再屈向北伸展約七十七米，至再與元朗安寧路會合處終止，在NTA/YL/R28C號圖則上以橙色顯示。（註：此路向西伸展之部份尚未興建，在上述圖則上以黑影綫顯示。）",
+            "parsed": {
+              "referenced_streets_en": [
+                "Yuen Long On Ning Road",
+                "Kik Yeung Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11602"
+    },
+    {
+      "chinese_name": "屏會街",
+      "english_name": "Ping Wui Street",
+      "history": [
+        {
+          "publication_date": "1981-12-18",
+          "change_kind": "declare",
+          "street_name_en": "Ping Wui Street",
+          "street_name_zh": "屏會街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with YUEN LONG ON NING ROAD and running north north-westerly for about 40 metres, then it bends to run north-westerly for about 35 metres and then bends again to run north north-westerly for about 95 metres to terminate at its junction with MA WANG ROAD as shown coloured light green on Drawing No. NTA/YL/R28C.",
+            "description_raw_zh": "此街由與元朗安寧路交界處起，向西北偏北伸展約四十米，然後屈向西北伸展約三十五米，再屈向西北偏北約九十五米，至與媽橫路交界處終止，在NTA/YL/R28C號圖則上以淺綠色顯示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Yuen Long On Ning Road",
+                "Ma Wang Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11721"
+    },
+    {
+      "chinese_name": "水邊圍路",
+      "english_name": "Shui Pin Wai Road",
+      "history": [
+        {
+          "publication_date": "1981-12-18",
+          "change_kind": "declare",
+          "street_name_en": "Shui Pin Wai Road",
+          "street_name_zh": "水邊圍路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with CASTLE PEAK ROAD PING SHAN and running generally in a north north-westerly direction for about 145 metres to terminate at its junction with MA WANG ROAD as shown coloured yellow on Drawing No. NTA/YL/R28C.",
+            "description_raw_zh": "此路由與青山公路屏山段之交界處起，大致向西北偏北伸展約一百四十五米，至與媽橫路交界處終止，在NTA/YL/R28C號圖則上以黃色顯示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Castle Peak Road",
+                "Ma Wang Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12079"
+    }
+  ]
+}

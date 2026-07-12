@@ -1,0 +1,141 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1980-gn4050-sai-kung-roads",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.4050",
+  "publication_date": "1980-12-19",
+  "gazette_url_en": "/egazette/en/1980-gn4050.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1980/Scanned_20260711-1423.pdf",
+  "streets": [
+    {
+      "chinese_name": "大網仔路",
+      "english_name": "Tai Mong Tsai Road",
+      "history": [
+        {
+          "publication_date": "1980-12-19",
+          "change_kind": "declare",
+          "street_name_en": "Tai Mong Tsai Road",
+          "street_name_zh": "大網仔路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 4050.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Road commencing from the end of PO TUNG ROAD and running in a north-easterly direction for about 2,480 metres and bends to run in a south-easterly direction for about 1,250 metres where it curves north-easterly for about 830 metres and bends to run in a south-easterly direction for about 880 metres, it then turns to run in a general north-easterly direction for about 2,680 metres where it bends south-easterly for about 850 metres and terminates at its junction with SAI KUNG MAN YEE ROAD and SAI KUNG SAI WAN ROAD as shown coloured purple on Drawing No. NTA/SK/R9A. Proposed Name: TAI MONG TSAI ROAD. Chinese Version: 大網仔路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Po Tung Road",
+                "Sai Kung Man Yee Road",
+                "Sai Kung Sai Wan Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12237"
+    },
+    {
+      "chinese_name": "西貢西灣路",
+      "english_name": "Sai Kung Sai Wan Road",
+      "history": [
+        {
+          "publication_date": "1980-12-19",
+          "change_kind": "declare",
+          "street_name_en": "Sai Kung Sai Wan Road",
+          "street_name_zh": "西貢西灣路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 4050.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Road commencing at its junction with TAI MONG TSAI ROAD and SAI KUNG MAN YEE ROAD and running in a south-easterly direction for about 670 metres where it turns northerly for about 350 metres, it then bends to run generally in a south-easterly direction for about 2,420 metres where it curves generally in a northerly direction for about 840 metres and then bends south-easterly for about 130 metres, it then continues to run north-westerly for about 130 metres and bends south-westerly for about 240 metres where it changes to run southerly for about 70 metres to terminate at a closed end as shown coloured red on Drawing No. NTA/SK/R9A. Proposed Name: SAI KUNG SAI WAN ROAD. Chinese Version: 西貢西灣路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Tai Mong Tsai Road",
+                "Sai Kung Man Yee Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11841"
+    },
+    {
+      "chinese_name": "西貢萬宜路",
+      "english_name": "Sai Kung Man Yee Road",
+      "history": [
+        {
+          "publication_date": "1980-12-19",
+          "change_kind": "declare",
+          "street_name_en": "Sai Kung Man Yee Road",
+          "street_name_zh": "西貢萬宜路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 4050.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Road commencing at its junction with TAI MONG TSAI ROAD and SAI KUNG SAI WAN ROAD and running south-easterly for about 4,840 metres and then it changes to run generally in an easterly direction for about 2,680 metres where it curves north-easterly for about 250 metres to terminate at a dam as shown coloured green on Drawing No. NTA/SK/R9A. Proposed Name: SAI KUNG MAN YEE ROAD. Chinese Version: 西貢萬宜路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Tai Mong Tsai Road",
+                "Sai Kung Sai Wan Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11839"
+    },
+    {
+      "chinese_name": "北潭路",
+      "english_name": "Pak Tam Road",
+      "history": [
+        {
+          "publication_date": "1980-12-19",
+          "change_kind": "declare",
+          "street_name_en": "Pak Tam Road",
+          "street_name_zh": "北潭路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 4050.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Road commencing at its junction with TAI MONG TSAI ROAD and running north-westerly for about 210 metres where it bends to run north-easterly for about 2,980 metres and it bends north-westerly for about 910 metres and then curves north-easterly for about 830 metres where it turns to run generally easterly for about 580 metres to terminate at WONG SHEK PIER as shown coloured yellow on Drawing No. NTA/SK/R9A. Proposed Name: PAK TAM ROAD. Chinese Version: 北潭路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Tai Mong Tsai Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11649"
+    },
+    {
+      "chinese_name": "海下路",
+      "english_name": "Hoi Ha Road",
+      "history": [
+        {
+          "publication_date": "1980-12-19",
+          "change_kind": "declare",
+          "street_name_en": "Hoi Ha Road",
+          "street_name_zh": "海下路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 4050.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Road commencing at its junction with PAK TAM ROAD and running generally in a north-westerly direction for about 2,450 metres where it bends north-easterly for about 1,280 metres to terminate at a closed end near Hoi Ha as shown coloured orange on Drawing No. NTA/SK/R9A. Proposed Name: HOI HA ROAD. Chinese Version: 海下路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Pak Tam Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10771"
+    }
+  ]
+}

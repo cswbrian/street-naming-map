@@ -1,0 +1,116 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1952-gn972-north-point-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.972",
+  "publication_date": "1952-08-15",
+  "gazette_url_en": "/egazette/en/1952-gn972.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1952-gn972.pdf",
+  "streets": [
+    {
+      "link_street_code": "11421",
+      "chinese_name": "麥連街",
+      "english_name": "Merlin Street",
+      "history": [
+        {
+          "publication_date": "1952-08-15",
+          "change_kind": "declare",
+          "street_name_en": "Merlin Street",
+          "street_name_zh": "麥連街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 972.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following streets will be known in future as described hereunder:— Description: Road commencing at its junction with Shell Street running in a northerly and then in a north-westerly direction and terminating at its junction with Electric Road as shown coloured brown on the plan No. R.H. 334 signed by Director of Public Works and dated 7th August, 1952. Proposed Name: MERLIN STREET. Chinese Version: 麥連街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Shell Street",
+                "Electric Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "12021",
+      "chinese_name": "蜆殼街",
+      "english_name": "Shell Street",
+      "history": [
+        {
+          "publication_date": "1952-08-15",
+          "change_kind": "declare",
+          "street_name_en": "Shell Street",
+          "street_name_zh": "蜆殼街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 972.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following streets will be known in future as described hereunder:— Description: Road within I.L. 2273 commencing at its junction with King's Road running in a westerly direction and terminating at its junction with the lane bordering the western boundary of the lot and opposite to the Police Station fronting Electric Road as shown coloured pink on the plan No. 334 signed by Director of Public Works and dated 7th August, 1952. Proposed Name: SHELL STREET. Chinese Version: 蜆殼街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "King's Road",
+                "Electric Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "10911",
+      "chinese_name": "木星街",
+      "english_name": "Jupiter Street",
+      "history": [
+        {
+          "publication_date": "1952-08-15",
+          "change_kind": "declare",
+          "street_name_en": "Jupiter Street",
+          "street_name_zh": "木星街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 972.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following streets will be known in future as described hereunder:— Description: Road bordering on the nullah running between I.L.s 2273 & 1366 and commencing at its junction with King's Road running in a westerly direction and terminating at its junction with the lane bordering the western boundaries of I.L.s 2273 & 1366 and opposite to the police quarters in Electric Road as shown coloured yellow on the plan No. R.H. 334 signed by Director of Public Works and dated 7th August, 1952. Proposed Name: JUPITER STREET. Chinese Version: 木星街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "King's Road",
+                "Electric Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11420",
+      "chinese_name": "水星街",
+      "english_name": "Mercury Street",
+      "history": [
+        {
+          "publication_date": "1952-08-15",
+          "change_kind": "declare",
+          "street_name_en": "Mercury Street",
+          "street_name_zh": "水星街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 972.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following streets will be known in future as described hereunder:— Description: Road within I.L. 1366 for the greater part of its length and commencing at its junction with King's Road running in a westerly direction and deviating a little to the north when it reaches the western boundary of I.L. 1366 and terminating at its junction with Electric Road as shown coloured green on plan No. R.H. 334 signed by Director of Public Works and dated 7th August, 1952. Proposed Name: MERCURY STREET. Chinese Version: 水星街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "King's Road",
+                "Electric Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1954-gn435-po-yick-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.435",
+  "publication_date": "1954-04-09",
+  "gazette_url_en": "/egazette/en/1954-gn435.pdf",
+  "gazette_url_zh": "/egazette/zh/1954-gn435.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1954-gn435.pdf",
+  "streets": [
+    {
+      "chinese_name": "普益街",
+      "english_name": "Po Yick Street",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Po Yick Street",
+          "street_name_zh": "普益街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-04-09",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 435.—It is hereby notified that the following road will be known in future as described hereunder: Description: Road commencing at Tai Po Road near Pak Shing Street, running East South Eastwards to Tung Chong Street in Tai Po Market Layout as shown coloured red on Plan R.K. 442 signed by the District Commissioner, New Territories and dated 1st April, 1954. Proposed Name: PO YICK STREET. Chinese Version: 普益街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 442",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tai Po Road",
+                "Pak Shing Street",
+                "Tung Chong Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11763"
+    }
+  ]
+}

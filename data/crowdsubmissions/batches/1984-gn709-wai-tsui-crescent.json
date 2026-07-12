@@ -1,0 +1,44 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn709-wai-tsui-crescent",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.709",
+  "publication_date": "1984-03-09",
+  "gazette_url_en": "/egazette/en/1984-gn709.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn709.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1611(1).pdf",
+  "streets": [
+    {
+      "chinese_name": "慧翠道",
+      "english_name": "Wai Tsui Crescent",
+      "link_street_code": "12618",
+      "history": [
+        {
+          "publication_date": "1984-03-09",
+          "change_kind": "declare",
+          "street_name_en": "Wai Tsui Crescent",
+          "street_name_zh": "慧翠道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "A cul-de-sac commencing at its junction with Braemar Hill Road running north-westerly for 280 metres before turning south for 200 metres, as shown coloured green on Drawing No. HH 4383.",
+            "description_raw_zh": "此死巷由與寶馬山道交界處起，向西北伸展二百八十米，再向南伸展二百米，其位置於HH 4383號圖則上以綠色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "HH 4383",
+                  "color": "green"
+                }
+              ],
+              "referenced_streets_en": [
+                "Braemar Hill Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

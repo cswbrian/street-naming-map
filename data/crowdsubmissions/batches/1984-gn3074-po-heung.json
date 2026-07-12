@@ -1,0 +1,78 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn3074-po-heung",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3074",
+  "publication_date": "1984-10-19",
+  "gazette_url_en": "/egazette/en/1984-gn3074.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn3074.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1626.pdf",
+  "streets": [
+    {
+      "chinese_name": "寶鄉街",
+      "english_name": "Po Heung Street",
+      "history": [
+        {
+          "publication_date": "1984-10-19",
+          "change_kind": "extend",
+          "street_name_en": "Po Heung Street",
+          "street_name_zh": "寶鄉街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension to the existing PO HEUNG STREET commencing at its junction with PLOVER COVE ROAD and running in a north north-easterly direction for about 85 metres where it terminates at its junction with PO HEUNG BRIDGE as shown coloured pink on Plan No. TPRM5.",
+            "description_raw_zh": "該街道屬寶鄉街延展部份，由與寶湖道交界處起，向東北偏北伸展約八十五米，到與寶鄉橋交界處終止。在 TPRM 5 號圖則上以粉紅色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TPRM5",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Plover Cove Road",
+                "Po Heung Bridge"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11733"
+    },
+    {
+      "chinese_name": "寶鄉橋",
+      "english_name": "Po Heung Bridge",
+      "history": [
+        {
+          "publication_date": "1984-10-19",
+          "change_kind": "declare",
+          "street_name_en": "Po Heung Bridge",
+          "street_name_zh": "寶鄉橋",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Bridge commencing at its junction with PO HEUNG STREET and running in a north north-easterly direction for about 77 metres where it terminates at its junction with TAI PO TAI WO ROAD as shown coloured pink and hatched black on Plan No. TPRM5.",
+            "description_raw_zh": "該橋由與寶鄉街交界處起，向東北偏北伸展約七十七米，至與大埔太和路交界處終止。在 TPRM 5 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TPRM5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Po Heung Street",
+                "Tai Po Tai Wo Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11731"
+    }
+  ]
+}

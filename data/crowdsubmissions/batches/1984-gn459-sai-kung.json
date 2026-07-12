@@ -1,0 +1,76 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn459-sai-kung",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.459",
+  "publication_date": "1984-02-17",
+  "gazette_url_en": "/egazette/en/1984-gn459.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn459.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1608.pdf",
+  "streets": [
+    {
+      "chinese_name": "西沙路",
+      "english_name": "Sai Sha Road",
+      "link_street_code": "11850",
+      "history": [
+        {
+          "publication_date": "1984-02-17",
+          "change_kind": "declare",
+          "street_name_en": "Sai Sha Road",
+          "street_name_zh": "西沙路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with TAI MONG TSAI ROAD near Wong Chuk Wan and running in a north-easterly direction for about 150 metres where it turns to run in a north-westerly direction for about 375 metres before bending to run in a northerly direction for about 360 metres; it then bends to run generally in a west north-westerly direction for about 700 metres where it turns to run in a north-westerly direction for about 400 metres and then bends again to run in a west north-westerly direction for about 230 metres; it continues to run in a generally northerly direction for about 350 metres before it curves to run in a west north-westerly direction for about 610 metres where it bends again to run generally in a northerly direction for about 800 metres; it then turns to run in a north-westerly direction for about 280 metres and then bends to run in a north north-westerly direction for about 750 metres before it turns to run in a west north-westerly direction for about 480 metres where it terminates at its closed end near Sai O Village as shown coloured red on Plan No. SKRM 1.",
+            "description_raw_zh": "此路由與黃竹灣附近之大網仔路交界起，向東北伸展約一百五十米，再向西北伸展約三百七十五米，後轉向北伸展約三百六十米，再向西北偏西伸展約七百米，後轉向西北伸展約四百米，再向西北偏西伸展約二百三十米，後轉向北伸展約三百五十米，再向西北偏西伸展約六百一十米，後轉向北伸展約八百米，再向西北伸展約二百八十米，後轉向西北偏北伸展約七百五十米，再向西北偏西伸展約四百八十米，然後在西澳村附近終止。在 SKRM 1 號圖則上以紅色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "SKRM 1",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tai Mong Tsai Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "竹洋路",
+      "english_name": "Chuk Yeung Road",
+      "link_street_code": "10275",
+      "history": [
+        {
+          "publication_date": "1984-02-17",
+          "change_kind": "declare",
+          "street_name_en": "Chuk Yeung Road",
+          "street_name_zh": "竹洋路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with an unnamed road near Sha Ha and running in a north-westerly direction for about 65 metres where it bends to run in a north-easterly direction for about 70 metres; it then turns to run generally in a north north-westerly direction for about 800 metres before it bends to run in a westerly direction for about 140 metres where it turns to run in a north north-easterly direction for about 160 metres; it continues to run in a westerly direction for about 170 metres before it turns to run generally in a northerly direction for about 300 metres and then bends to run generally in a north-westerly direction for about 720 metres where it terminates near Wong Chuk Yeung Village as shown coloured yellow on Plan No. SKRM 1.",
+            "description_raw_zh": "此路由與沙下附近之一條未命名路交界起，向西北伸展約六十五米，後轉向東北伸展約七十米，再向西北偏北伸展約八百米，後轉向西伸展約一百四十米，再向東北偏北伸展約一百六十米，後轉向西伸展約一百七十米，再向北伸展約三百米，後轉向西北伸展約七百二十米，然後在黃竹洋村附近終止。在 SKRM 1 號圖則上以黃色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "SKRM 1",
+                  "color": "yellow"
+                }
+              ],
+              "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [
+                "unnamed road near Sha Ha"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

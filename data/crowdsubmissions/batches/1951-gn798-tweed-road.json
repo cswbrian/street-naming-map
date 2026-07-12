@@ -1,0 +1,36 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1951-gn798-tweed-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.798",
+  "publication_date": "1951-08-03",
+  "gazette_url_en": "/egazette/en/1951-gn798.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1951-gn798.pdf",
+  "streets": [
+    {
+      "link_street_code": "12552",
+      "chinese_name": "陶域道",
+      "english_name": "Tweed Road",
+      "history": [
+        {
+          "publication_date": "1951-08-03",
+          "change_kind": "declare",
+          "street_name_en": "Tweed Road",
+          "street_name_zh": "陶域道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 798.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Description: Private road within K.I.L. 4209, immediately to the north-west and parallel to Perth Street as shown coloured pink on drawing No. R.K. 210 signed by the Director of Public Works and dated 31st July, 1951. Proposed Name: TWEED ROAD. Chinese Version: 陶域道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Perth Street"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

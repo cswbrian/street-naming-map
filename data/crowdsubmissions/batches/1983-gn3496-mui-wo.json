@@ -1,0 +1,135 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn3496-mui-wo",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3496",
+  "publication_date": "1983-11-04",
+  "gazette_url_en": "/egazette/en/1983-gn3496.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn3496.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1601.pdf",
+  "streets": [
+    {
+      "chinese_name": "梅窩涌口街",
+      "english_name": "Mui Wo Chung Hau Street",
+      "history": [
+        {
+          "publication_date": "1983-11-04",
+          "change_kind": "declare",
+          "street_name_en": "Mui Wo Chung Hau Street",
+          "street_name_zh": "梅窩涌口街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing from Chung Hau Bridge and runs in a generally northerly direction for about 113 metres, then bends to run west north-westerly for about 73 metres; it then bends again to run west south-westerly for about 156 metres where it terminates near Mui Wo Recreation Centre as shown coloured pink and hatched black on Drawing No. NTA/IS/R9B.",
+            "description_raw_zh": "此街由涌口橋起，向北伸展約一百一十三米；後轉向西北偏西伸展約七十三米，再轉向西南偏西伸展約一百五十六米，至與梅窩康樂中心附近止。在NTA/IS/R9B號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/IS/R9B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "11480"
+    },
+    {
+      "chinese_name": "梅窩碼頭路",
+      "english_name": "Mui Wo Ferry Pier Road",
+      "history": [
+        {
+          "publication_date": "1983-11-04",
+          "change_kind": "declare",
+          "street_name_en": "Mui Wo Ferry Pier Road",
+          "street_name_zh": "梅窩碼頭路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with SOUTH LANTAU ROAD and runs in a south-easterly direction for about 136 metres where it turns to run north-westerly for about 70 metres; it then links again with SOUTH LANTAU ROAD and continues to run in a generally southerly direction for about 221 metres before it bends to run easterly for about 80 metres; it bends again to run southerly for about 76 metres before it runs westerly for about 118 metres, it then bends to run in a south-easterly direction for about 491 metres to the Sewage Treatment Plant Site where it terminates as shown coloured pink and hatched black on Drawing No. NTA/IS/R19A.",
+            "description_raw_zh": "此路由與嶼南道交界處起，向東南伸展約一百三十六米，後向西北伸展約七十米；然後再與嶼南道連接，並再向南伸展約二百二十一米；其後向東伸展約八十米，再向南伸展約七十六米，後向西伸展約一百一十八米，後轉向東南伸展約四百九十一米，至與污水處理廠止。在 NTA/IS/R19A 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/IS/R19A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "South Lantau Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11481"
+    },
+    {
+      "chinese_name": "梅窩鄉事會路",
+      "english_name": "Mui Wo Rural Committee Road",
+      "history": [
+        {
+          "publication_date": "1983-11-04",
+          "change_kind": "declare",
+          "street_name_en": "Mui Wo Rural Committee Road",
+          "street_name_zh": "梅窩鄉事會路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing from the southern side of Mui Wo Dispensary and running in a west south-westerly direction for about 284 metres; it then curves to run in a generally westerly direction for about 35 metres where it temporarily terminates as shown coloured pink and hatched black on Drawing No. NTA/IS/R9B.",
+            "description_raw_zh": "此路由梅窩醫局以南起，向西南偏西伸展約二百八十四米，再向西伸展約三十五米而暫時終止。在NTA/IS/R9B號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/IS/R9B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "11482"
+    },
+    {
+      "chinese_name": "東灣頭路",
+      "english_name": "Tung Wan Tau Road",
+      "history": [
+        {
+          "publication_date": "1983-11-04",
+          "change_kind": "declare",
+          "street_name_en": "Tung Wan Tau Road",
+          "street_name_zh": "東灣頭路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing from Wang Tong Bridge and runs in a north north-easterly direction for about 260 metres, then bends to run generally in an east north-easterly direction for about 378 metres; it then bends again to run east south-easterly for about 122 metres to the footbridge at Tung Wan Tau near the Holiday Camp of the Children's Playground Association where it terminates as shown coloured pink and hatched black on Drawing No. NTA/IS/R10B.",
+            "description_raw_zh": "此路由橫塘橋起，向東北偏北伸展約二百六十米，後轉向東北偏東伸展約三百七十八米；再向東南偏東伸展約一百二十二米，至與兒童遊樂場協會渡假營附近之東灣頭行人天橋止。在 NTA/IS/R10B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/IS/R10B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "12548"
+    }
+  ]
+}

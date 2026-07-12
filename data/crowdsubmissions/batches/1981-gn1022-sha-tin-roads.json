@@ -1,0 +1,135 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn1022-sha-tin-roads",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1022",
+  "publication_date": "1981-04-03",
+  "gazette_url_en": "/egazette/en/1981-gn1022.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn1022.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1432.pdf",
+  "pdf_zh": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1433.pdf",
+  "streets": [
+    {
+      "chinese_name": "大涌橋路",
+      "english_name": "Tai Chung Kiu Road",
+      "history": [
+        {
+          "publication_date": "1981-04-03",
+          "change_kind": "declare",
+          "street_name_en": "Tai Chung Kiu Road",
+          "street_name_zh": "大涌橋路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with LION ROCK TUNNEL ROAD near Sha Tin Tau Village and running generally in a north-easterly direction for about 2 240 metres where it terminates temporarily as shown coloured pink and hatched black on Drawing No. NTA/ST/R12A. (It should be noted that there is a future extension of this road.)",
+            "description_raw_zh": "此路由與獅子山隧道公路會合處近沙田頭村起，向東北伸展約二千二百四十米後暫時終止，如圖則第 NTA/ST/R12A 號中以粉紅色及黑斜線所示。(註：此路將予擴建。)",
+            "parsed": {
+              "referenced_streets_en": [
+                "Lion Rock Tunnel Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12207"
+    },
+    {
+      "chinese_name": "沙角街",
+      "english_name": "Sha Kok Street",
+      "history": [
+        {
+          "publication_date": "1981-04-03",
+          "change_kind": "declare",
+          "street_name_en": "Sha Kok Street",
+          "street_name_zh": "沙角街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TAI CHUNG KIU ROAD near Tsang Tai Uk and running generally in a south-easterly direction for about 170 metres then bends to run in a generally north-easterly direction for about 730 metres where it terminates temporarily at its junction with an un-named road as shown coloured pink and hatched black on Drawing No. NTA/ST/R12A. (It should be noted that there is a future extension of this street.)",
+            "description_raw_zh": "此街由與大涌橋路會合處近曾大屋起，向東南伸展約一百七十米，再轉向東北伸展約七百三十米後暫時終止於與一未命名道路會合處，如圖則第 NTA/ST/R12A 號中以粉紅色及黑斜線所示。(註：此路將予擴建。)",
+            "parsed": {
+              "referenced_streets_en": [
+                "Tai Chung Kiu Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11955"
+    },
+    {
+      "chinese_name": "源禾路",
+      "english_name": "Yuen Wo Road",
+      "history": [
+        {
+          "publication_date": "1981-04-03",
+          "change_kind": "declare",
+          "street_name_en": "Yuen Wo Road",
+          "street_name_zh": "源禾路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with an un-named road and running generally in a north-easterly direction for about 1 270 metres then turns sharply north-westerly and runs around the Fire Station for about 500 metres where it rejoins itself as shown coloured pink and hatched black on Drawing No. NTA/ST/R12A.",
+            "description_raw_zh": "此路由與一未命名道路會合處起，向東北伸展約一千二百七十米，再急轉向西北伸展，環繞消防局週圍約五百米後接回原路，如圖則第 NTA/ST/R12A 號中以粉紅色及黑斜線所示。",
+            "parsed": {
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "12930"
+    },
+    {
+      "chinese_name": "沙田鄉事會路",
+      "english_name": "Sha Tin Rural Committee Road",
+      "history": [
+        {
+          "publication_date": "1981-04-03",
+          "change_kind": "declare",
+          "street_name_en": "Sha Tin Rural Committee Road",
+          "street_name_zh": "沙田鄉事會路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing approximately 20 metres south-east of its junction with YUEN WO ROAD and running in a north-westerly direction for about 395 metres then bends to run in a south-westerly direction for about 15 metres where it temporarily terminates as shown coloured pink and hatched black on Drawing No. NTA/ST/R12A. (It should be noted that there is a future extension of this road.)",
+            "description_raw_zh": "此路由與源禾路會合處東南約二十米處起，向西北伸展約三百九十五米，再轉向西南伸展約十五米後暫時終止，如圖則第 NTA/ST/R12A 號中以粉紅色及黑斜線所示。(註：此路將予擴建。)",
+            "parsed": {
+              "referenced_streets_en": [
+                "Yuen Wo Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11965"
+    },
+    {
+      "chinese_name": "穗禾路",
+      "english_name": "Sui Wo Road",
+      "history": [
+        {
+          "publication_date": "1981-04-03",
+          "change_kind": "declare",
+          "street_name_en": "Sui Wo Road",
+          "street_name_zh": "穗禾路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with an un-named road (next to Fo Tan Nullah) and running in a south-westerly direction for about 235 metres where it bends sharply to curve generally in a south-easterly direction for about 520 metres where it loops clockwise for about 420 metres and then it bends to run north-westerly for about 150 metres and then bends to run south-westerly for about 110 metres where it temporarily terminates as shown coloured pink and hatched black on Drawing No. NTA/ST/R12A. (It should be noted that there is a future extension of this road.)",
+            "description_raw_zh": "此路由與(火炭渠側)一未命名道路會合處起，向西南伸展約二百三十五米，急劇轉向東南伸展約五百二十米，然後順時鐘方向以環形伸展約四百二十米，向西北伸展約一百五十米，繼向西南伸展約一百一十米後暫時終止，如圖則第 NTA/ST/R12A 號中以粉紅色及黑斜線所示。(註：此路將予擴建。)",
+            "parsed": {
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "12174"
+    }
+  ]
+}

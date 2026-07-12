@@ -1,0 +1,41 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn3473-supreme-court-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3473",
+  "publication_date": "1984-11-23",
+  "gazette_url_en": "/egazette/en/1984-gn3473.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn3473.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1634.pdf",
+  "streets": [
+    {
+      "chinese_name": "法院道",
+      "english_name": "Supreme Court Road",
+      "history": [
+        {
+          "publication_date": "1984-11-23",
+          "change_kind": "declare",
+          "street_name_en": "Supreme Court Road",
+          "street_name_zh": "法院道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac as shown cross hatched black on Drawing No. HH 4888 commencing at its junction with an unnamed Road (marked Road 1 and hatched black on Drawing No. HH 4888) running first northwestwards for 30 metres then westwards for another 80 metres before going northwestwards again for 80 metres to terminate at the entrance to Queensway Government Offices and the New Supreme Court.",
+            "description_raw_zh": "此盡頭路於 HH 4888 號圖則上以交錯黑斜線標明，由與一條未命名街道（在 HH 4888 號圖則上以黑斜線標明之暫名街道一）交界處起，先向西北伸展三十米，再向西伸展八十米，然後再向西北伸展八十米，至金鐘道政府合署與新最高法院大樓之入口處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "HH 4888",
+                  "color": "cross-hatched black"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12192"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1951-gn264-wharf-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.264",
+  "publication_date": "1951-03-09",
+  "gazette_url_en": "/egazette/en/1951-gn264.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1951-gn264.pdf",
+  "streets": [
+    {
+      "link_street_code": "12703",
+      "chinese_name": "和富道",
+      "english_name": "Wharf Road",
+      "history": [
+        {
+          "publication_date": "1951-03-09",
+          "change_kind": "declare",
+          "street_name_en": "Wharf Road",
+          "street_name_zh": "和富道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 264.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following street will be known in future as described hereunder:— Description: Road extending from its junction with North Point Road and running in an easterly direction parallel to and north of Java Road and terminating at its junction with Tong Shui Road. Proposed Name: WHARF ROAD. Chinese Version: 和富道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "North Point Road",
+                "Java Road",
+                "Tong Shui Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

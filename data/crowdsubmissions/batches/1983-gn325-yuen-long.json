@@ -1,0 +1,293 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn325-yuen-long",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.325",
+  "publication_date": "1983-01-28",
+  "gazette_url_en": "/egazette/en/1983-gn325.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn325.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1536.pdf",
+  "streets": [
+    {
+      "chinese_name": "富業街",
+      "english_name": "Fu Yip Street",
+      "link_street_code": "10537",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Fu Yip Street",
+          "street_name_zh": "富業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with an unformed road and running in a south-easterly direction for about 160 metres where it terminates at its junction with WANG YIP STREET WEST as shown coloured pink and hatched black on Drawing No. NTA/YL/R36A.",
+            "description_raw_zh": "此街由與一條未整理之道路交界處起，向東南伸展約一百六十米，至與宏業西街交界處終止，在NTA/YL/R36A號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/YL/R36A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wang Yip Street West"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "宏業東街",
+      "english_name": "Wang Yip Street East",
+      "link_street_code": "12681",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Wang Yip Street East",
+          "street_name_zh": "宏業東街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with an unformed road and running in a south-westerly direction for about 332 metres where it terminates at its junction with WANG YIP STREET SOUTH as shown coloured pink and hatched black on Drawing No. NTA/YL/R36A.",
+            "description_raw_zh": "此街由與一條未整理之道路交界處起，向西南伸展約三百三十二米，至與宏業南街交界處終止。在NTA/YL/R36A號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/YL/R36A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wang Yip Street South"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "宏業南街",
+      "english_name": "Wang Yip Street South",
+      "link_street_code": "12682",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Wang Yip Street South",
+          "street_name_zh": "宏業南街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with WANG YIP STREET EAST turns smoothly to a westerly direction for about 81 metres; it then runs in a north-westerly direction for about 81 metres and turns smoothly to a north-easterly direction for about 86 metres where it terminates at its junction with WANG YIP STREET WEST as shown coloured pink and cross-hatched black on Drawing No. NTA/YL/R36A.",
+            "description_raw_zh": "此街由與宏業東街交界處起，順轉向西伸展約八十一米，再向西北伸展約八十一米，然後順轉向東北伸展約八十六米，至與宏業西街交界處終止。在NTA/YL/R36A號圖則上以粉紅色間以交錯黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/YL/R36A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wang Yip Street West"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "宏業西街",
+      "english_name": "Wang Yip Street West",
+      "link_street_code": "12683",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Wang Yip Street West",
+          "street_name_zh": "宏業西街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with WANG YIP STREET SOUTH and running in a north-easterly direction for about 336 metres where it terminates at its junction with an unformed road as shown coloured pink and hatched black on Drawing No. NTA/YL/R36A.",
+            "description_raw_zh": "此街由與宏業南街交界處起，向東北伸展約三百三十六米，至與一條未整理之道路交界處終止。在NTA/YL/R36A號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/YL/R36A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "喜業街",
+      "english_name": "Hi Yip Street",
+      "link_street_code": "10702",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Hi Yip Street",
+          "street_name_zh": "喜業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with WANG YIP STREET WEST and running in a south-easterly direction for about 164 metres where it terminates at its junction with WANG YIP STREET EAST as shown coloured pink and hatched black on Drawing No. NTA/YL/R36A.",
+            "description_raw_zh": "此街由與宏業西街交界處起，向東南伸展約一百六十四米，至與宏業東街交界處終止。在NTA/YL/R36A號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/YL/R36A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wang Yip Street East"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "良業街",
+      "english_name": "Leung Yip Street",
+      "link_street_code": "11220",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Leung Yip Street",
+          "street_name_zh": "良業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing at its junction with WANG YIP STREET WEST and running in a south-easterly direction for about 110 metres where it terminates at its closed end as shown coloured pink and hatched black on Drawing No. NTA/YL/R36A.",
+            "description_raw_zh": "此盡頭路由與宏業西街交界處起，向東南伸展約一百一十米，至其盡頭處終止。在NTA/YL/R36A號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/YL/R36A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "強業街",
+      "english_name": "Keung Yip Street",
+      "link_street_code": "10987",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Keung Yip Street",
+          "street_name_zh": "強業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with WANG YIP STREET EAST and running in a south-easterly direction for about 93 metres where it terminates at its junction with PO YIP STREET as shown coloured pink and hatched black on Drawing No. NTA/YL/R36A.",
+            "description_raw_zh": "此街由與宏業東街交界處起，向東南伸展約九十三米，至與寶業街交界處終止。在NTA/YL/R36A號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/YL/R36A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Po Yip Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "寶業街",
+      "english_name": "Po Yip Street",
+      "link_street_code": "11765",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Po Yip Street",
+          "street_name_zh": "寶業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with LONG YIP STREET and running in a north-easterly direction for about 308 metres where it terminates at its junction with an unformed road as shown coloured pink and hatched black on Drawing No. NTA/YL/R36A.",
+            "description_raw_zh": "此街由與朗業街交界處起，向東北伸展約三百零八米，至與一條未整理之道路交界處終止。在NTA/YL/R36A號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/YL/R36A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "朗業街",
+      "english_name": "Long Yip Street",
+      "link_street_code": "11278",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Long Yip Street",
+          "street_name_zh": "朗業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with PO YIP STREET and running in a westerly direction for about 204 metres where it terminates at its unformed section as shown coloured pink and hatched black on Drawing No. NTA/YL/R36A. There will be future extensions at both ends of this street.",
+            "description_raw_zh": "此街由與寶業街交界處起，向西伸展約二百零四米，至其未整理處終止。在NTA/YL/R36A號圖則上以粉紅色間以黑斜綫標明。此街兩頭將予以延長。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/YL/R36A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn3320-fung-ping-lane",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3320",
+  "publication_date": "1984-11-09",
+  "gazette_url_en": "/egazette/en/1984-gn3320.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn3320.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1633.pdf",
+  "streets": [
+    {
+      "chinese_name": "鳳坪里",
+      "english_name": "Fung Ping Lane",
+      "history": [
+        {
+          "publication_date": "1984-11-09",
+          "change_kind": "declare",
+          "street_name_en": "Fung Ping Lane",
+          "street_name_zh": "鳳坪里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac as shown coloured red on Drawing No. KH 4925 commencing from its junction with an un-named thoroughfare (marked Road A and shown coloured grey on Drawing No. KH 4925) running north-easterly for about 70 metres.",
+            "description_raw_zh": "此盡頭路於 KH 4925 號圖則上以紅色標明，由與一條未命名街道（在 KH 4925 號圖則上以灰色標明之 A 街道）交界處起，向東北伸展約七十米。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 4925",
+                  "color": "red"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10577"
+    }
+  ]
+}

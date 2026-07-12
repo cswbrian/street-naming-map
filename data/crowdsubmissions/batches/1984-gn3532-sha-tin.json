@@ -1,0 +1,168 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn3532-sha-tin",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3532",
+  "publication_date": "1984-11-30",
+  "gazette_url_en": "/egazette/en/1984-gn3532.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn3532.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1636.pdf",
+  "streets": [
+    {
+      "chinese_name": "沙田路",
+      "english_name": "Sha Tin Road",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Sha Tin Road",
+          "street_name_zh": "沙田路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing in two branches at their respective junctions with TAI PO ROAD, SHA TIN and both branches running in a southerly direction for about 385 metres and 220 metres respectively before merging to run south south-easterly for about 590 metres; it then curves to run southerly for about 140 metres and then turns to run south south-westerly for about 1 020 metres before it curves to run south-westerly for about 200 metres; it then turns to run west south-westerly for about 500 metres where it divides into two branches and both of them continue to run in a west south-westerly direction for about 200 metres before they curve to run south-westerly for about 150 metres where they terminate at their junctions with LION ROCK TUNNEL ROAD as shown coloured pink and hatched black on Plan No. STRM 1013B.",
+            "description_raw_zh": "此路由與大埔公路沙田段處起，分別向南伸展約385米及220米後匯合，向東南偏南伸展約590米，再向南伸展約140米後，轉向西南偏南伸展約1020米，然後向西南伸展約200米，再向西南偏西伸展約500米，至此分為兩條分支路繼續向西南偏西伸展約200米，再轉向西南伸展約150米至與獅子山隧道公路之交界處止。在 STRM 1013B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1013B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tai Po Road Sha Tin",
+                "Lion Rock Tunnel Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11964"
+    },
+    {
+      "chinese_name": "源昌里",
+      "english_name": "Yuen Cheong Lane",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Yuen Cheong Lane",
+          "street_name_zh": "源昌里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Lane commencing at its junction with YUEN CHAU KOK ROAD and running in a south-westerly direction for about 80 metres where it terminates at its closed end as shown coloured pink and hatched black on Plan No. STRM 1013B.",
+            "description_raw_zh": "此里由與圓洲角路之交界處起，向西南伸展約80米至其盡頭處止。在 STRM 1013B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1013B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Yuen Chau Kok Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12909"
+    },
+    {
+      "chinese_name": "沙田頭路",
+      "english_name": "Sha Tin Tau Road",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "extend",
+          "street_name_en": "Sha Tin Tau Road",
+          "street_name_zh": "沙田頭路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension to the existing SHA TIN TAU ROAD running in a south-westerly direction for about 200 metres; it then bends to run south south-easterly for about 250 metres and then turns to run east south-easterly for about 130 metres before it bends to run north north-easterly for about 140 metres where it terminates as shown coloured pink and hatched black on Plan No. STRM 1013B.",
+            "description_raw_zh": "此路乃現有沙田頭路之延續，向西南伸展約200米，然後向東南偏南伸展約250米，再向東南偏東伸展約130米後，轉向東北偏北伸展約140米止。在 STRM 1013B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1013B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11967"
+    },
+    {
+      "chinese_name": "麗坪路",
+      "english_name": "Lai Ping Road",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Lai Ping Road",
+          "street_name_zh": "麗坪路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with TAI PO ROAD, MA LIU SHUI and running in a west north-westerly direction for about 100 metres; it then turns to run west south-westerly for about 110 metres and then turns to run south-westerly for about 70 metres before it turns to run westerly for about 100 metres; it then turns to run west north-westerly for about 200 metres and then bends to run generally west south-westerly for about 330 metres before it curves to run north-westerly for about 70 metres; it continues to run northerly for about 95 metres and then bends to run north-westerly for about 45 metres where it terminates as shown coloured pink and hatched black on Plan No. STRM 1014B.",
+            "description_raw_zh": "此路由與大埔公路馬料水段之交界處起，向西北偏西伸展約100米，然後向西南偏西伸展約110米，再向西南伸展約70米後，轉向西伸展約100米，然後向西北偏西伸展約200米，再向西南偏西伸展約330米後，轉向西北伸展約70米，然後向北伸展約95米，再向西北伸展約45米止。在 STRM 1014B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1014B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tai Po Road Ma Liu Shui"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11160"
+    },
+    {
+      "chinese_name": "達業里",
+      "english_name": "Tat Yip Lane",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tat Yip Lane",
+          "street_name_zh": "達業里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Lane commencing at the western corner of Sha Tin Town Lot No. 138 and running in a north-easterly direction for about 155 metres where it terminates at its closed end at the northern corner of Sha Tin Town Lot No. 139 as shown coloured pink and hatched black on Plan No. STRM 1014B.",
+            "description_raw_zh": "此里由與沙田市地段第一三八號之西端起，向東北伸展約155米，至其盡頭處沙田市地段第一三九號之北端止。在 STRM 1014B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1014B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12342"
+    }
+  ]
+}

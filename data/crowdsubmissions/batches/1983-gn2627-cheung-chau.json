@@ -1,0 +1,163 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn2627-cheung-chau",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2627",
+  "publication_date": "1983-08-12",
+  "gazette_url_en": "/egazette/en/1983-gn2627.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn2627.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1556.pdf",
+  "streets": [
+    {
+      "chinese_name": "新興街",
+      "english_name": "San Hing Street",
+      "history": [
+        {
+          "publication_date": "1983-08-12",
+          "change_kind": "declare",
+          "street_name_en": "San Hing Street",
+          "street_name_zh": "新興街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with an unnamed street near Cheung Chau Lots No. 111 and 112 and running in a generally southerly direction for about 265 metres where it terminates at its junction with an unnamed street near Cheung Chau Lot No. 243 R.P. as shown coloured pink and hatched black on Drawing No. NTA/IS/R11B.",
+            "description_raw_zh": "此街由與長洲地段第一壹一號及一一二號附近之一未命名街道交界處起，向南伸展約二百六十五米至與長洲地段第二四三號餘段附近之一未命名街道交界處終止。在 NTA/IS/R11B 號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/IS/R11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "11887"
+    },
+    {
+      "chinese_name": "大新街",
+      "english_name": "Tai San Street",
+      "history": [
+        {
+          "publication_date": "1983-08-12",
+          "change_kind": "declare",
+          "street_name_en": "Tai San Street",
+          "street_name_zh": "大新街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with an unnamed street near Cheung Chau Lots No. 339 and 380 Section A and running in a northerly direction for about 25 metres where it turns to run easterly for about 20 metres and then bends to run northerly for about 175 metres where it terminates at its junction with an unnamed street near Cheung Chau Lots No. 410 R.P. and 475 R.P. as shown coloured pink and hatched black on Drawing No. NTA/IS/R11B.",
+            "description_raw_zh": "此街由與長洲地段第三三九號及三八〇號A段附近之一未命名街道交界處起，向北伸展約二十五米，然後轉向東伸展約二十米，再轉向北伸展約一百七十五米至與長洲地段第四一〇號餘段及四七五號餘段附近之一未命名街道交界處終止。在 NTA/IS/R11B 號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/IS/R11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "12267"
+    },
+    {
+      "chinese_name": "中興街",
+      "english_name": "Chung Hing Street",
+      "history": [
+        {
+          "publication_date": "1983-08-12",
+          "change_kind": "declare",
+          "street_name_en": "Chung Hing Street",
+          "street_name_zh": "中興街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at the eastern corner of Cheung Chau Lot No. 21 and running in an easterly direction for about 50 metres; it then bends to run north-easterly for about 150 metres where it terminates at its junction with an unnamed path near Cheung Chau Lots No. 337 and 381 as shown coloured pink and hatched black on Drawing No. NTA/IS/R11B.",
+            "description_raw_zh": "此街由長洲地段第二十一號東面角落處起，向東伸展約五十米，再向東北伸展約一百五十米至與長洲地段第三三七號及三八一號附近之一未命名小徑交界處終止。在 NTA/IS/R11B號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/IS/R11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "10292"
+    },
+    {
+      "chinese_name": "北社街",
+      "english_name": "Pak She Street",
+      "history": [
+        {
+          "publication_date": "1983-08-12",
+          "change_kind": "declare",
+          "street_name_en": "Pak She Street",
+          "street_name_zh": "北社街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing near Cheung Chau Lots No. 1093 and 1106 R.P. and running in a south south-easterly direction for about 155 metres where it terminates at its junction with an unnamed street near Cheung Chau Lots No. 65 Section A and 66 as shown coloured pink and hatched black on Drawing No. NTA/IS/R12.",
+            "description_raw_zh": "此街由長洲地段第一〇九三號與一一〇六號餘段附近起，東南南偏南伸展約一百五十五米至與長洲地段第六十五號A段及六十六號附近之一未命名街道交界處終止。在 NTA/IS/R12號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/IS/R12",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "11644"
+    },
+    {
+      "chinese_name": "黑排路",
+      "english_name": "Hak Pai Road",
+      "history": [
+        {
+          "publication_date": "1983-08-12",
+          "change_kind": "declare",
+          "street_name_en": "Hak Pai Road",
+          "street_name_zh": "黑排路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at the east end of Cheung Chau Tung Wan Beach near Cheung Chau Lot No. 1147 and running generally in an easterly direction for about 110 metres where it bends sharply to a south-westerly direction for about 15 metres and then curves south-easterly along Cheung Chau Kwun Yam Wan Beach for about 150 metres; it then turns to run in a southerly direction for about 25 metres and then bends south-easterly for 15 metres; it bends again south-westerly for 45 metres where it terminates at its junction with an unnamed street near Cheung Chau Lots No. 253 R.P. and 1117 as shown coloured pink and hatched black on Drawing No. NTA/IS/R14.",
+            "description_raw_zh": "此路由與長洲地段第一一四七號附近之長洲東灣海灘東端起，向東伸展約一百一十米，再向西南急轉約十五米，沿長洲觀音灣海灘向東南順屈約一百五十米，向南伸展約二十五米，再向東南伸展十五米，再向西南伸展四十五米至與長洲地段第二五三號餘段及地段一一一七號附近之一未命名街道交界處終止。在 NTA/IS/R14號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/IS/R14",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "10638"
+    }
+  ]
+}

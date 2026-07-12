@@ -1,0 +1,66 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1980-gn1356-stanley-paths",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1356",
+  "publication_date": "1980-05-02",
+  "gazette_url_en": "/egazette/en/1980-gn1356.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1980/Scanned_20260711-1415.pdf",
+  "streets": [
+    {
+      "chinese_name": "海風徑",
+      "english_name": "Hoi Fung Path",
+      "history": [
+        {
+          "publication_date": "1980-05-02",
+          "change_kind": "extend",
+          "street_name_en": "Hoi Fung Path",
+          "street_name_zh": "海風徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1356.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: An extension from the existing Hoi Fung Path commencing at approximately 60 m from the junction of Hoi Fung Path and Tung Tau Wan Road, running northerly and then turning east for a total distance of approximately 120 m and joining Stanley Link Road as shown coloured blue on Drawing No. HH3727. Proposed Name: HOI FUNG PATH. Chinese Version: 海風徑.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Hoi Fung Path",
+                "Tung Tau Wan Road",
+                "Stanley Link Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10770"
+    },
+    {
+      "chinese_name": "赤柱連合道",
+      "english_name": "Stanley Link Road",
+      "history": [
+        {
+          "publication_date": "1980-05-02",
+          "change_kind": "extend",
+          "street_name_en": "Stanley Link Road",
+          "street_name_zh": "赤柱連合道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1356.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: An extension from the existing Stanley Link Road commencing at approximately 80 m from the junction of Stanley Link Road and Stanley Beach Road, running southerly and then turning west for a total distance of approximately 180 m and joining Hoi Fung Path as shown coloured red on Drawing No. HH3727. Proposed Name: STANLEY LINK ROAD. Chinese Version: 赤柱連合道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Stanley Link Road",
+                "Stanley Beach Road",
+                "Hoi Fung Path"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12149"
+    }
+  ]
+}

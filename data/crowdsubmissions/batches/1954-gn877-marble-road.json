@@ -1,0 +1,46 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1954-gn877-marble-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.877",
+  "publication_date": "1954-07-16",
+  "gazette_url_en": "/egazette/en/1954-gn877.pdf",
+  "gazette_url_zh": "/egazette/zh/1954-gn877.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1954-gn877.pdf",
+  "streets": [
+    {
+      "chinese_name": "馬寶道",
+      "english_name": "Marble Road",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Marble Road",
+          "street_name_zh": "馬寶道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-07-16",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 877.—It is hereby notified that the following road will be known in future as described hereunder:— Description: Road running approximately east and west between Shu Kuk Street and Tong Shui Road parallel to and 200 feet north of King's Road as shown coloured pink on drawing No. R.H. 607. Proposed Name: MARBLE ROAD. Chinese Version: 馬寶道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 607",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Shu Kuk Street",
+                "Tong Shui Road",
+                "King's Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11396"
+    }
+  ]
+}

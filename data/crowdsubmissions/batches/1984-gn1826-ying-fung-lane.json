@@ -1,0 +1,45 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn1826-ying-fung-lane",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1826",
+  "publication_date": "1984-06-22",
+  "gazette_url_en": "/egazette/en/1984-gn1826.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn1826.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1619.pdf",
+  "streets": [
+    {
+      "chinese_name": "盈鳳里",
+      "english_name": "Ying Fung Lane",
+      "link_street_code": "12872",
+      "history": [
+        {
+          "publication_date": "1984-06-22",
+          "change_kind": "declare",
+          "street_name_en": "Ying Fung Lane",
+          "street_name_zh": "盈鳳里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured grey on Drawing No. KH 4873 commencing at its junction with Shatin Pass Road / Fung Tak Road running generally southwards for about 80 metres then turning eastwards for about 55 metres where it terminates.",
+            "description_raw_zh": "此街道在KH 4873號圖則上用灰色標明，由沙田坳道／鳳德道交界處起，大約向南伸展約八十米，然後轉向東，至約五十五米處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 4873",
+                  "color": "grey"
+                }
+              ],
+              "referenced_streets_en": [
+                "Shatin Pass Road",
+                "Fung Tak Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

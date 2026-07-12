@@ -1,0 +1,141 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1982-gn755-yuen-long",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.755",
+  "publication_date": "1982-03-05",
+  "gazette_url_en": "/egazette/en/1982-gn755.pdf",
+  "gazette_url_zh": "/egazette/zh/1982-gn755.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1982/Scanned_20260711-1511.pdf",
+  "streets": [
+    {
+      "chinese_name": "錦上路",
+      "english_name": "Kam Sheung Road",
+      "history": [
+        {
+          "publication_date": "1982-03-05",
+          "change_kind": "declare",
+          "street_name_en": "Kam Sheung Road",
+          "street_name_zh": "錦上路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with KAM TIN ROAD and running generally in an east south-easterly direction for about 1 kilometre where it curves to run generally south-easterly for about 1.55 kilometres and then turns to run generally east north-easterly for about 3 kilometres to terminate at its junction with KAM TIN ROAD as shown coloured red and hatched black on Drawing No. NTA/YL/R34.",
+            "description_raw_zh": "此路由與錦田公路交界處起，大致向東南偏東伸展約一千米，然後大致屈向東南伸展約一千五百五十米，再大致向東北偏東伸展約三千米，至與錦田公路交界處終止，在NTA/YL/R34號圖則上以紅色間以黑綫標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Kam Tin Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10959"
+    },
+    {
+      "chinese_name": "山下路",
+      "english_name": "Shan Ha Road",
+      "history": [
+        {
+          "publication_date": "1982-03-05",
+          "change_kind": "declare",
+          "street_name_en": "Shan Ha Road",
+          "street_name_zh": "山下路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with CASTLE PEAK ROAD PING SHAN and running in a south south-westerly direction for about 1.1 kilometres, then it turns to run in a south-easterly direction for about 210 metres where it terminates as shown coloured red and hatched black on Drawing No. NTA/YL/R34.",
+            "description_raw_zh": "此路由與青山公路屏山段交界處起，向西南偏南伸展約一千一百米，然後轉向東南伸展約二百一十米而終止，在NTA/YL/R34號圖則上以紅色間以黑綫標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Castle Peak Road Ping Shan"
+              ]
+            }
+          },
+          "submitter_remarks": "Printed EN omitted ROAD after CASTLE PEAK; corrected to CASTLE PEAK ROAD PING SHAN by G.N.3000."
+        }
+      ],
+      "link_street_code": "11977"
+    },
+    {
+      "chinese_name": "屏廈路",
+      "english_name": "Ping Ha Road",
+      "history": [
+        {
+          "publication_date": "1982-03-05",
+          "change_kind": "declare",
+          "street_name_en": "Ping Ha Road",
+          "street_name_zh": "屏廈路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with CASTLE PEAK ROAD PING SHAN and running generally in a west north-westerly direction for about 2.3 kilometres where it turns to run generally northerly for about 1.5 kilometres to terminate at its junction with the southern end of LAU FAU SHAN ROAD near Sha Kong Wai as shown coloured red and hatched black on Drawing No. NTA/YL/R34.",
+            "description_raw_zh": "此路由與青山公路屏山段交界處起，大致向西北偏西伸展約二千三百米，然後轉向大致北方伸展約一千五百米，至沙江圍附近與流浮山路南端交界處終止，在NTA/YL/R34號圖則上以紅色間以黑綫標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Castle Peak Road Ping Shan",
+                "Lau Fau Shan Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11704"
+    },
+    {
+      "chinese_name": "洪水橋大街",
+      "english_name": "Hung Shui Kiu Main Street",
+      "history": [
+        {
+          "publication_date": "1982-03-05",
+          "change_kind": "declare",
+          "street_name_en": "Hung Shui Kiu Main Street",
+          "street_name_zh": "洪水橋大街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with CASTLE PEAK ROAD HUNG SHUI KIU and running generally in a north-westerly direction for about 210 metres where it terminates at its junction with two unnamed carriageways as shown coloured red and hatched black on Drawing No. NTA/YL/R34.",
+            "description_raw_zh": "此街由與青山公路洪水橋段交界處起，大致向西北伸展約二百一十米至與未命名之兩車路交界處終止，在NTA/YL/R34號圖則上以紅色間以黑綫標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Castle Peak Road Hung Shui Kiu"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10874"
+    },
+    {
+      "chinese_name": "落馬洲路",
+      "english_name": "Lok Ma Chau Road",
+      "history": [
+        {
+          "publication_date": "1982-03-05",
+          "change_kind": "declare",
+          "street_name_en": "Lok Ma Chau Road",
+          "street_name_zh": "落馬洲路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with CASTLE PEAK ROAD CHAU TAU and running in a north north-westerly direction for about 1 020 metres and then turning to run uphill in a generally north-easterly direction for about 280 metres where it terminates as shown coloured red and hatched black on Drawing No. NTA/YL/R34.",
+            "description_raw_zh": "此路由與青山公路洲頭段交界處起，向西北偏北伸展約一千零二十米，然後向大致東北往山上伸展約二百八十米而終止，在NTA/YL/R34號圖則上以紅色間以黑綫標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Castle Peak Road Chau Tau"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11260"
+    }
+  ],
+  "remarks": "G.N.3000 corrigendum (CASTLE PEAK PING SHAN→CASTLE PEAK ROAD PING SHAN on Shan Ha Road) folded into this batch; no separate 3000 batch."
+}

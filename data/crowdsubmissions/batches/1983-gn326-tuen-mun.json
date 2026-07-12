@@ -1,0 +1,436 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn326-tuen-mun",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.326",
+  "publication_date": "1983-01-28",
+  "gazette_url_en": "/egazette/en/1983-gn326.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn326.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1536.pdf",
+  "streets": [
+    {
+      "chinese_name": "大方街",
+      "english_name": "Tai Fong Street",
+      "link_street_code": "12209",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Tai Fong Street",
+          "street_name_zh": "大方街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TSUN WEN ROAD and running in a west south-westerly direction for about 100 metres; it then bends to run north-westerly for about 340 metres where it terminates as shown coloured green and hatched black on Drawing No. NTA/TM/R6D.",
+            "description_raw_zh": "此街由與震寰路之交界處開始，向西南偏西伸展約一百米，再向西北伸展約三百四十米而終止。在NTA/TM/R6D號圖則中以綠色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TM/R6D",
+                  "color": "green",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tsun Wen Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "大興街",
+      "english_name": "Tai Hing Street",
+      "link_street_code": "12219",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Tai Hing Street",
+          "street_name_zh": "大興街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TAI FONG STREET and running in a south-westerly direction for about 120 metres; it then bends to run in a southerly direction for about 190 metres where it terminates at its junction with SHEK PAI TAU ROAD as shown coloured blue and hatched black on Drawing No. NTA/TM/R6D.",
+            "description_raw_zh": "此街由與大方街之交界處開始，向西南伸展約一百二十米，再向南伸展約一百九十米至與石排頭路交界處終止。在NTA/TM/R6D號圖則中以藍色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TM/R6D",
+                  "color": "blue",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tai Fong Street",
+                "Shek Pai Tau Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "建發街",
+      "english_name": "Kin Fat Street",
+      "link_street_code": "10998",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "extend",
+          "street_name_en": "Kin Fat Street",
+          "street_name_zh": "建發街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension to the existing KIN FAT STREET running in a north north-easterly direction for about 140 metres; it then bends to run generally easterly for about 145 metres where it terminates at its junction with TSING YEUNG CIRCUIT as shown coloured pink and hatched black on Drawing No. NTA/TM/R6D.",
+            "description_raw_zh": "為現有建發街之延展部份，向東北偏北伸展約一百四十米，再大致向東伸展約一百四十五米，至與青楊街交界處終止。在NTA/TM/R6D號圖則中以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TM/R6D",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Kin Fat Street",
+                "Tsing Yeung Circuit"
+              ]
+            }
+          },
+          "submitter_remarks": "Gazette EN junction TSING YEUNG CIRCUIT; ZH 青楊街."
+        }
+      ]
+    },
+    {
+      "chinese_name": "建基街",
+      "english_name": "Kin Kei Street",
+      "link_street_code": "11002",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Kin Kei Street",
+          "street_name_zh": "建基街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with KIN FAT STREET and running generally in a southerly direction for about 135 metres where it terminates at its junction with TSING YEUNG CIRCUIT as shown coloured yellow and hatched black on Drawing No. NTA/TM/R6D.",
+            "description_raw_zh": "此街由與建發街之交界處開始，大致向南伸展約一百三十五米，至與青楊街交界處終止。在NTA/TM/R6D號圖則中以黃色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TM/R6D",
+                  "color": "yellow",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Kin Fat Street",
+                "Tsing Yeung Circuit"
+              ]
+            }
+          },
+          "submitter_remarks": "Gazette EN junction TSING YEUNG CIRCUIT; ZH 青楊街."
+        }
+      ]
+    },
+    {
+      "chinese_name": "青楊街",
+      "english_name": "Tsing Yeung Circuit",
+      "link_street_code": "12447",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Yeung Circuit",
+          "street_name_zh": "青楊街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": null,
+            "description_raw_zh": "此街由與石排頭道交界處起，向東南偏南伸展約二百二十米，再向西北偏西伸展約一百二十米，再向東北偏北伸展約一百三十米，至與建發街交界處終止。在NTA/TM/R6D號圖則中以棕色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TM/R6D",
+                  "color": "brown",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Shek Pai Tau Road",
+                "Kin Fat Street"
+              ]
+            }
+          },
+          "submitter_remarks": "English description on Gazette p.457 not in this scan set."
+        }
+      ]
+    },
+    {
+      "chinese_name": "震寰路",
+      "english_name": "Tsun Wen Road",
+      "link_street_code": "12483",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "extend",
+          "street_name_en": "Tsun Wen Road",
+          "street_name_zh": "震寰路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": null,
+            "description_raw_zh": "為現有震寰路之延展部份，向東北偏北伸展約八十米，再向西北偏北伸展約四百八十米。在NTA/TM/R6D號圖則中以黃色間以交錯黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TM/R6D",
+                  "color": "yellow",
+                  "hatching": "cross-hatched black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          },
+          "submitter_remarks": "English description on Gazette p.457 not in this scan set."
+        }
+      ]
+    },
+    {
+      "chinese_name": "新青街",
+      "english_name": "San Tsing Street",
+      "link_street_code": "11912",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "San Tsing Street",
+          "street_name_zh": "新青街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": null,
+            "description_raw_zh": "此街由與青賢街交界處起，向東南偏南伸展約一百三十五米。在NTA/TM/R6D號圖則中以棕色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TM/R6D",
+                  "color": "brown"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tsing Yin Street"
+              ]
+            }
+          },
+          "submitter_remarks": "English description on Gazette p.457 not in this scan set."
+        }
+      ]
+    },
+    {
+      "chinese_name": "鹿苑街",
+      "english_name": "Luk Yuen Street",
+      "link_street_code": "11304",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Luk Yuen Street",
+          "street_name_zh": "鹿苑街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": null,
+            "description_raw_zh": "此街由與屯門鄉事會路交界處起，向東南偏東伸展約三十米，至與啓民徑交界處終止。在NTA/TM/R6D號圖則中以粉紅色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TM/R6D",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tuen Mun Heung Sze Wui Road"
+              ]
+            }
+          },
+          "submitter_remarks": "English description on Gazette p.457 not in this scan set."
+        }
+      ]
+    },
+    {
+      "chinese_name": "利發徑",
+      "english_name": "Lee Fat Path",
+      "link_street_code": "11198",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Lee Fat Path",
+          "street_name_zh": "利發徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": null,
+            "description_raw_zh": "此街由與青賢街交界處起，向東南偏南伸展約八十米。在NTA/TM/R6D號圖則中以藍色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TM/R6D",
+                  "color": "blue"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tsing Yin Street"
+              ]
+            }
+          },
+          "submitter_remarks": "English description on Gazette p.457 not in this scan set."
+        }
+      ]
+    },
+    {
+      "chinese_name": "麒麟徑",
+      "english_name": "Kei Lun Path",
+      "link_street_code": "10977",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Kei Lun Path",
+          "street_name_zh": "麒麟徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": null,
+            "description_raw_zh": "此街由與仁愛堂街交界處起，向東南偏南伸展約九十米。在NTA/TM/R6D號圖則中以綠色間以交錯黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TM/R6D",
+                  "color": "green",
+                  "hatching": "cross-hatched black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Yan Oi Tong Street"
+              ]
+            }
+          },
+          "submitter_remarks": "English description on Gazette p.457 not in this scan set."
+        }
+      ]
+    },
+    {
+      "chinese_name": "和平徑",
+      "english_name": "Wo Ping Path",
+      "link_street_code": "12765",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Wo Ping Path",
+          "street_name_zh": "和平徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": null,
+            "description_raw_zh": "此街由與啓民徑交界處起，向東南偏東伸展約四十五米，至與仁政街交界處終止。在NTA/TM/R6D號圖則中以綠色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TM/R6D",
+                  "color": "green"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          },
+          "submitter_remarks": "English description on Gazette p.457 not in this scan set."
+        }
+      ]
+    },
+    {
+      "chinese_name": "屯門鄉事會路",
+      "english_name": "Tuen Mun Heung Sze Wui Road",
+      "link_street_code": "12503",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "extend",
+          "street_name_en": "Tuen Mun Heung Sze Wui Road",
+          "street_name_zh": "屯門鄉事會路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": null,
+            "description_raw_zh": "為現有屯門鄉事會路之延展部份，由與杯渡路交界處起，向南伸展約一千三百米。在NTA/TM/R6D號圖則中以粉紅色間以交錯黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TM/R6D",
+                  "color": "pink",
+                  "hatching": "cross-hatched black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Pui To Road"
+              ]
+            }
+          },
+          "submitter_remarks": "English description on Gazette p.457 not in this scan set."
+        }
+      ]
+    },
+    {
+      "chinese_name": "青賢街",
+      "english_name": "Tsing Yin Street",
+      "link_street_code": "12451",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Yin Street",
+          "street_name_zh": "青賢街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": null,
+            "description_raw_zh": "此街由與利發徑交界處起，向西北偏西伸展約一百五十米。在NTA/TM/R6D號圖則中以黃色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TM/R6D",
+                  "color": "yellow"
+                }
+              ],
+              "referenced_streets_en": [
+                "Lee Fat Path"
+              ]
+            }
+          },
+          "submitter_remarks": "English description on Gazette p.457 not in this scan set."
+        }
+      ]
+    }
+  ],
+  "remarks": "EN Gazette p.457 missing from scan set; serials 5–13 EN descriptions null."
+}

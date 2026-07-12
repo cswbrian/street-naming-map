@@ -1,0 +1,181 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1982-gn4036-tsuen-wan",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.4036",
+  "publication_date": "1982-12-24",
+  "gazette_url_en": "/egazette/en/1982-gn4036.pdf",
+  "gazette_url_zh": "/egazette/zh/1982-gn4036.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1982/Scanned_20260711-1530.pdf",
+  "streets": [
+    {
+      "chinese_name": "華泰路",
+      "english_name": "Wa Tai Road",
+      "history": [
+        {
+          "publication_date": "1982-12-24",
+          "change_kind": "declare",
+          "street_name_en": "Wa Tai Road",
+          "street_name_zh": "華泰路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "submitter_remarks": "Gazette EN plan NTA/TW/R96; ZH plan NTA/TW/R98.",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with WAH YIU ROAD and running generally south south-easterly for about 460 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/TW/R96.",
+            "description_raw_zh": "此路由與華瑤路交界處起，大致上向東南偏南伸展約四百六十米而後終止。其位置在 NTA/TW/R98 號圖則中以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R96",
+                  "color": "pink",
+                  "hatching": "black"
+                },
+                {
+                  "label": "NTA/TW/R98",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wah Yiu Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12586"
+    },
+    {
+      "chinese_name": "新葵街",
+      "english_name": "San Kwai Street",
+      "history": [
+        {
+          "publication_date": "1982-12-24",
+          "change_kind": "declare",
+          "street_name_en": "San Kwai Street",
+          "street_name_zh": "新葵街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TAI LIN PAI ROAD and running south south-westerly for about 85 metres; it then bends east for about 170 metres and turns south for about 125 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/TW/R98.",
+            "description_raw_zh": "此街道由與大連排道交界處起，向西南偏南伸展約八十五米，然後轉向東伸展約一百七十米，再轉向南伸展約一百二十五米而後終止。其位置在 NTA/TW/R98 號圖則中以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R98",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tai Lin Pai Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11895"
+    },
+    {
+      "chinese_name": "鄧屋街",
+      "english_name": "Tang Uk Street",
+      "history": [
+        {
+          "publication_date": "1982-12-24",
+          "change_kind": "declare",
+          "street_name_en": "Tang Uk Street",
+          "street_name_zh": "鄧屋街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with SAN KWAI STREET and running south for about 75 metres and then it turns east for about 75 metres where it terminates at its junction with SAN KWAI STREET as shown coloured pink and hatched black on Drawing No. NTA/TW/R98.",
+            "description_raw_zh": "此街道由與新葵街交界處起，向南伸展約七十五米，然後轉向東伸展約七十五米而後在與新葵街交界處終止。其位置在 NTA/TW/R98 號圖則中以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R98",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "San Kwai Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12336"
+    },
+    {
+      "chinese_name": "葵義路",
+      "english_name": "Kwai Yi Road",
+      "history": [
+        {
+          "publication_date": "1982-12-24",
+          "change_kind": "declare",
+          "street_name_en": "Kwai Yi Road",
+          "street_name_zh": "葵義路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with KWAI FOO ROAD and running south-westerly for about 240 metres and then it turns west for about 120 metres where it terminates at its junction with KWAI FUK ROAD as shown coloured pink and hatched black on Drawing No. NTA/TW/R99.",
+            "description_raw_zh": "此路由與葵富路交界處起，向西南伸展約二百四十米然後轉向西伸展約一百二十米而後在與葵福路交界處終止。其位置在 NTA/TW/R99 號圖則中以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R99",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Kwai Foo Road",
+                "Kwai Fuk Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11106"
+    },
+    {
+      "chinese_name": "葵仁路",
+      "english_name": "Kwai Yan Road",
+      "history": [
+        {
+          "publication_date": "1982-12-24",
+          "change_kind": "declare",
+          "street_name_en": "Kwai Yan Road",
+          "street_name_zh": "葵仁路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with KWAI FOO ROAD and running south-westerly for about 260 metres where it terminates at its junction with KWAI YI ROAD as shown coloured pink and hatched black on Drawing No. NTA/TW/R99.",
+            "description_raw_zh": "此路由與葵富路交界處起，向西南伸展約二百六十米而後在與葵義路交界處終止。其位置在 NTA/TW/R99 號圖則中以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R99",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Kwai Foo Road",
+                "Kwai Yi Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11105"
+    }
+  ]
+}

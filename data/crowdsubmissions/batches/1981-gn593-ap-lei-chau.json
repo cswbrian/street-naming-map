@@ -1,0 +1,64 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn593-ap-lei-chau",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.593",
+  "publication_date": "1981-02-20",
+  "gazette_url_en": "/egazette/en/1981-gn593.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn593.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1431(1).pdf",
+  "pdf_zh": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1431(1).pdf",
+  "streets": [
+    {
+      "chinese_name": "鴨脷洲橋道",
+      "english_name": "Ap Lei Chau Bridge Road",
+      "history": [
+        {
+          "publication_date": "1981-02-20",
+          "change_kind": "declare",
+          "street_name_en": "Ap Lei Chau Bridge Road",
+          "street_name_zh": "鴨脷洲橋道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured yellow on Drawing No. CM 128, commencing from the grade-separated interchange at the junction of Wong Chuk Hang Road near Aberdeen Technical School, running in a south-easterly direction for approximately 280 metres, then turning to a south-westerly direction over the Aberdeen Harbour and then on Ap Lei Chau for about 870 metres, then turning in a north-westerly direction for about 450 metres and terminating in front of the Ap Lei Chau public housing estate.",
+            "description_raw_zh": "此道路位置在 CM128 號圖則上以黃色標明，起自接近香港仔工業學校接連黃竹坑之分層交匯處，向東南伸展約二百八十米，再向西南橫跨香港仔灣，續在鴨脷洲上伸展約八百七十米，再向西北伸展約四百五十米，至鴨脷洲公共屋邨前終止。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Wong Chuk Hang Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10022"
+    },
+    {
+      "chinese_name": "利枝道",
+      "english_name": "Lee Chi Road",
+      "history": [
+        {
+          "publication_date": "1981-02-20",
+          "change_kind": "declare",
+          "street_name_en": "Lee Chi Road",
+          "street_name_zh": "利枝道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac as shown coloured red on Drawing No. CM 128, commencing at its junction with Ap Lei Chau Bridge Road, running in a north-westerly direction for approximately 300 metres.",
+            "description_raw_zh": "此盡頭路位置在 CM128 號圖則上以紅色標明，起點接連鴨脷洲橋道，向西北伸展約三百米。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Ap Lei Chau Bridge Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11196"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn665-chun-wah-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.665",
+  "publication_date": "1984-03-02",
+  "gazette_url_en": "/egazette/en/1984-gn665.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn665.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1609.pdf",
+  "streets": [
+    {
+      "chinese_name": "振華道",
+      "english_name": "Chun Wah Road",
+      "link_street_code": "10282",
+      "history": [
+        {
+          "publication_date": "1984-03-02",
+          "change_kind": "declare",
+          "street_name_en": "Chun Wah Road",
+          "street_name_zh": "振華道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured grey on Drawing No. KH 4788 starts at the junction between Chun Wah Road and Jordan Valley South Road. The road is 930 metres long and passes around the northern side of Lok Wah Estate before terminating in a junction with Hong Ning Road approximately 250 metres north of the Kung Lok Road/Hong Ning Road junction.",
+            "description_raw_zh": "該街道位於 KH 4788 號圖則上灰色所示位置，由振華道與佐敦谷南道交界處開始，長九百三十米，繞過樂華邨北面，然後至距離功樂道與康寧道交界處以北約二百五十米之康寧道交接處終結。",
+            "parsed": {
+              "length_m": 930,
+              "length_unit": "m",
+              "plan_refs": [
+                {
+                  "label": "KH 4788",
+                  "color": "grey"
+                }
+              ],
+              "referenced_streets_en": [
+                "Jordan Valley South Road",
+                "Hong Ning Road",
+                "Kung Lok Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1982-gn2970-tai-pei-tau",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2970",
+  "publication_date": "1982-09-17",
+  "gazette_url_en": "/egazette/en/1982-gn2970.pdf",
+  "gazette_url_zh": "/egazette/zh/1982-gn2970.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1982/Scanned_20260711-1521.pdf",
+  "streets": [
+    {
+      "chinese_name": "大陂頭徑",
+      "english_name": "Tai Pei Tau Path",
+      "history": [
+        {
+          "publication_date": "1982-09-17",
+          "change_kind": "rename",
+          "previous_street_name_en": "Tai Pei Tau Path",
+          "previous_street_name_zh": "大坡頭徑",
+          "street_name_en": "Tai Pei Tau Path",
+          "street_name_zh": "大陂頭徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "With reference to G.N. 756 dated 5 March 1982, it is hereby notified that in accordance with section 111C(1)(b) of the Public Health and Urban Services Ordinance, Chapter 132 that the Chinese name for TAI PEI TAU PATH (大坡頭徑) is renamed as TAI PEI TAU PATH (大陂頭徑) with immediate effect.",
+            "description_raw_zh": "一九八二年三月五日憲示第七五六號案，茲根據香港法例第一三二章公眾衞生及市政事務條例第一一一C條第(1)款(b)段之規定公佈由即日起將大坡頭徑改稱為大陂頭徑。"
+          }
+        }
+      ],
+      "link_street_code": "12252"
+    }
+  ],
+  "remarks": "Final rename after intention G.N.756; no separate 756 batch."
+}

@@ -1,0 +1,44 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1954-gn1349-palm-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1349",
+  "publication_date": "1954-11-05",
+  "gazette_url_en": "/egazette/en/1954-gn1349.pdf",
+  "gazette_url_zh": "/egazette/zh/1954-gn1349.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1954-gn1349.pdf",
+  "streets": [
+    {
+      "chinese_name": "棕樹街",
+      "english_name": "Palm Street",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Palm Street",
+          "street_name_zh": "棕樹街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-11-05",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1349.—It is hereby notified that the following road will be known in future as described hereunder:— Description: Road parallel to Tong Mi Road and about 55 yards from it commencing at the waterfront and running in a northerly direction for about 140 yards as shown coloured red on plan No. R.K. 523. Proposed Name: PALM STREET. Chinese Version: 棕樹街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 523",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tong Mi Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11654"
+    }
+  ]
+}

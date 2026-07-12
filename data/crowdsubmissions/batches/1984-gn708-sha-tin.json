@@ -1,0 +1,210 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn708-sha-tin",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.708",
+  "publication_date": "1984-03-09",
+  "gazette_url_en": "/egazette/en/1984-gn708.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn708.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1611(1).pdf",
+  "streets": [
+    {
+      "chinese_name": "大涌橋路",
+      "english_name": "Tai Chung Kiu Road",
+      "link_street_code": "12207",
+      "history": [
+        {
+          "publication_date": "1984-03-09",
+          "change_kind": "extend",
+          "street_name_en": "Tai Chung Kiu Road",
+          "street_name_zh": "大涌橋路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension to the existing TAI CHUNG KIU ROAD running in an east north-easterly direction for about 200 metres; it then turns to run north-easterly for about 615 metres and then bends to run east north-easterly for about 75 metres where it terminates at its junction with an unnamed road (indicated as Road T5 on Plan No. STRM 1007) as shown coloured pink and hatched black on the said Plan.",
+            "description_raw_zh": "此路乃現有大涌橋路之延續，向東北偏東伸展約二百米，然後向東北伸展約六百一十五米，再向東北偏東伸展約七十五米至與一未命名道路(圖則第STRM 1007號內T5號道路)之交界處止。在該圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1007",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [
+                "Road T5"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "牛皮沙街",
+      "english_name": "Ngau Pei Sha Street",
+      "link_street_code": "11530",
+      "history": [
+        {
+          "publication_date": "1984-03-09",
+          "change_kind": "declare",
+          "street_name_en": "Ngau Pei Sha Street",
+          "street_name_zh": "牛皮沙街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with CHAP WAI KON STREET and running in a south-easterly direction for about 400 metres where it terminates at its junction with SHA TIN WAI ROAD as shown coloured pink and hatched black on Plan No. STRM 1007.",
+            "description_raw_zh": "此街由與插桅杆街之交界處起，向東南伸展約四百米至與沙田圍路之交界處止。在STRM 1007號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1007",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Chap Wai Kon Street",
+                "Sha Tin Wai Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "源順圍",
+      "english_name": "Yuen Shun Circuit",
+      "link_street_code": "12928",
+      "history": [
+        {
+          "publication_date": "1984-03-09",
+          "change_kind": "declare",
+          "street_name_en": "Yuen Shun Circuit",
+          "street_name_zh": "源順圍",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Circuit commencing at its junction with NGAU PEI SHA STREET about 70 metres from CHAP WAI KON STREET and running in a north-easterly direction for about 240 metres; it then turns to run south-easterly for about 265 metres and then bends to run south-westerly for about 250 metres where it terminates and rejoins NGAU PEI SHA STREET as shown coloured pink and hatched black on Plan No. STRM 1007.",
+            "description_raw_zh": "此圍由與牛皮沙街之交界處起，距離插桅杆街約七十米，向東北伸展約二百四十米，然後向東南伸展約二百六十五米，再向西南伸展約二百五十米接回牛皮沙街止。在STRM 1007號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1007",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Ngau Pei Sha Street",
+                "Chap Wai Kon Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "源安街",
+      "english_name": "Yuen On Street",
+      "link_street_code": "12925",
+      "history": [
+        {
+          "publication_date": "1984-03-09",
+          "change_kind": "declare",
+          "street_name_en": "Yuen On Street",
+          "street_name_zh": "源安街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with YUEN SHUN CIRCUIT, at a distance about 70 metres away from CHAP WAI KON STREET and running in a south-easterly direction for about 255 metres where it terminates and rejoins YUEN SHUN CIRCUIT as shown coloured pink and hatched black on Plan No. STRM 1007.",
+            "description_raw_zh": "此街由與源順圍之交界處起，距離插桅杆街約七十米，向東南伸展約二百五十五米接回源順圍止。在STRM 1007號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1007",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Yuen Shun Circuit",
+                "Chap Wai Kon Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "源康街",
+      "english_name": "Yuen Hong Street",
+      "link_street_code": "12912",
+      "history": [
+        {
+          "publication_date": "1984-03-09",
+          "change_kind": "declare",
+          "street_name_en": "Yuen Hong Street",
+          "street_name_zh": "源康街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with SIU LEK YUEN ROAD and running in a south-westerly direction for about 100 metres where it terminates at its junction with YUEN SHUN CIRCUIT as shown coloured pink and hatched black on Plan No. STRM 1007.",
+            "description_raw_zh": "此街由與小瀝源路之交界處起，向西南伸展約一百米至與源順圍之交界處止。在STRM 1007號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1007",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Siu Lek Yuen Road",
+                "Yuen Shun Circuit"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "翠田街",
+      "english_name": "Chui Tin Street",
+      "link_street_code": "10270",
+      "history": [
+        {
+          "publication_date": "1984-03-09",
+          "change_kind": "declare",
+          "street_name_en": "Chui Tin Street",
+          "street_name_zh": "翠田街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with CHE KUNG MIU ROAD and running in a south south-easterly direction for about 420 metres; it then curves to run south-westerly for about 250 metres and then turns to run westerly for about 200 metres before it bends to run southerly for about 100 metres where it terminates at a turn around as shown coloured pink and hatched black on Plan No. STRM 1008.",
+            "description_raw_zh": "此街由與車公廟路之交界處起，向東南偏南伸展約四百二十米，然後向西南伸展約二百五十米，再向西伸展約二百米後，轉向南伸展約一百米至其迴旋處止。在STRM 1008號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1008",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Che Kung Miu Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

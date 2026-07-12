@@ -1,0 +1,37 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1952-gn1363-comfort-terrace",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1363",
+  "publication_date": "1952-11-28",
+  "gazette_url_en": "/egazette/en/1952-gn1363.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1952-gn1363.pdf",
+  "streets": [
+    {
+      "link_street_code": "10324",
+      "chinese_name": "康福臺",
+      "english_name": "Comfort Terrace",
+      "history": [
+        {
+          "publication_date": "1952-11-28",
+          "change_kind": "declare",
+          "street_name_en": "Comfort Terrace",
+          "street_name_zh": "康福臺",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1363.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Description: Private approach road to the nine lots I.L. 6469 to 6477 above and to the east of I.L. 5331, commencing from the approach road from King's Road to I.L. 5331 as shown coloured pink on the plan No. R.H. 357 signed by Director of Public Works and dated 21st November, 1952. Proposed Name: COMFORT TERRACE. Chinese Version: 康福臺.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "King's Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

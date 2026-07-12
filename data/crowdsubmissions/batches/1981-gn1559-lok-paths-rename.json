@@ -1,0 +1,123 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn1559-lok-paths-rename",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1559",
+  "publication_date": "1981-05-29",
+  "gazette_url_en": "/egazette/en/1981-gn1559.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn1559.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1436.pdf",
+  "streets": [
+    {
+      "english_name": "Lok Yuen Path",
+      "chinese_name": "樂園徑",
+      "link_street_code": "11274",
+      "history": [
+        {
+          "publication_date": "1981-05-29",
+          "change_kind": "rename",
+          "previous_street_name_en": "Lok Yuen Lane",
+          "previous_street_name_zh": "樂園里",
+          "street_name_en": "Lok Yuen Path",
+          "street_name_zh": "樂園徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "With reference to G.N. 1023 dated 3 April 1981 it is hereby notified that in accordance with section 111C(1)(b) of the Public Health and Urban Services Ordinance, Chapter 132 (1) LOK YUEN LANE is renamed as LOK YUEN PATH (2) LOK LIN STREET is renamed as LOK LIN PATH (3) LOK KWAI LANE is renamed as LOK KWAI PATH (4) LOK FUNG LANE is renamed as LOK FUNG PATH (5) LOK HA LANE is renamed as LOK HA SQUARE with immediate effect.",
+            "description_raw_zh": "關於一九八一年四月三日憲示第一〇二三號事，茲根據香港法例第一三二章公衆衞生及市政事務條例第一一一C條第(1)款(b)段之規定，公佈由即日起將（一）「樂園里」改稱為「樂園徑」（二）「樂蓮街」改稱為「樂蓮徑」（三）「樂葵里」改稱為「樂葵徑」（四）「樂楓里」改稱為「樂楓徑」（五）「樂霞里」改稱為「樂霞坊」。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Lok Lin Path",
+      "chinese_name": "樂蓮徑",
+      "link_street_code": "11259",
+      "history": [
+        {
+          "publication_date": "1981-05-29",
+          "change_kind": "rename",
+          "previous_street_name_en": "Lok Lin Street",
+          "previous_street_name_zh": "樂蓮街",
+          "street_name_en": "Lok Lin Path",
+          "street_name_zh": "樂蓮徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "With reference to G.N. 1023 dated 3 April 1981 it is hereby notified that in accordance with section 111C(1)(b) of the Public Health and Urban Services Ordinance, Chapter 132 (1) LOK YUEN LANE is renamed as LOK YUEN PATH (2) LOK LIN STREET is renamed as LOK LIN PATH (3) LOK KWAI LANE is renamed as LOK KWAI PATH (4) LOK FUNG LANE is renamed as LOK FUNG PATH (5) LOK HA LANE is renamed as LOK HA SQUARE with immediate effect.",
+            "description_raw_zh": "關於一九八一年四月三日憲示第一〇二三號事，茲根據香港法例第一三二章公衆衞生及市政事務條例第一一一C條第(1)款(b)段之規定，公佈由即日起將（一）「樂園里」改稱為「樂園徑」（二）「樂蓮街」改稱為「樂蓮徑」（三）「樂葵里」改稱為「樂葵徑」（四）「樂楓里」改稱為「樂楓徑」（五）「樂霞里」改稱為「樂霞坊」。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Lok Kwai Path",
+      "chinese_name": "樂葵徑",
+      "link_street_code": "11256",
+      "history": [
+        {
+          "publication_date": "1981-05-29",
+          "change_kind": "rename",
+          "previous_street_name_en": "Lok Kwai Lane",
+          "previous_street_name_zh": "樂葵里",
+          "street_name_en": "Lok Kwai Path",
+          "street_name_zh": "樂葵徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "With reference to G.N. 1023 dated 3 April 1981 it is hereby notified that in accordance with section 111C(1)(b) of the Public Health and Urban Services Ordinance, Chapter 132 (1) LOK YUEN LANE is renamed as LOK YUEN PATH (2) LOK LIN STREET is renamed as LOK LIN PATH (3) LOK KWAI LANE is renamed as LOK KWAI PATH (4) LOK FUNG LANE is renamed as LOK FUNG PATH (5) LOK HA LANE is renamed as LOK HA SQUARE with immediate effect.",
+            "description_raw_zh": "關於一九八一年四月三日憲示第一〇二三號事，茲根據香港法例第一三二章公衆衞生及市政事務條例第一一一C條第(1)款(b)段之規定，公佈由即日起將（一）「樂園里」改稱為「樂園徑」（二）「樂蓮街」改稱為「樂蓮徑」（三）「樂葵里」改稱為「樂葵徑」（四）「樂楓里」改稱為「樂楓徑」（五）「樂霞里」改稱為「樂霞坊」。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Lok Fung Path",
+      "chinese_name": "樂楓徑",
+      "link_street_code": "11251",
+      "history": [
+        {
+          "publication_date": "1981-05-29",
+          "change_kind": "rename",
+          "previous_street_name_en": "Lok Fung Lane",
+          "previous_street_name_zh": "樂楓里",
+          "street_name_en": "Lok Fung Path",
+          "street_name_zh": "樂楓徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "With reference to G.N. 1023 dated 3 April 1981 it is hereby notified that in accordance with section 111C(1)(b) of the Public Health and Urban Services Ordinance, Chapter 132 (1) LOK YUEN LANE is renamed as LOK YUEN PATH (2) LOK LIN STREET is renamed as LOK LIN PATH (3) LOK KWAI LANE is renamed as LOK KWAI PATH (4) LOK FUNG LANE is renamed as LOK FUNG PATH (5) LOK HA LANE is renamed as LOK HA SQUARE with immediate effect.",
+            "description_raw_zh": "關於一九八一年四月三日憲示第一〇二三號事，茲根據香港法例第一三二章公衆衞生及市政事務條例第一一一C條第(1)款(b)段之規定，公佈由即日起將（一）「樂園里」改稱為「樂園徑」（二）「樂蓮街」改稱為「樂蓮徑」（三）「樂葵里」改稱為「樂葵徑」（四）「樂楓里」改稱為「樂楓徑」（五）「樂霞里」改稱為「樂霞坊」。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Lok Ha Square",
+      "chinese_name": "樂霞坊",
+      "link_street_code": "11252",
+      "history": [
+        {
+          "publication_date": "1981-05-29",
+          "change_kind": "rename",
+          "previous_street_name_en": "Lok Ha Lane",
+          "previous_street_name_zh": "樂霞里",
+          "street_name_en": "Lok Ha Square",
+          "street_name_zh": "樂霞坊",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "With reference to G.N. 1023 dated 3 April 1981 it is hereby notified that in accordance with section 111C(1)(b) of the Public Health and Urban Services Ordinance, Chapter 132 (1) LOK YUEN LANE is renamed as LOK YUEN PATH (2) LOK LIN STREET is renamed as LOK LIN PATH (3) LOK KWAI LANE is renamed as LOK KWAI PATH (4) LOK FUNG LANE is renamed as LOK FUNG PATH (5) LOK HA LANE is renamed as LOK HA SQUARE with immediate effect.",
+            "description_raw_zh": "關於一九八一年四月三日憲示第一〇二三號事，茲根據香港法例第一三二章公衆衞生及市政事務條例第一一一C條第(1)款(b)段之規定，公佈由即日起將（一）「樂園里」改稱為「樂園徑」（二）「樂蓮街」改稱為「樂蓮徑」（三）「樂葵里」改稱為「樂葵徑」（四）「樂楓里」改稱為「樂楓徑」（五）「樂霞里」改稱為「樂霞坊」。"
+          }
+        }
+      ]
+    }
+  ]
+}

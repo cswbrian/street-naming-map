@@ -1,0 +1,77 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1953-gn1143-village-shan-kwong",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1143",
+  "publication_date": "1953-09-18",
+  "gazette_url_en": "/egazette/en/1953-gn1143.pdf",
+  "gazette_url_zh": "/egazette/zh/1953-gn1143.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1953-gn1143.pdf",
+  "streets": [
+    {
+      "link_street_code": "12572",
+      "chinese_name": "山村道",
+      "english_name": "Village Road",
+      "history": [
+        {
+          "publication_date": "1953-09-18",
+          "change_kind": "extend",
+          "street_name_en": "Village Road",
+          "street_name_zh": "山村道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1143.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing from Wongneichong Road between Lot Numbers I.L.2065 and I.L.1386, running southwards and then eastwards to Sing Woo Road, as shown coloured green on plan R.H.494 signed by the Director of Public Works and dated 11th September, 1953. Proposed Name: VILLAGE ROAD. Chinese Version: 山村道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H.494",
+                  "color": "green"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wongneichong Road",
+                "Sing Woo Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11978",
+      "chinese_name": "山光道",
+      "english_name": "Shan Kwong Road",
+      "history": [
+        {
+          "publication_date": "1953-09-18",
+          "change_kind": "extend",
+          "street_name_en": "Shan Kwong Road",
+          "street_name_zh": "山光道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1143.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing at Village Road near its junction with Wongneichong Road between Lot Numbers I.L.2340 and I.L.3524, running southwards to the Waterworks Reservation, as shown coloured pink on plan R.H.494 signed by the Director of Public Works and dated 11th September, 1953. Proposed Name: SHAN KWONG ROAD. Chinese Version: 山光道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H.494",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Village Road",
+                "Wongneichong Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

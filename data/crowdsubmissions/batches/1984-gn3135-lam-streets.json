@@ -1,0 +1,140 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn3135-lam-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3135",
+  "publication_date": "1984-10-26",
+  "gazette_url_en": "/egazette/en/1984-gn3135.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn3135.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1632.pdf",
+  "streets": [
+    {
+      "chinese_name": "臨興街",
+      "english_name": "Lam Hing Street",
+      "history": [
+        {
+          "publication_date": "1984-10-26",
+          "change_kind": "declare",
+          "street_name_en": "Lam Hing Street",
+          "street_name_zh": "臨興街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured green on Drawing No. KH 4700/1 commencing at its junction with an un-named thoroughfare (marked Road W on Drawing No. KH 4700/1) running eastwards for about 640 metres before terminating at its junction with Wai Yip Street.",
+            "description_raw_zh": "此街道於 KH 4700/1 號圖則上以綠色標明，由與一條未命名街道（在 KH 4700/1 號圖則上之 W 街道）交界處起，向東伸展約六百四十米，至與偉業街交界處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 4700/1",
+                  "color": "green"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wai Yip Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11175"
+    },
+    {
+      "chinese_name": "臨利街",
+      "english_name": "Lam Lee Street",
+      "history": [
+        {
+          "publication_date": "1984-10-26",
+          "change_kind": "declare",
+          "street_name_en": "Lam Lee Street",
+          "street_name_zh": "臨利街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured blue on Drawing No. KH 4700/1 commencing at its junction with Lam Hing Street running southwards for about 60 metres then turning eastwards for about 130 metres to terminate at its junction with Wang Hoi Road.",
+            "description_raw_zh": "此街道於 KH 4700/1 號圖則上以藍色標明，由與臨興街交界處起，向南伸展約六十米，轉向東伸展約一百三十米，至與宏開道交界處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 4700/1",
+                  "color": "blue"
+                }
+              ],
+              "referenced_streets_en": [
+                "Lam Hing Street",
+                "Wang Hoi Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11178"
+    },
+    {
+      "chinese_name": "臨福街",
+      "english_name": "Lam Fook Street",
+      "history": [
+        {
+          "publication_date": "1984-10-26",
+          "change_kind": "declare",
+          "street_name_en": "Lam Fook Street",
+          "street_name_zh": "臨福街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured brown on Drawing No. KH 4700/1 commencing at its junction with Wang Tai Road running eastwards for about 130 metres to terminate at its junction with Wang Hoi Road.",
+            "description_raw_zh": "此街道於 KH 4700/1 號圖則上以啡色標明，由與宏泰道交界處起，向東伸展約一百三十米，至與宏開道交界處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 4700/1",
+                  "color": "brown"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wang Tai Road",
+                "Wang Hoi Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11173"
+    },
+    {
+      "chinese_name": "臨澤街",
+      "english_name": "Lam Chak Street",
+      "history": [
+        {
+          "publication_date": "1984-10-26",
+          "change_kind": "declare",
+          "street_name_en": "Lam Chak Street",
+          "street_name_zh": "臨澤街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured orange on Drawing No. KH 4700/1 commencing at its junction with Kai Hing Road running northwestwards for 80 metres to terminate at its junction with Cheung Yip Street.",
+            "description_raw_zh": "此街道於 KH 4700/1 號圖則上以橙色標明，由與啓興道交界處起，向西北伸展八十米，至與祥業街交界處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 4700/1",
+                  "color": "orange"
+                }
+              ],
+              "referenced_streets_en": [
+                "Kai Hing Road",
+                "Cheung Yip Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11171"
+    }
+  ]
+}

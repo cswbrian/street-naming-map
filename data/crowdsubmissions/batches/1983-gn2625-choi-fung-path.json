@@ -1,0 +1,44 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn2625-choi-fung-path",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2625",
+  "publication_date": "1983-08-12",
+  "gazette_url_en": "/egazette/en/1983-gn2625.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn2625.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1556.pdf",
+  "streets": [
+    {
+      "chinese_name": "彩鳳徑",
+      "english_name": "Choi Fung Path",
+      "history": [
+        {
+          "publication_date": "1983-08-12",
+          "change_kind": "declare",
+          "street_name_en": "Choi Fung Path",
+          "street_name_zh": "彩鳳徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare coloured red on Drawing No. 39/P/1A. It commences from the junction at Old Clear Water Bay Road near the Choi Wan Phase III commercial complex, running northwards for about 130 metres, then turning westerly to go for about 40 metres, and further extending north-westerly for about 120 metres to its termination near Pak Fung House.",
+            "description_raw_zh": "街道位於39/P/1A號圖則上紅色所示位置。由舊清水灣道近彩雲商場第三期起，向北伸展約一百三十米，再向西伸展約四十米，又再向西北伸展約一百二十米，至白鳳樓附近處終止。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "39/P/1A",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Old Clear Water Bay Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10261"
+    }
+  ]
+}

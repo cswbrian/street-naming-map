@@ -1,0 +1,46 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn3073-fuk-yan",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3073",
+  "publication_date": "1984-10-19",
+  "gazette_url_en": "/egazette/en/1984-gn3073.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn3073.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1626.pdf",
+  "streets": [
+    {
+      "chinese_name": "福欣街",
+      "english_name": "Fuk Yan Street",
+      "history": [
+        {
+          "publication_date": "1984-10-19",
+          "change_kind": "declare",
+          "street_name_en": "Fuk Yan Street",
+          "street_name_zh": "福欣街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with FUK WANG STREET and running in a north-westerly direction for about 223 metres where it terminates at its junction with FUK HI STREET as shown coloured pink and hatched black on Plan No. YLRM6.",
+            "description_raw_zh": "此街由與福宏街交界處起，向西北伸展約二百二十三米，到與福喜街交界處止。在 YLRM 6 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "YLRM6",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Fuk Wang Street",
+                "Fuk Hi Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10563"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn958-kau-to-shan",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.958",
+  "publication_date": "1981-03-27",
+  "gazette_url_en": "/egazette/en/1981-gn958.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn958.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1431.pdf",
+  "pdf_zh": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1431.pdf",
+  "streets": [
+    {
+      "chinese_name": "九肚山路",
+      "english_name": "Kau To Shan Road",
+      "history": [
+        {
+          "publication_date": "1981-03-27",
+          "change_kind": "declare",
+          "street_name_en": "Kau To Shan Road",
+          "street_name_zh": "九肚山路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Tai Po Road Ma Liu Shui and running in a north-westerly direction for about 42 metres then bends to run generally south-westerly for about 78 metres and then runs westerly for 180 metres where it curves to run easterly for about 116 metres and then bends to run generally in a northerly direction for about 198 metres and then running north-westerly for about 244 metres where it terminates temporarily as shown coloured pink and hatched black on Drawing No. NTA/ST/R9. (It should be noted that there will be a future extension of this road)",
+            "description_raw_zh": "此路由與大埔公路馬料水段之會合處起，向西北伸展約四十二米，再轉向西南伸展約七十八米後，轉向西伸展一百八十米，再轉向東伸展約一百一十六米，再轉向北伸展約一百九十八米，再轉向西北伸展約二百四十四米而暫時終止，如圖則第 NTA/ST/R9 號以粉紅色及黑斜綫所示。（請注意，此路將予擴建。）",
+            "parsed": {
+              "referenced_streets_en": [
+                "Tai Po Road Ma Liu Shui"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10972"
+    },
+    {
+      "chinese_name": "馬鞅徑",
+      "english_name": "Ma Yeung Path",
+      "history": [
+        {
+          "publication_date": "1981-03-27",
+          "change_kind": "declare",
+          "street_name_en": "Ma Yeung Path",
+          "street_name_zh": "馬鞅徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Path commencing at its junction with Kau To Shan Road and running generally south-westerly for about 108 metres where it terminates at a turnaround as shown coloured pink and hatched black on Drawing No. NTA/ST/R9.",
+            "description_raw_zh": "此徑由與九肚山路之會合處起，向西南伸展約一百零八米而止於一迴旋處，如圖則第 NTA/ST/R9 號以粉紅色及黑斜綫所示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Kau To Shan Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11356"
+    },
+    {
+      "chinese_name": "馬鞍徑",
+      "english_name": "Ma On Path",
+      "history": [
+        {
+          "publication_date": "1981-03-27",
+          "change_kind": "declare",
+          "street_name_en": "Ma On Path",
+          "street_name_zh": "馬鞍徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Path commencing at its junction with Kau To Shan Road and running east north-easterly for about 184 metres where it terminates at a circular turnaround as shown coloured pink and hatched black on Drawing No. NTA/ST/R9.",
+            "description_raw_zh": "此徑由與九肚山路之會合處起，向東北偏東伸展約一百八十四米而止於一迴旋處，如圖則第 NTA/ST/R9 號以粉紅色及黑斜綫所示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Kau To Shan Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11345"
+    },
+    {
+      "chinese_name": "馬樂徑",
+      "english_name": "Ma Lok Path",
+      "history": [
+        {
+          "publication_date": "1981-03-27",
+          "change_kind": "declare",
+          "street_name_en": "Ma Lok Path",
+          "street_name_zh": "馬樂徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Path commencing at its junction with Kau To Shan Road and running generally in a south-westerly direction for about 436 metres where it terminates temporarily as shown coloured pink and hatched black on Drawing No. NTA/ST/R9. (It should be noted that there will be a future extension of this path.)",
+            "description_raw_zh": "此徑由與九肚山路之會合處起，向西南面伸展約四百三十六米而暫時終止，如圖則第 NTA/ST/R9 號以粉紅色及黑斜綫所示。(請注意，此徑將予擴建。)",
+            "parsed": {
+              "referenced_streets_en": [
+                "Kau To Shan Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11343"
+    },
+    {
+      "chinese_name": "馬影徑",
+      "english_name": "Ma Ying Path",
+      "history": [
+        {
+          "publication_date": "1981-03-27",
+          "change_kind": "declare",
+          "street_name_en": "Ma Ying Path",
+          "street_name_zh": "馬影徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Path commencing at its junction with Ma Lok Path and running generally in a south south-easterly direction for about 238 metres where it terminates at a circular turnaround as shown coloured pink and hatched black on Drawing No. NTA/ST/R9.",
+            "description_raw_zh": "此徑由與馬樂徑之會合處起，向東南偏南伸展約二百三十八米而止於一迴旋處，如圖則第 NTA/ST/R9 號以粉紅色及黑斜綫所示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Ma Lok Path"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11357"
+    },
+    {
+      "chinese_name": "馬鈴徑",
+      "english_name": "Ma Ling Path",
+      "history": [
+        {
+          "publication_date": "1981-03-27",
+          "change_kind": "declare",
+          "street_name_en": "Ma Ling Path",
+          "street_name_zh": "馬鈴徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Path commencing at its junction with Kau To Shan Road and running north-easterly for about 50 metres then bends to run generally easterly for about 392 metres where it terminates at an open car parking area as shown coloured pink and hatched black on Drawing No. NTA/ST/R9.",
+            "description_raw_zh": "此徑由與九肚山路之會合處起，向東北伸展約五十米，再轉向東伸展約三百九十二米而止於一露天停車場，如圖則第 NTA/ST/R9 號以粉紅色及黑斜綫所示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Kau To Shan Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11342"
+    }
+  ]
+}

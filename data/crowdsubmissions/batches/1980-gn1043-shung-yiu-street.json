@@ -1,0 +1,38 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1980-gn1043-shung-yiu-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1043",
+  "publication_date": "1980-04-03",
+  "gazette_url_en": "/egazette/en/1980-gn1043.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1980/Scanned_20260711-1412.pdf",
+  "streets": [
+    {
+      "chinese_name": "崇耀街",
+      "english_name": "Shung Yiu Street",
+      "history": [
+        {
+          "publication_date": "1980-04-03",
+          "change_kind": "declare",
+          "street_name_en": "Shung Yiu Street",
+          "street_name_zh": "崇耀街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1043.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Thoroughfare as shown coloured pink on Drawing No. KH3166, commencing at its junction with Sze Shan Street near the junction of Cho Yuen Street and Sze Shan Street, running in a south-westerly direction for about 45 m, turning north-westerly for about 120 m, then turning north-easterly for about 45 m and terminating at its junction with Sze Shan Street. Proposed Name: SHUNG YIU STREET. Chinese Version: 崇耀街.",
+            "description_raw_zh": "此道路位置在 KH3166 號圖則上以粉紅色標明，起點在草園街與四山街交界處附近，與四山街連接，向西南伸展約四十五米，轉向西北伸展約一百二十米，然後再轉向東北伸展約四十五米，在與四山街連接處終結。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Sze Shan Street",
+                "Cho Yuen Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12107"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1954-gn1562-tai-kok-tsui-waterfront",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1562",
+  "publication_date": "1954-12-24",
+  "gazette_url_en": "/egazette/en/1954-gn1562.pdf",
+  "gazette_url_zh": "/egazette/zh/1954-gn1562.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1954-gn1562.pdf",
+  "streets": [
+    {
+      "chinese_name": "櫻桃街",
+      "english_name": "Cherry Street",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Cherry Street",
+          "street_name_zh": "櫻桃街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-12-24",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1562.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Road commencing at its junction with Palm Street running in a westerly direction parallel to the seawall, terminating at its junction with Hoi King Street as shown coloured red on Plan No. R.K. 531. Proposed Name: CHERRY STREET. Chinese Version: 櫻桃街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 531",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Palm Street",
+                "Hoi King Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10181"
+    },
+    {
+      "chinese_name": "富貴街",
+      "english_name": "Foo Kwai Street",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Foo Kwai Street",
+          "street_name_zh": "富貴街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-12-24",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1562.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Road commencing at its junction with Tai Kok Tsui Road running west to its junction with the north end of Hoi King Street as shown coloured yellow on Plan No. R.K. 531. Proposed Name: FOO KWAI STREET. Chinese Version: 富貴街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 531",
+                  "color": "yellow"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tai Kok Tsui Road",
+                "Hoi King Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10500"
+    },
+    {
+      "chinese_name": "海景街",
+      "english_name": "Hoi King Street",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Hoi King Street",
+          "street_name_zh": "海景街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-12-24",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1562.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Road commencing at its junction with Cherry Street running in a northerly direction parallel to the seawall and terminating at its junction with the west end of Foo Kwai Street as shown coloured burnt sienna on Plan No. R.K. 531. Proposed Name: HOI KING STREET. Chinese Version: 海景街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 531",
+                  "color": "burnt sienna"
+                }
+              ],
+              "referenced_streets_en": [
+                "Cherry Street",
+                "Foo Kwai Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10775"
+    },
+    {
+      "chinese_name": "振榮街",
+      "english_name": "Chun Wing Street",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Chun Wing Street",
+          "street_name_zh": "振榮街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-12-24",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1562.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Road between Hoi King Street and Tai Kok Tsui Road commencing at its junction with Cherry Street running in a northerly direction and terminating at its junction with Foo Kwai Street as shown coloured blue on Plan No. R.K. 531. Proposed Name: CHUN WING STREET. Chinese Version: 振榮街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 531",
+                  "color": "blue"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hoi King Street",
+                "Tai Kok Tsui Road",
+                "Cherry Street",
+                "Foo Kwai Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10283"
+    }
+  ]
+}

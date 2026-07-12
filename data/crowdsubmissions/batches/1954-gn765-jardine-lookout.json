@@ -1,0 +1,104 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1954-gn765-jardine-lookout",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.765",
+  "publication_date": "1954-06-25",
+  "gazette_url_en": "/egazette/en/1954-gn765.pdf",
+  "gazette_url_zh": "/egazette/zh/1954-gn765.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1954-gn765.pdf",
+  "streets": [
+    {
+      "chinese_name": "包華士道",
+      "english_name": "Purves Road",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Purves Road",
+          "street_name_zh": "包華士道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-06-25",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 765.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road at right angles to Perkins Road at the southern end of Perkins Road and extending east for approximately 400 feet where it terminates in a turning circle, and west for approximately 100 feet as shown coloured yellow on plan No. R.H. 566. Proposed Name: PURVES ROAD. Chinese Version: 包華士道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 566",
+                  "color": "yellow"
+                }
+              ],
+              "referenced_streets_en": [
+                "Perkins Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11800"
+    },
+    {
+      "chinese_name": "谷柏道",
+      "english_name": "Cooper Road",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Cooper Road",
+          "street_name_zh": "谷柏道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-06-25",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 765.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road at right angles to the above road commencing 100 feet west of Perkins Road and going southwest for about 200 feet then westwards to I.L. 6933 and from thence north to Creasy Road at the southern end of I.L. 6391 as shown coloured red on plan No. R.H. 566. Proposed Name: COOPER ROAD. Chinese Version: 谷柏道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 566",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Perkins Road",
+                "Creasy Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10337"
+    },
+    {
+      "chinese_name": "高士美道",
+      "english_name": "Goldsmith Road",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Goldsmith Road",
+          "street_name_zh": "高士美道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-06-25",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 765.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road joining the above road near I.L. 6933 but on the opposite side, extending northeast for 160 feet and then northwest for 100 feet and terminating at that point as shown coloured blue on plan No. R.H. 566. Proposed Name: GOLDSMITH ROAD. Chinese Version: 高士美道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 566",
+                  "color": "blue"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10613"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1955-gn99-pui-ching-nairn-chi-man",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.99",
+  "publication_date": "1955-01-28",
+  "gazette_url_en": "/egazette/en/1955-gn99.pdf",
+  "gazette_url_zh": "/egazette/zh/1955-gn99.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1955-gn99.pdf",
+  "streets": [
+    {
+      "chinese_name": "培正道",
+      "english_name": "Pui Ching Road",
+      "history": [
+        {
+          "publication_date": "1955-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Pui Ching Road",
+          "street_name_zh": "培正道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 99.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Road commencing at its junction with Waterloo Road opposite Soares Avenue running in an easterly direction for a distance of approximately 600 yards as shown coloured red on Plan No. R.K. 534. English Name: PUI CHING ROAD. Chinese Name: 培正道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 534",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Waterloo Road",
+                "Soares Avenue"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11794"
+    },
+    {
+      "chinese_name": "楠道",
+      "english_name": "Nairn Road",
+      "history": [
+        {
+          "publication_date": "1955-01-28",
+          "change_kind": "extend",
+          "street_name_en": "Nairn Road",
+          "street_name_zh": "楠道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 99.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Extension of Nairn Road in a south-westerly direction for a distance of approximately 930 yards terminating at the footbridge across the Kowloon Canton Railway as shown coloured burnt sienna on Plan No. R.K. 534. English Name: NAIRN ROAD. Chinese Name: 楠道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 534",
+                  "color": "burnt sienna"
+                }
+              ],
+              "referenced_streets_en": [
+                "Nairn Road"
+              ]
+            }
+          },
+          "submitter_remarks": "No geojson centreline for Nairn Road / 楠道 (abolished or renamed)."
+        }
+      ]
+    },
+    {
+      "chinese_name": "治民道",
+      "english_name": "Chi Man Road",
+      "history": [
+        {
+          "publication_date": "1955-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Chi Man Road",
+          "street_name_zh": "治民道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 99.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Road commencing at the south end of Nairn Road and running in a south-easterly direction parallel to the Kowloon Canton Railway for a distance of approximately 335 yards as shown coloured yellow on Plan No. R.K. 534. English Name: CHI MAN ROAD. Chinese Name: 治民道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 534",
+                  "color": "yellow"
+                }
+              ],
+              "referenced_streets_en": [
+                "Nairn Road"
+              ]
+            }
+          },
+          "submitter_remarks": "Gazette name Chi Man Road / 治民道; geojson has Chi Man Street / 治民街 only — not linked."
+        }
+      ]
+    }
+  ]
+}

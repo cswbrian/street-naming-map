@@ -1,0 +1,241 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn2660-sha-tin-on",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2660",
+  "publication_date": "1984-09-07",
+  "gazette_url_en": "/egazette/en/1984-gn2660.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn2660.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1624.pdf",
+  "streets": [
+    {
+      "chinese_name": "安心街",
+      "english_name": "On Sum Street",
+      "history": [
+        {
+          "publication_date": "1984-09-07",
+          "change_kind": "declare",
+          "street_name_en": "On Sum Street",
+          "street_name_zh": "安心街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TAI CHUNG KIU ROAD and running in a south-easterly direction for about 195 metres; it then bends to run in a south-westerly direction for about 400 metres where it terminates at its junction with ON MUK STREET as shown coloured pink and hatched black on Plan No. STRM 1012.",
+            "description_raw_zh": "此街由與大涌橋路之交界處起，向東南伸展約195米，然後向西南伸展約400米，至與安睦街之交界處止。在 STRM 1012 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1012",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tai Chung Kiu Road",
+                "On Muk Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11603"
+    },
+    {
+      "chinese_name": "安麗街",
+      "english_name": "On Lai Street",
+      "history": [
+        {
+          "publication_date": "1984-09-07",
+          "change_kind": "declare",
+          "street_name_en": "On Lai Street",
+          "street_name_zh": "安麗街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TAI CHUNG KIU ROAD and running in a south-easterly direction for about 635 metres where it terminates at its junction with ON YIU STREET as shown coloured pink and hatched black on Plan No. STRM 1012.",
+            "description_raw_zh": "此街由與大涌橋路之交界處起，向東南伸展約635米，至與安耀街之交界處止。在 STRM 1012 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1012",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tai Chung Kiu Road",
+                "On Yiu Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11586"
+    },
+    {
+      "chinese_name": "安平街",
+      "english_name": "On Ping Street",
+      "history": [
+        {
+          "publication_date": "1984-09-07",
+          "change_kind": "declare",
+          "street_name_en": "On Ping Street",
+          "street_name_zh": "安平街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with ON LAI STREET and running in a north-easterly direction for about 360 metres where it terminates at a turning circle as shown coloured pink and hatched black on Plan No. STRM 1012.",
+            "description_raw_zh": "此街由與安麗街之交界處起，向東北伸展約360米，至迴旋處止。在 STRM 1012 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1012",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "On Lai Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11595"
+    },
+    {
+      "chinese_name": "安耀街",
+      "english_name": "On Yiu Street",
+      "history": [
+        {
+          "publication_date": "1984-09-07",
+          "change_kind": "declare",
+          "street_name_en": "On Yiu Street",
+          "street_name_zh": "安耀街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with ON SUM STREET and running in a south-easterly direction for about 390 metres; it then curves to run southerly for about 75 metres and then turns to run south-westerly for about 235 metres where it terminates at its junction with ON MUK STREET as shown coloured pink and hatched black on Plan No. STRM 1012.",
+            "description_raw_zh": "此街由與安心街之交界處起，向東南伸展約390米，然後向南伸展約75米，再向西南伸展約235米，至與安睦街之交界處止。在 STRM 1012 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1012",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "On Sum Street",
+                "On Muk Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11617"
+    },
+    {
+      "chinese_name": "安群街",
+      "english_name": "On Kwan Street",
+      "history": [
+        {
+          "publication_date": "1984-09-07",
+          "change_kind": "declare",
+          "street_name_en": "On Kwan Street",
+          "street_name_zh": "安群街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with ON LAI STREET and running in a south-westerly direction for about 105 metres where it terminates at its junction with ON MUK STREET as shown coloured pink and hatched black on Plan No. STRM 1012.",
+            "description_raw_zh": "此街由與安麗街之交界處起，向西南伸展約105米，至與安睦街之交界處止。在 STRM 1012 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1012",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "On Lai Street",
+                "On Muk Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11585"
+    },
+    {
+      "chinese_name": "安明街",
+      "english_name": "On Ming Street",
+      "history": [
+        {
+          "publication_date": "1984-09-07",
+          "change_kind": "declare",
+          "street_name_en": "On Ming Street",
+          "street_name_zh": "安明街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with ON YIU STREET and running in a south-westerly direction for about 350 metres where it terminates at its closed end as shown coloured pink and hatched black on Plan No. STRM 1012.",
+            "description_raw_zh": "此街由與安耀街之交界處起，向西南伸展約350米，至其盡頭處止。在 STRM 1012 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1012",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "On Yiu Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11592"
+    },
+    {
+      "chinese_name": "安睦街",
+      "english_name": "On Muk Street",
+      "history": [
+        {
+          "publication_date": "1984-09-07",
+          "change_kind": "declare",
+          "street_name_en": "On Muk Street",
+          "street_name_zh": "安睦街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with ON YIU STREET and running in a south-easterly direction for about 35 metres; it then bends to run southerly for about 75 metres and then turns to run south south-westerly for about 160 metres before it turns to run north-westerly for about 750 metres where it terminates at a turning circle as shown coloured pink and hatched black on Plan No. STRM 1012.",
+            "description_raw_zh": "此街由與安耀街之交界處起，向東南伸展約35米，然後向南伸展約75米，再向西南偏南伸展約160米後，轉向西北伸展約750米至其迴旋處止。在 STRM 1012 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1012",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "On Yiu Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11593"
+    }
+  ]
+}

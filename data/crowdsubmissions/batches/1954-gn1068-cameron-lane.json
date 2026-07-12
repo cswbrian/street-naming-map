@@ -1,0 +1,45 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1954-gn1068-cameron-lane",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1068",
+  "publication_date": "1954-08-27",
+  "gazette_url_en": "/egazette/en/1954-gn1068.pdf",
+  "gazette_url_zh": "/egazette/zh/1954-gn1068.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1954-gn1068.pdf",
+  "streets": [
+    {
+      "chinese_name": "金馬倫里",
+      "english_name": "Cameron Lane",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Cameron Lane",
+          "street_name_zh": "金馬倫里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-08-27",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1068.—It is hereby notified that the following road will be known in future as described hereunder:— Description: Road commencing from the north side of Cameron Road 100 yards East of Nathan Road running in a northerly direction for about 22 yards and thence forming a \"T\" road running East and West about 75 yards long as shown coloured red on plan No. R.K. 476. Proposed Name: CAMERON LANE. Chinese Version: 金馬倫里.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 476",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Cameron Road",
+                "Nathan Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10109"
+    }
+  ]
+}

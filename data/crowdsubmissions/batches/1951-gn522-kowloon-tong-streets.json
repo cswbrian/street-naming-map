@@ -1,0 +1,233 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1951-gn522-kowloon-tong-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.522",
+  "publication_date": "1951-05-18",
+  "gazette_url_en": "/egazette/en/1951-gn522.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1951-gn522.pdf",
+  "streets": [
+    {
+      "link_street_code": "12866",
+      "chinese_name": "煙廠街",
+      "english_name": "Yin Chong Street",
+      "history": [
+        {
+          "publication_date": "1951-05-18",
+          "change_kind": "declare",
+          "street_name_en": "Yin Chong Street",
+          "street_name_zh": "煙廠街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 522.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Cul-de-sac commencing at its junction with Fa Yuen Street, running in an easterly direction immediately south of and parallel to Soy Street and terminating at K.I.L. 1157, as shown coloured pink on plan R.K. 179 signed by Hon. D.P.W. and dated 18th April, 1951. Proposed Name: YIN CHONG STREET. Chinese Version: 煙廠街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_cul_de_sac": true,
+              "referenced_streets_en": ["Fa Yuen Street", "Soy Street"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11145",
+      "chinese_name": "喇沙利道",
+      "english_name": "La Salle Road",
+      "history": [
+        {
+          "publication_date": "1951-05-18",
+          "change_kind": "extend",
+          "street_name_en": "La Salle Road",
+          "street_name_zh": "喇沙利道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 522.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Extension of La Salle Road in a Northerly direction and terminating at its junction with Hereford Road as shown coloured pink on plan R.K. 181 signed by Hon. D.P.W. and dated 18th April, 1951. Proposed Name: LA SALLE ROAD. Chinese Version: 喇沙利道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Hereford Road"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "10690",
+      "chinese_name": "禧福道",
+      "english_name": "Hereford Road",
+      "history": [
+        {
+          "publication_date": "1951-05-18",
+          "change_kind": "declare",
+          "street_name_en": "Hereford Road",
+          "street_name_zh": "禧福道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 522.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing at its junction with Waterloo Road, running in an easterly direction along the north boundary of N.K.I.L. 3548 and terminating at the extended portion of La Salle Road as shown coloured pink on plan R.K. 182 signed by Hon. D.P.W. and dated 18th April, 1951. Proposed Name: HEREFORD ROAD. Chinese Version: 禧福道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Waterloo Road", "La Salle Road"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "10108",
+      "chinese_name": "劍橋道",
+      "english_name": "Cambridge Road",
+      "history": [
+        {
+          "publication_date": "1951-05-18",
+          "change_kind": "declare",
+          "street_name_en": "Cambridge Road",
+          "street_name_zh": "劍橋道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 522.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing at its junction with Lancashire Road, running in a northerly direction, immediately east of and parallel to Waterloo Road and terminating at its junction with Hereford Road as shown coloured pink on plan R.K. 183 signed by Hon. D.P.W. and dated 18th April, 1951. Proposed Name: CAMBRIDGE ROAD. Chinese Version: 劍橋道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Lancashire Road", "Waterloo Road", "Hereford Road"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11622",
+      "chinese_name": "牛津道",
+      "english_name": "Oxford Road",
+      "history": [
+        {
+          "publication_date": "1951-05-18",
+          "change_kind": "declare",
+          "street_name_en": "Oxford Road",
+          "street_name_zh": "牛津道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 522.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing at its junction with Lancashire Road, running in a northerly direction, immediately east of and parallel to Cambridge Road and terminating at its junction with Hereford Road as shown coloured pink on plan R.K. 184, signed by Hon. D.P.W. and dated 18th April, 1951. Proposed Name: OXFORD ROAD. Chinese Version: 牛津道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Lancashire Road", "Cambridge Road", "Hereford Road"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "12709",
+      "chinese_name": "渭州道",
+      "english_name": "Wiltshire Road",
+      "history": [
+        {
+          "publication_date": "1951-05-18",
+          "change_kind": "declare",
+          "street_name_en": "Wiltshire Road",
+          "street_name_zh": "渭州道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 522.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing at its junction with Cambridge Road, running in an easterly direction, immediately south of and parallel to Hereford Road and terminating at its junction with Oxford Road as shown coloured pink on Drawing No. R.K. 185 signed by Hon. D.P.W. and dated 18th April, 1951. Proposed Name: WILTSHIRE ROAD. Chinese Version: 渭州道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Cambridge Road", "Hereford Road", "Oxford Road"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "10394",
+      "chinese_name": "對衡道",
+      "english_name": "Durham Road",
+      "history": [
+        {
+          "publication_date": "1951-05-18",
+          "change_kind": "declare",
+          "street_name_en": "Durham Road",
+          "street_name_zh": "對衡道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 522.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing at its junction with Waterloo Road, running in an Easterly direction immediately south of and parallel to Wiltshire Road and terminating at its junction with La Salle Road; that portion which lies between Cambridge and Oxford Roads being offset to the north, as shown coloured pink on plan R.K. 186, signed by Hon. D.P.W. and dated 18th April, 1951. Proposed Name: DURHAM ROAD. Chinese Version: 對衡道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Waterloo Road", "Wiltshire Road", "La Salle Road", "Cambridge Road", "Oxford Road"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "10644",
+      "chinese_name": "衡州道",
+      "english_name": "Hampshire Road",
+      "history": [
+        {
+          "publication_date": "1951-05-18",
+          "change_kind": "declare",
+          "street_name_en": "Hampshire Road",
+          "street_name_zh": "衡州道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 522.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing at its junction with Cambridge Road, running in an easterly direction, immediately south of and parallel to Durham Road and terminating at its junction with Oxford Road as shown coloured pink on plan R.K. 187 signed by Hon. D.P.W. and dated 18th April, 1951. Proposed Name: HAMPSHIRE ROAD. Chinese Version: 衡州道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Cambridge Road", "Durham Road", "Oxford Road"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11461",
+      "chinese_name": "慕禮道",
+      "english_name": "Moray Road",
+      "history": [
+        {
+          "publication_date": "1951-05-18",
+          "change_kind": "declare",
+          "street_name_en": "Moray Road",
+          "street_name_zh": "慕禮道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 522.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing at its junction with Cambridge Road, running in an easterly direction, immediately north of and parallel to Lancashire Road and terminating at its junction with Oxford Road, as shown coloured pink on plan R.K. 188 signed by Hon. D.P.W. and dated 18th April, 1951. Proposed Name: MORAY ROAD. Chinese Version: 慕禮道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Cambridge Road", "Lancashire Road", "Oxford Road"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11950",
+      "chinese_name": "西谷道",
+      "english_name": "Selkirk Road",
+      "history": [
+        {
+          "publication_date": "1951-05-18",
+          "change_kind": "declare",
+          "street_name_en": "Selkirk Road",
+          "street_name_zh": "西谷道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 522.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing at its junction with Cambridge Road, running in an easterly direction immediately south of and parallel to Hampshire Road and terminating at its junction with Oxford Road as shown coloured pink on plan R.K. 189 signed by Hon. D.P.W. and dated 18th April, 1951. Proposed Name: SELKIRK ROAD. Chinese Version: 西谷道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Cambridge Road", "Hampshire Road", "Oxford Road"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

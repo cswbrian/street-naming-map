@@ -1,0 +1,846 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn3531-tuen-mun",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3531",
+  "publication_date": "1984-11-30",
+  "gazette_url_en": "/egazette/en/1984-gn3531.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn3531.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1636.pdf",
+  "streets": [
+    {
+      "chinese_name": "青松徑",
+      "english_name": "Tsing Chung Path",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Chung Path",
+          "street_name_zh": "青松徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Path commencing at its junction with an unnamed road and running generally in a south-westerly direction for about 80 metres where it terminates near Ching Chung Koon Temple as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此徑由與一未命名道路交界處起，向西南伸展約80米，至青松觀附近止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12417"
+    },
+    {
+      "chinese_name": "震寰路",
+      "english_name": "Tsun Wen Road",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "extend",
+          "street_name_en": "Tsun Wen Road",
+          "street_name_zh": "震寰路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension to the existing TSUN WEN ROAD (which was gazetted vide G.N. 1189/77 and G.N. 326/83) running in a northerly direction for about 220 metres where it terminates as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此路乃現有震寰路之延展部份（公布於憲示第1189/77號及326/83號），向北伸展約220米，至盡頭處終止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12483"
+    },
+    {
+      "chinese_name": "建達街",
+      "english_name": "Kin Tat Street",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Kin Tat Street",
+          "street_name_zh": "建達街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with KIN TAI STREET and running generally in a west north-westerly direction for about 250 metres where it terminates at KIN FAT STREET as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此街由與建泰街交界處起，向西北偏西伸展約250米，至建發街止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Kin Tai Street",
+                "Kin Fat Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "慶平路",
+      "english_name": "Hing Ping Road",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Hing Ping Road",
+          "street_name_zh": "慶平路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with CASTLE PEAK ROAD SAN HUI and running in an easterly direction for about 35 metres; it then bends to run in a south-easterly direction for about 90 metres and then bends to run generally in an easterly direction for about 220 metres before it turns to run in a north-easterly direction for about 65 metres where it terminates near Fu Tei as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此路由與青山公路新墟段交界處起，向東伸展約35米，然後轉向東南伸展約90米，再轉向東伸展約220米，繼而轉向東北伸展約65米，至虎地附近止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Castle Peak Road San Hui"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10728"
+    },
+    {
+      "chinese_name": "青棉徑",
+      "english_name": "Tsing Min Path",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Min Path",
+          "street_name_zh": "青棉徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Path commencing at its junction with TSENG CHOI STREET and running in a southerly direction for about 140 metres where it terminates at its junction with an unnamed street as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此徑由與井財街之交界處起，向南伸展約140米，至與一條未命名街道之交界處止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tseng Choi Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12432"
+    },
+    {
+      "chinese_name": "井財街",
+      "english_name": "Tseng Choi Street",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tseng Choi Street",
+          "street_name_zh": "井財街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with an unnamed street and running in a south-westerly direction for about 140 metres; it then bends to run in a south south-westerly direction for about 500 metres and then bends to run generally in a south-easterly direction for about 35 metres where it re-joins the above unnamed street and terminates as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此街由與一未命名街道交界處起，向西南伸展約140米，然後向西南偏南伸展約500米，再轉向東南伸展約35米後，至與上述未命名街道之連接處止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12409"
+    },
+    {
+      "chinese_name": "青杏徑",
+      "english_name": "Tsing Hang Path",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Hang Path",
+          "street_name_zh": "青杏徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Path commencing at its junction with TSENG CHOI STREET and running in an east south-easterly direction for about 50 metres and then turns to run in a northerly direction for about 20 metres where it terminates as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此徑由與井財街交界處起，向東南偏東伸展約50米，然後轉向北伸展20米，至盡頭處終止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tseng Choi Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12421"
+    },
+    {
+      "chinese_name": "青菱徑",
+      "english_name": "Tsing Ling Path",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Ling Path",
+          "street_name_zh": "青菱徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Path commencing at its junction with TSING HANG PATH and running in a south south-westerly direction for about 150 metres where it terminates as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此徑由與青杏徑交界處起，向西南偏南伸展約150米，至盡頭處終止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tsing Hang Path"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12428"
+    },
+    {
+      "chinese_name": "青柏徑",
+      "english_name": "Tsing Pak Path",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Pak Path",
+          "street_name_zh": "青柏徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Path commencing at its junction with TSENG CHOI STREET and running in an east south-easterly direction for about 40 metres where it terminates at its junction with TSING LING PATH as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此徑由與井財街交界處起，向東南偏東伸展約40米，至與青菱徑交界處止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tseng Choi Street",
+                "Tsing Ling Path"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12435"
+    },
+    {
+      "chinese_name": "青葵徑",
+      "english_name": "Tsing Kwai Path",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Kwai Path",
+          "street_name_zh": "青葵徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Path commencing at its junction with TSING LING PATH and running in an east south-easterly direction for about 55 metres and then turns sharply to run in a northerly direction for about 55 metres where it terminates as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此徑由與青菱徑交界處起，向東南偏東伸展約55米，然後急轉向北伸展約55米，至盡頭處終止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tsing Ling Path"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12427"
+    },
+    {
+      "chinese_name": "新墟徑",
+      "english_name": "San Hui Path",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "San Hui Path",
+          "street_name_zh": "新墟徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Path commencing at its junction with an unnamed street opposite TSING KWAI PATH and running in a south-easterly direction for about 150 metres; it then turns to run in a south south-westerly direction for about 130 metres before it bends to run in a west north-westerly direction for about 150 metres where it re-joins the above unnamed street and terminates as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此徑由與青葵徑對面一未命名街道交界處起，向東南伸展約150米，然後改向西南偏南伸展約130米，再轉向西北偏西伸展約150米，至與上述未命名街道之連接處止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tsing Kwai Path"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11890"
+    },
+    {
+      "chinese_name": "屯隆街",
+      "english_name": "Tuen Lung Street",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tuen Lung Street",
+          "street_name_zh": "屯隆街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TUEN MUN HEUNG SZE WUI ROAD running in an east north-easterly direction for about 160 metres where it terminates at its junction with an unnamed street as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此街由屯門鄉事會路交界處起，向東北偏東伸展約160米，至與一條未命名街道交界處止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tuen Mun Heung Sze Wui Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12502"
+    },
+    {
+      "chinese_name": "屯發路",
+      "english_name": "Tuen Fat Road",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tuen Fat Road",
+          "street_name_zh": "屯發路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing near Wong Ka Wai and running in a south south-easterly direction for about 360 metres where it terminates at its junction with TUEN LEE STREET as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此路由黃家圍附近起，向東南偏南伸展約360米，至與屯利街交界處止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tuen Lee Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12497"
+    },
+    {
+      "chinese_name": "屯盛街",
+      "english_name": "Tuen Shing Street",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tuen Shing Street",
+          "street_name_zh": "屯盛街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TUEN FAT ROAD and running in an east north-easterly direction for about 140 metres where it terminates at its junction with CASTLE PEAK ROAD CASTLE PEAK BAY near milestone 20 as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此街由與屯發路交界處起，向東北偏東伸展約140米，至與青山公路青山灣段近二十咪交界處止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tuen Fat Road",
+                "Castle Peak Road Castle Peak Bay"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12505"
+    },
+    {
+      "chinese_name": "屯利街",
+      "english_name": "Tuen Lee Street",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tuen Lee Street",
+          "street_name_zh": "屯利街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TUEN FAT ROAD and running in an east north-easterly direction for about 175 metres where it terminates at its junction with CASTLE PEAK ROAD CASTLE PEAK BAY as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此街由與屯發路交界處起，向東北偏東伸展約175米，至與青山公路青山灣段交界處止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tuen Fat Road",
+                "Castle Peak Road Castle Peak Bay"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12501"
+    },
+    {
+      "chinese_name": "青湖坊",
+      "english_name": "Tsing Wu Square",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Wu Square",
+          "street_name_zh": "青湖坊",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Square commencing at its junction with TSING HOI CIRCUIT and extending generally in a south south-easterly direction for about 60 metres where it terminates at one end at its junction with TSING HOI CIRCUIT and at the other end at its junction with TSING SHAN SQUARE as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此坊一端至與青海圍交界處止，另一端則至與青山坊交界處止，長約60米。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tsing Hoi Circuit",
+                "Tsing Shan Square"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12444"
+    },
+    {
+      "chinese_name": "青山坊",
+      "english_name": "Tsing Shan Square",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Shan Square",
+          "street_name_zh": "青山坊",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Square commencing at its junction with TSING HOI CIRCUIT and extending generally in a south south-easterly direction for about 100 metres and then bends to run generally in an east north-easterly direction for about 40 metres where it terminates at its junction with CASTLE PEAK ROAD CASTLE PEAK BAY as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此坊由與青海圍交界處起，向東南偏南伸展約100米，然後轉向東北偏東伸展約40米，至與青山公路青山灣段交界處止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tsing Hoi Circuit",
+                "Castle Peak Road Castle Peak Bay"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12437"
+    },
+    {
+      "chinese_name": "青海圍",
+      "english_name": "Tsing Hoi Circuit",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Hoi Circuit",
+          "street_name_zh": "青海圍",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Circuit commencing at its junction with CASTLE PEAK ROAD CASTLE PEAK BAY and running in a west south-westerly direction for about 180 metres; it then bends to run in a south south-easterly direction for about 350 metres and then bends to run in an east north-easterly direction for about 170 metres where it re-joins CASTLE PEAK ROAD CASTLE PEAK BAY and terminates as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此圍由與青山公路青山灣段交界處起，向西南偏西伸展約180米，然後轉向東南偏南伸展約350米，再轉向東北偏東伸展約170米，至與青山公路青山灣段重接處止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Castle Peak Road Castle Peak Bay"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12423"
+    },
+    {
+      "chinese_name": "青河坊",
+      "english_name": "Tsing Hoi Square",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Hoi Square",
+          "street_name_zh": "青河坊",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Square commencing at its junction with TSING HOI CIRCUIT and running in an east north-easterly direction for about 45 metres; it then bends to extend in a south south-easterly direction for about 40 metres and bends to run in a west south-westerly direction for about 45 metres where it re-joins TSING HOI CIRCUIT and terminates as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此坊由與青海圍交界處起，向東北偏東伸展約45米，然後轉向東南偏南伸展約40米，再轉向西南偏西伸展約45米，至與青海圍交界處止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tsing Hoi Circuit"
+              ]
+            }
+          },
+          "submitter_remarks": "Gazette EN Tsing Hoi Square; ZH 青河坊; geojson EN Tsing Ho Square."
+        }
+      ],
+      "link_street_code": "12422",
+      "submitter_remarks": "Gazette EN Tsing Hoi Square; ZH 青河坊; geojson EN Tsing Ho Square."
+    },
+    {
+      "chinese_name": "青匯街",
+      "english_name": "Tsing Wui Street",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Wui Street",
+          "street_name_zh": "青匯街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with CASTLE PEAK ROAD CASTLE PEAK BAY and running in a west south-westerly direction for about 75 metres; it then bends to run in a south south-easterly direction for about 95 metres and then bends to run in an east north-easterly direction for about 75 metres where it re-joins CASTLE PEAK ROAD CASTLE PEAK BAY and terminates as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此街由與青山公路青山灣段交界處起，向西南偏西伸展約75米，然後轉向東南偏南伸展約95米，再轉向東北偏東伸展約75米，至與青山公路青山灣段交界處止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Castle Peak Road Castle Peak Bay"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12445"
+    },
+    {
+      "chinese_name": "皇珠路",
+      "english_name": "Wong Chu Road",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Wong Chu Road",
+          "street_name_zh": "皇珠路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with TUEN MUN ROAD and running generally in a westerly direction for about 955 metres and then curves slightly to run in a west north-westerly direction for about 300 metres where it terminates at its junction with TIN HAU ROAD as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此路由與屯門公路交界處起，向西伸展約955米，然後稍為轉向西北偏西伸展約300米，至與天后路交界處止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tuen Mun Road",
+                "Tin Hau Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12774"
+    },
+    {
+      "chinese_name": "青善街",
+      "english_name": "Tsing Sin Street",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Sin Street",
+          "street_name_zh": "青善街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TSING HOI CIRCUIT and running in a south south-easterly direction for about 160 metres and then bends to run in a west south-westerly direction for about 50 metres; it then bends to run in a north north-westerly direction for about 100 metres before it bends again to run in an east north-easterly direction for about 60 metres where it re-joins itself and terminates as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此街由與青海圍交界處起，向東南偏南伸展約160米，然後轉向西南偏西伸展約50米，再轉向西北偏北伸展約100米，再轉向東北偏東伸展約60米，至與其本身連接處止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tsing Hoi Circuit"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12438"
+    },
+    {
+      "chinese_name": "三聖街",
+      "english_name": "Sam Shing Street",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Sam Shing Street",
+          "street_name_zh": "三聖街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with CASTLE PEAK ROAD CASTLE PEAK BAY near milestone 19 and running in a south-westerly direction for about 175 metres; it then bends to run in a north north-westerly direction for about 215 metres before it bends to run in a north-easterly direction for about 160 metres where it terminates as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此街由與青山公路青山灣段近十九咪交界處起，向西南伸展約175米，然後轉向西北偏北伸展約215米，再轉向東北伸展約160米，至盡頭處終止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Castle Peak Road Castle Peak Bay"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11876"
+    },
+    {
+      "chinese_name": "青榕街",
+      "english_name": "Tsing Yung Street",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Yung Street",
+          "street_name_zh": "青榕街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with CASTLE PEAK ROAD CASTLE PEAK BAY and running in a north-easterly direction for about 90 metres; it then curves to run generally in a north-westerly direction for about 320 metres before it curves to run in a north north-easterly direction for about 90 metres where it terminates by the side of TUEN MUN ROAD as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此街由與青山公路青山灣段交界處起，大致向東北伸展約90米，然後轉向西北伸展約320米，再轉向東北偏北伸展約90米，至屯門公路旁止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Castle Peak Road Castle Peak Bay",
+                "Tuen Mun Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12455"
+    },
+    {
+      "chinese_name": "湖山路",
+      "english_name": "Wu Shan Road",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Wu Shan Road",
+          "street_name_zh": "湖山路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with LUNG MUN ROAD and running in an east south-easterly direction for about 430 metres where it terminates at its junction with WU KING ROAD as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此路由與龍門路交界處起，向東南偏東伸展約430米，至與湖景路交界處止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Lung Mun Road",
+                "Wu King Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12798"
+    },
+    {
+      "chinese_name": "湖景路",
+      "english_name": "Wu King Road",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Wu King Road",
+          "street_name_zh": "湖景路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with WU SHAN ROAD and running in a south south-westerly direction for about 520 metres where it terminates as shown coloured pink and hatched black on Plan No. TMRM11B.",
+            "description_raw_zh": "此路由與湖山路交界處起，向西南偏南伸展約520米，至盡頭處終止。在 TMRM 11B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM11B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wu Shan Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12794"
+    }
+  ]
+}

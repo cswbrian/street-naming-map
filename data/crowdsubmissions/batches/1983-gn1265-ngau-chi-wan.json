@@ -1,0 +1,215 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn1265-ngau-chi-wan",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1265",
+  "publication_date": "1983-04-22",
+  "gazette_url_en": "/egazette/en/1983-gn1265.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn1265.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1540.pdf",
+  "streets": [
+    {
+      "chinese_name": "龍池徑",
+      "english_name": "Lung Chi Path",
+      "link_street_code": "11309",
+      "history": [
+        {
+          "publication_date": "1983-04-22",
+          "change_kind": "declare",
+          "street_name_en": "Lung Chi Path",
+          "street_name_zh": "龍池徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured yellow on drawing No. KH3670B Commencing in the north western end of Ngau Chi Wan Village near Lung Cheung Road and running south-eastwards for about 240 metres and terminating near the proposed Ngau Chi Wan Market.",
+            "description_raw_zh": "此街道在 KH 3670 B 號圖則上係用黃色標明，由牛池灣村之西北末端近龍翔道起，向東南伸展約二百四十米，至近擬設之牛池灣街市處止。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH3670B",
+                  "color": "yellow"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "富池徑",
+      "english_name": "Fu Chi Path",
+      "link_street_code": "10517",
+      "history": [
+        {
+          "publication_date": "1983-04-22",
+          "change_kind": "declare",
+          "street_name_en": "Fu Chi Path",
+          "street_name_zh": "富池徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare to the west of Kwai Chi Path as shown coloured blue on drawing No. KH3670B commencing at its junction with Lung Chi Path running south-westwards for about 25 metres and terminating with its junction on Lung Cheung Road.",
+            "description_raw_zh": "此街道在貴池徑以西，在 KH 3670 B 號圖則上係以藍色標明，起點與龍池徑連接，向西南伸展約二十五米，至與龍翔道交接處止。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH3670B",
+                  "color": "blue"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "貴池徑",
+      "english_name": "Kwai Chi Path",
+      "link_street_code": "11077",
+      "history": [
+        {
+          "publication_date": "1983-04-22",
+          "change_kind": "declare",
+          "street_name_en": "Kwai Chi Path",
+          "street_name_zh": "貴池徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare to the east of Fu Chi Path as shown coloured grey on drawing No. KH3670B commencing at its junction with Lung Chi Path running south-westwards for about 27 metres and terminating near the proposed rest garden.",
+            "description_raw_zh": "此街道在富池徑以東，在 KH 3670 B 號圖則上係以灰色標明，起點與龍池徑連接，向西南伸展約二十七米，至近擬設之休憩花園處止。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH3670B",
+                  "color": "grey"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "榮池徑",
+      "english_name": "Wing Chi Path",
+      "link_street_code": "12713",
+      "history": [
+        {
+          "publication_date": "1983-04-22",
+          "change_kind": "declare",
+          "street_name_en": "Wing Chi Path",
+          "street_name_zh": "榮池徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare to the east of Kwai Chi Path as shown coloured red on drawing No. KH3670B commencing at its junction with Lung Chi Path running south-westwards for about 50 metres to terminate at its junction with Lung Cheung Road.",
+            "description_raw_zh": "此街道在貴池徑以東，在 KH 3670 B 號圖則上係以紅色標明，起點與龍池徑連接，向西南伸展約五十米，至與龍翔道交接處止。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH3670B",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "華池徑",
+      "english_name": "Wah Chi Path",
+      "link_street_code": "12589",
+      "history": [
+        {
+          "publication_date": "1983-04-22",
+          "change_kind": "declare",
+          "street_name_en": "Wah Chi Path",
+          "street_name_zh": "華池徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured brown on drawing No. KH3670B commencing at its junction with Kam Chi Path and running south-westwards for about 40 metres to terminate at its junction with Lung Cheung Road.",
+            "description_raw_zh": "此街道在 KH 3670 B 號圖則上係以啡色標明，起點與金池徑連接，向西南伸展約四十米，至與龍翔道交接處止。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH3670B",
+                  "color": "brown"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "金池徑",
+      "english_name": "Kam Chi Path",
+      "link_street_code": "10950",
+      "history": [
+        {
+          "publication_date": "1983-04-22",
+          "change_kind": "declare",
+          "street_name_en": "Kam Chi Path",
+          "street_name_zh": "金池徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured green on drawing No. KH3670B commencing at its junction with Wing Chi Path and running south-eastwards for about 117 metres to terminate near the proposed Ngau Chi Wan Market. This pedestrian way includes both sides of the proposed Village Square.",
+            "description_raw_zh": "此街道在 KH 3670 B 號圖則上係以綠色標明，起點與榮池徑連接，向東南伸展約一百一十七米，至近擬設之牛池灣街市處止。此行人道範圍包括擬設之鄉村廣場兩旁。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH3670B",
+                  "color": "green"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "銀池徑",
+      "english_name": "Ngan Chi Path",
+      "link_street_code": "11519",
+      "history": [
+        {
+          "publication_date": "1983-04-22",
+          "change_kind": "declare",
+          "street_name_en": "Ngan Chi Path",
+          "street_name_zh": "銀池徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured orange on drawing No. KH3670B commencing at its junction with Wah Chi Path and running north-westwards for about 30 metres to terminate at its junction with Lung Cheung Road.",
+            "description_raw_zh": "此街道在 KH 3670 B 號圖則上係以橙色標明，起點與華池徑連接，向西北伸展約三十米，至與龍翔道交接處止。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH3670B"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

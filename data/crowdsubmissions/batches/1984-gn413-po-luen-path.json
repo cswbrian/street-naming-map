@@ -1,0 +1,46 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn413-po-luen-path",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.413",
+  "publication_date": "1984-02-10",
+  "gazette_url_en": "/egazette/en/1984-gn413.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn413.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1607.pdf",
+  "streets": [
+    {
+      "chinese_name": "寶聯徑",
+      "english_name": "Po Luen Path",
+      "link_street_code": "11745",
+      "history": [
+        {
+          "publication_date": "1984-02-10",
+          "change_kind": "declare",
+          "street_name_en": "Po Luen Path",
+          "street_name_zh": "寶聯徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "A cul-de-sac commencing at its junction with Tin Hau Temple Road running southerly for 110 metres, as shown coloured green on drawing No. HH 4410.",
+            "description_raw_zh": "此死巷由與天后廟道交界處起，向南伸展一百一十米，其位置於HH 4410號圖則上以綠色標明。",
+            "parsed": {
+              "length_m": 110,
+              "length_unit": "m",
+              "plan_refs": [
+                {
+                  "label": "HH 4410",
+                  "color": "green"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tin Hau Temple Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

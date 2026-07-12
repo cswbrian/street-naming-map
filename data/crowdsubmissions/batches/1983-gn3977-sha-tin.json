@@ -1,0 +1,270 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn3977-sha-tin",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3977",
+  "publication_date": "1983-12-23",
+  "gazette_url_en": "/egazette/en/1983-gn3977.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn3977.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1603.pdf",
+  "streets": [
+    {
+      "chinese_name": "車公廟路",
+      "english_name": "Che Kung Miu Road",
+      "history": [
+        {
+          "publication_date": "1983-12-23",
+          "change_kind": "extend",
+          "street_name_en": "Che Kung Miu Road",
+          "street_name_zh": "車公廟路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension to the existing CHE KUNG MIU ROAD running in a westerly direction for about 100 metres; it then turns to run west south-westerly for about 1 190 metres and then bends to run south south-westerly for about 230 metres before it turns to run south-westerly for about 580 metres where it terminates at a turning circle as shown coloured pink and hatched black on Plan No. STRM 1004.",
+            "description_raw_zh": "此路乃現有車公廟路之延續，向西伸展約一百米，然後向西南偏西伸展約一千一百九十米，再向西南偏南伸展約二百三十米後，然後向西南伸展約五百八十米至一迴旋處止。在STRM 1004號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1004",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Che Kung Miu Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10169"
+    },
+    {
+      "chinese_name": "紅梅谷路",
+      "english_name": "Hung Mui Kuk Road",
+      "history": [
+        {
+          "publication_date": "1983-12-23",
+          "change_kind": "extend",
+          "street_name_en": "Hung Mui Kuk Road",
+          "street_name_zh": "紅梅谷路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension to the existing HUNG MUI KUK ROAD running in a north north-westerly direction for about 50 metres; it then turns to run north north-easterly for about 280 metres and then bends to run north north-westerly for about 330 metres where it terminates at its junction with CHE KUNG MIU ROAD as shown coloured pink and hatched black on Plan No. STRM 1004.",
+            "description_raw_zh": "此路乃現有紅梅谷路之延續，向西北偏北伸展約五十米，然後向東北偏北伸展約二百八十米，再向西北偏北伸展約三百三十米至與車公廟路之交界處止。在STRM 1004號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1004",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hung Mui Kuk Road",
+                "Che Kung Miu Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10872"
+    },
+    {
+      "chinese_name": "田心街",
+      "english_name": "Tin Sam Street",
+      "history": [
+        {
+          "publication_date": "1983-12-23",
+          "change_kind": "declare",
+          "street_name_en": "Tin Sam Street",
+          "street_name_zh": "田心街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with HUNG MUI KUK ROAD and running in a west south-westerly direction for about 475 metres, it then turns to run west north-westerly for about 160 metres where it terminates at its junction with CHE KUNG MIU ROAD as shown coloured pink and hatched black on Plan No. STRM 1004.",
+            "description_raw_zh": "此街由與紅梅谷路之交界處起，向西南偏西伸展約四百七十五米，再向西北偏西伸展約一百六十米至與車公廟路之交界處止。在STRM 1004號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1004",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hung Mui Kuk Road",
+                "Che Kung Miu Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12365"
+    },
+    {
+      "chinese_name": "香粉寮街",
+      "english_name": "Heung Fan Liu Street",
+      "history": [
+        {
+          "publication_date": "1983-12-23",
+          "change_kind": "declare",
+          "street_name_en": "Heung Fan Liu Street",
+          "street_name_zh": "香粉寮街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with an unnamed road and running in a west south-westerly direction for about 625 metres where it terminates at a turning circle as shown coloured pink and hatched black on Plan No. STRM 1004.",
+            "description_raw_zh": "此街由與一未命名道路之交界處起，向西南偏西伸展約六百二十五米至一迴旋處止。在STRM 1004號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1004",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "10692"
+    },
+    {
+      "chinese_name": "豐順街",
+      "english_name": "Fung Shun Street",
+      "history": [
+        {
+          "publication_date": "1983-12-23",
+          "change_kind": "declare",
+          "street_name_en": "Fung Shun Street",
+          "street_name_zh": "豐順街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with WO CHE STREET and running in a north-easterly direction for about 345 metres; it then turns to run northerly for about 60 metres and then turns to run north-easterly for about 60 metres before it turns to run south-easterly for about 24 metres where it terminates at a turn around as shown coloured pink and hatched black on Plan No. LD/ST/R35.",
+            "description_raw_zh": "此街由與禾輋街之交界處起，向東北伸展約三百四十五米，然後向北伸展約六十米，再向東北伸展約六十米後，轉向東南伸展約二十四米至其迴旋處止。在LD/ST/R35號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/ST/R35",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wo Che Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10583"
+    },
+    {
+      "chinese_name": "豐禾里",
+      "english_name": "Fung Wo Lane",
+      "history": [
+        {
+          "publication_date": "1983-12-23",
+          "change_kind": "declare",
+          "street_name_en": "Fung Wo Lane",
+          "street_name_zh": "豐禾里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Lane commencing at its junction with FUNG SHUN STREET and running in a north-westerly direction for about 72 metres where it terminates at its closed end as shown coloured pink and hatched black on Plan No. LD/ST/R35.",
+            "description_raw_zh": "此里由與豐順街之交界處起，向西北伸展約七十二米至其盡頭處止。在LD/ST/R35號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/ST/R35",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Fung Shun Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10588"
+    },
+    {
+      "chinese_name": "德厚街",
+      "english_name": "Tak Hau Street",
+      "history": [
+        {
+          "publication_date": "1983-12-23",
+          "change_kind": "declare",
+          "street_name_en": "Tak Hau Street",
+          "street_name_zh": "德厚街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with FUNG SHUN STREET and running in a south-easterly direction for about 186 metres where it terminates at its junction with YUEN WO ROAD as shown coloured pink and hatched black on Plan No. LD/ST/R35.",
+            "description_raw_zh": "此街由與豐順街之交界處起，向東南伸展約一百八十六米至與源禾路之交界處止。在LD/ST/R35號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/ST/R35",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Fung Shun Street",
+                "Yuen Wo Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12304"
+    },
+    {
+      "chinese_name": "協欣街",
+      "english_name": "Hip Yan Street",
+      "history": [
+        {
+          "publication_date": "1983-12-23",
+          "change_kind": "declare",
+          "street_name_en": "Hip Yan Street",
+          "street_name_zh": "協欣街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TAK HAU STREET and running in a north-easterly direction for about 265 metres; it then turns to run north-westerly for about 100 metres and then bends to run north-easterly for about 48 metres before it turns to run south-easterly for about 128 metres; it then bends to run south-westerly for about 48 metres before it turns again to run north-westerly for about 28 metres where it rejoins itself and terminates as shown coloured pink and hatched black on Plan No. LD/ST/R35.",
+            "description_raw_zh": "此街由與德厚街之交界處起，向東北伸展約二百六十五米，然後向西北伸展約一百米，再向東北伸展約四十八米後，轉向東南伸展約一百二十八米，再向西南伸展約四十八米，然後向西北伸展約二十八米接回本街而終止。在LD/ST/R35號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/ST/R35",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tak Hau Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10740"
+    }
+  ]
+}

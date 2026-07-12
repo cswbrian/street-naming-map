@@ -1,0 +1,90 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1952-gn1173-braemar-hill-roads",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1173",
+  "publication_date": "1952-10-10",
+  "gazette_url_en": "/egazette/en/1952-gn1173.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1952-gn1173.pdf",
+  "streets": [
+    {
+      "chinese_name": "燕子道",
+      "english_name": "Swallow Road",
+      "history": [
+        {
+          "submission_id": "1952-gn1173-swallow-road-1952-10-10",
+          "publication_date": "1952-10-10",
+          "change_kind": "declare",
+          "street_name_en": "Swallow Road",
+          "street_name_zh": "燕子道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "submitter_remarks": "No current LandsD centreline for Swallow Road / 燕子道 (I.L. 1705 notice); events-only until linker finds identity.",
+          "gazette_location": {
+            "description_raw_en": "No. 1173.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road within I.L. 1705 commencing at the western boundary of I.L. 1705 running in a northeasterly direction immediately south-east of and parallel to King's Road and terminating at the eastern boundary of I.L. 1705 as shown coloured yellow on the plan No. R.H. 355 signed by Hon. Director of Public Works and dated 1st October, 1952. Proposed Name: SWALLOW ROAD. Chinese Version: 燕子道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "King's Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "鷹道",
+      "english_name": "Eagle Road",
+      "history": [
+        {
+          "submission_id": "1952-gn1173-eagle-road-1952-10-10",
+          "publication_date": "1952-10-10",
+          "change_kind": "declare",
+          "street_name_en": "Eagle Road",
+          "street_name_zh": "鷹道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "submitter_remarks": "No current LandsD centreline for Eagle Road / 鷹道 (I.L. 1705 notice); events-only until linker finds identity.",
+          "gazette_location": {
+            "description_raw_en": "No. 1173.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road within I.L. 1705 commencing at the western boundary of I.L. 1705 running in a northeasterly direction immediately south-east of and parallel to Swallow Road and terminating at eastern boundary of I.L. 1705 as shown coloured green on the plan No. R.H. 355 signed by Hon. Director of Public Works and dated 1st October, 1952. Proposed Name: EAGLE ROAD. Chinese Version: 鷹道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Swallow Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11668",
+      "chinese_name": "孔雀道",
+      "english_name": "Peacock Road",
+      "history": [
+        {
+          "submission_id": "1952-gn1173-peacock-road-1952-10-10",
+          "publication_date": "1952-10-10",
+          "change_kind": "declare",
+          "street_name_en": "Peacock Road",
+          "street_name_zh": "孔雀道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1173.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road within I.L. 1705 commencing at its junction with King's Road, running in a southeasterly direction, then in a south-westerly direction, then again in a southeasterly direction bordering the western boundary of the lot, then in a northeasterly direction bordering the eastern boundary of the lot and then in a southwesterly direction and terminating at the western boundary of I.L. 1705 as shown coloured pink on the plan No. R.H. 355 signed by Hon. Director of Public Works and dated 1st October, 1952. Proposed Name: PEACOCK ROAD. Chinese Version: 孔雀道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "King's Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

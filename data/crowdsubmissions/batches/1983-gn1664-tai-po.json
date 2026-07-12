@@ -1,0 +1,77 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn1664-tai-po",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1664",
+  "publication_date": "1983-05-27",
+  "gazette_url_en": "/egazette/en/1983-gn1664.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn1664.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1546.pdf",
+  "streets": [
+    {
+      "chinese_name": "燕子里",
+      "english_name": "Yin Tse Lane",
+      "history": [
+        {
+          "publication_date": "1983-05-27",
+          "change_kind": "declare",
+          "street_name_en": "Yin Tse Lane",
+          "street_name_zh": "燕子里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with TAI PO ROAD TAI PO KAU and running in a generally easterly direction for about 260 metres where it terminates as shown coloured pink and hatched black on drawing No. LD/TP/R60.",
+            "description_raw_zh": "該街道由與大埔公路大埔滘段交界處起向東伸展約二百六十米而終止。在 LD/TP/R60號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/TP/R60",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tai Po Road Tai Po Kau"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12869"
+    },
+    {
+      "chinese_name": "瞭望里",
+      "english_name": "Lookout Link",
+      "history": [
+        {
+          "publication_date": "1983-05-27",
+          "change_kind": "declare",
+          "street_name_en": "Lookout Link",
+          "street_name_zh": "瞭望里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with TAI PO ROAD TAI PO KAU and running in a north-easterly direction for about 260 metres; it then bends to run south-easterly for about 120 metres where it terminates as shown coloured pink and hatched black on drawing No. LD/TP/R61.",
+            "description_raw_zh": "該街道由與大埔公路大埔滘段交界處起向東北伸展約二百六十米，然後順屈向東南伸展約一百二十米而終止。在 LD/TP/R61 號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/TP/R61",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tai Po Road Tai Po Kau"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11280"
+    }
+  ]
+}

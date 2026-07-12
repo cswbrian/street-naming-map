@@ -1,0 +1,40 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn710-aberdeen-reservoir",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.710",
+  "publication_date": "1984-03-09",
+  "gazette_url_en": "/egazette/en/1984-gn710.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn710.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1611(1).pdf",
+  "streets": [
+    {
+      "chinese_name": "香港仔水塘道",
+      "english_name": "Aberdeen Reservoir Road",
+      "link_street_code": "10007",
+      "history": [
+        {
+          "publication_date": "1984-03-09",
+          "change_kind": "rename",
+          "street_name_en": "Aberdeen Reservoir Road",
+          "street_name_zh": "香港仔水塘道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "With reference to G.N. 45 dated 6 January 1984, it is hereby notified under section 111C(1)(b) of the Public Health and Urban Services Ordinance, Chapter 132, that the Chinese name of Aberdeen Reservoir Road has been changed from '押巴甸水塘道' to '香港仔水塘道' with immediate effect.",
+            "description_raw_zh": "茲參照一九八四年一月六日刊出憲示第四十五號，根據香港法例第一三二章公眾衞生及市政條例第一一一C條第(1)款(b)段之規定，公佈將「押巴甸水塘道」改為「香港仔水塘道」，由即日起生效。",
+            "parsed": {
+              "plan_refs": [],
+              "referenced_streets_en": []
+            }
+          },
+          "previous_street_name_en": "Aberdeen Reservoir Road",
+          "previous_street_name_zh": "押巴甸水塘道",
+          "submitter_remarks": "ZH-only rename finalizing G.N.45 intention; EN unchanged."
+        }
+      ]
+    }
+  ]
+}

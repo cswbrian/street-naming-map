@@ -1,0 +1,46 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1955-gn925-bristol-avenue",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.925",
+  "publication_date": "1955-08-19",
+  "gazette_url_en": "/egazette/en/1955-gn925.pdf",
+  "gazette_url_zh": "/egazette/zh/1955-gn925.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1955-gn925.pdf",
+  "streets": [
+    {
+      "chinese_name": "碧仙桃路",
+      "english_name": "Bristol Avenue",
+      "history": [
+        {
+          "publication_date": "1955-08-19",
+          "change_kind": "declare",
+          "street_name_en": "Bristol Avenue",
+          "street_name_zh": "碧仙桃路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 925.—It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Description: Road about 72 yards to the East of Nathan Road and parallel to it, commencing at its junction with Mody Road running in a Northerly direction and terminating at its junction with Carnarvon Road as shewn coloured red on plan No. R.K. 625. English Name: BRISTOL AVENUE. Chinese Name: 碧仙桃路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 625",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Nathan Road",
+                "Mody Road",
+                "Carnarvon Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10090"
+    }
+  ]
+}

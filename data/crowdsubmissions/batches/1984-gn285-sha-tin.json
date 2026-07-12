@@ -1,0 +1,174 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn285-sha-tin",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.285",
+  "publication_date": "1984-01-27",
+  "gazette_url_en": "/egazette/en/1984-gn285.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn285.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1606.pdf",
+  "streets": [
+    {
+      "chinese_name": "穗禾路",
+      "english_name": "Sui Wo Road",
+      "link_street_code": "12174",
+      "history": [
+        {
+          "publication_date": "1984-01-27",
+          "change_kind": "extend",
+          "street_name_en": "Sui Wo Road",
+          "street_name_zh": "穗禾路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension to the existing SUI WO ROAD running in a south south-westerly direction for about 210 metres and then curves to run west south-westerly for about 120 metres; it then turns to run north north-westerly for about 170 metres before it turns to run generally westerly for about 350 metres; it then curves to run southerly for about 150 metres and then turns to run easterly for about 270 metres before it bends to run southerly for about 140 metres where it terminates at its closed end as shown coloured pink and hatched black on Plan No. LD/ST/R32.",
+            "description_raw_zh": "此路乃現有穗禾路之延續，向西南偏南伸展約二百一十米，然後向西南偏西伸展約一百二十米，再向西北偏北伸展約一百七十米後，大致轉向西伸展約三百五十米，再向南伸展約一百五十米，然後向東伸展約二百七十米，再向南伸展一百四十米至其盡頭處止。在 LD/ST/R32 號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/ST/R32",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "美禾圍",
+      "english_name": "Mei Wo Circuit",
+      "link_street_code": "11418",
+      "history": [
+        {
+          "publication_date": "1984-01-27",
+          "change_kind": "declare",
+          "street_name_en": "Mei Wo Circuit",
+          "street_name_zh": "美禾圍",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Circuit commencing at its junction with SUI WO ROAD and running in a northerly direction for about 40 metres and then turns to run westerly for about 65 metres; it then turns to run northerly for about 60 metres before it bends to run easterly for about 130 metres; it then turns to run southerly for about 60 metres and then turns to run westerly for about 65 metres where it rejoins itself and terminates as shown coloured pink and hatched black on Plan No. LD/ST/R32.",
+            "description_raw_zh": "此圍由與穗禾路之交界處起，向北伸展約四十米，然後向西伸展約六十五米，再向北伸展約六十米後向東伸展約一百三十米，再向南伸展約六十米，然後向西伸展約六十五米接回本圍而終止。在 LD/ST/R32 號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/ST/R32",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sui Wo Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "麗禾里",
+      "english_name": "Lai Wo Lane",
+      "link_street_code": "11164",
+      "history": [
+        {
+          "publication_date": "1984-01-27",
+          "change_kind": "declare",
+          "street_name_en": "Lai Wo Lane",
+          "street_name_zh": "麗禾里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Lane commencing at its junction with SUI WO ROAD and running in a southerly direction for about 80 metres and then turns to run easterly for about 70 metres where it terminates at its closed end as shown coloured pink and hatched black on Plan No. LD/ST/R32.",
+            "description_raw_zh": "此里由與穗禾路之交界處起，向南伸展約八十米，然後向東伸展約七十米，至其盡頭處止。在 LD/ST/R32 號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/ST/R32",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sui Wo Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "崗背街",
+      "english_name": "Kong Pui Street",
+      "link_street_code": "11059",
+      "history": [
+        {
+          "publication_date": "1984-01-27",
+          "change_kind": "declare",
+          "street_name_en": "Kong Pui Street",
+          "street_name_zh": "崗背街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with YUEN CHAU KOK ROAD about 80 metres from TAI CHUNG KIU ROAD and running in a south-westerly direction for about 180 metres and then turns to run south-easterly for about 300 metres before it turns to run north-easterly for about 180 metres where it terminates at its junction with YUEN CHAU KOK ROAD as shown coloured pink and hatched black on Plan No. STRM 1001.",
+            "description_raw_zh": "此街由與圓洲角路距離大涌橋路約八十米之交界處起，向西南伸展約一百八十米，然後向東南伸展約三百米，再向東北伸展約一百八十米至與圓洲角路交界處止。在 STRM 1001 號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1001",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Yuen Chau Kok Road",
+                "Tai Chung Kiu Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "怡成坊",
+      "english_name": "Yi Shing Square",
+      "link_street_code": "12861",
+      "history": [
+        {
+          "publication_date": "1984-01-27",
+          "change_kind": "declare",
+          "street_name_en": "Yi Shing Square",
+          "street_name_zh": "怡成坊",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Square commencing at its junction with the south-western bend of KONG PUI STREET and running in a south-westerly direction for about 70 metres and then turns to run south-easterly for about 140 metres before it turns to run north-easterly for about 70 metres where it terminates at its junction with KONG PUI STREET as shown coloured pink and hatched black on Plan No. STRM 1001.",
+            "description_raw_zh": "此坊由與崗背街之西南彎角交界處起，向西南伸展約七十米，然後向東南伸展約四十米，再向東北伸展約七十米，至與崗背街交界處止。在 STRM 1001 號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1001",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Kong Pui Street"
+              ]
+            }
+          },
+          "submitter_remarks": "Gazette EN middle leg about 140 metres; ZH 約四十米."
+        }
+      ],
+      "submitter_remarks": "Gazette EN middle leg about 140 metres; ZH 約四十米."
+    }
+  ]
+}

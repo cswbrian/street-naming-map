@@ -1,0 +1,44 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1953-gn472-carmel-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.472",
+  "publication_date": "1953-04-10",
+  "gazette_url_en": "/egazette/en/1953-gn472.pdf",
+  "gazette_url_zh": "/egazette/zh/1953-gn472.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1953-gn472.pdf",
+  "streets": [
+    {
+      "link_street_code": "10121",
+      "chinese_name": "佳美道",
+      "english_name": "Carmel Road",
+      "history": [
+        {
+          "publication_date": "1953-04-10",
+          "change_kind": "declare",
+          "street_name_en": "Carmel Road",
+          "street_name_zh": "佳美道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 472.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Description: Road between R.B.L.s 624 and 252 commencing at its junction with Stanley Village Road, running in a southwesterly direction, then westward, then northwestward and terminating at a point west of R.B.L. 566 as shown coloured pink on the plan No. R.H. 397 signed by Hon. Director of Public Works and dated 30th March, 1953. Proposed Name: CARMEL ROAD. Chinese Version: 佳美道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 397",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Stanley Village Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

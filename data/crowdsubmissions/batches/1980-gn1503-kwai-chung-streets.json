@@ -1,0 +1,192 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1980-gn1503-kwai-chung-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1503",
+  "publication_date": "1980-05-16",
+  "gazette_url_en": "/egazette/en/1980-gn1503.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1980/Scanned_20260711-1416.pdf",
+  "streets": [
+    {
+      "chinese_name": "荔枝嶺路",
+      "english_name": "Lai Chi Ling Road",
+      "history": [
+        {
+          "publication_date": "1980-05-16",
+          "change_kind": "declare",
+          "street_name_en": "Lai Chi Ling Road",
+          "street_name_zh": "荔枝嶺路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1503.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Thoroughfare commencing at its junction with WAH YU ROAD and running in a south south-west direction for about 83 metres, then it turns to run generally southerly for about 146 metres where it bends to run in a south south-easterly direction for about 67 metres then it turns again to run southerly for about 286 metres and then bends to run in a south-westerly direction for about 61 metres where it temporarily terminates as shown coloured red and hatched black on Drawing No. NTA/TW/R84B. Proposed Name: LAI CHI LING ROAD. Chinese Version: 荔枝嶺路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Wah Yu Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11150"
+    },
+    {
+      "chinese_name": "荔崗街",
+      "english_name": "Lai Kong Street",
+      "history": [
+        {
+          "publication_date": "1980-05-16",
+          "change_kind": "declare",
+          "street_name_en": "Lai Kong Street",
+          "street_name_zh": "荔崗街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1503.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Cul-de-sac commencing at its junction with LAI CHI LING ROAD and running westerly for about 85 metres where it bends to run in a north north-westerly direction for about 201 metres and then it turns to run north north-easterly for about 277 metres to terminate at its closed end which is a turning circle as shown coloured red and hatched black on Drawing No. NTA/TW/R84B. Proposed Name: LAI KONG STREET. Chinese Version: 荔崗街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Lai Chi Ling Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11157"
+    },
+    {
+      "chinese_name": "荔峰街",
+      "english_name": "Lai Fung Street",
+      "history": [
+        {
+          "publication_date": "1980-05-16",
+          "change_kind": "declare",
+          "street_name_en": "Lai Fung Street",
+          "street_name_zh": "荔峰街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1503.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Cul-de-sac commencing at its junction with LAI KONG STREET and running north-westerly for about 100 metres, then it curves to run in a northerly direction for about 43 metres and then turns to run north-easterly for about 79 metres then it bends to run in a northerly direction for about 41 metres where it terminates at its closed end as shown coloured red and hatched black on Drawing No. NTA/TW/R84B. Proposed Name: LAI FUNG STREET. Chinese Version: 荔峰街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Lai Kong Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11154"
+    },
+    {
+      "chinese_name": "葵裕街",
+      "english_name": "Kwai Yue Street",
+      "history": [
+        {
+          "publication_date": "1980-05-16",
+          "change_kind": "declare",
+          "street_name_en": "Kwai Yue Street",
+          "street_name_zh": "葵裕街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1503.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Street commencing at its junction with KWAI TAI ROAD and running in a north north-westerly direction for about 91 metres, then it turns to run north north-easterly for about 332 metres to terminate at its junction with KWAI HEI STREET and WING SHUN STREET as shown coloured red and hatched black on Drawing No. NTA/TW/R84B. Proposed Name: KWAI YUE STREET. Chinese Version: 葵裕街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Kwai Tai Road",
+                "Kwai Hei Street",
+                "Wing Shun Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11108"
+    },
+    {
+      "chinese_name": "永順街",
+      "english_name": "Wing Shun Street",
+      "history": [
+        {
+          "publication_date": "1980-05-16",
+          "change_kind": "declare",
+          "street_name_en": "Wing Shun Street",
+          "street_name_zh": "永順街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1503.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Thoroughfare commencing at its junction with KWAI HEI STREET and KWAI YUE STREET and running in a north-westerly direction for about 253 metres where it turns to run north north-westerly for about 155 metres, then it bends to run in a northerly direction for about 125 metres and then it turns to run north north-easterly for about 143 metres where it temporarily terminates as shown coloured red and hatched black on Drawing No. NTA/TW/R84B. Proposed Name: WING SHUN STREET. Chinese Version: 永順街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Kwai Hei Street",
+                "Kwai Yue Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12741"
+    },
+    {
+      "chinese_name": "葵喜街",
+      "english_name": "Kwai Hei Street",
+      "history": [
+        {
+          "publication_date": "1980-05-16",
+          "change_kind": "extend",
+          "street_name_en": "Kwai Hei Street",
+          "street_name_zh": "葵喜街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1503.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: The continuation of KWAI HEI STREET from its junction with WING LAP STREET as a thoroughfare, which was published under Government Notice No. 2859 dated 25 November 1977, and running in a south south-westerly direction for about 177 metres where it turns to run south-westerly for about 137 metres to terminate at its junction with KWAI YUE STREET and WING SHUN STREET as shown coloured red and hatched black on Drawing No. NTA/TW/R84B. Proposed Name: KWAI HEI STREET. Chinese Version: 葵喜街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Wing Lap Street",
+                "Kwai Yue Street",
+                "Wing Shun Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11086"
+    },
+    {
+      "chinese_name": "永孝街",
+      "english_name": "Wing Hau Street",
+      "history": [
+        {
+          "publication_date": "1980-05-16",
+          "change_kind": "declare",
+          "street_name_en": "Wing Hau Street",
+          "street_name_zh": "永孝街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1503.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Cul-de-sac commencing at its junction with WING KEI ROAD and running in a westerly direction for about 55 metres, then it bends to run southerly for about 247 metres where it terminates as shown coloured red and hatched black on Drawing No. NTA/TW/R84B. Proposed Name: WING HAU STREET. Chinese Version: 永孝街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Wing Kei Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12722"
+    }
+  ]
+}

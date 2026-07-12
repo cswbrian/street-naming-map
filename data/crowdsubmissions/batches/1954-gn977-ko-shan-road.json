@@ -1,0 +1,51 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1954-gn977-ko-shan-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.977",
+  "publication_date": "1954-08-06",
+  "gazette_url_en": "/egazette/en/1954-gn977.pdf",
+  "gazette_url_zh": "/egazette/zh/1954-gn977.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1954-gn977.pdf",
+  "streets": [
+    {
+      "chinese_name": "高山道",
+      "english_name": "Ko Shan Road",
+      "history": [
+        {
+          "change_kind": "rename",
+          "street_name_en": "Ko Shan Road",
+          "street_name_zh": "高山道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-08-06",
+          "is_declaration_event": true,
+          "previous_street_name_en": "Hau Pui Loong Road",
+          "previous_street_name_zh": "靠背壟道",
+          "gazette_location": {
+            "description_raw_en": "No. 977.—It is hereby notified that the following road will be known in future as described hereunder:— Description: Road commencing at its junction with Pak Kung Street running in a Northerly direction and parallel to Chatham Road and Ma Tau Wei Road and ending at its junction with Chi Kiang Street, as shown coloured yellow on plan No. R.K. 361A. (That section of this road between Pak Kung Street and Shan Si Street was formerly known as part of Hau Pui Loong Road.) Proposed Name: KO SHAN ROAD. Chinese Version: 高山道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 361A",
+                  "color": "yellow"
+                }
+              ],
+              "referenced_streets_en": [
+                "Pak Kung Street",
+                "Chatham Road",
+                "Ma Tau Wei Road",
+                "Chi Kiang Street",
+                "Shan Si Street",
+                "Hau Pui Loong Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11054"
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn1685-fo-tan-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1685",
+  "publication_date": "1981-06-12",
+  "gazette_url_en": "/egazette/en/1981-gn1685.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn1685.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1437.pdf",
+  "streets": [
+    {
+      "english_name": "Min Fong Street",
+      "chinese_name": "麵房街",
+      "link_street_code": "11428",
+      "history": [
+        {
+          "publication_date": "1981-06-12",
+          "change_kind": "declare",
+          "street_name_en": "Min Fong Street",
+          "street_name_zh": "麵房街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with an unnamed road (shown as Road P6 on Drawing No. NTA/ST/R7B) next to Sha Tin Town Lot No. 67 and running in a north-easterly direction for about 140 metres then running south-easterly for about 104 metres to terminate at its junction with WO LIU HANG ROAD as shown coloured pink and hatched black on Drawing No. NTA/ST/R7B.",
+            "description_raw_zh": "此街由與沙田新市地段第六十七號側一未命名道路（圖則第 NTA/ST/R7B 號道路 P6 所示）之會合處起，向東北伸展約一百四十米，再向東南伸展約一百零四米而止於與禾寮坑路之會合處，如圖則第 NTA/ST/R7B 號以粉紅色及黑斜綫所示。",
+            "parsed": {
+              "plan_refs": [{ "label": "NTA/ST/R7B", "color": "pink", "hatching": "black" }],
+              "referenced_streets_en": ["Wo Liu Hang Road"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Shek Lau Tung Street",
+      "chinese_name": "石榴洞街",
+      "link_street_code": "11999",
+      "history": [
+        {
+          "publication_date": "1981-06-12",
+          "change_kind": "declare",
+          "street_name_en": "Shek Lau Tung Street",
+          "street_name_zh": "石榴洞街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with MIN FONG STREET and running in a west north-westerly direction for about 100 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/ST/R7B.",
+            "description_raw_zh": "此街由與麵房街之會合處起，向西北偏西伸展約一百米然後終止，如圖則第 NTA/ST/R7B 號以粉紅色及黑斜綫所示。",
+            "parsed": {
+              "plan_refs": [{ "label": "NTA/ST/R7B", "color": "pink", "hatching": "black" }],
+              "referenced_streets_en": ["Min Fong Street"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Tsung Tau Ha Road",
+      "chinese_name": "松頭下路",
+      "link_street_code": "12491",
+      "history": [
+        {
+          "publication_date": "1981-06-12",
+          "change_kind": "declare",
+          "street_name_en": "Tsung Tau Ha Road",
+          "street_name_zh": "松頭下路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with an unnamed road (shown as Road P6 on the said Drawing) next to Sha Tin Town Lot No. 70 and curving generally in a north-easterly direction for about 410 metres and then bends to run east south-easterly for about 65 metres and then turns to run north north-easterly for about 28 metres to terminate at its junction with LOK LAM ROAD as shown coloured pink and hatched black on Drawing No. NTA/ST/R7B.",
+            "description_raw_zh": "此路由與沙田新市地段第七十號側一未命名道路（上述圖則 P6 道路所示）之會合處起，彎向東北伸展約四百一十米，再折向東南偏東伸展約六十五米，再轉向東北偏北伸展約二十八米而止於與樂林路之會合處，如圖則第 NTA/ST/R7B 號以粉紅色及黑斜綫所示。",
+            "parsed": {
+              "plan_refs": [{ "label": "NTA/ST/R7B", "color": "pink", "hatching": "black" }],
+              "referenced_streets_en": ["Lok Lam Road"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Pat Tsz Wo Street",
+      "chinese_name": "拔子窩街",
+      "link_street_code": "11664",
+      "history": [
+        {
+          "publication_date": "1981-06-12",
+          "change_kind": "declare",
+          "street_name_en": "Pat Tsz Wo Street",
+          "street_name_zh": "拔子窩街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TSUNG TAU HA ROAD and running in a south-easterly direction for about 10 metres and then curving to run generally in a south south-easterly direction for about 86 metres before spanning for about 26 metres into an open car parking area where it terminates as shown coloured pink and hatched black on Drawing No. NTA/ST/R7B.",
+            "description_raw_zh": "此街由與松頭下路之會合處起，向東南伸展約十米，轉彎向東南偏南伸展約八十六米，再展延約二十六米進入一露天停車場而終止，如圖則第 NTA/ST/R7B 號以粉紅色及黑斜綫所示。",
+            "parsed": {
+              "plan_refs": [{ "label": "NTA/ST/R7B", "color": "pink", "hatching": "black" }],
+              "referenced_streets_en": ["Tsung Tau Ha Road"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Kwei Tei Street",
+      "chinese_name": "桂地街",
+      "link_street_code": "11113",
+      "history": [
+        {
+          "publication_date": "1981-06-12",
+          "change_kind": "declare",
+          "street_name_en": "Kwei Tei Street",
+          "street_name_zh": "桂地街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TSUNG TAU HA ROAD and running in a north-westerly direction for about 285 metres then running west south-westerly for about 405 metres to terminate at its junction with WONG CHUK YEUNG STREET as shown coloured pink and hatched black on Drawing No. NTA/ST/R7B.",
+            "description_raw_zh": "此街由與松頭下路之會合處起，向西北伸展約二百八十五米，再向西南偏西伸展約四百零五米而止於與黃竹洋街之會合處，如圖則第 NTA/ST/R7B 號以粉紅色及黑斜綫所示。",
+            "parsed": {
+              "plan_refs": [{ "label": "NTA/ST/R7B", "color": "pink", "hatching": "black" }],
+              "referenced_streets_en": ["Tsung Tau Ha Road", "Wong Chuk Yeung Street"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Cheung Lek Mei Street",
+      "chinese_name": "長瀝尾街",
+      "link_street_code": "10198",
+      "history": [
+        {
+          "publication_date": "1981-06-12",
+          "change_kind": "declare",
+          "street_name_en": "Cheung Lek Mei Street",
+          "street_name_zh": "長瀝尾街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with SUI WO ROAD and running in a north-westerly direction for about 184 metres to terminate at its junction with KWEI TEI STREET as shown coloured pink and hatched black on Drawing No. NTA/ST/R7B.",
+            "description_raw_zh": "此街由與穗禾路之會合處起，向西北伸展約一百八十四米而止於與桂地街之會合處，如圖則第 NTA/ST/R7B 號以粉紅色及黑斜綫所示。",
+            "parsed": {
+              "plan_refs": [{ "label": "NTA/ST/R7B", "color": "pink", "hatching": "black" }],
+              "referenced_streets_en": ["Sui Wo Road", "Kwei Tei Street"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Shan Mei Street",
+      "chinese_name": "山尾街",
+      "link_street_code": "11980",
+      "history": [
+        {
+          "publication_date": "1981-06-12",
+          "change_kind": "declare",
+          "street_name_en": "Shan Mei Street",
+          "street_name_zh": "山尾街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with an unnamed road (shown as Road P6 on the said Drawing) approximately 28 metres away from MIN FONG STREET and running in a south-westerly direction for about 86 metres then running north-westerly for about 520 metres to terminate at its junction with KWEI TEI STREET as shown coloured pink and hatched black on Drawing No. NTA/ST/R7B.",
+            "description_raw_zh": "此街由與距離麵房街約二十八米之一未命名道路（上述圖則 P6 道路所示）之會合處起，向西南伸展約八十六米，再向西北伸展約五百二十米而止於與桂地街之會合處，如圖則第 NTA/ST/R7B 號以粉紅色及黑斜綫所示。",
+            "parsed": {
+              "plan_refs": [{ "label": "NTA/ST/R7B", "color": "pink", "hatching": "black" }],
+              "referenced_streets_en": ["Min Fong Street", "Kwei Tei Street"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Ngau Wu Tok Street",
+      "chinese_name": "牛湖托街",
+      "link_street_code": "11538",
+      "history": [
+        {
+          "publication_date": "1981-06-12",
+          "change_kind": "declare",
+          "street_name_en": "Ngau Wu Tok Street",
+          "street_name_zh": "牛湖托街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with SUI WO ROAD between Sha Tin Town Lot Nos. 165 and 134 and running in a north-westerly direction for about 145 metres and then running east north-easterly for about 83 metres to terminate at its junction with SHAN MEI STREET as shown coloured pink and hatched black on Drawing No. NTA/ST/R7B.",
+            "description_raw_zh": "此街由與沙田新市地段第一六五號及第一三四號間之穗禾路之會合處起，向西北伸展約一百四十五米，再向東北偏東伸展約八十三米而止於與山尾街之會合處，如圖則第 NTA/ST/R7B 號以粉紅色及黑斜綫所示。",
+            "parsed": {
+              "plan_refs": [{ "label": "NTA/ST/R7B", "color": "pink", "hatching": "black" }],
+              "referenced_streets_en": ["Sui Wo Road", "Shan Mei Street"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Wong Chuk Yeung Street",
+      "chinese_name": "黃竹洋街",
+      "link_street_code": "12778",
+      "history": [
+        {
+          "publication_date": "1981-06-12",
+          "change_kind": "declare",
+          "street_name_en": "Wong Chuk Yeung Street",
+          "street_name_zh": "黃竹洋街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with SUI WO ROAD next to Sha Tin Town Lot Nos. 134 and 79 and running generally in a north-westerly direction for about 340 metres where it temporarily terminates as shown coloured pink and hatched black on Drawing No. NTA/ST/R7B. (It should be noted that there is a future extension of this street.)",
+            "description_raw_zh": "此街由與沙田新市地段第一三四號及第七十九號側穗禾路之會合處起，向西北伸展約三百四十米而暫時終止，如圖則第 NTA/ST/R7B 號以粉紅色及黑斜綫所示。（註：此街將予擴建。）",
+            "parsed": {
+              "plan_refs": [{ "label": "NTA/ST/R7B", "color": "pink", "hatching": "black" }],
+              "referenced_streets_en": ["Sui Wo Road"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Wo Sheung Tun Street",
+      "chinese_name": "禾上墩街",
+      "link_street_code": "12766",
+      "history": [
+        {
+          "publication_date": "1981-06-12",
+          "change_kind": "declare",
+          "street_name_en": "Wo Sheung Tun Street",
+          "street_name_zh": "禾上墩街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with WONG CHUK YEUNG STREET and running generally in a south-westerly direction for about 120 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/ST/R7B.",
+            "description_raw_zh": "此街由與黃竹洋街之會合處起，向西南伸展約一百二十米而終止，如圖則第 NTA/ST/R7B 號以粉紅色及黑斜綫所示。",
+            "parsed": {
+              "plan_refs": [{ "label": "NTA/ST/R7B", "color": "pink", "hatching": "black" }],
+              "referenced_streets_en": ["Wong Chuk Yeung Street"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Yuen Kong Au Street",
+      "chinese_name": "鉛礦凹街",
+      "link_street_code": "12913",
+      "history": [
+        {
+          "publication_date": "1981-06-12",
+          "change_kind": "declare",
+          "street_name_en": "Yuen Kong Au Street",
+          "street_name_zh": "鉛礦凹街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with WONG CHUK YEUNG STREET next to Sha Tin Town Lot Nos. 77 and 163 and running in a south-westerly direction for about 61 metres to terminate at its junction with MAN HANG STREET as shown coloured pink and hatched black on Drawing No. NTA/ST/R7B.",
+            "description_raw_zh": "此街由與沙田新市地段第七十七號及第一六三號側黃竹洋街之會合處起，向西南伸展約六十一米而止於與文恒街之會合處，如圖則第 NTA/ST/R7B 號以粉紅色及黑斜綫所示。",
+            "parsed": {
+              "plan_refs": [{ "label": "NTA/ST/R7B", "color": "pink", "hatching": "black" }],
+              "referenced_streets_en": ["Wong Chuk Yeung Street", "Man Hang Street"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Man Hang Street",
+      "chinese_name": "文恒街",
+      "link_street_code": "11369",
+      "history": [
+        {
+          "publication_date": "1981-06-12",
+          "change_kind": "declare",
+          "street_name_en": "Man Hang Street",
+          "street_name_zh": "文恒街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its closed end next to Sha Tin Town Lot No. 79 and running in a north-westerly direction for about 254 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/ST/R7B.",
+            "description_raw_zh": "此街由沙田新市地段第七十九號側之盡頭處起，向西北伸展約二百五十四米而終止，如圖則第 NTA/ST/R7B 號以粉紅色及黑斜綫所示。",
+            "parsed": {
+              "plan_refs": [{ "label": "NTA/ST/R7B", "color": "pink", "hatching": "black" }]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

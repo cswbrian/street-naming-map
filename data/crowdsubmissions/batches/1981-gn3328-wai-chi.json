@@ -1,0 +1,67 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn3328-wai-chi",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3328",
+  "publication_date": "1981-11-06",
+  "gazette_url_en": "/egazette/en/1981-gn3328.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn3328.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1450.pdf",
+  "streets": [
+    {
+      "chinese_name": "偉智街",
+      "english_name": "Wai Chi Street",
+      "history": [
+        {
+          "publication_date": "1981-11-06",
+          "change_kind": "extend",
+          "street_name_en": "Wai Chi Street",
+          "street_name_zh": "偉智街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured yellow on Drawing No. KH 3452/1, commencing at its junction with the existing Wai Chi Street, running in a north-easterly direction for about 100 m, then in a north-westerly direction for about 40 m and terminating at its junction with Pak Tin Street.",
+            "description_raw_zh": "此街道之位置在KH 3452/1 號圖則內用黃色標明，起點與現時之偉智街連接，向東北伸展約一百米，再向西北伸展約四十米，在與白田街交界處終結。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Wai Chi Street",
+                "Pak Tin Street"
+              ]
+            }
+          },
+          "submitter_remarks": "Printed gazette ZH 偉志; corrected by G.N.3868 to 偉智."
+        }
+      ],
+      "link_street_code": "12601"
+    },
+    {
+      "chinese_name": "偉智里",
+      "english_name": "Wai Chi Lane",
+      "history": [
+        {
+          "publication_date": "1981-11-06",
+          "change_kind": "declare",
+          "street_name_en": "Wai Chi Lane",
+          "street_name_zh": "偉智里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured red on Drawing No. KH 3452/1, commencing at its junction with the thoroughfare mentioned above, running in a south-easterly direction for about 85 m, then in a south-westerly direction for about 68 m, and terminating at its junction with Wai Chi Street.",
+            "description_raw_zh": "此街道之位置在KH 3452/1 號圖則內用紅色標明，起點與上述街道連接，向東南伸展約八十五米，再向西南伸展約六十八米，在與偉智街交界處終結。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Wai Chi Street"
+              ]
+            }
+          },
+          "submitter_remarks": "Printed gazette ZH 偉志; corrected by G.N.3868 to 偉智."
+        }
+      ],
+      "link_street_code": "12600"
+    }
+  ],
+  "remarks": "G.N.3868 corrigendum (偉志→偉智) folded into this batch; no separate 3868 batch."
+}

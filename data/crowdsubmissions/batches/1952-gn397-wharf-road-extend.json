@@ -1,0 +1,37 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1952-gn397-wharf-road-extend",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.397",
+  "publication_date": "1952-04-04",
+  "gazette_url_en": "/egazette/en/1952-gn397.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1952-gn397.pdf",
+  "streets": [
+    {
+      "link_street_code": "12703",
+      "chinese_name": "和富道",
+      "english_name": "Wharf Road",
+      "history": [
+        {
+          "publication_date": "1952-04-04",
+          "change_kind": "extend",
+          "street_name_en": "Wharf Road",
+          "street_name_zh": "和富道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 397.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following street will be known in future as described hereunder:— Description: The extension of Wharf Road in a South Westerly direction from its junction with North Point Road and terminating at the North Eastern boundary of M.L. 526 as shown coloured pink on plan R.H. 305 signed by Hon. D.P.W. and dated 1st April, 1952. Proposed Name: WHARF ROAD. Chinese Version: 和富道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "North Point Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

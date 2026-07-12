@@ -1,0 +1,177 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1954-gn947-north-point-tak-cheong",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.947",
+  "publication_date": "1954-07-30",
+  "gazette_url_en": "/egazette/en/1954-gn947.pdf",
+  "gazette_url_zh": "/egazette/zh/1954-gn947.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1954-gn947.pdf",
+  "streets": [
+    {
+      "chinese_name": "京華道",
+      "english_name": "King Wah Road",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "King Wah Road",
+          "street_name_zh": "京華道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-07-30",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 947.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing at its junction with Oil Street about 100 yards from Electric Road and running in a South-westerly direction and terminating at its junction with Fook Yum Road as shown coloured brown on plan No. R.H. 619. Proposed Name: KING WAH ROAD. Chinese Version: 京華道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 619",
+                  "color": "brown"
+                }
+              ],
+              "referenced_streets_en": [
+                "Oil Street",
+                "Electric Road",
+                "Fook Yum Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11033"
+    },
+    {
+      "chinese_name": "福蔭道",
+      "english_name": "Fook Yum Road",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Fook Yum Road",
+          "street_name_zh": "福蔭道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-07-30",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 947.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing at its junction with Electric Road 100 yards South-West of Oil Street and running in a North-westerly direction for about 100 yards and terminating at its junction with King Wah Road as shown coloured red on plan No. R.H. 619. Proposed Name: FOOK YUM ROAD. Chinese Version: 福蔭道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 619",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Electric Road",
+                "Oil Street",
+                "King Wah Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10508"
+    },
+    {
+      "chinese_name": "宏安道",
+      "english_name": "Wang On Road",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Wang On Road",
+          "street_name_zh": "宏安道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-07-30",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 947.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing at its junction with Oil Street about 50 yards from Electric Road and running in a South-westerly direction and terminating at its junction with Fook Yum Road as shown coloured yellow on plan No. R.H. 619. Proposed Name: WANG ON ROAD. Chinese Version: 宏安道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 619",
+                  "color": "yellow"
+                }
+              ],
+              "referenced_streets_en": [
+                "Oil Street",
+                "Electric Road",
+                "Fook Yum Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12665"
+    },
+    {
+      "chinese_name": "德昌街",
+      "english_name": "Tak Cheong Street",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Tak Cheong Street",
+          "street_name_zh": "德昌街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-07-30",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 947.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing at the north side of Waterloo Road about 105 yards West of Canton Road and following the sea-wall in a northerly direction to its junction with Pitt Street as shown coloured red on plan No. R.K. 458. Proposed Name: TAK CHEONG STREET. Chinese Version: 德昌街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 458",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Waterloo Road",
+                "Canton Road",
+                "Pitt Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12301"
+    },
+    {
+      "chinese_name": "德昌里",
+      "english_name": "Tak Cheong Lane",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Tak Cheong Lane",
+          "street_name_zh": "德昌里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-07-30",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 947.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: A Cul-de-sac about 40 yards north of, and parallel to Waterloo Road commencing at its junction with Tak Cheong Street and running in an easterly direction for a distance of 64 yards as shown coloured burnt sienna on plan No. R.K. 458. Proposed Name: TAK CHEONG LANE. Chinese Version: 德昌里.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 458",
+                  "color": "burnt sienna"
+                }
+              ],
+              "referenced_streets_en": [
+                "Waterloo Road",
+                "Tak Cheong Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12300"
+    }
+  ]
+}

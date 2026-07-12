@@ -1,0 +1,274 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn3497-tsuen-wan",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3497",
+  "publication_date": "1983-11-04",
+  "gazette_url_en": "/egazette/en/1983-gn3497.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn3497.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1601.pdf",
+  "streets": [
+    {
+      "chinese_name": "象鼻山路",
+      "english_name": "Cheung Pei Shan Road",
+      "history": [
+        {
+          "publication_date": "1983-11-04",
+          "change_kind": "declare",
+          "street_name_en": "Cheung Pei Shan Road",
+          "street_name_zh": "象鼻山路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with WO YI HOP ROAD and running in a south-westerly direction for about 1 120 metres where it terminates at its junction with TSUEN KAM INTERCHANGE as shown coloured pink and hatched black on Drawing No. NTA/TW/R90F.",
+            "description_raw_zh": "此路由與和宜合道交界處起，向西南伸展約一千一百二十米，至與荃錦交匯處交界止。在NTA/TW/R90F號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R90F",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wo Yi Hop Road",
+                "Tsuen Kam Interchange"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10204"
+    },
+    {
+      "chinese_name": "古屋里",
+      "english_name": "Kwu Uk Lane",
+      "history": [
+        {
+          "publication_date": "1983-11-04",
+          "change_kind": "declare",
+          "street_name_en": "Kwu Uk Lane",
+          "street_name_zh": "古屋里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Lane commencing at its junction with SAI LAU KOK ROAD and running in a north-easterly direction for about 20 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/TW/R90F.",
+            "description_raw_zh": "此里由與西樓角路交界處起，向東北伸展約二十米止。在NTA/TW/R90F號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R90F",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sai Lau Kok Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11140"
+    },
+    {
+      "chinese_name": "廟崗街",
+      "english_name": "Miu Kong Street",
+      "history": [
+        {
+          "publication_date": "1983-11-04",
+          "change_kind": "declare",
+          "street_name_en": "Miu Kong Street",
+          "street_name_zh": "廟崗街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with SHING MUN ROAD and running in a north-westerly direction for about 95 metres to terminate at its junction with WAI TSUEN ROAD as shown coloured pink and hatched black on Drawing No. NTA/TW/R90F.",
+            "description_raw_zh": "此街由與城門道交界處起，向西北伸展約九十五米，至與蕙荃路交界處止。在NTA/TW/R90F號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R90F",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Shing Mun Road",
+                "Wai Tsuen Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11446"
+    },
+    {
+      "chinese_name": "石圍角路",
+      "english_name": "Shek Wai Kok Road",
+      "history": [
+        {
+          "publication_date": "1983-11-04",
+          "change_kind": "declare",
+          "street_name_en": "Shek Wai Kok Road",
+          "street_name_zh": "石圍角路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with CHEUNG PEI SHAN ROAD and running in a generally southerly direction for about 60 metres where it curves to run in a south-westerly direction for about 270 metres; it then branches to two sub-sections with one sub-section running south south-westerly for about 95 metres, whilst the other sub-section running in a south-westerly direction for about 95 metres where it runs through a subway for about 30 metres and then curves to run in a south south-easterly direction for about 80 metres respectively, and both sub-sections terminate at their junctions with an unnamed road as shown coloured pink and hatched black on Drawing No. NTA/TW/R90F.",
+            "description_raw_zh": "此路由與象鼻山路交界處起，向南伸展約六十米，再向西南伸展約二百七十米，然後分為兩分段，一分段向西南偏南伸展約九十五米，另一分段則向西南伸展約九十五米，再伸展約三十米經過一隧道，再向東南偏南伸展約八十米。兩分段均分別至與一未命名之道路交界處止。在NTA/TW/R90F號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R90F",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Cheung Pei Shan Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12017"
+    },
+    {
+      "chinese_name": "德士古交匯處",
+      "english_name": "Texaco Interchange",
+      "history": [
+        {
+          "publication_date": "1983-11-04",
+          "change_kind": "declare",
+          "street_name_en": "Texaco Interchange",
+          "street_name_zh": "德士古交匯處",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing from the viaduct at its junction with CASTLE PEAK ROAD TSUEN WAN and running in a south-westerly direction for about 50 metres where it bends to run in a north-easterly direction for about 65 metres; it then branches to two sub-sections with one sub-section running in a northerly direction for about 50 metres, whilst the other sub-section running in a north-easterly direction for about 80 metres respectively, and both sub-sections terminate at their junctions with an unnamed road and CASTLE PEAK ROAD KWAI CHUNG respectively as shown coloured pink and hatched black on Drawing No. NTA/TW/R90F.",
+            "description_raw_zh": "此道路由與青山公路荃灣段交界處之高架道路起，向西南伸展約五十米，再向東北伸展約六十五米，然後分為兩分段，一分段向北伸展約五十米，另一分段則向東北伸展約八十米，兩分段均分別至與一未命名道路及青山公路葵涌段交界處止。在NTA/TW/R90F號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R90F",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Castle Peak Road Tsuen Wan",
+                "Castle Peak Road Kwai Chung"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12344"
+    },
+    {
+      "chinese_name": "荃錦交匯處",
+      "english_name": "Tsuen Kam Interchange",
+      "history": [
+        {
+          "publication_date": "1983-11-04",
+          "change_kind": "declare",
+          "street_name_en": "Tsuen Kam Interchange",
+          "street_name_zh": "荃錦交匯處",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with an unnamed road and running in a south-westerly direction for about 120 metres, it then bends to run in a generally northerly direction for about 130 metres before it curves to run easterly for about 95 metres where it stretches to run north-easterly for about 175 metres to meet CHEUNG PEI SHAN ROAD; it continues to run in a generally south-easterly direction for about 90 metres and stretches to run east north-easterly for about 165 metres to meet CHEUNG PEI SHAN ROAD again before it terminates as shown coloured pink and hatched black on Drawing No. NTA/TW/R90F.",
+            "description_raw_zh": "此道路由與一未命名道路交界處起，向西南伸展約一百二十米，然後向北伸展約一百三十米，再向東伸展約九十五米，又再向東北伸展約一百七十五米，至與象鼻山路；其後繼續向東南伸展約九十米，後向東北偏東伸展約一百六十五米，再至與象鼻山路止。在NTA/TW/R90F號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R90F",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Cheung Pei Shan Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12462"
+    },
+    {
+      "chinese_name": "蕙荃路",
+      "english_name": "Wai Tsuen Road",
+      "history": [
+        {
+          "publication_date": "1983-11-04",
+          "change_kind": "declare",
+          "street_name_en": "Wai Tsuen Road",
+          "street_name_zh": "蕙荃路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with SAI LAU KOK ROAD and running in a north-easterly direction for about 300 metres before it bends to run in a north-westerly direction for about 220 metres where it terminates at its junction with TSUEN KAM INTERCHANGE as shown coloured pink and hatched black on Drawing No. NTA/TW/R90F.",
+            "description_raw_zh": "此路由與西樓角路交界處起，向東北伸展約三百米，然後向西北伸展約二百二十米，至與荃錦交匯處止。在NTA/TW/R90F號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R90F",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sai Lau Kok Road",
+                "Tsuen Kam Interchange"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12617"
+    },
+    {
+      "chinese_name": "馬角里",
+      "english_name": "Ma Kok Lane",
+      "history": [
+        {
+          "publication_date": "1983-11-04",
+          "change_kind": "declare",
+          "street_name_en": "Ma Kok Lane",
+          "street_name_zh": "馬角里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Lane commencing at its junction with WANG LUNG STREET and running in a west south-westerly direction for about 65 metres before it bends sharply to run in a south-easterly direction for about 160 metres where it terminates at its junction with LUNG TAK STREET as shown coloured pink and hatched black on Drawing No. NTA/TW/R100A.",
+            "description_raw_zh": "此里由與橫龍街交界處起，向西南偏西伸展約六十五米，然後急轉向東南伸展約一百六十米，至與龍德街交界處止。在NTA/TW/R100A號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R100A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wang Lung Street",
+                "Lung Tak Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11340"
+    }
+  ]
+}

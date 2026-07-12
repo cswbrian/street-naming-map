@@ -1,0 +1,236 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn3792-tai-o",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3792",
+  "publication_date": "1983-12-02",
+  "gazette_url_en": "/egazette/en/1983-gn3792.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn3792.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1602.pdf",
+  "streets": [
+    {
+      "chinese_name": "大澳永安街",
+      "english_name": "Tai O Wing On Street",
+      "history": [
+        {
+          "publication_date": "1983-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Tai O Wing On Street",
+          "street_name_zh": "大澳永安街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with the western end of TAI O ROAD and running in a north-westerly direction for about 22 metres and then bends to run north-easterly for about 86 metres; it then splits into two directions: one with a small section of road running northerly for about 15 metres to the southern side of a river channel, and the other curving to run in a generally easterly direction for about 190 metres where it terminates at its junction with TAI O TAI PING STREET near Wing Chor School as shown coloured pink and hatched black on Plan No. LD/IS/R7B.",
+            "description_raw_zh": "此街由與大澳道西端交界處起，向西北伸展約二十二米，後轉向東北約八十六米，後分為兩個方向，其中一小段向北面伸展約十五米，至與河道南面。其餘一段，則大致向東伸展約一百九十米，至與大澳太平街永助學校附近交界處止。在LD/IS/R7B號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/IS/R7B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tai O Road",
+                "Tai O Tai Ping Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12245"
+    },
+    {
+      "chinese_name": "大澳太平街",
+      "english_name": "Tai O Tai Ping Street",
+      "history": [
+        {
+          "publication_date": "1983-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Tai O Tai Ping Street",
+          "street_name_zh": "大澳太平街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TAI O WING ON STREET near Wing Chor School and running generally in a north-easterly direction for about 40 metres and then bends to run northerly for about 108 metres; it then curves to run in north-easterly direction for about 82 metres before it bends to run south-easterly for about 26 metres where it terminates at a bridge that crosses over to the Lung Tin Estate as shown coloured pink and hatched black on Plan No. LD/IS/R7B.",
+            "description_raw_zh": "此街由與大澳永安街永助學校附近交界處起，大致向東北伸展約四十米，後轉向北約一百零八米，後轉向東北伸展約八十二米，後再轉向東南伸展約二十六米，至與通往龍田邨之橋樑止。在LD/IS/R7B號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/IS/R7B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tai O Wing On Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12244"
+    },
+    {
+      "chinese_name": "大澳街市街",
+      "english_name": "Tai O Market Street",
+      "history": [
+        {
+          "publication_date": "1983-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Tai O Market Street",
+          "street_name_zh": "大澳街市街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing from the northern side of a river channel opposite to TAI O WING ON STREET and running north north-westerly for about 56 metres, and then branches into two directions: one running east north-easterly for about 12 metres where it terminates near the Kwan Tei Temple, and the other running west south-westerly for about 58 metres where it terminates near Tai O School as shown coloured pink and hatched black on Plan No. LD/IS/R7B.",
+            "description_raw_zh": "此街由大澳永安街對面之河道北面起，向西北偏北伸展約五十六米，後分為兩個方向，其中一段向東北偏東伸展約十二米，至與關帝廟附近止；另一段則向西南偏西伸展約五十八米，至與大澳學校附近止。在LD/IS/R7B號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/IS/R7B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tai O Wing On Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12242"
+    },
+    {
+      "chinese_name": "吉慶後街",
+      "english_name": "Kat Hing Back Street",
+      "history": [
+        {
+          "publication_date": "1983-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Kat Hing Back Street",
+          "street_name_zh": "吉慶後街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TAI O MARKET STREET near Kwan Tei Temple and running generally in a north-easterly direction for about 146 metres; it then curves north north-westerly for about 283 metres before bending to run generally northerly for about 300 metres where it terminates near Tai O Fishermen's Children School as shown coloured pink and hatched black on Plan No. LD/IS/R8B.",
+            "description_raw_zh": "此街由與大澳街市街關帝廟附近交界處起，大致向東北伸展約一百四十六米，後轉向西北偏北約二百八十三米後，後再轉北伸展約三百米，至與大澳漁民子弟學校止。在LD/IS/R8B號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/IS/R8B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tai O Market Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10967"
+    },
+    {
+      "chinese_name": "吉慶街",
+      "english_name": "Kat Hing Street",
+      "history": [
+        {
+          "publication_date": "1983-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Kat Hing Street",
+          "street_name_zh": "吉慶街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TAI O MARKET STREET and running in a generally north-easterly direction for about 198 metres where it terminates at Sun Ki Bridge as shown coloured pink and hatched black on Plan No. LD/IS/R7B.",
+            "description_raw_zh": "此街由與大澳街市街交界處起，大致向東北伸展約一百九十八米，至與新基橋止。在LD/IS/R7B號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/IS/R7B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tai O Market Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10968"
+    },
+    {
+      "chinese_name": "石仔埗街",
+      "english_name": "Shek Tsai Po Street",
+      "history": [
+        {
+          "publication_date": "1983-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Shek Tsai Po Street",
+          "street_name_zh": "石仔埗街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TAI O MARKET STREET and running in a west north-westerly direction for about 515 metres; it then bends to run in a generally south-westerly direction for about 620 metres where it terminates at Tai O Ferry Pier as shown coloured pink and hatched black on Plan No. LD/IS/R8B.",
+            "description_raw_zh": "此街由與大澳街市街交界處起，向西北偏西伸展約五百一十五米，後轉向西南伸展約六百二十米，至與大澳碼頭止。在LD/IS/R8B號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/IS/R8B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tai O Market Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12016"
+    },
+    {
+      "chinese_name": "新基街",
+      "english_name": "Sun Ki Street",
+      "history": [
+        {
+          "publication_date": "1983-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Sun Ki Street",
+          "street_name_zh": "新基街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with the path leading to Tai O Public Cemetery and running generally in a north-westerly direction for about 600 metres and then curves to run east north-easterly for about 150 metres where it terminates at the foot of the hill locally known as Pak Shan as shown coloured pink and hatched black on Plan No. LD/IS/R8B.",
+            "description_raw_zh": "此街由與通往大澳公衆墳場小徑交界處起，大致向西北伸展約六百米，後轉向東北偏東伸展約一百五十米，至與當地居民所稱之北山山脚止。在LD/IS/R8B號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/IS/R8B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "12176"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1953-gn998-po-kong-village-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.998",
+  "publication_date": "1953-08-14",
+  "gazette_url_en": "/egazette/en/1953-gn998.pdf",
+  "gazette_url_zh": "/egazette/zh/1953-gn998.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1953-gn998.pdf",
+  "streets": [
+    {
+      "link_street_code": "11737",
+      "chinese_name": "蒲崗村道",
+      "english_name": "Po Kong Village Road",
+      "history": [
+        {
+          "publication_date": "1953-08-14",
+          "change_kind": "declare",
+          "street_name_en": "Po Kong Village Road",
+          "street_name_zh": "蒲崗村道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 998.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Description: Road commencing at its junction with the access road to Chuk Un running in a north-easterly direction and terminating opposite the eastern boundary of N.K.D.F.L. 18, as shown coloured red on plan No. R.K. 365 signed by the Director of Public Works and dated 6th August, 1953. Proposed Name: PO KONG VILLAGE ROAD. Chinese Version: 蒲崗村道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 365",
+                  "color": "red"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

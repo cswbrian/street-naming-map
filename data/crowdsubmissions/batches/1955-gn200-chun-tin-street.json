@@ -1,0 +1,45 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1955-gn200-chun-tin-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.200",
+  "publication_date": "1955-02-18",
+  "gazette_url_en": "/egazette/en/1955-gn200.pdf",
+  "gazette_url_zh": "/egazette/zh/1955-gn200.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1955-gn200.pdf",
+  "streets": [
+    {
+      "chinese_name": "春田街",
+      "english_name": "Chun Tin Street",
+      "history": [
+        {
+          "publication_date": "1955-02-18",
+          "change_kind": "declare",
+          "street_name_en": "Chun Tin Street",
+          "street_name_zh": "春田街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 200.—It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Description: Cul-de-sac about 34 yards to the East of Ma Tau Wei Road and parallel to it, commencing at its junction with Hok Yuen Street, running in a northerly direction for about 58 yards and terminating at the southern boundary of K.I.L. 646 as shown coloured red on Plan No. R.K. 566. English Name: CHUN TIN STREET. Chinese Name: 春田街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 566",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Ma Tau Wei Road",
+                "Hok Yuen Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10281"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1980-gn1579-wan-tsui-lane",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1579",
+  "publication_date": "1980-05-23",
+  "gazette_url_en": "/egazette/en/1980-gn1579.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1980/Scanned_20260711-1417(1).pdf",
+  "streets": [
+    {
+      "chinese_name": "環翠里",
+      "english_name": "Wan Tsui Lane",
+      "history": [
+        {
+          "publication_date": "1980-05-23",
+          "change_kind": "declare",
+          "street_name_en": "Wan Tsui Lane",
+          "street_name_zh": "環翠里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1579.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Thoroughfare commencing at its junction with Wan Tsui Road and running in a northerly direction for 90 m as shown coloured pink on Drawing No. HH 3726. Proposed Name: WAN TSUI LANE. Chinese Version: 環翠里.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Wan Tsui Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12647"
+    }
+  ]
+}

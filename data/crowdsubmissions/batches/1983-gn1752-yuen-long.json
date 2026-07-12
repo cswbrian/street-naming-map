@@ -1,0 +1,767 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn1752-yuen-long",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1752",
+  "publication_date": "1983-06-03",
+  "gazette_url_en": "/egazette/en/1983-gn1752.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn1752.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1548.pdf",
+  "streets": [
+    {
+      "chinese_name": "媽橫路",
+      "english_name": "Ma Wang Road",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "extend",
+          "street_name_en": "Ma Wang Road",
+          "street_name_zh": "媽橫路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension to the existing MA WANG ROAD which was gazetted on 29 September 1978 vide G.N. 2481 running in a west south-westerly direction for about 300 metres where it terminates at its junction with SHUI PIN WAI ROAD as shown coloured pink and hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此路為一九七八年九月二十九日憲示第二四八一號所公告之媽橫路之延展部份，向西南偏西伸展約三百米，至與水邊圍路交界處終止。在LD/YL/R5號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Shui Pin Wai Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11355"
+    },
+    {
+      "chinese_name": "壽富街",
+      "english_name": "Sau Fu Street",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "extend",
+          "street_name_en": "Sau Fu Street",
+          "street_name_zh": "壽富街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street extending as a continuation of SAU FU STREET which was gazetted on 2 December 1977 vide G.N. 2944; commencing from the Yuen Long Fire Station Building and running in a westerly direction for about 152 metres, it then turns smoothly to run in a north-westerly direction for about 46 metres and then runs in a northerly direction for about 73 metres where it terminates at its junction with YUEN LONG ON NING ROAD as shown coloured pink and cross-hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此街為一九七七年十二月二日憲示第二九四四號所公告之壽富街之延展部份，由元朗消防局大厦起，向西伸展約一百五十二米，再順轉向西北伸展約四十六米，然後向北伸展約七十三米，至與元朗安寧路交界處終止。在LD/YL/R5號圖則上以粉紅色間以交錯黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Yuen Long On Ning Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11925"
+    },
+    {
+      "chinese_name": "水車館街",
+      "english_name": "Shui Che Kwun Street",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Shui Che Kwun Street",
+          "street_name_zh": "水車館街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with YUEN LONG TAI CHEUNG STREET and running in a south-easterly direction for about 52 metres, it then bends slightly to run in a southerly direction for about 11 metres where it temporarily terminates as shown coloured pink and cross-hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此街由與元朗泰祥街交界處起，向東南伸展約五十二米，再略彎向南約十一米處暫時終止。在LD/YL/R5號圖則上以粉紅色間以交錯黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Yuen Long Tai Cheung Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12075"
+    },
+    {
+      "chinese_name": "金祥坊",
+      "english_name": "Kam Cheung Square",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Kam Cheung Square",
+          "street_name_zh": "金祥坊",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Square commencing at its junction with SAI YU STREET and running in a westerly direction for about 15 metres spanning the car park area surrounded by existing buildings as shown coloured pink and hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此坊由與西裕街交界處起，向西伸展約十五米，跨過現有建築物圍繞之停車場。在LD/YL/R5號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sai Yu Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10949"
+    },
+    {
+      "chinese_name": "橋樂坊",
+      "english_name": "Kiu Lok Square",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Kiu Lok Square",
+          "street_name_zh": "橋樂坊",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Open space commencing at its junction with SAU FU STREET and running in a northerly direction for about 50 metres and then extends across the existing service area, it then continues to run in a northerly direction for about 17 metres and terminates at its junction with YUEN LONG ON NING ROAD as shown coloured pink and hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此坊由與壽富街交界處起，向北伸展約五十米，跨過現有之公共設施用地，繼續向北伸展約十七米，至與元朗安寧路交界處終止。在LD/YL/R5號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Yuen Long On Ning Road",
+                "Sau Fu Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11043"
+    },
+    {
+      "chinese_name": "安達坊",
+      "english_name": "On Tat Square",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "On Tat Square",
+          "street_name_zh": "安達坊",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Square abutting KIK YEUNG ROAD on the eastern side and surrounded by YLTL 145 and YLTL 87, ON SHUN STREET, YLTL 88 and YLTL 124 on the northern, western and southern sides respectively; it then continues to run in a southerly direction for about 34 metres and terminates at its junction with CASTLE PEAK ROAD YUEN LONG as shown coloured pink and hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此坊東面與擊壤路毗鄰，其北、西及南面分別有元朗市地段第一四五及八十七號、安信街、元朗市地段第八十八號及第一二四號，向南伸展約三十四米，在與青山公路元朗段交界處終止。在LD/YL/R5號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Castle Peak Road Yuen Long",
+                "On Shun Street",
+                "Kik Yeung Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11607"
+    },
+    {
+      "chinese_name": "寶樂坊",
+      "english_name": "Po Lok Square",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Po Lok Square",
+          "street_name_zh": "寶樂坊",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Square commencing at its junction with PO FAI PATH and extending in a westerly direction for about 65 metres and terminates at its junction with PING SHUN STREET as shown coloured pink and hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此坊由與保輝徑交界處起，向西伸展約六十五米，至與屏信街交界處終止。在LD/YL/R5號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Ping Shun Street",
+                "Po Fai Path"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11744"
+    },
+    {
+      "chinese_name": "仁樂坊",
+      "english_name": "Yan Lok Square",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Yan Lok Square",
+          "street_name_zh": "仁樂坊",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Open space commencing at its junction with YUEN LONG HONG LOK ROAD and running in a westerly direction for about 45 metres and then extends across the service area; it then continues to run in a southerly direction for about 18 metres and terminates at its junction with KAU YUK ROAD as shown coloured pink and hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此坊由與元朗康樂路交界處起，向西伸展約四十五米，跨過公共設施用地，再向南伸展約十八米，至與教育路交界處終止。在LD/YL/R5號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Yuen Long Hong Lok Road",
+                "Kau Yuk Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12811"
+    },
+    {
+      "chinese_name": "裕景坊",
+      "english_name": "Yu King Square",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Yu King Square",
+          "street_name_zh": "裕景坊",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Open space commencing at its junction with TAI TONG ROAD and running in a westerly direction for about 40 metres spanning the public light bus terminal surrounded by YLTL 302, HONG KING STREET, YLTL 268 and YLTL 270, and the proposed cooked food stalls on its northern, western, southern and eastern sides respectively as shown coloured pink and hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此坊由與大棠路交界處起，向西伸展約四十米，然後跨過公共小型巴士總站，其北、西、南及東面分別有元朗市地段第三〇二號、康景街、元朗市地段第二六八號及第二七〇號，及建議中之熟食檔攤。在LD/YL/R5號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hong King Street",
+                "Tai Tong Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12891"
+    },
+    {
+      "chinese_name": "昌盛徑",
+      "english_name": "Cheong Shing Path",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Cheong Shing Path",
+          "street_name_zh": "昌盛徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Pedestrianway at the west of the central nullah commencing at its junction with CASTLE PEAK ROAD YUEN LONG and running in a southerly direction for about 143 metres where it terminates at its junction with KAU YUK ROAD as shown coloured pink and cross-hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此行人徑位於市中心防洪渠西面，由與青山公路元朗段交界處起，向南伸展約一百四十三米，至與教育路交界處終止。在LD/YL/R5號圖則上以粉紅色間以交錯黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Castle Peak Road Yuen Long",
+                "Kau Yuk Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10177"
+    },
+    {
+      "chinese_name": "鍾聲徑",
+      "english_name": "Chung Sing Path",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Chung Sing Path",
+          "street_name_zh": "鍾聲徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Pedestrianway at the east of the central nullah commencing at its junction with CASTLE PEAK ROAD YUEN LONG and running in a southerly direction for about 143 metres where it terminates at its junction with KAU YUK ROAD as shown coloured pink and hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此行人徑位於市中心防洪渠東面，由與青山公路元朗段交界處起，向南伸展約一百四十三米，至與教育路交界處終止。在LD/YL/R5號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Castle Peak Road Yuen Long",
+                "Kau Yuk Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10300",
+      "submitter_remarks": "Gazette ZH 鍾聲徑; geojson 鐘聲徑."
+    },
+    {
+      "chinese_name": "福日徑",
+      "english_name": "Fook Yat Path",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Fook Yat Path",
+          "street_name_zh": "福日徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Pedestrianway commencing at its junction with an unnamed street and running in a northerly direction for about 38 metres where it terminates at its junction with YUEN LONG ON NING ROAD as shown coloured pink and hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此行人徑由與一未命名之街道交界處起，向北伸展約三十八米，至與元朗安寧路交界處終止。在LD/YL/R5號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Yuen Long On Ning Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10507"
+    },
+    {
+      "chinese_name": "喜利徑",
+      "english_name": "Hi Lee Path",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Hi Lee Path",
+          "street_name_zh": "喜利徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Pedestrianway at the west of the central nullah commencing at its junction with CASTLE PEAK ROAD YUEN LONG and running in a northerly direction for about 150 metres where it terminates at its junction with YUEN LONG ON NING ROAD as shown coloured pink and hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此行人徑位於市中心防洪渠西面，由與青山公路元朗段交界處起，向北伸展約一百五十米，至與元朗安寧路交界處終止。在LD/YL/R5號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Castle Peak Road Yuen Long",
+                "Yuen Long On Ning Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10699"
+    },
+    {
+      "chinese_name": "金輝徑",
+      "english_name": "Kam Fai Path",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Kam Fai Path",
+          "street_name_zh": "金輝徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Pedestrianway commencing at its junction with SAI YU STREET, about 40 metres south of KAU YUK ROAD, running in a westerly direction for about 70 metres where it terminates at its junction with YU WING PATH as shown coloured pink and hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此行人徑由與西裕街交界處，約於教育路南面四十米處起，向西伸展約七十米，至與裕榮徑交界處終止。在LD/YL/R5號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sai Yu Street",
+                "Kau Yuk Road",
+                "Yu Wing Path"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10952"
+    },
+    {
+      "chinese_name": "民合徑",
+      "english_name": "Man Hop Path",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Man Hop Path",
+          "street_name_zh": "民合徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Pedestrianway commencing at its junction with CASTLE PEAK ROAD YUEN LONG and running in a northerly direction for about 56 metres where it terminates at its junction with ON SHUN STREET as shown coloured pink and hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此行人徑由與青山公路元朗段交界處起，向北伸展約五十六米，至與安信街交界處終止。在LD/YL/R5號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Castle Peak Road Yuen Long",
+                "On Shun Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11372"
+    },
+    {
+      "chinese_name": "屏昌徑",
+      "english_name": "Ping Cheong Path",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Ping Cheong Path",
+          "street_name_zh": "屏昌徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Pedestrianway commencing at its junction with PING WUI STREET and running in a northerly direction for about 125 metres where it terminates at its junction with MA WANG ROAD as shown coloured pink and hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此行人徑由與屏會街交界處起，向北伸展約一百二十五米，至與媽橫路交界處終止。在LD/YL/R5號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Ping Wui Street",
+                "Ma Wang Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11698"
+    },
+    {
+      "chinese_name": "屏輝徑",
+      "english_name": "Ping Fai Path",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Ping Fai Path",
+          "street_name_zh": "屏輝徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Pedestrianway commencing at its junction with PING CHEONG PATH and running in a westerly direction for about 71 metres where it terminates at its junction with PING WUI STREET as shown coloured pink and hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此行人徑由與屏昌徑交界處起，向西伸展約七十一米，至與屏會街交界處終止。在LD/YL/R5號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Ping Cheong Path",
+                "Ping Wui Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11701"
+    },
+    {
+      "chinese_name": "平樂徑",
+      "english_name": "Ping Lok Path",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Ping Lok Path",
+          "street_name_zh": "平樂徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Pedestrianway commencing at its junction with CASTLE PEAK ROAD YUEN LONG and running in a southerly direction for about 142 metres between Yuen Long Chamber of Commerce Primary School and Yuen Long Police Station; it then terminates at its junction with KAU YUK ROAD as shown coloured pink and hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此行人徑由與青山公路元朗段交界處起，在介乎元朗商會小學及元朗警署之間向南伸展約一百四十二米，至與教育路交界處終止。在LD/YL/R5號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Castle Peak Road Yuen Long",
+                "Kau Yuk Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11709"
+    },
+    {
+      "chinese_name": "保輝徑",
+      "english_name": "Po Fai Path",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Po Fai Path",
+          "street_name_zh": "保輝徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Pedestrianway at the west of the central nullah commencing at its junction with YUEN LONG ON NING ROAD and running in a northerly direction for about 41 metres where it terminates at its closed end as shown coloured pink and cross-hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此行人徑位於市中心防洪渠西面，由與元朗安寧路交界處起，向北伸展約四十一米，至其盡頭處終止。在LD/YL/R5號圖則上以粉紅色間以交錯黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Yuen Long On Ning Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11727"
+    },
+    {
+      "chinese_name": "達輝徑",
+      "english_name": "Tat Fai Path",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Tat Fai Path",
+          "street_name_zh": "達輝徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Pedestrianway commencing at its junction with SAI YU STREET, about 157 metres south of KAU YUK ROAD, running in a westerly direction for about 70 metres where it terminates at its junction with YU WING PATH as shown coloured pink and hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此行人徑由與西裕街交界處，約於教育路南面一百五十七米處起，向西伸展約七十米，至與裕榮徑交界處終止。在LD/YL/R5號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sai Yu Street",
+                "Kau Yuk Road",
+                "Yu Wing Path"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12340"
+    },
+    {
+      "chinese_name": "裕榮徑",
+      "english_name": "Yu Wing Path",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Yu Wing Path",
+          "street_name_zh": "裕榮徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Pedestrianway at the east of the central nullah commencing at its junction with KAU YUK ROAD and running in a southerly direction for about 165 metres where it temporarily terminates as shown coloured pink and cross-hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此行人徑位於市中心防洪渠東面，由與教育路交界處起，向南伸展至約一百六十五米處暫時終止。在LD/YL/R5號圖則上以粉紅色間以交錯黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Kau Yuk Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12897"
+    },
+    {
+      "chinese_name": "元發徑",
+      "english_name": "Yuen Fat Path",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Yuen Fat Path",
+          "street_name_zh": "元發徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Pedestrianway at the east of the central nullah commencing at its junction with CASTLE PEAK ROAD YUEN LONG and running in a northerly direction for about 42 metres where it terminates as shown coloured pink and cross-hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此行人徑位於市中心防洪渠東面，由與青山公路元朗段交界處起，向北伸展約四十二米，在LD/YL/R5號圖則上以粉紅色間以交錯黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Castle Peak Road Yuen Long"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12910"
+    },
+    {
+      "chinese_name": "寶樹里",
+      "english_name": "Po Shu Lane",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Po Shu Lane",
+          "street_name_zh": "寶樹里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing at its junction with ON SHUN STREET and running in a westerly direction for about 42 metres where it terminates at its closed end as shown coloured pink and hatched black on Drawing No. LD/YL/R5.",
+            "description_raw_zh": "此盡頭路由與安信街交界處起，向西伸展約四十二米，至其盡頭處終止。在LD/YL/R5號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R5",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "On Shun Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11753"
+    }
+  ]
+}

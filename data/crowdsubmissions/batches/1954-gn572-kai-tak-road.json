@@ -1,0 +1,46 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1954-gn572-kai-tak-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.572",
+  "publication_date": "1954-05-14",
+  "gazette_url_en": "/egazette/en/1954-gn572.pdf",
+  "gazette_url_zh": "/egazette/zh/1954-gn572.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1954-gn572.pdf",
+  "streets": [
+    {
+      "chinese_name": "啟德道",
+      "english_name": "Kai Tak Road",
+      "history": [
+        {
+          "change_kind": "rename",
+          "street_name_en": "Kai Tak Road",
+          "street_name_zh": "啟德道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-05-14",
+          "is_declaration_event": true,
+          "previous_street_name_en": "Po Kong Road",
+          "submitter_remarks": "Gazette ZH 啟德道; geojson 啓德道.",
+          "gazette_location": {
+            "description_raw_en": "No. 572.—It is hereby notified that the following road will be known as described hereunder:— Description: Road formerly known as Po Kong Road commencing from the nullah running north and at present terminating at its junction with Carpenter Road as shown coloured red on plan No. R.K. 436. Proposed Name: KAI TAK ROAD. Chinese Version: 啟德道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 436",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Carpenter Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10940"
+    }
+  ]
+}

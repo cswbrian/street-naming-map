@@ -1,0 +1,46 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn327-fu-keung-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.327",
+  "publication_date": "1983-01-28",
+  "gazette_url_en": "/egazette/en/1983-gn327.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn327.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1536.pdf",
+  "streets": [
+    {
+      "chinese_name": "富強街",
+      "english_name": "Fu Keung Street",
+      "link_street_code": "10520",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Fu Keung Street",
+          "street_name_zh": "富強街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Public thoroughfare as shown coloured pink on Drawing No. KH4311 commencing at its junction with Fu Mei Street, running southwards for about 50 metres and terminating at its junction with Fu Keung Street and Wang Tau Hom Central Road.",
+            "description_raw_zh": "在 KH 4311 號圖則上以粉紅色標明，由與富美街連接處起，向南伸展約五十米，至與富強街及橫頭磡中道交界處終止。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH4311",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Fu Mei Street",
+                "Fu Keung Street",
+                "Wang Tau Hom Central Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

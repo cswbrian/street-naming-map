@@ -1,0 +1,61 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1980-gn787-hong-cheung-shun-fu",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.787",
+  "publication_date": "1980-03-14",
+  "gazette_url_en": "/egazette/en/1980-gn787.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1980/Scanned_20260711-1411.pdf",
+  "streets": [
+    {
+      "chinese_name": "康祥街",
+      "english_name": "Hong Cheung Street",
+      "history": [
+        {
+          "publication_date": "1980-03-14",
+          "change_kind": "declare",
+          "street_name_en": "Hong Cheung Street",
+          "street_name_zh": "康祥街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 787.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Thoroughfare commencing at its junction with Tai Cheong Street running south-eastwards for a distance of approximately 220 m and ending at its junction with Tai On Street as shown coloured pink on Drawing No. HH 3688. Proposed Name: HONG CHEUNG STREET. Chinese Version: 康祥街.",
+            "description_raw_zh": "此街道起點與大祥街連接，向東南伸展約二二〇米，終點與太安街連接，其位置在 HH 3688 號圖則內用粉紅色標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Tai Cheong Street",
+                "Tai On Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10801"
+    },
+    {
+      "chinese_name": "順富街",
+      "english_name": "Shun Fu Street",
+      "history": [
+        {
+          "publication_date": "1980-03-14",
+          "change_kind": "declare",
+          "street_name_en": "Shun Fu Street",
+          "street_name_zh": "順富街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 787.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Cul-de-sac commencing at its junction with thoroughfare shown coloured pink on Drawing No. HH 3688 and running south-westwards for a distance of approximately 52 m as shown coloured green on the said drawing. Proposed Name: SHUN FU STREET. Chinese Version: 順富街.",
+            "description_raw_zh": "此路線為盡頭路，起點與 HH 3688 號圖則內用粉紅色標明之街道連接，向西南伸展約五十二米，其位置在圖則內用綠色標明。",
+            "parsed": {
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "12087"
+    }
+  ]
+}

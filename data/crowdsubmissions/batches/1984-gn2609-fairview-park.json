@@ -1,0 +1,501 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn2609-fairview-park",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2609",
+  "publication_date": "1984-08-31",
+  "gazette_url_en": "/egazette/en/1984-gn2609.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn2609.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1623.pdf",
+  "streets": [
+    {
+      "chinese_name": "錦綉大道東",
+      "english_name": "Fairview Park Road East",
+      "history": [
+        {
+          "publication_date": "1984-08-31",
+          "change_kind": "declare",
+          "street_name_en": "Fairview Park Road East",
+          "street_name_zh": "錦綉大道東",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with FAIRVIEW PARK ROAD SOUTH and running in a north north-easterly direction for about 357 metres where it terminates at its junction with GOLDEN BAMBOO ROAD NORTH as shown coloured pink and hatched black on Plan No. YLRM2.",
+            "description_raw_zh": "此街道由與錦綉大道南交界處起，向東北偏北伸展約357米，至與金竹北路交界處止。在 YLRM 2 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "YLRM2",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Fairview Park Road South",
+                "Golden Bamboo Road North"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10422"
+    },
+    {
+      "chinese_name": "錦綉大道北",
+      "english_name": "Fairview Park Road North",
+      "history": [
+        {
+          "publication_date": "1984-08-31",
+          "change_kind": "declare",
+          "street_name_en": "Fairview Park Road North",
+          "street_name_zh": "錦綉大道北",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with GOLDEN BAMBOO ROAD NORTH and running in a north north-easterly direction for about 68 metres; it then curves smoothly to run in a north-westerly direction for about 370 metres and then bends to run in a west north-westerly direction for about 206 metres before it turns to run in a westerly direction for about 74 metres where it terminates at its junction with FAIRVIEW PARK ROAD WEST as shown coloured pink and hatched black on Plan No. YLRM2.",
+            "description_raw_zh": "此街道由與金竹北路交界處起，向東北偏北伸展約68米，然後順向西北伸展約370米，及轉向西北偏西伸展約206米，再轉向西伸展約74米至與錦綉大道西交界處止。在 YLRM 2 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "YLRM2",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Golden Bamboo Road North",
+                "Fairview Park Road West"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10423"
+    },
+    {
+      "chinese_name": "錦綉大道南",
+      "english_name": "Fairview Park Road South",
+      "history": [
+        {
+          "publication_date": "1984-08-31",
+          "change_kind": "declare",
+          "street_name_en": "Fairview Park Road South",
+          "street_name_zh": "錦綉大道南",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with an unnamed street and running in a west north-westerly direction for about 710 metres where it terminates at its junction with FAIRVIEW PARK ROAD WEST as shown coloured pink and cross-hatched black on Plan No. YLRM2.",
+            "description_raw_zh": "此街道由與一未命名街道交界處起，向西北偏西伸展約710米，至與錦綉大道西交界處止。在 YLRM 2 號圖則上以粉紅色間以交錯黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "YLRM2",
+                  "color": "pink",
+                  "hatching": "cross-hatched black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Fairview Park Road West"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10424"
+    },
+    {
+      "chinese_name": "錦綉大道西",
+      "english_name": "Fairview Park Road West",
+      "history": [
+        {
+          "publication_date": "1984-08-31",
+          "change_kind": "declare",
+          "street_name_en": "Fairview Park Road West",
+          "street_name_zh": "錦綉大道西",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with FAIRVIEW PARK ROAD SOUTH and running in a west north-westerly direction for about 45 metres; it then turns to run in a north north-westerly direction for about 235 metres and then curves to run in a north north-easterly direction for about 386 metres before it bends to run in a north-easterly direction for about 112 metres where it terminates at its junction with an unnamed road as shown coloured pink and hatched black on Plan No. YLRM2.",
+            "description_raw_zh": "此街道由與錦綉大道南交界處起，向西北偏西伸展約45米，然後向西北偏北伸展約235米，再向東北偏北伸展約386米，然後轉向東北伸展約112米至與一未命名街道交界處止。在 YLRM 2 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "YLRM2",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Fairview Park Road South"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10425"
+    },
+    {
+      "chinese_name": "銀杏路",
+      "english_name": "Ginkgo Road",
+      "history": [
+        {
+          "publication_date": "1984-08-31",
+          "change_kind": "declare",
+          "street_name_en": "Ginkgo Road",
+          "street_name_zh": "銀杏路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with FAIRVIEW PARK ROAD WEST and running in a north north-easterly direction for about 410 metres before it bends to run in a north-easterly direction for about 200 metres where it terminates at its junction with FAIRVIEW PARK ROAD NORTH as shown coloured pink and hatched black on Plan No. YLRM2.",
+            "description_raw_zh": "此街道由與錦綉大道西交界處起，向東北偏北伸展約410米，然後轉向東北伸展約200米至與錦綉大道北交界處止。在 YLRM 2 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "YLRM2",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Fairview Park Road West",
+                "Fairview Park Road North"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10605"
+    },
+    {
+      "chinese_name": "紅荷路",
+      "english_name": "Lotus Road",
+      "history": [
+        {
+          "publication_date": "1984-08-31",
+          "change_kind": "declare",
+          "street_name_en": "Lotus Road",
+          "street_name_zh": "紅荷路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with FAIRVIEW PARK ROAD SOUTH and running in a north north-easterly direction for about 360 metres where it terminates at its junction with GOLDEN BAMBOO ROAD NORTH as shown coloured pink and hatched black on Plan No. YLRM2.",
+            "description_raw_zh": "此街道由與錦綉大道南交界處起，向東北偏北伸展約360米，至與金竹北路交界處止。在 YLRM 2 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "YLRM2",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Fairview Park Road South",
+                "Golden Bamboo Road North"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11281"
+    },
+    {
+      "chinese_name": "金竹東路",
+      "english_name": "Golden Bamboo Road East",
+      "history": [
+        {
+          "publication_date": "1984-08-31",
+          "change_kind": "declare",
+          "street_name_en": "Golden Bamboo Road East",
+          "street_name_zh": "金竹東路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with FAIRVIEW PARK ROAD SOUTH and running in a north north-easterly direction for about 357 metres where it terminates at its junction with GOLDEN BAMBOO ROAD NORTH as shown coloured pink and hatched black on Plan No. YLRM2.",
+            "description_raw_zh": "此街道由與錦綉大道南交界處起，向東北偏北伸展約357米，至與金竹北路交界處止。在 YLRM 2 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "YLRM2",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Fairview Park Road South",
+                "Golden Bamboo Road North"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10610"
+    },
+    {
+      "chinese_name": "金竹北路",
+      "english_name": "Golden Bamboo Road North",
+      "history": [
+        {
+          "publication_date": "1984-08-31",
+          "change_kind": "declare",
+          "street_name_en": "Golden Bamboo Road North",
+          "street_name_zh": "金竹北路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with GOLDEN BAMBOO ROAD EAST and running in a west north-westerly direction for about 973 metres where it terminates at its junction with an unnamed road as shown coloured pink and cross-hatched black on Plan No. YLRM2.",
+            "description_raw_zh": "此街道由與金竹東路交界處起，向西北偏西伸展約973米至與一未命名街道交界處止。在 YLRM 2 號圖則上以粉紅色間以交錯黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "YLRM2",
+                  "color": "pink",
+                  "hatching": "cross-hatched black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Golden Bamboo Road East"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10611"
+    },
+    {
+      "chinese_name": "荔枝東路",
+      "english_name": "Lychee Road East",
+      "history": [
+        {
+          "publication_date": "1984-08-31",
+          "change_kind": "declare",
+          "street_name_en": "Lychee Road East",
+          "street_name_zh": "荔枝東路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with FAIRVIEW PARK ROAD NORTH and running in a north-easterly direction for about 256 metres where it terminates temporarily as shown coloured pink and hatched black on Plan No. YLRM2.",
+            "description_raw_zh": "此路由與錦綉大道北交界處起，向東北伸展約256米後暫時終止。在 YLRM 2 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "YLRM2",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Fairview Park Road North"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11331"
+    },
+    {
+      "chinese_name": "荔枝北路",
+      "english_name": "Lychee Road North",
+      "history": [
+        {
+          "publication_date": "1984-08-31",
+          "change_kind": "declare",
+          "street_name_en": "Lychee Road North",
+          "street_name_zh": "荔枝北路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with LYCHEE ROAD WEST and running generally in a south south-easterly direction for about 328 metres; it then bends to run in a south-easterly direction for about 149 metres and then turns to run in an east south-easterly direction for about 89 metres; it continues to run in an easterly direction for about 206 metres before it bends to run in a south-easterly direction for about 181 metres where it terminates at its junction with LYCHEE ROAD EAST as shown coloured pink and cross-hatched black on Plan No. YLRM2.",
+            "description_raw_zh": "此街道由與荔枝西路交界處起，向東南偏南伸展約328米，然後向東南方向伸展約149米，再向東南偏東伸展約89米，然後向東伸展約206米，再轉向東南伸展約181米至與荔枝東路交界處止。在 YLRM 2 號圖則上以粉紅色間以交錯黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "YLRM2",
+                  "color": "pink",
+                  "hatching": "cross-hatched black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Lychee Road West",
+                "Lychee Road East"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11332"
+    },
+    {
+      "chinese_name": "荔枝西路",
+      "english_name": "Lychee Road West",
+      "history": [
+        {
+          "publication_date": "1984-08-31",
+          "change_kind": "declare",
+          "street_name_en": "Lychee Road West",
+          "street_name_zh": "荔枝西路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with LYCHEE ROAD SOUTH and running in a north-easterly direction for about 153 metres where it terminates at its junction with LYCHEE ROAD NORTH as shown coloured pink and hatched black on Plan No. YLRM2.",
+            "description_raw_zh": "此街道由與荔枝南路交界處起，向東北伸展約153米至與荔枝北路交界處止。在 YLRM 2 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "YLRM2",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Lychee Road South",
+                "Lychee Road North"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11334"
+    },
+    {
+      "chinese_name": "荔枝南路",
+      "english_name": "Lychee Road South",
+      "history": [
+        {
+          "publication_date": "1984-08-31",
+          "change_kind": "declare",
+          "street_name_en": "Lychee Road South",
+          "street_name_zh": "荔枝南路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with LYCHEE ROAD WEST and running in a south-easterly direction for about 477 metres; it then turns to run in an east south-easterly direction for about 150 metres and then bends to run in a south-easterly direction again for about 232 metres where it terminates temporarily at its junction with LYCHEE ROAD EAST as shown coloured pink and cross-hatched black on Plan No. YLRM2.",
+            "description_raw_zh": "此街道由與荔枝西路交界處起，向東南伸展約477米，然後向東南偏東伸展約150米，再轉向東南伸展約232米，至與荔枝東路交界處暫時終止。在 YLRM 2 號圖則上以粉紅色間以交錯黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "YLRM2",
+                  "color": "pink",
+                  "hatching": "cross-hatched black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Lychee Road West",
+                "Lychee Road East"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11333"
+    },
+    {
+      "chinese_name": "楓香路",
+      "english_name": "Sweet Gum Road",
+      "history": [
+        {
+          "publication_date": "1984-08-31",
+          "change_kind": "declare",
+          "street_name_en": "Sweet Gum Road",
+          "street_name_zh": "楓香路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with an unnamed road and running in a north-easterly direction for about 115 metres where it terminates at its junction with LYCHEE ROAD NORTH as shown coloured pink and hatched black on Plan No. YLRM2.",
+            "description_raw_zh": "此街道由與一未命名街道交界處起，向東北伸展約115米至與荔枝北路交界處止。在 YLRM 2 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "YLRM2",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Lychee Road North"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12197"
+    },
+    {
+      "chinese_name": "紫檀路",
+      "english_name": "Rose Wood Road",
+      "history": [
+        {
+          "publication_date": "1984-08-31",
+          "change_kind": "declare",
+          "street_name_en": "Rose Wood Road",
+          "street_name_zh": "紫檀路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with FAIRVIEW PARK ROAD WEST and running in a west south-westerly direction for about 64 metres where it terminates temporarily as shown coloured pink and cross-hatched black on Plan No. YLRM2.",
+            "description_raw_zh": "此街道由與錦綉大道西交界處起，向西南偏西伸展約64米後暫時終止。在 YLRM 2 號圖則上以粉紅色間以交錯黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "YLRM2",
+                  "color": "pink",
+                  "hatching": "cross-hatched black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Fairview Park Road West"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11823"
+    },
+    {
+      "chinese_name": "松濤東路",
+      "english_name": "Pinery Road East",
+      "history": [
+        {
+          "publication_date": "1984-08-31",
+          "change_kind": "declare",
+          "street_name_en": "Pinery Road East",
+          "street_name_zh": "松濤東路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with FAIRVIEW PARK ROAD SOUTH and running in a south south-westerly direction for about 147 metres where it terminates temporarily as shown coloured pink and hatched black on Plan No. YLRM2.",
+            "description_raw_zh": "此街道由與錦綉大道南交界處起，向西南偏南伸展約147米後暫時終止。在 YLRM 2 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "YLRM2",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Fairview Park Road South"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11696"
+    }
+  ]
+}

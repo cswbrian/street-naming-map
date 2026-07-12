@@ -1,0 +1,172 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1982-gn3955-tai-po",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3955",
+  "publication_date": "1982-12-17",
+  "gazette_url_en": "/egazette/en/1982-gn3955.pdf",
+  "gazette_url_zh": "/egazette/zh/1982-gn3955.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1982/Scanned_20260711-1528.pdf",
+  "streets": [
+    {
+      "chinese_name": "安慈路",
+      "english_name": "On Chee Road",
+      "history": [
+        {
+          "publication_date": "1982-12-17",
+          "change_kind": "declare",
+          "street_name_en": "On Chee Road",
+          "street_name_zh": "安慈路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with TING KOK ROAD and running in an easterly direction for about 290 metres; then it turns to run southerly for about 85 metres where it terminates at its junction with ON PONG ROAD as shown coloured pink and hatched black on Drawing No. NTA/TP/R58.",
+            "description_raw_zh": "該街道由汀角路交界處起，向東伸展約二百九十米，然後順屈向南伸展約八十五米，至與安邦路交界處終止，在 NTA/TP/R58 號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TP/R58",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Ting Kok Road",
+                "On Pong Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11571"
+    },
+    {
+      "chinese_name": "安祥路",
+      "english_name": "On Cheung Road",
+      "history": [
+        {
+          "publication_date": "1982-12-17",
+          "change_kind": "declare",
+          "street_name_en": "On Cheung Road",
+          "street_name_zh": "安祥路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at the boundary of Tai Yuen Estate and running in a southerly direction for about 340 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/TP/R58.",
+            "description_raw_zh": "該街道由大元邨分界綫起，向南伸展約三百四十米而終止，在 NTA/TP/R58 號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TP/R58",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "11572"
+    },
+    {
+      "chinese_name": "安泰路",
+      "english_name": "On Tai Road",
+      "history": [
+        {
+          "publication_date": "1982-12-17",
+          "change_kind": "declare",
+          "street_name_en": "On Tai Road",
+          "street_name_zh": "安泰路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at the boundary of Tai Yuen Estate and running in a southerly direction for about 240 metres where it terminates at its junction with ON PONG ROAD as shown coloured pink and hatched black on Drawing No. NTA/TP/R58.",
+            "description_raw_zh": "該街道由大元邨分界綫起，向南伸展約二百四十米，至與安邦路交界處終止，在 NTA/TP/R58 號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TP/R58",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "On Pong Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11604"
+    },
+    {
+      "chinese_name": "安邦路",
+      "english_name": "On Pong Road",
+      "history": [
+        {
+          "publication_date": "1982-12-17",
+          "change_kind": "declare",
+          "street_name_en": "On Pong Road",
+          "street_name_zh": "安邦路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with ON TAI ROAD at about 90 metres beyond the boundary of Tai Yuen Estate and running in an easterly direction for about 60 metres; then it bends to run southerly for about 140 metres and turns again westerly for about 360 metres to terminate at its closed end as shown coloured pink and hatched black on Drawing No. NTA/TP/R58.",
+            "description_raw_zh": "該街道由距離大元邨分界綫約九十米與安泰路交界處起，向東伸展約六十米，然後順屈向南伸展約一百四十米，再轉向西伸展約三百六十米，至其盡頭處終止，在 NTA/TP/R58 號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TP/R58",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "On Tai Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11598"
+    },
+    {
+      "chinese_name": "安民坊",
+      "english_name": "On Man Square",
+      "history": [
+        {
+          "publication_date": "1982-12-17",
+          "change_kind": "declare",
+          "street_name_en": "On Man Square",
+          "street_name_zh": "安民坊",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Square commencing at its junction with ON CHEUNG ROAD about 60 metres beyond the boundary of Tai Yuen Estate and leading for about 40 metres into an enclosed open space as shown coloured pink and hatched black on Drawing No. NTA/TP/R58.",
+            "description_raw_zh": "該坊由距離大元邨分界綫約六十米與安祥路交界處起，伸展約四十米至於受圍繞之空地處終止，在 NTA/TP/R58 號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TP/R58",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "On Cheung Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11591"
+    }
+  ]
+}

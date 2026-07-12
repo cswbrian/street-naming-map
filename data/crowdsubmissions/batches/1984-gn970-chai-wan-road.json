@@ -1,0 +1,46 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn970-chai-wan-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.970",
+  "publication_date": "1984-03-30",
+  "gazette_url_en": "/egazette/en/1984-gn970.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn970.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1611.pdf",
+  "streets": [
+    {
+      "chinese_name": "柴灣道",
+      "english_name": "Chai Wan Road",
+      "link_street_code": "10155",
+      "history": [
+        {
+          "publication_date": "1984-03-30",
+          "change_kind": "extend",
+          "street_name_en": "Chai Wan Road",
+          "street_name_zh": "柴灣道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension of Chai Wan Road commencing at its junction with Sun Yip Street running south-easterly for 430 metres as shown coloured pink on Drawing No. HH 4649.",
+            "description_raw_zh": "此為柴灣道之延展部份，由與新業街交界處起，向東南伸展四百三十米。其位置於 HH 4649 號圖則上以粉紅色標明。",
+            "parsed": {
+              "length_m": 430,
+              "length_unit": "m",
+              "plan_refs": [
+                {
+                  "label": "HH 4649",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sun Yip Street"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

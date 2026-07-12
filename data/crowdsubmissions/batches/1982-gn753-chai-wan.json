@@ -1,0 +1,89 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1982-gn753-chai-wan",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.753",
+  "publication_date": "1982-03-05",
+  "gazette_url_en": "/egazette/en/1982-gn753.pdf",
+  "gazette_url_zh": "/egazette/zh/1982-gn753.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1982/Scanned_20260711-1511.pdf",
+  "streets": [
+    {
+      "chinese_name": "永泰道",
+      "english_name": "Wing Tai Road",
+      "history": [
+        {
+          "publication_date": "1982-03-05",
+          "change_kind": "declare",
+          "street_name_en": "Wing Tai Road",
+          "street_name_zh": "永泰道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Chai Wan Road running northwestwards for a distance of approximately 290 metres and terminating at the temporary Chai Wan Public Transport Terminus as shown coloured green on Drawing No. HH 3985A.",
+            "description_raw_zh": "此街道起點與柴灣道街口連接，向西北伸展約二百九十米，至柴灣臨時公共汽車總站終止。其位置在HH 3985A號圖則上用綠色標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Chai Wan Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12744"
+    },
+    {
+      "chinese_name": "常安街",
+      "english_name": "Sheung On Street",
+      "history": [
+        {
+          "publication_date": "1982-03-05",
+          "change_kind": "declare",
+          "street_name_en": "Sheung On Street",
+          "street_name_zh": "常安街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing from the temporary Chai Wan Public Transport Terminus and running southeastwards for a distance of approximately 135 metres as shown coloured yellow on Drawing No. HH 3985A.",
+            "description_raw_zh": "此街道起點在柴灣臨時公共汽車總站，向東南伸展約一百三十五米。其位置在HH 3985A號圖則上用黃色標明。",
+            "parsed": {
+              "referenced_streets_en": []
+            }
+          },
+          "submitter_remarks": "Printed EN Sheung On Road; corrected to Sheung On Street by G.N.1031."
+        }
+      ],
+      "link_street_code": "12035"
+    },
+    {
+      "chinese_name": "嘉業街",
+      "english_name": "Ka Yip Street",
+      "history": [
+        {
+          "publication_date": "1982-03-05",
+          "change_kind": "declare",
+          "street_name_en": "Ka Yip Street",
+          "street_name_zh": "嘉業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with the thoroughfare referred to in (b) above, running southwestwards for a distance of approximately 85 metres to its junction with the thoroughfare referred to in (a) above as shown coloured blue on Drawing No. HH 3985A.",
+            "description_raw_zh": "此街道起點與上文(乙)段所述街道之街口連接，向西南伸展約八十五米，再與上文(甲)段所述街道之街口連接，其位置在HH 3985A號圖則上用藍色標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Sheung On Street",
+                "Wing Tai Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10923"
+    }
+  ],
+  "remarks": "G.N.1031 corrigendum (Sheung On Road→Street) folded into this batch; no separate 1031 batch."
+}

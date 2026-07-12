@@ -1,0 +1,41 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1982-gn1028-lai-king-hill",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1028",
+  "publication_date": "1982-03-26",
+  "gazette_url_en": "/egazette/en/1982-gn1028.pdf",
+  "gazette_url_zh": "/egazette/zh/1982-gn1028.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1982/Scanned_20260711-1514.pdf",
+  "streets": [
+    {
+      "chinese_name": "荔景山道",
+      "english_name": "Lai King Hill Road",
+      "history": [
+        {
+          "publication_date": "1982-03-26",
+          "change_kind": "extend",
+          "street_name_en": "Lai King Hill Road",
+          "street_name_zh": "荔景山道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Lai Wan Road running in a north-westerly direction for about 90 m then in a south-westerly direction for about 150 m and terminating at its junction with Lai King Hill Road as shown coloured red on Drawing No. KH 3759.",
+            "description_raw_zh": "此街道起點與荔灣道連接，向西北伸展約九十米，然後轉向西南伸展約一五〇米，至與荔景山道連接處終結。其位置在KH 3759號圖則上用紅色標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Lai Wan Road",
+                "Lai King Hill Road"
+              ]
+            }
+          },
+          "submitter_remarks": "Gazette ZH 荔景山道; geojson 荔景山路."
+        }
+      ],
+      "link_street_code": "11156"
+    }
+  ],
+  "remarks": "Extend joining existing Lai King Hill Road (prior G.N.112/1975)."
+}

@@ -1,0 +1,38 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1952-gn620-sing-woo-crescent",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.620",
+  "publication_date": "1952-05-23",
+  "gazette_url_en": "/egazette/en/1952-gn620.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1952-gn620.pdf",
+  "streets": [
+    {
+      "link_street_code": "12112",
+      "chinese_name": "成和坊",
+      "english_name": "Sing Woo Crescent",
+      "history": [
+        {
+          "publication_date": "1952-05-23",
+          "change_kind": "declare",
+          "street_name_en": "Sing Woo Crescent",
+          "street_name_zh": "成和坊",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 620.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Description: Road commencing at its junction with Sing Woo Road opposite Kwai Fong Street, running in a north easterly direction, then in a south easterly direction, and then in a southerly direction and terminating at its junction with Sing Woo Road between Inland Lots No. 6392 and 6393 as shown coloured pink on plan No. R.H. 316 signed by Hon. Director of Public Works and dated 15.5.52. Proposed Name: SING WOO CRESCENT. Chinese Version: 成和坊.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Sing Woo Road",
+                "Kwai Fong Street"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

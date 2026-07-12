@@ -1,0 +1,74 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn3530-tsing-lung",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3530",
+  "publication_date": "1984-11-30",
+  "gazette_url_en": "/egazette/en/1984-gn3530.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn3530.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1636.pdf",
+  "streets": [
+    {
+      "chinese_name": "青龍路",
+      "english_name": "Tsing Lung Road",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Lung Road",
+          "street_name_zh": "青龍路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with CASTLE PEAK ROAD SO KWUN WAT and running generally in a south-westerly direction for about 230 metres and then bends to run generally in a westerly direction for about 310 metres where it terminates at its junction with an unnamed street as shown coloured pink and hatched black on Plan No. TMRM10B.",
+            "description_raw_zh": "此路由與青山公路掃管笏段交界處起，向西南伸展約230米，再向西伸展約310米，至與一未命名街道交界處止。在 TMRM 10B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM10B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Castle Peak Road So Kwun Wat"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12431"
+    },
+    {
+      "chinese_name": "青泰路",
+      "english_name": "Tsing Tai Road",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Tsing Tai Road",
+          "street_name_zh": "青泰路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with an unnamed street and running in an easterly direction for about 340 metres where it terminates as shown coloured pink and hatched black on Plan No. TMRM10B.",
+            "description_raw_zh": "此路由與一未命名街道交界處起，向東伸展約340米，至盡頭處終止。在 TMRM 10B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TMRM10B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12440"
+    }
+  ]
+}

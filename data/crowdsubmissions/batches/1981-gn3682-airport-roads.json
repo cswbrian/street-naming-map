@@ -1,0 +1,331 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn3682-airport-roads",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3682",
+  "publication_date": "1981-12-11",
+  "gazette_url_en": "/egazette/en/1981-gn3682.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn3682.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1453.pdf",
+  "streets": [
+    {
+      "chinese_name": "協調道",
+      "english_name": "Concorde Road",
+      "history": [
+        {
+          "publication_date": "1981-12-11",
+          "change_kind": "declare",
+          "street_name_en": "Concorde Road",
+          "street_name_zh": "協調道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing from its junction with Olympic Avenue at the Airport Main Gate running easterly along the north boundary of the airport for about 380 m, turning south-easterly for 160 m and crossing over the Kai Tak Nullah, then continuing in a easterly direction for 500 m and terminating at Airport Eastern Main Gate, as shown coloured blue on Drawing DCA/RD3.",
+            "description_raw_zh": "此街道起點在機場主閘與世運道連接，沿機場北面邊界向東伸展約三八〇米，然後轉向東南伸展一六○米，跨越啟德大渠，再向東面伸展五百米，至機場東閘終結，其位置在 DCA/RD3 號圖則上用藍色標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Olympic Avenue"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10325"
+    },
+    {
+      "chinese_name": "啟達道",
+      "english_name": "Arrivals Road",
+      "history": [
+        {
+          "publication_date": "1981-12-11",
+          "change_kind": "declare",
+          "street_name_en": "Arrivals Road",
+          "street_name_zh": "啟達道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing from its junction with Concorde Road at the eastern end of the Airport Multi-storey Car Park, running southerly for 40 m, then turning westerly for about 250 m along the frontage of Airport Passenger Terminal Building and continuing in a westerly direction until joining Concorde Road again, as shown coloured brown on Drawing DCA/RD2.",
+            "description_raw_zh": "此街道起點在機場多層停車場東邊與協調道連接，向南伸展四十米，然後沿機場客運大廈前面向西伸展約二五○米，續向西伸展，直至再與協調道會合。其位置在 DCA/RD2 號圖則上用棕色標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Concorde Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "彗星道",
+      "english_name": "Comet Road",
+      "history": [
+        {
+          "publication_date": "1981-12-11",
+          "change_kind": "declare",
+          "street_name_en": "Comet Road",
+          "street_name_zh": "彗星道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Link-road between Airport Drive No. 2 and Airport Drive No. 3, running in an easterly direction from Airport Drive No. 2 for about 80 m, as shown coloured red on Drawing DCA/RD2.",
+            "description_raw_zh": "此街道連接機場二路及機場三路，由機場二路向東伸展約八十米。其位置在 DCA/RD2 號圖則上用紅色標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Airport Drive No. 2",
+                "Airport Drive No. 3"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "子爵道",
+      "english_name": "Viscount Road",
+      "history": [
+        {
+          "publication_date": "1981-12-11",
+          "change_kind": "declare",
+          "street_name_en": "Viscount Road",
+          "street_name_zh": "子爵道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Link-road between Airport Drive No. 2 and Airport Drive No. 3, running in an easterly direction from Airport Drive No. 2 for about 80 m, as shown coloured yellow on Drawing DCA/RD2.",
+            "description_raw_zh": "此街道連接機場二路及機場三路，由機場二路向東伸展約八十米。其位置在 DCA/RD2 號圖則上用黃色標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Airport Drive No. 2",
+                "Airport Drive No. 3"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "啟揚道",
+      "english_name": "Departures Circuit",
+      "history": [
+        {
+          "publication_date": "1981-12-11",
+          "change_kind": "declare",
+          "street_name_en": "Departures Circuit",
+          "street_name_zh": "啟揚道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Circuit on the podium level of the Airport Multi-storey Car Park, commencing from its junction with an up ramp connected to Concorde Road, running easterly for about 180 m, turning southerly for 40 m, then continuing westerly for a distance of 250 m along the frontage of the first floor level of the Airport Terminal Building towards its western end and then turning northerly for 30 m and then easterly for 220 m running in parallel to its initial section and terminating at a down ramp joining Concorde Road, as shown coloured yellow on Drawing DCA/RD1.",
+            "description_raw_zh": "此迴旋路在機場多層停車場之平台，起點與通往協調道之上行斜路連接，向東伸展約一八○米，再向南伸展四十米，然後沿機場客運大廈二樓前面向西伸展二五○米，直至大廈西面盡頭，續向北伸展三十米，再向東伸展二二○米，與此路開始之一段平行，在通往協調道之下行斜路處終結。其位置在 DCA/RD1 號圖則上用黃色標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Concorde Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "啟東道",
+      "english_name": "Eastern Road",
+      "history": [
+        {
+          "publication_date": "1981-12-11",
+          "change_kind": "declare",
+          "street_name_en": "Eastern Road",
+          "street_name_zh": "啟東道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing from its junction with Concorde Road, running eastwards initially, then turning southerly and running along the Airport eastern boundary for about 1 400 m and terminating at its junction with Cargo Circuit, as shown coloured purple on Drawing DCA/RD3.",
+            "description_raw_zh": "此街道起點與協調道連接，初時向東伸展，然後轉向南，沿機場東面邊界伸展約一四〇〇米，在與貨運道連接處終結。其位置在 DCA/RD3 號圖則上用紫色標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Concorde Road",
+                "Cargo Circuit"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "貨運道",
+      "english_name": "Cargo Circuit",
+      "history": [
+        {
+          "publication_date": "1981-12-11",
+          "change_kind": "declare",
+          "street_name_en": "Cargo Circuit",
+          "street_name_zh": "貨運道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Circuit commencing from its junction with Eastern Road and running towards the Airport Nullah for a distance of 450 m, then with a north-easterly turn for 64 m, continuing easterly along the frontage of Aircargo Office Block and Hong Kong Aircargo Terminal Ltd. for 450 m and terminating at its junction with Eastern Road again, as shown coloured brown on Drawing DCA/RD3.",
+            "description_raw_zh": "此迴旋路起點與啟東道連接，向機場大渠伸展四五〇米，然後向東北伸展六十四米，再沿貨運大廈及香港空運貨站有限公司前面向東伸展四五〇米，在與啟東道連接處終結。其位置在 DCA/RD3 號圖則上用棕色標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Eastern Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "三星道",
+      "english_name": "Tristar Avenue",
+      "history": [
+        {
+          "publication_date": "1981-12-11",
+          "change_kind": "declare",
+          "street_name_en": "Tristar Avenue",
+          "street_name_zh": "三星道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing from its junction with Cargo Circuit, running northerly for about 128 m and terminating at Airport Security Gate No. 1, as shown coloured yellow on Drawing DCA/RD3.",
+            "description_raw_zh": "此盡頭路起點與貨運道連接，向北伸展約一二八米，在機場第一號保安閘終結。其位置在 DCA/RD3 號圖則上用黃色標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Cargo Circuit"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "機場一路",
+      "english_name": "Airport Drive No. 1",
+      "history": [
+        {
+          "publication_date": "1981-12-11",
+          "change_kind": "declare",
+          "street_name_en": "Airport Drive No. 1",
+          "street_name_zh": "機場一路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing from its junction with Arrivals Road, running southerly for about 100 m before terminating at Airport Security Gate No. 5, as shown coloured purple on Drawing DCA/RD2.",
+            "description_raw_zh": "此盡頭路起點與啟達道連接，向南伸展約一百米，在機場第五號保安閘終結。其位置在 DCA/RD2 號圖則上用紫色標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Arrivals Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "機場二路",
+      "english_name": "Airport Drive No. 2",
+      "history": [
+        {
+          "publication_date": "1981-12-11",
+          "change_kind": "declare",
+          "street_name_en": "Airport Drive No. 2",
+          "street_name_zh": "機場二路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing from its junction with Comet Road and Arrivals Road, running southerly for about 80 m, turning westerly for about 60 m, then turning northerly for a distance of about 80 m and terminating at its junction with Arrivals Road, as shown coloured green on Drawing DCA/RD2.",
+            "description_raw_zh": "此道路起點與彗星道及啟達道連接，向南伸展約八十米，再向西伸展約六十米，續向北伸展八十米，在與啟達道連接處終結。其位置在 DCA/RD2 號圖則上用綠色標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Comet Road",
+                "Arrivals Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "機場三路",
+      "english_name": "Airport Drive No. 3",
+      "history": [
+        {
+          "publication_date": "1981-12-11",
+          "change_kind": "declare",
+          "street_name_en": "Airport Drive No. 3",
+          "street_name_zh": "機場三路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing from its junction with Concorde Road, running southerly for about 140 m and terminating at Airport Security Gate No. 4, as shown coloured orange on Drawing DCA/RD2.",
+            "description_raw_zh": "此盡頭路起點與協調道連接，向南伸展約一四〇米，在機場第四號保安閘終結。其位置在 DCA/RD2 號圖則上用橙色標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Concorde Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "機場四路",
+      "english_name": "Airport Drive No. 4",
+      "history": [
+        {
+          "publication_date": "1981-12-11",
+          "change_kind": "declare",
+          "street_name_en": "Airport Drive No. 4",
+          "street_name_zh": "機場四路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing from its junction with Concorde Road running in a southerly direction for about 80 m, then turning to the east for 60 m and terminating at Airport Security Gate No. 2 as shown coloured pink on Drawing DCA/RD3.",
+            "description_raw_zh": "此盡頭路起點與協調道連接，向南伸展約八十米，續向東伸展六十米，在機場第二號保安閘終結。其位置在 DCA/RD3 號圖則上用粉紅色標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Concorde Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "機場五路",
+      "english_name": "Airport Drive No. 5",
+      "history": [
+        {
+          "publication_date": "1981-12-11",
+          "change_kind": "declare",
+          "street_name_en": "Airport Drive No. 5",
+          "street_name_zh": "機場五路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Circuit commencing from its junction with Concorde Road, surrounding a building next to Airport Maintenance Hangar No. 4 with a total length of about 270 m, as shown coloured green on Drawing DCA/RD3.",
+            "description_raw_zh": "此迴旋路起點與協調道連接，環繞第四號飛機保養庫毗連之一座建築物，全長約二七〇米。其位置在 DCA/RD3 號圖則上用綠色標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Concorde Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "remarks": "Only Concorde Road has a surviving centreline; other Kai Tak airport streets abolished / no geojson match. Shares scan with G.N.3683."
+}

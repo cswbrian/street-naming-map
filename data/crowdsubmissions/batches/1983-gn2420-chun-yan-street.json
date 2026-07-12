@@ -1,0 +1,42 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn2420-chun-yan-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2420",
+  "publication_date": "1983-07-29",
+  "gazette_url_en": "/egazette/en/1983-gn2420.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn2420.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1553.pdf",
+  "streets": [
+    {
+      "chinese_name": "親仁街",
+      "english_name": "Chun Yan Street",
+      "history": [
+        {
+          "publication_date": "1983-07-29",
+          "change_kind": "extend",
+          "street_name_en": "Chun Yan Street",
+          "street_name_zh": "親仁街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension of Chun Yan Street running north-eastwards for a distance of about 130 metres as shown coloured pink on Drawing No. KH 4464.",
+            "description_raw_zh": "由親仁街向東北伸展約一百三十米，即KH 4464號圖則上粉紅色所示位置。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 4464",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "10284"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn1193-kowloon-bay",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1193",
+  "publication_date": "1984-04-19",
+  "gazette_url_en": "/egazette/en/1984-gn1193.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn1193.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1612.pdf",
+  "streets": [
+    {
+      "chinese_name": "宏泰道",
+      "english_name": "Wang Tai Road",
+      "link_street_code": "12670",
+      "history": [
+        {
+          "publication_date": "1984-04-19",
+          "change_kind": "declare",
+          "street_name_en": "Wang Tai Road",
+          "street_name_zh": "宏泰道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured pink on Drawing No. KH 4700 commencing at its junction with Wang Hoi Road running westwards to go for about 140 metres and then turning southwards for about 400 metres to terminate at its junction with Sheung Yee Road.",
+            "description_raw_zh": "該街道在KH 4700號圖則上用粉紅色標明，由與宏開道交界處起，向西伸展約一百四十米，然後向南伸展約四百米，至與常怡道交界處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 4700",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wang Hoi Road",
+                "Sheung Yee Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "翠興街",
+      "english_name": "Tsui Hing Street",
+      "link_street_code": "12473",
+      "history": [
+        {
+          "publication_date": "1984-04-19",
+          "change_kind": "declare",
+          "street_name_en": "Tsui Hing Street",
+          "street_name_zh": "翠興街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown hatched red on Drawing No. KH 4700 commencing at its junction with Sheung Yee Road running southwards to go for about 150 metres then turning eastwards for about 140 metres to terminate at its junction with Cheung Yip Street.",
+            "description_raw_zh": "該街道在KH 4700號圖則上用紅綫標明，由與常怡道交界處開始，向南伸展約一百五十米，然後向東伸展約一百四十米，至祥業街交界處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 4700",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sheung Yee Road",
+                "Cheung Yip Street"
+              ]
+            }
+          },
+          "submitter_remarks": "Printed gazette ZH 昌業; corrected by G.N.3136 to 祥業."
+        }
+      ]
+    },
+    {
+      "chinese_name": "宏開道",
+      "english_name": "Wang Hoi Road",
+      "link_street_code": "12657",
+      "history": [
+        {
+          "publication_date": "1984-04-19",
+          "change_kind": "declare",
+          "street_name_en": "Wang Hoi Road",
+          "street_name_zh": "宏開道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured yellow on Drawing No. KH 4700 commencing at its junction with Sheung Yuet Road running northwards to go for about 290 metres to terminate at its junction with an unnamed thoroughfare (marked Road B and shown coloured green on Drawing No. KH 4700).",
+            "description_raw_zh": "該街道在KH 4700號圖則上用黃色標明，由與常悅道交界處開始，向北伸展約二百九十米，至與B道（未命名街道，在KH 4700號圖則上用綠色標明）交界處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 4700",
+                  "color": "yellow"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sheung Yuet Road"
+              ],
+              "unnamed_junction_refs_en": [
+                "Road B"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "宏冠道",
+      "english_name": "Wang Kwun Road",
+      "link_street_code": "12660",
+      "history": [
+        {
+          "publication_date": "1984-04-19",
+          "change_kind": "declare",
+          "street_name_en": "Wang Kwun Road",
+          "street_name_zh": "宏冠道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown hatched blue on Drawing No. KH 4700 commencing at its junction with Sheung Yuet Road running northwards to go for about 290 metres to terminate at its junction with an unnamed thoroughfare (marked Road B and shown coloured green on Drawing No. KH 4700).",
+            "description_raw_zh": "該街道在KH 4700號圖則上用藍綫標明，由與常悅道交界處開始，向北伸展約二百九十米，至與B道（未命名街道，在KH 4700號圖則上用綠色標明）交界處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 4700",
+                  "color": "blue"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sheung Yuet Road"
+              ],
+              "unnamed_junction_refs_en": [
+                "Road B"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "祥業街",
+      "english_name": "Cheung Yip Street",
+      "link_street_code": "10221",
+      "history": [
+        {
+          "publication_date": "1984-04-19",
+          "change_kind": "declare",
+          "street_name_en": "Cheung Yip Street",
+          "street_name_zh": "祥業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured grey on Drawing No. KH 4700 commencing at its junction with an unnamed thoroughfare (marked Road Y on Drawing No. KH 4700) running north-eastwards to go for about 280 metres then turning northwards for about 350 metres to terminate at its junction with Sheung Yee Road.",
+            "description_raw_zh": "該街道在KH 4700號圖則上用灰色標明，由與一條未命名街道（在KH 4700號圖則上以Y道標明）交界處開始，向東北伸展約二百八十米，然後向北伸展約三百五十米，至與常怡道交界處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 4700",
+                  "color": "grey"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sheung Yee Road"
+              ],
+              "unnamed_junction_refs_en": [
+                "Road Y"
+              ]
+            }
+          },
+          "submitter_remarks": "Printed gazette ZH 昌業; corrected by G.N.3136 to 祥業."
+        }
+      ]
+    },
+    {
+      "chinese_name": "啓興道",
+      "english_name": "Kai Hing Road",
+      "link_street_code": "10931",
+      "history": [
+        {
+          "publication_date": "1984-04-19",
+          "change_kind": "declare",
+          "street_name_en": "Kai Hing Road",
+          "street_name_zh": "啓興道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac as shown hatched orange on Drawing No. KH 4700 commencing at its junction with Hoi Bun Road running south-westwards to go for about 270 metres and terminating at the boundary of telephone cable storage yard.",
+            "description_raw_zh": "此盡頭路在KH 4700號圖則上用橙綫標明，由與海濱道交界處開始，向西南伸展約二百七十米，至與電話電纜貯存場地交界處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 4700",
+                  "color": "orange"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hoi Bun Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "remarks": "G.N.3136 corrigendum (昌業→祥業) folded into this batch; no separate 3136 batch."
+}

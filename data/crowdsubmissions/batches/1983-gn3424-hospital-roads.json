@@ -1,0 +1,77 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn3424-hospital-roads",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3424",
+  "publication_date": "1983-10-28",
+  "gazette_url_en": "/egazette/en/1983-gn3424.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn3424.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1559.pdf",
+  "streets": [
+    {
+      "chinese_name": "葵涌醫院路",
+      "english_name": "Kwai Chung Hospital Road",
+      "history": [
+        {
+          "publication_date": "1983-10-28",
+          "change_kind": "declare",
+          "street_name_en": "Kwai Chung Hospital Road",
+          "street_name_zh": "葵涌醫院路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with LAI KING HILL ROAD and running north-easterly for about 30 metres before it bends to run south-easterly for about 220 metres; it bends to run north-easterly for about 55 metres before it branches off and loops in both north-westerly and south-easterly directions for about 70 metres respectively and continues to run south-easterly for about 225 metres; it then branches off to run in two directions: one branch runs in a generally north-easterly direction and the other branch runs in a generally east north-easterly and then north north-westerly direction; both branches rejoin after running for about 90 metres; it continues to run north north-westerly for about 90 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/TW/R97.",
+            "description_raw_zh": "此路由與荔景山路交界處起，向東北伸展約三十米，後轉向東南伸展約二百二十米；再轉向東北伸展約五十五米，然後分別向西北及東南迴旋約七十米；再向東南伸展約二百二十五米；然後分為兩分段，一分段向東北伸展，另一分段先向東北偏東，後向西北偏北伸展，兩分段伸展約九十米後重合一起，繼續向西北偏北伸展約九十米而終止。在NTA/TW/R97號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R97",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Lai King Hill Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11078"
+    },
+    {
+      "chinese_name": "瑪嘉烈醫院路",
+      "english_name": "Princess Margaret Hospital Road",
+      "history": [
+        {
+          "publication_date": "1983-10-28",
+          "change_kind": "declare",
+          "street_name_en": "Princess Margaret Hospital Road",
+          "street_name_zh": "瑪嘉烈醫院路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with LAI KING HILL ROAD and running easterly for about 20 metres before it bends to run south south-easterly for about 60 metres; it then branches to run in the same direction with one of the branches terminates after running for about 125 metres, and the other branch continues to run easterly for about 110 metres and then bends north-easterly for about 80 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/TW/R97.",
+            "description_raw_zh": "此路由與荔景山路交界處起，向東伸展約二十米，再向東南偏南伸展約六十米，然後分為兩段向同一方向伸展，其中一段伸展約一百二十五米而終止，另一則繼續向東伸展約一百一十米，再向東北伸展約八十米而終止。在NTA/TW/R97號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R97",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Lai King Hill Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11790"
+    }
+  ]
+}

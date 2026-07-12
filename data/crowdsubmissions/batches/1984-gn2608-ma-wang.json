@@ -1,0 +1,48 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn2608-ma-wang",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2608",
+  "publication_date": "1984-08-31",
+  "gazette_url_en": "/egazette/en/1984-gn2608.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn2608.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1623.pdf",
+  "streets": [
+    {
+      "chinese_name": "媽橫路",
+      "english_name": "Ma Wang Road",
+      "history": [
+        {
+          "publication_date": "1984-08-31",
+          "change_kind": "extend",
+          "street_name_en": "Ma Wang Road",
+          "street_name_zh": "媽橫路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Extensions on both ends of the existing MA WANG ROAD (which was gazetted vide G.N. 2481/78 and G.N. 1752/83): one of the extensions commences at its junction with YUEN LONG ON LOK ROAD and runs generally in a west south-westerly direction for about 212 metres where it joins the eastern end of the existing MA WANG ROAD; the other extension starts from its junction with the western end of the existing MA WANG ROAD and runs in a south-westerly direction for about 181 metres before it turns to run in a southerly direction for about 67 metres where it terminates at its junction with CASTLE PEAK ROAD PING SHAN as shown coloured pink and hatched black on Plan No. LD/YL/R11.",
+            "description_raw_zh": "此路為公告第2841/78及1752/83號所公告之現有媽橫路兩端之延展部份：其中一端由與元朗安樂路交界處起，向西南偏西伸展約212米，至與現有之媽橫路東端連接為止。另一端則由與現有之媽橫路西端連接處起，向西南伸展約181米，然後轉向南伸展約67米，至與青山公路屏山段交界處止。在 LD/YL/R11 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R11",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Yuen Long On Lok Road",
+                "Castle Peak Road Ping Shan"
+              ]
+            }
+          },
+          "submitter_remarks": "EN cites previous G.N.2481/78; ZH cites 2841/78 (likely OCR/print error — description uses EN 2481)."
+        }
+      ],
+      "link_street_code": "11355"
+    }
+  ],
+  "remarks": "Extension cites previous G.N.2481/78 and G.N.1752/83 (EN). ZH prints 2841/78 for the 1978 citation."
+}

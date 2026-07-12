@@ -1,0 +1,105 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn3529-eastern",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3529",
+  "publication_date": "1984-11-30",
+  "gazette_url_en": "/egazette/en/1984-gn3529.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn3529.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1636.pdf",
+  "streets": [
+    {
+      "chinese_name": "民康街",
+      "english_name": "Man Hong Street",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Man Hong Street",
+          "street_name_zh": "民康街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "A road, as shown coloured purple in Drawing No. CM251, commencing from the junction of King's Road with Healthy Street West runs in a north-easterly direction for a distance of approximately 100 metres to join Java Road.",
+            "description_raw_zh": "此街道於 CM 251 號圖則上以紫色標明，由英皇道與健康西街交界處起，向東北伸展約一百米，至與渣華道連接。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "CM251",
+                  "color": "purple"
+                }
+              ],
+              "referenced_streets_en": [
+                "King's Road",
+                "Healthy Street West",
+                "Java Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11371"
+    },
+    {
+      "chinese_name": "海裕街",
+      "english_name": "Hoi Yu Street",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Hoi Yu Street",
+          "street_name_zh": "海裕街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "A road, as shown coloured light blue in Drawing No. CM251, commencing from its junction with Java Road near the North Point Police Station, runs in a north-easterly direction for a distance of approximately 120 metres where it turns eastwards and runs for a distance of approximately 480 metres where it terminates as a cul-de-sac.",
+            "description_raw_zh": "此街道於 CM 251 號圖則上以淺藍色標明，由近北角警署之渣華道交界處起，向東北伸展約一百二十米，再向東伸展約四百八十米，至盡頭路止。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "CM251",
+                  "color": "light blue"
+                }
+              ],
+              "referenced_streets_en": [
+                "Java Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10787"
+    },
+    {
+      "chinese_name": "順泰道",
+      "english_name": "Shun Tai Road",
+      "history": [
+        {
+          "publication_date": "1984-11-30",
+          "change_kind": "declare",
+          "street_name_en": "Shun Tai Road",
+          "street_name_zh": "順泰道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "A road in Chai Wan, as shown coloured dark blue in Drawing No. CM251, commencing at its junction with an unnamed road (marked Road 20/8 in Drawing No. CM251) and running westwards for a distance of approximately 100 metres where it turns northwards and runs for a distance of approximately 180 metres where it turns eastwards and running for a distance of approximately 130 metres joins an unnamed road (marked Road 20/2 in Drawing No. CM251).",
+            "description_raw_zh": "此街道位於柴灣，於 CM 251 號圖則上以深藍色標明，由與一條未命名街道（在 CM 251 號圖則上之 20/8 街道）交界處起，向西伸展約一百米，再向北伸展約一百八十米，然後向東伸展約一百三十米，至與一條未命名街道（在 CM 251 號圖則上之 20/2 街道）連接。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "CM251",
+                  "color": "dark blue"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12095"
+    }
+  ]
+}

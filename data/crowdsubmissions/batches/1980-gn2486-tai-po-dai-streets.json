@@ -1,0 +1,217 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1980-gn2486-tai-po-dai-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2486",
+  "publication_date": "1980-08-08",
+  "gazette_url_en": "/egazette/en/1980-gn2486.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1980/Scanned_20260711-1420.pdf",
+  "streets": [
+    {
+      "chinese_name": "大貴街",
+      "english_name": "Dai Kwai Street",
+      "history": [
+        {
+          "publication_date": "1980-08-08",
+          "change_kind": "extend",
+          "street_name_en": "Dai Kwai Street",
+          "street_name_zh": "大貴街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 2486.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: An extension to the existing Dai Kwai Street (G.N. 1002/79 refers) running in a southerly direction for about 195 metres where it terminates as shown coloured green on Drawing No. NTA/TP/R57A. Proposed Name: DAI KWAI STREET. Chinese Version: 大貴街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Dai Kwai Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10358"
+    },
+    {
+      "chinese_name": "大鵬街",
+      "english_name": "Dai Pang Street",
+      "history": [
+        {
+          "publication_date": "1980-08-08",
+          "change_kind": "declare",
+          "street_name_en": "Dai Pang Street",
+          "street_name_zh": "大鵬街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 2486.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Street commencing at its junction with Dai Kwai Street and running in an easterly direction for about 210 metres where it terminates as shown coloured blue on Drawing No. NTA/TP/R57A. Proposed Name: DAI PANG STREET. Chinese Version: 大鵬街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Dai Kwai Street"
+              ]
+            }
+          },
+          "submitter_remarks": "No current LandsD centreline for Dai Pang Street / 大鵬街; events-only until linker finds identity."
+        }
+      ]
+    },
+    {
+      "chinese_name": "大富街",
+      "english_name": "Dai Fu Street",
+      "history": [
+        {
+          "publication_date": "1980-08-08",
+          "change_kind": "extend",
+          "street_name_en": "Dai Fu Street",
+          "street_name_zh": "大富街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 2486.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: An extension to the existing Dai Fu Street (G.N. 1002/79 refers) running in a southerly direction for about 325 metres where it terminates at its junction with Dai Cheong Street as shown coloured pink on Drawing No. NTA/TP/R57A. Proposed Name: DAI FU STREET. Chinese Version: 大富街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Dai Fu Street",
+                "Dai Cheong Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10355"
+    },
+    {
+      "chinese_name": "大順街",
+      "english_name": "Dai Shun Street",
+      "history": [
+        {
+          "publication_date": "1980-08-08",
+          "change_kind": "extend",
+          "street_name_en": "Dai Shun Street",
+          "street_name_zh": "大順街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 2486.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: An extension to the existing Dai Shun Street (G.N. 1002/79 refers) running in a southerly direction for about 140 metres where it bends to run westerly for about 180 metres to terminate at its junction with Dai Fu Street as shown coloured yellow on Drawing No. NTA/TP/R57A. Proposed Name: DAI SHUN STREET. Chinese Version: 大順街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Dai Shun Street",
+                "Dai Fu Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10362"
+    },
+    {
+      "chinese_name": "大發街",
+      "english_name": "Dai Fat Street",
+      "history": [
+        {
+          "publication_date": "1980-08-08",
+          "change_kind": "declare",
+          "street_name_en": "Dai Fat Street",
+          "street_name_zh": "大發街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 2486.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Street commencing at its junction with Ting Kok Road near Tim Sam, Tai Po and running in a southerly direction for about 485 metres where it terminates as shown coloured brown on Drawing No. NTA/TP/R57A. Proposed Name: DAI FAT STREET. Chinese Version: 大發街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Ting Kok Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10354"
+    },
+    {
+      "chinese_name": "大宏街",
+      "english_name": "Dai Wang Street",
+      "history": [
+        {
+          "publication_date": "1980-08-08",
+          "change_kind": "declare",
+          "street_name_en": "Dai Wang Street",
+          "street_name_zh": "大宏街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 2486.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Street commencing at its junction with Dai Fat Street and running in an easterly direction for about 370 metres where it terminates at its junction with Dai Fu Street as shown coloured grey on Drawing No. NTA/TP/R57A. Proposed Name: DAI WANG STREET. Chinese Version: 大宏街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Dai Fat Street",
+                "Dai Fu Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10363"
+    },
+    {
+      "chinese_name": "大昌街",
+      "english_name": "Dai Cheong Street",
+      "history": [
+        {
+          "publication_date": "1980-08-08",
+          "change_kind": "declare",
+          "street_name_en": "Dai Cheong Street",
+          "street_name_zh": "大昌街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 2486.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Street commencing at its junction with Dai Fat Street and running in an easterly direction for about 723 metres where it terminates at its junction with Dai Kwai Street as shown coloured orange on Drawing No. NTA/TP/R57A. Proposed Name: DAI CHEONG STREET. Chinese Version: 大昌街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Dai Fat Street",
+                "Dai Kwai Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10353"
+    },
+    {
+      "chinese_name": "大盛街",
+      "english_name": "Dai Shing Street",
+      "history": [
+        {
+          "publication_date": "1980-08-08",
+          "change_kind": "declare",
+          "street_name_en": "Dai Shing Street",
+          "street_name_zh": "大盛街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 2486.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Street commencing at its junction with Dai Fat Street and running in an easterly direction for about 535 metres where it bends to run northerly for about 130 metres to terminate at its junction with Dai Cheong Street as shown coloured apple-green on Drawing No. NTA/TP/R57A. Proposed Name: DAI SHING STREET. Chinese Version: 大盛街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Dai Fat Street",
+                "Dai Cheong Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10361"
+    }
+  ]
+}

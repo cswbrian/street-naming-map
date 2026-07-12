@@ -1,0 +1,77 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1954-gn1538-wang-cheung-sui-lun",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1538",
+  "publication_date": "1954-12-17",
+  "gazette_url_en": "/egazette/en/1954-gn1538.pdf",
+  "gazette_url_zh": "/egazette/zh/1954-gn1538.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1954-gn1538.pdf",
+  "streets": [
+    {
+      "chinese_name": "宏昌街",
+      "english_name": "Wang Cheung Street",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Wang Cheung Street",
+          "street_name_zh": "宏昌街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-12-17",
+          "is_declaration_event": true,
+          "submitter_remarks": "No geojson centreline for Wang Cheung Street / 宏昌街.",
+          "gazette_location": {
+            "description_raw_en": "No. 1538.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Road about 40 yards to the south of Ma Tau Kok Road and parallel to it, commencing at its junction with Pau Chung Street and running in a north-westerly direction for about 100 yards as shewn coloured red on plan No. R.K. 522. Proposed Name: WANG CHEUNG STREET. Chinese Version: 宏昌街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 522",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Ma Tau Kok Road",
+                "Pau Chung Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "瑞麟街",
+      "english_name": "Sui Lun Street",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Sui Lun Street",
+          "street_name_zh": "瑞麟街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-12-17",
+          "is_declaration_event": true,
+          "submitter_remarks": "No geojson centreline for Sui Lun Street / 瑞麟街.",
+          "gazette_location": {
+            "description_raw_en": "No. 1538.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Road about 40 yards to the north of San Shan Road and parallel to it, commencing at its junction with Pau Chung Street and running in a north-westerly direction for about 100 yards as shewn coloured brown on plan No. R.K. 522. Proposed Name: SUI LUN STREET. Chinese Version: 瑞麟街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 522",
+                  "color": "brown"
+                }
+              ],
+              "referenced_streets_en": [
+                "San Shan Road",
+                "Pau Chung Street"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

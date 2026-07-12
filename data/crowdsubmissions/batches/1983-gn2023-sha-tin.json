@@ -1,0 +1,205 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn2023-sha-tin",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2023",
+  "publication_date": "1983-07-01",
+  "gazette_url_en": "/egazette/en/1983-gn2023.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn2023.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1550.pdf",
+  "streets": [
+    {
+      "chinese_name": "文林路",
+      "english_name": "Man Lam Road",
+      "history": [
+        {
+          "publication_date": "1983-07-01",
+          "change_kind": "extend",
+          "street_name_en": "Man Lam Road",
+          "street_name_zh": "文林路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension to the existing MAN LAM ROAD running in a west south-westerly direction for about 42 metres; it then turns to run south south-westerly for about 130 metres and bends to run south south-easterly for about 53 metres where it terminates at its junction with MAN LAI ROAD as shown coloured pink and hatched black on Drawing No. LD/ST/R8B.",
+            "description_raw_zh": "此路乃現有文林路之延續，向西南偏西伸展約四十二米，然後向西南偏南伸展約一百三十米，再向東南偏南伸展約五十三米至與文禮路之交界處止。在LD/ST/R8B號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/ST/R8B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Man Lai Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11375"
+    },
+    {
+      "chinese_name": "文禮路",
+      "english_name": "Man Lai Road",
+      "history": [
+        {
+          "publication_date": "1983-07-01",
+          "change_kind": "extend",
+          "street_name_en": "Man Lai Road",
+          "street_name_zh": "文禮路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension to the existing MAN LAI ROAD running in a west south-westerly direction for about 70 metres and then turns to run south-westerly for about 80 metres where it terminates at its closed end as shown coloured pink and hatched black on Drawing No. LD/ST/R8B.",
+            "description_raw_zh": "此路乃現有文禮路之延續，向西南偏西伸展約七十米，再向西南伸展約八十米至其盡頭處止。在LD/ST/R8B號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/ST/R8B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "11374"
+    },
+    {
+      "chinese_name": "水泉㘭街",
+      "english_name": "Shui Chuen Au Street",
+      "history": [
+        {
+          "publication_date": "1983-07-01",
+          "change_kind": "declare",
+          "street_name_en": "Shui Chuen Au Street",
+          "street_name_zh": "水泉㘭街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with SHA KOK STREET and running in a south-easterly direction for about 85 metres and then turns to run generally south south-westerly for about 790 metres; it then turns to run south-easterly for about 100 metres before it bends to run south-westerly for about 50 metres and then turns sharply to run north-westerly for about 150 metres; it continues to run northerly for about 35 metres and then bends to run south-westerly for about 50 metres where it temporarily terminates as shown coloured pink and hatched black on Drawing No. LD/ST/R28B.",
+            "description_raw_zh": "此街由與沙角街之交界處起，向東南伸展約八十五米後，大致向西南偏南伸展約七百九十米，再向東南伸展約一百米，然後向西南伸展約五十米，後急轉向西北伸展約一百五十米，再向北伸展約三十五米，然後向西南伸展約五十米而暫時終止。在LD/ST/R28B號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/ST/R28B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sha Kok Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12077",
+      "submitter_remarks": "Gazette ZH 水泉㘭街; geojson 水泉坳街."
+    },
+    {
+      "chinese_name": "窰圍街",
+      "english_name": "Yiu Wai Street",
+      "history": [
+        {
+          "publication_date": "1983-07-01",
+          "change_kind": "declare",
+          "street_name_en": "Yiu Wai Street",
+          "street_name_zh": "窰圍街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with SHUI CHUEN AU STREET and running in an easterly direction for about 50 metres; it then turns to run north north-easterly for about 170 metres and bends to run south-easterly for about 110 metres to terminate at its closed end as shown coloured pink and hatched black on Drawing No. LD/ST/R28B.",
+            "description_raw_zh": "此街由與水泉㘭街之交界處起，向東伸展約五十米，然後向東北偏北伸展約一百七十米，再向東南伸展約一百一十米至其盡頭處止。在LD/ST/R28B號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/ST/R28B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Shui Chuen Au Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12884"
+    },
+    {
+      "chinese_name": "沙田嶺路",
+      "english_name": "Sha Tin Heights Road",
+      "history": [
+        {
+          "publication_date": "1983-07-01",
+          "change_kind": "declare",
+          "street_name_en": "Sha Tin Heights Road",
+          "street_name_zh": "沙田嶺路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing from its junction with TAI PO ROAD SHA TIN HEIGHTS and running in a west north-westerly direction for about 25 metres and turns to run south-westerly for about 40 metres before it turns to run westerly for about 100 metres; it then bends sharply to run east north-easterly for about 75 metres and bends again to run westerly for about 65 metres; it continues to run generally west south-westerly for about 490 metres and then turns to run south south-westerly for about 125 metres before it turns to run southerly for about 55 metres and then easterly for about 20 metres where it terminates at its closed end as shown coloured pink and hatched black on Drawing No. LD/ST/R30.",
+            "description_raw_zh": "此路由與大埔公路沙田嶺段之交界處起，向西北偏西伸展約二十五米，然後轉向西南伸展約四十米，再向西伸展約一百米，然後急轉向東北偏東伸展約七十五米，然後再轉向西伸展約六十五米，然後大致向西南偏西伸展約四百九十米，再向西南偏南伸展約一百二十五米，然後向南伸展約五十五米，再向東伸展約二十米至其盡頭處止。在LD/ST/R30號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/ST/R30",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tai Po Road Sha Tin Heights"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11963"
+    },
+    {
+      "chinese_name": "沙田圍路",
+      "english_name": "Sha Tin Wai Road",
+      "history": [
+        {
+          "publication_date": "1983-07-01",
+          "change_kind": "extend",
+          "street_name_en": "Sha Tin Wai Road",
+          "street_name_zh": "沙田圍路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension to the existing SHA TIN WAI ROAD running in an east south-easterly direction for about 400 metres and then turns to run generally east north-easterly for about 1 100 metres where it terminates at its junction with SIU LEK YUEN ROAD as shown coloured pink and hatched black on Drawing No. LD/ST/R31.",
+            "description_raw_zh": "此路乃現有沙田圍路之延續，向東南偏東伸展約四百米，再大致向東北偏東伸展約一千一百米至與小瀝源路交界處止。在LD/ST/R31號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/ST/R31",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Siu Lek Yuen Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11968",
+      "submitter_remarks": "G.N.2628 corrigendum folded into ZH name 沙田圍路."
+    }
+  ]
+}

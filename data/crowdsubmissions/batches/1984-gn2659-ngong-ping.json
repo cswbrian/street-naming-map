@@ -1,0 +1,46 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn2659-ngong-ping",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2659",
+  "publication_date": "1984-09-07",
+  "gazette_url_en": "/egazette/en/1984-gn2659.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn2659.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1624.pdf",
+  "streets": [
+    {
+      "chinese_name": "昂坪路",
+      "english_name": "Ngong Ping Road",
+      "history": [
+        {
+          "publication_date": "1984-09-07",
+          "change_kind": "declare",
+          "street_name_en": "Ngong Ping Road",
+          "street_name_zh": "昂坪路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with SHAM WAT ROAD and running generally in a south-easterly direction for about 290 metres where it bends to run in a north-easterly direction for about 140 metres; it then curves to run in a south-easterly direction for about 130 metres and then turns to run in a north-easterly direction for about 410 metres before it bends to run northerly for about 310 metres; it continues to run in a north-easterly direction for about 510 metres and then bends to run generally in an easterly direction for about 260 metres where it terminates at a roundabout near Po Lin Monastery as shown coloured pink on Plan No. ISRM 1.",
+            "description_raw_zh": "此路由與深屈道交界處起，向東南伸展約290米，後轉向東北伸展約140米，再轉向東南伸展約130米，後轉向東北伸展約410米，再轉向北面伸展約310米後，向東北伸展約510米，之後向東伸展約260米至寶蓮寺附近之迴旋處止。在 ISRM 1 號圖則上以粉紅色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "ISRM 1",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sham Wat Road"
+              ]
+            }
+          },
+          "submitter_remarks": "Gazette ZH 昂坪路; geojson 昂平路."
+        }
+      ],
+      "link_street_code": "11541",
+      "submitter_remarks": "Gazette ZH 昂坪路; geojson 昂平路."
+    }
+  ]
+}

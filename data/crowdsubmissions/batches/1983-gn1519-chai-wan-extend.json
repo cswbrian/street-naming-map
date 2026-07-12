@@ -1,0 +1,71 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn1519-chai-wan-extend",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1519",
+  "publication_date": "1983-05-13",
+  "gazette_url_en": "/egazette/en/1983-gn1519.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn1519.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1543.pdf",
+  "streets": [
+    {
+      "chinese_name": "常安街",
+      "english_name": "Sheung On Street",
+      "link_street_code": "12035",
+      "history": [
+        {
+          "publication_date": "1983-05-13",
+          "change_kind": "extend",
+          "street_name_en": "Sheung On Street",
+          "street_name_zh": "常安街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "extension of Sheung On Street from its junction with Ka Yip Street southeastwards for a distance of approximately 230 metres to join up with Chai Wan Road as shown coloured green on Drawing No. HH 4234.",
+            "description_raw_zh": "由常安街與嘉業街交界處起向東南伸展約二百三十米，至柴灣道止，即 HH 4234 號圖則上綠色所示位置。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "HH 4234",
+                  "color": "green"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "嘉業街",
+      "english_name": "Ka Yip Street",
+      "link_street_code": "10923",
+      "history": [
+        {
+          "publication_date": "1983-05-13",
+          "change_kind": "extend",
+          "street_name_en": "Ka Yip Street",
+          "street_name_zh": "嘉業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "extension of Ka Yip Street from its junction with Sheung On Street northeastwards for a distance of approximately 340 metres and then running north-northwestwards for a distance of approximately 250 metres terminating in a cul-de-sac just short of the seawall as shown coloured pink on drawing No. HH 4234.",
+            "description_raw_zh": "由嘉業街與常安街交界處起向東北伸展約三百四十米，再向西北偏北伸展約二百五十米，至海堤前之死巷止，即 HH 4234 號圖則上粉紅色所示位置。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "HH 4234",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

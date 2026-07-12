@@ -1,0 +1,89 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1982-gn754-sha-tin",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.754",
+  "publication_date": "1982-03-05",
+  "gazette_url_en": "/egazette/en/1982-gn754.pdf",
+  "gazette_url_zh": "/egazette/zh/1982-gn754.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1982/Scanned_20260711-1511.pdf",
+  "streets": [
+    {
+      "chinese_name": "紅梅谷路",
+      "english_name": "Hung Mui Kuk Road",
+      "history": [
+        {
+          "publication_date": "1982-03-05",
+          "change_kind": "declare",
+          "street_name_en": "Hung Mui Kuk Road",
+          "street_name_zh": "紅梅谷路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road interchange with its two lanes respectively entering into and coming from LION ROCK TUNNEL ROAD. The ingress lane runs generally from northerly to southerly for about 60 metres to join the egress lane which runs from easterly to southerly for about 52 metres. Then the Road starts to run south-westerly for about 50 metres and then turns to run north-westerly for about 200 metres where it temporarily terminates at a turn-around as shown coloured pink and hatched black on Drawing No. NTA/ST/R18B. (It should be noted that there is a future extension of this road.)",
+            "description_raw_zh": "此路在交匯處有兩條單程路分別接連獅子山隧道公路。由公路進入之單程路自北向南伸展約六十米，與由東向南伸展約五十二米之出公路單程路匯合然後向西南伸展約五十米，再轉向西北伸展約二百米，暫時終止於一迴旋處，在第NTA/ST/R18B號圖則以粉紅色間以黑斜綫標明。（註：此路將予擴建。）",
+            "parsed": {
+              "referenced_streets_en": [
+                "Lion Rock Tunnel Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10872"
+    },
+    {
+      "chinese_name": "松柏路",
+      "english_name": "Chung Pak Road",
+      "history": [
+        {
+          "publication_date": "1982-03-05",
+          "change_kind": "declare",
+          "street_name_en": "Chung Pak Road",
+          "street_name_zh": "松柏路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with HUNG MUI KUK ROAD and running in a generally westerly direction for about 80 metres and then bends to run generally south-westerly for about 120 metres where it terminates temporarily at its junction with LUNG PAK STREET as shown coloured pink and hatched black on Drawing No. NTA/ST/R18B. (It should be noted that there is a future extension of this road.)",
+            "description_raw_zh": "此路由與紅梅谷路之會合處起，向西伸展約八十米，再轉向大致西南伸展約一百二十米後暫時終止於與龍柏街之會合處，在第NTA/ST/R18B號圖則以粉紅色間以黑斜綫標明。（註：此路將予擴建。）",
+            "parsed": {
+              "referenced_streets_en": [
+                "Hung Mui Kuk Road",
+                "Lung Pak Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10299"
+    },
+    {
+      "chinese_name": "龍柏街",
+      "english_name": "Lung Pak Street",
+      "history": [
+        {
+          "publication_date": "1982-03-05",
+          "change_kind": "declare",
+          "street_name_en": "Lung Pak Street",
+          "street_name_zh": "龍柏街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with CHUNG PAK ROAD and running in a south-easterly direction for about 90 metres and then bends to run south-westerly for about 100 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/ST/R18B.",
+            "description_raw_zh": "此街由與松柏路之會合處起，向東南伸展約九十米，再轉向西南伸展約一百米而終止，在第NTA/ST/R18B號圖則以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Chung Pak Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11318"
+    }
+  ]
+}

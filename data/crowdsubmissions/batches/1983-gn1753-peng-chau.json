@@ -1,0 +1,287 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn1753-peng-chau",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1753",
+  "publication_date": "1983-06-03",
+  "gazette_url_en": "/egazette/en/1983-gn1753.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn1753.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1548.pdf",
+  "streets": [
+    {
+      "chinese_name": "圍仔第一街",
+      "english_name": "Wai Tsai First Street",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Wai Tsai First Street",
+          "street_name_zh": "圍仔第一街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at the eastern side of Peng Chau Lot No. 391 Sec. I and running in a southerly direction for about 75 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/IS/R15A.",
+            "description_raw_zh": "此街由坪洲地段第三九一號I段之東面起，向南伸展約七十五米而終止。在NTA/IS/R15A號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/IS/R15A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "12612"
+    },
+    {
+      "chinese_name": "圍仔第二街",
+      "english_name": "Wai Tsai Second Street",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Wai Tsai Second Street",
+          "street_name_zh": "圍仔第二街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at the eastern side of Peng Chau Lot No. 391 Sec. PP and running in a southerly direction for about 70 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/IS/R15A.",
+            "description_raw_zh": "此街由坪洲地段第三九一號PP段之東面起，向南伸展約七十米而終止。在NTA/IS/R15A號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/IS/R15A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "12614"
+    },
+    {
+      "chinese_name": "圍仔第三街",
+      "english_name": "Wai Tsai Third Street",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Wai Tsai Third Street",
+          "street_name_zh": "圍仔第三街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at the eastern side of Peng Chau Lot No. 391 Sec. YY and running in a southerly direction for about 40 metres where it terminate at its junction with WAI TSAI FIFTH STREET as shown coloured pink and hatched black on Drawing No. NTA/IS/R15A.",
+            "description_raw_zh": "此街由坪洲地段第三九一號YY段之東面起，向南伸展約四十米，至與圍仔第五街交界處終止。在NTA/IS/R15A號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/IS/R15A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wai Tsai Fifth Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12616"
+    },
+    {
+      "chinese_name": "圍仔第四街",
+      "english_name": "Wai Tsai Fourth Street",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Wai Tsai Fourth Street",
+          "street_name_zh": "圍仔第四街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at the western side of Peng Chau Lot No. 391 Sec. F and running in a southerly direction for about 35 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/IS/R15A.",
+            "description_raw_zh": "此街由坪洲地段第三九一號F段之西面起，向南伸展約三十五米而終止。在NTA/IS/R15A號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/IS/R15A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "12613"
+    },
+    {
+      "chinese_name": "圍仔第五街",
+      "english_name": "Wai Tsai Fifth Street",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Wai Tsai Fifth Street",
+          "street_name_zh": "圍仔第五街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with WAI TSAI SECOND STREET and running in an easterly direction for about 16 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/IS/R15A.",
+            "description_raw_zh": "此街由與圍仔第二街交界處起，向東伸展約十六米而終止。在NTA/IS/R15A號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/IS/R15A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wai Tsai Second Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12611"
+    },
+    {
+      "chinese_name": "永東街",
+      "english_name": "Wing Tung Street",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Wing Tung Street",
+          "street_name_zh": "永東街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at the eastern corner of Peng Chau Lot No. 377 Sec. U and running in a north north-westerly direction for about 53 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/IS/R16B.",
+            "description_raw_zh": "此街由坪洲地段第三七七號U段之東面角落處起，向西北偏北伸展約五十三米而終止。在NTA/IS/R16B號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/IS/R16B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "12747"
+    },
+    {
+      "chinese_name": "僑景街",
+      "english_name": "Kiu King Street",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Kiu King Street",
+          "street_name_zh": "僑景街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at the eastern side of Peng Chau Lot No. 397 Sec. A and running in a northerly direction for about 49 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/IS/R16B.",
+            "description_raw_zh": "此街由坪洲地段第三九七號A段之東面起，向北伸展約四十九米而終止。在NTA/IS/R16B號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/IS/R16B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "11042"
+    },
+    {
+      "chinese_name": "永俊街",
+      "english_name": "Wing Tsun Street",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Wing Tsun Street",
+          "street_name_zh": "永俊街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at the western side of Peng Chau Lot No. 377 Sec. K and running in a north north-westerly direction for about 53 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/IS/R16B.",
+            "description_raw_zh": "此街由坪洲地段第三七七號K段之西面起，向西北偏北伸展約五十三米而終止。在NTA/IS/R16B號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/IS/R16B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "12746"
+    },
+    {
+      "chinese_name": "丁貴坊街",
+      "english_name": "Ting Kwai Fong Street",
+      "history": [
+        {
+          "publication_date": "1983-06-03",
+          "change_kind": "declare",
+          "street_name_en": "Ting Kwai Fong Street",
+          "street_name_zh": "丁貴坊街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with an unnamed street and running generally in a westerly direction for about 25 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/IS/R17C.",
+            "description_raw_zh": "此街由與一未命名之街道交界處起，向西面伸展約二十五米而終止。在NTA/IS/R17C號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/IS/R17C",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "12374"
+    }
+  ]
+}

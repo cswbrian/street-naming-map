@@ -1,0 +1,89 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1980-gn3730-admiralty-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3730",
+  "publication_date": "1980-11-28",
+  "gazette_url_en": "/egazette/en/1980-gn3730.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1980/Scanned_20260711-1422.pdf",
+  "streets": [
+    {
+      "chinese_name": "德立街",
+      "english_name": "Drake Street",
+      "history": [
+        {
+          "publication_date": "1980-11-28",
+          "change_kind": "declare",
+          "street_name_en": "Drake Street",
+          "street_name_zh": "德立街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 3730.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Thoroughfare commencing at its junction with Cotton Tree Drive running eastward for a distance of approximately 270 metres as shown coloured pink in Drawing No. HH 3719. Proposed Name: DRAKE STREET. Chinese Version: 德立街.",
+            "description_raw_zh": "此道路位置在 HH 3719 號圖則上以粉紅色標明，起點與紅棉路連接，向東伸展約二百七十米。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Cotton Tree Drive"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10387"
+    },
+    {
+      "chinese_name": "樂禮街",
+      "english_name": "Rodney Street",
+      "history": [
+        {
+          "publication_date": "1980-11-28",
+          "change_kind": "declare",
+          "street_name_en": "Rodney Street",
+          "street_name_zh": "樂禮街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 3730.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Thoroughfare commencing at its junction with Harcourt Road running southward for a distance of approximately 110 metres and terminating at its junction with Queensway as shown coloured pink hatched black in Drawing No. HH 3719. Proposed Name: RODNEY STREET. Chinese Version: 樂禮街.",
+            "description_raw_zh": "此道路位置在 HH 3719 號圖則上以粉紅色加黑色影線標明，起點與夏慤道連接，向南伸展約一百一十米，在連接金鐘道處終結。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Harcourt Road",
+                "Queensway"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11820"
+    },
+    {
+      "chinese_name": "添馬街",
+      "english_name": "Tamar Street",
+      "history": [
+        {
+          "publication_date": "1980-11-28",
+          "change_kind": "declare",
+          "street_name_en": "Tamar Street",
+          "street_name_zh": "添馬街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 3730.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Thoroughfare commencing at its junction with Queensway running northward for a distance of approximately 90 metres and terminating at its junction with Harcourt Road as shown coloured pink cross hatched black in Drawing No. HH 3719. Proposed Name: TAMAR STREET. Chinese Version: 添馬街.",
+            "description_raw_zh": "此道路位置在 HH 3719 號圖則上以粉紅色加黑色十字影線標明，起點與金鐘道連接，向北伸展九十米，在連接夏慤道處終結。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Queensway",
+                "Harcourt Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12332"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn3161-wah-king-wah-yuen",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3161",
+  "publication_date": "1981-10-23",
+  "gazette_url_en": "/egazette/en/1981-gn3161.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn3161.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1449.pdf",
+  "streets": [
+    {
+      "chinese_name": "華景山路",
+      "english_name": "Wah King Hill Road",
+      "history": [
+        {
+          "publication_date": "1981-10-23",
+          "change_kind": "declare",
+          "street_name_en": "Wah King Hill Road",
+          "street_name_zh": "華景山路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at TAI WO INTERCHANGE and running south south-easterly for about 340 metres where it temporarily terminates as shown coloured light-pink and hatched black on Drawing No. NTA/TW/R89A. (It should be noted that there is a future extension of this road).",
+            "description_raw_zh": "此路由大窩交滙處起，向東南偏南伸展約三百四十米而暫時終止，如圖則第 NTA/TW/R89A 號以淺粉紅色黑斜綫所示。(註：此路將予擴建)",
+            "parsed": {
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "12593"
+    },
+    {
+      "chinese_name": "華員徑",
+      "english_name": "Wah Yuen Drive",
+      "history": [
+        {
+          "publication_date": "1981-10-23",
+          "change_kind": "declare",
+          "street_name_en": "Wah Yuen Drive",
+          "street_name_zh": "華員徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Drive commencing at its junction with WAH KING HILL ROAD and running north north-easterly for about 50 metres then curving to run north-westerly for about 125 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/TW/R89A.",
+            "description_raw_zh": "此徑由與華景山路交界處起，向東北偏北伸展約五十米，再轉向西北伸展約一百二十五米而終止，如圖則第 NTA/TW/R89A 號以粉紅色黑斜綫所示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Wah King Hill Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12599"
+    }
+  ]
+}

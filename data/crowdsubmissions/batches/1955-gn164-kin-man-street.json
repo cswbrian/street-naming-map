@@ -1,0 +1,44 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1955-gn164-kin-man-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.164",
+  "publication_date": "1955-02-11",
+  "gazette_url_en": "/egazette/en/1955-gn164.pdf",
+  "gazette_url_zh": "/egazette/zh/1955-gn164.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1955-gn164.pdf",
+  "streets": [
+    {
+      "chinese_name": "健文街",
+      "english_name": "Kin Man Street",
+      "history": [
+        {
+          "publication_date": "1955-02-11",
+          "change_kind": "declare",
+          "street_name_en": "Kin Man Street",
+          "street_name_zh": "健文街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 164.—It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Description: Private road within I.L. 1298 commencing at its junction with Catchick Street at the mid-point of the Northern boundary of the said lot and running in a Southerly direction for 80 feet and then in an Easterly direction for 40 feet ending in a cul-de-sac as shown coloured red on Plan No. R.H. 666. English Name: KIN MAN STREET. Chinese Name: 健文街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 666",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Catchick Street"
+              ]
+            }
+          },
+          "submitter_remarks": "No geojson centreline for Kin Man Street / 健文街."
+        }
+      ]
+    }
+  ]
+}

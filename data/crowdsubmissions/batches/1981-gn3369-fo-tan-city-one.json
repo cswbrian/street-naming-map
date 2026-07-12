@@ -1,0 +1,192 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn3369-fo-tan-city-one",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3369",
+  "publication_date": "1981-11-13",
+  "gazette_url_en": "/egazette/en/1981-gn3369.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn3369.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1451.pdf",
+  "streets": [
+    {
+      "chinese_name": "火炭路",
+      "english_name": "Fo Tan Road",
+      "history": [
+        {
+          "publication_date": "1981-11-13",
+          "change_kind": "declare",
+          "street_name_en": "Fo Tan Road",
+          "street_name_zh": "火炭路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with TAI CHUNG KIU ROAD near Sha Tin Town Lot No. 1 and running generally in a north-westerly direction for about 1 720 metres to terminate at its junction with KWEI TEI STREET as shown coloured pink and hatched black on Drawing No. NTA/ST/R10.",
+            "description_raw_zh": "此路由在沙田市地段第一號附近與大涌橋路之會合處起，向西北伸展約一千七百二十米而止於與桂地街之會合處，如圖則第 NTA/ST/R10 號中繫上粉紅色及間以黑斜線所示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Tai Chung Kiu Road",
+                "Kwei Tei Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10498"
+    },
+    {
+      "chinese_name": "銀城街",
+      "english_name": "Ngan Shing Street",
+      "history": [
+        {
+          "publication_date": "1981-11-13",
+          "change_kind": "declare",
+          "street_name_en": "Ngan Shing Street",
+          "street_name_zh": "銀城街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street within Sha Tin Town Lot No. 1 commencing at its junction with an unnamed road (shown as Road P7 on Drawing No. NTA/ST/R19A) and running south-westerly for about 330 metres then bends to run southerly for about 80 metres where it temporarily terminates as shown coloured pink and hatched black on Drawing No. NTA/ST/R19A. (It should be noted that there is a future extension of this street.)",
+            "description_raw_zh": "此街位於沙田市地段第一號內由與一未命名道路 (圖則第 NTA/ST/R19A 號內 P7 號道路) 之會合處起向西南伸展約三百三十米再轉向南伸展約八十米而暫時終止，如該圖則中繫以粉紅色及間以黑斜線所示。(註：此街將予擴建)",
+            "parsed": {
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "11526"
+    },
+    {
+      "chinese_name": "得基街",
+      "english_name": "Tak Kei Street",
+      "history": [
+        {
+          "publication_date": "1981-11-13",
+          "change_kind": "declare",
+          "street_name_en": "Tak Kei Street",
+          "street_name_zh": "得基街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street within Sha Tin Town Lot No. 1 commencing at its junction with NGAN SHING STREET and running in a north-westerly direction for about 178 metres then bends to run south-westerly for about 60 metres to terminate at its junction with PAK LEE STREET as shown coloured pink and hatched black on Drawing No. NTA/ST/R19A.",
+            "description_raw_zh": "此街位於沙田市地段第一號內由與銀城街之會合處起，向西北伸展約一百七十八米，再轉向西南伸展約六十米，而止於與百利街之會合處，如圖則第 NTA/ST/R19A 號中繫上粉紅色及間以黑斜線所示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Ngan Shing Street",
+                "Pak Lee Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12307"
+    },
+    {
+      "chinese_name": "得利街",
+      "english_name": "Tak Lee Street",
+      "history": [
+        {
+          "publication_date": "1981-11-13",
+          "change_kind": "declare",
+          "street_name_en": "Tak Lee Street",
+          "street_name_zh": "得利街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street within Sha Tin Town Lot No. 1 commencing at its junction with NGAN SHING STREET and running in a north-westerly direction for about 128 metres to terminate at its junction with TAK WING STREET as shown coloured pink and hatched black on Drawing No. NTA/ST/R19A.",
+            "description_raw_zh": "此街位於沙田市地段第一號內由與銀城街之會合處起，向西北伸展約一百二十八米，而止於與得榮街之會合處，如圖則第 NTA/ST/R19A 號中繫上粉紅色及間以黑斜線所示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Ngan Shing Street",
+                "Tak Wing Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12309"
+    },
+    {
+      "chinese_name": "得榮街",
+      "english_name": "Tak Wing Street",
+      "history": [
+        {
+          "publication_date": "1981-11-13",
+          "change_kind": "declare",
+          "street_name_en": "Tak Wing Street",
+          "street_name_zh": "得榮街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street within Sha Tin Town Lot No. 1 commencing at its junction with PAK LEE STREET and TAK LEE STREET and running in a south-westerly direction for about 158 metres then bends to run generally south south-easterly for about 156 metres to terminate at its junction with NGAN SHING STREET as shown coloured pink and cross-hatched black on Drawing No. NTA/ST/R19A.",
+            "description_raw_zh": "此街位於沙田市地段第一號內由與百利街及得利街之會合處起，向西南伸展約一百五十八米，再大致向東南偏南伸展約一百五十六米，而止於與銀城街之會合處，如圖則第 NTA/ST/R19A 號中繫上粉紅色及間以黑交叉斜線所示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Pak Lee Street",
+                "Tak Lee Street",
+                "Ngan Shing Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12321"
+    },
+    {
+      "chinese_name": "百得街",
+      "english_name": "Pak Tak Street",
+      "history": [
+        {
+          "publication_date": "1981-11-13",
+          "change_kind": "declare",
+          "street_name_en": "Pak Tak Street",
+          "street_name_zh": "百得街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street within Sha Tin Town Lot No. 1 commencing at its junction with TAK WING STREET and running in a south-easterly direction for about 128 metres to terminate temporarily at its junction with NGAN SHING STREET as shown coloured pink and hatched black on Drawing No. NTA/ST/R19A. (It should be noted that there is a future extension of this street.)",
+            "description_raw_zh": "此街位於沙田市地段第一號內由與得榮街之會合處起，向東南伸展約一百二十八米，於與銀城街會合處暫時終止，如圖則第 NTA/ST/R19A 號中繫上粉紅色及間以黑斜線所示。(註：此街將予擴建)",
+            "parsed": {
+              "referenced_streets_en": [
+                "Tak Wing Street",
+                "Ngan Shing Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11648"
+    },
+    {
+      "chinese_name": "百利街",
+      "english_name": "Pak Lee Street",
+      "history": [
+        {
+          "publication_date": "1981-11-13",
+          "change_kind": "declare",
+          "street_name_en": "Pak Lee Street",
+          "street_name_zh": "百利街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street within Sha Tin Town Lot No. 1 commencing at its junction with TAK WING STREET and running in a north-westerly direction for about 85 metres then bends to run south-westerly for about 110 metres and then curves to run from generally south-easterly to east north-easterly for about 55 metres where it turns to run south-easterly for about 40 metres to terminate at its junction by rejoining TAK WING STREET as shown coloured pink and hatched black on Drawing No. NTA/ST/R19A.",
+            "description_raw_zh": "此街位於沙田市地段第一號內由與得榮街之會合處起，向西北伸展約八十五米，再轉向西南約一百一十米，再由大致東南轉向東北偏東約五十五米，再向東南約四十米，再與得榮街會合而終止，如圖則第 NTA/ST/R19A 號中繫上粉紅色及間以黑斜線所示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Tak Wing Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11632"
+    }
+  ]
+}

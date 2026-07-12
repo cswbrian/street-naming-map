@@ -1,0 +1,63 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1980-gn727-tit-shu-pok-hok",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.727",
+  "publication_date": "1980-03-07",
+  "gazette_url_en": "/egazette/en/1980-gn727.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1980/Scanned_20260711-1410.pdf",
+  "streets": [
+    {
+      "chinese_name": "鐵樹街",
+      "english_name": "Tit Shu Street",
+      "history": [
+        {
+          "publication_date": "1980-03-07",
+          "change_kind": "declare",
+          "street_name_en": "Tit Shu Street",
+          "street_name_zh": "鐵樹街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 727.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Thoroughfare as shown coloured yellow in Drawing No. KH 3044/1 commencing at its junction with Anchor Street running in a southerly direction for about 160 m and terminating at its junction with Cherry Street. Proposed Name: TIT SHU STREET. Chinese Version: 鐵樹街.",
+            "description_raw_zh": "此道路之位置在 KH 3044/1 號圖則內用黃色標明，由與晏架街連接處開始，向南伸展約一百六十米，終點與櫻桃街會合。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Anchor Street",
+                "Cherry Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12380"
+    },
+    {
+      "chinese_name": "博學里",
+      "english_name": "Pok Hok Lane",
+      "history": [
+        {
+          "publication_date": "1980-03-07",
+          "change_kind": "declare",
+          "street_name_en": "Pok Hok Lane",
+          "street_name_zh": "博學里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 727.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Thoroughfare as shown coloured red in Drawing No. KH 3044/1 commencing at its junction with Beech Street running in a easterly direction for about 30 m and terminating at its junction with the road shown coloured yellow in the said Drawing. Proposed Name: POK HOK LANE. Chinese Version: 博學里.",
+            "description_raw_zh": "此道路之位置在 KH 3044/1 號圖則內用紅色標明，由與櫸樹街連接處開始，向東伸展約三十米，終點與上述圖則內用黃色標明之道路會合。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Beech Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11769"
+    }
+  ]
+}

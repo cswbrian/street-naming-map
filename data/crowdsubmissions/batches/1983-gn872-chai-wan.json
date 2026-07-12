@@ -1,0 +1,76 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn872-chai-wan",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.872",
+  "publication_date": "1983-03-18",
+  "gazette_url_en": "/egazette/en/1983-gn872.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn872.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1538.pdf",
+  "streets": [
+    {
+      "chinese_name": "茵翠街",
+      "english_name": "Yan Tsui Street",
+      "link_street_code": "12818",
+      "history": [
+        {
+          "publication_date": "1983-03-18",
+          "change_kind": "declare",
+          "street_name_en": "Yan Tsui Street",
+          "street_name_zh": "茵翠街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "thoroughfare as shown coloured red on location plan (Chai Wan (W) Est. PH2) commencing from its junction with Wah Ha Street and to run southwards for about 150m and then turning south-westerly for about 80m ending at Yan Tsui Court;",
+            "description_raw_zh": "由與華廈街交界處起，向南伸展約一百五十米，再向西南伸展約八十米，至茵翠苑止；圖則上以紅色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "Chai Wan (W) Est. PH2",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wah Ha Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "翠景街",
+      "english_name": "Tsui King Street",
+      "link_street_code": "12475",
+      "history": [
+        {
+          "publication_date": "1983-03-18",
+          "change_kind": "declare",
+          "street_name_en": "Tsui King Street",
+          "street_name_zh": "翠景街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "thoroughfare as shown coloured blue on location plan (Chai Wan (W) Est. PH2) commencing at its junction with the thoroughfare referred to in (a) above, running south-westerly for about 82m and then north-westerly for about 47m and terminating at its junction with Wah Ha Street.",
+            "description_raw_zh": "由與上述(甲)街交界處起，向西南伸展約八十二米，再向西北伸展約四十七米，至與華廈街交界處終止；圖則上以藍色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "Chai Wan (W) Est. PH2",
+                  "color": "blue"
+                }
+              ],
+              "referenced_streets_en": [
+                "Yan Tsui Street",
+                "Wah Ha Street"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

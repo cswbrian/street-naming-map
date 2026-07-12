@@ -1,0 +1,38 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1980-gn3917-tai-fung-avenue",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3917",
+  "publication_date": "1980-12-05",
+  "gazette_url_en": "/egazette/en/1980-gn3917.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1980/Scanned_20260711-1423(1).pdf",
+  "streets": [
+    {
+      "chinese_name": "太豐路",
+      "english_name": "Tai Fung Avenue",
+      "history": [
+        {
+          "publication_date": "1980-12-05",
+          "change_kind": "declare",
+          "street_name_en": "Tai Fung Avenue",
+          "street_name_zh": "太豐路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 3917.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Thoroughfare commencing at its junction with Taikoo Shing Road, running northward for a distance of approximately 113 metres to its junction with Taikoo Wan Road as shown coloured pink on Drawing No. HH 3065. Proposed Name: TAI FUNG AVENUE. Chinese Version: 太豐路.",
+            "description_raw_zh": "此道路以其與太古城道交界處為起點，向北伸展約一一三米，至與太古灣道交界處終結，位置在 HH3065 號圖則上以粉紅色標明。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Taikoo Shing Road",
+                "Taikoo Wan Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12211"
+    }
+  ]
+}

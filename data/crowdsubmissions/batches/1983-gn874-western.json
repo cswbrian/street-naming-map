@@ -1,0 +1,76 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn874-western",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.874",
+  "publication_date": "1983-03-18",
+  "gazette_url_en": "/egazette/en/1983-gn874.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn874.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1538.pdf",
+  "streets": [
+    {
+      "chinese_name": "嘉安街",
+      "english_name": "Ka On Street",
+      "link_street_code": "10916",
+      "history": [
+        {
+          "publication_date": "1983-03-18",
+          "change_kind": "declare",
+          "street_name_en": "Ka On Street",
+          "street_name_zh": "嘉安街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "thoroughfare between No. 343 and 345 Des Voeux Road West, commencing at its junction with Des Voeux Road West running in a north by north-westerly direction for about 48 m and terminating at its junction with Connaught Road West as shown coloured pink on drawing No. HH 4204;",
+            "description_raw_zh": "此街道起點與德輔道西三四三及三四五號之間連接，向西北偏北伸展約四十八米，然後與干諾道西連接。其位置在HH 4204號圖則上用粉紅色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "HH 4204",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Des Voeux Road West",
+                "Connaught Road West"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "西寧街",
+      "english_name": "Sai Ning Street",
+      "link_street_code": "11846",
+      "history": [
+        {
+          "publication_date": "1983-03-18",
+          "change_kind": "declare",
+          "street_name_en": "Sai Ning Street",
+          "street_name_zh": "西寧街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "cul-de-sac commencing at its junction with Victoria Road almost opposite to No. 55 Victoria Road running in a north by north-westerly direction for about 45 m then west by west-southerly for another 280 m and terminating at a turning circle off I.L. 1891 as shown coloured pink on drawing No. HH 4205.",
+            "description_raw_zh": "此盡頭路起點與面對域多利道五十五號處連接，向西北偏北伸展約四十五米，然後向西南偏西伸展二八○米，至內地段一八九一號對開圓形轉彎處止。其位置在HH 4205號圖則上用粉紅色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "HH 4205",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Victoria Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

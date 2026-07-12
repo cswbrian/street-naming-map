@@ -1,0 +1,78 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn1738-yuen-long",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1738",
+  "publication_date": "1984-06-15",
+  "gazette_url_en": "/egazette/en/1984-gn1738.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn1738.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1618.pdf",
+  "streets": [
+    {
+      "chinese_name": "元朗體育路",
+      "english_name": "Yuen Long Tai Yuk Road",
+      "link_street_code": "12922",
+      "history": [
+        {
+          "publication_date": "1984-06-15",
+          "change_kind": "extend",
+          "street_name_en": "Yuen Long Tai Yuk Road",
+          "street_name_zh": "元朗體育路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension to the existing YUEN LONG TAI YUK ROAD (which was gazetted vide G.N. 2944/77) running in a southerly direction for about 162 metres where it terminates at its junction with MA TIN ROAD as shown coloured pink and cross-hatched black on Plan No. LD/YL/R9.",
+            "description_raw_zh": "此路為憲示第二九四四／七七號所公告之元朗體育路之延展部份，向南伸展約一百六十二米，至與馬田路交界處終止。在LD/YL/R9號圖則上以粉紅色間以交錯黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R9",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Ma Tin Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "馬田路",
+      "english_name": "Ma Tin Road",
+      "link_street_code": "11353",
+      "history": [
+        {
+          "publication_date": "1984-06-15",
+          "change_kind": "extend",
+          "street_name_en": "Ma Tin Road",
+          "street_name_zh": "馬田路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension to the existing MA TIN ROAD (which was gazetted vide G.N. 2481/78) running in a southerly direction for about 77 metres and then turns smoothly to run in a west south-westerly direction for about 577 metres where it terminates at its junction with an unformed road as shown coloured pink and hatched black on Plan No. LD/YL/R9.",
+            "description_raw_zh": "此路為憲示第二四八一／七八號所公告之馬田路之延展部份，向南伸展約七十七米，然後順轉向西南偏西伸展約五百七十七米，至與一未建成街道交界處終止。在LD/YL/R9號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R9",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [
+                "unformed road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

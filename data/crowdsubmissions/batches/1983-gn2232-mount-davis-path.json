@@ -1,0 +1,45 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn2232-mount-davis-path",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2232",
+  "publication_date": "1983-07-15",
+  "gazette_url_en": "/egazette/en/1983-gn2232.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn2232.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1552.pdf",
+  "streets": [
+    {
+      "chinese_name": "摩星嶺徑",
+      "english_name": "Mount Davis Path",
+      "history": [
+        {
+          "publication_date": "1983-07-15",
+          "change_kind": "declare",
+          "street_name_en": "Mount Davis Path",
+          "street_name_zh": "摩星嶺徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Access road commencing at its junction with Victoria Road at about 110 metres north-west of the junction of Mount Davis Road with Victoria Road running in an irregular direction up to and terminating at the summit of Mount Davis as shown coloured pink on Drawing No. HH 4206.",
+            "description_raw_zh": "該通路起點與域多利道連接，在摩星嶺道與域多利道交界西北約一百一十米處曲折伸展，至摩星嶺山頂止，即HH 4206號圖則上粉紅色所示位置。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "HH 4206",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Victoria Road",
+                "Mount Davis Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11471"
+    }
+  ]
+}

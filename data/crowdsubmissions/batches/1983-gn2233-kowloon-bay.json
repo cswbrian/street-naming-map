@@ -1,0 +1,368 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn2233-kowloon-bay",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2233",
+  "publication_date": "1983-07-15",
+  "gazette_url_en": "/egazette/en/1983-gn2233.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn2233.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1552.pdf",
+  "streets": [
+    {
+      "chinese_name": "啓福道",
+      "english_name": "Kai Fuk Road",
+      "history": [
+        {
+          "publication_date": "1983-07-15",
+          "change_kind": "declare",
+          "street_name_en": "Kai Fuk Road",
+          "street_name_zh": "啓福道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured blue on Drawing No. KH 3451/2 commencing from the eastern end of the Airport Tunnel, to run south-eastwards for about 940 metres and terminating at the flyovers to and from Wai Yip Street and Kwun Tong Road.",
+            "description_raw_zh": "該街道在KH 3451/2號圖則上用藍色標明，由機場隧道之東端開始，向東南伸展約九百四十米，至連接偉業街及觀塘道之天橋終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 3451/2",
+                  "color": "blue"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wai Yip Street",
+                "Kwun Tong Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10930"
+    },
+    {
+      "chinese_name": "啓祥道",
+      "english_name": "Kai Cheung Road",
+      "history": [
+        {
+          "publication_date": "1983-07-15",
+          "change_kind": "declare",
+          "street_name_en": "Kai Cheung Road",
+          "street_name_zh": "啓祥道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured red on Drawing No. KH 3451/2 commencing at its junction with Kai Fuk Road running northeastwards for about 230 metres, then turning eastwards to go for about 780 metres before terminating at its junction with Wai Yip Street.",
+            "description_raw_zh": "該街道在KH 3451/2號圖則上用紅色標明，起點與啓福道連接，向東北伸展約二百三十米，再向東伸展約七百八十米，至與偉業街交接處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 3451/2",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Kai Fuk Road",
+                "Wai Yip Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10926"
+    },
+    {
+      "chinese_name": "宏光道",
+      "english_name": "Wang Kwong Road",
+      "history": [
+        {
+          "publication_date": "1983-07-15",
+          "change_kind": "declare",
+          "street_name_en": "Wang Kwong Road",
+          "street_name_zh": "宏光道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured green on Drawing No. KH 3451/2 commencing at its junction with Kai Fuk Road running northwards for about 1190 metres and terminating at the western end of Wang Chiu Road.",
+            "description_raw_zh": "該街道在KH 3451/2號圖則上用綠色標明，起點與啓福道連接，向北伸展約一千一百九十米，至宏照道西端終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 3451/2",
+                  "color": "green"
+                }
+              ],
+              "referenced_streets_en": [
+                "Kai Fuk Road",
+                "Wang Chiu Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12659"
+    },
+    {
+      "chinese_name": "宏照道",
+      "english_name": "Wang Chiu Road",
+      "history": [
+        {
+          "publication_date": "1983-07-15",
+          "change_kind": "declare",
+          "street_name_en": "Wang Chiu Road",
+          "street_name_zh": "宏照道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured yellow on Drawing No. KH 3451/2 commencing at the northern end of Wang Kwong Road running eastwards for about 120 metres then turning south-easterly to go for about 240 metres before changing to run southwards for about 1370 metres and further turning easterly for about 220 metres to terminate at its junction with Cheung Yip Street.",
+            "description_raw_zh": "該街道在KH3451/2號圖則上用黃色標明，由宏光道北端開始，向東伸展約一百二十米，然後向東南伸展約二百四十米，再轉向南伸展約一千三百七十米，繼而向東伸展約二百二十米，至與祥業街交接處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 3451/2",
+                  "color": "yellow"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wang Kwong Road",
+                "Cheung Yip Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12653"
+    },
+    {
+      "chinese_name": "常悅道",
+      "english_name": "Sheung Yuet Road",
+      "history": [
+        {
+          "publication_date": "1983-07-15",
+          "change_kind": "declare",
+          "street_name_en": "Sheung Yuet Road",
+          "street_name_zh": "常悅道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured grey on Drawing No. KH 3451/2 commencing at its junction with Wang Kwong Road to run eastwards for about 520 metres and terminating at its junction with Wai Yip Street.",
+            "description_raw_zh": "該街道在KH3451/2號圖則上用灰色標明，起點與宏光道連接，向東伸展約五百二十米，至與偉業街交接處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 3451/2",
+                  "color": "grey"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wang Kwong Road",
+                "Wai Yip Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12041"
+    },
+    {
+      "chinese_name": "常怡道",
+      "english_name": "Sheung Yee Road",
+      "history": [
+        {
+          "publication_date": "1983-07-15",
+          "change_kind": "declare",
+          "street_name_en": "Sheung Yee Road",
+          "street_name_zh": "常怡道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured purple on Drawing No. KH 3451/2 commencing at its junction with Wai Yip Street, running westwards for about 400 metres then turning northwards to run for 250 metres before terminating at its junction with Sheung Yuet Road.",
+            "description_raw_zh": "該街道在KH 3451/2號圖則上用紫色標明，起點與偉業街連接，向西伸展約四百米，然後再向北伸展二百五十米，至與常悅道交接處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 3451/2",
+                  "color": "purple"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sheung Yuet Road",
+                "Wai Yip Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12040"
+    },
+    {
+      "chinese_name": "宏開道",
+      "english_name": "Wang Hoi Road",
+      "history": [
+        {
+          "publication_date": "1983-07-15",
+          "change_kind": "declare",
+          "street_name_en": "Wang Hoi Road",
+          "street_name_zh": "宏開道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown hatched blue on Drawing No. KH 3451/2 commencing at its junction with Sheung Yee Road running northwards for about 250 metres and terminating at its junction with Sheung Yuet Road.",
+            "description_raw_zh": "該街道在KH 3451/2號圖則上用藍色影綫標明，起點與常怡道連接，向北伸展約二百五十米，至與常悅道交接處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 3451/2",
+                  "color": "blue",
+                  "hatching": "hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sheung Yuet Road",
+                "Sheung Yee Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12657"
+    },
+    {
+      "chinese_name": "宏茂街",
+      "english_name": "Wang Mau Street",
+      "history": [
+        {
+          "publication_date": "1983-07-15",
+          "change_kind": "declare",
+          "street_name_en": "Wang Mau Street",
+          "street_name_zh": "宏茂街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown hatched orange on Drawing No. KH 3451/2 commencing at its junction with Sheung Yee Road, running northwards for about 180 metres and terminating at its junction with Wang Yuen Street.",
+            "description_raw_zh": "該街道在KH 3451/2號圖則上用橙色影綫標明，起點與常怡道連接，向北伸展約一百八十米，至與宏遠街交接處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 3451/2",
+                  "color": "orange",
+                  "hatching": "hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sheung Yee Road",
+                "Wang Yuen Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12664"
+    },
+    {
+      "chinese_name": "宏遠街",
+      "english_name": "Wang Yuen Street",
+      "history": [
+        {
+          "publication_date": "1983-07-15",
+          "change_kind": "declare",
+          "street_name_en": "Wang Yuen Street",
+          "street_name_zh": "宏遠街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown hatched green on Drawing No. KH 3451/2 commencing at its junction with Wang Hoi Road running westwards for about 60 metres and terminating at its junction with Wang Mau Street.",
+            "description_raw_zh": "該街道在KH 3451/2號圖則上用綠色影綫標明，起點與宏開道連接，向西伸展約六十米，至與宏茂街交接處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 3451/2",
+                  "color": "green",
+                  "hatching": "hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wang Hoi Road",
+                "Wang Mau Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12684"
+    },
+    {
+      "chinese_name": "啓樂街",
+      "english_name": "Kai Lok Street",
+      "history": [
+        {
+          "publication_date": "1983-07-15",
+          "change_kind": "declare",
+          "street_name_en": "Kai Lok Street",
+          "street_name_zh": "啓樂街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured brown on Drawing No. KH 3451/2 commencing at its junction with Wang Chiu Road, running eastwards for about 260 metres then turning southwards to run for 135 metres then turning westwards to go for another 260 metres and terminating at its junction with Wang Chiu Road.",
+            "description_raw_zh": "該街道在KH3451/2號圖則上用啡色標明，起點與宏照道連接，向東伸展約二百六十米，然後向南伸展一百三十五米，再向西伸展二百六十米，至與宏照道交接處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 3451/2",
+                  "color": "brown"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wang Chiu Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10935"
+    },
+    {
+      "chinese_name": "啓成街",
+      "english_name": "Kai Shing Street",
+      "history": [
+        {
+          "publication_date": "1983-07-15",
+          "change_kind": "declare",
+          "street_name_en": "Kai Shing Street",
+          "street_name_zh": "啓成街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown hatched red on Drawing No. KH 3451/2 commencing at its junction with Kai Cheung Road running northwards for about 190 metres and terminating at its junction with the Cargo Circuit.",
+            "description_raw_zh": "該街道在KH3451/2號圖則上用紅色影綫標明，起點與啓祥道連接，向北伸展約一百九十米，至與貨運迂迴路交接處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 3451/2",
+                  "color": "red",
+                  "hatching": "hatched"
+                }
+              ],
+              "referenced_streets_en": [
+                "Kai Cheung Road",
+                "Cargo Circuit"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10938"
+    }
+  ]
+}

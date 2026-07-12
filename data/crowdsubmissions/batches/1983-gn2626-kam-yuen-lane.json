@@ -1,0 +1,42 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn2626-kam-yuen-lane",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2626",
+  "publication_date": "1983-08-12",
+  "gazette_url_en": "/egazette/en/1983-gn2626.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn2626.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1556.pdf",
+  "streets": [
+    {
+      "chinese_name": "金源里",
+      "english_name": "Kam Yuen Lane",
+      "history": [
+        {
+          "publication_date": "1983-08-12",
+          "change_kind": "declare",
+          "street_name_en": "Kam Yuen Lane",
+          "street_name_zh": "金源里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Chai Wan Road running north westwards for a distance of approximately 48 metres to its junction with Yee Fung Street as shown coloured pink on Drawing No. HH 4238.",
+            "description_raw_zh": "該街道起點與柴灣道連接，向西北伸展約四十八米，至與怡豐街交接處終結，即HH 4238號圖則上粉紅色所示位置。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "HH 4238",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "10965"
+    }
+  ]
+}

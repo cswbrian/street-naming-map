@@ -1,0 +1,44 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn2405-au-pui-wan",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2405",
+  "publication_date": "1981-08-14",
+  "gazette_url_en": "/egazette/en/1981-gn2405.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn2405.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1441.pdf",
+  "streets": [
+    {
+      "english_name": "Au Pui Wan Street",
+      "chinese_name": "坳背灣街",
+      "link_street_code": "10035",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Fo Tan Road",
+          "street_name_zh": "火炭道",
+          "evidence_kind": "unknown",
+          "event_role": "former_name",
+          "submitter_remarks": "Former name attested in G.N.2405 rename; separate naming date not recorded on file."
+        },
+        {
+          "publication_date": "1981-08-14",
+          "change_kind": "rename",
+          "previous_street_name_en": "Fo Tan Road",
+          "previous_street_name_zh": "火炭道",
+          "street_name_en": "Au Pui Wan Street",
+          "street_name_zh": "坳背灣街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "submitter_remarks": "Gazette ZH 坳背灣街; geojson 㘭背灣街.",
+          "gazette_location": {
+            "description_raw_en": "With reference to G.N. 1684 dated 12 June 1981 it is hereby notified that in accordance with section 111C(1)(b) of the Public Health and Urban Services Ordinance, Chapter 132 FO TAN ROAD is renamed as AU PUI WAN STREET with immediate effect.",
+            "description_raw_zh": "關於一九八一年六月十二日憲示第一六八四號，茲根據香港法例第一三二章公衆衞生及市政事務條例第一一一C條第(一)款(b)段之規定，公佈由即日起將「火炭道」改稱為「坳背灣街」。"
+          }
+        }
+      ]
+    }
+  ]
+}

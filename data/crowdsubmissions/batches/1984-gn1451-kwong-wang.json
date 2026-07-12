@@ -1,0 +1,45 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn1451-kwong-wang",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1451",
+  "publication_date": "1984-05-18",
+  "gazette_url_en": "/egazette/en/1984-gn1451.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn1451.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1616.pdf",
+  "streets": [
+    {
+      "chinese_name": "廣宏街",
+      "english_name": "Kwong Wang Street",
+      "link_street_code": "11134",
+      "history": [
+        {
+          "publication_date": "1984-05-18",
+          "change_kind": "declare",
+          "street_name_en": "Kwong Wang Street",
+          "street_name_zh": "廣宏街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TAI PO ROAD YUEN CHAU TSAI and running in a north-easterly direction for about 230 metres where it terminates as shown coloured pink and hatched black on Plan No. TPRM 4.",
+            "description_raw_zh": "該街道由與大埔公路元洲仔段交界處起，向東北伸展約二百三十米而終止。在TPRM 4號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "TPRM 4",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tai Po Road Yuen Chau Tsai"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

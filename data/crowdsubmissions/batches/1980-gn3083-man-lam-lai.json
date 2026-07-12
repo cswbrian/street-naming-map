@@ -1,0 +1,62 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1980-gn3083-man-lam-lai",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3083",
+  "publication_date": "1980-09-26",
+  "gazette_url_en": "/egazette/en/1980-gn3083.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1980/Scanned_20260711-1424.pdf",
+  "streets": [
+    {
+      "chinese_name": "文林路",
+      "english_name": "Man Lam Road",
+      "history": [
+        {
+          "publication_date": "1980-09-26",
+          "change_kind": "declare",
+          "street_name_en": "Man Lam Road",
+          "street_name_zh": "文林路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 3083.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Road commencing at its junction with Lion Rock Tunnel Road and running easterly for about 20 metres and then curves to run in a northerly direction for about 80 metres where it bends to run in a westerly direction for about 170 metres and temporarily terminates as shown dotted black on Drawing No. NTA/ST/R8. (It should be noted that the future extension of this road is under construction). Proposed Name: MAN LAM ROAD. Chinese Version: 文林路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Lion Rock Tunnel Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11375"
+    },
+    {
+      "chinese_name": "文禮路",
+      "english_name": "Man Lai Road",
+      "history": [
+        {
+          "publication_date": "1980-09-26",
+          "change_kind": "declare",
+          "street_name_en": "Man Lai Road",
+          "street_name_zh": "文禮路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 3083.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Road commencing at its junction with Man Lam Road near the northeast portion of Sha Tin Clinic and running in a south-easterly direction for about 115 metres where it bends to run in a south-westerly direction for about 140 metres and temporarily terminates near the southern end of Sha Tin Town Lot No. 20 as shown hatched black on Drawing No. NTA/ST/R8. (It should be noted that the future extension of this road is under construction). Proposed Name: MAN LAI ROAD. Chinese Version: 文禮路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Man Lam Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11374"
+    }
+  ]
+}

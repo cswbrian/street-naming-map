@@ -1,0 +1,44 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1954-gn208-baker-court",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.208",
+  "publication_date": "1954-02-19",
+  "gazette_url_en": "/egazette/en/1954-gn208.pdf",
+  "gazette_url_zh": "/egazette/zh/1954-gn208.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1954-gn208.pdf",
+  "streets": [
+    {
+      "chinese_name": "必嘉圍",
+      "english_name": "Baker Court",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Baker Court",
+          "street_name_zh": "必嘉圍",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-02-19",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 208.—It is hereby notified that the following road will be known in future as described hereunder:— Description: Cul-de-sac commencing from the south side of Baker Street running in a south-westerly direction for a distance of 50 yards within H.H.I.L. 235, as shown coloured red on plan No. R.K. 406. Proposed Name: BAKER COURT. Chinese Version: 必嘉圍.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 406",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Baker Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10040"
+    }
+  ]
+}

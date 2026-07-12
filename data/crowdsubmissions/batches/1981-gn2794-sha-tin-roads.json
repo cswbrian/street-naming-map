@@ -1,0 +1,163 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn2794-sha-tin-roads",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2794",
+  "publication_date": "1981-09-18",
+  "gazette_url_en": "/egazette/en/1981-gn2794.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn2794.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1446.pdf",
+  "streets": [
+    {
+      "chinese_name": "車公廟路",
+      "english_name": "Che Kung Miu Road",
+      "history": [
+        {
+          "publication_date": "1981-09-18",
+          "change_kind": "declare",
+          "street_name_en": "Che Kung Miu Road",
+          "street_name_zh": "車公廟路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with LION ROCK TUNNEL ROAD and TAI CHUNG KIU ROAD and running generally in a west south-westerly direction for about 300 metres where it terminates temporarily as shown coloured pink and hatched black on Drawing No. NTA/ST/R14C. (It should be noted that there is a future extension of this road).",
+            "description_raw_zh": "此路由與獅子山隧道公路及大涌橋路交界處起，大致向西南偏西伸展約三百米而暫時終止，如圖則第 NTA/ST/R14C 號以粉紅色黑斜綫所示。(註：此路將予擴建)",
+            "parsed": {
+              "referenced_streets_en": [
+                "Lion Rock Tunnel Road",
+                "Tai Chung Kiu Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10169"
+    },
+    {
+      "chinese_name": "沙田頭路",
+      "english_name": "Sha Tin Tau Road",
+      "history": [
+        {
+          "publication_date": "1981-09-18",
+          "change_kind": "declare",
+          "street_name_en": "Sha Tin Tau Road",
+          "street_name_zh": "沙田頭路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with CHE KUNG MIU ROAD and running from southerly to south-easterly for about 265 metres where it terminates temporarily as shown coloured pink and hatched black on Drawing No. NTA/ST/R14C. (It should be noted that there is a future extension of this road).",
+            "description_raw_zh": "此路由與車公廟路交界處起，由南轉向東南伸展約二百六十五米而暫時終止，如圖則第 NTA/ST/R14C 號以粉紅色黑斜綫所示。(註：此路將予擴建)",
+            "parsed": {
+              "referenced_streets_en": [
+                "Che Kung Miu Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11967"
+    },
+    {
+      "chinese_name": "沙田圍路",
+      "english_name": "Sha Tin Wai Road",
+      "history": [
+        {
+          "publication_date": "1981-09-18",
+          "change_kind": "declare",
+          "street_name_en": "Sha Tin Wai Road",
+          "street_name_zh": "沙田圍路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with TAI CHUNG KIU ROAD and running in a generally south-easterly direction for about 425 metres where it terminates temporarily as shown coloured pink and hatched black on Drawing No. NTA/ST/R14C. (It should be noted that there is a future extension of this road).",
+            "description_raw_zh": "此路由與大涌橋路交界處起，大致向東南伸展約四百二十五米而暫時終止，如圖則第 NTA/ST/R14C 號以粉紅色黑斜綫所示。(註：此路將予擴建)",
+            "parsed": {
+              "referenced_streets_en": [
+                "Tai Chung Kiu Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11968"
+    },
+    {
+      "chinese_name": "沙角街",
+      "english_name": "Sha Kok Street",
+      "history": [
+        {
+          "publication_date": "1981-09-18",
+          "change_kind": "extend",
+          "street_name_en": "Sha Kok Street",
+          "street_name_zh": "沙角街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street extending as a continuation of SHA KOK STREET (which was gazetted vide G.N. 1022/81) and commencing at its junction with SHA TIN WAI ROAD and running in a north-easterly direction for about 110 metres to terminate at its junction with a partially formed and un-gazetted street as shown coloured pink and hatched black on Drawing No. NTA/ST/R14C.",
+            "description_raw_zh": "此街延續沙角街（前於一九八一年第一〇二二號憲示公佈），由與沙田圍路交界處起，向東北伸展約一百一十米，至與一已部分築成但未在憲報公佈之街道交界處終止，如圖則第 NTA/ST/R14C 號以粉紅色黑斜綫所示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Sha Tin Wai Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11955"
+    },
+    {
+      "chinese_name": "圓洲角路",
+      "english_name": "Yuen Chau Kok Road",
+      "history": [
+        {
+          "publication_date": "1981-09-18",
+          "change_kind": "declare",
+          "street_name_en": "Yuen Chau Kok Road",
+          "street_name_zh": "圓洲角路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with TAI CHUNG KIU ROAD approximately 300 metres away from SHA TIN WAI ROAD and running in a south-easterly direction for about 505 metres where it spans to terminate in an open car-parking area as shown coloured pink and hatched black on Drawing No. NTA/ST/R14C.",
+            "description_raw_zh": "此路由與大涌橋路交界處起（距沙田圍路約三百米），向東南伸展約五百〇五米，跨越至一露天停車處終止，如圖則第 NTA/ST/R14C 號以粉紅色黑斜綫所示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Tai Chung Kiu Road",
+                "Sha Tin Wai Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12908"
+    },
+    {
+      "chinese_name": "銅鑼灣山路",
+      "english_name": "Tung Lo Wan Hill Road",
+      "history": [
+        {
+          "publication_date": "1981-09-18",
+          "change_kind": "extend",
+          "street_name_en": "Tung Lo Wan Hill Road",
+          "street_name_zh": "銅鑼灣山路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road extending as a continuation of TUNG LO WAN HILL ROAD (which was gazetted vide G.N. 1741/76) and running north north-easterly for about 247 metres then north north-westerly for about 105 metres then north north-easterly for about 42 metres before curving from north-westerly to west south-westerly for about 40 metres to terminate at the gate of Sha Tin North Service Reservoir as shown coloured pink and hatched black on Drawing No. NTA/ST/R3A.",
+            "description_raw_zh": "此路延續銅鑼灣山路（前於一九七六年第一七四一號憲示公佈），向東北偏北伸展約二百四十七米，再向西北偏北約一百〇五米，再向東北偏北約四十二米，然後由西北轉向西南偏西約四十米，至沙田北配水庫閘前終止，如圖則第 NTA/ST/R3A 號以粉紅色黑斜綫所示。",
+            "parsed": {
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "12524"
+    }
+  ]
+}

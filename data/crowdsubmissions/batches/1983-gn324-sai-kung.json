@@ -1,0 +1,132 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn324-sai-kung",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.324",
+  "publication_date": "1983-01-28",
+  "gazette_url_en": "/egazette/en/1983-gn324.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn324.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1536.pdf",
+  "streets": [
+    {
+      "chinese_name": "碧沙路",
+      "english_name": "Pik Sha Road",
+      "link_street_code": "11689",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Pik Sha Road",
+          "street_name_zh": "碧沙路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with CLEAR WATER BAY ROAD and running in a north-easterly direction for about 95 metres where it turns to run east south-easterly for about 75 metres; then it curves to run north north-westerly for about 155 metres and then turns to run in a southerly direction for about 60 metres before it runs generally easterly for about 115 metres; it then turns to run southerly for about 125 metres before it curves from a south-easterly to north-easterly direction for about 130 metres where it terminates as shown coloured purple and red on Drawing No. NTA/SK/R14B.",
+            "description_raw_zh": "此路由與清水灣道交界處起，向東北伸展約九十五米，轉向東南偏東伸展約七十五米，後轉向西北偏北伸展約一百五十五米；然後轉向南伸展約六十米，再向東伸展約一百一十五米；然後轉向南伸展約一百二十五米，再由東南轉向東北伸展約一百三十米止。在NTA/SK/R14B號圖則上以紫色及紅色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/SK/R14B",
+                  "color": "purple"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "銀岬路",
+      "english_name": "Silver Cape Road",
+      "link_street_code": "12109",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Silver Cape Road",
+          "street_name_zh": "銀岬路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with CLEAR WATER BAY ROAD and running in a generally north-easterly direction for about 145 metres before it curves to run generally east south-easterly for about 175 metres; then it bends sharply to run west south-westerly for about 170 metres and turns another sharp bend to run generally east south-easterly for about 240 metres where it terminates at its junction with PIK SHA ROAD as shown coloured red and hatched black on Drawing No. NTA/SK/R14B.",
+            "description_raw_zh": "此路由與清水灣道交界處起，大致向東北伸展約一百四十五米，後轉向東南偏東大致伸展約一百八十五米，後急速轉向西南偏西伸展約一百七十米，再急速轉向東南偏東大致伸展約二百四十米，至與碧沙路交界處終止。在NTA/SK/R14B號圖則上以紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/SK/R14B",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Pik Sha Road"
+              ]
+            }
+          },
+          "submitter_remarks": "Gazette EN ~175 m vs ZH ~185 m on second segment."
+        }
+      ]
+    },
+    {
+      "chinese_name": "翡翠里",
+      "english_name": "Jade Lane",
+      "link_street_code": "10891",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Jade Lane",
+          "street_name_zh": "翡翠里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Carriageway commencing at its junction with PIK SHA ROAD and running generally south easterly for about 64 metres where it terminates as shown coloured red and hatched black on Drawing No. NTA/SK/R14B.",
+            "description_raw_zh": "此行車路由與碧沙路交界處起，大致向東南伸展約六十四米止。在NTA/SK/R14B號圖則上以紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/SK/R14B",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "寶石徑",
+      "english_name": "Sapphire Path",
+      "link_street_code": "11922",
+      "history": [
+        {
+          "publication_date": "1983-01-28",
+          "change_kind": "declare",
+          "street_name_en": "Sapphire Path",
+          "street_name_zh": "寶石徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing at its junction with PIK SHA ROAD and running east north-easterly for about 48 metres where it terminates at its closed end as shown coloured red and hatched black on Drawing No. NTA/SK/R14B.",
+            "description_raw_zh": "此盡頭路由與碧沙路交界處起，向東北偏東伸展約四十八米至其盡頭處終止。在NTA/SK/R14B號圖則上以紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/SK/R14B",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

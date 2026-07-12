@@ -1,0 +1,136 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn2267-yee-chai-wan",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2267",
+  "publication_date": "1981-07-31",
+  "gazette_url_en": "/egazette/en/1981-gn2267.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn2267.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1441(1).pdf",
+  "streets": [
+    {
+      "english_name": "Yee Tai Street",
+      "chinese_name": "怡泰街",
+      "link_street_code": "12850",
+      "history": [
+        {
+          "publication_date": "1981-07-31",
+          "change_kind": "declare",
+          "street_name_en": "Yee Tai Street",
+          "street_name_zh": "怡泰街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Chai Wan Road running north-westwards for a distance of approximately 130 metres and with a cul-de-sac running continuously north-westwards for a distance of approximately 30 metres as shown coloured blue on Drawing No. HH3839A.",
+            "description_raw_zh": "此街道起點與柴灣道連接，向西北伸展約一三〇米，然後向西北伸展約三〇米，成一盡頭路。其位置在 HH3839A 號圖則上用藍色標明。",
+            "parsed": {
+              "plan_refs": [{ "label": "HH3839A", "color": "blue" }],
+              "road_form": "cul-de-sac",
+              "referenced_streets_en": ["Chai Wan Road"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Yee Shun Street",
+      "chinese_name": "怡順街",
+      "link_street_code": "12849",
+      "history": [
+        {
+          "publication_date": "1981-07-31",
+          "change_kind": "declare",
+          "street_name_en": "Yee Shun Street",
+          "street_name_zh": "怡順街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Chai Wan Road running north-westwards for a distance of approximately 130 metres and with a cul-de-sac running continuously north-westwards for a distance of approximately 30 metres as shown coloured orange on Drawing No. HH3839A.",
+            "description_raw_zh": "此街道起點與柴灣道連接向西北伸展約一三〇米，然後續向西北伸展約三〇米，成一盡頭路。其位置在 HH3839A 號圖則上用橙色標明。",
+            "parsed": {
+              "plan_refs": [{ "label": "HH3839A", "color": "orange" }],
+              "road_form": "cul-de-sac",
+              "referenced_streets_en": ["Chai Wan Road"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Yee Fung Street",
+      "chinese_name": "怡豐街",
+      "link_street_code": "12842",
+      "history": [
+        {
+          "publication_date": "1981-07-31",
+          "change_kind": "declare",
+          "street_name_en": "Yee Fung Street",
+          "street_name_zh": "怡豐街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Yee Tai Street, running north-eastwards for a distance of approximately 108 metres to its junction with Yee Shun Street and continuously running north-eastwards for a distance of approximately 155 metres and then north-westwards for a distance of 68 metres as shown coloured green on Drawing No. HH3839A.",
+            "description_raw_zh": "此街道起點與怡泰街連接，向東北伸展約一〇八米，至與怡順街交界處，續向東北伸展約一五五米，再向西北伸展約六十八米。其位置在 HH3839A 號圖則上用綠色標明。",
+            "parsed": {
+              "plan_refs": [{ "label": "HH3839A", "color": "green" }],
+              "referenced_streets_en": ["Yee Tai Street", "Yee Shun Street"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Yee Shing Lane",
+      "chinese_name": "怡盛里",
+      "link_street_code": "12847",
+      "history": [
+        {
+          "publication_date": "1981-07-31",
+          "change_kind": "declare",
+          "street_name_en": "Yee Shing Lane",
+          "street_name_zh": "怡盛里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing at its closed end, running north-eastwards for a distance of approximately 83 metres to its junction with Yee Tai Street as shown coloured yellow on Drawing No. HH3839A.",
+            "description_raw_zh": "此盡頭路由盡頭處向東北伸展約八十三米，與怡泰街連接。其位置在 HH3839A 號圖則上用黃色標明。",
+            "parsed": {
+              "plan_refs": [{ "label": "HH3839A", "color": "yellow" }],
+              "road_form": "cul-de-sac",
+              "referenced_streets_en": ["Yee Tai Street"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Yee Shing Street",
+      "chinese_name": "怡盛街",
+      "link_street_code": "12848",
+      "history": [
+        {
+          "publication_date": "1981-07-31",
+          "change_kind": "declare",
+          "street_name_en": "Yee Shing Street",
+          "street_name_zh": "怡盛街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare commencing at its junction with Yee Tai Street, running north-eastwards for a distance of approximately 108 metres to its junction with Yee Shun Street and then continuously running north-eastwards for a distance of approximately 155 metres as shown coloured pink on Drawing No. HH3839A.",
+            "description_raw_zh": "此街道起點與怡泰街連接，向東北伸展約一〇八米，至與怡順街交界處，續向東北伸展約一五五米。其位置在 HH3839A 號圖則上用粉紅色標明。",
+            "parsed": {
+              "plan_refs": [{ "label": "HH3839A", "color": "pink" }],
+              "referenced_streets_en": ["Yee Tai Street", "Yee Shun Street"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

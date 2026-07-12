@@ -1,0 +1,57 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn2511-science-museum-granville",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2511",
+  "publication_date": "1981-08-14",
+  "gazette_url_en": "/egazette/en/1981-gn2511.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn2511.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1442.pdf",
+  "streets": [
+    {
+      "english_name": "Science Museum Road",
+      "chinese_name": "科學館道",
+      "link_street_code": "11939",
+      "history": [
+        {
+          "publication_date": "1981-08-14",
+          "change_kind": "rename",
+          "previous_street_name_en": "Hing Cheung Road",
+          "previous_street_name_zh": "興祥道",
+          "street_name_en": "Science Museum Road",
+          "street_name_zh": "科學館道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "With reference to G.N. 1298 dated 1 May 1981, it is hereby notified in accordance with section 111C(1)(b) of the Public Health and Urban Services Ordinance, Chapter 132 that Hing Cheung Road and Ming Kwong Road in Tsim Sha Tsui, Kowloon, are renamed Science Museum Road and Granville Road respectively with immediate effect. G.N. 2268 dated 31 July 1981 is hereby cancelled.",
+            "description_raw_zh": "查本局於一九八一年五月一日刊出憲示第一二九八號，擬將九龍尖沙咀興祥道及明光道分別改稱為科學館道及加連威老道。茲根據香港法例第一三二章公衆衞生及市政事務條例第一一一C條第(1)款(b)段之規定，由即日起將該等街道改稱如上，特此公佈週知。一九八一年七月三十一日憲示第二二六八號，現予以取消。"
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Granville Road",
+      "chinese_name": "加連威老道",
+      "link_street_code": "10622",
+      "history": [
+        {
+          "publication_date": "1981-08-14",
+          "change_kind": "rename",
+          "previous_street_name_en": "Ming Kwong Road",
+          "previous_street_name_zh": "明光道",
+          "street_name_en": "Granville Road",
+          "street_name_zh": "加連威老道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "With reference to G.N. 1298 dated 1 May 1981, it is hereby notified in accordance with section 111C(1)(b) of the Public Health and Urban Services Ordinance, Chapter 132 that Hing Cheung Road and Ming Kwong Road in Tsim Sha Tsui, Kowloon, are renamed Science Museum Road and Granville Road respectively with immediate effect. G.N. 2268 dated 31 July 1981 is hereby cancelled.",
+            "description_raw_zh": "查本局於一九八一年五月一日刊出憲示第一二九八號，擬將九龍尖沙咀興祥道及明光道分別改稱為科學館道及加連威老道。茲根據香港法例第一三二章公衆衞生及市政事務條例第一一一C條第(1)款(b)段之規定，由即日起將該等街道改稱如上，特此公佈週知。一九八一年七月三十一日憲示第二二六八號，現予以取消。"
+          }
+        }
+      ]
+    }
+  ]
+}

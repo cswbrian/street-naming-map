@@ -1,0 +1,48 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn412-seaview-promenade",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.412",
+  "publication_date": "1984-02-10",
+  "gazette_url_en": "/egazette/en/1984-gn412.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn412.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1607.pdf",
+  "streets": [
+    {
+      "chinese_name": "麗海堤岸路",
+      "english_name": "Seaview Promenade",
+      "link_street_code": "11944",
+      "history": [
+        {
+          "publication_date": "1984-02-10",
+          "change_kind": "declare",
+          "street_name_en": "Seaview Promenade",
+          "street_name_zh": "麗海堤岸路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Footpath commencing at Beach Road approximately 190 metres from its junction with Repulse Bay Road running along the seashore between Repulse Bay and Deep Water Bay for a distance of approximately 1360 metres and joining Island Road as shown coloured red on drawing No. HH 4507.",
+            "description_raw_zh": "此行人路地點位於海灘道，距離海灘道與淺水灣道交界處約一百九十米，沿淺水灣及深水灣間之海岸伸展約一千三百六十米，至香島道終結，其位置於HH 4507號圖則上以紅色標明。",
+            "parsed": {
+              "length_m": 1360,
+              "length_unit": "m",
+              "plan_refs": [
+                {
+                  "label": "HH 4507",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Beach Road",
+                "Repulse Bay Road",
+                "Island Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

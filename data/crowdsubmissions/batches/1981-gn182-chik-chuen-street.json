@@ -1,0 +1,40 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn182-chik-chuen-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.182",
+  "publication_date": "1981-01-16",
+  "gazette_url_en": "/egazette/en/1981-gn182.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn182.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1426.pdf",
+  "pdf_zh": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1427.pdf",
+  "streets": [
+    {
+      "chinese_name": "積存街",
+      "english_name": "Chik Chuen Street",
+      "history": [
+        {
+          "publication_date": "1981-01-16",
+          "change_kind": "declare",
+          "street_name_en": "Chik Chuen Street",
+          "street_name_zh": "積存街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Notice is hereby given under section 111C(1)(a) of the Public Health and Urban Services Ordinance, Chapter 132 that the following street in the District of Sha Tin will be known as from the date of this notice as described hereunder:— Street commencing at its junction with TAI WAI ROAD and running generally in a north-easterly direction for about 230 metres where it terminates at its junction with SHING HO ROAD as shown coloured pink on Drawing No. NTA/ST/R13.",
+            "description_raw_zh": "茲根據香港法例第一三二章公眾衞生及市政事務條例第一一一C條第(1)款(a)段之規定，公佈下述沙田區之街道，由本公告日期起，採用以下名稱：— 此街由與大圍道之交界處起，大致向東北伸展約二百三十米而止於與城河道之交界處，在NTA/ST/R13號圖則上以粉紅色顯示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Tai Wai Road",
+                "Shing Ho Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10236"
+    }
+  ]
+}

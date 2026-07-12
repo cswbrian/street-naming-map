@@ -1,0 +1,81 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1951-gn445-leighton-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.445",
+  "publication_date": "1951-04-27",
+  "gazette_url_en": "/egazette/en/1951-gn445.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1951-gn445.pdf",
+  "streets": [
+    {
+      "link_street_code": "11215",
+      "chinese_name": "禮頓道",
+      "english_name": "Leighton Road",
+      "history": [
+        {
+          "submission_id": "1951-gn445-leighton-road-leighton-hill-former",
+          "change_kind": "declare",
+          "street_name_en": "Leighton Hill Road",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "is_declaration_event": true,
+          "submitter_remarks": "Former name attested in G.N.445 rename notice; separate naming date not recorded on file.",
+          "gazette_location": {
+            "description_raw_en": "No. 445.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following street will be known in future as described hereunder:— Description: The roads formerly known as Leighton Hill Road and Caroline Road, from the junction at Morrison Hill Road South of Inland Lot No. 1294 to the junction at Yee Wo Street, as shown coloured pink on drawing No. R.H. 198 signed by Hon. D.P.W. and dated 24th April, 1951. Proposed Name: LEIGHTON ROAD. Chinese Version: 禮頓道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Morrison Hill Road",
+                "Yee Wo Street"
+              ]
+            }
+          }
+        },
+        {
+          "submission_id": "1951-gn445-leighton-road-caroline-former",
+          "change_kind": "declare",
+          "street_name_en": "Caroline Road",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "is_declaration_event": true,
+          "submitter_remarks": "Former name attested in G.N.445 rename notice; separate naming date not recorded on file.",
+          "gazette_location": {
+            "description_raw_en": "No. 445.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following street will be known in future as described hereunder:— Description: The roads formerly known as Leighton Hill Road and Caroline Road, from the junction at Morrison Hill Road South of Inland Lot No. 1294 to the junction at Yee Wo Street, as shown coloured pink on drawing No. R.H. 198 signed by Hon. D.P.W. and dated 24th April, 1951. Proposed Name: LEIGHTON ROAD. Chinese Version: 禮頓道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Morrison Hill Road",
+                "Yee Wo Street"
+              ]
+            }
+          }
+        },
+        {
+          "submission_id": "1951-gn445-leighton-road-1951-04-27",
+          "publication_date": "1951-04-27",
+          "change_kind": "rename",
+          "street_name_en": "Leighton Road",
+          "street_name_zh": "禮頓道",
+          "previous_street_name_en": "Leighton Hill Road and Caroline Road",
+          "previous_street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 445.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following street will be known in future as described hereunder:— Description: The roads formerly known as Leighton Hill Road and Caroline Road, from the junction at Morrison Hill Road South of Inland Lot No. 1294 to the junction at Yee Wo Street, as shown coloured pink on drawing No. R.H. 198 signed by Hon. D.P.W. and dated 24th April, 1951. Proposed Name: LEIGHTON ROAD. Chinese Version: 禮頓道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Morrison Hill Road",
+                "Yee Wo Street"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

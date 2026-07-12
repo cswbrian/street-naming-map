@@ -1,0 +1,45 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1982-gn3825-king-hong-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3825",
+  "publication_date": "1982-12-03",
+  "gazette_url_en": "/egazette/en/1982-gn3825.pdf",
+  "gazette_url_zh": "/egazette/zh/1982-gn3825.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1982/Scanned_20260711-1525.pdf",
+  "streets": [
+    {
+      "chinese_name": "景康街",
+      "english_name": "King Hong Street",
+      "history": [
+        {
+          "publication_date": "1982-12-03",
+          "change_kind": "declare",
+          "street_name_en": "King Hong Street",
+          "street_name_zh": "景康街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured grey on Drawing No. KH 4041 commencing at its junction with King Fuk Street running southwards for about 68 m to terminate at Prince Edward Road East.",
+            "description_raw_zh": "此街道在 KH 4041 號圖則上用灰色標明，起點與景福街連接，向南伸展約六十八米，至太子道東止。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 4041",
+                  "color": "grey"
+                }
+              ],
+              "referenced_streets_en": [
+                "King Fuk Street",
+                "Prince Edward Road East"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11024"
+    }
+  ]
+}

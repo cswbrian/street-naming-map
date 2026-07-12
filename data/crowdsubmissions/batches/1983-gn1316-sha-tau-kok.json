@@ -1,0 +1,139 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn1316-sha-tau-kok",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1316",
+  "publication_date": "1983-04-29",
+  "gazette_url_en": "/egazette/en/1983-gn1316.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn1316.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1542.pdf",
+  "streets": [
+    {
+      "chinese_name": "順隆街",
+      "english_name": "Shun Lung Street",
+      "link_street_code": "12092",
+      "history": [
+        {
+          "publication_date": "1983-04-29",
+          "change_kind": "declare",
+          "street_name_en": "Shun Lung Street",
+          "street_name_zh": "順隆街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with SHA TAU KOK ROAD SHEK CHUNG AU and running in a south south-easterly direction for about 78 metres where it terminates at its junction with SHUN HING STREET as shown coloured pink and hatched black on Drawing No. LD/N/R4.",
+            "description_raw_zh": "此街由與沙頭角公路石涌凹段交界處起，向東南偏南伸展約七十八米，至與順興街交界處終止。在LD/N/R4號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/N/R4",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Shun Hing Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "順興街",
+      "english_name": "Shun Hing Street",
+      "link_street_code": "12089",
+      "history": [
+        {
+          "publication_date": "1983-04-29",
+          "change_kind": "declare",
+          "street_name_en": "Shun Hing Street",
+          "street_name_zh": "順興街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with SHUN LUNG STREET and running in an east north-easterly direction for about 38 metres where it terminates at its junction with CHE PING STREET as shown coloured pink and hatched black on Drawing No. LD/N/R4.",
+            "description_raw_zh": "此街由與順隆街交界處起，向東北偏東伸展約三十八米，至與車坪街交界處終止。在LD/N/R4號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/N/R4",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Che Ping Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "車坪街",
+      "english_name": "Che Ping Street",
+      "link_street_code": "10170",
+      "history": [
+        {
+          "publication_date": "1983-04-29",
+          "change_kind": "declare",
+          "street_name_en": "Che Ping Street",
+          "street_name_zh": "車坪街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with SHUN HING STREET and running in an east north-easterly direction for about 80 metres and then bends to run northerly for about 12 metres where it terminates at its junction with SHA TAU KOK ROAD SHEK CHUNG AU as shown coloured pink and hatched black on Drawing No. LD/N/R4.",
+            "description_raw_zh": "此街由與順興街交界處起，向東北偏東伸展約八十米，然後轉向北伸展約十二米，至與沙頭角公路石涌凹段交界處終止。在LD/N/R4號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/N/R4",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sha Tau Kok Road Shek Chung Au"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "中英街",
+      "english_name": "Chung Ying Street",
+      "link_street_code": "10305",
+      "history": [
+        {
+          "publication_date": "1983-04-29",
+          "change_kind": "declare",
+          "street_name_en": "Chung Ying Street",
+          "street_name_zh": "中英街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with SHA TAU KOK ROAD SHEK CHUNG AU and running in an east north-easterly direction for about 23 metres; it then bends to run north-easterly for about 148 metres before it bends north north-easterly for about 94 metres where it terminates at Boundary Stone No. 7 as shown coloured pink and hatched black on Drawing No. LD/N/R4.",
+            "description_raw_zh": "此街由與沙頭角公路石涌凹段交界處起，向東北偏東伸展約二十三米，然後轉向東北伸展約一百四十八米，再轉向東北偏北伸展約九十四米，至與邊界分界石第七號終止。在LD/N/R4號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/N/R4",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

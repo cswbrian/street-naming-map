@@ -1,0 +1,48 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn1900-harbour-drive",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1900",
+  "publication_date": "1984-06-29",
+  "gazette_url_en": "/egazette/en/1984-gn1900.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn1900.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1620.pdf",
+  "streets": [
+    {
+      "chinese_name": "港灣徑",
+      "english_name": "Harbour Drive",
+      "link_street_code": "10659",
+      "history": [
+        {
+          "publication_date": "1984-06-29",
+          "change_kind": "declare",
+          "street_name_en": "Harbour Drive",
+          "street_name_zh": "港灣徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An L-shaped slip road (shown coloured pink on Drawing No. HH 4650) of approximately 284 metres in length starting at the junction of Gloucester Road and Fleming Road running eastwards and parallel to Gloucester Road, bending northwards between I.L. 8390 and I.L. 8389 and ending at the junction with Harbour Road.",
+            "description_raw_zh": "此「L」字形支路（在HH 4650號圖則上用粉紅色標明）長約二百八十四米，由告士打道與菲林明道交界處起，向東伸展，與告士打道平行，至內地段八三九〇號及八三八九號間轉向北，至港灣道終結。",
+            "parsed": {
+              "length_m": 284,
+              "length_unit": "m",
+              "plan_refs": [
+                {
+                  "label": "HH 4650",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Gloucester Road",
+                "Fleming Road",
+                "Harbour Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

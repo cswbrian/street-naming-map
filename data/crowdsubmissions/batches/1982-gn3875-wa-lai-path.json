@@ -1,0 +1,45 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1982-gn3875-wa-lai-path",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3875",
+  "publication_date": "1982-12-10",
+  "gazette_url_en": "/egazette/en/1982-gn3875.pdf",
+  "gazette_url_zh": "/egazette/zh/1982-gn3875.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1982/Scanned_20260711-1526.pdf",
+  "streets": [
+    {
+      "chinese_name": "華荔徑",
+      "english_name": "Wa Lai Path",
+      "history": [
+        {
+          "publication_date": "1982-12-10",
+          "change_kind": "declare",
+          "street_name_en": "Wa Lai Path",
+          "street_name_zh": "華荔徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Path commencing at its junction with LAI KING HILL ROAD and running adjacent to the Amusement Park in a north north-westerly direction for about 210 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/TW/R92A.",
+            "description_raw_zh": "此小徑由與荔景山道交界處起，沿遊樂場側，向西北偏北伸展約二百一十米而終止，在NTA/TW/R92A號圖則中以粉紅色間以黑綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R92A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Lai King Hill Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12582"
+    }
+  ]
+}

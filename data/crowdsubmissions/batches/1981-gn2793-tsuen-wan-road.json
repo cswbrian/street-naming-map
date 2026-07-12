@@ -1,0 +1,39 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn2793-tsuen-wan-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2793",
+  "publication_date": "1981-09-18",
+  "gazette_url_en": "/egazette/en/1981-gn2793.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn2793.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1445.pdf",
+  "streets": [
+    {
+      "chinese_name": "荃灣路",
+      "english_name": "Tsuen Wan Road",
+      "history": [
+        {
+          "publication_date": "1981-09-18",
+          "change_kind": "declare",
+          "street_name_en": "Tsuen Wan Road",
+          "street_name_zh": "荃灣路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing on two viaducts at its junctions with KWAI CHUNG ROAD and running north north-easterly for about 200 metres then curving to run north-westerly for about 420 metres and then passing over KWAI TSING INTERCHANGE and running continuously in the same direction for about 1030 metres where it terminates temporarily at TSUEN TSING INTERCHANGE connecting with TEXACO ROAD as shown coloured pink and hatched black on Drawing No. NTA/TW/R88A. (It should be noted that there is a future extension of this road.)",
+            "description_raw_zh": "此路由與葵涌道交界處之兩條高架道路起，向東北偏北伸展約二百米，轉向西北偏北約四百二十米，越過葵青交匯處，續朝同一方向伸展約一千○三十米，至連接德士古道之荃青交匯處暫時終止，如圖則第 NTA/TW/R88A 號以粉紅色黑斜綫所示。(註：此路將予擴建)",
+            "parsed": {
+              "referenced_streets_en": [
+                "Kwai Chung Road",
+                "Texaco Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12469"
+    }
+  ]
+}

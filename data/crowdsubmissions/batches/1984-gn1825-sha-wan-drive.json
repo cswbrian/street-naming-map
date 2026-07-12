@@ -1,0 +1,48 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn1825-sha-wan-drive",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1825",
+  "publication_date": "1984-06-22",
+  "gazette_url_en": "/egazette/en/1984-gn1825.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn1825.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1619.pdf",
+  "streets": [
+    {
+      "chinese_name": "沙灣徑",
+      "english_name": "Sha Wan Drive",
+      "link_street_code": "11972",
+      "history": [
+        {
+          "publication_date": "1984-06-22",
+          "change_kind": "declare",
+          "street_name_en": "Sha Wan Drive",
+          "street_name_zh": "沙灣徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare, approximately 1340 metres in length, running in a South Easterly direction from its junction with Sandy Bay Road passing between the University of Hong Kong Sports Ground and University of Hong Kong Senior Staff Quarters, skirts to the South West of the quarters, turns back on itself in a North Westerly direction and finally joins Victoria Road just South of its junction with Bisney Road as shown coloured red on Drawing No. HH 4510A.",
+            "description_raw_zh": "此街道全長約一千三百四十米，由與大口環道交界處起，向東南伸展，在香港大學運動場及香港大學高級職員宿舍之間穿過，然後沿宿舍之西南再轉西北，至域多利道與碧荔道交界處以南之一處域多利道終結。此街道在HH 4510A號圖則上用紅色標明。",
+            "parsed": {
+              "length_m": 1340,
+              "length_unit": "m",
+              "plan_refs": [
+                {
+                  "label": "HH 4510A",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sandy Bay Road",
+                "Victoria Road",
+                "Bisney Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

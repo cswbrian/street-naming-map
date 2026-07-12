@@ -1,0 +1,45 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn2607-razor-hill",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2607",
+  "publication_date": "1984-08-31",
+  "gazette_url_en": "/egazette/en/1984-gn2607.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn2607.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1623.pdf",
+  "streets": [
+    {
+      "chinese_name": "碧翠路",
+      "english_name": "Razor Hill Road",
+      "history": [
+        {
+          "publication_date": "1984-08-31",
+          "change_kind": "declare",
+          "street_name_en": "Razor Hill Road",
+          "street_name_zh": "碧翠路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with CLEAR WATER BAY ROAD and running in a south-easterly direction for about 170 metres and then turns to run south south-easterly for about 260 metres where it terminates at its closed end as shown coloured pink and hatched black on Plan No. SKRM2B.",
+            "description_raw_zh": "此路由與清水灣道交界處起，向東南伸展約170米，再向東南偏南伸展約260米，而以該處為盡頭。在 SKRM 2B 號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "SKRM2B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Clear Water Bay Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11809"
+    }
+  ]
+}

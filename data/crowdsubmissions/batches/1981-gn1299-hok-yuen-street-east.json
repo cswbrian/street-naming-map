@@ -1,0 +1,39 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn1299-hok-yuen-street-east",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1299",
+  "publication_date": "1981-05-01",
+  "gazette_url_en": "/egazette/en/1981-gn1299.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn1299.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1435.pdf",
+  "pdf_zh": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1435.pdf",
+  "streets": [
+    {
+      "chinese_name": "鶴園東街",
+      "english_name": "Hok Yuen Street East",
+      "history": [
+        {
+          "publication_date": "1981-05-01",
+          "change_kind": "declare",
+          "street_name_en": "Hok Yuen Street East",
+          "street_name_zh": "鶴園東街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured grey on Drawing No. KH 3450 commencing at its junction with Man Lok Street running eastwards for about 190 m to terminate at the boundary of K.M.L. 113.",
+            "description_raw_zh": "此街道位置在 KH 3450 號圖則上以灰色標明，起自與民樂街交界處，向東伸展約一百九十米，至九龍海地段第一一三號邊界終止。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Man Lok Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10795"
+    }
+  ]
+}

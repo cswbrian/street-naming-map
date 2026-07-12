@@ -1,0 +1,240 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn1312-yuen-long",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1312",
+  "publication_date": "1984-05-04",
+  "gazette_url_en": "/egazette/en/1984-gn1312.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn1312.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1615.pdf",
+  "streets": [
+    {
+      "chinese_name": "福喜街",
+      "english_name": "Fuk Hi Street",
+      "link_street_code": "10546",
+      "history": [
+        {
+          "publication_date": "1984-05-04",
+          "change_kind": "declare",
+          "street_name_en": "Fuk Hi Street",
+          "street_name_zh": "福喜街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with WANG LOK STREET and running in a north-westerly direction for about 243 metres and then bends smoothly to run in a north-north-westerly direction for about 570 metres; it then bends again to run in a north-westerly direction for about 470 metres before it turns to run in a north-easterly direction for about 429 metres where it terminates at its junction with WANG LEE STREET as shown coloured pink on Plan No. LD/YL/R2C.",
+            "description_raw_zh": "此街由與宏樂街交界處起，向西北伸展約二四三米，然後順向西北偏北伸展約五七〇米，再轉向西北伸展約四七〇米，然後向東北伸展約四二九米至與宏利街交界處止，在LD/YL/R2C號圖則上以粉紅色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R2C",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wang Lok Street",
+                "Wang Lee Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "福恒街",
+      "english_name": "Fuk Hang Street",
+      "link_street_code": "10545",
+      "history": [
+        {
+          "publication_date": "1984-05-04",
+          "change_kind": "declare",
+          "street_name_en": "Fuk Hang Street",
+          "street_name_zh": "福恒街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing at its junction with FUK HI STREET and running in a north-easterly direction for about 135 metres where it terminates at a turning circle as shown coloured pink and cross-hatched black on Plan No. LD/YL/R2C.",
+            "description_raw_zh": "此盡頭路由與福喜街交界處起，向東北伸展約一三五米至一迴旋處止，在LD/YL/R2C號圖則上以粉紅色間以交錯黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R2C",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Fuk Hi Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "福宏街",
+      "english_name": "Fuk Wang Street",
+      "link_street_code": "10561",
+      "history": [
+        {
+          "publication_date": "1984-05-04",
+          "change_kind": "declare",
+          "street_name_en": "Fuk Wang Street",
+          "street_name_zh": "福宏街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with FUK HI STREET and running in a north-easterly direction for about 468 metres where it terminates at its junction with WANG LEE STREET as shown coloured pink and hatched black on Plan No. LD/YL/R2C.",
+            "description_raw_zh": "此街由與福喜街交界處起，向東北伸展約四六八米至與宏利街交界處止，在LD/YL/R2C號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R2C",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Fuk Hi Street",
+                "Wang Lee Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "福順街",
+      "english_name": "Fuk Shun Street",
+      "link_street_code": "10556",
+      "history": [
+        {
+          "publication_date": "1984-05-04",
+          "change_kind": "declare",
+          "street_name_en": "Fuk Shun Street",
+          "street_name_zh": "福順街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with FUK HI STREET and running in a north-westerly direction for about 100 metres where it terminates as shown coloured pink and cross-hatched black on Plan No. LD/YL/R2C.",
+            "description_raw_zh": "此街由與福喜街交界處起，向西北伸展約一百米止，在LD/YL/R2C號圖則上以粉紅色間以交錯黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R2C",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Fuk Hi Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "宏利街",
+      "english_name": "Wang Lee Street",
+      "link_street_code": "12661",
+      "history": [
+        {
+          "publication_date": "1984-05-04",
+          "change_kind": "declare",
+          "street_name_en": "Wang Lee Street",
+          "street_name_zh": "宏利街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with WANG LOK STREET and running in a north-westerly direction for about 1 106 metres, it then bends to run in a northerly direction for about 174 metres and then turns to run in an easterly direction for about 189 metres where it terminates at its junction with WANG LOK STREET as shown coloured pink and cross-hatched black on Plan No. LD/YL/R2C.",
+            "description_raw_zh": "此街由與宏樂街交界處起，向西北伸展約一一〇六米，然後轉向北伸展約一七四米，再順向東伸展約一八九米至與宏樂街交界處止，在LD/YL/R2C號圖則上以粉紅色間以交錯黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R2C",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wang Lok Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "宏樂街",
+      "english_name": "Wang Lok Street",
+      "link_street_code": "12662",
+      "history": [
+        {
+          "publication_date": "1984-05-04",
+          "change_kind": "declare",
+          "street_name_en": "Wang Lok Street",
+          "street_name_zh": "宏樂街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with an unformed street near Kik Yeung Tsuen and running in a northerly direction for about 130 metres; it then bends to run in a north-easterly direction for about 1 132 metres and then turns to run in a north-westerly direction for about 933 metres before it bends to run in a northerly direction for about 223 metres where it terminates at the sewage treatment plant as shown coloured pink and hatched black on Plan No. LD/YL/R2C.",
+            "description_raw_zh": "此街由與擊壤村附近一未建成街道交界處起向北伸展約一三〇米，然後轉向東北伸展約一一三二米，再向西北伸展約九三三米，然後轉向北伸展約二二三米至與污水處理廠交界處止，在LD/YL/R2C號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R2C",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [
+                "unformed street near Kik Yeung Tsuen"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "宏富街",
+      "english_name": "Wang Fu Street",
+      "link_street_code": "12655",
+      "history": [
+        {
+          "publication_date": "1984-05-04",
+          "change_kind": "declare",
+          "street_name_en": "Wang Fu Street",
+          "street_name_zh": "宏富街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with WANG LEE STREET and running in a north-easterly direction for about 193 metres where it terminates at its junction with WANG LOK STREET as shown coloured pink and hatched black on Plan No. LD/YL/R2C.",
+            "description_raw_zh": "此街由與宏利街交界處起，向東北伸展約一九三米至與宏樂街交界處止，在LD/YL/R2C號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R2C",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wang Lee Street",
+                "Wang Lok Street"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

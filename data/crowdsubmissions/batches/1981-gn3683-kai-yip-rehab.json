@@ -1,0 +1,62 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn3683-kai-yip-rehab",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3683",
+  "publication_date": "1981-12-11",
+  "gazette_url_en": "/egazette/en/1981-gn3683.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn3683.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1453.pdf",
+  "streets": [
+    {
+      "chinese_name": "啟業道",
+      "english_name": "Kai Yip Road",
+      "history": [
+        {
+          "publication_date": "1981-12-11",
+          "change_kind": "declare",
+          "street_name_en": "Kai Yip Road",
+          "street_name_zh": "啟業道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown coloured grey on Drawing No. KH 3445A commencing at Kai Shing House to run eastwards for about 240 m, then turning south-easterly for about 140 m before changing to run south-westerly for about 100 m and further extending in the west direction for about 30 m to its termination near Kai Hong House.",
+            "description_raw_zh": "此街道之位置，在 KH 3445A 號圖則上以灰色標明。起點在啟盛樓，向東伸展約240米，再轉向東南伸展約140米，然後改向西南伸展約100米，再續向西伸展約30米，至啟康樓附近終止。",
+            "parsed": {
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "10945"
+    },
+    {
+      "chinese_name": "復康徑",
+      "english_name": "Rehab Path",
+      "history": [
+        {
+          "publication_date": "1981-12-11",
+          "change_kind": "declare",
+          "street_name_en": "Rehab Path",
+          "street_name_zh": "復康徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac as shown coloured grey on Drawing No. KH 3737 commencing at its junction with Lei Yue Mun Road running southwestwards for 170 m then southeastwards for another 170 m before going southwestwards again for 30 m to terminate at the entrance gate of Margaret Trench Medical Rehabilitation Centre.",
+            "description_raw_zh": "此盡頭路之位置，在 KH 3737 號圖則上以灰色標明。起點與鯉魚門道連接，向西南伸展約170米，再轉向東南伸展約170米，然後改向西南伸展30米，至戴麟趾夫人復康院正門處終止。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Lei Yue Mun Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11813"
+    }
+  ],
+  "remarks": "Shares scan Scanned_20260711-1453.pdf with G.N.3682."
+}

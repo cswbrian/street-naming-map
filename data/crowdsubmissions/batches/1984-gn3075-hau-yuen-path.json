@@ -1,0 +1,44 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn3075-hau-yuen-path",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3075",
+  "publication_date": "1984-10-19",
+  "gazette_url_en": "/egazette/en/1984-gn3075.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn3075.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1626.pdf",
+  "streets": [
+    {
+      "chinese_name": "校園徑",
+      "english_name": "Hau Yuen Path",
+      "history": [
+        {
+          "publication_date": "1984-10-19",
+          "change_kind": "declare",
+          "street_name_en": "Hau Yuen Path",
+          "street_name_zh": "校園徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "A road commencing at the end of Braemar Hill Road running north westerly for 210 metres as shown coloured pink on drawing No. HH 4695.",
+            "description_raw_zh": "此道路由寶馬山道終點起向西北伸展二百一十米，其位置於 HH 4695 號圖則上以粉紅色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "HH 4695",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Braemar Hill Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10674"
+    }
+  ]
+}

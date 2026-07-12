@@ -1,0 +1,73 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn1665-wong-tai-sin",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1665",
+  "publication_date": "1983-05-27",
+  "gazette_url_en": "/egazette/en/1983-gn1665.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn1665.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1546.pdf",
+  "streets": [
+    {
+      "chinese_name": "游龍徑",
+      "english_name": "Yau Lung Path",
+      "history": [
+        {
+          "publication_date": "1983-05-27",
+          "change_kind": "declare",
+          "street_name_en": "Yau Lung Path",
+          "street_name_zh": "游龍徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown brown on Drawing No. 39/P/1 commencing from the junction facing Kam Lam House, running eastwards for about 65 metres to a round-about, then continuing to run in the same direction for about 80 metres to its termination near Yau Lung House.",
+            "description_raw_zh": "此街道在39/P/1號圖則上用棕色標明，由甘霖樓對面之交叉點起，向東伸展約六十五米至一迴旋處，再照同一方向伸展約八十米，在鄰近游龍樓處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "39/P/1",
+                  "color": "brown"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "12829"
+    },
+    {
+      "chinese_name": "銀河徑",
+      "english_name": "Ngan Ho Path",
+      "history": [
+        {
+          "publication_date": "1983-05-27",
+          "change_kind": "declare",
+          "street_name_en": "Ngan Ho Path",
+          "street_name_zh": "銀河徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Thoroughfare as shown green on Drawing No. 39/P/1 commencing from the junction at Old Clear Water Bay Road near the market, running southwards for about 100 metres, then changing to run westerly for about 190 metres to its termination near Ngan Ho House.",
+            "description_raw_zh": "此街道在39/P/1號圖則上用綠色標明，由舊清水灣道近街市處之交叉點起，向南伸展約一百米，然後向西伸展約一百九十米，在鄰近銀河樓處終結。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "39/P/1",
+                  "color": "green"
+                }
+              ],
+              "referenced_streets_en": [
+                "Old Clear Water Bay Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11522"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn873-wong-tai-sin-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.873",
+  "publication_date": "1983-03-18",
+  "gazette_url_en": "/egazette/en/1983-gn873.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn873.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1538.pdf",
+  "streets": [
+    {
+      "chinese_name": "黃大仙道",
+      "english_name": "Wong Tai Sin Road",
+      "link_street_code": "12784",
+      "history": [
+        {
+          "publication_date": "1983-03-18",
+          "change_kind": "extend",
+          "street_name_en": "Wong Tai Sin Road",
+          "street_name_zh": "黃大仙道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "The portion of public road shown coloured grey on Drawing No. KH 4361 beginning opposite the eastern end of block 15 of Upper Wong Tai Sin Estate and extending approximately 285 m to the east until it meets Shatin Pass Road.",
+            "description_raw_zh": "在 KH 4361 號圖則上以灰色標明，由黃大仙上邨第十五座東端對面起，向東伸展約二百八十五米，至與沙田坳道交界處止。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 4361",
+                  "color": "grey"
+                }
+              ],
+              "referenced_streets_en": [
+                "Shatin Pass Road"
+              ]
+            }
+          },
+          "submitter_remarks": "Extension; prior naming G.N.288/1976 already on file."
+        }
+      ]
+    }
+  ]
+}

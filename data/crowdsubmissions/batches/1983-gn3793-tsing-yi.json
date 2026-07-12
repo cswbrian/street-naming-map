@@ -1,0 +1,174 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1983-gn3793-tsing-yi",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3793",
+  "publication_date": "1983-12-02",
+  "gazette_url_en": "/egazette/en/1983-gn3793.pdf",
+  "gazette_url_zh": "/egazette/zh/1983-gn3793.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1983/Scanned_20260711-1602.pdf",
+  "streets": [
+    {
+      "chinese_name": "長達路",
+      "english_name": "Cheung Tat Road",
+      "history": [
+        {
+          "publication_date": "1983-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Cheung Tat Road",
+          "street_name_zh": "長達路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with CHEUNG WAN STREET and running in a south south-easterly direction for about 360 metres before it bends to run in an east north-easterly direction for about 75 metres where it terminates at its junction with CHEUNG FAI ROAD as shown coloured pink and hatched black on Drawing No. NTA/TW/R102B.",
+            "description_raw_zh": "此路由與長環街交界處起，向東南偏南伸展約三百六十米，再轉向東北偏東伸展約七十五米，至與長輝路交界處止。在NTA/TW/R102B號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R102B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Cheung Wan Street",
+                "Cheung Fai Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10214"
+    },
+    {
+      "chinese_name": "長隆街",
+      "english_name": "Cheung Lung Street",
+      "history": [
+        {
+          "publication_date": "1983-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Cheung Lung Street",
+          "street_name_zh": "長隆街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with CHEUNG TAT ROAD and running in an east north-easterly direction for about 75 metres where it terminates at its junction with CHEUNG FAI ROAD as shown coloured red on Drawing No. NTA/TW/R102B.",
+            "description_raw_zh": "此街由與長達路交界處起，向東北偏東伸展約七十五米，至與長輝路交界處止。在NTA/TW/R102B號圖則上以紅色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R102B",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Cheung Tat Road",
+                "Cheung Fai Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10199"
+    },
+    {
+      "chinese_name": "長輝路",
+      "english_name": "Cheung Fai Road",
+      "history": [
+        {
+          "publication_date": "1983-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Cheung Fai Road",
+          "street_name_zh": "長輝路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with CHEUNG WAN STREET and running in a generally south south-easterly direction for about 495 metres before it bends to run in a generally southerly direction for about 300 metres where it terminates as shown coloured pink and hatched black on Drawing No. NTA/TW/R102B.",
+            "description_raw_zh": "此路由與長環街交界處起，向東南偏南伸展約四百九十五米，再大致轉向南伸展約三百米，然後終止。在NTA/TW/R102B號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R102B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Cheung Wan Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10187"
+    },
+    {
+      "chinese_name": "青衣路",
+      "english_name": "Tsing Yi Road",
+      "history": [
+        {
+          "publication_date": "1983-12-02",
+          "change_kind": "extend",
+          "street_name_en": "Tsing Yi Road",
+          "street_name_zh": "青衣路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road extending as a continuation of TSING YI ROAD (which was published under Government Notice No. 1702 dated 6 July 1979) and running in north-westerly direction for about 220 metres and then bends to run in a south-westerly direction for about 740 metres; it bends again to run in a generally northerly direction for about 1 265 metres where it temporarily terminates at its junction with SAI TSO WAN ROAD as shown coloured pink and hatched black on Drawing No. NTA/TW/R102B.",
+            "description_raw_zh": "此路作為延長現存之青衣路（於一九七九年七月六日刊載於憲示一七零二號），向西北伸展約二百二十米，後轉向西南伸展約七百四十米，再轉向北伸展約一千二百六十五米，然後在西草灣路交界處暫時終止。在NTA/TW/R102B號圖則上以粉紅色間以黑斜綫標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R102B",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tsing Yi Road",
+                "Sai Tso Wan Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12449"
+    },
+    {
+      "chinese_name": "西草灣路",
+      "english_name": "Sai Tso Wan Road",
+      "history": [
+        {
+          "publication_date": "1983-12-02",
+          "change_kind": "declare",
+          "street_name_en": "Sai Tso Wan Road",
+          "street_name_zh": "西草灣路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with TSING YI ROAD and running in a north-westerly direction for about 115 metres and then bends to run in a generally northerly direction for about 385 metres; it bends again to run in a west north-westerly direction for about 190 metres where it terminates as shown coloured red on Drawing No. NTA/TW/R102B.",
+            "description_raw_zh": "此路由與青衣路交界處起，向西北伸展約一百一十五米，再大致轉向北伸展約三百八十五米，然後向西北偏西伸展約一百九十米，然後終止。在NTA/TW/R102B號圖則上以紅色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "NTA/TW/R102B",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tsing Yi Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11854"
+    }
+  ]
+}

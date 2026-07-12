@@ -1,0 +1,45 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn1901-king-tung-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1901",
+  "publication_date": "1984-06-29",
+  "gazette_url_en": "/egazette/en/1984-gn1901.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn1901.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1620.pdf",
+  "streets": [
+    {
+      "chinese_name": "瓊東街",
+      "english_name": "King Tung Street",
+      "link_street_code": "11032",
+      "history": [
+        {
+          "publication_date": "1984-06-29",
+          "change_kind": "declare",
+          "street_name_en": "King Tung Street",
+          "street_name_zh": "瓊東街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "A cul-de-sac road running eastwards for about 220 metres from the junction of Hammer Hill Road and Po Kong Village Road as shown coloured grey on Drawing No. KH 4714.",
+            "description_raw_zh": "此盡頭路由斧山道與蒲崗村道交界處起，向東伸展約二百二十米，在KH 4714號圖則上用灰色標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "KH 4714",
+                  "color": "grey"
+                }
+              ],
+              "referenced_streets_en": [
+                "Hammer Hill Road",
+                "Po Kong Village Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

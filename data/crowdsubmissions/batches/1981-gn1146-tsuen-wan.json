@@ -1,0 +1,113 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn1146-tsuen-wan",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1146",
+  "publication_date": "1981-04-16",
+  "gazette_url_en": "/egazette/en/1981-gn1146.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn1146.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1434.pdf",
+  "pdf_zh": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1434.pdf",
+  "streets": [
+    {
+      "chinese_name": "西樓角路",
+      "english_name": "Sai Lau Kok Road",
+      "history": [
+        {
+          "publication_date": "1981-04-16",
+          "change_kind": "declare",
+          "street_name_en": "Sai Lau Kok Road",
+          "street_name_zh": "西樓角路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with CASTLE PEAK ROAD TSUEN WAN and running in a north-easterly direction for about 93 metres where it bends south-easterly for about 532 metres and then it curves south south-easterly for about 352 metres and terminates at its junction with SHING MUN ROAD as shown coloured red and hatched black on Drawing No. NTA/TW/R82A.",
+            "description_raw_zh": "此路由與青山公路荃灣段交界處起，向東北伸展約九十三米，然後向東南伸展約五百三十二米，繼而灣向東南偏南延長約三百五十二米，至與城門路交界處止，如圖則第 NTA/TW/R82A 號中，以紅色及黑斜線所示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Castle Peak Road Tsuen Wan",
+                "Shing Mun Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11844"
+    },
+    {
+      "chinese_name": "老圍路",
+      "english_name": "Lo Wai Road",
+      "history": [
+        {
+          "publication_date": "1981-04-16",
+          "change_kind": "declare",
+          "street_name_en": "Lo Wai Road",
+          "street_name_zh": "老圍路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with an unnamed road abutting CHEUNG SHAN ESTATE and running generally north north-westerly for about 308 metres where it temporarily terminates as shown coloured red and hatched black on Drawing No. NTA/TW/R87B.",
+            "description_raw_zh": "此路由與毗連象山邨之未命名道路交界處起，大致向西北偏北伸展約三百零八米，然後暫時終止，如圖則第 NTA/TW/R87B 號中，以紅色及黑斜線所示。",
+            "parsed": {
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "11247"
+    },
+    {
+      "chinese_name": "三棟屋路",
+      "english_name": "Sam Tung Uk Road",
+      "history": [
+        {
+          "publication_date": "1981-04-16",
+          "change_kind": "declare",
+          "street_name_en": "Sam Tung Uk Road",
+          "street_name_zh": "三棟屋路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with LO WAI ROAD and running north-easterly for about 264 metres and then it bends south south-easterly for about 65 metres where it terminates at a round-about as shown coloured red and hatched black on Drawing No. NTA/TW/R87B.",
+            "description_raw_zh": "此路由與老圍路交界處起，向東北伸展約二百六十四米，然後向東南偏南伸延約六十五米，至迴旋處止，如圖則第 NTA/TW/R87B 號中，以紅色及黑斜線所示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Lo Wai Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11878"
+    },
+    {
+      "chinese_name": "顯達路",
+      "english_name": "Hilltop Road",
+      "history": [
+        {
+          "publication_date": "1981-04-16",
+          "change_kind": "declare",
+          "street_name_en": "Hilltop Road",
+          "street_name_zh": "顯達路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with LO WAI ROAD and running easterly for about 90 metres where it curves westerly for about 105 metres and bends northerly for about 126 metres and turns westerly for about 248 metres and then it bends north north-easterly for about 210 metres to terminate at its closed end as shown coloured red and hatched black on Drawing No. NTA/TW/R87B.",
+            "description_raw_zh": "此路由與老圍路交界處起，向東伸延約九十米，然後灣曲向西伸展約一百零五米，繼而北折約一百二十六米，再向西伸展約二百四十八米，然後向東北偏北伸延約二百一十米，到盡頭處終止，如圖則第 NTA/TW/R87B 號中，以紅色及黑斜線所示。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Lo Wai Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10708"
+    }
+  ]
+}

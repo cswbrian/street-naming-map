@@ -1,0 +1,37 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1980-gn3244-bute-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3244",
+  "publication_date": "1980-10-10",
+  "gazette_url_en": "/egazette/en/1980-gn3244.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1980/Scanned_20260711-1424(1).pdf",
+  "streets": [
+    {
+      "chinese_name": "弼街",
+      "english_name": "Bute Street",
+      "history": [
+        {
+          "publication_date": "1980-10-10",
+          "change_kind": "extend",
+          "street_name_en": "Bute Street",
+          "street_name_zh": "弼街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 3244.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Thoroughfare as shown coloured red in Drawing No. KH3379, commencing at its junction with Sai Yee Street running in a easterly direction for about 60 metres and terminating with Kowloon-Canton Railway boundary. Proposed Name: BUTE STREET. Chinese Version: 弼街.",
+            "description_raw_zh": "此道路位置在 KH3379 號圖則上以紅色標明，起點與洗衣街連接，向東伸展約六十米，在九廣鐵路分界線終結。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Sai Yee Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10100"
+    }
+  ]
+}

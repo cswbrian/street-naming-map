@@ -1,0 +1,112 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1953-gn912-jaffe-lockhart",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.912",
+  "publication_date": "1953-07-24",
+  "gazette_url_en": "/egazette/en/1953-gn912.pdf",
+  "gazette_url_zh": "/egazette/zh/1953-gn912.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1953-gn912.pdf",
+  "streets": [
+    {
+      "link_street_code": "10892",
+      "chinese_name": "謝斐道",
+      "english_name": "Jaffe Road",
+      "history": [
+        {
+          "publication_date": "1953-07-24",
+          "change_kind": "extend",
+          "street_name_en": "Jaffe Road",
+          "street_name_zh": "謝斐道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 912.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road east of Percival Street commencing from Percival Street and running in an easterly direction continuing the line of Jaffe Road for a distance of 480' where it meets a road running south to Lockhart Road, as shown coloured pink on Plan No. R. H. 320 signed by the Director of Public Works and dated 11th June, 1952. Proposed Name: JAFFE ROAD. Chinese Version: 謝斐道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 320",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Percival Street",
+                "Jaffe Road",
+                "Lockhart Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11250",
+      "chinese_name": "駱克道",
+      "english_name": "Lockhart Road",
+      "history": [
+        {
+          "publication_date": "1953-07-24",
+          "change_kind": "extend",
+          "street_name_en": "Lockhart Road",
+          "street_name_zh": "駱克道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 912.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road east of Percival Street commencing from Percival Street and running in an easterly direction continuing the line of Lockhart Road for a distance of 750' where it meets a road running southwards to Great George Street, as shown coloured yellow on Plan No. R. H. 320 signed by the Director of Public Works and dated 11th June, 1952. Proposed Name: LOCKHART ROAD. Chinese Version: 駱克道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 320",
+                  "color": "yellow"
+                }
+              ],
+              "referenced_streets_en": [
+                "Percival Street",
+                "Lockhart Road",
+                "Great George Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "謝斐里",
+      "english_name": "Jaffe Lane",
+      "history": [
+        {
+          "publication_date": "1953-07-24",
+          "change_kind": "declare",
+          "street_name_en": "Jaffe Lane",
+          "street_name_zh": "謝斐里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "submitter_remarks": "No geojson centreline for Jaffe Lane / 謝斐里.",
+          "gazette_location": {
+            "description_raw_en": "No. 912.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road running north and south joining Jaffe Road and Lockhart Road 400' east of Percival Street, as shown coloured green on Plan No. R. H. 320 signed by the Director of Public Works and dated 11th June, 1952. Proposed Name: JAFFE LANE. Chinese Version: 謝斐里.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 320",
+                  "color": "green"
+                }
+              ],
+              "referenced_streets_en": [
+                "Jaffe Road",
+                "Lockhart Road",
+                "Percival Street"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

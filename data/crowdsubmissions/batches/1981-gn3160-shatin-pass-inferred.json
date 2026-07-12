@@ -1,0 +1,53 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1981-gn3160-shatin-pass-inferred",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3160",
+  "publication_date": "1981-10-23",
+  "gazette_url_en": "/egazette/en/1981-gn3160.pdf",
+  "gazette_url_zh": "/egazette/zh/1981-gn3160.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1981/Scanned_20260711-1449.pdf",
+  "streets": [
+    {
+      "chinese_name": "沙田坳道",
+      "english_name": "Shatin Pass Road",
+      "history": [
+        {
+          "publication_date": "1957-05-24",
+          "change_kind": "declare",
+          "street_name_en": "Shatin Pass Road",
+          "street_name_zh": "沙田坳道",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with CHOI HUNG ROAD near Wong Tai Sin Police Station and running in a northerly direction for about 960 metres, then it turns to run north-westerly for about 400 metres where it bends to run generally in a north-easterly direction for about 130 metres, then turns northerly for about 245 metres, where it turns to run east south-easterly for about 210 metres, then turning to run northerly for about 265 metres where it bends to run generally in a north-easterly direction for about 255 metres, then it turns in a south-easterly direction for about 60 metres where it turns a sharp bend and runs in a north-westerly direction for about 100 metres, then it turns another sharp bend and runs south-easterly for about 195 metres, then it turns to run in an easterly direction for about 755 metres then turns to run north-easterly for about 275 metres, it then finally turns to run generally in an easterly direction for about 540 metres where it terminates at the junction with FEI NGO SHAN ROAD and JAT'S INCLINE (an ungazetted carriageway) as shown coloured red on Drawing No. NTA/SK/R13A.",
+            "description_raw_zh": "由與黃大仙警署附近之彩虹道之連接點開始，向北伸展約九六〇米，再改向西北伸展約四〇〇米，然後轉以大致東北方向伸展約一三〇米，再改向北伸展約二四五米，然後轉向東南偏東伸展約二一〇米，再屈向北伸展約二六五米，然後轉以大致東北方向伸展約二五五米，再轉向東南伸展約六〇米，然後向西北急轉伸展約一〇〇米，再向東南急轉伸展約一九五米，然後再向東伸展約七五五米，再改向東北伸展約二七五米，最後轉以大致向東伸展約五四〇米，至飛鵝山道與扎山道（未在憲報公佈之車路）之連接處終結。即 NTA/SK/R13A 號圖內紅色所示之部份。",
+            "parsed": {
+              "referenced_streets_en": [
+                "Choi Hung Road",
+                "Fei Ngo Shan Road"
+              ]
+            }
+          },
+          "submitter_remarks": "Gazette ZH 沙田坳道; geojson 沙田㘭道.",
+          "gazette_notice_label": "G.N.730",
+          "derived_from": [
+            {
+              "kind": "gazette_citation",
+              "notice_label": "G.N.3160",
+              "publication_date": "1981-10-23",
+              "government_notice_url_en": "/egazette/en/1981-gn3160.pdf",
+              "government_notice_url_zh": "/egazette/zh/1981-gn3160.pdf",
+              "cited_notice_label": "G.N.730",
+              "cited_publication_date": "1957-05-24"
+            }
+          ]
+        }
+      ],
+      "link_street_code": "11989"
+    }
+  ],
+  "remarks": "G.N.3160 (1981-10-23) replaces street description only. Canonical naming date is Previous G.N.730 dated 1957-05-24."
+}

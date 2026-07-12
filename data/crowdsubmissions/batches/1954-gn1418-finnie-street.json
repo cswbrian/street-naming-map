@@ -1,0 +1,44 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1954-gn1418-finnie-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1418",
+  "publication_date": "1954-11-19",
+  "gazette_url_en": "/egazette/en/1954-gn1418.pdf",
+  "gazette_url_zh": "/egazette/zh/1954-gn1418.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1954-gn1418.pdf",
+  "streets": [
+    {
+      "chinese_name": "芬尼街",
+      "english_name": "Finnie Street",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Finnie Street",
+          "street_name_zh": "芬尼街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-11-19",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1418.—It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Description: Road within Q.B.M.L. 4 commencing from its junction with King's Road at the southern-most point of Q.B.M.L. 4 and running North-east for 180 feet and Northwards for 160 feet ending in a cul-de-sac, as shown coloured red on plan No. R.H. 650. Proposed Name: FINNIE STREET. Chinese Version: 芬尼街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 650",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "King's Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10489"
+    }
+  ]
+}

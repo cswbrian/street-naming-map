@@ -1,0 +1,38 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1951-gn636-dunbar-road",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.636",
+  "publication_date": "1951-06-15",
+  "gazette_url_en": "/egazette/en/1951-gn636.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1951-gn636.pdf",
+  "streets": [
+    {
+      "link_street_code": "10391",
+      "chinese_name": "登巴道",
+      "english_name": "Dunbar Road",
+      "history": [
+        {
+          "publication_date": "1951-06-15",
+          "change_kind": "declare",
+          "street_name_en": "Dunbar Road",
+          "street_name_zh": "登巴道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "No. 636.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following road will be known in future as described hereunder:— Description: Road commencing at its junction with Nairn Road running in a north-easterly direction, immediately south-east of and parallel to Argyle Street and terminating at its junction with Gullane Road as shown coloured pink on drawing No. R.K. 196A signed by Hon. D.P.W. and dated 12th June, 1951. Proposed Name: DUNBAR ROAD. Chinese Version: 登巴道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Nairn Road",
+                "Argyle Street",
+                "Gullane Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

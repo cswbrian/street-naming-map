@@ -1,0 +1,45 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1954-gn1323-yuet-yuen-street",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1323",
+  "publication_date": "1954-10-29",
+  "gazette_url_en": "/egazette/en/1954-gn1323.pdf",
+  "gazette_url_zh": "/egazette/zh/1954-gn1323.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1954-gn1323.pdf",
+  "streets": [
+    {
+      "chinese_name": "月園街",
+      "english_name": "Yuet Yuen Street",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Yuet Yuen Street",
+          "street_name_zh": "月園街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "publication_date": "1954-10-29",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1323.—It is hereby notified that the following road will be known in future as described hereunder:— Description: Cul-de-sac running southwards for 200 feet from its junction with Java Road, parallel to and 150 feet west of North Point Road as shown coloured pink on plan No. R.H. 581/1. Proposed Name: YUET YUEN STREET. Chinese Version: 月園街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 581/1",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Java Road",
+                "North Point Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12934"
+    }
+  ]
+}

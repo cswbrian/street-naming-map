@@ -1,0 +1,77 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1955-gn52-yin-chong-kwong-yung",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.52",
+  "publication_date": "1955-01-14",
+  "gazette_url_en": "/egazette/en/1955-gn52.pdf",
+  "gazette_url_zh": "/egazette/zh/1955-gn52.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1955-gn52.pdf",
+  "streets": [
+    {
+      "chinese_name": "煙廠街",
+      "english_name": "Yin Chong Street",
+      "history": [
+        {
+          "publication_date": "1955-01-14",
+          "change_kind": "extend",
+          "street_name_en": "Yin Chong Street",
+          "street_name_zh": "煙廠街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 52.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Extension of Yin Chong Street in an easterly direction for a distance of approximately 75 yards terminating at its junction with Kwong Wa Street as shown coloured burnt sienna on Plan No. R.K. 533. English Name: YIN CHONG STREET. Chinese Name: 煙廠街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 533",
+                  "color": "burnt sienna"
+                }
+              ],
+              "referenced_streets_en": [
+                "Yin Chong Street",
+                "Kwong Wa Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12866"
+    },
+    {
+      "chinese_name": "廣榮街",
+      "english_name": "Kwong Yung Street",
+      "history": [
+        {
+          "publication_date": "1955-01-14",
+          "change_kind": "declare",
+          "street_name_en": "Kwong Yung Street",
+          "street_name_zh": "廣榮街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 52.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Road about 40 yards to the west of Kwong Wa Street and parallel to it, commencing at its junction with Yin Chong Street and running in a south-westerly direction for a distance of approximately 35 yards and terminating at the eastern boundary of K.I.L. 1157 R.P. as shown coloured red on Plan No. R.K. 533. English Name: KWONG YUNG STREET. Chinese Name: 廣榮街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 533",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Kwong Wa Street",
+                "Yin Chong Street"
+              ]
+            }
+          },
+          "submitter_remarks": "No geojson centreline for Kwong Yung Street / 廣榮街."
+        }
+      ]
+    }
+  ]
+}

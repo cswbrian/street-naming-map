@@ -1,0 +1,115 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn1827-yuen-long",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1827",
+  "publication_date": "1984-06-22",
+  "gazette_url_en": "/egazette/en/1984-gn1827.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn1827.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1619.pdf",
+  "streets": [
+    {
+      "chinese_name": "宏達路",
+      "english_name": "Wang Tat Road",
+      "link_street_code": "12672",
+      "history": [
+        {
+          "publication_date": "1984-06-22",
+          "change_kind": "declare",
+          "street_name_en": "Wang Tat Road",
+          "street_name_zh": "宏達路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing in a Y-shape at its junctions with an unnamed street and LONG YIP STREET and running in a west south-westerly direction for about 157 metres; it then bends to run in a westerly direction for about 190 metres and then curves to run in a south-westerly direction for about 572 metres before it turns to run in a southerly direction for about 141 metres where it terminates in a Y-shape at its junctions with CASTLE PEAK ROAD PING SHAN as shown coloured pink and hatched black on Plan No. LD/YL/R10A.",
+            "description_raw_zh": "此路以「Y」字形狀由與一未命名街道及朗業街交界處起，向西南偏西伸展約一百五十七米，然後轉向西伸展約一百九十米，再轉向西南伸展約五百七十二米，然後順轉向南伸展約一百四十一米至與青山公路屏山段交界處以「Y」字形狀終止。在LD/YL/R10A號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R10A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Long Yip Street",
+                "Castle Peak Road Ping Shan"
+              ],
+              "unnamed_junction_refs_en": [
+                "unnamed street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "元朗安樂路",
+      "english_name": "Yuen Long On Lok Road",
+      "link_street_code": "12917",
+      "history": [
+        {
+          "publication_date": "1984-06-22",
+          "change_kind": "extend",
+          "street_name_en": "Yuen Long On Lok Road",
+          "street_name_zh": "元朗安樂路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension to the existing YUEN LONG ON LOK ROAD (which was gazetted vide G.N. 2944/77) running generally in a west north-westerly direction for about 227 metres where it terminates at its junction with an unnamed street as shown coloured pink and cross-hatched black on Plan No. LD/YL/R10A.",
+            "description_raw_zh": "此路為憲示第二九四四／七七號所公告之元朗安樂路之延展部份，向西北偏西伸展約二百二十七米至與一未命名街道交界處終止。在LD/YL/R10A號圖則上以粉紅色間以交錯黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R10A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [
+                "unnamed street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "朗業街",
+      "english_name": "Long Yip Street",
+      "link_street_code": "11278",
+      "history": [
+        {
+          "publication_date": "1984-06-22",
+          "change_kind": "extend",
+          "street_name_en": "Long Yip Street",
+          "street_name_zh": "朗業街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Extensions at both ends of the existing LONG YIP STREET (which was gazetted vide G.N. 325/83). One end commencing at its junction with CASTLE PEAK ROAD YUEN LONG and running in a north-westerly direction for about 530 metres where it joins the eastern end of the existing LONG YIP STREET. The other end commencing at the western end of the existing LONG YIP STREET and running in a westerly direction for about 99 metres and then turns to run in a west north-westerly direction for about 125 metres where it terminates at its junction with WANG TAT ROAD as shown coloured pink and hatched black on Plan No. LD/YL/R10A.",
+            "description_raw_zh": "此街為憲示第三二五／八三號所公告之現有朗業街兩端之延展部份。其中一端由與青山公路元朗段交界處起，向西北伸展約五百三十米至與現有之朗業街東端連接為止。另一端則由與現有之朗業街西端連接處起，向西伸展約九十九米，然後轉向西北偏西伸展約一百二十五米至與宏達路交界處終止。在LD/YL/R10A號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "LD/YL/R10A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Castle Peak Road Yuen Long",
+                "Wang Tat Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

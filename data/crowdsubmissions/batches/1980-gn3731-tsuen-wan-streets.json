@@ -1,0 +1,216 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1980-gn3731-tsuen-wan-streets",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.3731",
+  "publication_date": "1980-11-28",
+  "gazette_url_en": "/egazette/en/1980-gn3731.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1980/Scanned_20260711-1422.pdf",
+  "streets": [
+    {
+      "chinese_name": "金山路",
+      "english_name": "Golden Hill Road",
+      "history": [
+        {
+          "publication_date": "1980-11-28",
+          "change_kind": "declare",
+          "street_name_en": "Golden Hill Road",
+          "street_name_zh": "金山路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 3731.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Road commencing at its junction with TAI PO ROAD PIPER'S HILL and TAI PO ROAD SHA TIN HEIGHTS and running generally north north-westerly in a zigzag manner for about 1885 metres and then it bends north north-easterly for about 325 metres and then it turns north-westerly for about 790 metres where it terminates at its closed end which is a turning circle as shown coloured red and hatched black on Drawing No. NTA/TW/R86A. Proposed Name: GOLDEN HILL ROAD. Chinese Version: 金山路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Tai Po Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10612"
+    },
+    {
+      "chinese_name": "荃榮街",
+      "english_name": "Tsuen Wing Street",
+      "history": [
+        {
+          "publication_date": "1980-11-28",
+          "change_kind": "declare",
+          "street_name_en": "Tsuen Wing Street",
+          "street_name_zh": "荃榮街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 3731.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Street commencing at its junction with TEXACO ROAD and running in a north-westerly direction for about 215 metres where it terminates at its junction with KWAN MUN HAU STREET as shown coloured red and hatched black on Drawing No. NTA/TW/R85A. Proposed Name: TSUEN WING STREET. Chinese Version: 荃榮街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Texaco Road",
+                "Kwan Mun Hau Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12470"
+    },
+    {
+      "chinese_name": "荃華街",
+      "english_name": "Tsuen Wah Street",
+      "history": [
+        {
+          "publication_date": "1980-11-28",
+          "change_kind": "declare",
+          "street_name_en": "Tsuen Wah Street",
+          "street_name_zh": "荃華街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 3731.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Street commencing at its junction with TSUEN WING STREET and running north north-easterly for about 106 metres where it bends north north-westerly for about 76 metres and terminates at its junction with CASTLE PEAK ROAD TSUEN WAN as shown coloured red and hatched black on Drawing No. NTA/TW/R85A. Proposed Name: TSUEN WAH STREET. Chinese Version: 荃華街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Tsuen Wing Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12467"
+    },
+    {
+      "chinese_name": "荃富街",
+      "english_name": "Tsuen Fu Street",
+      "history": [
+        {
+          "publication_date": "1980-11-28",
+          "change_kind": "declare",
+          "street_name_en": "Tsuen Fu Street",
+          "street_name_zh": "荃富街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 3731.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Street commencing at its junction with TEXACO ROAD and running in a north-westerly direction for about 105 metres where it terminates at its junction with TSUEN WAH STREET as shown coloured red and hatched black on Drawing No. NTA/TW/R85A. Proposed Name: TSUEN FU STREET. Chinese Version: 荃富街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Texaco Road",
+                "Tsuen Wah Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12460"
+    },
+    {
+      "chinese_name": "荃貴街",
+      "english_name": "Tsuen Kwai Street",
+      "history": [
+        {
+          "publication_date": "1980-11-28",
+          "change_kind": "declare",
+          "street_name_en": "Tsuen Kwai Street",
+          "street_name_zh": "荃貴街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 3731.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Street commencing at its junction with TSUEN FU STREET and running north-easterly for about 83 metres where it curves westerly for about 68 metres and terminates at its junction with TSUEN WAH STREET as shown coloured red and hatched black on Drawing No. NTA/TW/R85A. Proposed Name: TSUEN KWAI STREET. Chinese Version: 荃貴街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Tsuen Fu Street",
+                "Tsuen Wah Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12464"
+    },
+    {
+      "chinese_name": "荃景圍",
+      "english_name": "Tsuen King Circuit",
+      "history": [
+        {
+          "publication_date": "1980-11-28",
+          "change_kind": "declare",
+          "street_name_en": "Tsuen King Circuit",
+          "street_name_zh": "荃景圍",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 3731.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Circuit commencing at its junction with CASTLE PEAK ROAD TSUEN WAN and running north north-westerly for about 275 metres and then it bends west for about 420 metres and then it turns north for about 210 metres where it curves south-westerly for about 560 metres and terminates at its junction with ON YUK ROAD as shown coloured red and hatched black on Drawing No. NTA/TW/R85A. Proposed Name: TSUEN KING CIRCUIT. Chinese Version: 荃景圍.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Castle Peak Road",
+                "On Yuk Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12463"
+    },
+    {
+      "chinese_name": "安賢街",
+      "english_name": "On Yin Street",
+      "history": [
+        {
+          "publication_date": "1980-11-28",
+          "change_kind": "declare",
+          "street_name_en": "On Yin Street",
+          "street_name_zh": "安賢街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 3731.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Street commencing at its junction with TSUEN KING CIRCUIT and running generally in a south-westerly direction for about 270 metres where it terminates as shown coloured red and hatched black on Drawing No. NTA/TW/R85A. Proposed Name: ON YIN STREET. Chinese Version: 安賢街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Tsuen King Circuit"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11615"
+    },
+    {
+      "chinese_name": "安逸街",
+      "english_name": "On Yat Street",
+      "history": [
+        {
+          "publication_date": "1980-11-28",
+          "change_kind": "declare",
+          "street_name_en": "On Yat Street",
+          "street_name_zh": "安逸街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 3731.— It is hereby notified that the following street(s)/road(s) will be known in future as described hereunder:— Description: Street commencing at its junction with TSUEN KING CIRCUIT and running south south-westerly for about 285 metres where it terminates at its closed end which is a turning circle as shown coloured red and hatched black on Drawing No. NTA/TW/R85A. Proposed Name: ON YAT STREET. Chinese Version: 安逸街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Tsuen King Circuit"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11614"
+    }
+  ]
+}

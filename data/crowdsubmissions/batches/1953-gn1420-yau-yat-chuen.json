@@ -1,0 +1,332 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1953-gn1420-yau-yat-chuen",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1420",
+  "publication_date": "1953-11-20",
+  "gazette_url_en": "/egazette/en/1953-gn1420.pdf",
+  "gazette_url_zh": "/egazette/zh/1953-gn1420.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1953-gn1420.pdf",
+  "streets": [
+    {
+      "link_street_code": "12339",
+      "chinese_name": "達之路",
+      "english_name": "Tat Chee Avenue",
+      "history": [
+        {
+          "publication_date": "1953-11-20",
+          "change_kind": "declare",
+          "street_name_en": "Tat Chee Avenue",
+          "street_name_zh": "達之路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1420.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads within N.K.I.L. 3594, Yat Yat Chuen Development Company's Estate, north of Boundary Street, will be known in future as described hereunder:— (a) Description: Road commencing from the west boundary of the lot, running in an easterly direction bordering the southern boundary of the lot thence continuing in a north-easterly direction bordering the eastern boundary of the lot and terminating at its junction with Begonia Road as shown coloured pink on plan No. R.K. 398A signed by the Director of Public Works and dated 18th November, 1953. Proposed Name: TAT CHEE AVENUE. Chinese Version: 達之路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 398A",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Begonia Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11360",
+      "chinese_name": "玉蘭路",
+      "english_name": "Magnolia Road",
+      "history": [
+        {
+          "publication_date": "1953-11-20",
+          "change_kind": "declare",
+          "street_name_en": "Magnolia Road",
+          "street_name_zh": "玉蘭路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1420.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads within N.K.I.L. 3594, Yat Yat Chuen Development Company's Estate, north of Boundary Street, will be known in future as described hereunder:— (b) Description: Road commencing at its junction with Marigold Road, running in a northerly direction and terminating at the junction with Dianthus Road as shown coloured blue on plan No. R.K. 398A signed by the Director of Public Works and dated 18th November, 1953. Proposed Name: MAGNOLIA ROAD. Chinese Version: 玉蘭路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 398A",
+                  "color": "blue"
+                }
+              ],
+              "referenced_streets_en": [
+                "Marigold Road",
+                "Dianthus Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "10126",
+      "chinese_name": "窩梳路",
+      "english_name": "Cassia Road",
+      "history": [
+        {
+          "publication_date": "1953-11-20",
+          "change_kind": "declare",
+          "street_name_en": "Cassia Road",
+          "street_name_zh": "窩梳路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "submitter_remarks": "Gazette ZH 窩梳路; geojson 高槐路.",
+          "gazette_location": {
+            "description_raw_en": "No. 1420.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads within N.K.I.L. 3594, Yat Yat Chuen Development Company's Estate, north of Boundary Street, will be known in future as described hereunder:— (c) Description: Road commencing at its junction with Magnolia Road, running in a northerly direction and terminating at its junction with Begonia Road as shown coloured vermilion on plan No. R.K. 398A signed by the Director of Public Works and dated 18th November, 1953. Proposed Name: CASSIA ROAD. Chinese Version: 窩梳路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 398A",
+                  "color": "vermilion"
+                }
+              ],
+              "referenced_streets_en": [
+                "Magnolia Road",
+                "Begonia Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11398",
+      "chinese_name": "壽菊路",
+      "english_name": "Marigold Road",
+      "history": [
+        {
+          "publication_date": "1953-11-20",
+          "change_kind": "declare",
+          "street_name_en": "Marigold Road",
+          "street_name_zh": "壽菊路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1420.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads within N.K.I.L. 3594, Yat Yat Chuen Development Company's Estate, north of Boundary Street, will be known in future as described hereunder:— (d) Description: Road commencing at its junction with Magnolia Road, running in a north-easterly direction and terminating at its junction with Osmanthus Road as shown coloured burnt sienna on plan No. R.K. 398A signed by the Director of Public Works and dated 18th November, 1953. Proposed Name: MARIGOLD ROAD. Chinese Version: 壽菊路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 398A",
+                  "color": "burnt sienna"
+                }
+              ],
+              "referenced_streets_en": [
+                "Magnolia Road",
+                "Osmanthus Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "12755",
+      "chinese_name": "紫藤路",
+      "english_name": "Wistaria Road",
+      "history": [
+        {
+          "publication_date": "1953-11-20",
+          "change_kind": "declare",
+          "street_name_en": "Wistaria Road",
+          "street_name_zh": "紫藤路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1420.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads within N.K.I.L. 3594, Yat Yat Chuen Development Company's Estate, north of Boundary Street, will be known in future as described hereunder:— (e) Description: Road commencing at its junction with Peony Road, running in a northerly direction and terminating at its junction with Begonia Road as shown coloured grey on plan No. R.K. 398A signed by the Director of Public Works and dated 18th November, 1953. Proposed Name: WISTARIA ROAD. Chinese Version: 紫藤路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 398A",
+                  "color": "grey"
+                }
+              ],
+              "referenced_streets_en": [
+                "Peony Road",
+                "Begonia Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "12568",
+      "chinese_name": "地錦路",
+      "english_name": "Verbena Road",
+      "history": [
+        {
+          "publication_date": "1953-11-20",
+          "change_kind": "declare",
+          "street_name_en": "Verbena Road",
+          "street_name_zh": "地錦路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1420.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads within N.K.I.L. 3594, Yat Yat Chuen Development Company's Estate, north of Boundary Street, will be known in future as described hereunder:— (f) Description: Road commencing at its junction with Peony Road, running in a northerly direction and terminating at its junction with Begonia Road as shown coloured red on plan No. R.K. 398A signed by the Director of Public Works and dated 18th November, 1953. Proposed Name: VERBENA ROAD. Chinese Version: 地錦路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 398A",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Peony Road",
+                "Begonia Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "10055",
+      "chinese_name": "海棠路",
+      "english_name": "Begonia Road",
+      "history": [
+        {
+          "publication_date": "1953-11-20",
+          "change_kind": "declare",
+          "street_name_en": "Begonia Road",
+          "street_name_zh": "海棠路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1420.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads within N.K.I.L. 3594, Yat Yat Chuen Development Company's Estate, north of Boundary Street, will be known in future as described hereunder:— (g) Description: Road commencing at its junction with Tat Chee Avenue, running in a westerly direction to its junction with Cassia Road, thence forming a semi-circle to the west and south and terminating at its junction with Cassia Road as shown coloured yellow on plan No. R.K. 398A signed by the Director of Public Works and dated 18th November, 1953. Proposed Name: BEGONIA ROAD. Chinese Version: 海棠路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 398A",
+                  "color": "yellow"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tat Chee Avenue",
+                "Cassia Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11682",
+      "chinese_name": "牡丹路",
+      "english_name": "Peony Road",
+      "history": [
+        {
+          "publication_date": "1953-11-20",
+          "change_kind": "declare",
+          "street_name_en": "Peony Road",
+          "street_name_zh": "牡丹路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1420.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads within N.K.I.L. 3594, Yat Yat Chuen Development Company's Estate, north of Boundary Street, will be known in future as described hereunder:— (h) Description: Road commencing at its junction with Tat Chee Avenue, running in a westerly direction and terminating at its junction with Cassia Road as shown coloured sepia on plan No. R.K. 398A signed by the Director of Public Works and dated 18th November, 1953. Proposed Name: PEONY ROAD. Chinese Version: 牡丹路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 398A",
+                  "color": "sepia"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tat Chee Avenue",
+                "Cassia Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "10377",
+      "chinese_name": "石竹路",
+      "english_name": "Dianthus Road",
+      "history": [
+        {
+          "publication_date": "1953-11-20",
+          "change_kind": "declare",
+          "street_name_en": "Dianthus Road",
+          "street_name_zh": "石竹路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1420.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads within N.K.I.L. 3594, Yat Yat Chuen Development Company's Estate, north of Boundary Street, will be known in future as described hereunder:— (i) Description: Road commencing at its junction with Tat Chee Avenue, running in a westerly direction and terminating at the western boundary of the lot as shown coloured brown on plan No. R.K. 398A signed by the Director of Public Works and dated 18th November, 1953. Proposed Name: DIANTHUS ROAD. Chinese Version: 石竹路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 398A",
+                  "color": "brown"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tat Chee Avenue"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "11621",
+      "chinese_name": "丹桂路",
+      "english_name": "Osmanthus Road",
+      "history": [
+        {
+          "publication_date": "1953-11-20",
+          "change_kind": "declare",
+          "street_name_en": "Osmanthus Road",
+          "street_name_zh": "丹桂路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "No. 1420.—PUBLIC WORKS DEPARTMENT. It is hereby notified that the following roads within N.K.I.L. 3594, Yat Yat Chuen Development Company's Estate, north of Boundary Street, will be known in future as described hereunder:— (j) Description: Road commencing at its junction with Tat Chee Avenue, running in a westerly direction and terminating at its junction with Magnolia Road as shown coloured green on plan No. R.K. 398A signed by the Director of Public Works and dated 18th November, 1953. Proposed Name: OSMANTHUS ROAD. Chinese Version: 丹桂路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 398A",
+                  "color": "green"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tat Chee Avenue",
+                "Magnolia Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

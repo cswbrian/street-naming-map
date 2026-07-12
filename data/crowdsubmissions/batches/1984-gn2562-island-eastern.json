@@ -1,0 +1,83 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn2562-island-eastern",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.2562",
+  "publication_date": "1984-08-24",
+  "gazette_url_en": "/egazette/en/1984-gn2562.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn2562.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1621.pdf",
+  "streets": [
+    {
+      "chinese_name": "東區走廊",
+      "english_name": "Island Eastern Corridor",
+      "link_street_code": "10886",
+      "history": [
+        {
+          "publication_date": "1984-08-24",
+          "change_kind": "declare",
+          "street_name_en": "Island Eastern Corridor",
+          "street_name_zh": "東區走廊",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "A road as shown coloured pink on Drawing No. CM 251 commencing at Victoria Park Road north-east of Victoria Park running eastwards for about 250 metres then northwards for about 300 metres joined by slip roads to and from Hing Fat Street; it then turns to run north-eastwards for 750 metres then eastwards for 200 metres joined by slip roads to and from Tong Shui Road; after a further 700 metres it is joined by a slip road onto Java Road and from King's Road; it continues easterly for 450 metres joined by slip roads branching northwards from Java Road; then easterly for 1 100 metres joined by slip roads to and from Taikoo Shing; then easterly for about 350 metres gradually turning southwards for 200 metres joined by slip roads to and from the Kornhill Development; continuing southwards for about 150 metres then south-eastwards for about 900 metres over Sai Wan Ho Reclamation joined by slip roads to and from Shau Kei Wan Interchange; then eastwards for about 250 metres turning north-eastwards then eastwards around A Kung Ngam for about 600 metres to the Lyemun Barrack boundary; then south-eastwards for about 1 100 metres then southwards for 350 metres joined by slip roads to and from Wing Tai Interchange; continuing southwards for 750 metres to join Chai Wan Road.",
+            "description_raw_zh": "此街道位於CM 251號圖則上粉紅色所示位置，由維多利亞公園東北之一處維園道起，向東伸展約二百五十米，再向北伸展約三百米，與通往及來自興發街之支路連接。其後轉向東北伸展七百五十米，再轉向東，伸展二百米，與通往及來自糖水道之支路連接，再繼續伸展七百米，與通往渣華道及來自英皇道之支路連接，再大致向東繼續伸展四百五十米，與從渣華道北面伸出之支路連接。其後再向東伸展一千一百米，與通往及來自太古城之支路連接。其後繼續向東伸展約三百五十米，逐漸轉南伸展二百米，與通往及來自康山發展區之支路連接，繼續向南伸展約一百五十米，然後轉向東南伸展約九百米，跨越西灣河新填地，然後與通往及來自筲箕灣交匯處之支路連接。其後繼續向東伸展約二百五十米，轉向東北，再轉東彎過阿公岩區伸展約六百米，抵達鯉魚門軍營邊界。其後向東南伸展約一千一百米，再轉向南伸展三百五十米，與通往及來自永泰交匯處之支路連接。其後繼續向南伸展七百五十米，與柴灣道連接。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "CM 251",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Victoria Park Road",
+                "Hing Fat Street",
+                "Tong Shui Road",
+                "Java Road",
+                "King's Road",
+                "Chai Wan Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "永泰道",
+      "english_name": "Wing Tai Road",
+      "link_street_code": "12744",
+      "history": [
+        {
+          "publication_date": "1984-08-24",
+          "change_kind": "extend",
+          "street_name_en": "Wing Tai Road",
+          "street_name_zh": "永泰道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension of the existing Wing Tai Road as shown coloured yellow on Drawing No. CM 251 commencing from the existing Wing Tai Road running north-westwards for 350 metres then turning northwards for 100 metres to join the Island Eastern Corridor.",
+            "description_raw_zh": "現時之永泰道須延長。其位置於CM 251號圖則上以黃色標明，伸延部份由現時之永泰道起，向西北伸展三百五十米，再轉向北伸展一百米，與東區走廊連接。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "CM 251",
+                  "color": "yellow"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wing Tai Road",
+                "Island Eastern Corridor"
+              ]
+            }
+          },
+          "submitter_remarks": "Printed gazette ZH 永泰路; corrected by G.N.3533 to 永泰道."
+        }
+      ]
+    }
+  ],
+  "remarks": "G.N.3533 corrigendum (永泰路→永泰道) folded into this batch; no separate 3533 batch."
+}

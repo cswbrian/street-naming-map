@@ -1,0 +1,370 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1984-gn1737-sha-tin",
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1737",
+  "publication_date": "1984-06-15",
+  "gazette_url_en": "/egazette/en/1984-gn1737.pdf",
+  "gazette_url_zh": "/egazette/zh/1984-gn1737.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/drive-download-20260712T141544Z-2-001/1984/Scanned_20260711-1618.pdf",
+  "streets": [
+    {
+      "chinese_name": "沙田鄉事會路",
+      "english_name": "Sha Tin Rural Committee Road",
+      "link_street_code": "11965",
+      "history": [
+        {
+          "publication_date": "1984-06-15",
+          "change_kind": "extend",
+          "street_name_en": "Sha Tin Rural Committee Road",
+          "street_name_zh": "沙田鄉事會路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "An extension to the existing SHA TIN RURAL COMMITTEE ROAD running in a south-westerly direction for about 74 metres where it terminates at its junction with SHA TIN STATION CIRCUIT and PAI TAU STREET as shown coloured green and hatched black on Plan No. STRM 1005A.",
+            "description_raw_zh": "此路乃現有沙田鄉事會路之延續，向西南伸展約七十四米，至與沙田車站圍及排頭街之交界處止。在STRM 1005A號圖則上以綠色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1005A",
+                  "color": "green",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sha Tin Station Circuit",
+                "Pai Tau Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "排頭街",
+      "english_name": "Pai Tau Street",
+      "link_street_code": "11624",
+      "history": [
+        {
+          "publication_date": "1984-06-15",
+          "change_kind": "declare",
+          "street_name_en": "Pai Tau Street",
+          "street_name_zh": "排頭街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with SHA TIN RURAL COMMITTEE ROAD and running in a south-easterly direction for about 50 metres; it then bends to run south-westerly for about 110 metres and then curves to run west north-westerly for about 18 metres before it turns to run north north-westerly for about 62 metres; it then turns to run north north-easterly for about 40 metres and then bends to run west north-westerly for about 140 metres where it terminates at its closed end as shown coloured blue and hatched black on Plan No. STRM 1005A.",
+            "description_raw_zh": "此街由與沙田鄉事會路之交界處起，向東南伸展約五十米，然後向西南伸展約一百一十米，再向西北偏西伸展約十八米後，轉向西北偏北伸展約六十二米，然後向東北偏北伸展約四十米，再向西北偏西伸展約一百四十米至其盡頭處止。在STRM 1005A號圖則上以藍色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1005A",
+                  "color": "blue",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sha Tin Rural Committee Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "沙田車站圍",
+      "english_name": "Sha Tin Station Circuit",
+      "link_street_code": "11966",
+      "history": [
+        {
+          "publication_date": "1984-06-15",
+          "change_kind": "declare",
+          "street_name_en": "Sha Tin Station Circuit",
+          "street_name_zh": "沙田車站圍",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Circuit commencing at its junction with SHA TIN RURAL COMMITTEE ROAD and running in a south-westerly direction for about 32 metres; it then curves to run south south-easterly for about 86 metres and then bends to run south-easterly for about 50 metres before it turns to run south south-westerly for about 90 metres; it then turns to run west north-westerly for about 60 metres and then turns to run north north-easterly for about 90 metres where it rejoins itself and terminates as shown coloured pink and hatched black on Plan No. STRM 1005A.",
+            "description_raw_zh": "此圍由與沙田鄉事會路之交界處起，向西南伸展約三十二米，然後向東南偏南伸展約八十六米，再向東南伸展約五十米後，轉向西南偏南伸展約九十米，然後向西北偏西伸展約六十米，再向東北偏北伸展約九十米接回本圍而終止。在STRM 1005A號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1005A",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Sha Tin Rural Committee Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "樂信徑",
+      "english_name": "Lok Shun Path",
+      "link_street_code": "11265",
+      "history": [
+        {
+          "publication_date": "1984-06-15",
+          "change_kind": "declare",
+          "street_name_en": "Lok Shun Path",
+          "street_name_zh": "樂信徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Path commencing at its junction with LOK LAM ROAD and running in a south-easterly direction for about 42 metres; it then bends to run south south-westerly for about 83 metres and then curves to run east south-easterly for about 26 metres before it turns to run north north-easterly for about 250 metres; it then curves to run north-westerly for about 20 metres and then turns to run south south-westerly for about 155 metres where it terminates at its closed end as shown coloured pink and hatched black on Plan No. STRM 1009.",
+            "description_raw_zh": "此徑由與樂林路之交界處起，向東南伸展約四十二米，然後向西南偏南伸展約八十三米，再向東南偏東伸展約二十六米後，轉向東北偏北伸展約二百五十米，然後向西北伸展約二十米，再向西南偏南伸展約一百五十五米，至其盡頭處止。在STRM 1009號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1009",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Lok Lam Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "美田路",
+      "english_name": "Mei Tin Road",
+      "link_street_code": "11415",
+      "history": [
+        {
+          "publication_date": "1984-06-15",
+          "change_kind": "declare",
+          "street_name_en": "Mei Tin Road",
+          "street_name_zh": "美田路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with CHE KUNG MIU ROAD and running in a north north-westerly direction for about 1 000 metres; it then bends to run northerly for about 110 metres and then curves to run east north-easterly for about 150 metres before it turns to run south-easterly for about 255 metres where it terminates at a turning circle as shown coloured pink and hatched black on Plan No. STRM 1010.",
+            "description_raw_zh": "此路由與車公廟路之交界處起，向西北偏北伸展約一千米，然後向北伸展約一百一十米，再向東北偏東伸展約一百五十米後，轉向東南伸展約二百五十五米至其迴旋處止。在STRM 1010號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1010",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Che Kung Miu Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "積輝街",
+      "english_name": "Chik Fai Street",
+      "link_street_code": "10237",
+      "history": [
+        {
+          "publication_date": "1984-06-15",
+          "change_kind": "declare",
+          "street_name_en": "Chik Fai Street",
+          "street_name_zh": "積輝街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with MEI TIN ROAD and running in an east north-easterly direction for about 140 metres where it terminates at its junction with TAI WAI ROAD as shown coloured pink and hatched black on Plan No. STRM 1010.",
+            "description_raw_zh": "此街由與美田路之交界處起，向東北偏東伸展約一百四十米，至與大圍道之交界處止。在STRM 1010號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1010",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Mei Tin Road",
+                "Tai Wai Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "積運街",
+      "english_name": "Chik Wan Street",
+      "link_street_code": "10245",
+      "history": [
+        {
+          "publication_date": "1984-06-15",
+          "change_kind": "declare",
+          "street_name_en": "Chik Wan Street",
+          "street_name_zh": "積運街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with MEI TIN ROAD and running in a south-westerly direction for about 250 metres; it then bends to run north-westerly for about 110 metres and then curves to run west north-westerly for about 70 metres before it bends to run north north-easterly for about 100 metres where it terminates at its junction with TAI PO ROAD TAI WAI as shown coloured pink and hatched black on Plan No. STRM 1010.",
+            "description_raw_zh": "此街由與美田路之交界處起，向西南伸展約二百五十米，然後向西北伸展約一百一十米，再向西北偏西伸展約七十米後，轉向東北偏北伸展約一百米，至與大埔公路大圍段之交界處止。在STRM 1010號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1010",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Mei Tin Road",
+                "Tai Po Road Tai Wai"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "富健街",
+      "english_name": "Fu Kin Street",
+      "link_street_code": "10521",
+      "history": [
+        {
+          "publication_date": "1984-06-15",
+          "change_kind": "declare",
+          "street_name_en": "Fu Kin Street",
+          "street_name_zh": "富健街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with TIN SAM STREET and running in a south south-easterly direction for about 340 metres; it then bends to run south-easterly for about 150 metres and then curves to run south south-easterly for about 50 metres before it turns to run south-westerly for about 300 metres where it terminates at a turning circle as shown coloured pink and hatched black on Plan No. STRM 1010.",
+            "description_raw_zh": "此街由與田心街之交界處起，向東南偏南伸展約三百四十米，然後向東南伸展約一百五十米，再向東南偏南伸展約五十米後，轉向西南伸展約三百米至其迴旋處止。在STRM 1010號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1010",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tin Sam Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "顯徑街",
+      "english_name": "Hin Keng Street",
+      "link_street_code": "10712",
+      "history": [
+        {
+          "publication_date": "1984-06-15",
+          "change_kind": "declare",
+          "street_name_en": "Hin Keng Street",
+          "street_name_zh": "顯徑街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with FU KIN STREET and running in a west south-westerly direction for about 80 metres; it then bends to run south-westerly for about 340 metres and then turns to run west south-westerly for about 165 metres before it turns to run west north-westerly for about 140 metres where it terminates at its junction with CHE KUNG MIU ROAD as shown coloured pink and hatched black on Plan No. STRM 1010.",
+            "description_raw_zh": "此街由與富健街之交界處起，向西南偏西伸展約八十米，然後向西南伸展約三百四十米，再向西南偏西伸展約一百六十五米，後轉向西北偏西伸展約一百四十米，至與車公廟路交界處止。在STRM 1010號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1010",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Fu Kin Street",
+                "Che Kung Miu Road"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "河瀝背街",
+      "english_name": "Ho Lek Pui Street",
+      "link_street_code": "10754",
+      "history": [
+        {
+          "publication_date": "1984-06-15",
+          "change_kind": "declare",
+          "street_name_en": "Ho Lek Pui Street",
+          "street_name_zh": "河瀝背街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Street commencing at its junction with SHAN MEI STREET and running in a south-westerly direction for about 39 metres; it then turns to run south-easterly for about 103 metres before it turns to run south south-easterly for about 32 metres where it terminates at its closed end as shown coloured pink and hatched black on Plan No. STRM 1011.",
+            "description_raw_zh": "此街由與山尾街之交界處起，向西南伸展約三十九米，然後向東南伸展約一百零三米，再向東南偏南伸展約三十二米至其盡頭處止。在STRM 1011號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1011",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Shan Mei Street"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chinese_name": "穗豐里",
+      "english_name": "Sui Fung Lane",
+      "link_street_code": "12168",
+      "history": [
+        {
+          "publication_date": "1984-06-15",
+          "change_kind": "declare",
+          "street_name_en": "Sui Fung Lane",
+          "street_name_zh": "穗豐里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "is_declaration_event": true,
+          "gazette_location": {
+            "description_raw_en": "Lane commencing at its junction with SHAN MEI STREET and running in a south-westerly direction for about 38 metres where it terminates at its junction with HO LEK PUI STREET as shown coloured pink and hatched black on Plan No. STRM 1011.",
+            "description_raw_zh": "此里由與山尾街之交界處起，向西南伸展約三十八米，至與河瀝背街之交界處止。在STRM 1011號圖則上以粉紅色間以黑斜線標明。",
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "STRM 1011",
+                  "color": "pink",
+                  "hatching": "black"
+                }
+              ],
+              "referenced_streets_en": [
+                "Shan Mei Street",
+                "Ho Lek Pui Street"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
