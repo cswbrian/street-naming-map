@@ -1,0 +1,171 @@
+{
+  "evidence_schema_version": 2,
+  "source": "crowdsubmitted",
+  "gazette_only": true,
+  "batch_id": "1949-gn1190-island-road-sections",
+  "gazette_notice_label": "G.N.1190",
+  "publication_date": "1949-12-09",
+  "gazette_url_en": "/egazette/en/1949-gn1189.pdf",
+  "pdf_en": "/Users/coolsunwind/Downloads/1949-gn1189.pdf",
+  "remarks": "G.N.1190 sections continuous Island Road into six district-suffixed names. All six events linked to surviving centreline Island Road (10888). Same PDF hosts G.N.1189 Headland Road.",
+  "streets": [
+    {
+      "link_street_code": "10888",
+      "english_name": "Island Road",
+      "chinese_name": "香島道",
+      "history": [
+        {
+          "submission_id": "1949-gn1190-island-road-sections-aberdeen-1949-12-09",
+          "publication_date": "1949-12-09",
+          "change_kind": "rename",
+          "previous_street_name_en": "Island Road",
+          "previous_street_name_zh": "香島道",
+          "street_name_en": "Island Road \"Aberdeen\"",
+          "street_name_zh": "香港仔香島道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "gazette_location": {
+            "description_raw_en": "From the junction of Pokfulam Road and Victoria Road to its junction with Shouson Hill Road (Eastern End)",
+            "description_raw_zh": null,
+            "parsed": {
+              "commences_at_en": "junction of Pokfulam Road and Victoria Road",
+              "terminates_at_en": "junction with Shouson Hill Road (Eastern End)",
+              "split_boundary_en": "Shouson Hill Road (Eastern End)",
+              "formerly_section_of_en": "Island Road",
+              "referenced_streets_en": [
+                "Pokfulam Road",
+                "Victoria Road",
+                "Shouson Hill Road"
+              ]
+            }
+          }
+        },
+        {
+          "submission_id": "1949-gn1190-island-road-sections-deep-water-bay-1949-12-09",
+          "publication_date": "1949-12-09",
+          "change_kind": "rename",
+          "previous_street_name_en": "Island Road",
+          "previous_street_name_zh": "香島道",
+          "street_name_en": "Island Road \"Deep Water Bay\"",
+          "street_name_zh": "深水灣香島道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "gazette_location": {
+            "description_raw_en": "From its junction with the Eastern end of Shouson Hill Road to its junction with Repulse Bay Road",
+            "description_raw_zh": null,
+            "parsed": {
+              "commences_at_en": "junction with the Eastern end of Shouson Hill Road",
+              "terminates_at_en": "junction with Repulse Bay Road",
+              "split_boundary_en": "Repulse Bay Road",
+              "formerly_section_of_en": "Island Road",
+              "referenced_streets_en": [
+                "Shouson Hill Road",
+                "Repulse Bay Road"
+              ]
+            }
+          }
+        },
+        {
+          "submission_id": "1949-gn1190-island-road-sections-repulse-bay-1949-12-09",
+          "publication_date": "1949-12-09",
+          "change_kind": "rename",
+          "previous_street_name_en": "Island Road",
+          "previous_street_name_zh": "香島道",
+          "street_name_en": "Island Road \"Repulse Bay\"",
+          "street_name_zh": "淺水灣香島道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "gazette_location": {
+            "description_raw_en": "From its junction with Repulse Bay Road to its junction with Chung Am Kok Road at Stanley Gap",
+            "description_raw_zh": null,
+            "parsed": {
+              "commences_at_en": "junction with Repulse Bay Road",
+              "terminates_at_en": "junction with Chung Am Kok Road at Stanley Gap",
+              "split_boundary_en": "Chung Am Kok Road at Stanley Gap",
+              "formerly_section_of_en": "Island Road",
+              "referenced_streets_en": [
+                "Repulse Bay Road",
+                "Chung Am Kok Road"
+              ]
+            }
+          }
+        },
+        {
+          "submission_id": "1949-gn1190-island-road-sections-stanley-1949-12-09",
+          "publication_date": "1949-12-09",
+          "change_kind": "rename",
+          "previous_street_name_en": "Island Road",
+          "previous_street_name_zh": "香島道",
+          "street_name_en": "Island Road \"Stanley\"",
+          "street_name_zh": "赤柱香島道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "gazette_location": {
+            "description_raw_en": "From its junction with Chung Am Kok Road at Stanley Gap to its junction with Stanley Village Road",
+            "description_raw_zh": null,
+            "parsed": {
+              "commences_at_en": "junction with Chung Am Kok Road at Stanley Gap",
+              "terminates_at_en": "junction with Stanley Village Road",
+              "split_boundary_en": "Stanley Village Road",
+              "formerly_section_of_en": "Island Road",
+              "referenced_streets_en": [
+                "Chung Am Kok Road",
+                "Stanley Village Road"
+              ]
+            }
+          }
+        },
+        {
+          "submission_id": "1949-gn1190-island-road-sections-tytam-1949-12-09",
+          "publication_date": "1949-12-09",
+          "change_kind": "rename",
+          "previous_street_name_en": "Island Road",
+          "previous_street_name_zh": "香島道",
+          "street_name_en": "Island Road \"Tytam\"",
+          "street_name_zh": "大潭香島道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "gazette_location": {
+            "description_raw_en": "From its junction with Stanley Village Road to its junction with Shek O Road at Tytam Gap",
+            "description_raw_zh": null,
+            "parsed": {
+              "commences_at_en": "junction with Stanley Village Road",
+              "terminates_at_en": "junction with Shek O Road at Tytam Gap",
+              "split_boundary_en": "Shek O Road at Tytam Gap",
+              "formerly_section_of_en": "Island Road",
+              "referenced_streets_en": [
+                "Stanley Village Road",
+                "Shek O Road"
+              ]
+            }
+          }
+        },
+        {
+          "submission_id": "1949-gn1190-island-road-sections-chai-wan-1949-12-09",
+          "publication_date": "1949-12-09",
+          "change_kind": "rename",
+          "previous_street_name_en": "Island Road",
+          "previous_street_name_zh": "香島道",
+          "street_name_en": "Island Road \"Chai Wan\"",
+          "street_name_zh": "柴灣香島道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "gazette_location": {
+            "description_raw_en": "From its junction with Shek O Road at Tytam Gap to its junction with Shaukiwan Road",
+            "description_raw_zh": null,
+            "parsed": {
+              "commences_at_en": "junction with Shek O Road at Tytam Gap",
+              "terminates_at_en": "junction with Shaukiwan Road",
+              "split_boundary_en": "Shaukiwan Road",
+              "formerly_section_of_en": "Island Road",
+              "referenced_streets_en": [
+                "Shek O Road",
+                "Shaukiwan Road"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

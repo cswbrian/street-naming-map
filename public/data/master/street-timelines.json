@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-12T16:52:48.308Z",
+  "generated_at": "2026-07-12T17:16:20.795Z",
   "totals": {
-    "timelines": 1796,
-    "linked_active": 1446,
-    "unlinked": 350,
+    "timelines": 1825,
+    "linked_active": 1469,
+    "unlinked": 356,
     "legacy_or_name_only": 0
   },
   "timelines": [
@@ -1457,10 +1457,10 @@
       "street_code": "10040",
       "street_name_en": "Baker Court",
       "street_name_zh": "必嘉圍",
-      "canonical_naming_year": 1958,
-      "canonical_naming_date": "1958-06-27",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-02-19",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "10040",
@@ -1468,6 +1468,64 @@
         "district_hint": null
       },
       "name_history": [
+        {
+          "date": "1954-02-19",
+          "change_kind": "declare",
+          "name_en": "Baker Court",
+          "name_zh": "必嘉圍",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.208",
+          "notice_label_zh": "第208號",
+          "notice_url_en": "/egazette/en/1954-gn208.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn208.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 208.—It is hereby notified that the following road will be known in future as described hereunder:— Description: Cul-de-sac commencing from the south side of Baker Street running in a south-westerly direction for a distance of 50 yards within H.H.I.L. 235, as shown coloured red on plan No. R.K. 406. Proposed Name: BAKER COURT. Chinese Version: 必嘉圍.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 406",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Baker Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        },
         {
           "date": "1958-06-27",
           "change_kind": "declare",
@@ -2769,6 +2827,85 @@
       ]
     },
     {
+      "timeline_id": "code:10090",
+      "page_id": "10090-bristol-avenue",
+      "street_code": "10090",
+      "street_name_en": "Bristol Avenue",
+      "street_name_zh": "碧仙桃路",
+      "canonical_naming_year": 1955,
+      "canonical_naming_date": "1955-08-19",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10090",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1955-08-19",
+          "change_kind": "declare",
+          "name_en": "Bristol Avenue",
+          "name_zh": "碧仙桃路",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.925",
+          "notice_label_zh": "第925號",
+          "notice_url_en": "/egazette/en/1955-gn925.pdf",
+          "notice_url_zh": "/egazette/zh/1955-gn925.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 925.—It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Description: Road about 72 yards to the East of Nathan Road and parallel to it, commencing at its junction with Mody Road running in a Northerly direction and terminating at its junction with Carnarvon Road as shewn coloured red on plan No. R.K. 625. English Name: BRISTOL AVENUE. Chinese Name: 碧仙桃路.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 625",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Nathan Road",
+                "Mody Road",
+                "Carnarvon Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10093",
       "page_id": "10093-broadwood-road",
       "street_code": "10093",
@@ -3043,6 +3180,84 @@
                 "Lancashire Road",
                 "Waterloo Road",
                 "Hereford Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10109",
+      "page_id": "10109-cameron-lane",
+      "street_code": "10109",
+      "street_name_en": "Cameron Lane",
+      "street_name_zh": "金馬倫里",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-08-27",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10109",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-08-27",
+          "change_kind": "declare",
+          "name_en": "Cameron Lane",
+          "name_zh": "金馬倫里",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1068",
+          "notice_label_zh": "第1068號",
+          "notice_url_en": "/egazette/en/1954-gn1068.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn1068.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 1068.—It is hereby notified that the following road will be known in future as described hereunder:— Description: Road commencing from the north side of Cameron Road 100 yards East of Nathan Road running in a northerly direction for about 22 yards and thence forming a \"T\" road running East and West about 75 yards long as shown coloured red on plan No. R.K. 476. Proposed Name: CAMERON LANE. Chinese Version: 金馬倫里.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 476",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Cameron Road",
+                "Nathan Road"
               ],
               "unnamed_junction_refs_en": [],
               "replaces_gn_labels": [],
@@ -5444,6 +5659,84 @@
       ]
     },
     {
+      "timeline_id": "code:10181",
+      "page_id": "10181-cherry-street",
+      "street_code": "10181",
+      "street_name_en": "Cherry Street",
+      "street_name_zh": "櫻桃街",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-12-24",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10181",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-12-24",
+          "change_kind": "declare",
+          "name_en": "Cherry Street",
+          "name_zh": "櫻桃街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1562",
+          "notice_label_zh": "第1562號",
+          "notice_url_en": "/egazette/en/1954-gn1562.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn1562.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 1562.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Road commencing at its junction with Palm Street running in a westerly direction parallel to the seawall, terminating at its junction with Hoi King Street as shown coloured red on Plan No. R.K. 531. Proposed Name: CHERRY STREET. Chinese Version: 櫻桃街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 531",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Palm Street",
+                "Hoi King Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10182",
       "page_id": "10182-chester-road",
       "street_code": "10182",
@@ -7244,6 +7537,83 @@
           "source": "egazette_pdf",
           "submitter_remarks": null,
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "Chi Man Road|治民道",
+      "page_id": null,
+      "street_code": null,
+      "street_name_en": "Chi Man Road",
+      "street_name_zh": "治民道",
+      "canonical_naming_year": 1955,
+      "canonical_naming_date": "1955-01-28",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1955-01-28",
+          "change_kind": "declare",
+          "name_en": "Chi Man Road",
+          "name_zh": "治民道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.99",
+          "notice_label_zh": "第99號",
+          "notice_url_en": "/egazette/en/1955-gn99.pdf",
+          "notice_url_zh": "/egazette/zh/1955-gn99.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": "Gazette name Chi Man Road / 治民道; geojson has Chi Man Street / 治民街 only — not linked.",
+          "gazette_location": {
+            "description_raw_en": "No. 99.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Road commencing at the south end of Nairn Road and running in a south-easterly direction parallel to the Kowloon Canton Railway for a distance of approximately 335 yards as shown coloured yellow on Plan No. R.K. 534. English Name: CHI MAN ROAD. Chinese Name: 治民道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 534",
+                  "color": "yellow",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Nairn Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -9236,7 +9606,7 @@
       "geometry_link": {
         "status": "active",
         "street_code": "10281",
-        "method": "migrated_from_event_street_code",
+        "method": "batch_link_street_code",
         "district_hint": null
       },
       "name_history": [
@@ -9249,27 +9619,55 @@
           "previous_name_zh": null,
           "notice_label_en": "G.N.200",
           "notice_label_zh": "第200號",
-          "notice_url_en": null,
-          "notice_url_zh": null,
-          "evidence_kind": "gazette_inferred",
+          "notice_url_en": "/egazette/en/1955-gn200.pdf",
+          "notice_url_zh": "/egazette/zh/1955-gn200.pdf",
+          "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
           "event_role": "current_name",
-          "derived_from": [
-            {
-              "kind": "gazette_citation",
-              "notice_label": null,
-              "publication_date": null,
-              "government_notice_url_en": null,
-              "government_notice_url_zh": null,
-              "cited_notice_label": "G.N.2752",
-              "cited_publication_date": null
-            }
-          ],
+          "derived_from": null,
           "evidence_kind_note": null,
           "supplementary_evidence": null,
           "source": "crowdsubmitted",
-          "submitter_remarks": "First Previous G.N. for 春田街 cited in G.N.2752 (2023-05-05).",
-          "gazette_location": null
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 200.—It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Description: Cul-de-sac about 34 yards to the East of Ma Tau Wei Road and parallel to it, commencing at its junction with Hok Yuen Street, running in a northerly direction for about 58 yards and terminating at the southern boundary of K.I.L. 646 as shown coloured red on Plan No. R.K. 566. English Name: CHUN TIN STREET. Chinese Name: 春田街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 566",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Ma Tau Wei Road",
+                "Hok Yuen Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -9342,6 +9740,86 @@
                 "Jordan Valley South Road",
                 "Hong Ning Road",
                 "Kung Lok Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10283",
+      "page_id": "10283-chun-wing-street",
+      "street_code": "10283",
+      "street_name_en": "Chun Wing Street",
+      "street_name_zh": "振榮街",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-12-24",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10283",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-12-24",
+          "change_kind": "declare",
+          "name_en": "Chun Wing Street",
+          "name_zh": "振榮街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1562",
+          "notice_label_zh": "第1562號",
+          "notice_url_en": "/egazette/en/1954-gn1562.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn1562.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 1562.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Road between Hoi King Street and Tai Kok Tsui Road commencing at its junction with Cherry Street running in a northerly direction and terminating at its junction with Foo Kwai Street as shown coloured blue on Plan No. R.K. 531. Proposed Name: CHUN WING STREET. Chinese Version: 振榮街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 531",
+                  "color": "blue",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Hoi King Street",
+                "Tai Kok Tsui Road",
+                "Cherry Street",
+                "Foo Kwai Street"
               ],
               "unnamed_junction_refs_en": [],
               "replaces_gn_labels": [],
@@ -10981,6 +11459,84 @@
       ]
     },
     {
+      "timeline_id": "code:10337",
+      "page_id": "10337-cooper-road",
+      "street_code": "10337",
+      "street_name_en": "Cooper Road",
+      "street_name_zh": "谷柏道",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-06-25",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10337",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-06-25",
+          "change_kind": "declare",
+          "name_en": "Cooper Road",
+          "name_zh": "谷柏道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.765",
+          "notice_label_zh": "第765號",
+          "notice_url_en": "/egazette/en/1954-gn765.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn765.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 765.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road at right angles to the above road commencing 100 feet west of Perkins Road and going southwest for about 200 feet then westwards to I.L. 6933 and from thence north to Creasy Road at the southern end of I.L. 6391 as shown coloured red on plan No. R.H. 566. Proposed Name: COOPER ROAD. Chinese Version: 谷柏道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.H. 566",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Perkins Road",
+                "Creasy Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10339",
       "page_id": "10339-cornwall-street",
       "street_code": "10339",
@@ -11109,7 +11665,7 @@
       "canonical_naming_year": 1951,
       "canonical_naming_date": "1951-07-20",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "10347",
@@ -11154,6 +11710,64 @@
               "length_m": null,
               "length_unit": null,
               "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Perkins Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        },
+        {
+          "date": "1954-09-17",
+          "change_kind": "declare",
+          "name_en": "Creasy Road",
+          "name_zh": "祈禮士道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1151",
+          "notice_label_zh": "第1151號",
+          "notice_url_en": "/egazette/en/1954-gn1151.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn1151.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": "Chinese-version-only notice; EN already known as Creasy Road on this G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 1151.—It is hereby notified that the Chinese Version of the name of the following road will in future be as described hereunder:— Description: Cul-de-sac, known as Creasy Road, commencing at its junction with Perkins Road and running in a south-westerly direction and then in a northerly direction and terminating at its junction with house No. 1 on I.L. 6391, as shown coloured red on plan R.H. 566A. Proposed Name: CREASY ROAD. Chinese Version: 祈禮士道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.H. 566A",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
               "district_en": null,
               "district_zh": null,
               "lot_refs": [],
@@ -13118,6 +13732,86 @@
       ]
     },
     {
+      "timeline_id": "code:10398",
+      "page_id": "10398-east-point-road",
+      "street_code": "10398",
+      "street_name_en": "East Point Road",
+      "street_name_zh": "東角道",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-06-04",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10398",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-06-04",
+          "change_kind": "declare",
+          "name_en": "East Point Road",
+          "name_zh": "東角道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.673",
+          "notice_label_zh": "第673號",
+          "notice_url_en": "/egazette/en/1954-gn673.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn673.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 673.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road running in a north-westerly direction joining Hennessy Road at its junction with Great George Street and Lockhart Road 710 feet east of Percival Street, as shown coloured pink on plan No. R.H. 320/1. Proposed Name: EAST POINT ROAD. Chinese Version: 東角道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.H. 320/1",
+                  "color": "pink",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Hennessy Road",
+                "Great George Street",
+                "Lockhart Road",
+                "Percival Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "East Street|東街",
       "page_id": "east-street",
       "street_code": null,
@@ -14873,6 +15567,83 @@
       ]
     },
     {
+      "timeline_id": "code:10489",
+      "page_id": "10489-finnie-street",
+      "street_code": "10489",
+      "street_name_en": "Finnie Street",
+      "street_name_zh": "芬尼街",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-11-19",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10489",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-11-19",
+          "change_kind": "declare",
+          "name_en": "Finnie Street",
+          "name_zh": "芬尼街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1418",
+          "notice_label_zh": "第1418號",
+          "notice_url_en": "/egazette/en/1954-gn1418.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn1418.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 1418.—It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Description: Road within Q.B.M.L. 4 commencing from its junction with King's Road at the southern-most point of Q.B.M.L. 4 and running North-east for 180 feet and Northwards for 160 feet ending in a cul-de-sac, as shown coloured red on plan No. R.H. 650. Proposed Name: FINNIE STREET. Chinese Version: 芬尼街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.H. 650",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "King's Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:10490",
       "page_id": "10490-fir-street",
       "street_code": "10490",
@@ -15360,6 +16131,84 @@
       ]
     },
     {
+      "timeline_id": "code:10500",
+      "page_id": "10500-foo-kwai-street",
+      "street_code": "10500",
+      "street_name_en": "Foo Kwai Street",
+      "street_name_zh": "富貴街",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-12-24",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10500",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-12-24",
+          "change_kind": "declare",
+          "name_en": "Foo Kwai Street",
+          "name_zh": "富貴街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1562",
+          "notice_label_zh": "第1562號",
+          "notice_url_en": "/egazette/en/1954-gn1562.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn1562.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 1562.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Road commencing at its junction with Tai Kok Tsui Road running west to its junction with the north end of Hoi King Street as shown coloured yellow on Plan No. R.K. 531. Proposed Name: FOO KWAI STREET. Chinese Version: 富貴街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 531",
+                  "color": "yellow",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Tai Kok Tsui Road",
+                "Hoi King Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "Foo Yip Street|富業街",
       "page_id": "foo-yip-street",
       "street_code": null,
@@ -15684,6 +16533,85 @@
               "split_boundary_en": null,
               "referenced_streets_en": [
                 "Yuen Long On Ning Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10508",
+      "page_id": "10508-fook-yum-road",
+      "street_code": "10508",
+      "street_name_en": "Fook Yum Road",
+      "street_name_zh": "福蔭道",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-07-30",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10508",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-07-30",
+          "change_kind": "declare",
+          "name_en": "Fook Yum Road",
+          "name_zh": "福蔭道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.947",
+          "notice_label_zh": "第947號",
+          "notice_url_en": "/egazette/en/1954-gn947.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn947.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 947.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing at its junction with Electric Road 100 yards South-West of Oil Street and running in a North-westerly direction for about 100 yards and terminating at its junction with King Wah Road as shown coloured red on plan No. R.H. 619. Proposed Name: FOOK YUM ROAD. Chinese Version: 福蔭道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.H. 619",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Electric Road",
+                "Oil Street",
+                "King Wah Road"
               ],
               "unnamed_junction_refs_en": [],
               "replaces_gn_labels": [],
@@ -19617,6 +20545,81 @@
               "referenced_streets_en": [
                 "Tai Po Road"
               ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:10613",
+      "page_id": "10613-goldsmith-road",
+      "street_code": "10613",
+      "street_name_en": "Goldsmith Road",
+      "street_name_zh": "高士美道",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-06-25",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10613",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-06-25",
+          "change_kind": "declare",
+          "name_en": "Goldsmith Road",
+          "name_zh": "高士美道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.765",
+          "notice_label_zh": "第765號",
+          "notice_url_en": "/egazette/en/1954-gn765.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn765.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 765.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road joining the above road near I.L. 6933 but on the opposite side, extending northeast for 160 feet and then northwest for 100 feet and terminating at that point as shown coloured blue on plan No. R.H. 566. Proposed Name: GOLDSMITH ROAD. Chinese Version: 高士美道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.H. 566",
+                  "color": "blue",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [],
               "unnamed_junction_refs_en": [],
               "replaces_gn_labels": [],
               "merged_from_en": [],
@@ -24581,6 +25584,84 @@
       ]
     },
     {
+      "timeline_id": "code:10775",
+      "page_id": "10775-hoi-king-street",
+      "street_code": "10775",
+      "street_name_en": "Hoi King Street",
+      "street_name_zh": "海景街",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-12-24",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "10775",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-12-24",
+          "change_kind": "declare",
+          "name_en": "Hoi King Street",
+          "name_zh": "海景街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1562",
+          "notice_label_zh": "第1562號",
+          "notice_url_en": "/egazette/en/1954-gn1562.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn1562.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 1562.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Road commencing at its junction with Cherry Street running in a northerly direction parallel to the seawall and terminating at its junction with the west end of Foo Kwai Street as shown coloured burnt sienna on Plan No. R.K. 531. Proposed Name: HOI KING STREET. Chinese Version: 海景街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 531",
+                  "color": "burnt sienna",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Cherry Street",
+                "Foo Kwai Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:12962",
       "page_id": "12962-hoi-kwai-road",
       "street_code": "12962",
@@ -27670,7 +28751,7 @@
       "canonical_naming_year": 1932,
       "canonical_naming_date": "1932-10-07",
       "derivation_reason": "declaration_earliest",
-      "event_count": 3,
+      "event_count": 9,
       "geometry_link": {
         "status": "active",
         "street_code": "10888",
@@ -27719,6 +28800,325 @@
           "source": "hkgro",
           "submitter_remarks": null,
           "gazette_location": null
+        },
+        {
+          "date": "1949-12-09",
+          "change_kind": "rename",
+          "name_en": "Island Road \"Aberdeen\"",
+          "name_zh": "香港仔香島道",
+          "previous_name_en": "Island Road",
+          "previous_name_zh": "香島道",
+          "notice_label_en": "G.N.1190",
+          "notice_label_zh": "第1190號",
+          "notice_url_en": "/egazette/en/1949-gn1189.pdf",
+          "notice_url_zh": "/egazette/zh/1949-gn1189.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "From the junction of Pokfulam Road and Victoria Road to its junction with Shouson Hill Road (Eastern End)",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": "junction of Pokfulam Road and Victoria Road",
+              "terminates_at_en": "junction with Shouson Hill Road (Eastern End)",
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": "Island Road",
+              "split_boundary_en": "Shouson Hill Road (Eastern End)",
+              "referenced_streets_en": [
+                "Pokfulam Road",
+                "Victoria Road",
+                "Shouson Hill Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        },
+        {
+          "date": "1949-12-09",
+          "change_kind": "rename",
+          "name_en": "Island Road \"Deep Water Bay\"",
+          "name_zh": "深水灣香島道",
+          "previous_name_en": "Island Road",
+          "previous_name_zh": "香島道",
+          "notice_label_en": "G.N.1190",
+          "notice_label_zh": "第1190號",
+          "notice_url_en": "/egazette/en/1949-gn1189.pdf",
+          "notice_url_zh": "/egazette/zh/1949-gn1189.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "From its junction with the Eastern end of Shouson Hill Road to its junction with Repulse Bay Road",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": "junction with the Eastern end of Shouson Hill Road",
+              "terminates_at_en": "junction with Repulse Bay Road",
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": "Island Road",
+              "split_boundary_en": "Repulse Bay Road",
+              "referenced_streets_en": [
+                "Shouson Hill Road",
+                "Repulse Bay Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        },
+        {
+          "date": "1949-12-09",
+          "change_kind": "rename",
+          "name_en": "Island Road \"Repulse Bay\"",
+          "name_zh": "淺水灣香島道",
+          "previous_name_en": "Island Road",
+          "previous_name_zh": "香島道",
+          "notice_label_en": "G.N.1190",
+          "notice_label_zh": "第1190號",
+          "notice_url_en": "/egazette/en/1949-gn1189.pdf",
+          "notice_url_zh": "/egazette/zh/1949-gn1189.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "From its junction with Repulse Bay Road to its junction with Chung Am Kok Road at Stanley Gap",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": "junction with Repulse Bay Road",
+              "terminates_at_en": "junction with Chung Am Kok Road at Stanley Gap",
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": "Island Road",
+              "split_boundary_en": "Chung Am Kok Road at Stanley Gap",
+              "referenced_streets_en": [
+                "Repulse Bay Road",
+                "Chung Am Kok Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        },
+        {
+          "date": "1949-12-09",
+          "change_kind": "rename",
+          "name_en": "Island Road \"Stanley\"",
+          "name_zh": "赤柱香島道",
+          "previous_name_en": "Island Road",
+          "previous_name_zh": "香島道",
+          "notice_label_en": "G.N.1190",
+          "notice_label_zh": "第1190號",
+          "notice_url_en": "/egazette/en/1949-gn1189.pdf",
+          "notice_url_zh": "/egazette/zh/1949-gn1189.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "From its junction with Chung Am Kok Road at Stanley Gap to its junction with Stanley Village Road",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": "junction with Chung Am Kok Road at Stanley Gap",
+              "terminates_at_en": "junction with Stanley Village Road",
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": "Island Road",
+              "split_boundary_en": "Stanley Village Road",
+              "referenced_streets_en": [
+                "Chung Am Kok Road",
+                "Stanley Village Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        },
+        {
+          "date": "1949-12-09",
+          "change_kind": "rename",
+          "name_en": "Island Road \"Tytam\"",
+          "name_zh": "大潭香島道",
+          "previous_name_en": "Island Road",
+          "previous_name_zh": "香島道",
+          "notice_label_en": "G.N.1190",
+          "notice_label_zh": "第1190號",
+          "notice_url_en": "/egazette/en/1949-gn1189.pdf",
+          "notice_url_zh": "/egazette/zh/1949-gn1189.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "From its junction with Stanley Village Road to its junction with Shek O Road at Tytam Gap",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": "junction with Stanley Village Road",
+              "terminates_at_en": "junction with Shek O Road at Tytam Gap",
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": "Island Road",
+              "split_boundary_en": "Shek O Road at Tytam Gap",
+              "referenced_streets_en": [
+                "Stanley Village Road",
+                "Shek O Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        },
+        {
+          "date": "1949-12-09",
+          "change_kind": "rename",
+          "name_en": "Island Road \"Chai Wan\"",
+          "name_zh": "柴灣香島道",
+          "previous_name_en": "Island Road",
+          "previous_name_zh": "香島道",
+          "notice_label_en": "G.N.1190",
+          "notice_label_zh": "第1190號",
+          "notice_url_en": "/egazette/en/1949-gn1189.pdf",
+          "notice_url_zh": "/egazette/zh/1949-gn1189.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "From its junction with Shek O Road at Tytam Gap to its junction with Shaukiwan Road",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": "junction with Shek O Road at Tytam Gap",
+              "terminates_at_en": "junction with Shaukiwan Road",
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": "Island Road",
+              "split_boundary_en": "Shaukiwan Road",
+              "referenced_streets_en": [
+                "Shek O Road",
+                "Shaukiwan Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         },
         {
           "date": "1961-08-04",
@@ -28204,7 +29604,7 @@
       "canonical_naming_year": 1933,
       "canonical_naming_date": "1933-07-28",
       "derivation_reason": "declaration_earliest",
-      "event_count": 2,
+      "event_count": 3,
       "geometry_link": {
         "status": "active",
         "street_code": "10897",
@@ -28232,6 +29632,65 @@
           "source": "hkgro",
           "submitter_remarks": "Gazette ZH 爪哇路; database 渣華道.",
           "gazette_location": null
+        },
+        {
+          "date": "1954-06-04",
+          "change_kind": "extend",
+          "name_en": "Java Road",
+          "name_zh": "渣華道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.673",
+          "notice_label_zh": "第673號",
+          "notice_url_en": "/egazette/en/1954-gn673.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn673.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 673.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road joining North Point Road opposite Java Road and running in a south-westerly direction as far as the boundary of M.L. 526 as shown coloured pink on plan R.H. 581. Proposed Name: JAVA ROAD. Chinese Version: 渣華道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.H. 581",
+                  "color": "pink",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "North Point Road",
+                "Java Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         },
         {
           "date": "1959-11-20",
@@ -30111,10 +31570,10 @@
       "page_id": "10940-po-kong-road",
       "street_code": "10940",
       "street_name_en": "Kai Tak Road",
-      "street_name_zh": "啓德道",
-      "canonical_naming_year": null,
-      "canonical_naming_date": null,
-      "derivation_reason": "no_current_name_event",
+      "street_name_zh": "啟德道",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-05-14",
+      "derivation_reason": "current_name_since",
       "event_count": 2,
       "geometry_link": {
         "status": "active",
@@ -30145,25 +31604,62 @@
           "gazette_location": null
         },
         {
-          "date": "1954-05-12",
+          "date": "1954-05-14",
           "change_kind": "rename",
           "name_en": "Kai Tak Road",
-          "name_zh": "啓德道",
+          "name_zh": "啟德道",
           "previous_name_en": "Po Kong Road",
           "previous_name_zh": null,
           "notice_label_en": "G.N.572",
           "notice_label_zh": "第572號",
-          "notice_url_en": null,
-          "notice_url_zh": null,
-          "evidence_kind": "unknown",
-          "is_declaration_event": false,
+          "notice_url_en": "/egazette/en/1954-gn572.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn572.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
           "event_role": "current_name",
           "derived_from": null,
-          "evidence_kind_note": "G.N.572 renames Po Kong Road to Kai Tak Road; gazette PDF not yet hosted.",
+          "evidence_kind_note": null,
           "supplementary_evidence": null,
-          "source": "hkgro",
-          "submitter_remarks": "Citation from researcher; awaiting G.N.572 PDF.",
-          "gazette_location": null
+          "source": "crowdsubmitted",
+          "submitter_remarks": "Gazette ZH 啟德道; geojson 啓德道.",
+          "gazette_location": {
+            "description_raw_en": "No. 572.—It is hereby notified that the following road will be known as described hereunder:— Description: Road formerly known as Po Kong Road commencing from the nullah running north and at present terminating at its junction with Carpenter Road as shown coloured red on plan No. R.K. 436. Proposed Name: KAI TAK ROAD. Chinese Version: 啟德道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 436",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Carpenter Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -32636,6 +34132,83 @@
       ]
     },
     {
+      "timeline_id": "Kin Man Street|健文街",
+      "page_id": null,
+      "street_code": null,
+      "street_name_en": "Kin Man Street",
+      "street_name_zh": "健文街",
+      "canonical_naming_year": 1955,
+      "canonical_naming_date": "1955-02-11",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1955-02-11",
+          "change_kind": "declare",
+          "name_en": "Kin Man Street",
+          "name_zh": "健文街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.164",
+          "notice_label_zh": "第164號",
+          "notice_url_en": "/egazette/en/1955-gn164.pdf",
+          "notice_url_zh": "/egazette/zh/1955-gn164.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": "No geojson centreline for Kin Man Street / 健文街.",
+          "gazette_location": {
+            "description_raw_en": "No. 164.—It is hereby notified that the following thoroughfare will be known in future as described hereunder:— Description: Private road within I.L. 1298 commencing at its junction with Catchick Street at the mid-point of the Northern boundary of the said lot and running in a Southerly direction for 80 feet and then in an Easterly direction for 40 feet ending in a cul-de-sac as shown coloured red on Plan No. R.H. 666. English Name: KIN MAN STREET. Chinese Name: 健文街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.H. 666",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Catchick Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:11009",
       "page_id": "11009-kin-on-street",
       "street_code": "11009",
@@ -33533,6 +35106,85 @@
               "referenced_streets_en": [
                 "Hammer Hill Road",
                 "Po Kong Village Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11033",
+      "page_id": "11033-king-wah-road",
+      "street_code": "11033",
+      "street_name_en": "King Wah Road",
+      "street_name_zh": "京華道",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-07-30",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11033",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-07-30",
+          "change_kind": "declare",
+          "name_en": "King Wah Road",
+          "name_zh": "京華道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.947",
+          "notice_label_zh": "第947號",
+          "notice_url_en": "/egazette/en/1954-gn947.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn947.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 947.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing at its junction with Oil Street about 100 yards from Electric Road and running in a South-westerly direction and terminating at its junction with Fook Yum Road as shown coloured brown on plan No. R.H. 619. Proposed Name: KING WAH ROAD. Chinese Version: 京華道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.H. 619",
+                  "color": "brown",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Oil Street",
+                "Electric Road",
+                "Fook Yum Road"
               ],
               "unnamed_junction_refs_en": [],
               "replaces_gn_labels": [],
@@ -34563,6 +36215,88 @@
           "source": "landsd",
           "submitter_remarks": null,
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11054",
+      "page_id": "11054-ko-shan-road",
+      "street_code": "11054",
+      "street_name_en": "Ko Shan Road",
+      "street_name_zh": "高山道",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-08-06",
+      "derivation_reason": "current_name_since",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11054",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-08-06",
+          "change_kind": "rename",
+          "name_en": "Ko Shan Road",
+          "name_zh": "高山道",
+          "previous_name_en": "Hau Pui Loong Road",
+          "previous_name_zh": "靠背壟道",
+          "notice_label_en": "G.N.977",
+          "notice_label_zh": "第977號",
+          "notice_url_en": "/egazette/en/1954-gn977.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn977.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 977.—It is hereby notified that the following road will be known in future as described hereunder:— Description: Road commencing at its junction with Pak Kung Street running in a Northerly direction and parallel to Chatham Road and Ma Tau Wei Road and ending at its junction with Chi Kiang Street, as shown coloured yellow on plan No. R.K. 361A. (That section of this road between Pak Kung Street and Shan Si Street was formerly known as part of Hau Pui Loong Road.) Proposed Name: KO SHAN ROAD. Chinese Version: 高山道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 361A",
+                  "color": "yellow",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Pak Kung Street",
+                "Chatham Road",
+                "Ma Tau Wei Road",
+                "Chi Kiang Street",
+                "Shan Si Street",
+                "Hau Pui Loong Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -37330,6 +39064,84 @@
           "source": "crowdsubmitted",
           "submitter_remarks": "",
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "Kwong Yung Street|廣榮街",
+      "page_id": null,
+      "street_code": null,
+      "street_name_en": "Kwong Yung Street",
+      "street_name_zh": "廣榮街",
+      "canonical_naming_year": 1955,
+      "canonical_naming_date": "1955-01-14",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1955-01-14",
+          "change_kind": "declare",
+          "name_en": "Kwong Yung Street",
+          "name_zh": "廣榮街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.52",
+          "notice_label_zh": "第52號",
+          "notice_url_en": "/egazette/en/1955-gn52.pdf",
+          "notice_url_zh": "/egazette/zh/1955-gn52.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": "No geojson centreline for Kwong Yung Street / 廣榮街.",
+          "gazette_location": {
+            "description_raw_en": "No. 52.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Road about 40 yards to the west of Kwong Wa Street and parallel to it, commencing at its junction with Yin Chong Street and running in a south-westerly direction for a distance of approximately 35 yards and terminating at the eastern boundary of K.I.L. 1157 R.P. as shown coloured red on Plan No. R.K. 533. English Name: KWONG YUNG STREET. Chinese Name: 廣榮街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 533",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Kwong Wa Street",
+                "Yin Chong Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -46165,6 +47977,162 @@
       ]
     },
     {
+      "timeline_id": "code:11361",
+      "page_id": "11361-maidstone-lane",
+      "street_code": "11361",
+      "street_name_en": "Maidstone Lane",
+      "street_name_zh": "美善同里",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-06-11",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11361",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-06-11",
+          "change_kind": "declare",
+          "name_en": "Maidstone Lane",
+          "name_zh": "美善同里",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.713",
+          "notice_label_zh": "第713號",
+          "notice_url_en": "/egazette/en/1954-gn713.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn713.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 713.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing at its junction with Hau Pui Loong Road running in an easterly direction and parallel to Tin Kwong Road for a distance of 77 yards as shown coloured burnt sienna on plan No. R.K. 361A. Proposed Name: MAIDSTONE LANE. Chinese Version: 美善同里.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 361A",
+                  "color": "burnt sienna",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Hau Pui Loong Road",
+                "Tin Kwong Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11362",
+      "page_id": "11362-maidstone-road",
+      "street_code": "11362",
+      "street_name_en": "Maidstone Road",
+      "street_name_zh": "美善同道",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-06-11",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11362",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-06-11",
+          "change_kind": "declare",
+          "name_en": "Maidstone Road",
+          "name_zh": "美善同道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.713",
+          "notice_label_zh": "第713號",
+          "notice_url_en": "/egazette/en/1954-gn713.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn713.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 713.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing at its junction with Maidstone Lane running in a southerly direction and parallel to Ma Tau Wei Road for a distance of 446 yards as shown coloured red on plan No. R.K. 361A. Proposed Name: MAIDSTONE ROAD. Chinese Version: 美善同道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 361A",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Maidstone Lane",
+                "Ma Tau Wei Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "Main Street, Ap Lei Chau|",
       "page_id": "main-street-ap-lei-chau",
       "street_code": null,
@@ -47119,7 +49087,7 @@
       "canonical_naming_year": 1937,
       "canonical_naming_date": "1937-09-24",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "11396",
@@ -47147,6 +49115,66 @@
           "source": "hkgro",
           "submitter_remarks": null,
           "gazette_location": null
+        },
+        {
+          "date": "1954-07-16",
+          "change_kind": "declare",
+          "name_en": "Marble Road",
+          "name_zh": "馬寶道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.877",
+          "notice_label_zh": "第877號",
+          "notice_url_en": "/egazette/en/1954-gn877.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn877.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 877.—It is hereby notified that the following road will be known in future as described hereunder:— Description: Road running approximately east and west between Shu Kuk Street and Tong Shui Road parallel to and 200 feet north of King's Road as shown coloured pink on drawing No. R.H. 607. Proposed Name: MARBLE ROAD. Chinese Version: 馬寶道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.H. 607",
+                  "color": "pink",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Shu Kuk Street",
+                "Tong Shui Road",
+                "King's Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -50592,6 +52620,83 @@
               "referenced_streets_en": [
                 "Argyle Street",
                 "Waterloo Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "Nairn Road|楠道",
+      "page_id": null,
+      "street_code": null,
+      "street_name_en": "Nairn Road",
+      "street_name_zh": "楠道",
+      "canonical_naming_year": 1955,
+      "canonical_naming_date": "1955-01-28",
+      "derivation_reason": "extension_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1955-01-28",
+          "change_kind": "extend",
+          "name_en": "Nairn Road",
+          "name_zh": "楠道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.99",
+          "notice_label_zh": "第99號",
+          "notice_url_en": "/egazette/en/1955-gn99.pdf",
+          "notice_url_zh": "/egazette/zh/1955-gn99.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": "No geojson centreline for Nairn Road / 楠道 (abolished or renamed).",
+          "gazette_location": {
+            "description_raw_en": "No. 99.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Extension of Nairn Road in a south-westerly direction for a distance of approximately 930 yards terminating at the footbridge across the Kowloon Canton Railway as shown coloured burnt sienna on Plan No. R.K. 534. English Name: NAIRN ROAD. Chinese Name: 楠道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 534",
+                  "color": "burnt sienna",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Nairn Road"
               ],
               "unnamed_junction_refs_en": [],
               "replaces_gn_labels": [],
@@ -56471,6 +58576,83 @@
       ]
     },
     {
+      "timeline_id": "code:11654",
+      "page_id": "11654-palm-street",
+      "street_code": "11654",
+      "street_name_en": "Palm Street",
+      "street_name_zh": "棕樹街",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-11-05",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11654",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-11-05",
+          "change_kind": "declare",
+          "name_en": "Palm Street",
+          "name_zh": "棕樹街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1349",
+          "notice_label_zh": "第1349號",
+          "notice_url_en": "/egazette/en/1954-gn1349.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn1349.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 1349.—It is hereby notified that the following road will be known in future as described hereunder:— Description: Road parallel to Tong Mi Road and about 55 yards from it commencing at the waterfront and running in a northerly direction for about 140 yards as shown coloured red on plan No. R.K. 523. Proposed Name: PALM STREET. Chinese Version: 棕樹街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 523",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Tong Mi Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:11655",
       "page_id": "11655-pan-hoi-street",
       "street_code": "11655",
@@ -59831,6 +62013,85 @@
       ]
     },
     {
+      "timeline_id": "code:11763",
+      "page_id": "11763-po-yick-street",
+      "street_code": "11763",
+      "street_name_en": "Po Yick Street",
+      "street_name_zh": "普益街",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-04-09",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11763",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-04-09",
+          "change_kind": "declare",
+          "name_en": "Po Yick Street",
+          "name_zh": "普益街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.435",
+          "notice_label_zh": "第435號",
+          "notice_url_en": "/egazette/en/1954-gn435.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn435.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 435.—It is hereby notified that the following road will be known in future as described hereunder: Description: Road commencing at Tai Po Road near Pak Shing Street, running East South Eastwards to Tung Chong Street in Tai Po Market Layout as shown coloured red on Plan R.K. 442 signed by the District Commissioner, New Territories and dated 1st April, 1954. Proposed Name: PO YICK STREET. Chinese Version: 普益街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 442",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Tai Po Road",
+                "Pak Shing Street",
+                "Tung Chong Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:11765",
       "page_id": "11765-po-yip-street",
       "street_code": "11765",
@@ -61360,6 +63621,84 @@
       ]
     },
     {
+      "timeline_id": "code:11794",
+      "page_id": "11794-pui-ching-road",
+      "street_code": "11794",
+      "street_name_en": "Pui Ching Road",
+      "street_name_zh": "培正道",
+      "canonical_naming_year": 1955,
+      "canonical_naming_date": "1955-01-28",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11794",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1955-01-28",
+          "change_kind": "declare",
+          "name_en": "Pui Ching Road",
+          "name_zh": "培正道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.99",
+          "notice_label_zh": "第99號",
+          "notice_url_en": "/egazette/en/1955-gn99.pdf",
+          "notice_url_zh": "/egazette/zh/1955-gn99.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 99.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Road commencing at its junction with Waterloo Road opposite Soares Avenue running in an easterly direction for a distance of approximately 600 yards as shown coloured red on Plan No. R.K. 534. English Name: PUI CHING ROAD. Chinese Name: 培正道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 534",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Waterloo Road",
+                "Soares Avenue"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:11796",
       "page_id": "11796-pui-tak-street",
       "street_code": "11796",
@@ -61513,6 +63852,83 @@
           "source": "hkgro",
           "submitter_remarks": null,
           "gazette_location": null
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:11800",
+      "page_id": "11800-purves-road",
+      "street_code": "11800",
+      "street_name_en": "Purves Road",
+      "street_name_zh": "包華士道",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-06-25",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "11800",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-06-25",
+          "change_kind": "declare",
+          "name_en": "Purves Road",
+          "name_zh": "包華士道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.765",
+          "notice_label_zh": "第765號",
+          "notice_url_en": "/egazette/en/1954-gn765.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn765.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 765.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road at right angles to Perkins Road at the southern end of Perkins Road and extending east for approximately 400 feet where it terminates in a turning circle, and west for approximately 100 feet as shown coloured yellow on plan No. R.H. 566. Proposed Name: PURVES ROAD. Chinese Version: 包華士道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.H. 566",
+                  "color": "yellow",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Perkins Road"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
         }
       ]
     },
@@ -75893,6 +78309,84 @@
       ]
     },
     {
+      "timeline_id": "Sui Lun Street|瑞麟街",
+      "page_id": null,
+      "street_code": null,
+      "street_name_en": "Sui Lun Street",
+      "street_name_zh": "瑞麟街",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-12-17",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-12-17",
+          "change_kind": "declare",
+          "name_en": "Sui Lun Street",
+          "name_zh": "瑞麟街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1538",
+          "notice_label_zh": "第1538號",
+          "notice_url_en": "/egazette/en/1954-gn1538.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn1538.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": "No geojson centreline for Sui Lun Street / 瑞麟街.",
+          "gazette_location": {
+            "description_raw_en": "No. 1538.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Road about 40 yards to the north of San Shan Road and parallel to it, commencing at its junction with Pau Chung Street and running in a north-westerly direction for about 100 yards as shewn coloured brown on plan No. R.K. 522. Proposed Name: SUI LUN STREET. Chinese Version: 瑞麟街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 522",
+                  "color": "brown",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "San Shan Road",
+                "Pau Chung Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:12172",
       "page_id": "12172-sui-on-street",
       "street_code": "12172",
@@ -80274,6 +82768,163 @@
               "formerly_section_of_en": null,
               "split_boundary_en": null,
               "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12300",
+      "page_id": "12300-tak-cheong-lane",
+      "street_code": "12300",
+      "street_name_en": "Tak Cheong Lane",
+      "street_name_zh": "德昌里",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-07-30",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12300",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-07-30",
+          "change_kind": "declare",
+          "name_en": "Tak Cheong Lane",
+          "name_zh": "德昌里",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.947",
+          "notice_label_zh": "第947號",
+          "notice_url_en": "/egazette/en/1954-gn947.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn947.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 947.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: A Cul-de-sac about 40 yards north of, and parallel to Waterloo Road commencing at its junction with Tak Cheong Street and running in an easterly direction for a distance of 64 yards as shown coloured burnt sienna on plan No. R.K. 458. Proposed Name: TAK CHEONG LANE. Chinese Version: 德昌里.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 458",
+                  "color": "burnt sienna",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Waterloo Road",
+                "Tak Cheong Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12301",
+      "page_id": "12301-tak-cheong-street",
+      "street_code": "12301",
+      "street_name_en": "Tak Cheong Street",
+      "street_name_zh": "德昌街",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-07-30",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12301",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-07-30",
+          "change_kind": "declare",
+          "name_en": "Tak Cheong Street",
+          "name_zh": "德昌街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.947",
+          "notice_label_zh": "第947號",
+          "notice_url_en": "/egazette/en/1954-gn947.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn947.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 947.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing at the north side of Waterloo Road about 105 yards West of Canton Road and following the sea-wall in a northerly direction to its junction with Pitt Street as shown coloured red on plan No. R.K. 458. Proposed Name: TAK CHEONG STREET. Chinese Version: 德昌街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 458",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Waterloo Road",
+                "Canton Road",
+                "Pitt Street"
+              ],
               "unnamed_junction_refs_en": [],
               "replaces_gn_labels": [],
               "merged_from_en": [],
@@ -93034,6 +95685,84 @@
       ]
     },
     {
+      "timeline_id": "Wang Cheung Street|宏昌街",
+      "page_id": null,
+      "street_code": null,
+      "street_name_en": "Wang Cheung Street",
+      "street_name_zh": "宏昌街",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-12-17",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "unlinked",
+        "street_code": null,
+        "method": "name_aggregate_only",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-12-17",
+          "change_kind": "declare",
+          "name_en": "Wang Cheung Street",
+          "name_zh": "宏昌街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1538",
+          "notice_label_zh": "第1538號",
+          "notice_url_en": "/egazette/en/1954-gn1538.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn1538.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": "No geojson centreline for Wang Cheung Street / 宏昌街.",
+          "gazette_location": {
+            "description_raw_en": "No. 1538.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Road about 40 yards to the south of Ma Tau Kok Road and parallel to it, commencing at its junction with Pau Chung Street and running in a north-westerly direction for about 100 yards as shewn coloured red on plan No. R.K. 522. Proposed Name: WANG CHEUNG STREET. Chinese Version: 宏昌街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 522",
+                  "color": "red",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Ma Tau Kok Road",
+                "Pau Chung Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "timeline_id": "code:12653",
       "page_id": "12653-wang-chiu-road",
       "street_code": "12653",
@@ -93783,6 +96512,85 @@
               "referenced_streets_en": [
                 "Sheung Yee Road",
                 "Wang Yuen Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12665",
+      "page_id": "12665-wang-on-road",
+      "street_code": "12665",
+      "street_name_en": "Wang On Road",
+      "street_name_zh": "宏安道",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-07-30",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12665",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-07-30",
+          "change_kind": "declare",
+          "name_en": "Wang On Road",
+          "name_zh": "宏安道",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.947",
+          "notice_label_zh": "第947號",
+          "notice_url_en": "/egazette/en/1954-gn947.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn947.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 947.—It is hereby notified that the following roads will be known in future as described hereunder:— Description: Road commencing at its junction with Oil Street about 50 yards from Electric Road and running in a South-westerly direction and terminating at its junction with Fook Yum Road as shown coloured yellow on plan No. R.H. 619. Proposed Name: WANG ON ROAD. Chinese Version: 宏安道.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.H. 619",
+                  "color": "yellow",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Oil Street",
+                "Electric Road",
+                "Fook Yum Road"
               ],
               "unnamed_junction_refs_en": [],
               "replaces_gn_labels": [],
@@ -100428,7 +103236,7 @@
       "canonical_naming_year": 1951,
       "canonical_naming_date": "1951-05-18",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
         "status": "active",
         "street_code": "12866",
@@ -100481,6 +103289,65 @@
               "referenced_streets_en": [
                 "Fa Yuen Street",
                 "Soy Street"
+              ],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        },
+        {
+          "date": "1955-01-14",
+          "change_kind": "extend",
+          "name_en": "Yin Chong Street",
+          "name_zh": "煙廠街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.52",
+          "notice_label_zh": "第52號",
+          "notice_url_en": "/egazette/en/1955-gn52.pdf",
+          "notice_url_zh": "/egazette/zh/1955-gn52.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 52.—It is hereby notified that the following thoroughfares will be known in future as described hereunder:— Description: Extension of Yin Chong Street in an easterly direction for a distance of approximately 75 yards terminating at its junction with Kwong Wa Street as shown coloured burnt sienna on Plan No. R.K. 533. English Name: YIN CHONG STREET. Chinese Name: 煙廠街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.K. 533",
+                  "color": "burnt sienna",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Yin Chong Street",
+                "Kwong Wa Street"
               ],
               "unnamed_junction_refs_en": [],
               "replaces_gn_labels": [],
@@ -103532,6 +106399,84 @@
               "formerly_section_of_en": null,
               "split_boundary_en": null,
               "referenced_streets_en": [],
+              "unnamed_junction_refs_en": [],
+              "replaces_gn_labels": [],
+              "merged_from_en": [],
+              "merged_from_zh": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "timeline_id": "code:12934",
+      "page_id": "12934-yuet-yuen-street",
+      "street_code": "12934",
+      "street_name_en": "Yuet Yuen Street",
+      "street_name_zh": "月園街",
+      "canonical_naming_year": 1954,
+      "canonical_naming_date": "1954-10-29",
+      "derivation_reason": "declaration_earliest",
+      "event_count": 1,
+      "geometry_link": {
+        "status": "active",
+        "street_code": "12934",
+        "method": "batch_link_street_code",
+        "district_hint": null
+      },
+      "name_history": [
+        {
+          "date": "1954-10-29",
+          "change_kind": "declare",
+          "name_en": "Yuet Yuen Street",
+          "name_zh": "月園街",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.1323",
+          "notice_label_zh": "第1323號",
+          "notice_url_en": "/egazette/en/1954-gn1323.pdf",
+          "notice_url_zh": "/egazette/zh/1954-gn1323.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "crowdsubmitted",
+          "submitter_remarks": null,
+          "gazette_location": {
+            "description_raw_en": "No. 1323.—It is hereby notified that the following road will be known in future as described hereunder:— Description: Cul-de-sac running southwards for 200 feet from its junction with Java Road, parallel to and 150 feet west of North Point Road as shown coloured pink on plan No. R.H. 581/1. Proposed Name: YUET YUEN STREET. Chinese Version: 月園街.",
+            "description_raw_zh": null,
+            "parsed": {
+              "road_form": null,
+              "is_cul_de_sac": false,
+              "is_highway": false,
+              "is_proposed": false,
+              "is_partially_formed": false,
+              "suffix_pending_removal": false,
+              "includes_boundary_sections": false,
+              "is_open_space": false,
+              "commences_at_en": null,
+              "terminates_at_en": null,
+              "runs": [],
+              "length_m": null,
+              "length_unit": null,
+              "plan_refs": [
+                {
+                  "label": "R.H. 581/1",
+                  "color": "pink",
+                  "url_en": null
+                }
+              ],
+              "district_en": null,
+              "district_zh": null,
+              "lot_refs": [],
+              "formerly_section_of_en": null,
+              "split_boundary_en": null,
+              "referenced_streets_en": [
+                "Java Road",
+                "North Point Road"
+              ],
               "unnamed_junction_refs_en": [],
               "replaces_gn_labels": [],
               "merged_from_en": [],

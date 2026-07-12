@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-12T17:06:20.356Z",
+  "updated_at": "2026-07-12T17:16:17.446Z",
   "links": [
     {
       "timeline_id": "code:10003",
@@ -5359,13 +5359,19 @@
       "event_ids": [
         "crowd|1932-gn635-south-side-roads-10888-1932-10-07",
         "crowd|1961-gn1335-island-road-renames-Island-Road-Deep-Water-Bay-深水灣香島道-",
-        "crowd|1961-gn1335-island-road-renames-Island-Road-Deep-Water-Bay-深水灣香島道-1961-08-04"
+        "crowd|1961-gn1335-island-road-renames-Island-Road-Deep-Water-Bay-深水灣香島道-1961-08-04",
+        "crowd|1949-gn1190-island-road-sections-aberdeen-1949-12-09",
+        "crowd|1949-gn1190-island-road-sections-deep-water-bay-1949-12-09",
+        "crowd|1949-gn1190-island-road-sections-repulse-bay-1949-12-09",
+        "crowd|1949-gn1190-island-road-sections-stanley-1949-12-09",
+        "crowd|1949-gn1190-island-road-sections-tytam-1949-12-09",
+        "crowd|1949-gn1190-island-road-sections-chai-wan-1949-12-09"
       ],
       "status": "active",
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-22",
+      "linked_at": "2026-07-12",
       "linked_by": "apply-crowd-batch"
     },
     {
