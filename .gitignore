@@ -36,6 +36,13 @@ data/egazette/parsed/
 data/egazette/pilot-qa-report.json
 data/egazette/pilot-qa-report.md
 
+# Gazette corpus (OCR markdown + meta; large — regenerate via npm run corpus:*)
+data/gazette-corpus/
+
+# Paddle upgrade batch runner runtime
+reports/corpus-paddle-upgrade.pid
+reports/corpus-paddle-batches.out
+
 # Historical map source GeoTIFFs (large; tiles go to public/historical-maps/)
 data/historical-maps/source/
 data/historical-maps/build/
@@ -45,3 +52,6 @@ data/historical-maps/downloads/
 data/crowdsubmissions/responses.csv
 data/crowdsubmissions/pdfs/
 data/crowdsubmissions/batch-inbox/
+
+# HKGRO bulk year scrape (not street-naming working set; live PDFs in public/egazette/)
+data/hkgro/raw-pdfs/
