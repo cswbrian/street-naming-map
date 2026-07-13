@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-13T17:10:38.809Z",
+  "updated_at": "2026-07-13T17:17:48.501Z",
   "links": [
     {
       "timeline_id": "code:10003",
@@ -838,6 +838,20 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-07-12",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:10128",
+      "page_id": "10128-castle-peak-road",
+      "street_code": "10128",
+      "event_ids": [
+        "crowd|1926-gn201-castle-peak-road-Castle-Peak-Road-青山道-1926-04-16"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-13",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -8133,6 +8147,20 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-07-12",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11249",
+      "page_id": "11249-lock-road",
+      "street_code": "11249",
+      "event_ids": [
+        "crowd|1931-gn21-lock-road-Lock-Road-樂道-1931-01-09"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-13",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -25714,20 +25742,6 @@
       "note": "backfill-street-page-ids",
       "linked_at": "2026-07-09",
       "linked_by": "backfill-street-page-ids"
-    },
-    {
-      "timeline_id": "code:11249",
-      "page_id": "11249-lock-road",
-      "street_code": "11249",
-      "event_ids": [
-        "crowd|1931-gn21-lock-road-Lock-Road-樂道-1931-01-09"
-      ],
-      "status": "active",
-      "method": "batch_link_street_code",
-      "district_hint": null,
-      "note": null,
-      "linked_at": "2026-07-13",
-      "linked_by": "apply-crowd-batch"
     }
   ]
 }

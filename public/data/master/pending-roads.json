@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-13T15:58:59.841Z",
+  "generated_at": "2026-07-13T17:17:50.063Z",
   "source_file": "public/data/hk-streets.geojson",
   "notice_stem_index_path": "public/data/master/egazette-notice-stems.json",
   "egazette_pdf_locales_path": "public/data/master/egazette-pdf-locales.json",
   "totals": {
     "total_segments": 39724,
-    "segments_missing_naming_year": 31412,
+    "segments_missing_naming_year": 31384,
     "unique_roads": 12233,
     "unique_roads_with_street_name": 4578,
-    "unique_roads_with_naming_year": 1687,
-    "unique_roads_with_street_name_and_naming_year": 1687,
-    "unique_roads_missing_naming_year": 10546,
-    "unique_roads_missing_naming_year_with_street_name": 2891
+    "unique_roads_with_naming_year": 1688,
+    "unique_roads_with_street_name_and_naming_year": 1688,
+    "unique_roads_missing_naming_year": 10545,
+    "unique_roads_missing_naming_year_with_street_name": 2890
   },
   "kind": "pending",
   "roads": [
@@ -696,17 +696,6 @@
       "english_name": null,
       "chinese_name": null,
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 28
-    },
-    {
-      "road_key": "code:10128",
-      "street_code": "10128",
-      "english_name": "CASTLE PEAK ROAD",
-      "chinese_name": "青山道",
-      "street_type": "Main Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,

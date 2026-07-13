@@ -1,0 +1,46 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1926-gn201-castle-peak-road",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.201",
+  "publication_date": "1926-04-16",
+  "gazette_url_en": "/egazette/en/1926-gn201.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/data/crowdsubmissions/batch-inbox/1926-gn201-castle-peak-road/1926-gn201.pdf",
+  "streets": [
+    {
+      "link_street_code": "10128",
+      "english_name": "Castle Peak Road",
+      "chinese_name": "青山道",
+      "history": [
+        {
+          "publication_date": "1926-04-16",
+          "change_kind": "declare",
+          "gazette_notice_label": "G.N.201",
+          "street_name_en": "Castle Peak Road",
+          "street_name_zh": "青山道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "submitter_remarks": "Description meets existing Castle Peak Road at Laichikok; first naming G.N. on file for this name (Kowloon segment Kweilin Street / Taipo Road → Laichikok).",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at the junction of Kweilin Street and Taipo Road and running in a north-westerly direction to a point at the east end of New Kowloon Inland Lot No. 421 and thence in a westerly direction to where it meets the existing Castle Peak Road at Laichikok.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Kweilin Street",
+                "Taipo Road",
+                "Castle Peak Road"
+              ],
+              "lot_refs": [
+                "New Kowloon Inland Lot No. 421"
+              ],
+              "place_names": [
+                "Laichikok"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
