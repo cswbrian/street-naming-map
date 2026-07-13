@@ -6,6 +6,7 @@ import {
   isLinkQueueRoutePath,
   isNamesRoutePath,
   isStreetRoutePath,
+  isRecordsRoutePath,
   isTimelinesRoutePath,
 } from '../i18n/locale'
 import { useLocale } from '../i18n/LocaleContext'
@@ -18,7 +19,7 @@ function PageSeo() {
   const isAboutRoute = isAboutRoutePath(location.pathname)
   const isNamesRoute = isNamesRoutePath(location.pathname)
   const isLinkQueueRoute = isLinkQueueRoutePath(location.pathname)
-  const isTimelinesRoute = isTimelinesRoutePath(location.pathname)
+  const isRecordsRoute = isRecordsRoutePath(location.pathname)
   const isStreetRoute = isStreetRoutePath(location.pathname)
 
   useEffect(() => {
@@ -29,8 +30,8 @@ function PageSeo() {
         ? 'navAbout'
         : isNamesRoute
           ? 'navNames'
-          : isTimelinesRoute
-            ? 'navTimelines'
+          : isRecordsRoute
+            ? 'navRecords'
             : isLinkQueueRoute
               ? 'linkQueueTitle'
               : 'navMap',
@@ -38,8 +39,8 @@ function PageSeo() {
     const documentTitle = `${t('siteTitle')} · ${pageLabel}`
     const description = isAboutRoute
       ? t('aboutSeoDescription')
-      : isTimelinesRoute
-        ? t('timelinesSeoDescription')
+      : isRecordsRoute
+        ? t('recordsSeoDescription')
         : isLinkQueueRoute
           ? t('linkQueueSeoDescription')
           : t('seoDescription')
@@ -59,7 +60,7 @@ function PageSeo() {
     isLinkQueueRoute,
     isNamesRoute,
     isStreetRoute,
-    isTimelinesRoute,
+    isRecordsRoute,
     locale,
     location.pathname,
     routeSuffix,

@@ -9,12 +9,15 @@ import { LocaleProvider } from './i18n/LocaleContext'
 import { ThemeProvider } from './theme/ThemeContext'
 import LocaleRedirect from './routes/LocaleRedirect'
 import LegacyLocaleRedirect from './routes/LegacyLocaleRedirect'
+import TimelinesToRecordsRedirect from './routes/TimelinesToRecordsRedirect'
 import AppFooter from './components/AppFooter'
 import './styles/app.css'
+import './styles/records-gazettes.css'
+import './styles/period-filter.css'
 
 function AppShell() {
   const location = useLocation()
-  const isDashboardPage = /\/(names|about|timelines|link-queue|streets\/[^/]+)\/?$/.test(location.pathname)
+  const isDashboardPage = /\/(names|about|records|timelines|link-queue|streets\/[^/]+)\/?$/.test(location.pathname)
 
   return (
     <main className={`app-shell ${isDashboardPage ? 'is-dashboard' : ''}`}>
@@ -50,14 +53,16 @@ function App() {
       <Route path="/about" element={<LegacyLocaleRedirect segment="about" />} />
       <Route path="/contribute" element={<LegacyLocaleRedirect segment="names" />} />
       <Route path="/link-queue" element={<LegacyLocaleRedirect segment="link-queue" />} />
-      <Route path="/timelines" element={<LegacyLocaleRedirect segment="timelines" />} />
+      <Route path="/timelines" element={<LegacyLocaleRedirect segment="records" />} />
+      <Route path="/records" element={<LegacyLocaleRedirect segment="records" />} />
       <Route path="/:locale" element={<LocaleLayout />}>
         <Route element={<AppShell />}>
           <Route index element={<MapPage />} />
           <Route path="names" element={<NamesPage />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="link-queue" element={<LinkQueuePage />} />
-          <Route path="timelines" element={<TimelinesPage />} />
+          <Route path="records" element={<TimelinesPage />} />
+          <Route path="timelines" element={<TimelinesToRecordsRedirect />} />
           <Route path="streets/:pageId" element={<StreetPage />} />
           <Route path="contribute" element={<LegacyLocaleRedirect segment="names" />} />
         </Route>

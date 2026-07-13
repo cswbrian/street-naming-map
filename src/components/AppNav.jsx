@@ -92,7 +92,7 @@ function AppNav() {
   const { t } = useLocale()
   const mapPath = useLocalePath()
   const namesPath = useLocalePath('names')
-  const timelinesPath = useLocalePath('timelines')
+  const recordsPath = useLocalePath('records')
   const aboutPath = useLocalePath('about')
   const [pendingCount, setPendingCount] = useState(null)
   const [menuOpen, setMenuOpen] = useState(false)
@@ -154,10 +154,10 @@ function AppNav() {
           ) : null}
         </NavLink>
         <NavLink
-          to={timelinesPath}
+          to={recordsPath}
           className={({ isActive }) => `app-top-nav-link ${isActive ? 'is-active' : ''}`}
         >
-          {t('navTimelines')}
+          {t('navRecords')}
         </NavLink>
         <NavLink
           to={aboutPath}
@@ -191,14 +191,6 @@ function AppNav() {
         {menuOpen ? (
           <div className="app-nav-menu-panel" role="menu">
             <NavLink
-              to={timelinesPath}
-              role="menuitem"
-              className={({ isActive }) => `app-nav-menu-item app-nav-menu-link ${isActive ? 'is-active' : ''}`}
-              onClick={() => setMenuOpen(false)}
-            >
-              {t('navTimelines')}
-            </NavLink>
-            <NavLink
               to={aboutPath}
               role="menuitem"
               className={({ isActive }) => `app-nav-menu-item app-nav-menu-link ${isActive ? 'is-active' : ''}`}
@@ -207,12 +199,12 @@ function AppNav() {
               {t('navAbout')}
             </NavLink>
             <ThemeToggleButton
-              className="app-nav-menu-item"
+              className="app-nav-menu-item app-nav-menu-utility"
               showLabel
               onActivate={() => setMenuOpen(false)}
             />
             <LocaleToggleButton
-              className="app-nav-menu-item"
+              className="app-nav-menu-item app-nav-menu-utility"
               showLabel
               onActivate={() => setMenuOpen(false)}
             />

@@ -13,12 +13,14 @@ This repo uses **workflow guides** in [`skills/`](skills/README.md). They work w
 
 | Task | Guide |
 |------|-------|
+| Gazette corpus + coverage (OCR markdown) | `corpus:extract` / `corpus:ocr-remaining` first for **new PDFs**; `corpus:upgrade-paddle` for colonial backlog — [docs/gazette-field-ownership.md](docs/gazette-field-ownership.md) |
+| Street naming gazette — verify + apply (new notices) | [`skills/apply-gazette-naming/SKILL.md`](skills/apply-gazette-naming/SKILL.md) → `modern.md` / `colonial.md` |
 | Earliest mention, rename chain, old map, non-naming gazette cite | [`skills/research-street-history/SKILL.md`](skills/research-street-history/SKILL.md) |
-| Colonial HKGRO naming-table scan | [`skills/parse-gazette-street-events/SKILL.md`](skills/parse-gazette-street-events/SKILL.md) |
-| Modern Lands Dept eGazette (`egn` / `cgn`) | [`skills/apply-egazette-naming/SKILL.md`](skills/apply-egazette-naming/SKILL.md) |
 | Link events to a road on the map | [`skills/centreline-linker/SKILL.md`](skills/centreline-linker/SKILL.md) |
 | Host or fix gazette PDF paths | [`skills/gazette-files/SKILL.md`](skills/gazette-files/SKILL.md) |
 | Hand-edit events in the master file | [`skills/street-naming-master/SKILL.md`](skills/street-naming-master/SKILL.md) |
+
+Browse verified events: **Records** at `/{locale}/records` (legacy `/timelines` redirects).
 
 Classifying event rows: [`skills/event-model.md`](skills/event-model.md)
 

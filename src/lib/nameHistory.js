@@ -6,6 +6,7 @@ import {
   TIMELINE_EVENT_TYPE_FILTER_ORDER,
   getEventTypeLabelForKey,
 } from './mapSurfaceDisplay.js'
+import { formatDisplayDate } from './namingDisplay.js'
 import { formatNoticeLabel } from './formatNoticeLabel.js'
 import { normalizeStreetNameForMatch } from './roadKey.js'
 
@@ -99,13 +100,7 @@ export function hasNameHistory(details, displayNames = null) {
 }
 
 export function formatHistoryDate(date) {
-  const text = normalize(date)
-  if (!text) return '—'
-  const match = text.match(/^(\d{4})-(\d{2})-(\d{2})$/)
-  if (!match) return text
-  const [, year, month, day] = match
-  if (month === '01' && day === '01') return String(year)
-  return `${year}.${month}.${day}`
+  return formatDisplayDate(normalize(date), { fallback: '—' })
 }
 
 function formatName(entry, locale, field = 'current') {

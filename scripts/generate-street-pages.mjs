@@ -10,6 +10,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { publicPaths, projectRoot } from './lib/data-paths.mjs'
+import { formatNamingDate } from '../src/lib/namingDisplay.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DIST_DIR = path.join(projectRoot, 'dist')
@@ -60,7 +61,8 @@ function displayName(timeline, locale) {
 }
 
 function formatEventLine(entry, locale) {
-  const date = String(entry.publication_date ?? entry.date ?? '').slice(0, 10)
+  const rawDate = String(entry.publication_date ?? entry.date ?? '').slice(0, 10)
+  const date = formatNamingDate(rawDate) ?? rawDate
   const zh = String(entry.name_zh ?? '').trim()
   const en = String(entry.name_en ?? '').trim()
   const name = locale === 'zh' ? zh || en : en || zh

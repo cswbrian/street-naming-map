@@ -15,7 +15,9 @@ import {
 } from '../lib/nameHistory.js'
 import { buildTimelinePeriodCounts, timelineRowMatchesPeriod } from '../lib/timelinePeriodFilter.js'
 import { trackNamesFilter } from '../lib/analytics.js'
+import ActivePeriodFilterChip from './ActivePeriodFilterChip.jsx'
 import NamingYearPeriodsPanel from './NamingYearPeriodsPanel.jsx'
+import RecordsFlowIntro from './RecordsFlowIntro.jsx'
 import StreetEventTimeline from './StreetEventTimeline.jsx'
 
 const formatNumber = (locale, value) =>
@@ -37,7 +39,7 @@ function sortIndicator(sortConfig, key) {
   return sortConfig.direction === 'asc' ? ' ▲' : ' ▼'
 }
 
-function TimelinesDashboard({ onOpenRoadOnMap }) {
+function TimelinesDashboard({ onOpenRoadOnMap, embedded = false, onOpenGazetteNotice = null }) {
   const { locale, t } = useLocale()
   const [report, setReport] = useState(null)
   const [isLoading, setIsLoading] = useState(true)
@@ -196,12 +198,15 @@ function TimelinesDashboard({ onOpenRoadOnMap }) {
     setExpandedEventKey((prev) => (prev === eventKey ? null : eventKey))
   }, [])
 
-  return (
-    <section className="pending-dashboard timelines-dashboard">
-      <header className="link-queue-header">
-        <h1 className="link-queue-title">{t('timelinesTitle')}</h1>
-        <p className="link-queue-intro">{t('timelinesIntro')}</p>
-      </header>
+  const content = (
+    <>
+      {!embedded ? (
+        <header className="link-queue-header">
+          <h1 className="link-queue-title">{t('recordsTitle')}</h1>
+          <p className="link-queue-intro">{t('timelinesIntro')}</p>
+          <RecordsFlowIntro />
+        </header>
+      ) : null}
 
       {isLoading ? <p className="pending-dashboard-note">{t('loadingReport')}</p> : null}
       {!isLoading && error ? (
@@ -219,11 +224,13 @@ function TimelinesDashboard({ onOpenRoadOnMap }) {
               periodStats={periodStats}
               periodFilter={periodFilter}
               onPeriodFilterChange={handlePeriodFilterChange}
-              hintKey={null}
+              subtitleKey="timelinesPeriodSubtitle"
+              hintKey="timelinesPeriodStatsHint"
             />
           </aside>
 
           <div className="pending-dashboard-main">
+            <ActivePeriodFilterChip periodId={periodFilter} onClear={() => setPeriodFilter(null)} />
             <div className="pending-table-controls">
               <input
                 type="text"
@@ -393,6 +400,7 @@ function TimelinesDashboard({ onOpenRoadOnMap }) {
                             t={t}
                             expandedEventKey={expandedEventKey}
                             onToggleEvent={handleToggleEvent}
+                            onOpenGazetteNotice={onOpenGazetteNotice}
                           />
                         </td>
                       </tr>
@@ -410,6 +418,14 @@ function TimelinesDashboard({ onOpenRoadOnMap }) {
           </div>
         </div>
       ) : null}
+    </>
+  )
+
+  if (embedded) return content
+
+  return (
+    <section className="pending-dashboard timelines-dashboard">
+      {content}
     </section>
   )
 }

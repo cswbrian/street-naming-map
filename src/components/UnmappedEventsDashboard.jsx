@@ -2,19 +2,13 @@ import { useEffect, useMemo, useState } from 'react'
 import { useLocale } from '../i18n/LocaleContext'
 import LinkDraftPanel from './LinkDraftPanel.jsx'
 import { loadUnmappedEvents } from '../lib/loadUnmappedEvents.js'
+import { formatDisplayDate } from '../lib/namingDisplay.js'
 
 const SOURCE_ORDER = ['landsd', 'egazette_pdf', 'crowdsubmitted', 'hkgro']
 const KIND_ORDER = ['declare', 'rename', 'extend', 'delete']
 
 const formatNumber = (locale, value) =>
   new Intl.NumberFormat(locale === 'zh' ? 'zh-HK' : 'en-US').format(Number(value) || 0)
-
-function formatIsoDate(iso) {
-  const text = String(iso ?? '').trim()
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(text)) return text || '—'
-  const [y, m, d] = text.split('-')
-  return `${d}.${m}.${y}`
-}
 
 function buildSearchHaystack(row) {
   return [
@@ -363,7 +357,7 @@ function UnmappedEventsDashboard() {
                             aria-label={row.event_id}
                           />
                         </td>
-                        <td>{formatIsoDate(row.publication_date)}</td>
+                        <td>{formatDisplayDate(row.publication_date, { fallback: '—' })}</td>
                         <td>
                           <div className="link-queue-street-cell">
                             {nameZh ? <span className="link-queue-street-zh">{nameZh}</span> : null}

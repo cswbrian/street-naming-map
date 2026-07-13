@@ -29,6 +29,9 @@
   --sn-chip-contribute-border-hover: rgba(146, 64, 14, 0.45);
   --sn-chip-contribute-bg-hover: rgba(180, 83, 9, 0.14);
   --sn-chip-shadow: 0 10px 28px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.04) inset;
+  --sn-link: #0d7a62;
+  --sn-link-hover: #0a5c4a;
+  --sn-link-visited: #0a4a3d;
   --sn-radius: 2px;
   --sn-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-family: var(--sn-font);
@@ -70,6 +73,9 @@
   --sn-chip-contribute-border-hover: rgba(255, 193, 77, 0.62);
   --sn-chip-contribute-bg-hover: rgba(255, 193, 77, 0.18);
   --sn-chip-shadow: 0 10px 28px rgba(0, 0, 0, 0.48), 0 0 0 1px rgba(255, 255, 255, 0.04) inset;
+  --sn-link: #35f2c3;
+  --sn-link-hover: #5ef5d0;
+  --sn-link-visited: #2bc9a8;
   color: var(--sn-text);
   background-color: var(--sn-bg);
 }
@@ -94,4 +100,116 @@ button,
 input,
 select {
   font: inherit;
+}
+
+/* Link styling: content only — not header, footer, map chrome, or button controls */
+:where(.app-page-header, .app-site-footer, .map-top-bar, .app-nav-menu-panel) a:any-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+:where(.app-page-header, .app-site-footer, .map-top-bar, .app-nav-menu-panel) a:any-link:hover,
+:where(.app-page-header, .app-site-footer, .map-top-bar, .app-nav-menu-panel) a:any-link:visited {
+  color: inherit;
+}
+
+:where(.app-page-header, .app-site-footer, .map-top-bar, .app-nav-menu-panel) a:any-link:focus-visible {
+  outline: 2px solid var(--sn-border-strong);
+  outline-offset: 2px;
+}
+
+a:any-link:is(
+  .app-top-nav-link,
+  .app-site-title,
+  .app-nav-menu-item,
+  .app-nav-menu-link,
+  .app-site-footer-discord,
+  .app-site-footer-icon-link,
+  .contribute-primary-btn,
+  .contribute-secondary-btn,
+  .pending-contribute-link,
+  .pending-street-link,
+  .street-page-street-link,
+  .street-page-link,
+  .link-draft-centreline-btn,
+  .link-draft-download-btn,
+  .link-queue-copy-btn
+) {
+  text-decoration: none;
+}
+
+:where(
+  .pending-dashboard,
+  .about-page,
+  .street-page,
+  .gazette-sheet-body,
+  .map-bottom-sheet-body,
+  .names-notification-bar
+) a:any-link:not(
+  .contribute-primary-btn,
+  .contribute-secondary-btn,
+  .pending-contribute-link,
+  .pending-street-link,
+  .street-page-street-link,
+  .street-page-link
+) {
+  color: var(--sn-link);
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+  text-decoration-thickness: 1px;
+}
+
+:where(
+  .pending-dashboard,
+  .about-page,
+  .street-page,
+  .gazette-sheet-body,
+  .map-bottom-sheet-body,
+  .names-notification-bar
+) a:any-link:not(
+  .contribute-primary-btn,
+  .contribute-secondary-btn,
+  .pending-contribute-link,
+  .pending-street-link,
+  .street-page-street-link,
+  .street-page-link
+):hover {
+  color: var(--sn-link-hover);
+}
+
+:where(
+  .pending-dashboard,
+  .about-page,
+  .street-page,
+  .gazette-sheet-body,
+  .map-bottom-sheet-body,
+  .names-notification-bar
+) a:any-link:not(
+  .contribute-primary-btn,
+  .contribute-secondary-btn,
+  .pending-contribute-link,
+  .pending-street-link,
+  .street-page-street-link,
+  .street-page-link
+):visited {
+  color: var(--sn-link-visited);
+}
+
+:where(
+  .pending-dashboard,
+  .about-page,
+  .street-page,
+  .gazette-sheet-body,
+  .map-bottom-sheet-body,
+  .names-notification-bar
+) a:any-link:not(
+  .contribute-primary-btn,
+  .contribute-secondary-btn,
+  .pending-contribute-link,
+  .pending-street-link,
+  .street-page-street-link,
+  .street-page-link
+):focus-visible {
+  outline: 2px solid var(--sn-link);
+  outline-offset: 2px;
 }

@@ -1,4 +1,5 @@
 import { resolveHostedUrl } from '../lib/resolveHostedUrl.js'
+import { noticeStemFromEntry } from '../lib/noticeStem.js'
 import { formatNoticeLabel } from '../lib/formatNoticeLabel.js'
 import { getEvidenceKindBadge } from '../lib/evidenceKindBadge.js'
 
@@ -113,7 +114,7 @@ function DescriptionBlock({ text, className = '' }) {
   return <p className={`street-event-description${className ? ` ${className}` : ''}`}>{text}</p>
 }
 
-function EventDetail({ entry, locale, t }) {
+function EventDetail({ entry, locale, t, onOpenGazetteNotice }) {
   const noticeEn = entry.notice_label_en
     ? formatNoticeLabel(entry.notice_label_en, 'en') || entry.notice_label_en
     : null
@@ -165,6 +166,8 @@ function EventDetail({ entry, locale, t }) {
     (entry.derived_from?.length ?? 0) > 0 ||
     (entry.supplementary_evidence?.length ?? 0) > 0
 
+  const noticeStem = noticeStemFromEntry(entry)
+
   const noticeSection = hasNoticeSection ? (
     <div className="street-event-detail-dl">
       <DetailRow label={t('timelinesDetailNoticeEn')} value={noticeEn} />
@@ -186,6 +189,20 @@ function EventDetail({ entry, locale, t }) {
             <a href={noticeUrlZh} target="_blank" rel="noopener noreferrer">
               {noticeUrlZh}
             </a>
+          </dd>
+        </div>
+      ) : null}
+      {noticeStem && onOpenGazetteNotice ? (
+        <div className="street-event-detail-row">
+          <dt>{t('recordsGazetteInRecords')}</dt>
+          <dd>
+            <button
+              type="button"
+              className="records-gazette-jump"
+              onClick={() => onOpenGazetteNotice(noticeStem)}
+            >
+              {noticeStem}
+            </button>
           </dd>
         </div>
       ) : null}
@@ -306,6 +323,7 @@ export default function StreetEventTimeline({
   expandedEventKey,
   onToggleEvent,
   onNoticeClick,
+  onOpenGazetteNotice,
   emptyLabel,
 }) {
   const undatedLabel = emptyLabel === undefined ? t('timelinesUndated') : emptyLabel
@@ -344,7 +362,12 @@ export default function StreetEventTimeline({
                 </span>
               </button>
               {isExpanded && entryWithKey ? (
-                <EventDetail entry={entryWithKey} locale={locale} t={t} />
+                <EventDetail
+                  entry={entryWithKey}
+                  locale={locale}
+                  t={t}
+                  onOpenGazetteNotice={onOpenGazetteNotice}
+                />
               ) : null}
             </li>
           )

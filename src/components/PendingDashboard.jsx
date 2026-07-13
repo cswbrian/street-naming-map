@@ -3,6 +3,7 @@ import { useSearchParams } from 'react-router-dom'
 import { useLocale } from '../i18n/LocaleContext'
 import { getPeriodLabel, getRoadTypeLabel, PERIOD_GROUP_DEFS } from '../i18n/translations'
 import ContributeActionIcon from './ContributeActionIcon.jsx'
+import ActivePeriodFilterChip from './ActivePeriodFilterChip.jsx'
 import NamingYearPeriodsPanel from './NamingYearPeriodsPanel.jsx'
 import { buildSingleStreetFormUrl } from '../lib/contributeForm.js'
 import { trackContributeOpen, trackNamesFilter, trackNoticeOpen } from '../lib/analytics.js'
@@ -329,6 +330,7 @@ function PendingDashboard({ onOpenRoadOnMap }) {
               periodStats={periodStats}
               periodFilter={periodFilter}
               onPeriodFilterChange={handlePeriodFilterChange}
+              subtitleKey="pendingPeriodSubtitle"
             />
 
             <div className="pending-filter-row">
@@ -375,6 +377,7 @@ function PendingDashboard({ onOpenRoadOnMap }) {
           </aside>
 
           <div className="pending-dashboard-main">
+            <ActivePeriodFilterChip periodId={periodFilter} onClear={() => setPeriodFilter(null)} />
             <div className="pending-table-controls">
               <input
                 type="text"

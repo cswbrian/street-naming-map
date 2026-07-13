@@ -1,7 +1,8 @@
 import { useNavigate } from 'react-router-dom'
 import AppNav from '../components/AppNav'
 import AppSiteTitle from '../components/AppSiteTitle'
-import TimelinesDashboard from '../components/TimelinesDashboard'
+import RecordsDashboard from '../components/RecordsDashboard'
+import RecordsNotificationBar from '../components/RecordsNotificationBar'
 import { trackSelectRoad } from '../lib/analytics.js'
 import { buildRoadKey } from '../lib/roadKey'
 import { buildRoadSearchParams } from '../lib/roadShareUrl.js'
@@ -34,7 +35,8 @@ function TimelinesPage() {
         <AppSiteTitle />
         <AppNav />
       </header>
-      <TimelinesDashboard onOpenRoadOnMap={openRoadOnMap} />
+      <RecordsNotificationBar />
+      <RecordsDashboard onOpenRoadOnMap={openRoadOnMap} />
     </>
   )
 }

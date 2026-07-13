@@ -1,0 +1,136 @@
+
+/* Naming year period filter enhancements */
+.naming-year-periods-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.naming-year-periods-heading {
+  min-width: 0;
+}
+
+.naming-year-periods-subtitle {
+  margin: 0.08rem 0 0;
+  font-size: 0.68rem;
+  line-height: 1.35;
+  color: var(--sn-text-muted);
+}
+
+.naming-year-periods-toggle {
+  flex-shrink: 0;
+  border: 1px solid var(--sn-border);
+  border-radius: var(--sn-radius);
+  background: var(--sn-bg-elevated);
+  color: var(--sn-text);
+  font: inherit;
+  font-size: 0.72rem;
+  padding: 0.28rem 0.45rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.naming-year-periods-toggle-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1rem;
+  height: 1rem;
+  padding: 0 0.2rem;
+  border-radius: 999px;
+  background: var(--sn-link);
+  color: var(--sn-bg);
+  font-size: 0.62rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.naming-year-period-card {
+  border-left-width: 3px;
+  border-left-style: solid;
+  border-left-color: var(--period-accent, var(--sn-border));
+}
+
+.naming-year-period-card.is-active {
+  border-left-color: var(--period-accent, var(--sn-text));
+}
+
+.naming-year-period-card.is-zero {
+  opacity: 0.72;
+}
+
+.naming-year-period-card.is-zero strong {
+  color: var(--sn-text-faint);
+}
+
+.period-filter-active-row {
+  margin-bottom: 0.4rem;
+}
+
+.period-filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  max-width: 100%;
+  padding: 0.22rem 0.35rem 0.22rem 0.55rem;
+  border: 1px solid var(--sn-border);
+  border-radius: 999px;
+  background: var(--sn-bg-elevated);
+  font-size: 0.76rem;
+  line-height: 1.2;
+}
+
+.period-filter-chip-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.period-filter-chip-clear {
+  appearance: none;
+  border: none;
+  background: transparent;
+  color: var(--sn-text-muted);
+  font-size: 1rem;
+  line-height: 1;
+  width: 1.35rem;
+  height: 1.35rem;
+  border-radius: var(--sn-radius);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.period-filter-chip-clear:hover {
+  color: var(--sn-text);
+  background: var(--sn-bg-panel);
+}
+
+@media (max-width: 819px) {
+  .naming-year-periods-panel.is-collapsed .naming-year-periods-grid {
+    display: none;
+  }
+
+  .naming-year-periods-panel.is-collapsed .pending-stats-hint {
+    display: none;
+  }
+
+  .naming-year-periods-panel .pending-stats-title {
+    margin-top: 0;
+  }
+
+  .naming-year-periods-panel.is-open .naming-year-periods-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.24rem;
+    margin-top: 0.35rem;
+  }
+}
+
+@media (min-width: 820px) {
+  .naming-year-periods-toggle {
+    display: none;
+  }
+}

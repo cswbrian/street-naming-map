@@ -9,6 +9,16 @@ export function formatNamingDate(value) {
   return `${yyyy}.${String(mm).padStart(2, '0')}.${String(dd).padStart(2, '0')}`
 }
 
+/** User-facing date: YYYY.MM.DD; bare year unchanged; optional fallback when empty/invalid. */
+export function formatDisplayDate(value, { fallback = null } = {}) {
+  const text = String(value ?? '').trim()
+  if (!text) return fallback
+  const formatted = formatNamingDate(text)
+  if (formatted) return formatted
+  if (/^\d{4}$/.test(text)) return text
+  return fallback ?? text
+}
+
 export function hasRowNamingDate(row) {
   return Boolean(formatNamingDate(row?.naming_date)) || hasNamingYear(row)
 }

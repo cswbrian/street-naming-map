@@ -35,6 +35,10 @@ export function isTimelinesRoutePath(pathname) {
   return /\/timelines\/?$/.test(pathname)
 }
 
+export function isRecordsRoutePath(pathname) {
+  return /\/records\/?$/.test(pathname) || isTimelinesRoutePath(pathname)
+}
+
 export function isStreetRoutePath(pathname) {
   return /\/streets\/[^/]+\/?$/.test(pathname)
 }
@@ -47,7 +51,7 @@ export function getStreetPageIdFromPath(pathname) {
 export function getRouteSuffixFromPath(pathname) {
   if (isNamesRoutePath(pathname)) return 'names'
   if (isAboutRoutePath(pathname)) return 'about'
-  if (isTimelinesRoutePath(pathname)) return 'timelines'
+  if (isRecordsRoutePath(pathname)) return 'records'
   if (isLinkQueueRoutePath(pathname)) return 'link-queue'
   const pageId = getStreetPageIdFromPath(pathname)
   if (pageId) return `streets/${pageId}`
