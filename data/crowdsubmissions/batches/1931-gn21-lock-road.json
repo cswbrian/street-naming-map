@@ -1,0 +1,36 @@
+{
+  "batch_id": "1931-gn21-lock-road",
+  "source": "hkgro",
+  "gazette_only": true,
+  "evidence_schema_version": 2,
+  "gazette_notice_label": "Government Notification No. 21",
+  "publication_date": "1931-01-09",
+  "gazette_url_en": "/egazette/en/1931-gn21.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1931-gn21.pdf",
+  "streets": [
+    {
+      "english_name": "Lock Road",
+      "chinese_name": "樂道",
+      "link_street_code": "11249",
+      "history": [
+        {
+          "publication_date": "1931-01-09",
+          "change_kind": "declare",
+          "event_role": "current_name",
+          "street_name_en": "Lock Road",
+          "street_name_zh": "樂道",
+          "evidence_kind": "gazette_primary",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at Peking Road, 130 feet west of Nathan Road and running in a Northerly direction parallel to Nathan Road, terminating at the North side of K.I.L. 406",
+            "parsed": {
+              "from": "Peking Road, 130 feet west of Nathan Road",
+              "direction": "northerly, parallel to Nathan Road",
+              "to": "North side of K.I.L. 406",
+              "lot_refs": ["K.I.L. 406"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-12T17:52:42.687Z",
+  "updated_at": "2026-07-13T17:10:38.809Z",
   "links": [
     {
       "timeline_id": "code:10003",
@@ -2162,7 +2162,7 @@
       "page_id": "10347-creasy-road",
       "street_code": "10347",
       "event_ids": [
-        "crowd|1951-gn754-jardine-lookout-roads-Creasy-Road-祈禮士道-1951-07-20",
+        "crowd|1951-gn754-jardine-lookout-roads-Creasy-Road-杞鯉詩道-1951-07-20",
         "crowd|1954-gn1151-creasy-road-zh-Creasy-Road-祈禮士道-1954-09-17"
       ],
       "status": "active",
@@ -25714,6 +25714,20 @@
       "note": "backfill-street-page-ids",
       "linked_at": "2026-07-09",
       "linked_by": "backfill-street-page-ids"
+    },
+    {
+      "timeline_id": "code:11249",
+      "page_id": "11249-lock-road",
+      "street_code": "11249",
+      "event_ids": [
+        "crowd|1931-gn21-lock-road-Lock-Road-樂道-1931-01-09"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-13",
+      "linked_by": "apply-crowd-batch"
     }
   ]
 }

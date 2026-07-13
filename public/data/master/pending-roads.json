@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-12T17:52:45.279Z",
+  "generated_at": "2026-07-13T15:58:59.841Z",
   "source_file": "public/data/hk-streets.geojson",
   "notice_stem_index_path": "public/data/master/egazette-notice-stems.json",
   "egazette_pdf_locales_path": "public/data/master/egazette-pdf-locales.json",
   "totals": {
     "total_segments": 39724,
-    "segments_missing_naming_year": 31413,
+    "segments_missing_naming_year": 31412,
     "unique_roads": 12233,
     "unique_roads_with_street_name": 4578,
-    "unique_roads_with_naming_year": 1686,
-    "unique_roads_with_street_name_and_naming_year": 1686,
-    "unique_roads_missing_naming_year": 10547,
-    "unique_roads_missing_naming_year_with_street_name": 2892
+    "unique_roads_with_naming_year": 1687,
+    "unique_roads_with_street_name_and_naming_year": 1687,
+    "unique_roads_missing_naming_year": 10546,
+    "unique_roads_missing_naming_year_with_street_name": 2891
   },
   "kind": "pending",
   "roads": [
@@ -112010,17 +112010,6 @@
       "street_code": "39576",
       "english_name": "LOCARNO AVENUE",
       "chinese_name": "洛卡諾大道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:11249",
-      "street_code": "11249",
-      "english_name": "LOCK ROAD",
-      "chinese_name": "樂道",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
