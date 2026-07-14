@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-07-13T17:17:50.671Z",
+  "generated_at": "2026-07-14T14:58:40.191Z",
   "source_files": {
     "events": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-events.json",
     "centreline_map": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-centreline-map.json"
   },
   "totals": {
-    "master_events": 2096,
-    "mapped_event_ids": 2081,
-    "unmapped_events": 25,
+    "master_events": 2166,
+    "mapped_event_ids": 2139,
+    "unmapped_events": 38,
     "by_source": {
-      "crowdsubmitted": 25
+      "crowdsubmitted": 25,
+      "hkgro": 13
     }
   },
   "events": [
@@ -156,6 +157,162 @@
       "district_raw_zh": null,
       "notice_no": "GN717",
       "name_key": "Lee Tat Street|利達街"
+    },
+    {
+      "event_id": "crowd|1957-gn423-index-cancels-Man-Ming-Lane-文明里-1957-03-22",
+      "source": "hkgro",
+      "publication_date": "1957-03-22",
+      "change_kind": "delete",
+      "street_name_en": "Man Ming Lane",
+      "street_name_zh": "文明里",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN423",
+      "name_key": "Man Ming Lane|文明里"
+    },
+    {
+      "event_id": "crowd|1957-gn423-index-cancels-Sik-On-Terrace-適安臺-1957-03-22",
+      "source": "hkgro",
+      "publication_date": "1957-03-22",
+      "change_kind": "delete",
+      "street_name_en": "Sik On Terrace",
+      "street_name_zh": "適安臺",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN423",
+      "name_key": "Sik On Terrace|適安臺"
+    },
+    {
+      "event_id": "crowd|1957-gn509-gap-beacon-cluster-Pilgrims-Way-碧景林路-1957-04-05",
+      "source": "hkgro",
+      "publication_date": "1957-04-05",
+      "change_kind": "declare",
+      "street_name_en": "Pilgrims Way",
+      "street_name_zh": "碧景林路",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN509",
+      "name_key": "Pilgrims Way|碧景林路"
+    },
+    {
+      "event_id": "crowd|1957-gn510-albany-cancels-Albany-Lane-亞賓尼里-1957-04-05",
+      "source": "hkgro",
+      "publication_date": "1957-04-05",
+      "change_kind": "delete",
+      "street_name_en": "Albany Lane",
+      "street_name_zh": "亞賓尼里",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN510",
+      "name_key": "Albany Lane|亞賓尼里"
+    },
+    {
+      "event_id": "crowd|1957-gn510-albany-cancels-Albany-Path-亞賓尼徑-1957-04-05",
+      "source": "hkgro",
+      "publication_date": "1957-04-05",
+      "change_kind": "delete",
+      "street_name_en": "Albany Path",
+      "street_name_zh": "亞賓尼徑",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN510",
+      "name_key": "Albany Path|亞賓尼徑"
+    },
+    {
+      "event_id": "crowd|1957-gn614-chinese-corrections-intention-Murray-Place-美利台-1957-04-26",
+      "source": "hkgro",
+      "publication_date": "1957-04-26",
+      "change_kind": "rename",
+      "street_name_en": "Murray Place",
+      "street_name_zh": "美利台",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN614",
+      "name_key": "Murray Place|美利台"
+    },
+    {
+      "event_id": "crowd|1957-gn614-chinese-corrections-intention-Prince-Edward-Road-太子道-1957-04-26",
+      "source": "hkgro",
+      "publication_date": "1957-04-26",
+      "change_kind": "rename",
+      "street_name_en": "Prince Edward Road",
+      "street_name_zh": "太子道",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN614",
+      "name_key": "Prince Edward Road|太子道"
+    },
+    {
+      "event_id": "crowd|1957-gn614-chinese-corrections-intention-Salisbury-Avenue-梳士巴利路-1957-04-26",
+      "source": "hkgro",
+      "publication_date": "1957-04-26",
+      "change_kind": "rename",
+      "street_name_en": "Salisbury Avenue",
+      "street_name_zh": "梳士巴利路",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN614",
+      "name_key": "Salisbury Avenue|梳士巴利路"
+    },
+    {
+      "event_id": "crowd|1957-gn1113-tanderagee-road-Tanderagee-Road-丹墀道-1957-08-09",
+      "source": "hkgro",
+      "publication_date": "1957-08-09",
+      "change_kind": "declare",
+      "street_name_en": "Tanderagee Road",
+      "street_name_zh": "丹墀道",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1113",
+      "name_key": "Tanderagee Road|丹墀道"
+    },
+    {
+      "event_id": "crowd|1957-gn1179-harbour-embankments-Harbour-Parade-海港道-1957-08-23",
+      "source": "hkgro",
+      "publication_date": "1957-08-23",
+      "change_kind": "declare",
+      "street_name_en": "Harbour Parade",
+      "street_name_zh": "海港道",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1179",
+      "name_key": "Harbour Parade|海港道"
+    },
+    {
+      "event_id": "crowd|1957-gn1367-chuk-yuen-ngau-tau-kok-Fook-Lai-Road-福來道-1957-10-11",
+      "source": "hkgro",
+      "publication_date": "1957-10-11",
+      "change_kind": "declare",
+      "street_name_en": "Fook Lai Road",
+      "street_name_zh": "福來道",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1367",
+      "name_key": "Fook Lai Road|福來道"
+    },
+    {
+      "event_id": "crowd|2017-gn3555-tier-c-1-1957-10-11",
+      "source": "hkgro",
+      "publication_date": "1957-10-11",
+      "change_kind": "declare",
+      "street_name_en": "Ching Road",
+      "street_name_zh": "青道",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1367",
+      "name_key": "Ching Road|青道"
+    },
+    {
+      "event_id": "crowd|2017-gn3555-tier-c-LungShanRoad--1957-10-11",
+      "source": "hkgro",
+      "publication_date": "1957-10-11",
+      "change_kind": "declare",
+      "street_name_en": "Lung Shan Road",
+      "street_name_zh": "龍山道",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN1367",
+      "name_key": "Lung Shan Road|龍山道"
     },
     {
       "event_id": "crowd|1980-gn2486-tai-po-dai-streets-Dai-Pang-Street-大鵬街-1980-08-08",

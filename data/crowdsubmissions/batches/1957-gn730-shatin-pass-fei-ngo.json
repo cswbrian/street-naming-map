@@ -1,0 +1,76 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn730-shatin-pass-fei-ngo",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.730",
+  "publication_date": "1957-05-24",
+  "gazette_url_en": "/egazette/en/1957-gn730.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1957-gn730.pdf",
+  "streets": [
+    {
+      "english_name": "Shatin Pass Road",
+      "chinese_name": "沙田坳道",
+      "history": [
+        {
+          "publication_date": "1957-05-24",
+          "change_kind": "declare",
+          "street_name_en": "Shatin Pass Road",
+          "street_name_zh": "沙田坳道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road starting at Clear Water Bay Road (near Kai Tak Airport runway 13/31), running north through Chuk Un Village to Sha Tin Pass, then east to Jats Incline as shown on Drawing No. R.K. 740.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 740",
+                  "color": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Clear Water Bay Road",
+                "Jats Incline"
+              ]
+            }
+          },
+          "submitter_remarks": "Gazette ZH 沙田坳道; geojson 沙田㘭道."
+        }
+      ],
+      "link_street_code": "11989",
+      "submitter_remarks": "Gazette ZH 沙田坳道; geojson 沙田㘭道."
+    },
+    {
+      "english_name": "Fei Ngo Shan Road",
+      "chinese_name": "飛鵝山道",
+      "history": [
+        {
+          "publication_date": "1957-05-24",
+          "change_kind": "declare",
+          "street_name_en": "Fei Ngo Shan Road",
+          "street_name_zh": "飛鵝山道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road starting at Clear Water Bay Road near Customs Pass, running north-east, then north-west, then west to Jats Incline as shown on Drawing No. R.K. 740.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 740",
+                  "color": null
+                }
+              ],
+              "referenced_streets_en": [
+                "Clear Water Bay Road",
+                "Jats Incline"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10479"
+    }
+  ]
+}

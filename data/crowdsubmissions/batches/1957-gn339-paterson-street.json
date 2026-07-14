@@ -1,0 +1,71 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn339-paterson-street",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.339",
+  "publication_date": "1957-03-08",
+  "gazette_url_en": "/egazette/en/1957-gn339.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1957-gn339.pdf",
+  "streets": [
+    {
+      "link_street_code": "11665",
+      "english_name": "Paterson Street",
+      "chinese_name": "百德新街",
+      "history": [
+        {
+          "change_kind": "declare",
+          "event_role": "former_name",
+          "street_name_en": "Pennington Street",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "submitter_remarks": "Former name attested in G.N.339 rename notice; separate naming date not recorded on file.",
+          "gazette_location": {
+            "description_raw_en": "Road (part of which was formerly known as Pennington Street) commencing at its junction with Yee Wo Street running in a northerly direction to Great George Street, extending in the same direction into I.L. 470 and M.L. 231 with two right angle reverse turns deviating westwards at some 130 yards from Great George Street then running again in a northerly direction and terminating at public pier No. 45 at the sea front as shown coloured red on Drawing No. R.H. 853.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 853",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Pennington Street",
+                "Yee Wo Street",
+                "Great George Street"
+              ]
+            }
+          }
+        },
+        {
+          "publication_date": "1957-03-08",
+          "change_kind": "rename",
+          "previous_street_name_en": "Pennington Street",
+          "previous_street_name_zh": null,
+          "street_name_en": "Paterson Street",
+          "street_name_zh": "百德新街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road (part of which was formerly known as Pennington Street) commencing at its junction with Yee Wo Street running in a northerly direction to Great George Street, extending in the same direction into I.L. 470 and M.L. 231 with two right angle reverse turns deviating westwards at some 130 yards from Great George Street then running again in a northerly direction and terminating at public pier No. 45 at the sea front as shown coloured red on Drawing No. R.H. 853.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 853",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Pennington Street",
+                "Yee Wo Street",
+                "Great George Street"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

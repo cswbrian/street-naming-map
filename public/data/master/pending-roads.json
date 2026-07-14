@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-13T17:17:50.063Z",
+  "generated_at": "2026-07-14T14:58:19.246Z",
   "source_file": "public/data/hk-streets.geojson",
   "notice_stem_index_path": "public/data/master/egazette-notice-stems.json",
   "egazette_pdf_locales_path": "public/data/master/egazette-pdf-locales.json",
   "totals": {
     "total_segments": 39724,
-    "segments_missing_naming_year": 31384,
+    "segments_missing_naming_year": 31274,
     "unique_roads": 12233,
     "unique_roads_with_street_name": 4578,
-    "unique_roads_with_naming_year": 1688,
-    "unique_roads_with_street_name_and_naming_year": 1688,
-    "unique_roads_missing_naming_year": 10545,
-    "unique_roads_missing_naming_year_with_street_name": 2890
+    "unique_roads_with_naming_year": 1716,
+    "unique_roads_with_street_name_and_naming_year": 1716,
+    "unique_roads_missing_naming_year": 10517,
+    "unique_roads_missing_naming_year_with_street_name": 2862
   },
   "kind": "pending",
   "roads": [
@@ -2840,68 +2840,6 @@
       "segment_count": 15
     },
     {
-      "road_key": "code:12274",
-      "street_code": "12274",
-      "english_name": "TAI TAM RESERVOIR ROAD",
-      "chinese_name": "大潭水塘道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": "crowdsubmitted",
-      "segment_count": 15,
-      "naming_details": {
-        "street_key": "code:12274",
-        "street_code": "12274",
-        "canonical_naming_date": null,
-        "canonical_naming_year": null,
-        "current_name_since_date": null,
-        "first_known_naming_date": "1975-10-24",
-        "derivation_reason": "no_declaration_found",
-        "map_display_date": null,
-        "map_display_year": null,
-        "map_year_source": null,
-        "map_derivation_reason": "no_date",
-        "map_display_event_id": null,
-        "map_display_evidence_kind": null,
-        "canonical_evidence_kind": null,
-        "canonical_evidence_event_id": null,
-        "canonical_event_role": null,
-        "evidence_kind": null,
-        "derived_from": null,
-        "evidence_kind_note": null,
-        "event_count": 1,
-        "name_history": [
-          {
-            "date": "1975-10-24",
-            "change_kind": "rename",
-            "name_en": "Tai Tam Reservoir Road",
-            "name_zh": null,
-            "previous_name_en": "Tytam Reservoir Road",
-            "previous_name_zh": null,
-            "notice_label_en": "G.N.2327",
-            "notice_label_zh": "第2327號",
-            "notice_url_en": "/egazette/en/1975-gn2327.pdf",
-            "notice_url_zh": null,
-            "evidence_kind": "gazette_primary",
-            "is_declaration_event": false,
-            "event_role": "current_name",
-            "derived_from": null,
-            "evidence_kind_note": null,
-            "supplementary_evidence": null,
-            "source": "crowdsubmitted",
-            "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327.",
-            "gazette_location": null
-          }
-        ],
-        "notice_no": null,
-        "notice_key": null,
-        "government_notice_label_en": null,
-        "government_notice_label_zh": null,
-        "government_notice_url_en": "/egazette/en/1975-gn2327.pdf",
-        "government_notice_url_zh": null
-      }
-    },
-    {
       "road_key": "code:12285",
       "street_code": "12285",
       "english_name": "TAI WO HAU ROAD",
@@ -3905,17 +3843,6 @@
       "segment_count": 13
     },
     {
-      "road_key": "code:11124",
-      "street_code": "11124",
-      "english_name": "KWONG FUK ROAD",
-      "chinese_name": "廣福道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 13
-    },
-    {
       "road_key": "code:13086",
       "street_code": "13086",
       "english_name": "MA WO ROAD",
@@ -4448,17 +4375,6 @@
       "street_code": "13742",
       "english_name": "EXPO DRIVE",
       "chinese_name": "博覽道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 12
-    },
-    {
-      "road_key": "code:10479",
-      "street_code": "10479",
-      "english_name": "FEI NGO SHAN ROAD",
-      "chinese_name": "飛鵝山道",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -7249,17 +7165,6 @@
       "segment_count": 9
     },
     {
-      "road_key": "code:10116",
-      "street_code": "10116",
-      "english_name": "CAPE COLLINSON ROAD",
-      "chinese_name": "歌連臣角道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 9
-    },
-    {
       "road_key": "code:10134",
       "street_code": "10134",
       "english_name": "CASTLE PEAK ROAD - LAM TEI",
@@ -7297,17 +7202,6 @@
       "street_code": "14137",
       "english_name": "CHUN SHIN ROAD",
       "chinese_name": "真善路",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 9
-    },
-    {
-      "road_key": "code:10403",
-      "street_code": "10403",
-      "english_name": "EDE ROAD",
-      "chinese_name": "義德道",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -17948,17 +17842,6 @@
       "segment_count": 5
     },
     {
-      "road_key": "code:10051",
-      "street_code": "10051",
-      "english_name": "BEACON HILL ROAD",
-      "chinese_name": "筆架山道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 5
-    },
-    {
       "road_key": "code:39208",
       "street_code": "39208",
       "english_name": "CAMELIA PATH",
@@ -18907,17 +18790,6 @@
       "segment_count": 5
     },
     {
-      "road_key": "code:11494",
-      "street_code": "11494",
-      "english_name": "NAM ON LANE",
-      "chinese_name": "南安里",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 5
-    },
-    {
       "road_key": "code:13058",
       "street_code": "13058",
       "english_name": "NAM SHAN SAN TSUEN ROAD",
@@ -19626,17 +19498,6 @@
       "street_code": "12164",
       "english_name": "STONE NULLAH LANE",
       "chinese_name": "石水渠街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 5
-    },
-    {
-      "road_key": "code:12178",
-      "street_code": "12178",
-      "english_name": "SUN SING STREET",
-      "chinese_name": "新成街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -24088,17 +23949,6 @@
       "segment_count": 4
     },
     {
-      "road_key": "code:10011",
-      "street_code": "10011",
-      "english_name": "ALBERT PATH",
-      "chinese_name": "亞厘畢里",
-      "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 4
-    },
-    {
       "road_key": "code:10036",
       "street_code": "10036",
       "english_name": "AUSTIN AVENUE",
@@ -25327,7 +25177,87 @@
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
-      "segment_count": 4
+      "segment_count": 4,
+      "naming_details": {
+        "street_key": "Man Ming Lane|文明里",
+        "street_code": null,
+        "canonical_naming_date": null,
+        "canonical_naming_year": null,
+        "current_name_since_date": null,
+        "first_known_naming_date": "1957-03-22",
+        "derivation_reason": "no_declaration_found",
+        "map_display_date": null,
+        "map_display_year": null,
+        "map_year_source": null,
+        "map_derivation_reason": "no_date",
+        "map_display_event_id": null,
+        "map_display_evidence_kind": null,
+        "canonical_evidence_kind": null,
+        "canonical_evidence_event_id": null,
+        "canonical_event_role": null,
+        "evidence_kind": null,
+        "derived_from": null,
+        "evidence_kind_note": null,
+        "event_count": 1,
+        "name_history": [
+          {
+            "date": "1957-03-22",
+            "change_kind": "delete",
+            "name_en": "Man Ming Lane",
+            "name_zh": "文明里",
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.423",
+            "notice_label_zh": "第423號",
+            "notice_url_en": "/egazette/en/1957-gn422-423.pdf",
+            "notice_url_zh": "/egazette/zh/1957-gn422-423.pdf",
+            "evidence_kind": "gazette_primary",
+            "is_declaration_event": false,
+            "event_role": "name_removed",
+            "derived_from": null,
+            "evidence_kind_note": null,
+            "supplementary_evidence": null,
+            "source": "hkgro",
+            "submitter_remarks": "Gazette cancels Man Ming Lane (Hong Kong). Not linked to Kowloon Man Ming Lane STREETCODE 11377.",
+            "gazette_location": {
+              "description_raw_en": "It is hereby notified that the following street names in Volume 1 of the 1956 Index of Streets have been cancelled:— Sik On Terrace (適安臺); Man Ming Lane (Hong Kong) (文明里).",
+              "description_raw_zh": null,
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
+          }
+        ],
+        "notice_no": null,
+        "notice_key": null,
+        "government_notice_label_en": null,
+        "government_notice_label_zh": null,
+        "government_notice_url_en": "/egazette/en/1957-gn422-423.pdf",
+        "government_notice_url_zh": null
+      }
     },
     {
       "road_key": "code:11382",
@@ -25935,17 +25865,6 @@
       "segment_count": 4
     },
     {
-      "road_key": "code:12066",
-      "street_code": "12066",
-      "english_name": "SHIU FAI TERRACE",
-      "chinese_name": "肇輝臺",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 4
-    },
-    {
       "road_key": "code:12076",
       "street_code": "12076",
       "english_name": "SHUI CHONG STREET",
@@ -26331,68 +26250,6 @@
       "segment_count": 4
     },
     {
-      "road_key": "code:12627",
-      "street_code": "12627",
-      "english_name": "WAN CHAI GAP ROAD",
-      "chinese_name": "灣仔峽道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": "crowdsubmitted",
-      "segment_count": 4,
-      "naming_details": {
-        "street_key": "code:12627",
-        "street_code": "12627",
-        "canonical_naming_date": null,
-        "canonical_naming_year": null,
-        "current_name_since_date": null,
-        "first_known_naming_date": "1975-10-24",
-        "derivation_reason": "no_declaration_found",
-        "map_display_date": null,
-        "map_display_year": null,
-        "map_year_source": null,
-        "map_derivation_reason": "no_date",
-        "map_display_event_id": null,
-        "map_display_evidence_kind": null,
-        "canonical_evidence_kind": null,
-        "canonical_evidence_event_id": null,
-        "canonical_event_role": null,
-        "evidence_kind": null,
-        "derived_from": null,
-        "evidence_kind_note": null,
-        "event_count": 1,
-        "name_history": [
-          {
-            "date": "1975-10-24",
-            "change_kind": "rename",
-            "name_en": "Wan Chai Gap Road",
-            "name_zh": null,
-            "previous_name_en": "Wanchai Gap Road",
-            "previous_name_zh": null,
-            "notice_label_en": "G.N.2327",
-            "notice_label_zh": "第2327號",
-            "notice_url_en": "/egazette/en/1975-gn2327.pdf",
-            "notice_url_zh": null,
-            "evidence_kind": "gazette_primary",
-            "is_declaration_event": false,
-            "event_role": "current_name",
-            "derived_from": null,
-            "evidence_kind_note": null,
-            "supplementary_evidence": null,
-            "source": "crowdsubmitted",
-            "submitter_remarks": "EN spelling harmonized to Gazetteer of Place Names; Chinese unchanged per G.N.2327.",
-            "gazette_location": null
-          }
-        ],
-        "notice_no": null,
-        "notice_key": null,
-        "government_notice_label_en": null,
-        "government_notice_label_zh": null,
-        "government_notice_url_en": "/egazette/en/1975-gn2327.pdf",
-        "government_notice_url_zh": null
-      }
-    },
-    {
       "road_key": "code:12643",
       "street_code": "12643",
       "english_name": "WAN TAU KOK LANE",
@@ -26419,17 +26276,6 @@
       "street_code": "39506",
       "english_name": "WESTERN ROAD",
       "chinese_name": "西路",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 4
-    },
-    {
-      "road_key": "code:12701",
-      "street_code": "12701",
-      "english_name": "WESTLANDS ROAD",
-      "chinese_name": "華蘭路",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -26485,17 +26331,6 @@
       "street_code": "13708",
       "english_name": "WONG HAU SHAN DRIVE",
       "chinese_name": "皇后山徑",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 4
-    },
-    {
-      "road_key": "code:39490",
-      "street_code": "39490",
-      "english_name": "WOOLWICH ROAD",
-      "chinese_name": "和域道",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -38694,17 +38529,6 @@
       "segment_count": 3
     },
     {
-      "road_key": "code:11523",
-      "street_code": "11523",
-      "english_name": "NGAN HON STREET",
-      "chinese_name": "銀漢街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 3
-    },
-    {
       "road_key": "code:13906",
       "street_code": "13906",
       "english_name": "NIN FUNG ROAD",
@@ -40196,17 +40020,6 @@
       "street_code": "12708",
       "english_name": "WILSON ROAD",
       "chinese_name": "衛信道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 3
-    },
-    {
-      "road_key": "code:12728",
-      "street_code": "12728",
-      "english_name": "WING KWONG STREET",
-      "chinese_name": "榮光街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
@@ -50283,17 +50096,6 @@
       "segment_count": 2
     },
     {
-      "road_key": "code:10864",
-      "street_code": "10864",
-      "english_name": "HUNG FOOK STREET",
-      "chinese_name": "鴻福街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 2
-    },
-    {
       "road_key": "code:39019",
       "street_code": "39019",
       "english_name": "HUNG HING ROAD FLYOVER",
@@ -50585,17 +50387,6 @@
         "government_notice_url_en": "/egazette/en/1979-gn588.pdf",
         "government_notice_url_zh": null
       }
-    },
-    {
-      "road_key": "code:10937",
-      "street_code": "10937",
-      "english_name": "KAI MING STREET",
-      "chinese_name": "啓明街",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 2
     },
     {
       "road_key": "code:10944",
@@ -51991,8 +51782,213 @@
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
-      "naming_source": null,
-      "segment_count": 2
+      "naming_source": "hkgro",
+      "segment_count": 2,
+      "naming_details": {
+        "street_key": "code:11665",
+        "street_code": "11665",
+        "canonical_naming_date": null,
+        "canonical_naming_year": null,
+        "current_name_since_date": null,
+        "first_known_naming_date": "",
+        "derivation_reason": "no_current_name_event",
+        "map_display_date": null,
+        "map_display_year": null,
+        "map_year_source": null,
+        "map_derivation_reason": "no_date",
+        "map_display_event_id": null,
+        "map_display_evidence_kind": null,
+        "canonical_evidence_kind": null,
+        "canonical_evidence_event_id": null,
+        "canonical_event_role": null,
+        "evidence_kind": null,
+        "derived_from": null,
+        "evidence_kind_note": null,
+        "event_count": 3,
+        "name_history": [
+          {
+            "date": "",
+            "change_kind": "declare",
+            "name_en": "Pennington Street",
+            "name_zh": null,
+            "previous_name_en": null,
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.339",
+            "notice_label_zh": "第339號",
+            "notice_url_en": "/egazette/en/1957-gn339.pdf",
+            "notice_url_zh": "/egazette/zh/1957-gn339.pdf",
+            "evidence_kind": "gazette_primary",
+            "is_declaration_event": true,
+            "event_role": "former_name",
+            "derived_from": null,
+            "evidence_kind_note": null,
+            "supplementary_evidence": null,
+            "source": "hkgro",
+            "submitter_remarks": "Former name attested in G.N.339 rename notice; separate naming date not recorded on file.",
+            "gazette_location": {
+              "description_raw_en": "Road (part of which was formerly known as Pennington Street) commencing at its junction with Yee Wo Street running in a northerly direction to Great George Street, extending in the same direction into I.L. 470 and M.L. 231 with two right angle reverse turns deviating westwards at some 130 yards from Great George Street then running again in a northerly direction and terminating at public pier No. 45 at the sea front as shown coloured red on Drawing No. R.H. 853.",
+              "description_raw_zh": null,
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [
+                  {
+                    "label": "R.H. 853",
+                    "color": "red",
+                    "url_en": null
+                  }
+                ],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [
+                  "Pennington Street",
+                  "Yee Wo Street",
+                  "Great George Street"
+                ],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
+          },
+          {
+            "date": "1957-01-30",
+            "change_kind": "rename",
+            "name_en": "Paterson Street",
+            "name_zh": "百德新街",
+            "previous_name_en": "Pennington Street",
+            "previous_name_zh": "邊寧頓街",
+            "notice_label_en": "G.N.154",
+            "notice_label_zh": "第154號",
+            "notice_url_en": "/egazette/en/1957-gn154.pdf",
+            "notice_url_zh": "/egazette/zh/1957-gn154.pdf",
+            "evidence_kind": "gazette_inferred",
+            "is_declaration_event": false,
+            "event_role": "current_name",
+            "derived_from": null,
+            "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred; confirming declaration is G.N.339 (1957-03-08).",
+            "supplementary_evidence": null,
+            "source": "hkgro",
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "No. 154.—URBAN COUNCIL. Notice of intention to change the name of that part of Pennington Street (邊寧頓街) which runs Northwards from Yee Wo Street to Great George Street to Paterson Street (百德新街). Any objections to be notified to the Secretary, Urban Council, within one month. R. W. PRIMROSE, Secretary, Urban Council. 23rd January, 1957.",
+              "description_raw_zh": null,
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": true,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [
+                  "Pennington Street",
+                  "Yee Wo Street",
+                  "Great George Street",
+                  "Paterson Street"
+                ],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
+          },
+          {
+            "date": "1957-03-08",
+            "change_kind": "rename",
+            "name_en": "Paterson Street",
+            "name_zh": "百德新街",
+            "previous_name_en": "Pennington Street",
+            "previous_name_zh": null,
+            "notice_label_en": "G.N.339",
+            "notice_label_zh": "第339號",
+            "notice_url_en": "/egazette/en/1957-gn339.pdf",
+            "notice_url_zh": "/egazette/zh/1957-gn339.pdf",
+            "evidence_kind": "gazette_primary",
+            "is_declaration_event": false,
+            "event_role": "current_name",
+            "derived_from": null,
+            "evidence_kind_note": null,
+            "supplementary_evidence": null,
+            "source": "hkgro",
+            "submitter_remarks": null,
+            "gazette_location": {
+              "description_raw_en": "Road (part of which was formerly known as Pennington Street) commencing at its junction with Yee Wo Street running in a northerly direction to Great George Street, extending in the same direction into I.L. 470 and M.L. 231 with two right angle reverse turns deviating westwards at some 130 yards from Great George Street then running again in a northerly direction and terminating at public pier No. 45 at the sea front as shown coloured red on Drawing No. R.H. 853.",
+              "description_raw_zh": null,
+              "parsed": {
+                "road_form": null,
+                "is_cul_de_sac": false,
+                "is_highway": false,
+                "is_proposed": false,
+                "is_partially_formed": false,
+                "suffix_pending_removal": false,
+                "includes_boundary_sections": false,
+                "is_open_space": false,
+                "commences_at_en": null,
+                "terminates_at_en": null,
+                "runs": [],
+                "length_m": null,
+                "length_unit": null,
+                "plan_refs": [
+                  {
+                    "label": "R.H. 853",
+                    "color": "red",
+                    "url_en": null
+                  }
+                ],
+                "district_en": null,
+                "district_zh": null,
+                "lot_refs": [],
+                "formerly_section_of_en": null,
+                "split_boundary_en": null,
+                "referenced_streets_en": [
+                  "Pennington Street",
+                  "Yee Wo Street",
+                  "Great George Street"
+                ],
+                "unnamed_junction_refs_en": [],
+                "replaces_gn_labels": [],
+                "merged_from_en": [],
+                "merged_from_zh": []
+              }
+            }
+          }
+        ],
+        "notice_no": null,
+        "notice_key": null,
+        "government_notice_label_en": null,
+        "government_notice_label_zh": null,
+        "government_notice_url_en": "/egazette/en/1957-gn339.pdf",
+        "government_notice_url_zh": null
+      }
     },
     {
       "road_key": "code:11672",
@@ -107728,17 +107724,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:10397",
-      "street_code": "10397",
-      "english_name": "EAST EMBANKMENT",
-      "chinese_name": "東堤",
-      "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:13745",
       "street_code": "13745",
       "english_name": "EAST LAGUNA STREET",
@@ -110093,17 +110078,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:10851",
-      "street_code": "10851",
-      "english_name": "HOP YAT ROAD",
-      "chinese_name": "合一道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:10854",
       "street_code": "10854",
       "english_name": "HORNSEY ROAD",
@@ -110505,17 +110479,6 @@
       "english_name": "KAK TIN VILLAGE PINE PATH",
       "chinese_name": "隔田村松林徑",
       "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:10953",
-      "street_code": "10953",
-      "english_name": "KAM FONG STREET",
-      "chinese_name": "甘芳街",
-      "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -111344,17 +111307,6 @@
       "english_name": "KWONG CHUN STREET",
       "chinese_name": "廣進街",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:39476",
-      "street_code": "39476",
-      "english_name": "KWONG FUK BRIDGE",
-      "chinese_name": "廣福橋",
-      "street_type": "Track",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -112820,17 +112772,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:11474",
-      "street_code": "11474",
-      "english_name": "MOUNT NICHOLSON ROAD",
-      "chinese_name": "聶歌信山道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:39555",
       "street_code": "39555",
       "english_name": "MOUTON AVENUE",
@@ -113947,17 +113888,6 @@
       "english_name": "PO LEUNG LANE",
       "chinese_name": "蒲良里",
       "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:11747",
-      "street_code": "11747",
-      "english_name": "PO MAN STREET",
-      "chinese_name": "寶文街",
-      "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -115872,17 +115802,6 @@
       "english_name": "SIENA ONE DRIVE",
       "chinese_name": "海澄徑一段",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:12108",
-      "street_code": "12108",
-      "english_name": "SIK ON STREET",
-      "chinese_name": "適安街",
-      "street_type": "Track",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -118014,33 +117933,11 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:12686",
-      "street_code": "12686",
-      "english_name": "WARWICK ROAD",
-      "chinese_name": "和域道",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:12691",
       "street_code": "12691",
       "english_name": "WATFORD ROAD",
       "chinese_name": "和福道",
       "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:12695",
-      "street_code": "12695",
-      "english_name": "WEST EMBANKMENT",
-      "chinese_name": "西堤",
-      "street_type": "Track",
       "naming_year": null,
       "naming_date": null,
       "naming_source": null,
@@ -118652,17 +118549,6 @@
       "segment_count": 1
     },
     {
-      "road_key": "code:12853",
-      "street_code": "12853",
-      "english_name": "YEN WAH STEPS",
-      "chinese_name": "賢華街",
-      "street_type": "Track",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
       "road_key": "code:39408",
       "street_code": "39408",
       "english_name": "YI HONG PATH",
@@ -118942,17 +118828,6 @@
       "street_code": "13068",
       "english_name": "YUK SHEK LANE",
       "chinese_name": "玉石里",
-      "street_type": "Secondary Road",
-      "naming_year": null,
-      "naming_date": null,
-      "naming_source": null,
-      "segment_count": 1
-    },
-    {
-      "road_key": "code:12941",
-      "street_code": "12941",
-      "english_name": "YUK SHING STREET",
-      "chinese_name": "玉成街",
       "street_type": "Secondary Road",
       "naming_year": null,
       "naming_date": null,

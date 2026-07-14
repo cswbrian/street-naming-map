@@ -1,0 +1,42 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn1149-westlands-road",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1149",
+  "publication_date": "1957-08-16",
+  "gazette_url_en": "/egazette/en/1957-gn1149.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1957-gn1149.pdf",
+  "streets": [
+    {
+      "english_name": "Westlands Road",
+      "chinese_name": "華蘭路",
+      "history": [
+        {
+          "publication_date": "1957-08-16",
+          "change_kind": "declare",
+          "street_name_en": "Westlands Road",
+          "street_name_zh": "華蘭路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with King's Road between Q.B.M.L. 1 and Q.B.I.L. 15 and running generally in a northerly direction and terminating at the Southern boundary of section C of Q.B.M.L. 1 as shown coloured pink on Drawing No. R.H. 894.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 894",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "King's Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12701"
+    }
+  ]
+}

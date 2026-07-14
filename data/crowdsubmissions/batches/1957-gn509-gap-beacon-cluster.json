@@ -1,0 +1,232 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn509-gap-beacon-cluster",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.509",
+  "publication_date": "1957-04-05",
+  "gazette_url_en": "/egazette/en/1957-gn509.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1957-gn509.pdf",
+  "streets": [
+    {
+      "english_name": "Wanchai Gap Road",
+      "chinese_name": "灣仔峽道",
+      "history": [
+        {
+          "publication_date": "1957-04-05",
+          "change_kind": "declare",
+          "street_name_en": "Wanchai Gap Road",
+          "street_name_zh": "灣仔峽道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Queen's Road East near I.L. 652 running generally in a south-westerly direction; crossing Kennedy Road and terminating at its junction with Stubbs Road at Wanchai Gap as shown coloured pink on Drawing No. R.H. 876.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 876",
+                  "color": "pink"
+                }
+              ],
+              "referenced_streets_en": [
+                "Queen's Road East",
+                "Kennedy Road",
+                "Stubbs Road"
+              ]
+            }
+          },
+          "submitter_remarks": "Gazette EN WANCHAI GAP ROAD; geojson WAN CHAI GAP ROAD."
+        }
+      ],
+      "link_street_code": "12627",
+      "submitter_remarks": "Gazette EN WANCHAI GAP ROAD; geojson WAN CHAI GAP ROAD."
+    },
+    {
+      "english_name": "Yen Wah Steps",
+      "chinese_name": "賢華街",
+      "history": [
+        {
+          "publication_date": "1957-04-05",
+          "change_kind": "declare",
+          "street_name_en": "Yen Wah Steps",
+          "street_name_zh": "賢華街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Stepped footpath commencing at its junction with Wanchai Gap Road, running in a south-westerly direction and terminating at Kennedy Road opposite I.L. 1834 as shown coloured brown on Drawing No. R.H. 876.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 876",
+                  "color": "brown"
+                }
+              ],
+              "referenced_streets_en": [
+                "Wanchai Gap Road",
+                "Kennedy Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12853"
+    },
+    {
+      "english_name": "Ede Road",
+      "chinese_name": "義德道",
+      "history": [
+        {
+          "publication_date": "1957-04-05",
+          "change_kind": "declare",
+          "street_name_en": "Ede Road",
+          "street_name_zh": "義德道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Cornwall Street approximately 400 feet to the west of Waterloo Road running in a north westerly direction for approximately 2,400 feet as shown coloured green in Drawing No. R.K. 751A.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 751A",
+                  "color": "green"
+                }
+              ],
+              "referenced_streets_en": [
+                "Cornwall Street",
+                "Waterloo Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10403"
+    },
+    {
+      "english_name": "Warwick Road",
+      "chinese_name": "和域道",
+      "history": [
+        {
+          "publication_date": "1957-04-05",
+          "change_kind": "declare",
+          "street_name_en": "Warwick Road",
+          "street_name_zh": "和域道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Ede Road approximately 800 feet north of Cornwall Street running in a south-westerly direction and terminating at the boundary of N.K.I.L. 3847 as shown coloured yellow in Drawing No. R.K. 751A.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 751A",
+                  "color": "yellow"
+                }
+              ],
+              "referenced_streets_en": [
+                "Ede Road",
+                "Cornwall Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12686"
+    },
+    {
+      "english_name": "Beacon Hill Road",
+      "chinese_name": "筆架山道",
+      "history": [
+        {
+          "publication_date": "1957-04-05",
+          "change_kind": "declare",
+          "street_name_en": "Beacon Hill Road",
+          "street_name_zh": "筆架山道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Cornwall Street near the Beacon Hill tunnel running in a north-westerly direction and terminating at its junction with Tai Woh Ping Road as shown coloured blue in Drawing No. R.K. 751A.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 751A",
+                  "color": "blue"
+                }
+              ],
+              "referenced_streets_en": [
+                "Cornwall Street",
+                "Tai Woh Ping Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10051"
+    },
+    {
+      "english_name": "Pilgrims Way",
+      "chinese_name": "碧景林路",
+      "history": [
+        {
+          "publication_date": "1957-04-05",
+          "change_kind": "declare",
+          "street_name_en": "Pilgrims Way",
+          "street_name_zh": "碧景林路",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Beacon Hill Road 120 feet north of its junction with Cornwall Street through the War Department Kowloon Tsai Married Quarters as shown coloured red in Drawing No. R.K. 751A.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 751A",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Beacon Hill Road",
+                "Cornwall Street"
+              ]
+            }
+          }
+        }
+      ],
+      "submitter_remarks": "No geojson centreline match for Pilgrims Way / 碧景林路."
+    },
+    {
+      "english_name": "Tai Woh Ping Road",
+      "chinese_name": "大窩坪道",
+      "history": [
+        {
+          "publication_date": "1957-04-05",
+          "change_kind": "declare",
+          "street_name_en": "Tai Woh Ping Road",
+          "street_name_zh": "大窩坪道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Taipo Road 200 feet south-east of milestone 3½ and terminating at its junction with Beacon Hill Road as shown coloured brown in Drawing No. R.K. 751A.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 751A",
+                  "color": "brown"
+                }
+              ],
+              "referenced_streets_en": [
+                "Taipo Road",
+                "Beacon Hill Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12289"
+    }
+  ]
+}

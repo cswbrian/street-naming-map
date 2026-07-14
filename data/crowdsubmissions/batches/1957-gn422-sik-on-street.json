@@ -1,0 +1,44 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn422-sik-on-street",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.422",
+  "publication_date": "1957-03-22",
+  "gazette_url_en": "/egazette/en/1957-gn422-423.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1957-gn422-423.pdf",
+  "streets": [
+    {
+      "english_name": "Sik On Street",
+      "chinese_name": "適安街",
+      "history": [
+        {
+          "publication_date": "1957-03-22",
+          "change_kind": "declare",
+          "street_name_en": "Sik On Street",
+          "street_name_zh": "適安街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Stepped street commencing at its junction with Queen's Road East running in a south-westerly direction immediately to the north-west of and parallel to Ship Street and terminating at its junction with Schooner Street as shown coloured red on drawing No. R.H. 860.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 860",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Queen's Road East",
+                "Ship Street",
+                "Schooner Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12108"
+    }
+  ]
+}

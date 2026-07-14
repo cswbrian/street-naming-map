@@ -1,0 +1,49 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn423-index-cancels",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.423",
+  "publication_date": "1957-03-22",
+  "gazette_url_en": "/egazette/en/1957-gn422-423.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1957-gn422-423.pdf",
+  "streets": [
+    {
+      "english_name": "Sik On Terrace",
+      "chinese_name": "適安臺",
+      "history": [
+        {
+          "publication_date": "1957-03-22",
+          "change_kind": "delete",
+          "street_name_en": "Sik On Terrace",
+          "street_name_zh": "適安臺",
+          "evidence_kind": "gazette_primary",
+          "event_role": "name_removed",
+          "notice_type_normalized": "deletion",
+          "gazette_location": {
+            "description_raw_en": "It is hereby notified that the following street names in Volume 1 of the 1956 Index of Streets have been cancelled:— Sik On Terrace (適安臺); Man Ming Lane (Hong Kong) (文明里)."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Man Ming Lane",
+      "chinese_name": "文明里",
+      "history": [
+        {
+          "publication_date": "1957-03-22",
+          "change_kind": "delete",
+          "street_name_en": "Man Ming Lane",
+          "street_name_zh": "文明里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "name_removed",
+          "notice_type_normalized": "deletion",
+          "submitter_remarks": "Gazette cancels Man Ming Lane (Hong Kong). Not linked to Kowloon Man Ming Lane STREETCODE 11377.",
+          "gazette_location": {
+            "description_raw_en": "It is hereby notified that the following street names in Volume 1 of the 1956 Index of Streets have been cancelled:— Sik On Terrace (適安臺); Man Ming Lane (Hong Kong) (文明里)."
+          }
+        }
+      ]
+    }
+  ]
+}

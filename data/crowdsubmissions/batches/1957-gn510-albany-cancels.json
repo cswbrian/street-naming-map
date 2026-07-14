@@ -1,0 +1,50 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn510-albany-cancels",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.510",
+  "publication_date": "1957-04-05",
+  "gazette_url_en": "/egazette/en/1957-gn510.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1957-gn510.pdf",
+  "streets": [
+    {
+      "english_name": "Albany Path",
+      "chinese_name": "亞賓尼徑",
+      "history": [
+        {
+          "publication_date": "1957-04-05",
+          "change_kind": "delete",
+          "street_name_en": "Albany Path",
+          "street_name_zh": "亞賓尼徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "name_removed",
+          "notice_type_normalized": "deletion",
+          "submitter_remarks": "Not Albany Road 雅賓利道 (STREETCODE 10010).",
+          "gazette_location": {
+            "description_raw_en": "It is hereby notified that the following street names in Volume I of the 1956 Index of Streets have been cancelled:— Albany Path (亞賓尼徑); Albany Lane (亞賓尼里)."
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Albany Lane",
+      "chinese_name": "亞賓尼里",
+      "history": [
+        {
+          "publication_date": "1957-04-05",
+          "change_kind": "delete",
+          "street_name_en": "Albany Lane",
+          "street_name_zh": "亞賓尼里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "name_removed",
+          "notice_type_normalized": "deletion",
+          "submitter_remarks": "Not Albany Road 雅賓利道 (STREETCODE 10010).",
+          "gazette_location": {
+            "description_raw_en": "It is hereby notified that the following street names in Volume I of the 1956 Index of Streets have been cancelled:— Albany Path (亞賓尼徑); Albany Lane (亞賓尼里)."
+          }
+        }
+      ]
+    }
+  ]
+}

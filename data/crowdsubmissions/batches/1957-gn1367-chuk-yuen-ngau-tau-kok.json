@@ -1,0 +1,183 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn1367-chuk-yuen-ngau-tau-kok",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1367",
+  "publication_date": "1957-10-11",
+  "gazette_url_en": "/egazette/en/1957-gn1367.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1957-gn1367.pdf",
+  "streets": [
+    {
+      "english_name": "Chun Wah Road",
+      "chinese_name": "振華道",
+      "history": [
+        {
+          "publication_date": "1957-10-11",
+          "change_kind": "declare",
+          "street_name_en": "Chun Wah Road",
+          "street_name_zh": "振華道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at a point on the eastern side of Kun Tong Road approximately 100 feet south of the River Jordan and running for a distance of approximately 2,900 feet in an easterly, south-easterly and northerly direction following the contours of the ground through the Ngau Tau Kok Resettlement Area and terminating at the southern boundary of the Maryknoll Mission School as shown coloured red on Drawing No. R.K. 801.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 801",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "10282"
+    },
+    {
+      "english_name": "Lung Shan Road",
+      "chinese_name": "龍山道",
+      "history": [
+        {
+          "publication_date": "1957-10-11",
+          "change_kind": "declare",
+          "street_name_en": "Lung Shan Road",
+          "street_name_zh": "龍山道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at a point on the western side of Chun Wah Road approximately 1,900 feet from its junction with Kun Tong Road and running for a distance of approximately 1,320 feet in a northwesterly, westerly and southerly direction following the contours of the ground through the Ngau Tau Kok Resettlement Area as shown coloured green on Drawing No. R.K. 801.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 801",
+                  "color": "green"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          },
+          "submitter_remarks": "No geojson centreline match for Lung Shan Road."
+        }
+      ],
+      "submitter_remarks": "No geojson centreline match for Lung Shan Road."
+    },
+    {
+      "english_name": "Chuk Yuen Road",
+      "chinese_name": "竹園道",
+      "history": [
+        {
+          "publication_date": "1957-10-11",
+          "change_kind": "declare",
+          "street_name_en": "Chuk Yuen Road",
+          "street_name_zh": "竹園道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at a point on the western side of Shatin Pass Road approximately 1,550 feet from its junction with Clearwater Bay Road and running generally in a north-westerly direction for a distance of approximately 2,260 feet following the contours of the ground through the Chuk Yuen Resettlement Area as shown coloured red on Drawing No. R.K. 799.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 799",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "10276"
+    },
+    {
+      "english_name": "On Fu Road",
+      "chinese_name": "安富道",
+      "history": [
+        {
+          "publication_date": "1957-10-11",
+          "change_kind": "declare",
+          "street_name_en": "On Fu Road",
+          "street_name_zh": "安富道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at a point on the southern side of Chuk Yuen Road approximately 880 feet from its junction with Shatin Pass Road and running for a distance of approximately 1,520 feet in a southerly and north-westerly direction generally following the contours of the ground through the Chuk Yuen Resettlement Area as shown coloured green on Drawing No. R.K. 799.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 799",
+                  "color": "green"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "11576"
+    },
+    {
+      "english_name": "Fook Lai Road",
+      "chinese_name": "福來道",
+      "history": [
+        {
+          "publication_date": "1957-10-11",
+          "change_kind": "declare",
+          "street_name_en": "Fook Lai Road",
+          "street_name_zh": "福來道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at a point on the western side of Chuk Yuen Road approximately 1,560 feet from its junction with Shatin Pass Road and running generally in a westerly direction for a distance of 510 feet and terminating at its junction with On Fu Road as shown coloured blue on Drawing No. R.K. 799.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 799",
+                  "color": "blue"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          },
+          "submitter_remarks": "No geojson centreline match for Fook Lai Road."
+        }
+      ],
+      "submitter_remarks": "No geojson centreline match for Fook Lai Road."
+    },
+    {
+      "english_name": "Ching Road",
+      "chinese_name": "青道",
+      "history": [
+        {
+          "publication_date": "1957-10-11",
+          "change_kind": "declare",
+          "street_name_en": "Ching Road",
+          "street_name_zh": "青道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at a point on the western side of Chuk Yuen Road approximately 960 feet from its junction with Shatin Pass Road and running generally in a westerly direction for a distance of 720 feet and terminating at its junction with Fook Lai Road as shown coloured yellow on Drawing No. R.K. 799.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 799",
+                  "color": "yellow"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          },
+          "submitter_remarks": "No geojson centreline match for Ching Road."
+        }
+      ],
+      "submitter_remarks": "No geojson centreline match for Ching Road."
+    }
+  ]
+}

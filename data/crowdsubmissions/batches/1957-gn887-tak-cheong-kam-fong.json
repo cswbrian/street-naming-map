@@ -1,0 +1,74 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn887-tak-cheong-kam-fong",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.887",
+  "publication_date": "1957-06-21",
+  "gazette_url_en": "/egazette/en/1957-gn887.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1957-gn887.pdf",
+  "streets": [
+    {
+      "english_name": "Tak Cheong Street",
+      "chinese_name": "德昌街",
+      "history": [
+        {
+          "publication_date": "1957-06-21",
+          "change_kind": "extend",
+          "street_name_en": "Tak Cheong Street",
+          "street_name_zh": "德昌街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Extension of Tak Cheong Street commencing at its junction with Pitt Street following the seawall in a northerly direction to its junction with Cherry Street as shown coloured brown on drawing No. RK 761.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "RK 761",
+                  "color": "brown"
+                }
+              ],
+              "referenced_streets_en": [
+                "Pitt Street",
+                "Cherry Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12301"
+    },
+    {
+      "english_name": "Kam Fong Street",
+      "chinese_name": "甘芳街",
+      "history": [
+        {
+          "publication_date": "1957-06-21",
+          "change_kind": "declare",
+          "street_name_en": "Kam Fong Street",
+          "street_name_zh": "甘芳街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road about 120 feet to the west of Canton Road and parallel to it, commencing at its junction with Soy Street running in a southerly direction for approximately 300 feet and terminating on the northern boundary of K.M.L. 51 as shown coloured red on drawing No. RK 761.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "RK 761",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Canton Road",
+                "Soy Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10953"
+    }
+  ]
+}

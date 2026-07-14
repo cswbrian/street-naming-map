@@ -1,0 +1,154 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn1495-cape-collinson-cluster",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1495",
+  "publication_date": "1957-11-08",
+  "gazette_url_en": "/egazette/en/1957-gn1495.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1957-gn1495.pdf",
+  "streets": [
+    {
+      "english_name": "Cape Collinson Road",
+      "chinese_name": "歌連臣角道",
+      "history": [
+        {
+          "publication_date": "1957-11-08",
+          "change_kind": "declare",
+          "street_name_en": "Cape Collinson Road",
+          "street_name_zh": "歌連臣角道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Shek O Road running easterly along the north side of Pottinger Peak to Cape Collinson as shown on drawing R.H. 893.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 893",
+                  "color": null
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "10116"
+    },
+    {
+      "english_name": "Tytam Reservoir Road",
+      "chinese_name": "大潭水塘道",
+      "history": [
+        {
+          "publication_date": "1957-11-08",
+          "change_kind": "declare",
+          "street_name_en": "Tytam Reservoir Road",
+          "street_name_zh": "大潭水塘道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Wongneichong Gap Road to Tytam Reservoir, crossing Island Road, terminating at Waterworks Pumping Station as shown on drawing R.H. 897.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 897",
+                  "color": null
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          },
+          "submitter_remarks": "Gazette EN Tytam Reservoir Road; geojson Tai Tam Reservoir Road."
+        }
+      ],
+      "link_street_code": "12274",
+      "submitter_remarks": "Gazette EN Tytam Reservoir Road; geojson Tai Tam Reservoir Road."
+    },
+    {
+      "english_name": "Sun Sing Street",
+      "chinese_name": "新成街",
+      "history": [
+        {
+          "publication_date": "1957-11-08",
+          "change_kind": "declare",
+          "street_name_en": "Sun Sing Street",
+          "street_name_zh": "新成街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Shaukiwan Road south-west for about 200 feet as shown on drawing R.H. 902.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 902",
+                  "color": null
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "12178"
+    },
+    {
+      "english_name": "Mount Nicholson Road",
+      "chinese_name": "聶歌信山道",
+      "history": [
+        {
+          "publication_date": "1957-11-08",
+          "change_kind": "declare",
+          "street_name_en": "Mount Nicholson Road",
+          "street_name_zh": "聶歌信山道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Stubbs Road opposite R.B.L. 2436 terminating in a loop at Mount Nicholson Government Quarters as shown on drawing R.H. 898.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 898",
+                  "color": null
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "11474"
+    },
+    {
+      "english_name": "Black's Link",
+      "chinese_name": "布力徑",
+      "history": [
+        {
+          "publication_date": "1957-11-08",
+          "change_kind": "declare",
+          "street_name_en": "Black's Link",
+          "street_name_zh": "布力徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at Wanchai Gap north-east of Mount Cameron and south-west of Mount Nicholson terminating at Wongneichong Gap as shown on drawing R.H. 898.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 898",
+                  "color": null
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "10064"
+    }
+  ]
+}

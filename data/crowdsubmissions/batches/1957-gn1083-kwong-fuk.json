@@ -1,0 +1,65 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn1083-kwong-fuk",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1083",
+  "publication_date": "1957-08-02",
+  "gazette_url_en": "/egazette/en/1957-gn1083.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1957-gn1083.pdf",
+  "streets": [
+    {
+      "english_name": "Kwong Fuk New Bridge",
+      "chinese_name": "廣福新橋",
+      "history": [
+        {
+          "publication_date": "1957-08-02",
+          "change_kind": "declare",
+          "street_name_en": "Kwong Fuk New Bridge",
+          "street_name_zh": "廣福新橋",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "The bridge over the Kwun Yam River at Tai Po Market is officially named Kwong Fuk New Bridge (廣福新橋).",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [],
+              "referenced_streets_en": []
+            }
+          },
+          "submitter_remarks": "Gazette EN Kwong Fuk New Bridge / ZH 廣福新橋; geojson KWONG FUK BRIDGE 廣福橋."
+        }
+      ],
+      "link_street_code": "39476",
+      "submitter_remarks": "Gazette EN Kwong Fuk New Bridge / ZH 廣福新橋; geojson KWONG FUK BRIDGE 廣福橋."
+    },
+    {
+      "english_name": "Kwong Fuk Road",
+      "chinese_name": "大埔廣福道",
+      "history": [
+        {
+          "publication_date": "1957-08-02",
+          "change_kind": "declare",
+          "street_name_en": "Kwong Fuk Road",
+          "street_name_zh": "大埔廣福道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "A section of Muk Fu Ferry Road (commonly known as Tai Po Road) is officially named Kwong Fuk Road, Tai Po (大埔廣福道).",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [],
+              "referenced_streets_en": [
+                "Muk Fu Ferry Road",
+                "Tai Po Road"
+              ]
+            }
+          },
+          "submitter_remarks": "Gazette ZH 大埔廣福道; geojson 廣福道."
+        }
+      ],
+      "link_street_code": "11124",
+      "submitter_remarks": "Gazette ZH 大埔廣福道; geojson 廣福道."
+    }
+  ]
+}

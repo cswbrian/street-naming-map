@@ -1,0 +1,634 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn614-chinese-corrections-intention",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.614",
+  "publication_date": "1957-04-26",
+  "gazette_url_en": "/egazette/en/1957-gn614.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1957-gn614.pdf",
+  "streets": [
+    {
+      "english_name": "Battery Path",
+      "chinese_name": "炮台里",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Battery Path",
+          "previous_street_name_zh": "炮台徑",
+          "street_name_en": "Battery Path",
+          "street_name_zh": "炮台里",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Battery Path: 炮台徑 → 炮台里. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "10045"
+    },
+    {
+      "english_name": "Bonham Road",
+      "chinese_name": "般咸道",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Bonham Road",
+          "previous_street_name_zh": "般含道",
+          "street_name_en": "Bonham Road",
+          "street_name_zh": "般咸道",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Bonham Road: 般含道 → 般咸道. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "10069"
+    },
+    {
+      "english_name": "Ezra's Lane",
+      "chinese_name": "伊沙里",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Ezra's Lane",
+          "previous_street_name_zh": "依沙刺里",
+          "street_name_en": "Ezra's Lane",
+          "street_name_zh": "伊沙里",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Ezra's Lane: 依沙刺里 → 伊沙里. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "10416"
+    },
+    {
+      "english_name": "Li Sing Street",
+      "chinese_name": "李陞街",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Li Sing Street",
+          "previous_street_name_zh": "李星街",
+          "street_name_en": "Li Sing Street",
+          "street_name_zh": "李陞街",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Li Sing Street: 李星街 → 李陞街. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "11225"
+    },
+    {
+      "english_name": "MacDonnell Road",
+      "chinese_name": "麥當勞道",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "MacDonnell Road",
+          "previous_street_name_zh": "麥當奴道",
+          "street_name_en": "MacDonnell Road",
+          "street_name_zh": "麥當勞道",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— MacDonnell Road: 麥當奴道 → 麥當勞道. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "11358"
+    },
+    {
+      "english_name": "Mosque Junction",
+      "chinese_name": "摩羅廟交加街",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Mosque Junction",
+          "previous_street_name_zh": "嚤囉廟交加街",
+          "street_name_en": "Mosque Junction",
+          "street_name_zh": "摩羅廟交加街",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Mosque Junction: 嚤囉廟交加街 → 摩羅廟交加街. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "11465"
+    },
+    {
+      "english_name": "Oaklands Path",
+      "chinese_name": "羅蘭士里",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Oaklands Path",
+          "previous_street_name_zh": "羅蘭士道",
+          "street_name_en": "Oaklands Path",
+          "street_name_zh": "羅蘭士里",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Oaklands Path: 羅蘭士道 → 羅蘭士里. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          },
+          "submitter_remarks": "Gazette new ZH 羅蘭士里; geojson 屋蘭士里. Scan reading uncertain (羅 vs 屋)."
+        }
+      ],
+      "link_street_code": "11560",
+      "submitter_remarks": "Gazette new ZH 羅蘭士里; geojson 屋蘭士里. Scan reading uncertain (羅 vs 屋)."
+    },
+    {
+      "english_name": "Murray Place",
+      "chinese_name": "美利台",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Murray Place",
+          "previous_street_name_zh": "茂利台",
+          "street_name_en": "Murray Place",
+          "street_name_zh": "美利台",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Murray Place: 茂利台 → 美利台. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Chater Road",
+      "chinese_name": "遮打道",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Chater Road",
+          "previous_street_name_zh": "車打道",
+          "street_name_en": "Chater Road",
+          "street_name_zh": "遮打道",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Chater Road: 車打道 → 遮打道. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "10163"
+    },
+    {
+      "english_name": "Gilman Street",
+      "chinese_name": "機利文街",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Gilman Street",
+          "previous_street_name_zh": "機利民街",
+          "street_name_en": "Gilman Street",
+          "street_name_zh": "機利文街",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Gilman Street: 機利民街 → 機利文街. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "10603"
+    },
+    {
+      "english_name": "Rumsey Street",
+      "chinese_name": "林士街",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Rumsey Street",
+          "previous_street_name_zh": "霖士街",
+          "street_name_en": "Rumsey Street",
+          "street_name_zh": "林士街",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Rumsey Street: 霖士街 → 林士街. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "11827"
+    },
+    {
+      "english_name": "Tregunter Path",
+      "chinese_name": "地利根德里",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Tregunter Path",
+          "previous_street_name_zh": "地利根德道",
+          "street_name_en": "Tregunter Path",
+          "street_name_zh": "地利根德里",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Tregunter Path: 地利根德道 → 地利根德里. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "12399"
+    },
+    {
+      "english_name": "Siu Cheung Fong",
+      "chinese_name": "兆祥坊",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Siu Cheung Fong",
+          "previous_street_name_zh": "少長坊",
+          "street_name_en": "Siu Cheung Fong",
+          "street_name_zh": "兆祥坊",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Siu Cheung Fong: 少長坊 → 兆祥坊. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "12115"
+    },
+    {
+      "english_name": "Bridges Street",
+      "chinese_name": "必列者士街",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Bridges Street",
+          "previous_street_name_zh": "必列啫士街",
+          "street_name_en": "Bridges Street",
+          "street_name_zh": "必列者士街",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Bridges Street: 必列啫士街 → 必列者士街. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "10089"
+    },
+    {
+      "english_name": "Kennedy Road",
+      "chinese_name": "堅尼地道",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Kennedy Road",
+          "previous_street_name_zh": "堅彌地道",
+          "street_name_en": "Kennedy Road",
+          "street_name_zh": "堅尼地道",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Kennedy Road: 堅彌地道 → 堅尼地道. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "10982"
+    },
+    {
+      "english_name": "Salisbury Road",
+      "chinese_name": "梳士巴利道",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Salisbury Road",
+          "previous_street_name_zh": "梳利士巴利道",
+          "street_name_en": "Salisbury Road",
+          "street_name_zh": "梳士巴利道",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Salisbury Road: 梳利士巴利道 → 梳士巴利道. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "11869"
+    },
+    {
+      "english_name": "Salisbury Avenue",
+      "chinese_name": "梳士巴利路",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Salisbury Avenue",
+          "previous_street_name_zh": "梳利士巴利路",
+          "street_name_en": "Salisbury Avenue",
+          "street_name_zh": "梳士巴利路",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Salisbury Avenue: 梳利士巴利路 → 梳士巴利路. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Yim Po Fong Street",
+      "chinese_name": "染布房街",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Yim Po Fong Street",
+          "previous_street_name_zh": "染布坊街",
+          "street_name_en": "Yim Po Fong Street",
+          "street_name_zh": "染布房街",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Yim Po Fong Street: 染布坊街 → 染布房街. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "12865"
+    },
+    {
+      "english_name": "Prince Edward Road",
+      "chinese_name": "太子道",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Prince Edward Road",
+          "previous_street_name_zh": "英皇子道",
+          "street_name_en": "Prince Edward Road",
+          "street_name_zh": "太子道",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Prince Edward Road: 英皇子道 → 太子道. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          },
+          "submitter_remarks": "Gazette new ZH 太子道; modern geojson split into Prince Edward Road East/West — not auto-linked."
+        }
+      ],
+      "submitter_remarks": "Gazette new ZH 太子道; modern geojson split into Prince Edward Road East/West — not auto-linked."
+    },
+    {
+      "english_name": "Baker Street",
+      "chinese_name": "必嘉街",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Baker Street",
+          "previous_street_name_zh": "必架街",
+          "street_name_en": "Baker Street",
+          "street_name_zh": "必嘉街",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Baker Street: 必架街 → 必嘉街. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "10041"
+    },
+    {
+      "english_name": "Carnarvon Road",
+      "chinese_name": "加拿分道",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Carnarvon Road",
+          "previous_street_name_zh": "加拿芬道",
+          "street_name_en": "Carnarvon Road",
+          "street_name_zh": "加拿分道",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Carnarvon Road: 加拿芬道 → 加拿分道. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "10123"
+    },
+    {
+      "english_name": "Baker Court",
+      "chinese_name": "必嘉圍",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Baker Court",
+          "previous_street_name_zh": "必架園",
+          "street_name_en": "Baker Court",
+          "street_name_zh": "必嘉圍",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Baker Court: 必架園 → 必嘉圍. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "10040"
+    },
+    {
+      "english_name": "Mosque Street",
+      "chinese_name": "摩羅廟街",
+      "history": [
+        {
+          "publication_date": "1957-04-26",
+          "change_kind": "rename",
+          "previous_street_name_en": "Mosque Street",
+          "previous_street_name_zh": "嚤囉廟街",
+          "street_name_en": "Mosque Street",
+          "street_name_zh": "摩羅廟街",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "chinese_correction",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred until confirming declaration G.N.",
+          "gazette_location": {
+            "description_raw_en": "No. 614.—URBAN COUNCIL. It is hereby notified that it is proposed to change the Chinese characters of the following roads:— Mosque Street: 嚤囉廟街 → 摩羅廟街. Any objection within one month. L. S. SMITH, Secretary, Urban Council. 26th April, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true
+            }
+          }
+        }
+      ],
+      "link_street_code": "11466"
+    }
+  ]
+}

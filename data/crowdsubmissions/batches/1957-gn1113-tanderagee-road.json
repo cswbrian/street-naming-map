@@ -1,0 +1,43 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn1113-tanderagee-road",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1113",
+  "publication_date": "1957-08-09",
+  "gazette_url_en": "/egazette/en/1957-gn1113.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1957-gn1113.pdf",
+  "streets": [
+    {
+      "english_name": "Tanderagee Road",
+      "chinese_name": "丹墀道",
+      "history": [
+        {
+          "publication_date": "1957-08-09",
+          "change_kind": "declare",
+          "street_name_en": "Tanderagee Road",
+          "street_name_zh": "丹墀道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Cul-de-sac commencing at its junction with Plantation Road, at Pollock's Corner with R.B.L. 697, running in a north-easterly direction and terminating at the west corner of No. 372, The Peak, as shown coloured red on Drawing No. R.H. 880.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 880",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Plantation Road"
+              ]
+            }
+          },
+          "submitter_remarks": "No geojson centreline match for Tanderagee Road."
+        }
+      ],
+      "submitter_remarks": "No geojson centreline match for Tanderagee Road."
+    }
+  ]
+}

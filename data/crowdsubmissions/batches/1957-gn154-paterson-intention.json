@@ -1,0 +1,45 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn154-paterson-intention",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.154",
+  "publication_date": "1957-01-30",
+  "gazette_url_en": "/egazette/en/1957-gn154.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1957-gn154.pdf",
+  "streets": [
+    {
+      "link_street_code": "11665",
+      "english_name": "Paterson Street",
+      "chinese_name": "百德新街",
+      "history": [
+        {
+          "publication_date": "1957-01-30",
+          "change_kind": "rename",
+          "previous_street_name_en": "Pennington Street",
+          "previous_street_name_zh": "邊寧頓街",
+          "street_name_en": "Paterson Street",
+          "street_name_zh": "百德新街",
+          "evidence_kind": "gazette_inferred",
+          "event_role": "current_name",
+          "is_declaration_event": false,
+          "notice_type_normalized": "intention_to_change",
+          "evidence_kind_note": "Urban Council intention notice — demote to gazette_inferred; confirming declaration is G.N.339 (1957-03-08).",
+          "gazette_location": {
+            "description_raw_en": "No. 154.—URBAN COUNCIL. Notice of intention to change the name of that part of Pennington Street (邊寧頓街) which runs Northwards from Yee Wo Street to Great George Street to Paterson Street (百德新街). Any objections to be notified to the Secretary, Urban Council, within one month. R. W. PRIMROSE, Secretary, Urban Council. 23rd January, 1957.",
+            "description_raw_zh": null,
+            "parsed": {
+              "is_proposed": true,
+              "referenced_streets_en": [
+                "Pennington Street",
+                "Yee Wo Street",
+                "Great George Street",
+                "Paterson Street"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

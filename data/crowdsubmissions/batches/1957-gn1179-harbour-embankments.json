@@ -1,0 +1,104 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn1179-harbour-embankments",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1179",
+  "publication_date": "1957-08-23",
+  "gazette_url_en": "/egazette/en/1957-gn1179.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1957-gn1179.pdf",
+  "streets": [
+    {
+      "english_name": "West Embankment",
+      "chinese_name": "西堤",
+      "history": [
+        {
+          "publication_date": "1957-08-23",
+          "change_kind": "declare",
+          "street_name_en": "West Embankment",
+          "street_name_zh": "西堤",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Pedestrian way commencing at its junction with Tong Shui Road and running eastwards adjacent to and on the north side of I.L. 7248 and terminating at the east boundary of the lot as shown coloured blue on drawing No. R.H. 914.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 914",
+                  "color": "blue"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tong Shui Road"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "12695"
+    },
+    {
+      "english_name": "East Embankment",
+      "chinese_name": "東堤",
+      "history": [
+        {
+          "publication_date": "1957-08-23",
+          "change_kind": "declare",
+          "street_name_en": "East Embankment",
+          "street_name_zh": "東堤",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Pedestrian way commencing at its junction with Tin Chiu Street and running westwards adjacent to and on the north side of I.L. 7250 and terminating at the west boundary of the lot as shown coloured purple on drawing No. R.H. 914.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 914",
+                  "color": "purple"
+                }
+              ],
+              "referenced_streets_en": [
+                "Tin Chiu Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "10397"
+    },
+    {
+      "english_name": "Harbour Parade",
+      "chinese_name": "海港道",
+      "history": [
+        {
+          "publication_date": "1957-08-23",
+          "change_kind": "declare",
+          "street_name_en": "Harbour Parade",
+          "street_name_zh": "海港道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Shu Kuk Street and running eastwards adjacent to and to the north of I.L. 7249 and terminating at its junction with Kam Hong Street as shown coloured yellow on drawing No. R.H. 914.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 914",
+                  "color": "yellow"
+                }
+              ],
+              "referenced_streets_en": [
+                "Shu Kuk Street",
+                "Kam Hong Street"
+              ]
+            }
+          },
+          "submitter_remarks": "No geojson centreline match for Harbour Parade."
+        }
+      ],
+      "submitter_remarks": "No geojson centreline match for Harbour Parade."
+    }
+  ]
+}

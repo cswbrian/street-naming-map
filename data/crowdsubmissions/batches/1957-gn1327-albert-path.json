@@ -1,0 +1,46 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn1327-albert-path",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1327",
+  "publication_date": "1957-09-27",
+  "gazette_url_en": "/egazette/en/1957-gn1327.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1957-gn1327.pdf",
+  "streets": [
+    {
+      "english_name": "Albert Path",
+      "chinese_name": "亞厘畢徑",
+      "history": [
+        {
+          "publication_date": "1957-09-27",
+          "change_kind": "declare",
+          "street_name_en": "Albert Path",
+          "street_name_zh": "亞厘畢徑",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Stepped footpath commencing at its junction with Lower Albert Road east of the Central Hospital running generally in a southerly direction, crossing Upper Albert Road between the Church Guest House and Government House and terminating at its junction with Albany Road as shown coloured red on Drawing No. R.H. 884.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 884",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Lower Albert Road",
+                "Upper Albert Road",
+                "Albany Road"
+              ]
+            }
+          },
+          "submitter_remarks": "Gazette ZH 亞厘畢徑; geojson 亞厘畢里."
+        }
+      ],
+      "link_street_code": "10011",
+      "submitter_remarks": "Gazette ZH 亞厘畢徑; geojson 亞厘畢里."
+    }
+  ]
+}

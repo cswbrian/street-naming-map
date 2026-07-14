@@ -1,0 +1,182 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn1050-hop-yat-cluster",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.1050",
+  "publication_date": "1957-07-26",
+  "gazette_url_en": "/egazette/en/1957-gn1050.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1957-gn1050.pdf",
+  "streets": [
+    {
+      "english_name": "Hop Yat Road",
+      "chinese_name": "合一道",
+      "history": [
+        {
+          "publication_date": "1957-07-26",
+          "change_kind": "declare",
+          "street_name_en": "Hop Yat Road",
+          "street_name_zh": "合一道",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Tin Kwong Road opposite to Hau Pui Loong Road running in a northerly direction for approximately 100 feet thence in an easterly direction for approximately 130 feet, thence in a southerly direction and terminating at its junction with Tin Kwong Road approximately 160 feet west of Ma Tau Wei Road as shown coloured red in Drawing No. R.K. 768.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 768",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "10851"
+    },
+    {
+      "english_name": "Wing Kwong Street",
+      "chinese_name": "榮光街",
+      "history": [
+        {
+          "publication_date": "1957-07-26",
+          "change_kind": "declare",
+          "street_name_en": "Wing Kwong Street",
+          "street_name_zh": "榮光街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Ma Tau Wei Road approximately 350 feet north of Bailey Street as shown on Drawing No. R.K. 756.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 756",
+                  "color": null
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "12728"
+    },
+    {
+      "english_name": "Kai Ming Street",
+      "chinese_name": "啟明街",
+      "history": [
+        {
+          "publication_date": "1957-07-26",
+          "change_kind": "declare",
+          "street_name_en": "Kai Ming Street",
+          "street_name_zh": "啟明街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Ma Tau Wei Road approximately 200 feet north of Wing Kwong Street as shown on Drawing No. R.K. 756.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 756",
+                  "color": null
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          },
+          "submitter_remarks": "Gazette ZH 啟明街; geojson 啓明街."
+        }
+      ],
+      "link_street_code": "10937",
+      "submitter_remarks": "Gazette ZH 啟明街; geojson 啓明街."
+    },
+    {
+      "english_name": "Hung Fook Street",
+      "chinese_name": "鴻福街",
+      "history": [
+        {
+          "publication_date": "1957-07-26",
+          "change_kind": "declare",
+          "street_name_en": "Hung Fook Street",
+          "street_name_zh": "鴻福街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with To Kwa Wan Road approximately 300 feet south of Chi Kiang Street as shown on Drawing No. R.K. 756.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 756",
+                  "color": null
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "10864"
+    },
+    {
+      "english_name": "Ngan Hon Street",
+      "chinese_name": "銀漢街",
+      "history": [
+        {
+          "publication_date": "1957-07-26",
+          "change_kind": "declare",
+          "street_name_en": "Ngan Hon Street",
+          "street_name_zh": "銀漢街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with To Kwa Wan Road approximately 150 feet south of Chi Kiang Street and terminating at the proposed sea wall as shown on Drawing No. R.K. 756.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 756",
+                  "color": null
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "11523"
+    },
+    {
+      "english_name": "Yuk Shing Street",
+      "chinese_name": "玉成街",
+      "history": [
+        {
+          "publication_date": "1957-07-26",
+          "change_kind": "declare",
+          "street_name_en": "Yuk Shing Street",
+          "street_name_zh": "玉成街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road parallel to and approximately 150 feet east of To Kwa Wan Road, connecting Kai Ming Street and Hung Fook Street as shown on Drawing No. R.K. 756.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.K. 756",
+                  "color": null
+                }
+              ],
+              "referenced_streets_en": []
+            }
+          }
+        }
+      ],
+      "link_street_code": "12941"
+    }
+  ]
+}

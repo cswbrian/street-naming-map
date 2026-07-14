@@ -1,0 +1,74 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn119-nam-on-po-man",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.119",
+  "publication_date": "1957-01-25",
+  "gazette_url_en": "/egazette/en/1957-gn119.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1957-gn119.pdf",
+  "streets": [
+    {
+      "english_name": "Nam On Lane",
+      "chinese_name": "南安里",
+      "history": [
+        {
+          "publication_date": "1957-01-25",
+          "change_kind": "declare",
+          "street_name_en": "Nam On Lane",
+          "street_name_zh": "南安里",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Shau Ki Wan Road along the eastern boundaries of I.L.s 614 & 615 in a north easterly direction for a distance of approximately 43 yards and terminating in its junction with Nam On Street as shown coloured red in Drawing No. R.H. 848.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 848",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Shau Ki Wan Road",
+                "Nam On Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11494"
+    },
+    {
+      "english_name": "Po Man Street",
+      "chinese_name": "寶文街",
+      "history": [
+        {
+          "publication_date": "1957-01-25",
+          "change_kind": "declare",
+          "street_name_en": "Po Man Street",
+          "street_name_zh": "寶文街",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with the northern end of Aldrich Street and running in an easterly direction for a distance of approximately 112 yards and terminating in its junction with Mong Lung Street as shown coloured yellow in Drawing No. R.H. 848.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 848",
+                  "color": "yellow"
+                }
+              ],
+              "referenced_streets_en": [
+                "Aldrich Street",
+                "Mong Lung Street"
+              ]
+            }
+          }
+        }
+      ],
+      "link_street_code": "11747"
+    }
+  ]
+}

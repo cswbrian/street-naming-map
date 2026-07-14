@@ -1,0 +1,44 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1957-gn307-shiu-fai-terrace",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.307",
+  "publication_date": "1957-03-01",
+  "gazette_url_en": "/egazette/en/1957-gn307.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1957-gn307.pdf",
+  "streets": [
+    {
+      "english_name": "Shiu Fai Terrace",
+      "chinese_name": "肇輝台",
+      "history": [
+        {
+          "publication_date": "1957-03-01",
+          "change_kind": "declare",
+          "street_name_en": "Shiu Fai Terrace",
+          "street_name_zh": "肇輝台",
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "Road commencing at its junction with Stubbs Road at I.L. 2421 running in a northerly direction and then in a north-westerly direction across I.L. 2302 to I.L. 7206 thence running in a westerly direction and terminating at the eastern boundary of I.L. 2458 as shown coloured red on Drawing No. R.H. 722/1.",
+            "description_raw_zh": null,
+            "parsed": {
+              "plan_refs": [
+                {
+                  "label": "R.H. 722/1",
+                  "color": "red"
+                }
+              ],
+              "referenced_streets_en": [
+                "Stubbs Road"
+              ]
+            }
+          },
+          "submitter_remarks": "Gazette ZH 肇輝台; geojson 肇輝臺."
+        }
+      ],
+      "link_street_code": "12066",
+      "submitter_remarks": "Gazette ZH 肇輝台; geojson 肇輝臺."
+    }
+  ]
+}
