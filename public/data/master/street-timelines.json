@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-14T14:58:19.584Z",
+  "generated_at": "2026-07-15T16:23:31.308Z",
   "totals": {
-    "timelines": 1882,
-    "linked_active": 1513,
-    "unlinked": 369,
+    "timelines": 1879,
+    "linked_active": 1744,
+    "unlinked": 135,
     "legacy_or_name_only": 0
   },
   "timelines": [
@@ -2548,9 +2548,9 @@
       ]
     },
     {
-      "timeline_id": "Bel-Air Peak Avenue|貝沙山道",
+      "timeline_id": "page:bel-air-peak-avenue",
       "page_id": "bel-air-peak-avenue",
-      "street_code": null,
+      "street_code": "14260",
       "street_name_en": "Bel-Air Peak Avenue",
       "street_name_zh": "貝沙山道",
       "canonical_naming_year": 2009,
@@ -2558,9 +2558,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14260",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -5022,9 +5022,9 @@
       ]
     },
     {
-      "timeline_id": "Chai Kek Road|寨乪路",
+      "timeline_id": "page:chai-kek-road",
       "page_id": "chai-kek-road",
-      "street_code": null,
+      "street_code": "14345",
       "street_name_en": "Chai Kek Road",
       "street_name_zh": "寨乪路",
       "canonical_naming_year": 2011,
@@ -5032,9 +5032,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14345",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -6175,9 +6175,9 @@
       ]
     },
     {
-      "timeline_id": "Chek Lap Kok Road|赤鱲角路",
+      "timeline_id": "page:chek-lap-kok-road",
       "page_id": "chek-lap-kok-road",
-      "street_code": null,
+      "street_code": "14434",
       "street_name_en": "Chek Lap Kok Road",
       "street_name_zh": "赤鱲角路",
       "canonical_naming_year": 2017,
@@ -6185,9 +6185,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14434",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -6923,9 +6923,9 @@
       ]
     },
     {
-      "timeline_id": "Cheung Chau Electric Path|長洲電廠徑",
+      "timeline_id": "page:cheung-chau-electric-path",
       "page_id": "cheung-chau-electric-path",
-      "street_code": null,
+      "street_code": "14315",
       "street_name_en": "Cheung Chau Electric Path",
       "street_name_zh": "長洲電廠徑",
       "canonical_naming_year": 2008,
@@ -6933,9 +6933,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14315",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -8102,9 +8102,9 @@
       ]
     },
     {
-      "timeline_id": "Cheung Tsing Highway|長青公路",
+      "timeline_id": "page:cheung-tsing-highway",
       "page_id": "cheung-tsing-highway",
-      "street_code": null,
+      "street_code": "13785",
       "street_name_en": "Cheung Tsing Highway",
       "street_name_zh": "長青公路",
       "canonical_naming_year": 2009,
@@ -8112,9 +8112,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "13785",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -8687,9 +8687,9 @@
       ]
     },
     {
-      "timeline_id": "Chi Li T P At H|誌烈徑",
+      "timeline_id": "page:chi-li-t-p-at-h",
       "page_id": "chi-li-t-p-at-h",
-      "street_code": null,
+      "street_code": "14526",
       "street_name_en": "Chi Li T P At H",
       "street_name_zh": "誌烈徑",
       "canonical_naming_year": 2022,
@@ -8697,9 +8697,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14526",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -8844,9 +8844,9 @@
       ]
     },
     {
-      "timeline_id": "Chi Tin Street|智田街",
+      "timeline_id": "page:chi-tin-street",
       "page_id": "chi-tin-street",
-      "street_code": null,
+      "street_code": "14540",
       "street_name_en": "Chi Tin Street",
       "street_name_zh": "智田街",
       "canonical_naming_year": 2023,
@@ -8854,9 +8854,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14540",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -9399,9 +9399,9 @@
       ]
     },
     {
-      "timeline_id": "Ching Lai Road|澄麗路",
+      "timeline_id": "page:ching-lai-road",
       "page_id": "ching-lai-road",
-      "street_code": null,
+      "street_code": "14476",
       "street_name_en": "Ching Lai Road",
       "street_name_zh": "澄麗路",
       "canonical_naming_year": 2019,
@@ -9409,9 +9409,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14476",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -9559,7 +9559,7 @@
     },
     {
       "timeline_id": "Ching Road|青道",
-      "page_id": "ching-road",
+      "page_id": null,
       "street_code": null,
       "street_name_en": "Ching Road",
       "street_name_zh": "青道",
@@ -9896,9 +9896,9 @@
       ]
     },
     {
-      "timeline_id": "Ching Yu Path|菁裕徑",
+      "timeline_id": "page:ching-yu-path",
       "page_id": "ching-yu-path",
-      "street_code": null,
+      "street_code": "14454",
       "street_name_en": "Ching Yu Path",
       "street_name_zh": "菁裕徑",
       "canonical_naming_year": 2017,
@@ -9906,9 +9906,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14454",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -10173,9 +10173,9 @@
       ]
     },
     {
-      "timeline_id": "Choi Shing Lane|彩盛里",
+      "timeline_id": "page:choi-shing-lane",
       "page_id": "choi-shing-lane",
-      "street_code": null,
+      "street_code": "14469",
       "street_name_en": "Choi Shing Lane",
       "street_name_zh": "彩盛里",
       "canonical_naming_year": 2018,
@@ -10183,9 +10183,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14469",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -10213,9 +10213,9 @@
       ]
     },
     {
-      "timeline_id": "Choi Tip Street|彩蝶街",
+      "timeline_id": "page:choi-tip-street",
       "page_id": "choi-tip-street",
-      "street_code": null,
+      "street_code": "14520",
       "street_name_en": "Choi Tip Street",
       "street_name_zh": "彩蝶街",
       "canonical_naming_year": 2021,
@@ -10223,9 +10223,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14520",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -10253,9 +10253,9 @@
       ]
     },
     {
-      "timeline_id": "Choi Wing Lane|彩榮里",
+      "timeline_id": "page:choi-wing-lane",
       "page_id": "choi-wing-lane",
-      "street_code": null,
+      "street_code": "14333",
       "street_name_en": "Choi Wing Lane",
       "street_name_zh": "彩榮里",
       "canonical_naming_year": 2010,
@@ -10263,9 +10263,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14333",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -10383,9 +10383,9 @@
       ]
     },
     {
-      "timeline_id": "Chui Fuk Road|翠福路",
+      "timeline_id": "page:chui-fuk-road",
       "page_id": "chui-fuk-road",
-      "street_code": null,
+      "street_code": "14472",
       "street_name_en": "Chui Fuk Road",
       "street_name_zh": "翠福路",
       "canonical_naming_year": 2018,
@@ -10393,9 +10393,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14472",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -10834,9 +10834,9 @@
       ]
     },
     {
-      "timeline_id": "Chun Chi Lane North|振翅里北",
+      "timeline_id": "page:chun-chi-lane-north",
       "page_id": "chun-chi-lane-north",
-      "street_code": null,
+      "street_code": "14420",
       "street_name_en": "Chun Chi Lane North",
       "street_name_zh": "振翅里北",
       "canonical_naming_year": 2017,
@@ -10844,9 +10844,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14420",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -10874,9 +10874,9 @@
       ]
     },
     {
-      "timeline_id": "Chun Chi Lane South|振翅里南",
+      "timeline_id": "page:chun-chi-lane-south",
       "page_id": "chun-chi-lane-south",
-      "street_code": null,
+      "street_code": "14421",
       "street_name_en": "Chun Chi Lane South",
       "street_name_zh": "振翅里南",
       "canonical_naming_year": 2017,
@@ -10884,9 +10884,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14421",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -14504,9 +14504,9 @@
       ]
     },
     {
-      "timeline_id": "Discovery Peak Road|愉峰道",
+      "timeline_id": "page:discovery-peak-road",
       "page_id": "discovery-peak-road",
-      "street_code": null,
+      "street_code": "14509",
       "street_name_en": "Discovery Peak Road",
       "street_name_zh": "愉峰道",
       "canonical_naming_year": 2021,
@@ -14514,9 +14514,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14509",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -16003,9 +16003,9 @@
       ]
     },
     {
-      "timeline_id": "F A Nling Bypass|粉嶺繞道",
+      "timeline_id": "page:f-a-nling-bypass",
       "page_id": "f-a-nling-bypass",
-      "street_code": null,
+      "street_code": "14572",
       "street_name_en": "F A Nling Bypass",
       "street_name_zh": "粉嶺繞道",
       "canonical_naming_year": 2026,
@@ -16013,9 +16013,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14572",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -16725,9 +16725,9 @@
       ]
     },
     {
-      "timeline_id": "Fat Kwong Street Flyover|佛光街天橋",
+      "timeline_id": "page:fat-kwong-street-flyover",
       "page_id": "fat-kwong-street-flyover",
-      "street_code": null,
+      "street_code": "14316",
       "street_name_en": "Fat Kwong Street Flyover",
       "street_name_zh": "佛光街天橋",
       "canonical_naming_year": 2009,
@@ -16735,9 +16735,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14316",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -17154,9 +17154,9 @@
       ]
     },
     {
-      "timeline_id": "Fi R S T Sky Street|航天城第一街",
+      "timeline_id": "page:fi-r-s-t-sky-street",
       "page_id": "fi-r-s-t-sky-street",
-      "street_code": null,
+      "street_code": "14517",
       "street_name_en": "Fi R S T Sky Street",
       "street_name_zh": "航天城第一街",
       "canonical_naming_year": 2021,
@@ -17164,9 +17164,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14517",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -18650,9 +18650,9 @@
       ]
     },
     {
-      "timeline_id": "Fu Fuk Road|富福路",
+      "timeline_id": "page:fu-fuk-road",
       "page_id": "fu-fuk-road",
-      "street_code": null,
+      "street_code": "14473",
       "street_name_en": "Fu Fuk Road",
       "street_name_zh": "富福路",
       "canonical_naming_year": 2018,
@@ -18660,9 +18660,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14473",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -19736,9 +19736,9 @@
       ]
     },
     {
-      "timeline_id": "Fuk Man Road|福民路",
+      "timeline_id": "page:fuk-man-road",
       "page_id": "fuk-man-road",
-      "street_code": null,
+      "street_code": "10552",
       "street_name_en": "Fuk Man Road",
       "street_name_zh": "福民路",
       "canonical_naming_year": 1985,
@@ -19746,9 +19746,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "10552",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -20292,9 +20292,9 @@
       ]
     },
     {
-      "timeline_id": "Fung Cheung Path|鳳翔徑",
+      "timeline_id": "page:fung-cheung-path",
       "page_id": "fung-cheung-path",
-      "street_code": null,
+      "street_code": "14455",
       "street_name_en": "Fung Cheung Path",
       "street_name_zh": "鳳翔徑",
       "canonical_naming_year": 2017,
@@ -20302,9 +20302,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14455",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -20546,9 +20546,9 @@
       ]
     },
     {
-      "timeline_id": "Fung Kwan Path|鳳群徑",
+      "timeline_id": "page:fung-kwan-path",
       "page_id": "fung-kwan-path",
-      "street_code": null,
+      "street_code": "14456",
       "street_name_en": "Fung Kwan Path",
       "street_name_zh": "鳳群徑",
       "canonical_naming_year": 2017,
@@ -20556,9 +20556,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14456",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -20698,9 +20698,9 @@
       ]
     },
     {
-      "timeline_id": "Fung Ling R O A D|鳳嶺路",
+      "timeline_id": "page:fung-ling-r-o-a-d",
       "page_id": "fung-ling-r-o-a-d",
-      "street_code": null,
+      "street_code": "14575",
       "street_name_en": "Fung Ling R O A D",
       "street_name_zh": "鳳嶺路",
       "canonical_naming_year": 2026,
@@ -20708,9 +20708,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14575",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -21195,9 +21195,9 @@
       ]
     },
     {
-      "timeline_id": "Fung Yau Path|鳳攸徑",
+      "timeline_id": "page:fung-yau-path",
       "page_id": "fung-yau-path",
-      "street_code": null,
+      "street_code": "14457",
       "street_name_en": "Fung Yau Path",
       "street_name_zh": "鳳攸徑",
       "canonical_naming_year": 2017,
@@ -21205,9 +21205,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14457",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -21490,9 +21490,9 @@
       ]
     },
     {
-      "timeline_id": "Fung Ying Path|豐盈徑",
+      "timeline_id": "page:fung-ying-path",
       "page_id": "fung-ying-path",
-      "street_code": null,
+      "street_code": "14547",
       "street_name_en": "Fung Ying Path",
       "street_name_zh": "豐盈徑",
       "canonical_naming_year": 2024,
@@ -21500,9 +21500,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14547",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -21530,9 +21530,9 @@
       ]
     },
     {
-      "timeline_id": "Fung Yu Road|豐裕路",
+      "timeline_id": "page:fung-yu-road",
       "page_id": "fung-yu-road",
-      "street_code": null,
+      "street_code": "14413",
       "street_name_en": "Fung Yu Road",
       "street_name_zh": "豐裕路",
       "canonical_naming_year": 2016,
@@ -21540,9 +21540,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14413",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -21700,59 +21700,19 @@
       ]
     },
     {
-      "timeline_id": "Gascoigne Road Flyover|",
+      "timeline_id": "page:gascoigne-road-flyover",
       "page_id": "gascoigne-road-flyover",
-      "street_code": null,
+      "street_code": "14494",
       "street_name_en": "Gascoigne Road Flyover",
       "street_name_zh": null,
       "canonical_naming_year": null,
       "canonical_naming_date": null,
-      "derivation_reason": "no_declaration_found",
-      "event_count": 1,
+      "derivation_reason": "no_current_name_event",
+      "event_count": 2,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
-        "district_hint": null
-      },
-      "name_history": [
-        {
-          "date": "2020-10-23",
-          "change_kind": "other",
-          "name_en": "Gascoigne Road Flyover",
-          "name_zh": null,
-          "previous_name_en": null,
-          "previous_name_zh": null,
-          "notice_label_en": "G.N.6118",
-          "notice_label_zh": "第6118號",
-          "notice_url_en": "/egazette/en/2020-24-43-6118.pdf",
-          "notice_url_zh": "/egazette/zh/2020-24-43-6118.pdf",
-          "evidence_kind": "gazette_primary",
-          "is_declaration_event": false,
-          "event_role": "current_name",
-          "derived_from": null,
-          "evidence_kind_note": null,
-          "supplementary_evidence": null,
-          "source": "egazette_pdf",
-          "submitter_remarks": null,
-          "gazette_location": null
-        }
-      ]
-    },
-    {
-      "timeline_id": "Gascoigne Road Fylover|加士居道天橋",
-      "page_id": "gascoigne-road-fylover",
-      "street_code": null,
-      "street_name_en": "Gascoigne Road Fylover",
-      "street_name_zh": "加士居道天橋",
-      "canonical_naming_year": null,
-      "canonical_naming_date": null,
-      "derivation_reason": "excluded_manual",
-      "event_count": 1,
-      "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14494",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -21769,6 +21729,27 @@
           "notice_url_zh": "/egazette/zh/2020-24-42-5983.pdf",
           "evidence_kind": "gazette_primary",
           "is_declaration_event": true,
+          "event_role": "former_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "egazette_pdf",
+          "submitter_remarks": null,
+          "gazette_location": null
+        },
+        {
+          "date": "2020-10-23",
+          "change_kind": "other",
+          "name_en": "Gascoigne Road Flyover",
+          "name_zh": null,
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.6118",
+          "notice_label_zh": "第6118號",
+          "notice_url_en": "/egazette/en/2020-24-43-6118.pdf",
+          "notice_url_zh": "/egazette/zh/2020-24-43-6118.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": false,
           "event_role": "current_name",
           "derived_from": null,
           "evidence_kind_note": null,
@@ -22276,9 +22257,9 @@
       ]
     },
     {
-      "timeline_id": "Golden Beach Path|黃金泳灘徑",
+      "timeline_id": "page:golden-beach-path",
       "page_id": "golden-beach-path",
-      "street_code": null,
+      "street_code": "14339",
       "street_name_en": "Golden Beach Path",
       "street_name_zh": "黃金泳灘徑",
       "canonical_naming_year": 2011,
@@ -22286,9 +22267,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14339",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -23011,9 +22992,9 @@
       ]
     },
     {
-      "timeline_id": "Ha Mei Road|廈尾路",
+      "timeline_id": "page:ha-mei-road",
       "page_id": "ha-mei-road",
-      "street_code": null,
+      "street_code": "13607",
       "street_name_en": "Ha Mei Road",
       "street_name_zh": "廈尾路",
       "canonical_naming_year": 2013,
@@ -23021,9 +23002,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "13607",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -23719,9 +23700,9 @@
       ]
     },
     {
-      "timeline_id": "Hang Kai Lane|坑溪里",
+      "timeline_id": "page:hang-kai-lane",
       "page_id": "hang-kai-lane",
-      "street_code": null,
+      "street_code": "14403",
       "street_name_en": "Hang Kai Lane",
       "street_name_zh": "坑溪里",
       "canonical_naming_year": 2015,
@@ -23729,9 +23710,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14403",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -25372,9 +25353,9 @@
       ]
     },
     {
-      "timeline_id": "Heung Yip Path|香葉徑",
+      "timeline_id": "page:heung-yip-path",
       "page_id": "heung-yip-path",
-      "street_code": null,
+      "street_code": "14447",
       "street_name_en": "Heung Yip Path",
       "street_name_zh": "香葉徑",
       "canonical_naming_year": 2017,
@@ -25382,9 +25363,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14447",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -25483,9 +25464,9 @@
       ]
     },
     {
-      "timeline_id": "Heung Yuen Wai Highway|香園圍公路",
+      "timeline_id": "page:heung-yuen-wai-highway",
       "page_id": "heung-yuen-wai-highway",
-      "street_code": null,
+      "street_code": "14475",
       "street_name_en": "Heung Yuen Wai Highway",
       "street_name_zh": "香園圍公路",
       "canonical_naming_year": 2019,
@@ -25493,9 +25474,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14475",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -27036,9 +27017,9 @@
       ]
     },
     {
-      "timeline_id": "Ho Chung North Road|蠔涌北路",
+      "timeline_id": "page:ho-chung-north-road",
       "page_id": "ho-chung-north-road",
-      "street_code": null,
+      "street_code": "14492",
       "street_name_en": "Ho Chung North Road",
       "street_name_zh": "蠔涌北路",
       "canonical_naming_year": 2020,
@@ -27046,9 +27027,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14492",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -28029,9 +28010,9 @@
       ]
     },
     {
-      "timeline_id": "Hoi Long Path|海浪徑",
+      "timeline_id": "page:hoi-long-path",
       "page_id": "hoi-long-path",
-      "street_code": null,
+      "street_code": "14323",
       "street_name_en": "Hoi Long Path",
       "street_name_zh": "海浪徑",
       "canonical_naming_year": 2009,
@@ -28039,9 +28020,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14323",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -28149,9 +28130,9 @@
       ]
     },
     {
-      "timeline_id": "Hoi Sha Path|海沙徑",
+      "timeline_id": "page:hoi-sha-path",
       "page_id": "hoi-sha-path",
-      "street_code": null,
+      "street_code": "14484",
       "street_name_en": "Hoi Sha Path",
       "street_name_zh": "海沙徑",
       "canonical_naming_year": 2019,
@@ -28159,9 +28140,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14484",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -28189,9 +28170,9 @@
       ]
     },
     {
-      "timeline_id": "Hoi Shin L A N E|海善里",
+      "timeline_id": "page:hoi-shin-l-a-n-e",
       "page_id": "hoi-shin-l-a-n-e",
-      "street_code": null,
+      "street_code": "14529",
       "street_name_en": "Hoi Shin L A N E",
       "street_name_zh": "海善里",
       "canonical_naming_year": 2022,
@@ -28199,9 +28180,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14529",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -28348,9 +28329,9 @@
       ]
     },
     {
-      "timeline_id": "Hoi Tat Street|海達街",
+      "timeline_id": "page:hoi-tat-street",
       "page_id": "hoi-tat-street",
-      "street_code": null,
+      "street_code": "14524",
       "street_name_en": "Hoi Tat Street",
       "street_name_zh": "海達街",
       "canonical_naming_year": 2022,
@@ -28358,9 +28339,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14524",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -28457,9 +28438,9 @@
       ]
     },
     {
-      "timeline_id": "Hoi Ying R O A D|海映路",
+      "timeline_id": "page:hoi-ying-r-o-a-d",
       "page_id": "hoi-ying-r-o-a-d",
-      "street_code": null,
+      "street_code": "14532",
       "street_name_en": "Hoi Ying R O A D",
       "street_name_zh": "海映路",
       "canonical_naming_year": 2023,
@@ -28467,9 +28448,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14532",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -29150,9 +29131,9 @@
       ]
     },
     {
-      "timeline_id": "Hong Kong-Zhuhai-Macao Bridge Hong Kong Link Road|港珠澳大橋香港連接路",
+      "timeline_id": "page:hong-kong-zhuhai-macao-bridge-hong-kong-link-roa",
       "page_id": "hong-kong-zhuhai-macao-bridge-hong-kong-link-roa",
-      "street_code": null,
+      "street_code": "14435",
       "street_name_en": "Hong Kong-Zhuhai-Macao Bridge Hong Kong Link Road",
       "street_name_zh": "港珠澳大橋香港連接路",
       "canonical_naming_year": 2017,
@@ -29160,9 +29141,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14435",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -29990,9 +29971,9 @@
       ]
     },
     {
-      "timeline_id": "Hung Hom Bypass|紅磡繞道",
+      "timeline_id": "page:hung-hom-bypass",
       "page_id": "hung-hom-bypass",
-      "street_code": null,
+      "street_code": "14477",
       "street_name_en": "Hung Hom Bypass",
       "street_name_zh": "紅磡繞道",
       "canonical_naming_year": 2019,
@@ -30000,9 +29981,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14477",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -30239,9 +30220,9 @@
       ]
     },
     {
-      "timeline_id": "Hung Leng North Road|孔嶺北路",
+      "timeline_id": "page:hung-leng-north-road",
       "page_id": "hung-leng-north-road",
-      "street_code": null,
+      "street_code": "14480",
       "street_name_en": "Hung Leng North Road",
       "street_name_zh": "孔嶺北路",
       "canonical_naming_year": 2019,
@@ -30249,9 +30230,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14480",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -30449,9 +30430,9 @@
       ]
     },
     {
-      "timeline_id": "Hung Pak Road|洪柏路",
+      "timeline_id": "page:hung-pak-road",
       "page_id": "hung-pak-road",
-      "street_code": null,
+      "street_code": "14483",
       "street_name_en": "Hung Pak Road",
       "street_name_zh": "洪柏路",
       "canonical_naming_year": 2019,
@@ -30459,9 +30440,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14483",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -33921,9 +33902,9 @@
       ]
     },
     {
-      "timeline_id": "Kai Pak Ling Road|雞伯嶺路",
+      "timeline_id": "page:kai-pak-ling-road",
       "page_id": "kai-pak-ling-road",
-      "street_code": null,
+      "street_code": "14344",
       "street_name_en": "Kai Pak Ling Road",
       "street_name_zh": "雞伯嶺路",
       "canonical_naming_year": 2011,
@@ -33931,9 +33912,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14344",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -33961,9 +33942,9 @@
       ]
     },
     {
-      "timeline_id": "Kai San Road|啟新道",
+      "timeline_id": "page:kai-san-road",
       "page_id": "kai-san-road",
-      "street_code": null,
+      "street_code": "14450",
       "street_name_en": "Kai San Road",
       "street_name_zh": "啟新道",
       "canonical_naming_year": 2017,
@@ -33971,9 +33952,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14450",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -34075,46 +34056,6 @@
               "merged_from_zh": []
             }
           }
-        }
-      ]
-    },
-    {
-      "timeline_id": "Kai Tak Interchange|啟德交匯處",
-      "page_id": "kai-tak-interchange",
-      "street_code": null,
-      "street_name_en": "Kai Tak Interchange",
-      "street_name_zh": "啟德交匯處",
-      "canonical_naming_year": 2025,
-      "canonical_naming_date": "2025-11-21",
-      "derivation_reason": "declaration_earliest",
-      "event_count": 1,
-      "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
-        "district_hint": null
-      },
-      "name_history": [
-        {
-          "date": "2025-11-21",
-          "change_kind": "declare",
-          "name_en": "Kai Tak Interchange",
-          "name_zh": "啟德交匯處",
-          "previous_name_en": null,
-          "previous_name_zh": null,
-          "notice_label_en": "G.N.7381",
-          "notice_label_zh": "第7381號",
-          "notice_url_en": "/egazette/en/2025-29-47-7381.pdf",
-          "notice_url_zh": "/egazette/zh/2025-29-47-7381.pdf",
-          "evidence_kind": "gazette_primary",
-          "is_declaration_event": true,
-          "event_role": "current_name",
-          "derived_from": null,
-          "evidence_kind_note": null,
-          "supplementary_evidence": null,
-          "source": "landsd",
-          "submitter_remarks": null,
-          "gazette_location": null
         }
       ]
     },
@@ -34326,9 +34267,9 @@
       ]
     },
     {
-      "timeline_id": "Kai Yung Lane|啟融里",
+      "timeline_id": "page:kai-yung-lane",
       "page_id": "kai-yung-lane",
-      "street_code": null,
+      "street_code": "14422",
       "street_name_en": "Kai Yung Lane",
       "street_name_zh": "啟融里",
       "canonical_naming_year": 2017,
@@ -34336,9 +34277,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14422",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -34715,9 +34656,9 @@
       ]
     },
     {
-      "timeline_id": "Kam Kong Road|錦江路",
+      "timeline_id": "page:kam-kong-road",
       "page_id": "kam-kong-road",
-      "street_code": null,
+      "street_code": "14418",
       "street_name_en": "Kam Kong Road",
       "street_name_zh": "錦江路",
       "canonical_naming_year": 2017,
@@ -34725,9 +34666,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14418",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -34824,9 +34765,9 @@
       ]
     },
     {
-      "timeline_id": "Kam Pok Road East|錦壆路東",
+      "timeline_id": "page:kam-pok-road-east",
       "page_id": "kam-pok-road-east",
-      "street_code": null,
+      "street_code": "14379",
       "street_name_en": "Kam Pok Road East",
       "street_name_zh": "錦壆路東",
       "canonical_naming_year": 2013,
@@ -34834,9 +34775,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14379",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -34864,9 +34805,9 @@
       ]
     },
     {
-      "timeline_id": "Kam Pok Road West|錦壆路西",
+      "timeline_id": "page:kam-pok-road-west",
       "page_id": "kam-pok-road-west",
-      "street_code": null,
+      "street_code": "14380",
       "street_name_en": "Kam Pok Road West",
       "street_name_zh": "錦壆路西",
       "canonical_naming_year": 2013,
@@ -34874,9 +34815,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14380",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -36384,9 +36325,9 @@
       ]
     },
     {
-      "timeline_id": "Kin Cheung Street|建翔街",
+      "timeline_id": "page:kin-cheung-street",
       "page_id": "kin-cheung-street",
-      "street_code": null,
+      "street_code": "14458",
       "street_name_en": "Kin Cheung Street",
       "street_name_zh": "建翔街",
       "canonical_naming_year": 2017,
@@ -36394,9 +36335,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14458",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -37379,9 +37320,9 @@
       ]
     },
     {
-      "timeline_id": "Kin Yip Path|建業徑",
+      "timeline_id": "page:kin-yip-path",
       "page_id": "kin-yip-path",
-      "street_code": null,
+      "street_code": "14459",
       "street_name_en": "Kin Yip Path",
       "street_name_zh": "建業徑",
       "canonical_naming_year": 2017,
@@ -37389,9 +37330,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14459",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -38436,9 +38377,9 @@
       ]
     },
     {
-      "timeline_id": "Kiu Sau Path|橋壽徑",
+      "timeline_id": "page:kiu-sau-path",
       "page_id": "kiu-sau-path",
-      "street_code": null,
+      "street_code": "14381",
       "street_name_en": "Kiu Sau Path",
       "street_name_zh": "橋壽徑",
       "canonical_naming_year": 2013,
@@ -38446,9 +38387,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14381",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -38476,9 +38417,9 @@
       ]
     },
     {
-      "timeline_id": "Kiu Tak Path|橋德徑",
+      "timeline_id": "page:kiu-tak-path",
       "page_id": "kiu-tak-path",
-      "street_code": null,
+      "street_code": "14382",
       "street_name_en": "Kiu Tak Path",
       "street_name_zh": "橋德徑",
       "canonical_naming_year": 2013,
@@ -38486,9 +38427,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14382",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -38669,9 +38610,9 @@
       ]
     },
     {
-      "timeline_id": "Ko Fei Lane North|高飛里北",
+      "timeline_id": "page:ko-fei-lane-north",
       "page_id": "ko-fei-lane-north",
-      "street_code": null,
+      "street_code": "14423",
       "street_name_en": "Ko Fei Lane North",
       "street_name_zh": "高飛里北",
       "canonical_naming_year": 2017,
@@ -38679,9 +38620,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14423",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -38709,9 +38650,9 @@
       ]
     },
     {
-      "timeline_id": "Ko Fei Lane South|高飛里南",
+      "timeline_id": "page:ko-fei-lane-south",
       "page_id": "ko-fei-lane-south",
-      "street_code": null,
+      "street_code": "14424",
       "street_name_en": "Ko Fei Lane South",
       "street_name_zh": "高飛里南",
       "canonical_naming_year": 2017,
@@ -38719,9 +38660,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14424",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -38789,9 +38730,9 @@
       ]
     },
     {
-      "timeline_id": "Ko Ling Road|高嶺道",
+      "timeline_id": "page:ko-ling-road",
       "page_id": "ko-ling-road",
-      "street_code": null,
+      "street_code": "14521",
       "street_name_en": "Ko Ling Road",
       "street_name_zh": "高嶺道",
       "canonical_naming_year": 2021,
@@ -38799,9 +38740,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14521",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -38879,9 +38820,9 @@
       ]
     },
     {
-      "timeline_id": "Ko Nga Lane|高雅里",
+      "timeline_id": "page:ko-nga-lane",
       "page_id": "ko-nga-lane",
-      "street_code": null,
+      "street_code": "14523",
       "street_name_en": "Ko Nga Lane",
       "street_name_zh": "高雅里",
       "canonical_naming_year": 2022,
@@ -38889,9 +38830,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14523",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -38919,9 +38860,9 @@
       ]
     },
     {
-      "timeline_id": "Ko Po Path|高埔徑",
+      "timeline_id": "page:ko-po-path",
       "page_id": "ko-po-path",
-      "street_code": null,
+      "street_code": "14467",
       "street_name_en": "Ko Po Path",
       "street_name_zh": "高埔徑",
       "canonical_naming_year": 2017,
@@ -38929,9 +38870,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14467",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -42144,9 +42085,9 @@
       ]
     },
     {
-      "timeline_id": "Kwun Sh A P At H|觀沙徑",
+      "timeline_id": "page:kwun-sh-a-p-at-h",
       "page_id": "kwun-sh-a-p-at-h",
-      "street_code": null,
+      "street_code": "14538",
       "street_name_en": "Kwun Sh A P At H",
       "street_name_zh": "觀沙徑",
       "canonical_naming_year": 2023,
@@ -42154,9 +42095,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14538",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -42184,9 +42125,9 @@
       ]
     },
     {
-      "timeline_id": "Kwun Tong Bypass|觀塘繞道",
+      "timeline_id": "page:kwun-tong-bypass",
       "page_id": "kwun-tong-bypass",
-      "street_code": null,
+      "street_code": "14499",
       "street_name_en": "Kwun Tong Bypass",
       "street_name_zh": "觀塘繞道",
       "canonical_naming_year": 2020,
@@ -42194,9 +42135,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14499",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -42349,9 +42290,9 @@
       ]
     },
     {
-      "timeline_id": "L Am T In In Ter Ch A Ng E|藍田交匯處",
+      "timeline_id": "page:l-am-t-in-in-ter-ch-a-ng-e",
       "page_id": "l-am-t-in-in-ter-ch-a-ng-e",
-      "street_code": null,
+      "street_code": "14527",
       "street_name_en": "L Am T In In Ter Ch A Ng E",
       "street_name_zh": "藍田交匯處",
       "canonical_naming_year": 2022,
@@ -42359,9 +42300,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14527",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -42642,9 +42583,9 @@
       ]
     },
     {
-      "timeline_id": "Lai Chui Path|麗翠徑",
+      "timeline_id": "page:lai-chui-path",
       "page_id": "lai-chui-path",
-      "street_code": null,
+      "street_code": "14493",
       "street_name_en": "Lai Chui Path",
       "street_name_zh": "麗翠徑",
       "canonical_naming_year": 2020,
@@ -42652,9 +42593,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14493",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -43357,9 +43298,9 @@
       ]
     },
     {
-      "timeline_id": "Lai Ying Street|荔盈街",
+      "timeline_id": "page:lai-ying-street",
       "page_id": "lai-ying-street",
-      "street_code": null,
+      "street_code": "14468",
       "street_name_en": "Lai Ying Street",
       "street_name_zh": "荔盈街",
       "canonical_naming_year": 2017,
@@ -43367,9 +43308,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14468",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -43945,9 +43886,9 @@
       ]
     },
     {
-      "timeline_id": "Lam Yu Road|欖裕路",
+      "timeline_id": "page:lam-yu-road",
       "page_id": "lam-yu-road",
-      "street_code": null,
+      "street_code": "14310",
       "street_name_en": "Lam Yu Road",
       "street_name_zh": "欖裕路",
       "canonical_naming_year": 2008,
@@ -43955,9 +43896,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14310",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -44254,9 +44195,9 @@
       ]
     },
     {
-      "timeline_id": "Lau Yip Street|流業街",
+      "timeline_id": "page:lau-yip-street",
       "page_id": "lau-yip-street",
-      "street_code": null,
+      "street_code": "14404",
       "street_name_en": "Lau Yip Street",
       "street_name_zh": "流業街",
       "canonical_naming_year": 2015,
@@ -44264,9 +44205,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14404",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -44629,9 +44570,9 @@
       ]
     },
     {
-      "timeline_id": "Legislative Council Road|立法會道",
+      "timeline_id": "page:legislative-council-road",
       "page_id": "legislative-council-road",
-      "street_code": null,
+      "street_code": "14338",
       "street_name_en": "Legislative Council Road",
       "street_name_zh": "立法會道",
       "canonical_naming_year": 2011,
@@ -44639,9 +44580,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14338",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -45594,9 +45535,9 @@
       ]
     },
     {
-      "timeline_id": "Liu Pok Road|料壆路",
+      "timeline_id": "page:liu-pok-road",
       "page_id": "liu-pok-road",
-      "street_code": null,
+      "street_code": "14331",
       "street_name_en": "Liu Pok Road",
       "street_name_zh": "料壆路",
       "canonical_naming_year": 2010,
@@ -45604,9 +45545,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14331",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -45954,9 +45895,9 @@
       ]
     },
     {
-      "timeline_id": "LOHAS Park Road|康城路",
+      "timeline_id": "page:lohas-park-road",
       "page_id": "lohas-park-road",
-      "street_code": null,
+      "street_code": "14317",
       "street_name_en": "LOHAS Park Road",
       "street_name_zh": "康城路",
       "canonical_naming_year": 2009,
@@ -45964,9 +45905,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14317",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -47131,9 +47072,9 @@
       ]
     },
     {
-      "timeline_id": "Long Fung Street|朗風街",
+      "timeline_id": "page:long-fung-street",
       "page_id": "long-fung-street",
-      "street_code": null,
+      "street_code": "14554",
       "street_name_en": "Long Fung Street",
       "street_name_zh": "朗風街",
       "canonical_naming_year": 2025,
@@ -47141,9 +47082,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14554",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -47171,9 +47112,9 @@
       ]
     },
     {
-      "timeline_id": "Long Ngai Path|朗藝徑",
+      "timeline_id": "page:long-ngai-path",
       "page_id": "long-ngai-path",
-      "street_code": null,
+      "street_code": "14462",
       "street_name_en": "Long Ngai Path",
       "street_name_zh": "朗藝徑",
       "canonical_naming_year": 2017,
@@ -47181,9 +47122,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14462",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -48065,9 +48006,9 @@
       ]
     },
     {
-      "timeline_id": "Lung Chak Road|龍澤路",
+      "timeline_id": "page:lung-chak-road",
       "page_id": "lung-chak-road",
-      "street_code": null,
+      "street_code": "14383",
       "street_name_en": "Lung Chak Road",
       "street_name_zh": "龍澤路",
       "canonical_naming_year": 2013,
@@ -48075,9 +48016,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14383",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -48230,9 +48171,9 @@
       ]
     },
     {
-      "timeline_id": "Lung Chun Road|龍峻路",
+      "timeline_id": "page:lung-chun-road",
       "page_id": "lung-chun-road",
-      "street_code": null,
+      "street_code": "14503",
       "street_name_en": "Lung Chun Road",
       "street_name_zh": "龍峻路",
       "canonical_naming_year": 2021,
@@ -48240,9 +48181,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14503",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -48320,9 +48261,9 @@
       ]
     },
     {
-      "timeline_id": "Lung Hop Street|龍合街",
+      "timeline_id": "page:lung-hop-street",
       "page_id": "lung-hop-street",
-      "street_code": null,
+      "street_code": "14478",
       "street_name_en": "Lung Hop Street",
       "street_name_zh": "龍合街",
       "canonical_naming_year": 2019,
@@ -48330,9 +48271,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14478",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -48440,9 +48381,9 @@
       ]
     },
     {
-      "timeline_id": "Lung Kui Road|龍駒道",
+      "timeline_id": "page:lung-kui-road",
       "page_id": "lung-kui-road",
-      "street_code": null,
+      "street_code": "14416",
       "street_name_en": "Lung Kui Road",
       "street_name_zh": "龍駒道",
       "canonical_naming_year": 2016,
@@ -48450,9 +48391,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14416",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -48692,7 +48633,7 @@
     },
     {
       "timeline_id": "Lung Shan Road|龍山道",
-      "page_id": "lung-shan-road",
+      "page_id": null,
       "street_code": null,
       "street_name_en": "Lung Shan Road",
       "street_name_zh": "龍山道",
@@ -48779,9 +48720,9 @@
       ]
     },
     {
-      "timeline_id": "Lung T Ing L A N E|龍庭里",
+      "timeline_id": "page:lung-t-ing-l-a-n-e",
       "page_id": "lung-t-ing-l-a-n-e",
-      "street_code": null,
+      "street_code": "14545",
       "street_name_en": "Lung T Ing L A N E",
       "street_name_zh": "龍庭里",
       "canonical_naming_year": 2024,
@@ -48789,9 +48730,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14545",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -48899,9 +48840,9 @@
       ]
     },
     {
-      "timeline_id": "Lung Tat P At H|龍達徑",
+      "timeline_id": "page:lung-tat-p-at-h",
       "page_id": "lung-tat-p-at-h",
-      "street_code": null,
+      "street_code": "14539",
       "street_name_en": "Lung Tat P At H",
       "street_name_zh": "龍達徑",
       "canonical_naming_year": 2023,
@@ -48909,9 +48850,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14539",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -48979,9 +48920,9 @@
       ]
     },
     {
-      "timeline_id": "Lung Wah Street|龍華街",
+      "timeline_id": "page:lung-wah-street",
       "page_id": "lung-wah-street",
-      "street_code": null,
+      "street_code": "11328",
       "street_name_en": "Lung Wah Street",
       "street_name_zh": "龍華街",
       "canonical_naming_year": 2010,
@@ -48989,9 +48930,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "11328",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -49019,9 +48960,9 @@
       ]
     },
     {
-      "timeline_id": "Lung Wo Road|龍和道",
+      "timeline_id": "page:lung-wo-road",
       "page_id": "lung-wo-road",
-      "street_code": null,
+      "street_code": "14322",
       "street_name_en": "Lung Wo Road",
       "street_name_zh": "龍和道",
       "canonical_naming_year": 2009,
@@ -49029,9 +48970,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 2,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14322",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -49090,9 +49031,9 @@
       ]
     },
     {
-      "timeline_id": "Lung Wui Road|龍匯道",
+      "timeline_id": "page:lung-wui-road",
       "page_id": "lung-wui-road",
-      "street_code": null,
+      "street_code": "13790",
       "street_name_en": "Lung Wui Road",
       "street_name_zh": "龍匯道",
       "canonical_naming_year": 1997,
@@ -49100,9 +49041,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "13790",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -49180,9 +49121,9 @@
       ]
     },
     {
-      "timeline_id": "Lung Yuet Road|龍悅道",
+      "timeline_id": "page:lung-yuet-road",
       "page_id": "lung-yuet-road",
-      "street_code": null,
+      "street_code": "14412",
       "street_name_en": "Lung Yuet Road",
       "street_name_zh": "龍悅道",
       "canonical_naming_year": 2016,
@@ -49190,9 +49131,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14412",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -49592,9 +49533,9 @@
       ]
     },
     {
-      "timeline_id": "M Oon T In L A N E|滿田里",
+      "timeline_id": "page:m-oon-t-in-l-a-n-e",
       "page_id": "m-oon-t-in-l-a-n-e",
-      "street_code": null,
+      "street_code": "14537",
       "street_name_en": "M Oon T In L A N E",
       "street_name_zh": "滿田里",
       "canonical_naming_year": 2023,
@@ -49602,9 +49543,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14537",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -49682,9 +49623,9 @@
       ]
     },
     {
-      "timeline_id": "Ma Fuk R O A D|馬福路",
+      "timeline_id": "page:ma-fuk-r-o-a-d",
       "page_id": "ma-fuk-r-o-a-d",
-      "street_code": null,
+      "street_code": "14543",
       "street_name_en": "Ma Fuk R O A D",
       "street_name_zh": "馬福路",
       "canonical_naming_year": 2024,
@@ -49692,9 +49633,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14543",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -50093,9 +50034,9 @@
       ]
     },
     {
-      "timeline_id": "Ma Shing Path|馬成徑",
+      "timeline_id": "page:ma-shing-path",
       "page_id": "ma-shing-path",
-      "street_code": null,
+      "street_code": "14328",
       "street_name_en": "Ma Shing Path",
       "street_name_zh": "馬成徑",
       "canonical_naming_year": 2010,
@@ -50103,9 +50044,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14328",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -50210,9 +50151,9 @@
       ]
     },
     {
-      "timeline_id": "Ma Ta K R O A D|馬得路",
+      "timeline_id": "page:ma-ta-k-r-o-a-d",
       "page_id": "ma-ta-k-r-o-a-d",
-      "street_code": null,
+      "street_code": "14542",
       "street_name_en": "Ma Ta K R O A D",
       "street_name_zh": "馬得路",
       "canonical_naming_year": 2024,
@@ -50220,9 +50161,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14542",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -51436,9 +51377,9 @@
       ]
     },
     {
-      "timeline_id": "Main Street, Ap Lei Chau|",
+      "timeline_id": "page:main-street-ap-lei-chau",
       "page_id": "main-street-ap-lei-chau",
-      "street_code": null,
+      "street_code": "11363",
       "street_name_en": "Main Street, Ap Lei Chau",
       "street_name_zh": null,
       "canonical_naming_year": null,
@@ -51446,9 +51387,9 @@
       "derivation_reason": "no_declaration_found",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "11363",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -51516,9 +51457,9 @@
       ]
     },
     {
-      "timeline_id": "Man Chat Road|文質路",
+      "timeline_id": "page:man-chat-road",
       "page_id": "man-chat-road",
-      "street_code": null,
+      "street_code": "14405",
       "street_name_en": "Man Chat Road",
       "street_name_zh": "文質路",
       "canonical_naming_year": 2015,
@@ -51526,9 +51467,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14405",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -52829,9 +52770,9 @@
       ]
     },
     {
-      "timeline_id": "Mei Fai Street|美輝街",
+      "timeline_id": "page:mei-fai-street",
       "page_id": "mei-fai-street",
-      "street_code": null,
+      "street_code": "14340",
       "street_name_en": "Mei Fai Street",
       "street_name_zh": "美輝街",
       "canonical_naming_year": 2011,
@@ -52839,9 +52780,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14340",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -55815,9 +55756,9 @@
       ]
     },
     {
-      "timeline_id": "Muk Lai Street|沐禮街",
+      "timeline_id": "page:muk-lai-street",
       "page_id": "muk-lai-street",
-      "street_code": null,
+      "street_code": "14514",
       "street_name_en": "Muk Lai Street",
       "street_name_zh": "沐禮街",
       "canonical_naming_year": 2021,
@@ -55825,9 +55766,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14514",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -55855,9 +55796,9 @@
       ]
     },
     {
-      "timeline_id": "Muk Long Street|沐朗街",
+      "timeline_id": "page:muk-long-street",
       "page_id": "muk-long-street",
-      "street_code": null,
+      "street_code": "14451",
       "street_name_en": "Muk Long Street",
       "street_name_zh": "沐朗街",
       "canonical_naming_year": 2017,
@@ -55865,9 +55806,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14451",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -55895,9 +55836,9 @@
       ]
     },
     {
-      "timeline_id": "Muk Ning Street|沐寧街",
+      "timeline_id": "page:muk-ning-street",
       "page_id": "muk-ning-street",
-      "street_code": null,
+      "street_code": "14387",
       "street_name_en": "Muk Ning Street",
       "street_name_zh": "沐寧街",
       "canonical_naming_year": 2014,
@@ -55905,9 +55846,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14387",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -55975,9 +55916,9 @@
       ]
     },
     {
-      "timeline_id": "Muk Tai Street|沐泰街",
+      "timeline_id": "page:muk-tai-street",
       "page_id": "muk-tai-street",
-      "street_code": null,
+      "street_code": "14425",
       "street_name_en": "Muk Tai Street",
       "street_name_zh": "沐泰街",
       "canonical_naming_year": 2017,
@@ -55985,9 +55926,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14425",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -56015,9 +55956,9 @@
       ]
     },
     {
-      "timeline_id": "Muk Wo Street|沐和街",
+      "timeline_id": "page:muk-wo-street",
       "page_id": "muk-wo-street",
-      "street_code": null,
+      "street_code": "14535",
       "street_name_en": "Muk Wo Street",
       "street_name_zh": "沐和街",
       "canonical_naming_year": 2023,
@@ -56025,9 +55966,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14535",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -56055,9 +55996,9 @@
       ]
     },
     {
-      "timeline_id": "Muk Yuen Street|沐元街",
+      "timeline_id": "page:muk-yuen-street",
       "page_id": "muk-yuen-street",
-      "street_code": null,
+      "street_code": "14426",
       "street_name_en": "Muk Yuen Street",
       "street_name_zh": "沐元街",
       "canonical_naming_year": 2017,
@@ -56065,9 +56006,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14426",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -56204,9 +56145,9 @@
       ]
     },
     {
-      "timeline_id": "Museum Drive|博物館道",
+      "timeline_id": "page:museum-drive",
       "page_id": "museum-drive",
-      "street_code": null,
+      "street_code": "14481",
       "street_name_en": "Museum Drive",
       "street_name_zh": "博物館道",
       "canonical_naming_year": 2019,
@@ -56214,10 +56155,10 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
-        "district_hint": null
+        "status": "active",
+        "street_code": "14481",
+        "method": "manual",
+        "district_hint": "Yau Tsim Mong"
       },
       "name_history": [
         {
@@ -58563,9 +58504,9 @@
       ]
     },
     {
-      "timeline_id": "Nightingale Road|南丁格爾路",
+      "timeline_id": "page:nightingale-road",
       "page_id": "nightingale-road",
-      "street_code": null,
+      "street_code": "14311",
       "street_name_en": "Nightingale Road",
       "street_name_zh": "南丁格爾路",
       "canonical_naming_year": 2008,
@@ -58573,9 +58514,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14311",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -59238,9 +59179,9 @@
       ]
     },
     {
-      "timeline_id": "Ocean Drive|海洋徑",
+      "timeline_id": "page:ocean-drive",
       "page_id": "ocean-drive",
-      "street_code": null,
+      "street_code": "14504",
       "street_name_en": "Ocean Drive",
       "street_name_zh": "海洋徑",
       "canonical_naming_year": 2021,
@@ -59248,9 +59189,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14504",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -60621,9 +60562,9 @@
       ]
     },
     {
-      "timeline_id": "On Sau Road|安秀道",
+      "timeline_id": "page:on-sau-road",
       "page_id": "on-sau-road",
-      "street_code": null,
+      "street_code": "14393",
       "street_name_en": "On Sau Road",
       "street_name_zh": "安秀道",
       "canonical_naming_year": 2014,
@@ -60631,9 +60572,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14393",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -60661,9 +60602,9 @@
       ]
     },
     {
-      "timeline_id": "On Shun Path|安信徑",
+      "timeline_id": "page:on-shun-path",
       "page_id": "on-shun-path",
-      "street_code": null,
+      "street_code": "14460",
       "street_name_en": "On Shun Path",
       "street_name_zh": "安信徑",
       "canonical_naming_year": 2017,
@@ -60671,9 +60612,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14460",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -62125,9 +62066,9 @@
       ]
     },
     {
-      "timeline_id": "Pak Sha Wan Street|白沙灣街",
+      "timeline_id": "page:pak-sha-wan-street",
       "page_id": "pak-sha-wan-street",
-      "street_code": null,
+      "street_code": "14471",
       "street_name_en": "Pak Sha Wan Street",
       "street_name_zh": "白沙灣街",
       "canonical_naming_year": 2018,
@@ -62135,9 +62076,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14471",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -62240,9 +62181,9 @@
       ]
     },
     {
-      "timeline_id": "Pak Shing Kok Road|百勝角路",
+      "timeline_id": "page:pak-shing-kok-road",
       "page_id": "pak-shing-kok-road",
-      "street_code": null,
+      "street_code": "14373",
       "street_name_en": "Pak Shing Kok Road",
       "street_name_zh": "百勝角路",
       "canonical_naming_year": 2015,
@@ -62250,9 +62191,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 2,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14373",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -63646,9 +63587,9 @@
       ]
     },
     {
-      "timeline_id": "Peng Chau Ho King Street|坪洲好景街",
+      "timeline_id": "page:peng-chau-ho-king-street",
       "page_id": "peng-chau-ho-king-street",
-      "street_code": null,
+      "street_code": "14417",
       "street_name_en": "Peng Chau Ho King Street",
       "street_name_zh": "坪洲好景街",
       "canonical_naming_year": 2016,
@@ -63656,9 +63597,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14417",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -64622,9 +64563,9 @@
       ]
     },
     {
-      "timeline_id": "Ping Ha Path|屏廈徑",
+      "timeline_id": "page:ping-ha-path",
       "page_id": "ping-ha-path",
-      "street_code": null,
+      "street_code": "14463",
       "street_name_en": "Ping Ha Path",
       "street_name_zh": "屏廈徑",
       "canonical_naming_year": 2017,
@@ -64632,9 +64573,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14463",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -64734,9 +64675,9 @@
       ]
     },
     {
-      "timeline_id": "Ping Kin Lane|屏健里",
+      "timeline_id": "page:ping-kin-lane",
       "page_id": "ping-kin-lane",
-      "street_code": null,
+      "street_code": "14452",
       "street_name_en": "Ping Kin Lane",
       "street_name_zh": "屏健里",
       "canonical_naming_year": 2017,
@@ -64744,9 +64685,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14452",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -64932,9 +64873,9 @@
       ]
     },
     {
-      "timeline_id": "Ping Shek Lane|坪石里",
+      "timeline_id": "page:ping-shek-lane",
       "page_id": "ping-shek-lane",
-      "street_code": null,
+      "street_code": "14515",
       "street_name_en": "Ping Shek Lane",
       "street_name_zh": "坪石里",
       "canonical_naming_year": 2021,
@@ -64942,9 +64883,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14515",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -66103,9 +66044,9 @@
       ]
     },
     {
-      "timeline_id": "Po Min Path|坡面徑",
+      "timeline_id": "page:po-min-path",
       "page_id": "po-min-path",
-      "street_code": null,
+      "street_code": "14470",
       "street_name_en": "Po Min Path",
       "street_name_zh": "坡面徑",
       "canonical_naming_year": 2018,
@@ -66113,9 +66054,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14470",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -66603,9 +66544,9 @@
       ]
     },
     {
-      "timeline_id": "Pok Chuen Path|博泉徑",
+      "timeline_id": "page:pok-chuen-path",
       "page_id": "pok-chuen-path",
-      "street_code": null,
+      "street_code": "14327",
       "street_name_en": "Pok Chuen Path",
       "street_name_zh": "博泉徑",
       "canonical_naming_year": 2010,
@@ -66613,9 +66554,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14327",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -66643,9 +66584,9 @@
       ]
     },
     {
-      "timeline_id": "Pok Chuen Street|博泉街",
+      "timeline_id": "page:pok-chuen-street",
       "page_id": "pok-chuen-street",
-      "street_code": null,
+      "street_code": "14326",
       "street_name_en": "Pok Chuen Street",
       "street_name_zh": "博泉街",
       "canonical_naming_year": 2010,
@@ -66653,9 +66594,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14326",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -68518,9 +68459,9 @@
       ]
     },
     {
-      "timeline_id": "Queen Elizabeth Hospital Path|伊利沙伯醫院徑",
+      "timeline_id": "page:queen-elizabeth-hospital-path",
       "page_id": "queen-elizabeth-hospital-path",
-      "street_code": null,
+      "street_code": "14313",
       "street_name_en": "Queen Elizabeth Hospital Path",
       "street_name_zh": "伊利沙伯醫院徑",
       "canonical_naming_year": 2008,
@@ -68528,9 +68469,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14313",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -68558,9 +68499,9 @@
       ]
     },
     {
-      "timeline_id": "Queen Elizabeth Hospital Road|伊利沙伯醫院路",
+      "timeline_id": "page:queen-elizabeth-hospital-road",
       "page_id": "queen-elizabeth-hospital-road",
-      "street_code": null,
+      "street_code": "14312",
       "street_name_en": "Queen Elizabeth Hospital Road",
       "street_name_zh": "伊利沙伯醫院路",
       "canonical_naming_year": 2008,
@@ -68568,9 +68509,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14312",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -69932,9 +69873,9 @@
       ]
     },
     {
-      "timeline_id": "S E Cond Sky Street|航天城第二街",
+      "timeline_id": "page:s-e-cond-sky-street",
       "page_id": "s-e-cond-sky-street",
-      "street_code": null,
+      "street_code": "14518",
       "street_name_en": "S E Cond Sky Street",
       "street_name_zh": "航天城第二街",
       "canonical_naming_year": 2021,
@@ -69942,9 +69883,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14518",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -70073,9 +70014,9 @@
       ]
     },
     {
-      "timeline_id": "Sai Ching Path|西菁徑",
+      "timeline_id": "page:sai-ching-path",
       "page_id": "sai-ching-path",
-      "street_code": null,
+      "street_code": "14461",
       "street_name_en": "Sai Ching Path",
       "street_name_zh": "西菁徑",
       "canonical_naming_year": 2017,
@@ -70083,9 +70024,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14461",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -70542,9 +70483,9 @@
       ]
     },
     {
-      "timeline_id": "Sai Kung Rural Committee Lane|西貢鄉事會里",
+      "timeline_id": "page:sai-kung-rural-committee-lane",
       "page_id": "sai-kung-rural-committee-lane",
-      "street_code": null,
+      "street_code": "13173",
       "street_name_en": "Sai Kung Rural Committee Lane",
       "street_name_zh": "西貢鄉事會里",
       "canonical_naming_year": 1992,
@@ -70552,9 +70493,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "13173",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -70911,9 +70852,9 @@
       ]
     },
     {
-      "timeline_id": "Sai Kwo Road|世歌路",
+      "timeline_id": "page:sai-kwo-road",
       "page_id": "sai-kwo-road",
-      "street_code": null,
+      "street_code": "14330",
       "street_name_en": "Sai Kwo Road",
       "street_name_zh": "世歌路",
       "canonical_naming_year": 2010,
@@ -70921,9 +70862,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14330",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -71834,9 +71775,9 @@
       ]
     },
     {
-      "timeline_id": "Sai Yu Path|西裕徑",
+      "timeline_id": "page:sai-yu-path",
       "page_id": "sai-yu-path",
-      "street_code": null,
+      "street_code": "14464",
       "street_name_en": "Sai Yu Path",
       "street_name_zh": "西裕徑",
       "canonical_naming_year": 2017,
@@ -71844,9 +71785,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14464",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -72419,9 +72360,9 @@
       ]
     },
     {
-      "timeline_id": "Sam Wo Road|三和路",
+      "timeline_id": "page:sam-wo-road",
       "page_id": "sam-wo-road",
-      "street_code": null,
+      "street_code": "14402",
       "street_name_en": "Sam Wo Road",
       "street_name_zh": "三和路",
       "canonical_naming_year": 2015,
@@ -72429,9 +72370,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14402",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -74426,9 +74367,9 @@
       ]
     },
     {
-      "timeline_id": "School Road|學校路",
+      "timeline_id": "page:school-road",
       "page_id": "school-road",
-      "street_code": null,
+      "street_code": "11935",
       "street_name_en": "School Road",
       "street_name_zh": "學校路",
       "canonical_naming_year": 2011,
@@ -74436,9 +74377,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "11935",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -76046,9 +75987,9 @@
       ]
     },
     {
-      "timeline_id": "Shan Liu Road|山寮路",
+      "timeline_id": "page:shan-liu-road",
       "page_id": "shan-liu-road",
-      "street_code": null,
+      "street_code": "11979",
       "street_name_en": "Shan Liu Road",
       "street_name_zh": "山寮路",
       "canonical_naming_year": 1970,
@@ -76056,9 +75997,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "11979",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -76923,9 +76864,9 @@
       ]
     },
     {
-      "timeline_id": "Shek Po East Road|石埗東路",
+      "timeline_id": "page:shek-po-east-road",
       "page_id": "shek-po-east-road",
-      "street_code": null,
+      "street_code": "14491",
       "street_name_en": "Shek Po East Road",
       "street_name_zh": "石埗東路",
       "canonical_naming_year": 2020,
@@ -76933,9 +76874,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14491",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -77035,9 +76976,9 @@
       ]
     },
     {
-      "timeline_id": "Shek Tin Road|石田路",
+      "timeline_id": "page:shek-tin-road",
       "page_id": "shek-tin-road",
-      "street_code": null,
+      "street_code": "14388",
       "street_name_en": "Shek Tin Road",
       "street_name_zh": "石田路",
       "canonical_naming_year": 2014,
@@ -77045,9 +76986,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14388",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -77618,9 +77559,9 @@
       ]
     },
     {
-      "timeline_id": "Sheung Kin Street|常健街",
+      "timeline_id": "page:sheung-kin-street",
       "page_id": "sheung-kin-street",
-      "street_code": null,
+      "street_code": "14329",
       "street_name_en": "Sheung Kin Street",
       "street_name_zh": "常健街",
       "canonical_naming_year": 2010,
@@ -77628,9 +77569,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14329",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -77658,9 +77599,9 @@
       ]
     },
     {
-      "timeline_id": "Sheung Kok Shan Road|上角山路",
+      "timeline_id": "page:sheung-kok-shan-road",
       "page_id": "sheung-kok-shan-road",
-      "street_code": null,
+      "street_code": "14334",
       "street_name_en": "Sheung Kok Shan Road",
       "street_name_zh": "上角山路",
       "canonical_naming_year": 2010,
@@ -77668,9 +77609,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14334",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -77823,9 +77764,9 @@
       ]
     },
     {
-      "timeline_id": "Sheung Shing Lane|常盛里",
+      "timeline_id": "page:sheung-shing-lane",
       "page_id": "sheung-shing-lane",
-      "street_code": null,
+      "street_code": "14419",
       "street_name_en": "Sheung Shing Lane",
       "street_name_zh": "常盛里",
       "canonical_naming_year": 2017,
@@ -77833,9 +77774,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14419",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -77991,9 +77932,9 @@
       ]
     },
     {
-      "timeline_id": "Sheung Yip Street|尚業街",
+      "timeline_id": "page:sheung-yip-street",
       "page_id": "sheung-yip-street",
-      "street_code": null,
+      "street_code": "14571",
       "street_name_en": "Sheung Yip Street",
       "street_name_zh": "尚業街",
       "canonical_naming_year": 2026,
@@ -78001,9 +77942,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14571",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -78268,9 +78209,9 @@
       ]
     },
     {
-      "timeline_id": "Shin Lun Lane|善鄰里",
+      "timeline_id": "page:shin-lun-lane",
       "page_id": "shin-lun-lane",
-      "street_code": null,
+      "street_code": "14427",
       "street_name_en": "Shin Lun Lane",
       "street_name_zh": "善鄰里",
       "canonical_naming_year": 2017,
@@ -78278,9 +78219,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14427",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -78497,9 +78438,9 @@
       ]
     },
     {
-      "timeline_id": "Shing Fung L A N E|承豐里",
+      "timeline_id": "page:shing-fung-l-a-n-e",
       "page_id": "shing-fung-l-a-n-e",
-      "street_code": null,
+      "street_code": "14551",
       "street_name_en": "Shing Fung L A N E",
       "street_name_zh": "承豐里",
       "canonical_naming_year": 2024,
@@ -78507,9 +78448,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14551",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -79013,9 +78954,9 @@
       ]
     },
     {
-      "timeline_id": "Shing Y A Us Treet|承佑街",
+      "timeline_id": "page:shing-y-a-us-treet",
       "page_id": "shing-y-a-us-treet",
-      "street_code": null,
+      "street_code": "14536",
       "street_name_en": "Shing Y A Us Treet",
       "street_name_zh": "承佑街",
       "canonical_naming_year": 2023,
@@ -79023,9 +78964,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14536",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -79053,9 +78994,9 @@
       ]
     },
     {
-      "timeline_id": "Shing Yan Lane|承恩里",
+      "timeline_id": "page:shing-yan-lane",
       "page_id": "shing-yan-lane",
-      "street_code": null,
+      "street_code": "14553",
       "street_name_en": "Shing Yan Lane",
       "street_name_zh": "承恩里",
       "canonical_naming_year": 2024,
@@ -79063,9 +79004,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14553",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -79409,9 +79350,9 @@
       ]
     },
     {
-      "timeline_id": "Shui Che Kwun Lane|水車館里",
+      "timeline_id": "page:shui-che-kwun-lane",
       "page_id": "shui-che-kwun-lane",
-      "street_code": null,
+      "street_code": "13142",
       "street_name_en": "Shui Che Kwun Lane",
       "street_name_zh": "水車館里",
       "canonical_naming_year": 2017,
@@ -79419,9 +79360,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "13142",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -79603,9 +79544,9 @@
       ]
     },
     {
-      "timeline_id": "Shui Fu Road|水庫路",
+      "timeline_id": "page:shui-fu-road",
       "page_id": "shui-fu-road",
-      "street_code": null,
+      "street_code": "14321",
       "street_name_en": "Shui Fu Road",
       "street_name_zh": "水庫路",
       "canonical_naming_year": 2009,
@@ -79613,9 +79554,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14321",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -80091,9 +80032,9 @@
       ]
     },
     {
-      "timeline_id": "Shun Chit Road|順捷路",
+      "timeline_id": "page:shun-chit-road",
       "page_id": "shun-chit-road",
-      "street_code": null,
+      "street_code": "14436",
       "street_name_en": "Shun Chit Road",
       "street_name_zh": "順捷路",
       "canonical_naming_year": 2017,
@@ -80101,9 +80042,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14436",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -80131,9 +80072,9 @@
       ]
     },
     {
-      "timeline_id": "Shun Fai Road|順暉路",
+      "timeline_id": "page:shun-fai-road",
       "page_id": "shun-fai-road",
-      "street_code": null,
+      "street_code": "14437",
       "street_name_en": "Shun Fai Road",
       "street_name_zh": "順暉路",
       "canonical_naming_year": 2017,
@@ -80141,9 +80082,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14437",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -80280,9 +80221,9 @@
       ]
     },
     {
-      "timeline_id": "Shun Hang Road|順行路",
+      "timeline_id": "page:shun-hang-road",
       "page_id": "shun-hang-road",
-      "street_code": null,
+      "street_code": "14438",
       "street_name_en": "Shun Hang Road",
       "street_name_zh": "順行路",
       "canonical_naming_year": 2017,
@@ -80290,9 +80231,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14438",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -80535,9 +80476,9 @@
       ]
     },
     {
-      "timeline_id": "Shun Lin Road|順連路",
+      "timeline_id": "page:shun-lin-road",
       "page_id": "shun-lin-road",
-      "street_code": null,
+      "street_code": "14439",
       "street_name_en": "Shun Lin Road",
       "street_name_zh": "順連路",
       "canonical_naming_year": 2017,
@@ -80545,9 +80486,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14439",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -80575,9 +80516,9 @@
       ]
     },
     {
-      "timeline_id": "Shun Long Road|順朗路",
+      "timeline_id": "page:shun-long-road",
       "page_id": "shun-long-road",
-      "street_code": null,
+      "street_code": "14440",
       "street_name_en": "Shun Long Road",
       "street_name_zh": "順朗路",
       "canonical_naming_year": 2017,
@@ -80585,9 +80526,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14440",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -80615,9 +80556,9 @@
       ]
     },
     {
-      "timeline_id": "Shun Lui Road|順旅路",
+      "timeline_id": "page:shun-lui-road",
       "page_id": "shun-lui-road",
-      "street_code": null,
+      "street_code": "14441",
       "street_name_en": "Shun Lui Road",
       "street_name_zh": "順旅路",
       "canonical_naming_year": 2017,
@@ -80625,9 +80566,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14441",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -80732,9 +80673,9 @@
       ]
     },
     {
-      "timeline_id": "Shun Ming Road|順明路",
+      "timeline_id": "page:shun-ming-road",
       "page_id": "shun-ming-road",
-      "street_code": null,
+      "street_code": "14442",
       "street_name_en": "Shun Ming Road",
       "street_name_zh": "順明路",
       "canonical_naming_year": 2017,
@@ -80742,9 +80683,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14442",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -80772,9 +80713,9 @@
       ]
     },
     {
-      "timeline_id": "Shun Ngon Road|順岸路",
+      "timeline_id": "page:shun-ngon-road",
       "page_id": "shun-ngon-road",
-      "street_code": null,
+      "street_code": "14443",
       "street_name_en": "Shun Ngon Road",
       "street_name_zh": "順岸路",
       "canonical_naming_year": 2017,
@@ -80782,9 +80723,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14443",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -80996,9 +80937,9 @@
       ]
     },
     {
-      "timeline_id": "Shun Wan Road|順環路",
+      "timeline_id": "page:shun-wan-road",
       "page_id": "shun-wan-road",
-      "street_code": null,
+      "street_code": "14444",
       "street_name_en": "Shun Wan Road",
       "street_name_zh": "順環路",
       "canonical_naming_year": 2017,
@@ -81006,9 +80947,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14444",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -81105,9 +81046,9 @@
       ]
     },
     {
-      "timeline_id": "Shun Wui Road|順匯路",
+      "timeline_id": "page:shun-wui-road",
       "page_id": "shun-wui-road",
-      "street_code": null,
+      "street_code": "14445",
       "street_name_en": "Shun Wui Road",
       "street_name_zh": "順匯路",
       "canonical_naming_year": 2017,
@@ -81115,9 +81056,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14445",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -81214,9 +81155,9 @@
       ]
     },
     {
-      "timeline_id": "Shung Shan Street|崇山街",
+      "timeline_id": "page:shung-shan-street",
       "page_id": "shung-shan-street",
-      "street_code": null,
+      "street_code": "14474",
       "street_name_en": "Shung Shan Street",
       "street_name_zh": "崇山街",
       "canonical_naming_year": 2018,
@@ -81224,9 +81165,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14474",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -84540,9 +84481,9 @@
       ]
     },
     {
-      "timeline_id": "T Hi R D Sky Street|航天城第三街",
+      "timeline_id": "page:t-hi-r-d-sky-street",
       "page_id": "t-hi-r-d-sky-street",
-      "street_code": null,
+      "street_code": "14519",
       "street_name_en": "T Hi R D Sky Street",
       "street_name_zh": "航天城第三街",
       "canonical_naming_year": 2021,
@@ -84550,9 +84491,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14519",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -84580,9 +84521,9 @@
       ]
     },
     {
-      "timeline_id": "T In Wo R O A D|田禾路",
+      "timeline_id": "page:t-in-wo-r-o-a-d",
       "page_id": "t-in-wo-r-o-a-d",
-      "street_code": null,
+      "street_code": "14525",
       "street_name_en": "T In Wo R O A D",
       "street_name_zh": "田禾路",
       "canonical_naming_year": 2022,
@@ -84590,9 +84531,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14525",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -84620,9 +84561,9 @@
       ]
     },
     {
-      "timeline_id": "T S E Ung L Am Highw A Y|將藍公路",
+      "timeline_id": "page:t-s-e-ung-l-am-highw-a-y",
       "page_id": "t-s-e-ung-l-am-highw-a-y",
-      "street_code": null,
+      "street_code": "14528",
       "street_name_en": "T S E Ung L Am Highw A Y",
       "street_name_zh": "將藍公路",
       "canonical_naming_year": 2022,
@@ -84630,9 +84571,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14528",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -84660,9 +84601,9 @@
       ]
     },
     {
-      "timeline_id": "T Sz Lun R O A D|紫麟路",
+      "timeline_id": "page:t-sz-lun-r-o-a-d",
       "page_id": "t-sz-lun-r-o-a-d",
-      "street_code": null,
+      "street_code": "14549",
       "street_name_en": "T Sz Lun R O A D",
       "street_name_zh": "紫麟路",
       "canonical_naming_year": 2024,
@@ -84670,9 +84611,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14549",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -84700,9 +84641,9 @@
       ]
     },
     {
-      "timeline_id": "T U E N Lok L A N E|屯樂里",
+      "timeline_id": "page:t-u-e-n-lok-l-a-n-e",
       "page_id": "t-u-e-n-lok-l-a-n-e",
-      "street_code": null,
+      "street_code": "14522",
       "street_name_en": "T U E N Lok L A N E",
       "street_name_zh": "屯樂里",
       "canonical_naming_year": 2021,
@@ -84710,9 +84651,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14522",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -84780,9 +84721,9 @@
       ]
     },
     {
-      "timeline_id": "Tai Ching Cheung Road|大蒸場路",
+      "timeline_id": "page:tai-ching-cheung-road",
       "page_id": "tai-ching-cheung-road",
-      "street_code": null,
+      "street_code": "14389",
       "street_name_en": "Tai Ching Cheung Road",
       "street_name_zh": "大蒸場路",
       "canonical_naming_year": 2014,
@@ -84790,9 +84731,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14389",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -86784,9 +86725,9 @@
       ]
     },
     {
-      "timeline_id": "Tai San Back Street|大新後街",
+      "timeline_id": "page:tai-san-back-street",
       "page_id": "tai-san-back-street",
-      "street_code": null,
+      "street_code": "13413",
       "street_name_en": "Tai San Back Street",
       "street_name_zh": "大新後街",
       "canonical_naming_year": 2011,
@@ -86794,9 +86735,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "13413",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -86960,9 +86901,9 @@
       ]
     },
     {
-      "timeline_id": "Tai Shu Ha Road West|大樹下西路",
+      "timeline_id": "page:tai-shu-ha-road-west",
       "page_id": "tai-shu-ha-road-west",
-      "street_code": null,
+      "street_code": "13057",
       "street_name_en": "Tai Shu Ha Road West",
       "street_name_zh": "大樹下西路",
       "canonical_naming_year": 2017,
@@ -86970,9 +86911,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "13057",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -87266,9 +87207,9 @@
       ]
     },
     {
-      "timeline_id": "Tai Tsoi Yuen Road|大菜園路",
+      "timeline_id": "page:tai-tsoi-yuen-road",
       "page_id": "tai-tsoi-yuen-road",
-      "street_code": null,
+      "street_code": "12277",
       "street_name_en": "Tai Tsoi Yuen Road",
       "street_name_zh": "大菜園路",
       "canonical_naming_year": 2011,
@@ -87276,9 +87217,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "12277",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -89343,9 +89284,9 @@
       ]
     },
     {
-      "timeline_id": "Tan Kwai Tsuen Lane|丹桂村里",
+      "timeline_id": "page:tan-kwai-tsuen-lane",
       "page_id": "tan-kwai-tsuen-lane",
-      "street_code": null,
+      "street_code": "14411",
       "street_name_en": "Tan Kwai Tsuen Lane",
       "street_name_zh": "丹桂村里",
       "canonical_naming_year": 2015,
@@ -89353,9 +89294,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14411",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -89383,9 +89324,9 @@
       ]
     },
     {
-      "timeline_id": "Tan Lai Street|丹荔街",
+      "timeline_id": "page:tan-lai-street",
       "page_id": "tan-lai-street",
-      "street_code": null,
+      "street_code": "14448",
       "street_name_en": "Tan Lai Street",
       "street_name_zh": "丹荔街",
       "canonical_naming_year": 2017,
@@ -89393,9 +89334,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14448",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -89927,9 +89868,9 @@
       ]
     },
     {
-      "timeline_id": "Tat Fuk Road|達福路",
+      "timeline_id": "page:tat-fuk-road",
       "page_id": "tat-fuk-road",
-      "street_code": null,
+      "street_code": "14319",
       "street_name_en": "Tat Fuk Road",
       "street_name_zh": "達福路",
       "canonical_naming_year": 2009,
@@ -89937,9 +89878,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14319",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -89967,9 +89908,9 @@
       ]
     },
     {
-      "timeline_id": "Tat Mei Road|達美路",
+      "timeline_id": "page:tat-mei-road",
       "page_id": "tat-mei-road",
-      "street_code": null,
+      "street_code": "14337",
       "street_name_en": "Tat Mei Road",
       "street_name_zh": "達美路",
       "canonical_naming_year": 2011,
@@ -89977,9 +89918,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14337",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -90357,9 +90298,9 @@
       ]
     },
     {
-      "timeline_id": "Tin Chai Lane East|天際里東",
+      "timeline_id": "page:tin-chai-lane-east",
       "page_id": "tin-chai-lane-east",
-      "street_code": null,
+      "street_code": "14428",
       "street_name_en": "Tin Chai Lane East",
       "street_name_zh": "天際里東",
       "canonical_naming_year": 2017,
@@ -90367,9 +90308,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14428",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -90397,9 +90338,9 @@
       ]
     },
     {
-      "timeline_id": "Tin Chai Lane West|天際里西",
+      "timeline_id": "page:tin-chai-lane-west",
       "page_id": "tin-chai-lane-west",
-      "street_code": null,
+      "street_code": "14429",
       "street_name_en": "Tin Chai Lane West",
       "street_name_zh": "天際里西",
       "canonical_naming_year": 2017,
@@ -90407,9 +90348,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14429",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -91081,9 +91022,9 @@
       ]
     },
     {
-      "timeline_id": "Tin Shui Path|天瑞徑",
+      "timeline_id": "page:tin-shui-path",
       "page_id": "tin-shui-path",
-      "street_code": null,
+      "street_code": "14465",
       "street_name_en": "Tin Shui Path",
       "street_name_zh": "天瑞徑",
       "canonical_naming_year": 2017,
@@ -91091,9 +91032,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14465",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -91161,9 +91102,9 @@
       ]
     },
     {
-      "timeline_id": "Tin Wah Road|天華路",
+      "timeline_id": "page:tin-wah-road",
       "page_id": "tin-wah-road",
-      "street_code": null,
+      "street_code": "13156",
       "street_name_en": "Tin Wah Road",
       "street_name_zh": "天華路",
       "canonical_naming_year": 2013,
@@ -91171,9 +91112,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "13156",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -91471,9 +91412,9 @@
       ]
     },
     {
-      "timeline_id": "Tin Ying Path|天影徑",
+      "timeline_id": "page:tin-ying-path",
       "page_id": "tin-ying-path",
-      "street_code": null,
+      "street_code": "14466",
       "street_name_en": "Tin Ying Path",
       "street_name_zh": "天影徑",
       "canonical_naming_year": 2017,
@@ -91481,9 +91422,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14466",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -91551,9 +91492,9 @@
       ]
     },
     {
-      "timeline_id": "Ting Kok Road|汀角路",
+      "timeline_id": "page:ting-kok-road",
       "page_id": "ting-kok-road",
-      "street_code": null,
+      "street_code": "12373",
       "street_name_en": "Ting Kok Road",
       "street_name_zh": "汀角路",
       "canonical_naming_year": 1970,
@@ -91561,9 +91502,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "12373",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -91676,9 +91617,9 @@
       ]
     },
     {
-      "timeline_id": "Ting Yat Road|汀逸路",
+      "timeline_id": "page:ting-yat-road",
       "page_id": "ting-yat-road",
-      "street_code": null,
+      "street_code": "14335",
       "street_name_en": "Ting Yat Road",
       "street_name_zh": "汀逸路",
       "canonical_naming_year": 2010,
@@ -91686,9 +91627,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14335",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -91868,9 +91809,9 @@
       ]
     },
     {
-      "timeline_id": "To Shek Path|多石徑",
+      "timeline_id": "page:to-shek-path",
       "page_id": "to-shek-path",
-      "street_code": null,
+      "street_code": "14325",
       "street_name_en": "To Shek Path",
       "street_name_zh": "多石徑",
       "canonical_naming_year": 2010,
@@ -91878,9 +91819,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14325",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -91908,9 +91849,9 @@
       ]
     },
     {
-      "timeline_id": "To Shek Street|多石街",
+      "timeline_id": "page:to-shek-street",
       "page_id": "to-shek-street",
-      "street_code": null,
+      "street_code": "13739",
       "street_name_en": "To Shek Street",
       "street_name_zh": "多石街",
       "canonical_naming_year": 2010,
@@ -91918,9 +91859,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "13739",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -92357,9 +92298,9 @@
       ]
     },
     {
-      "timeline_id": "Tramway Lane|纜車里",
+      "timeline_id": "page:tramway-lane",
       "page_id": "tramway-lane",
-      "street_code": null,
+      "street_code": "14408",
       "street_name_en": "Tramway Lane",
       "street_name_zh": "纜車里",
       "canonical_naming_year": 2015,
@@ -92367,9 +92308,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14408",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -93916,9 +93857,9 @@
       ]
     },
     {
-      "timeline_id": "Tsing Tin Interchange|青田交匯處",
+      "timeline_id": "page:tsing-tin-interchange",
       "page_id": "tsing-tin-interchange",
-      "street_code": null,
+      "street_code": "14500",
       "street_name_en": "Tsing Tin Interchange",
       "street_name_zh": "青田交匯處",
       "canonical_naming_year": 2020,
@@ -93926,9 +93867,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14500",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -97204,9 +97145,9 @@
       ]
     },
     {
-      "timeline_id": "Tung Chung Road|東涌道",
+      "timeline_id": "page:tung-chung-road",
       "page_id": "tung-chung-road",
-      "street_code": null,
+      "street_code": "12514",
       "street_name_en": "Tung Chung Road",
       "street_name_zh": "東涌道",
       "canonical_naming_year": 2009,
@@ -97214,9 +97155,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "12514",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -97334,9 +97275,9 @@
       ]
     },
     {
-      "timeline_id": "Tung Fuk Road|同福路",
+      "timeline_id": "page:tung-fuk-road",
       "page_id": "tung-fuk-road",
-      "street_code": null,
+      "street_code": "14320",
       "street_name_en": "Tung Fuk Road",
       "street_name_zh": "同福路",
       "canonical_naming_year": 2009,
@@ -97344,9 +97285,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14320",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -97374,9 +97315,9 @@
       ]
     },
     {
-      "timeline_id": "Tung Lei Path|東籬徑",
+      "timeline_id": "page:tung-lei-path",
       "page_id": "tung-lei-path",
-      "street_code": null,
+      "street_code": "14479",
       "street_name_en": "Tung Lei Path",
       "street_name_zh": "東籬徑",
       "canonical_naming_year": 2019,
@@ -97384,9 +97325,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14479",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -97928,9 +97869,9 @@
       ]
     },
     {
-      "timeline_id": "Tung Tsz Road|洞梓路",
+      "timeline_id": "page:tung-tsz-road",
       "page_id": "tung-tsz-road",
-      "street_code": null,
+      "street_code": "12545",
       "street_name_en": "Tung Tsz Road",
       "street_name_zh": "洞梓路",
       "canonical_naming_year": 1970,
@@ -97938,9 +97879,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "12545",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -98053,9 +97994,9 @@
       ]
     },
     {
-      "timeline_id": "Tung Wing Road|東榮路",
+      "timeline_id": "page:tung-wing-road",
       "page_id": "tung-wing-road",
-      "street_code": null,
+      "street_code": "14446",
       "street_name_en": "Tung Wing Road",
       "street_name_zh": "東榮路",
       "canonical_naming_year": 2017,
@@ -98063,9 +98004,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14446",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -98171,9 +98112,9 @@
       ]
     },
     {
-      "timeline_id": "Tung Yiu Road|東耀路",
+      "timeline_id": "page:tung-yiu-road",
       "page_id": "tung-yiu-road",
-      "street_code": null,
+      "street_code": "14482",
       "street_name_en": "Tung Yiu Road",
       "street_name_zh": "東耀路",
       "canonical_naming_year": 2019,
@@ -98181,9 +98122,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14482",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -98282,9 +98223,9 @@
       ]
     },
     {
-      "timeline_id": "U Lam Terrace|儒林臺",
+      "timeline_id": "page:u-lam-terrace",
       "page_id": "u-lam-terrace",
-      "street_code": null,
+      "street_code": "12554",
       "street_name_en": "U Lam Terrace",
       "street_name_zh": "儒林臺",
       "canonical_naming_year": null,
@@ -98292,9 +98233,9 @@
       "derivation_reason": "no_declaration_found",
       "event_count": 2,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "12554",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -98383,9 +98324,9 @@
       ]
     },
     {
-      "timeline_id": "Universal Gate Road|普門路",
+      "timeline_id": "page:universal-gate-road",
       "page_id": "universal-gate-road",
-      "street_code": null,
+      "street_code": "14384",
       "street_name_en": "Universal Gate Road",
       "street_name_zh": "普門路",
       "canonical_naming_year": 2013,
@@ -98393,9 +98334,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14384",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -100362,9 +100303,9 @@
       ]
     },
     {
-      "timeline_id": "Wai Yin Path|薈然徑",
+      "timeline_id": "page:wai-yin-path",
       "page_id": "wai-yin-path",
-      "street_code": null,
+      "street_code": "14401",
       "street_name_en": "Wai Yin Path",
       "street_name_zh": "薈然徑",
       "canonical_naming_year": 2015,
@@ -100372,9 +100313,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14401",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -102493,9 +102434,9 @@
       ]
     },
     {
-      "timeline_id": "Wang Ping Shan South Road|橫平山南路",
+      "timeline_id": "page:wang-ping-shan-south-road",
       "page_id": "wang-ping-shan-south-road",
-      "street_code": null,
+      "street_code": "14332",
       "street_name_en": "Wang Ping Shan South Road",
       "street_name_zh": "橫平山南路",
       "canonical_naming_year": 2010,
@@ -102503,9 +102444,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14332",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -103801,9 +103742,9 @@
       ]
     },
     {
-      "timeline_id": "Wholesale Market Street|批發市場街",
+      "timeline_id": "page:wholesale-market-street",
       "page_id": "wholesale-market-street",
-      "street_code": null,
+      "street_code": "14342",
       "street_name_en": "Wholesale Market Street",
       "street_name_zh": "批發市場街",
       "canonical_naming_year": 2011,
@@ -103811,9 +103752,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14342",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -105643,9 +105584,9 @@
       ]
     },
     {
-      "timeline_id": "Wo Lok L A N E|和樂里",
+      "timeline_id": "page:wo-lok-l-a-n-e",
       "page_id": "wo-lok-l-a-n-e",
-      "street_code": null,
+      "street_code": "14544",
       "street_name_en": "Wo Lok L A N E",
       "street_name_zh": "和樂里",
       "canonical_naming_year": 2024,
@@ -105653,9 +105594,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14544",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -106434,9 +106375,9 @@
       ]
     },
     {
-      "timeline_id": "Wong Kong Wai Road|黃崗圍路",
+      "timeline_id": "page:wong-kong-wai-road",
       "page_id": "wong-kong-wai-road",
-      "street_code": null,
+      "street_code": "14324",
       "street_name_en": "Wong Kong Wai Road",
       "street_name_zh": "黃崗圍路",
       "canonical_naming_year": 2010,
@@ -106444,9 +106385,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14324",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -107067,9 +107008,9 @@
       ]
     },
     {
-      "timeline_id": "Wui Man Road|匯民道",
+      "timeline_id": "page:wui-man-road",
       "page_id": "wui-man-road",
-      "street_code": null,
+      "street_code": "14318",
       "street_name_en": "Wui Man Road",
       "street_name_zh": "匯民道",
       "canonical_naming_year": 2009,
@@ -107077,9 +107018,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 2,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14318",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -107128,9 +107069,9 @@
       ]
     },
     {
-      "timeline_id": "Wui T Ung Street|匯東街",
+      "timeline_id": "page:wui-t-ung-street",
       "page_id": "wui-t-ung-street",
-      "street_code": null,
+      "street_code": "14550",
       "street_name_en": "Wui T Ung Street",
       "street_name_zh": "匯東街",
       "canonical_naming_year": 2024,
@@ -107138,9 +107079,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14550",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -107208,9 +107149,9 @@
       ]
     },
     {
-      "timeline_id": "Wun Yiu Road|碗窰路",
+      "timeline_id": "page:wun-yiu-road",
       "page_id": "wun-yiu-road",
-      "street_code": null,
+      "street_code": "14343",
       "street_name_en": "Wun Yiu Road",
       "street_name_zh": "碗窰路",
       "canonical_naming_year": 2011,
@@ -107218,9 +107159,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14343",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -107395,9 +107336,9 @@
       ]
     },
     {
-      "timeline_id": "Y A U M Ong L A N E|油旺里",
+      "timeline_id": "page:y-a-u-m-ong-l-a-n-e",
       "page_id": "y-a-u-m-ong-l-a-n-e",
-      "street_code": null,
+      "street_code": "14548",
       "street_name_en": "Y A U M Ong L A N E",
       "street_name_zh": "油旺里",
       "canonical_naming_year": 2024,
@@ -107405,9 +107346,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14548",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -107475,9 +107416,9 @@
       ]
     },
     {
-      "timeline_id": "Yan Ching Circuit|仁政街",
+      "timeline_id": "page:yan-ching-circuit",
       "page_id": "yan-ching-circuit",
-      "street_code": null,
+      "street_code": "12807",
       "street_name_en": "Yan Ching Circuit",
       "street_name_zh": "仁政街",
       "canonical_naming_year": 1975,
@@ -107485,9 +107426,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "12807",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -107788,9 +107729,9 @@
       ]
     },
     {
-      "timeline_id": "Yan Po Road|欣寶路",
+      "timeline_id": "page:yan-po-road",
       "page_id": "yan-po-road",
-      "street_code": null,
+      "street_code": "14495",
       "street_name_en": "Yan Po Road",
       "street_name_zh": "欣寶路",
       "canonical_naming_year": 2020,
@@ -107798,9 +107739,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14495",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -108802,9 +108743,9 @@
       ]
     },
     {
-      "timeline_id": "Yee Lok Street|怡樂街",
+      "timeline_id": "page:yee-lok-street",
       "page_id": "yee-lok-street",
-      "street_code": null,
+      "street_code": "12961",
       "street_name_en": "Yee Lok Street",
       "street_name_zh": "怡樂街",
       "canonical_naming_year": null,
@@ -108812,9 +108753,9 @@
       "derivation_reason": "no_current_name_event",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "12961",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -108842,9 +108783,9 @@
       ]
     },
     {
-      "timeline_id": "Yee Ming Path|怡明徑",
+      "timeline_id": "page:yee-ming-path",
       "page_id": "yee-ming-path",
-      "street_code": null,
+      "street_code": "14453",
       "street_name_en": "Yee Ming Path",
       "street_name_zh": "怡明徑",
       "canonical_naming_year": 2017,
@@ -108852,9 +108793,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14453",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -109348,9 +109289,9 @@
       ]
     },
     {
-      "timeline_id": "Yeung Fan Lane North|揚帆里北",
+      "timeline_id": "page:yeung-fan-lane-north",
       "page_id": "yeung-fan-lane-north",
-      "street_code": null,
+      "street_code": "14430",
       "street_name_en": "Yeung Fan Lane North",
       "street_name_zh": "揚帆里北",
       "canonical_naming_year": 2017,
@@ -109358,9 +109299,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14430",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -109388,9 +109329,9 @@
       ]
     },
     {
-      "timeline_id": "Yeung Fan Lane South|揚帆里南",
+      "timeline_id": "page:yeung-fan-lane-south",
       "page_id": "yeung-fan-lane-south",
-      "street_code": null,
+      "street_code": "14431",
       "street_name_en": "Yeung Fan Lane South",
       "street_name_zh": "揚帆里南",
       "canonical_naming_year": 2017,
@@ -109398,9 +109339,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14431",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -109555,9 +109496,9 @@
       ]
     },
     {
-      "timeline_id": "Yi Tung Road|怡東路",
+      "timeline_id": "page:yi-tung-road",
       "page_id": "yi-tung-road",
-      "street_code": null,
+      "street_code": "13864",
       "street_name_en": "Yi Tung Road",
       "street_name_zh": "怡東路",
       "canonical_naming_year": 2019,
@@ -109565,9 +109506,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "13864",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -109917,9 +109858,9 @@
       ]
     },
     {
-      "timeline_id": "Yin Kong Road|燕崗路",
+      "timeline_id": "page:yin-kong-road",
       "page_id": "yin-kong-road",
-      "street_code": null,
+      "street_code": "14336",
       "street_name_en": "Yin Kong Road",
       "street_name_zh": "燕崗路",
       "canonical_naming_year": 2010,
@@ -109927,9 +109868,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14336",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -110242,22 +110183,43 @@
       ]
     },
     {
-      "timeline_id": "Ying Tung Road|迎東路",
+      "timeline_id": "page:ying-tung-road",
       "page_id": "ying-tung-road",
-      "street_code": null,
+      "street_code": "14397",
       "street_name_en": "Ying Tung Road",
       "street_name_zh": "迎東路",
-      "canonical_naming_year": 2016,
-      "canonical_naming_date": "2016-11-11",
+      "canonical_naming_year": 2014,
+      "canonical_naming_date": "2014-05-30",
       "derivation_reason": "declaration_earliest",
-      "event_count": 2,
+      "event_count": 3,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14397",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
+        {
+          "date": "2014-05-30",
+          "change_kind": "declare",
+          "name_en": null,
+          "name_zh": "迎東路",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.3150",
+          "notice_label_zh": "第3150號",
+          "notice_url_en": "/egazette/en/2014-18-22-3150.pdf",
+          "notice_url_zh": "/egazette/zh/2014-18-22-3150.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "egazette_pdf",
+          "submitter_remarks": null,
+          "gazette_location": null
+        },
         {
           "date": "2016-11-11",
           "change_kind": "declare",
@@ -110303,9 +110265,9 @@
       ]
     },
     {
-      "timeline_id": "Ying Wan Lane|迎運里",
+      "timeline_id": "page:ying-wan-lane",
       "page_id": "ying-wan-lane",
-      "street_code": null,
+      "street_code": "14341",
       "street_name_en": "Ying Wan Lane",
       "street_name_zh": "迎運里",
       "canonical_naming_year": 2011,
@@ -110313,9 +110275,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14341",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -110460,9 +110422,9 @@
       ]
     },
     {
-      "timeline_id": "Yip Wong Road|業旺路",
+      "timeline_id": "page:yip-wong-road",
       "page_id": "yip-wong-road",
-      "street_code": null,
+      "street_code": "12977",
       "street_name_en": "Yip Wong Road",
       "street_name_zh": "業旺路",
       "canonical_naming_year": 2009,
@@ -110470,9 +110432,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "12977",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -110500,9 +110462,9 @@
       ]
     },
     {
-      "timeline_id": "Yiu Sha Road|耀沙路",
+      "timeline_id": "page:yiu-sha-road",
       "page_id": "yiu-sha-road",
-      "street_code": null,
+      "street_code": "14351",
       "street_name_en": "Yiu Sha Road",
       "street_name_zh": "耀沙路",
       "canonical_naming_year": 2019,
@@ -110510,9 +110472,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14351",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -112778,9 +112740,9 @@
       ]
     },
     {
-      "timeline_id": "Yuen Yeung Lane North|遠洋里北",
+      "timeline_id": "page:yuen-yeung-lane-north",
       "page_id": "yuen-yeung-lane-north",
-      "street_code": null,
+      "street_code": "14432",
       "street_name_en": "Yuen Yeung Lane North",
       "street_name_zh": "遠洋里北",
       "canonical_naming_year": 2017,
@@ -112788,9 +112750,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14432",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -112818,9 +112780,9 @@
       ]
     },
     {
-      "timeline_id": "Yuen Yeung Lane South|遠洋里南",
+      "timeline_id": "page:yuen-yeung-lane-south",
       "page_id": "yuen-yeung-lane-south",
-      "street_code": null,
+      "street_code": "14433",
       "street_name_en": "Yuen Yeung Lane South",
       "street_name_zh": "遠洋里南",
       "canonical_naming_year": 2017,
@@ -112828,9 +112790,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14433",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -113160,9 +113122,9 @@
       ]
     },
     {
-      "timeline_id": "Yuk Tong Path|沃塘徑",
+      "timeline_id": "page:yuk-tong-path",
       "page_id": "yuk-tong-path",
-      "street_code": null,
+      "street_code": "14552",
       "street_name_en": "Yuk Tong Path",
       "street_name_zh": "沃塘徑",
       "canonical_naming_year": 2024,
@@ -113170,9 +113132,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14552",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -113240,9 +113202,9 @@
       ]
     },
     {
-      "timeline_id": "Yung Ping Path|雍坪徑",
+      "timeline_id": "page:yung-ping-path",
       "page_id": "yung-ping-path",
-      "street_code": null,
+      "street_code": "13529",
       "street_name_en": "Yung Ping Path",
       "street_name_zh": "雍坪徑",
       "canonical_naming_year": 1984,
@@ -113250,9 +113212,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "13529",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -113480,9 +113442,9 @@
       ]
     },
     {
-      "timeline_id": "|下灣村東路",
+      "timeline_id": "page:tl-8282c695",
       "page_id": "tl-8282c695",
-      "street_code": null,
+      "street_code": "14400",
       "street_name_en": null,
       "street_name_zh": "下灣村東路",
       "canonical_naming_year": 2015,
@@ -113490,9 +113452,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14400",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -113520,9 +113482,9 @@
       ]
     },
     {
-      "timeline_id": "|下灣村路",
+      "timeline_id": "page:tl-1b08c358",
       "page_id": "tl-1b08c358",
-      "street_code": null,
+      "street_code": "14399",
       "street_name_en": null,
       "street_name_zh": "下灣村路",
       "canonical_naming_year": 2015,
@@ -113530,9 +113492,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14399",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -113640,9 +113602,9 @@
       ]
     },
     {
-      "timeline_id": "|古洞北路",
+      "timeline_id": "page:tl-3ea7de4f",
       "page_id": "tl-3ea7de4f",
-      "street_code": null,
+      "street_code": "14569",
       "street_name_en": null,
       "street_name_zh": "古洞北路",
       "canonical_naming_year": 2026,
@@ -113650,9 +113612,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14569",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -113760,9 +113722,9 @@
       ]
     },
     {
-      "timeline_id": "|嘉健里",
+      "timeline_id": "page:tl-54df3b69",
       "page_id": "tl-54df3b69",
-      "street_code": null,
+      "street_code": "14406",
       "street_name_en": null,
       "street_name_zh": "嘉健里",
       "canonical_naming_year": 2015,
@@ -113770,9 +113732,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14406",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -113840,9 +113802,9 @@
       ]
     },
     {
-      "timeline_id": "|大老山公路",
+      "timeline_id": "page:tl-6b365646",
       "page_id": "tl-6b365646",
-      "street_code": null,
+      "street_code": "13137",
       "street_name_en": null,
       "street_name_zh": "大老山公路",
       "canonical_naming_year": 1992,
@@ -113850,9 +113812,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "13137",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -113930,9 +113892,9 @@
       ]
     },
     {
-      "timeline_id": "|安健道",
+      "timeline_id": "page:tl-454293b0",
       "page_id": "tl-454293b0",
-      "street_code": null,
+      "street_code": "14507",
       "street_name_en": null,
       "street_name_zh": "安健道",
       "canonical_naming_year": 2021,
@@ -113940,9 +113902,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14507",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -113970,9 +113932,9 @@
       ]
     },
     {
-      "timeline_id": "|安愉徑",
+      "timeline_id": "page:tl-3168bfb7",
       "page_id": "tl-3168bfb7",
-      "street_code": null,
+      "street_code": "14506",
       "street_name_en": null,
       "street_name_zh": "安愉徑",
       "canonical_naming_year": 2021,
@@ -113980,9 +113942,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14506",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -114010,9 +113972,9 @@
       ]
     },
     {
-      "timeline_id": "|安愉道",
+      "timeline_id": "page:tl-40ff0e7e",
       "page_id": "tl-40ff0e7e",
-      "street_code": null,
+      "street_code": "14505",
       "street_name_en": null,
       "street_name_zh": "安愉道",
       "canonical_naming_year": 2021,
@@ -114020,9 +113982,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14505",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -114050,9 +114012,9 @@
       ]
     },
     {
-      "timeline_id": "|安禧街",
+      "timeline_id": "page:tl-45b1f264",
       "page_id": "tl-45b1f264",
-      "street_code": null,
+      "street_code": "14508",
       "street_name_en": null,
       "street_name_zh": "安禧街",
       "canonical_naming_year": 2021,
@@ -114060,9 +114022,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14508",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -114130,9 +114092,9 @@
       ]
     },
     {
-      "timeline_id": "|尾逢路",
+      "timeline_id": "page:tl-37d9862c",
       "page_id": "tl-37d9862c",
-      "street_code": null,
+      "street_code": "14501",
       "street_name_en": null,
       "street_name_zh": "尾逢路",
       "canonical_naming_year": 2021,
@@ -114140,9 +114102,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14501",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -114170,9 +114132,9 @@
       ]
     },
     {
-      "timeline_id": "|屯門赤鱲角隧道公路",
+      "timeline_id": "page:tl-886c5560",
       "page_id": "tl-886c5560",
-      "street_code": null,
+      "street_code": "14496",
       "street_name_en": null,
       "street_name_zh": "屯門赤鱲角隧道公路",
       "canonical_naming_year": 2020,
@@ -114180,9 +114142,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14496",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -114250,9 +114212,9 @@
       ]
     },
     {
-      "timeline_id": "|承富里",
+      "timeline_id": "page:tl-3008760d",
       "page_id": "tl-3008760d",
-      "street_code": null,
+      "street_code": "14511",
       "street_name_en": null,
       "street_name_zh": "承富里",
       "canonical_naming_year": 2021,
@@ -114260,9 +114222,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14511",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -114290,9 +114252,9 @@
       ]
     },
     {
-      "timeline_id": "|承景街",
+      "timeline_id": "page:tl-a7c60f8c",
       "page_id": "tl-a7c60f8c",
-      "street_code": null,
+      "street_code": "14513",
       "street_name_en": null,
       "street_name_zh": "承景街",
       "canonical_naming_year": 2021,
@@ -114300,9 +114262,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14513",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -114330,9 +114292,9 @@
       ]
     },
     {
-      "timeline_id": "|承裕里",
+      "timeline_id": "page:tl-6686efb2",
       "page_id": "tl-6686efb2",
-      "street_code": null,
+      "street_code": "14512",
       "street_name_en": null,
       "street_name_zh": "承裕里",
       "canonical_naming_year": 2021,
@@ -114340,9 +114302,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14512",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -114370,22 +114332,43 @@
       ]
     },
     {
-      "timeline_id": "|啟德交匯處",
-      "page_id": "tl-e49c58d4",
-      "street_code": null,
+      "timeline_id": "page:kai-tak-interchange",
+      "page_id": "kai-tak-interchange",
+      "street_code": "14568",
       "street_name_en": null,
       "street_name_zh": "啟德交匯處",
       "canonical_naming_year": 2025,
       "canonical_naming_date": "2025-11-21",
       "derivation_reason": "declaration_earliest",
-      "event_count": 1,
+      "event_count": 2,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14568",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
+        {
+          "date": "2025-11-21",
+          "change_kind": "declare",
+          "name_en": "Kai Tak Interchange",
+          "name_zh": "啟德交匯處",
+          "previous_name_en": null,
+          "previous_name_zh": null,
+          "notice_label_en": "G.N.7381",
+          "notice_label_zh": "第7381號",
+          "notice_url_en": "/egazette/en/2025-29-47-7381.pdf",
+          "notice_url_zh": "/egazette/zh/2025-29-47-7381.pdf",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "event_role": "current_name",
+          "derived_from": null,
+          "evidence_kind_note": null,
+          "supplementary_evidence": null,
+          "source": "landsd",
+          "submitter_remarks": null,
+          "gazette_location": null
+        },
         {
           "date": "2025-11-21",
           "change_kind": "declare",
@@ -114410,9 +114393,9 @@
       ]
     },
     {
-      "timeline_id": "|啟德橋道",
+      "timeline_id": "page:tl-82a0b64b",
       "page_id": "tl-82a0b64b",
-      "street_code": null,
+      "street_code": "14510",
       "street_name_en": null,
       "street_name_zh": "啟德橋道",
       "canonical_naming_year": 2021,
@@ -114420,9 +114403,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14510",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -114530,9 +114513,9 @@
       ]
     },
     {
-      "timeline_id": "|柏壽路",
+      "timeline_id": "page:tl-5977349c",
       "page_id": "tl-5977349c",
-      "street_code": null,
+      "street_code": "14530",
       "street_name_en": null,
       "street_name_zh": "柏壽路",
       "canonical_naming_year": 2022,
@@ -114540,9 +114523,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14530",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -114570,9 +114553,9 @@
       ]
     },
     {
-      "timeline_id": "|梁盛路",
+      "timeline_id": "page:tl-cb4b7f7f",
       "page_id": "tl-cb4b7f7f",
-      "street_code": null,
+      "street_code": "14489",
       "street_name_en": null,
       "street_name_zh": "梁盛路",
       "canonical_naming_year": 2020,
@@ -114580,9 +114563,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14489",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -114610,9 +114593,9 @@
       ]
     },
     {
-      "timeline_id": "|榕樹灣廣場路",
+      "timeline_id": "page:tl-c996c5df",
       "page_id": "tl-c996c5df",
-      "street_code": null,
+      "street_code": "14392",
       "street_name_en": null,
       "street_name_zh": "榕樹灣廣場路",
       "canonical_naming_year": 2014,
@@ -114620,9 +114603,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14392",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -114650,9 +114633,9 @@
       ]
     },
     {
-      "timeline_id": "|水尾路",
+      "timeline_id": "page:tl-340ce7ff",
       "page_id": "tl-340ce7ff",
-      "street_code": null,
+      "street_code": "14502",
       "street_name_en": null,
       "street_name_zh": "水尾路",
       "canonical_naming_year": 2021,
@@ -114660,9 +114643,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14502",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -114690,9 +114673,9 @@
       ]
     },
     {
-      "timeline_id": "|江埔路",
+      "timeline_id": "page:tl-51320872",
       "page_id": "tl-51320872",
-      "street_code": null,
+      "street_code": "14487",
       "street_name_en": null,
       "street_name_zh": "江埔路",
       "canonical_naming_year": 2020,
@@ -114700,9 +114683,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14487",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -114730,9 +114713,9 @@
       ]
     },
     {
-      "timeline_id": "|浩和街",
+      "timeline_id": "page:tl-03e7edc1",
       "page_id": "tl-03e7edc1",
-      "street_code": null,
+      "street_code": "14497",
       "street_name_en": null,
       "street_name_zh": "浩和街",
       "canonical_naming_year": 2020,
@@ -114740,9 +114723,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14497",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -114770,9 +114753,9 @@
       ]
     },
     {
-      "timeline_id": "|浩逸街",
+      "timeline_id": "page:tl-a269c8ae",
       "page_id": "tl-a269c8ae",
-      "street_code": null,
+      "street_code": "14498",
       "street_name_en": null,
       "street_name_zh": "浩逸街",
       "canonical_naming_year": 2020,
@@ -114780,9 +114763,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14498",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -114810,9 +114793,9 @@
       ]
     },
     {
-      "timeline_id": "|清攸徑",
+      "timeline_id": "page:tl-36e6eb62",
       "page_id": "tl-36e6eb62",
-      "street_code": null,
+      "street_code": "14486",
       "street_name_en": null,
       "street_name_zh": "清攸徑",
       "canonical_naming_year": 2020,
@@ -114820,9 +114803,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14486",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -114900,9 +114883,9 @@
       ]
     },
     {
-      "timeline_id": "|石上路",
+      "timeline_id": "page:tl-2db03d2f",
       "page_id": "tl-2db03d2f",
-      "street_code": null,
+      "street_code": "14490",
       "street_name_en": null,
       "street_name_zh": "石上路",
       "canonical_naming_year": 2020,
@@ -114910,9 +114893,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14490",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -114940,9 +114923,9 @@
       ]
     },
     {
-      "timeline_id": "|米埔南路",
+      "timeline_id": "page:tl-21f828a6",
       "page_id": "tl-21f828a6",
-      "street_code": null,
+      "street_code": "14485",
       "street_name_en": null,
       "street_name_zh": "米埔南路",
       "canonical_naming_year": 2020,
@@ -114950,9 +114933,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14485",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -114980,9 +114963,9 @@
       ]
     },
     {
-      "timeline_id": "|蓮竹路",
+      "timeline_id": "page:tl-e18004bc",
       "page_id": "tl-e18004bc",
-      "street_code": null,
+      "street_code": "14534",
       "street_name_en": null,
       "street_name_zh": "蓮竹路",
       "canonical_naming_year": 2023,
@@ -114990,9 +114973,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14534",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -115060,9 +115043,9 @@
       ]
     },
     {
-      "timeline_id": "|迎康街",
+      "timeline_id": "page:tl-523d094e",
       "page_id": "tl-523d094e",
-      "street_code": null,
+      "street_code": "14396",
       "street_name_en": null,
       "street_name_zh": "迎康街",
       "canonical_naming_year": 2014,
@@ -115070,9 +115053,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14396",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -115100,49 +115083,9 @@
       ]
     },
     {
-      "timeline_id": "|迎東路",
-      "page_id": "tl-c301a810",
-      "street_code": null,
-      "street_name_en": null,
-      "street_name_zh": "迎東路",
-      "canonical_naming_year": 2014,
-      "canonical_naming_date": "2014-05-30",
-      "derivation_reason": "declaration_earliest",
-      "event_count": 1,
-      "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
-        "district_hint": null
-      },
-      "name_history": [
-        {
-          "date": "2014-05-30",
-          "change_kind": "declare",
-          "name_en": null,
-          "name_zh": "迎東路",
-          "previous_name_en": null,
-          "previous_name_zh": null,
-          "notice_label_en": "G.N.3150",
-          "notice_label_zh": "第3150號",
-          "notice_url_en": "/egazette/en/2014-18-22-3150.pdf",
-          "notice_url_zh": "/egazette/zh/2014-18-22-3150.pdf",
-          "evidence_kind": "gazette_primary",
-          "is_declaration_event": true,
-          "event_role": "current_name",
-          "derived_from": null,
-          "evidence_kind_note": null,
-          "supplementary_evidence": null,
-          "source": "egazette_pdf",
-          "submitter_remarks": null,
-          "gazette_location": null
-        }
-      ]
-    },
-    {
-      "timeline_id": "|鄉梓路",
+      "timeline_id": "page:tl-cd350bdd",
       "page_id": "tl-cd350bdd",
-      "street_code": null,
+      "street_code": "14531",
       "street_name_en": null,
       "street_name_zh": "鄉梓路",
       "canonical_naming_year": 2022,
@@ -115150,9 +115093,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14531",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -115180,9 +115123,9 @@
       ]
     },
     {
-      "timeline_id": "|錦東街",
+      "timeline_id": "page:tl-f2aa217e",
       "page_id": "tl-f2aa217e",
-      "street_code": null,
+      "street_code": "14560",
       "street_name_en": null,
       "street_name_zh": "錦東街",
       "canonical_naming_year": 2025,
@@ -115190,9 +115133,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14560",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -115220,9 +115163,9 @@
       ]
     },
     {
-      "timeline_id": "|香蓮路",
+      "timeline_id": "page:tl-6bba3de9",
       "page_id": "tl-6bba3de9",
-      "street_code": null,
+      "street_code": "14533",
       "street_name_en": null,
       "street_name_zh": "香蓮路",
       "canonical_naming_year": 2023,
@@ -115230,9 +115173,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14533",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -115260,9 +115203,9 @@
       ]
     },
     {
-      "timeline_id": "|馬鞍山路",
+      "timeline_id": "page:tl-8dacde08",
       "page_id": "tl-8dacde08",
-      "street_code": null,
+      "street_code": "11346",
       "street_name_en": null,
       "street_name_zh": "馬鞍山路",
       "canonical_naming_year": 1992,
@@ -115270,9 +115213,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "11346",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -115310,9 +115253,9 @@
       ]
     },
     {
-      "timeline_id": "|高上路",
+      "timeline_id": "page:tl-78955094",
       "page_id": "tl-78955094",
-      "street_code": null,
+      "street_code": "14488",
       "street_name_en": null,
       "street_name_zh": "高上路",
       "canonical_naming_year": 2020,
@@ -115320,9 +115263,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14488",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [
@@ -115390,9 +115333,9 @@
       ]
     },
     {
-      "timeline_id": "|龍田街",
+      "timeline_id": "page:tl-0edd9e50",
       "page_id": "tl-0edd9e50",
-      "street_code": null,
+      "street_code": "14391",
       "street_name_en": null,
       "street_name_zh": "龍田街",
       "canonical_naming_year": 2014,
@@ -115400,9 +115343,9 @@
       "derivation_reason": "declaration_earliest",
       "event_count": 1,
       "geometry_link": {
-        "status": "unlinked",
-        "street_code": null,
-        "method": "name_aggregate_only",
+        "status": "active",
+        "street_code": "14391",
+        "method": "manual",
         "district_hint": null
       },
       "name_history": [

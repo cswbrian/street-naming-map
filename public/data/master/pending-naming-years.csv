@@ -424,7 +424,7 @@ code:10406,10406,ELECTRIC ROAD,電氣道,Secondary Road,1935,1935-06-21,/egazett
 code:14231,14231,FO CHUN ROAD,科進路,Secondary Road,2005,2005-10-21,/egazette/en/2005-09-42-5456.pdf,,13
 code:10562,10562,FUK WING STREET,福榮街,Secondary Road,1923,1923-09-28,/egazette/en/1923-gn411.pdf,/egazette/zh/1923-gn411.pdf,13
 code:10597,10597,GARDEN ROAD,花園道,Main Road,1958,1958-01-03,/egazette/en/1958-gn16.pdf,/egazette/zh/1958-gn16.pdf,13
-code:14494,14494,GASCOIGNE ROAD FLYOVER,加士居道天橋,Main Road,,,/egazette/en/2020-24-42-5983.pdf,/egazette/zh/2020-24-42-5983.pdf,13
+code:14494,14494,GASCOIGNE ROAD FLYOVER,加士居道天橋,Main Road,2020,2020-10-16,/egazette/en/2020-24-42-5983.pdf,/egazette/zh/2020-24-42-5983.pdf,13
 code:10765,10765,HOI BUN ROAD,海濱道,Secondary Road,1957,1957-02-22,/egazette/en/1957-gn264.pdf,/egazette/zh/1957-gn264.pdf,13
 code:11050,11050,KO CHIU ROAD,高超道,Secondary Road,,,,,13
 code:13055,13055,KUNG UM ROAD,公庵路,Secondary Road,1991,1991-06-28,/egazette/en/2015-19-27-4864.pdf,/egazette/zh/2015-19-27-4864.pdf,13
@@ -874,7 +874,7 @@ code:13054,13054,LONG TIN ROAD,朗天路,Main Road,,,,,9
 code:13041,13041,LUK MEI TSUEN ROAD,鹿尾村路,Secondary Road,1991,1991-05-24,/egazette/en/2020-24-24-3237.pdf,/egazette/zh/2020-24-24-3237.pdf,9
 code:11337,11337,MA CHAI HANG ROAD,馬仔坑道,Secondary Road,1976,1976-02-06,/egazette/en/1976-gn288.pdf,/egazette/zh/2018-22-32-6060.pdf,9
 code:13102,13102,MA YAU TONG ROAD,馬游塘路,Secondary Road,,,,,9
-code:11363,11363,"MAIN STREET, AP LEI CHAU",鴨脷洲大街,Restricted Road,,,,,9
+code:11363,11363,"MAIN STREET, AP LEI CHAU",鴨脷洲大街,Restricted Road,,,/egazette/en/1975-gn2327.pdf,,9
 code:11467,11467,MOUNT AUSTIN ROAD,柯士甸山道,Secondary Road,,,/egazette/en/1960-gn1174.pdf,,9
 code:11469,11469,MOUNT BUTLER ROAD,畢拉山道,Secondary Road,,,,,9
 code:39233,39233,NAM PIN WAI EASTERN LANE,南邊圍東巷,Track,,,,,9
@@ -2301,7 +2301,7 @@ code:13527,13527,YAU TIN WEST ROAD,攸田西路,Tunnel,1992,1992-11-20,/egazette
 code:14182,14182,YICK YUEN ROAD,亦園路,Secondary Road,,,,,5
 code:12865,12865,YIM PO FONG STREET,染布房街,Secondary Road,1924,1924-08-29,/egazette/en/1924-gn492.pdf,/egazette/zh/1924-gn492.pdf,5
 code:13875,13875,YIN PING ROAD,延坪道,Secondary Road,,,,,5
-code:14397,14397,YING TUNG ROAD,迎東路,Secondary Road,2016,2016-11-11,https://www.landsd.gov.hk/doc/en/street-name/egazette/2016/egn201620456438.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2016/cgn201620456438.pdf,5
+code:14397,14397,YING TUNG ROAD,迎東路,Secondary Road,2014,2014-05-30,/egazette/en/2014-18-22-3150.pdf,/egazette/zh/2014-18-22-3150.pdf,5
 code:12891,12891,YU KING SQUARE,裕景坊,Secondary Road,1983,1983-06-03,/egazette/en/1983-gn1752.pdf,/egazette/zh/1983-gn1752.pdf,5
 code:13756,13756,YU TUNG ROAD,裕東路,Secondary Road,,,,,5
 code:12908,12908,YUEN CHAU KOK ROAD,圓洲角路,Secondary Road,1981,1981-09-18,/egazette/en/1981-gn2794.pdf,/egazette/zh/1981-gn2794.pdf,5
