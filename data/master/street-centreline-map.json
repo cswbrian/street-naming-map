@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-15T16:23:29.601Z",
+  "updated_at": "2026-07-18T16:54:48.599Z",
   "links": [
     {
       "timeline_id": "code:10003",
@@ -1558,6 +1558,20 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:10230",
+      "page_id": "10230-chi-shing-lane",
+      "street_code": "10230",
+      "event_ids": [
+        "crowd|1901-gn272-chi-sing-lane-Chi-Shing-Lane-1901-05-11"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-18",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:10231",
       "page_id": "10231-chi-wo-street",
       "street_code": "10231",
@@ -2222,6 +2236,21 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:10345",
+      "page_id": "10345-cox-s-road",
+      "street_code": "10345",
+      "event_ids": [
+        "crowd|1919-gn464-coxs-road-path-Cox-s-Road-覺士道-",
+        "crowd|1919-gn464-coxs-road-path-Cox-s-Road-覺士道-1919-10-03"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-18",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:10347",
@@ -7696,6 +7725,18 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:11148",
+      "page_id": "11148-lady-clementi-s-ride",
+      "street_code": "11148",
+      "event_ids": [],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-18",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11149",
       "page_id": "11149-lai-chi-kok-road",
       "street_code": "11149",
@@ -7792,6 +7833,21 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-07-12",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:11158",
+      "page_id": "11158-lai-on-lane",
+      "street_code": "11158",
+      "event_ids": [
+        "crowd|1901-gn584-lai-on-lane-Lai-On-Lane-荔安里-",
+        "crowd|1901-gn584-lai-on-lane-Lai-On-Lane-荔安里-1901-10-05"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-18",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -11654,6 +11710,21 @@
       "linked_by": "apply-crowd-batch"
     },
     {
+      "timeline_id": "code:11734",
+      "page_id": "11734-po-hing-fong",
+      "street_code": "11734",
+      "event_ids": [
+        "crowd|1901-gn74-po-hing-fong-Po-Hing-Fong-普慶坊-",
+        "crowd|1901-gn74-po-hing-fong-Po-Hing-Fong-普慶坊-1901-02-09"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-18",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:11736",
       "page_id": "11736-po-kong-lane",
       "street_code": "11736",
@@ -14403,6 +14474,18 @@
       "district_hint": null,
       "note": null,
       "linked_at": "2026-07-12",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
+      "timeline_id": "code:12114",
+      "page_id": "12114-sir-cecil-s-ride",
+      "street_code": "12114",
+      "event_ids": [],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-18",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -17299,13 +17382,14 @@
       "page_id": "12536-tung-sing-road",
       "street_code": "12536",
       "event_ids": [
-        "crowd|1959-gn628-factory-tung-sing-Tung-Sing-Road-東勝道-1959-05-08"
+        "crowd|1959-gn628-factory-tung-sing-Tung-Sing-Road-東勝道-1959-05-08",
+        "crowd|1925-gn608-tung-sing-woo-hop-Tung-Sing-Road-東勝道-1925-10-23"
       ],
       "status": "active",
       "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-21",
+      "linked_at": "2026-07-18",
       "linked_by": "apply-crowd-batch"
     },
     {
@@ -18909,18 +18993,33 @@
       "linked_by": "migrate-street-code-to-map"
     },
     {
+      "timeline_id": "code:12787",
+      "page_id": "12787-woo-hop-street",
+      "street_code": "12787",
+      "event_ids": [
+        "crowd|1925-gn608-tung-sing-woo-hop-Woo-Hop-Street-和合街-1925-10-23"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-18",
+      "linked_by": "apply-crowd-batch"
+    },
+    {
       "timeline_id": "code:12791",
       "page_id": "12791-woosung-street",
       "street_code": "12791",
       "event_ids": [
-        "crowd|1909-gn184-safe-12791-1909-03-19"
+        "crowd|1909-gn184-safe-12791-1909-03-19",
+        "crowd|1921-gn469-woosung-extend-Woosung-Street-吳淞街-1921-11-10"
       ],
       "status": "active",
-      "method": "migrated_from_event_street_code",
+      "method": "batch_link_street_code",
       "district_hint": null,
       "note": null,
-      "linked_at": "2026-06-09",
-      "linked_by": "migrate-street-code-to-map"
+      "linked_at": "2026-07-18",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12794",
@@ -19458,6 +19557,21 @@
       "note": null,
       "linked_at": "2026-06-09",
       "linked_by": "migrate-street-code-to-map"
+    },
+    {
+      "timeline_id": "code:12871",
+      "page_id": "12871-ying-fai-terrace",
+      "street_code": "12871",
+      "event_ids": [
+        "crowd|1926-gn255-ying-fai-terrace-Ying-Fai-Terrace-英輝臺-",
+        "crowd|1926-gn255-ying-fai-terrace-Ying-Fai-Terrace-英輝臺-1926-05-07"
+      ],
+      "status": "active",
+      "method": "batch_link_street_code",
+      "district_hint": null,
+      "note": null,
+      "linked_at": "2026-07-18",
+      "linked_by": "apply-crowd-batch"
     },
     {
       "timeline_id": "code:12872",

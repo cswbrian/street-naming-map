@@ -1,0 +1,42 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1921-gn469-woosung-extend",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.469",
+  "publication_date": "1921-11-10",
+  "gazette_url_en": "/egazette/en/1921-gn469.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1921-gn469.pdf",
+  "streets": [
+    {
+      "link_street_code": "12791",
+      "english_name": "Woosung Street",
+      "chinese_name": "吳淞街",
+      "history": [
+        {
+          "publication_date": "1921-11-10",
+          "change_kind": "extend",
+          "event_role": "current_name",
+          "street_name_en": "Woosung Street",
+          "street_name_zh": "吳淞街",
+          "evidence_kind": "gazette_primary",
+          "is_declaration_event": true,
+          "submitter_remarks": "Gazette ZH 吳淞街; geojson 吳松街. Additional segment naming under existing Woosung Street (prior G.N.184/1909 Kennedy Street → Woosung Street).",
+          "gazette_location": {
+            "description_raw_en": "Street commencing at Austin Road dividing K. I. L. 421 and running North till it joins Bowring Street.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Austin Road",
+                "Bowring Street"
+              ],
+              "lot_refs": [
+                "K.I.L. 421"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

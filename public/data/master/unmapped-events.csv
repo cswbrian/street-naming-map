@@ -1,4 +1,6 @@
 event_id,source,publication_date,change_kind,street_name_en,street_name_zh,district_raw_en,notice_no
+crowd|1919-gn464-coxs-road-path-Cox-s-Path-覺士徑-,hkgro,,declare,Path leading from the North-West end of Cox's Road up to the West Block of Government Quarters,,,GN464
+crowd|1919-gn464-coxs-road-path-Cox-s-Path-覺士徑-1919-10-03,hkgro,1919-10-03,rename,Cox's Path,覺士徑,,GN464
 crowd|1952-gn1173-eagle-road-1952-10-10,crowdsubmitted,1952-10-10,declare,Eagle Road,鷹道,,GN1173
 crowd|1952-gn1173-swallow-road-1952-10-10,crowdsubmitted,1952-10-10,declare,Swallow Road,燕子道,,GN1173
 crowd|1953-gn757-wong-chuk-sai-yeung-choi-Sai-Yeung-Choi-Street-西洋菜街-1953-06-12,crowdsubmitted,1953-06-12,declare,Sai Yeung Choi Street,西洋菜街,,GN757

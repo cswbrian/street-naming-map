@@ -1,0 +1,87 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1919-gn464-coxs-road-path",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.464",
+  "publication_date": "1919-10-03",
+  "gazette_url_en": "/egazette/en/1919-gn464.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1919-gn464.pdf",
+  "streets": [
+    {
+      "link_street_code": "10345",
+      "english_name": "Cox's Road",
+      "chinese_name": "覺士道",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Cox's Path",
+          "street_name_zh": null,
+          "event_role": "former_name",
+          "evidence_kind": "gazette_primary",
+          "submitter_remarks": "Former name attested in G.N.464 rename notice; separate naming date not recorded on file."
+        },
+        {
+          "publication_date": "1919-10-03",
+          "change_kind": "rename",
+          "previous_street_name_en": "Cox's Path",
+          "street_name_en": "Cox's Road",
+          "street_name_zh": "覺士道",
+          "event_role": "current_name",
+          "evidence_kind": "gazette_primary",
+          "gazette_location": {
+            "description_raw_en": "Cox's Path",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [],
+              "lot_refs": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "english_name": "Cox's Path",
+      "chinese_name": "覺士徑",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Path leading from the North-West end of Cox's Road up to the West Block of Government Quarters",
+          "street_name_zh": null,
+          "event_role": "former_name",
+          "evidence_kind": "gazette_primary",
+          "submitter_remarks": "G.N.464 present name: Path leading from the North-West end of Cox's Road up to the West Block of Government Quarters.",
+          "gazette_location": {
+            "description_raw_en": "Path leading from the North-West end of Cox's Road up to the West Block of Government Quarters",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Cox's Road"
+              ],
+              "lot_refs": []
+            }
+          }
+        },
+        {
+          "publication_date": "1919-10-03",
+          "change_kind": "rename",
+          "previous_street_name_en": "Path leading from the North-West end of Cox's Road up to the West Block of Government Quarters",
+          "street_name_en": "Cox's Path",
+          "street_name_zh": "覺士徑",
+          "event_role": "current_name",
+          "evidence_kind": "gazette_primary",
+          "gazette_location": {
+            "description_raw_en": "Path leading from the North-West end of Cox's Road up to the West Block of Government Quarters",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Cox's Road"
+              ],
+              "lot_refs": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1926-gn255-ying-fai-terrace",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.255",
+  "publication_date": "1926-05-07",
+  "gazette_url_en": "/egazette/en/1926-gn255.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1926-gn255.pdf",
+  "streets": [
+    {
+      "link_street_code": "12871",
+      "english_name": "Ying Fai Terrace",
+      "chinese_name": "英輝臺",
+      "history": [
+        {
+          "change_kind": "declare",
+          "event_role": "former_name",
+          "street_name_en": "Mosque Terrace (Upper and Lower)",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "submitter_remarks": "Former name attested in G.N.255 rename notice; separate naming date not recorded on file.",
+          "gazette_location": {
+            "description_raw_en": "Mosque Terrace (Upper and Lower), from the West side of Peel Street",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Peel Street"],
+              "lot_refs": []
+            }
+          }
+        },
+        {
+          "publication_date": "1926-05-07",
+          "change_kind": "rename",
+          "event_role": "current_name",
+          "previous_street_name_en": "Mosque Terrace (Upper and Lower)",
+          "previous_street_name_zh": null,
+          "street_name_en": "Ying Fai Terrace",
+          "street_name_zh": "英輝臺",
+          "evidence_kind": "gazette_primary",
+          "gazette_location": {
+            "description_raw_en": "Mosque Terrace (Upper and Lower), from the West side of Peel Street",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Peel Street"],
+              "lot_refs": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

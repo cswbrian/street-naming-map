@@ -1,0 +1,54 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1901-gn584-lai-on-lane",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.584",
+  "publication_date": "1901-10-05",
+  "gazette_url_en": "/egazette/en/1901-gn584.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1901-gn584.pdf",
+  "streets": [
+    {
+      "link_street_code": "11158",
+      "english_name": "Lai On Lane",
+      "chinese_name": "荔安里",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Sai Wo Lane",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former name attested in G.N.584 rename notice; separate naming date not recorded on file.",
+          "gazette_location": {
+            "description_raw_en": "It is hereby notified that the lane in the City of Victoria, Hongkong, hitherto known as \"Sai Wo Lane\" will in future be named \"Lai On Lane\".",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [],
+              "district_hint_en": "City of Victoria"
+            }
+          }
+        },
+        {
+          "publication_date": "1901-10-05",
+          "change_kind": "rename",
+          "previous_street_name_en": "Sai Wo Lane",
+          "previous_street_name_zh": null,
+          "street_name_en": "Lai On Lane",
+          "street_name_zh": null,
+          "is_declaration_event": true,
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "gazette_location": {
+            "description_raw_en": "It is hereby notified that the lane in the City of Victoria, Hongkong, hitherto known as \"Sai Wo Lane\" will in future be named \"Lai On Lane\".",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [],
+              "district_hint_en": "City of Victoria"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

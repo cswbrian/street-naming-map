@@ -1,0 +1,74 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1925-gn608-tung-sing-woo-hop",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.608",
+  "publication_date": "1925-10-23",
+  "gazette_url_en": "/egazette/en/1925-gn608.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1925-gn608.pdf",
+  "streets": [
+    {
+      "link_street_code": "12536",
+      "english_name": "Tung Sing Road",
+      "chinese_name": "東勝道",
+      "history": [
+        {
+          "publication_date": "1925-10-23",
+          "change_kind": "declare",
+          "event_role": "current_name",
+          "street_name_en": "Tung Sing Road",
+          "street_name_zh": "東勝道",
+          "evidence_kind": "gazette_primary",
+          "gazette_location": {
+            "description_raw_en": "New Road at Aberdeen, bounded on the east side by Aberdeen Inland Lots Nos. 86, 87, 88, 89 and Aberdeen Market; on the west side by Aberdeen Inland Lots Nos. 83, 84, 85, terminating at the junction with the Pokfulam-Aberdeen Road on the north and the Praya on the south.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Pokfulam-Aberdeen Road"
+              ],
+              "lot_refs": [
+                "Aberdeen Inland Lot 86",
+                "Aberdeen Inland Lot 87",
+                "Aberdeen Inland Lot 88",
+                "Aberdeen Inland Lot 89",
+                "Aberdeen Inland Lot 83",
+                "Aberdeen Inland Lot 84",
+                "Aberdeen Inland Lot 85"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "link_street_code": "12787",
+      "english_name": "Woo Hop Street",
+      "chinese_name": "和合街",
+      "history": [
+        {
+          "publication_date": "1925-10-23",
+          "change_kind": "declare",
+          "event_role": "current_name",
+          "street_name_en": "Woo Hop Street",
+          "street_name_zh": "和合街",
+          "evidence_kind": "gazette_primary",
+          "gazette_location": {
+            "description_raw_en": "New Road off Queen's Road West between Inland Lots Nos. 673 and 674 terminating at South Lane.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [
+                "Queen's Road West",
+                "South Lane"
+              ],
+              "lot_refs": [
+                "Inland Lot 673",
+                "Inland Lot 674"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

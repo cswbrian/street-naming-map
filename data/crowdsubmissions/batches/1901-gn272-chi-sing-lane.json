@@ -1,0 +1,35 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1901-gn272-chi-sing-lane",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.272",
+  "publication_date": "1901-05-11",
+  "gazette_url_en": "/egazette/en/1901-gn272.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1901-gn272.pdf",
+  "streets": [
+    {
+      "link_street_code": "10230",
+      "english_name": "Chi Shing Lane",
+      "history": [
+        {
+          "publication_date": "1901-05-11",
+          "change_kind": "declare",
+          "event_role": "current_name",
+          "street_name_en": "Chi Sing Lane",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "submitter_remarks": "Gazette EN Chi Sing Lane; geojson CHI SHING LANE. English-only notice; ZH null.",
+          "gazette_location": {
+            "description_raw_en": "It is hereby notified that the lane between houses Nos. 88 and 90, Wanchai Road, has been named Chi Sing Lane.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": ["Wanchai Road"],
+              "district_hint_en": "Wanchai"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,19 +1,43 @@
 {
-  "generated_at": "2026-07-15T16:23:31.619Z",
+  "generated_at": "2026-07-18T17:10:21.253Z",
   "source_files": {
     "events": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-events.json",
     "centreline_map": "/Users/coolsunwind/Documents/fun/street-naming-map/data/master/street-centreline-map.json"
   },
   "totals": {
-    "master_events": 2166,
-    "mapped_event_ids": 2139,
-    "unmapped_events": 38,
+    "master_events": 2180,
+    "mapped_event_ids": 2151,
+    "unmapped_events": 40,
     "by_source": {
-      "crowdsubmitted": 25,
-      "hkgro": 13
+      "hkgro": 15,
+      "crowdsubmitted": 25
     }
   },
   "events": [
+    {
+      "event_id": "crowd|1919-gn464-coxs-road-path-Cox-s-Path-覺士徑-",
+      "source": "hkgro",
+      "publication_date": "",
+      "change_kind": "declare",
+      "street_name_en": "Path leading from the North-West end of Cox's Road up to the West Block of Government Quarters",
+      "street_name_zh": null,
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN464",
+      "name_key": "Path leading from the North-West end of Cox's Road up to the West Block of Government Quarters|"
+    },
+    {
+      "event_id": "crowd|1919-gn464-coxs-road-path-Cox-s-Path-覺士徑-1919-10-03",
+      "source": "hkgro",
+      "publication_date": "1919-10-03",
+      "change_kind": "rename",
+      "street_name_en": "Cox's Path",
+      "street_name_zh": "覺士徑",
+      "district_raw_en": null,
+      "district_raw_zh": null,
+      "notice_no": "GN464",
+      "name_key": "Cox's Path|覺士徑"
+    },
     {
       "event_id": "crowd|1952-gn1173-eagle-road-1952-10-10",
       "source": "crowdsubmitted",

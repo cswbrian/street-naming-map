@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-12T17:52:44.507Z",
-  "master_events": 2094,
-  "centreline_map_links": 1818,
-  "street_aggregates": 1843,
-  "streets_with_naming_year": 1784,
+  "generated_at": "2026-07-18T17:10:16.075Z",
+  "master_events": 2180,
+  "centreline_map_links": 1855,
+  "street_aggregates": 1887,
+  "streets_with_naming_year": 1817,
   "join_stats": {
-    "matched_by_street_code": 8627,
-    "matched_exact_features": 8627,
+    "matched_by_street_code": 10060,
+    "matched_exact_features": 10060,
     "matched_fallback_features": 0,
-    "unmatched_features": 31097,
+    "unmatched_features": 29664,
     "total_features": 39724
   },
   "sources": {
-    "hkgro": 636,
-    "crowdsubmitted": 1177,
+    "hkgro": 725,
+    "crowdsubmitted": 1174,
     "egazette_pdf": 164,
     "landsd": 117
   }

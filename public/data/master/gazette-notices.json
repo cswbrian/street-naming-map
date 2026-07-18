@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-13T17:53:11.917Z",
-  "count": 751,
+  "generated_at": "2026-07-18T16:53:06.627Z",
+  "count": 752,
   "notices": [
     {
       "notice_stem": "2026-30-17-2370",
@@ -38082,6 +38082,34 @@
           "street_name_en": "Robinson Road",
           "street_name_zh": "羅便臣道",
           "page_id": "11817-upper-richmond-road",
+          "source": "verified"
+        }
+      ]
+    },
+    {
+      "notice_stem": "1901-gn584",
+      "gazette_notice_label_en": "G.N.584",
+      "gazette_notice_label_zh": "G.N.584",
+      "publication_date": "1901-10-05",
+      "format_family": "hkgro_image_scan",
+      "pdf_en": "/egazette/en/1901-gn584.pdf",
+      "pdf_zh": null,
+      "has_corpus": true,
+      "streets_draft_count": 1,
+      "streets_draft": [
+        {
+          "row_index": 1,
+          "street_name_en": "Lai On Lane",
+          "street_name_zh": null,
+          "page_id": "11158-lai-on-lane"
+        }
+      ],
+      "linked_street_count": 1,
+      "linked_streets": [
+        {
+          "street_name_en": "Lai On Lane",
+          "street_name_zh": "荔安里",
+          "page_id": "11158-lai-on-lane",
           "source": "verified"
         }
       ]

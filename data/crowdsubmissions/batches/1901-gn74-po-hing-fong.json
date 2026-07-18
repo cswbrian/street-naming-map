@@ -1,0 +1,54 @@
+{
+  "evidence_schema_version": 2,
+  "batch_id": "1901-gn74-po-hing-fong",
+  "source": "hkgro",
+  "gazette_only": true,
+  "gazette_notice_label": "G.N.74",
+  "publication_date": "1901-02-09",
+  "gazette_url_en": "/egazette/en/1901-gn74.pdf",
+  "pdf_en": "/Users/coolsunwind/Documents/fun/street-naming-map/public/egazette/en/1901-gn74.pdf",
+  "streets": [
+    {
+      "link_street_code": "11734",
+      "english_name": "Po Hing Fong",
+      "chinese_name": "普慶坊",
+      "history": [
+        {
+          "change_kind": "declare",
+          "street_name_en": "Market Street",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "former_name",
+          "submitter_remarks": "Former name attested in G.N.74 rename notice; separate naming date not recorded on file. English-only scan — street_name_zh null.",
+          "gazette_location": {
+            "description_raw_en": "It is notified that the street in the City of Victoria, Hongkong, hitherto known as \"Market Street\" will in future be named \"Po Hing Fong.\" Government Notification No. 49 of the 24th ultimo is hereby cancelled.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [],
+              "district_hint_en": "City of Victoria"
+            }
+          }
+        },
+        {
+          "publication_date": "1901-02-09",
+          "change_kind": "rename",
+          "previous_street_name_en": "Market Street",
+          "previous_street_name_zh": null,
+          "street_name_en": "Po Hing Fong",
+          "street_name_zh": null,
+          "evidence_kind": "gazette_primary",
+          "event_role": "current_name",
+          "submitter_remarks": "English-only scan — street_name_zh null. Cancels G.N.49 of 24 January 1901.",
+          "gazette_location": {
+            "description_raw_en": "It is notified that the street in the City of Victoria, Hongkong, hitherto known as \"Market Street\" will in future be named \"Po Hing Fong.\" Government Notification No. 49 of the 24th ultimo is hereby cancelled.",
+            "description_raw_zh": null,
+            "parsed": {
+              "referenced_streets_en": [],
+              "district_hint_en": "City of Victoria"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

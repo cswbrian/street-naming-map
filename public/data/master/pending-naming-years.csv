@@ -630,7 +630,7 @@ code:12027,12027,SHEUNG FUNG STREET,雙鳳街,Secondary Road,,,,,11
 code:14441,14441,SHUN LUI ROAD,順旅路,Secondary Road,2017,2017-03-10,https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721101273.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721101273.pdf,11
 code:12233,12233,TAI LOONG STREET,大隴街,Secondary Road,,,,,11
 code:12956,12956,TAT WAN ROAD,達運道,Secondary Road,,,,,11
-code:12343,12343,TEMPLE STREET,廟街,Secondary Road,1921,1921-11-10,/egazette/en/1921-gn469.pdf,/egazette/zh/1921-gn469.pdf,11
+code:12343,12343,TEMPLE STREET,廟街,Secondary Road,1921,1921-11-10,/egazette/en/1921-gn469.pdf,,11
 code:13125,13125,TIN PING ROAD,天平路,Secondary Road,,,,,11
 code:13639,13639,TIP KING ROAD,蝶景路,Secondary Road,,,,,11
 code:12416,12416,TSING CHUNG KOON ROAD,青松觀路,Secondary Road,,,,,11
@@ -2268,7 +2268,7 @@ code:12992,12992,TSZ TIN ROAD,紫田路,Secondary Road,1990,1990-11-30,/egazette
 code:12507,12507,TUEN WUI STREET,屯匯街,Secondary Road,,,,,5
 code:13563,13563,TUNG LEUNG ROAD,棟樑路,Secondary Road,,,,,5
 code:12524,12524,TUNG LO WAN HILL ROAD,銅鑼灣山路,Secondary Road,1976,1976-08-13,/egazette/en/1976-gn1741.pdf,,5
-code:12536,12536,TUNG SING ROAD,東勝道,Secondary Road,1959,1959-05-08,/egazette/en/1959-gn628.pdf,/egazette/zh/1959-gn628.pdf,5
+code:12536,12536,TUNG SING ROAD,東勝道,Secondary Road,1925,1925-10-23,/egazette/en/1925-gn608.pdf,,5
 code:12537,12537,TUNG STREET,東街,Secondary Road,1909,1909-03-19,/egazette/en/1909-gn184.pdf,/egazette/zh/1909-gn184.pdf,5
 code:14446,14446,TUNG WING ROAD,東榮路,Tunnel,2017,2017-03-10,https://www.landsd.gov.hk/doc/en/street-name/egazette/2017/egn201721101273.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2017/cgn201721101273.pdf,5
 code:12598,12598,WAH YIU ROAD,華瑤路,Secondary Road,1979,1979-05-04,/egazette/en/1979-gn1132.pdf,,5
@@ -2870,7 +2870,7 @@ code:11658,11658,PARK ROAD,柏道,Main Road,1904,1904-01-29,/egazette/en/1904-gn
 code:11700,11700,PING CHONG ROAD,冰廠路,Track,,,,,4
 code:13558,13558,PING YEUNG LANE,屏楊里,Secondary Road,,,,,4
 code:13661,13661,PLAZA LANE,廣場徑,Secondary Road,,,,,4
-code:11734,11734,PO HING FONG,普慶坊,Track,,,,,4
+code:11734,11734,PO HING FONG,普慶坊,Track,,,/egazette/en/1901-gn74.pdf,,4
 code:11750,11750,PO SHAN ROAD,寶珊道,Secondary Road,1928,1928-07-06,/egazette/en/1928-gn386.pdf,/egazette/zh/1928-gn386.pdf,4
 code:13680,13680,PO WING ROAD,保榮路,Secondary Road,,,,,4
 code:14089,14089,PO YAP ROAD,寶邑路,Secondary Road,,,,,4
@@ -3968,7 +3968,7 @@ code:39382,39382,CLINIC ROAD,保健路,Secondary Road,,,,,3
 code:10319,10319,COCHRANE STREET,閣麟街,Track,,,,,3
 code:10324,10324,COMFORT TERRACE,康福臺,Secondary Road,1952,1952-11-28,/egazette/en/1952-gn1363.pdf,/egazette/zh/1952-gn1363.pdf,3
 code:10337,10337,COOPER ROAD,谷柏道,Secondary Road,1954,1954-06-25,/egazette/en/1954-gn765.pdf,/egazette/zh/1954-gn765.pdf,3
-code:10345,10345,COX'S ROAD,覺士道,Secondary Road,,,,,3
+code:10345,10345,COX'S ROAD,覺士道,Secondary Road,,,/egazette/en/1919-gn464.pdf,,3
 code:10346,10346,CRAIGMIN ROAD,忌利文道,Secondary Road,,,,,3
 code:10361,10361,DAI SHING STREET,大盛街,Secondary Road,1980,1980-08-08,/egazette/en/1980-gn2486.pdf,,3
 code:10376,10376,DEVON ROAD,德雲道,Secondary Road,1929,1929-08-23,/egazette/en/1929-gn427.pdf,/egazette/zh/1929-gn427.pdf,3
@@ -10710,7 +10710,7 @@ code:13730,13730,CHI MA HANG ROAD,芝麻坑路,Track,,,,,1
 code:10229,10229,CHI MAN STREET,治民街,Secondary Road,1974,1974-11-29,/egazette/en/1974-gn3037.pdf,/egazette/zh/1974-gn3037.pdf,1
 code:13671,13671,CHI MING STREET,智明街,Secondary Road,,,,,1
 code:13842,13842,CHI NGONG ROAD,志昂路,Secondary Road,,,,,1
-code:10230,10230,CHI SHING LANE,志成里,Track,,,,,1
+code:10230,10230,CHI SHING LANE,志成里,Track,1901,1901-05-11,/egazette/en/1901-gn272.pdf,,1
 code:39458,39458,CHI SHING ROAD,志盛路,Secondary Road,,,,,1
 code:14540,14540,CHI TIN STREET,智田街,Secondary Road,2023,2023-07-28,https://www.landsd.gov.hk/doc/en/street-name/egazette/2023/egn202327304517.pdf,https://www.landsd.gov.hk/doc/tc/street-name/egazette/2023/cgn202327304517.pdf,1
 code:10232,10232,CHI YAN FIRST LANE,志仁一里,Track,,,,,1
@@ -11266,7 +11266,7 @@ code:14493,14493,LAI CHUI PATH,麗翠徑,Track,2020,2020-08-07,https://www.lands
 code:11152,11152,LAI FAT STREET,荔發街,Secondary Road,,,,,1
 code:11153,11153,LAI FONG STREET,禮芳街,Secondary Road,1974,1974-04-19,/egazette/en/1974-gn1023.pdf,/egazette/zh/1974-gn1023.pdf,1
 code:11154,11154,LAI FUNG STREET,荔峰街,Secondary Road,1980,1980-05-16,/egazette/en/1980-gn1503.pdf,,1
-code:11158,11158,LAI ON LANE,荔安里,Track,,,,,1
+code:11158,11158,LAI ON LANE,荔安里,Track,1901,1901-10-05,/egazette/en/1901-gn584.pdf,,1
 code:13646,13646,LAI SHUN ROAD,麗順路,Secondary Road,,,,,1
 code:11170,11170,LAKESIDE PATH,環湖徑,Track,,,,,1
 code:11171,11171,LAM CHAK STREET,臨澤街,Secondary Road,1984,1984-10-26,/egazette/en/1984-gn3135.pdf,/egazette/zh/1984-gn3135.pdf,1
@@ -12132,7 +12132,7 @@ code:39211,39211,WONG CHUK YEUNG 3RD LANE,黃竹洋第三巷,Track,,,,,1
 code:39212,39212,WONG CHUK YEUNG 4TH LANE,黃竹洋第四巷,Track,,,,,1
 code:13778,13778,WONG MA KOK PATH,黃麻角徑,Secondary Road,,,,,1
 code:13636,13636,WONG UK LANE,王屋里,Secondary Road,,,,,1
-code:12787,12787,WOO HOP STREET,和合街,Secondary Road,,,,,1
+code:12787,12787,WOO HOP STREET,和合街,Secondary Road,1925,1925-10-23,/egazette/en/1925-gn608.pdf,,1
 code:12789,12789,WOODLANDS TERRACE,活倫臺,Track,,,,,1
 code:39504,39504,WORKSHOP ROAD,工場路,Secondary Road,,,,,1
 code:14284,14284,WORLD WIDE LANE,環球里,Track,,,,,1
@@ -12183,7 +12183,7 @@ code:39084,39084,YIN KONG SECOND LANE,燕崗村第二巷,Track,,,,,1
 code:39085,39085,YIN KONG THIRD LANE,燕崗村第三巷,Track,,,,,1
 code:12868,12868,YIN ON STREET,燕安街,Secondary Road,1959,1959-04-17,/egazette/en/1959-gn548.pdf,/egazette/zh/1959-gn548.pdf,1
 code:12870,12870,YING CHOI PATH,英才徑,Secondary Road,1974,1974-11-22,/egazette/en/1974-gn2948.pdf,/egazette/zh/1974-gn2948.pdf,1
-code:12871,12871,YING FAI TERRACE,英輝臺,Track,,,,,1
+code:12871,12871,YING FAI TERRACE,英輝臺,Track,,,/egazette/en/1926-gn255.pdf,,1
 code:12872,12872,YING FUNG LANE,盈鳳里,Secondary Road,1984,1984-06-22,/egazette/en/1984-gn1826.pdf,/egazette/zh/1984-gn1826.pdf,1
 code:13995,13995,YING HEI ROAD,迎禧路,Secondary Road,1999,1999-12-24,/egazette/en/2025-29-30-4610.pdf,/egazette/zh/2025-29-30-4610.pdf,1
 code:12873,12873,YING WA TERRACE,英華臺,Track,,,,,1
