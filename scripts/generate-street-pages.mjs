@@ -42,7 +42,7 @@ const COPY = {
 const SECTION_PATHS = [
   '',
   'names',
-  'timelines',
+  'records',
   'about',
 ]
 
@@ -194,14 +194,15 @@ function buildSitemap(timelines) {
   const urls = []
   for (const locale of LOCALES) {
     for (const suffix of SECTION_PATHS) {
-      const loc = suffix ? `${SITE_ORIGIN}/${locale}/${suffix}` : `${SITE_ORIGIN}/${locale}/`
+      // Trailing slash matches GitHub Pages final URL for directory paths (avoids 301).
+      const loc = suffix ? `${SITE_ORIGIN}/${locale}/${suffix}/` : `${SITE_ORIGIN}/${locale}/`
       urls.push(`  <url>\n    <loc>${loc}</loc>\n  </url>`)
     }
     for (const timeline of timelines) {
       const pageId = String(timeline.page_id ?? '').trim()
       if (!pageId) continue
       urls.push(
-        `  <url>\n    <loc>${SITE_ORIGIN}/${locale}/streets/${encodeURIComponent(pageId)}</loc>\n  </url>`,
+        `  <url>\n    <loc>${SITE_ORIGIN}/${locale}/streets/${encodeURIComponent(pageId)}/</loc>\n  </url>`,
       )
     }
   }
