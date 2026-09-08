@@ -35,9 +35,19 @@ export function persistThemePreference(theme) {
   window.localStorage.setItem(THEME_STORAGE_KEY, theme)
 }
 
-export const BASEMAP_TILES = {
-  dark: 'https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
-  light: 'https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+/** OpenFreeMap vector styles (no API key). Positron ≈ Carto light; dark is Dark Matter on OFM tiles. */
+const PUBLIC_BASE_URL = import.meta.env.BASE_URL ?? '/'
+
+export const BASEMAP_STYLE_URLS = {
+  dark: `${PUBLIC_BASE_URL}basemaps/openfreemap-dark-matter.json`,
+  light: 'https://tiles.openfreemap.org/styles/positron',
+}
+
+export const BASEMAP_ATTRIBUTION =
+  '<a href="https://openfreemap.org">OpenFreeMap</a> <a href="https://www.openmaptiles.org/">&copy; OpenMapTiles</a> <a href="https://www.openstreetmap.org/copyright">&copy; OpenStreetMap</a>'
+
+export function getBasemapStyleUrl(theme) {
+  return BASEMAP_STYLE_URLS[theme] ?? BASEMAP_STYLE_URLS.light
 }
 
 export const MAP_LABEL_COLORS = {
@@ -57,13 +67,8 @@ export const MAP_LABEL_COLORS = {
   },
 }
 
-/** MapLibre glyph stacks (demotiles.maplibre.org); CJK falls through to Regular combo. */
-export const ROAD_LABEL_LAYER_FONT = [
-  'Open Sans Semibold',
-  'Noto Sans Bold',
-  'Noto Sans Regular',
-  'Open Sans Regular,Arial Unicode MS Regular',
-]
+/** OpenFreeMap glyph stacks (Noto Sans Regular / Bold / Italic). */
+export const ROAD_LABEL_LAYER_FONT = ['Noto Sans Bold', 'Noto Sans Regular']
 
 export const MAP_BACKGROUND_COLORS = {
   dark: '#121212',

@@ -8,14 +8,13 @@ import { buildRoadFilter, buildRoadKey, filterNamedStreetFeatures, hasStreetName
 import { translations } from '../i18n/translations'
 import { createTranslator } from '../i18n/locale.js'
 import { isMapMobileViewport } from '../lib/mapViewport.js'
-import { applyHistoricalMapLayer } from '../lib/historicalMapLayer.js'
+import { applyHistoricalMapLayer, HISTORICAL_MAP_LAYER_ID, HISTORICAL_MAP_SOURCE_ID } from '../lib/historicalMapLayer.js'
 import {
-  BASEMAP_TILES,
-  MAP_BACKGROUND_COLORS,
   MAP_LABEL_COLORS,
   ROAD_LABEL_LAYER_FONT,
   buildMapYearExpr,
   buildRoadLineColorPaint,
+  getBasemapStyleUrl,
   getRoadPalette,
 } from '../theme/theme.js'
 
@@ -195,20 +194,9 @@ const buildSecondaryStreetNameExpr = (locale) =>
     ? ['coalesce', ['get', 'ENGLISHSTREETNAME'], '']
     : ['coalesce', ['get', 'CHINESESTREETNAME'], '']
 
-const LABEL_FONT_PRIMARY = [
-  'literal',
-  [
-    'Open Sans Semibold',
-    'Noto Sans Bold',
-    'Noto Sans Regular',
-    'Open Sans Regular,Arial Unicode MS Regular',
-  ],
-]
+const LABEL_FONT_PRIMARY = ['literal', ['Noto Sans Bold', 'Noto Sans Regular']]
 
-const LABEL_FONT_REGULAR = [
-  'literal',
-  ['Noto Sans Regular', 'Open Sans Regular', 'Open Sans Regular,Arial Unicode MS Regular'],
-]
+const LABEL_FONT_REGULAR = ['literal', ['Noto Sans Regular']]
 
 const getLabelYearColor = (mapTheme) => (MAP_LABEL_COLORS[mapTheme] ?? MAP_LABEL_COLORS.dark).year
 
@@ -316,6 +304,66 @@ const buildLabelLayerLayout = (locale, unknownYearLabel, mapTheme, textSize) => 
   'text-ignore-placement': false,
 })
 
+const CUSTOM_BASEMAP_SOURCE_IDS = new Set([SOURCE_ID, FOCUS_SOURCE_ID, HISTORICAL_MAP_SOURCE_ID])
+
+const CUSTOM_BASEMAP_LAYER_IDS = new Set([
+  HISTORICAL_MAP_LAYER_ID,
+  LAYER_ID,
+  LABEL_MAIN_LAYER_ID,
+  LABEL_LAYER_ID,
+  HIGHLIGHT_GLOW_LAYER_ID,
+  HIGHLIGHT_CORE_LAYER_ID,
+  FOCUS_LAYER_ID,
+  HIT_LAYER_ID,
+])
+
+/** OpenFreeMap street-name layers — our gazette labels replace these. */
+const BASEMAP_STREET_LABEL_LAYER_IDS = new Set([
+  'highway-name-path',
+  'highway-name-minor',
+  'highway-name-major',
+  'highway-shield-non-us',
+  'highway-shield-us-interstate',
+  'road_shield_us',
+  'highway_name_other',
+  'highway_name_motorway',
+  'highway_ref',
+])
+
+const withBasemapStreetLabelsHidden = (layers) =>
+  (layers ?? []).map((layer) => {
+    if (!BASEMAP_STREET_LABEL_LAYER_IDS.has(layer.id)) return layer
+    return {
+      ...layer,
+      layout: { ...(layer.layout ?? {}), visibility: 'none' },
+    }
+  })
+
+const mergeCustomBasemapStyle = (previous, next) => {
+  const nextLayers = withBasemapStreetLabelsHidden(next.layers)
+  if (!previous) return { ...next, layers: nextLayers }
+
+  const sources = { ...next.sources }
+  for (const id of CUSTOM_BASEMAP_SOURCE_IDS) {
+    if (previous.sources?.[id]) sources[id] = previous.sources[id]
+  }
+
+  const customLayers = (previous.layers ?? []).filter((layer) => CUSTOM_BASEMAP_LAYER_IDS.has(layer.id))
+  return {
+    ...next,
+    sources,
+    layers: [...nextLayers, ...customLayers],
+  }
+}
+
+const hideBasemapStreetLabels = (map) => {
+  for (const layerId of BASEMAP_STREET_LABEL_LAYER_IDS) {
+    if (map.getLayer(layerId)) {
+      map.setLayoutProperty(layerId, 'visibility', 'none')
+    }
+  }
+}
+
 const applyLabelTypography = (map, mapTheme, mobile = isMapMobileViewport()) => {
   const labelColors = MAP_LABEL_COLORS[mapTheme] ?? MAP_LABEL_COLORS.dark
   const textSize = mobile ? ROAD_LABEL_TEXT_SIZE.mobile : ROAD_LABEL_TEXT_SIZE.desktop
@@ -331,54 +379,8 @@ const applyLabelTypography = (map, mapTheme, mobile = isMapMobileViewport()) => 
   }
 }
 
-const buildBasemapStyle = (theme) => ({
-  version: 8,
-  sources: {
-    basemap: {
-      type: 'raster',
-      tiles: [BASEMAP_TILES[theme] ?? BASEMAP_TILES.dark],
-      tileSize: 256,
-      attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    },
-  },
-  glyphs: 'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',
-  layers: [
-    {
-      id: 'basemap',
-      type: 'raster',
-      source: 'basemap',
-      minzoom: 0,
-      maxzoom: 20,
-      paint: {
-        'raster-opacity': 0.95,
-      },
-    },
-    {
-      id: 'background',
-      type: 'background',
-      paint: {
-        'background-color': MAP_BACKGROUND_COLORS[theme] ?? MAP_BACKGROUND_COLORS.dark,
-        'background-opacity': 0.35,
-      },
-    },
-  ],
-})
-
 const applyRoadTheme = (map, theme) => {
-  const source = map.getSource('basemap')
-  if (source?.setTiles) {
-    source.setTiles([BASEMAP_TILES[theme] ?? BASEMAP_TILES.dark])
-  }
-
-  if (map.getLayer('background')) {
-    map.setPaintProperty(
-      'background',
-      'background-color',
-      MAP_BACKGROUND_COLORS[theme] ?? MAP_BACKGROUND_COLORS.dark,
-    )
-  }
-
+  hideBasemapStreetLabels(map)
   applyLabelTypography(map, theme)
 
   const palette = getRoadPalette(theme)
@@ -449,6 +451,7 @@ function MapView({
   const historicalMapOpacityRef = useRef(historicalMapOpacity)
   const selectedRoadMarkerRef = useRef(null)
   const chipRootRef = useRef(null)
+  const basemapThemeRef = useRef(theme)
 
   historicalMapEntryRef.current = historicalMapEntry
   historicalMapOpacityRef.current = historicalMapOpacity
@@ -549,7 +552,7 @@ function MapView({
   useEffect(() => {
     const map = new maplibregl.Map({
       container: mapContainerRef.current,
-      style: buildBasemapStyle(theme),
+      style: getBasemapStyleUrl(theme),
       center: DEFAULT_VIEW.center,
       zoom: DEFAULT_VIEW.zoom,
       pitch: 0,
@@ -745,7 +748,7 @@ function MapView({
         emitRoadPickFromFeature(feature, event.lngLat, onRoadPick)
       })
 
-      applyLabelTypography(map, theme)
+      applyRoadTheme(map, theme)
       applyMapState(map, selectedYear, activeGroup, selectedRoadKey, theme)
       roadsReadyRef.current = true
       applyHistoricalMapLayer(
@@ -775,18 +778,38 @@ function MapView({
     const map = mapRef.current
     if (!map) return undefined
 
-    const apply = () => {
+    const applyOverlays = () => {
       applyRoadTheme(map, theme)
       applyMapState(map, selectedYear, activeGroup, selectedRoadKey, theme)
     }
+
+    if (basemapThemeRef.current !== theme) {
+      basemapThemeRef.current = theme
+      map.setStyle(getBasemapStyleUrl(theme), {
+        transformStyle: mergeCustomBasemapStyle,
+      })
+      const onStyleLoad = () => {
+        applyOverlays()
+        applyHistoricalMapLayer(
+          map,
+          historicalMapEntryRef.current,
+          historicalMapOpacityRef.current,
+        )
+      }
+      map.once('style.load', onStyleLoad)
+      return () => {
+        map.off('style.load', onStyleLoad)
+      }
+    }
+
     if (map.isStyleLoaded()) {
-      apply()
+      applyOverlays()
       return undefined
     }
 
-    map.once('load', apply)
+    map.once('load', applyOverlays)
     return () => {
-      map.off('load', apply)
+      map.off('load', applyOverlays)
     }
   }, [theme, selectedYear, activeGroup, selectedRoadKey, minYear])
 
