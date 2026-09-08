@@ -1,0 +1,75 @@
+{
+  "summary": {
+    "input": "/Users/coolsunwind/Documents/fun/street-naming-map/data/landsd-ati/gazetted-streets-historical-2026-07-31.csv",
+    "apply": false,
+    "landsd_rows": 4718,
+    "parsed_rows": 4718,
+    "unparsed_date": 0,
+    "skipped_covered": 4718,
+    "skipped_other": 0,
+    "to_insert": 0,
+    "declare": 0,
+    "extend": 0,
+    "master_before": 5158
+  },
+  "samples_insert": [],
+  "samples_skipped": [
+    {
+      "status": "skipped_covered",
+      "english_name": "A KUNG KOK SHAN ROAD",
+      "chinese_name": "亞公角山路",
+      "gazette_date": "1989-02-03",
+      "gazette_notice": "418"
+    },
+    {
+      "status": "skipped_covered",
+      "english_name": "A KUNG KOK STREET",
+      "chinese_name": "亞公角街",
+      "gazette_date": "1993-09-24",
+      "gazette_notice": "3502"
+    },
+    {
+      "status": "skipped_covered",
+      "english_name": "A KUNG NGAM ROAD",
+      "chinese_name": "阿公岩道",
+      "gazette_date": "1961-11-10",
+      "gazette_notice": "1974"
+    },
+    {
+      "status": "skipped_covered",
+      "english_name": "A KUNG NGAM ROAD",
+      "chinese_name": "阿公岩道",
+      "gazette_date": "1975-07-11",
+      "gazette_notice": "1540"
+    },
+    {
+      "status": "skipped_covered",
+      "english_name": "A KUNG NGAM VILLAGE LANE",
+      "chinese_name": "阿公岩村里",
+      "gazette_date": "2007-08-03",
+      "gazette_notice": "5033"
+    },
+    {
+      "status": "skipped_covered",
+      "english_name": "A KUNG NGAM VILLAGE ROAD",
+      "chinese_name": "阿公岩村道",
+      "gazette_date": "1975-07-11",
+      "gazette_notice": "1540"
+    },
+    {
+      "status": "skipped_covered",
+      "english_name": "A KUNG NGAM VILLAGE ROAD",
+      "chinese_name": "阿公岩村道",
+      "gazette_date": "1997-07-25",
+      "gazette_notice": "385"
+    },
+    {
+      "status": "skipped_covered",
+      "english_name": "ABERDEEN MAIN ROAD",
+      "chinese_name": "香港仔大道",
+      "gazette_date": "1961-08-04",
+      "gazette_notice": "1335"
+    }
+  ],
+  "unparsed": []
+}

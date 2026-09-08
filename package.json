@@ -53,6 +53,8 @@
     "apply:crowd:batch": "node scripts/apply-crowd-batch.mjs",
     "parse:crowd-gazette-pdf": "node scripts/parse-crowd-gazette-pdf.mjs",
     "report:gazette-coverage": "node scripts/report-gazette-pdf-coverage.mjs",
+    "report:landsd-compare": "node scripts/compare-landsd-gazetted-streets.mjs",
+    "ingest:landsd-ati": "node scripts/ingest-landsd-ati-list.mjs",
     "corpus:extract": "node scripts/corpus-extract-gazettes.mjs",
     "corpus:ocr-remaining": "node scripts/corpus-ocr-gazettes.mjs",
     "corpus:upgrade-paddle": "node scripts/corpus-ocr-gazettes.mjs --family hkgro_image_scan --upgrade-paddle",

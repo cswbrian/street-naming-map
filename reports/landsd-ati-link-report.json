@@ -1,0 +1,392 @@
+{
+  "summary": {
+    "matched": 2948,
+    "events": 0,
+    "unmatched_groups": 21,
+    "ambiguous_groups": 3,
+    "reasons": {
+      "zh_en": 2370,
+      "zh_unique": 3,
+      "en_unique": 90,
+      "ambiguous_zh_en": 3,
+      "no_match": 21
+    },
+    "groups": 2463,
+    "link_rows": 2463,
+    "unmatched_sample": [
+      {
+        "en": "Ping On Lane",
+        "zh": "平安里",
+        "district": "Central  &  Western",
+        "events": 2,
+        "reason": "ambiguous_zh_en",
+        "candidates": [
+          "11710",
+          "11711"
+        ]
+      },
+      {
+        "en": "Luen On Street",
+        "zh": "聯安街",
+        "district": "North",
+        "events": 2,
+        "reason": "ambiguous_zh_en",
+        "candidates": [
+          "11291",
+          "11292"
+        ]
+      },
+      {
+        "en": "Po Fung Road",
+        "zh": "寶豐路",
+        "district": "Sai  Kung",
+        "events": 1,
+        "reason": "ambiguous_zh_en",
+        "candidates": [
+          "39406",
+          "12987"
+        ]
+      },
+      {
+        "en": "Kong Chung Lane",
+        "zh": "港中里",
+        "district": "Central  &  Western",
+        "events": 1,
+        "reason": "no_match",
+        "candidates": []
+      },
+      {
+        "en": "Man Chiu Street",
+        "zh": "民照街",
+        "district": "Central  &  Western",
+        "events": 1,
+        "reason": "no_match",
+        "candidates": []
+      },
+      {
+        "en": "Sky Plaza Drive",
+        "zh": "翔天徑",
+        "district": "Islands",
+        "events": 2,
+        "reason": "no_match",
+        "candidates": []
+      },
+      {
+        "en": "Sky Plaza Road North",
+        "zh": "翔天北路",
+        "district": "Islands",
+        "events": 2,
+        "reason": "no_match",
+        "candidates": []
+      },
+      {
+        "en": "Sky Plaza Road South",
+        "zh": "翔天南路",
+        "district": "Islands",
+        "events": 2,
+        "reason": "no_match",
+        "candidates": []
+      },
+      {
+        "en": "Cheong Wui Road",
+        "zh": "暢匯路",
+        "district": "Islands",
+        "events": 2,
+        "reason": "no_match",
+        "candidates": []
+      },
+      {
+        "en": "Research Road",
+        "zh": "研發路",
+        "district": "North",
+        "events": 1,
+        "reason": "no_match",
+        "candidates": []
+      },
+      {
+        "en": "Choi Tung Lane",
+        "zh": "彩東里",
+        "district": "Islands",
+        "events": 1,
+        "reason": "no_match",
+        "candidates": []
+      },
+      {
+        "en": "Hau Tung Street",
+        "zh": "孝東街",
+        "district": "Islands",
+        "events": 1,
+        "reason": "no_match",
+        "candidates": []
+      },
+      {
+        "en": "Hiu Tung Road",
+        "zh": "曉東路",
+        "district": "Islands",
+        "events": 1,
+        "reason": "no_match",
+        "candidates": []
+      },
+      {
+        "en": "Kwai Tung Road",
+        "zh": "貴東路",
+        "district": "Islands",
+        "events": 1,
+        "reason": "no_match",
+        "candidates": []
+      },
+      {
+        "en": "Long Tung Road",
+        "zh": "朗東路",
+        "district": "Islands",
+        "events": 1,
+        "reason": "no_match",
+        "candidates": []
+      },
+      {
+        "en": "Shin Tung Lane",
+        "zh": "善東里",
+        "district": "Islands",
+        "events": 1,
+        "reason": "no_match",
+        "candidates": []
+      },
+      {
+        "en": "Siu Tung Street",
+        "zh": "兆東街",
+        "district": "Islands",
+        "events": 1,
+        "reason": "no_match",
+        "candidates": []
+      },
+      {
+        "en": "Yan Tung Lane",
+        "zh": "仁東里",
+        "district": "Islands",
+        "events": 1,
+        "reason": "no_match",
+        "candidates": []
+      },
+      {
+        "en": "Kwu Chun Street",
+        "zh": "古雋街",
+        "district": "North",
+        "events": 1,
+        "reason": "no_match",
+        "candidates": []
+      },
+      {
+        "en": "Fung Lam Road",
+        "zh": "鳳林路",
+        "district": "North",
+        "events": 1,
+        "reason": "no_match",
+        "candidates": []
+      }
+    ],
+    "unmatched_total": 24
+  },
+  "unmatched": [
+    {
+      "en": "Ping On Lane",
+      "zh": "平安里",
+      "district": "Central  &  Western",
+      "events": 2,
+      "reason": "ambiguous_zh_en",
+      "candidates": [
+        "11710",
+        "11711"
+      ]
+    },
+    {
+      "en": "Luen On Street",
+      "zh": "聯安街",
+      "district": "North",
+      "events": 2,
+      "reason": "ambiguous_zh_en",
+      "candidates": [
+        "11291",
+        "11292"
+      ]
+    },
+    {
+      "en": "Po Fung Road",
+      "zh": "寶豐路",
+      "district": "Sai  Kung",
+      "events": 1,
+      "reason": "ambiguous_zh_en",
+      "candidates": [
+        "39406",
+        "12987"
+      ]
+    },
+    {
+      "en": "Kong Chung Lane",
+      "zh": "港中里",
+      "district": "Central  &  Western",
+      "events": 1,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Man Chiu Street",
+      "zh": "民照街",
+      "district": "Central  &  Western",
+      "events": 1,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Sky Plaza Drive",
+      "zh": "翔天徑",
+      "district": "Islands",
+      "events": 2,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Sky Plaza Road North",
+      "zh": "翔天北路",
+      "district": "Islands",
+      "events": 2,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Sky Plaza Road South",
+      "zh": "翔天南路",
+      "district": "Islands",
+      "events": 2,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Cheong Wui Road",
+      "zh": "暢匯路",
+      "district": "Islands",
+      "events": 2,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Research Road",
+      "zh": "研發路",
+      "district": "North",
+      "events": 1,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Choi Tung Lane",
+      "zh": "彩東里",
+      "district": "Islands",
+      "events": 1,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Hau Tung Street",
+      "zh": "孝東街",
+      "district": "Islands",
+      "events": 1,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Hiu Tung Road",
+      "zh": "曉東路",
+      "district": "Islands",
+      "events": 1,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Kwai Tung Road",
+      "zh": "貴東路",
+      "district": "Islands",
+      "events": 1,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Long Tung Road",
+      "zh": "朗東路",
+      "district": "Islands",
+      "events": 1,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Shin Tung Lane",
+      "zh": "善東里",
+      "district": "Islands",
+      "events": 1,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Siu Tung Street",
+      "zh": "兆東街",
+      "district": "Islands",
+      "events": 1,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Yan Tung Lane",
+      "zh": "仁東里",
+      "district": "Islands",
+      "events": 1,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Kwu Chun Street",
+      "zh": "古雋街",
+      "district": "North",
+      "events": 1,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Fung Lam Road",
+      "zh": "鳳林路",
+      "district": "North",
+      "events": 1,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Sheung Ho Road",
+      "zh": "上河路",
+      "district": "North",
+      "events": 1,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Runway Road East",
+      "zh": "跑道東路",
+      "district": "Islands / Tuen  Mun",
+      "events": 1,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Runway Road West",
+      "zh": "跑道西路",
+      "district": "Islands",
+      "events": 1,
+      "reason": "no_match",
+      "candidates": []
+    },
+    {
+      "en": "Central Wan Chai Bypass",
+      "zh": "中環灣仔繞道",
+      "district": "Wan  Chai / Central  &  Western / Eastern",
+      "events": 1,
+      "reason": "no_match",
+      "candidates": []
+    }
+  ]
+}

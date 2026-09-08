@@ -1,9 +1,11 @@
 ---
 name: street-naming-master
-description: Edit gazette naming events in data/master/street-events.json (amend, remove, direct insert). For centreline map linkage use centreline-linker skill. For PDF batches use apply-egazette-naming or parse-gazette-street-events. For researcher earliest-evidence / rename chains use research-street-history.
+description: Edit gazette naming events in data/master/street-events.json (amend, remove, direct insert). For centreline map linkage use centreline-linker skill. For PDF batches use apply-gazette-naming. For researcher earliest-evidence / rename chains use research-street-history.
 ---
 
 # Street naming master file
+
+**Workflow B** — amend / remove / insert events in `data/master/street-events.json` when the user asks to **fix** data (no new PDF ingest). For PDF → events use [apply-gazette-naming](../apply-gazette-naming/SKILL.md). For centreline map linkage use [centreline-linker/SKILL.md](../centreline-linker/SKILL.md).
 
 **Contributor docs:** [README](../README.md) · [contributor-roles.md](../docs/contributor-roles.md)
 
@@ -12,7 +14,10 @@ description: Edit gazette naming events in data/master/street-events.json (amend
 | File | Role |
 |------|------|
 | `data/master/street-events.json` | Gazette facts (this skill) |
+| `data/gazette-corpus/{stem}.md` | Notice OCR prose — read here; do not paste full text into events |
 | `data/master/street-centreline-map.json` | Map linkage + permanent `page_id` → [centreline-linker/SKILL.md](../centreline-linker/SKILL.md) |
+
+Do **not** invent a PDF ingest for Workflow B. If the fix changes interpreted notice truth, optionally sync corpus `streets_draft` / notes (`human_edited: true`).
 
 ```json
 {
@@ -22,7 +27,7 @@ description: Edit gazette naming events in data/master/street-events.json (amend
 }
 ```
 
-Sources: `crowdsubmitted`, `hkgro`, `landsd`, `egazette_pdf`.
+Sources: `crowdsubmitted`, `hkgro`, `landsd`, `landsd_ati`, `egazette_pdf`.
 
 - Field reference: [docs/street-name-history-schema.md](../docs/street-name-history-schema.md)
 - Batch `history[]` patterns: [event-model.md](../event-model.md)
@@ -39,6 +44,8 @@ npm run rebuild:naming && npm run report:pending-years && npm run report:street-
 Optional: `npm run build` before deploy.
 
 ## Insert a new event
+
+Prefer the corpus → batch → apply path ([apply-gazette-naming](../apply-gazette-naming/SKILL.md)) for new gazette PDFs. Hand-insert here only for amendments or edge cases.
 
 1. **Gazette parsers:** add dated facts to `events[]` — **no `street_code`**. See [street-events-gazette-only.md](../docs/street-events-gazette-only.md).
 2. **Linkers:** do not add `street_code` here — use [centreline-linker/SKILL.md](../centreline-linker/SKILL.md).
@@ -101,8 +108,7 @@ Use a parser skill instead of hand-editing when starting from a PDF — [skills/
 
 | Task | Skill |
 |------|--------|
-| Modern `egn`/`cgn` naming notice | [apply-egazette-naming](../apply-egazette-naming/SKILL.md) |
-| HKGRO naming table | [parse-gazette-street-events](../parse-gazette-street-events/SKILL.md) |
+| Street naming gazette | [apply-gazette-naming](../apply-gazette-naming/SKILL.md) |
 | Earliest mention, rename chain, map identity, demote unverified | [research-street-history](../research-street-history/SKILL.md) |
 
 Common master patches from research workflow: demote row (`is_declaration_event: false`, `unknown`, URLs null); upgrade when PDF arrives (`gazette_primary`).

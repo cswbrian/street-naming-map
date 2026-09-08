@@ -1,0 +1,74 @@
+{
+  "C&W": {
+    "en": "Central  &  Western",
+    "zh": "中西區"
+  },
+  "E": {
+    "en": "Eastern",
+    "zh": "東區"
+  },
+  "Is": {
+    "en": "Islands",
+    "zh": "離島"
+  },
+  "K&T": {
+    "en": "Kwai  Tsing",
+    "zh": "葵青"
+  },
+  "KC": {
+    "en": "Kowloon  City",
+    "zh": "九龍城"
+  },
+  "KT": {
+    "en": "Kwun Tong",
+    "zh": "觀塘"
+  },
+  "N": {
+    "en": "North",
+    "zh": "北區"
+  },
+  "S": {
+    "en": "Southern",
+    "zh": "南區"
+  },
+  "SK": {
+    "en": "Sai  Kung",
+    "zh": "西貢"
+  },
+  "SSP": {
+    "en": "Sham  Shui  Po",
+    "zh": "深水埗"
+  },
+  "ST": {
+    "en": "Sha Tin",
+    "zh": "沙田"
+  },
+  "TM": {
+    "en": "Tuen  Mun",
+    "zh": "屯門"
+  },
+  "TP": {
+    "en": "Tai  Po",
+    "zh": "大埔"
+  },
+  "TW": {
+    "en": "Tsuen  Wan",
+    "zh": "荃灣"
+  },
+  "WC": {
+    "en": "Wan  Chai",
+    "zh": "灣仔"
+  },
+  "WTS": {
+    "en": "Wong Tai Sin",
+    "zh": "黃大仙"
+  },
+  "YL": {
+    "en": "Yuen Long",
+    "zh": "元朗"
+  },
+  "YTM": {
+    "en": "Yau Tsim Mong",
+    "zh": "油尖旺"
+  }
+}

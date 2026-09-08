@@ -26,7 +26,7 @@ Identity on the map comes from [`public/data/hk-streets.geojson`](public/data/hk
 
 | Field | Role |
 |-------|------|
-| `source` | **Pipeline ingest** only (`hkgro`, `crowdsubmitted`, `landsd`, `egazette_pdf`) — not shown in UI |
+| `source` | **Pipeline ingest** only (`hkgro`, `crowdsubmitted`, `landsd`, `landsd_ati`, `egazette_pdf`) — not shown in UI |
 | `crowd_origin` | **Crowd pipeline metadata** only (`batch`, `form`) — how the row entered `street-events.json`; not shown in UI |
 | *(UI)* **來源** / **Source** | From `evidence_kind` on `naming_details` (`gazette_primary`, `gazette_inferred`, …) |
 | `event_role` | **UX role** for this fact: `current_name`, `former_name`, `built`, `name_removed` |

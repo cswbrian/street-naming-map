@@ -26,6 +26,9 @@ crowd|1957-gn1179-harbour-embankments-Harbour-Parade-海港道-1957-08-23,hkgro,
 crowd|1957-gn1367-chuk-yuen-ngau-tau-kok-Fook-Lai-Road-福來道-1957-10-11,hkgro,1957-10-11,declare,Fook Lai Road,福來道,,GN1367
 crowd|2017-gn3555-tier-c-1-1957-10-11,hkgro,1957-10-11,declare,Ching Road,青道,,GN1367
 crowd|2017-gn3555-tier-c-LungShanRoad--1957-10-11,hkgro,1957-10-11,declare,Lung Shan Road,龍山道,,GN1367
+landsd-ati|1967-07-14|GN1517|ping-on-lane,landsd_ati,1967-07-14,declare,Ping On Lane,平安里,Central  &  Western,GN1517
+landsd-ati|1967-12-08|GN2628|ping-on-lane,landsd_ati,1967-12-08,extend,Ping On Lane,平安里,Central  &  Western,GN2628
+landsd-ati|1970-03-06|GN534|luen-on-street,landsd_ati,1970-03-06,extend,Luen On Street,聯安街,North,GN534
 crowd|1980-gn2486-tai-po-dai-streets-Dai-Pang-Street-大鵬街-1980-08-08,crowdsubmitted,1980-08-08,declare,Dai Pang Street,大鵬街,,GN2486
 crowd|1981-gn3682-airport-roads-Airport-Drive-No-1-機場一路-1981-12-11,crowdsubmitted,1981-12-11,declare,Airport Drive No. 1,機場一路,,GN3682
 crowd|1981-gn3682-airport-roads-Airport-Drive-No-2-機場二路-1981-12-11,crowdsubmitted,1981-12-11,declare,Airport Drive No. 2,機場二路,,GN3682
@@ -39,3 +42,30 @@ crowd|1981-gn3682-airport-roads-Eastern-Road-啟東道-1981-12-11,crowdsubmitted
 crowd|1981-gn3682-airport-roads-Tristar-Avenue-三星道-1981-12-11,crowdsubmitted,1981-12-11,declare,Tristar Avenue,三星道,,GN3682
 crowd|1981-gn3682-airport-roads-Viscount-Road-子爵道-1981-12-11,crowdsubmitted,1981-12-11,declare,Viscount Road,子爵道,,GN3682
 crowd|1984-gn3531-tuen-mun-Kin-Tat-Street-建達街-1984-11-30,crowdsubmitted,1984-11-30,declare,Kin Tat Street,建達街,,GN3531
+landsd-ati|1990-11-02|GN3967|po-fung-road,landsd_ati,1990-11-02,declare,Po Fung Road,寶豐路,Sai  Kung,GN3967
+landsd-ati|1995-01-13|GN154|luen-on-street,landsd_ati,1995-01-13,extend,Luen On Street,聯安街,North,GN154
+landsd-ati|1998-05-29|GN2630|kong-chung-lane,landsd_ati,1998-05-29,declare,Kong Chung Lane,港中里,Central  &  Western,GN2630
+landsd-ati|1998-05-29|GN2630|man-chiu-street,landsd_ati,1998-05-29,declare,Man Chiu Street,民照街,Central  &  Western,GN2630
+landsd-ati|2005-11-11|GN5907|sky-plaza-drive,landsd_ati,2005-11-11,declare,Sky Plaza Drive,翔天徑,Islands,GN5907
+landsd-ati|2005-11-11|GN5907|sky-plaza-road-north,landsd_ati,2005-11-11,declare,Sky Plaza Road North,翔天北路,Islands,GN5907
+landsd-ati|2005-11-11|GN5907|sky-plaza-road-south,landsd_ati,2005-11-11,declare,Sky Plaza Road South,翔天南路,Islands,GN5907
+landsd-ati|2007-02-23|GN1406|cheong-wui-road,landsd_ati,2007-02-23,declare,Cheong Wui Road,暢匯路,Islands,GN1406
+landsd-ati|2025-02-28|GN1271|research-road,landsd_ati,2025-02-28,declare,Research Road,研發路,North,GN1271
+landsd-ati|2025-07-25|GN4611|choi-tung-lane,landsd_ati,2025-07-25,declare,Choi Tung Lane,彩東里,Islands,GN4611
+landsd-ati|2025-07-25|GN4611|hau-tung-street,landsd_ati,2025-07-25,declare,Hau Tung Street,孝東街,Islands,GN4611
+landsd-ati|2025-07-25|GN4611|hiu-tung-road,landsd_ati,2025-07-25,declare,Hiu Tung Road,曉東路,Islands,GN4611
+landsd-ati|2025-07-25|GN4611|kwai-tung-road,landsd_ati,2025-07-25,declare,Kwai Tung Road,貴東路,Islands,GN4611
+landsd-ati|2025-07-25|GN4611|long-tung-road,landsd_ati,2025-07-25,declare,Long Tung Road,朗東路,Islands,GN4611
+landsd-ati|2025-07-25|GN4611|shin-tung-lane,landsd_ati,2025-07-25,declare,Shin Tung Lane,善東里,Islands,GN4611
+landsd-ati|2025-07-25|GN4611|siu-tung-street,landsd_ati,2025-07-25,declare,Siu Tung Street,兆東街,Islands,GN4611
+landsd-ati|2025-07-25|GN4611|yan-tung-lane,landsd_ati,2025-07-25,declare,Yan Tung Lane,仁東里,Islands,GN4611
+landsd-ati|2026-01-16|GN377|kwu-chun-street,landsd_ati,2026-01-16,declare,Kwu Chun Street,古雋街,North,GN377
+landsd-ati|2026-03-27|GN1839|fung-lam-road,landsd_ati,2026-03-27,declare,Fung Lam Road,鳳林路,North,GN1839
+landsd-ati|2026-03-27|GN1839|sheung-ho-road,landsd_ati,2026-03-27,declare,Sheung Ho Road,上河路,North,GN1839
+landsd-ati|2026-05-22|GN2980|runway-road-east,landsd_ati,2026-05-22,declare,Runway Road East,跑道東路,Islands / Tuen  Mun,GN2980
+landsd-ati|2026-05-22|GN2980|runway-road-west,landsd_ati,2026-05-22,declare,Runway Road West,跑道西路,Islands,GN2980
+landsd-ati|2026-05-22|GN2981|cheong-wui-road,landsd_ati,2026-05-22,extend,Cheong Wui Road,暢匯路,Islands,GN2981
+landsd-ati|2026-05-22|GN2981|sky-plaza-drive,landsd_ati,2026-05-22,extend,Sky Plaza Drive,翔天徑,Islands,GN2981
+landsd-ati|2026-05-22|GN2981|sky-plaza-road-north,landsd_ati,2026-05-22,extend,Sky Plaza Road North,翔天北路,Islands,GN2981
+landsd-ati|2026-05-22|GN2981|sky-plaza-road-south,landsd_ati,2026-05-22,extend,Sky Plaza Road South,翔天南路,Islands,GN2981
+landsd-ati|2026-07-03|GN4034|central-wan-chai-bypass,landsd_ati,2026-07-03,declare,Central Wan Chai Bypass,中環灣仔繞道,Wan  Chai / Central  &  Western / Eastern,GN4034
