@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T16:53:06.627Z",
-  "count": 752,
+  "generated_at": "2026-09-13T10:38:02.732Z",
+  "count": 751,
   "notices": [
     {
       "notice_stem": "2026-30-17-2370",
@@ -38110,52 +38110,6 @@
           "street_name_en": "Lai On Lane",
           "street_name_zh": "荔安里",
           "page_id": "11158-lai-on-lane",
-          "source": "verified"
-        }
-      ]
-    },
-    {
-      "notice_stem": "1954-gn877",
-      "gazette_notice_label_en": "G.N.877",
-      "gazette_notice_label_zh": "G.N.877",
-      "publication_date": "1054-06-24",
-      "format_family": "hkgro_image_scan",
-      "pdf_en": "/egazette/en/1954-gn877.pdf",
-      "pdf_zh": "/egazette/zh/1954-gn877.pdf",
-      "has_corpus": true,
-      "streets_draft_count": 4,
-      "streets_draft": [
-        {
-          "row_index": 1,
-          "street_name_en": "Section 26 of the District Court",
-          "street_name_zh": null,
-          "page_id": null
-        },
-        {
-          "row_index": 2,
-          "street_name_en": "Shu Kuk Street",
-          "street_name_zh": null,
-          "page_id": null
-        },
-        {
-          "row_index": 3,
-          "street_name_en": "Main Street",
-          "street_name_zh": null,
-          "page_id": null
-        },
-        {
-          "row_index": 4,
-          "street_name_en": "John Herbert Godfrey Way",
-          "street_name_zh": null,
-          "page_id": null
-        }
-      ],
-      "linked_street_count": 1,
-      "linked_streets": [
-        {
-          "street_name_en": "Marble Road",
-          "street_name_zh": "馬寶道",
-          "page_id": "11396-marble-road",
           "source": "verified"
         }
       ]

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-08T15:44:20.632Z",
+  "updated_at": "2026-09-13T10:23:31.067Z",
   "events": [
     {
       "event_id": "crowd|1901-gn584-lai-on-lane-Lai-On-Lane-荔安里-",
@@ -28325,84 +28325,6 @@
       "reviewed_at": "2026-07-12",
       "submission_id": "1954-gn765-jardine-lookout-Purves-Road-包華士道-1954-06-25",
       "notice_stem": "1954-gn765"
-    },
-    {
-      "event_id": "crowd|1954-gn877-marble-road-Marble-Road-馬寶道-1954-07-16",
-      "source": "crowdsubmitted",
-      "publication_date": "1954-07-16",
-      "change_kind": "declare",
-      "street_name_en": "Marble Road",
-      "street_name_zh": "馬寶道",
-      "previous_street_name_en": null,
-      "previous_street_name_zh": null,
-      "district_raw_en": null,
-      "district_raw_zh": null,
-      "notice_type_raw_en": "Declaration of street name (crowdsource)",
-      "notice_type_raw_zh": "街道命名（眾包）",
-      "notice_type_normalized": "declare",
-      "notice_no": "GN877",
-      "government_notice_label_en": "G.N.877",
-      "government_notice_label_zh": "第877號",
-      "government_notice_url_en": "/egazette/en/1954-gn877.pdf",
-      "government_notice_url_zh": "/egazette/zh/1954-gn877.pdf",
-      "related_gazette_plan_urls_en": [],
-      "related_gazette_plan_urls_zh": [],
-      "related_gazette_plan_labels_en": [
-        "R.H. 607"
-      ],
-      "related_gazette_plan_labels_zh": [
-        "R.H. 607"
-      ],
-      "gazette_location": {
-        "description_raw_en": "No. 877.—It is hereby notified that the following road will be known in future as described hereunder:— Description: Road running approximately east and west between Shu Kuk Street and Tong Shui Road parallel to and 200 feet north of King's Road as shown coloured pink on drawing No. R.H. 607. Proposed Name: MARBLE ROAD. Chinese Version: 馬寶道.",
-        "description_raw_zh": null,
-        "parsed": {
-          "road_form": null,
-          "is_cul_de_sac": false,
-          "is_highway": false,
-          "is_proposed": false,
-          "is_partially_formed": false,
-          "suffix_pending_removal": false,
-          "includes_boundary_sections": false,
-          "is_open_space": false,
-          "commences_at_en": null,
-          "terminates_at_en": null,
-          "runs": [],
-          "length_m": null,
-          "length_unit": null,
-          "plan_refs": [
-            {
-              "label": "R.H. 607",
-              "color": "pink",
-              "url_en": null
-            }
-          ],
-          "district_en": null,
-          "district_zh": null,
-          "lot_refs": [],
-          "formerly_section_of_en": null,
-          "split_boundary_en": null,
-          "referenced_streets_en": [
-            "Shu Kuk Street",
-            "Tong Shui Road",
-            "King's Road"
-          ],
-          "unnamed_junction_refs_en": [],
-          "replaces_gn_labels": [],
-          "merged_from_en": [],
-          "merged_from_zh": []
-        }
-      },
-      "is_declaration_event": true,
-      "evidence_kind": "gazette_primary",
-      "event_role": "current_name",
-      "derived_from": null,
-      "evidence_kind_note": null,
-      "submitter_remarks": null,
-      "supplementary_evidence": null,
-      "reviewed_at": "2026-07-12",
-      "submission_id": "1954-gn877-marble-road-Marble-Road-馬寶道-1954-07-16",
-      "notice_stem": "1954-gn877"
     },
     {
       "event_id": "crowd|1954-gn947-north-point-tak-cheong-Fook-Yum-Road-福蔭道-1954-07-30",

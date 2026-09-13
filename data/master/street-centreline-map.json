@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-08T15:20:48.526Z",
+  "updated_at": "2026-09-13T10:23:31.101Z",
   "links": [
     {
       "timeline_id": "code:10002",
@@ -16546,8 +16546,7 @@
       "page_id": "11396-marble-road",
       "street_code": "11396",
       "event_ids": [
-        "crowd|1937-gn682-island-roads-11396-1937-09-24",
-        "crowd|1954-gn877-marble-road-Marble-Road-馬寶道-1954-07-16"
+        "crowd|1937-gn682-island-roads-11396-1937-09-24"
       ],
       "status": "active",
       "method": "batch_link_street_code",

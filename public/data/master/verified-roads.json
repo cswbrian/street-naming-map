@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T15:44:24.875Z",
+  "generated_at": "2026-09-13T10:38:03.538Z",
   "source_file": "public/data/hk-streets.geojson",
   "notice_stem_index_path": "public/data/master/egazette-notice-stems.json",
   "egazette_pdf_locales_path": "public/data/master/egazette-pdf-locales.json",
@@ -145879,7 +145879,7 @@
       "street_type": "Secondary Road",
       "naming_year": 1937,
       "naming_date": "1937-09-24",
-      "naming_source": "combined",
+      "naming_source": "hkgro",
       "naming_details": {
         "street_key": "code:11396",
         "street_code": "11396",
@@ -145900,7 +145900,7 @@
         "evidence_kind": "gazette_primary",
         "derived_from": null,
         "evidence_kind_note": null,
-        "event_count": 2,
+        "event_count": 1,
         "name_history": [
           {
             "date": "1937-09-24",
@@ -145922,66 +145922,6 @@
             "source": "hkgro",
             "submitter_remarks": null,
             "gazette_location": null
-          },
-          {
-            "date": "1954-07-16",
-            "change_kind": "declare",
-            "name_en": "Marble Road",
-            "name_zh": "馬寶道",
-            "previous_name_en": null,
-            "previous_name_zh": null,
-            "notice_label_en": "G.N.877",
-            "notice_label_zh": "第877號",
-            "notice_url_en": "/egazette/en/1954-gn877.pdf",
-            "notice_url_zh": "/egazette/zh/1954-gn877.pdf",
-            "evidence_kind": "gazette_primary",
-            "is_declaration_event": true,
-            "event_role": "current_name",
-            "derived_from": null,
-            "evidence_kind_note": null,
-            "supplementary_evidence": null,
-            "source": "crowdsubmitted",
-            "submitter_remarks": null,
-            "gazette_location": {
-              "description_raw_en": "No. 877.—It is hereby notified that the following road will be known in future as described hereunder:— Description: Road running approximately east and west between Shu Kuk Street and Tong Shui Road parallel to and 200 feet north of King's Road as shown coloured pink on drawing No. R.H. 607. Proposed Name: MARBLE ROAD. Chinese Version: 馬寶道.",
-              "description_raw_zh": null,
-              "parsed": {
-                "road_form": null,
-                "is_cul_de_sac": false,
-                "is_highway": false,
-                "is_proposed": false,
-                "is_partially_formed": false,
-                "suffix_pending_removal": false,
-                "includes_boundary_sections": false,
-                "is_open_space": false,
-                "commences_at_en": null,
-                "terminates_at_en": null,
-                "runs": [],
-                "length_m": null,
-                "length_unit": null,
-                "plan_refs": [
-                  {
-                    "label": "R.H. 607",
-                    "color": "pink",
-                    "url_en": null
-                  }
-                ],
-                "district_en": null,
-                "district_zh": null,
-                "lot_refs": [],
-                "formerly_section_of_en": null,
-                "split_boundary_en": null,
-                "referenced_streets_en": [
-                  "Shu Kuk Street",
-                  "Tong Shui Road",
-                  "King's Road"
-                ],
-                "unnamed_junction_refs_en": [],
-                "replaces_gn_labels": [],
-                "merged_from_en": [],
-                "merged_from_zh": []
-              }
-            }
           }
         ],
         "notice_no": "GN682",
