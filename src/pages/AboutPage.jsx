@@ -3,6 +3,7 @@ import AppSiteTitle from '../components/AppSiteTitle'
 import { useLocale } from '../i18n/LocaleContext'
 
 const GITHUB_URL = 'https://github.com/cswbrian/street-naming-map'
+const HK_ATLAS_URL = 'https://hkatlas.fyi/'
 
 function GitHubIcon() {
   return (
@@ -30,6 +31,17 @@ function AboutPage() {
         <section className="about-section">
           <h2>{t('aboutDataTitle')}</h2>
           <p>{t('aboutDataBody')}</p>
+        </section>
+
+        <section className="about-section">
+          <h2>{t('aboutSisterTitle')}</h2>
+          <p>
+            {t('aboutSisterBefore')}
+            <a href={HK_ATLAS_URL} target="_blank" rel="noopener noreferrer">
+              {t('aboutSisterLink')}
+            </a>
+            {t('aboutSisterAfter')}
+          </p>
         </section>
 
         <section className="about-section about-open-source">

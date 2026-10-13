@@ -180,6 +180,11 @@ export const translations = {
     aboutDataTitle: '資料來源',
     aboutDataBody:
       '近十年嘅命名，地政總署資料相對齊全；再舊啲就要翻查政府憲報。但 184 年嘅憲報簡直係無底深潭——先要搵網上版，每年差唔多兩萬幾頁；舊報更要 OCR，仲要分得清係「命名」定「改名」。',
+    aboutSisterTitle: '姊妹網站',
+    aboutSisterBefore: '想睇街道以外嘅地方史？姊妹網站',
+    aboutSisterLink: '香港地圖集',
+    aboutSisterAfter:
+      '將散落各處嘅舊相、歷史檔案同地圖按真實座標整理，係一個社群協作嘅城市歷史地圖。起點係 data.gov.hk 屋宇署嘅樓宇資料，只涵蓋現存建築物；如果你知道已消失嘅舊址或者有舊相，亦歡迎補上。',
     aboutOpenSourceTitle: '開源專案',
     aboutOpenSourceBody:
       '本項目係開源專案，源碼喺 GitHub 公開。你可以 fork、改 bug、加功能，或者一齊執漏。',
@@ -494,6 +499,11 @@ export const translations = {
     aboutDataTitle: 'Data sources',
     aboutDataBody:
       'For the last decade or so, Lands Department records are relatively complete. Older names must be traced through the government gazette — 184 years of publications, roughly twenty thousand pages per year online. Early issues need OCR, and each notice must be classified as a new naming or a rename.',
+    aboutSisterTitle: 'Sister site',
+    aboutSisterBefore: 'Curious about the places around those streets? Our sister site ',
+    aboutSisterLink: 'Hong Kong Atlas',
+    aboutSisterAfter:
+      ' is a community-built map of urban history. It gathers scattered old photos, historical archives, and maps onto real coordinates, starting from the Buildings Department’s records of present-day buildings on data.gov.hk. Vanished sites and old photos can be added by anyone who knows them.',
     aboutOpenSourceTitle: 'Open source',
     aboutOpenSourceBody:
       'This project is open source on GitHub. Fork it, fix bugs, add features, or help fill in missing naming dates.',
